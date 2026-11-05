@@ -91,7 +91,8 @@ def test_revisor_avisa_jargao_e_frase_longa():
     assert len(revisor.frases_longas("Curta. " + " ".join(["palavra"] * 40) + ".")) == 1
 
 
-def test_auditoria_de_verdade_num_site_pequeno(tmp_path):
+def test_auditoria_de_verdade_num_site_pequeno(tmp_path, monkeypatch):
+    monkeypatch.setenv("SEM_REFERENCIAS", "1")
     pytest.importorskip("playwright.sync_api")
     site = tmp_path / "site"
     site.mkdir()

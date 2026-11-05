@@ -22,6 +22,10 @@ from pathlib import Path
 from . import config, ia
 
 TELAS = {"celular": {"width": 390, "height": 844}, "computador": {"width": 1280, "height": 900}}
+# Portais de referência que os agentes de UI e UX usam para comparar (aprender, nunca copiar)
+REFERENCIAS = {"Investing.com Brasil": "https://br.investing.com/", "InfoMoney": "https://www.infomoney.com.br/",
+               "CNN Fear & Greed": "https://edition.cnn.com/markets/fear-and-greed",
+               "Bloomberg Markets": "https://www.bloomberg.com/markets", "Reuters Markets": "https://www.reuters.com/markets/"}
 ESFORCO = ["pequeno", "médio", "grande"]
 
 DIMENSOES = {
@@ -37,10 +41,13 @@ PAPEIS = {
     "ui": f"""Você é o agente de UI do "{config.NOME}", o diretor de arte da squad. Avalie a interface visual
 das páginas a partir dos prints (celular e computador) e dos números da auditoria automática. Seja específico:
 cite a página, a tela e o elemento, e proponha mudanças com valores concretos. Não reescreva o produto: melhore-o.
+Quando houver prints de portais de referência (Investing, InfoMoney, CNN, Bloomberg, Reuters), compare: o que eles fazem
+melhor e que caberia no nosso estilo, sem copiar. Mantenha a identidade própria do Termômetro, com um toque brasileiro.
 Escreva em português do Brasil.""" + config.manual("ui"),
     "ux": f"""Você é o agente de UX do "{config.NOME}", o pesquisador sênior da squad. Avalie se um brasileiro
 leigo, no celular, entende o que é o site, quanto está o termômetro, por quê, e o que fazer em seguida, e se ele
-confia no que vê. Use os prints (celular e computador) e os números da auditoria automática. Seja específico:
+confia no que vê. Use os prints (celular e computador) e os números da auditoria automática. Compare com os prints
+dos portais de referência quando houver (posição dos botões, como mostram números, o que vira hábito). Seja específico:
 cite a página, a tela e o elemento. Escreva em português do Brasil.""" + config.manual("ux", "redacao"),
 }
 
@@ -231,12 +238,37 @@ def auditar(site: Path, pasta: Path, axe_js: str | None = None) -> dict:
                     medidas["primeiro_tab"] = aba.evaluate(FOCO)
                     resultado["paginas"][nome][tela] = medidas
                     aba.close()
+            resultado["referencias"] = referencias(navegador, prints)
             navegador.close()
     finally:
         servidor.shutdown()
     resultado["regras"] = regras(resultado)
     (pasta / "auditoria.json").write_text(json.dumps(resultado, ensure_ascii=False, indent=1))
     return resultado
+
+
+def referencias(navegador, prints: Path) -> dict[str, list[str]]:
+    """Primeira tela de cada portal de referência, no celular e no computador. Site que bloquear fica de fora."""
+    if os.environ.get("SEM_REFERENCIAS"):
+        return {}
+    saida = {}
+    for nome, url in REFERENCIAS.items():
+        arquivos = []
+        for tela, tamanho in TELAS.items():
+            aba = navegador.new_page(viewport=tamanho, device_scale_factor=1, locale="pt-BR")
+            try:
+                aba.goto(url, wait_until="domcontentloaded", timeout=25000)
+                aba.wait_for_timeout(2500)
+                arquivo = prints / f"ref_{nome.split()[0].lower().replace('.', '')}_{tela}.jpg"
+                aba.screenshot(path=str(arquivo), type="jpeg", quality=60)
+                arquivos.append(arquivo.name)
+            except Exception as erro:
+                print(f"  referência {nome} ({tela}) indisponível: {type(erro).__name__}")
+            finally:
+                aba.close()
+        if arquivos:
+            saida[nome] = arquivos
+    return saida
 
 
 def regras(a: dict) -> list[dict]:
@@ -312,6 +344,12 @@ def pedido(a: dict, pasta: Path, papel: str) -> list:
         for tela in TELAS:
             for i, arq in enumerate((pag.get(tela) or {}).get("telas", [])[: 2 if nome == "Início" else 1]):
                 blocos.append({"type": "text", "text": f"Print: {nome}, {tela}, tela {i + 1}"})
+                blocos.append(_imagem(pasta / "prints" / arq))
+    for nome, arquivos in (a.get("referencias") or {}).items():
+        for arq in arquivos:
+            if (pasta / "prints" / arq).exists():
+                blocos.append({"type": "text", "text": f"Referência de mercado (para comparar, não copiar): {nome}, "
+                                                       f"{'celular' if 'celular' in arq else 'computador'}"})
                 blocos.append(_imagem(pasta / "prints" / arq))
     blocos.append({"type": "text", "text": f"Faça a avaliação de {papel.upper()}: notas, pontos fortes, de 6 a 12 achados "
                                            "ordenados por gravidade, e o primeiro passo."})

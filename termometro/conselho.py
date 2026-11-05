@@ -1,0 +1,217 @@
+"""Conselho de monetização: os agentes conversam entre si e fecham um plano.
+
+Rodada 1 (propostas): cada membro estuda o briefing, pesquisa o mercado brasileiro e propõe ideias com métrica,
+custo, prazo e riscos, além de mudanças no site.
+Rodada 2 (debate): cada membro lê as propostas de todos, diz com o que concorda, do que discorda e por quê, ajusta
+a própria proposta e vota nas 3 melhores ideias. O guardião de regras libera, libera com cuidados ou veta cada uma.
+Rodada 3 (decisão): o presidente do conselho monta o mapa de divergências e o plano por fases, respeitando os vetos,
+com as mudanças no site, os experimentos, o sinal de alerta (tripwire) e os próximos passos para o dono do projeto.
+
+Inspirado no protocolo "marketing council" (assentos com lentes diferentes, um dissidente obrigatório, mapa de
+divergências e síntese), mas com papéis da nossa squad em vez de pessoas reais.
+"""
+
+import json
+from pathlib import Path
+
+from . import config, ia
+
+MEMBROS = {
+    "marketing": ("Analista de marketing", ["marketing"], 2),
+    "comportamento": ("Analista de comportamento do lead", ["comportamento"], 1),
+    "vendas": ("Vendedor especialista em produtos financeiros", ["vendas"], 2),
+    "seo": ("Especialista em SEO", ["seo"], 2),
+    "ux": ("Agente de UX", ["ux"], 0),
+    "compliance": ("Guardião de regras", ["compliance"], 1),
+}
+DISSIDENTE = "comportamento"  # quem tem a obrigação de questionar o que estiver virando consenso fácil
+FASES = ["0 a 30 dias", "1 a 3 meses", "3 a 6 meses", "6 a 12 meses"]
+
+BASE = f"""Você é membro do conselho de monetização do "{config.NOME}". O conselho conversa em rodadas para decidir
+a melhor forma de ganhar dinheiro com o projeto sem perder a confiança do leitor. Seja específico para ESTE projeto,
+com números quando tiver fonte (diga a fonte) e estimativas marcadas como estimativas. Discorde quando discordar:
+um conselho que concorda em tudo não serve. Escreva em português do Brasil, em frases curtas."""
+
+
+def sistema(chave: str) -> str:
+    nome, manuais, _ = MEMBROS[chave]
+    extra = (" Seu papel extra: ser o dissidente. Aponte a fraqueza mais séria da ideia que estiver ganhando."
+             if chave == DISSIDENTE else "")
+    extra += (" Seu papel extra: para cada ideia, diga se está liberada, liberada com cuidados ou vetada, e por quê."
+              if chave == "compliance" else "")
+    return f"{BASE}\n\nSeu papel: {nome}.{extra}" + config.manual(*manuais)
+
+
+PROPOSTA = {
+    "name": "registrar_proposta",
+    "description": "Registra a proposta deste membro na rodada 1.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "diagnostico": {"type": "string", "description": "O gargalo principal hoje, na sua visão (2 a 3 frases)"},
+            "ideias": {"type": "array", "minItems": 2, "maxItems": 4, "items": {
+                "type": "object",
+                "properties": {"titulo": {"type": "string"}, "como_funciona": {"type": "string"},
+                               "receita": {"type": "string", "description": "Como gera dinheiro e estimativa, com fonte"},
+                               "custo_e_esforco": {"type": "string"}, "prazo": {"type": "string", "enum": FASES},
+                               "metrica": {"type": "string"}, "riscos": {"type": "string"}},
+                "required": ["titulo", "como_funciona", "receita", "prazo", "metrica", "riscos"]}},
+            "mudancas_no_site": {"type": "array", "maxItems": 5, "items": {"type": "string"}},
+            "perguntas_para_o_conselho": {"type": "array", "maxItems": 3, "items": {"type": "string"}},
+        },
+        "required": ["diagnostico", "ideias"],
+    },
+}
+
+DEBATE = {
+    "name": "registrar_debate",
+    "description": "Registra a posição deste membro na rodada 2, depois de ler todas as propostas.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "concordo": {"type": "array", "maxItems": 4, "items": {"type": "string"}},
+            "discordo": {"type": "array", "maxItems": 4, "items": {
+                "type": "object", "properties": {"de_quem": {"type": "string"}, "ponto": {"type": "string"},
+                                                 "por_que": {"type": "string"}},
+                "required": ["de_quem", "ponto", "por_que"]}},
+            "parecer_de_regras": {"type": "array", "maxItems": 10, "items": {
+                "type": "object", "properties": {"ideia": {"type": "string"},
+                                                 "situacao": {"type": "string", "enum": ["liberada", "com cuidados", "vetada"]},
+                                                 "motivo": {"type": "string"}},
+                "required": ["ideia", "situacao", "motivo"]},
+                "description": "Só o guardião de regras preenche"},
+            "proposta_ajustada": {"type": "string"},
+            "voto": {"type": "array", "minItems": 1, "maxItems": 3, "items": {"type": "string"},
+                     "description": "Títulos das 3 melhores ideias, de qualquer membro"},
+        },
+        "required": ["concordo", "discordo", "proposta_ajustada", "voto"],
+    },
+}
+
+DECISAO = {
+    "name": "registrar_decisao",
+    "description": "Registra a decisão do conselho.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "resumo": {"type": "string", "description": "A decisão em 3 a 4 frases"},
+            "divergencias": {"type": "array", "minItems": 1, "maxItems": 4, "items": {
+                "type": "object", "properties": {"conflito": {"type": "string"}, "troca": {"type": "string"},
+                                                 "o_que_decide": {"type": "string"}},
+                "required": ["conflito", "troca", "o_que_decide"]}},
+            "plano": {"type": "array", "minItems": 3, "maxItems": 10, "items": {
+                "type": "object", "properties": {"fase": {"type": "string", "enum": FASES},
+                                                 "iniciativa": {"type": "string"}, "responsavel": {"type": "string"},
+                                                 "metrica": {"type": "string"}, "meta": {"type": "string"}},
+                "required": ["fase", "iniciativa", "responsavel", "metrica", "meta"]}},
+            "mudancas_no_site": {"type": "array", "minItems": 1, "maxItems": 10, "items": {
+                "type": "object", "properties": {"prioridade": {"type": "integer", "minimum": 1, "maximum": 3},
+                                                 "mudanca": {"type": "string"}, "por_que": {"type": "string"},
+                                                 "agente": {"type": "string"}},
+                "required": ["prioridade", "mudanca", "por_que"]}},
+            "experimentos": {"type": "array", "maxItems": 5, "items": {"type": "string"}},
+            "vetos_respeitados": {"type": "array", "maxItems": 6, "items": {"type": "string"}},
+            "precisa_de_advogado": {"type": "array", "maxItems": 6, "items": {"type": "string"}},
+            "tripwire": {"type": "string", "description": "O sinal que mostra que o plano está errado"},
+            "proximos_passos_do_dono": {"type": "array", "minItems": 1, "maxItems": 5, "items": {"type": "string"}},
+        },
+        "required": ["resumo", "divergencias", "plano", "mudancas_no_site", "tripwire", "proximos_passos_do_dono"],
+    },
+}
+
+PRESIDENTE = (f"{BASE}\n\nSeu papel: presidente do conselho. Você não traz ideia própria: lê as propostas e o debate, "
+              "monta o mapa de divergências (qual é a troca por trás de cada conflito e que dado resolveria) e decide o "
+              "plano que melhor serve a um projeto no começo, com pouca verba e um dono sem experiência técnica. "
+              "Ideias vetadas pelo guardião de regras ficam fora. Toda iniciativa tem métrica e meta.")
+
+
+def briefing(raiz: Path) -> str:
+    """O que o conselho precisa saber do projeto, montado a partir dos arquivos do próprio repositório."""
+    def ler(caminho: Path, limite: int = 2500) -> str:
+        return caminho.read_text()[:limite] if caminho.exists() else ""
+    ultima_design = sorted((raiz / "design").glob("*/relatorio.md")) if (raiz / "design").exists() else []
+    contexto = ler(raiz / "termometro" / "manuais" / "contexto_do_projeto.md", 6000)
+    return (f"{contexto}\n\n" + (f"ÚLTIMO RELATÓRIO DA SQUAD DE DESIGN (trecho)\n{ler(ultima_design[-1])}\n" if ultima_design else ""))
+
+
+def _texto_propostas(propostas: dict) -> str:
+    partes = []
+    for chave, p in propostas.items():
+        ideias = "\n".join(f"  - {i['titulo']} ({i['prazo']}): {i['como_funciona']} | Receita: {i['receita']} | "
+                           f"Métrica: {i['metrica']} | Riscos: {i['riscos']}" for i in p.get("ideias", []))
+        partes.append(f"[{MEMBROS[chave][0]}]\nDiagnóstico: {p.get('diagnostico', '')}\nIdeias:\n{ideias}\n"
+                      f"Mudanças no site: {'; '.join(p.get('mudancas_no_site', []))}")
+    return "\n\n".join(partes)
+
+
+def _texto_debate(debate: dict) -> str:
+    partes = []
+    for chave, d in debate.items():
+        discordo = "; ".join(f"de {x['de_quem']}: {x['ponto']} ({x['por_que']})" for x in d.get("discordo", []))
+        regras = "; ".join(f"{x['ideia']}: {x['situacao']} ({x['motivo']})" for x in d.get("parecer_de_regras", []))
+        partes.append(f"[{MEMBROS[chave][0]}]\nConcordo: {'; '.join(d.get('concordo', []))}\nDiscordo: {discordo}\n"
+                      + (f"Parecer de regras: {regras}\n" if regras else "")
+                      + f"Proposta ajustada: {d.get('proposta_ajustada', '')}\nVoto: {', '.join(d.get('voto', []))}")
+    return "\n\n".join(partes)
+
+
+def reunir(raiz: Path, cliente) -> dict:
+    contexto = briefing(raiz)
+    propostas, debate = {}, {}
+    for chave, (nome, _, buscas) in MEMBROS.items():
+        print(f"  Rodada 1: {nome}")
+        try:
+            propostas[chave] = ia.estruturado(cliente, sistema(chave), f"BRIEFING DO PROJETO\n{contexto}\n\n"
+                                              "Rodada 1: faça a sua proposta.", PROPOSTA, buscas=buscas, max_tokens=6000)
+        except Exception as erro:  # um membro com problema não derruba o conselho
+            print(f"    {nome} ficou de fora: {erro}")
+    todas = _texto_propostas(propostas)
+    for chave in propostas:
+        print(f"  Rodada 2: {MEMBROS[chave][0]}")
+        try:
+            debate[chave] = ia.estruturado(cliente, sistema(chave), f"BRIEFING DO PROJETO\n{contexto}\n\nPROPOSTAS DA "
+                                           f"RODADA 1\n{todas}\n\nRodada 2: debata.", DEBATE, max_tokens=5000)
+        except Exception as erro:
+            print(f"    {MEMBROS[chave][0]} não debateu: {erro}")
+    print("  Rodada 3: presidente do conselho")
+    decisao = ia.estruturado(cliente, PRESIDENTE, f"BRIEFING DO PROJETO\n{contexto}\n\nPROPOSTAS\n{todas}\n\nDEBATE\n"
+                             f"{_texto_debate(debate)}\n\nRodada 3: decida.", DECISAO, max_tokens=8000)
+    return {"propostas": propostas, "debate": debate, "decisao": decisao}
+
+
+def ata(data: str, r: dict) -> str:
+    d = r["decisao"]
+    linhas = [f"# Conselho de monetização: ata de {data}", "",
+              "_Conversa entre os agentes da squad (marketing, comportamento do lead, vendas, SEO, UX e guardião de "
+              "regras), com decisão do presidente do conselho. É uma recomendação para você decidir, não uma ordem._", "",
+              "## Decisão", "", d["resumo"], "", "## Plano", "", "| Fase | Iniciativa | Responsável | Métrica | Meta |",
+              "|---|---|---|---|---|"]
+    linhas += [f"| {p['fase']} | {p['iniciativa']} | {p['responsavel']} | {p['metrica']} | {p['meta']} |"
+               for p in sorted(d["plano"], key=lambda p: FASES.index(p["fase"]) if p["fase"] in FASES else 9)]
+    linhas += ["", "## Mudanças no site (para a squad aplicar)", ""]
+    linhas += [f"{i}. **[P{m['prioridade']}] {m['mudanca']}**: {m['por_que']}" + (f" _(agente: {m['agente']})_" if m.get("agente") else "")
+               for i, m in enumerate(sorted(d["mudancas_no_site"], key=lambda m: m["prioridade"]), 1)]
+    linhas += ["", "## Onde o conselho discordou", ""]
+    linhas += [f"- **{x['conflito']}.** A troca: {x['troca']}. O que decide: {x['o_que_decide']}." for x in d["divergencias"]]
+    if d.get("experimentos"):
+        linhas += ["", "## Experimentos", ""] + [f"- {e}" for e in d["experimentos"]]
+    if d.get("vetos_respeitados"):
+        linhas += ["", "## Vetos do guardião de regras", ""] + [f"- {v}" for v in d["vetos_respeitados"]]
+    if d.get("precisa_de_advogado"):
+        linhas += ["", "## Validar com advogado antes de ir ao ar", ""] + [f"- {v}" for v in d["precisa_de_advogado"]]
+    linhas += ["", f"**Sinal de alerta (tripwire):** {d['tripwire']}", "", "## Próximos passos para você", ""]
+    linhas += [f"- [ ] {p}" for p in d["proximos_passos_do_dono"]]
+    linhas += ["", "<details><summary>A conversa completa (propostas e debate)</summary>", "",
+               _texto_propostas(r["propostas"]).replace("\n", "\n\n"), "", "---", "",
+               _texto_debate(r["debate"]).replace("\n", "\n\n"), "", "</details>"]
+    return "\n".join(linhas) + "\n"
+
+
+def rodar(raiz: Path, pasta: Path, data: str, cliente=None) -> dict:
+    pasta.mkdir(parents=True, exist_ok=True)
+    cliente = cliente or ia.novo_cliente()
+    r = reunir(raiz, cliente)
+    (pasta / "conselho.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
+    texto = ata(data, r)
+    (pasta / "ata.md").write_text(texto)
+    return {**r, "ata": texto}

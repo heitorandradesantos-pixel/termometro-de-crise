@@ -9,7 +9,7 @@ import json
 
 import pandas as pd
 
-from . import config, ia
+from . import config, ia, seo
 from .grafico import mes_curto
 
 SECOES = ["## O Termômetro da semana", "## Os 3 riscos no radar", "## Uma lição da história",
@@ -67,7 +67,7 @@ def _com_claude(dados: dict, dossie: dict, data_edicao: str, cliente) -> str:
                                                "relevancia", "fontes")} for ev in dossie["eventos"][:8]],
               "agenda": dossie["agenda"][:6], "observacoes": dossie.get("observacoes", "")}
     pedido = (f"Data da edição: {data_edicao}\n\nDADOS\n{_dados(dados)}\n\n"
-              f"DOSSIÊ\n{json.dumps(enxuto, ensure_ascii=False, indent=1)}")
+              f"DOSSIÊ\n{json.dumps(enxuto, ensure_ascii=False, indent=1)}" + seo.para_redator(dados.get("seo") or {}))
     corpo = ia.texto(cliente, SISTEMA, pedido)
     inicio = corpo.find(SECOES[0])  # descarta qualquer frase solta antes da primeira seção
     return corpo[inicio:] if inicio >= 0 else corpo

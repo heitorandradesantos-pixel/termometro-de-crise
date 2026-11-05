@@ -6,7 +6,7 @@ proibida em alguma peça, o programa troca só aquela peça pela versão-padrão
 
 import pandas as pd
 
-from . import config, ia
+from . import config, ia, seo
 from .grafico import mes_curto
 from .revisor import linguagem_proibida
 
@@ -116,7 +116,8 @@ def escrever(dados: dict, edicao_md: str, data_edicao: str, cliente=None) -> dic
     if not (cliente or ia.disponivel()) or "PENDENTE" in edicao_md:
         return {**reserva, "modo": "padrão (sem IA)", "ajustes": []}
     pedido = (f"Termômetro: {dados['valor']} de 100, nível {dados['nivel']}, leitura de {mes_curto(dados['referencia'])}.\n"
-              f"Site: {config.SITE_URL or '(ainda sem domínio: use link na bio)'}\n\nEDIÇÃO\n{edicao_md}")
+              f"Site: {config.SITE_URL or '(ainda sem domínio: use link na bio)'}\n\nEDIÇÃO\n{edicao_md}"
+              + seo.para_copy(dados.get("seo") or {}))
     bruto = ia.estruturado(cliente or ia.novo_cliente(), SISTEMA, pedido, FERRAMENTA, max_tokens=4000)
     final, ajustes = validar(bruto, reserva)
     return {**final, "modo": f"claude ({config.MODELO_CLAUDE})", "ajustes": ajustes}

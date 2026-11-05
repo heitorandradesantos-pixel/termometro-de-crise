@@ -8,8 +8,9 @@
     python rodar.py --so-coleta     só baixa os dados (o robô roda os testes antes de chamar a IA)
     python rodar.py --diario        atualização de dia útil: motor mundial, Correspondente e panorama do WhatsApp
     python rodar.py --design        squad de design: auditoria do site + agentes de UI e UX (relatório em design/)
+    python rodar.py --conselho      conselho de monetização: marketing, comportamento, vendas, SEO, UX e regras debatem
 
-Agentes, em ordem: Coletor → Analista → Arte (gráfico) → Buscador → Redator → Copy → Arte (card) → Revisor.
+Agentes, em ordem: Coletor → Analista → Arte (gráfico) → Buscador → SEO → Redator → Copy → Arte (card) → Revisor.
 Todo dia útil: Coletor mundial → Analista mundial → Correspondente → Panorama → conferência.
 Toda semana: Editor do site → auditoria automática (Playwright + axe-core) → agente de UI → agente de UX → relatório.
 """
@@ -27,8 +28,8 @@ sys.path.insert(0, str(RAIZ))
 
 import pandas as pd  # noqa: E402
 
-from termometro import (buscador, coleta, config, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
-                        mundo, paginas, panorama, publicar, redator, revisor, site)
+from termometro import (buscador, coleta, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
+                        mundo, paginas, panorama, publicar, redator, revisor, seo, site)
 
 EDICOES = RAIZ / "edicoes"
 DIARIO = RAIZ / "diario"
@@ -92,6 +93,12 @@ def gerar(dados_dir: Path, data_edicao: str, coletar: bool) -> Path:
     (pasta / "pesquisa.json").write_text(json.dumps(dossie, ensure_ascii=False, indent=2))
     print(f"  Dossiê: {len(dossie.get('eventos', []))} eventos, {len(dossie.get('agenda', []))} itens de agenda, "
           f"{len(dossie.get('descartados', []))} descartados ({dossie.get('modo')})")
+
+    pauta = tentar(registro, "SEO", lambda: seo.pauta(dados, dossie, data_edicao, cliente), {})
+    (pasta / "seo.json").write_text(json.dumps(pauta, ensure_ascii=False, indent=2))
+    if pauta.get("palavra_chave"):
+        dados["seo"] = pauta
+        print(f"  Pauta de SEO: '{pauta['palavra_chave']}' + {len(pauta['secundarias'])} secundárias")
 
     texto, modo = tentar(registro, "Redator", lambda: redator.escrever(dados, dossie, data_edicao, cliente),
                          redator.escrever(dados, {"eventos": []}, data_edicao))
@@ -214,12 +221,20 @@ def main() -> None:
     p.add_argument("--so-coleta", action="store_true")
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
+    p.add_argument("--conselho", action="store_true", help="conselho de monetização: os agentes debatem e fecham um plano")
     p.add_argument("--dados", default=str(RAIZ / "dados"), help="pasta dos dados baixados")
     p.add_argument("--sem-coleta", action="store_true", help="usa os dados já baixados")
     p.add_argument("--data", help="data da edição (AAAA-MM-DD); padrão: hoje em Brasília")
     a = p.parse_args()
     if a.site:
         site.gerar(EDICOES, RAIZ / "_site")
+    elif a.conselho:
+        data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+        r = conselho.rodar(RAIZ, RAIZ / "conselho" / data, data)
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
+                saida.write(f"data={data}\n")
+        print(r["ata"])
     elif a.design:
         data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         site.gerar(EDICOES, RAIZ / "_site")

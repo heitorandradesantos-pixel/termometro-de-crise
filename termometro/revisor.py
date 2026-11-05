@@ -123,6 +123,13 @@ def checar(texto: str, dados: dict, dossie: dict, copy: dict) -> dict:
     regra("Frases curtas (linguagem simples)", len(longas) <= 2,
           f"{len(longas)} frases com mais de {FRASE_LONGA} palavras; a primeira: {longas[0][:120]}…" if longas else "",
           bloqueia=False)
+    pauta = dados.get("seo") or {}
+    if pauta.get("palavra_chave"):
+        from .seo import contem
+        lugares = {"título do site": contem(copy.get("titulo_site", ""), pauta["palavra_chave"]),
+                   "abertura": contem(abertura, pauta["palavra_chave"])}
+        regra("SEO: palavra-chave no título e na abertura", all(lugares.values()),
+              f"'{pauta['palavra_chave']}' faltou em: " + ", ".join(k for k, v in lugares.items() if not v), bloqueia=False)
     jargao = jargao_sem_traducao(corpo)
     regra("Jargão traduzido", not jargao, "explicar: " + ", ".join(jargao), bloqueia=False)
     if dossie.get("descartados"):
