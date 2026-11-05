@@ -58,10 +58,14 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .edicao em{{color:var(--suave)}}
 .lista a{{display:block;padding:14px 0;border-bottom:1px solid var(--linha);text-decoration:none;color:var(--texto)}}
 .anuncio{{margin:32px 0;min-height:90px}}
+.mapa{{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;grid-template-areas:"na na eu eu as as" "la la af me as as"}}
+.regiao{{display:flex;flex-direction:column;gap:8px;background:var(--painel);border-radius:14px;padding:16px;color:var(--texto);text-decoration:none;border-top:6px solid}}
+.regiao .v{{font:700 34px/1 'Space Grotesk',sans-serif}}.chip{{font-size:13px;font-weight:600;color:#0E141B;border-radius:6px;padding:2px 8px}}
+.paises{{font-size:13px;color:var(--suave)}}
 .rodape{{padding-top:32px;padding-bottom:48px;border-top:1px solid var(--linha);margin-top:48px;font-size:13px;color:var(--suave)}}
 @media (max-width:760px){{.heroi{{grid-template-columns:1fr;gap:24px;padding:28px 0}}.valor{{font-size:84px}}.heroi h1{{font-size:26px}}
 .topo nav a{{margin-left:12px}}.faixas div{{font-size:11px}}.barra{{min-width:60px}}
-.marca{{font-size:13px;letter-spacing:.06em}}.topo nav a{{font-size:13px}}}}
+.marca{{font-size:13px;letter-spacing:.06em}}.mapa{{grid-template-columns:1fr 1fr;grid-template-areas:"na eu" "la af" "me as"}}.topo nav a{{font-size:13px}}}}
 """
 
 
@@ -105,6 +109,39 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 def grafico_html(pasta: str) -> str:
     return (f'<picture><source media="(max-width:760px)" srcset="{pasta}/historico_celular.png">'
             f'<img class="grafico" src="{pasta}/historico.png" alt="Histórico do Termômetro de Crise desde 1999"></picture>')
+
+
+AREAS = {"América do Norte": "na", "América Latina": "la", "Europa": "eu", "Oriente Médio": "me",
+         "África": "af", "Ásia e Pacífico": "as"}
+
+
+def secao_mundo(m: dict) -> str:
+    """Mapa de regiões com o termômetro de cada uma (motor mundial)."""
+    blocos = []
+    for r in m.get("regioes", []):
+        if r.get("valor") is None:
+            continue
+        paises = ", ".join(f'{p["nome"]} {p["valor"]}' for p in r["paises"] if p.get("valor") is not None)
+        blocos.append(f'<div class="regiao" style="grid-area:{AREAS.get(r["nome"], "auto")};border-top-color:{r["cor"]}">'
+                      f'<strong style="font-family:\'Space Grotesk\',sans-serif;font-size:18px">{html.escape(r["nome"])}</strong>'
+                      f'<span><span class="v">{r["valor"]}</span> <span class="chip" style="background:{r["cor"]}">{r["nivel"]}</span></span>'
+                      f'<span class="paises">{html.escape(paises)}</span></div>')
+    if not blocos:
+        return ""
+    b = m.get("brasil") or {}
+    brasil = ""
+    if b.get("valor") is not None:
+        sinais = b.get("sinais", {})
+        nomes = {"bolsa": "Queda da bolsa", "volatilidade": "Sobe e desce da bolsa", "moeda": "Dólar contra o real"}
+        itens = "".join(f'<li>{nomes.get(k, k)}: percentil {v}</li>' for k, v in sinais.items() if v is not None)
+        brasil = (f'<section class="cartao"><span class="rotulo">BRASIL EM DESTAQUE</span>'
+                  f'<h2 style="margin:8px 0">Termômetro Brasil: <span style="color:{b["cor"]}">{b["valor"]} · {b["nivel"]}</span></h2>'
+                  f'<ul class="suave" style="margin:0;padding-left:20px">{itens}</ul>'
+                  f'<p class="suave" style="font-size:13px">Leitura de {mes_curto(b["referencia"])}. Cada sinal comparado com a história '
+                  f'do próprio Brasil: 90 significa mais tenso do que em 90% dos meses.</p></section>')
+    return (f'<section style="padding:24px 0"><h2>O termômetro de cada região</h2>'
+            f'<p class="suave">Bolsa, sobe e desce do mercado e moeda de cada país, comparados com a história do próprio país.</p>'
+            f'<div class="mapa">{"".join(blocos)}</div></section>{brasil}')
 
 
 def linha_componente(c: dict) -> str:
@@ -158,6 +195,8 @@ def gerar(pasta_edicoes: Path, saida: Path) -> None:
                caminho="edicoes/index.html"))
 
     dia, dados, copy = lista[0]
+    mundo_json = pasta_edicoes / dia / "mundo.json"
+    mundo = json.loads(mundo_json.read_text()) if mundo_json.exists() else {}
     faixas = "".join(f'<div><i style="background:{n["cor"]};opacity:{1 if n["nome"] == dados["nivel"] else .4}"></i>'
                      f'{n["nome"]}<br><span class="suave">{n["min"]}–{n["max"]}</span></div>' for n in config.NIVEIS)
     linhas = "".join(linha_componente(c) for c in dados["componentes"])
@@ -174,6 +213,7 @@ def gerar(pasta_edicoes: Path, saida: Path) -> None:
   <p style="margin-top:28px"><a class="botao" href="{assinar}">Receber todo domingo</a>
   &nbsp; <a href="edicoes/{dia}.html">Ler a edição da semana</a></p></div>
 </section>
+{secao_mundo(mundo)}
 {'<div class="anuncio"></div>' if config.ADSENSE_CLIENT else ''}
 <section class="cartao"><h2 style="margin-top:0">O que compõe a leitura</h2>
  <table><tr><th>Componente</th><th>Estresse (percentil)</th><th style="text-align:right">Agora</th></tr>{linhas}</table>

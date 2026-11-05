@@ -105,6 +105,22 @@ python -m pytest -q        # testes
 
 Sem `ANTHROPIC_API_KEY`, o programa gera só a parte de dados e o Revisor segura a edição.
 
+## Termômetro Mundial (motor por região)
+
+`termometro/mundo.py` calcula um termômetro para 19 países e 6 regiões (América do Norte, América Latina,
+Europa, Oriente Médio, África, Ásia e Pacífico) e um para o Brasil. Para cada país: queda da bolsa desde a
+máxima de 12 meses, volatilidade realizada da bolsa no mês e variação da moeda contra o dólar em 3 meses,
+cada um comparado com a história do próprio país. Teste histórico: aba *Actions* → *Teste do motor mundial*.
+
+## Fontes de dados e licenças
+
+- **FRED** (Fed de St. Louis): câmbio e juros. Algumas séries têm direitos de terceiros; confira a nota de
+  cada série antes de uso comercial.
+- **Yahoo Finance**: bolsas e moedas de emergentes. Os termos do Yahoo restringem uso comercial dos dados.
+  Serve para o protótipo; antes de monetizar em escala, troque por um provedor com licença comercial
+  (por exemplo, planos pagos de dados de mercado) ou pelas fontes oficiais de cada bolsa e banco central.
+- **datahub.io**: históricos de VIX, Brent, juros, S&P 500 e ouro.
+
 ## Método e limites
 
 - Cada componente vira o percentil do próprio histórico desde 1990; o índice é a média ponderada.

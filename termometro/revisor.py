@@ -66,7 +66,9 @@ def checar(texto: str, dados: dict, dossie: dict, copy: dict) -> dict:
     abertura = partes.get(SECOES[0], "")
     valores_validos = {dados["valor"], dados["mes_anterior"]["valor"],
                        *(p["valor"] for p in dados["picos_historicos"].values()),
-                       *(c["percentil"] for c in dados["componentes"] if c["percentil"] is not None)}
+                       *(c["percentil"] for c in dados["componentes"] if c["percentil"] is not None),
+                       *(r["valor"] for r in dados.get("regioes", [])),
+                       *([dados["brasil"]["valor"]] if dados.get("brasil") else [])}
     citados = {int(n) for n in re.findall(r"\b(\d{1,3})\s*(?:de 100|/100)", corpo)}
     regra("Número e nível do Termômetro corretos",
           re.search(rf"\b{dados['valor']}\b", abertura) and dados["nivel"].lower() in abertura.lower()

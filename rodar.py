@@ -23,9 +23,14 @@ sys.path.insert(0, str(RAIZ))
 
 import pandas as pd  # noqa: E402
 
-from termometro import buscador, coleta, config, copywriter, grafico, ia, motor, publicar, redator, revisor, site  # noqa: E402
+from termometro import buscador, coleta, config, copywriter, grafico, ia, motor, mundo, publicar, redator, revisor, site  # noqa: E402
 
 EDICOES = RAIZ / "edicoes"
+
+
+def coleta_mundo(dados_dir: Path, coletar: bool) -> None:
+    if coletar or not (dados_dir / "mundo" / "coleta_mundo.json").exists():
+        mundo.coletar(dados_dir / "mundo")
 
 
 def etapa(registro: list, nome: str):
@@ -64,6 +69,13 @@ def gerar(dados_dir: Path, data_edicao: str, coletar: bool) -> Path:
             coleta.coletar(dados_dir)
     with etapa(registro, "Analista"):
         resultado, dados = motor.rodar(dados_dir, pasta)
+    regional = tentar(registro, "Analista mundial",
+                      lambda: (coleta_mundo(dados_dir, coletar), mundo.rodar(dados_dir / "mundo", pasta))[1], None)
+    if regional:  # o Redator, o Copy e o Revisor passam a enxergar as regiões e o Brasil
+        dados["regioes"] = [{k: r.get(k) for k in ("nome", "valor", "nivel")} for r in regional["regioes"]
+                            if r.get("valor") is not None]
+        if regional.get("brasil", {}).get("valor") is not None:
+            dados["brasil"] = {k: regional["brasil"].get(k) for k in ("valor", "nivel", "referencia")}
     with etapa(registro, "Arte: gráfico histórico"):
         grafico.historico(resultado, dados, pasta / "historico.png")
         grafico.historico(resultado, dados, pasta / "historico_celular.png", mobile=True)

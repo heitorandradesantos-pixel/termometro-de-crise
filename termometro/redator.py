@@ -48,7 +48,17 @@ def _dados(dados: dict) -> str:
     return (f"Leitura: {mes_curto(dados['referencia'])} (a mais recente com dados completos)\n"
             f"Termômetro: {dados['valor']} de 100, nível {dados['nivel']}: {dados['leitura']}\n"
             f"Mês anterior: {dados['mes_anterior']['valor']} ({dados['mes_anterior']['nivel']})\n"
-            f"Componentes:\n{comps}\nPicos históricos: {picos}")
+            f"Componentes:\n{comps}\nPicos históricos: {picos}" + _regioes(dados))
+
+
+def _regioes(dados: dict) -> str:
+    if not dados.get("regioes"):
+        return ""
+    linhas = "; ".join(f"{r['nome']} {r['valor']} ({r['nivel']})" for r in dados["regioes"])
+    brasil = dados.get("brasil")
+    extra = f"\nTermômetro Brasil: {brasil['valor']} ({brasil['nivel']})" if brasil else ""
+    return (f"\nTermômetros por região (bolsa, volatilidade e moeda de cada país contra a própria história): {linhas}"
+            f"{extra}")
 
 
 def _com_claude(dados: dict, dossie: dict, data_edicao: str, cliente) -> str:

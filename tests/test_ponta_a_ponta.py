@@ -62,6 +62,7 @@ def test_edicao_completa_sai_aprovada_e_vira_site(tmp_path, monkeypatch):
     monkeypatch.setattr(rodar, "EDICOES", tmp_path / "edicoes")
     monkeypatch.setattr(ia, "disponivel", lambda: True)
     monkeypatch.setattr(ia, "novo_cliente", lambda: claude)
+    monkeypatch.setattr(rodar.mundo, "coletar", lambda pasta: None)  # sem internet no teste
 
     pasta = rodar.gerar(PASTA, "2026-11-08", coletar=False)
 
