@@ -1,0 +1,22 @@
+name: Sonda de fontes mundiais
+
+# Só roda quando alguém aperta "Run workflow". Testa as fontes de dados do
+# Termômetro Mundial e mostra o resultado no relatório; não publica nada.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - run: python sondas/fontes_mundiais.py
