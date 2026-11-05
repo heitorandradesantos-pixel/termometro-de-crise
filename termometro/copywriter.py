@@ -15,6 +15,16 @@ LIMITES = {  # campo: (mínimo, máximo) em caracteres
     "legenda_instagram": (200, 1500), "post_x": (60, 270), "post_linkedin": (300, 1300), "chamada_card": (15, 48),
 }
 LIMITE_ASSUNTO = 60
+FUNCAO = {
+    "pre_cabecalho": "Texto que aparece ao lado do assunto na caixa de entrada.",
+    "titulo_site": "Título da página da edição (aba do navegador e Google).",
+    "descricao_seo": "Resumo que o Google mostra abaixo do título.",
+    "legenda_instagram": "Legenda do post com o card.",
+    "post_x": "Post para o X.",
+    "post_linkedin": "Post para o LinkedIn.",
+    "chamada_card": "Convite para assinar, no rodapé do card (o card já mostra o número e o nível; não repita). "
+                    "Ex.: 'Receba o Termômetro todo domingo · link na bio'.",
+}
 
 SISTEMA = f"""Você é o agente Copy do "{config.NOME}". Escreve as peças curtas que levam as pessoas
 a abrir o e-mail, clicar no site e assinar a newsletter, em português do Brasil.
@@ -40,7 +50,7 @@ FERRAMENTA = {
                                "items": {"type": "string", "description": f"Até {LIMITE_ASSUNTO} caracteres"}},
             "assunto_escolhido": {"type": "integer", "minimum": 0, "maximum": 2,
                                   "description": "Índice do assunto que você recomenda"},
-            **{campo: {"type": "string", "description": f"Entre {a} e {b} caracteres"}
+            **{campo: {"type": "string", "description": f"{FUNCAO[campo]} Entre {a} e {b} caracteres."}
                for campo, (a, b) in LIMITES.items()},
         },
         "required": ["assuntos_email", "assunto_escolhido", *LIMITES],
