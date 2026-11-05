@@ -72,9 +72,17 @@ EPISODIOS = [
 
 
 # ---------------------------------------------------------------- coleta
+# Mesma moeda no Yahoo, na mesma direção da série do FRED (reserva se o FRED não responder)
+YAHOO_RESERVA = {"DEXCAUS": "CAD=X", "DEXMXUS": "MXN=X", "DEXBZUS": "BRL=X", "DEXUSEU": "EURUSD=X",
+                 "DEXUSUK": "GBPUSD=X", "DEXSFUS": "ZAR=X", "DEXJPUS": "JPY=X", "DEXCHUS": "CNY=X",
+                 "DEXINUS": "INR=X", "DEXKOUS": "KRW=X", "DEXUSAL": "AUDUSD=X"}
+
+
 def yahoo_diario(simbolo: str) -> pd.Series:
-    r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{simbolo}",
-                     params={"range": "max", "interval": "1d"}, headers=UA, timeout=60)
+    # Com range=max o Yahoo devolve pontos espaçados; com datas explícitas devolve todos os dias.
+    r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{simbolo}", headers=UA, timeout=60,
+                     params={"period1": 315532800, "period2": int(pd.Timestamp.now(tz="UTC").timestamp()),
+                             "interval": "1d"})
     r.raise_for_status()
     res = r.json()["chart"]["result"][0]
     datas = pd.to_datetime(res["timestamp"], unit="s").normalize()
@@ -83,8 +91,20 @@ def yahoo_diario(simbolo: str) -> pd.Series:
 
 
 def fred_diario(serie: str) -> pd.Series:
-    r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": serie}, headers=UA, timeout=60)
-    r.raise_for_status()
+    """FRED com duas tentativas curtas; se não responder, usa a mesma moeda no Yahoo."""
+    for _ in range(2):
+        try:
+            r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": serie}, headers=UA,
+                             timeout=25)
+            r.raise_for_status()
+            break
+        except requests.RequestException as erro:
+            print(f"  FRED {serie} não respondeu ({type(erro).__name__})")
+    else:
+        if serie in YAHOO_RESERVA:
+            print(f"  usando {YAHOO_RESERVA[serie]} do Yahoo no lugar de {serie}")
+            return yahoo_diario(YAHOO_RESERVA[serie])
+        raise RuntimeError(f"FRED {serie} indisponível e sem reserva")
     t = pd.read_csv(io.StringIO(r.text))
     s = pd.to_numeric(t.iloc[:, 1], errors="coerce").set_axis(pd.to_datetime(t.iloc[:, 0]))
     return s[s > 0].dropna().sort_index()
