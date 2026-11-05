@@ -17,6 +17,8 @@ Você só aprova (um toque no celular) — ou liga o modo automático e nem isso
 | Correspondente | A cada dia útil, pesquisa cada uma das 6 regiões e explica por que cada país está no nível em que está, ligando cada notícia ao sinal que ela mexe (bolsa, sobe e desce, moeda, energia, juros, comércio) | `termometro/correspondente.py` |
 | Panorama | Monta o texto do fim de tarde para o canal do WhatsApp com os números do motor e as manchetes conferidas | `termometro/panorama.py` |
 | Revisor | Bloqueia recomendação, promessa, número errado e link que não veio do Buscador | `termometro/revisor.py` |
+| SEO | Antes do Redator, define a palavra-chave principal, as secundárias, as perguntas a responder, o título e a descrição para o Google | `termometro/seo.py` |
+| Analista de marketing, Analista de comportamento do lead, Vendedor especialista, Guardião de regras | Formam, com o SEO e o UX, o conselho de monetização, que debate em rodadas e fecha um plano | `termometro/conselho.py` |
 | Agente de UI | Toda semana olha os prints do site (celular e computador) e avalia hierarquia, tipografia, cor e contraste, gráficos e consistência | `termometro/design.py` |
 | Agente de UX | Toda semana avalia se um leigo entende, confia e age: heurísticas de Nielsen, WCAG 2.2 AA, celular e conversão | `termometro/design.py` |
 | Editor do site | Monta o site estático (início, regiões, países, ranking, panorama, edições, metodologia); o Cloudflare Pages publica | `termometro/site.py`, `termometro/paginas.py` |
@@ -113,6 +115,18 @@ canal), o site passa a mostrar o botão **Entrar no canal**.
 
 A squad não muda o site sozinha: as correções entram por Pull Request, com a sua aprovação.
 
+## O conselho de monetização (dia 1 de cada mês)
+
+`.github/workflows/conselho.yml` reúne o analista de marketing, o analista de comportamento do lead, o vendedor
+especialista em produtos financeiros, o especialista em SEO, o agente de UX e o guardião de regras:
+
+1. **Propostas:** cada um pesquisa o mercado e propõe ideias com receita estimada, custo, prazo, métrica e riscos.
+2. **Debate:** cada um lê as propostas de todos, concorda, discorda e vota; o guardião de regras libera, libera com
+   cuidados ou veta (CVM, CONAR, CDC, LGPD).
+3. **Decisão:** o presidente do conselho monta o mapa de divergências e o plano por fases, com as mudanças no site.
+
+A ata vira uma issue "Conselho de monetização: ata de AAAA-MM-DD". É uma recomendação para você decidir.
+
 ## Manuais de especialista
 
 Cada agente de IA recebe um manual em `termometro/manuais/`, escrito a partir das melhores referências públicas,
@@ -123,6 +137,11 @@ sempre com a fonte e a licença no fim:
 | `pesquisa.md` | Buscador, Correspondente | Padrões de agentes de pesquisa da Anthropic (claude-cookbooks), verificação de fontes |
 | `redacao.md` | Redator, Copy, Correspondente | 18F Content Guide (domínio público), GOV.UK, skill frontend-design da Anthropic |
 | `ui.md` | Agente de UI | Skill frontend-design (Anthropic), Visual Vocabulary do Financial Times, WCAG 2.2, A11Y Project |
+| `seo.md` | SEO | marketingskills (seo-audit, programmatic-seo, ai-seo, schema), knowledge-work-plugins, diretrizes do Google |
+| `marketing.md` | Analista de marketing | marketingskills (Corey Haines, MIT), knowledge-work-plugins (Anthropic) |
+| `comportamento.md` | Analista de comportamento do lead | marketingskills (marketing-psychology), modelos de Fogg e de hábito, LGPD |
+| `vendas.md` | Vendedor especialista | marketingskills (offers, pricing), knowledge-work-plugins (sales), CDC |
+| `compliance.md` | Guardião de regras | Resoluções CVM 19, 20 e 178, ANBIMA, guia do CONAR (2026), CDC, LGPD |
 | `ux.md` | Agente de UX | Heurísticas de Nielsen, WCAG 2.2 AA, A11Y Project, GOV.UK, 18F |
 
 O Revisor também ganhou dois avisos de linguagem simples (não bloqueiam): frases com mais de 35 palavras e

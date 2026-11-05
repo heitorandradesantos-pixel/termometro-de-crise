@@ -37,6 +37,12 @@ class ClaudeEnsaio:
         if "registrar_dossie" in nomes:
             self.agentes.append("Buscador")
             return self._ferramenta("registrar_dossie", {"eventos": DOSSIE["eventos"], "agenda": DOSSIE["agenda"]})
+        if "registrar_pauta_seo" in nomes:
+            self.agentes.append("SEO")
+            return self._ferramenta("registrar_pauta_seo", {
+                "palavra_chave": "risco de crise", "secundarias": ["dólar hoje", "crise econômica", "Ibovespa"],
+                "perguntas": ["Vai ter crise?", "Por que o dólar subiu?"], "titulo_seo": "Risco de crise: termômetro em 59",
+                "descricao_seo": "O termômetro de crise do mundo e do Brasil.", "links_internos": ["paises/brasil.html"]})
         if "registrar_copy" in nomes:
             self.agentes.append("Copy")
             valor = int(re.search(r"Termômetro: (\d+)", pedido).group(1))
@@ -68,7 +74,8 @@ def test_edicao_completa_sai_aprovada_e_vira_site(tmp_path, monkeypatch):
 
     revisao = json.loads((pasta / "revisao.json").read_text())
     assert revisao["aprovado"], [c for c in revisao["checagens"] if not c["ok"]]
-    assert claude.agentes == ["Buscador", "Redator", "Copy"]
+    assert claude.agentes == ["Buscador", "SEO", "Redator", "Copy"]
+    assert json.loads((pasta / "seo.json").read_text())["palavra_chave"] == "risco de crise"
     for arquivo in ("edicao.md", "copy.json", "pesquisa.json", "redes.md", "card.png", "historico.png",
                     "historico_celular.png", "resumo_pr.md"):
         assert (pasta / arquivo).exists(), arquivo
