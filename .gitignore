@@ -3,3 +3,4 @@ _site/
 __pycache__/
 .pytest_cache/
 *.pyc
+saida_mundo/
