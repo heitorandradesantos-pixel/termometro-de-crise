@@ -172,3 +172,14 @@ def test_ciclo_completo_simulado_passa_no_revisor():
     copy = copywriter.escrever(DADOS, texto, "2026-11-08", ClaudeFalso(copywriter.padrao(DADOS, "2026-11-08")))
     resultado = revisor.checar(texto, DADOS, DOSSIE, copy)
     assert resultado["aprovado"], json.dumps(resultado, ensure_ascii=False)
+
+
+def test_variaveis_vazias_do_github_usam_o_padrao(monkeypatch):
+    import importlib
+    monkeypatch.setenv("MODELO_CLAUDE", "")
+    monkeypatch.setenv("BUSCAS_MAXIMAS", "")
+    novo = importlib.reload(config)
+    assert novo.MODELO_CLAUDE and novo.BUSCAS_MAXIMAS == 12
+    monkeypatch.delenv("MODELO_CLAUDE")
+    monkeypatch.delenv("BUSCAS_MAXIMAS")
+    importlib.reload(config)
