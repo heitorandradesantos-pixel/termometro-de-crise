@@ -1,7 +1,8 @@
-name: Publicar
+name: Publicar newsletter
 
-# Roda quando uma edição entra no ramo principal (você aprovou o Pull Request,
-# ou o modo automático publicou). Atualiza o site e manda a newsletter uma vez só.
+# O site é publicado pelo Cloudflare Pages, que reconstrói sozinho a cada mudança
+# no ramo principal (comando: python rodar.py --site). Aqui fica só a newsletter:
+# quando uma edição entra no ramo principal, ela vai para o beehiiv uma vez só.
 on:
   push:
     branches: [main]
@@ -13,39 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  site:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-      - run: pip install -q -r requirements.txt
-      - name: Agente Editor do site
-        env:
-          SITE_URL: ${{ vars.SITE_URL }}
-          DOMINIO: ${{ vars.DOMINIO }}
-          ADSENSE_CLIENT: ${{ vars.ADSENSE_CLIENT }}
-          NEWSLETTER_URL: ${{ vars.NEWSLETTER_URL }}
-        run: python rodar.py --site
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - id: deploy
-        uses: actions/deploy-pages@v4
-
   newsletter:
-    needs: site
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

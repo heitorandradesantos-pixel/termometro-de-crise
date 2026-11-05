@@ -15,7 +15,7 @@ Você só aprova (um toque no celular) — ou liga o modo automático e nem isso
 | Redator | Escreve a edição só com os números do Analista e os fatos do dossiê | `termometro/redator.py` |
 | Copy | Assuntos de e-mail, título e descrição do site, legendas de Instagram, X e LinkedIn, chamada do card | `termometro/copywriter.py` |
 | Revisor | Bloqueia recomendação, promessa, número errado e link que não veio do Buscador | `termometro/revisor.py` |
-| Editor do site | Monta o site estático (início, edições, metodologia) | `termometro/site.py` |
+| Editor do site | Monta o site estático (início, edições, metodologia); o Cloudflare Pages publica | `termometro/site.py` |
 | Publicador | Manda a edição aprovada ao beehiiv, uma vez só | `termometro/publicar.py` |
 
 Quem chama todos, na ordem certa, é o `rodar.py`. Quem aperta o botão toda semana é o GitHub Actions.
@@ -28,8 +28,15 @@ Quem chama todos, na ordem certa, é o `rodar.py`. Quem aperta o botão toda sem
 3. Analista → Buscador → Redator → Copy → Arte → Revisor.
 4. O robô abre um **Pull Request** "Edição de AAAA-MM-DD: aprovar?" com o resumo, o veredito do Revisor
    e todos os arquivos. Você recebe o aviso no app do GitHub.
-5. Você toca em **Merge**. O site atualiza e a newsletter vai para o beehiiv sozinhos
-   (`.github/workflows/publicar.yml`).
+5. Você toca em **Merge**. O Cloudflare Pages reconstrói o site (termometrodecrise.com) e a newsletter
+   vai para o beehiiv sozinha (`.github/workflows/publicar.yml`).
+
+## Hospedagem
+
+O site é servido pelo **Cloudflare Pages** (projeto `termometro-de-crise`), ligado a este repositório:
+a cada mudança no ramo principal ele roda `pip install -q pandas matplotlib markdown requests && python rodar.py --site`
+e publica a pasta `_site`. Variáveis no Cloudflare: `PYTHON_VERSION=3.12` e `SITE_URL=https://termometrodecrise.com`.
+Cada Pull Request de edição ganha também um link de prévia do Cloudflare, para conferir antes de aprovar.
 
 **Modo automático:** com a variável `AUTOMATICO=sim`, toda edição que o Revisor aprovar é publicada
 sem esperar você. As que ele segurar continuam virando Pull Request.
