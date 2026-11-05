@@ -1,0 +1,105 @@
+{
+  "referencia": "2026-09",
+  "valor": 59,
+  "valor_exato": 59.2,
+  "nivel": "Alerta",
+  "cor": "#F2C14E",
+  "leitura": "Dois ou mais componentes estressados ao mesmo tempo",
+  "mes_anterior": {
+    "referencia": "2026-08",
+    "valor": 38,
+    "nivel": "Atenção"
+  },
+  "componentes": [
+    {
+      "chave": "energia",
+      "nome": "Energia",
+      "descricao": "Distância do Brent até a média de 12 meses, em qualquer direção",
+      "peso": 15,
+      "percentil": 91,
+      "variacao_mes": 40
+    },
+    {
+      "chave": "juros",
+      "nome": "Juros longos",
+      "descricao": "Variação do juro de 10 anos dos EUA em 3 meses, em qualquer direção",
+      "peso": 15,
+      "percentil": 76,
+      "variacao_mes": 39
+    },
+    {
+      "chave": "volatilidade",
+      "nome": "Volatilidade",
+      "descricao": "VIX, média do mês",
+      "peso": 15,
+      "percentil": 36,
+      "variacao_mes": 4
+    },
+    {
+      "chave": "acoes",
+      "nome": "Ações",
+      "descricao": "Queda do S&P 500 desde a máxima de 12 meses",
+      "peso": 10,
+      "percentil": 53,
+      "variacao_mes": 31
+    },
+    {
+      "chave": "ouro",
+      "nome": "Porto seguro",
+      "descricao": "Variação do ouro em 3 meses, em qualquer direção",
+      "peso": 10,
+      "percentil": 27,
+      "variacao_mes": -21
+    }
+  ],
+  "componentes_ausentes": [
+    "Crédito (spread corporativo)",
+    "Dólar global",
+    "Conflitos (ACLED)"
+  ],
+  "picos_historicos": {
+    "Bolha .com": {
+      "valor": 89,
+      "mes": "2001-10"
+    },
+    "Crise de 2008": {
+      "valor": 96,
+      "mes": "2009-02"
+    },
+    "Covid": {
+      "valor": 94,
+      "mes": "2020-04"
+    },
+    "Choque de 2022": {
+      "valor": 88,
+      "mes": "2022-06"
+    }
+  },
+  "coleta": {
+    "vix": {
+      "origem": "datahub",
+      "ultimo_dado": "2026-09-22",
+      "observacoes": 9278
+    },
+    "brent": {
+      "origem": "datahub",
+      "ultimo_dado": "2026-11-03",
+      "observacoes": 9122
+    },
+    "juros": {
+      "origem": "datahub",
+      "ultimo_dado": "2026-09-01",
+      "observacoes": 882
+    },
+    "sp": {
+      "origem": "datahub",
+      "ultimo_dado": "2026-09-01",
+      "observacoes": 1869
+    },
+    "ouro": {
+      "origem": "datahub",
+      "ultimo_dado": "2026-10-01",
+      "observacoes": 2326
+    }
+  }
+}
