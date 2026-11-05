@@ -54,9 +54,11 @@ def _faltando(entrada: dict, saida: dict) -> list[str]:
 def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0, max_tokens: int = 8000) -> dict:
     """Roda o agente até ele preencher a ferramenta de saída por completo e devolve o que foi preenchido."""
     nome = saida["name"]
-    obrigatoria = {"type": "tool", "name": nome}
+    # Alguns modelos não aceitam forçar a ferramenta (tool_choice "tool"/"any"); por isso fica
+    # sempre "auto", e o pedido diz com todas as letras para terminar chamando o formulário.
+    escolha = obrigatoria = {"type": "auto"}
     ferramentas = ([{**BUSCA_WEB, "max_uses": buscas}] if buscas else []) + [saida]
-    escolha = {"type": "auto"} if buscas else obrigatoria
+    pedido = f"{pedido}\n\nTermine chamando a ferramenta {nome} uma única vez, com todos os campos obrigatórios."
     mensagens = [{"role": "user", "content": pedido}]
     for rodada in range(1, RODADAS + 1):
         resposta = cliente.messages.create(model=config.MODELO_CLAUDE, max_tokens=max_tokens, system=sistema,

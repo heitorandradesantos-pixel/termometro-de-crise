@@ -151,7 +151,8 @@ def test_estruturado_pede_formulario_quando_o_agente_esquece():
     class Esquecido(ClaudeFalso):
         def _create(self, **kw):
             self.chamadas.append(kw)
-            if kw["tool_choice"]["type"] == "auto":
+            assert kw["tool_choice"]["type"] == "auto"  # nunca força a ferramenta
+            if len(self.chamadas) == 1:
                 return SimpleNamespace(stop_reason="end_turn", content=[SimpleNamespace(type="text", text="pronto")])
             return SimpleNamespace(stop_reason="tool_use", content=[
                 SimpleNamespace(type="tool_use", id="t1", name=buscador.FERRAMENTA["name"],
