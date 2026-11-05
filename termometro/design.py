@@ -214,8 +214,6 @@ def auditar(site: Path, pasta: Path, axe_js: str | None = None) -> dict:
                             medidas["axe"] = aba.evaluate(AXE)
                         except Exception as erro:
                             medidas["axe_erro"] = str(erro)[:200]
-                    aba.keyboard.press("Tab")
-                    medidas["primeiro_tab"] = aba.evaluate(FOCO)
                     base_arquivo = f"{caminho.replace('/', '_').removesuffix('.html')}_{tela}"
                     aba.screenshot(path=str(prints / f"{base_arquivo}.png"), full_page=True)
                     altura = aba.evaluate("document.documentElement.scrollHeight")
@@ -229,6 +227,8 @@ def auditar(site: Path, pasta: Path, axe_js: str | None = None) -> dict:
                                              "height": min(tamanho["height"], altura - topo)})
                         telas.append(arquivo.name)
                     medidas["telas"] = telas
+                    aba.keyboard.press("Tab")  # depois dos prints: o link "pular" aparece no foco
+                    medidas["primeiro_tab"] = aba.evaluate(FOCO)
                     resultado["paginas"][nome][tela] = medidas
                     aba.close()
             navegador.close()

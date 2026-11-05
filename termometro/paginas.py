@@ -145,7 +145,7 @@ def grafico_svg(serie: pd.Series, picos: list[dict], largura: int, classe: str, 
         if t < t0:
             continue
         px, py = x(t), y(p["valor"])
-        tx = min(max(px, ml + 18), ml + w - 18)
+        tx = min(max(px, ml + 34), ml + w - 34)
         marcas += (f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="none" stroke="{C["texto"]}" stroke-width="1.5"/>'
                    f'<text x="{tx:.1f}" y="{max(py - 9, mt + 10):.1f}" text-anchor="middle" font-size="12" '
                    f'fill="{C["texto"]}">{p["valor"]} · {p["mes"][:4]}</text>')
@@ -320,6 +320,13 @@ def fonte(pasta_edicao: Path, pasta_diario: Path) -> dict:
                  correspondente=_json(d / "correspondente.json"),
                  panorama=(d / "panorama.txt").read_text() if (d / "panorama.txt").exists() else None)
     membros = {r["nome"]: [p["nome"] for p in r.get("paises", [])] for r in f["mundo"].get("regioes", [])}
+    for r in ((f.get("correspondente") or {}).get("regioes") or {}).values():
+        r["resumo"] = corr.datas_br(r.get("resumo", ""))
+        r["paises"] = {k: corr.datas_br(x) for k, x in (r.get("paises") or {}).items()}
+        for n in r.get("noticias", []):
+            n["titulo"], n["resumo"] = corr.datas_br(n["titulo"]), corr.datas_br(n.get("resumo", ""))
+            if not n.get("paises"):  # país citado no texto, mesmo que o agente não tenha marcado
+                n["paises"] = corr.citados(f"{n['titulo']} {n['resumo']}", membros.get(n.get("regiao"), []))
     if f["correspondente"] and corr.todas_as_noticias(f["correspondente"]):
         f["noticias"] = corr.todas_as_noticias(f["correspondente"])
     else:

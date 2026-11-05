@@ -144,6 +144,11 @@ def _cortar(texto: str, limite: int) -> str:
     return corte[: fim + 1] if fim > limite * 0.5 else corte.rsplit(" ", 1)[0] + "…"
 
 
+def citados(texto: str, membros) -> list[str]:
+    """Países da região citados no texto (nome ou apelido comum, como Ibovespa → Brasil)."""
+    return [p for p in sorted(membros) if any(re.search(rf"\b{re.escape(a)}\b", texto) for a in _APELIDOS.get(p, [p]))]
+
+
 def validar(bruto: dict, regiao: dict, data: str, buscados: set | None) -> dict:
     """Confere o que o Claude registrou. `buscados` = links que a busca devolveu (None = não conferir)."""
     hoje = pd.Timestamp(data)
@@ -182,7 +187,7 @@ def validar(bruto: dict, regiao: dict, data: str, buscados: set | None) -> dict:
                 "titulo": titulo, "resumo": _cortar(n.get("resumo"), LIMITES["resumo_noticia"]),
                 "data": quando.strftime("%Y-%m-%d"), "status": n.get("status") if n.get("status") in config.STATUS_FATO
                 else "hipótese ou cenário", "regiao": regiao["nome"],
-                "paises": [p for p in n.get("paises", []) if p in membros],
+                "paises": [p for p in n.get("paises", []) if p in membros] or citados(f"{titulo} {n.get('resumo', '')}", membros),
                 "mexe_em": [s for s in n.get("mexe_em", []) if s in SINAIS] or ["bolsa"],
                 "direcao": n.get("direcao") if n.get("direcao") in DIRECOES else "incerto",
                 "relevancia": int(n.get("relevancia") or 1), "fontes": fontes,
@@ -250,7 +255,7 @@ def todas_as_noticias(correspondente: dict) -> list[dict]:
 _REGIAO_DO_BUSCADOR = {"Europa e Eurásia": "Europa", "Oriente Médio": "Oriente Médio",
                        "Ásia e Pacífico": "Ásia e Pacífico", "África": "África"}
 _APELIDOS = {"EUA": ["EUA", "Estados Unidos", "Fed", "Treasury", "Trump", "Casa Branca", "Wall Street"],
-             "Brasil": ["Brasil", "Lula", "Copom", "Selic", "Ibovespa", "B3"],
+             "Brasil": ["Brasil", "Lula", "Copom", "Selic", "Ibovespa", "B3", "Banco Central do Brasil"],
              "Argentina": ["Argentina", "Milei"], "México": ["México", "Sheinbaum"],
              "Reino Unido": ["Reino Unido", "Bank of England", "libra"], "China": ["China", "chinês", "chinesa", "Pequim"],
              "Japão": ["Japão", "iene", "BoJ"], "Israel": ["Israel", "israelense"], "Turquia": ["Turquia", "lira"],
