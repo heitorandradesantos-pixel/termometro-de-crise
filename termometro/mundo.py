@@ -50,6 +50,60 @@ PAISES = {
 }
 REGIOES = ["América do Norte", "América Latina", "Europa", "Oriente Médio", "África", "Ásia e Pacífico"]
 
+# Nomes para leigos, usados nas páginas de cada país
+BOLSAS = {"EUA": "S&P 500", "Canadá": "S&P/TSX", "México": "IPC", "Brasil": "Ibovespa", "Argentina": "Merval",
+          "Alemanha": "DAX", "França": "CAC 40", "Reino Unido": "FTSE 100", "Turquia": "BIST 100",
+          "Israel": "TA-125", "África do Sul": "JSE All Share", "Japão": "Nikkei 225", "China": "Xangai Composto",
+          "Hong Kong": "Hang Seng", "Índia": "Nifty 50", "Coreia do Sul": "Kospi", "Austrália": "ASX 200"}
+MOEDAS = {"Canadá": "dólar canadense", "México": "peso mexicano", "Brasil": "real", "Argentina": "peso argentino",
+          "Alemanha": "euro", "França": "euro", "Reino Unido": "libra", "Turquia": "lira turca", "Israel": "shekel",
+          "Egito": "libra egípcia", "África do Sul": "rand", "Nigéria": "naira", "Japão": "iene", "China": "yuan",
+          "Índia": "rupia", "Coreia do Sul": "won", "Austrália": "dólar australiano"}
+
+# Épocas conhecidas, para dar nome aos picos do histórico: (país, região ou "*", início, fim, rótulo)
+EPOCAS = [
+    ("*", "2008-09", "2009-06", "crise financeira global de 2008"),
+    ("*", "2020-02", "2020-06", "pandemia de Covid"),
+    ("*", "2011-08", "2011-12", "crise da dívida europeia"),
+    ("*", "2015-08", "2016-02", "turbulência na China e queda das commodities"),
+    ("*", "2025-04", "2025-04", "tarifaço dos EUA"),
+    ("*", "2022-05", "2022-10", "alta global de juros e inflação"),
+    ("EUA", "2001-09", "2002-10", "11 de setembro e fim da bolha da internet"),
+    ("EUA", "2022-01", "2022-10", "inflação alta e subida de juros"),
+    ("Europa", "2022-02", "2022-10", "guerra na Ucrânia e crise de energia"),
+    ("Alemanha", "2022-02", "2022-10", "guerra na Ucrânia e crise de energia"),
+    ("França", "2022-02", "2022-10", "guerra na Ucrânia e crise de energia"),
+    ("Reino Unido", "2016-06", "2016-10", "Brexit"),
+    ("Reino Unido", "2022-09", "2022-10", "crise do minipacote fiscal"),
+    ("Brasil", "1998-08", "1999-03", "crise russa e desvalorização do real"),
+    ("Brasil", "2002-05", "2002-12", "eleição de 2002"),
+    ("Brasil", "2015-01", "2016-03", "recessão e crise política"),
+    ("Brasil", "2017-05", "2017-05", "delação da JBS"),
+    ("Brasil", "2024-11", "2024-12", "pacote fiscal e alta do dólar"),
+    ("Argentina", "2001-06", "2002-12", "corralito e moratória"),
+    ("Argentina", "2018-04", "2018-10", "crise cambial e acordo com o FMI"),
+    ("Argentina", "2019-08", "2019-09", "choque após as primárias de 2019"),
+    ("Argentina", "2023-08", "2023-12", "desvalorizações de 2023"),
+    ("México", "2016-11", "2017-01", "eleição de Trump nos EUA"),
+    ("México", "2024-06", "2024-08", "eleição e reforma judicial"),
+    ("Turquia", "2018-05", "2018-10", "crise da lira de 2018"),
+    ("Turquia", "2021-10", "2022-01", "queda da lira de 2021"),
+    ("Turquia", "2025-03", "2025-04", "prisão do prefeito de Istambul"),
+    ("Israel", "2000-09", "2000-12", "início da segunda intifada"),
+    ("Israel", "2023-10", "2023-11", "guerra após o ataque de 7 de outubro"),
+    ("Egito", "2016-11", "2016-12", "flutuação da libra egípcia"),
+    ("Egito", "2022-03", "2023-01", "desvalorizações de 2022"),
+    ("Egito", "2024-03", "2024-03", "desvalorização e acordo com o FMI"),
+    ("Nigéria", "2016-06", "2016-08", "flexibilização do câmbio"),
+    ("Nigéria", "2023-06", "2024-03", "unificação do câmbio e queda da naira"),
+    ("África do Sul", "2015-12", "2016-01", "troca do ministro das Finanças"),
+    ("China", "2015-06", "2016-02", "estouro da bolsa chinesa"),
+    ("Japão", "2011-03", "2011-04", "terremoto e tsunami"),
+    ("Japão", "2024-08", "2024-08", "desmonte das operações com o iene"),
+    ("Coreia do Sul", "2024-12", "2025-01", "crise da lei marcial"),
+    ("Índia", "2013-06", "2013-09", "fuga de capitais de 2013"),
+]
+
 # Episódios para o teste histórico: (rótulo, país ou região, início, fim)
 EPISODIOS = [
     ("Brasil, eleição de 2002", "Brasil", "2002-06", "2002-12"),
@@ -164,6 +218,53 @@ def sinais_do_pais(pasta: Path, pais: str) -> pd.DataFrame:
     return pd.DataFrame(sinais)
 
 
+def brutos_do_pais(pasta: Path, pais: str, sinais: pd.DataFrame) -> dict:
+    """Os mesmos sinais em unidades que um leigo entende, para explicar a leitura do país."""
+    saida = {}
+    if "bolsa" in sinais and sinais["bolsa"].notna().any():
+        d = pd.read_csv(pasta / f"{arquivo(pais)}_bolsa.csv", parse_dates=["data"]).set_index("data")["valor"]
+        saida["bolsa_queda_pct"] = round(100 * float(sinais["bolsa"].dropna().iloc[-1]), 1)
+        saida["bolsa_ultimo_dia"] = d.index[-1].strftime("%Y-%m-%d")
+    if "volatilidade" in sinais and sinais["volatilidade"].notna().any():
+        anual = float(sinais["volatilidade"].dropna().iloc[-1])
+        saida["oscilacao_diaria_pct"] = round(100 * anual / math.sqrt(252), 2)  # quanto a bolsa anda num dia típico
+    moeda_csv = pasta / f"{arquivo(pais)}_moeda.csv"
+    if moeda_csv.exists():
+        m = pd.read_csv(moeda_csv, parse_dates=["data"]).set_index("data")["valor"]
+        variacao = m.resample("MS").mean().pct_change(3, fill_method=None).dropna()
+        if not variacao.empty:  # positivo = moeda local mais fraca (mais moeda por dólar)
+            saida["moeda_variacao_3m_pct"] = round(100 * float(variacao.iloc[-1]), 1)
+            saida["moeda_ultimo_dia"] = m.index[-1].strftime("%Y-%m-%d")
+    saida["desde"] = {k: int(s.first_valid_index().year) for k, s in sinais.items() if s.notna().any()}
+    return saida
+
+
+def picos(serie: pd.Series, quem: str, regiao: str | None = None, n: int = 3, minimo: float = 61) -> list[dict]:
+    """Os n meses mais tensos do passado (um por episódio, separados por 12 meses), com o nome da época."""
+    s = serie.dropna()
+    if s.empty:
+        return []
+    passado = s[s.index <= s.index[-1] - pd.DateOffset(months=6)]  # o agora não conta como "já foi pior"
+    escolhidos = []
+    for mes, valor in passado.sort_values(ascending=False).items():
+        if valor < minimo or len(escolhidos) == n:
+            break
+        if all(abs((mes - outro).days) > 365 for outro, _ in escolhidos):
+            escolhidos.append((mes, valor))
+    saida = []
+    for mes, valor in sorted(escolhidos, key=lambda x: -x[1]):
+        chave = mes.strftime("%Y-%m")
+        rotulo = next((r for q, ini, fim, r in EPOCAS if q == quem and ini <= chave <= fim), None) or \
+            next((r for q, ini, fim, r in EPOCAS if q == regiao and ini <= chave <= fim), None) or \
+            next((r for q, ini, fim, r in EPOCAS if q == "*" and ini <= chave <= fim), None)
+        saida.append({"mes": chave, "valor": round(float(valor)), "epoca": rotulo})
+    return saida
+
+
+def slug(nome: str) -> str:
+    return arquivo(nome).replace("_", "-").replace("(", "").replace(")", "")
+
+
 def calcular(pasta: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
     """Devolve (termômetro por país, por região, detalhes do mês mais recente)."""
     paises, detalhes = {}, {}
@@ -175,6 +276,7 @@ def calcular(pasta: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
         paises[pais] = pct.mean(axis=1, skipna=True).where(pct.notna().sum(axis=1) >= 1)
         ultimo = pct.dropna(how="all").iloc[-1] if pct.dropna(how="all").shape[0] else pd.Series(dtype=float)
         detalhes[pais] = {k: (None if pd.isna(v) else round(float(v))) for k, v in ultimo.items()}
+        detalhes[pais]["_brutos"] = brutos_do_pais(pasta, pais, sinais)
     por_pais = pd.DataFrame(paises).sort_index()
     regioes = {}
     for regiao in REGIOES:
@@ -195,14 +297,21 @@ def resumo(por_pais: pd.DataFrame, por_regiao: pd.DataFrame, detalhes: dict) -> 
         return {"valor": round(float(s.iloc[-1])), "nivel": nivel["nome"], "cor": nivel["cor"],
                 "referencia": s.index[-1].strftime("%Y-%m"),
                 "mes_anterior": round(float(s.iloc[-2])) if len(s) > 1 else None}
+    def pais(p: str, regiao: str) -> dict:
+        det = dict(detalhes.get(p, {}))
+        brutos = det.pop("_brutos", {})
+        return {"nome": p, "slug": slug(p), **(leitura(por_pais[p]) or {"valor": None}), "sinais": det,
+                "brutos": brutos, "bolsa_nome": BOLSAS.get(p), "moeda_nome": MOEDAS.get(p),
+                "picos": picos(por_pais[p], p, regiao)}
     regioes = []
     for regiao in REGIOES:
         membros = [p for p, (r, _, _) in PAISES.items() if r == regiao and p in por_pais]
-        regioes.append({"nome": regiao, **(leitura(por_regiao[regiao]) or {"valor": None}),
-                        "paises": [{"nome": p, **(leitura(por_pais[p]) or {"valor": None}), "sinais": detalhes.get(p, {})}
-                                   for p in membros]})
+        regioes.append({"nome": regiao, "slug": slug(regiao), **(leitura(por_regiao[regiao]) or {"valor": None}),
+                        "picos": picos(por_regiao[regiao], regiao),
+                        "paises": [pais(p, regiao) for p in membros]})
     brasil = leitura(por_pais["Brasil"]) if "Brasil" in por_pais else None
-    return {"regioes": regioes, "brasil": {**(brasil or {}), "sinais": detalhes.get("Brasil", {})},
+    sinais_brasil = {k: v for k, v in detalhes.get("Brasil", {}).items() if not k.startswith("_")}
+    return {"regioes": regioes, "brasil": {**(brasil or {}), "sinais": sinais_brasil},
             "mundo": leitura(por_regiao["Mundo (média das regiões)"])}
 
 

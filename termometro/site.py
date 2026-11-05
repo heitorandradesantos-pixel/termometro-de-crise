@@ -26,7 +26,7 @@ CSS = f"""
 body{{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.6 'IBM Plex Sans',system-ui,sans-serif}}
 a{{color:#7CC3E0}}a:hover{{color:#A9DAEE}}
 .topo,.conteudo,.rodape{{max-width:1080px;margin:0 auto;padding:0 20px}}
-.topo{{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--linha)}}
+.topo{{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--linha)}}
 .marca{{font:600 15px 'Space Grotesk',sans-serif;letter-spacing:.14em;color:var(--texto);text-decoration:none}}
 .topo nav a{{margin-left:20px;color:var(--suave);text-decoration:none;font-size:14px}}
 .topo nav a:hover{{color:var(--texto)}}
@@ -66,13 +66,21 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .legenda i{{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}}
 .acoes{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:4px 0 8px}}
 .mapa{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;grid-template-areas:"na eu as" "la af me"}}
-.regiao{{display:flex;flex-direction:column;gap:8px;background:var(--painel);border-radius:14px;padding:16px;color:var(--texto);text-decoration:none;border-top:6px solid}}
+.regiao{{position:relative;display:flex;flex-direction:column;gap:8px;background:var(--painel);border-radius:14px;padding:16px;color:var(--texto);text-decoration:none;border-top:6px solid}}
+.regiao:hover{{outline:1px solid #34485A}}.regiao .cabeca{{display:flex;flex-direction:column;gap:8px;color:var(--texto);text-decoration:none}}
+.regiao .cabeca::after{{content:"";position:absolute;inset:0}}.regiao .paises a{{position:relative;z-index:1;color:var(--suave);text-decoration:underline dotted;text-underline-offset:3px}}
+.regiao .paises a:hover{{color:var(--texto)}}.regiao .mais{{font-size:13px;color:#7CC3E0}}
+.manchetes{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}.manchete{{background:var(--painel);border-radius:14px;padding:16px;border-left:4px solid var(--linha)}}
+.manchete h3{{font-size:16px;margin:6px 0}}.manchete p{{margin:4px 0;font-size:14px;color:var(--suave)}}.manchete .meta{{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:var(--suave)}}
+.manchete .tag{{border:1px solid var(--linha);border-radius:6px;padding:1px 7px;color:var(--suave);text-decoration:none}}.fontes{{font-size:13px}}.fontes a{{margin-right:10px}}
+.zap{{background:#25D366;color:#0E141B}}.faixa-zap{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;background:#0B1F17;border:1px solid #1F4D3A;border-radius:14px;padding:16px 18px;margin:24px 0}}
 .regiao .v{{font:700 34px/1 'Space Grotesk',sans-serif}}.chip{{font-size:13px;font-weight:600;color:#0E141B;border-radius:6px;padding:2px 8px}}
 .paises{{font-size:13px;color:var(--suave)}}
 .rodape{{padding-top:32px;padding-bottom:48px;border-top:1px solid var(--linha);margin-top:48px;font-size:13px;color:var(--suave)}}
 @media (max-width:760px){{.abertura{{grid-template-columns:1fr;gap:18px;padding:18px 0 8px}}.abertura h1{{font-size:24px}}.global{{padding:14px}}.global svg{{max-width:210px}}.global .valor{{font-size:56px}}.global .nivel{{font-size:16px}}.global p{{font-size:14px;margin-top:6px}}.regiao{{padding:12px}}.regiao .v{{font-size:28px}}.heroi{{grid-template-columns:1fr;gap:24px;padding:28px 0}}.valor{{font-size:84px}}.heroi h1{{font-size:26px}}
 .topo nav a{{margin-left:12px}}.faixas div{{font-size:11px}}.barra{{min-width:60px}}
-.marca{{font-size:13px;letter-spacing:.06em}}.mapa{{grid-template-columns:1fr 1fr;grid-template-areas:"na eu" "la af" "me as"}}.topo nav a{{font-size:13px}}}}
+.marca{{font-size:13px;letter-spacing:.06em}}.mapa{{grid-template-columns:1fr 1fr;grid-template-areas:"na eu" "la af" "me as"}}.topo nav a{{font-size:13px}}
+.topo nav a:first-child{{margin-left:0}}.manchetes{{grid-template-columns:1fr}}}}
 """
 
 
@@ -90,7 +98,8 @@ def medidor_svg(valor: int, cor: str) -> str:
             f'<circle cx="300" cy="300" r="14" fill="{C["texto"]}"/><circle cx="300" cy="300" r="6" fill="{C["fundo"]}"/></svg>')
 
 
-def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "") -> str:
+def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "",
+           extra_css: str = "") -> str:
     url = f"{config.SITE_URL}/{caminho}" if config.SITE_URL else ""
     og_img = f"{config.SITE_URL}/{imagem}" if config.SITE_URL and imagem else ""
     adsense = (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={config.ADSENSE_CLIENT}" '
@@ -104,12 +113,12 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 {f'<meta property="og:image" content="{og_img}"><meta name="twitter:card" content="summary_large_image">' if og_img else ''}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-<style>{CSS}</style>{adsense}</head>
+<style>{CSS}{extra_css}</style>{adsense}</head>
 <body><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
-<nav><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Metodologia</a></nav></header>
+<nav><a href="{raiz}mundo.html">Países</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav></header>
 <main class="conteudo">{corpo}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
-<p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis) e as fontes citadas em cada edição.</p></footer>
+<p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance e as fontes citadas em cada página.</p></footer>
 </body></html>"""
 
 
@@ -123,16 +132,19 @@ AREAS = {"América do Norte": "na", "América Latina": "la", "Europa": "eu", "Or
 
 
 def secao_mundo(m: dict) -> tuple[str, str]:
-    """Mapa de regiões com o termômetro de cada uma (motor mundial)."""
+    """Mapa de regiões com o termômetro de cada uma (motor mundial). Cada região e cada país são clicáveis."""
+    from .mundo import slug
     blocos = []
     for r in m.get("regioes", []):
         if r.get("valor") is None:
             continue
-        paises = ", ".join(f'{p["nome"]} {p["valor"]}' for p in r["paises"] if p.get("valor") is not None)
+        paises = ", ".join(f'<a href="paises/{p.get("slug") or slug(p["nome"])}.html">{html.escape(p["nome"])} {p["valor"]}</a>'
+                           for p in r["paises"] if p.get("valor") is not None)
         blocos.append(f'<div class="regiao" style="grid-area:{AREAS.get(r["nome"], "auto")};border-top-color:{r["cor"]}">'
+                      f'<a class="cabeca" href="regioes/{r.get("slug") or slug(r["nome"])}.html">'
                       f'<strong style="font-family:\'Space Grotesk\',sans-serif;font-size:18px">{html.escape(r["nome"])}</strong>'
-                      f'<span><span class="v">{r["valor"]}</span> <span class="chip" style="background:{r["cor"]}">{r["nivel"]}</span></span>'
-                      f'<span class="paises">{html.escape(paises)}</span></div>')
+                      f'<span><span class="v">{r["valor"]}</span> <span class="chip" style="background:{r["cor"]}">{r["nivel"]}</span></span></a>'
+                      f'<span class="paises">{paises}</span><span class="mais">Entender por quê →</span></div>')
     if not blocos:
         return "", ""
     b = m.get("brasil") or {}
@@ -140,13 +152,43 @@ def secao_mundo(m: dict) -> tuple[str, str]:
     if b.get("valor") is not None:
         sinais = b.get("sinais", {})
         nomes = {"bolsa": "Queda da bolsa", "volatilidade": "Sobe e desce da bolsa", "moeda": "Dólar contra o real"}
-        itens = "".join(f'<li>{nomes.get(k, k)}: percentil {v}</li>' for k, v in sinais.items() if v is not None)
+        itens = "".join(f'<li>{nomes.get(k, k)}: percentil {v}</li>' for k, v in sinais.items() if v is not None and k in nomes)
         brasil = (f'<section class="cartao"><span class="rotulo">BRASIL EM DESTAQUE</span>'
                   f'<h2 style="margin:8px 0">Termômetro Brasil: <span style="color:{b["cor"]}">{b["valor"]} · {b["nivel"]}</span></h2>'
                   f'<ul class="suave" style="margin:0;padding-left:20px">{itens}</ul>'
                   f'<p class="suave" style="font-size:13px">Leitura de {mes_curto(b["referencia"])}. Cada sinal comparado com a história '
-                  f'do próprio Brasil: 90 significa mais tenso do que em 90% dos meses.</p></section>')
+                  f'do próprio Brasil: 90 significa mais tenso do que em 90% dos meses.</p>'
+                  f'<p style="margin:0"><a href="paises/brasil.html">Entender o Brasil em detalhe →</a></p></section>')
     return f'<div class="mapa">{"".join(blocos)}</div>', brasil
+
+
+def curto(texto: str, limite: int = 170) -> str:
+    texto = " ".join(str(texto or "").split())
+    return texto if len(texto) <= limite else texto[:limite].rsplit(" ", 1)[0] + "…"
+
+
+def manchetes(noticias: list[dict]) -> str:
+    """As notícias que mais mexem com o termômetro, na página inicial."""
+    from .mundo import REGIOES, slug
+    from .paginas import COR_DIRECAO, TEXTO_DIRECAO, data_curta
+    if not noticias:
+        return ""
+    cartoes = []
+    for n in noticias[:6]:
+        cor = COR_DIRECAO.get(n.get("direcao") or "", C["linha"])
+        regiao = (f'<a class="tag" href="regioes/{slug(n["regiao"])}.html">{html.escape(n["regiao"])}</a>'
+                  if n.get("regiao") in REGIOES else f'<span class="tag">{html.escape(n.get("regiao") or "")}</span>')
+        mexe = (f'<span style="color:{cor}">Mexe em: {html.escape(", ".join(n["mexe_em"]))} · '
+                f'{TEXTO_DIRECAO.get(n.get("direcao"), "")}</span>' if n.get("mexe_em") else "")
+        fontes = "".join(f'<a href="{html.escape(f["url"])}" target="_blank" rel="noopener noreferrer">'
+                         f'{html.escape(f.get("veiculo") or "fonte")}</a>' for f in n.get("fontes", [])[:2])
+        cartoes.append(f'<article class="manchete" style="border-left-color:{cor}"><div class="meta">{regiao}'
+                       f'<span>{data_curta(n.get("data", ""))}</span><span>{html.escape(n.get("status") or "")}</span></div>'
+                       f'<h3>{html.escape(n["titulo"])}</h3><p>{html.escape(curto(n.get("resumo", "")))}</p>'
+                       f'<div class="meta">{mexe}</div><div class="fontes">{fontes}</div></article>')
+    return (f'<section><h2>O que está mexendo no termômetro</h2><div class="manchetes">{"".join(cartoes)}</div>'
+            f'<p class="suave" style="font-size:13px">Só entram notícias com fonte e com o status do fato. '
+            f'Toque na região para ver todas.</p></section>')
 
 
 def linha_componente(c: dict) -> str:
@@ -163,7 +205,7 @@ def _edicoes(pasta: Path) -> list[Path]:
     return sorted((p for p in pasta.iterdir() if p.is_dir() and (p / "edicao.md").exists()), reverse=True)
 
 
-def gerar(pasta_edicoes: Path, saida: Path) -> None:
+def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) -> None:
     if saida.exists():
         shutil.rmtree(saida)
     (saida / "edicoes").mkdir(parents=True)
@@ -200,31 +242,48 @@ def gerar(pasta_edicoes: Path, saida: Path) -> None:
                caminho="edicoes/index.html"))
 
     dia, dados, copy = lista[0]
-    mundo_json = pasta_edicoes / dia / "mundo.json"
-    mundo = json.loads(mundo_json.read_text()) if mundo_json.exists() else {}
+    from . import paginas  # aqui dentro para não haver importação circular
+    fonte = paginas.fonte(pasta_edicoes / dia, pasta_diario or pasta_edicoes.parent / "diario")
+    mundo = fonte["mundo"]
     faixas = "".join(f'<div><i style="background:{n["cor"]};opacity:{1 if n["nome"] == dados["nivel"] else .4}"></i>'
                      f'{n["nome"]}<br><span class="suave">{n["min"]}–{n["max"]}</span></div>' for n in config.NIVEIS)
     linhas = "".join(linha_componente(c) for c in dados["componentes"])
     assinar = config.NEWSLETTER_URL or f"edicoes/{dia}.html"
     mapa, brasil = secao_mundo(mundo)
+    zap = (f'<div class="faixa-zap"><div><strong>Panorama do fim de tarde no WhatsApp</strong><br>'
+           f'<span class="suave" style="font-size:14px">Todo dia útil, o termômetro do mundo, das regiões e do Brasil, '
+           f'com as notícias que mexeram com ele.</span></div>'
+           f'<a class="botao zap" href="{html.escape(config.WHATSAPP_URL or "panorama.html")}">'
+           f'{"Entrar no canal" if config.WHATSAPP_URL else "Ver o panorama de hoje"}</a></div>')
     if mapa:  # com o motor mundial, as regiões abrem a página, ao lado do termômetro do mundo
         legenda = "".join(f'<span><i style="background:{n["cor"]}"></i>{n["nome"]} {n["min"]}–{n["max"]}</span>'
                           for n in config.NIVEIS)
+        g = mundo.get("mundo") or {}
+        if g.get("valor") is not None:  # o mundo de hoje é a média das regiões que aparecem ao lado
+            nivel_g = config.nivel_de(g["valor"])
+            g_valor, g_cor, g_nivel, g_frase = g["valor"], nivel_g["cor"], nivel_g["nome"], nivel_g["leitura"]
+            g_nota = f"Média das 6 regiões · atualizado em {pd.Timestamp(fonte['data']):%d/%m/%Y}"
+        else:
+            g_valor, g_cor, g_nivel, g_frase = dados["valor"], dados["cor"], dados["nivel"], dados["leitura"]
+            g_nota = f"Leitura de {mes_curto(dados['referencia'])} · atualizado em {pd.Timestamp(dia):%d/%m/%Y}"
         topo = f"""
 <section class="abertura">
- <div class="global"><span class="rotulo">O MUNDO HOJE</span>{medidor_svg(dados['valor'], dados['cor'])}
-  <div class="valor">{dados['valor']}</div><div class="nivel" style="color:{dados['cor']}">{dados['nivel'].upper()}</div>
-  <p>{html.escape(dados['leitura'])}</p>
-  <p class="suave" style="font-size:13px">Leitura de {mes_curto(dados['referencia'])} · atualizado em {pd.Timestamp(dia):%d/%m/%Y}</p></div>
+ <div class="global"><span class="rotulo">O MUNDO HOJE</span>{medidor_svg(g_valor, g_cor)}
+  <div class="valor">{g_valor}</div><div class="nivel" style="color:{g_cor}">{g_nivel.upper()}</div>
+  <p>{html.escape(g_frase)}</p>
+  <p class="suave" style="font-size:13px">{g_nota} · <a href="mundo.html">ranking dos países</a></p></div>
  <div><h1>Como está cada região do mundo</h1>
-  <p class="suave" style="margin:0 0 14px">De 0 (calmo) a 100 (crise). Bolsa, sobe e desce do mercado e moeda de cada país,
-  comparados com a história do próprio país.</p>
+  <p class="suave" style="margin:0 0 14px">De 0 (calmo) a 100 (crise). Toque em uma região ou em um país para entender o porquê.</p>
   {mapa}
   <div class="legenda">{legenda}</div></div>
 </section>
 <div class="acoes"><a class="botao" href="{assinar}">Receber todo domingo, grátis</a>
  <a href="edicoes/{dia}.html">Ler a análise da semana</a></div>
+{manchetes(fonte["noticias"])}
+{zap}
 {brasil}"""
+        titulo_tabela = (f"Termômetro dos mercados globais: {dados['valor']} · {dados['nivel']}"
+                         f" <span class=\"suave\" style=\"font-size:15px;font-weight:400\">leitura de {mes_curto(dados['referencia'])}</span>")
     else:
         topo = f"""
 <section class="heroi">
@@ -238,9 +297,11 @@ def gerar(pasta_edicoes: Path, saida: Path) -> None:
   <p style="margin-top:28px"><a class="botao" href="{assinar}">Receber todo domingo</a>
   &nbsp; <a href="edicoes/{dia}.html">Ler a edição da semana</a></p></div>
 </section>"""
+        titulo_tabela = "O que compõe a leitura"
     corpo = topo + f"""
 {'<div class="anuncio"></div>' if config.ADSENSE_CLIENT else ''}
-<section class="cartao"><h2 style="margin-top:0">O que compõe a leitura</h2>
+<section class="cartao"><h2 style="margin-top:0">{titulo_tabela}</h2>
+ <p class="suave" style="margin-top:0">O índice da newsletter: 5 indicadores dos mercados globais, cada um comparado com o próprio histórico desde 1990.</p>
  <table><tr><th>Componente</th><th>Estresse (percentil)</th><th style="text-align:right">Agora</th></tr>{linhas}</table>
  <p class="suave" style="font-size:13px">Percentil: 90 significa que o indicador está mais estressado do que em 90% dos meses desde 1990.
  Ainda fora do índice: {', '.join(dados['componentes_ausentes'])}.</p></section>
@@ -249,7 +310,8 @@ def gerar(pasta_edicoes: Path, saida: Path) -> None:
                                              imagem=f"edicoes/{dia}/card.png"))
     (saida / "metodologia.html").write_text(pagina(f"Metodologia · {config.NOME}",
                                                    "Como o Termômetro de Crise é calculado.", metodologia(dados)))
-    extras(saida, [""] + ["metodologia.html", "edicoes/index.html"] + [f"edicoes/{d}.html" for d, _, _ in lista])
+    novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
+    extras(saida, [""] + ["metodologia.html", "edicoes/index.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 
 
@@ -275,7 +337,22 @@ petróleo e ouro despencam, e isso também é sinal de estresse.</p>
 não garante o mesmo comportamento no futuro.</p>
 <h2>Limites</h2><ul><li>Leitura mensal: o índice reage a crises, não as prevê.</li>
 <li>Ainda fora do índice: {', '.join(dados['componentes_ausentes'])}.</li>
-<li>Os pesos são uma escolha de método, não uma verdade estatística.</li></ul></section>"""
+<li>Os pesos são uma escolha de método, não uma verdade estatística.</li></ul>
+<h2 id="mundo">Termômetro por país e por região</h2>
+<p>Cada país tem três sinais, todos medidos mês a mês com os fechamentos diários:</p>
+<ol><li><strong>Queda da bolsa:</strong> quanto o índice principal está abaixo do ponto mais alto dos últimos 12 meses.</li>
+<li><strong>Sobe e desce:</strong> quanto a bolsa oscila de um dia para o outro no mês (volatilidade realizada).</li>
+<li><strong>Moeda:</strong> quanto a moeda mudou contra o dólar em 3 meses, para qualquer lado.</li></ol>
+<p>Cada sinal vira o percentil da história do próprio país (é preciso ter 5 anos de dados antes da primeira leitura,
+e o cálculo nunca olha o futuro). O termômetro do país é a média dos sinais; o da região, a média dos países; e o do
+mundo, a média das 6 regiões. Nos dias úteis, os números são atualizados no fim da tarde, com o mês ainda em andamento.</p>
+<p>As explicações de cada país juntam duas coisas: o que os números mostram (escrito pelo programa) e o contexto das
+notícias (escrito pelo agente Correspondente, que pesquisa a semana na web). Toda notícia publicada tem link para a fonte,
+status do fato (confirmado, operação em curso, ameaça, negociação ou hipótese) e passa por uma conferência automática:
+só entram links que a busca devolveu de verdade, datas dos últimos dias e textos sem recomendação, promessa ou alarmismo.</p>
+<p class="suave">Limites: alguns países têm menos sinais (o Egito e a Nigéria ainda sem bolsa; EUA e Hong Kong sem moeda,
+porque o dólar é a referência e o dólar de Hong Kong é atrelado a ele). Os dados de bolsa e de parte das moedas vêm do
+Yahoo Finance e do FRED.</p></section>"""
 
 
 def extras(saida: Path, caminhos: list[str]) -> None:

@@ -6,8 +6,10 @@
     python rodar.py --newsletter    manda a edição mais recente ao beehiiv
     python rodar.py --aprovado      termina com código 0 se o Revisor aprovou a edição mais recente
     python rodar.py --so-coleta     só baixa os dados (o robô roda os testes antes de chamar a IA)
+    python rodar.py --diario        atualização de dia útil: motor mundial, Correspondente e panorama do WhatsApp
 
 Agentes, em ordem: Coletor → Analista → Arte (gráfico) → Buscador → Redator → Copy → Arte (card) → Revisor.
+Todo dia útil: Coletor mundial → Analista mundial → Correspondente → Panorama → conferência.
 """
 
 import argparse
@@ -23,9 +25,12 @@ sys.path.insert(0, str(RAIZ))
 
 import pandas as pd  # noqa: E402
 
-from termometro import buscador, coleta, config, copywriter, grafico, ia, motor, mundo, publicar, redator, revisor, site  # noqa: E402
+from termometro import (buscador, coleta, config, copywriter, correspondente, grafico, ia, motor, mundo,  # noqa: E402
+                        paginas, panorama, publicar, redator, revisor, site)
 
 EDICOES = RAIZ / "edicoes"
+DIARIO = RAIZ / "diario"
+FALHAS_ACEITAS = 4  # séries de país que podem faltar num dia sem segurar o panorama
 
 
 def coleta_mundo(dados_dir: Path, coletar: bool) -> None:
@@ -116,6 +121,57 @@ def gerar(dados_dir: Path, data_edicao: str, coletar: bool) -> Path:
     return pasta
 
 
+def diario(dados_dir: Path, data: str, coletar: bool = True) -> Path:
+    """Atualização de dia útil: números do mundo, explicações com notícias e o panorama do WhatsApp."""
+    pasta, historico = DIARIO / data, DIARIO / "historico"
+    pasta.mkdir(parents=True, exist_ok=True)
+    registro: list = []
+    with etapa(registro, "Coletor mundial"):
+        coleta_rel = mundo.coletar(dados_dir / "mundo") if coletar else \
+            json.loads((dados_dir / "mundo" / "coleta_mundo.json").read_text())
+    falhas = sorted(k for k, v in coleta_rel.items() if str(v).startswith("FALHOU"))
+    with etapa(registro, "Analista mundial"):
+        regional = mundo.rodar(dados_dir / "mundo", historico)
+        (historico / "mundo.json").replace(pasta / "mundo.json")
+    cliente = ia.novo_cliente() if ia.disponivel() else None
+    corr = tentar(registro, "Correspondente", lambda: correspondente.pesquisar(regional, data, cliente),
+                  {"regioes": {}, "modo": "falhou"})
+    (pasta / "correspondente.json").write_text(json.dumps(corr, ensure_ascii=False, indent=1))
+
+    anteriores = [d for d in paginas.dias_do_diario(DIARIO) if d.name < data]
+    anterior = None
+    if anteriores:
+        anterior = {**json.loads((anteriores[-1] / "mundo.json").read_text()), "_data": anteriores[-1].name}
+    with etapa(registro, "Panorama"):
+        texto = panorama.montar(regional, corr, anterior, data)
+        conferencia = panorama.checar(texto, regional)
+        if not conferencia["aprovado"]:  # sem as manchetes, fica só o que o programa calculou
+            texto = panorama.montar(regional, None, anterior, data, noticias=[])
+            conferencia = {**panorama.checar(texto, regional), "sem_noticias": True}
+    (pasta / "panorama.txt").write_text(texto)
+
+    noticias = correspondente.todas_as_noticias(corr)
+    descartes = [d for r in corr.get("regioes", {}).values() for d in r.get("descartados", [])]
+    aprovado = conferencia["aprovado"] and len(falhas) <= FALHAS_ACEITAS
+    revisao = {"aprovado": aprovado, "panorama": conferencia, "series_que_falharam": falhas,
+               "noticias": len(noticias), "descartes": descartes, "modo_correspondente": corr.get("modo"),
+               "agentes": registro}
+    (pasta / "revisao.json").write_text(json.dumps(revisao, ensure_ascii=False, indent=1))
+    (pasta / "resumo.md").write_text(
+        f"## Panorama de {pd.Timestamp(data):%d/%m/%Y}\n\n"
+        + ("✅ Conferido. " if aprovado else "⛔ **O robô segurou a publicação automática.** ")
+        + f"{len(noticias)} notícias com fonte, {len(descartes)} descartadas na conferência.\n\n"
+        + (f"Séries que falharam: {', '.join(falhas)}\n\n" if falhas else "")
+        + (f"Problemas no panorama: {', '.join(conferencia['problemas'])}\n\n" if conferencia["problemas"] else "")
+        + f"### Texto para o WhatsApp\n\n```\n{texto}\n```\n\nToque em **Merge** para publicar no site.\n")
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
+            saida.write(f"data={data}\naprovado={'sim' if aprovado else 'nao'}\n")
+    print(f"\nPanorama de {data}: {'APROVADO' if aprovado else 'SEGURADO'} · {len(noticias)} notícias, "
+          f"{len(descartes)} descartes, {len(falhas)} séries com falha\n\n{texto}")
+    return pasta
+
+
 def resumo_pr(dados: dict, dossie: dict, copy: dict, revisao: dict) -> str:
     linhas = "\n".join(f"| {'✅' if c['ok'] else ('⛔' if c['bloqueia'] else '⚠️')} {c['regra']} | {c['detalhe'] if not c['ok'] else ''} |"
                        for c in revisao["checagens"])
@@ -154,12 +210,16 @@ def main() -> None:
     p.add_argument("--newsletter", action="store_true")
     p.add_argument("--aprovado", action="store_true")
     p.add_argument("--so-coleta", action="store_true")
+    p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
     p.add_argument("--dados", default=str(RAIZ / "dados"), help="pasta dos dados baixados")
     p.add_argument("--sem-coleta", action="store_true", help="usa os dados já baixados")
     p.add_argument("--data", help="data da edição (AAAA-MM-DD); padrão: hoje em Brasília")
     a = p.parse_args()
     if a.site:
         site.gerar(EDICOES, RAIZ / "_site")
+    elif a.diario:
+        data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+        diario(Path(a.dados), data, coletar=not a.sem_coleta)
     elif a.so_coleta:
         coleta.coletar(Path(a.dados))
     elif a.newsletter:

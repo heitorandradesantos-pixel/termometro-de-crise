@@ -51,8 +51,25 @@ def _faltando(entrada: dict, saida: dict) -> list[str]:
     return faltam
 
 
-def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0, max_tokens: int = 8000) -> dict:
-    """Roda o agente até ele preencher a ferramenta de saída por completo e devolve o que foi preenchido."""
+def links_das_buscas(conteudo) -> set[str]:
+    """Endereços que a busca na web devolveu de verdade (para conferir que nenhum link foi inventado)."""
+    achados = set()
+    for bloco in conteudo or []:
+        if getattr(bloco, "type", None) != "web_search_tool_result":
+            continue
+        resultados = getattr(bloco, "content", None)
+        for r in resultados if isinstance(resultados, list) else []:
+            url = getattr(r, "url", None) or (r.get("url") if isinstance(r, dict) else None)
+            if url:
+                achados.add(url)
+    return achados
+
+
+def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0, max_tokens: int = 8000,
+                links: set | None = None) -> dict:
+    """Roda o agente até ele preencher a ferramenta de saída por completo e devolve o que foi preenchido.
+
+    Se `links` for um conjunto, ele recebe todos os endereços que as buscas na web devolveram."""
     nome = saida["name"]
     # Alguns modelos não aceitam forçar a ferramenta (tool_choice "tool"/"any"); por isso fica
     # sempre "auto", e o pedido diz com todas as letras para terminar chamando o formulário.
@@ -64,6 +81,8 @@ def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0
         resposta = cliente.messages.create(model=config.MODELO_CLAUDE, max_tokens=max_tokens, system=sistema,
                                            messages=mensagens, tools=ferramentas, tool_choice=escolha)
         mensagens.append({"role": "assistant", "content": resposta.content})
+        if links is not None:
+            links |= links_das_buscas(resposta.content)
         pesquisas = sum(1 for b in resposta.content if b.type == "server_tool_use")
         bloco = next((b for b in resposta.content if b.type == "tool_use" and b.name == nome), None)
         print(f"  [{nome}] rodada {rodada}: parada={resposta.stop_reason}, buscas={pesquisas}, "

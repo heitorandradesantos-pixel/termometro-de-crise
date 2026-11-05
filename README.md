@@ -14,8 +14,10 @@ Você só aprova (um toque no celular) — ou liga o modo automático e nem isso
 | Buscador | Pesquisa a semana nas 6 frentes do mundo e monta um dossiê com fonte, data e status de cada fato | `termometro/buscador.py` |
 | Redator | Escreve a edição só com os números do Analista e os fatos do dossiê | `termometro/redator.py` |
 | Copy | Assuntos de e-mail, título e descrição do site, legendas de Instagram, X e LinkedIn, chamada do card | `termometro/copywriter.py` |
+| Correspondente | A cada dia útil, pesquisa cada uma das 6 regiões e explica por que cada país está no nível em que está, ligando cada notícia ao sinal que ela mexe (bolsa, sobe e desce, moeda, energia, juros, comércio) | `termometro/correspondente.py` |
+| Panorama | Monta o texto do fim de tarde para o canal do WhatsApp com os números do motor e as manchetes conferidas | `termometro/panorama.py` |
 | Revisor | Bloqueia recomendação, promessa, número errado e link que não veio do Buscador | `termometro/revisor.py` |
-| Editor do site | Monta o site estático (início, edições, metodologia); o Cloudflare Pages publica | `termometro/site.py` |
+| Editor do site | Monta o site estático (início, regiões, países, ranking, panorama, edições, metodologia); o Cloudflare Pages publica | `termometro/site.py`, `termometro/paginas.py` |
 | Publicador | Manda a edição aprovada ao beehiiv, uma vez só | `termometro/publicar.py` |
 
 Quem chama todos, na ordem certa, é o `rodar.py`. Quem aperta o botão toda semana é o GitHub Actions.
@@ -77,11 +79,31 @@ Faça você mesmo os passos com chaves e senhas. Nunca cole uma chave em chat ne
 7. **Primeiro teste:** aba *Actions* → *Edição semanal* → *Run workflow*. Em poucos minutos aparece o
    Pull Request.
 
+## O dia útil do robô
+
+1. **Segunda a sexta, 18:17 (Brasília):** o GitHub liga `.github/workflows/diario.yml`, depois do fechamento de Nova York.
+2. O motor mundial baixa bolsa e moeda dos 19 países e recalcula os termômetros (mês em andamento).
+3. O **Correspondente** pesquisa cada região (até `BUSCAS_POR_REGIAO` buscas, padrão 3) e explica cada país.
+   O programa confere tudo: só ficam links que a busca devolveu de verdade, datas dos últimos 10 dias, países da
+   região e textos sem recomendação, promessa ou alarmismo. O que não passa é descartado e a página do país usa
+   a explicação automática feita só com os números.
+4. O **Panorama** monta o texto do WhatsApp (`diario/AAAA-MM-DD/panorama.txt`) e confere que os números batem.
+5. Se a conferência aprovar, o robô publica sozinho no site. Se segurar (por exemplo, muitos países sem dado),
+   abre um Pull Request "Panorama de AAAA-MM-DD: aprovar?". Com a variável `DIARIO_AUTOMATICO=nao`, sempre pede.
+6. O texto do dia fica em termometrodecrise.com/panorama.html, com os botões **Copiar texto** e
+   **Enviar pelo WhatsApp**, e também no resumo da execução, na aba *Actions*.
+
+O WhatsApp não tem um jeito oficial de um programa postar sozinho em Canal ou Comunidade: a API de grupos
+da Meta só aceita grupos de até 8 pessoas, e automações não oficiais levam a banimento do número. Por isso o
+texto fica pronto e alguém do time cola no canal (leva 10 segundos). Com a variável `WHATSAPP_URL` (link do
+canal), o site passa a mostrar o botão **Entrar no canal**.
+
 ## Custos
 
 - GitHub Actions e Pages: grátis em repositório público.
 - Claude API: cobrança por uso. Por edição são 3 chamadas e até 12 buscas na web
-  (`BUSCAS_MAXIMAS`). Acompanhe o gasto no console da Anthropic e defina um limite mensal lá.
+  (`BUSCAS_MAXIMAS`). Por dia útil, o Correspondente faz 6 chamadas (uma por região) com até 3 buscas
+  cada (`BUSCAS_POR_REGIAO`). Acompanhe o gasto no console da Anthropic e defina um limite mensal lá.
 - FRED: grátis. beehiiv: a criação de posts pela API exige plano com esse recurso.
 
 ## O que o Revisor bloqueia
@@ -111,6 +133,10 @@ Sem `ANTHROPIC_API_KEY`, o programa gera só a parte de dados e o Revisor segura
 Europa, Oriente Médio, África, Ásia e Pacífico) e um para o Brasil. Para cada país: queda da bolsa desde a
 máxima de 12 meses, volatilidade realizada da bolsa no mês e variação da moeda contra o dólar em 3 meses,
 cada um comparado com a história do próprio país. Teste histórico: aba *Actions* → *Teste do motor mundial*.
+
+Cada região e cada país têm uma página (`regioes/…html`, `paises/…html`) que responde: quanto está, por quê
+(os sinais em palavras simples, o contexto do Correspondente e as notícias com fonte) e se já foi pior (histórico
+com os picos e o nome da época). O ranking dos países fica em `mundo.html`.
 
 ## Fontes de dados e licenças
 

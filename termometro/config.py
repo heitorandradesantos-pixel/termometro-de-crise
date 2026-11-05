@@ -88,5 +88,9 @@ FONTES_CONFIAVEIS = [
 # "or" porque o GitHub manda a variável vazia quando ela não foi criada
 MODELO_CLAUDE = os.environ.get("MODELO_CLAUDE") or "claude-sonnet-5-5"
 BUSCAS_MAXIMAS = int(os.environ.get("BUSCAS_MAXIMAS") or "12")  # buscas na web por edição (Buscador)
+BUSCAS_POR_REGIAO = int(os.environ.get("BUSCAS_POR_REGIAO") or "3")  # Correspondente, a cada dia útil
+
+# ---------------------------------------------------------------- comunidade
+WHATSAPP_URL = os.environ.get("WHATSAPP_URL", "")  # link do canal do WhatsApp (whatsapp.com/channel/...)
 # "sim" = publica sozinho quando o Revisor aprova; qualquer outra coisa = pede sua aprovação.
 AUTOMATICO = os.environ.get("AUTOMATICO", "").strip().lower() == "sim"
