@@ -37,6 +37,7 @@ Formato em Markdown, exatamente estas seções e nesta ordem:
 - "Uma lição da história": um episódio comparável a um dos riscos, com semelhanças e diferenças.
 - "O que acompanhar nos próximos 7 dias": 3 a 5 itens da agenda do dossiê, com data e link quando houver.
 Não escreva título nem aviso legal: o programa acrescenta os dois. Entre 500 e 900 palavras."""
+SISTEMA += config.manual('redacao')
 
 
 def _dados(dados: dict) -> str:

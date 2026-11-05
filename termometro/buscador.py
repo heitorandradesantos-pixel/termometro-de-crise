@@ -30,6 +30,7 @@ Como trabalhar:
 6. Registre também a agenda dos próximos 7 dias (bancos centrais, inflação, eleições,
    prazos diplomáticos) com link oficial sempre que possível.
 Ao terminar, chame a ferramenta registrar_dossie uma única vez com tudo."""
+SISTEMA += config.manual('pesquisa')
 
 FERRAMENTA = {
     "name": "registrar_dossie",

@@ -7,9 +7,11 @@
     python rodar.py --aprovado      termina com código 0 se o Revisor aprovou a edição mais recente
     python rodar.py --so-coleta     só baixa os dados (o robô roda os testes antes de chamar a IA)
     python rodar.py --diario        atualização de dia útil: motor mundial, Correspondente e panorama do WhatsApp
+    python rodar.py --design        squad de design: auditoria do site + agentes de UI e UX (relatório em design/)
 
 Agentes, em ordem: Coletor → Analista → Arte (gráfico) → Buscador → Redator → Copy → Arte (card) → Revisor.
 Todo dia útil: Coletor mundial → Analista mundial → Correspondente → Panorama → conferência.
+Toda semana: Editor do site → auditoria automática (Playwright + axe-core) → agente de UI → agente de UX → relatório.
 """
 
 import argparse
@@ -25,8 +27,8 @@ sys.path.insert(0, str(RAIZ))
 
 import pandas as pd  # noqa: E402
 
-from termometro import (buscador, coleta, config, copywriter, correspondente, grafico, ia, motor, mundo,  # noqa: E402
-                        paginas, panorama, publicar, redator, revisor, site)
+from termometro import (buscador, coleta, config, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
+                        mundo, paginas, panorama, publicar, redator, revisor, site)
 
 EDICOES = RAIZ / "edicoes"
 DIARIO = RAIZ / "diario"
@@ -211,12 +213,21 @@ def main() -> None:
     p.add_argument("--aprovado", action="store_true")
     p.add_argument("--so-coleta", action="store_true")
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
+    p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
     p.add_argument("--dados", default=str(RAIZ / "dados"), help="pasta dos dados baixados")
     p.add_argument("--sem-coleta", action="store_true", help="usa os dados já baixados")
     p.add_argument("--data", help="data da edição (AAAA-MM-DD); padrão: hoje em Brasília")
     a = p.parse_args()
     if a.site:
         site.gerar(EDICOES, RAIZ / "_site")
+    elif a.design:
+        data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+        site.gerar(EDICOES, RAIZ / "_site")
+        r = design.rodar(RAIZ / "_site", RAIZ / "design" / data, data)
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
+                saida.write(f"data={data}\n")
+        print(r["relatorio"])
     elif a.diario:
         data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         diario(Path(a.dados), data, coletar=not a.sem_coleta)

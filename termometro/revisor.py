@@ -25,6 +25,31 @@ PROIBIDAS = [
 
 LINK = re.compile(r"https?://[^\s)\]>\"']+")
 
+# Linguagem simples (manual de redação): jargão que precisa de tradução na mesma frase
+JARGAO = ["spread", "yield", "hawkish", "dovish", "drawdown", "carry trade", "hedge", "rally", "sell-off",
+          "curva de juros", "risco-país", "volatilidade implícita", "treasuries", "bear market", "bull market"]
+FRASE_LONGA = 35  # palavras
+
+
+def frases_longas(texto: str) -> list[str]:
+    """Frases do corpo com mais de FRASE_LONGA palavras (sem contar títulos, listas de links e o aviso)."""
+    limpo = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", texto.replace(config.AVISO, ""))
+    linhas = [l for l in limpo.splitlines() if l.strip() and not l.lstrip().startswith(("#", "|", "---", "*"))]
+    frases = re.split(r"(?<=[.!?])\s+", " ".join(linhas))
+    return [f for f in frases if len(re.findall(r"\w+", f)) > FRASE_LONGA]
+
+
+def jargao_sem_traducao(texto: str) -> list[str]:
+    """Termos técnicos que aparecem sem explicação por perto (vírgula, parênteses ou travessão logo depois)."""
+    achados = []
+    for termo in JARGAO:
+        for m in re.finditer(rf"\b{re.escape(termo)}\b", texto, re.I):
+            depois = texto[m.end():m.end() + 3]
+            if not re.match(r"\s*[,(—–-]", depois):
+                achados.append(termo)
+                break
+    return achados
+
 
 def linguagem_proibida(texto: str) -> list[str]:
     texto = texto.replace(config.AVISO, "")
@@ -94,6 +119,12 @@ def checar(texto: str, dados: dict, dossie: dict, copy: dict) -> dict:
     fracas = sorted({u for u in do_texto if not confiavel(u)})
     regra("Fontes de primeira linha", not fracas, "conferir: " + ", ".join(fracas), bloqueia=False)
     regra("Copy sem ajustes automáticos", not copy.get("ajustes"), "; ".join(copy.get("ajustes", [])), bloqueia=False)
+    longas = frases_longas(corpo)
+    regra("Frases curtas (linguagem simples)", len(longas) <= 2,
+          f"{len(longas)} frases com mais de {FRASE_LONGA} palavras; a primeira: {longas[0][:120]}…" if longas else "",
+          bloqueia=False)
+    jargao = jargao_sem_traducao(corpo)
+    regra("Jargão traduzido", not jargao, "explicar: " + ", ".join(jargao), bloqueia=False)
     if dossie.get("descartados"):
         regra("Dossiê sem descartes", False, f"{len(dossie['descartados'])} eventos descartados pelo filtro", bloqueia=False)
 

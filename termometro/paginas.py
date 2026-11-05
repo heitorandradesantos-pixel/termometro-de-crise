@@ -67,11 +67,11 @@ a.caixa:hover{outline:1px solid #34485A}
 .noticia{border-left:4px solid var(--linha);padding:2px 0 2px 14px;margin:18px 0}
 .noticia h3{font-size:17px;margin:4px 0}.noticia p{margin:4px 0;font-size:15px}
 .meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:var(--suave)}
-.tag{border:1px solid var(--linha);border-radius:6px;padding:1px 7px}
-.fontes{font-size:13px}.fontes a{margin-right:10px}
+.tag{border:1px solid var(--linha);border-radius:6px;padding:4px 8px;display:inline-block}
+.fontes{font-size:13px}.fontes a{margin-right:10px;display:inline-block;padding:4px 0}
 .hist svg{width:100%;height:auto;display:block}.hist .cel{display:none}
 .picos{margin:10px 0 0;padding-left:20px}.picos li{margin:4px 0}
-.ranking td{padding:10px 8px}.ranking a{color:var(--texto);text-decoration:none;font-weight:600}
+.ranking td{padding:10px 8px}.ranking a{color:var(--texto);text-decoration:none;font-weight:600;display:inline-block;padding:4px 0}
 .ranking .r{color:var(--suave);font-size:13px}
 .pano{white-space:pre-wrap;background:#0B1F17;border:1px solid #1F4D3A;border-radius:14px;padding:18px;font:15px/1.55 'IBM Plex Sans',sans-serif}
 .zap{background:#25D366;color:#0E141B}
@@ -130,11 +130,11 @@ def grafico_svg(serie: pd.Series, picos: list[dict], largura: int, classe: str, 
     faixas = "".join(f'<rect x="{ml}" y="{y(n["max"] if n["max"] < 100 else 100):.1f}" width="{w}" '
                      f'height="{y(n["min"] - (1 if n["min"] else 0)) - y(n["max"]):.1f}" fill="{n["cor"]}" opacity=".13"/>'
                      for n in config.NIVEIS)
-    grade = "".join(f'<text x="{ml - 6}" y="{y(v) + 4:.1f}" text-anchor="end" font-size="11" fill="{C["suave"]}">{v}</text>'
+    grade = "".join(f'<text x="{ml - 6}" y="{y(v) + 4:.1f}" text-anchor="end" font-size="12" fill="{C["suave"]}">{v}</text>'
                     for v in (0, 20, 40, 60, 80, 100))
     anos = list(range(t0.year + 1, t1.year + 1))
     passo = next((p for p in (1, 2, 5, 10) if len(anos) / p <= (8 if largura > 500 else 4)), 20)
-    marcos = "".join(f'<text x="{x(pd.Timestamp(a, 1, 1)):.1f}" y="{altura - 8}" text-anchor="middle" font-size="11" '
+    marcos = "".join(f'<text x="{x(pd.Timestamp(a, 1, 1)):.1f}" y="{altura - 8}" text-anchor="middle" font-size="12" '
                      f'fill="{C["suave"]}">{a}</text>' for a in anos if a % passo == 0)
     trilha = " ".join(f"{'M' if i == 0 else 'L'}{x(t):.1f},{y(v):.1f}" for i, (t, v) in enumerate(s.items()))
     ult_t, ult_v = s.index[-1], s.iloc[-1]
@@ -145,9 +145,9 @@ def grafico_svg(serie: pd.Series, picos: list[dict], largura: int, classe: str, 
         if t < t0:
             continue
         px, py = x(t), y(p["valor"])
-        tx = min(max(px, ml + 18), ml + w - 18)
+        tx = min(max(px, ml + 34), ml + w - 34)
         marcas += (f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="none" stroke="{C["texto"]}" stroke-width="1.5"/>'
-                   f'<text x="{tx:.1f}" y="{max(py - 9, mt + 10):.1f}" text-anchor="middle" font-size="11" '
+                   f'<text x="{tx:.1f}" y="{max(py - 9, mt + 10):.1f}" text-anchor="middle" font-size="12" '
                    f'fill="{C["texto"]}">{p["valor"]} · {p["mes"][:4]}</text>')
     return (f'<svg class="{classe}" viewBox="0 0 {largura} {altura}" role="img" '
             f'aria-label="Histórico do termômetro {html.escape(de(nome))}">{faixas}{grade}{marcos}'
@@ -320,11 +320,27 @@ def fonte(pasta_edicao: Path, pasta_diario: Path) -> dict:
                  correspondente=_json(d / "correspondente.json"),
                  panorama=(d / "panorama.txt").read_text() if (d / "panorama.txt").exists() else None)
     membros = {r["nome"]: [p["nome"] for p in r.get("paises", [])] for r in f["mundo"].get("regioes", [])}
+    for r in ((f.get("correspondente") or {}).get("regioes") or {}).values():
+        r["resumo"] = corr.datas_br(r.get("resumo", ""))
+        r["paises"] = {k: corr.datas_br(x) for k, x in (r.get("paises") or {}).items()}
+        for n in r.get("noticias", []):
+            n["titulo"], n["resumo"] = corr.datas_br(n["titulo"]), corr.datas_br(n.get("resumo", ""))
+            if not n.get("paises"):  # país citado no texto, mesmo que o agente não tenha marcado
+                n["paises"] = corr.citados(f"{n['titulo']} {n['resumo']}", membros.get(n.get("regiao"), []))
     if f["correspondente"] and corr.todas_as_noticias(f["correspondente"]):
         f["noticias"] = corr.todas_as_noticias(f["correspondente"])
     else:
         f["noticias"] = corr.noticias_do_dossie(f["dossie"], membros)
-    # completa o que os arquivos antigos não tinham (endereço da página e picos do histórico)
+    # completa o que os arquivos antigos não tinham (endereço da página, picos e a cor atual de cada faixa)
+    def recolorir(item: dict | None) -> None:
+        if item and item.get("valor") is not None:
+            item["cor"] = config.nivel_de(item["valor"])["cor"]
+    recolorir(f["mundo"].get("mundo"))
+    recolorir(f["mundo"].get("brasil"))
+    for r in f["mundo"].get("regioes", []):
+        recolorir(r)
+        for p in r.get("paises", []):
+            recolorir(p)
     for r in f["mundo"].get("regioes", []):
         r.setdefault("slug", motor.slug(r["nome"]))
         if "picos" not in r and f["regioes"] is not None and r["nome"] in f["regioes"]:

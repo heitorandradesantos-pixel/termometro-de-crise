@@ -44,8 +44,10 @@ Regras:
 4. Linguagem simples, frases curtas, sem jargão. Nada de previsão, recomendação de investimento,
    promessa de ganho ou alarmismo. Neutralidade política: descreva o que governos e partidos fizeram,
    sem opinar.
-5. Datas reais do acontecimento, no formato AAAA-MM-DD.
+5. No campo "data", a data real do acontecimento no formato AAAA-MM-DD. Nos textos, escreva datas como
+   o leitor fala: "5/11" ou "5 de novembro".
 Ao terminar, chame a ferramenta registrar_regiao uma única vez."""
+SISTEMA += config.manual('pesquisa', 'redacao')
 
 
 def ferramenta(paises: list[str]) -> dict:
@@ -128,13 +130,23 @@ def _limpo(url: str) -> str:
     return re.sub(r"[#?].*$", "", url.strip()).rstrip("/").replace("://www.", "://").lower()
 
 
+def datas_br(texto: str) -> str:
+    """2026-11-05 → 5/11 (o leitor não lê data no formato de banco de dados)."""
+    return re.sub(r"\b20\d\d-(\d\d)-(\d\d)\b", lambda m: f"{int(m.group(2))}/{m.group(1)}", texto)
+
+
 def _cortar(texto: str, limite: int) -> str:
-    texto = " ".join(str(texto or "").split())
+    texto = datas_br(" ".join(str(texto or "").split()))
     if len(texto) <= limite:
         return texto
     corte = texto[:limite]
     fim = max(corte.rfind(". "), corte.rfind("! "), corte.rfind("? "))
     return corte[: fim + 1] if fim > limite * 0.5 else corte.rsplit(" ", 1)[0] + "…"
+
+
+def citados(texto: str, membros) -> list[str]:
+    """Países da região citados no texto (nome ou apelido comum, como Ibovespa → Brasil)."""
+    return [p for p in sorted(membros) if any(re.search(rf"\b{re.escape(a)}\b", texto) for a in _APELIDOS.get(p, [p]))]
 
 
 def validar(bruto: dict, regiao: dict, data: str, buscados: set | None) -> dict:
@@ -175,7 +187,7 @@ def validar(bruto: dict, regiao: dict, data: str, buscados: set | None) -> dict:
                 "titulo": titulo, "resumo": _cortar(n.get("resumo"), LIMITES["resumo_noticia"]),
                 "data": quando.strftime("%Y-%m-%d"), "status": n.get("status") if n.get("status") in config.STATUS_FATO
                 else "hipótese ou cenário", "regiao": regiao["nome"],
-                "paises": [p for p in n.get("paises", []) if p in membros],
+                "paises": [p for p in n.get("paises", []) if p in membros] or citados(f"{titulo} {n.get('resumo', '')}", membros),
                 "mexe_em": [s for s in n.get("mexe_em", []) if s in SINAIS] or ["bolsa"],
                 "direcao": n.get("direcao") if n.get("direcao") in DIRECOES else "incerto",
                 "relevancia": int(n.get("relevancia") or 1), "fontes": fontes,
@@ -243,7 +255,7 @@ def todas_as_noticias(correspondente: dict) -> list[dict]:
 _REGIAO_DO_BUSCADOR = {"Europa e Eurásia": "Europa", "Oriente Médio": "Oriente Médio",
                        "Ásia e Pacífico": "Ásia e Pacífico", "África": "África"}
 _APELIDOS = {"EUA": ["EUA", "Estados Unidos", "Fed", "Treasury", "Trump", "Casa Branca", "Wall Street"],
-             "Brasil": ["Brasil", "Lula", "Copom", "Selic", "Ibovespa", "B3"],
+             "Brasil": ["Brasil", "Lula", "Copom", "Selic", "Ibovespa", "B3", "Banco Central do Brasil"],
              "Argentina": ["Argentina", "Milei"], "México": ["México", "Sheinbaum"],
              "Reino Unido": ["Reino Unido", "Bank of England", "libra"], "China": ["China", "chinês", "chinesa", "Pequim"],
              "Japão": ["Japão", "iene", "BoJ"], "Israel": ["Israel", "israelense"], "Turquia": ["Turquia", "lira"],
