@@ -58,12 +58,19 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .edicao em{{color:var(--suave)}}
 .lista a{{display:block;padding:14px 0;border-bottom:1px solid var(--linha);text-decoration:none;color:var(--texto)}}
 .anuncio{{margin:32px 0;min-height:90px}}
-.mapa{{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;grid-template-areas:"na na eu eu as as" "la la af me as as"}}
+.abertura{{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:28px;align-items:start;padding:28px 0 12px}}
+.global{{background:var(--painel);border-radius:18px;padding:20px 20px 16px;text-align:center}}
+.global svg{{width:100%;max-width:290px;height:auto}}.global .valor{{font-size:72px;margin-top:-4px}}.global .nivel{{font-size:18px}}
+.global p{{margin:10px 0 0;font-size:15px}}.abertura h1{{font-size:28px;margin:0 0 6px}}
+.legenda{{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:12px;font-size:13px;color:var(--suave)}}
+.legenda i{{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}}
+.acoes{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:4px 0 8px}}
+.mapa{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;grid-template-areas:"na eu as" "la af me"}}
 .regiao{{display:flex;flex-direction:column;gap:8px;background:var(--painel);border-radius:14px;padding:16px;color:var(--texto);text-decoration:none;border-top:6px solid}}
 .regiao .v{{font:700 34px/1 'Space Grotesk',sans-serif}}.chip{{font-size:13px;font-weight:600;color:#0E141B;border-radius:6px;padding:2px 8px}}
 .paises{{font-size:13px;color:var(--suave)}}
 .rodape{{padding-top:32px;padding-bottom:48px;border-top:1px solid var(--linha);margin-top:48px;font-size:13px;color:var(--suave)}}
-@media (max-width:760px){{.heroi{{grid-template-columns:1fr;gap:24px;padding:28px 0}}.valor{{font-size:84px}}.heroi h1{{font-size:26px}}
+@media (max-width:760px){{.abertura{{grid-template-columns:1fr;gap:18px;padding:18px 0 8px}}.abertura h1{{font-size:24px}}.global{{padding:14px}}.global svg{{max-width:210px}}.global .valor{{font-size:56px}}.global .nivel{{font-size:16px}}.global p{{font-size:14px;margin-top:6px}}.regiao{{padding:12px}}.regiao .v{{font-size:28px}}.heroi{{grid-template-columns:1fr;gap:24px;padding:28px 0}}.valor{{font-size:84px}}.heroi h1{{font-size:26px}}
 .topo nav a{{margin-left:12px}}.faixas div{{font-size:11px}}.barra{{min-width:60px}}
 .marca{{font-size:13px;letter-spacing:.06em}}.mapa{{grid-template-columns:1fr 1fr;grid-template-areas:"na eu" "la af" "me as"}}.topo nav a{{font-size:13px}}}}
 """
@@ -115,7 +122,7 @@ AREAS = {"América do Norte": "na", "América Latina": "la", "Europa": "eu", "Or
          "África": "af", "Ásia e Pacífico": "as"}
 
 
-def secao_mundo(m: dict) -> str:
+def secao_mundo(m: dict) -> tuple[str, str]:
     """Mapa de regiões com o termômetro de cada uma (motor mundial)."""
     blocos = []
     for r in m.get("regioes", []):
@@ -127,7 +134,7 @@ def secao_mundo(m: dict) -> str:
                       f'<span><span class="v">{r["valor"]}</span> <span class="chip" style="background:{r["cor"]}">{r["nivel"]}</span></span>'
                       f'<span class="paises">{html.escape(paises)}</span></div>')
     if not blocos:
-        return ""
+        return "", ""
     b = m.get("brasil") or {}
     brasil = ""
     if b.get("valor") is not None:
@@ -139,9 +146,7 @@ def secao_mundo(m: dict) -> str:
                   f'<ul class="suave" style="margin:0;padding-left:20px">{itens}</ul>'
                   f'<p class="suave" style="font-size:13px">Leitura de {mes_curto(b["referencia"])}. Cada sinal comparado com a história '
                   f'do próprio Brasil: 90 significa mais tenso do que em 90% dos meses.</p></section>')
-    return (f'<section style="padding:24px 0"><h2>O termômetro de cada região</h2>'
-            f'<p class="suave">Bolsa, sobe e desce do mercado e moeda de cada país, comparados com a história do próprio país.</p>'
-            f'<div class="mapa">{"".join(blocos)}</div></section>{brasil}')
+    return f'<div class="mapa">{"".join(blocos)}</div>', brasil
 
 
 def linha_componente(c: dict) -> str:
@@ -201,7 +206,27 @@ def gerar(pasta_edicoes: Path, saida: Path) -> None:
                      f'{n["nome"]}<br><span class="suave">{n["min"]}–{n["max"]}</span></div>' for n in config.NIVEIS)
     linhas = "".join(linha_componente(c) for c in dados["componentes"])
     assinar = config.NEWSLETTER_URL or f"edicoes/{dia}.html"
-    corpo = f"""
+    mapa, brasil = secao_mundo(mundo)
+    if mapa:  # com o motor mundial, as regiões abrem a página, ao lado do termômetro do mundo
+        legenda = "".join(f'<span><i style="background:{n["cor"]}"></i>{n["nome"]} {n["min"]}–{n["max"]}</span>'
+                          for n in config.NIVEIS)
+        topo = f"""
+<section class="abertura">
+ <div class="global"><span class="rotulo">O MUNDO HOJE</span>{medidor_svg(dados['valor'], dados['cor'])}
+  <div class="valor">{dados['valor']}</div><div class="nivel" style="color:{dados['cor']}">{dados['nivel'].upper()}</div>
+  <p>{html.escape(dados['leitura'])}</p>
+  <p class="suave" style="font-size:13px">Leitura de {mes_curto(dados['referencia'])} · atualizado em {pd.Timestamp(dia):%d/%m/%Y}</p></div>
+ <div><h1>Como está cada região do mundo</h1>
+  <p class="suave" style="margin:0 0 14px">De 0 (calmo) a 100 (crise). Bolsa, sobe e desce do mercado e moeda de cada país,
+  comparados com a história do próprio país.</p>
+  {mapa}
+  <div class="legenda">{legenda}</div></div>
+</section>
+<div class="acoes"><a class="botao" href="{assinar}">Receber todo domingo, grátis</a>
+ <a href="edicoes/{dia}.html">Ler a análise da semana</a></div>
+{brasil}"""
+    else:
+        topo = f"""
 <section class="heroi">
  <div class="medidor">{medidor_svg(dados['valor'], dados['cor'])}
   <div class="valor">{dados['valor']}</div><div class="nivel" style="color:{dados['cor']}">{dados['nivel'].upper()}</div>
@@ -212,8 +237,8 @@ def gerar(pasta_edicoes: Path, saida: Path) -> None:
   <div class="faixas">{faixas}</div>
   <p style="margin-top:28px"><a class="botao" href="{assinar}">Receber todo domingo</a>
   &nbsp; <a href="edicoes/{dia}.html">Ler a edição da semana</a></p></div>
-</section>
-{secao_mundo(mundo)}
+</section>"""
+    corpo = topo + f"""
 {'<div class="anuncio"></div>' if config.ADSENSE_CLIENT else ''}
 <section class="cartao"><h2 style="margin-top:0">O que compõe a leitura</h2>
  <table><tr><th>Componente</th><th>Estresse (percentil)</th><th style="text-align:right">Agora</th></tr>{linhas}</table>
