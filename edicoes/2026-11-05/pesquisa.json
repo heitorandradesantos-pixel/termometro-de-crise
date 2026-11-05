@@ -1,106 +1,52 @@
 {
   "eventos": [
     {
-      "titulo": "Democratas vencem Câmara e Senado nas eleições de meio de mandato dos EUA",
-      "regiao": "Américas",
-      "status": "fato confirmado",
-      "data": "2026-11-03",
-      "resumo": "CBS e CNBC projetam que os Democratas conquistaram a Câmara; a Time relata viradas no Senado em Iowa, Kansas, Maine, Ohio, Carolina do Norte, Carolina do Sul e Texas. Alasca e Mississippi seguem sem definição (no Mississippi a diferença era de 65 votos com ~95% apurado). Trump disse que aceitará o resultado, e o vice Vance atribuiu a derrota republicana à guerra no Irã. Analistas apontam que o Congresso pode usar o poder do orçamento para limitar a guerra.",
-      "canal_brasil": "Muda a leitura sobre a guerra no Irã e, por tabela, sobre petróleo e inflação global. Também pode reduzir o apetite por novas tarifas dos EUA, o que afeta exportações brasileiras, câmbio e a trajetória da Selic.",
-      "relevancia": 5,
-      "fontes": [
-        {
-          "veiculo": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
-          "data": "2026-11-04",
-          "confiavel": false
-        },
-        {
-          "veiculo": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
-          "data": "2026-11-04",
-          "confiavel": true
-        },
-        {
-          "veiculo": "TIME",
-          "url": "https://time.com/article/2026/11/03/midterm-elections-2026-key-races-live-results-polls-latest-news-updates/",
-          "data": "2026-11-04",
-          "confiavel": false
-        }
-      ],
-      "fonte_de_primeira_linha": true
-    },
-    {
-      "titulo": "Dólar fecha a R$ 5,446, maior nível de 2026, na semana seguinte à reeleição de Lula",
-      "regiao": "Américas",
-      "status": "fato confirmado",
-      "data": "2026-10-30",
-      "resumo": "Após o segundo turno de 25/10, o dólar fechou 26/10 em R$ 5,403 (+8,21%) e o Ibovespa caiu 13,88%, com circuit breaker. Na sexta, 30/10, o dólar fechou a R$ 5,446, com alta semanal de 9,15%, a maior desde outubro de 2008. Na sexta anterior à votação estava em R$ 4,99. Analistas atribuem o movimento ao desmonte de apostas numa vitória de Flávio Bolsonaro e à preocupação fiscal. O Cepea registrou alta de preços de soja, açúcar e café.",
-      "canal_brasil": "Câmbio mais fraco encarece importações e pressiona o IPCA, mas melhora a competitividade de exportações do agronegócio. Alimenta a cautela do Copom e o prêmio de risco fiscal.",
-      "relevancia": 5,
-      "fontes": [
-        {
-          "veiculo": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
-          "data": "2026-10-26",
-          "confiavel": true
-        },
-        {
-          "veiculo": "Portal Packaging",
-          "url": "https://portalpackaging.com.br/dolar-dispara-apos-a-eleicao-e-muda-a-conta-da-cadeia-de-embalagens-de-papel/",
-          "data": "2026-11-04",
-          "confiavel": false
-        },
-        {
-          "veiculo": "Minha Bahia (dados Cepea)",
-          "url": "https://minhabahia.com.br/economia/dolar-dispara-apos-reeleicao-de-lula-e-pressiona-precos-de-alimentos-como-carne-cafe-acucar-e-pao/",
-          "data": "2026-11-05",
-          "confiavel": false
-        }
-      ],
-      "fonte_de_primeira_linha": true
-    },
-    {
-      "titulo": "EUA e Irã seguem distantes de acordo; Ormuz continua bloqueado e petroleiros são atacados",
+      "titulo": "EUA e Irã seguem distantes de acordo; Catar medeia e Hormuz continua fechado",
       "regiao": "Oriente Médio",
       "status": "negociação",
       "data": "2026-11-04",
-      "resumo": "Mediadores de Catar, Paquistão e Arábia Saudita conduzem conversas indiretas sobre a proposta iraniana de reabrir Ormuz em dois dias, se os EUA atenderem sete condições (fim do bloqueio naval, alívio de sanções, descongelamento de ativos). Mohsen Rezaei, do Conselho de Segurança Nacional iraniano, chamou a resposta dos EUA de 'não convincente'. Trump confirmou ataques a alvos na ilha iraniana de Qeshm e não descartou retomar operações de combate. O Irã afirmou que quatro petroleiros pegaram fogo em Ormuz, e Catar e Paquistão trabalham num acordo interino mais restrito.",
-      "canal_brasil": "Principal vetor de energia: combustíveis, IPCA (gasolina e diesel), Petrobras, balança comercial (Brasil exporta petróleo) e prêmio de risco global, com efeito sobre câmbio e Selic.",
+      "resumo": "Mediadores do Catar foram a Teerã na noite de 2/11 para discutir uma versão do rascunho de acordo EUA-Irã, em debate há oito dias. Um oficial iraniano disse à Reuters que o Irã segue longe de um acordo e condiciona a reabertura do Estreito de Hormuz a suas condições: suspensão de sanções ao petróleo, fim do bloqueio naval dos EUA e liberação de fundos congelados. Os EUA fizeram ataques 'defensivos' contra a ilha iraniana de Qeshm na noite de 2/11. Catar e Paquistão tentam um acordo interino: o Irã pararia os ataques a navios e os EUA levantariam o bloqueio aos portos iranianos.",
+      "canal_brasil": "Energia e inflação: o desfecho define o preço do petróleo e dos combustíveis, com efeito sobre IPCA, Selic e câmbio. Para o Brasil exportador de petróleo, preço alto ajuda a balança, mas encarece diesel e fertilizantes.",
       "relevancia": 5,
       "fontes": [
         {
-          "veiculo": "Al Jazeera",
-          "url": "https://aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes",
+          "veiculo": "Reuters (via Detroit News)",
+          "url": "https://www.detroitnews.com/story/news/world/2026/11/03/iran-us-still-far-apart-deal-end-war-as-qatar-pushes-mediation/92586714007/",
+          "data": "2026-11-03",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Union Leader (Reuters)",
+          "url": "https://www.unionleader.com/news/nation-world/update-7-iran-us-still-far-apart-on-deal-to-end-war-as-qatar-pushes-mediation-66dd5074",
           "data": "2026-11-04",
           "confiavel": false
         },
         {
-          "veiculo": "Reuters (via Business Recorder)",
-          "url": "https://www.brecorder.com/news/40447390/iran-us-still-far-apart-on-deal-trump-says-ready-but-in-no-hurry-for-strikes",
-          "data": "2026-11-04",
-          "confiavel": false
-        },
-        {
-          "veiculo": "CBS News",
-          "url": "https://cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz",
-          "data": "2026-11-04",
+          "veiculo": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/trump-weighs-iran-strikes-or-deal-after-midterm-loss-as-vance-urges-agreement-qatar-mediates-brent-oil-falls-to-93-1.500736556",
+          "data": "2026-11-05",
           "confiavel": false
         }
       ],
       "fonte_de_primeira_linha": false
     },
     {
-      "titulo": "Brent despenca cerca de 9% em 4/11 com apostas em acordo EUA-Irã e fica perto de US$ 94",
+      "titulo": "Brent cai cerca de 9% em 4/11, a US$ 94,62, após eleições nos EUA e apostas em acordo",
       "regiao": "Global",
       "status": "fato confirmado",
       "data": "2026-11-04",
-      "resumo": "O Brent caiu cerca de 9% na quarta-feira, depois das eleições nos EUA, com o mercado apostando que o resultado empurra Trump para um acordo e a reabertura de Ormuz. Na manhã de 5/11 o contrato negociava perto de US$ 94 (as cotações variam por fonte e contrato). A faixa de 52 semanas vai de US$ 58,72 a cerca de US$ 126. A IEA alertou que a escassez global de gás pode durar até 2027.",
-      "canal_brasil": "Queda do petróleo alivia pressão sobre combustíveis e IPCA e pode reduzir o prêmio de risco, mas o nível segue elevado frente ao último ano. Afeta receita de exportação de petróleo, Petrobras e a conta de importação de diesel.",
+      "resumo": "O Brent fechou 8,7% mais baixo, a US$ 94,62 por barril, na quarta-feira, segundo a Rigzone. O recuo veio depois da vitória democrata no Congresso e da aposta de que Trump buscará encerrar o conflito com o Irã. O Saxo Bank cita o petróleo acima de US$ 117 na semana anterior. Segundo a Oilprice.com, o WTI caiu 8%, a cerca de US$ 87. Na quinta-feira (5/11) o Brent oscilava entre US$ 94 e US$ 96.",
+      "canal_brasil": "Energia e inflação: o preço mais baixo reduz a pressão sobre combustíveis e sobre o IPCA e alivia o componente de Energia do Termômetro. A volatilidade continua alta e depende de Hormuz e do Irã.",
       "relevancia": 5,
       "fontes": [
         {
-          "veiculo": "OilPrice.com",
+          "veiculo": "Rigzone",
+          "url": "https://www.rigzone.com/news/oil_prices_tumble_after_midterms-05-nov-2026-185014-article/",
+          "data": "2026-11-05",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Oilprice.com",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Continue-to-Fall-as-Democratic-Sweep-Shakes-Energy-Markets.html",
           "data": "2026-11-05",
           "confiavel": false
@@ -110,27 +56,21 @@
           "url": "https://financefeeds.com/brent-crude-oil-price-94-thursday-after-9-percent-crash-us-iran-deal-bets-bull-100-bear-90/",
           "data": "2026-11-05",
           "confiavel": false
-        },
-        {
-          "veiculo": "Investing.com",
-          "url": "https://www.investing.com/commodities/brent-oil",
-          "data": "2026-11-05",
-          "confiavel": false
         }
       ],
       "fonte_de_primeira_linha": false
     },
     {
-      "titulo": "Copom surpreende e mantém Selic em 13,75%, interrompendo cinco cortes seguidos",
+      "titulo": "Copom mantém Selic em 13,75% por unanimidade e interrompe cinco cortes seguidos",
       "regiao": "Américas",
       "status": "fato confirmado",
       "data": "2026-11-04",
-      "resumo": "O Copom decidiu por unanimidade manter a Selic em 13,75% ao ano, interrompendo a sequência de cinco cortes de 0,25 ponto iniciada em março. A pesquisa Broadcast mostrava mercado dividido (39 casas viam corte, 36 manutenção). Uma fonte informa que o BC elevou a projeção de inflação de 2026 para 5,6%, e o Focus passou a indicar Selic de 13,50% no fim do ano. A ata sai em 10/11 e a próxima reunião é em 8 e 9/12.",
-      "canal_brasil": "Impacto direto em crédito, custo da dívida pública e expectativas de inflação. A pausa reflete câmbio mais fraco, incerteza fiscal e petróleo alto.",
+      "resumo": "O Copom manteve a Selic em 13,75% ao ano na 282ª reunião, por decisão unânime dos sete membros. Foi a primeira pausa desde que os cortes de 0,25 ponto começaram, em março. A mediana do mercado apostava em corte, mas a pesquisa Broadcast estava dividida (39 casas a 13,50% e 36 em manutenção). Uma fonte secundária diz que o Copom elevou a projeção de inflação de 2026 para 5,6%. A ata sai em 10/11 e a próxima reunião é em 8 e 9/12.",
+      "canal_brasil": "Selic e inflação: é o canal direto. A pausa vem depois da reeleição de Lula, do choque fiscal e cambial e da energia cara. O Focus passou a ver Selic de 13,50% no fim de 2026, ante 13,25% antes.",
       "relevancia": 5,
       "fontes": [
         {
-          "veiculo": "Suno Notícias",
+          "veiculo": "Suno Notícias (comunicado do Copom)",
           "url": "https://www.suno.com.br/noticias/copom-mantem-selic-1375-novembro-2026-go/",
           "data": "2026-11-04",
           "confiavel": false
@@ -140,71 +80,107 @@
           "url": "https://gazetamercantil.com/copom-mantem-selic-1375-novembro-2026",
           "data": "2026-11-04",
           "confiavel": false
+        },
+        {
+          "veiculo": "NC News",
+          "url": "https://ncnews.com.br/2026/11/04/copom-mantem-selic-1375-novembro-2026/",
+          "data": "2026-11-04",
+          "confiavel": false
         }
       ],
       "fonte_de_primeira_linha": false
     },
     {
-      "titulo": "Banco da Inglaterra sobe juros a 4%, primeira alta desde 2023, e prevê inflação perto de 5%",
-      "regiao": "Europa e Eurásia",
+      "titulo": "Ativos brasileiros ainda sob estresse após reeleição de Lula; dólar a R$ 5,45 e Ibovespa a 167,5 mil",
+      "regiao": "Américas",
       "status": "fato confirmado",
-      "data": "2026-11-05",
-      "resumo": "O comitê de política monetária elevou a taxa em 0,25 ponto, de 3,75% para 4%, por 8 votos a 1 (Catherine Mann queria 0,50). O BoE justificou a alta pelo repasse de preços de energia altos e voláteis por causa do conflito no Oriente Médio e projeta inflação de cerca de 5% até meados de 2027. Operadores passaram a apostar em nova alta já em dezembro (reunião de 17/12).",
-      "canal_brasil": "Aperto em economias avançadas por choque de energia mantém juros globais altos, reduz espaço para cortes de juros em emergentes e afeta fluxo de capital e câmbio. Reforça a cautela do Copom.",
-      "relevancia": 4,
+      "data": "2026-11-04",
+      "resumo": "Lula venceu o segundo turno em 25/10 por mais de 4 milhões de votos sobre Flávio Bolsonaro, resultado que o mercado não esperava. Em 26/10 o Ibovespa caiu 13,88% (circuit breaker, maior queda intradiária desde março de 2020) e o dólar tocou R$ 5,6049 na máxima do dia. Os vértices longos da curva de juros passaram de 15%. Em 4/11 o dólar fechou a R$ 5,451 (-0,64%) e o Ibovespa subiu 1,23%, a 167.563 pontos, depois de seis quedas seguidas.",
+      "canal_brasil": "Câmbio, juros longos e inflação: prêmio de risco fiscal elevado encarece o dólar e a dívida pública e limita o BC. O evento central ocorreu há 10 dias, mas seus efeitos dominaram a semana.",
+      "relevancia": 5,
       "fontes": [
         {
-          "veiculo": "Bank of England",
-          "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
-          "data": "2026-11-05",
-          "confiavel": true
-        },
-        {
-          "veiculo": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/bank-of-england-unanimously-hikes-rates-warns-of-4-9-inflation",
-          "data": "2026-11-05",
-          "confiavel": true
-        }
-      ],
-      "fonte_de_primeira_linha": true
-    },
-    {
-      "titulo": "Bombardeio russo a centro de ajuda em Zaporíjia deixa 42 mortos; novo ataque em massa à rede elétrica",
-      "regiao": "Europa e Eurásia",
-      "status": "operação em curso",
-      "data": "2026-11-02",
-      "resumo": "Em 2/11 a Rússia lançou ao menos nove bombas contra uma escola usada para distribuir ajuda em Komyshuvakha, e um abrigo subterrâneo foi atingido em seguida; a polícia confirma 42 mortos e há desaparecidos. Na noite de 2 para 3/11 a Rússia disparou 289 drones, 17 mísseis balísticos e 59 de cruzeiro contra a infraestrutura de energia, e um hospital em Kharkiv foi atingido (73 feridos). A missão de direitos humanos da ONU disse que o ataque provavelmente violou o direito internacional. A Ucrânia segue atacando refinarias russas, entre elas uma em Iaroslavl.",
-      "canal_brasil": "Pressiona o gás europeu e o petróleo, além de fertilizantes e cereais do Mar Negro. Impacta custos do agronegócio, inflação de alimentos e preços de energia importados pelo Brasil.",
-      "relevancia": 4,
-      "fontes": [
-        {
-          "veiculo": "CNN",
-          "url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl",
-          "data": "2026-11-05",
+          "veiculo": "Investing.com Brasil",
+          "url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ibov-derrete-14-com-lula-reeleito-e-temor-de-risco-fiscal-2103345",
+          "data": "2026-10-26",
           "confiavel": false
         },
         {
-          "veiculo": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people",
+          "veiculo": "Metro News",
+          "url": "https://metronews.com.br/dolar-cai-apos-eleicoes-nos-eua-e-ibovespa-se-recupera",
           "data": "2026-11-04",
           "confiavel": false
         },
         {
-          "veiculo": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
-          "data": "2026-11-03",
+          "veiculo": "A Crítica de Campo Grande",
+          "url": "https://acritica.net/economia/dolar-cai-para-r-545-e-bolsa-sobe-123-apos-vitoria-democrata-nos-eua/",
+          "data": "2026-11-04",
           "confiavel": false
         }
       ],
       "fonte_de_primeira_linha": false
     },
     {
-      "titulo": "Fed mantém juros em 3,75%-4,00%; mercado precifica ~73% de alta em dezembro; T-note de 10 anos perto de 5%",
+      "titulo": "Trump avalia novos ataques ao Irã ou acordo após derrota nas eleições de meio de mandato",
+      "regiao": "Oriente Médio",
+      "status": "ameaça ou declaração",
+      "data": "2026-11-04",
+      "resumo": "Segundo o Axios, Trump pondera retomar os ataques, fechar um acordo ou manter a pressão econômica. Ele reconheceu que a guerra contribuiu para a derrota republicana e disse não ter planos imediatos de atacar. A CBS e a Fox relatam que Trump disse que a guerra será encerrada 'muito em breve, de um jeito ou de outro'. Reportagens dizem que Netanyahu pressiona por um ataque, mas isso vem de fontes anônimas.",
+      "canal_brasil": "Risco binário para o petróleo: um acordo derruba o preço e alivia a inflação e os juros. A retomada dos ataques faz o preço subir de novo, pressiona o câmbio e adia cortes da Selic.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Gulf News (cita Axios)",
+          "url": "https://gulfnews.com/world/mena/trump-weighs-iran-strikes-or-deal-after-midterm-loss-as-vance-urges-agreement-qatar-mediates-brent-oil-falls-to-93-1.500736556",
+          "data": "2026-11-05",
+          "confiavel": false
+        },
+        {
+          "veiculo": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+          "data": "2026-11-04",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Democratas conquistam Câmara e Senado nas eleições de meio de mandato dos EUA",
       "regiao": "Américas",
       "status": "fato confirmado",
-      "data": "2026-10-28",
-      "resumo": "O Fed manteve a faixa em 3,75%-4,00% na reunião de 28/10, após alta de 0,25 ponto em setembro. O presidente Warsh manteve tom duro e disse querer mais dados. Mercados de previsão davam cerca de 73% de chance de nova alta em 9/12, e o Treasury de 10 anos estava em torno de 4,97% em 4/11, ante 5,02% em 28/10. O CPI de outubro (10/11) é a última leitura de inflação antes da decisão.",
-      "canal_brasil": "Juros longos americanos perto de 5% elevam o custo de capital global, pressionam o câmbio e a curva de juros brasileira, e limitam a margem do Banco Central para cortar a Selic.",
+      "data": "2026-11-03",
+      "resumo": "Os democratas obtiveram maioria na Câmara e no Senado em 3/11. Trump disse ser 'em grande parte verdade' que a guerra com o Irã contribuiu para a derrota. O Times of Israel descreve um debate sobre usar o controle do orçamento para limitar a guerra. O dólar global enfraqueceu no dia seguinte (DXY a 101,52).",
+      "canal_brasil": "Câmbio: o dólar mais fraco ajudou o real em 4/11. Um Congresso dividido pode mudar a política comercial e a tarifária dos EUA e influencia a trajetória dos juros longos americanos.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Times of Israel",
+          "url": "https://www.timesofisrael.com/",
+          "data": "2026-11-05",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/trump-weighs-iran-strikes-or-deal-after-midterm-loss-as-vance-urges-agreement-qatar-mediates-brent-oil-falls-to-93-1.500736556",
+          "data": "2026-11-05",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Metro News (fechamento do mercado BR)",
+          "url": "https://metronews.com.br/dolar-cai-apos-eleicoes-nos-eua-e-ibovespa-se-recupera",
+          "data": "2026-11-04",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Treasury de 10 anos perto de 5% com apostas de alta de juros do Fed em dezembro",
+      "regiao": "Américas",
+      "status": "fato confirmado",
+      "data": "2026-11-04",
+      "resumo": "O rendimento do Treasury de 10 anos estava em 4,974% em 4/11, ante 5,021% em 28/10. Em 28/10 o Fed manteve os juros em 3,75%-4,00% por 10 votos a 2, com Lisa Cook e Beth Hammack votando por alta de 0,25 ponto. O CPI de setembro subiu a 3,7% ao ano, ante 3,4% em agosto. Os mercados dão de 75% a 85% de chance de alta em 9/12, segundo fontes diferentes. O próximo teste é o CPI de outubro, em 10/11.",
+      "canal_brasil": "Juros e câmbio: Treasuries com yield perto de 5% e Fed possivelmente em alta reduzem o espaço para o BC cortar a Selic e pressionam o real e o prêmio de risco brasileiro. Isso afeta o componente Juros longos do Termômetro.",
       "relevancia": 4,
       "fontes": [
         {
@@ -214,9 +190,9 @@
           "confiavel": false
         },
         {
-          "veiculo": "Trading Economics",
-          "url": "https://tradingeconomics.com/united-states/interest-rate",
-          "data": "2026-11-05",
+          "veiculo": "J.P. Morgan Global Research",
+          "url": "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts",
+          "data": "2026-11-03",
           "confiavel": false
         },
         {
@@ -229,62 +205,80 @@
       "fonte_de_primeira_linha": false
     },
     {
-      "titulo": "Trump anuncia fim de US$ 4 bi/ano em ajuda a Israel após 2026; Netanyahu perdeu maioria",
-      "regiao": "Oriente Médio",
-      "status": "ameaça ou declaração",
-      "data": "2026-11-03",
-      "resumo": "Segundo a Reuters, Trump anunciou de surpresa um entendimento com Netanyahu pelo qual os EUA deixariam de financiar US$ 4 bilhões por ano a Israel depois de 2026, mas continuariam vendendo armas. A AP informa que Netanyahu e aliados perderam a maioria no parlamento nas eleições da semana anterior, e que alguns israelenses temem que ele busque um novo ataque ao Irã. Trump disse ter conversado com Netanyahu sobre a guerra no Irã.",
-      "canal_brasil": "Aumenta a incerteza sobre uma escalada no Oriente Médio, com efeito em petróleo, frete e aversão a risco global. O impacto direto no Brasil passa por energia, câmbio e inflação.",
-      "relevancia": 3,
-      "fontes": [
-        {
-          "veiculo": "Reuters (via The Examiner)",
-          "url": "https://www.examiner.com.au/story/9385895/no-sign-of-iran-us-deal-as-trump-wavers-on-new-strikes/",
-          "data": "2026-11-04",
-          "confiavel": false
-        },
-        {
-          "veiculo": "AP (via News4Jax)",
-          "url": "https://www.news4jax.com/business/2026/11/01/israeli-strike-kills-boy-in-gaza-as-qataris-say-vessel-struck-in-gulf-and-other-mideast-news/",
-          "data": "2026-11-01",
-          "confiavel": false
-        }
-      ],
-      "fonte_de_primeira_linha": false
-    },
-    {
-      "titulo": "Israel mata 8 em Gaza em meio à trégua; navio catari é atingido no Golfo e Iêmen escala",
-      "regiao": "Oriente Médio",
-      "status": "fato confirmado",
-      "data": "2026-11-01",
-      "resumo": "Ataques israelenses em Gaza mataram oito pessoas em 1/11; o Ministério da Saúde de Gaza contabiliza mais de 1.570 mortos desde o início da trégua e mais de 74.500 no total. Uma empresa de navegação catari informou que um navio foi atingido no Golfo Pérsico, sem apontar autoria. A AP relata que os combates entre houthis e forças apoiadas pela Arábia Saudita no Iêmen escalaram, com ataques repetidos a Hodeida. O Irã classificou a marinha e a força aérea britânicas como organizações terroristas.",
-      "canal_brasil": "Ataques a navios e ao porto de Hodeida elevam fretes e seguros marítimos e sustentam o prêmio de risco do petróleo, com reflexo em combustíveis e inflação.",
-      "relevancia": 3,
-      "fontes": [
-        {
-          "veiculo": "AP (via KSAT)",
-          "url": "https://www.ksat.com/business/2026/11/01/israeli-strike-kills-boy-in-gaza-as-qataris-say-vessel-struck-in-gulf-and-other-mideast-news/",
-          "data": "2026-11-01",
-          "confiavel": false
-        },
-        {
-          "veiculo": "AP (via News4Jax)",
-          "url": "https://www.news4jax.com/business/2026/11/01/israeli-strike-kills-boy-in-gaza-as-qataris-say-vessel-struck-in-gulf-and-other-mideast-news/",
-          "data": "2026-11-01",
-          "confiavel": false
-        }
-      ],
-      "fonte_de_primeira_linha": false
-    },
-    {
-      "titulo": "RSF toma base de Sali, e Etiópia expulsa seis diplomatas sudaneses",
-      "regiao": "África",
+      "titulo": "Rússia lança ataque em massa à rede elétrica ucraniana; bombardeio de centro de ajuda deixa 42 mortos",
+      "regiao": "Europa e Eurásia",
       "status": "operação em curso",
-      "data": "2026-11-04",
-      "resumo": "Segundo o Sudans Post, a RSF e milícias aliadas tomaram a base militar de Sali em 3/11, na ofensiva em Nilo Azul. Em 4/11 a Etiópia ordenou a saída de seis diplomatas sudaneses, depois que o Sudão denunciou o país ao Conselho de Segurança da ONU e à União Africana, acusando-o de abrigar locais de lançamento de drones da RSF. O Crisis Group registrou em outubro acusações de Egito e Sudão à Etiópia e alerta de fome em Darfur e Kordofan. Exército e RSF negam responsabilidade por ataques a alvos civis e da ONU.",
-      "canal_brasil": "Efeito indireto: risco de fome e fluxos de refugiados, instabilidade no Chifre da África e no Mar Vermelho (frete e seguros) e sobre commodities como ouro e goma arábica. Impacto direto no Brasil é pequeno.",
-      "relevancia": 2,
+      "data": "2026-11-03",
+      "resumo": "Segundo Zelensky, a Rússia lançou na madrugada de 3/11 289 drones, 17 mísseis balísticos e 59 de cruzeiro. Segundo o ministério de energia ucraniano, instalações em 10 regiões foram atingidas. Um hospital em Kharkiv foi atingido, com ao menos 73 feridos. O bombardeio de uma escola usada como centro de ajuda em Zaporíjia deixou 42 mortos confirmados pela polícia. A Rússia diz que mirou alvos militares. A Ucrânia atacou a refinaria de Ryazan em 5/11 e matou três pessoas em Belgorod em 4/11.",
+      "canal_brasil": "Energia e agro: ataques a refinarias russas e à energia ucraniana afetam diesel e derivados e o frete no Mar Negro. A guerra também pesa sobre trigo, milho e fertilizantes, mas nada confirma ainda mudança de preço desses itens esta semana.",
+      "relevancia": 4,
       "fontes": [
+        {
+          "veiculo": "Al Jazeera (Reuters)",
+          "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
+          "data": "2026-11-03",
+          "confiavel": false
+        },
+        {
+          "veiculo": "CNN",
+          "url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl",
+          "data": "2026-11-05",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan",
+          "data": "2026-11-05",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Bank of England sobe juros a 4%, primeira alta desde 2023, por choque de energia",
+      "regiao": "Europa e Eurásia",
+      "status": "fato confirmado",
+      "data": "2026-11-05",
+      "resumo": "O MPC votou 8 a 1 para elevar a Bank Rate em 0,25 ponto, a 4%. Catherine Mann votou por alta de 0,5 ponto. O BoE justifica a decisão pela pressão inflacionária vinda dos preços de energia, mantidos altos e voláteis pelo conflito no Oriente Médio. Projeta inflação perto de 5% em meados de 2027. A inflação atual é de 3,5%.",
+      "canal_brasil": "Juros globais e câmbio: mais um grande BC do G10 endurece por causa da energia, o que reforça a restrição externa à queda da Selic e o dólar global.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+          "data": "2026-11-05",
+          "confiavel": true
+        },
+        {
+          "veiculo": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
+          "data": "2026-11-05",
+          "confiavel": true
+        },
+        {
+          "veiculo": "Trading Economics",
+          "url": "https://tradingeconomics.com/united-kingdom/interest-rate",
+          "data": "2026-11-05",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "Etiópia e Sudão fecham consulados e expulsam diplomatas; temor de guerra regional no Chifre",
+      "regiao": "África",
+      "status": "fato confirmado",
+      "data": "2026-11-04",
+      "resumo": "O Sudão acusa a Etiópia de permitir que as RSF usem seu território para lançar drones suicidas, e apresentou queixa ao Conselho de Segurança da ONU e à União Africana. Segundo a Reuters, o Sudão fechou o consulado etíope em Gedaref e a Etiópia respondeu fechando o sudanês e expulsando seis diplomatas. A Etiópia acusa o Sudão de apoiar combatentes em Tigré. Ambos negam. Fontes locais relatam que as RSF teriam tomado a base de Sali, em Nilo Azul (a confirmar), e o preço do pão em Cartum dobrou em uma semana.",
+      "canal_brasil": "Canal indireto e fraco: risco para a navegação no Mar Vermelho, para a segurança alimentar regional e para o prêmio de risco geopolítico. Sem efeito direto mensurável sobre o Brasil.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "Times Live (Reuters)",
+          "url": "https://timeslive.co.za/news/africa/2026-11-05-ethiopia-and-sudan-close-each-others-consulates-after-allegations-of-meddling-in-civil-war",
+          "data": "2026-11-05",
+          "confiavel": false
+        },
         {
           "veiculo": "CFR Global Conflict Tracker",
           "url": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan",
@@ -292,90 +286,72 @@
           "confiavel": true
         },
         {
-          "veiculo": "Sudan Tribune",
-          "url": "https://sudantribune.com/article/320921",
+          "veiculo": "EEPA Situation Report",
+          "url": "https://martinplaut.com/2026/11/05/eepa-situation-report-horn-of-africa-no-777-5-november-2026",
           "data": "2026-11-05",
           "confiavel": false
-        },
-        {
-          "veiculo": "International Crisis Group",
-          "url": "https://www.crisisgroup.org/africa/horn-africa/sudan",
-          "data": "2026-10",
-          "confiavel": true
         }
       ],
       "fonte_de_primeira_linha": true
     },
     {
-      "titulo": "Japão e Taiwan avançam em acordo comercial amplo, que pode ser assinado até o fim do ano",
-      "regiao": "Ásia e Pacífico",
+      "titulo": "EUA convocam reunião com Rússia e Ucrânia em Abu Dhabi na próxima semana",
+      "regiao": "Europa e Eurásia",
       "status": "negociação",
-      "data": "2026-11-02",
-      "resumo": "O Nikkei Asia, citando duas fontes, informa que Japão e Taiwan negociam um acordo econômico amplo nos moldes do pacto Taiwan-Reino Unido de 2023, com cinco áreas (resiliência econômica, redução de risco de desastres, comércio digital, facilitação de comércio, sustentabilidade). O chanceler taiwanês Lin Chia-lung saudou a possibilidade. O formato busca minimizar a sensibilidade política diante da pressão da China. Não há assinatura confirmada.",
-      "canal_brasil": "Sinaliza fragmentação das cadeias de semicondutores e mais tensão no Estreito de Taiwan, com risco para suprimento de eletrônicos e para a demanda chinesa por commodities brasileiras (soja, minério, petróleo).",
-      "relevancia": 2,
+      "data": "2026-11-03",
+      "resumo": "O enviado dos EUA Steve Witkoff disse que as conversas tratarão de arranjos de segurança pós-guerra, desescalada, ajuda humanitária e próximos passos para a paz. O Kremlin espera que Trump mantenha seus esforços de paz depois da vitória democrata. Trump pede um cessar-fogo energético, mas a Rússia seguiu atacando a infraestrutura de energia.",
+      "canal_brasil": "Um avanço reduziria o prêmio de risco em energia e grãos. A ausência de resultado mantém petróleo, diesel e fertilizantes sob pressão. Impacto indireto e incerto.",
+      "relevancia": 3,
       "fontes": [
         {
-          "veiculo": "Nikkei Asia",
-          "url": "https://asia.nikkei.com/economy/trade/taiwan-and-japan-eye-trade-deal-akin-to-taipei-london-pact-sources-say",
-          "data": "2026-11-02",
-          "confiavel": true
+          "veiculo": "Al Jazeera (Reuters)",
+          "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
+          "data": "2026-11-03",
+          "confiavel": false
         },
         {
-          "veiculo": "Taipei Times",
-          "url": "https://www.taipeitimes.com/News/front/archives/2026/11/02/2003867027",
-          "data": "2026-11-02",
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region",
+          "data": "2026-11-04",
           "confiavel": false
         }
       ],
-      "fonte_de_primeira_linha": true
+      "fonte_de_primeira_linha": false
     }
   ],
   "agenda": [
     {
       "data": "2026-11-05",
-      "evento": "Reunião na Casa Branca com representantes de Rússia e Ucrânia, anunciada pelo gabinete de Trump (CNN)",
-      "por_que_importa": "Pode sinalizar avanço ou não em cessar-fogo energético, relevante para gás europeu, petróleo e grãos. Pauta e resultado não verificados.",
-      "url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl"
+      "evento": "Resposta dos EUA e do Irã ao rascunho de acordo mediado pelo Catar (prazo informal)",
+      "por_que_importa": "Um oficial disse que o retorno de Washington e Teerã era esperado em cerca de 36 horas após 3/11. O Irã afirma não haver prazo. Define se Trump retoma os ataques ou fecha acordo interino, com efeito direto sobre o Brent.",
+      "url": "https://www.unionleader.com/news/nation-world/update-7-iran-us-still-far-apart-on-deal-to-end-war-as-qatar-pushes-mediation-66dd5074"
     },
     {
       "data": "2026-11-06",
-      "evento": "EUA: relatório de emprego (payroll) de outubro, do BLS",
-      "por_que_importa": "Entra na decisão do Fed de 9/12, com alta precificada em torno de 73%, e afeta juros longos americanos e câmbio.",
+      "evento": "EUA: relatório de emprego de outubro (BLS)",
+      "por_que_importa": "Entra na avaliação do Fed sobre a alta de juros de dezembro e move os juros longos e o dólar.",
       "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
     },
     {
-      "data": "2026-11-06",
-      "evento": "Prazo informal para respostas de Washington e Teerã à proposta de reabertura de Ormuz (feedback esperado em ~36h a partir de 4/11, segundo a Reuters)",
-      "por_que_importa": "Define a direção do petróleo, hoje perto de US$ 94 após queda de 9%, e o risco de retomada de ataques dos EUA ao Irã.",
-      "url": "https://bworldonline.com/world/2026/11/04/791441/iran-us-still-far-apart-on-deal-trump-says-ready-but-in-no-hurry-for-strikes/"
-    },
-    {
-      "data": "2026-11-06",
-      "evento": "EUA: apuração final das disputas do Senado no Alasca e no Mississippi (diferença de 65 votos no Mississippi)",
-      "por_que_importa": "Define o tamanho da maioria democrata no Senado, que afeta a capacidade do Congresso de limitar a guerra no Irã e a política tarifária.",
-      "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+      "data": "2026-11-09",
+      "evento": "Reunião EUA-Rússia-Ucrânia em Abu Dhabi (semana de 9/11; data exata não confirmada)",
+      "por_que_importa": "Primeira rodada anunciada sobre arranjos de segurança pós-guerra e desescalada, com os ataques à energia em curso.",
+      "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants"
     },
     {
       "data": "2026-11-10",
-      "evento": "EUA: CPI de outubro, do BLS",
-      "por_que_importa": "Última leitura de inflação antes da decisão do Fed de 9/12 e teste para a tese de alta de juros, com efeito em Treasuries, dólar global e juros no Brasil.",
+      "evento": "EUA: CPI de outubro (BLS)",
+      "por_que_importa": "Último dado de inflação antes da decisão do Fed em 9/12. O CPI de setembro foi de 3,7%. É o teste das apostas de alta de juros.",
       "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
     },
     {
       "data": "2026-11-10",
-      "evento": "Brasil: ata do Copom (reunião de 3 e 4/11), do Banco Central",
-      "por_que_importa": "Detalha por que o BC pausou a Selic em 13,75% e o que sinaliza para dezembro (reunião de 8 e 9/12), com impacto em juros futuros e câmbio.",
+      "evento": "Brasil: ata do Copom da reunião de 3 e 4/11",
+      "por_que_importa": "Detalha por que o Banco Central pausou a Selic em 13,75% e indica o rumo para a reunião de 8 e 9/12.",
       "url": "https://www.bcb.gov.br/publicacoes/atascopom"
-    },
-    {
-      "data": "2026-11-10",
-      "evento": "Brasil: IPCA de outubro, do IBGE (data a confirmar no calendário oficial)",
-      "por_que_importa": "Mostra o repasse de câmbio e energia à inflação e alimenta a expectativa para a Selic em dezembro.",
-      "url": "https://www.ibge.gov.br/calendario-indicadores-novos.html"
     }
   ],
-  "observacoes": "1) Brent: as cotações divergem por fonte e contrato. OilPrice.com e FinanceFeeds mostram ~US$ 94 em 5/11 após queda de ~9%; Investing.com mostrava ~US$ 96,35 e o oilpriceapi ~US$ 96,11; o oilpriceapi dá fechamento de US$ 100,34 em 4/11 e US$ 116,09 em 30/10, e o Dealplexus US$ 99,30 em 4/11. Trate o nível exato com cautela; a direção (queda forte em 4/11) é consistente. 2) BoE: a manchete da Bloomberg diz 'unanimemente', mas o corpo do texto, o BoE e outras fontes indicam 8 votos a 1; usei 8-1. 3) Copom: não consegui abrir o comunicado oficial do BCB; a decisão (13,75%, unânime) vem de várias fontes secundárias (Suno, Gazeta Mercantil, outras). A projeção de inflação de 5,6% para 2026 aparece só na Gazeta Mercantil, então confirme no comunicado. A data de divulgação do IPCA de outubro não foi verificada. 4) Fed: a decisão de 28/10 está 8 dias fora da janela, incluída pelo contexto de juros longos. Os detalhes do placar (10-2, com Cook e Hammack votando por alta) vêm só do Rio Times; as probabilidades de alta em dezembro vêm de mercados de previsão (Polymarket e Kalshi), não de contratos de juros. 5) Dólar e eleição brasileira (Lula reeleito em 25/10): o fato é anterior à janela de 7 dias, mas o dólar a R$ 5,446 em 30/10 e a reação de preços no agro seguem em curso. 6) Anúncio de fim de ajuda dos EUA a Israel (US$ 4 bi/ano após 2026): só localizei a Reuters via republicação, sem confirmação oficial; a data das eleições israelenses não foi confirmada (a AP diz 'semana passada'). 7) Zaporíjia: o número de mortos subiu de 26 e 31 para 40 e depois 42 (polícia, via CNN); pode aumentar, com dezenas de desaparecidos. A reunião na Casa Branca com russos e ucranianos vem de um anúncio do gabinete de Trump, sem confirmação de participantes ou resultado. 8) Taiwan-Japão: baseado em fontes anônimas do Nikkei, ainda sem confirmação oficial. 9) EUA-China: o prazo original da suspensão das tarifas 'recíprocas' elevadas era 10/11/2026, mas a Al Jazeera e o Tesouro dos EUA indicam prorrogação da trégua em setembro, e uma fonte cita 10/01/2027 como fim do arranjo; por isso 10/11 não entrou na agenda. Confirme em fonte oficial. 10) Lacunas de cobertura (limite de buscas): não pesquisei BCE, Sahel e África Ocidental, Coreia, Índia-Paquistão, Venezuela e outros países latino-americanos, OPEC+, gás europeu (TTF) e China (PMI, tarifas). Não são regiões 'sem novidade': apenas não verificadas; por isso o campo regioes_sem_novidade ficou vazio. Também não encontrei fonte de primeira linha para Ásia-Pacífico além do Nikkei.",
+  "observacoes": "Lacunas: (1) Ásia e Pacífico: as buscas só devolveram material de 2025 e início de 2026 sobre tarifas e Taiwan. Nada da última semana foi verificado, e uma manchete sem data sugere que o BoJ manteve os juros. Isso é uma lacuna de cobertura, não ausência de notícias. China, Índia, Japão e Taiwan precisam de nova varredura. (2) Zona do euro, BCE, Sahel e RDC não foram pesquisados. Havia só um item pontual sobre rebeldes na RDC. Israel/Gaza apareceu em fontes sem data confiável, por isso foi omitido (há relatos de ataques israelenses em Gaza com mortes e impasse após a eleição israelense). Venezuela: o último dado confiável é de outubro (Machado voltou em 25/10), fora da janela. Divergências: o preço do Brent varia entre fontes por contrato e horário (US$ 94,62 de fechamento em 4/11 contra US$ 93,52 do contrato de janeiro/27). A máxima anterior aparece como US$ 113 a US$ 117 conforme a fonte. Alta do Fed em dezembro: Polymarket 74,5% (Rio Times) contra cerca de 85% nos futuros após a reunião (AvailInvest); a página da J.P. Morgan traz projeções contraditórias (alta em dezembro e manutenção até o fim do ano). A projeção de inflação de 5,6% do Copom vem de uma fonte secundária e não foi conferida no comunicado do BC. O evento da eleição brasileira ocorreu em 25 e 26/10, fora da janela de 7 dias, e foi incluído por seus efeitos. A manchete da Infomoney e a de outro site citam quedas e máximas do dólar diferentes (R$ 5,40 a R$ 5,60); usei o Investing.com. A afirmação de que o dólar 'apagou todo o ganho do ano' veio de blog e não foi usada. Os relatos de que Trump 'não atacará' e de que prepara ataques coexistem, por isso o status é 'ameaça ou declaração'. A tomada da base de Sali pelas RSF vem de uma fonte única (Sudans Post), portanto não confirmada. Mencionado só por manchete, sem verificação: alerta da AIE de crise de gás até 2027 e aumento da segurança na fronteira polonesa com a Rússia. Os links de agenda do BLS e do BCB são páginas oficiais padrão que não retornaram nas buscas, e as datas vêm de calendários secundários (Market Daily, Gazeta Mercantil). A reunião de Abu Dhabi está marcada só como 'próxima semana'. O trecho da CNN sobre a Casa Branca receber russos e ucranianos na quinta-feira é confuso e não foi registrado.\"",
   "descartados": [],
   "modo": "claude (claude-sonnet-5-5)"
 }
