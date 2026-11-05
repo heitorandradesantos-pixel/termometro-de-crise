@@ -1,0 +1,119 @@
+{
+  "aprovado": true,
+  "palavras": 991,
+  "checagens": [
+    {
+      "regra": "Aviso legal presente",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": true
+    },
+    {
+      "regra": "Seções completas e na ordem",
+      "ok": true,
+      "detalhe": "faltando: ",
+      "bloqueia": true
+    },
+    {
+      "regra": "Nada pendente",
+      "ok": true,
+      "detalhe": "a edição ainda tem trechos PENDENTE",
+      "bloqueia": true
+    },
+    {
+      "regra": "Número e nível do Termômetro corretos",
+      "ok": true,
+      "detalhe": "no texto: [59]; válidos: [27, 36, 38, 53, 59, 76, 88, 89, 91, 94, 96]",
+      "bloqueia": true
+    },
+    {
+      "regra": "Sem recomendação, promessa ou alarmismo",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": true
+    },
+    {
+      "regra": "Todo link veio da pesquisa do Buscador",
+      "ok": true,
+      "detalhe": "fora do dossiê: ",
+      "bloqueia": true
+    },
+    {
+      "regra": "Cada risco com fonte",
+      "ok": true,
+      "detalhe": "menos de 3 links nos riscos",
+      "bloqueia": true
+    },
+    {
+      "regra": "Tamanho entre 400 e 1.300 palavras",
+      "ok": true,
+      "detalhe": "991 palavras",
+      "bloqueia": true
+    },
+    {
+      "regra": "Copy sem linguagem proibida",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": true
+    },
+    {
+      "regra": "Fontes de primeira linha",
+      "ok": false,
+      "detalhe": "conferir: https://bworldonline.com/world/2026/11/04/791441/iran-us-still-far-apart-on-deal-trump-says-ready-but-in-no-hurry-for-strikes/, https://www.brecorder.com/news/40447390/iran-us-still-far-apart-on-deal-trump-says-ready-but-in-no-hurry-for-strikes",
+      "bloqueia": false
+    },
+    {
+      "regra": "Copy sem ajustes automáticos",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": false
+    }
+  ],
+  "agentes": [
+    {
+      "agente": "Analista",
+      "segundos": 0.2,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Arte: gráfico histórico",
+      "segundos": 0.2,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Buscador",
+      "segundos": 104.9,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Redator",
+      "segundos": 32.3,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Copy",
+      "segundos": 16.9,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Arte: card das redes",
+      "segundos": 0.1,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Revisor",
+      "segundos": 0.0,
+      "ok": true,
+      "erro": null
+    }
+  ],
+  "modo_redator": "claude (claude-sonnet-5-5)",
+  "modo_buscador": "claude (claude-sonnet-5-5)",
+  "modo_copy": "claude (claude-sonnet-5-5)"
+}
