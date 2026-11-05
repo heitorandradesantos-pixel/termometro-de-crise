@@ -1,0 +1,84 @@
+name: Edição semanal
+
+# Todo domingo de manhã os agentes montam a edição e abrem um pedido de aprovação
+# (Pull Request). Com a variável AUTOMATICO=sim, edições aprovadas pelo Revisor
+# vão direto para publicação, sem esperar você.
+on:
+  schedule:
+    - cron: "17 10 * * 0" # domingo, 07:17 em Brasília (minuto quebrado evita a fila das horas cheias)
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data da edição (AAAA-MM-DD). Em branco = hoje"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: edicao-semanal
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SITE_URL: ${{ vars.SITE_URL }}
+      MODELO_CLAUDE: ${{ vars.MODELO_CLAUDE }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter
+          pip install -q -r requirements.txt
+
+      - name: Agente Coletor (dados de mercado)
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python rodar.py --so-coleta
+
+      - name: Testes (método e agentes)
+        env:
+          DADOS_DIR: dados
+        run: python -m pytest -q
+
+      - name: Agentes Analista, Buscador, Redator, Copy, Arte e Revisor
+        id: agentes
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DATA_EDICAO: ${{ inputs.data }}
+        run: python rodar.py --sem-coleta ${DATA_EDICAO:+--data "$DATA_EDICAO"}
+
+      - name: Entregar (publicar ou pedir aprovação)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AUTOMATICO: ${{ vars.AUTOMATICO }}
+          DATA: ${{ steps.agentes.outputs.data }}
+          APROVADO: ${{ steps.agentes.outputs.aprovado }}
+        run: |
+          git config user.name "termometro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "$AUTOMATICO" = "sim" ] && [ "$APROVADO" = "sim" ]; then
+            git add edicoes
+            git commit -m "Edição de $DATA (aprovada pelo Revisor)"
+            git push
+            gh workflow run publicar.yml --ref "$GITHUB_REF_NAME"
+          else
+            RAMO="edicao-$DATA"
+            git switch -c "$RAMO"
+            git add edicoes
+            git commit -m "Edição de $DATA"
+            git push --force -u origin "$RAMO"
+            gh pr create --base "$GITHUB_REF_NAME" --head "$RAMO" \
+              --title "Edição de $DATA: aprovar?" --body-file "edicoes/$DATA/resumo_pr.md" \
+              || gh pr edit "$RAMO" --body-file "edicoes/$DATA/resumo_pr.md"
+          fi

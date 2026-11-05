@@ -1,0 +1,6 @@
+pandas>=2.2
+requests>=2.31
+matplotlib>=3.8
+markdown>=3.5
+anthropic>=0.60
+pytest>=8
