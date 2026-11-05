@@ -44,8 +44,10 @@ Regras:
 4. Linguagem simples, frases curtas, sem jargão. Nada de previsão, recomendação de investimento,
    promessa de ganho ou alarmismo. Neutralidade política: descreva o que governos e partidos fizeram,
    sem opinar.
-5. Datas reais do acontecimento, no formato AAAA-MM-DD.
+5. No campo "data", a data real do acontecimento no formato AAAA-MM-DD. Nos textos, escreva datas como
+   o leitor fala: "5/11" ou "5 de novembro".
 Ao terminar, chame a ferramenta registrar_regiao uma única vez."""
+SISTEMA += config.manual('pesquisa', 'redacao')
 
 
 def ferramenta(paises: list[str]) -> dict:
@@ -128,8 +130,13 @@ def _limpo(url: str) -> str:
     return re.sub(r"[#?].*$", "", url.strip()).rstrip("/").replace("://www.", "://").lower()
 
 
+def datas_br(texto: str) -> str:
+    """2026-11-05 → 5/11 (o leitor não lê data no formato de banco de dados)."""
+    return re.sub(r"\b20\d\d-(\d\d)-(\d\d)\b", lambda m: f"{int(m.group(2))}/{m.group(1)}", texto)
+
+
 def _cortar(texto: str, limite: int) -> str:
-    texto = " ".join(str(texto or "").split())
+    texto = datas_br(" ".join(str(texto or "").split()))
     if len(texto) <= limite:
         return texto
     corte = texto[:limite]

@@ -27,15 +27,18 @@ body{{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.6 'IBM Ple
 a{{color:#7CC3E0}}a:hover{{color:#A9DAEE}}
 .topo,.conteudo,.rodape{{max-width:1080px;margin:0 auto;padding:0 20px}}
 .topo{{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--linha)}}
-.marca{{font:600 15px 'Space Grotesk',sans-serif;letter-spacing:.14em;color:var(--texto);text-decoration:none}}
-.topo nav a{{margin-left:20px;color:var(--suave);text-decoration:none;font-size:14px}}
+.marca{{font:600 15px 'Space Grotesk',sans-serif;letter-spacing:.14em;color:var(--texto);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}}
+.topo nav a{{margin-left:12px;padding:0 6px;display:inline-flex;align-items:center;min-height:44px;color:var(--suave);text-decoration:none;font-size:14px}}
+.pular{{position:absolute;left:-9999px;top:8px}}.pular:focus{{left:16px;z-index:10;background:var(--texto);color:var(--fundo);padding:10px 14px;border-radius:8px;font-weight:600}}
+.sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
+a:focus-visible,button:focus-visible{{outline:3px solid #7CC3E0;outline-offset:2px;border-radius:4px}}
 .topo nav a:hover{{color:var(--texto)}}
 h1,h2,h3{{font-family:'Space Grotesk',sans-serif;font-weight:600;line-height:1.2}}
 .heroi{{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center;padding:48px 0}}
 .medidor{{text-align:center}}
 .medidor svg{{width:100%;max-width:520px;height:auto}}
 .valor{{font:700 104px/1 'Space Grotesk',sans-serif;margin-top:-8px}}
-.nivel{{font:600 22px 'Space Grotesk',sans-serif;letter-spacing:.2em;margin-top:8px}}
+.nivel{{font:700 22px 'Space Grotesk',sans-serif;letter-spacing:.2em;margin-top:8px}}
 .rotulo{{font-size:13px;font-weight:600;letter-spacing:.16em;color:var(--suave)}}
 .heroi h1{{font-size:34px;margin:10px 0 16px}}
 .suave{{color:var(--suave)}}
@@ -60,7 +63,7 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .anuncio{{margin:32px 0;min-height:90px}}
 .abertura{{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:28px;align-items:start;padding:28px 0 12px}}
 .global{{background:var(--painel);border-radius:18px;padding:20px 20px 16px;text-align:center}}
-.global svg{{width:100%;max-width:290px;height:auto}}.global .valor{{font-size:72px;margin-top:-4px}}.global .nivel{{font-size:18px}}
+.global svg{{width:100%;max-width:290px;height:auto}}.global .valor{{font-size:72px;margin-top:-4px}}.global .nivel{{font-size:19px}}
 .global p{{margin:10px 0 0;font-size:15px}}.abertura h1{{font-size:28px;margin:0 0 6px}}
 .legenda{{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:12px;font-size:13px;color:var(--suave)}}
 .legenda i{{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}}
@@ -68,17 +71,17 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .mapa{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;grid-template-areas:"na eu as" "la af me"}}
 .regiao{{position:relative;display:flex;flex-direction:column;gap:8px;background:var(--painel);border-radius:14px;padding:16px;color:var(--texto);text-decoration:none;border-top:6px solid}}
 .regiao:hover{{outline:1px solid #34485A}}.regiao .cabeca{{display:flex;flex-direction:column;gap:8px;color:var(--texto);text-decoration:none}}
-.regiao .cabeca::after{{content:"";position:absolute;inset:0}}.regiao .paises a{{position:relative;z-index:1;color:var(--suave);text-decoration:underline dotted;text-underline-offset:3px}}
+.regiao .cabeca::after{{content:"";position:absolute;inset:0}}.regiao .paises a{{position:relative;z-index:1;display:inline-block;padding:4px 0;color:var(--suave);text-decoration:underline dotted;text-underline-offset:3px}}
 .regiao .paises a:hover{{color:var(--texto)}}.regiao .mais{{font-size:13px;color:#7CC3E0}}
 .manchetes{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}.manchete{{background:var(--painel);border-radius:14px;padding:16px;border-left:4px solid var(--linha)}}
 .manchete h3{{font-size:16px;margin:6px 0}}.manchete p{{margin:4px 0;font-size:14px;color:var(--suave)}}.manchete .meta{{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:var(--suave)}}
-.manchete .tag{{border:1px solid var(--linha);border-radius:6px;padding:1px 7px;color:var(--suave);text-decoration:none}}.fontes{{font-size:13px}}.fontes a{{margin-right:10px}}
+.manchete .tag{{border:1px solid var(--linha);border-radius:6px;padding:4px 8px;display:inline-block;color:var(--suave);text-decoration:none}}.fontes{{font-size:13px}}.fontes a{{margin-right:10px;display:inline-block;padding:4px 0}}
 .zap{{background:#25D366;color:#0E141B}}.faixa-zap{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;background:#0B1F17;border:1px solid #1F4D3A;border-radius:14px;padding:16px 18px;margin:24px 0}}
 .regiao .v{{font:700 34px/1 'Space Grotesk',sans-serif}}.chip{{font-size:13px;font-weight:600;color:#0E141B;border-radius:6px;padding:2px 8px}}
 .paises{{font-size:13px;color:var(--suave)}}
 .rodape{{padding-top:32px;padding-bottom:48px;border-top:1px solid var(--linha);margin-top:48px;font-size:13px;color:var(--suave)}}
-@media (max-width:760px){{.abertura{{grid-template-columns:1fr;gap:18px;padding:18px 0 8px}}.abertura h1{{font-size:24px}}.global{{padding:14px}}.global svg{{max-width:210px}}.global .valor{{font-size:56px}}.global .nivel{{font-size:16px}}.global p{{font-size:14px;margin-top:6px}}.regiao{{padding:12px}}.regiao .v{{font-size:28px}}.heroi{{grid-template-columns:1fr;gap:24px;padding:28px 0}}.valor{{font-size:84px}}.heroi h1{{font-size:26px}}
-.topo nav a{{margin-left:12px}}.faixas div{{font-size:11px}}.barra{{min-width:60px}}
+@media (max-width:760px){{.abertura{{grid-template-columns:1fr;gap:18px;padding:18px 0 8px}}.abertura h1{{font-size:24px}}.global{{padding:14px}}.global svg{{max-width:210px}}.global .valor{{font-size:56px}}.global .nivel{{font-size:19px}}.global p{{font-size:14px;margin-top:6px}}.regiao{{padding:12px}}.regiao .v{{font-size:28px}}.heroi{{grid-template-columns:1fr;gap:24px;padding:28px 0}}.valor{{font-size:84px}}.heroi h1{{font-size:26px}}
+.topo nav a{{margin-left:4px}}.faixas div{{font-size:11px}}.barra{{min-width:60px}}
 .marca{{font-size:13px;letter-spacing:.06em}}.mapa{{grid-template-columns:1fr 1fr;grid-template-areas:"na eu" "la af" "me as"}}.topo nav a{{font-size:13px}}
 .topo nav a:first-child{{margin-left:0}}.manchetes{{grid-template-columns:1fr}}}}
 """
@@ -98,6 +101,12 @@ def medidor_svg(valor: int, cor: str) -> str:
             f'<circle cx="300" cy="300" r="14" fill="{C["texto"]}"/><circle cx="300" cy="300" r="6" fill="{C["fundo"]}"/></svg>')
 
 
+def nova_aba(html_corpo: str) -> str:
+    """Links que abrem em nova aba avisam quem usa leitor de tela (WCAG, técnica G201)."""
+    import re
+    return re.sub(r'(<a [^>]*target="_blank"[^>]*>)(.*?)</a>', r'\1\2<span class="sr"> (abre em nova aba)</span></a>', html_corpo)
+
+
 def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "",
            extra_css: str = "") -> str:
     url = f"{config.SITE_URL}/{caminho}" if config.SITE_URL else ""
@@ -114,9 +123,9 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{adsense}</head>
-<body><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
+<body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
 <nav><a href="{raiz}mundo.html">Países</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav></header>
-<main class="conteudo">{corpo}</main>
+<main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance e as fontes citadas em cada página.</p></footer>
 </body></html>"""
@@ -158,7 +167,7 @@ def secao_mundo(m: dict) -> tuple[str, str]:
                   f'<ul class="suave" style="margin:0;padding-left:20px">{itens}</ul>'
                   f'<p class="suave" style="font-size:13px">Leitura de {mes_curto(b["referencia"])}. Cada sinal comparado com a história '
                   f'do próprio Brasil: 90 significa mais tenso do que em 90% dos meses.</p>'
-                  f'<p style="margin:0"><a href="paises/brasil.html">Entender o Brasil em detalhe →</a></p></section>')
+                  f'<p style="margin:0"><a href="paises/brasil.html" style="display:inline-block;padding:8px 0">Entender o Brasil em detalhe</a></p></section>')
     return f'<div class="mapa">{"".join(blocos)}</div>', brasil
 
 

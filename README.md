@@ -17,6 +17,8 @@ Você só aprova (um toque no celular) — ou liga o modo automático e nem isso
 | Correspondente | A cada dia útil, pesquisa cada uma das 6 regiões e explica por que cada país está no nível em que está, ligando cada notícia ao sinal que ela mexe (bolsa, sobe e desce, moeda, energia, juros, comércio) | `termometro/correspondente.py` |
 | Panorama | Monta o texto do fim de tarde para o canal do WhatsApp com os números do motor e as manchetes conferidas | `termometro/panorama.py` |
 | Revisor | Bloqueia recomendação, promessa, número errado e link que não veio do Buscador | `termometro/revisor.py` |
+| Agente de UI | Toda semana olha os prints do site (celular e computador) e avalia hierarquia, tipografia, cor e contraste, gráficos e consistência | `termometro/design.py` |
+| Agente de UX | Toda semana avalia se um leigo entende, confia e age: heurísticas de Nielsen, WCAG 2.2 AA, celular e conversão | `termometro/design.py` |
 | Editor do site | Monta o site estático (início, regiões, países, ranking, panorama, edições, metodologia); o Cloudflare Pages publica | `termometro/site.py`, `termometro/paginas.py` |
 | Publicador | Manda a edição aprovada ao beehiiv, uma vez só | `termometro/publicar.py` |
 
@@ -97,6 +99,34 @@ O WhatsApp não tem um jeito oficial de um programa postar sozinho em Canal ou C
 da Meta só aceita grupos de até 8 pessoas, e automações não oficiais levam a banimento do número. Por isso o
 texto fica pronto e alguém do time cola no canal (leva 10 segundos). Com a variável `WHATSAPP_URL` (link do
 canal), o site passa a mostrar o botão **Entrar no canal**.
+
+## A squad de design (toda segunda)
+
+`.github/workflows/design.yml` abre o site num navegador de verdade, no celular e no computador, e:
+
+1. **Auditoria automática:** rolagem horizontal, alvos de toque (mínimo 24×24px), fonte mínima, contraste WCAG AA,
+   títulos, textos alternativos, foco visível, link para pular ao conteúdo, links quebrados e o **axe-core**,
+   o motor de acessibilidade mais usado do mundo.
+2. **Agentes de UI e UX:** recebem os prints e os números e avaliam com os manuais de especialista.
+3. **Relatório:** abre uma issue "Squad de design: relatório de AAAA-MM-DD", com notas, o que está bom,
+   problemas por gravidade (escala de Nielsen) e o plano da semana. Os prints ficam nos arquivos da execução.
+
+A squad não muda o site sozinha: as correções entram por Pull Request, com a sua aprovação.
+
+## Manuais de especialista
+
+Cada agente de IA recebe um manual em `termometro/manuais/`, escrito a partir das melhores referências públicas,
+sempre com a fonte e a licença no fim:
+
+| Manual | Agentes | Referências principais |
+|---|---|---|
+| `pesquisa.md` | Buscador, Correspondente | Padrões de agentes de pesquisa da Anthropic (claude-cookbooks), verificação de fontes |
+| `redacao.md` | Redator, Copy, Correspondente | 18F Content Guide (domínio público), GOV.UK, skill frontend-design da Anthropic |
+| `ui.md` | Agente de UI | Skill frontend-design (Anthropic), Visual Vocabulary do Financial Times, WCAG 2.2, A11Y Project |
+| `ux.md` | Agente de UX | Heurísticas de Nielsen, WCAG 2.2 AA, A11Y Project, GOV.UK, 18F |
+
+O Revisor também ganhou dois avisos de linguagem simples (não bloqueiam): frases com mais de 35 palavras e
+jargão sem tradução (spread, yield, hawkish…).
 
 ## Custos
 

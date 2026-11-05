@@ -1,0 +1,59 @@
+name: Squad de design
+
+# Toda segunda de manhã os agentes de UI e UX abrem o site num navegador (celular e computador),
+# rodam a auditoria de acessibilidade (axe-core) e as checagens objetivas, avaliam os prints com os
+# manuais de especialista e abrem uma issue "Squad de design: relatório de AAAA-MM-DD" com o plano da semana.
+# Não muda nada no site sozinho: as correções entram por Pull Request, com a sua aprovação.
+on:
+  schedule:
+    - cron: "23 13 * * 1" # segunda, 10:23 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  design:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SITE_URL: ${{ vars.SITE_URL }}
+      MODELO_CLAUDE: ${{ vars.MODELO_CLAUDE }}
+      WHATSAPP_URL: ${{ vars.WHATSAPP_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar (Python, navegador e axe-core)
+        run: |
+          pip install -q -r requirements.txt playwright==1.49.1
+          python -m playwright install --with-deps chromium
+          npm install --prefix "$RUNNER_TEMP/axe" --no-audit --no-fund axe-core@4.10.2
+          echo "AXE_JS=$RUNNER_TEMP/axe/node_modules/axe-core/axe.min.js" >> "$GITHUB_ENV"
+
+      - name: Auditoria e agentes de UI e UX
+        id: design
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python rodar.py --design
+
+      - name: Guardar prints e números
+        uses: actions/upload-artifact@v4
+        with:
+          name: design-${{ steps.design.outputs.data }}
+          path: design/
+
+      - name: Abrir a issue com o relatório
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DATA: ${{ steps.design.outputs.data }}
+        run: |
+          RELATORIO="design/$DATA/relatorio.md"
+          printf '\n\n[Prints e números desta execução](%s/%s/actions/runs/%s)\n' "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> "$RELATORIO"
+          gh api "repos/$GITHUB_REPOSITORY/issues" -f title="Squad de design: relatório de $DATA" -F body=@"$RELATORIO" --jq .html_url
+          cat "$RELATORIO" >> "$GITHUB_STEP_SUMMARY"

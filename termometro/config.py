@@ -8,6 +8,13 @@ import os
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
+MANUAIS = Path(__file__).resolve().parent / "manuais"
+
+
+def manual(*nomes: str) -> str:
+    """Manuais de especialista (termometro/manuais/*.md) que entram nas instruções de cada agente."""
+    partes = [(MANUAIS / f"{n}.md").read_text() for n in nomes if (MANUAIS / f"{n}.md").exists()]
+    return "".join(f"\n\n<manual_do_especialista>\n{p.strip()}\n</manual_do_especialista>" for p in partes)
 
 # ---------------------------------------------------------------- dados
 # Histórico longo: espelhos públicos do datahub.io no GitHub (sem chave).
@@ -42,7 +49,7 @@ NIVEIS = [
     {"nome": "Atenção",  "min": 21, "max": 40,  "cor": "#7CC3E0", "leitura": "Tensões localizadas, ainda sem contágio entre mercados"},
     {"nome": "Alerta",   "min": 41, "max": 60,  "cor": "#F2C14E", "leitura": "Dois ou mais componentes estressados ao mesmo tempo"},
     {"nome": "Tensão",   "min": 61, "max": 80,  "cor": "#EE8A3C", "leitura": "Estresse amplo: hora de revisar proteções"},
-    {"nome": "Crise",    "min": 81, "max": 100, "cor": "#D9483B", "leitura": "Contágio entre mercados: liquidez e preservação em primeiro lugar"},
+    {"nome": "Crise",    "min": 81, "max": 100, "cor": "#E5554A", "leitura": "Contágio entre mercados: liquidez e preservação em primeiro lugar"},
 ]
 
 

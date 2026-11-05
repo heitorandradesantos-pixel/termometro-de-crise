@@ -75,7 +75,11 @@ def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0
     # sempre "auto", e o pedido diz com todas as letras para terminar chamando o formulário.
     escolha = obrigatoria = {"type": "auto"}
     ferramentas = ([{**BUSCA_WEB, "max_uses": buscas}] if buscas else []) + [saida]
-    pedido = f"{pedido}\n\nTermine chamando a ferramenta {nome} uma única vez, com todos os campos obrigatórios."
+    fim = f"Termine chamando a ferramenta {nome} uma única vez, com todos os campos obrigatórios."
+    if isinstance(pedido, list):  # pedido com imagens (blocos de conteúdo), usado pelos agentes de UI e UX
+        pedido = pedido + [{"type": "text", "text": fim}]
+    else:
+        pedido = f"{pedido}\n\n{fim}"
     mensagens = [{"role": "user", "content": pedido}]
     for rodada in range(1, RODADAS + 1):
         resposta = cliente.messages.create(model=config.MODELO_CLAUDE, max_tokens=max_tokens, system=sistema,
