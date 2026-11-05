@@ -5,7 +5,7 @@ name: Publicar
 on:
   push:
     branches: [main]
-    paths: ["edicoes/**"]
+    paths: ["edicoes/**/edicao.md"]
   workflow_dispatch:
 
 concurrency:
