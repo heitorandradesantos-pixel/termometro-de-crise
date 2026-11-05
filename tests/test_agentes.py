@@ -154,10 +154,11 @@ def test_estruturado_pede_formulario_quando_o_agente_esquece():
             if kw["tool_choice"]["type"] == "auto":
                 return SimpleNamespace(stop_reason="end_turn", content=[SimpleNamespace(type="text", text="pronto")])
             return SimpleNamespace(stop_reason="tool_use", content=[
-                SimpleNamespace(type="tool_use", name=buscador.FERRAMENTA["name"], input={"ok": 1})])
+                SimpleNamespace(type="tool_use", id="t1", name=buscador.FERRAMENTA["name"],
+                                input={"eventos": DOSSIE["eventos"], "agenda": []})])
 
     saida = ia.estruturado(Esquecido({}), "s", "p", buscador.FERRAMENTA, buscas=3)
-    assert saida == {"ok": 1}
+    assert len(saida["eventos"]) == 3
 
 
 def test_ciclo_completo_simulado_passa_no_revisor():
@@ -183,3 +184,23 @@ def test_variaveis_vazias_do_github_usam_o_padrao(monkeypatch):
     monkeypatch.delenv("MODELO_CLAUDE")
     monkeypatch.delenv("BUSCAS_MAXIMAS")
     importlib.reload(config)
+
+
+def test_formulario_incompleto_e_pedido_de_novo():
+    class Incompleto(ClaudeFalso):
+        def _create(self, **kw):
+            self.chamadas.append({**kw, "n_mensagens": len(kw["messages"])})
+            entrada = {} if len(self.chamadas) == 1 else {"eventos": DOSSIE["eventos"], "agenda": []}
+            return SimpleNamespace(stop_reason="tool_use", content=[
+                SimpleNamespace(type="tool_use", id=f"t{len(self.chamadas)}", name="registrar_dossie", input=entrada)])
+
+    cliente = Incompleto({})
+    saida = ia.estruturado(cliente, "s", "p", buscador.FERRAMENTA, buscas=3)
+    assert len(saida["eventos"]) == 3 and len(cliente.chamadas) == 2
+    segunda = cliente.chamadas[1]
+    devolvido = segunda["messages"][segunda["n_mensagens"] - 1]["content"][0]  # última mensagem no momento da chamada
+    assert devolvido["type"] == "tool_result" and devolvido["is_error"] and "eventos" in devolvido["content"]
+
+
+def test_listas_que_chegam_como_texto_sao_convertidas():
+    assert ia._normalizar({"eventos": '[{"a": 1}]', "obs": "texto"}) == {"eventos": [{"a": 1}], "obs": "texto"}

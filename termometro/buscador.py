@@ -115,5 +115,5 @@ def pesquisar(dados: dict, data_edicao: str, cliente=None) -> dict:
               f"Contexto: o Termômetro de Crise está em {dados['valor']} de 100 ({dados['nivel']}), "
               f"leitura de {mes_curto(dados['referencia'])}. Componentes em percentil: "
               + ", ".join(f"{c['nome']} {c['percentil']}" for c in dados["componentes"]) + ".")
-    bruto = ia.estruturado(cliente, SISTEMA, pedido, FERRAMENTA, buscas=config.BUSCAS_MAXIMAS, max_tokens=12000)
+    bruto = ia.estruturado(cliente, SISTEMA, pedido, FERRAMENTA, buscas=config.BUSCAS_MAXIMAS, max_tokens=16000)
     return {**validar(bruto, data_edicao), "modo": f"claude ({config.MODELO_CLAUDE})"}

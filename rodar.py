@@ -71,6 +71,8 @@ def gerar(dados_dir: Path, data_edicao: str, coletar: bool) -> Path:
     dossie = tentar(registro, "Buscador", lambda: buscador.pesquisar(dados, data_edicao, cliente),
                     {"eventos": [], "agenda": [], "descartados": [], "modo": "falhou"})
     (pasta / "pesquisa.json").write_text(json.dumps(dossie, ensure_ascii=False, indent=2))
+    print(f"  Dossiê: {len(dossie.get('eventos', []))} eventos, {len(dossie.get('agenda', []))} itens de agenda, "
+          f"{len(dossie.get('descartados', []))} descartados ({dossie.get('modo')})")
 
     texto, modo = tentar(registro, "Redator", lambda: redator.escrever(dados, dossie, data_edicao, cliente),
                          redator.escrever(dados, {"eventos": []}, data_edicao))
