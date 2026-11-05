@@ -92,10 +92,10 @@ def yahoo_diario(simbolo: str) -> pd.Series:
 
 def fred_diario(serie: str) -> pd.Series:
     """FRED com duas tentativas curtas; se não responder, usa a mesma moeda no Yahoo."""
-    for _ in range(2):
+    for _ in range(1):  # o FRED às vezes não responde para os servidores do GitHub; não vale esperar muito
         try:
             r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": serie}, headers=UA,
-                             timeout=25)
+                             timeout=12)
             r.raise_for_status()
             break
         except requests.RequestException as erro:
