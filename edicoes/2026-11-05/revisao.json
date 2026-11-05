@@ -1,6 +1,6 @@
 {
   "aprovado": true,
-  "palavras": 991,
+  "palavras": 1028,
   "checagens": [
     {
       "regra": "Aviso legal presente",
@@ -23,7 +23,7 @@
     {
       "regra": "Número e nível do Termômetro corretos",
       "ok": true,
-      "detalhe": "no texto: [59]; válidos: [27, 36, 38, 53, 59, 76, 88, 89, 91, 94, 96]",
+      "detalhe": "no texto: [59]; válidos: [27, 36, 38, 47, 50, 53, 54, 59, 60, 68, 76, 82, 88, 89, 91, 94, 96]",
       "bloqueia": true
     },
     {
@@ -47,7 +47,7 @@
     {
       "regra": "Tamanho entre 400 e 1.300 palavras",
       "ok": true,
-      "detalhe": "991 palavras",
+      "detalhe": "1028 palavras",
       "bloqueia": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "regra": "Fontes de primeira linha",
       "ok": false,
-      "detalhe": "conferir: https://bworldonline.com/world/2026/11/04/791441/iran-us-still-far-apart-on-deal-trump-says-ready-but-in-no-hurry-for-strikes/, https://www.brecorder.com/news/40447390/iran-us-still-far-apart-on-deal-trump-says-ready-but-in-no-hurry-for-strikes",
+      "detalhe": "conferir: https://gulfnews.com/world/mena/trump-weighs-iran-strikes-or-deal-after-midterm-loss-as-vance-urges-agreement-qatar-mediates-brent-oil-falls-to-93-1.500736556, https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants, https://www.riotimesonline.com/global-economy-briefing-november-4-2026, https://www.unionleader.com/news/nation-world/update-7-iran-us-still-far-apart-on-deal-to-end-war-as-qatar-pushes-mediation-66dd5074",
       "bloqueia": false
     },
     {
@@ -72,31 +72,37 @@
   "agentes": [
     {
       "agente": "Analista",
-      "segundos": 0.2,
+      "segundos": 0.5,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Analista mundial",
+      "segundos": 154.8,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Arte: gráfico histórico",
-      "segundos": 0.2,
+      "segundos": 0.4,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Buscador",
-      "segundos": 104.9,
+      "segundos": 97.5,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Redator",
-      "segundos": 32.3,
+      "segundos": 34.0,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Copy",
-      "segundos": 16.9,
+      "segundos": 14.7,
       "ok": true,
       "erro": null
     },

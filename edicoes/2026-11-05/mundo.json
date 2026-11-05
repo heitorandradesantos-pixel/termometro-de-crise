@@ -1,0 +1,406 @@
+{
+ "regioes": [
+  {
+   "nome": "América do Norte",
+   "valor": 68,
+   "nivel": "Tensão",
+   "cor": "#EE8A3C",
+   "referencia": "2026-11",
+   "mes_anterior": 44,
+   "paises": [
+    {
+     "nome": "EUA",
+     "valor": 83,
+     "nivel": "Crise",
+     "cor": "#D9483B",
+     "referencia": "2026-11",
+     "mes_anterior": 46,
+     "sinais": {
+      "bolsa": 68,
+      "volatilidade": 98
+     }
+    },
+    {
+     "nome": "Canadá",
+     "valor": 53,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 42,
+     "sinais": {
+      "bolsa": 46,
+      "volatilidade": 96,
+      "moeda": 16
+     }
+    }
+   ]
+  },
+  {
+   "nome": "América Latina",
+   "valor": 47,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
+   "referencia": "2026-11",
+   "mes_anterior": 51,
+   "paises": [
+    {
+     "nome": "México",
+     "valor": 44,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 48,
+     "sinais": {
+      "bolsa": 33,
+      "volatilidade": 3,
+      "moeda": 94
+     }
+    },
+    {
+     "nome": "Brasil",
+     "valor": 60,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 56,
+     "sinais": {
+      "bolsa": 69,
+      "volatilidade": 41,
+      "moeda": 70
+     }
+    },
+    {
+     "nome": "Argentina",
+     "valor": 38,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 49,
+     "sinais": {
+      "bolsa": null,
+      "volatilidade": null,
+      "moeda": 38
+     }
+    }
+   ]
+  },
+  {
+   "nome": "Europa",
+   "valor": 50,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
+   "referencia": "2026-11",
+   "mes_anterior": 40,
+   "paises": [
+    {
+     "nome": "Alemanha",
+     "valor": 48,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 42,
+     "sinais": {
+      "bolsa": 17,
+      "volatilidade": 65,
+      "moeda": 63
+     }
+    },
+    {
+     "nome": "França",
+     "valor": 52,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 45,
+     "sinais": {
+      "bolsa": 52,
+      "volatilidade": 42,
+      "moeda": 63
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "valor": 48,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 32,
+     "sinais": {
+      "bolsa": 41,
+      "volatilidade": 83,
+      "moeda": 20
+     }
+    }
+   ]
+  },
+  {
+   "nome": "Oriente Médio",
+   "valor": 82,
+   "nivel": "Crise",
+   "cor": "#D9483B",
+   "referencia": "2026-11",
+   "mes_anterior": 73,
+   "paises": [
+    {
+     "nome": "Turquia",
+     "valor": 69,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 69,
+     "sinais": {
+      "bolsa": 84,
+      "volatilidade": 74,
+      "moeda": 49
+     }
+    },
+    {
+     "nome": "Israel",
+     "valor": 86,
+     "nivel": "Crise",
+     "cor": "#D9483B",
+     "referencia": "2026-11",
+     "mes_anterior": 60,
+     "sinais": {
+      "bolsa": 84,
+      "volatilidade": 84,
+      "moeda": 90
+     }
+    },
+    {
+     "nome": "Egito",
+     "valor": 92,
+     "nivel": "Crise",
+     "cor": "#D9483B",
+     "referencia": "2026-11",
+     "mes_anterior": 89,
+     "sinais": {
+      "moeda": 92
+     }
+    }
+   ]
+  },
+  {
+   "nome": "África",
+   "valor": 54,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
+   "referencia": "2026-11",
+   "mes_anterior": 62,
+   "paises": [
+    {
+     "nome": "África do Sul",
+     "valor": 76,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 57,
+     "sinais": {
+      "bolsa": 92,
+      "volatilidade": 97,
+      "moeda": 38
+     }
+    },
+    {
+     "nome": "Nigéria",
+     "valor": 32,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 67,
+     "sinais": {
+      "moeda": 32
+     }
+    }
+   ]
+  },
+  {
+   "nome": "Ásia e Pacífico",
+   "valor": 53,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
+   "referencia": "2026-11",
+   "mes_anterior": 61,
+   "paises": [
+    {
+     "nome": "Japão",
+     "valor": 35,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 68,
+     "sinais": {
+      "bolsa": 71,
+      "volatilidade": 24,
+      "moeda": 9
+     }
+    },
+    {
+     "nome": "China",
+     "valor": 64,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 52,
+     "sinais": {
+      "bolsa": 62,
+      "volatilidade": 74,
+      "moeda": 56
+     }
+    },
+    {
+     "nome": "Hong Kong",
+     "valor": 37,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 64,
+     "sinais": {
+      "bolsa": 67,
+      "volatilidade": 6
+     }
+    },
+    {
+     "nome": "Índia",
+     "valor": 38,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 53,
+     "sinais": {
+      "bolsa": 77,
+      "volatilidade": 13,
+      "moeda": 25
+     }
+    },
+    {
+     "nome": "Coreia do Sul",
+     "valor": 86,
+     "nivel": "Crise",
+     "cor": "#D9483B",
+     "referencia": "2026-11",
+     "mes_anterior": 95,
+     "sinais": {
+      "bolsa": 93,
+      "volatilidade": 92,
+      "moeda": 72
+     }
+    },
+    {
+     "nome": "Austrália",
+     "valor": 56,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 32,
+     "sinais": {
+      "bolsa": 41,
+      "volatilidade": 94,
+      "moeda": 31
+     }
+    }
+   ]
+  }
+ ],
+ "brasil": {
+  "valor": 60,
+  "nivel": "Alerta",
+  "cor": "#F2C14E",
+  "referencia": "2026-11",
+  "mes_anterior": 56,
+  "sinais": {
+   "bolsa": 69,
+   "volatilidade": 41,
+   "moeda": 70
+  }
+ },
+ "mundo": {
+  "valor": 59,
+  "nivel": "Alerta",
+  "cor": "#F2C14E",
+  "referencia": "2026-11",
+  "mes_anterior": 55
+ },
+ "teste_historico": [
+  {
+   "episodio": "Brasil, eleição de 2002",
+   "maximo": 80,
+   "mes": "2002-10"
+  },
+  {
+   "episodio": "Brasil, 2008",
+   "maximo": 99,
+   "mes": "2008-10"
+  },
+  {
+   "episodio": "Brasil, recessão de 2015",
+   "maximo": 74,
+   "mes": "2015-10"
+  },
+  {
+   "episodio": "Brasil, Covid",
+   "maximo": 97,
+   "mes": "2020-03"
+  },
+  {
+   "episodio": "Argentina, 2001",
+   "maximo": 96,
+   "mes": "2001-10"
+  },
+  {
+   "episodio": "Argentina, 2018",
+   "maximo": 93,
+   "mes": "2018-06"
+  },
+  {
+   "episodio": "Turquia, 2018",
+   "maximo": 80,
+   "mes": "2018-08"
+  },
+  {
+   "episodio": "Turquia, 2021",
+   "maximo": 68,
+   "mes": "2021-12"
+  },
+  {
+   "episodio": "China, 2015",
+   "maximo": 97,
+   "mes": "2016-01"
+  },
+  {
+   "episodio": "Europa, 2011",
+   "maximo": 82,
+   "mes": "2011-09"
+  },
+  {
+   "episodio": "América Latina, 2008",
+   "maximo": 98,
+   "mes": "2008-10"
+  },
+  {
+   "episodio": "Ásia e Pacífico, 2008",
+   "maximo": 95,
+   "mes": "2008-11"
+  },
+  {
+   "episodio": "Oriente Médio, 2008",
+   "maximo": 92,
+   "mes": "2008-10"
+  },
+  {
+   "episodio": "África, Covid",
+   "maximo": 94,
+   "mes": "2020-05"
+  },
+  {
+   "episodio": "Brasil, ano calmo de 2019",
+   "maximo": 44,
+   "mes": "2019-05"
+  },
+  {
+   "episodio": "Europa, ano calmo de 2017",
+   "maximo": 48,
+   "mes": "2017-07"
+  }
+ ]
+}
