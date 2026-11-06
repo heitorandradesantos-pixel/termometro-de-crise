@@ -318,6 +318,8 @@ def json_ld(a: dict, url: str) -> str:
              "author": {"@type": "Organization", "name": f"Redação {config.NOME}"},
              "publisher": {"@type": "Organization", "name": config.NOME},
              "isBasedOn": [f["fonte_url"] for f in a["o_que_se_sabe"]]}
+    if a.get("imagem"):
+        dados["image"] = [a["imagem"]]
     return f'<script type="application/ld+json">{json.dumps(dados, ensure_ascii=False)}</script>'
 
 
@@ -328,12 +330,20 @@ def paginas(saida: Path, diario: Path) -> tuple[list[str], list[dict]]:
     destino = saida / "noticias" / "plantao"
     destino.mkdir(parents=True, exist_ok=True)
     caminhos = []
+    from .grafico import card_noticia
     for a in artigos:
         caminho = f"noticias/plantao/{a['slug']}.html"
         url = f"{config.SITE_URL or 'https://termometrodecrise.com'}/{caminho}"
+        imagem = f"noticias/plantao/{a['slug']}.png"
+        try:
+            card_noticia(a["titulo"], f"{pd.Timestamp(a['publicado_em']):%d/%m/%Y}", saida / imagem)
+            a["imagem"] = f"{config.SITE_URL or 'https://termometrodecrise.com'}/{imagem}"
+        except Exception as erro:  # noqa: BLE001 — sem imagem o artigo sai do mesmo jeito
+            print(f"Plantão: imagem de {a['slug']} falhou ({erro})")
+            imagem = ""
         (saida / caminho).write_text(pagina(f"{a['titulo']} | {config.NOME}", a["descricao"],
-                                            corpo_artigo(a) + json_ld(a, url), raiz="../../", caminho=caminho,
-                                            extra_css=CSS))
+                                            corpo_artigo(a) + json_ld(a, url), raiz="../../", imagem=imagem,
+                                            caminho=caminho, extra_css=CSS))
         caminhos.append(caminho)
     itens = "".join(f'<li><a href="{a["slug"]}.html">{html.escape(a["titulo"])}</a><small>{_quando(a["publicado_em"])}'
                     f' · {html.escape(a["descricao"])}</small></li>' for a in artigos) or \

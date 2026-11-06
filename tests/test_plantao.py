@@ -81,3 +81,14 @@ def test_limite_de_artigos_por_dia(tmp_path, monkeypatch):
         (tmp_path / "plantao" / f"2026-11-06-a{i}.json").write_text(json.dumps(
             {"titulo": f"Assunto {i}", "palavra_chave": f"assunto {i}", "publicado_em": f"2026-11-06T0{i}:00:00"}))
     assert plantao.rodar(tmp_path, AGORA, cliente=object()) == [] and chamadas == []  # nem chama a IA
+
+
+def test_artigo_tem_imagem_para_google_e_whatsapp(tmp_path):
+    a = plantao.conferir(_artigo(), LINKS, "2026-11-06")["artigo"]
+    a.update(slug="fgc-foi-hackeado", publicado_em=AGORA.isoformat(), atualizado_em=AGORA.isoformat(), assunto="FGC")
+    (tmp_path / "plantao").mkdir()
+    (tmp_path / "plantao" / "2026-11-06-fgc-foi-hackeado.json").write_text(json.dumps(a))
+    plantao.paginas(tmp_path / "_site", tmp_path)
+    assert (tmp_path / "_site" / "noticias" / "plantao" / "fgc-foi-hackeado.png").stat().st_size > 10000
+    pagina = (tmp_path / "_site" / "noticias" / "plantao" / "fgc-foi-hackeado.html").read_text()
+    assert 'property="og:image"' in pagina and '"image": ["https://' in pagina

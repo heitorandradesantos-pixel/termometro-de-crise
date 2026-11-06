@@ -148,3 +148,32 @@ def card(dados: dict, data_edicao: str, caminho: Path, chamada: str = "Receba o 
             color=C["suave"], fontsize=18 * pt, ha="center", va="center")
     fig.savefig(caminho, facecolor=C["fundo"])
     plt.close(fig)
+
+
+def card_noticia(titulo: str, quando: str, caminho: Path, selo: str = "PLANTÃO") -> None:
+    """Imagem 1200x675 (16:9) de cada artigo do Plantão: o Google News, o Discover e o WhatsApp mostram ela
+    junto do link. Só texto e marca, sem foto de pessoa."""
+    fonte = _fonte()
+    plt.rcParams.update({"font.family": fonte})
+    W, H = 1200, 675
+    fig = plt.figure(figsize=(W / 200, H / 200), dpi=200, facecolor=C["fundo"])
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax.set_xlim(0, W)
+    ax.set_ylim(0, H)
+    ax.axis("off")
+    pt = 72 / 200
+    y = lambda topo: H - topo  # noqa: E731
+    ax.add_patch(Rectangle((0, 0), 16, H, color="#F2C14E", lw=0))
+    ax.add_patch(FancyBboxPatch((72, y(118)), 190, 50, boxstyle="round,pad=0,rounding_size=8", color="#F2C14E", lw=0))
+    ax.text(167, y(93), selo, color="#0B1220", fontsize=26 * pt, weight="bold", ha="center", va="center")
+    ax.text(W - 72, y(93), quando, color=C["suave"], fontsize=24 * pt, ha="right", va="center")
+    linhas = textwrap.wrap(titulo, 30)[:4]
+    tamanho = 64 if len(linhas) <= 3 else 54
+    ax.text(72, y(170), "\n".join(linhas), color=C["texto"], fontsize=tamanho * pt, weight="bold", va="top",
+            linespacing=1.18)
+    ax.add_patch(Rectangle((72, y(586)), W - 144, 2, color=C["linha"], lw=0))
+    ax.text(72, y(625), "TERMÔMETRO DE CRISE", color=C["texto"], fontsize=26 * pt, weight="semibold", va="center")
+    ax.text(W - 72, y(625), "o que se sabe, com fonte em cada fato", color=C["suave"], fontsize=22 * pt,
+            ha="right", va="center")
+    fig.savefig(caminho, facecolor=C["fundo"])
+    plt.close(fig)
