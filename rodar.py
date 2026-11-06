@@ -33,7 +33,7 @@ from termometro import (buscador, coleta, config, conselho, copywriter, correspo
 
 EDICOES = RAIZ / "edicoes"
 DIARIO = RAIZ / "diario"
-FALHAS_ACEITAS = 4  # séries de país que podem faltar num dia sem segurar o panorama
+FALHAS_ACEITAS = 7  # séries de país que podem faltar num dia sem segurar o panorama (de cerca de 60)
 
 
 def coleta_mundo(dados_dir: Path, coletar: bool) -> None:

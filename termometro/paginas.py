@@ -18,7 +18,7 @@ from .grafico import mes_curto
 from .site import bloco_celular, medidor_svg, pagina
 
 C = config.CORES
-FEMININAS = {"libra", "lira turca", "libra egípcia", "naira", "rupia"}
+FEMININAS = {"libra", "lira turca", "libra egípcia", "naira", "rupia", "rupia indonésia"}
 NOMES_SINAIS = {"bolsa": "Queda da bolsa", "volatilidade": "Sobe e desce", "moeda": "Moeda"}
 NA_FRASE = {"bolsa": "a queda da bolsa", "volatilidade": "o sobe e desce da bolsa", "moeda": "a moeda"}
 COR_DIRECAO = {"pressiona": "#EE8A3C", "alivia": "#7CC3E0", "incerto": C["suave"]}
@@ -27,7 +27,9 @@ ARTIGOS = {"EUA": "os", "Canadá": "o", "México": "o", "Brasil": "o", "Argentin
            "Reino Unido": "o", "Turquia": "a", "Israel": "", "Egito": "o", "África do Sul": "a", "Nigéria": "a",
            "Japão": "o", "China": "a", "Hong Kong": "", "Índia": "a", "Coreia do Sul": "a", "Austrália": "a",
            "América do Norte": "a", "América Latina": "a", "Europa": "a", "Oriente Médio": "o", "África": "a",
-           "Ásia e Pacífico": "a"}
+           "Ásia e Pacífico": "a", "Chile": "o", "Colômbia": "a", "Peru": "o", "Paraguai": "o", "Uruguai": "o",
+           "Itália": "a", "Espanha": "a", "Portugal": "", "Suíça": "a", "Rússia": "a", "Arábia Saudita": "a",
+           "Quênia": "o", "Marrocos": "o", "Angola": "", "Indonésia": "a", "Taiwan": "", "Singapura": ""}
 
 
 def de(nome: str) -> str:
@@ -308,9 +310,10 @@ def por_que_automatico(p: dict) -> str:
     else:
         texto = (f"Nenhum sinal {de(nome)} está fora do normal: o mais alto é {NA_FRASE[sinais[0]['chave']]}, "
                  f"no percentil {sinais[0]['pct']}.")
-    if "moeda" not in {x["chave"] for x in sinais} and p["nome"] in ("EUA", "Hong Kong"):
-        texto += " A moeda não entra na conta: " + ("o dólar é a própria referência." if p["nome"] == "EUA"
-                                                     else "o dólar de Hong Kong é atrelado ao dólar americano.")
+    atreladas = {"EUA": "o dólar é a própria referência.", "Hong Kong": "o dólar de Hong Kong é atrelado ao dólar americano.",
+                 "Arábia Saudita": "o rial saudita é atrelado ao dólar americano."}
+    if "moeda" not in {x["chave"] for x in sinais} and p["nome"] in atreladas:
+        texto += " A moeda não entra na conta: " + atreladas[p["nome"]]
     if "bolsa" not in {x["chave"] for x in sinais}:
         texto += " Sem um índice de bolsa com histórico confiável, a leitura usa só a moeda."
     return texto
@@ -318,7 +321,7 @@ def por_que_automatico(p: dict) -> str:
 
 def parcial(p: dict) -> str:
     """Selo quando o país tem menos de 3 sinais (ex.: Egito, só moeda)."""
-    if p.get("nome") in ("EUA", "Hong Kong"):  # sem moeda por desenho (o dólar é a referência), não por falta de dado
+    if p.get("nome") in ("EUA", "Hong Kong", "Arábia Saudita"):  # moeda fora por desenho (dólar ou moeda atrelada)
         return ""
     n = sum(1 for v in (p.get("sinais") or {}).values() if v is not None)
     return (f' <span class="parcial" title="Leitura com {n} de 3 sinais">dados parciais ({n} de 3)</span>'
@@ -378,7 +381,10 @@ def comparacoes_html(lista: list[tuple[str, int]]) -> str:
 MAPA = Path(__file__).resolve().parent / "mapa_mundo.json"
 A2 = {"EUA": "US", "Canadá": "CA", "México": "MX", "Brasil": "BR", "Argentina": "AR", "Alemanha": "DE", "França": "FR",
       "Reino Unido": "GB", "Turquia": "TR", "Israel": "IL", "Egito": "EG", "África do Sul": "ZA", "Nigéria": "NG",
-      "Japão": "JP", "China": "CN", "Hong Kong": "HK", "Índia": "IN", "Coreia do Sul": "KR", "Austrália": "AU"}
+      "Japão": "JP", "China": "CN", "Hong Kong": "HK", "Índia": "IN", "Coreia do Sul": "KR", "Austrália": "AU",
+      "Chile": "CL", "Colômbia": "CO", "Peru": "PE", "Paraguai": "PY", "Uruguai": "UY", "Itália": "IT", "Espanha": "ES",
+      "Portugal": "PT", "Suíça": "CH", "Rússia": "RU", "Arábia Saudita": "SA", "Quênia": "KE", "Marrocos": "MA",
+      "Angola": "AO", "Indonésia": "ID", "Taiwan": "TW", "Singapura": "SG"}
 
 
 def mapa_svg(m: dict, raiz: str = "") -> str:
