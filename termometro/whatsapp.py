@@ -47,6 +47,15 @@ def registrar(pasta_dia: Path, o_que: str, resultado: dict, como: str | None = N
     arq.write_text(json.dumps(lista, ensure_ascii=False, indent=1))
 
 
+def sem_link_do_site(texto: str) -> str:
+    """Tira a linha "o porquê de cada número... <link>" dos panoramas gravados antes dessa mudança."""
+    linhas = [li for li in texto.strip().splitlines() if "porquê de cada número" not in li]
+    saida = "\n".join(linhas)
+    while "\n\n\n" in saida:
+        saida = saida.replace("\n\n\n", "\n\n")
+    return saida
+
+
 def mensagens(pasta_diario: Path, dia: str, pasta_trabalho: Path) -> dict | None:
     """O envio do fechamento: o card com o texto do balanço e, depois, o panorama do dia."""
     from . import fechamento as fch
@@ -59,7 +68,7 @@ def mensagens(pasta_diario: Path, dia: str, pasta_trabalho: Path) -> dict | None
         envio["imagem"] = str((pasta_trabalho / gerado["imagem"]).resolve())
         envio["legenda"] = gerado["legenda"]
     if panorama.exists():
-        envio["textos"].append(panorama.read_text().strip())
+        envio["textos"].append(sem_link_do_site(panorama.read_text()))
     return envio
 
 

@@ -12,7 +12,8 @@ def _dia(tmp_path):
          "regioes": [], "cotacoes": [{"nome": "Ibovespa", "ultimo": 168773.0, "variacao_pct": 1.55, "serie": "brasil_bolsa"},
                                      {"nome": "Dólar", "ultimo": 5.49, "variacao_pct": 0.6, "serie": "extra_dolar"}]}
     (dia / "mundo.json").write_text(json.dumps(m))
-    (dia / "panorama.txt").write_text("*TERMÔMETRO DE CRISE · Panorama*\n\nMundo em 57")
+    (dia / "panorama.txt").write_text("*TERMÔMETRO DE CRISE · Panorama*\n\nMundo em 57\n\n"
+                                      "Veja o porquê de cada número, com as fontes: https://x\n\n_aviso_")
     return tmp_path / "diario"
 
 
@@ -35,6 +36,8 @@ def test_prepara_card_balanco_e_panorama_e_nunca_repete(tmp_path, monkeypatch):
     envio = json.loads((pasta / "envio.json").read_text())
     assert envio["modo"] == "sim" and envio["imagem"].endswith("fechamento-2026-11-06.png")
     assert "FECHAMENTO DO TERMÔMETRO" in envio["legenda"] and envio["textos"][0].startswith("*TERMÔMETRO")
+    assert "https://" not in envio["legenda"] + envio["textos"][0]  # sem link para o site nas mensagens
+    assert envio["textos"][0].endswith("Mundo em 57\n\n_aviso_")
     (pasta / "envio.json.resultado.json").write_text(json.dumps({"ok": True, "ids": ["A", "B"]}))
     assert "enviado (sim)" in whatsapp.concluir(diario, pasta)
     assert "já foi enviado" in whatsapp.preparar(diario, "2026-11-06", pasta)  # a reserva não repete

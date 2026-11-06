@@ -84,6 +84,6 @@ def test_panorama_cabe_no_limite_e_traz_link_unico_e_aviso(n_noticias):
     noticias = [{"titulo": "Manchete longa " * 6, "regiao": "Europa"} for _ in range(n_noticias)]
     texto = panorama.montar(_mundo(), None, None, "2026-11-05", noticias=noticias, bc=BC)
     assert len(texto) <= panorama.LIMITE
-    assert texto.count("https://") == 1 and panorama.AVISO_CURTO in texto
+    assert "https://" not in texto and panorama.AVISO_CURTO in texto  # sem link: o conteúdo é do grupo
     assert texto.startswith("*TERMÔMETRO DE CRISE · Panorama de qui, 05/11*")
     json.dumps(texto)  # vai para o JSON do diário sem problema
