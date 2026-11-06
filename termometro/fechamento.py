@@ -30,20 +30,24 @@ def _var(v: float) -> str:
 
 
 def _primeira_frase(texto: str, limite: int = 150) -> str:
-    frases = [f.strip() for f in texto.replace("...", ".").split(". ") if f.strip()]
+    """As frases que explicam (sem cotação): número de outra fonte ou outro horário confundiria com o do card."""
+    import re
+    frases = [f.strip() for f in texto.replace("...", ".").split(". ") if f.strip()
+              and not re.search(r"\d{3,}|\d+,\d+|\d\s*%|R\$", f)]
     saida = ""
     for f in frases:
         candidato = (saida + " " + f.rstrip(".") + ".").strip()
         if len(candidato) > limite:
             break
         saida = candidato
-    return saida or (texto[: limite - 1].rstrip() + "…" if texto else "")
+    return saida
 
 
-def _motivo(noticias: list[dict], sinal: str) -> str:
-    """O porquê do dia, do resumo conferido da notícia do Brasil que mais mexeu nesse sinal (bolsa ou moeda)."""
+def _motivo(noticias: list[dict], sinal: str, dia: str) -> str:
+    """O porquê do dia, do resumo conferido da notícia do Brasil daquele dia que mais mexeu nesse sinal.
+    Notícia de outro dia fica de fora: explicaria um número que não é o do card."""
     for n in noticias:
-        if "Brasil" in n.get("paises", []) and sinal in n.get("mexe_em", []):
+        if n.get("data") == dia and "Brasil" in n.get("paises", []) and sinal in n.get("mexe_em", []):
             return _primeira_frase(n.get("resumo") or n["titulo"])
     return ""
 
@@ -69,7 +73,7 @@ def dados(dia: str, pasta_dia: Path) -> dict | None:
     return {"data": dia, "brasil": b, "mundo": w, "ibov": ibov, "dolar": dolar,
             "queda": brutos.get("bolsa_queda_pct"), "pico": brutos.get("bolsa_pico"), "pico_dia": brutos.get("bolsa_pico_dia"),
             "selic": (bc.get("selic") or {}).get("valor"), "ptax": (bc.get("ptax") or {}).get("valor"),
-            "motivo_bolsa": _motivo(noticias, "bolsa"), "motivo_dolar": _motivo(noticias, "moeda")}
+            "motivo_bolsa": _motivo(noticias, "bolsa", dia), "motivo_dolar": _motivo(noticias, "moeda", dia)}
 
 
 def legenda(d: dict) -> str:
@@ -79,7 +83,7 @@ def legenda(d: dict) -> str:
     linhas = [f"🌡️ FECHAMENTO DO TERMÔMETRO · {dia:%d/%m}", "",
               f"🇧🇷 Brasil em {d['brasil']['valor']} ({d['brasil']['nivel']}) · 🌍 Mundo em {d['mundo']['valor']} "
               f"({d['mundo']['nivel']})", "",
-              f"📉 Ibovespa: {_num(i['ultimo'])} pontos ({_var(i['variacao_pct'])})"
+              f"{'📈' if i['variacao_pct'] > 0 else '📉'} Ibovespa: {_num(i['ultimo'])} pontos ({_var(i['variacao_pct'])})"
               + (f", {_num(d['queda'], 1)}% abaixo do recorde de {pd.Timestamp(d['pico_dia']):%d/%m}"
                  if d.get("queda") and d["queda"] >= 5 and d.get("pico_dia") else "")]
     if d["motivo_bolsa"]:
