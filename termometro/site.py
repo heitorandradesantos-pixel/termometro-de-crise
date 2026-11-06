@@ -207,7 +207,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
-<p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance e as fontes citadas em cada página.</p>
+<p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
 <p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}correcoes.html">Correções</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
 </body></html>"""
 

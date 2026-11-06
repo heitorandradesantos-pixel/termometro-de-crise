@@ -71,7 +71,7 @@ def _num(v: float, casas: int = 2) -> str:
 
 
 def linha(bc: dict | None, data: str) -> str:
-    """'Banco Central: Selic 15,00% · Dólar PTAX R$ 5,4587 · Focus 2027: inflação 4,10%, Selic 12,25%'."""
+    """'🏦 Banco Central: Selic 13,75% · Dólar PTAX R$ 5,4621 · Focus (30/10): inflação de 2027 em 4,76%, ...'."""
     if not bc:
         return ""
     def quando(item: dict) -> str:  # só mostra a data quando não é a do panorama
@@ -83,7 +83,8 @@ def linha(bc: dict | None, data: str) -> str:
         partes.append(f"Dólar PTAX R$ {_num(bc['ptax']['valor'], 4)}{quando(bc['ptax'])}")
     fi, fs = bc.get("focus_ipca"), bc.get("focus_selic")
     if fi or fs:
-        ano = (fi or fs)["ano"]
-        itens = ([f"inflação {_num(fi['valor'])}%"] if fi else []) + ([f"Selic no fim do ano {_num(fs['valor'])}%"] if fs else [])
-        partes.append(f"Focus para {ano}: " + ", ".join(itens))
+        ref = fi or fs
+        itens = ([f"inflação de {fi['ano']} em {_num(fi['valor'])}%"] if fi else []) + \
+                ([f"Selic no fim de {fs['ano']} em {_num(fs['valor'])}%"] if fs else [])
+        partes.append(f"Focus ({pd.Timestamp(ref['data']):%d/%m}): " + ", ".join(itens))
     return ("🏦 Banco Central: " + " · ".join(partes)) if partes else "🏦 Banco Central: sem dado hoje"

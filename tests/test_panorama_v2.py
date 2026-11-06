@@ -23,7 +23,7 @@ BC = {"fonte": bcb.FONTE, "falhas": {}, "selic": {"data": "2026-11-05", "valor":
 def test_linha_do_banco_central_com_data_quando_nao_e_de_hoje():
     linha = bcb.linha(BC, "2026-11-05")
     assert "Selic 14,25%" in linha and "Dólar PTAX R$ 5,4587 (de 04/11)" in linha
-    assert "Focus para 2027: inflação 4,10%, Selic no fim do ano 12,25%" in linha
+    assert "Focus (31/10): inflação de 2027 em 4,10%, Selic no fim de 2027 em 12,25%" in linha
     assert bcb.linha({"falhas": {"selic": "erro"}}, "2026-11-05") == "🏦 Banco Central: sem dado hoje"
     assert bcb.ano_do_focus("2026-11-05") == 2027 and bcb.ano_do_focus("2026-05-05") == 2026
 
