@@ -57,6 +57,27 @@ def test_rodada_publica_uma_vez_e_nao_repete_assunto(tmp_path, monkeypatch):
     assert plantao.rodar(tmp_path, AGORA + pd.Timedelta(hours=2), cliente=object()) == []  # mesmo assunto: não repete
 
 
+def test_sem_assunto_aprovado_pede_uma_segunda_pauta_sem_o_recusado(tmp_path, monkeypatch):
+    pautas = []
+
+    def falso(cliente, sistema, pedido, saida, buscas=0, max_tokens=0, links=None):
+        if saida["name"] == "registrar_pauta_plantao":
+            pautas.append(pedido)
+            if len(pautas) == 1:
+                return {"assuntos": [{"assunto": "Liquidação da MW Pay", "busca_do_leitor": "mw pay liquidação",
+                                      "fontes": []}]}
+            return {"assuntos": [{"assunto": "FGC confirma acesso indevido a dados de clientes",
+                                  "busca_do_leitor": "fgc foi hackeado", "fontes": []}]}
+        links |= LINKS
+        if "MW Pay" in pedido:
+            return {**_artigo(), "o_que_se_sabe": _artigo()["o_que_se_sabe"][:1]}  # pouco fato: a conferência barra
+        return _artigo()
+    monkeypatch.setattr(ia, "estruturado", falso)
+    gravados = plantao.rodar(tmp_path, AGORA, cliente=object(), turno="tarde")
+    assert len(pautas) == 2 and "Liquidação da MW Pay" in pautas[1]  # a segunda pauta sabe o que foi recusado
+    assert len(gravados) == 1 and json.loads(gravados[0].read_text())["slug"] == "fgc-foi-hackeado"
+
+
 def test_paginas_e_mapa_de_noticias(tmp_path):
     a = plantao.conferir(_artigo(), LINKS, "2026-11-06")["artigo"]
     a.update(slug="fgc-foi-hackeado", publicado_em=AGORA.isoformat(), atualizado_em=AGORA.isoformat(), assunto="FGC")

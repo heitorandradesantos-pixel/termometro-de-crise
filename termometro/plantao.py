@@ -55,7 +55,9 @@ Regras:
 2. Para cada assunto, escreva a busca exata que um leigo faria no Google ("fgc foi hackeado", "nubank cripto fora
    do ar", "golpe do pix novo"), em minúsculas, como as pessoas digitam.
 3. Nada de assunto já coberto (a lista vem no pedido) nem de opinião sobre investimento ou sobre política.
-4. Ordene do mais urgente para o menos urgente. Até 3 assuntos.""" + config.manual("pesquisa", "seo")
+4. Ordene do mais urgente para o menos urgente. Traga 3 assuntos, para haver reserva se um não se confirmar.
+5. O fato que vira notícia tem que ser de hoje ou de ontem. Caso de uma semana atrás só entra se houve novidade hoje,
+   e aí o assunto é a novidade (com a data dela).""" + config.manual("pesquisa", "seo")
 
 REPORTER = f"""Você é o repórter do Plantão do Termômetro de Crise, um portal financeiro brasileiro para leigos.
 Escreva a notícia no formato "o que se sabe", que é o que o Google mostra quando o assunto está quente.
@@ -211,10 +213,13 @@ def conferir(bruto: dict, buscados: set | None, hoje: str) -> dict:
 
 # ---------------------------------------------------------------- agentes
 
-def pautar(cliente, hoje: str, anteriores: list[dict], turno: str = "tarde") -> list[dict]:
+def pautar(cliente, hoje: str, anteriores: list[dict], turno: str = "tarde", recusados: list[str] | None = None) -> list[dict]:
     cobertos = "; ".join(f"{a['titulo']} (slug {a['slug']}, {a['publicado_em'][:10]})" for a in anteriores[:15]) or "nenhum"
     pedido = (f"Hoje é {hoje}. {TURNOS[turno]}\nQuais são os assuntos de dinheiro mais procurados no Brasil agora "
               f"para este turno?\nJá publicados (não repetir; no turno da noite, podem ser atualizados): {cobertos}")
+    if recusados:  # segunda pauta da rodada: o que não se confirmou fica de fora
+        pedido += ("\nJá tentados nesta rodada e recusados na conferência (fato velho ou sem fonte; não traga de novo): "
+                   + "; ".join(recusados))
     bruto = ia.estruturado(cliente, PAUTEIRO, pedido, ferramenta_pauta(), buscas=BUSCAS_PAUTA, max_tokens=4000)
     return [a for a in bruto.get("assuntos", []) if a.get("assunto") and a.get("busca_do_leitor")]
 
@@ -257,43 +262,51 @@ def rodar(diario: Path, agora: pd.Timestamp | None = None, cliente=None, tema: s
                 if tema else pautar(cliente, hoje, anteriores, turno))
     por_slug = {a["slug"]: a for a in anteriores
                 if agora - pd.Timestamp(a["publicado_em"]) <= pd.Timedelta(days=REPETIDO_DIAS)}
-    gravados = []
-    for assunto in assuntos:
-        if len(gravados) >= MAXIMO_POR_RODADA or do_dia + len(gravados) >= MAXIMO_POR_DIA:
-            break
-        velho = por_slug.get(assunto.get("atualizar_slug") or "") if turno == "noite" else None
-        if not tema and not velho and turno != "manha" and \
-                repetido(assunto["assunto"] + " " + assunto["busca_do_leitor"], anteriores, agora):
-            print(f"  já coberto: {assunto['assunto']}")
-            continue
-        print(f"  Plantão ({turno}{', atualização' if velho else ''}): {assunto['assunto']}")
-        try:
-            r = escrever(cliente, assunto, hoje, velho)
-        except Exception as erro:  # noqa: BLE001 — um assunto com problema não derruba a rodada
-            print(f"  falhou: {erro}")
-            continue
-        for p in r["problemas"]:
-            print(f"    · {p}")
-        if not r["aprovado"]:
-            print("    não passou na conferência; não publica")
-            continue
-        a = r["artigo"]
-        if velho:  # mesma página, mesmo endereço: o Google vê a data de atualização nova
-            a.update({"slug": velho["slug"], "publicado_em": velho["publicado_em"], "atualizado_em": agora.isoformat(),
-                      "assunto": velho.get("assunto", assunto["assunto"]), "turno": "noite"})
-            destino = pasta(diario) / f"{velho['publicado_em'][:10]}-{velho['slug']}.json"
-            anteriores = [x for x in anteriores if x["slug"] != velho["slug"]]
-        else:
-            a.update({"slug": fazer_slug(a["palavra_chave"] or a["titulo"])[:70].strip("-"), "publicado_em": agora.isoformat(),
-                      "atualizado_em": agora.isoformat(), "assunto": assunto["assunto"], "turno": turno})
-            if any(x["slug"] == a["slug"] for x in anteriores):
-                a["slug"] = f"{a['slug']}-{agora:%d%m}"
-            destino = pasta(diario) / f"{hoje}-{a['slug']}.json"
-        destino.parent.mkdir(parents=True, exist_ok=True)
-        destino.write_text(json.dumps(a, ensure_ascii=False, indent=1))
-        anteriores.insert(0, a)
-        gravados.append(destino)
-        print(f"    {'atualizado' if velho else 'publicado'}: {a['titulo']}")
+    gravados, recusados = [], []
+    for tentativa in range(1 if tema else 2):  # sem nada aprovado, uma segunda pauta com outros assuntos
+        if tentativa == 1:
+            if gravados or do_dia >= MAXIMO_POR_DIA:
+                break
+            print("  nenhum assunto passou; pedindo outra pauta")
+            assuntos = pautar(cliente, hoje, anteriores, turno, recusados)
+        for assunto in assuntos:
+            if len(gravados) >= MAXIMO_POR_RODADA or do_dia + len(gravados) >= MAXIMO_POR_DIA:
+                break
+            velho = por_slug.get(assunto.get("atualizar_slug") or "") if turno == "noite" else None
+            if not tema and not velho and turno != "manha" and \
+                    repetido(assunto["assunto"] + " " + assunto["busca_do_leitor"], anteriores, agora):
+                print(f"  já coberto: {assunto['assunto']}")
+                continue
+            print(f"  Plantão ({turno}{', atualização' if velho else ''}): {assunto['assunto']}")
+            try:
+                r = escrever(cliente, assunto, hoje, velho)
+            except Exception as erro:  # noqa: BLE001 — um assunto com problema não derruba a rodada
+                print(f"  falhou: {erro}")
+                recusados.append(assunto["assunto"])
+                continue
+            for p in r["problemas"]:
+                print(f"    · {p}")
+            if not r["aprovado"]:
+                print("    não passou na conferência; não publica")
+                recusados.append(assunto["assunto"])
+                continue
+            a = r["artigo"]
+            if velho:  # mesma página, mesmo endereço: o Google vê a data de atualização nova
+                a.update({"slug": velho["slug"], "publicado_em": velho["publicado_em"], "atualizado_em": agora.isoformat(),
+                          "assunto": velho.get("assunto", assunto["assunto"]), "turno": "noite"})
+                destino = pasta(diario) / f"{velho['publicado_em'][:10]}-{velho['slug']}.json"
+                anteriores = [x for x in anteriores if x["slug"] != velho["slug"]]
+            else:
+                a.update({"slug": fazer_slug(a["palavra_chave"] or a["titulo"])[:70].strip("-"), "publicado_em": agora.isoformat(),
+                          "atualizado_em": agora.isoformat(), "assunto": assunto["assunto"], "turno": turno})
+                if any(x["slug"] == a["slug"] for x in anteriores):
+                    a["slug"] = f"{a['slug']}-{agora:%d%m}"
+                destino = pasta(diario) / f"{hoje}-{a['slug']}.json"
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            destino.write_text(json.dumps(a, ensure_ascii=False, indent=1))
+            anteriores.insert(0, a)
+            gravados.append(destino)
+            print(f"    {'atualizado' if velho else 'publicado'}: {a['titulo']}")
     return gravados
 
 
