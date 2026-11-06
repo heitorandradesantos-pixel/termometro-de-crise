@@ -223,3 +223,26 @@ def test_correcoes_da_squad_ranking_faixa_e_mapa():
                                   "data": "2026-11-05"}])
     assert "Fechamento de 05/11 · fonte: Yahoo Finance" in faixa and '<span class="sr">caiu </span>' in faixa
     assert "Sem leitura" not in paginas.legenda_faixas() and "Crise 81–100" in paginas.legenda_faixas()
+
+
+def test_leitura_parcial_do_meio_do_dia_mantem_noticias_e_panorama(tmp_path, dados_mundo, monkeypatch):
+    edicoes = tmp_path / "edicoes"
+    destino = edicoes / "2026-11-05"
+    destino.mkdir(parents=True)
+    for arq in (RAIZ / "edicoes" / "2026-11-05").iterdir():
+        (destino / arq.name).write_bytes(arq.read_bytes())
+    monkeypatch.setattr(rodar, "DIARIO", tmp_path / "diario")
+    monkeypatch.setattr(ia, "disponivel", lambda: True)
+    monkeypatch.setattr(ia, "novo_cliente", lambda: ClaudeCorrespondente())
+    rodar.diario(dados_mundo.parent, "2026-11-06", coletar=False)
+    assert rodar.parcial(dados_mundo.parent, "2026-11-06", "14h07", coletar=False) is None  # dia já fechado
+    pasta = rodar.parcial(dados_mundo.parent, "2026-11-09", "14h07", coletar=False)
+    assert json.loads((pasta / "mundo.json").read_text())["parcial"] == {"hora": "14h07"}
+    assert not (pasta / "panorama.txt").exists() and not (pasta / "correspondente.json").exists()
+    saida = tmp_path / "_site"
+    site.gerar(edicoes, saida, tmp_path / "diario")
+    inicio = (saida / "index.html").read_text()
+    assert "09/11/2026, parcial das 14h07" in inicio and "Parcial das 14h07 · fonte" in inicio
+    assert "Catar medeia" in inicio  # as notícias do último fechamento continuam
+    assert "Atualizado em 06/11/2026" in (saida / "panorama.html").read_text()
+    assert "/api/cotacoes" in inicio  # a faixa se atualiza sozinha no navegador

@@ -1,0 +1,45 @@
+name: Termômetro parcial do dia
+
+# Duas leituras no meio do dia útil (11h07 e 14h07 de Brasília): o robô recalcula só os números
+# do mundo, das regiões e dos países com os preços do dia até ali, e o Cloudflare reconstrói o site.
+# Notícias e panorama continuam no fechamento (Panorama diário, 18h17), que substitui a parcial.
+on:
+  schedule:
+    - cron: "7 14 * * 1-5" # 11h07 em Brasília
+    - cron: "7 17 * * 1-5" # 14h07 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: panorama-diario
+  cancel-in-progress: false
+
+jobs:
+  parcial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar
+        run: pip install -q -r requirements.txt
+      - name: Testes
+        run: python -m pytest -q
+      - name: Leitura parcial
+        id: parcial
+        run: python rodar.py --parcial
+      - name: Publicar
+        if: steps.parcial.outputs.publicar == 'sim'
+        run: |
+          git config user.name "termometro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diario
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          git commit -q -m "Termômetro parcial de $(TZ=America/Sao_Paulo date +%d/%m) às $(TZ=America/Sao_Paulo date +%Hh%M)"
+          git pull -q --rebase origin main
+          git push

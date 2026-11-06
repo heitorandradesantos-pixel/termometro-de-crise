@@ -470,6 +470,13 @@ def dias_do_diario(pasta: Path) -> list[Path]:
                   and (p / "mundo.json").exists())
 
 
+def quando(f: dict) -> str:
+    """'06/11/2026, parcial das 14h07 (o fechamento sai às 18h17)' ou '05/11/2026'."""
+    dia = f"{pd.Timestamp(f['data']):%d/%m/%Y}"
+    hora = ((f.get("mundo") or {}).get("parcial") or {}).get("hora")
+    return f"{dia}, parcial das {hora} (o fechamento sai às 18h17)" if hora else dia
+
+
 def fonte(pasta_edicao: Path, pasta_diario: Path) -> dict:
     """Escolhe os dados mais novos: a atualização diária, se for mais recente que a edição semanal."""
     f = {"data": pasta_edicao.name, "mundo": _json(pasta_edicao / "mundo.json") or {},
@@ -479,10 +486,14 @@ def fonte(pasta_edicao: Path, pasta_diario: Path) -> dict:
     if dias and dias[-1].name >= pasta_edicao.name:
         d = dias[-1]
         hist = pasta_diario / "historico"
+        # numa leitura parcial (11h, 14h) ainda não há notícias nem panorama do dia: valem as do último fechamento
+        com_noticias = next((x for x in reversed(dias) if (x / "correspondente.json").exists()), None)
+        com_panorama = next((x for x in reversed(dias) if (x / "panorama.txt").exists()), None)
         f.update(data=d.name, mundo=_json(d / "mundo.json"),
                  paises=_csv(hist / "mundo_paises.csv"), regioes=_csv(hist / "mundo_regioes.csv"),
-                 correspondente=_json(d / "correspondente.json"),
-                 panorama=(d / "panorama.txt").read_text() if (d / "panorama.txt").exists() else None)
+                 correspondente=_json(com_noticias / "correspondente.json") if com_noticias else None,
+                 panorama=(com_panorama / "panorama.txt").read_text() if com_panorama else None,
+                 data_panorama=com_panorama.name if com_panorama else None)
     membros = {r["nome"]: [p["nome"] for p in r.get("paises", [])] for r in f["mundo"].get("regioes", [])}
     for r in ((f.get("correspondente") or {}).get("regioes") or {}).values():
         r["resumo"] = corr.datas_br(r.get("resumo", ""))
@@ -714,7 +725,7 @@ def pagina_ranking(f: dict) -> str:
                         f'Brasil: {p["valor"]}</strong></a> {chip(p["nivel"], p["cor"])} · {pos}º de {len(completos)} '
                         f'países com leitura completa</p>')
     corpo = (f'<section class="edicao" style="max-width:none"><h1>Todos os países, do mais tenso ao mais calmo</h1>'
-             f'<p class="suave">Toque em um país para entender o porquê. Atualizado em {pd.Timestamp(f["data"]):%d/%m/%Y}.</p>'
+             f'<p class="suave">Toque em um país para entender o porquê. Atualizado em {quando(f)}.</p>'
              f'{destaque}{_tabela_ranking(completos)}')
     if incompletos:
         corpo += (f'<h2 id="incompleta">Leitura incompleta</h2><p class="suave">Estes países são medidos só pela moeda, '
@@ -744,7 +755,7 @@ def pagina_panorama(f: dict) -> str:
                 'breve. Enquanto isso, a prévia de cada dia útil fica aqui, e você pode compartilhar com quem quiser.</p>')
     corpo = f"""<section class="edicao"><h1>Panorama do fim de tarde</h1>
 <p class="suave">Todo dia útil, no fim da tarde (a partir das 18h30), o resumo do termômetro do mundo, das regiões e do Brasil,
-com as notícias que mexeram com ele. Atualizado em {pd.Timestamp(f["data"]):%d/%m/%Y}.</p>
+com as notícias que mexeram com ele. Atualizado em {pd.Timestamp(f.get("data_panorama") or f["data"]):%d/%m/%Y}.</p>
 {em_breve}<div class="acoes" style="margin:16px 0">{canal}
 <a class="contorno" href="https://wa.me/?text={quote(texto)}" target="_blank" rel="noopener">Compartilhar esta prévia</a>
 <button class="terciario" id="copiar" type="button">Copiar texto</button></div>

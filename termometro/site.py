@@ -163,7 +163,7 @@ def bloco_celular(raiz: str = "") -> str:
             f'<small>Grátis. Uma mensagem por dia útil. Sem recomendação de investimento. Sai quando quiser.</small></section>')
 
 
-def faixa_mercados(cotacoes: list[dict]) -> str:
+def faixa_mercados(cotacoes: list[dict], parcial: str | None = None) -> str:
     if not cotacoes:
         return ""
     itens = []
@@ -179,12 +179,35 @@ def faixa_mercados(cotacoes: list[dict]) -> str:
         classe, seta = ("alta", "▲") if v > 0 else (("baixa", "▼") if v < 0 else ("", ""))
         variacao = f"{abs(v):.2f}".replace(".", ",")
         direcao = "subiu" if v > 0 else ("caiu" if v < 0 else "estável")
-        itens.append(f'<span><strong>{html.escape(c["nome"])}</strong>{valor} '
-                     f'<span class="{classe}"><span aria-hidden="true">{seta}</span><span class="sr">{direcao} </span>'
-                     f'{variacao}%</span></span>')
+        itens.append(f'<span data-c="{html.escape(c["nome"])}"><strong>{html.escape(c["nome"])}</strong>'
+                     f'<span class="v">{valor}</span> <span class="var {classe}"><span aria-hidden="true">{seta}</span>'
+                     f'<span class="sr">{direcao} </span>{variacao}%</span></span>')
     quando = pd.Timestamp(cotacoes[0]["data"]).strftime("%d/%m")  # a data do primeiro item (Ibovespa)
-    return (f'<div class="faixa"><div tabindex="0" role="region" aria-label="Mercados no último fechamento">'
-            f'<span class="carimbo">Fechamento de {quando} · fonte: Yahoo Finance</span>{"".join(itens)}</div></div>')
+    return (f'<div class="faixa"><div tabindex="0" role="region" aria-label="Mercados">'
+            f'<span class="carimbo">{f"Parcial das {parcial}" if parcial else f"Fechamento de {quando}"} · fonte: '
+            f'Yahoo Finance</span>{"".join(itens)}</div></div>'
+            + AO_VIVO)
+
+
+# A página já nasce com o último fechamento (funciona sem JavaScript e para o Google); no navegador,
+# a faixa pede /api/cotacoes (functions/api/cotacoes.js) a cada minuto enquanto a aba está visível.
+AO_VIVO = """<script>(function(){var f=document.querySelector('.faixa [role=region]');
+if(!f||location.protocol==='file:')return;
+function n(x,c){return x.toLocaleString('pt-BR',{minimumFractionDigits:c,maximumFractionDigits:c})}
+function fmt(i){if(i.tipo==='brl')return 'R$ '+n(i.ultimo,2);if(i.tipo==='usd')return 'US$ '+n(i.ultimo,i.ultimo>=1000?0:2);
+return n(i.ultimo,0)}
+function hora(t){return new Date(t*1000).toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',
+timeZone:'America/Sao_Paulo'}).replace(':','h')}
+function vai(){if(document.hidden)return;fetch('/api/cotacoes').then(function(r){return r.ok?r.json():null})
+.then(function(d){if(!d||!d.itens||!d.itens.length)return;var aberto=false;
+d.itens.forEach(function(i){var e=f.querySelector('[data-c="'+i.nome+'"]');if(!e)return;
+if(i.tipo==='pontos'&&i.aberto)aberto=true;e.querySelector('.v').textContent=fmt(i);
+var v=i.variacao_pct,s=e.querySelector('.var');s.className='var '+(v>0?'alta':v<0?'baixa':'');
+s.innerHTML='<span aria-hidden="true">'+(v>0?'▲':v<0?'▼':'')+'</span><span class="sr">'
++(v>0?'subiu ':v<0?'caiu ':'estável ')+'</span>'+n(Math.abs(v),2)+'%'});
+var c=f.querySelector('.carimbo');if(c)c.textContent=(aberto?'Ao vivo · '+hora(d.gerado)+' · atraso de até 15 min'
+:'Atualizado às '+hora(d.gerado)+' · bolsas fechadas')+' · fonte: Yahoo Finance'}).catch(function(){})}
+vai();setInterval(vai,60000);document.addEventListener('visibilitychange',vai)})();</script>"""
 
 
 def nova_aba(html_corpo: str) -> str:
@@ -325,7 +348,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
     fonte = paginas.fonte(edicoes[0], diario_dir)
     dias_edicoes = [p.name for p in edicoes]
-    FAIXA = faixa_mercados(fonte["mundo"].get("cotacoes", []))
+    FAIXA = faixa_mercados(fonte["mundo"].get("cotacoes", []), ((fonte["mundo"].get("parcial") or {}).get("hora")))
 
     lista = []
     for pasta in edicoes:
@@ -383,7 +406,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
             nivel_g = config.nivel_de(g["valor"])
             g_valor, g_cor, g_nivel, g_frase = g["valor"], nivel_g["cor"], nivel_g["nome"], nivel_g["leitura"]
             g_nota = (f"Média das 6 regiões. Leitura mensal de {mes_curto(g['referencia'])} (mês em andamento), "
-                      f"página atualizada em {pd.Timestamp(fonte['data']):%d/%m/%Y}.")
+                      f"página atualizada em {paginas.quando(fonte)}.")
             g_mes = MESES[int(g["referencia"][5:7]) - 1]
         else:
             g_valor, g_cor, g_nivel, g_frase = dados["valor"], dados["cor"], dados["nivel"], dados["leitura"]
@@ -483,6 +506,7 @@ com os mesmos dados públicos.</p>
 <a href="#indice-global">Índice global de mercados</a></p>
 <h2 id="mundo">Termômetro do mundo, das regiões e dos países</h2>
 <p>O número grande da página inicial é o <strong>termômetro do mundo</strong>: a média das 6 regiões. Cada região é a média dos seus países, e cada país é a média dos seus sinais.</p>
+<p><strong>Quando atualiza:</strong> o termômetro é recalculado em todo dia útil às 11h07 e às 14h07 (leituras parciais, com os preços do dia até ali) e às 18h17 (fechamento, com as notícias e o panorama). As cotações da faixa do topo se atualizam sozinhas a cada minuto, com atraso de até 15 minutos.</p>
 <h3 id="pais">País</h3>
 <p>Cada país tem três sinais, todos medidos mês a mês com os fechamentos diários:</p>
 <ol><li><strong>Queda da bolsa:</strong> quanto o índice principal está abaixo do ponto mais alto dos últimos 12 meses.</li>
