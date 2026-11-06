@@ -385,7 +385,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     edicoes = _edicoes(pasta_edicoes)
     if not edicoes:
         raise SystemExit("Nenhuma edição encontrada em edicoes/.")
-    from . import acoes, arquivo, paginas, plantao  # aqui dentro para não haver importação circular
+    from . import acoes, arquivo, fechamento, paginas, plantao  # aqui dentro para não haver importação circular
     global FAIXA
     diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
     fonte = paginas.fonte(edicoes[0], diario_dir)
@@ -530,6 +530,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     (saida / "politica-editorial.html").write_text(pagina(f"Política editorial · {config.NOME}",
                                                           "Fontes, conferência, correções, uso de IA e independência.",
                                                           legal.editorial(), caminho="politica-editorial.html"))
+    fonte["fechamento"] = fechamento.gerar(saida, diario_dir, fonte.get("data_panorama"))
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
     novas += paginas_cotacoes + paginas_plantao

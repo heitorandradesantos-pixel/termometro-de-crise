@@ -121,3 +121,24 @@ def test_turnos_manha_tarde_noite_e_atualizacao_no_mesmo_endereco(tmp_path, monk
     a = json.loads(noite[0].read_text())
     assert noite[0] == tarde[0] and a["publicado_em"].endswith("13:13:00") and a["atualizado_em"].endswith("18:43:00")
     assert a["lead"].startswith("Nesta noite") and len(list((tmp_path / "plantao").glob("*.json"))) == 2
+
+
+def test_card_do_fechamento_e_texto_do_balanco(tmp_path):
+    from termometro import fechamento
+    dia = tmp_path / "diario" / "2026-11-06"
+    dia.mkdir(parents=True)
+    m = {"brasil": {"valor": 65, "nivel": "Tensão", "cor": "#EE8A3C"}, "mundo": {"valor": 57, "nivel": "Alerta", "cor": "#F2C14E"},
+         "regioes": [{"nome": "América Latina", "paises": [{"nome": "Brasil", "brutos": {
+             "bolsa_queda_pct": 19.3, "bolsa_pico": 209067.0, "bolsa_pico_dia": "2026-10-09"}}]}],
+         "cotacoes": [{"nome": "Ibovespa", "ultimo": 168773.0, "variacao_pct": 1.55, "serie": "brasil_bolsa"},
+                      {"nome": "Dólar", "ultimo": 5.4912, "variacao_pct": 0.6, "serie": "extra_dolar"}]}
+    (dia / "mundo.json").write_text(json.dumps(m))
+    (dia / "bcb.json").write_text(json.dumps({"selic": {"valor": 13.75, "data": "2026-11-06"}}))
+    fc = fechamento.gerar(tmp_path / "_site", tmp_path / "diario", "2026-11-06")
+    assert (tmp_path / "_site" / fc["imagem"]).stat().st_size > 20000
+    for trecho in ["FECHAMENTO DO TERMÔMETRO · 06/11", "Brasil em 65 (Tensão)", "Ibovespa: 168.773 pontos (▲1,55%)",
+                   "19,3% abaixo do recorde de 09/10", "Dólar: R$ 5,49 (▲0,60%)", "Selic 13,75%", "Não é recomendação"]:
+        assert trecho in fc["legenda"], trecho
+    m["cotacoes"][1]["serie"] = "brasil_moeda"  # dólar do FRED (outro horário): sem card, para não contradizer o dia
+    (dia / "mundo.json").write_text(json.dumps(m))
+    assert fechamento.gerar(tmp_path / "_site2", tmp_path / "diario", "2026-11-06") is None

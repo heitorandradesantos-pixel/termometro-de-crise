@@ -765,6 +765,7 @@ com as notícias que mexeram com ele. Atualizado em {pd.Timestamp(f.get("data_pa
 <button class="terciario" id="copiar" type="button">Copiar texto</button></div>
 <p class="rotulo" style="margin:18px 0 8px">Prévia da mensagem</p>
 <div class="pano">{whatsapp_html(texto)}<span style="position:absolute;right:12px;bottom:4px;font-size:12px;color:#D1D7DB">18:30</span></div>
+{card_fechamento(f.get("fechamento"))}
 {'<p style="margin-top:20px"><a class="contorno" href="panorama/index.html">Panoramas anteriores</a></p>' if f.get("tem_arquivo_panorama") else ""}
 <script type="application/json" id="texto">{dados}</script>
 <script>document.getElementById('copiar').onclick=function(){{var t=JSON.parse(document.getElementById('texto').textContent),b=this;
@@ -772,7 +773,26 @@ navigator.clipboard.writeText(t).then(function(){{b.textContent='Copiado!'}},fun
 </section>"""
     return pagina(f"Panorama do fim de tarde · {config.NOME}",
                   "O resumo diário do termômetro de crise do mundo, das regiões e do Brasil.",
-                  corpo, caminho="panorama.html", extra_css=CSS)
+                  corpo, caminho="panorama.html", extra_css=CSS,
+                  imagem=(f.get("fechamento") or {}).get("imagem", ""))
+
+
+def card_fechamento(fc: dict | None) -> str:
+    """O card do Fechamento do Termômetro, com botões para baixar a imagem e copiar o texto do balanço."""
+    if not fc:
+        return ""
+    dia = pd.Timestamp(fc["data"])
+    legenda = json.dumps(fc["legenda"], ensure_ascii=False).replace("</", "<\\/")
+    return f"""<h2 style="margin-top:36px">Fechamento do Termômetro de {dia:%d/%m}</h2>
+<p class="suave">O card do dia, pronto para o WhatsApp e o Instagram, com o texto do balanço.</p>
+<img src="{fc['imagem']}" width="1080" height="1350" alt="Fechamento do Termômetro de {dia:%d/%m/%Y}: termômetro do Brasil e do
+mundo, Ibovespa e dólar" style="width:100%;max-width:420px;height:auto;border-radius:12px;display:block;margin:12px 0">
+<div class="acoes" style="margin:12px 0"><a class="contorno" href="{fc['imagem']}" download>Baixar a imagem</a>
+<button class="terciario" id="copiar-balanco" type="button">Copiar o texto do balanço</button></div>
+<div class="pano">{whatsapp_html(fc['legenda'])}</div>
+<script type="application/json" id="balanco">{legenda}</script>
+<script>document.getElementById('copiar-balanco').onclick=function(){{var t=JSON.parse(document.getElementById('balanco').textContent),b=this;
+navigator.clipboard.writeText(t).then(function(){{b.textContent='Copiado!'}},function(){{b.textContent='Selecione e copie o texto acima'}})}};</script>"""
 
 
 def gerar(saida: Path, f: dict) -> list[str]:
