@@ -356,8 +356,9 @@ def comparacoes(f: dict) -> list[tuple[str, int]]:
         serie = regioes["Mundo (média das regiões)"].dropna()
         if len(serie) > 12:
             saida.append(("1 ano atrás", round(float(serie.iloc[-13]))))
-        if len(serie) > 24:
-            pico = serie.iloc[:-1]
+        completas = regioes[[r for r in motor.REGIOES if r in regioes]].notna().all(axis=1)
+        pico = regioes.loc[completas, "Mundo (média das regiões)"].dropna().iloc[:-1]  # só meses com as 6 regiões
+        if len(pico) > 24:
             saida.append((f"Pior momento ({pico.idxmax():%Y})", round(float(pico.max()))))
     return saida[:3]
 
