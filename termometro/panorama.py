@@ -13,7 +13,7 @@ from .correspondente import todas_as_noticias
 from .revisor import linguagem_proibida
 
 EMOJI = {"Calmaria": "🔵", "Atenção": "🟦", "Alerta": "🟡", "Tensão": "🟠", "Crise": "🔴"}
-AVISO_CURTO = "Conteúdo educativo, feito com IA e conferido por regras automáticas. Não é recomendação de investimento."
+AVISO_CURTO = "Conteúdo educativo, com fonte em cada fato. Não é recomendação de investimento."
 LIMITE = 1600
 DIAS = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
 MARCOS_POR_SEMANA = 3  # decisão do conselho (consulta #17): no máximo 1 por mensagem e 3 por semana

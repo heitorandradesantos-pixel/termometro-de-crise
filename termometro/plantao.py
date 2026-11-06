@@ -345,7 +345,7 @@ def corpo_artigo(a: dict, raiz: str = "../../") -> str:
     return (f'<article class="edicao plantao-art"><p class="trilha"><a href="{raiz}index.html">Início</a> › '
             f'<a href="{raiz}noticias/plantao/index.html">Plantão</a></p><span class="selo-plantao">PLANTÃO</span>'
             f'<h1>{html.escape(a["titulo"])}</h1><p class="meta">Publicado em {_quando(a["publicado_em"])}{atualizado} · '
-            f'Redação Termômetro de Crise, com IA e conferência automática de fontes</p>'
+            f'Termômetro de Crise · <a href="{raiz}politica-editorial.html">como fazemos</a></p>'
             f'<p class="lead">{html.escape(a["lead"])}</p>{"".join(secoes)}<h2>Fontes</h2><ul>{"".join(fontes)}</ul>'
             f'<p class="suave" style="font-size:14px">{config.AVISO} Viu um erro? Escreva para '
             f'<a href="mailto:{config.CONTATO_EMAIL}">{config.CONTATO_EMAIL}</a> '
