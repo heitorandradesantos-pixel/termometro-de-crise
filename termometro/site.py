@@ -130,6 +130,9 @@ def faixa_mercados(cotacoes: list[dict]) -> str:
     for c in cotacoes:
         if c["tipo"] == "brl":
             valor = "R$ " + f"{c['ultimo']:.2f}".replace(".", ",")
+        elif c["tipo"] == "usd":
+            casas = 0 if c["ultimo"] >= 1000 else 2
+            valor = "US$ " + f"{c['ultimo']:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
         else:
             valor = f"{c['ultimo']:,.0f}".replace(",", ".")
         v = c["variacao_pct"]
