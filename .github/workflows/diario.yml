@@ -66,6 +66,7 @@ jobs:
         run: python rodar.py --diario
 
       - name: Publicar ou pedir aprovação
+        id: publicar
         if: steps.guarda.outputs.pular != 'sim'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -81,6 +82,7 @@ jobs:
             git commit -q -m "Panorama de $DATA"
             git pull -q --rebase origin "$GITHUB_REF_NAME"
             git push
+            echo "publicado=sim" >> "$GITHUB_OUTPUT"
           else
             RAMO="panorama-$DATA"
             git switch -c "$RAMO"
@@ -94,3 +96,22 @@ jobs:
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           cat "diario/$DATA/panorama.txt" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Enviar o card do fechamento ao WhatsApp
+        if: steps.publicar.outputs.publicado == 'sim'
+        continue-on-error: true
+        env:
+          ZAPI_INSTANCIA: ${{ secrets.ZAPI_INSTANCIA }}
+          ZAPI_TOKEN: ${{ secrets.ZAPI_TOKEN }}
+          ZAPI_CLIENT_TOKEN: ${{ secrets.ZAPI_CLIENT_TOKEN }}
+          WHATSAPP_ENVIO: ${{ vars.WHATSAPP_ENVIO }}
+          WHATSAPP_DESTINO: ${{ vars.WHATSAPP_DESTINO }}
+          WHATSAPP_TESTE: ${{ vars.WHATSAPP_TESTE }}
+          DATA: ${{ steps.diario.outputs.data }}
+        run: |
+          python rodar.py --whatsapp fechamento --data "$DATA"
+          git add diario
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "WhatsApp: fechamento de $DATA enviado"
+          git pull -q --rebase origin main
+          git push

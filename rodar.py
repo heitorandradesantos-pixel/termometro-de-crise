@@ -276,6 +276,8 @@ def main() -> None:
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
     p.add_argument("--parcial", action="store_true", help="leitura do meio do dia: só os números do mundo")
     p.add_argument("--plantao", action="store_true", help="Plantão: notícia de dinheiro do momento, com fonte")
+    p.add_argument("--whatsapp", choices=["fechamento", "listar", "teste"],
+                   help="WhatsApp: envia o card do fechamento, lista os grupos do número ou manda um teste")
     p.add_argument("--tema", default="", help="Plantão: assunto escolhido pelo editor (pula a pauta automática)")
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
     p.add_argument("--conselho", action="store_true", help="conselho de monetização: os agentes debatem e fecham um plano")
@@ -303,6 +305,21 @@ def main() -> None:
     elif a.diario:
         data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         diario(Path(a.dados), data, coletar=not a.sem_coleta)
+    elif a.whatsapp:
+        from termometro import whatsapp
+        if a.whatsapp == "listar":
+            for g in whatsapp.grupos():
+                print(f"{'AVISOS ' if g['avisos'] else '       '}{g['phone']:<32} {g['comunidade'] or ''} · {g['grupo']}")
+        elif a.whatsapp == "teste":
+            para = os.environ.get("WHATSAPP_TESTE", "")
+            print(whatsapp.enviar_texto(para, "Teste do Termômetro de Crise: o envio automático está funcionando.")
+                  if para else "Defina a variável WHATSAPP_TESTE (seu número ou um grupo de teste).")
+        else:
+            dias = [d.name for d in paginas.dias_do_diario(DIARIO) if (d / "panorama.txt").exists()]
+            dia = a.data or (dias[-1] if dias else "")
+            import tempfile
+            with tempfile.TemporaryDirectory() as tmp:
+                print(whatsapp.fechamento(DIARIO, dia, Path(tmp)))
     elif a.plantao:
         gravados = plantao.rodar(DIARIO, tema=a.tema, turno=os.environ.get("PLANTAO_TURNO", ""))
         if os.environ.get("GITHUB_OUTPUT"):
