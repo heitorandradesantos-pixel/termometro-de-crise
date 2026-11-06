@@ -134,24 +134,36 @@ def briefing(raiz: Path) -> str:
     return (f"{contexto}\n\n" + (f"ÚLTIMO RELATÓRIO DA SQUAD DE DESIGN (trecho)\n{ler(ultima_design[-1])}\n" if ultima_design else ""))
 
 
+def _campos(item, *nomes: str, sep: str = " | ") -> str:
+    """Junta campos de um item do formulário; se o modelo devolveu texto solto em vez de objeto, usa o texto."""
+    if isinstance(item, dict):
+        return sep.join(str(item.get(n, "")) for n in nomes if item.get(n))
+    return str(item)
+
+
+def _lista(x) -> list:
+    return x if isinstance(x, list) else ([x] if x else [])
+
+
 def _texto_propostas(propostas: dict) -> str:
     partes = []
     for chave, p in propostas.items():
-        ideias = "\n".join(f"  - {i['titulo']} ({i['prazo']}): {i['como_funciona']} | Receita: {i['receita']} | "
-                           f"Métrica: {i['metrica']} | Riscos: {i['riscos']}" for i in p.get("ideias", []))
+        ideias = "\n".join("  - " + _campos(i, "titulo", "prazo", "como_funciona", "receita", "metrica", "riscos")
+                           for i in _lista(p.get("ideias")))
         partes.append(f"[{MEMBROS[chave][0]}]\nDiagnóstico: {p.get('diagnostico', '')}\nIdeias:\n{ideias}\n"
-                      f"Mudanças no site: {'; '.join(p.get('mudancas_no_site', []))}")
+                      f"Mudanças no site: {'; '.join(map(str, _lista(p.get('mudancas_no_site'))))}")
     return "\n\n".join(partes)
 
 
 def _texto_debate(debate: dict) -> str:
     partes = []
     for chave, d in debate.items():
-        discordo = "; ".join(f"de {x['de_quem']}: {x['ponto']} ({x['por_que']})" for x in d.get("discordo", []))
-        regras = "; ".join(f"{x['ideia']}: {x['situacao']} ({x['motivo']})" for x in d.get("parecer_de_regras", []))
-        partes.append(f"[{MEMBROS[chave][0]}]\nConcordo: {'; '.join(d.get('concordo', []))}\nDiscordo: {discordo}\n"
-                      + (f"Parecer de regras: {regras}\n" if regras else "")
-                      + f"Proposta ajustada: {d.get('proposta_ajustada', '')}\nVoto: {', '.join(d.get('voto', []))}")
+        discordo = "; ".join(_campos(x, "de_quem", "ponto", "por_que", sep=": ") for x in _lista(d.get("discordo")))
+        regras = "; ".join(_campos(x, "ideia", "situacao", "motivo", sep=": ") for x in _lista(d.get("parecer_de_regras")))
+        partes.append(f"[{MEMBROS[chave][0]}]\nConcordo: {'; '.join(map(str, _lista(d.get('concordo'))))}\n"
+                      f"Discordo: {discordo}\n" + (f"Parecer de regras: {regras}\n" if regras else "")
+                      + f"Proposta ajustada: {d.get('proposta_ajustada', '')}\n"
+                      f"Voto: {', '.join(map(str, _lista(d.get('voto'))))}")
     return "\n\n".join(partes)
 
 
@@ -172,7 +184,7 @@ def reunir(raiz: Path, cliente) -> dict:
         print(f"  Rodada 1: {nome}")
         try:
             propostas[chave] = ia.estruturado(cliente, sistema(chave), f"BRIEFING DO PROJETO\n{contexto}\n\n"
-                                              "Rodada 1: faça a sua proposta.", PROPOSTA, buscas=buscas, max_tokens=6000)
+                                              "Rodada 1: faça a sua proposta.", PROPOSTA, buscas=buscas, max_tokens=9000)
         except Exception as erro:  # um membro com problema não derruba o conselho
             print(f"    {nome} ficou de fora: {erro}")
     todas = _texto_propostas(propostas)
@@ -196,23 +208,28 @@ def ata(data: str, r: dict) -> str:
     linhas = [f"# {titulo} (ata de {data})", "",
               "_Conversa entre os agentes da squad (marketing, comportamento do lead, vendas, SEO, UX e guardião de "
               "regras), com decisão do presidente do conselho. É uma recomendação para você decidir, não uma ordem._", "",
-              "## Decisão", "", d["resumo"], "", "## Plano", "", "| Fase | Iniciativa | Responsável | Métrica | Meta |",
+              "## Decisão", "", str(d.get("resumo", "")), "", "## Plano", "", "| Fase | Iniciativa | Responsável | Métrica | Meta |",
               "|---|---|---|---|---|"]
-    linhas += [f"| {p['fase']} | {p['iniciativa']} | {p['responsavel']} | {p['metrica']} | {p['meta']} |"
-               for p in sorted(d["plano"], key=lambda p: FASES.index(p["fase"]) if p["fase"] in FASES else 9)]
+    def campo(x, nome, padrao=""):
+        return x.get(nome, padrao) if isinstance(x, dict) else (str(x) if nome in ("iniciativa", "mudanca", "conflito") else padrao)
+    plano = [x for x in _lista(d.get("plano"))]
+    linhas += [f"| {campo(p, 'fase')} | {campo(p, 'iniciativa')} | {campo(p, 'responsavel')} | {campo(p, 'metrica')} | "
+               f"{campo(p, 'meta')} |" for p in sorted(plano, key=lambda p: FASES.index(campo(p, 'fase'))
+                                                      if campo(p, 'fase') in FASES else 9)]
     linhas += ["", "## Mudanças no site (para a squad aplicar)", ""]
-    linhas += [f"{i}. **[P{m['prioridade']}] {m['mudanca']}**: {m['por_que']}" + (f" _(agente: {m['agente']})_" if m.get("agente") else "")
-               for i, m in enumerate(sorted(d["mudancas_no_site"], key=lambda m: m["prioridade"]), 1)]
+    mudancas = sorted(_lista(d.get("mudancas_no_site")), key=lambda m: str(campo(m, "prioridade", 9)))
+    linhas += [f"{i}. **[P{campo(m, 'prioridade', '?')}] {campo(m, 'mudanca')}**: {campo(m, 'por_que')}"
+               + (f" _(agente: {campo(m, 'agente')})_" if campo(m, "agente") else "") for i, m in enumerate(mudancas, 1)]
     linhas += ["", "## Onde o conselho discordou", ""]
-    linhas += [f"- **{x['conflito']}.** A troca: {x['troca']}. O que decide: {x['o_que_decide']}." for x in d["divergencias"]]
-    if d.get("experimentos"):
-        linhas += ["", "## Experimentos", ""] + [f"- {e}" for e in d["experimentos"]]
-    if d.get("vetos_respeitados"):
-        linhas += ["", "## Vetos do guardião de regras", ""] + [f"- {v}" for v in d["vetos_respeitados"]]
-    if d.get("precisa_de_advogado"):
-        linhas += ["", "## Validar com advogado antes de ir ao ar", ""] + [f"- {v}" for v in d["precisa_de_advogado"]]
-    linhas += ["", f"**Sinal de alerta (tripwire):** {d['tripwire']}", "", "## Próximos passos para você", ""]
-    linhas += [f"- [ ] {p}" for p in d["proximos_passos_do_dono"]]
+    linhas += [f"- **{campo(x, 'conflito')}.** A troca: {campo(x, 'troca')}. O que decide: {campo(x, 'o_que_decide')}."
+               for x in _lista(d.get("divergencias"))]
+    for chave, titulo_secao in (("experimentos", "Experimentos"), ("vetos_respeitados", "Vetos do guardião de regras"),
+                                ("precisa_de_advogado", "Validar com advogado antes de ir ao ar")):
+        if d.get(chave):
+            linhas += ["", f"## {titulo_secao}", ""] + [f"- {_campos(e, *(e.keys() if isinstance(e, dict) else ()))}"
+                                                        for e in _lista(d[chave])]
+    linhas += ["", f"**Sinal de alerta (tripwire):** {d.get('tripwire', '')}", "", "## Próximos passos para você", ""]
+    linhas += [f"- [ ] {_campos(x, *(x.keys() if isinstance(x, dict) else ()))}" for x in _lista(d.get("proximos_passos_do_dono"))]
     linhas += ["", "_A conversa completa (propostas e debate de cada agente) vai no primeiro comentário._"]
     return "\n".join(linhas) + "\n"
 
