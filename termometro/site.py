@@ -80,7 +80,7 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .regiao .paises a:hover{{color:var(--texto)}}.regiao .mais{{font-size:13px;color:#7CC3E0}}
 .manchetes{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}.manchete{{background:var(--painel);border-radius:14px;padding:16px;border-left:4px solid var(--linha)}}
 .manchete h3{{font-size:16px;margin:6px 0}}.manchete p{{margin:4px 0;font-size:14px;color:var(--suave)}}.manchete .meta{{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:var(--suave)}}
-.manchete .meta a{{display:inline-block;padding:4px 0}}.manchete .tag{{border:1px solid var(--linha);border-radius:6px;padding:4px 8px;display:inline-block;color:var(--suave);text-decoration:none}}.fontes{{font-size:13px}}.fontes a{{margin-right:10px;display:inline-block;padding:4px 0}}
+.manchete .meta a{{display:inline-block;padding:4px 0}}.mexe{{font-size:13px;color:var(--suave);margin:6px 0}}.manchete .tag{{border:1px solid var(--linha);border-radius:6px;padding:4px 8px;display:inline-block;color:var(--suave);text-decoration:none}}.fontes{{font-size:13px}}.fontes a{{margin-right:10px;display:inline-block;padding:4px 2px;min-width:28px;text-align:center}}
 .zap{{background:#25D366;color:#0B1220}}
 .acao{{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:12px;background:#25D366;color:#0B1220;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}}
 .acao:hover{{background:#1FB958;color:#0B1220}}.acao:focus-visible{{outline:3px solid #FFFFFF;outline-offset:2px}}
@@ -204,7 +204,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{adsense}</head>
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
-<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{FAIXA}
+<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance e as fontes citadas em cada página.</p>
@@ -278,7 +278,7 @@ def manchetes(noticias: list[dict]) -> str:
         direcao = n.get("direcao") or ""
         ponto = (f'<span style="color:{COR_DIRECAO[direcao]}" aria-hidden="true">●</span> '
                  if direcao in ("pressiona", "alivia") else "")
-        mexe = (f'<div class="meta">{ponto}Mexe em: {html.escape(", ".join(n["mexe_em"]))} '
+        mexe = (f'<div class="mexe">{ponto}Mexe em: {html.escape(", ".join(n["mexe_em"]))} '
                 f'({TEXTO_DIRECAO.get(direcao, "")})</div>' if n.get("mexe_em") else "")
         fontes = "".join(f'<a href="{html.escape(f["url"])}" target="_blank" rel="noopener noreferrer">'
                          f'{html.escape(f["veiculo"])}</a>' for f in fontes_unicas(n.get("fontes", []), 2))
@@ -314,9 +314,11 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     edicoes = _edicoes(pasta_edicoes)
     if not edicoes:
         raise SystemExit("Nenhuma edição encontrada em edicoes/.")
-    from . import paginas  # aqui dentro para não haver importação circular
+    from . import arquivo, paginas  # aqui dentro para não haver importação circular
     global FAIXA
-    fonte = paginas.fonte(edicoes[0], pasta_diario or pasta_edicoes.parent / "diario")
+    diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
+    fonte = paginas.fonte(edicoes[0], diario_dir)
+    dias_edicoes = [p.name for p in edicoes]
     FAIXA = faixa_mercados(fonte["mundo"].get("cotacoes", []))
 
     lista = []
@@ -343,18 +345,16 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                                  "datePublished": dia, "inLanguage": "pt-BR", "description": copy["descricao_seo"],
                                  "author": {"@type": "Organization", "name": config.NOME},
                                  "publisher": {"@type": "Organization", "name": config.NOME}})
-        corpo = f'<article class="edicao">{corpo_html}</article>{artigo}'
+        corpo = (f'<article class="edicao">{corpo_html}{arquivo.navegacao_edicao(dias_edicoes, dia)}</article>{artigo}')
         (saida / "edicoes" / f"{dia}.html").write_text(
             pagina(copy["titulo_site"], copy["descricao_seo"], corpo, raiz="../", imagem=f"edicoes/{dia}/card.png",
-                   caminho=f"edicoes/{dia}.html"))
+                   caminho=f"edicoes/{dia}.html", extra_css=arquivo.CSS))
         lista.append((dia, dados, copy))
 
-    itens = "".join(f'<a href="{d}.html"><strong>{pd.Timestamp(d):%d/%m/%Y}</strong> · {dd["valor"]}, {dd["nivel"]}'
-                    f'<br><span class="suave">{html.escape(cc["pre_cabecalho"])}</span></a>' for d, dd, cc in lista)
-    (saida / "edicoes" / "index.html").write_text(
-        pagina(f"Edições · {config.NOME}", "Todas as edições do Termômetro de Crise.",
-               f'<section class="edicao"><h1>Edições</h1><div class="lista">{itens}</div></section>', raiz="../",
-               caminho="edicoes/index.html"))
+    paginas_lista_edicoes = arquivo.paginas_edicoes(saida, lista)
+    arquivos = arquivo.gerar(saida, diario_dir, fonte["mundo"]) if fonte["mundo"].get("regioes") else []
+    fonte["com_arquivo"] = {Path(c).stem for c in arquivos if c.startswith("noticias/")}
+    fonte["tem_arquivo_panorama"] = "panorama/index.html" in arquivos
 
     dia, dados, copy = lista[0]
     mundo = fonte["mundo"]
@@ -395,6 +395,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
 {mapa}
 {bloco_celular()}
 {manchetes(fonte["noticias"])}
+{'<p><a class="contorno" href="noticias/index.html">Ver todas as notícias</a></p>' if "index" in fonte.get("com_arquivo", set()) else ""}
 {brasil}"""
         titulo_tabela = (f"Índice dos mercados globais: {dados['valor']} {paginas.chip(dados['nivel'], dados['cor'])}"
                          f" <span class=\"suave\" style=\"font-size:15px;font-weight:400\">leitura de {mes_curto(dados['referencia'])}</span>")
@@ -446,6 +447,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                                                           "Fontes, conferência, correções, uso de IA e independência.",
                                                           legal.editorial(), caminho="politica-editorial.html"))
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
+    novas += arquivos + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"]
     extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 
