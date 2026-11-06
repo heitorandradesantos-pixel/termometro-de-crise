@@ -39,17 +39,17 @@ MINIMO_COMPONENTES = 4             # só publica com pelo menos 4 dos 5 componen
 COMPONENTES = {
     "energia":      {"nome": "Energia",      "peso": 15, "descricao": "Distância do Brent até a média de 12 meses, em qualquer direção"},
     "juros":        {"nome": "Juros longos", "peso": 15, "descricao": "Variação do juro de 10 anos dos EUA em 3 meses, em qualquer direção"},
-    "volatilidade": {"nome": "Volatilidade", "peso": 15, "descricao": "VIX, média do mês"},
+    "volatilidade": {"nome": "Sobe e desce (VIX)", "peso": 15, "descricao": "VIX, o índice do sobe e desce da bolsa americana, média do mês"},
     "acoes":        {"nome": "Ações",        "peso": 10, "descricao": "Queda do S&P 500 desde a máxima de 12 meses"},
     "ouro":         {"nome": "Porto seguro", "peso": 10, "descricao": "Variação do ouro em 3 meses, em qualquer direção"},
 }
 
 NIVEIS = [
-    {"nome": "Calmaria", "min": 0,  "max": 20,  "cor": "#3B82C4", "leitura": "Risco abaixo do normal; atenção a excessos de otimismo"},
-    {"nome": "Atenção",  "min": 21, "max": 40,  "cor": "#7CC3E0", "leitura": "Tensões localizadas, ainda sem contágio entre mercados"},
-    {"nome": "Alerta",   "min": 41, "max": 60,  "cor": "#F2C14E", "leitura": "Dois ou mais componentes estressados ao mesmo tempo"},
-    {"nome": "Tensão",   "min": 61, "max": 80,  "cor": "#EE8A3C", "leitura": "Estresse amplo: hora de revisar proteções"},
-    {"nome": "Crise",    "min": 81, "max": 100, "cor": "#E5554A", "leitura": "Contágio entre mercados: liquidez e preservação em primeiro lugar"},
+    {"nome": "Calmaria", "min": 0,  "max": 20,  "cor": "#3B82C4", "leitura": "Mercados mais calmos do que o normal"},
+    {"nome": "Atenção",  "min": 21, "max": 40,  "cor": "#7CC3E0", "leitura": "Tensões localizadas, sem contágio entre mercados"},
+    {"nome": "Alerta",   "min": 41, "max": 60,  "cor": "#F2C14E", "leitura": "Dois ou mais sinais estressados ao mesmo tempo"},
+    {"nome": "Tensão",   "min": 61, "max": 80,  "cor": "#EE8A3C", "leitura": "Estresse amplo: vários sinais tensos ao mesmo tempo"},
+    {"nome": "Crise",    "min": 81, "max": 100, "cor": "#E5554A", "leitura": "Estresse generalizado, com contágio entre mercados"},
 ]
 
 
@@ -99,5 +99,7 @@ BUSCAS_POR_REGIAO = int(os.environ.get("BUSCAS_POR_REGIAO") or "3")  # Correspon
 
 # ---------------------------------------------------------------- comunidade
 WHATSAPP_URL = os.environ.get("WHATSAPP_URL", "")  # link do canal do WhatsApp (whatsapp.com/channel/...)
+CONTATO_EMAIL = os.environ.get("CONTATO_EMAIL") or "contato@termometrodecrise.com"
+RESPONSAVEL = os.environ.get("RESPONSAVEL", "")  # nome ou razão social e CNPJ do responsável pelo site (LGPD)
 # "sim" = publica sozinho quando o Revisor aprova; qualquer outra coisa = pede sua aprovação.
 AUTOMATICO = os.environ.get("AUTOMATICO", "").strip().lower() == "sim"

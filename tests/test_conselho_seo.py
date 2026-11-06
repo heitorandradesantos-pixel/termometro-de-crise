@@ -61,6 +61,7 @@ def test_conselho_conversa_em_tres_rodadas_e_respeita_vetos(tmp_path):
     # o plano sai em ordem de fase
     assert ata.index("0 a 30 dias") < ata.index("1 a 3 meses") < ata.index("3 a 6 meses")
     assert json.loads((tmp_path / "ata" / "conselho.json").read_text())["decisao"]["tripwire"]
+    assert "Rodada 2: debate" in (tmp_path / "ata" / "conversa.md").read_text()
 
 
 def test_cada_membro_recebe_o_proprio_manual():

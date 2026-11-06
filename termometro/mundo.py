@@ -164,6 +164,31 @@ def fred_diario(serie: str) -> pd.Series:
     return s[s > 0].dropna().sort_index()
 
 
+# Só para a faixa do topo: (arquivo, símbolo no Yahoo)
+EXTRAS = {"extra_dow_jones": "^DJI", "extra_nasdaq": "^IXIC", "extra_bitcoin": "BTC-USD",
+          "extra_petroleo": "BZ=F", "extra_ouro": "GC=F"}
+
+
+def yahoo_recente(simbolo: str, dias: int = 40) -> pd.Series:
+    agora = int(pd.Timestamp.now(tz="UTC").timestamp())
+    r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{simbolo}", headers=UA, timeout=30,
+                     params={"period1": agora - dias * 86400, "period2": agora, "interval": "1d"})
+    r.raise_for_status()
+    res = r.json()["chart"]["result"][0]
+    datas = pd.to_datetime(res["timestamp"], unit="s").normalize()
+    s = pd.Series(res["indicators"]["quote"][0]["close"], index=datas, dtype=float)
+    return s[s > 0].dropna().groupby(level=0).last().sort_index()
+
+
+def coletar_extras(pasta: Path, relatorio: dict) -> None:
+    for nome, simbolo in EXTRAS.items():
+        try:
+            yahoo_recente(simbolo).rename("valor").to_csv(pasta / f"{nome}.csv", index_label="data")
+            relatorio[nome] = "ok"
+        except Exception as erro:  # a faixa só perde um item; o termômetro não depende disso
+            relatorio[nome] = f"faixa sem {simbolo}: {type(erro).__name__}"
+
+
 def coletar(pasta: Path) -> dict:
     pasta.mkdir(parents=True, exist_ok=True)
     relatorio = {}
@@ -181,6 +206,7 @@ def coletar(pasta: Path) -> dict:
             except Exception as erro:  # um país sem dado não derruba os outros
                 relatorio[f"{pais} {tipo}"] = f"FALHOU: {erro}"
             print(f"{pais:15s} {tipo:6s} {relatorio[f'{pais} {tipo}']}")
+    coletar_extras(pasta, relatorio)
     (pasta / "coleta_mundo.json").write_text(json.dumps(relatorio, ensure_ascii=False, indent=1))
     return relatorio
 
@@ -325,11 +351,41 @@ def teste_historico(por_pais: pd.DataFrame, por_regiao: pd.DataFrame) -> list[di
     return linhas
 
 
+# Faixa de mercados: (rótulo, arquivo, tipo). "brl" = preço em reais calculado a partir das moedas contra o dólar.
+FAIXA = [("Ibovespa", "brasil_bolsa", "pontos"), ("Dólar", "brasil_moeda", "brl"), ("Euro", "euro", "brl"),
+         ("Dow Jones", "extra_dow_jones", "pontos"), ("S&P 500", "eua_bolsa", "pontos"), ("Nasdaq", "extra_nasdaq", "pontos"),
+         ("Bitcoin", "extra_bitcoin", "usd"), ("Petróleo Brent", "extra_petroleo", "usd"), ("Ouro", "extra_ouro", "usd"),
+         ("DAX", "alemanha_bolsa", "pontos"), ("Nikkei", "japao_bolsa", "pontos"), ("Merval", "argentina_bolsa", "pontos")]
+
+
+def cotacoes(pasta: Path) -> list[dict]:
+    """Último fechamento e variação do dia de alguns mercados, para a faixa do topo do site."""
+    def serie(nome: str) -> pd.Series | None:
+        caminho = pasta / f"{nome}.csv"
+        if not caminho.exists():
+            return None
+        return pd.read_csv(caminho, parse_dates=["data"]).set_index("data")["valor"].dropna()
+    saida = []
+    for rotulo, nome, tipo in FAIXA:
+        if nome == "euro":  # euro em reais = (reais por dólar) / (euros por dólar)
+            brl, eur = serie("brasil_moeda"), serie("alemanha_moeda")
+            s = (brl / eur).dropna() if brl is not None and eur is not None else None
+        else:
+            s = serie(nome)
+        if s is None or len(s) < 2:
+            continue
+        ultimo, anterior = float(s.iloc[-1]), float(s.iloc[-2])
+        saida.append({"nome": rotulo, "ultimo": round(ultimo, 4 if tipo in ("brl", "usd") else 2), "tipo": tipo,
+                      "variacao_pct": round(100 * (ultimo / anterior - 1), 2), "data": s.index[-1].strftime("%Y-%m-%d")})
+    return saida
+
+
 def rodar(pasta_dados: Path, pasta_saida: Path) -> dict:
     pasta_saida.mkdir(parents=True, exist_ok=True)
     por_pais, por_regiao, detalhes = calcular(pasta_dados)
     por_pais.to_csv(pasta_saida / "mundo_paises.csv")
     por_regiao.to_csv(pasta_saida / "mundo_regioes.csv")
-    dados = {**resumo(por_pais, por_regiao, detalhes), "teste_historico": teste_historico(por_pais, por_regiao)}
+    dados = {**resumo(por_pais, por_regiao, detalhes), "cotacoes": cotacoes(pasta_dados),
+             "teste_historico": teste_historico(por_pais, por_regiao)}
     (pasta_saida / "mundo.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1))
     return dados

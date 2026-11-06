@@ -175,7 +175,8 @@ def reunir(raiz: Path, cliente) -> dict:
             print(f"    {MEMBROS[chave][0]} não debateu: {erro}")
     print("  Rodada 3: presidente do conselho")
     decisao = ia.estruturado(cliente, PRESIDENTE, f"BRIEFING DO PROJETO\n{contexto}\n\nPROPOSTAS\n{todas}\n\nDEBATE\n"
-                             f"{_texto_debate(debate)}\n\nRodada 3: decida.", DECISAO, max_tokens=8000)
+                             f"{_texto_debate(debate)}\n\nRodada 3: decida. Seja direto: frases curtas em cada campo.",
+                             DECISAO, max_tokens=14000)
     return {"propostas": propostas, "debate": debate, "decisao": decisao}
 
 
@@ -201,10 +202,15 @@ def ata(data: str, r: dict) -> str:
         linhas += ["", "## Validar com advogado antes de ir ao ar", ""] + [f"- {v}" for v in d["precisa_de_advogado"]]
     linhas += ["", f"**Sinal de alerta (tripwire):** {d['tripwire']}", "", "## Próximos passos para você", ""]
     linhas += [f"- [ ] {p}" for p in d["proximos_passos_do_dono"]]
-    linhas += ["", "<details><summary>A conversa completa (propostas e debate)</summary>", "",
-               _texto_propostas(r["propostas"]).replace("\n", "\n\n"), "", "---", "",
-               _texto_debate(r["debate"]).replace("\n", "\n\n"), "", "</details>"]
+    linhas += ["", "_A conversa completa (propostas e debate de cada agente) vai no primeiro comentário._"]
     return "\n".join(linhas) + "\n"
+
+
+def conversa(data: str, r: dict) -> str:
+    texto = (f"# Conselho de {data}: a conversa completa\n\n## Rodada 1: propostas\n\n"
+             + _texto_propostas(r["propostas"]).replace("\n", "\n\n")
+             + "\n\n## Rodada 2: debate\n\n" + _texto_debate(r["debate"]).replace("\n", "\n\n"))
+    return texto[:60000]  # limite de tamanho de comentário do GitHub
 
 
 def rodar(raiz: Path, pasta: Path, data: str, cliente=None) -> dict:
@@ -213,5 +219,6 @@ def rodar(raiz: Path, pasta: Path, data: str, cliente=None) -> dict:
     r = reunir(raiz, cliente)
     (pasta / "conselho.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
     texto = ata(data, r)
-    (pasta / "ata.md").write_text(texto)
+    (pasta / "ata.md").write_text(texto[:60000])
+    (pasta / "conversa.md").write_text(conversa(data, r))
     return {**r, "ata": texto}

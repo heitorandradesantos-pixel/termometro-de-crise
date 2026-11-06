@@ -37,6 +37,18 @@ Quem chama todos, na ordem certa, é o `rodar.py`. Quem aperta o botão toda sem
 5. Você toca em **Merge**. O Cloudflare Pages reconstrói o site (termometrodecrise.com) e a newsletter
    vai para o beehiiv sozinha (`.github/workflows/publicar.yml`).
 
+## O site
+
+- **Início:** termômetro do mundo (média das 6 regiões) com comparação com o mês passado e um ano atrás, **mapa-múndi
+  clicável** (cada região na cor do nível; os 19 países medidos levam à própria página), lista das regiões, notícias
+  que mexem com o termômetro, Brasil em destaque com "o que isso muda no seu bolso" e o índice dos mercados globais.
+- **Faixa de mercados** no topo de todas as páginas (Ibovespa, dólar, euro, S&P 500, DAX, Nikkei…), com o último
+  fechamento, atualizada pelo robô diário.
+- Páginas de região, país, ranking, panorama, edições, metodologia, **política de privacidade** e **termos de uso**
+  (links no rodapé). Variáveis: `CONTATO_EMAIL` (padrão contato@termometrodecrise.com) e `RESPONSAVEL`
+  (nome ou razão social e CNPJ do responsável).
+- Mapa: Natural Earth via world-atlas (ISC), nomes de i18n-iso-countries (MIT), gerado uma vez em `termometro/mapa_mundo.json`.
+
 ## Hospedagem
 
 O site é servido pelo **Cloudflare Pages** (projeto `termometro-de-crise`), ligado a este repositório:
