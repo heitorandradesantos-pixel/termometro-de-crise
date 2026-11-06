@@ -155,8 +155,18 @@ def _texto_debate(debate: dict) -> str:
     return "\n\n".join(partes)
 
 
+def tema() -> str:
+    """Pergunta do dono para uma consulta ao time (vazio = reunião de monetização de sempre)."""
+    import os
+    return os.environ.get("PERGUNTA_CONSELHO", "").strip()
+
+
 def reunir(raiz: Path, cliente) -> dict:
     contexto = briefing(raiz)
+    if tema():
+        contexto += (f"\n\nTEMA DESTA REUNIÃO (pergunta do dono): {tema()}\nNesta reunião, as 'ideias' são as suas "
+                     "recomendações sobre esse tema, e 'receita' é o impacto esperado (audiência, confiança, conversão ou "
+                     "receita). Diga também o que mudaria na proposta e o que não faria.")
     propostas, debate = {}, {}
     for chave, (nome, _, buscas) in MEMBROS.items():
         print(f"  Rodada 1: {nome}")
@@ -182,7 +192,8 @@ def reunir(raiz: Path, cliente) -> dict:
 
 def ata(data: str, r: dict) -> str:
     d = r["decisao"]
-    linhas = [f"# Conselho de monetização: ata de {data}", "",
+    titulo = f"Consulta ao time: {tema()[:80]}" if tema() else "Conselho de monetização"
+    linhas = [f"# {titulo} (ata de {data})", "",
               "_Conversa entre os agentes da squad (marketing, comportamento do lead, vendas, SEO, UX e guardião de "
               "regras), com decisão do presidente do conselho. É uma recomendação para você decidir, não uma ordem._", "",
               "## Decisão", "", d["resumo"], "", "## Plano", "", "| Fase | Iniciativa | Responsável | Métrica | Meta |",

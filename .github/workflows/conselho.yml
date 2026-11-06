@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: "41 12 1 * *" # dia 1 de cada mês, 09:41 em Brasília
   workflow_dispatch:
+    inputs:
+      pergunta:
+        description: "Tema para consultar o time (em branco = reunião de monetização)"
+        required: false
 
 permissions:
   contents: read
@@ -36,6 +40,7 @@ jobs:
         id: conselho
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PERGUNTA_CONSELHO: ${{ inputs.pergunta }}
         run: python rodar.py --conselho
       - name: Guardar a conversa
         uses: actions/upload-artifact@v4
@@ -46,8 +51,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           DATA: ${{ steps.conselho.outputs.data }}
+          PERGUNTA: ${{ inputs.pergunta }}
         run: |
-          NUMERO=$(gh api "repos/$GITHUB_REPOSITORY/issues" -f title="Conselho de monetização: ata de $DATA" \
+          TITULO="Conselho de monetização: ata de $DATA"
+          if [ -n "$PERGUNTA" ]; then TITULO="Consulta ao time ($DATA): ${PERGUNTA:0:70}"; fi
+          NUMERO=$(gh api "repos/$GITHUB_REPOSITORY/issues" -f title="$TITULO" \
             -F body=@"conselho/$DATA/ata.md" --jq .number)
           gh api "repos/$GITHUB_REPOSITORY/issues/$NUMERO/comments" -F body=@"conselho/$DATA/conversa.md" --jq .html_url
           cat "conselho/$DATA/ata.md" >> "$GITHUB_STEP_SUMMARY"

@@ -55,10 +55,11 @@ def test_conselho_conversa_em_tres_rodadas_e_respeita_vetos(tmp_path):
     membros = len(conselho.MEMBROS)
     assert nomes == ["registrar_proposta"] * membros + ["registrar_debate"] * membros + ["registrar_decisao"]
     ata = (tmp_path / "ata" / "ata.md").read_text()
-    for trecho in ["Conselho de monetização: ata de 2026-11-05", "| 0 a 30 dias | Canal do WhatsApp",
+    for trecho in ["| 0 a 30 dias | Canal do WhatsApp",
                    "Botão do canal no topo", "Vetos do guardião de regras", "Criar o canal no WhatsApp", "tripwire"]:
         assert trecho in ata, trecho
     # o plano sai em ordem de fase
+    assert "Conselho de monetização (ata de 2026-11-05)" in ata
     assert ata.index("0 a 30 dias") < ata.index("1 a 3 meses") < ata.index("3 a 6 meses")
     assert json.loads((tmp_path / "ata" / "conselho.json").read_text())["decisao"]["tripwire"]
     assert "Rodada 2: debate" in (tmp_path / "ata" / "conversa.md").read_text()
