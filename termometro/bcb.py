@@ -5,21 +5,29 @@ sai com a própria data, para o panorama nunca dizer "hoje" sobre um dado de out
 série falhar, ela simplesmente fica de fora e o panorama escreve "sem dado hoje".
 """
 
+from urllib.parse import quote
+
 import pandas as pd
 import requests
 
-SGS = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.{}/dados/ultimos/{}"
+SGS = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.{}/dados"
 FOCUS = "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoAnuais"
 UA = {"User-Agent": "termometro-de-crise/1.0 (+https://termometrodecrise.com)"}
 SERIES = {"selic": 432, "ptax": 1}  # meta Selic (% ao ano) e dólar PTAX de venda (R$)
 FONTE = "Banco Central do Brasil (SGS e Focus)"
+SEGURO = "',"  # caracteres que o OData do BC quer sem codificar
 
 
-def sgs(serie: int, n: int = 1) -> list[dict]:
-    r = requests.get(SGS.format(serie, n), params={"formato": "json"}, headers=UA, timeout=20)
+def sgs(serie: int, ate: str) -> list[dict]:
+    """Últimos 15 dias até a data do panorama. A meta Selic vem com datas futuras (vale até o próximo Copom),
+    por isso a janela termina na data pedida."""
+    fim = pd.Timestamp(ate)
+    params = {"formato": "json", "dataInicial": f"{fim - pd.Timedelta(days=15):%d/%m/%Y}", "dataFinal": f"{fim:%d/%m/%Y}"}
+    r = requests.get(SGS.format(serie), params=params, headers=UA, timeout=20)
     r.raise_for_status()
-    return [{"data": pd.to_datetime(x["data"], dayfirst=True).strftime("%Y-%m-%d"), "valor": float(x["valor"])}
-            for x in r.json()]
+    linhas = [{"data": pd.to_datetime(x["data"], dayfirst=True).strftime("%Y-%m-%d"), "valor": float(x["valor"])}
+              for x in r.json()]
+    return [x for x in linhas if x["data"] <= ate]
 
 
 def ano_do_focus(data: str) -> int:
@@ -30,8 +38,10 @@ def ano_do_focus(data: str) -> int:
 
 def focus(indicador: str, ano: int) -> dict:
     params = {"$filter": f"Indicador eq '{indicador}' and DataReferencia eq '{ano}' and baseCalculo eq 0",
-              "$orderby": "Data desc", "$top": 1, "$format": "json", "$select": "Indicador,Data,DataReferencia,Mediana"}
-    r = requests.get(FOCUS, params=params, headers=UA, timeout=25)
+              "$orderby": "Data desc", "$top": "1", "$format": "json", "$select": "Indicador,Data,DataReferencia,Mediana"}
+    # O serviço OData do BC recusa espaço codificado como "+": monta a URL com %20.
+    url = FOCUS + "?" + "&".join(f"{k}={quote(v, safe=SEGURO)}" for k, v in params.items())
+    r = requests.get(url, headers=UA, timeout=25)
     r.raise_for_status()
     linhas = r.json().get("value", [])
     if not linhas:
@@ -44,7 +54,7 @@ def coletar(data: str) -> dict:
     saida: dict = {"fonte": FONTE, "falhas": {}}
     for nome, serie in SERIES.items():
         try:
-            saida[nome] = sgs(serie)[-1]
+            saida[nome] = sgs(serie, data)[-1]
         except Exception as erro:  # noqa: BLE001 — dado oficial que falha vira "sem dado hoje"
             saida["falhas"][nome] = str(erro)[:160]
     ano = ano_do_focus(data)

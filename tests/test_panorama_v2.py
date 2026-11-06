@@ -41,10 +41,12 @@ def test_coletar_le_os_formatos_oficiais_e_registra_falhas(monkeypatch):
 
     def falso_get(url, params=None, **_):
         if "sgs.432" in url:
-            return Resposta([{"data": "05/11/2026", "valor": "14.25"}])
+            assert params["dataFinal"] == "05/11/2026"
+            return Resposta([{"data": "05/11/2026", "valor": "14.25"}, {"data": "09/12/2026", "valor": "14.25"}])
         if "sgs.1/" in url:
             raise ConnectionError("fora do ar")
-        indicador = "IPCA" if "'IPCA'" in params["$filter"] else "Selic"
+        assert "+" not in url and "%20" in url  # o OData do BC recusa "+" no lugar de espaço
+        indicador = "IPCA" if "'IPCA'" in url else "Selic"
         return Resposta({"value": [{"Indicador": indicador, "Data": "2026-10-31", "DataReferencia": "2027",
                                     "Mediana": 4.1 if indicador == "IPCA" else 12.25}]})
 
