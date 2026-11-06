@@ -62,7 +62,7 @@ def nivel_de(valor: float) -> dict:
 
 # ---------------------------------------------------------------- marca
 NOME = "Termômetro de Crise"
-SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")   # ex.: https://termometrodecrise.com.br
+SITE_URL = (os.environ.get("SITE_URL") or "https://termometrodecrise.com").rstrip("/")  # endereço oficial (canônico e mapas)
 DOMINIO = os.environ.get("DOMINIO", "")                  # ex.: termometrodecrise.com.br (gera o CNAME)
 ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "")    # ex.: ca-pub-1234567890 (só depois de aprovado)
 NEWSLETTER_URL = os.environ.get("NEWSLETTER_URL", "")    # página de inscrição (ex.: a do beehiiv)

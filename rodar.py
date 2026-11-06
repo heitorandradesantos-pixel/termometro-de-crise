@@ -28,7 +28,7 @@ sys.path.insert(0, str(RAIZ))
 
 import pandas as pd  # noqa: E402
 
-from termometro import (acoes, bcb, buscador, coleta, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
+from termometro import (acoes, bcb, buscador, coleta, plantao, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
                         mundo, paginas, panorama, publicar, redator, revisor, seo, site)
 
 EDICOES = RAIZ / "edicoes"
@@ -275,6 +275,8 @@ def main() -> None:
     p.add_argument("--so-coleta", action="store_true")
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
     p.add_argument("--parcial", action="store_true", help="leitura do meio do dia: só os números do mundo")
+    p.add_argument("--plantao", action="store_true", help="Plantão: notícia de dinheiro do momento, com fonte")
+    p.add_argument("--tema", default="", help="Plantão: assunto escolhido pelo editor (pula a pauta automática)")
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
     p.add_argument("--conselho", action="store_true", help="conselho de monetização: os agentes debatem e fecham um plano")
     p.add_argument("--dados", default=str(RAIZ / "dados"), help="pasta dos dados baixados")
@@ -301,6 +303,11 @@ def main() -> None:
     elif a.diario:
         data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         diario(Path(a.dados), data, coletar=not a.sem_coleta)
+    elif a.plantao:
+        gravados = plantao.rodar(DIARIO, tema=a.tema)
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
+                saida.write(f"publicar={'sim' if gravados else 'nao'}\n")
     elif a.parcial:
         agora = pd.Timestamp.now(tz="America/Sao_Paulo")
         pasta = parcial(Path(a.dados), a.data or agora.strftime("%Y-%m-%d"), agora.strftime("%Hh%M"),

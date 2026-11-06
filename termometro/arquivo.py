@@ -18,6 +18,8 @@ import pandas as pd
 from . import config, correspondente as corr
 
 POR_PAGINA_NOTICIAS = 20
+PLANTAO_LINK = ('<p class="cartao" style="padding:12px 16px"><strong>Plantão:</strong> os assuntos de dinheiro mais '
+                'procurados do dia, com o que se sabe e a fonte de cada fato. <a href="plantao/index.html">Abrir o Plantão</a></p>')
 POR_PAGINA_EDICOES = 12
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
          "novembro", "dezembro"]
@@ -143,7 +145,8 @@ def paginas_noticias(saida: Path, noticias: list[dict], m: dict, hoje: str) -> t
 
     def escrever(arquivo_html: str, titulo: str, descricao: str, corpo_lista: str, volta: str, faixa: str = "") -> str:
         corpo = (f'<section class="edicao" style="max-width:820px">{faixa}<p class="trilha">{volta}</p>'
-                 f'<h1>{html.escape(titulo)}</h1>{corpo_lista}</section>')
+                 f'<h1>{html.escape(titulo)}</h1>{PLANTAO_LINK if arquivo_html == "index.html" else ""}'
+                 f'{corpo_lista}</section>')
         caminho = f"noticias/{arquivo_html}"
         (saida / caminho).write_text(pagina(f"{titulo} · {config.NOME}", descricao, corpo, raiz="../", caminho=caminho,
                                             extra_css=CSS_PAGINAS + CSS, sem_faixa=True))

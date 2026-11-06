@@ -1,0 +1,71 @@
+name: Plantão de notícias
+
+# A cada 2 horas, das 8h às 20h de Brasília (todos os dias), o robô procura o assunto de dinheiro que mais
+# gente está buscando no Google, escreve "o que se sabe" com fonte em cada fato e publica sozinho se passar
+# na conferência. Nada passa sem fonte devolvida pela própria busca. Com a variável PLANTAO_AUTOMATICO=nao,
+# cada artigo vira um pedido de aprovação em vez de ir direto ao ar.
+on:
+  schedule:
+    - cron: "13 11-23/2 * * *" # 8h13, 10h13, ..., 20h13 em Brasília
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: "Assunto escolhido pelo editor (deixe vazio para o robô escolher)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: panorama-diario
+  cancel-in-progress: false
+
+jobs:
+  plantao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      SITE_URL: ${{ vars.SITE_URL }}
+      MODELO_CLAUDE: ${{ vars.MODELO_CLAUDE }}
+      PLANTAO_MAXIMO: ${{ vars.PLANTAO_MAXIMO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar
+        run: pip install -q -r requirements.txt
+      - name: Testes
+        run: python -m pytest -q
+      - name: Pauta, reportagem e conferência
+        id: plantao
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TEMA: ${{ inputs.tema }}
+        run: python rodar.py --plantao --tema "$TEMA"
+      - name: Publicar ou pedir aprovação
+        if: steps.plantao.outputs.publicar == 'sim'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PLANTAO_AUTOMATICO: ${{ vars.PLANTAO_AUTOMATICO }}
+        run: |
+          git config user.name "termometro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diario/plantao
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          TITULO=$(git diff --cached --name-only | head -1 | xargs -I{} python -c "import json,sys;print(json.load(open('{}'))['titulo'])")
+          if [ "$PLANTAO_AUTOMATICO" != "nao" ]; then
+            git commit -q -m "Plantão: $TITULO"
+            git pull -q --rebase origin main
+            git push
+          else
+            RAMO="plantao-$(date +%Y%m%d-%H%M)"
+            git switch -c "$RAMO"
+            git commit -q -m "Plantão: $TITULO"
+            git push -u origin "$RAMO"
+            gh pr create --base main --head "$RAMO" --title "Plantão: $TITULO (aprovar?)" --body "Artigo do Plantão conferido pelo robô. Aprovar publica no site."
+          fi
+          echo "### Publicado: $TITULO" >> "$GITHUB_STEP_SUMMARY"

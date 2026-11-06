@@ -316,6 +316,20 @@ def curto(texto: str, limite: int = 170) -> str:
     return texto if len(texto) <= limite else texto[:limite].rsplit(" ", 1)[0] + "…"
 
 
+def plantao_home(artigos: list[dict]) -> str:
+    """Os 3 artigos mais novos do Plantão (dos últimos 3 dias), logo acima das notícias do termômetro."""
+    agora = pd.Timestamp.now(tz="America/Sao_Paulo").tz_localize(None)
+    recentes = [a for a in artigos if agora - pd.Timestamp(a["publicado_em"]) <= pd.Timedelta(days=3)][:3]
+    if not recentes:
+        return ""
+    itens = "".join(f'<li><a href="noticias/plantao/{a["slug"]}.html">{html.escape(a["titulo"])}</a>'
+                    f'<small>{pd.Timestamp(a["publicado_em"]):%d/%m às %Hh%M} · {html.escape(a["descricao"])}</small></li>'
+                    for a in recentes)
+    return (f'<section><h2><span class="selo-plantao">PLANTÃO</span> O que se sabe agora</h2>'
+            f'<ul class="lista-plantao">{itens}</ul><p><a class="contorno" href="noticias/plantao/index.html">'
+            f'Ver todo o Plantão</a></p></section>')
+
+
 def manchetes(noticias: list[dict]) -> str:
     """As notícias que mais mexem com o termômetro, na página inicial."""
     from .mundo import REGIOES, slug
@@ -370,7 +384,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     edicoes = _edicoes(pasta_edicoes)
     if not edicoes:
         raise SystemExit("Nenhuma edição encontrada em edicoes/.")
-    from . import acoes, arquivo, paginas  # aqui dentro para não haver importação circular
+    from . import acoes, arquivo, paginas, plantao  # aqui dentro para não haver importação circular
     global FAIXA
     diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
     fonte = paginas.fonte(edicoes[0], diario_dir)
@@ -417,6 +431,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                               if fonte["mundo"].get("regioes") else ([], []))
     fonte["com_arquivo"] = {Path(c).stem for c in arquivos if c.startswith("noticias/")}
     paginas_cotacoes = acoes.paginas(saida, fonte.get("acoes"), fonte["mundo"])
+    paginas_plantao, artigos_plantao = plantao.paginas(saida, diario_dir)
     fonte["tem_arquivo_panorama"] = "panorama/index.html" in arquivos
 
     dia, dados, copy = lista[0]
@@ -457,6 +472,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
 </section>
 {mapa}
 {bloco_celular()}
+{plantao_home(artigos_plantao)}
 {manchetes(fonte["noticias"])}
 {'<p><a class="contorno" href="noticias/index.html">Ver todas as notícias</a></p>' if "index" in fonte.get("com_arquivo", set()) else ""}
 {brasil}"""
@@ -494,7 +510,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
  Ainda fora do índice: {', '.join(dados['componentes_ausentes'])}.</p></section>
 <section><h2>O índice dos mercados globais desde 1999</h2>{grafico_html(f"edicoes/{dia}")}</section>{estruturados}"""
     (saida / "index.html").write_text(pagina(copy["titulo_site"], copy["descricao_seo"], corpo,
-                                             imagem=f"edicoes/{dia}/card.png", extra_css=paginas.CSS))
+                                             imagem=f"edicoes/{dia}/card.png", extra_css=paginas.CSS + plantao.CSS))
     (saida / "metodologia.html").write_text(pagina(f"Metodologia · {config.NOME}",
                                                    "Como o Termômetro de Crise é calculado.", metodologia(dados)))
     from . import legal
@@ -515,7 +531,8 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                                                           legal.editorial(), caminho="politica-editorial.html"))
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
-    novas += paginas_cotacoes
+    novas += paginas_cotacoes + paginas_plantao
+    (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
     extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 
@@ -582,7 +599,8 @@ não garante o mesmo comportamento no futuro.</p>
 def extras(saida: Path, caminhos: list[str]) -> None:
     (saida / ".nojekyll").write_text("")
     (saida / "robots.txt").write_text("User-agent: *\nAllow: /\n" +
-                                      (f"Sitemap: {config.SITE_URL}/sitemap.xml\n" if config.SITE_URL else ""))
+                                      (f"Sitemap: {config.SITE_URL}/sitemap.xml\n"
+                                       f"Sitemap: {config.SITE_URL}/sitemap-noticias.xml\n" if config.SITE_URL else ""))
     if config.SITE_URL:
         urls = "".join(f"<url><loc>{config.SITE_URL}/{c}</loc></url>" for c in caminhos)
         (saida / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>'
