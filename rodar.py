@@ -304,7 +304,7 @@ def main() -> None:
         data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         diario(Path(a.dados), data, coletar=not a.sem_coleta)
     elif a.plantao:
-        gravados = plantao.rodar(DIARIO, tema=a.tema)
+        gravados = plantao.rodar(DIARIO, tema=a.tema, turno=os.environ.get("PLANTAO_TURNO", ""))
         if os.environ.get("GITHUB_OUTPUT"):
             with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
                 saida.write(f"publicar={'sim' if gravados else 'nao'}\n")

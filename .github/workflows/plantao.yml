@@ -1,17 +1,24 @@
 name: Plantão de notícias
 
-# 3 vezes por dia (9h13, 13h13 e 17h13 de Brasília), com no máximo 3 artigos por dia (variável PLANTAO_POR_DIA),
-# o robô procura o assunto de dinheiro que mais
+# Três turnos por dia (de Brasília): 9h13 o contexto do mercado do dia, 13h13 a notícia de dinheiro do cotidiano e
+# 18h43 a atualização de um caso já publicado ou o caso quente do dia. No máximo 3 artigos por dia (PLANTAO_POR_DIA).
+# Em cada turno o robô procura o assunto de dinheiro que mais
 # gente está buscando no Google, escreve "o que se sabe" com fonte em cada fato e publica sozinho se passar
 # na conferência. Nada passa sem fonte devolvida pela própria busca. Com a variável PLANTAO_AUTOMATICO=nao,
 # cada artigo vira um pedido de aprovação em vez de ir direto ao ar.
 on:
   schedule:
-    - cron: "13 12,16,20 * * *" # 9h13, 13h13 e 17h13 em Brasília
+    - cron: "13 12 * * *" # 9h13 em Brasília: manhã
+    - cron: "13 16 * * *" # 13h13: tarde
+    - cron: "43 21 * * *" # 18h43: fim do dia
   workflow_dispatch:
     inputs:
       tema:
         description: "Assunto escolhido pelo editor (deixe vazio para o robô escolher)"
+        required: false
+        default: ""
+      turno:
+        description: "manha, tarde ou noite (vazio = pelo horário)"
         required: false
         default: ""
 
@@ -47,6 +54,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TEMA: ${{ inputs.tema }}
+          PLANTAO_TURNO: ${{ inputs.turno }}
         run: python rodar.py --plantao --tema "$TEMA"
       - name: Publicar ou pedir aprovação
         if: steps.plantao.outputs.publicar == 'sim'

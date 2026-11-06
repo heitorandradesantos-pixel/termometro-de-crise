@@ -92,3 +92,32 @@ def test_artigo_tem_imagem_para_google_e_whatsapp(tmp_path):
     assert (tmp_path / "_site" / "noticias" / "plantao" / "fgc-foi-hackeado.png").stat().st_size > 10000
     pagina = (tmp_path / "_site" / "noticias" / "plantao" / "fgc-foi-hackeado.html").read_text()
     assert 'property="og:image"' in pagina and '"image": ["https://' in pagina
+
+
+def test_turnos_manha_tarde_noite_e_atualizacao_no_mesmo_endereco(tmp_path, monkeypatch):
+    assert [plantao.turno_de(pd.Timestamp(f"2026-11-06 {h}:13")) for h in (9, 13, 18)] == ["manha", "tarde", "noite"]
+    pautas = {"manha": {"assunto": "Ibovespa hoje: o que o mercado olha", "busca_do_leitor": "ibovespa hoje"},
+              "tarde": {"assunto": "FGC confirma acesso indevido a dados de clientes", "busca_do_leitor": "fgc foi hackeado"}}
+
+    def falso(cliente, sistema, pedido, saida, buscas=0, max_tokens=0, links=None):
+        if saida["name"] == "registrar_pauta_plantao":
+            turno = "manha" if "Turno da manhã" in pedido else ("tarde" if "Turno da tarde" in pedido else "noite")
+            item = pautas.get(turno) or {"assunto": "FGC: novidade", "busca_do_leitor": "fgc",
+                                          "atualizar_slug": "fgc-foi-hackeado"}
+            return {"assuntos": [{**item, "por_que_importa": "x", "fontes": []}]}
+        links |= LINKS
+        if "ATUALIZAÇÃO" in pedido:
+            return _artigo(lead="Nesta noite (6/11), o FGC informou o número de afetados.")
+        if "ibovespa hoje" in pedido:
+            return _artigo(titulo="Ibovespa hoje: o que o mercado olha nesta sexta (6/11)", palavra_chave="ibovespa hoje")
+        return _artigo()
+    monkeypatch.setattr(ia, "estruturado", falso)
+    manha = plantao.rodar(tmp_path, pd.Timestamp("2026-11-06 09:13"), cliente=object())
+    assert len(manha) == 1 and json.loads(manha[0].read_text())["turno"] == "manha"
+    assert plantao.rodar(tmp_path, pd.Timestamp("2026-11-06 09:40"), cliente=object()) == []  # turno já publicou
+    tarde = plantao.rodar(tmp_path, pd.Timestamp("2026-11-06 13:13"), cliente=object())
+    assert json.loads(tarde[0].read_text())["slug"] == "fgc-foi-hackeado"
+    noite = plantao.rodar(tmp_path, pd.Timestamp("2026-11-06 18:43"), cliente=object())
+    a = json.loads(noite[0].read_text())
+    assert noite[0] == tarde[0] and a["publicado_em"].endswith("13:13:00") and a["atualizado_em"].endswith("18:43:00")
+    assert a["lead"].startswith("Nesta noite") and len(list((tmp_path / "plantao").glob("*.json"))) == 2

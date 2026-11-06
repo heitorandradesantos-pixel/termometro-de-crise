@@ -319,11 +319,12 @@ def curto(texto: str, limite: int = 170) -> str:
 def plantao_home(artigos: list[dict]) -> str:
     """Os 3 artigos mais novos do Plantão (dos últimos 3 dias), logo acima das notícias do termômetro."""
     agora = pd.Timestamp.now(tz="America/Sao_Paulo").tz_localize(None)
-    recentes = [a for a in artigos if agora - pd.Timestamp(a["publicado_em"]) <= pd.Timedelta(days=3)][:3]
+    recentes = [a for a in artigos if agora - pd.Timestamp(a["atualizado_em"]) <= pd.Timedelta(days=3)][:3]
     if not recentes:
         return ""
     itens = "".join(f'<li><a href="noticias/plantao/{a["slug"]}.html">{html.escape(a["titulo"])}</a>'
-                    f'<small>{pd.Timestamp(a["publicado_em"]):%d/%m às %Hh%M} · {html.escape(a["descricao"])}</small></li>'
+                    f'<small>{"Atualizado " if a["atualizado_em"] != a["publicado_em"] else ""}'
+                    f'{pd.Timestamp(a["atualizado_em"]):%d/%m às %Hh%M} · {html.escape(a["descricao"])}</small></li>'
                     for a in recentes)
     return (f'<section><h2><span class="selo-plantao">PLANTÃO</span> O que se sabe agora</h2>'
             f'<ul class="lista-plantao">{itens}</ul><p><a class="contorno" href="noticias/plantao/index.html">'
