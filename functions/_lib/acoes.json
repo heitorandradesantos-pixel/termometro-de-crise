@@ -1,0 +1,353 @@
+{
+ "nota": "Lista editorial das cotações (site e functions/api/cotacoes.js). Critério: algumas das maiores empresas de cada setor em valor de mercado em cada bolsa. Não é recomendação.",
+ "bolsas": [
+  {
+   "chave": "brasil",
+   "nome": "Brasil",
+   "setores": {
+    "Tecnologia": [
+     {
+      "nome": "TOTVS",
+      "simbolo": "TOTS3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Locaweb",
+      "simbolo": "LWSA3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Intelbras",
+      "simbolo": "INTB3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Positivo Tecnologia",
+      "simbolo": "POSI3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Bemobi",
+      "simbolo": "BMOB3.SA",
+      "pais": "Brasil"
+     }
+    ],
+    "Infraestrutura": [
+     {
+      "nome": "Axia Energia (ex-Eletrobras)",
+      "simbolo": "AXIA3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Sabesp",
+      "simbolo": "SBSP3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Equatorial",
+      "simbolo": "EQTL3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Motiva (ex-CCR)",
+      "simbolo": "MOTV3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Rumo",
+      "simbolo": "RAIL3.SA",
+      "pais": "Brasil"
+     }
+    ],
+    "Commodities": [
+     {
+      "nome": "Petrobras",
+      "simbolo": "PETR4.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Vale",
+      "simbolo": "VALE3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Suzano",
+      "simbolo": "SUZB3.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "Gerdau",
+      "simbolo": "GGBR4.SA",
+      "pais": "Brasil"
+     },
+     {
+      "nome": "PRIO",
+      "simbolo": "PRIO3.SA",
+      "pais": "Brasil"
+     }
+    ]
+   }
+  },
+  {
+   "chave": "eua",
+   "nome": "EUA",
+   "setores": {
+    "Tecnologia": [
+     {
+      "nome": "Nvidia",
+      "simbolo": "NVDA",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Apple",
+      "simbolo": "AAPL",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Microsoft",
+      "simbolo": "MSFT",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Alphabet (Google)",
+      "simbolo": "GOOGL",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Amazon",
+      "simbolo": "AMZN",
+      "pais": "EUA"
+     }
+    ],
+    "Infraestrutura": [
+     {
+      "nome": "NextEra Energy",
+      "simbolo": "NEE",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Caterpillar",
+      "simbolo": "CAT",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Union Pacific",
+      "simbolo": "UNP",
+      "pais": "EUA"
+     },
+     {
+      "nome": "American Tower",
+      "simbolo": "AMT",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Duke Energy",
+      "simbolo": "DUK",
+      "pais": "EUA"
+     }
+    ],
+    "Commodities": [
+     {
+      "nome": "ExxonMobil",
+      "simbolo": "XOM",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Chevron",
+      "simbolo": "CVX",
+      "pais": "EUA"
+     },
+     {
+      "nome": "ConocoPhillips",
+      "simbolo": "COP",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Freeport-McMoRan",
+      "simbolo": "FCX",
+      "pais": "EUA"
+     },
+     {
+      "nome": "Newmont",
+      "simbolo": "NEM",
+      "pais": "EUA"
+     }
+    ]
+   }
+  },
+  {
+   "chave": "europa",
+   "nome": "Europa",
+   "setores": {
+    "Tecnologia": [
+     {
+      "nome": "ASML",
+      "simbolo": "ASML.AS",
+      "pais": "Holanda"
+     },
+     {
+      "nome": "SAP",
+      "simbolo": "SAP.DE",
+      "pais": "Alemanha"
+     },
+     {
+      "nome": "Infineon",
+      "simbolo": "IFX.DE",
+      "pais": "Alemanha"
+     },
+     {
+      "nome": "STMicroelectronics",
+      "simbolo": "STMPA.PA",
+      "pais": "França"
+     },
+     {
+      "nome": "Nokia",
+      "simbolo": "NOKIA.HE",
+      "pais": "Finlândia"
+     }
+    ],
+    "Infraestrutura": [
+     {
+      "nome": "Siemens",
+      "simbolo": "SIE.DE",
+      "pais": "Alemanha"
+     },
+     {
+      "nome": "Iberdrola",
+      "simbolo": "IBE.MC",
+      "pais": "Espanha"
+     },
+     {
+      "nome": "Schneider Electric",
+      "simbolo": "SU.PA",
+      "pais": "França"
+     },
+     {
+      "nome": "Vinci",
+      "simbolo": "DG.PA",
+      "pais": "França"
+     },
+     {
+      "nome": "Enel",
+      "simbolo": "ENEL.MI",
+      "pais": "Itália"
+     }
+    ],
+    "Commodities": [
+     {
+      "nome": "Shell",
+      "simbolo": "SHEL.L",
+      "pais": "Reino Unido"
+     },
+     {
+      "nome": "TotalEnergies",
+      "simbolo": "TTE.PA",
+      "pais": "França"
+     },
+     {
+      "nome": "BP",
+      "simbolo": "BP.L",
+      "pais": "Reino Unido"
+     },
+     {
+      "nome": "Rio Tinto",
+      "simbolo": "RIO.L",
+      "pais": "Reino Unido"
+     },
+     {
+      "nome": "Glencore",
+      "simbolo": "GLEN.L",
+      "pais": "Reino Unido"
+     }
+    ]
+   }
+  },
+  {
+   "chave": "asia",
+   "nome": "Ásia",
+   "setores": {
+    "Tecnologia": [
+     {
+      "nome": "TSMC",
+      "simbolo": "2330.TW",
+      "pais": "Taiwan"
+     },
+     {
+      "nome": "Samsung",
+      "simbolo": "005930.KS",
+      "pais": "Coreia do Sul"
+     },
+     {
+      "nome": "Tencent",
+      "simbolo": "0700.HK",
+      "pais": "Hong Kong"
+     },
+     {
+      "nome": "Sony",
+      "simbolo": "6758.T",
+      "pais": "Japão"
+     },
+     {
+      "nome": "Alibaba",
+      "simbolo": "9988.HK",
+      "pais": "Hong Kong"
+     }
+    ],
+    "Infraestrutura": [
+     {
+      "nome": "Hitachi",
+      "simbolo": "6501.T",
+      "pais": "Japão"
+     },
+     {
+      "nome": "Larsen & Toubro",
+      "simbolo": "LT.NS",
+      "pais": "Índia"
+     },
+     {
+      "nome": "China State Construction",
+      "simbolo": "601668.SS",
+      "pais": "China"
+     },
+     {
+      "nome": "China Mobile",
+      "simbolo": "0941.HK",
+      "pais": "Hong Kong"
+     },
+     {
+      "nome": "East Japan Railway",
+      "simbolo": "9020.T",
+      "pais": "Japão"
+     }
+    ],
+    "Commodities": [
+     {
+      "nome": "BHP",
+      "simbolo": "BHP.AX",
+      "pais": "Austrália"
+     },
+     {
+      "nome": "Reliance Industries",
+      "simbolo": "RELIANCE.NS",
+      "pais": "Índia"
+     },
+     {
+      "nome": "PetroChina",
+      "simbolo": "0857.HK",
+      "pais": "Hong Kong"
+     },
+     {
+      "nome": "CNOOC",
+      "simbolo": "0883.HK",
+      "pais": "Hong Kong"
+     },
+     {
+      "nome": "Nippon Steel",
+      "simbolo": "5401.T",
+      "pais": "Japão"
+     }
+    ]
+   }
+  }
+ ]
+}

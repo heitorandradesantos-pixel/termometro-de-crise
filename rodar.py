@@ -28,7 +28,7 @@ sys.path.insert(0, str(RAIZ))
 
 import pandas as pd  # noqa: E402
 
-from termometro import (bcb, buscador, coleta, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
+from termometro import (acoes, bcb, buscador, coleta, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
                         mundo, paginas, panorama, publicar, redator, revisor, seo, site)
 
 EDICOES = RAIZ / "edicoes"
@@ -143,6 +143,8 @@ def diario(dados_dir: Path, data: str, coletar: bool = True) -> Path:
         regional = mundo.rodar(dados_dir / "mundo", historico)
         (historico / "mundo.json").replace(pasta / "mundo.json")
     bc = tentar(registro, "Banco Central", lambda: bcb.coletar(data), None) if coletar else None
+    if coletar:
+        tentar(registro, "Cotações das empresas", lambda: acoes.gravar(pasta, data), None)
     if bc is not None:
         (pasta / "bcb.json").write_text(json.dumps(bc, ensure_ascii=False, indent=1))
     cliente = ia.novo_cliente() if ia.disponivel() else None
@@ -256,6 +258,11 @@ def parcial(dados_dir: Path, data: str, hora: str, coletar: bool = True) -> Path
     regional["parcial"] = {"hora": hora}
     (pasta / "mundo.json").write_text(json.dumps(regional, ensure_ascii=False, indent=1))
     (historico / "mundo.json").unlink(missing_ok=True)
+    if coletar:
+        try:
+            acoes.gravar(pasta, data)
+        except Exception as erro:  # noqa: BLE001 — sem cotações novas, a página usa as anteriores
+            print(f"Cotações das empresas falharam: {erro}")
     print(f"Leitura parcial de {data} às {hora}: mundo em {(regional.get('mundo') or {}).get('valor')}.")
     return pasta
 

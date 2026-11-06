@@ -4,6 +4,8 @@
 // duas consultas por minuto por região do Cloudflare, não uma por visitante.
 // Para trocar de fornecedor (com licença), basta reescrever a função `um`.
 
+import ACOES from "../_lib/acoes.json";
+
 export const ITENS = [
   ["Ibovespa", "^BVSP", "pontos"], ["Dólar", "BRL=X", "brl"], ["Euro", "EURBRL=X", "brl"],
   ["Dow Jones", "^DJI", "pontos"], ["S&P 500", "^GSPC", "pontos"], ["Nasdaq", "^IXIC", "pontos"],
@@ -12,34 +14,44 @@ export const ITENS = [
 ];
 const TTL = 30;
 
+export function da_bolsa(chave) {
+  const b = ACOES.bolsas.find((x) => x.chave === chave);
+  return b ? Object.values(b.setores).flat().map((a) => [a.nome, a.simbolo, "acao"]) : null;
+}
+
 export async function um(nome, simbolo, tipo, buscar = fetch) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(simbolo)}?range=1d&interval=5m`;
   const r = await buscar(url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; termometro-de-crise/1.0)" } });
   if (!r.ok) throw new Error(`${simbolo}: ${r.status}`);
   const meta = (await r.json())?.chart?.result?.[0]?.meta || {};
-  const ultimo = meta.regularMarketPrice, antes = meta.chartPreviousClose ?? meta.previousClose;
+  const fator = meta.currency === "GBp" ? 0.01 : 1; // Londres cota em pence; mostramos em libras
+  const ultimo = meta.regularMarketPrice * fator, antes = (meta.chartPreviousClose ?? meta.previousClose) * fator;
   if (!(ultimo > 0) || !(antes > 0)) throw new Error(`${simbolo}: sem preço`);
   const periodo = meta.currentTradingPeriod?.regular, agora = Date.now() / 1000;
   // preço parado há mais de 4 dias (a fonte deixou de atualizar): melhor sumir da faixa do que enganar
   if (meta.regularMarketTime && agora - meta.regularMarketTime > 4 * 86400) throw new Error(`${simbolo}: parado`);
   return {
-    nome, tipo, ultimo, variacao_pct: (ultimo / antes - 1) * 100, hora: meta.regularMarketTime || null,
+    nome, simbolo, tipo, moeda: meta.currency === "GBp" ? "GBP" : meta.currency || "", ultimo,
+    variacao_pct: (ultimo / antes - 1) * 100, hora: meta.regularMarketTime || null,
     aberto: Boolean(periodo && agora >= periodo.start && agora <= periodo.end),
   };
 }
 
-export async function montar(buscar = fetch) {
-  const respostas = await Promise.allSettled(ITENS.map(([nome, simbolo, tipo]) => um(nome, simbolo, tipo, buscar)));
+export async function montar(buscar = fetch, lista = ITENS) {
+  const respostas = await Promise.allSettled(lista.map(([nome, simbolo, tipo]) => um(nome, simbolo, tipo, buscar)));
   const itens = respostas.filter((x) => x.status === "fulfilled").map((x) => x.value);
   return { fonte: "Yahoo Finance", gerado: Math.floor(Date.now() / 1000), itens, falhas: respostas.length - itens.length };
 }
 
 export async function onRequestGet(context) {
   const cache = caches.default;
-  const chave = new Request(new URL("/api/cotacoes", context.request.url).toString());
+  const bolsa = new URL(context.request.url).searchParams.get("bolsa");
+  const lista = bolsa ? da_bolsa(bolsa) : ITENS; // ?bolsa=brasil: as 15 ações da página Cotações
+  if (!lista) return new Response('{"erro":"bolsa desconhecida"}', { status: 404, headers: { "content-type": "application/json" } });
+  const chave = new Request(new URL(`/api/cotacoes${bolsa ? `?bolsa=${bolsa}` : ""}`, context.request.url).toString());
   const guardada = await cache.match(chave);
   if (guardada) return guardada;
-  const dados = await montar();
+  const dados = await montar(fetch, lista);
   const resposta = new Response(JSON.stringify(dados), {
     status: dados.itens.length ? 200 : 502,
     headers: { "content-type": "application/json; charset=utf-8", "cache-control": `public, max-age=${TTL}` },

@@ -260,7 +260,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{adsense}</head>
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
-<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
+<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
@@ -370,7 +370,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     edicoes = _edicoes(pasta_edicoes)
     if not edicoes:
         raise SystemExit("Nenhuma edição encontrada em edicoes/.")
-    from . import arquivo, paginas  # aqui dentro para não haver importação circular
+    from . import acoes, arquivo, paginas  # aqui dentro para não haver importação circular
     global FAIXA
     diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
     fonte = paginas.fonte(edicoes[0], diario_dir)
@@ -416,6 +416,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     arquivos, mapa_arquivo = (arquivo.gerar(saida, diario_dir, fonte["mundo"], fonte["data"], fonte["regioes"])
                               if fonte["mundo"].get("regioes") else ([], []))
     fonte["com_arquivo"] = {Path(c).stem for c in arquivos if c.startswith("noticias/")}
+    paginas_cotacoes = acoes.paginas(saida, fonte.get("acoes"), fonte["mundo"])
     fonte["tem_arquivo_panorama"] = "panorama/index.html" in arquivos
 
     dia, dados, copy = lista[0]
@@ -514,6 +515,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                                                           legal.editorial(), caminho="politica-editorial.html"))
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
+    novas += paginas_cotacoes
     extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 

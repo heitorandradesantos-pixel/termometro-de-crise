@@ -491,6 +491,8 @@ def fonte(pasta_edicao: Path, pasta_diario: Path) -> dict:
         # numa leitura parcial (11h, 14h) ainda não há notícias nem panorama do dia: valem as do último fechamento
         com_noticias = next((x for x in reversed(dias) if (x / "correspondente.json").exists()), None)
         com_panorama = next((x for x in reversed(dias) if (x / "panorama.txt").exists()), None)
+        com_acoes = next((x for x in reversed(dias) if (x / "acoes.json").exists()), None)
+        f["acoes"] = _json(com_acoes / "acoes.json") if com_acoes else None
         f.update(data=d.name, mundo=_json(d / "mundo.json"),
                  paises=_csv(hist / "mundo_paises.csv"), regioes=_csv(hist / "mundo_regioes.csv"),
                  correspondente=_json(com_noticias / "correspondente.json") if com_noticias else None,
