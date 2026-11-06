@@ -1,0 +1,119 @@
+{
+ "titulo": "Reforma tributária vai ser adiada? CBS em 2027: o que se sabe",
+ "descricao": "Fazenda diz que a CBS começa em 1º/1/2027. CNI, OAB e Bernard Appy pedem adiar para 2028. Veja o que está confirmado e o que ainda não se sabe.",
+ "palavra_chave": "reforma tributária adiada",
+ "lead": "Até 6 de novembro, a reforma tributária não foi adiada. O ministro da Fazenda, Dario Durigan, disse em 5/11 que o governo mantém o início da cobrança da CBS, novo tributo federal sobre consumo, em janeiro de 2027. Entidades empresariais e o ex-secretário da reforma Bernard Appy pedem esticar a fase de testes até 2028, mas o pedido não mudou o calendário.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O ministro da Fazenda, Dario Durigan, disse em 5 de novembro que o governo não pretende adiar a reforma e mantém o cronograma de janeiro de 2027. A fala veio após pedidos de entidades empresariais.",
+   "fonte_url": "https://exame.com/economia/reforma-tributaria-nao-sera-adiada-e-comeca-em-2027-diz-ministro-da-fazenda/",
+   "data": "2026-11-05",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "A CNI (indústria) enviou em 4 de novembro uma carta aos ministros da Fazenda e do Desenvolvimento pedindo que o período de testes se estenda por todo 2027. A OAB também pediu adiamento do cronograma.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/ministro-da-fazenda-mantem-inicio-da-reforma-tributaria-em-2027/",
+   "data": "2026-11-04",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Bernard Appy, ex-secretário extraordinário da Reforma Tributária do Ministério da Fazenda, confirmou ao Poder360 que defende prolongar os testes da CBS até o fim de 2027. A proposta, só para a CBS, levaria a cobrança efetiva para 2028 e contraria a posição de Durigan.",
+   "fonte_url": "https://www.poder360.com.br/reforma-tributaria-2027/bernard-appy-defende-prolongar-periodo-de-testes-da-cbs/",
+   "data": "2026-11-06",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "Pelo calendário em vigor, a CBS passa a ser cobrada em 2027 e substitui o PIS e a Cofins. O Imposto Seletivo, que incide sobre produtos nocivos à saúde ou ao meio ambiente, também começa em 2027. Em 2026, a CBS e o IBS (tributo de estados e municípios) só estão em teste, a 0,9% e 0,1%.",
+   "fonte_url": "https://exame.com/economia/reforma-tributaria-nao-sera-adiada-e-comeca-em-2027-diz-ministro-da-fazenda/",
+   "data": "2026-11-05",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O Tribunal de Contas da União (TCU) aprovou em 28 de outubro o cálculo de 11,3% como alíquota de referência da CBS em 2027. A estimativa anterior era de 9,21%. A decisão final cabe ao Senado.",
+   "fonte_url": "https://www.correiobraziliense.com.br/economia/2026/11/7534535-reforma-tributaria-entidades-pedem-adiamento-das-cobrancas-para-2028.html",
+   "data": "2026-10-28",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "A CNI aponta regulamentação incompleta e instável da CBS e a falta de regulamento do Imposto Seletivo. A pressão aumentou após o TCU divulgar os 11,3%.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/ministro-da-fazenda-mantem-inicio-da-reforma-tributaria-em-2027/",
+   "data": "2026-11-05",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Apesar de manter a data, a equipe econômica planeja flexibilizar prazos de obrigações acessórias (declarações e documentos exigidos das empresas) e a aplicação de multas durante a adaptação. A Fazenda ainda não detalhou quais prazos mudam.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/governo-mantem-inicio-da-reforma-tributaria-para-janeiro-de-2027/",
+   "data": "2026-11-05",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Uma minuta de PEC (proposta de emenda à Constituição) para levar a CBS a 2028 circula entre parlamentares. A deputada Any Ortiz (PP-RS) recolhe assinaturas. Em consulta ao sistema da Câmara em 6/11, o texto ainda não havia sido protocolado.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/80656/pec-para-adiar-reforma-minuta-ainda-depende-de-assinaturas/",
+   "data": "2026-11-06",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "TCU aprova o cálculo de 11,3% para a alíquota de referência da CBS em 2027.",
+   "fonte_url": "https://www.correiobraziliense.com.br/economia/2026/11/7534535-reforma-tributaria-entidades-pedem-adiamento-das-cobrancas-para-2028.html",
+   "data": "2026-10-28",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "Carta aberta de entidades de direito tributário pedindo adiar a CBS para 2028 é repercutida pela Veja.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/80576/reforma-tributaria-entidades-pedem-adiamento-da-cbs-para-2028/",
+   "data": "2026-11-03",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "CNI envia carta à Fazenda e ao Desenvolvimento pedindo estender os testes por todo 2027.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/ministro-da-fazenda-mantem-inicio-da-reforma-tributaria-em-2027/",
+   "data": "2026-11-04",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Durigan diz que o governo mantém o início da reforma em janeiro de 2027.",
+   "fonte_url": "https://exame.com/economia/reforma-tributaria-nao-sera-adiada-e-comeca-em-2027-diz-ministro-da-fazenda/",
+   "data": "2026-11-05",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Appy confirma ao Poder360 que defende estender os testes da CBS até o fim de 2027. Minuta de PEC ainda não tinha sido protocolada na Câmara.",
+   "fonte_url": "https://www.poder360.com.br/reforma-tributaria-2027/bernard-appy-defende-prolongar-periodo-de-testes-da-cbs/",
+   "data": "2026-11-06",
+   "veiculo": "Poder360",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o Congresso vai votar algum adiamento da CBS. A PEC ainda não tinha sido protocolada na Câmara em 6/11, segundo consulta do Contábeis ao sistema da Casa. Outras publicações dizem que ela foi apresentada, e essa divergência não foi esclarecida.",
+  "Qual será a alíquota final da CBS em 2027. O TCU calculou 11,3%, mas o Senado ainda precisa definir. Os veículos divergem sobre a data: um fala em 10 de novembro para o recebimento do cálculo, outro em prazo até 15 de dezembro.",
+  "Quais prazos e multas serão flexibilizados. A Fazenda ainda não detalhou as medidas (não confirmado).",
+  "Se o governo mudará de posição diante da pressão da CNI, da OAB e de Appy. Até 6/11, a posição oficial era manter janeiro de 2027."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você é consumidor, nada muda hoje. O calendário oficial continua valendo, e a CBS substitui PIS e Cofins, tributos que já estão embutidos nos preços. Segundo Durigan, a reforma não deve elevar a carga total de impostos sobre o consumo. Isso é a posição do ministro, não um resultado já comprovado.",
+  "Se você tem empresa ou MEI, o pedido de adiamento não é lei. Quem trata a data de 2027 como adiada corre o risco de ser pego sem preparo. Converse com seu contador sobre o sistema de notas fiscais e sobre os contratos.",
+  "Se a alíquota de 11,3% for confirmada pelo Senado, ela é a referência para a CBS. O preço final ao consumidor depende de cada produto e serviço, e esse efeito não foi calculado nas fontes consultadas.",
+  "Se um adiamento vier, ele precisaria passar pelo Congresso. Mudar o início da CBS exige alteração formal. Se houver mudança, você saberá pelo Diário Oficial ou pelo Congresso."
+ ],
+ "como_se_proteger": [],
+ "slug": "reforma-tributaria-adiada",
+ "publicado_em": "2026-11-06T19:27:06.401754",
+ "atualizado_em": "2026-11-06T19:27:06.401754",
+ "assunto": "Reforma tributária vai ser adiada? O que se sabe sobre a CBS em 2027",
+ "turno": "noite"
+}
