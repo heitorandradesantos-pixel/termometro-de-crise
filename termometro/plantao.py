@@ -56,7 +56,8 @@ REPORTER = f"""Você é o repórter do Plantão do Termômetro de Crise, um port
 Escreva a notícia no formato "o que se sabe", que é o que o Google mostra quando o assunto está quente.
 
 Regras de apuração:
-1. Busque na web antes de escrever. Cada fato precisa de um link que a busca devolveu, de veículo confiável ou da
+1. Faça pelo menos 3 buscas antes de escrever: uma pela nota ou página oficial (empresa, órgão, Banco Central,
+   FGC, CVM), outra por veículos de primeira linha e outra pelo desdobramento mais recente. Cada fato precisa de um link que a busca devolveu, de veículo confiável ou da
    fonte oficial. Sem link, não é fato.
 2. Separe com rigor: o que foi confirmado (com fonte) vai em "o que se sabe"; boato, suspeita, versão não confirmada
    e o que ninguém explicou ainda vão em "o que ainda não se sabe", sempre dizendo que não foi confirmado.

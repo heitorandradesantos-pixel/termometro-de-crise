@@ -89,6 +89,11 @@ FONTES_CONFIAVEIS = [
     "opec.org", "un.org", "unhcr.org", "acleddata.com", "crisisgroup.org", "cfr.org", "sipri.org",
     "iiss.org", "csis.org", "chathamhouse.org", "nato.int", "europa.eu", "whitehouse.gov", "state.gov",
     "treasury.gov", "defense.gov", "kremlin.ru", "mid.ru", "fmprc.gov.cn", "gov.uk",
+    # Brasil: órgãos oficiais e imprensa econômica de primeira linha (o Plantão precisa de pelo menos uma)
+    "fgc.org.br", "b3.com.br", "cvm.gov.br", "febraban.org.br", "anbima.com.br", "infomoney.com.br", "exame.com",
+    "cnnbrasil.com.br", "uol.com.br", "oglobo.globo.com", "globo.com", "bloomberglinea.com.br", "braziljournal.com",
+    "neofeed.com.br", "poder360.com.br", "istoedinheiro.com.br", "veja.abril.com.br", "seudinheiro.com",
+    "moneytimes.com.br", "correiobraziliense.com.br", "jota.info", "metropoles.com", "cbn.globoradio.globo.com",
 ]
 
 # ---------------------------------------------------------------- IA
