@@ -422,7 +422,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
         explica_tabela = "O índice da newsletter: 5 indicadores dos mercados globais, cada um comparado com o próprio histórico desde 1990."
     estruturados = paginas.jsonld(
         {"@context": "https://schema.org", "@type": "WebSite", "name": config.NOME, "url": config.SITE_URL or "",
-         "inLanguage": "pt-BR", "description": "O termômetro de crise do mundo, das regiões e de 19 países, em linguagem simples."},
+         "inLanguage": "pt-BR", "description": f"O termômetro de crise do mundo, das regiões e de {len(paginas.motor.PAISES)} países, em linguagem simples."},
         {"@context": "https://schema.org", "@type": "Organization", "name": config.NOME, "url": config.SITE_URL or ""})
     corpo = topo + f"""
 {'<div class="anuncio"></div>' if config.ADSENSE_CLIENT else ''}

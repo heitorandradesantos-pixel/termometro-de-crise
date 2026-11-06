@@ -29,7 +29,7 @@ ARTIGOS = {"EUA": "os", "Canadá": "o", "México": "o", "Brasil": "o", "Argentin
            "América do Norte": "a", "América Latina": "a", "Europa": "a", "Oriente Médio": "o", "África": "a",
            "Ásia e Pacífico": "a", "Chile": "o", "Colômbia": "a", "Peru": "o", "Paraguai": "o", "Uruguai": "o",
            "Itália": "a", "Espanha": "a", "Portugal": "", "Suíça": "a", "Rússia": "a", "Arábia Saudita": "a",
-           "Quênia": "o", "Marrocos": "o", "Angola": "", "Indonésia": "a", "Taiwan": "", "Singapura": ""}
+           "Quênia": "o", "Marrocos": "o", "Indonésia": "a", "Taiwan": "", "Singapura": ""}
 
 
 def de(nome: str) -> str:
@@ -384,7 +384,11 @@ A2 = {"EUA": "US", "Canadá": "CA", "México": "MX", "Brasil": "BR", "Argentina"
       "Japão": "JP", "China": "CN", "Hong Kong": "HK", "Índia": "IN", "Coreia do Sul": "KR", "Austrália": "AU",
       "Chile": "CL", "Colômbia": "CO", "Peru": "PE", "Paraguai": "PY", "Uruguai": "UY", "Itália": "IT", "Espanha": "ES",
       "Portugal": "PT", "Suíça": "CH", "Rússia": "RU", "Arábia Saudita": "SA", "Quênia": "KE", "Marrocos": "MA",
-      "Angola": "AO", "Indonésia": "ID", "Taiwan": "TW", "Singapura": "SG"}
+      "Indonésia": "ID", "Taiwan": "TW", "Singapura": "SG"}
+
+
+# Países pequenos demais para aparecer no desenho do mapa: um ponto no lugar certo (coordenadas do próprio SVG).
+PONTOS_NO_MAPA = {"HK": (777, 213), "SG": (752, 274)}
 
 
 def mapa_svg(m: dict, raiz: str = "") -> str:
@@ -411,6 +415,12 @@ def mapa_svg(m: dict, raiz: str = "") -> str:
             classe += " br"
         formas.append(f'<a href="{href}" tabindex="-1"><path class="{classe}" d="{c["d"]}" fill="{cor}">'
                       f'<title>{html.escape(dica)}</title></path></a>')
+    for a2, (px, py) in PONTOS_NO_MAPA.items():
+        if a2 in medidos:
+            p = medidos[a2]
+            dica = html.escape(f"{p['nome']}: {p['valor']}, {p['nivel']} (toque para entender)")
+            formas.append(f'<a href="{raiz}paises/{p["slug"]}.html" tabindex="-1"><circle class="pa ponto" cx="{px}" '
+                          f'cy="{py}" r="4" fill="{p["cor"]}"><title>{dica}</title></circle></a>')
     rotulos = "".join(f'<text x="{x}" y="{y}" text-anchor="middle">{html.escape(nome)} {regioes[nome]["valor"]}</text>'
                       for nome, (x, y) in dados.get("rotulos", {}).items() if nome in regioes)
     return (f'<figure class="mapa-mundo" style="margin:0"><svg viewBox="0 0 {dados["largura"]} {dados["altura"]}" '

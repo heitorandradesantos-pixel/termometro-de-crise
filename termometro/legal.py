@@ -4,6 +4,11 @@ import html
 
 from . import config
 
+
+def _paises() -> int:
+    from .mundo import PAISES
+    return len(PAISES)
+
 ATUALIZADO = "5 de novembro de 2026"
 
 
@@ -157,7 +162,7 @@ def quem_somos() -> str:
     responsavel = f" O responsável pelo projeto é {html.escape(config.RESPONSAVEL)}." if config.RESPONSAVEL else ""
     return f"""<section class="edicao"><h1>Quem somos</h1>
 <p>O {config.NOME} é um projeto brasileiro independente que mede, de 0 a 100, o estresse dos mercados no mundo, em 6
-regiões e em 19 países, e explica cada leitura em português simples, com as notícias que mexem com ela e a fonte de cada
+regiões e em {_paises()} países, e explica cada leitura em português simples, com as notícias que mexem com ela e a fonte de cada
 fato.{responsavel}</p>
 <h2>Como funciona</h2>
 <p>Os números saem de um método aberto, descrito na <a href="metodologia.html">metodologia</a>: cada sinal (bolsa, sobe e

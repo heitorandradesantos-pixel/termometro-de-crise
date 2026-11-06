@@ -33,9 +33,9 @@ PAISES = {
     "México":         ("América Latina", "^MXX", ("fred", "DEXMXUS", False)),
     "Brasil":         ("América Latina", "^BVSP", ("fred", "DEXBZUS", False)),
     "Argentina":      ("América Latina", "^MERV", ("yahoo", "ARS=X", False)),
-    "Chile":          ("América Latina", "^IPSA", ("yahoo", "CLP=X", False)),
+    "Chile":          ("América Latina", None, ("yahoo", "CLP=X", False)),
     "Colômbia":       ("América Latina", None, ("yahoo", "COP=X", False)),
-    "Peru":           ("América Latina", "^SPBLPGPT", ("yahoo", "PEN=X", False)),
+    "Peru":           ("América Latina", None, ("yahoo", "PEN=X", False)),
     "Paraguai":       ("América Latina", None, ("yahoo", "PYG=X", False)),
     "Uruguai":        ("América Latina", None, ("yahoo", "UYU=X", False)),
     "Alemanha":       ("Europa", "^GDAXI", ("fred", "DEXUSEU", True)),
@@ -49,12 +49,13 @@ PAISES = {
     "Turquia":        ("Oriente Médio", "XU100.IS", ("yahoo", "TRY=X", False)),
     "Israel":         ("Oriente Médio", "^TA125.TA", ("yahoo", "ILS=X", False)),
     "Egito":          ("Oriente Médio", None, ("yahoo", "EGP=X", False)),
-    "Arábia Saudita": ("Oriente Médio", "^TASI.SR", None),  # rial atrelado ao dólar: só a bolsa
+    # O Yahoo não tem o histórico da Tadawul; o fundo MSCI Arábia Saudita (em dólar) faz o papel da bolsa,
+    # e como o rial é atrelado ao dólar, o preço em dólar acompanha o preço local.
+    "Arábia Saudita": ("Oriente Médio", "KSA", None),
     "África do Sul":  ("África", "^J203.JO", ("fred", "DEXSFUS", False)),
     "Nigéria":        ("África", None, ("yahoo", "NGN=X", False)),
     "Quênia":         ("África", None, ("yahoo", "KES=X", False)),
     "Marrocos":       ("África", None, ("yahoo", "MAD=X", False)),
-    "Angola":         ("África", None, ("yahoo", "AOA=X", False)),
     "Japão":          ("Ásia e Pacífico", "^N225", ("fred", "DEXJPUS", False)),
     "China":          ("Ásia e Pacífico", "000001.SS", ("fred", "DEXCHUS", False)),
     "Hong Kong":      ("Ásia e Pacífico", "^HSI", None),
@@ -72,8 +73,8 @@ BOLSAS = {"EUA": "S&P 500", "Canadá": "S&P/TSX", "México": "IPC", "Brasil": "I
           "Alemanha": "DAX", "França": "CAC 40", "Reino Unido": "FTSE 100", "Turquia": "BIST 100",
           "Israel": "TA-125", "África do Sul": "JSE All Share", "Japão": "Nikkei 225", "China": "Xangai Composto",
           "Hong Kong": "Hang Seng", "Índia": "Nifty 50", "Coreia do Sul": "Kospi", "Austrália": "ASX 200",
-          "Chile": "S&P IPSA", "Peru": "S&P/BVL Peru General", "Itália": "FTSE MIB", "Espanha": "IBEX 35",
-          "Portugal": "PSI", "Suíça": "SMI", "Arábia Saudita": "Tadawul (TASI)", "Indonésia": "Jakarta Composite",
+          "Itália": "FTSE MIB", "Espanha": "IBEX 35",
+          "Portugal": "PSI", "Suíça": "SMI", "Arábia Saudita": "MSCI Arábia Saudita", "Indonésia": "Jakarta Composite",
           "Taiwan": "Taiex", "Singapura": "Straits Times"}
 MOEDAS = {"Canadá": "dólar canadense", "México": "peso mexicano", "Brasil": "real", "Argentina": "peso argentino",
           "Alemanha": "euro", "França": "euro", "Reino Unido": "libra", "Turquia": "lira turca", "Israel": "shekel",
@@ -81,7 +82,7 @@ MOEDAS = {"Canadá": "dólar canadense", "México": "peso mexicano", "Brasil": "
           "Índia": "rupia", "Coreia do Sul": "won", "Austrália": "dólar australiano", "Chile": "peso chileno",
           "Colômbia": "peso colombiano", "Peru": "sol", "Paraguai": "guarani", "Uruguai": "peso uruguaio",
           "Itália": "euro", "Espanha": "euro", "Portugal": "euro", "Suíça": "franco suíço", "Rússia": "rublo",
-          "Quênia": "xelim queniano", "Marrocos": "dirham", "Angola": "kwanza", "Indonésia": "rupia indonésia",
+          "Quênia": "xelim queniano", "Marrocos": "dirham", "Indonésia": "rupia indonésia",
           "Taiwan": "dólar taiwanês", "Singapura": "dólar de Singapura"}
 
 # Épocas conhecidas, para dar nome aos picos do histórico: (país, região ou "*", início, fim, rótulo)
