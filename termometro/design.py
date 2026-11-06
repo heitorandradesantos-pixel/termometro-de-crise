@@ -161,10 +161,11 @@ def paginas_para_auditar(site: Path) -> dict[str, str]:
                                              else regioes[0].name))
     if (site / "paises" / "brasil.html").exists():
         escolhidas["País (Brasil)"] = "paises/brasil.html"
-    for nome, caminho in (("Ranking", "mundo.html"), ("Panorama", "panorama.html"), ("Metodologia", "metodologia.html")):
+    for nome, caminho in (("Ranking", "mundo.html"), ("Panorama", "panorama.html"), ("Notícias", "noticias/index.html"),
+                          ("Arquivo do panorama", "panorama/index.html"), ("Metodologia", "metodologia.html")):
         if (site / caminho).exists():
             escolhidas[nome] = caminho
-    edicoes = sorted((site / "edicoes").glob("20*.html")) if (site / "edicoes").exists() else []
+    edicoes = sorted((site / "edicoes").glob("20??-??-??.html")) if (site / "edicoes").exists() else []
     if edicoes:
         escolhidas["Edição"] = f"edicoes/{edicoes[-1].name}"
     return escolhidas

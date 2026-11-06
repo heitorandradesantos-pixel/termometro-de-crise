@@ -50,7 +50,7 @@ def sujeito(nome: str) -> tuple[str, str]:
     return (f"{a.capitalize()} {nome}" if a else nome), ("estão" if a == "os" else "está")
 
 CSS = """
-.trilha{font-size:13px;color:var(--suave);margin:20px 0 0}.trilha a{color:var(--suave)}
+.trilha{font-size:13px;color:var(--suave);margin:20px 0 0}.trilha a{color:var(--suave);display:inline-block;padding:4px 0}
 .ficha{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:28px;align-items:center;padding:16px 0 8px}
 .ficha .global{padding:16px}.ficha h1{font-size:34px;margin:0 0 8px}.ficha .lead{font-size:18px;margin:0 0 10px}
 .chip{font-size:13px;font-weight:600;color:#0E141B;border-radius:6px;padding:2px 8px;white-space:nowrap}
@@ -69,8 +69,9 @@ a.caixa:hover{outline:1px solid #34485A}
 .noticia h3{font-size:17px;margin:4px 0}.noticia p{margin:4px 0;font-size:15px}
 .meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:var(--suave)}
 .meta a{display:inline-block;padding:4px 0}
+.mexe{font-size:13px;color:var(--suave);margin:6px 0}
 .tag{border:1px solid var(--linha);border-radius:6px;padding:4px 8px;display:inline-block}
-.fontes{font-size:13px}.fontes a{margin-right:10px;display:inline-block;padding:4px 0}
+.fontes{font-size:13px}.fontes a{margin-right:10px;display:inline-block;padding:4px 2px;min-width:28px;text-align:center}
 .hist svg{width:100%;height:auto;display:block}.hist .cel{display:none}
 .picos{margin:10px 0 0;padding-left:20px}.picos li{margin:4px 0}
 .ranking td{padding:10px 8px}.ranking a{color:var(--texto);text-decoration:none;font-weight:600;display:inline-block;padding:4px 0}
@@ -225,7 +226,7 @@ def noticia_html(n: dict, raiz: str, mostrar_regiao: bool = True) -> str:
     if n.get("mexe_em"):
         ponto = (f'<span style="color:{COR_DIRECAO[direcao]}" aria-hidden="true">●</span> '
                  if direcao in ("pressiona", "alivia") else "")
-        mexe = (f'<p class="meta">{ponto}Mexe em: {html.escape(", ".join(n["mexe_em"]))}'
+        mexe = (f'<p class="mexe">{ponto}Mexe em: {html.escape(", ".join(n["mexe_em"]))}'
                 f'{" (" + TEXTO_DIRECAO.get(direcao, "") + ")" if direcao else ""}</p>')
     fontes = "".join(f'<a href="{html.escape(f["url"])}" target="_blank" rel="noopener noreferrer">'
                      f'{html.escape(f["veiculo"])}</a>' for f in fontes_unicas(n.get("fontes", [])))
@@ -553,6 +554,7 @@ def pagina_regiao(f: dict, r: dict) -> str:
                 if ordenados else "")
              + noticias_secao(noticias, "Notícias que mexem com o termômetro", "../", mostrar_regiao=False,
                               vazio="Nenhuma notícia conferida com fonte nos últimos dias para esta região.")
+             + link_arquivo(f, r["slug"], f"Ver todas as notícias {de(r['nome'])}")
              + historico_html(serie, r.get("picos", []), r["nome"], r["valor"])
              + observar_html(ex.get("observar", []))
              + compartilhar(f"Termômetro de crise {de(r['nome'])}: {r['valor']} de 100 ({r['nivel']})", f"regioes/{r['slug']}.html")
@@ -582,7 +584,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
                       f'conferido automaticamente. As notícias estão logo abaixo.</p></section>') if contexto else ""
     todas = noticias_da_regiao(f, r["nome"])
     noticias = [n for n in todas if p["nome"] in n.get("paises", [])]
-    da_regiao = [n for n in todas if n not in noticias][:3]
+    da_regiao = [n for n in todas if n not in noticias][:3]  # regra pública: mesmo país, depois a região, até 3
     serie = f["paises"][p["nome"]] if f["paises"] is not None and p["nome"] in f["paises"] else None
     vizinhos = " ".join(f'<a class="tag" href="{v["slug"]}.html">{html.escape(v["nome"])} {v["valor"]}</a>'
                         for v in r["paises"] if v["nome"] != p["nome"] and v.get("valor") is not None)
@@ -594,7 +596,8 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
              + (bolso_brasil(p) if p["nome"] == "Brasil" else "")
              + bloco_contexto
              + noticias_secao(noticias, f"Notícias que mexem com {html.escape(ARTIGOS.get(p['nome'], '') + ' ' + p['nome']).strip()}", "../", mostrar_regiao=False)
-             + noticias_secao(da_regiao, f"Na região: {html.escape(r['nome'])}", "../", mostrar_regiao=False)
+             + link_arquivo(f, p["slug"], f"Ver todas as notícias {de(p['nome'])}")
+             + noticias_secao(da_regiao, "Leia também", "../", mostrar_regiao=False)
              + historico_html(serie, p.get("picos", []), p["nome"], p["valor"])
              + (f'<section><h2>Outros países da região</h2><p class="meta" style="font-size:14px">{vizinhos}</p></section>'
                 if vizinhos else "")
@@ -618,6 +621,12 @@ def observar_html(itens: list[dict]) -> str:
     linhas = "".join(f'<li><strong>{data_curta(o["data"])}</strong> · {html.escape(o["evento"])}: '
                      f'{html.escape(o["por_que_importa"])}{link(o)}</li>' for o in itens)
     return f'<section class="cartao"><h2 style="margin-top:0">O que observar nos próximos dias</h2><ul>{linhas}</ul></section>'
+
+
+def link_arquivo(f: dict, slug: str, texto: str) -> str:
+    if slug not in f.get("com_arquivo", set()):
+        return ""
+    return f'<p style="margin:-8px 0 20px"><a class="contorno" href="../noticias/{slug}.html">{html.escape(texto)}</a></p>'
 
 
 def compartilhar(titulo: str, caminho: str) -> str:
@@ -677,6 +686,7 @@ com as notícias que mexeram com ele. Atualizado em {pd.Timestamp(f["data"]):%d/
 <button class="contorno" id="copiar" type="button">Copiar texto</button></div>
 <p class="rotulo" style="margin:18px 0 8px">Prévia da mensagem</p>
 <div class="pano">{whatsapp_html(texto)}<span style="position:absolute;right:12px;bottom:4px;font-size:12px;color:#D1D7DB">18:30</span></div>
+{'<p style="margin-top:20px"><a class="contorno" href="panorama/index.html">Panoramas anteriores</a></p>' if f.get("tem_arquivo_panorama") else ""}
 <script type="application/json" id="texto">{dados}</script>
 <script>document.getElementById('copiar').onclick=function(){{var t=JSON.parse(document.getElementById('texto').textContent),b=this;
 navigator.clipboard.writeText(t).then(function(){{b.textContent='Copiado!'}},function(){{b.textContent='Selecione e copie o texto abaixo'}})}};</script>
