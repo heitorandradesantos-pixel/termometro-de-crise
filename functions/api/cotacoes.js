@@ -1,7 +1,7 @@
 // Cotações quase ao vivo para a faixa do topo (Cloudflare Pages Functions).
-// O navegador pede /api/cotacoes a cada minuto; esta função busca os preços no Yahoo Finance
-// e guarda a resposta por 60 segundos no cache do Cloudflare, então o Yahoo recebe no máximo
-// uma consulta por minuto por região do Cloudflare, não uma por visitante.
+// O navegador pede /api/cotacoes a cada 30 segundos; esta função busca os preços no Yahoo Finance
+// e guarda a resposta por 30 segundos no cache do Cloudflare, então o Yahoo recebe no máximo
+// duas consultas por minuto por região do Cloudflare, não uma por visitante.
 // Para trocar de fornecedor (com licença), basta reescrever a função `um`.
 
 export const ITENS = [
@@ -10,7 +10,7 @@ export const ITENS = [
   ["Bitcoin", "BTC-USD", "usd"], ["Petróleo Brent", "BZ=F", "usd"], ["Ouro", "GC=F", "usd"],
   ["DAX", "^GDAXI", "pontos"], ["Nikkei", "^N225", "pontos"], ["Merval", "^MERV", "pontos"],
 ];
-const TTL = 60;
+const TTL = 30;
 
 export async function um(nome, simbolo, tipo, buscar = fetch) {
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(simbolo)}?range=1d&interval=5m`;

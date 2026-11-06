@@ -208,7 +208,8 @@ def faixa_mercados(cotacoes: list[dict], parcial: str | None = None) -> str:
 
 
 # A página já nasce com o último fechamento (funciona sem JavaScript e para o Google); no navegador,
-# a faixa pede /api/cotacoes (functions/api/cotacoes.js) a cada minuto enquanto a aba está visível.
+# a faixa pede /api/cotacoes (functions/api/cotacoes.js) a cada 30 segundos enquanto a aba está visível; o horário
+# exato de cada cotação aparece ao passar o mouse sobre ela.
 AO_VIVO = """<script>(function(){var f=document.querySelector('.faixa [role=region]');if(!f)return;
 var faixa=f.parentNode,b=f.querySelector('.pausa');
 function pausa(p){faixa.classList.toggle('parada',p);if(!b)return;b.setAttribute('aria-pressed',p?'true':'false');
@@ -227,12 +228,13 @@ function vai(){if(document.hidden)return;fetch('/api/cotacoes').then(function(r)
 .then(function(d){if(!d||!d.itens||!d.itens.length)return;var aberto=false;
 d.itens.forEach(function(i){if(i.tipo==='pontos'&&i.aberto)aberto=true;
 f.querySelectorAll('[data-c="'+i.nome+'"]').forEach(function(e){e.querySelector('.v').textContent=fmt(i);
+if(i.hora)e.title=i.nome+': cotação das '+hora(i.hora);
 var v=i.variacao_pct,s=e.querySelector('.var');s.className='var '+(v>0?'alta':v<0?'baixa':'');
 s.innerHTML='<span aria-hidden="true">'+(v>0?'▲':v<0?'▼':'')+'</span><span class="sr">'
 +(v>0?'subiu ':v<0?'caiu ':'estável ')+'</span>'+n(Math.abs(v),2)+'%'})});
-var c=f.querySelector('.carimbo');if(c)c.textContent=(aberto?'Ao vivo · '+hora(d.gerado)+' · atraso de até 15 min'
-:'Atualizado às '+hora(d.gerado)+' · bolsas fechadas')+' · fonte: Yahoo Finance'}).catch(function(){})}
-vai();setInterval(vai,60000);document.addEventListener('visibilitychange',vai)})();</script>"""
+var c=f.querySelector('.carimbo');if(c)c.textContent='Atualizado às '+hora(d.gerado)+(aberto?'':' · bolsas fechadas')
++' · fonte: Yahoo Finance'}).catch(function(){})}
+vai();setInterval(vai,30000);document.addEventListener('visibilitychange',vai)})();</script>"""
 
 
 def nova_aba(html_corpo: str) -> str:
@@ -531,7 +533,8 @@ com os mesmos dados públicos.</p>
 <a href="#indice-global">Índice global de mercados</a></p>
 <h2 id="mundo">Termômetro do mundo, das regiões e dos países</h2>
 <p>O número grande da página inicial é o <strong>termômetro do mundo</strong>: a média das 6 regiões. Cada região é a média dos seus países, e cada país é a média dos seus sinais.</p>
-<p><strong>Quando atualiza:</strong> o termômetro é recalculado em todo dia útil às 11h07 e às 14h07 (leituras parciais, com os preços do dia até ali) e às 18h17 (fechamento, com as notícias e o panorama). As cotações da faixa do topo se atualizam sozinhas a cada minuto, com atraso de até 15 minutos.</p>
+<p><strong>Quando atualiza:</strong> o termômetro é recalculado em todo dia útil às 11h07 e às 14h07 (leituras parciais, com os preços do dia até ali) e às 18h17 (fechamento, com as notícias e o panorama). As cotações da faixa do topo se atualizam sozinhas a cada 30 segundos; algumas bolsas, como a B3, chegam à fonte com
+atraso de até 15 minutos, e o horário de cada cotação aparece ao passar o mouse sobre ela.</p>
 <h3 id="pais">País</h3>
 <p>Cada país tem três sinais, todos medidos mês a mês com os fechamentos diários:</p>
 <ol><li><strong>Queda da bolsa:</strong> quanto o índice principal está abaixo do fechamento mais alto dos últimos 12 meses, dia a dia.</li>
