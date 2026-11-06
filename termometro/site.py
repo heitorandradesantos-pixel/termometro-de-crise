@@ -73,7 +73,17 @@ border-radius:10px;font-size:16px;color:#E6EAF0;margin:12px 0 24px}}
 .legenda i{{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}}
 .acoes{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:4px 0 8px}}
 .mapa{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 6px}}
-.faixa{{border-bottom:1px solid var(--linha);background:#0B1118}}.faixa div{{position:relative;max-width:1080px;margin:0 auto;padding:0 20px;display:flex;gap:18px;overflow-x:auto;white-space:nowrap;font-size:13px;color:var(--suave);scrollbar-width:none;align-items:center;min-height:36px}}
+.faixa{{border-bottom:1px solid var(--linha);background:#0B1118}}
+.faixa-in{{position:relative;max-width:1080px;margin:0 auto;padding:0 12px 0 20px;display:flex;gap:14px;align-items:center;min-height:36px;font-size:13px;color:var(--suave);white-space:nowrap}}
+.faixa .rolo{{flex:1;min-width:0;overflow:hidden;outline-offset:2px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent)}}
+.faixa .trilho{{display:flex;width:max-content;animation:rola var(--dur,60s) linear infinite}}
+.faixa .lote{{display:flex;gap:18px;padding-right:18px}}
+.faixa:hover .trilho,.faixa-in:focus-within .trilho,.faixa.parada .trilho{{animation-play-state:paused}}
+@keyframes rola{{from{{transform:translateX(0)}}to{{transform:translateX(-50%)}}}}
+.faixa .pausa{{background:none;border:1px solid var(--linha);color:var(--suave);border-radius:6px;min-width:28px;min-height:28px;font-size:12px;line-height:1;cursor:pointer}}
+.faixa .pausa:hover{{color:var(--texto)}}
+@media (prefers-reduced-motion:reduce){{.faixa .trilho{{animation:none}}.faixa .rolo{{overflow-x:auto;scrollbar-width:none;-webkit-mask-image:none;mask-image:none}}.faixa .lote[aria-hidden]{{display:none}}.faixa .pausa{{display:none}}}}
+@media (max-width:640px){{.faixa-in{{flex-wrap:wrap;row-gap:0;padding-top:4px}}.faixa .carimbo{{width:100%;font-size:12px}}}}
 .faixa strong{{color:var(--texto);font-weight:600;margin-right:6px}}.faixa .alta,.faixa .baixa{{color:#C9D1DC}}
 .cta{{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:10px;border:1px solid #A9B4C4;color:var(--texto);font-weight:600;font-size:14px;text-decoration:none}}
 .cta:hover{{color:var(--texto);background:#1A2430}}.secundario{{display:inline-block;padding:11px 20px;border-radius:10px;border:1px solid #A9B4C2;color:var(--texto);font-weight:600;text-decoration:none}}
@@ -185,16 +195,29 @@ def faixa_mercados(cotacoes: list[dict], parcial: str | None = None) -> str:
                      f'<span class="v">{valor}</span> <span class="var {classe}"><span aria-hidden="true">{seta}</span>'
                      f'<span class="sr">{direcao} </span>{variacao}%</span></span>')
     quando = pd.Timestamp(cotacoes[0]["data"]).strftime("%d/%m")  # a data do primeiro item (Ibovespa)
-    return (f'<div class="faixa"><div tabindex="0" role="region" aria-label="Mercados">'
+    lote = "".join(itens)
+    # a faixa passa sozinha, como letreiro de TV: duas cópias seguidas dão a volta sem emenda; a cópia é
+    # escondida do leitor de tela, o movimento para ao passar o mouse, ao focar ou no botão de pausa, e
+    # some para quem pediu ao sistema menos movimento na tela
+    return (f'<div class="faixa"><div class="faixa-in" role="region" aria-label="Mercados">'
             f'<span class="carimbo">{f"Parcial das {parcial}" if parcial else f"Fechamento de {quando}"} · fonte: '
-            f'Yahoo Finance</span>{"".join(itens)}</div></div>'
-            + AO_VIVO)
+            f'Yahoo Finance</span><div class="rolo" tabindex="0"><div class="trilho" style="--dur:{max(40, 5 * len(itens))}s">'
+            f'<div class="lote">{lote}</div><div class="lote" aria-hidden="true">{lote}</div></div></div>'
+            f'<button class="pausa" type="button" aria-pressed="false" aria-label="Pausar a faixa de cotações" '
+            f'title="Pausar">❚❚</button></div></div>' + AO_VIVO)
 
 
 # A página já nasce com o último fechamento (funciona sem JavaScript e para o Google); no navegador,
 # a faixa pede /api/cotacoes (functions/api/cotacoes.js) a cada minuto enquanto a aba está visível.
-AO_VIVO = """<script>(function(){var f=document.querySelector('.faixa [role=region]');
-if(!f||location.protocol==='file:')return;
+AO_VIVO = """<script>(function(){var f=document.querySelector('.faixa [role=region]');if(!f)return;
+var faixa=f.parentNode,b=f.querySelector('.pausa');
+function pausa(p){faixa.classList.toggle('parada',p);if(!b)return;b.setAttribute('aria-pressed',p?'true':'false');
+b.setAttribute('aria-label',p?'Voltar a passar a faixa de cotações':'Pausar a faixa de cotações');
+b.title=p?'Voltar a passar':'Pausar';b.textContent=p?'▶':'❚❚'}
+try{if(localStorage.getItem('faixa-parada')==='1')pausa(true)}catch(e){}
+if(b)b.addEventListener('click',function(){var p=!faixa.classList.contains('parada');pausa(p);
+try{localStorage.setItem('faixa-parada',p?'1':'0')}catch(e){}});
+if(location.protocol==='file:')return;
 function n(x,c){return x.toLocaleString('pt-BR',{minimumFractionDigits:c,maximumFractionDigits:c})}
 function fmt(i){if(i.tipo==='brl')return 'R$ '+n(i.ultimo,2);if(i.tipo==='usd')return 'US$ '+n(i.ultimo,i.ultimo>=1000?0:2);
 return n(i.ultimo,0)}
@@ -202,11 +225,11 @@ function hora(t){return new Date(t*1000).toLocaleTimeString('pt-BR',{hour:'2-dig
 timeZone:'America/Sao_Paulo'}).replace(':','h')}
 function vai(){if(document.hidden)return;fetch('/api/cotacoes').then(function(r){return r.ok?r.json():null})
 .then(function(d){if(!d||!d.itens||!d.itens.length)return;var aberto=false;
-d.itens.forEach(function(i){var e=f.querySelector('[data-c="'+i.nome+'"]');if(!e)return;
-if(i.tipo==='pontos'&&i.aberto)aberto=true;e.querySelector('.v').textContent=fmt(i);
+d.itens.forEach(function(i){if(i.tipo==='pontos'&&i.aberto)aberto=true;
+f.querySelectorAll('[data-c="'+i.nome+'"]').forEach(function(e){e.querySelector('.v').textContent=fmt(i);
 var v=i.variacao_pct,s=e.querySelector('.var');s.className='var '+(v>0?'alta':v<0?'baixa':'');
 s.innerHTML='<span aria-hidden="true">'+(v>0?'▲':v<0?'▼':'')+'</span><span class="sr">'
-+(v>0?'subiu ':v<0?'caiu ':'estável ')+'</span>'+n(Math.abs(v),2)+'%'});
++(v>0?'subiu ':v<0?'caiu ':'estável ')+'</span>'+n(Math.abs(v),2)+'%'})});
 var c=f.querySelector('.carimbo');if(c)c.textContent=(aberto?'Ao vivo · '+hora(d.gerado)+' · atraso de até 15 min'
 :'Atualizado às '+hora(d.gerado)+' · bolsas fechadas')+' · fonte: Yahoo Finance'}).catch(function(){})}
 vai();setInterval(vai,60000);document.addEventListener('visibilitychange',vai)})();</script>"""
@@ -511,7 +534,7 @@ com os mesmos dados públicos.</p>
 <p><strong>Quando atualiza:</strong> o termômetro é recalculado em todo dia útil às 11h07 e às 14h07 (leituras parciais, com os preços do dia até ali) e às 18h17 (fechamento, com as notícias e o panorama). As cotações da faixa do topo se atualizam sozinhas a cada minuto, com atraso de até 15 minutos.</p>
 <h3 id="pais">País</h3>
 <p>Cada país tem três sinais, todos medidos mês a mês com os fechamentos diários:</p>
-<ol><li><strong>Queda da bolsa:</strong> quanto o índice principal está abaixo do ponto mais alto dos últimos 12 meses.</li>
+<ol><li><strong>Queda da bolsa:</strong> quanto o índice principal está abaixo do fechamento mais alto dos últimos 12 meses, dia a dia.</li>
 <li><strong>Sobe e desce:</strong> quanto a bolsa oscila de um dia para o outro no mês (volatilidade realizada).</li>
 <li><strong>Moeda:</strong> quanto a moeda mudou contra o dólar em 3 meses, para qualquer lado.</li></ol>
 <h3 id="regiao">Região e mundo</h3>
@@ -530,6 +553,7 @@ FRED.</p>
 <p class="suave">Mudança no método: em 6/11/2026 a conta passou de 19 para {len(PAISES)} países. As médias das
 regiões e do mundo foram recalculadas para todo o histórico com os países novos, por isso leituras antigas podem diferir
 das publicadas antes dessa data.</p>
+<p class="suave">Mudança no método: em 6/11/2026 a queda da bolsa passou a ser medida contra o fechamento diário mais alto dos últimos 12 meses. Antes, a conta usava só o fechamento do fim de cada mês, o que escondia quedas rápidas, como a do Ibovespa depois do recorde de 5/10/2026. As leituras antigas foram recalculadas com a regra nova.</p>
 <h2 id="indice-global">Índice global de mercados (newsletter de domingo)</h2>
 <p>É outro número, diferente do termômetro do mundo: usa 5 indicadores dos mercados globais e é mensal.</p>
 <h3>Como funciona</h3>

@@ -268,7 +268,9 @@ def sinais_explicados(p: dict) -> list[dict]:
         elif q < 1:
             frase = f"A bolsa ({bolsa}) está no topo dos últimos 12 meses, ou muito perto dele."
         else:
-            frase = f"A bolsa ({bolsa}) está {num(q)}% abaixo do ponto mais alto dos últimos 12 meses."
+            pico = (f" ({b['bolsa_pico']:,.0f} pontos, em {pd.Timestamp(b['bolsa_pico_dia']):%-d/%m})".replace(",", ".")
+                    if b.get("bolsa_pico") and b.get("bolsa_pico_dia") else "")
+            frase = f"A bolsa ({bolsa}) está {num(q)}% abaixo do ponto mais alto dos últimos 12 meses{pico}."
         saida.append({"chave": "bolsa", "pct": s["bolsa"], "frase": frase})
     if s.get("volatilidade") is not None:
         o = b.get("oscilacao_diaria_pct")

@@ -255,3 +255,17 @@ def test_faixa_tira_cotacao_parada_ha_dias():
         {"nome": "Ibovespa", "ultimo": 166191.4, "tipo": "pontos", "variacao_pct": -0.82, "data": "2026-11-05"},
         {"nome": "Merval", "ultimo": 2848945.2, "tipo": "pontos", "variacao_pct": -0.35, "data": "2026-10-16"}])
     assert "Ibovespa" in faixa and 'data-c="Merval"' not in faixa
+
+
+def test_queda_da_bolsa_conta_o_pico_diario_e_nao_so_o_fim_de_mes(tmp_path):
+    # como o Ibovespa em 2026: sobe até um recorde no meio do mês e despenca antes do fim do mês
+    datas = pd.bdate_range("2026-08-03", "2026-11-05")
+    valores = pd.Series(170.0, index=datas)
+    valores[(datas >= "2026-10-05") & (datas <= "2026-10-08")] = 206.9
+    valores[datas > "2026-10-08"] = 166.2
+    pd.DataFrame({"data": datas, "valor": valores.values}).to_csv(tmp_path / f"{mundo.arquivo('Brasil')}_bolsa.csv",
+                                                                  index=False)
+    sinais = mundo.sinais_do_pais(tmp_path, "Brasil")
+    assert round(100 * sinais["bolsa"].iloc[-1], 1) == 19.7  # antes, com fins de mês, dava 2,2%
+    brutos = mundo.brutos_do_pais(tmp_path, "Brasil", sinais)
+    assert brutos["bolsa_pico"] == 206.9 and brutos["bolsa_pico_dia"] == "2026-10-05"

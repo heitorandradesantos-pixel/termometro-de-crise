@@ -263,9 +263,11 @@ def sinais_do_pais(pasta: Path, pais: str) -> pd.DataFrame:
     sinais = {}
     bolsa_csv = pasta / f"{arquivo(pais)}_bolsa.csv"
     if bolsa_csv.exists():
-        d = pd.read_csv(bolsa_csv, parse_dates=["data"]).set_index("data")["valor"]
-        mensal = d.resample("MS").last()
-        sinais["bolsa"] = 1 - mensal / mensal.rolling(12, min_periods=1).max()
+        d = pd.read_csv(bolsa_csv, parse_dates=["data"]).set_index("data")["valor"].sort_index()
+        # queda contra o fechamento DIÁRIO mais alto dos últimos 12 meses (até 06/11/2026 era o fim de mês mais
+        # alto, o que escondia quedas rápidas, como a do Ibovespa depois do recorde de 05/10/2026); o valor do
+        # mês é a queda no último pregão do mês (no mês em andamento, no último pregão até agora)
+        sinais["bolsa"] = (1 - d / d.rolling("365D", min_periods=1).max()).resample("MS").last()
         retornos = np.log(d).diff()
         sinais["volatilidade"] = retornos.resample("MS").std() * math.sqrt(252)
     moeda_csv = pasta / f"{arquivo(pais)}_moeda.csv"
@@ -282,6 +284,8 @@ def brutos_do_pais(pasta: Path, pais: str, sinais: pd.DataFrame) -> dict:
         d = pd.read_csv(pasta / f"{arquivo(pais)}_bolsa.csv", parse_dates=["data"]).set_index("data")["valor"]
         saida["bolsa_queda_pct"] = round(100 * float(sinais["bolsa"].dropna().iloc[-1]), 1)
         saida["bolsa_ultimo_dia"] = d.index[-1].strftime("%Y-%m-%d")
+        ano = d[d.index > d.index[-1] - pd.Timedelta(days=365)]
+        saida["bolsa_pico"], saida["bolsa_pico_dia"] = round(float(ano.max()), 2), ano.idxmax().strftime("%Y-%m-%d")
     if "volatilidade" in sinais and sinais["volatilidade"].notna().any():
         anual = float(sinais["volatilidade"].dropna().iloc[-1])
         saida["oscilacao_diaria_pct"] = round(100 * anual / math.sqrt(252), 2)  # quanto a bolsa anda num dia típico
