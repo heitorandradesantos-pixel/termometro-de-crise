@@ -151,3 +151,48 @@ Consumidor.</p>
 <h2>12. Lei aplicável e contato</h2>
 <p>Estes termos seguem as leis do Brasil. Para consumidores, vale o foro do seu domicílio. Dúvidas: {_contato()}.</p>
 </section>"""
+
+
+def quem_somos() -> str:
+    responsavel = f" O responsável pelo projeto é {html.escape(config.RESPONSAVEL)}." if config.RESPONSAVEL else ""
+    return f"""<section class="edicao"><h1>Quem somos</h1>
+<p>O {config.NOME} é um projeto brasileiro independente que mede, de 0 a 100, o estresse dos mercados no mundo, em 6
+regiões e em 19 países, e explica cada leitura em português simples, com as notícias que mexem com ela e a fonte de cada
+fato.{responsavel}</p>
+<h2>Como funciona</h2>
+<p>Os números saem de um método aberto, descrito na <a href="metodologia.html">metodologia</a>: cada sinal (bolsa, sobe e
+desce do mercado e moeda) é comparado com a história do próprio país. Uma equipe de agentes de inteligência artificial
+coleta os dados, pesquisa as notícias, escreve os textos e confere tudo antes de publicar; as pessoas do projeto definem o
+método, as regras e revisam o trabalho. Como fazemos isso está na <a href="politica-editorial.html">política editorial</a>.</p>
+<h2>O que o {config.NOME} não é</h2>
+<p>Não é uma corretora, não vende investimentos, não recomenda ativos e não faz consultoria. É conteúdo educativo e
+informativo, para você entender o que está acontecendo e conversar melhor com quem cuida do seu dinheiro.</p>
+<h2>Fale com a gente</h2>
+<p>Sugestões, correções e parcerias: {_contato()}.</p>
+</section>"""
+
+
+def editorial() -> str:
+    return f"""<section class="edicao"><h1>Política editorial</h1>
+<p class="suave">Última atualização: {ATUALIZADO}.</p>
+<h2>1. Fontes</h2>
+<p>Damos preferência a fontes primárias (bancos centrais, governos, bolsas, organismos internacionais) e a agências e
+jornais de referência. Fatos controversos precisam de duas fontes independentes. Toda notícia publicada traz o link da
+fonte e a data em que o fato aconteceu.</p>
+<h2>2. Status do fato</h2>
+<p>Cada notícia é marcada como fato confirmado, operação em curso, ameaça ou declaração, negociação, ou hipótese e cenário.
+Rumor nunca é tratado como fato.</p>
+<h2>3. Uso de inteligência artificial</h2>
+<p>Agentes de IA pesquisam, escrevem e conferem o conteúdo. Antes de publicar, um conjunto de conferências automáticas
+verifica se os números batem com o cálculo, se cada link veio de uma busca real, se as datas são recentes e se o texto
+evita recomendação, promessa e alarmismo. O que não passa não é publicado. Mesmo assim, erros podem acontecer.</p>
+<h2>4. Correções</h2>
+<p>Quando encontramos ou recebemos o aviso de um erro, corrigimos o mais rápido possível. Avise em {_contato()}.</p>
+<h2>5. Neutralidade</h2>
+<p>Descrevemos o que governos, partidos e empresas fizeram e disseram, sem opinar e com o mesmo tratamento para todos.</p>
+<h2>6. Independência</h2>
+<p>Nenhum patrocinador ou parceiro decide o que publicamos nem altera os números. Publicidade e parcerias, quando
+existirem, serão sempre identificadas. Não recomendamos ativos nem recebemos por indicação de investimentos.</p>
+<h2>7. Limites</h2>
+<p>Os termômetros mostram o que já aconteceu; não preveem o futuro. Os dados de mercado vêm de terceiros e podem ter atrasos.</p>
+</section>"""

@@ -110,6 +110,8 @@ def medidor_svg(valor: int, cor: str) -> str:
 
 
 FAIXA = ""  # faixa de mercados do topo; o gerar() preenche quando há cotações
+MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
+         "novembro", "dezembro"]
 
 
 def cta_topo(raiz: str) -> str:
@@ -168,7 +170,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance e as fontes citadas em cada página.</p>
-<p class="legal"><a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
+<p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
 </body></html>"""
 
 
@@ -294,8 +296,10 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
         marco = "<h2>Os 3 riscos"
         if marco in corpo_html:
             corpo_html = corpo_html.replace(marco, f"<p>{grafico_html(dia)}</p>\n{marco}", 1)
-        nota = (f'<p class="suave" style="font-size:14px">Os números desta edição são de {pd.Timestamp(dia):%d/%m/%Y}. '
-                f'O site atualiza os termômetros todo dia útil: <a href="../index.html">veja a leitura de hoje</a>.</p>')
+        nota = (f'<p class="suave" style="font-size:14px">Os números desta edição são de {pd.Timestamp(dia):%d/%m/%Y}: '
+                f'o índice dos mercados globais usa a leitura de {mes_curto(dados["referencia"])}, e os termômetros por '
+                f'região, a do mês em andamento. O site atualiza as regiões todo dia útil: '
+                f'<a href="../index.html">veja a leitura atual</a>.</p>')
         corpo_html = corpo_html.replace("</h1>", "</h1>" + nota, 1)
         artigo = paginas.jsonld({"@context": "https://schema.org", "@type": "NewsArticle", "headline": copy["titulo_site"],
                                  "datePublished": dia, "inLanguage": "pt-BR", "description": copy["descricao_seo"],
@@ -338,14 +342,16 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
         if g.get("valor") is not None:  # o mundo é a média das regiões que aparecem ao lado
             nivel_g = config.nivel_de(g["valor"])
             g_valor, g_cor, g_nivel, g_frase = g["valor"], nivel_g["cor"], nivel_g["nome"], nivel_g["leitura"]
-            g_nota = (f"Média das 6 regiões. Leitura de {mes_curto(g['referencia'])} (mês em andamento), "
-                      f"atualizada em {pd.Timestamp(fonte['data']):%d/%m/%Y}.")
+            g_nota = (f"Média das 6 regiões. Leitura mensal de {mes_curto(g['referencia'])} (mês em andamento), "
+                      f"página atualizada em {pd.Timestamp(fonte['data']):%d/%m/%Y}.")
+            g_mes = MESES[int(g["referencia"][5:7]) - 1]
         else:
             g_valor, g_cor, g_nivel, g_frase = dados["valor"], dados["cor"], dados["nivel"], dados["leitura"]
             g_nota = f"Leitura de {mes_curto(dados['referencia'])}, atualizada em {pd.Timestamp(dia):%d/%m/%Y}."
+            g_mes = MESES[int(dados["referencia"][5:7]) - 1]
         topo = f"""
 <section class="abertura" id="mapa">
- <div class="global"><span class="rotulo">Termômetro do mundo</span>{medidor_svg(g_valor, g_cor)}
+ <div class="global"><span class="rotulo">Termômetro do mundo em {g_mes}</span>{medidor_svg(g_valor, g_cor)}
   <div class="valor">{g_valor}</div><div class="nivel" style="color:{g_cor}">{g_nivel.upper()}</div>
   <p>{html.escape(g_frase)}</p>
   {paginas.comparacoes_html(paginas.comparacoes(fonte))}
@@ -405,8 +411,14 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     (saida / "termos.html").write_text(pagina(f"Termos de uso · {config.NOME}",
                                               "Termos de uso do Termômetro de Crise: conteúdo educativo, sem recomendação de investimento.",
                                               legal.termos(), caminho="termos.html"))
+    (saida / "quem-somos.html").write_text(pagina(f"Quem somos · {config.NOME}",
+                                                  "Quem faz o Termômetro de Crise, como funciona e o que ele não é.",
+                                                  legal.quem_somos(), caminho="quem-somos.html"))
+    (saida / "politica-editorial.html").write_text(pagina(f"Política editorial · {config.NOME}",
+                                                          "Fontes, conferência, correções, uso de IA e independência.",
+                                                          legal.editorial(), caminho="politica-editorial.html"))
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
-    extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
+    extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 
 

@@ -37,11 +37,17 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python rodar.py --conselho
+      - name: Guardar a conversa
+        uses: actions/upload-artifact@v4
+        with:
+          name: conselho-${{ steps.conselho.outputs.data }}
+          path: conselho/
       - name: Abrir a issue com a ata
         env:
           GH_TOKEN: ${{ github.token }}
           DATA: ${{ steps.conselho.outputs.data }}
         run: |
-          gh api "repos/$GITHUB_REPOSITORY/issues" -f title="Conselho de monetização: ata de $DATA" \
-            -F body=@"conselho/$DATA/ata.md" --jq .html_url
+          NUMERO=$(gh api "repos/$GITHUB_REPOSITORY/issues" -f title="Conselho de monetização: ata de $DATA" \
+            -F body=@"conselho/$DATA/ata.md" --jq .number)
+          gh api "repos/$GITHUB_REPOSITORY/issues/$NUMERO/comments" -F body=@"conselho/$DATA/conversa.md" --jq .html_url
           cat "conselho/$DATA/ata.md" >> "$GITHUB_STEP_SUMMARY"

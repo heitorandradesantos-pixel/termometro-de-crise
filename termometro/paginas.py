@@ -346,16 +346,9 @@ def bolso_brasil(p: dict) -> str:
 
 
 def comparacoes(f: dict) -> list[tuple[str, int]]:
-    """Mundo hoje comparado com ontem, uma semana, o mês passado e um ano atrás (como o Fear & Greed da CNN)."""
+    """O mundo comparado com o mês passado, um ano atrás e o pior momento da série (o índice é mensal)."""
     m = (f.get("mundo") or {}).get("mundo") or {}
     saida = []
-    dias = f.get("dias_anteriores") or []
-    hoje = pd.Timestamp(f["data"])
-    if dias:
-        saida.append(("Último panorama" if (hoje - pd.Timestamp(dias[-1][0])).days > 1 else "Ontem", dias[-1][1]))
-        semana = [v for d, v in dias if (hoje - pd.Timestamp(d)).days >= 7]
-        if semana:
-            saida.append(("1 semana", semana[-1]))
     if m.get("mes_anterior") is not None:
         saida.append(("Mês passado", m["mes_anterior"]))
     regioes = f.get("regioes")
@@ -363,7 +356,10 @@ def comparacoes(f: dict) -> list[tuple[str, int]]:
         serie = regioes["Mundo (média das regiões)"].dropna()
         if len(serie) > 12:
             saida.append(("1 ano atrás", round(float(serie.iloc[-13]))))
-    return saida[:4]
+        if len(serie) > 24:
+            pico = serie.iloc[:-1]
+            saida.append((f"Pior momento ({pico.idxmax():%Y})", round(float(pico.max()))))
+    return saida[:3]
 
 
 def comparacoes_html(lista: list[tuple[str, int]]) -> str:
@@ -552,6 +548,7 @@ def pagina_regiao(f: dict, r: dict) -> str:
                               vazio="Nenhuma notícia conferida com fonte nos últimos dias para esta região.")
              + historico_html(serie, r.get("picos", []), r["nome"], r["valor"])
              + observar_html(ex.get("observar", []))
+             + compartilhar(f"Termômetro de crise {de(r['nome'])}: {r['valor']} de 100 ({r['nivel']})", f"regioes/{r['slug']}.html")
              + metodo_curto("../"))
     corpo += jsonld(migalhas(("Início", ""), (r["nome"], f"regioes/{r['slug']}.html")))
     return pagina(f"Risco de crise {em(r['nome'])}: termômetro em {r['valor']} ({r['nivel']})",
@@ -593,6 +590,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
              + historico_html(serie, p.get("picos", []), p["nome"], p["valor"])
              + (f'<section><h2>Outros países da região</h2><p class="meta" style="font-size:14px">{vizinhos}</p></section>'
                 if vizinhos else "")
+             + compartilhar(f"Termômetro de crise {de(p['nome'])}: {p['valor']} de 100 ({p['nivel']})", f"paises/{p['slug']}.html")
              + metodo_curto("../"))
     corpo += jsonld(migalhas(("Início", ""), (r["nome"], f"regioes/{r['slug']}.html"), (p["nome"], f"paises/{p['slug']}.html")))
     return pagina(f"Risco de crise {em(p['nome'])} hoje: termômetro em {p['valor']} ({p['nivel']})",
@@ -611,6 +609,15 @@ def observar_html(itens: list[dict]) -> str:
     linhas = "".join(f'<li><strong>{data_curta(o["data"])}</strong> · {html.escape(o["evento"])}: '
                      f'{html.escape(o["por_que_importa"])}{link(o)}</li>' for o in itens)
     return f'<section class="cartao"><h2 style="margin-top:0">O que observar nos próximos dias</h2><ul>{linhas}</ul></section>'
+
+
+def compartilhar(titulo: str, caminho: str) -> str:
+    url = f"{config.SITE_URL or 'https://termometrodecrise.com'}/{caminho}"
+    texto = quote(f"{titulo}: {url}")
+    return (f'<p class="meta" style="font-size:14px;margin-top:20px">Compartilhar: '
+            f'<a href="https://wa.me/?text={texto}" target="_blank" rel="noopener">WhatsApp</a> · '
+            f'<a href="https://t.me/share/url?url={quote(url)}&text={quote(titulo)}" target="_blank" rel="noopener">Telegram</a> · '
+            f'<a href="https://twitter.com/intent/tweet?url={quote(url)}&text={quote(titulo)}" target="_blank" rel="noopener">X</a></p>')
 
 
 def metodo_curto(raiz: str) -> str:
