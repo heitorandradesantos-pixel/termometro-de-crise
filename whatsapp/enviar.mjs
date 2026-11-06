@@ -90,22 +90,48 @@ function euMesmo (sock) {
 }
 
 async function acharDestino (sock) {
-  // O grupo de avisos da comunidade cujo nome tem "termometro". Só nomes de comunidade vão para o registro.
+  // O grupo de avisos da comunidade cujo nome tem "termometro". O registro do robô é público: lá só vão contagens
+  // e o nome da comunidade escolhida; a lista completa, se precisar, vai só para a conversa do próprio número.
   const grupos = Object.values(await sock.groupFetchAllParticipating())
-  const pais = new Map(grupos.filter((g) => g.isCommunity).map((g) => [g.id, g]))
-  const avisos = grupos.filter((g) => g.isCommunityAnnounce)
-  const nomeDe = (g) => `${g.subject || ''} ${pais.get(g.linkedParent)?.subject || ''}`
-  const alvo = avisos.find((g) => normal(nomeDe(g)).includes(normal(NOME_COMUNIDADE)))
-  if (!alvo) {
-    throw new Falha(`Não achei a comunidade "${NOME_COMUNIDADE}" neste número (${avisos.length} comunidades no total).`)
+  let comunidades = []
+  try { comunidades = Object.values(await sock.communityFetchAllParticipating()) } catch (e) {
+    console.log(`Lista de comunidades indisponível (${e.message}).`)
   }
+  const pais = new Map([...grupos.filter((g) => g.isCommunity), ...comunidades].map((g) => [g.id, g]))
+  console.log(`Este número está em ${grupos.length} grupos e ${pais.size} comunidades.`)
+  const bate = (t) => normal(t).includes(normal(NOME_COMUNIDADE))
+  let alvo = grupos.find((g) => g.isCommunityAnnounce && (bate(g.subject) || bate(pais.get(g.linkedParent)?.subject)))
+  let comunidade = alvo ? pais.get(alvo.linkedParent) : [...pais.values()].find((c) => bate(c.subject))
+  if (!alvo && comunidade) {
+    // o grupo de avisos nem sempre vem na lista de grupos: procura entre os grupos ligados à comunidade
+    try {
+      const ligados = await sock.communityFetchLinkedGroups(comunidade.id)
+      for (const g of ligados?.linkedGroups || []) {
+        const meta = await sock.groupMetadata(g.id).catch(() => null)
+        if (meta?.isCommunityAnnounce) { alvo = meta; break }
+      }
+    } catch (e) { console.log(`Grupos da comunidade indisponíveis (${e.message}).`) }
+    if (!alvo) {
+      const meta = await sock.groupMetadata(comunidade.id).catch(() => null)
+      if (meta) alvo = meta // a própria comunidade: o WhatsApp entrega no grupo de avisos
+    }
+  }
+  if (!alvo) {
+    const nomes = [...pais.values()].map((c) => `• ${c.subject}`).join('\n') || '(nenhuma)'
+    await sock.sendMessage(euMesmo(sock)[0], {
+      text: `⚠️ Termômetro de Crise: não achei a comunidade com "${NOME_COMUNIDADE}" no nome. Comunidades deste número:\n${nomes}`
+    })
+    throw new Falha(`Não achei a comunidade "${NOME_COMUNIDADE}" (mandei a lista de comunidades para a conversa do próprio número).`)
+  }
+  comunidade = comunidade || pais.get(alvo.linkedParent)
   const eu = euMesmo(sock)
   const admin = (alvo.participants || []).some((p) =>
     [p.id, p.lid, p.phoneNumber].filter(Boolean).some((j) => eu.includes(jidNormalizedUser(j))) && p.admin)
-  const destino = { jid: alvo.id, nome: (pais.get(alvo.linkedParent)?.subject || alvo.subject || '').trim(), admin }
+  const destino = { jid: alvo.id, nome: (comunidade?.subject || alvo.subject || '').trim(), admin }
   fs.writeFileSync(ARQ_DESTINO, JSON.stringify(destino))
-  console.log(`Comunidade encontrada: ${destino.nome} (grupo de avisos${admin ? ', este número é administrador' : ''}).`)
-  if (!admin) console.log('Atenção: só administrador posta no grupo de avisos; promova este número na comunidade.')
+  console.log(`Comunidade encontrada: ${destino.nome} (${alvo.isCommunityAnnounce ? 'grupo de avisos' : 'comunidade'}` +
+    `${admin ? ', este número é administrador' : ''}).`)
+  if (!admin) console.log('Atenção: não confirmei que este número é administrador do grupo de avisos.')
   return destino
 }
 
@@ -139,8 +165,7 @@ async function principal () {
   let sock
   try {
     if (acao === 'parear') {
-      if (!numero) throw new Falha('Falta o número (com DDI 55 e DDD, só dígitos).')
-      sock = await conectar({ numero, codigo, esperaMs: 9 * 60000 })
+      sock = await conectar({ numero, codigo, esperaMs: 9 * 60000 }) // já ligado: só procura a comunidade de novo
       await delay(5000)
       console.log('Número ligado ao robô.')
       const d = await acharDestino(sock)
