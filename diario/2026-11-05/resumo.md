@@ -1,28 +1,28 @@
 ## Panorama de 05/11/2026
 
-✅ Conferido. 35 notícias com fonte, 1 descartadas na conferência.
+✅ Conferido. 30 notícias com fonte, 3 descartadas na conferência.
 
 ### Texto para o WhatsApp
 
 ```
 *TERMÔMETRO DE CRISE · Panorama de 05/11*
 
-🌍 *Mundo: 58/100 · Alerta*
+🌍 *Mundo: 59/100 · Alerta*
 
 🟠 Oriente Médio: 76 · Tensão
-🟠 América do Norte: 69 · Tensão
-🟡 África: 53 · Alerta
+🟠 América do Norte: 68 · Tensão
+🟡 Ásia e Pacífico: 58 · Alerta
 🟡 Europa: 52 · Alerta
-🟡 Ásia e Pacífico: 52 · Alerta
+🟡 África: 52 · Alerta
 🟡 América Latina: 47 · Alerta
 
 🇧🇷 *Brasil: 61 · Tensão*
-Bolsa 70 · Sobe e desce 43 · Dólar 70 (0 = calmo, 100 = mais tenso da história)
+Bolsa 70 · Sobe e desce 43 · Dólar 68 (0 = calmo, 100 = mais tenso da história)
 
 *O que mexeu com o termômetro*
-• S&P 500 cai 4,4%, pior dia desde abril de 2025, com ações de IA em queda (América do Norte)
-• Banco da Inglaterra sobe juros para 4%, primeira alta desde agosto de 2023 (Europa)
-• Banxico corta juros de surpresa para 6,25% e peso mexicano cai (América Latina)
+• Kospi cai mais de 8% em 6/11 após forte queda em Wall Street (Ásia e Pacífico)
+• Banco da Inglaterra sobe juros para 4% e vê inflação perto de 5% em meados de 2027 (Europa)
+• Bolsa sul-africana sobe até 5,2%, o maior salto em quase sete meses (África)
 
 Toque na sua região e entenda o porquê: https://termometrodecrise.com
 

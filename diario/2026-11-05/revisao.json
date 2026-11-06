@@ -5,30 +5,38 @@
   "problemas": []
  },
  "series_que_falharam": [],
- "noticias": 35,
+ "noticias": 30,
  "descartes": [
   {
-   "onde": "Juro francês de 10 anos passa de 5% pela primeira vez desde 2002",
-   "motivo": "data fora da janela (2026-10-21)"
+   "onde": "Protestos na França elevam juros da dívida e derrubam a bolsa de Paris",
+   "motivo": "data fora da janela (2026-10-19)"
+  },
+  {
+   "onde": "Orçamento francês de 2027 segue sem acordo no Parlamento",
+   "motivo": "data fora da janela (2026-10-19)"
+  },
+  {
+   "onde": "JSE perde quase 7% em 2026 até setembro; mineradoras de ouro caem 15% no mês",
+   "motivo": "data fora da janela (2026-09-30)"
   }
  ],
  "modo_correspondente": "claude (claude-sonnet-5-5)",
  "agentes": [
   {
    "agente": "Coletor mundial",
-   "segundos": 156.8,
+   "segundos": 154.9,
    "ok": true,
    "erro": null
   },
   {
    "agente": "Analista mundial",
-   "segundos": 3.2,
+   "segundos": 2.4,
    "ok": true,
    "erro": null
   },
   {
    "agente": "Correspondente",
-   "segundos": 245.1,
+   "segundos": 318.4,
    "ok": true,
    "erro": null
   },
