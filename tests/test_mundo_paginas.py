@@ -201,3 +201,13 @@ def test_site_com_atualizacao_diaria_tem_paginas_clicaveis(tmp_path, dados_mundo
         for href in re.findall(r'href="([^"#]+\.html)"', arquivo.read_text()):
             if not href.startswith("http"):
                 assert (arquivo.parent / href).resolve().exists(), f"{arquivo.name} → {href}"
+
+
+def test_todo_pais_do_motor_aparece_no_mapa():
+    """Cada país medido precisa de código no mapa, artigo para as frases e um desenho (ou ponto) para ser pintado."""
+    import json
+    from termometro import mundo, paginas
+    desenhos = {c["a2"] for c in json.loads(paginas.MAPA.read_text())["paises"]} | set(paginas.PONTOS_NO_MAPA)
+    for pais in mundo.PAISES:
+        assert pais in paginas.A2 and pais in paginas.ARTIGOS, pais
+        assert paginas.A2[pais] in desenhos, pais

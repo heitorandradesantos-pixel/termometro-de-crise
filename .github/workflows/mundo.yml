@@ -2,11 +2,23 @@ name: Teste do motor mundial
 
 # Só roda quando alguém aperta "Run workflow". Baixa os dados dos países, calcula
 # os termômetros por região e mostra o teste histórico. Não publica nada.
+# Opções ao rodar: "simbolos" testa símbolos novos do Yahoo antes de entrarem no motor;
+# "gravar" = sim (só fora do ramo principal) grava os números calculados no próprio ramo,
+# para a prévia do site mostrar os países novos antes do merge.
 on:
   workflow_dispatch:
+    inputs:
+      simbolos:
+        description: "Símbolos do Yahoo para testar, separados por vírgula (opcional)"
+        required: false
+        default: ""
+      gravar:
+        description: "Gravar os números no ramo (sim/nao)"
+        required: false
+        default: "nao"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   mundo:
@@ -19,7 +31,24 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -q -r requirements.txt
+      - name: Testar símbolos novos
+        if: inputs.simbolos != ''
+        env:
+          SIMBOLOS: ${{ inputs.simbolos }}
+        run: python sondas/simbolos.py
       - run: python sondas/motor_mundial.py
+      - name: Gravar os números no ramo
+        if: inputs.gravar == 'sim' && github.ref_name != 'main'
+        run: |
+          DIA=$(ls -d diario/20??-??-?? | sort | tail -1)
+          cp saida_mundo/mundo.json "$DIA/mundo.json"
+          cp saida_mundo/mundo_paises.csv saida_mundo/mundo_regioes.csv diario/historico/
+          git config user.name "termometro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diario
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          git commit -q -m "Números do mundo recalculados em $(basename "$DIA")"
+          git push
       - uses: actions/upload-artifact@v4
         with:
           name: saida-mundo

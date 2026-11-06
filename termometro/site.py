@@ -422,7 +422,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
         explica_tabela = "O índice da newsletter: 5 indicadores dos mercados globais, cada um comparado com o próprio histórico desde 1990."
     estruturados = paginas.jsonld(
         {"@context": "https://schema.org", "@type": "WebSite", "name": config.NOME, "url": config.SITE_URL or "",
-         "inLanguage": "pt-BR", "description": "O termômetro de crise do mundo, das regiões e de 19 países, em linguagem simples."},
+         "inLanguage": "pt-BR", "description": f"O termômetro de crise do mundo, das regiões e de {len(paginas.motor.PAISES)} países, em linguagem simples."},
         {"@context": "https://schema.org", "@type": "Organization", "name": config.NOME, "url": config.SITE_URL or ""})
     corpo = topo + f"""
 {'<div class="anuncio"></div>' if config.ADSENSE_CLIENT else ''}
@@ -459,6 +459,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
 
 
 def metodologia(dados: dict) -> str:
+    from .mundo import PAISES
     comps = "".join(f'<tr><td><strong>{c["nome"]}</strong></td><td>{c["descricao"]}</td><td class="num">{c["peso"]}</td></tr>'
                     for c in dados["componentes"])
     picos = "".join(f'<tr><td>{k}</td><td class="num">{v["valor"]}</td><td>{mes_curto(v["mes"])}</td></tr>'
@@ -493,9 +494,14 @@ mundo, a média das 6 regiões. Nos dias úteis, os números são atualizados no
 notícias (escrito pelo agente Correspondente, que pesquisa a semana na web). Toda notícia publicada tem link para a fonte,
 status do fato (confirmado, operação em curso, ameaça, negociação ou hipótese) e passa por uma conferência automática:
 só entram links que a busca devolveu de verdade, datas dos últimos dias e textos sem recomendação, promessa ou alarmismo.</p>
-<p class="suave">Limites: alguns países têm menos sinais (o Egito e a Nigéria ainda sem bolsa; EUA e Hong Kong sem moeda,
-porque o dólar é a referência e o dólar de Hong Kong é atrelado a ele). Os dados de bolsa e de parte das moedas vêm do
-Yahoo Finance e do FRED.</p></section>"""
+<p class="suave">Limites: alguns países têm menos sinais. Medidos só pela moeda, porque a fonte não tem o histórico
+da bolsa: {', '.join(p for p, (_, bolsa, _) in PAISES.items() if bolsa is None)}. Sem moeda, por desenho:
+EUA (o dólar é a referência), Hong Kong e Arábia Saudita (moedas atreladas ao dólar). Na Arábia Saudita, o fundo MSCI
+Arábia Saudita, cotado em dólar, faz o papel da bolsa. Os dados de bolsa e de parte das moedas vêm do Yahoo Finance e do
+FRED.</p>
+<p class="suave">Mudança no método: em 6/11/2026 a conta passou de 19 para {len(PAISES)} países. As médias das
+regiões e do mundo foram recalculadas para todo o histórico com os países novos, por isso leituras antigas podem diferir
+das publicadas antes dessa data.</p></section>"""
 
 
 def extras(saida: Path, caminhos: list[str]) -> None:

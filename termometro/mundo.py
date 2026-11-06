@@ -33,20 +33,38 @@ PAISES = {
     "México":         ("América Latina", "^MXX", ("fred", "DEXMXUS", False)),
     "Brasil":         ("América Latina", "^BVSP", ("fred", "DEXBZUS", False)),
     "Argentina":      ("América Latina", "^MERV", ("yahoo", "ARS=X", False)),
+    "Chile":          ("América Latina", None, ("yahoo", "CLP=X", False)),
+    "Colômbia":       ("América Latina", None, ("yahoo", "COP=X", False)),
+    "Peru":           ("América Latina", None, ("yahoo", "PEN=X", False)),
+    "Paraguai":       ("América Latina", None, ("yahoo", "PYG=X", False)),
+    "Uruguai":        ("América Latina", None, ("yahoo", "UYU=X", False)),
     "Alemanha":       ("Europa", "^GDAXI", ("fred", "DEXUSEU", True)),
     "França":         ("Europa", "^FCHI", ("fred", "DEXUSEU", True)),
     "Reino Unido":    ("Europa", "^FTSE", ("fred", "DEXUSUK", True)),
+    "Itália":         ("Europa", "FTSEMIB.MI", ("fred", "DEXUSEU", True)),
+    "Espanha":        ("Europa", "^IBEX", ("fred", "DEXUSEU", True)),
+    "Portugal":       ("Europa", "PSI20.LS", ("fred", "DEXUSEU", True)),
+    "Suíça":          ("Europa", "^SSMI", ("yahoo", "CHF=X", False)),
+    "Rússia":         ("Europa", None, ("yahoo", "RUB=X", False)),
     "Turquia":        ("Oriente Médio", "XU100.IS", ("yahoo", "TRY=X", False)),
     "Israel":         ("Oriente Médio", "^TA125.TA", ("yahoo", "ILS=X", False)),
     "Egito":          ("Oriente Médio", None, ("yahoo", "EGP=X", False)),
+    # O Yahoo não tem o histórico da Tadawul; o fundo MSCI Arábia Saudita (em dólar) faz o papel da bolsa,
+    # e como o rial é atrelado ao dólar, o preço em dólar acompanha o preço local.
+    "Arábia Saudita": ("Oriente Médio", "KSA", None),
     "África do Sul":  ("África", "^J203.JO", ("fred", "DEXSFUS", False)),
     "Nigéria":        ("África", None, ("yahoo", "NGN=X", False)),
+    "Quênia":         ("África", None, ("yahoo", "KES=X", False)),
+    "Marrocos":       ("África", None, ("yahoo", "MAD=X", False)),
     "Japão":          ("Ásia e Pacífico", "^N225", ("fred", "DEXJPUS", False)),
     "China":          ("Ásia e Pacífico", "000001.SS", ("fred", "DEXCHUS", False)),
     "Hong Kong":      ("Ásia e Pacífico", "^HSI", None),
     "Índia":          ("Ásia e Pacífico", "^NSEI", ("fred", "DEXINUS", False)),
     "Coreia do Sul":  ("Ásia e Pacífico", "^KS11", ("fred", "DEXKOUS", False)),
     "Austrália":      ("Ásia e Pacífico", "^AXJO", ("fred", "DEXUSAL", True)),
+    "Indonésia":      ("Ásia e Pacífico", "^JKSE", ("yahoo", "IDR=X", False)),
+    "Taiwan":         ("Ásia e Pacífico", "^TWII", ("yahoo", "TWD=X", False)),
+    "Singapura":      ("Ásia e Pacífico", "^STI", ("yahoo", "SGD=X", False)),
 }
 REGIOES = ["América do Norte", "América Latina", "Europa", "Oriente Médio", "África", "Ásia e Pacífico"]
 
@@ -54,11 +72,18 @@ REGIOES = ["América do Norte", "América Latina", "Europa", "Oriente Médio", "
 BOLSAS = {"EUA": "S&P 500", "Canadá": "S&P/TSX", "México": "IPC", "Brasil": "Ibovespa", "Argentina": "Merval",
           "Alemanha": "DAX", "França": "CAC 40", "Reino Unido": "FTSE 100", "Turquia": "BIST 100",
           "Israel": "TA-125", "África do Sul": "JSE All Share", "Japão": "Nikkei 225", "China": "Xangai Composto",
-          "Hong Kong": "Hang Seng", "Índia": "Nifty 50", "Coreia do Sul": "Kospi", "Austrália": "ASX 200"}
+          "Hong Kong": "Hang Seng", "Índia": "Nifty 50", "Coreia do Sul": "Kospi", "Austrália": "ASX 200",
+          "Itália": "FTSE MIB", "Espanha": "IBEX 35",
+          "Portugal": "PSI", "Suíça": "SMI", "Arábia Saudita": "MSCI Arábia Saudita", "Indonésia": "Jakarta Composite",
+          "Taiwan": "Taiex", "Singapura": "Straits Times"}
 MOEDAS = {"Canadá": "dólar canadense", "México": "peso mexicano", "Brasil": "real", "Argentina": "peso argentino",
           "Alemanha": "euro", "França": "euro", "Reino Unido": "libra", "Turquia": "lira turca", "Israel": "shekel",
           "Egito": "libra egípcia", "África do Sul": "rand", "Nigéria": "naira", "Japão": "iene", "China": "yuan",
-          "Índia": "rupia", "Coreia do Sul": "won", "Austrália": "dólar australiano"}
+          "Índia": "rupia", "Coreia do Sul": "won", "Austrália": "dólar australiano", "Chile": "peso chileno",
+          "Colômbia": "peso colombiano", "Peru": "sol", "Paraguai": "guarani", "Uruguai": "peso uruguaio",
+          "Itália": "euro", "Espanha": "euro", "Portugal": "euro", "Suíça": "franco suíço", "Rússia": "rublo",
+          "Quênia": "xelim queniano", "Marrocos": "dirham", "Indonésia": "rupia indonésia",
+          "Taiwan": "dólar taiwanês", "Singapura": "dólar de Singapura"}
 
 # Épocas conhecidas, para dar nome aos picos do histórico: (país, região ou "*", início, fim, rótulo)
 EPOCAS = [
@@ -102,6 +127,12 @@ EPOCAS = [
     ("Japão", "2024-08", "2024-08", "desmonte das operações com o iene"),
     ("Coreia do Sul", "2024-12", "2025-01", "crise da lei marcial"),
     ("Índia", "2013-06", "2013-09", "fuga de capitais de 2013"),
+    ("Rússia", "2014-11", "2015-01", "queda do rublo de 2014"),
+    ("Rússia", "2022-02", "2022-04", "invasão da Ucrânia e sanções"),
+    ("Suíça", "2015-01", "2015-02", "fim do piso do franco"),
+    ("Espanha", "2012-05", "2012-08", "crise bancária espanhola"),
+    ("Itália", "2011-07", "2011-12", "crise da dívida europeia"),
+    ("Chile", "2019-10", "2019-12", "protestos de 2019"),
 ]
 
 # Episódios para o teste histórico: (rótulo, país ou região, início, fim)
