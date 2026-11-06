@@ -29,21 +29,21 @@
     {
      "nome": "EUA",
      "slug": "eua",
-     "valor": 82,
+     "valor": 84,
      "nivel": "Crise",
      "cor": "#E5554A",
      "referencia": "2026-11",
      "mes_anterior": 45,
      "sinais": {
-      "bolsa": 67,
+      "bolsa": 69,
       "volatilidade": 98
      },
      "brutos": {
-      "bolsa_queda_pct": 5.3,
+      "bolsa_queda_pct": 5.7,
       "bolsa_ultimo_dia": "2026-11-06",
       "bolsa_pico": 7818.93,
       "bolsa_pico_dia": "2026-10-06",
-      "oscilacao_diaria_pct": 2.34,
+      "oscilacao_diaria_pct": 2.31,
       "desde": {
        "bolsa": 1980,
        "volatilidade": 1980
@@ -83,11 +83,11 @@
       "moeda": 20
      },
      "brutos": {
-      "bolsa_queda_pct": 3.1,
+      "bolsa_queda_pct": 3.2,
       "bolsa_ultimo_dia": "2026-11-06",
       "bolsa_pico": 36957.6,
       "bolsa_pico_dia": "2026-08-25",
-      "oscilacao_diaria_pct": 1.61,
+      "oscilacao_diaria_pct": 1.6,
       "moeda_variacao_3m_pct": 0.7,
       "moeda_ultimo_dia": "2026-11-06",
       "desde": {
@@ -121,9 +121,9 @@
   {
    "nome": "América Latina",
    "slug": "america-latina",
-   "valor": 40,
-   "nivel": "Atenção",
-   "cor": "#7CC3E0",
+   "valor": 41,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
    "referencia": "2026-11",
    "mes_anterior": 50,
    "picos": [
@@ -158,11 +158,11 @@
       "moeda": 94
      },
      "brutos": {
-      "bolsa_queda_pct": 0.5,
+      "bolsa_queda_pct": 0.4,
       "bolsa_ultimo_dia": "2026-11-06",
       "bolsa_pico": 71601.35,
       "bolsa_pico_dia": "2026-02-11",
-      "oscilacao_diaria_pct": 0.31,
+      "oscilacao_diaria_pct": 0.25,
       "moeda_variacao_3m_pct": 9.5,
       "moeda_ultimo_dia": "2026-11-06",
       "desde": {
@@ -200,16 +200,16 @@
      "referencia": "2026-11",
      "mes_anterior": 60,
      "sinais": {
-      "bolsa": 79,
-      "volatilidade": 43,
+      "bolsa": 78,
+      "volatilidade": 46,
       "moeda": 70
      },
      "brutos": {
-      "bolsa_queda_pct": 19.5,
+      "bolsa_queda_pct": 19.4,
       "bolsa_ultimo_dia": "2026-11-06",
       "bolsa_pico": 209067.0,
       "bolsa_pico_dia": "2026-10-09",
-      "oscilacao_diaria_pct": 1.39,
+      "oscilacao_diaria_pct": 1.43,
       "moeda_variacao_3m_pct": 6.0,
       "moeda_ultimo_dia": "2026-11-06",
       "desde": {
@@ -727,7 +727,7 @@
        "epoca": "crise financeira global de 2008"
       },
       {
-       "mes": "1998-08",
+       "mes": "1998-09",
        "valor": 99,
        "epoca": null
       },
@@ -875,7 +875,7 @@
   {
    "nome": "Oriente Médio",
    "slug": "oriente-medio",
-   "valor": 78,
+   "valor": 79,
    "nivel": "Tensão",
    "cor": "#EE8A3C",
    "referencia": "2026-11",
@@ -901,22 +901,22 @@
     {
      "nome": "Turquia",
      "slug": "turquia",
-     "valor": 66,
+     "valor": 70,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 69,
      "sinais": {
-      "bolsa": 83,
-      "volatilidade": 66,
+      "bolsa": 84,
+      "volatilidade": 74,
       "moeda": 50
      },
      "brutos": {
-      "bolsa_queda_pct": 24.1,
-      "bolsa_ultimo_dia": "2026-11-06",
+      "bolsa_queda_pct": 25.1,
+      "bolsa_ultimo_dia": "2026-11-05",
       "bolsa_pico": 15133.5,
       "bolsa_pico_dia": "2026-05-11",
-      "oscilacao_diaria_pct": 1.93,
+      "oscilacao_diaria_pct": 2.23,
       "moeda_variacao_3m_pct": 4.5,
       "moeda_ultimo_dia": "2026-11-06",
       "desde": {
@@ -1039,7 +1039,7 @@
      "referencia": "2026-11",
      "mes_anterior": 67,
      "sinais": {
-      "bolsa": 77,
+      "bolsa": 78,
       "volatilidade": 59
      },
      "brutos": {
@@ -1326,7 +1326,7 @@
        "epoca": null
       },
       {
-       "mes": "1990-08",
+       "mes": "1990-03",
        "valor": 99,
        "epoca": null
       },
@@ -1719,13 +1719,13 @@
   "referencia": "2026-11",
   "mes_anterior": 60,
   "sinais": {
-   "bolsa": 79,
-   "volatilidade": 43,
+   "bolsa": 78,
+   "volatilidade": 46,
    "moeda": 70
   }
  },
  "mundo": {
-  "valor": 57,
+  "valor": 58,
   "nivel": "Alerta",
   "cor": "#F2C14E",
   "referencia": "2026-11",
@@ -1734,74 +1734,74 @@
  "cotacoes": [
   {
    "nome": "Ibovespa",
-   "ultimo": 168315.94,
+   "ultimo": 168500.56,
    "tipo": "pontos",
    "serie": "brasil_bolsa",
-   "variacao_pct": 1.28,
+   "variacao_pct": 1.39,
    "data": "2026-11-06"
   },
   {
    "nome": "Dólar",
-   "ultimo": 5.5122,
+   "ultimo": 5.5052,
    "tipo": "brl",
    "serie": "extra_dolar",
-   "variacao_pct": 0.98,
+   "variacao_pct": 0.85,
    "data": "2026-11-06"
   },
   {
    "nome": "Euro",
-   "ultimo": 6.1377,
+   "ultimo": 6.1321,
    "tipo": "brl",
    "serie": "extra_euro",
-   "variacao_pct": 0.17,
+   "variacao_pct": 0.08,
    "data": "2026-11-06"
   },
   {
    "nome": "Dow Jones",
-   "ultimo": 51402.5,
+   "ultimo": 51285.73,
    "tipo": "pontos",
    "serie": "extra_dow_jones",
-   "variacao_pct": -0.23,
+   "variacao_pct": -0.46,
    "data": "2026-11-06"
   },
   {
    "nome": "S&P 500",
-   "ultimo": 7401.13,
+   "ultimo": 7376.86,
    "tipo": "pontos",
    "serie": "eua_bolsa",
-   "variacao_pct": 0.64,
+   "variacao_pct": 0.31,
    "data": "2026-11-06"
   },
   {
    "nome": "Nasdaq",
-   "ultimo": 24666.11,
+   "ultimo": 24579.42,
    "tipo": "pontos",
    "serie": "extra_nasdaq",
-   "variacao_pct": 1.44,
+   "variacao_pct": 1.09,
    "data": "2026-11-06"
   },
   {
    "nome": "Bitcoin",
-   "ultimo": 75667.3203,
+   "ultimo": 75731.1016,
    "tipo": "usd",
    "serie": "extra_bitcoin",
-   "variacao_pct": -0.36,
+   "variacao_pct": -0.28,
    "data": "2026-11-06"
   },
   {
    "nome": "Petróleo Brent",
-   "ultimo": 98.57,
+   "ultimo": 97.96,
    "tipo": "usd",
    "serie": "extra_petroleo",
-   "variacao_pct": 0.28,
+   "variacao_pct": -0.34,
    "data": "2026-11-06"
   },
   {
    "nome": "Ouro",
-   "ultimo": 4073.5,
+   "ultimo": 4074.5,
    "tipo": "usd",
    "serie": "extra_ouro",
-   "variacao_pct": -0.97,
+   "variacao_pct": -0.95,
    "data": "2026-11-06"
   },
   {
@@ -1910,8 +1910,5 @@
    "maximo": 53,
    "mes": "2017-07"
   }
- ],
- "parcial": {
-  "hora": "17h21"
- }
+ ]
 }

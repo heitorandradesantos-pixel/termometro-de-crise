@@ -1,0 +1,62 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [],
+ "noticias": 33,
+ "descartes": [
+  {
+   "onde": "Mercado vê 69% de chance de alta dos juros dos EUA em dezembro",
+   "motivo": "link que a busca não devolveu: https://www.cmegroup.com/education/events/fomc-meeting.html"
+  },
+  {
+   "onde": "Banco Central da Turquia baixa os juros de 37% para 36%",
+   "motivo": "data fora da janela (2026-10-22)"
+  },
+  {
+   "onde": "Bolsa de Joanesburgo caiu 6,7% em setembro, com mineradoras em queda",
+   "motivo": "data fora da janela (2026-09-30)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 194.2,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 4.9,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 2.5,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 6.9,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 269.4,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}
