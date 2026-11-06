@@ -1,0 +1,112 @@
+{
+ "titulo": "FGC confirma acesso indevido a dados de clientes: o que se sabe",
+ "descricao": "FGC diz que nome, CPF e e-mail de investidores foram acessados sem autorização. Não há uso indevido comprovado até agora. Veja como evitar golpes.",
+ "palavra_chave": "fgc confirma acesso indevido a dados de clientes",
+ "lead": "O FGC (Fundo Garantidor de Créditos) informou na quinta-feira (5/11) que dados pessoais de clientes foram acessados sem autorização. A suspeita foi identificada em 26 de outubro. O fundo diz que não há evidência de vazamento ou uso indevido, nem perda financeira, e alerta para o risco de golpes. As informações vêm do comunicado do fundo, reproduzido por Agência Brasil, CNN Brasil, InfoMoney e outros veículos.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O FGC declarou em 5/11 ter identificado acesso não autorizado a dados pessoais de clientes, como nome, CPF, e-mail e data de nascimento.",
+   "fonte_url": "https://www.poder360.com.br/poder-economia/fgc-identifica-acesso-indevido-a-dados-e-informa-clientes/",
+   "data": "2026-11-05",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "O incidente foi detectado em 26 de outubro e ocorreu em processos do fluxo de pagamento de garantias do fundo, segundo a Agência Brasil. Os dados são de pessoas que receberam ou vão receber a garantia.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fgc-alerta-para-vazamento-de-dados-de-investidores-e-risco-de-golpes",
+   "data": "2026-10-26",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Também foram acessadas informações do pagamento da garantia: os tributos retidos e o canal pelo qual o investimento foi feito na instituição financeira liquidada.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/fgc-comunica-vazamento-de-dados-pessoais-de-clientes-incluindo-cpf/",
+   "data": "2026-11-05",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O FGC diz que não encontrou evidência de que os dados tenham sido divulgados ou usados de forma indevida, nem perda financeira ligada ao caso.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/fgc-comunica-vazamento-de-dados-de-investidores-e-alerta-para-risco-de-golpes/",
+   "data": "2026-11-05",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Depois da descoberta, o fundo restringiu acessos aos ambientes envolvidos, bloqueou contas indevidas, preservou evidências e revisou permissões e controles de segurança.",
+   "fonte_url": "https://www.poder360.com.br/poder-economia/fgc-identifica-acesso-indevido-a-dados-e-informa-clientes/",
+   "data": "2026-11-05",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "O FGC comunicou o caso à ANPD (Autoridade Nacional de Proteção de Dados), como exige a lei, e avisou os titulares afetados por e-mail.",
+   "fonte_url": "https://obastidor.com.br/economia/hackers-no-fgc/",
+   "data": "2026-11-05",
+   "veiculo": "O Bastidor",
+   "confiavel": false
+  },
+  {
+   "texto": "O fundo alerta que os dados acessados podem tornar contatos fraudulentos mais convincentes, inclusive com pedidos de pagamento ou de informações de acesso.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fgc-alerta-para-vazamento-de-dados-de-investidores-e-risco-de-golpes",
+   "data": "2026-11-05",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A investigação continua, com apoio de empresas especializadas, para saber a extensão do acesso e se houve cópia, divulgação ou uso indevido.",
+   "fonte_url": "https://www.seudinheiro.com/2026/economia/fgc-reporta-incidente-de-seguranca-e-vazamento-de-nomes-cpfs-e-outros-dados-veja-como-se-proteger-rens/",
+   "data": "2026-11-05",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O FGC identifica a suspeita de acesso não autorizado e começa a conter o incidente, restringir acessos e preservar evidências.",
+   "fonte_url": "https://www.seudinheiro.com/2026/economia/fgc-reporta-incidente-de-seguranca-e-vazamento-de-nomes-cpfs-e-outros-dados-veja-como-se-proteger-rens/",
+   "data": "2026-10-26",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "O FGC divulga o comunicado, diz ter avisado a ANPD e os titulares, e alerta para o risco de golpes.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fgc-alerta-para-vazamento-de-dados-de-investidores-e-risco-de-golpes",
+   "data": "2026-11-05",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O fundo diz que trata o caso com prioridade e que dará novas informações conforme a investigação avançar.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/fgc-comunica-vazamento-de-dados-de-investidores-e-alerta-para-risco-de-golpes/",
+   "data": "2026-11-05",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quantas pessoas foram afetadas: o FGC não divulgou o número (Agência Brasil, CNN Brasil).",
+  "Quais instituições financeiras liquidadas têm clientes envolvidos: o fundo não informou.",
+  "Quem fez o acesso e como ele aconteceu: não foi explicado publicamente até agora.",
+  "Se os dados foram copiados, divulgados ou usados: o FGC diz que não há evidência, mas a investigação não terminou e a conclusão não foi confirmada.",
+  "Se haverá novas informações da ANPD: o órgão não se manifestou nas fontes consultadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você recebeu a garantia do FGC ou tem direito a ela, verifique o e-mail: o fundo diz que avisou os afetados individualmente. Só abra o aviso se vier de um endereço que você reconhece.",
+  "Os dados acessados são cadastrais e do pagamento da garantia. As notícias não citam senhas, nem saldo ou dados de conta bancária entre as informações acessadas.",
+  "Seu CPF, e-mail e data de nascimento podem dar credibilidade a quem tentar um golpe. Por isso, desconfie de contatos que citem seus dados ou a garantia do FGC.",
+  "Para tirar dúvidas, o FGC indicou o e-mail atendimento.credores@fgc.org.br. Dúvidas sobre dados pessoais vão para privacidade@fgc.org.br, segundo o portal ASA."
+ ],
+ "como_se_proteger": [
+  "Não passe senhas nem códigos de autenticação a ninguém, mesmo que a pessoa diga ser do FGC.",
+  "Não pague taxas para receber ou liberar a garantia. O fundo diz que não cobra esse tipo de valor.",
+  "Não instale aplicativos nem clique em links enviados por mensagem suspeita.",
+  "Segundo a nota do FGC divulgada pelo portal ASA, o fundo não faz contato por WhatsApp ou SMS. Desconfie desses contatos.",
+  "Se receber um contato suspeito, não responda. Procure o FGC pelos canais oficiais: atendimento.credores@fgc.org.br.",
+  "Se o contato citar seus dados pessoais, não confirme nada. Desligue e fale com a sua instituição pelo canal oficial dela."
+ ],
+ "slug": "fgc-confirma-acesso-indevido-a-dados-de-clientes",
+ "publicado_em": "2026-11-06T13:39:35.869605",
+ "atualizado_em": "2026-11-06T13:39:35.869605",
+ "assunto": "FGC confirma acesso indevido a dados pessoais de clientes e alerta para golpes"
+}
