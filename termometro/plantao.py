@@ -4,7 +4,7 @@ Quando um assunto viraliza (o FGC teve dados acessados, um banco travou saques d
 no Pix), as pessoas correm para o Google e digitam "FGC foi hackeado?". Quem tiver no ar primeiro um texto
 claro, com fonte, "o que se sabe", "o que muda para você" e "como se proteger", fica no topo.
 
-Três passos, a cada 2 horas (robô Plantão, .github/workflows/plantao.yml):
+Três passos, 3 vezes por dia, com no máximo 3 artigos por dia (robô Plantão, .github/workflows/plantao.yml):
 1. Pauteiro: busca na web os assuntos de dinheiro do momento no Brasil e escolhe o que mais importa
    para o bolso do leitor, com a busca exata que as pessoas fazem (palavra-chave de SEO).
 2. Repórter: busca as fontes e escreve no formato "X: o que se sabe", que é o que o Google mostra em notícia.
@@ -34,6 +34,7 @@ JANELA_DIAS = 3          # fato com data mais antiga que isso não sustenta "not
 MINIMO_FATOS = 3         # menos que isso, não há o que publicar
 REPETIDO_DIAS = 3        # o mesmo assunto não vira dois artigos em 3 dias
 MAXIMO_POR_RODADA = int(os.environ.get("PLANTAO_MAXIMO") or "1")
+MAXIMO_POR_DIA = int(os.environ.get("PLANTAO_POR_DIA") or "3")  # no começo, no máximo 3 artigos por dia
 
 TEMAS = ("bancos e fintechs (Nubank, Itaú, Inter, Mercado Pago, PicPay), Pix e boletos, FGC e garantias, golpes e "
          "vazamentos de dados, criptomoedas e corretoras, Selic, inflação, dólar, imposto de renda e Receita Federal, "
@@ -209,13 +210,17 @@ def rodar(diario: Path, agora: pd.Timestamp | None = None, cliente=None, tema: s
     if cliente is None and not ia.disponivel():
         print("Plantão: sem chave de IA, nada a fazer.")
         return []
-    cliente = cliente or ia.novo_cliente()
     anteriores = publicados(diario)
+    do_dia = sum(1 for a in anteriores if a["publicado_em"][:10] == hoje)
+    if do_dia >= MAXIMO_POR_DIA:
+        print(f"Plantão: já saíram {do_dia} artigos hoje (máximo {MAXIMO_POR_DIA}); nada a fazer.")
+        return []
+    cliente = cliente or ia.novo_cliente()
     assuntos = ([{"assunto": tema, "busca_do_leitor": tema.lower(), "por_que_importa": "pedido do editor", "fontes": []}]
                 if tema else pautar(cliente, hoje, anteriores))
     gravados = []
     for assunto in assuntos:
-        if len(gravados) >= MAXIMO_POR_RODADA:
+        if len(gravados) >= MAXIMO_POR_RODADA or do_dia + len(gravados) >= MAXIMO_POR_DIA:
             break
         if not tema and repetido(assunto["assunto"] + " " + assunto["busca_do_leitor"], anteriores, agora):
             print(f"  já coberto: {assunto['assunto']}")

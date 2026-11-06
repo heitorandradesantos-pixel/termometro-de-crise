@@ -71,3 +71,13 @@ def test_paginas_e_mapa_de_noticias(tmp_path):
     mapa = plantao.sitemap_noticias(artigos, AGORA + pd.Timedelta(hours=3))
     assert "<news:title>FGC foi hackeado?" in mapa and "fgc-foi-hackeado.html" in mapa
     assert "fgc-foi-hackeado" not in plantao.sitemap_noticias(artigos, AGORA + pd.Timedelta(days=3))
+
+
+def test_limite_de_artigos_por_dia(tmp_path, monkeypatch):
+    chamadas = []
+    monkeypatch.setattr(ia, "estruturado", lambda *a, **k: chamadas.append(1) or {"assuntos": []})
+    (tmp_path / "plantao").mkdir()
+    for i in range(plantao.MAXIMO_POR_DIA):
+        (tmp_path / "plantao" / f"2026-11-06-a{i}.json").write_text(json.dumps(
+            {"titulo": f"Assunto {i}", "palavra_chave": f"assunto {i}", "publicado_em": f"2026-11-06T0{i}:00:00"}))
+    assert plantao.rodar(tmp_path, AGORA, cliente=object()) == [] and chamadas == []  # nem chama a IA

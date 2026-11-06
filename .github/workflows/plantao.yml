@@ -1,12 +1,13 @@
 name: Plantão de notícias
 
-# A cada 2 horas, das 8h às 20h de Brasília (todos os dias), o robô procura o assunto de dinheiro que mais
+# 3 vezes por dia (9h13, 13h13 e 17h13 de Brasília), com no máximo 3 artigos por dia (variável PLANTAO_POR_DIA),
+# o robô procura o assunto de dinheiro que mais
 # gente está buscando no Google, escreve "o que se sabe" com fonte em cada fato e publica sozinho se passar
 # na conferência. Nada passa sem fonte devolvida pela própria busca. Com a variável PLANTAO_AUTOMATICO=nao,
 # cada artigo vira um pedido de aprovação em vez de ir direto ao ar.
 on:
   schedule:
-    - cron: "13 11-23/2 * * *" # 8h13, 10h13, ..., 20h13 em Brasília
+    - cron: "13 12,16,20 * * *" # 9h13, 13h13 e 17h13 em Brasília
   workflow_dispatch:
     inputs:
       tema:
@@ -30,6 +31,7 @@ jobs:
       SITE_URL: ${{ vars.SITE_URL }}
       MODELO_CLAUDE: ${{ vars.MODELO_CLAUDE }}
       PLANTAO_MAXIMO: ${{ vars.PLANTAO_MAXIMO }}
+      PLANTAO_POR_DIA: ${{ vars.PLANTAO_POR_DIA }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
