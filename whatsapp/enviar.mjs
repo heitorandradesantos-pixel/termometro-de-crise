@@ -23,6 +23,15 @@ const ARQ_DESTINO = path.join(PASTA, 'destino.json')
 const NOME_COMUNIDADE = process.env.WA_COMUNIDADE || 'termometro'
 const silencio = pino({ level: 'silent' })
 
+// O registro do robô é público. A biblioteca de criptografia escreve chaves da sessão no console: tudo que não for
+// mensagem nossa é descartado, e as nossas saem por diga().
+const diga = (m) => process.stdout.write(`${m}\n`)
+for (const k of ['log', 'info', 'warn', 'error', 'debug', 'trace', 'dir']) console[k] = () => {}
+process.stderr.write = () => true
+for (const ev of ['uncaughtException', 'unhandledRejection']) {
+  process.on(ev, (e) => { diga(`Erro: ${e?.message || e}`); process.exit(1) })
+}
+
 const normal = (t) => (t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
 class Falha extends Error {}
@@ -59,9 +68,9 @@ async function conectar ({ numero = '', codigo = '', esperaMs = 120000 } = {}) {
           try {
             await sock.requestPairingCode(numero, codigo || undefined)
             pedidos += 1
-            console.log(`Pedido de pareamento enviado ao celular (${pedidos}): digite o código em Aparelhos conectados.`)
+            diga(`Pedido de pareamento enviado ao celular (${pedidos}): digite o código em Aparelhos conectados.`)
           } catch (e) {
-            console.log(`O WhatsApp recusou o pedido de pareamento: ${e.message}`)
+            diga(`O WhatsApp recusou o pedido de pareamento: ${e.message}`)
           }
         }
         if (u.connection === 'open') { clearTimeout(relogio); resolve({ sock }) }
@@ -78,7 +87,7 @@ async function conectar ({ numero = '', codigo = '', esperaMs = 120000 } = {}) {
       throw new Falha('O WhatsApp desconectou este aparelho (alguém removeu em Aparelhos conectados): é preciso parear de novo.')
     }
     if (r.erro === 'tempo') break
-    console.log(r.erro === DisconnectReason.restartRequired ? 'Pareado; reconectando com a sessão nova.'
+    diga(r.erro === DisconnectReason.restartRequired ? 'Pareado; reconectando com a sessão nova.'
       : `A conexão fechou (código ${r.erro}); tentando de novo.`)
     await delay(2500) // dá tempo da sessão nova ir para o disco
   }
@@ -95,10 +104,10 @@ async function acharDestino (sock) {
   const grupos = Object.values(await sock.groupFetchAllParticipating())
   let comunidades = []
   try { comunidades = Object.values(await sock.communityFetchAllParticipating()) } catch (e) {
-    console.log(`Lista de comunidades indisponível (${e.message}).`)
+    diga(`Lista de comunidades indisponível (${e.message}).`)
   }
   const pais = new Map([...grupos.filter((g) => g.isCommunity), ...comunidades].map((g) => [g.id, g]))
-  console.log(`Este número está em ${grupos.length} grupos e ${pais.size} comunidades.`)
+  diga(`Este número está em ${grupos.length} grupos e ${pais.size} comunidades.`)
   const bate = (t) => normal(t).includes(normal(NOME_COMUNIDADE))
   let alvo = grupos.find((g) => g.isCommunityAnnounce && (bate(g.subject) || bate(pais.get(g.linkedParent)?.subject)))
   let comunidade = alvo ? pais.get(alvo.linkedParent) : [...pais.values()].find((c) => bate(c.subject))
@@ -110,7 +119,7 @@ async function acharDestino (sock) {
         const meta = await sock.groupMetadata(g.id).catch(() => null)
         if (meta?.isCommunityAnnounce) { alvo = meta; break }
       }
-    } catch (e) { console.log(`Grupos da comunidade indisponíveis (${e.message}).`) }
+    } catch (e) { diga(`Grupos da comunidade indisponíveis (${e.message}).`) }
     if (!alvo) {
       const meta = await sock.groupMetadata(comunidade.id).catch(() => null)
       if (meta) alvo = meta // a própria comunidade: o WhatsApp entrega no grupo de avisos
@@ -129,9 +138,9 @@ async function acharDestino (sock) {
     [p.id, p.lid, p.phoneNumber].filter(Boolean).some((j) => eu.includes(jidNormalizedUser(j))) && p.admin)
   const destino = { jid: alvo.id, nome: (comunidade?.subject || alvo.subject || '').trim(), admin }
   fs.writeFileSync(ARQ_DESTINO, JSON.stringify(destino))
-  console.log(`Comunidade encontrada: ${destino.nome} (${alvo.isCommunityAnnounce ? 'grupo de avisos' : 'comunidade'}` +
+  diga(`Comunidade encontrada: ${destino.nome} (${alvo.isCommunityAnnounce ? 'grupo de avisos' : 'comunidade'}` +
     `${admin ? ', este número é administrador' : ''}).`)
-  if (!admin) console.log('Atenção: não confirmei que este número é administrador do grupo de avisos.')
+  if (!admin) diga('Atenção: não confirmei que este número é administrador do grupo de avisos.')
   return destino
 }
 
@@ -152,7 +161,7 @@ async function mandar (sock, jid, envio) {
     ids.push((await sock.sendMessage(jid, { text: texto })).key.id)
   }
   for (let i = 0; i < 30 && !ids.every((id) => confirmados.has(id)); i++) await delay(1000)
-  if (!ids.every((id) => confirmados.has(id))) console.log('Aviso: o servidor não confirmou todas as mensagens em 30 s.')
+  if (!ids.every((id) => confirmados.has(id))) diga('Aviso: o servidor não confirmou todas as mensagens em 30 s.')
   return ids
 }
 
@@ -167,7 +176,7 @@ async function principal () {
     if (acao === 'parear') {
       sock = await conectar({ numero, codigo, esperaMs: 9 * 60000 }) // já ligado: só procura a comunidade de novo
       await delay(5000)
-      console.log('Número ligado ao robô.')
+      diga('Número ligado ao robô.')
       const d = await acharDestino(sock)
       await sock.sendMessage(euMesmo(sock)[0], {
         text: `✅ Termômetro de Crise conectado. Os envios automáticos vão para a comunidade "${d.nome}".`
@@ -188,7 +197,7 @@ async function principal () {
         resultado.destino = d.nome
       }
       resultado.ids = await mandar(sock, jid, envio)
-      console.log(`Enviado para ${resultado.destino}: ${resultado.ids.length} mensagem(ns).`)
+      diga(`Enviado para ${resultado.destino}: ${resultado.ids.length} mensagem(ns).`)
     } else {
       throw new Falha('Use: parear | teste <envio.json> | enviar <envio.json>')
     }
@@ -203,6 +212,6 @@ async function principal () {
 }
 
 principal().then(() => process.exit(0)).catch((e) => {
-  console.log(e instanceof Falha ? e.message : `Erro: ${e?.message || e}`)
+  diga(e instanceof Falha ? e.message : `Erro: ${e?.message || e}`)
   process.exit(1)
 })
