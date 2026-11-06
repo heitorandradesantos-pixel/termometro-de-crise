@@ -28,7 +28,7 @@ sys.path.insert(0, str(RAIZ))
 
 import pandas as pd  # noqa: E402
 
-from termometro import (buscador, coleta, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
+from termometro import (bcb, buscador, coleta, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
                         mundo, paginas, panorama, publicar, redator, revisor, seo, site)
 
 EDICOES = RAIZ / "edicoes"
@@ -142,21 +142,26 @@ def diario(dados_dir: Path, data: str, coletar: bool = True) -> Path:
     with etapa(registro, "Analista mundial"):
         regional = mundo.rodar(dados_dir / "mundo", historico)
         (historico / "mundo.json").replace(pasta / "mundo.json")
+    bc = tentar(registro, "Banco Central", lambda: bcb.coletar(data), None) if coletar else None
+    if bc is not None:
+        (pasta / "bcb.json").write_text(json.dumps(bc, ensure_ascii=False, indent=1))
     cliente = ia.novo_cliente() if ia.disponivel() else None
     corr = tentar(registro, "Correspondente", lambda: correspondente.pesquisar(regional, data, cliente),
                   {"regioes": {}, "modo": "falhou"})
     (pasta / "correspondente.json").write_text(json.dumps(corr, ensure_ascii=False, indent=1))
 
-    anteriores = [d for d in paginas.dias_do_diario(DIARIO) if d.name < data]
-    anterior = None
-    if anteriores:
-        anterior = {**json.loads((anteriores[-1] / "mundo.json").read_text()), "_data": anteriores[-1].name}
+    dias_antes = [d for d in paginas.dias_do_diario(DIARIO) if d.name < data][-10:]
+    anteriores = [{**json.loads((d / "mundo.json").read_text()), "_data": d.name} for d in dias_antes
+                  if (d / "mundo.json").exists()]
+    anterior = anteriores[-1] if anteriores else None
+    recentes = [(d / "panorama.txt").read_text() for d in dias_antes if (d / "panorama.txt").exists()]
     with etapa(registro, "Panorama"):
-        texto = panorama.montar(regional, corr, anterior, data)
-        conferencia = panorama.checar(texto, regional)
+        destaque = panorama.marco(regional, anteriores, recentes)
+        texto = panorama.montar(regional, corr, anterior, data, bc=bc, destaque=destaque)
+        conferencia = panorama.checar(texto, regional, bc)
         if not conferencia["aprovado"]:  # sem as manchetes, fica só o que o programa calculou
-            texto = panorama.montar(regional, None, anterior, data, noticias=[])
-            conferencia = {**panorama.checar(texto, regional), "sem_noticias": True}
+            texto = panorama.montar(regional, None, anterior, data, noticias=[], bc=bc, destaque=destaque)
+            conferencia = {**panorama.checar(texto, regional, bc), "sem_noticias": True}
     (pasta / "panorama.txt").write_text(texto)
 
     noticias = correspondente.todas_as_noticias(corr)

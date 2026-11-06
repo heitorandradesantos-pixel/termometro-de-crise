@@ -36,6 +36,9 @@ jobs:
         env:
           SIMBOLOS: ${{ inputs.simbolos }}
         run: python sondas/simbolos.py
+      - name: Testar dados do Banco Central
+        continue-on-error: true
+        run: python sondas/bcb.py
       - run: python sondas/motor_mundial.py
       - name: Gravar os números no ramo
         if: inputs.gravar == 'sim' && github.ref_name != 'main'
