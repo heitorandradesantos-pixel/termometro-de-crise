@@ -29,11 +29,11 @@ def _var(v: float) -> str:
     return f"{'▲' if v > 0 else '▼' if v < 0 else ''}{_num(abs(v), 2)}%"
 
 
-def _primeira_frase(texto: str, limite: int = 150) -> str:
+def _primeira_frase(texto: str, limite: int = 150, fora: str = "") -> str:
     """As frases que explicam (sem cotação): número de outra fonte ou outro horário confundiria com o do card."""
     import re
     frases = [f.strip() for f in texto.replace("...", ".").split(". ") if f.strip()
-              and not re.search(r"\d{3,}|\d+,\d+|\d\s*%|R\$", f)]
+              and not re.search(r"\d{3,}|\d+,\d+|\d\s*%|R\$", f) and not (fora and re.search(fora, f, re.I))]
     saida = ""
     for f in frases:
         candidato = (saida + " " + f.rstrip(".") + ".").strip()
@@ -48,7 +48,10 @@ def _motivo(noticias: list[dict], sinal: str, dia: str) -> str:
     Notícia de outro dia fica de fora: explicaria um número que não é o do card."""
     for n in noticias:
         if n.get("data") == dia and "Brasil" in n.get("paises", []) and sinal in n.get("mexe_em", []):
-            return _primeira_frase(n.get("resumo") or n["titulo"])
+            fora = r"d[óo]lar|c[âa]mbio|\breal\b" if sinal == "bolsa" else r"bolsa|ibovespa|a[çc][õo]es"
+            frase = _primeira_frase(n.get("resumo") or n["titulo"], fora=fora)  # bloco da bolsa fala da bolsa
+            if frase:
+                return frase
     return ""
 
 
