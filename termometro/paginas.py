@@ -15,7 +15,7 @@ import pandas as pd
 
 from . import config, correspondente as corr, mundo as motor, panorama
 from .grafico import mes_curto
-from .site import medidor_svg, pagina
+from .site import bloco_celular, medidor_svg, pagina
 
 C = config.CORES
 FEMININAS = {"libra", "lira turca", "libra egípcia", "naira", "rupia"}
@@ -76,24 +76,25 @@ a.caixa:hover{outline:1px solid #34485A}
 .ranking td{padding:10px 8px}.ranking a{color:var(--texto);text-decoration:none;font-weight:600;display:inline-block;padding:4px 0}
 .ranking .r{color:var(--suave);font-size:13px}
 .so-celular{display:none}
-.pano{white-space:pre-wrap;background:#0B1F17;border:1px solid #1F4D3A;border-radius:14px;padding:18px;font:15px/1.55 'IBM Plex Sans',sans-serif}
+.pano{white-space:pre-wrap;background:#005C4B;color:#E9EDEF;border-radius:12px 12px 12px 2px;max-width:560px;padding:14px 16px 22px;position:relative;font:15px/1.55 'IBM Plex Sans',sans-serif}
 .zap{background:#25D366;color:#0E141B}
+.pano em{color:#D1D7DB}
 .mapa-mundo svg{width:100%;height:auto;display:block}.mapa-mundo path{stroke:#0E141B;stroke-width:.7}
 .mapa-mundo a:hover path,.mapa-mundo a:focus path{opacity:1;filter:brightness(1.15)}.mapa-mundo .re{opacity:.8}
-.mapa-mundo .pa{stroke:#EEF2F5;stroke-width:1.1}.rot-mapa text{font:600 19px 'Space Grotesk',sans-serif;fill:#EEF2F5;
+.mapa-mundo .pa{stroke:#EEF2F5;stroke-width:1.1}.mapa-mundo .br{stroke-width:2.4}.rot-mapa text{font:600 19px 'Space Grotesk',sans-serif;fill:#EEF2F5;
 paint-order:stroke;stroke:#0E141B;stroke-width:5px;stroke-linejoin:round;pointer-events:none}
 .comparar{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:6px;margin-top:12px}
 .comparar div{background:#121B25;border-radius:8px;padding:8px 4px;text-align:center;font-size:12px;color:var(--suave)}
 .comparar strong{display:block;font:700 18px 'Space Grotesk',sans-serif;color:var(--texto)}
 .educativo{font-size:12px;color:var(--suave);margin:10px 0 0}
-.parcial{font-size:12px;color:var(--suave);border:1px dashed #44566A;border-radius:6px;padding:2px 6px;white-space:nowrap}
+.parcial{font-size:12px;color:var(--suave);white-space:nowrap;text-decoration:underline dotted;text-underline-offset:3px}
 .sobe{color:#EE8A3C}.desce{color:#7CC3E0}
 .bolso{background:#13202B;border:1px solid #23394A;border-radius:14px;padding:16px 18px;margin:16px 0}
 .bolso h3{margin:0 0 8px;font-size:18px}.bolso ul{margin:0;padding-left:20px}.bolso li{margin:6px 0}
 @media (max-width:760px){.ficha{grid-template-columns:1fr;gap:14px}.ficha h1{font-size:26px}.ficha .lead{font-size:16px}
 .grade,.grade2{grid-template-columns:1fr}.sinal{grid-template-columns:1fr;gap:6px}.hist .desk{display:none}.hist .cel{display:block}
 .rot-mapa{display:none}.comparar strong{font-size:16px}
-.ranking .esconde{display:none}.so-celular{display:block}}
+.ranking .esconde{display:none}.so-celular{display:block}.ranking td{padding:8px 4px}.ranking td:nth-child(2){overflow-wrap:anywhere}}
 """
 
 
@@ -316,8 +317,11 @@ def por_que_automatico(p: dict) -> str:
 
 def parcial(p: dict) -> str:
     """Selo quando o país tem menos de 3 sinais (ex.: Egito, só moeda)."""
+    if p.get("nome") in ("EUA", "Hong Kong"):  # sem moeda por desenho (o dólar é a referência), não por falta de dado
+        return ""
     n = sum(1 for v in (p.get("sinais") or {}).values() if v is not None)
-    return f' <span class="parcial" title="Leitura com menos sinais">dados parciais: {n} de 3 sinais</span>' if 0 < n < 3 else ""
+    return (f' <span class="parcial" title="Leitura com {n} de 3 sinais">dados parciais ({n} de 3)</span>'
+            if 0 < n < 3 else "")
 
 
 def bolso_brasil(p: dict) -> str:
@@ -396,6 +400,8 @@ def mapa_svg(m: dict, raiz: str = "") -> str:
         else:
             href, cor, classe = f"{raiz}regioes/{r['slug']}.html", r["cor"], "re"
             dica = f"{c['nome']} · {r['nome']}: {r['valor']}, {r['nivel']}"
+        if c["a2"] == "BR":
+            classe += " br"
         formas.append(f'<a href="{href}" tabindex="-1"><path class="{classe}" d="{c["d"]}" fill="{cor}">'
                       f'<title>{html.escape(dica)}</title></path></a>')
     rotulos = "".join(f'<text x="{x}" y="{y}" text-anchor="middle">{html.escape(nome)} {regioes[nome]["valor"]}</text>'
@@ -550,6 +556,7 @@ def pagina_regiao(f: dict, r: dict) -> str:
              + historico_html(serie, r.get("picos", []), r["nome"], r["valor"])
              + observar_html(ex.get("observar", []))
              + compartilhar(f"Termômetro de crise {de(r['nome'])}: {r['valor']} de 100 ({r['nivel']})", f"regioes/{r['slug']}.html")
+             + bloco_celular("../")
              + metodo_curto("../"))
     corpo += jsonld(migalhas(("Início", ""), (r["nome"], f"regioes/{r['slug']}.html")))
     return pagina(f"Risco de crise {em(r['nome'])}: termômetro em {r['valor']} ({r['nivel']})",
@@ -592,6 +599,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
              + (f'<section><h2>Outros países da região</h2><p class="meta" style="font-size:14px">{vizinhos}</p></section>'
                 if vizinhos else "")
              + compartilhar(f"Termômetro de crise {de(p['nome'])}: {p['valor']} de 100 ({p['nivel']})", f"paises/{p['slug']}.html")
+             + bloco_celular("../")
              + metodo_curto("../"))
     corpo += jsonld(migalhas(("Início", ""), (r["nome"], f"regioes/{r['slug']}.html"), (p["nome"], f"paises/{p['slug']}.html")))
     return pagina(f"Risco de crise {em(p['nome'])} hoje: termômetro em {p['valor']} ({p['nivel']})",
@@ -659,15 +667,16 @@ def pagina_panorama(f: dict) -> str:
     texto = f.get("panorama") or panorama.montar(f["mundo"], f.get("correspondente"), None, f["data"],
                                                  noticias=f.get("noticias"))
     dados = json.dumps(texto, ensure_ascii=False).replace("</", "<\\/")
-    canal = (f'<a class="botao zap" href="{html.escape(config.WHATSAPP_URL)}" target="_blank" rel="noopener">'
+    canal = (f'<a class="contorno" href="{html.escape(config.WHATSAPP_URL)}" target="_blank" rel="noopener">'
              f'Entrar no canal do WhatsApp</a>' if config.WHATSAPP_URL else "")
     corpo = f"""<section class="edicao"><h1>Panorama do fim de tarde</h1>
 <p class="suave">Todo dia útil, no fim da tarde (a partir das 18h30), o resumo do termômetro do mundo, das regiões e do Brasil,
 com as notícias que mexeram com ele. Atualizado em {pd.Timestamp(f["data"]):%d/%m/%Y}.</p>
 <div class="acoes" style="margin:16px 0">{canal}
-<button class="botao" id="copiar" type="button">Copiar texto</button>
-<a href="https://wa.me/?text={quote(texto)}" target="_blank" rel="noopener">Enviar pelo WhatsApp</a></div>
-<div class="pano">{whatsapp_html(texto)}</div>
+<a class="acao" href="https://wa.me/?text={quote(texto)}" target="_blank" rel="noopener">Enviar pelo WhatsApp</a>
+<button class="contorno" id="copiar" type="button">Copiar texto</button></div>
+<p class="rotulo" style="margin:18px 0 8px">Prévia da mensagem</p>
+<div class="pano">{whatsapp_html(texto)}<span style="position:absolute;right:12px;bottom:4px;font-size:12px;color:#D1D7DB">18:30</span></div>
 <script type="application/json" id="texto">{dados}</script>
 <script>document.getElementById('copiar').onclick=function(){{var t=JSON.parse(document.getElementById('texto').textContent),b=this;
 navigator.clipboard.writeText(t).then(function(){{b.textContent='Copiado!'}},function(){{b.textContent='Selecione e copie o texto abaixo'}})}};</script>

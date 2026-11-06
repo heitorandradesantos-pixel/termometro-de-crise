@@ -70,9 +70,9 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .acoes{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:4px 0 8px}}
 .mapa{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 6px}}
 .faixa{{border-bottom:1px solid var(--linha);background:#0B1118}}.faixa div{{max-width:1080px;margin:0 auto;padding:0 20px;display:flex;gap:18px;overflow-x:auto;white-space:nowrap;font-size:13px;color:var(--suave);scrollbar-width:none;align-items:center;min-height:36px}}
-.faixa strong{{color:var(--texto);font-weight:600;margin-right:6px}}.faixa .alta{{color:#3FB97C}}.faixa .baixa{{color:#F0786C}}
-.cta{{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:10px;background:var(--texto);color:var(--fundo);font-weight:600;font-size:14px;text-decoration:none}}
-.cta:hover{{color:var(--fundo);opacity:.9}}.secundario{{display:inline-block;padding:11px 20px;border-radius:10px;border:1px solid #A9B4C2;color:var(--texto);font-weight:600;text-decoration:none}}
+.faixa strong{{color:var(--texto);font-weight:600;margin-right:6px}}.faixa .alta,.faixa .baixa{{color:#C9D1DC}}
+.cta{{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:10px;border:1px solid #A9B4C4;color:var(--texto);font-weight:600;font-size:14px;text-decoration:none}}
+.cta:hover{{color:var(--texto);background:#1A2430}}.secundario{{display:inline-block;padding:11px 20px;border-radius:10px;border:1px solid #A9B4C2;color:var(--texto);font-weight:600;text-decoration:none}}
 .secundario:hover{{color:var(--texto);background:#1A2430}}.ponto-zap{{display:inline-block;width:9px;height:9px;border-radius:50%;background:#25D366;margin-right:8px}}
 .regiao{{position:relative;display:flex;flex-direction:column;gap:6px;background:var(--painel);border-radius:14px;padding:14px 16px;color:var(--texto);text-decoration:none;border-left:6px solid}}
 .regiao:hover{{outline:1px solid #34485A}}.regiao .cabeca{{display:flex;align-items:center;justify-content:space-between;gap:8px;color:var(--texto);text-decoration:none;min-height:44px}}
@@ -81,7 +81,14 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .manchetes{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}.manchete{{background:var(--painel);border-radius:14px;padding:16px;border-left:4px solid var(--linha)}}
 .manchete h3{{font-size:16px;margin:6px 0}}.manchete p{{margin:4px 0;font-size:14px;color:var(--suave)}}.manchete .meta{{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:var(--suave)}}
 .manchete .meta a{{display:inline-block;padding:4px 0}}.manchete .tag{{border:1px solid var(--linha);border-radius:6px;padding:4px 8px;display:inline-block;color:var(--suave);text-decoration:none}}.fontes{{font-size:13px}}.fontes a{{margin-right:10px;display:inline-block;padding:4px 0}}
-.zap{{background:#25D366;color:#0E141B}}.faixa-zap{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;background:var(--painel);border:1px solid var(--linha);border-radius:14px;padding:16px 18px;margin:24px 0}}
+.zap{{background:#25D366;color:#0B1220}}
+.acao{{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:12px;background:#25D366;color:#0B1220;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}}
+.acao:hover{{background:#1FB958;color:#0B1220}}.acao:focus-visible{{outline:3px solid #FFFFFF;outline-offset:2px}}
+.contorno{{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:12px;border:1px solid #A9B4C4;color:var(--texto);font-weight:600;font-size:15px;text-decoration:none;background:transparent;cursor:pointer;font-family:inherit}}
+.contorno:hover{{background:#1A2430;color:var(--texto)}}
+.celular{{background:#13261C;border:1px solid #25D366;border-radius:14px;padding:18px 20px;margin:20px 0}}
+.celular h2{{margin:0 0 6px;font-size:22px}}.celular .acoes{{margin:12px 0 6px}}.celular small{{color:var(--suave);font-size:13px}}
+.mini-brasil{{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;padding:10px;border-radius:10px;background:#121B25;color:var(--texto);text-decoration:none;font-size:15px;min-height:44px}}.mini-brasil:hover{{color:var(--texto);outline:1px solid #34485A}}.faixa-zap{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;background:var(--painel);border:1px solid var(--linha);border-radius:14px;padding:16px 18px;margin:24px 0}}
 .regiao .v{{font:700 30px/1 'Space Grotesk',sans-serif}}.chip{{font-size:13px;font-weight:600;color:#0E141B;border-radius:6px;padding:2px 8px}}
 .paises{{font-size:13px;color:var(--suave)}}
 .legal{{font-size:12px}}.legal a{{color:var(--suave);display:inline-block;padding:4px 0}}
@@ -91,7 +98,7 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .marca{{font-size:13px;letter-spacing:.06em}}.mapa{{grid-template-columns:1fr}}.topo nav a{{font-size:13px}}
 .topo nav{{order:3;width:100%;display:flex;overflow-x:auto;white-space:nowrap;scrollbar-width:none}}.topo{{padding-top:8px;padding-bottom:4px}}
 .regiao .paises{{font-size:14px;line-height:1.5}}
-.topo nav a:first-child{{margin-left:0}}.manchetes{{grid-template-columns:1fr}}}}
+.topo nav a:first-child{{margin-left:0}}.esconde-cel{{display:none}}.cta{{padding:0 12px}}.manchetes{{grid-template-columns:1fr}}}}
 """
 
 
@@ -116,11 +123,39 @@ MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "a
 
 def cta_topo(raiz: str) -> str:
     """A ação principal fica sempre no mesmo lugar, no canto do cabeçalho (como nos grandes portais)."""
+    destino = html.escape(config.WHATSAPP_URL) if config.WHATSAPP_URL else f"{raiz}panorama.html"
+    return (f'<a class="cta" href="{destino}"><span class="ponto-zap" aria-hidden="true"></span>'
+            f'<span class="esconde-cel">Receber no&nbsp;</span>WhatsApp</a>')
+
+
+def mini_brasil(m: dict) -> str:
+    from .paginas import chip
+    b = m.get("brasil") or {}
+    if b.get("valor") is None:
+        return ""
+    seta = ""
+    if b.get("mes_anterior") is not None and b["valor"] != b["mes_anterior"]:
+        d = b["valor"] - b["mes_anterior"]
+        seta = f' <span class="{"sobe" if d > 0 else "desce"}">{"▲" if d > 0 else "▼"}{abs(d)}</span>'
+    return (f'<a class="mini-brasil" href="paises/brasil.html"><strong>Brasil</strong> {b["valor"]} '
+            f'{chip(b["nivel"], b["cor"])}{seta}<span class="suave" style="font-size:13px">ver por quê</span></a>')
+
+
+def bloco_celular(raiz: str = "") -> str:
+    """Receba o termômetro no celular: uma ação principal (WhatsApp) e uma secundária (newsletter)."""
     if config.WHATSAPP_URL:
-        return f'<a class="cta" href="{html.escape(config.WHATSAPP_URL)}">Entrar no canal</a>'
+        principal = f'<a class="acao" href="{html.escape(config.WHATSAPP_URL)}">Entrar no canal do WhatsApp</a>'
+    else:
+        principal = f'<a class="acao" href="{raiz}panorama.html">Receber o panorama no WhatsApp</a>'
     if config.NEWSLETTER_URL:
-        return f'<a class="cta" href="{html.escape(config.NEWSLETTER_URL)}">Receber grátis</a>'
-    return f'<a class="cta" href="{raiz}panorama.html">Panorama de hoje</a>'
+        secundaria = f'<a class="contorno" href="{html.escape(config.NEWSLETTER_URL)}">Receber a newsletter todo domingo</a>'
+    else:
+        secundaria = f'<a class="contorno" href="{raiz}edicoes/index.html">Ler a análise da semana</a>'
+    return (f'<section class="celular"><h2>Receba o termômetro no seu celular</h2>'
+            f'<p class="suave" style="margin:0">Todo dia útil, no fim da tarde: o mundo, as regiões e o Brasil, com as notícias '
+            f'que mexeram com o termômetro, para ler em 30 segundos.</p>'
+            f'<div class="acoes">{principal}{secundaria}</div>'
+            f'<small>Grátis. Uma mensagem por dia útil. Sem recomendação de investimento. Sai quando quiser.</small></section>')
 
 
 def faixa_mercados(cotacoes: list[dict]) -> str:
@@ -328,16 +363,6 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     linhas = "".join(linha_componente(c) for c in dados["componentes"])
     assinar = config.NEWSLETTER_URL or f"edicoes/{dia}.html"
     mapa, brasil = secao_mundo(mundo)
-    if config.NEWSLETTER_URL:
-        principal = f'<a class="botao" href="{html.escape(config.NEWSLETTER_URL)}">Receber a análise de domingo, grátis</a>'
-    else:
-        principal = f'<a class="botao" href="edicoes/{dia}.html">Ler a análise da semana</a>'
-    zap_href = config.WHATSAPP_URL or "panorama.html"
-    zap_texto = "Panorama diário no WhatsApp" if config.WHATSAPP_URL else "Panorama de hoje para o WhatsApp"
-    secundario = f'<a class="secundario" href="{html.escape(zap_href)}"><span class="ponto-zap" aria-hidden="true"></span>{zap_texto}</a>'
-    zap = (f'<div class="faixa-zap"><div><strong>Panorama do fim de tarde no WhatsApp</strong><br>'
-           f'<span class="suave" style="font-size:14px">Todo dia útil, o termômetro do mundo, das regiões e do Brasil, '
-           f'com as notícias que mexeram com ele, pronto para ler em 30 segundos.</span></div>{secundario}</div>')
     if mapa:  # com o motor mundial, o mapa abre a página, ao lado do termômetro do mundo
         legenda = "".join(f'<span><i style="background:{n["cor"]}"></i>{n["nome"]} {n["min"]}–{n["max"]}</span>'
                           for n in config.NIVEIS)
@@ -358,6 +383,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
   <div class="valor">{g_valor}</div><div class="nivel" style="color:{g_cor}">{g_nivel.upper()}</div>
   <p>{html.escape(g_frase)}</p>
   {paginas.comparacoes_html(paginas.comparacoes(fonte))}
+  {mini_brasil(mundo)}
   <p class="suave" style="font-size:13px">{g_nota} <a href="mundo.html">Ranking dos países</a></p>
   <p class="educativo">Indicador educativo: mostra o que já aconteceu, não prevê nem recomenda.
   <a href="metodologia.html#mundo">Como calculamos</a></p></div>
@@ -367,10 +393,9 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
   <div class="legenda">{legenda}</div></div>
 </section>
 {mapa}
-<div class="acoes" style="margin:18px 0 8px">{principal}{secundario}</div>
+{bloco_celular()}
 {manchetes(fonte["noticias"])}
-{brasil}
-{zap}"""
+{brasil}"""
         titulo_tabela = (f"Índice dos mercados globais: {dados['valor']} {paginas.chip(dados['nivel'], dados['cor'])}"
                          f" <span class=\"suave\" style=\"font-size:15px;font-weight:400\">leitura de {mes_curto(dados['referencia'])}</span>")
         explica_tabela = ("É o índice da newsletter de domingo, diferente do termômetro do mundo lá em cima: usa 5 indicadores "

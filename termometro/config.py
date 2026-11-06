@@ -67,7 +67,7 @@ DOMINIO = os.environ.get("DOMINIO", "")                  # ex.: termometrodecris
 ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "")    # ex.: ca-pub-1234567890 (só depois de aprovado)
 NEWSLETTER_URL = os.environ.get("NEWSLETTER_URL", "")    # página de inscrição (ex.: a do beehiiv)
 
-CORES = {"fundo": "#0E141B", "painel": "#1A2430", "linha": "#22303C", "texto": "#EEF2F5", "suave": "#9AA7B2"}
+CORES = {"fundo": "#0E141B", "painel": "#1A2430", "linha": "#22303C", "texto": "#EEF2F5", "suave": "#A9B4C4"}
 
 AVISO = ("Conteúdo educativo e informativo. Não é recomendação de compra ou venda de nenhum ativo "
          "nem considera a sua situação financeira. Decisões de investimento são suas; se precisar, "
