@@ -46,6 +46,9 @@ Regras:
    sem opinar.
 5. No campo "data", a data real do acontecimento no formato AAAA-MM-DD. Nos textos, escreva datas como
    o leitor fala: "5/11" ou "5 de novembro".
+6. Escreva para o leitor, não sobre a pesquisa: nada de "as notícias achadas explicam" ou "não encontrei".
+   Diga o nome completo da moeda ("libra egípcia", "shekel, a moeda de Israel") e traduza números
+   ("mais tenso que em 92% dos meses", nunca "percentil 92").
 Ao terminar, chame a ferramenta registrar_regiao uma única vez."""
 SISTEMA += config.manual('pesquisa', 'redacao')
 

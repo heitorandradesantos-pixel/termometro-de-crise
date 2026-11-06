@@ -65,11 +65,15 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 .global{{background:var(--painel);border-radius:18px;padding:20px 20px 16px;text-align:center}}
 .global svg{{width:100%;max-width:290px;height:auto}}.global .valor{{font-size:72px;margin-top:-4px}}.global .nivel{{font-size:19px}}
 .global p{{margin:10px 0 0;font-size:15px}}.abertura h1{{font-size:28px;margin:0 0 6px}}
+.nota-indice{{border:1px solid var(--linha);border-left:4px solid #F2C14E;background:var(--painel);padding:14px 16px;
+border-radius:10px;font-size:16px;color:#E6EAF0;margin:12px 0 24px}}
+.nota-indice a{{display:inline-block;padding:4px 0}}
+.faixa .carimbo{{color:var(--suave);font-size:12px}}
 .legenda{{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:12px;font-size:13px;color:var(--suave)}}
 .legenda i{{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}}
 .acoes{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:4px 0 8px}}
 .mapa{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 6px}}
-.faixa{{border-bottom:1px solid var(--linha);background:#0B1118}}.faixa div{{max-width:1080px;margin:0 auto;padding:0 20px;display:flex;gap:18px;overflow-x:auto;white-space:nowrap;font-size:13px;color:var(--suave);scrollbar-width:none;align-items:center;min-height:36px}}
+.faixa{{border-bottom:1px solid var(--linha);background:#0B1118}}.faixa div{{position:relative;max-width:1080px;margin:0 auto;padding:0 20px;display:flex;gap:18px;overflow-x:auto;white-space:nowrap;font-size:13px;color:var(--suave);scrollbar-width:none;align-items:center;min-height:36px}}
 .faixa strong{{color:var(--texto);font-weight:600;margin-right:6px}}.faixa .alta,.faixa .baixa{{color:#C9D1DC}}
 .cta{{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:10px;border:1px solid #A9B4C4;color:var(--texto);font-weight:600;font-size:14px;text-decoration:none}}
 .cta:hover{{color:var(--texto);background:#1A2430}}.secundario{{display:inline-block;padding:11px 20px;border-radius:10px;border:1px solid #A9B4C2;color:var(--texto);font-weight:600;text-decoration:none}}
@@ -96,7 +100,8 @@ hr{{border:0;border-top:1px solid var(--linha);margin:32px 0}}
 @media (max-width:760px){{.abertura{{grid-template-columns:1fr;gap:18px;padding:18px 0 8px}}.abertura h1{{font-size:24px}}.global{{padding:14px}}.global svg{{max-width:210px}}.global .valor{{font-size:56px}}.global .nivel{{font-size:19px}}.global p{{font-size:14px;margin-top:6px}}.regiao{{padding:12px}}.regiao .v{{font-size:28px}}.heroi{{grid-template-columns:1fr;gap:24px;padding:28px 0}}.valor{{font-size:84px}}.heroi h1{{font-size:26px}}
 .topo nav a{{margin-left:4px}}.faixas div{{font-size:11px}}.barra{{min-width:60px}}
 .marca{{font-size:13px;letter-spacing:.06em}}.mapa{{grid-template-columns:1fr}}.topo nav a{{font-size:13px}}
-.topo nav{{order:3;width:100%;display:flex;overflow-x:auto;white-space:nowrap;scrollbar-width:none}}.topo{{padding-top:8px;padding-bottom:4px}}
+.topo nav{{order:3;width:100%;display:flex;overflow-x:auto;white-space:nowrap;scrollbar-width:none;
+-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}}.topo{{padding-top:8px;padding-bottom:4px}}
 .regiao .paises{{font-size:14px;line-height:1.5}}
 .topo nav a:first-child{{margin-left:0}}.esconde-cel{{display:none}}.cta{{padding:0 12px}}.manchetes{{grid-template-columns:1fr}}}}
 """
@@ -144,9 +149,9 @@ def mini_brasil(m: dict) -> str:
 def bloco_celular(raiz: str = "") -> str:
     """Receba o termômetro no celular: uma ação principal (WhatsApp) e uma secundária (newsletter)."""
     if config.WHATSAPP_URL:
-        principal = f'<a class="acao" href="{html.escape(config.WHATSAPP_URL)}">Entrar no canal do WhatsApp</a>'
+        principal = f'<a class="acao" href="{html.escape(config.WHATSAPP_URL)}">Receber no WhatsApp</a>'
     else:
-        principal = f'<a class="acao" href="{raiz}panorama.html">Receber o panorama no WhatsApp</a>'
+        principal = f'<a class="acao" href="{raiz}panorama.html">Receber no WhatsApp</a>'
     if config.NEWSLETTER_URL:
         secundaria = f'<a class="contorno" href="{html.escape(config.NEWSLETTER_URL)}">Receber a newsletter todo domingo</a>'
     else:
@@ -173,12 +178,13 @@ def faixa_mercados(cotacoes: list[dict]) -> str:
         v = c["variacao_pct"]
         classe, seta = ("alta", "▲") if v > 0 else (("baixa", "▼") if v < 0 else ("", ""))
         variacao = f"{abs(v):.2f}".replace(".", ",")
+        direcao = "subiu" if v > 0 else ("caiu" if v < 0 else "estável")
         itens.append(f'<span><strong>{html.escape(c["nome"])}</strong>{valor} '
-                     f'<span class="{classe}">{seta}{variacao}%</span></span>')
-    datas = sorted({c["data"] for c in cotacoes})
-    quando = pd.Timestamp(datas[-1]).strftime("%d/%m")
-    return (f'<div class="faixa"><div tabindex="0" role="region" aria-label="Mercados no último fechamento">{"".join(itens)}'
-            f'<span>Fechamento de {quando}</span></div></div>')
+                     f'<span class="{classe}"><span aria-hidden="true">{seta}</span><span class="sr">{direcao} </span>'
+                     f'{variacao}%</span></span>')
+    quando = pd.Timestamp(cotacoes[0]["data"]).strftime("%d/%m")  # a data do primeiro item (Ibovespa)
+    return (f'<div class="faixa"><div tabindex="0" role="region" aria-label="Mercados no último fechamento">'
+            f'<span class="carimbo">Fechamento de {quando} · fonte: Yahoo Finance</span>{"".join(itens)}</div></div>')
 
 
 def nova_aba(html_corpo: str) -> str:
@@ -336,11 +342,14 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
         marco = "<h2>Os 3 riscos"
         if marco in corpo_html:
             corpo_html = corpo_html.replace(marco, f"<p>{grafico_html(dia)}</p>\n{marco}", 1)
-        nota = (f'<p class="suave" style="font-size:14px">Os números desta edição são de {pd.Timestamp(dia):%d/%m/%Y}: '
-                f'o índice dos mercados globais usa a leitura de {mes_curto(dados["referencia"])}, e os termômetros por '
-                f'região, a do mês em andamento. O site atualiza as regiões todo dia útil: '
-                f'<a href="../index.html">veja a leitura atual</a>.</p>')
-        corpo_html = corpo_html.replace("</h1>", "</h1>" + nota, 1)
+        rotulo = (f'<p class="rotulo">Edição de {pd.Timestamp(dia):%d/%m/%Y} · índice global de mercados em '
+                  f'{dados["valor"]} (leitura de {mes_curto(dados["referencia"])})</p>')
+        nota = (f'<div class="nota-indice"><strong>Este não é o número da página inicial.</strong> Esta edição usa o '
+                f'<strong>índice global de mercados</strong> (mensal, 5 indicadores dos mercados globais), leitura de '
+                f'{mes_curto(dados["referencia"])}. A página inicial mostra o <strong>termômetro do mundo</strong> (média '
+                f'das 6 regiões, atualizado todo dia útil). <a href="../metodologia.html#indice-global">Entenda a diferença</a> '
+                f'ou <a href="../index.html">veja a leitura de hoje</a>.</div>')
+        corpo_html = rotulo + corpo_html.replace("</h1>", "</h1>" + nota, 1)
         artigo = paginas.jsonld({"@context": "https://schema.org", "@type": "NewsArticle", "headline": copy["titulo_site"],
                                  "datePublished": dia, "inLanguage": "pt-BR", "description": copy["descricao_seo"],
                                  "author": {"@type": "Organization", "name": config.NOME},
@@ -368,7 +377,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     mapa, brasil = secao_mundo(mundo)
     if mapa:  # com o motor mundial, o mapa abre a página, ao lado do termômetro do mundo
         legenda = "".join(f'<span><i style="background:{n["cor"]}"></i>{n["nome"]} {n["min"]}–{n["max"]}</span>'
-                          for n in config.NIVEIS)
+                          for n in config.NIVEIS) + f'<span><i style="background:{paginas.SEM_LEITURA}"></i>Sem leitura</span>'
         g = mundo.get("mundo") or {}
         if g.get("valor") is not None:  # o mundo é a média das regiões que aparecem ao lado
             nivel_g = config.nivel_de(g["valor"])
@@ -404,7 +413,8 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                          f" <span class=\"suave\" style=\"font-size:15px;font-weight:400\">leitura de {mes_curto(dados['referencia'])}</span>")
         explica_tabela = ("É o índice da newsletter de domingo, diferente do termômetro do mundo lá em cima: usa 5 indicadores "
                           "globais (petróleo, juros dos EUA, o VIX, a bolsa americana e o ouro), cada um comparado com o próprio "
-                          "histórico desde 1990, e é mensal.")
+                          "histórico desde 1990, e é mensal. "
+                          '<a href="metodologia.html#indice-global">Por que a edição mostra outro número?</a>')
     else:
         topo = f"""
 <section class="heroi">
@@ -465,28 +475,20 @@ def metodologia(dados: dict) -> str:
     picos = "".join(f'<tr><td>{k}</td><td class="num">{v["valor"]}</td><td>{mes_curto(v["mes"])}</td></tr>'
                     for k, v in dados["picos_historicos"].items())
     return f"""<section class="edicao"><h1>Metodologia</h1>
-<p>O Termômetro de Crise resume em um número de 0 a 100 o estresse dos mercados globais. O método é aberto e
-reprodutível: qualquer pessoa pode recalcular com os mesmos dados públicos.</p>
-<h2>Como funciona</h2>
-<ol><li>Cada componente é medido todo mês.</li>
-<li>O valor do mês vira um percentil: a porcentagem dos meses desde 1990 em que o indicador esteve mais calmo do que agora.
-O cálculo só usa o passado até aquele mês, nunca o futuro.</li>
-<li>O Termômetro é a média ponderada dos percentis. Se faltar um componente, os pesos dos demais são redistribuídos;
-com menos de 4 de 5, não há leitura.</li></ol>
-<h2>Componentes e pesos</h2><table><tr><th>Componente</th><th>O que mede</th><th style="text-align:right">Peso</th></tr>{comps}</table>
-<p class="suave">Petróleo, juros e ouro contam choques nos dois sentidos: em crises de liquidez, como 2008 e 2020,
-petróleo e ouro despencam, e isso também é sinal de estresse.</p>
-<h2>Teste histórico</h2><table><tr><th>Episódio</th><th style="text-align:right">Pico</th><th>Mês</th></tr>{picos}</table>
-<p class="suave">Nenhum ano calmo do teste (2005, 2017, 2019, 2021) entrou na faixa Crise. Um bom resultado no passado
-não garante o mesmo comportamento no futuro.</p>
-<h2>Limites</h2><ul><li>Leitura mensal: o índice reage a crises, não as prevê.</li>
-<li>Ainda fora do índice: {', '.join(dados['componentes_ausentes'])}.</li>
-<li>Os pesos são uma escolha de método, não uma verdade estatística.</li></ul>
-<h2 id="mundo">Termômetro por país e por região</h2>
+<p>O Termômetro de Crise mede, de 0 a 100, o estresse dos mercados. São duas medidas: o <strong>termômetro do mundo,
+das regiões e dos países</strong>, que aparece na página inicial e é atualizado todo dia útil, e o <strong>índice global de
+mercados</strong>, mensal, usado na newsletter de domingo. O método é aberto e reprodutível: qualquer pessoa pode recalcular
+com os mesmos dados públicos.</p>
+<p class="trilha">Nesta página: <a href="#mundo">Mundo</a> · <a href="#regiao">Região</a> · <a href="#pais">País</a> ·
+<a href="#indice-global">Índice global de mercados</a></p>
+<h2 id="mundo">Termômetro do mundo, das regiões e dos países</h2>
+<p>O número grande da página inicial é o <strong>termômetro do mundo</strong>: a média das 6 regiões. Cada região é a média dos seus países, e cada país é a média dos seus sinais.</p>
+<h3 id="pais">País</h3>
 <p>Cada país tem três sinais, todos medidos mês a mês com os fechamentos diários:</p>
 <ol><li><strong>Queda da bolsa:</strong> quanto o índice principal está abaixo do ponto mais alto dos últimos 12 meses.</li>
 <li><strong>Sobe e desce:</strong> quanto a bolsa oscila de um dia para o outro no mês (volatilidade realizada).</li>
 <li><strong>Moeda:</strong> quanto a moeda mudou contra o dólar em 3 meses, para qualquer lado.</li></ol>
+<h3 id="regiao">Região e mundo</h3>
 <p>Cada sinal vira o percentil da história do próprio país (é preciso ter 5 anos de dados antes da primeira leitura,
 e o cálculo nunca olha o futuro). O termômetro do país é a média dos sinais; o da região, a média dos países; e o do
 mundo, a média das 6 regiões. Nos dias úteis, os números são atualizados no fim da tarde, com o mês ainda em andamento.</p>
@@ -501,7 +503,25 @@ Arábia Saudita, cotado em dólar, faz o papel da bolsa. Os dados de bolsa e de 
 FRED.</p>
 <p class="suave">Mudança no método: em 6/11/2026 a conta passou de 19 para {len(PAISES)} países. As médias das
 regiões e do mundo foram recalculadas para todo o histórico com os países novos, por isso leituras antigas podem diferir
-das publicadas antes dessa data.</p></section>"""
+das publicadas antes dessa data.</p>
+<h2 id="indice-global">Índice global de mercados (newsletter de domingo)</h2>
+<p>É outro número, diferente do termômetro do mundo: usa 5 indicadores dos mercados globais e é mensal.</p>
+<h3>Como funciona</h3>
+<ol><li>Cada componente é medido todo mês.</li>
+<li>O valor do mês vira um percentil: a porcentagem dos meses desde 1990 em que o indicador esteve mais calmo do que agora.
+O cálculo só usa o passado até aquele mês, nunca o futuro.</li>
+<li>O Termômetro é a média ponderada dos percentis. Se faltar um componente, os pesos dos demais são redistribuídos;
+com menos de 4 de 5, não há leitura.</li></ol>
+<h3>Componentes e pesos</h3><table><tr><th>Componente</th><th>O que mede</th><th style="text-align:right">Peso</th></tr>{comps}</table>
+<p class="suave">Petróleo, juros e ouro contam choques nos dois sentidos: em crises de liquidez, como 2008 e 2020,
+petróleo e ouro despencam, e isso também é sinal de estresse.</p>
+<h3>Teste histórico</h3><table><tr><th>Episódio</th><th style="text-align:right">Pico</th><th>Mês</th></tr>{picos}</table>
+<p class="suave">Nenhum ano calmo do teste (2005, 2017, 2019, 2021) entrou na faixa Crise. Um bom resultado no passado
+não garante o mesmo comportamento no futuro.</p>
+<h3>Limites</h3><ul><li>Leitura mensal: o índice reage a crises, não as prevê.</li>
+<li>Ainda fora do índice: {', '.join(dados['componentes_ausentes'])}.</li>
+<li>Os pesos são uma escolha de método, não uma verdade estatística.</li></ul>
+</section>"""
 
 
 def extras(saida: Path, caminhos: list[str]) -> None:
