@@ -11,7 +11,6 @@ Páginas numeradas, com botões grandes "Mais novas / Mais antigas": o Google l�
 import html
 import json
 from pathlib import Path
-from urllib.parse import quote
 
 import pandas as pd
 
@@ -254,7 +253,7 @@ def comparar_dia(lista: list[dict], i: int, regioes_csv) -> list[tuple[str, int]
 
 def paginas_panorama(saida: Path, lista_dias: list[dict], noticias: list[dict], regioes_csv=None) -> list[str]:
     from .site import bloco_celular, pagina
-    from .paginas import CSS as CSS_PAGINAS, comparacoes_html, noticia_html, whatsapp_html
+    from .paginas import CSS as CSS_PAGINAS, comparacoes_html, noticia_html
     com_texto = [d for d in lista_dias if d["panorama"] and pd.Timestamp(d["data"]).weekday() < 5]  # só dia útil
     if not com_texto:
         return []
@@ -279,10 +278,8 @@ def paginas_panorama(saida: Path, lista_dias: list[dict], noticias: list[dict], 
                  f'<h1>Panorama de {data_longa(d["data"])}</h1>'
                  f'<p>{html.escape(resumo_dia(d, anterior))}</p>'
                  f'{comparacoes_html(comparar_dia(com_texto, i, regioes_csv))}'
-                 f'<p class="rotulo" style="margin:20px 0 8px">O texto que foi para o WhatsApp neste dia</p>'
-                 f'<div class="pano">{whatsapp_html(d["panorama"])}</div>'
-                 f'<div class="acoes" style="margin:12px 0"><a class="contorno" href="https://wa.me/?text={quote(d["panorama"])}" '
-                 f'target="_blank" rel="noopener">Enviar pelo WhatsApp</a></div>'
+                 f'<p class="suave" style="margin-top:20px">O panorama completo deste dia, com as regiões e as '
+                 f'notícias, foi para o grupo do WhatsApp do Termômetro de Crise.</p>'
                  f'{leia}{bloco_celular("../")}{nav}</section>')
         caminho = f"panorama/{d['data']}.html"
         titulo = f"Panorama {pd.Timestamp(d['data']):%d/%m/%Y}: mundo em {m.get('valor', '–')} ({m.get('nivel', '')})"

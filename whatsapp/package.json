@@ -1,0 +1,10 @@
+{
+  "name": "termometro-whatsapp",
+  "private": true,
+  "type": "module",
+  "description": "Envio automático do Termômetro de Crise para a comunidade do WhatsApp (Baileys, código aberto)",
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "pino": "9.7.0"
+  }
+}

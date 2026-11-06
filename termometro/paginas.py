@@ -82,6 +82,7 @@ a.caixa:hover{outline:1px solid #34485A}
 .pano{white-space:pre-wrap;background:#005C4B;color:#E9EDEF;border-radius:12px 12px 12px 2px;max-width:560px;padding:14px 16px 22px;position:relative;font:15px/1.55 'IBM Plex Sans',sans-serif}
 .zap{background:#25D366;color:#0E141B}
 .pano em{color:#D1D7DB}
+.pano.trancado{padding-bottom:18px}.apagado{display:block;margin:14px 0 4px}.apagado span{display:block;height:10px;border-radius:5px;background:rgba(233,237,239,.2);margin:11px 0}.tranca{display:flex;flex-direction:column;gap:8px;align-items:flex-start;border-top:1px solid rgba(233,237,239,.25);padding-top:14px;margin-top:14px;white-space:normal}.tranca strong{font-size:17px}.tranca span{color:#D1D7DB;font-size:14px}.chega{padding-left:20px;line-height:1.6}.chega li{margin:6px 0}
 .mapa-mundo svg{width:100%;height:auto;display:block}.mapa-mundo path{stroke:#0E141B;stroke-width:.7}
 .mapa-mundo a:hover path,.mapa-mundo a:focus path{opacity:1;filter:brightness(1.15)}.terciario{background:none;border:1px solid var(--linha);color:var(--texto);border-radius:10px;padding:0 16px;
 min-height:44px;font:inherit;cursor:pointer}
@@ -749,50 +750,47 @@ def whatsapp_html(texto: str) -> str:
     return re.sub(r"(?<![\w/])_([^_\n]+)_(?!\w)", r"<em>\1</em>", t)
 
 
+def previa_trancada(texto: str) -> str:
+    """Só o começo da mensagem (o cabeçalho e o mundo, que já estão no site); o resto fica apagado, com o convite.
+    O panorama completo é do grupo do WhatsApp: é o motivo para entrar."""
+    linhas = texto.splitlines()
+    topo = "\n".join(linhas[:4]).rstrip()
+    larguras = [92, 64, 80, 71, 88, 58, 76, 84, 49, 69]
+    apagado = "".join(f'<span style="width:{w}%"></span>' for w in larguras)
+    destino = html.escape(config.WHATSAPP_URL)
+    return (f'<div class="pano trancado">{whatsapp_html(topo)}<span class="apagado" aria-hidden="true">{apagado}</span>'
+            f'<div class="tranca"><strong>O panorama completo chega no grupo</strong>'
+            f'<span>Regiões, Brasil, Banco Central e as notícias que mexeram com o termômetro.</span>'
+            f'<a class="acao" href="{destino}" target="_blank" rel="noopener">Entrar no grupo do WhatsApp</a></div></div>')
+
+
 def pagina_panorama(f: dict) -> str:
     texto = f.get("panorama") or panorama.montar(f["mundo"], f.get("correspondente"), None, f["data"],
                                                  noticias=f.get("noticias"))
-    dados = json.dumps(texto, ensure_ascii=False).replace("</", "<\\/")
-    canal = (f'<a class="acao" href="{html.escape(config.WHATSAPP_URL)}" target="_blank" rel="noopener">'
-             f'Receber no WhatsApp</a>' if config.WHATSAPP_URL else "")
-    em_breve = ("" if config.WHATSAPP_URL else '<p class="cartao" style="padding:12px 16px">O canal do WhatsApp abre em '
-                'breve. Enquanto isso, a prévia de cada dia útil fica aqui, e você pode compartilhar com quem quiser.</p>')
-    corpo = f"""<section class="edicao"><h1>Panorama do fim de tarde</h1>
-<p class="suave">Todo dia útil, no fim da tarde (a partir das 18h30), o resumo do termômetro do mundo, das regiões e do Brasil,
-com as notícias que mexeram com ele. Atualizado em {pd.Timestamp(f.get("data_panorama") or f["data"]):%d/%m/%Y}.</p>
-{em_breve}<div class="acoes" style="margin:16px 0">{canal}
-<a class="contorno" href="https://wa.me/?text={quote(texto)}" target="_blank" rel="noopener">Compartilhar esta prévia</a>
-<button class="terciario" id="copiar" type="button">Copiar texto</button></div>
-<p class="rotulo" style="margin:18px 0 8px">Prévia da mensagem</p>
-<div class="pano">{whatsapp_html(texto)}<span style="position:absolute;right:12px;bottom:4px;font-size:12px;color:#D1D7DB">18:30</span></div>
-{card_fechamento(f.get("fechamento"))}
-{'<p style="margin-top:20px"><a class="contorno" href="panorama/index.html">Panoramas anteriores</a></p>' if f.get("tem_arquivo_panorama") else ""}
-<script type="application/json" id="texto">{dados}</script>
-<script>document.getElementById('copiar').onclick=function(){{var t=JSON.parse(document.getElementById('texto').textContent),b=this;
-navigator.clipboard.writeText(t).then(function(){{b.textContent='Copiado!'}},function(){{b.textContent='Selecione e copie o texto abaixo'}})}};</script>
+    destino = html.escape(config.WHATSAPP_URL)
+    dia = pd.Timestamp(f.get("data_panorama") or f["data"])
+    corpo = f"""<section class="edicao"><h1>Panorama do fim de tarde, no grupo do WhatsApp</h1>
+<p class="suave">Todo dia útil, depois do fechamento (a partir das 18h30), o grupo recebe o card do Fechamento do Termômetro,
+o balanço do Ibovespa e do dólar e o panorama do mundo, das regiões e do Brasil, com as notícias que mexeram com o termômetro.
+Para ler em 30 segundos.</p>
+<div class="acoes" style="margin:16px 0"><a class="acao" href="{destino}" target="_blank" rel="noopener">Entrar no grupo do WhatsApp</a></div>
+<small class="suave" style="display:block;margin-bottom:22px">Grátis. Um envio por dia útil. Sem recomendação de investimento.
+Sai quando quiser.</small>
+<p class="rotulo" style="margin:18px 0 8px">O panorama de {dia:%d/%m}</p>
+{previa_trancada(texto)}
+<h2 style="margin-top:32px">O que chega no grupo</h2>
+<ul class="chega">
+<li><strong>O card do fechamento:</strong> o termômetro do Brasil e do mundo, o Ibovespa e o dólar do dia, com o porquê.</li>
+<li><strong>O panorama:</strong> as seis regiões, o Brasil sinal por sinal, os números do Banco Central e as três notícias do dia.</li>
+<li><strong>Com fonte em cada fato:</strong> o mesmo método do site, sem palpite e sem recomendação de investimento.</li>
+</ul>
+{'<p style="margin-top:20px"><a class="contorno" href="panorama/index.html">Os números de cada dia</a></p>' if f.get("tem_arquivo_panorama") else ""}
 </section>"""
-    return pagina(f"Panorama do fim de tarde · {config.NOME}",
-                  "O resumo diário do termômetro de crise do mundo, das regiões e do Brasil.",
+    return pagina(f"Panorama do fim de tarde no WhatsApp · {config.NOME}",
+                  "Todo dia útil, o card do fechamento e o panorama do mundo, das regiões e do Brasil, no grupo do WhatsApp "
+                  "do Termômetro de Crise. Grátis.",
                   corpo, caminho="panorama.html", extra_css=CSS,
                   imagem=(f.get("fechamento") or {}).get("imagem", ""))
-
-
-def card_fechamento(fc: dict | None) -> str:
-    """O card do Fechamento do Termômetro, com botões para baixar a imagem e copiar o texto do balanço."""
-    if not fc:
-        return ""
-    dia = pd.Timestamp(fc["data"])
-    legenda = json.dumps(fc["legenda"], ensure_ascii=False).replace("</", "<\\/")
-    return f"""<h2 style="margin-top:36px">Fechamento do Termômetro de {dia:%d/%m}</h2>
-<p class="suave">O card do dia, pronto para o WhatsApp e o Instagram, com o texto do balanço.</p>
-<img src="{fc['imagem']}" width="1080" height="1350" alt="Fechamento do Termômetro de {dia:%d/%m/%Y}: termômetro do Brasil e do
-mundo, Ibovespa e dólar" style="width:100%;max-width:420px;height:auto;border-radius:12px;display:block;margin:12px 0">
-<div class="acoes" style="margin:12px 0"><a class="contorno" href="{fc['imagem']}" download>Baixar a imagem</a>
-<button class="terciario" id="copiar-balanco" type="button">Copiar o texto do balanço</button></div>
-<div class="pano">{whatsapp_html(fc['legenda'])}</div>
-<script type="application/json" id="balanco">{legenda}</script>
-<script>document.getElementById('copiar-balanco').onclick=function(){{var t=JSON.parse(document.getElementById('balanco').textContent),b=this;
-navigator.clipboard.writeText(t).then(function(){{b.textContent='Copiado!'}},function(){{b.textContent='Selecione e copie o texto acima'}})}};</script>"""
 
 
 def gerar(saida: Path, f: dict) -> list[str]:

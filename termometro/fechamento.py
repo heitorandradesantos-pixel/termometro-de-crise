@@ -97,7 +97,7 @@ def legenda(d: dict) -> str:
     if d.get("selic"):
         linhas.append(f"🏦 Selic {_num(d['selic'], 2)}%" + (f" · PTAX R$ {_num(d['ptax'], 4)}" if d.get("ptax") else "")
                       + " (Banco Central)")
-    linhas += ["", f"O porquê de cada número, com as fontes: {config.SITE_URL}/panorama.html",
+    linhas += ["", f"O porquê de cada número, com as fontes: {config.SITE_URL}/?utm_source=whatsapp&utm_campaign=fechamento",
                "Conteúdo educativo, com fonte em cada fato. Não é recomendação de investimento."]
     return "\n".join(linhas)
 

@@ -12,44 +12,45 @@ def _dia(tmp_path):
          "regioes": [], "cotacoes": [{"nome": "Ibovespa", "ultimo": 168773.0, "variacao_pct": 1.55, "serie": "brasil_bolsa"},
                                      {"nome": "Dólar", "ultimo": 5.49, "variacao_pct": 0.6, "serie": "extra_dolar"}]}
     (dia / "mundo.json").write_text(json.dumps(m))
-    (dia / "panorama.txt").write_text("x")
+    (dia / "panorama.txt").write_text("*TERMÔMETRO DE CRISE · Panorama*\n\nMundo em 57")
     return tmp_path / "diario"
 
 
-def test_desligado_por_padrao_e_sem_configuracao(tmp_path, monkeypatch):
-    for k in ("WHATSAPP_ENVIO", "ZAPI_INSTANCIA", "ZAPI_TOKEN", "ZAPI_CLIENT_TOKEN", "WHATSAPP_DESTINO"):
-        monkeypatch.delenv(k, raising=False)
-    assert "desligado" in whatsapp.fechamento(_dia(tmp_path), "2026-11-06", tmp_path / "t")
+def test_modo_vem_da_variavel_ou_do_arquivo(tmp_path, monkeypatch):
+    monkeypatch.setattr(whatsapp, "ARQ_MODO", tmp_path / "modo.txt")
+    monkeypatch.delenv("WHATSAPP_ENVIO", raising=False)
+    assert whatsapp.modo() == "nao"  # sem nada, não envia
+    (tmp_path / "modo.txt").write_text("sim\n")
+    assert whatsapp.modo() == "sim"
+    monkeypatch.setenv("WHATSAPP_ENVIO", "teste")
+    assert whatsapp.modo() == "teste"
+    monkeypatch.setenv("WHATSAPP_ENVIO", "qualquer")
+    assert whatsapp.modo() == "nao"
+
+
+def test_prepara_card_balanco_e_panorama_e_nunca_repete(tmp_path, monkeypatch):
     monkeypatch.setenv("WHATSAPP_ENVIO", "sim")
-    assert "sem configuração" in whatsapp.fechamento(tmp_path / "diario", "2026-11-06", tmp_path / "t")
+    diario, pasta = _dia(tmp_path), tmp_path / "envio"
+    assert "pronto" in whatsapp.preparar(diario, "2026-11-06", pasta)
+    envio = json.loads((pasta / "envio.json").read_text())
+    assert envio["modo"] == "sim" and envio["imagem"].endswith("fechamento-2026-11-06.png")
+    assert "FECHAMENTO DO TERMÔMETRO" in envio["legenda"] and envio["textos"][0].startswith("*TERMÔMETRO")
+    (pasta / "envio.json.resultado.json").write_text(json.dumps({"ok": True, "ids": ["A", "B"]}))
+    assert "enviado (sim)" in whatsapp.concluir(diario, pasta)
+    assert "já foi enviado" in whatsapp.preparar(diario, "2026-11-06", pasta)  # a reserva não repete
+    assert "pronto" in whatsapp.preparar(diario, "2026-11-06", pasta, teste=True)  # o teste sempre pode
 
 
-def test_envia_card_com_legenda_uma_vez_e_teste_vai_para_outro_destino(tmp_path, monkeypatch):
-    pedidos = []
+def test_falha_fica_registrada_mas_nao_bloqueia_nova_tentativa(tmp_path, monkeypatch):
+    monkeypatch.setenv("WHATSAPP_ENVIO", "sim")
+    diario, pasta = _dia(tmp_path), tmp_path / "envio"
+    whatsapp.preparar(diario, "2026-11-06", pasta)
+    assert "falhou" in whatsapp.concluir(diario, pasta)  # sem resultado: o envio não aconteceu
+    assert json.loads((diario / "2026-11-06" / "whatsapp.json").read_text())[0]["ok"] is False
+    assert "pronto" in whatsapp.preparar(diario, "2026-11-06", pasta)
 
-    class Resposta:
-        content = b"{}"
 
-        def raise_for_status(self):
-            pass
-
-        def json(self):
-            return {"messageId": "ABC"}
-
-    def falso(metodo, url, json=None, timeout=0, headers=None):
-        pedidos.append((metodo, url, json, headers))
-        return Resposta()
-    monkeypatch.setattr(whatsapp.requests, "request", falso)
-    for k, v in {"ZAPI_INSTANCIA": "inst", "ZAPI_TOKEN": "tok", "ZAPI_CLIENT_TOKEN": "seg", "WHATSAPP_ENVIO": "teste",
-                 "WHATSAPP_TESTE": "5511999999999", "WHATSAPP_DESTINO": "120363-group"}.items():
-        monkeypatch.setenv(k, v)
-    diario = _dia(tmp_path)
-    assert "enviado" in whatsapp.fechamento(diario, "2026-11-06", tmp_path / "t")
-    metodo, url, corpo, cabecalho = pedidos[-1]
-    assert url == "https://api.z-api.io/instances/inst/token/tok/send-image" and cabecalho["Client-Token"] == "seg"
-    assert corpo["phone"] == "5511999999999" and corpo["image"].startswith("data:image/png;base64,")
-    assert "FECHAMENTO DO TERMÔMETRO" in corpo["caption"]
-    assert "já foi enviado" in whatsapp.fechamento(diario, "2026-11-06", tmp_path / "t")  # reserva não repete
-    monkeypatch.setenv("WHATSAPP_ENVIO", "sim")  # depois do teste, a comunidade recebe uma vez
-    assert "enviado" in whatsapp.fechamento(diario, "2026-11-06", tmp_path / "t")
-    assert pedidos[-1][2]["phone"] == "120363-group" and len(pedidos) == 2
+def test_desligado_nao_prepara_nada(tmp_path, monkeypatch):
+    monkeypatch.setenv("WHATSAPP_ENVIO", "nao")
+    assert "desligado" in whatsapp.preparar(_dia(tmp_path), "2026-11-06", tmp_path / "envio")
+    assert not (tmp_path / "envio").exists()

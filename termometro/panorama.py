@@ -99,8 +99,7 @@ def montar(mundo: dict, correspondente: dict | None, anterior: dict | None, data
         linhas += ["", "*O que mexeu com o termômetro*"]
         linhas += [f"• {n['titulo']} ({n['regiao']})" for n in noticias]
     site = config.SITE_URL or "https://termometrodecrise.com"
-    linhas += ["", f"Veja o porquê de cada número, com as fontes: {site}/panorama.html?utm_source=whatsapp"
-               "&utm_campaign=panorama", "", f"_{AVISO_CURTO}_"]
+    linhas += ["", f"O porquê de cada número, com as fontes: {site}/?utm_source=whatsapp&utm_campaign=panorama", "", f"_{AVISO_CURTO}_"]
     texto = "\n".join(linhas)
     if len(texto) > LIMITE and noticias:  # corta notícias antes de cortar números
         return montar(mundo, None, anterior, data, noticias=noticias[:-1], bc=bc, destaque=destaque, com_focus=com_focus)

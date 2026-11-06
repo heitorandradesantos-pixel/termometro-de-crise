@@ -30,6 +30,9 @@ concurrency:
 jobs:
   diario:
     runs-on: ubuntu-latest
+    outputs:
+      publicado: ${{ steps.publicar.outputs.publicado }}
+      data: ${{ steps.diario.outputs.data }}
     timeout-minutes: 30
     env:
       SITE_URL: ${{ vars.SITE_URL }}
@@ -103,21 +106,13 @@ jobs:
           cat "diario/$DATA/panorama.txt" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Enviar o card do fechamento ao WhatsApp
-        if: steps.publicar.outputs.publicado == 'sim'
-        continue-on-error: true
-        env:
-          ZAPI_INSTANCIA: ${{ secrets.ZAPI_INSTANCIA }}
-          ZAPI_TOKEN: ${{ secrets.ZAPI_TOKEN }}
-          ZAPI_CLIENT_TOKEN: ${{ secrets.ZAPI_CLIENT_TOKEN }}
-          WHATSAPP_ENVIO: ${{ vars.WHATSAPP_ENVIO }}
-          WHATSAPP_DESTINO: ${{ vars.WHATSAPP_DESTINO }}
-          WHATSAPP_TESTE: ${{ vars.WHATSAPP_TESTE }}
-          DATA: ${{ steps.diario.outputs.data }}
-        run: |
-          python rodar.py --whatsapp fechamento --data "$DATA"
-          git add diario
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -q -m "WhatsApp: fechamento de $DATA enviado"
-          git pull -q --rebase origin main
-          git push
+  whatsapp:
+    # Depois que o panorama sai no site, o card do fechamento e o panorama vão para a comunidade do WhatsApp
+    # (ver whatsapp.yml; respeita o modo e nunca manda duas vezes).
+    needs: diario
+    if: needs.diario.outputs.publicado == 'sim'
+    uses: ./.github/workflows/whatsapp.yml
+    with:
+      acao: fechamento
+      data: ${{ needs.diario.outputs.data }}
+    secrets: inherit

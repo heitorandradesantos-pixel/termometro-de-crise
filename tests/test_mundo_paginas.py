@@ -194,7 +194,9 @@ def test_site_com_atualizacao_diaria_tem_paginas_clicaveis(tmp_path, dados_mundo
         assert trecho in israel, trecho
     assert (saida / "regioes" / "oriente-medio.html").exists() and (saida / "mundo.html").exists()
     pano = (saida / "panorama.html").read_text()
-    assert "Copiar texto" in pano and "wa.me/?text=" in pano
+    # o panorama completo é do grupo: no site fica só o começo e o convite para entrar
+    assert "Entrar no grupo do WhatsApp" in pano and "chat.whatsapp.com" in pano
+    assert "Copiar texto" not in pano and "wa.me/?text=" not in pano and "O que mexeu com o termômetro" not in pano
     # nenhum link interno quebrado
     paginas_geradas = list(saida.rglob("*.html"))
     for arquivo in paginas_geradas:
@@ -245,7 +247,7 @@ def test_leitura_parcial_do_meio_do_dia_mantem_noticias_e_panorama(tmp_path, dad
     inicio = (saida / "index.html").read_text()
     assert "09/11/2026, parcial das 14h07" in inicio and "Parcial das 14h07 · fonte" in inicio
     assert "Catar medeia" in inicio  # as notícias do último fechamento continuam
-    assert "Atualizado em 06/11/2026" in (saida / "panorama.html").read_text()
+    assert "O panorama de 06/11" in (saida / "panorama.html").read_text()  # a prévia é a do último fechamento
     assert "/api/cotacoes" in inicio  # a faixa se atualiza sozinha no navegador
 
 

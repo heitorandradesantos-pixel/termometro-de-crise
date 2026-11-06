@@ -167,10 +167,10 @@ def bloco_celular(raiz: str = "") -> str:
     else:
         secundaria = f'<a class="contorno" href="{raiz}edicoes/index.html">Ler a análise da semana</a>'
     return (f'<section class="celular"><h2>Receba o termômetro no seu celular</h2>'
-            f'<p class="suave" style="margin:0">Todo dia útil, no fim da tarde: o mundo, as regiões e o Brasil, com as notícias '
-            f'que mexeram com o termômetro, para ler em 30 segundos.</p>'
+            f'<p class="suave" style="margin:0">Todo dia útil, no fim da tarde, no grupo do WhatsApp: o card do fechamento e o '
+            f'panorama do mundo, das regiões e do Brasil, com as notícias que mexeram com o termômetro.</p>'
             f'<div class="acoes">{principal}{secundaria}</div>'
-            f'<small>Grátis. Uma mensagem por dia útil. Sem recomendação de investimento. Sai quando quiser.</small></section>')
+            f'<small>Grátis. Um envio por dia útil. Sem recomendação de investimento. Sai quando quiser.</small></section>')
 
 
 def faixa_mercados(cotacoes: list[dict], parcial: str | None = None) -> str:

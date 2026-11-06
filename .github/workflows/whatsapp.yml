@@ -1,49 +1,133 @@
 name: WhatsApp
 
-# Ferramenta manual do envio automático: "listar" mostra os grupos e comunidades do número ligado à Z-API (para
-# achar o grupo de avisos e gravar na variável WHATSAPP_DESTINO); "teste" manda uma mensagem para WHATSAPP_TESTE;
-# "fechamento" reenvia o card do último fechamento (respeita WHATSAPP_ENVIO e não manda duas vezes).
+# Envio automático para a comunidade do WhatsApp, com o Baileys (código aberto; ver whatsapp/enviar.mjs).
+# - parear: liga o número ao robô (uma vez só): o celular recebe o pedido e a pessoa digita o código de 8 letras
+#   em Aparelhos conectados > Conectar com número de telefone.
+# - teste: manda o card e o panorama do último fechamento para o próprio número (conversa "você").
+# - fechamento: manda o fechamento para a comunidade (respeita o modo em whatsapp/modo.txt e nunca manda duas
+#   vezes). O robô diário chama esta ação sozinho depois de publicar o panorama.
+# O número e o código ficam fora do registro público; a sessão fica no cache do GitHub, criptografada.
 on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "listar, teste ou fechamento"
+        description: "parear, teste ou fechamento"
         required: true
-        default: "listar"
+        default: "teste"
+      numero:
+        description: "parear: número com 55 e DDD, só dígitos"
+        required: false
+        default: ""
+      codigo:
+        description: "parear: código de 8 letras (opcional)"
+        required: false
+        default: ""
+      data:
+        description: "fechamento: dia (AAAA-MM-DD); vazio = o último"
+        required: false
+        default: ""
+  workflow_call:
+    inputs:
+      acao:
+        type: string
+        required: true
+      data:
+        type: string
+        required: false
+        default: ""
 
 permissions:
   contents: write
 
 concurrency:
-  group: panorama-diario
+  group: whatsapp-sessao # uma conexão por vez com a mesma sessão
   cancel-in-progress: false
 
 jobs:
   whatsapp:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
-      ZAPI_INSTANCIA: ${{ secrets.ZAPI_INSTANCIA }}
-      ZAPI_TOKEN: ${{ secrets.ZAPI_TOKEN }}
-      ZAPI_CLIENT_TOKEN: ${{ secrets.ZAPI_CLIENT_TOKEN }}
       WHATSAPP_ENVIO: ${{ vars.WHATSAPP_ENVIO }}
-      WHATSAPP_DESTINO: ${{ vars.WHATSAPP_DESTINO }}
-      WHATSAPP_TESTE: ${{ vars.WHATSAPP_TESTE }}
+      WA_COMUNIDADE: ${{ vars.WA_COMUNIDADE }}
+      WA_SESSAO: ${{ github.workspace }}/.sessao-wa
+      ACAO: ${{ inputs.acao }}
+      DATA: ${{ inputs.data }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main # chamado pelo robô diário, pega o panorama que acabou de ser publicado
+
+      - name: Número e código fora do registro
+        run: |
+          NUMERO=$(jq -r '.inputs.numero // ""' "$GITHUB_EVENT_PATH")
+          CODIGO=$(jq -r '.inputs.codigo // ""' "$GITHUB_EVENT_PATH")
+          if [ -n "$NUMERO" ]; then echo "::add-mask::$NUMERO"; echo "WA_NUMERO=$NUMERO" >> "$GITHUB_ENV"; fi
+          if [ -n "$CODIGO" ]; then echo "::add-mask::$CODIGO"; echo "WA_CODIGO=$CODIGO" >> "$GITHUB_ENV"; fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: whatsapp/package-lock.json
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+        working-directory: whatsapp
+
       - uses: actions/setup-python@v5
+        if: inputs.acao != 'parear'
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -q -r requirements.txt
-      - run: python rodar.py --whatsapp "${{ inputs.acao }}"
-      - name: Guardar o registro do envio
-        if: inputs.acao == 'fechamento'
+      - if: inputs.acao != 'parear'
+        run: pip install -q -r requirements.txt
+
+      - name: Sessão guardada
+        uses: actions/cache/restore@v4
+        with:
+          path: .sessao-wa.enc
+          key: wa-sessao-${{ github.run_id }}
+          restore-keys: wa-sessao-
+      - name: Abrir a sessão
+        env:
+          WA_CHAVE: ${{ secrets.WA_CHAVE }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: bash whatsapp/sessao.sh abrir
+
+      - name: Ligar o número
+        if: inputs.acao == 'parear'
+        working-directory: whatsapp
+        run: node enviar.mjs parear
+
+      - name: Preparar o envio
+        if: inputs.acao != 'parear'
         run: |
+          if [ "$ACAO" = "teste" ]; then python rodar.py --whatsapp preparar --teste --data "$DATA"
+          else python rodar.py --whatsapp preparar --data "$DATA"; fi
+      - name: Enviar
+        if: inputs.acao != 'parear' && hashFiles('_whatsapp/envio.json') != ''
+        working-directory: whatsapp
+        run: node enviar.mjs "$([ "$ACAO" = "teste" ] && echo teste || echo enviar)" ../_whatsapp/envio.json
+
+      - name: Registrar o envio
+        if: always() && inputs.acao == 'fechamento' && hashFiles('_whatsapp/envio.json') != ''
+        run: |
+          python rodar.py --whatsapp concluir
           git config user.name "termometro-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add diario
           if git diff --cached --quiet; then exit 0; fi
-          git commit -q -m "WhatsApp: registro do envio"
+          git commit -q -m "WhatsApp: registro do envio do fechamento"
           git pull -q --rebase origin main
           git push
+
+      - name: Guardar a sessão
+        if: always()
+        env:
+          WA_CHAVE: ${{ secrets.WA_CHAVE }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: bash whatsapp/sessao.sh guardar
+      - uses: actions/cache/save@v4
+        if: always() && hashFiles('.sessao-wa.enc') != ''
+        with:
+          path: .sessao-wa.enc
+          key: wa-sessao-${{ github.run_id }}-${{ github.run_attempt }}

@@ -6,3 +6,10 @@ __pycache__/
 saida_mundo/
 design/
 conselho/
+
+# envio do WhatsApp: pasta de trabalho, dependências e sessão (a sessão nunca vai para o repositório)
+_whatsapp/
+whatsapp/node_modules/
+whatsapp/sessao/
+.sessao-wa
+.sessao-wa.enc
