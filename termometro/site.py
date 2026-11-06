@@ -166,6 +166,8 @@ def bloco_celular(raiz: str = "") -> str:
 def faixa_mercados(cotacoes: list[dict], parcial: str | None = None) -> str:
     if not cotacoes:
         return ""
+    referencia = pd.Timestamp(cotacoes[0]["data"])  # um item parado há dias (a fonte deixou de atualizar) sai da faixa
+    cotacoes = [c for c in cotacoes if (referencia - pd.Timestamp(c["data"])).days <= 5]
     itens = []
     for c in cotacoes:
         if c["tipo"] == "brl":

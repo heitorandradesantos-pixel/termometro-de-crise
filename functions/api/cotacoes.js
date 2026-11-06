@@ -20,6 +20,8 @@ export async function um(nome, simbolo, tipo, buscar = fetch) {
   const ultimo = meta.regularMarketPrice, antes = meta.chartPreviousClose ?? meta.previousClose;
   if (!(ultimo > 0) || !(antes > 0)) throw new Error(`${simbolo}: sem preço`);
   const periodo = meta.currentTradingPeriod?.regular, agora = Date.now() / 1000;
+  // preço parado há mais de 4 dias (a fonte deixou de atualizar): melhor sumir da faixa do que enganar
+  if (meta.regularMarketTime && agora - meta.regularMarketTime > 4 * 86400) throw new Error(`${simbolo}: parado`);
   return {
     nome, tipo, ultimo, variacao_pct: (ultimo / antes - 1) * 100, hora: meta.regularMarketTime || null,
     aberto: Boolean(periodo && agora >= periodo.start && agora <= periodo.end),

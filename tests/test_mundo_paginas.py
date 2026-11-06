@@ -246,3 +246,11 @@ def test_leitura_parcial_do_meio_do_dia_mantem_noticias_e_panorama(tmp_path, dad
     assert "Catar medeia" in inicio  # as notícias do último fechamento continuam
     assert "Atualizado em 06/11/2026" in (saida / "panorama.html").read_text()
     assert "/api/cotacoes" in inicio  # a faixa se atualiza sozinha no navegador
+
+
+def test_faixa_tira_cotacao_parada_ha_dias():
+    from termometro import site
+    faixa = site.faixa_mercados([
+        {"nome": "Ibovespa", "ultimo": 166191.4, "tipo": "pontos", "variacao_pct": -0.82, "data": "2026-11-05"},
+        {"nome": "Merval", "ultimo": 2848945.2, "tipo": "pontos", "variacao_pct": -0.35, "data": "2026-10-16"}])
+    assert "Ibovespa" in faixa and 'data-c="Merval"' not in faixa
