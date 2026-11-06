@@ -77,7 +77,7 @@ BOLSAS = {"EUA": "S&P 500", "Canadá": "S&P/TSX", "México": "IPC", "Brasil": "I
           "Portugal": "PSI", "Suíça": "SMI", "Arábia Saudita": "MSCI Arábia Saudita", "Indonésia": "Jakarta Composite",
           "Taiwan": "Taiex", "Singapura": "Straits Times"}
 MOEDAS = {"Canadá": "dólar canadense", "México": "peso mexicano", "Brasil": "real", "Argentina": "peso argentino",
-          "Alemanha": "euro", "França": "euro", "Reino Unido": "libra", "Turquia": "lira turca", "Israel": "shekel",
+          "Alemanha": "euro", "França": "euro", "Reino Unido": "libra esterlina", "Turquia": "lira turca", "Israel": "shekel israelense",
           "Egito": "libra egípcia", "África do Sul": "rand", "Nigéria": "naira", "Japão": "iene", "China": "yuan",
           "Índia": "rupia", "Coreia do Sul": "won", "Austrália": "dólar australiano", "Chile": "peso chileno",
           "Colômbia": "peso colombiano", "Peru": "sol", "Paraguai": "guarani", "Uruguai": "peso uruguaio",

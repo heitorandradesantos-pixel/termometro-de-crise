@@ -211,3 +211,15 @@ def test_todo_pais_do_motor_aparece_no_mapa():
     for pais in mundo.PAISES:
         assert pais in paginas.A2 and pais in paginas.ARTIGOS, pais
         assert paginas.A2[pais] in desenhos, pais
+
+
+def test_correcoes_da_squad_ranking_faixa_e_mapa():
+    from termometro import paginas, site
+    so_moeda = {"nome": "Marrocos", "sinais": {"moeda": 85}}
+    assert paginas.incompleto(so_moeda) and "só 1 de 3 sinais" in paginas.parcial(so_moeda)
+    assert not paginas.incompleto({"nome": "Arábia Saudita", "sinais": {"bolsa": 74, "volatilidade": 76}})
+    assert "▲" in paginas.mudanca(61, 58) and "(58)" in paginas.mudanca(61, 58) and paginas.mudanca(61, None) == ""
+    faixa = site.faixa_mercados([{"nome": "Ibovespa", "ultimo": 166191.4, "tipo": "pontos", "variacao_pct": -0.82,
+                                  "data": "2026-11-05"}])
+    assert "Fechamento de 05/11 · fonte: Yahoo Finance" in faixa and '<span class="sr">caiu </span>' in faixa
+    assert "Sem leitura" not in paginas.legenda_faixas() and "Crise 81–100" in paginas.legenda_faixas()

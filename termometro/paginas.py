@@ -18,7 +18,7 @@ from .grafico import mes_curto
 from .site import bloco_celular, medidor_svg, pagina
 
 C = config.CORES
-FEMININAS = {"libra", "lira turca", "libra egípcia", "naira", "rupia", "rupia indonésia"}
+FEMININAS = {"libra", "libra esterlina", "lira turca", "libra egípcia", "naira", "rupia", "rupia indonésia"}
 NOMES_SINAIS = {"bolsa": "Queda da bolsa", "volatilidade": "Sobe e desce", "moeda": "Moeda"}
 NA_FRASE = {"bolsa": "a queda da bolsa", "volatilidade": "o sobe e desce da bolsa", "moeda": "a moeda"}
 COR_DIRECAO = {"pressiona": "#EE8A3C", "alivia": "#7CC3E0", "incerto": C["suave"]}
@@ -83,7 +83,10 @@ a.caixa:hover{outline:1px solid #34485A}
 .zap{background:#25D366;color:#0E141B}
 .pano em{color:#D1D7DB}
 .mapa-mundo svg{width:100%;height:auto;display:block}.mapa-mundo path{stroke:#0E141B;stroke-width:.7}
-.mapa-mundo a:hover path,.mapa-mundo a:focus path{opacity:1;filter:brightness(1.15)}.mapa-mundo .re{opacity:.8}
+.mapa-mundo a:hover path,.mapa-mundo a:focus path{opacity:1;filter:brightness(1.15)}.terciario{background:none;border:1px solid var(--linha);color:var(--texto);border-radius:10px;padding:0 16px;
+min-height:44px;font:inherit;cursor:pointer}
+.legenda-faixas{font-size:12px;color:#A9B4C4;margin:6px 0 0;line-height:1.5}
+.mapa-mundo .re{stroke:#3A4656;stroke-width:.6}
 .mapa-mundo .pa{stroke:#EEF2F5;stroke-width:1.1}.mapa-mundo .br{stroke-width:2.4}.rot-mapa text{font:600 19px 'Space Grotesk',sans-serif;fill:#EEF2F5;
 paint-order:stroke;stroke:#0E141B;stroke-width:5px;stroke-linejoin:round;pointer-events:none}
 .comparar{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:6px;margin-top:12px}
@@ -305,11 +308,11 @@ def por_que_automatico(p: dict) -> str:
         lista = ", ".join(nomes[:-1]) + " e " + nomes[-1]
         texto = f"{quem} {verbo} em {p['valor']} porque {len(tensos)} sinais estão tensos ao mesmo tempo: {lista}."
     elif tensos:
-        texto = (f"O que mais pesa {em(nome)} é {NA_FRASE[tensos[0]['chave']]} (percentil {tensos[0]['pct']}); "
+        texto = (f"O que mais pesa {em(nome)} é {NA_FRASE[tensos[0]['chave']]} (mais tenso que em {tensos[0]['pct']}% dos meses); "
                  f"os outros sinais estão mais perto do normal.")
     else:
         texto = (f"Nenhum sinal {de(nome)} está fora do normal: o mais alto é {NA_FRASE[sinais[0]['chave']]}, "
-                 f"no percentil {sinais[0]['pct']}.")
+                 f"mais tenso que em {sinais[0]['pct']}% dos meses.")
     atreladas = {"EUA": "o dólar é a própria referência.", "Hong Kong": "o dólar de Hong Kong é atrelado ao dólar americano.",
                  "Arábia Saudita": "o rial saudita é atrelado ao dólar americano."}
     if "moeda" not in {x["chave"] for x in sinais} and p["nome"] in atreladas:
@@ -324,8 +327,14 @@ def parcial(p: dict) -> str:
     if p.get("nome") in ("EUA", "Hong Kong", "Arábia Saudita"):  # moeda fora por desenho (dólar ou moeda atrelada)
         return ""
     n = sum(1 for v in (p.get("sinais") or {}).values() if v is not None)
-    return (f' <span class="parcial" title="Leitura com {n} de 3 sinais">dados parciais ({n} de 3)</span>'
-            if 0 < n < 3 else "")
+    return (f' <span class="parcial">só {n} de 3 sinais</span>' if 0 < n < 3 else "")
+
+
+def incompleto(p: dict) -> bool:
+    """Leitura com um único sinal (ex.: só a moeda): fica fora do topo do ranking, numa lista à parte."""
+    if p.get("nome") in ("EUA", "Hong Kong", "Arábia Saudita"):
+        return False
+    return sum(1 for v in (p.get("sinais") or {}).values() if v is not None) == 1
 
 
 def bolso_brasil(p: dict) -> str:
@@ -367,7 +376,7 @@ def comparacoes(f: dict) -> list[tuple[str, int]]:
         completas = regioes[[r for r in motor.REGIOES if r in regioes]].notna().all(axis=1)
         pico = regioes.loc[completas, "Mundo (média das regiões)"].dropna().iloc[:-1]  # só meses com as 6 regiões
         if len(pico) > 24:
-            saida.append((f"Pior momento ({pico.idxmax():%Y})", round(float(pico.max()))))
+            saida.append((f"Pior: {pico.idxmax():%Y} (série desde {pico.index[0]:%Y})", round(float(pico.max()))))
     return saida[:3]
 
 
@@ -386,6 +395,8 @@ A2 = {"EUA": "US", "Canadá": "CA", "México": "MX", "Brasil": "BR", "Argentina"
       "Portugal": "PT", "Suíça": "CH", "Rússia": "RU", "Arábia Saudita": "SA", "Quênia": "KE", "Marrocos": "MA",
       "Indonésia": "ID", "Taiwan": "TW", "Singapura": "SG"}
 
+
+SEM_LEITURA = "#2A3441"  # países que não medimos: cinza, com link para a região
 
 # Países pequenos demais para aparecer no desenho do mapa: um ponto no lugar certo (coordenadas do próprio SVG).
 PONTOS_NO_MAPA = {"HK": (777, 213), "SG": (752, 274)}
@@ -409,8 +420,8 @@ def mapa_svg(m: dict, raiz: str = "") -> str:
             href, cor, classe = f"{raiz}paises/{p['slug']}.html", p["cor"], "pa"
             dica = f"{p['nome']}: {p['valor']}, {p['nivel']} (toque para entender)"
         else:
-            href, cor, classe = f"{raiz}regioes/{r['slug']}.html", r["cor"], "re"
-            dica = f"{c['nome']} · {r['nome']}: {r['valor']}, {r['nivel']}"
+            href, cor, classe = f"{raiz}regioes/{r['slug']}.html", SEM_LEITURA, "re"
+            dica = f"{c['nome']}: sem leitura própria. Região {r['nome']}: {r['valor']}, {r['nivel']}"
         if c["a2"] == "BR":
             classe += " br"
         formas.append(f'<a href="{href}" tabindex="-1"><path class="{classe}" d="{c["d"]}" fill="{cor}">'
@@ -529,11 +540,16 @@ def noticias_da_regiao(f: dict, regiao: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------- páginas
-def ficha(nome: str, valor, nivel: str, cor: str, lead: str, extra: str, rotulo: str, raiz: str = "../") -> str:
+def legenda_faixas() -> str:
+    return ('<p class="legenda-faixas">' + " · ".join(f'{n["nome"]} {n["min"]}–{n["max"]}' for n in config.NIVEIS) + "</p>")
+
+
+def ficha(nome: str, valor, nivel: str, cor: str, lead: str, extra: str, rotulo: str, raiz: str = "../",
+          ancora: str = "mundo") -> str:
     return (f'<section class="ficha"><div class="global"><span class="rotulo">{rotulo}</span>{medidor_svg(valor, cor)}'
-            f'<div class="valor">{valor}</div><div class="nivel" style="color:{cor}">{nivel.upper()}</div>'
+            f'<div class="valor">{valor}</div><div class="nivel" style="color:{cor}">{nivel.upper()}</div>{legenda_faixas()}'
             f'<p class="educativo">Indicador educativo: mostra o que já aconteceu, não prevê nem recomenda. '
-            f'<a href="{raiz}metodologia.html#mundo">Como calculamos</a></p></div>'
+            f'<a href="{raiz}metodologia.html#{ancora}">Como calculamos</a></p></div>'
             f'<div><h1>{html.escape(nome)}</h1><p class="lead">{lead}</p>{extra}</div></section>')
 
 
@@ -564,7 +580,7 @@ def pagina_regiao(f: dict, r: dict) -> str:
     noticias = noticias_da_regiao(f, r["nome"])
     serie = f["regioes"][r["nome"]] if f["regioes"] is not None and r["nome"] in f["regioes"] else None
     corpo = (f'<p class="trilha"><a href="../index.html">Início</a> › {html.escape(r["nome"])}</p>'
-             + ficha(r["nome"], r["valor"], r["nivel"], r["cor"], lead, extra, "Termômetro da região")
+             + ficha(r["nome"], r["valor"], r["nivel"], r["cor"], lead, extra, "Termômetro da região", ancora="regiao")
              + (f'<section><h2>{html.escape(sujeito(ordenados[0]["nome"])[0])} {"são" if sujeito(ordenados[0]["nome"])[1] == "estão" else "é"} '
                 f'o país mais tenso da região: {ordenados[0]["valor"]}</h2><div class="grade">{"".join(cartoes)}</div></section>'
                 if ordenados else "")
@@ -606,7 +622,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
                         for v in r["paises"] if v["nome"] != p["nome"] and v.get("valor") is not None)
     corpo = (f'<p class="trilha"><a href="../index.html">Início</a> › <a href="../regioes/{r["slug"]}.html">'
              f'{html.escape(r["nome"])}</a> › {html.escape(p["nome"])}</p>'
-             + ficha(p["nome"], p["valor"], p["nivel"], p["cor"], lead, extra, "Termômetro do país")
+             + ficha(p["nome"], p["valor"], p["nivel"], p["cor"], lead, extra, "Termômetro do país", ancora="pais")
              + f'<section class="cartao"><h2 style="margin-top:0">Por que o termômetro está em {p["valor"]}</h2>'
                f'<p>{html.escape(por_que_automatico(p))} O termômetro é a média destes sinais:</p>{linhas}</section>'
              + (bolso_brasil(p) if p["nome"] == "Brasil" else "")
@@ -660,21 +676,51 @@ def metodo_curto(raiz: str) -> str:
             f'média dos sinais; o da região, a média dos países. <a href="{raiz}metodologia.html#mundo">Metodologia completa</a>.</p>')
 
 
-def pagina_ranking(f: dict) -> str:
+def mudanca(agora, antes) -> str:
+    """Mudança no mês em formato curto: '▲ 3 (89)'."""
+    if agora is None or antes is None:
+        return ""
+    d = agora - antes
+    if d == 0:
+        return f"= ({antes})"
+    classe, seta, verbo = ("sobe", "▲", "subiu") if d > 0 else ("desce", "▼", "caiu")
+    return (f'<span class="{classe}"><span aria-hidden="true">{seta}</span><span class="sr">{verbo} </span>{abs(d)}</span> '
+            f'<span class="suave">({antes})</span>')
+
+
+def _tabela_ranking(itens: list, inicio: int = 1) -> str:
     linhas = []
-    todos = [(p, r) for r in f["mundo"].get("regioes", []) for p in r.get("paises", []) if p.get("valor") is not None]
-    for i, (p, r) in enumerate(sorted(todos, key=lambda x: -x[0]["valor"]), 1):
+    for i, (p, r) in enumerate(itens, inicio):
         linhas.append(f'<tr><td class="r">{i}</td><td><a href="paises/{p["slug"]}.html">{html.escape(p["nome"])}</a>{parcial(p)}'
                       f'<br><a class="r" href="regioes/{r["slug"]}.html" style="font-weight:400">{html.escape(r["nome"])}</a>'
                       f'<div class="so-celular" style="margin-top:6px">{barra(p["valor"])}</div></td>'
                       f'<td class="esconde" style="width:30%">{barra(p["valor"])}</td>'
                       f'<td class="num">{p["valor"]}</td><td>{chip(p["nivel"], p["cor"])}</td>'
-                      f'<td class="r esconde">{variacao(p["valor"], p.get("mes_anterior"))}</td></tr>')
+                      f'<td class="r esconde">{mudanca(p["valor"], p.get("mes_anterior"))}</td></tr>')
+    return (f'<table class="ranking"><tr><th>#</th><th>País</th><th class="esconde">Estresse</th>'
+            f'<th style="text-align:right">Agora</th><th>Nível</th><th class="esconde">Mudança no mês</th></tr>'
+            f'{"".join(linhas)}</table>')
+
+
+def pagina_ranking(f: dict) -> str:
+    todos = sorted(((p, r) for r in f["mundo"].get("regioes", []) for p in r.get("paises", []) if p.get("valor") is not None),
+                   key=lambda x: -x[0]["valor"])
+    completos = [x for x in todos if not incompleto(x[0])]
+    incompletos = [x for x in todos if incompleto(x[0])]
+    destaque = ""
+    for pos, (p, r) in enumerate(completos, 1):
+        if p["nome"] == "Brasil":
+            destaque = (f'<p class="cartao" style="padding:14px 18px;margin:12px 0 20px">🇧🇷 <a href="paises/brasil.html"><strong>'
+                        f'Brasil: {p["valor"]}</strong></a> {chip(p["nivel"], p["cor"])} · {pos}º de {len(completos)} '
+                        f'países com leitura completa</p>')
     corpo = (f'<section class="edicao" style="max-width:none"><h1>Todos os países, do mais tenso ao mais calmo</h1>'
              f'<p class="suave">Toque em um país para entender o porquê. Atualizado em {pd.Timestamp(f["data"]):%d/%m/%Y}.</p>'
-             f'<table class="ranking"><tr><th>#</th><th>País</th><th class="esconde">Estresse</th>'
-             f'<th style="text-align:right">Agora</th><th>Nível</th><th class="esconde">Mês passado</th></tr>'
-             f'{"".join(linhas)}</table>{metodo_curto("")}</section>')
+             f'{destaque}{_tabela_ranking(completos)}')
+    if incompletos:
+        corpo += (f'<h2 id="incompleta">Leitura incompleta</h2><p class="suave">Estes países são medidos só pela moeda, '
+                  f'porque a fonte de dados não tem o histórico da bolsa. Com um único sinal, a leitura é menos confiável, '
+                  f'por isso eles ficam fora da lista principal.</p>{_tabela_ranking(incompletos)}')
+    corpo += f'{metodo_curto("")}</section>'
     return pagina(f"Ranking mundial do termômetro de crise · {config.NOME}",
                   "Os países do Termômetro de Crise, do mais tenso ao mais calmo, com o porquê de cada leitura.",
                   corpo, caminho="mundo.html", extra_css=CSS)
@@ -692,14 +738,16 @@ def pagina_panorama(f: dict) -> str:
     texto = f.get("panorama") or panorama.montar(f["mundo"], f.get("correspondente"), None, f["data"],
                                                  noticias=f.get("noticias"))
     dados = json.dumps(texto, ensure_ascii=False).replace("</", "<\\/")
-    canal = (f'<a class="contorno" href="{html.escape(config.WHATSAPP_URL)}" target="_blank" rel="noopener">'
-             f'Entrar no canal do WhatsApp</a>' if config.WHATSAPP_URL else "")
+    canal = (f'<a class="acao" href="{html.escape(config.WHATSAPP_URL)}" target="_blank" rel="noopener">'
+             f'Receber no WhatsApp</a>' if config.WHATSAPP_URL else "")
+    em_breve = ("" if config.WHATSAPP_URL else '<p class="cartao" style="padding:12px 16px">O canal do WhatsApp abre em '
+                'breve. Enquanto isso, a prévia de cada dia útil fica aqui, e você pode compartilhar com quem quiser.</p>')
     corpo = f"""<section class="edicao"><h1>Panorama do fim de tarde</h1>
 <p class="suave">Todo dia útil, no fim da tarde (a partir das 18h30), o resumo do termômetro do mundo, das regiões e do Brasil,
 com as notícias que mexeram com ele. Atualizado em {pd.Timestamp(f["data"]):%d/%m/%Y}.</p>
-<div class="acoes" style="margin:16px 0">{canal}
-<a class="acao" href="https://wa.me/?text={quote(texto)}" target="_blank" rel="noopener">Enviar pelo WhatsApp</a>
-<button class="contorno" id="copiar" type="button">Copiar texto</button></div>
+{em_breve}<div class="acoes" style="margin:16px 0">{canal}
+<a class="contorno" href="https://wa.me/?text={quote(texto)}" target="_blank" rel="noopener">Compartilhar esta prévia</a>
+<button class="terciario" id="copiar" type="button">Copiar texto</button></div>
 <p class="rotulo" style="margin:18px 0 8px">Prévia da mensagem</p>
 <div class="pano">{whatsapp_html(texto)}<span style="position:absolute;right:12px;bottom:4px;font-size:12px;color:#D1D7DB">18:30</span></div>
 {'<p style="margin-top:20px"><a class="contorno" href="panorama/index.html">Panoramas anteriores</a></p>' if f.get("tem_arquivo_panorama") else ""}
