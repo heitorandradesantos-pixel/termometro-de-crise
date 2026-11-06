@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: "23 13 * * 1" # segunda, 10:23 em Brasília
   workflow_dispatch:
+    inputs:
+      pergunta:
+        description: "Pergunta para os agentes de UI e UX (opcional)"
+        required: false
 
 permissions:
   contents: read
@@ -40,6 +44,7 @@ jobs:
         id: design
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PERGUNTA_DO_DONO: ${{ inputs.pergunta }}
         run: python rodar.py --design
 
       - name: Guardar prints e números

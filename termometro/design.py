@@ -79,6 +79,8 @@ def ferramenta(papel: str, paginas: list[str]) -> dict:
                     },
                     "required": ["pagina", "tela", "severidade", "principio", "problema", "sugestao", "esforco"]}},
                 "primeiro_passo": {"type": "string", "description": "A única coisa a fazer primeiro, e por quê"},
+                "resposta_ao_dono": {"type": "string", "description": "Se houver pergunta do dono, a resposta direta, "
+                                     "com recomendações concretas (cores em hex, tamanhos, posições)"},
             },
             "required": ["notas", "pontos_fortes", "achados", "primeiro_passo"],
         },
@@ -352,6 +354,10 @@ def pedido(a: dict, pasta: Path, papel: str) -> list:
                 blocos.append({"type": "text", "text": f"Referência de mercado (para comparar, não copiar): {nome}, "
                                                        f"{'celular' if 'celular' in arq else 'computador'}"})
                 blocos.append(_imagem(pasta / "prints" / arq))
+    pergunta = os.environ.get("PERGUNTA_DO_DONO", "").strip()
+    if pergunta:
+        blocos.append({"type": "text", "text": f"PERGUNTA DO DONO DO PROJETO (responda em resposta_ao_dono, com a sua "
+                                               f"opinião de especialista e recomendações concretas): {pergunta}"})
     blocos.append({"type": "text", "text": f"Faça a avaliação de {papel.upper()}: notas, pontos fortes, de 6 a 12 achados "
                                            "ordenados por gravidade, e o primeiro passo."})
     return blocos
@@ -373,7 +379,8 @@ def validar(bruto: dict, papel: str, paginas: list[str]) -> dict:
     achados.sort(key=lambda x: (-x["severidade"], ESFORCO.index(x["esforco"])))
     return {"papel": papel, "notas": notas, "nota_geral": round(sum(notas.values()) / len(notas), 1),
             "pontos_fortes": [str(p) for p in bruto.get("pontos_fortes", [])][:5], "achados": achados,
-            "primeiro_passo": str(bruto.get("primeiro_passo", ""))}
+            "primeiro_passo": str(bruto.get("primeiro_passo", "")),
+            "resposta_ao_dono": str(bruto.get("resposta_ao_dono", "") or "")}
 
 
 def avaliar(a: dict, pasta: Path, papel: str, cliente) -> dict:
@@ -394,6 +401,11 @@ def _tabela_achados(av: dict) -> str:
 def relatorio(data: str, a: dict, ui: dict | None, ux: dict | None) -> str:
     regras_ok = sum(r["ok"] for r in a["regras"])
     partes = [f"# Squad de design: relatório de {data}", ""]
+    pergunta = os.environ.get("PERGUNTA_DO_DONO", "").strip()
+    respostas = [av for av in (ui, ux) if av and av.get("resposta_ao_dono")]
+    if pergunta and respostas:
+        partes += [f"## Sua pergunta: {pergunta}", ""]
+        partes += [f"**Agente de {av['papel'].upper()}:** {av['resposta_ao_dono']}\n" for av in respostas]
     if ui or ux:
         notas = " · ".join(f"**{av['papel'].upper()} {av['nota_geral']}/10**" for av in (ui, ux) if av)
         partes += [f"{notas} · checagens objetivas: **{regras_ok}/{len(a['regras'])}**", ""]
@@ -434,5 +446,5 @@ def rodar(site: Path, pasta: Path, data: str, cliente=None) -> dict:
             except Exception as erro:  # um agente com problema não derruba o relatório
                 print(f"  Agente de {papel.upper()} falhou: {erro}")
     texto = relatorio(data, a, ui, ux)
-    (pasta / "relatorio.md").write_text(texto)
+    (pasta / "relatorio.md").write_text(texto[:60000])
     return {"auditoria": a, "ui": ui, "ux": ux, "relatorio": texto}
