@@ -188,7 +188,7 @@ def nova_aba(html_corpo: str) -> str:
 
 
 def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "",
-           extra_css: str = "") -> str:
+           extra_css: str = "", sem_faixa: bool = False) -> str:
     url = f"{config.SITE_URL}/{caminho}" if config.SITE_URL else ""
     og_img = f"{config.SITE_URL}/{imagem}" if config.SITE_URL and imagem else ""
     adsense = (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={config.ADSENSE_CLIENT}" '
@@ -204,11 +204,11 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{adsense}</head>
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
-<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{FAIXA}
+<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance e as fontes citadas em cada página.</p>
-<p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
+<p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}correcoes.html">Correções</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
 </body></html>"""
 
 
@@ -345,14 +345,17 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                                  "datePublished": dia, "inLanguage": "pt-BR", "description": copy["descricao_seo"],
                                  "author": {"@type": "Organization", "name": config.NOME},
                                  "publisher": {"@type": "Organization", "name": config.NOME}})
-        corpo = (f'<article class="edicao">{corpo_html}{arquivo.navegacao_edicao(dias_edicoes, dia)}</article>{artigo}')
+        faixa = arquivo.faixa_arquivo(dia, "Edição", "../") if dia != dias_edicoes[0] else ""
+        corpo = (f'<article class="edicao">{faixa}{corpo_html}{bloco_celular("../")}'
+                 f'{arquivo.navegacao_edicao(dias_edicoes, dia)}</article>{artigo}')
         (saida / "edicoes" / f"{dia}.html").write_text(
             pagina(copy["titulo_site"], copy["descricao_seo"], corpo, raiz="../", imagem=f"edicoes/{dia}/card.png",
-                   caminho=f"edicoes/{dia}.html", extra_css=arquivo.CSS))
+                   caminho=f"edicoes/{dia}.html", extra_css=arquivo.CSS, sem_faixa=True))
         lista.append((dia, dados, copy))
 
     paginas_lista_edicoes = arquivo.paginas_edicoes(saida, lista)
-    arquivos = arquivo.gerar(saida, diario_dir, fonte["mundo"]) if fonte["mundo"].get("regioes") else []
+    arquivos, mapa_arquivo = (arquivo.gerar(saida, diario_dir, fonte["mundo"], fonte["data"], fonte["regioes"])
+                              if fonte["mundo"].get("regioes") else ([], []))
     fonte["com_arquivo"] = {Path(c).stem for c in arquivos if c.startswith("noticias/")}
     fonte["tem_arquivo_panorama"] = "panorama/index.html" in arquivos
 
@@ -440,6 +443,9 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     (saida / "termos.html").write_text(pagina(f"Termos de uso · {config.NOME}",
                                               "Termos de uso do Termômetro de Crise: conteúdo educativo, sem recomendação de investimento.",
                                               legal.termos(), caminho="termos.html"))
+    (saida / "correcoes.html").write_text(pagina(f"Correções · {config.NOME}",
+                                                 "Como corrigimos erros e a lista de correções publicadas.",
+                                                 legal.correcoes(), caminho="correcoes.html"))
     (saida / "quem-somos.html").write_text(pagina(f"Quem somos · {config.NOME}",
                                                   "Quem faz o Termômetro de Crise, como funciona e o que ele não é.",
                                                   legal.quem_somos(), caminho="quem-somos.html"))
@@ -447,7 +453,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                                                           "Fontes, conferência, correções, uso de IA e independência.",
                                                           legal.editorial(), caminho="politica-editorial.html"))
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
-    novas += arquivos + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"]
+    novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
     extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 

@@ -27,7 +27,9 @@ def montar_diario(pasta: Path, dias: list[str], por_dia: int) -> None:
         mundo = json.loads(json.dumps(base))
         mundo["mundo"]["valor"] = 50 + k
         (d / "mundo.json").write_text(json.dumps(mundo, ensure_ascii=False))
-        noticias = [noticia(i, dia) for i in range(por_dia)] + [noticia(99, "2026-11-03")]  # a 99 se repete todo dia
+        noticias = [noticia(i, dia) for i in range(por_dia)]
+        if dia >= "2026-11-03":
+            noticias.append(noticia(99, "2026-11-03"))  # a 99 se repete todo dia
         (d / "correspondente.json").write_text(json.dumps({"regioes": {"Oriente Médio": {
             "resumo": "", "paises": {}, "noticias": noticias, "observar": []}}}, ensure_ascii=False))
         (d / "panorama.txt").write_text(f"*Panorama de {dia}*\n\n_Conteúdo educativo. Não é recomendação de investimento._")
@@ -37,28 +39,42 @@ def montar_diario(pasta: Path, dias: list[str], por_dia: int) -> None:
 
 
 def test_arquivo_completo_e_sem_links_quebrados(tmp_path):
-    dias = ["2026-11-03", "2026-11-04", "2026-11-05"]
+    dias = ["2026-10-30", "2026-11-03", "2026-11-04", "2026-11-05", "2026-11-07"]  # 07/11 é sábado
     montar_diario(tmp_path / "diario", dias, por_dia=9)
     edicoes = tmp_path / "edicoes"
     shutil.copytree(RAIZ / "edicoes" / "2026-11-05", edicoes / "2026-11-05")
     saida = tmp_path / "_site"
     site.gerar(edicoes, saida, tmp_path / "diario")
 
-    # um panorama por dia, com dia anterior e seguinte, e o calendário
-    for dia in dias:
+    # um panorama por dia útil, com dia anterior e seguinte; sábado não ganha página
+    for dia in dias[:-1]:
         assert (saida / "panorama" / f"{dia}.html").exists()
+    assert not (saida / "panorama" / "2026-11-07.html").exists()
     meio = (saida / "panorama" / "2026-11-04.html").read_text()
     assert 'href="2026-11-03.html"' in meio and 'href="2026-11-05.html"' in meio
-    assert "Novembro de 2026" in (saida / "panorama" / "index.html").read_text()
+    assert "Não reflete o mercado de hoje" in meio and "Panorama anterior" in meio
+    assert "1 ponto acima do panorama anterior" in meio  # texto próprio de cada dia
+    assert "Não reflete o mercado de hoje" not in (saida / "panorama" / "2026-11-05.html").read_text()
+    assert "4 de novembro de 2026" in (saida / "panorama" / "index.html").read_text()
 
-    # 3 dias × 9 + 1 repetida = 28 notícias: duas páginas, sem repetir a notícia 99
+    # notícias: o mês em curso no endereço fixo, e outubro (mês fechado, 5 ou mais) em arquivo estável
     hub = (saida / "noticias" / "index.html").read_text()
-    assert "28 notícias guardadas" in hub and 'href="pagina-2.html"' in hub
-    todas = hub + (saida / "noticias" / "pagina-2.html").read_text()
-    assert todas.count("Notícia 99 de 3/11") == 1  # datas viram padrão brasileiro
+    assert "Notícias de novembro de 2026" in hub and 'href="index-2026-10.html"' in hub
+    pagina2 = (saida / "noticias" / "index-pagina-2.html").read_text()
+    assert "Página 1 de 2" in hub and 'href="index-pagina-2.html"' in hub
+    assert (hub + pagina2).count("Notícia 99 de 3/11") == 1  # a mesma notícia em vários dias aparece uma vez
+    outubro = (saida / "noticias" / "index-2026-10.html").read_text()
+    assert "Em outubro de 2026" in outubro and "Não reflete o mercado de hoje" in outubro
     assert (saida / "noticias" / "israel.html").exists() and not (saida / "noticias" / "brasil.html").exists()
     assert 'href="../noticias/israel.html"' in (saida / "paises" / "israel.html").read_text()
     assert 'href="panorama/index.html"' in (saida / "panorama.html").read_text()
+    # mapa do site: arquivo mensal sim, páginas 2 em diante não
+    mapa = (saida / "sitemap.xml").read_text() if (saida / "sitemap.xml").exists() else ""
+    if mapa:
+        assert "index-2026-10.html" in mapa and "pagina-2" not in mapa and "noticias/israel.html" not in mapa
+    # páginas de arquivo sem a faixa de cotações (decisão do guardião de regras)
+    assert 'class="faixa"' not in outubro and 'class="faixa"' not in meio
+    assert (saida / "correcoes.html").exists()
 
     # nenhuma página com link interno quebrado
     for pagina in saida.rglob("*.html"):

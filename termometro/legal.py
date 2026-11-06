@@ -196,3 +196,19 @@ existirem, serão sempre identificadas. Não recomendamos ativos nem recebemos p
 <h2>7. Limites</h2>
 <p>Os termômetros mostram o que já aconteceu; não preveem o futuro. Os dados de mercado vêm de terceiros e podem ter atrasos.</p>
 </section>"""
+
+
+CORRECOES: list[tuple[str, str, str]] = []  # (data, página, o que foi corrigido), mais recentes primeiro
+
+
+def correcoes() -> str:
+    itens = "".join(f"<li><strong>{html.escape(d)}</strong> · {html.escape(p)}: {html.escape(o)}</li>" for d, p, o in CORRECOES)
+    lista = f"<ul>{itens}</ul>" if itens else "<p>Nenhuma correção registrada até agora.</p>"
+    return f"""<section class="edicao"><h1>Correções</h1>
+<p>Erros acontecem, inclusive em textos escritos com ajuda de inteligência artificial. Quando encontramos ou recebemos o
+aviso de um erro, corrigimos a página o mais rápido possível (a meta é em até 48 horas), registramos aqui e deixamos na
+própria página uma nota "Corrigido em…".</p>
+<p>Viu algo errado? Escreva para {_contato()} com o endereço da página e o que está errado.</p>
+<h2>Correções publicadas</h2>
+{lista}
+</section>"""

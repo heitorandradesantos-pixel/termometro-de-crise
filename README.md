@@ -49,6 +49,19 @@ Quem chama todos, na ordem certa, é o `rodar.py`. Quem aperta o botão toda sem
   (nome ou razão social e CNPJ do responsável).
 - Mapa: Natural Earth via world-atlas (ISC), nomes de i18n-iso-countries (MIT), gerado uma vez em `termometro/mapa_mundo.json`.
 
+## Arquivo (decidido em consulta ao time, issue #13)
+
+- **Panorama:** cada dia útil tem página própria (`/panorama/AAAA-MM-DD.html`) com texto próprio do dia, comparação
+  (panorama anterior, 1 semana, mês passado, 1 ano), o texto do WhatsApp, "Leia também" (até 3 notícias) e dia
+  anterior/próximo. O hub `/panorama/` vira calendário a partir de 10 dias; antes disso, lista.
+- **Notícias:** `/noticias/` (mundo) e uma página por região e país com as notícias do mês em curso, 20 por página.
+  Meses fechados com 5 ou mais notícias viram arquivo mensal estável, com resumo próprio (mundo e Brasil no começo).
+- **Edições:** as 12 mais recentes em `/edicoes/` e o índice por ano (`/edicoes/AAAA.html`), com anterior/próxima.
+- Toda página arquivada traz a faixa "Não reflete o mercado de hoje" e não mostra a faixa de cotações.
+- Mapa do site enxuto: entram panoramas, edições, páginas de país e região, notícias do mundo e do Brasil e os
+  arquivos mensais; páginas 2 em diante ficam fora (com link real e endereço próprio, sem noindex).
+- Página de correções no rodapé (`correcoes.html`, lista em `termometro/legal.py`).
+
 ## Hospedagem
 
 O site é servido pelo **Cloudflare Pages** (projeto `termometro-de-crise`), ligado a este repositório:

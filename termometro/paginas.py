@@ -584,7 +584,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
                       f'conferido automaticamente. As notícias estão logo abaixo.</p></section>') if contexto else ""
     todas = noticias_da_regiao(f, r["nome"])
     noticias = [n for n in todas if p["nome"] in n.get("paises", [])]
-    da_regiao = [n for n in todas if n not in noticias][:3]
+    da_regiao = [n for n in todas if n not in noticias][:3]  # regra pública: mesmo país, depois a região, até 3
     serie = f["paises"][p["nome"]] if f["paises"] is not None and p["nome"] in f["paises"] else None
     vizinhos = " ".join(f'<a class="tag" href="{v["slug"]}.html">{html.escape(v["nome"])} {v["valor"]}</a>'
                         for v in r["paises"] if v["nome"] != p["nome"] and v.get("valor") is not None)
@@ -597,7 +597,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
              + bloco_contexto
              + noticias_secao(noticias, f"Notícias que mexem com {html.escape(ARTIGOS.get(p['nome'], '') + ' ' + p['nome']).strip()}", "../", mostrar_regiao=False)
              + link_arquivo(f, p["slug"], f"Ver todas as notícias {de(p['nome'])}")
-             + noticias_secao(da_regiao, f"Na região: {html.escape(r['nome'])}", "../", mostrar_regiao=False)
+             + noticias_secao(da_regiao, "Leia também", "../", mostrar_regiao=False)
              + historico_html(serie, p.get("picos", []), p["nome"], p["valor"])
              + (f'<section><h2>Outros países da região</h2><p class="meta" style="font-size:14px">{vizinhos}</p></section>'
                 if vizinhos else "")

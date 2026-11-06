@@ -165,7 +165,7 @@ def paginas_para_auditar(site: Path) -> dict[str, str]:
                           ("Arquivo do panorama", "panorama/index.html"), ("Metodologia", "metodologia.html")):
         if (site / caminho).exists():
             escolhidas[nome] = caminho
-    edicoes = sorted((site / "edicoes").glob("20*.html")) if (site / "edicoes").exists() else []
+    edicoes = sorted((site / "edicoes").glob("20??-??-??.html")) if (site / "edicoes").exists() else []
     if edicoes:
         escolhidas["Edição"] = f"edicoes/{edicoes[-1].name}"
     return escolhidas
