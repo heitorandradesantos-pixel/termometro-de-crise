@@ -39,6 +39,7 @@ def ja_enviado(pasta_dia: Path, o_que: str, como: str | None = None) -> bool:
 
 
 def registrar(pasta_dia: Path, o_que: str, resultado: dict, como: str | None = None) -> None:
+    pasta_dia.mkdir(parents=True, exist_ok=True)  # de manhã a pasta do dia ainda não existe
     arq = pasta_dia / "whatsapp.json"
     lista = json.loads(arq.read_text()) if arq.exists() else []
     lista.append({"o_que": o_que, "modo": como or modo(), "ok": bool(resultado.get("ok")),
@@ -72,24 +73,50 @@ def mensagens(pasta_diario: Path, dia: str, pasta_trabalho: Path) -> dict | None
     return envio
 
 
-def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, teste: bool = False) -> str:
+def mensagens_abertura(pasta_diario: Path, pasta_trabalho: Path) -> dict | None:
+    """A abertura: o card com o texto inteiro na legenda (se couber) ou o card e o texto em seguida."""
+    from . import abertura
+    gerado = abertura.gerar(pasta_diario, pasta_trabalho)
+    if not gerado:
+        return None
+    envio = {"dia": gerado["dia"], "textos": []}
+    if gerado["imagem"] and len(gerado["texto"]) <= LEGENDA_MAXIMA:
+        envio.update(imagem=gerado["imagem"], legenda=gerado["texto"])
+    elif gerado["imagem"]:
+        envio.update(imagem=gerado["imagem"], legenda=gerado["texto"].splitlines()[0], textos=[gerado["texto"]])
+    else:
+        envio["legenda"] = gerado["texto"]
+    return envio
+
+
+LEGENDA_MAXIMA = 1000  # o WhatsApp corta legendas de imagem perto de 1.024 caracteres
+NOMES = {"fechamento": "O fechamento", "abertura": "A abertura"}
+
+
+def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, teste: bool = False, tipo: str = "fechamento") -> str:
     """Grava pasta_saida/envio.json quando há o que mandar. Devolve o que aconteceu, em uma frase."""
     como = "teste" if teste else modo()
     if como == "nao":
         return "Envio ao WhatsApp desligado (whatsapp/modo.txt ou variável WHATSAPP_ENVIO)."
+    if tipo == "abertura":
+        dia = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
     if not dia:
         return "Sem fechamento no diário: nada a enviar."
-    if not teste and ja_enviado(pasta_diario / dia, "fechamento", como):
-        return f"O fechamento de {dia} já foi enviado ({como})."
+    if not teste and ja_enviado(pasta_diario / dia, tipo, como):
+        return f"{NOMES[tipo]} de {dia} já foi enviada ({como})." if tipo == "abertura" else \
+            f"O fechamento de {dia} já foi enviado ({como})."
     if pasta_saida.exists():
         shutil.rmtree(pasta_saida)
     pasta_saida.mkdir(parents=True)
-    envio = mensagens(pasta_diario, dia, pasta_saida)
+    envio = mensagens_abertura(pasta_diario, pasta_saida) if tipo == "abertura" else mensagens(pasta_diario, dia, pasta_saida)
     if not envio:
-        return f"Sem card nem panorama de {dia}: nada enviado."
-    envio["modo"] = como
+        shutil.rmtree(pasta_saida)
+        return (f"Sem abertura hoje ({dia}): a B3 não abriu." if tipo == "abertura"
+                else f"Sem card nem panorama de {dia}: nada enviado.")
+    envio["modo"], envio["tipo"] = como, tipo
     (pasta_saida / "envio.json").write_text(json.dumps(envio, ensure_ascii=False, indent=1))
-    return f"Fechamento de {dia} pronto para enviar ({como})."
+    return f"{NOMES[tipo]} de {dia} pronta para enviar ({como})." if tipo == "abertura" else \
+        f"Fechamento de {dia} pronto para enviar ({como})."
 
 
 def concluir(pasta_diario: Path, pasta_saida: Path) -> str:
@@ -98,8 +125,9 @@ def concluir(pasta_diario: Path, pasta_saida: Path) -> str:
     if not arq.exists():
         return "Nada foi preparado para enviar."
     envio = json.loads(arq.read_text())
+    tipo = envio.get("tipo", "fechamento")
     resultado = json.loads(res.read_text()) if res.exists() else {"ok": False}
     if envio.get("modo") == "sim" or resultado.get("ok"):
-        registrar(pasta_diario / envio["dia"], "fechamento", resultado, envio.get("modo"))
-    return (f"Fechamento de {envio['dia']} enviado ({envio.get('modo')})." if resultado.get("ok")
-            else f"O envio do fechamento de {envio['dia']} falhou.")
+        registrar(pasta_diario / envio["dia"], tipo, resultado, envio.get("modo"))
+    return (f"{NOMES[tipo]} de {envio['dia']}: enviado ({envio.get('modo')})." if resultado.get("ok")
+            else f"{NOMES[tipo]} de {envio['dia']}: o envio falhou.")

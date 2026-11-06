@@ -279,6 +279,7 @@ def main() -> None:
     p.add_argument("--whatsapp", choices=["preparar", "concluir"],
                    help="WhatsApp: prepara o envio do fechamento (card, balanço e panorama) ou registra o resultado")
     p.add_argument("--teste", action="store_true", help="WhatsApp: prepara o envio para o próprio número")
+    p.add_argument("--tipo", choices=["fechamento", "abertura"], default="fechamento", help="WhatsApp: o que enviar")
     p.add_argument("--pasta", default=str(RAIZ / "_whatsapp"), help="WhatsApp: pasta do envio")
     p.add_argument("--tema", default="", help="Plantão: assunto escolhido pelo editor (pula a pauta automática)")
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
@@ -312,7 +313,7 @@ def main() -> None:
         if a.whatsapp == "preparar":
             dias = [d.name for d in paginas.dias_do_diario(DIARIO) if (d / "panorama.txt").exists()]
             dia = a.data or (dias[-1] if dias else "")
-            print(whatsapp.preparar(DIARIO, dia, Path(a.pasta), teste=a.teste))
+            print(whatsapp.preparar(DIARIO, dia, Path(a.pasta), teste=a.teste, tipo=a.tipo))
         else:
             print(whatsapp.concluir(DIARIO, Path(a.pasta)))
     elif a.plantao:

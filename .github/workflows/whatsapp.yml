@@ -6,12 +6,15 @@ name: WhatsApp
 # - teste: manda o card e o panorama do último fechamento para o próprio número (conversa "você").
 # - fechamento: manda o fechamento para a comunidade (respeita o modo em whatsapp/modo.txt e nunca manda duas
 #   vezes). O robô diário chama esta ação sozinho depois de publicar o panorama.
+# - abertura: como o mundo amanheceu e como o Brasil abriu, todo dia útil logo depois que a B3 abre (10h21).
 # O número e o código ficam fora do registro público; a sessão fica no cache do GitHub, criptografada.
 on:
+  schedule:
+    - cron: "21 13 * * 1-5" # 10h21 em Brasília: abertura (um agendamento externo também dispara; nunca manda duas vezes)
   workflow_dispatch:
     inputs:
       acao:
-        description: "parear, teste ou fechamento"
+        description: "parear, teste, teste-abertura, fechamento ou abertura"
         required: true
         default: "teste"
       numero:
@@ -51,7 +54,7 @@ jobs:
       WHATSAPP_ENVIO: ${{ vars.WHATSAPP_ENVIO }}
       WA_COMUNIDADE: ${{ vars.WA_COMUNIDADE }}
       WA_SESSAO: ${{ github.workspace }}/.sessao-wa
-      ACAO: ${{ inputs.acao }}
+      ACAO: ${{ inputs.acao || 'abertura' }}
       DATA: ${{ inputs.data }}
     steps:
       - uses: actions/checkout@v4
@@ -101,15 +104,19 @@ jobs:
       - name: Preparar o envio
         if: inputs.acao != 'parear'
         run: |
-          if [ "$ACAO" = "teste" ]; then python rodar.py --whatsapp preparar --teste --data "$DATA"
-          else python rodar.py --whatsapp preparar --data "$DATA"; fi
+          case "$ACAO" in
+            teste) python rodar.py --whatsapp preparar --teste --data "$DATA" ;;
+            teste-abertura) python rodar.py --whatsapp preparar --teste --tipo abertura ;;
+            abertura) python rodar.py --whatsapp preparar --tipo abertura ;;
+            *) python rodar.py --whatsapp preparar --data "$DATA" ;;
+          esac
       - name: Enviar
         if: inputs.acao != 'parear' && hashFiles('_whatsapp/envio.json') != ''
         working-directory: whatsapp
-        run: node enviar.mjs "$([ "$ACAO" = "teste" ] && echo teste || echo enviar)" ../_whatsapp/envio.json
+        run: node enviar.mjs "$(case "$ACAO" in teste*) echo teste ;; *) echo enviar ;; esac)" ../_whatsapp/envio.json
 
       - name: Registrar o envio
-        if: always() && inputs.acao == 'fechamento' && hashFiles('_whatsapp/envio.json') != ''
+        if: always() && env.ACAO != 'parear' && !startsWith(env.ACAO, 'teste') && hashFiles('_whatsapp/envio.json') != ''
         run: |
           python rodar.py --whatsapp concluir
           git config user.name "termometro-bot"
