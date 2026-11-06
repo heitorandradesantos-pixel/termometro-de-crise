@@ -5,13 +5,19 @@ name: Panorama diário
 # do WhatsApp. Se a conferência aprovar, publica sozinho no site (o Cloudflare reconstrói).
 # Se segurar, abre um pedido de aprovação. Com a variável DIARIO_AUTOMATICO=nao, sempre pede.
 on:
-  # O GitHub às vezes atrasa ou pula um agendamento: os horários de reserva só trabalham se o panorama
+  # O GitHub às vezes atrasa ou pula um agendamento (e um agendamento externo também dispara este robô): qualquer
+  # execução sem "forcar" só trabalha se o panorama
   # do dia ainda não saiu (nem está esperando aprovação), então nunca há panorama nem custo em dobro.
   schedule:
     - cron: "17 21 * * 1-5" # 18:17 em Brasília, de segunda a sexta (bolsa de Nova York já fechou)
     - cron: "47 21 * * 1-5" # reserva: 18:47
     - cron: "47 22 * * 1-5" # reserva: 19:47
   workflow_dispatch:
+    inputs:
+      forcar:
+        description: "Refazer o panorama de hoje mesmo que ele já tenha saído (sim/nao)"
+        required: false
+        default: "nao"
 
 permissions:
   contents: write
@@ -36,7 +42,7 @@ jobs:
         id: guarda
         run: |
           HOJE=$(TZ=America/Sao_Paulo date +%F)
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && { [ -f "diario/$HOJE/panorama.txt" ] || \
+          if [ "${{ inputs.forcar }}" != "sim" ] && { [ -f "diario/$HOJE/panorama.txt" ] || \
              git ls-remote --exit-code origin "panorama-$HOJE" >/dev/null 2>&1; }; then
             echo "O panorama de $HOJE já saiu ou espera aprovação: este horário de reserva não faz nada."
             echo "pular=sim" >> "$GITHUB_OUTPUT"
