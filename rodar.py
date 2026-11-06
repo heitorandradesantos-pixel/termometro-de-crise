@@ -218,6 +218,22 @@ def mais_recente() -> Path:
     return pastas[-1]
 
 
+JANELA_PARCIAL = 40  # minutos: o horário de reserva (meia hora depois) não repete uma leitura que já saiu
+
+
+def _minutos(hora: str) -> int:
+    h, m = hora.split("h")
+    return int(h) * 60 + int(m or 0)
+
+
+def recente(arquivo: Path, hora: str) -> bool:
+    """A leitura parcial gravada nesse arquivo foi feita há menos de JANELA_PARCIAL minutos de `hora`?"""
+    if not arquivo.exists():
+        return False
+    antes = (json.loads(arquivo.read_text()).get("parcial") or {}).get("hora")
+    return bool(antes) and 0 <= _minutos(hora) - _minutos(antes) < JANELA_PARCIAL
+
+
 def parcial(dados_dir: Path, data: str, hora: str, coletar: bool = True) -> Path | None:
     """Leitura do meio do dia (11h e 14h): só os números, sem notícias nem panorama, que seguem no fechamento.
 
@@ -225,6 +241,9 @@ def parcial(dados_dir: Path, data: str, hora: str, coletar: bool = True) -> Path
     pasta, historico = DIARIO / data, DIARIO / "historico"
     if (pasta / "panorama.txt").exists():
         print(f"O fechamento de {data} já saiu; a leitura parcial não sobrescreve.")
+        return None
+    if recente(pasta / "mundo.json", hora):
+        print(f"Já há uma leitura parcial de {data} há menos de {JANELA_PARCIAL} minutos; nada a fazer.")
         return None
     rel = mundo.coletar(dados_dir / "mundo") if coletar else \
         json.loads((dados_dir / "mundo" / "coleta_mundo.json").read_text())

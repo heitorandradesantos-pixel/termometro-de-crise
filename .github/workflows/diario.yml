@@ -5,8 +5,12 @@ name: Panorama diário
 # do WhatsApp. Se a conferência aprovar, publica sozinho no site (o Cloudflare reconstrói).
 # Se segurar, abre um pedido de aprovação. Com a variável DIARIO_AUTOMATICO=nao, sempre pede.
 on:
+  # O GitHub às vezes atrasa ou pula um agendamento: os horários de reserva só trabalham se o panorama
+  # do dia ainda não saiu (nem está esperando aprovação), então nunca há panorama nem custo em dobro.
   schedule:
     - cron: "17 21 * * 1-5" # 18:17 em Brasília, de segunda a sexta (bolsa de Nova York já fechou)
+    - cron: "47 21 * * 1-5" # reserva: 18:47
+    - cron: "47 22 * * 1-5" # reserva: 19:47
   workflow_dispatch:
 
 permissions:
@@ -28,24 +32,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: O panorama de hoje já saiu?
+        id: guarda
+        run: |
+          HOJE=$(TZ=America/Sao_Paulo date +%F)
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && { [ -f "diario/$HOJE/panorama.txt" ] || \
+             git ls-remote --exit-code origin "panorama-$HOJE" >/dev/null 2>&1; }; then
+            echo "O panorama de $HOJE já saiu ou espera aprovação: este horário de reserva não faz nada."
+            echo "pular=sim" >> "$GITHUB_OUTPUT"
+          else
+            echo "pular=nao" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.guarda.outputs.pular != 'sim'
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Instalar
+        if: steps.guarda.outputs.pular != 'sim'
         run: pip install -q -r requirements.txt
 
       - name: Testes
+        if: steps.guarda.outputs.pular != 'sim'
         run: python -m pytest -q
 
       - name: Motor mundial, Correspondente e panorama
+        if: steps.guarda.outputs.pular != 'sim'
         id: diario
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python rodar.py --diario
 
       - name: Publicar ou pedir aprovação
+        if: steps.guarda.outputs.pular != 'sim'
         env:
           GH_TOKEN: ${{ github.token }}
           DIARIO_AUTOMATICO: ${{ vars.DIARIO_AUTOMATICO }}

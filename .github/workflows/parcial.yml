@@ -4,9 +4,13 @@ name: Termômetro parcial do dia
 # do mundo, das regiões e dos países com os preços do dia até ali, e o Cloudflare reconstrói o site.
 # Notícias e panorama continuam no fechamento (Panorama diário, 18h17), que substitui a parcial.
 on:
+  # O GitHub às vezes atrasa ou pula um agendamento: cada leitura tem um horário de reserva meia hora
+  # depois, que não faz nada se a leitura daquela janela já saiu (ver rodar.parcial).
   schedule:
     - cron: "7 14 * * 1-5" # 11h07 em Brasília
+    - cron: "37 14 * * 1-5" # reserva: 11h37
     - cron: "7 17 * * 1-5" # 14h07 em Brasília
+    - cron: "37 17 * * 1-5" # reserva: 14h37
   workflow_dispatch:
 
 permissions:

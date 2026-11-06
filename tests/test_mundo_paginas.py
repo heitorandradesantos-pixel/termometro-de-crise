@@ -238,6 +238,7 @@ def test_leitura_parcial_do_meio_do_dia_mantem_noticias_e_panorama(tmp_path, dad
     assert rodar.parcial(dados_mundo.parent, "2026-11-06", "14h07", coletar=False) is None  # dia já fechado
     pasta = rodar.parcial(dados_mundo.parent, "2026-11-09", "14h07", coletar=False)
     assert json.loads((pasta / "mundo.json").read_text())["parcial"] == {"hora": "14h07"}
+    assert rodar.parcial(dados_mundo.parent, "2026-11-09", "14h37", coletar=False) is None  # reserva: já saiu
     assert not (pasta / "panorama.txt").exists() and not (pasta / "correspondente.json").exists()
     saida = tmp_path / "_site"
     site.gerar(edicoes, saida, tmp_path / "diario")
