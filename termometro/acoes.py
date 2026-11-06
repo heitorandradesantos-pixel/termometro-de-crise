@@ -166,7 +166,7 @@ def paginas(saida: Path, dados: dict | None, m: dict) -> list[str]:
     medidos = {p["nome"]: p for r in m.get("regioes", []) for p in r.get("paises", []) if p.get("valor") is not None}
     regiao_de = {"Holanda": "Europa", "Finlândia": "Europa"}
     regioes = {r["nome"]: r for r in m.get("regioes", [])}
-    regiao_de = {k: regioes[v] for k, v in regiao_de.items() if v in regioes}
+    regiao_de = {k: regioes[v] for k, v in regiao_de.items() if v in regioes and regioes[v].get("valor") is not None}
     bolsas = lista()["bolsas"]
     arquivo = {b["chave"]: ("index" if b["chave"] == "brasil" else b["chave"]) for b in bolsas}
     (saida / "cotacoes").mkdir(parents=True, exist_ok=True)
@@ -182,11 +182,12 @@ def paginas(saida: Path, dados: dict | None, m: dict) -> list[str]:
             for a in empresas:
                 c = dados["itens"].get(a["simbolo"])
                 tk = html.escape(ticker(a["simbolo"]))
-                if not c:
+                termometro = _termometro(a["pais"], medidos, regiao_de, "../")
+                if not c:  # sem coleta guardada: o preço e o dia chegam ao vivo; o termômetro do país vale sempre
                     linhas.append(f'<tr data-s="{a["simbolo"]}"><td class="c-empresa empresa"><strong>{html.escape(a["nome"])}'
                                   f'</strong><span class="tk">{tk}</span></td><td class="num c-preco">—</td>'
                                   f'<td class="num c-dia">—</td><td class="num c-mes">—</td><td class="c-linha"></td>'
-                                  f'<td class="c-pais pais">sem dado hoje</td></tr>')
+                                  f'<td class="c-pais pais">{termometro}</td></tr>')
                     continue
                 antigo = ("" if c["data"] >= dados["data"] else
                           f'<span class="antigo">último pregão {pd.Timestamp(c["data"]):%d/%m}</span>')
@@ -196,7 +197,7 @@ def paginas(saida: Path, dados: dict | None, m: dict) -> list[str]:
                     f'<td class="num c-dia">{variacao(c["dia_pct"])}</td>'
                     f'<td class="num c-mes">{variacao(c["mes_pct"], "em 30 dias")}</td>'
                     f'<td class="c-linha">{linha_svg(c["linha"], c["mes_pct"])}</td>'
-                    f'<td class="c-pais pais">{_termometro(a["pais"], medidos, regiao_de, "../")}</td></tr>')
+                    f'<td class="c-pais pais">{termometro}</td></tr>')
             secoes.append(f'<h2 id="{ARQUIVO_SETOR[setor]}">{setor}</h2><table class="cotas"><thead><tr><th>Empresa</th>'
                           f'<th class="num">Preço</th><th class="num">Dia</th><th class="num">30 dias</th><th>Tendência</th>'
                           f'<th>Termômetro</th></tr></thead><tbody>{"".join(linhas)}</tbody></table>')
