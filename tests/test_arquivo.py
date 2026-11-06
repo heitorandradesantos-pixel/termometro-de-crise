@@ -32,7 +32,7 @@ def montar_diario(pasta: Path, dias: list[str], por_dia: int) -> None:
             noticias.append(noticia(99, "2026-11-03"))  # a 99 se repete todo dia
         (d / "correspondente.json").write_text(json.dumps({"regioes": {"Oriente Médio": {
             "resumo": "", "paises": {}, "noticias": noticias, "observar": []}}}, ensure_ascii=False))
-        (d / "panorama.txt").write_text(f"*Panorama de {dia}*\n\n_Conteúdo educativo. Não é recomendação de investimento._")
+        (d / "panorama.txt").write_text(f"*Panorama de {dia}*\n\n_Conteúdo educativo, feito com IA e conferido por regras automáticas. Não é recomendação de investimento._")
     (pasta / "historico").mkdir()
     for nome in ("mundo_paises.csv", "mundo_regioes.csv"):
         shutil.copy(RAIZ / "edicoes" / "2026-11-05" / nome, pasta / "historico" / nome)
