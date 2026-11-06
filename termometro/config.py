@@ -98,7 +98,8 @@ BUSCAS_MAXIMAS = int(os.environ.get("BUSCAS_MAXIMAS") or "12")  # buscas na web 
 BUSCAS_POR_REGIAO = int(os.environ.get("BUSCAS_POR_REGIAO") or "3")  # Correspondente, a cada dia útil
 
 # ---------------------------------------------------------------- comunidade
-WHATSAPP_URL = os.environ.get("WHATSAPP_URL", "")  # link do canal do WhatsApp (whatsapp.com/channel/...)
+# Comunidade do WhatsApp onde sai o panorama de cada dia útil (a variável WHATSAPP_URL troca o link, se precisar).
+WHATSAPP_URL = os.environ.get("WHATSAPP_URL") or "https://chat.whatsapp.com/JO50Y0ZbiT5I0OOr0bt9Dc"
 CONTATO_EMAIL = os.environ.get("CONTATO_EMAIL") or "contato@termometrodecrise.com"
 RESPONSAVEL = os.environ.get("RESPONSAVEL", "")  # nome ou razão social e CNPJ do responsável pelo site (LGPD)
 # "sim" = publica sozinho quando o Revisor aprova; qualquer outra coisa = pede sua aprovação.
