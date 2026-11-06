@@ -1,0 +1,126 @@
+{
+ "titulo": "Ibovespa depois da eleição: quanto caiu e o que se sabe",
+ "descricao": "O Ibovespa fechou a 166.191 pontos em 5/11, cerca de 20,5% abaixo do recorde de 9/10. Veja o que explica a queda e o que ainda não se sabe.",
+ "palavra_chave": "ibovespa depois da eleição",
+ "lead": "O Ibovespa, principal índice da bolsa brasileira, fechou a 166.191,45 pontos em 5 de novembro. Isso é cerca de 20,5% abaixo do recorde de fechamento de 9 de outubro (209.067 pontos), em conta do Termômetro com os dois fechamentos. A maior parte da queda veio em 26 de outubro, um dia depois da reeleição de Lula, quando o índice caiu 13,88%, segundo InfoMoney e Reuters.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O recorde de fechamento do Ibovespa foi de 209.067 pontos, em 9 de outubro, com o dólar perto de R$ 5,00. A alta veio depois do primeiro turno, em que o índice subiu 7,7% em um só pregão, segundo levantamento da Genial Investimentos.",
+   "fonte_url": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/maiores-quedas-diarias-ibovespa-historia/",
+   "data": "2026-10-09",
+   "veiculo": "Genial Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 26 de outubro, o Ibovespa caiu 13,88%, a 176.608,23 pontos. Foi a maior perda em um dia desde 16 de março de 2020. A B3 acionou o circuit breaker, o mecanismo que suspende os negócios em quedas fortes, pela primeira vez desde março de 2020.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/do-rali-a-queda-historica-como-ibovespa-caiu-988-outubro-2026-maior-baixa-desde-2022/",
+   "data": "2026-10-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Reuters, o resultado contrariou a aposta de investidores na vitória do senador Flávio Bolsonaro (PL) e em uma agenda econômica que se esperava mais favorável ao ajuste das contas públicas. Um levantamento da Elos Ayta, citado pela agência, mostra perda de R$ 734 bilhões em valor de mercado na sessão.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-segue-fragilizado-e-com-atencao-a-fiscal-apos-tombo-com-reeleicao-de-lula/",
+   "data": "2026-10-27",
+   "veiculo": "Reuters (via InfoMoney)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 30 de outubro, a Reuters informou que o Ibovespa acumulava perda de 18,5% desde o resultado da eleição. Investidores estrangeiros retiraram quase R$ 7,6 bilhões do mercado secundário (a bolsa em si) nos três primeiros pregões da semana.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-recua-com-exterior-reforcando-ajuste-negativo-poseleicao-2109936",
+   "data": "2026-10-30",
+   "veiculo": "Reuters (via Investing.com)",
+   "confiavel": false
+  },
+  {
+   "texto": "Outubro fechou com queda de 9,88%, aos 167.921,80 pontos, a maior perda mensal desde junho de 2022. No ano, o índice ainda tinha alta de 4,22% em 30/10, segundo o resumo do mês.",
+   "fonte_url": "https://gazetamercantil.com/ibovespa-outubro-2026-queda-dolar-alta",
+   "data": "2026-10-30",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 3 de novembro, o Ibovespa fechou a 165.528,92 pontos (-1,42%), o menor nível desde janeiro e a sexta queda seguida. Em 4/11, subiu 1,23% e interrompeu a sequência.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-payroll-ajuste-fiscal-sexta/",
+   "data": "2026-11-03",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Na noite de 4/11, o Copom manteve a Selic, a taxa básica de juros, em 13,75% ao ano. Isso interrompeu uma sequência de cinco cortes. O comitê citou piora das expectativas de inflação e mais incertezas fiscais, segundo o Investidor Institucional.",
+   "fonte_url": "https://investidorinstitucional.com.br/mercados/mercado-de-capitais/ibovespa-recua-com-petrobras-e-dolar-chega-ao-maior-nivel-do-ano",
+   "data": "2026-11-04",
+   "veiculo": "Investidor Institucional",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 5 de novembro, o Ibovespa caiu 0,82%, a 166.191,45 pontos. O dólar subiu 0,68%, a R$ 5,4886. As explicações do dia foram o recuo da Petrobras, a queda das ações de tecnologia no exterior e as dúvidas sobre a política fiscal do próximo governo.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-5-11-26-lils-davs/",
+   "data": "2026-11-05",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Ibovespa fecha no recorde histórico de 209.067 pontos.",
+   "fonte_url": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/maiores-quedas-diarias-ibovespa-historia/",
+   "data": "2026-10-09",
+   "veiculo": "Genial Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "Dia seguinte ao 2º turno: Ibovespa cai 13,88%, com circuit breaker.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/do-rali-a-queda-historica-como-ibovespa-caiu-988-outubro-2026-maior-baixa-desde-2022/",
+   "data": "2026-10-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Outubro fecha com queda de 9,88%, aos 167.921,80 pontos.",
+   "fonte_url": "https://gazetamercantil.com/ibovespa-outubro-2026-queda-dolar-alta",
+   "data": "2026-10-30",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  },
+  {
+   "texto": "Ibovespa fecha a 165.528,92 pontos, o menor nível desde janeiro.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-payroll-ajuste-fiscal-sexta/",
+   "data": "2026-11-03",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Copom mantém a Selic em 13,75% e interrompe cinco cortes seguidos.",
+   "fonte_url": "https://investidorinstitucional.com.br/mercados/mercado-de-capitais/ibovespa-recua-com-petrobras-e-dolar-chega-ao-maior-nivel-do-ano",
+   "data": "2026-11-04",
+   "veiculo": "Investidor Institucional",
+   "confiavel": false
+  },
+  {
+   "texto": "Ibovespa cai 0,82% e fecha a 166.191,45 pontos; dólar a R$ 5,4886.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-5-11-26-lils-davs/",
+   "data": "2026-11-05",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado quando o governo vai anunciar a equipe econômica nem quais medidas vai adotar para controlar a dívida pública. Segundo a Nomad, citada pela Reuters, os investidores acompanham esses sinais de perto.",
+  "Não há consenso sobre se a queda já acabou. Analistas do Itaú BBA, ouvidos pela Reuters em 28/10, disseram que o índice não mostrava sinal consistente de recuperação. Esse quadro pode ter mudado desde então.",
+  "Não há consenso sobre o peso de cada causa. Para a Reuters, o principal fator foi a reversão das apostas na vitória de Flávio Bolsonaro. Analistas ouvidos pela Exame dizem que a queda também reflete o excesso de otimismo que levou o índice ao recorde antes da votação.",
+  "O fechamento de 6/11 ainda não estava disponível nas fontes consultadas. A pauta do dia era o relatório de emprego dos EUA e os sinais do governo sobre o ajuste das contas públicas, segundo o InfoMoney citado pelo SpaceMoney.",
+  "Os veículos divergem sobre a data da máxima do dia (5/10 ou 9/10) e sobre o tamanho da queda acumulada (de 17,5% a 18,5%, conforme a data e a base de comparação). Este texto usa o recorde de fechamento de 9/10, da Genial."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem fundo ou ETF (fundo negociado em bolsa) que acompanha o Ibovespa vê o valor da cota seguir o índice. Em outubro, R$ 10 mil em um papel que replicasse o índice virariam cerca de R$ 9.012, pela queda de 9,88%.",
+  "A Selic mantida em 13,75% significa que a taxa básica parou de cair por ora. Aplicações atreladas à Selic ou ao CDI seguem a taxa atual, e juros de crédito não ganham novo alívio por causa de um corte.",
+  "O dólar perto de R$ 5,49 encarece produtos importados, viagens e compras em moeda estrangeira em relação ao patamar de R$ 5,00 do início de outubro.",
+  "A queda do índice é uma média. Segundo o resumo de outubro, só 11 das 76 ações do Ibovespa subiram no mês, e 26 caíram mais de 20%. Ações de empresas diferentes tiveram resultados bem diferentes."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-depois-da-eleicao",
+ "publicado_em": "2026-11-06T13:51:16.436796",
+ "atualizado_em": "2026-11-06T13:51:16.436796",
+ "assunto": "Ibovespa depois da eleição: quanto a bolsa já caiu desde o recorde de outubro, o que explica e o que se sabe agora"
+}
