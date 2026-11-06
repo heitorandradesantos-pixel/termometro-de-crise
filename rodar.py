@@ -218,6 +218,29 @@ def mais_recente() -> Path:
     return pastas[-1]
 
 
+def parcial(dados_dir: Path, data: str, hora: str, coletar: bool = True) -> Path | None:
+    """Leitura do meio do dia (11h e 14h): só os números, sem notícias nem panorama, que seguem no fechamento.
+
+    Não mexe num dia que já fechou (com panorama) e não publica se faltarem séries demais."""
+    pasta, historico = DIARIO / data, DIARIO / "historico"
+    if (pasta / "panorama.txt").exists():
+        print(f"O fechamento de {data} já saiu; a leitura parcial não sobrescreve.")
+        return None
+    rel = mundo.coletar(dados_dir / "mundo") if coletar else \
+        json.loads((dados_dir / "mundo" / "coleta_mundo.json").read_text())
+    falhas = sorted(k for k, v in rel.items() if str(v).startswith("FALHOU"))
+    if len(falhas) > FALHAS_ACEITAS:
+        print(f"{len(falhas)} séries falharam ({', '.join(falhas)}); fica a leitura anterior.")
+        return None
+    pasta.mkdir(parents=True, exist_ok=True)
+    regional = mundo.rodar(dados_dir / "mundo", historico)
+    regional["parcial"] = {"hora": hora}
+    (pasta / "mundo.json").write_text(json.dumps(regional, ensure_ascii=False, indent=1))
+    (historico / "mundo.json").unlink(missing_ok=True)
+    print(f"Leitura parcial de {data} às {hora}: mundo em {(regional.get('mundo') or {}).get('valor')}.")
+    return pasta
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--site", action="store_true")
@@ -225,6 +248,7 @@ def main() -> None:
     p.add_argument("--aprovado", action="store_true")
     p.add_argument("--so-coleta", action="store_true")
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
+    p.add_argument("--parcial", action="store_true", help="leitura do meio do dia: só os números do mundo")
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
     p.add_argument("--conselho", action="store_true", help="conselho de monetização: os agentes debatem e fecham um plano")
     p.add_argument("--dados", default=str(RAIZ / "dados"), help="pasta dos dados baixados")
@@ -251,6 +275,13 @@ def main() -> None:
     elif a.diario:
         data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         diario(Path(a.dados), data, coletar=not a.sem_coleta)
+    elif a.parcial:
+        agora = pd.Timestamp.now(tz="America/Sao_Paulo")
+        pasta = parcial(Path(a.dados), a.data or agora.strftime("%Y-%m-%d"), agora.strftime("%Hh%M"),
+                        coletar=not a.sem_coleta)
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
+                saida.write(f"publicar={'sim' if pasta else 'nao'}\n")
     elif a.so_coleta:
         coleta.coletar(Path(a.dados))
     elif a.newsletter:
