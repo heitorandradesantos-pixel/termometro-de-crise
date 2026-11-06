@@ -187,7 +187,7 @@ def test_site_com_atualizacao_diaria_tem_paginas_clicaveis(tmp_path, dados_mundo
     inicio = (saida / "index.html").read_text()
     assert 'href="regioes/oriente-medio.html"' in inicio and 'href="paises/israel.html"' in inicio
     assert "O que está mexendo no termômetro" in inicio and "Catar medeia" in inicio
-    assert "atualizado em 06/11/2026" in inicio
+    assert "atualizada em 06/11/2026" in inicio and "mapa-mundo" in inicio and "Fechamento de" in inicio
     israel = (saida / "paises" / "israel.html").read_text()
     for trecho in ["Por que o termômetro está em", "O contexto", "Catar medeia", BUSCADOS[0], "Já foi pior?",
                    "<svg", "../regioes/oriente-medio.html"]:

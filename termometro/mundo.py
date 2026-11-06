@@ -325,11 +325,40 @@ def teste_historico(por_pais: pd.DataFrame, por_regiao: pd.DataFrame) -> list[di
     return linhas
 
 
+# Faixa de mercados: (rótulo, arquivo, tipo). "brl" = preço em reais calculado a partir das moedas contra o dólar.
+FAIXA = [("Ibovespa", "brasil_bolsa", "pontos"), ("Dólar", "brasil_moeda", "brl"), ("Euro", "euro", "brl"),
+         ("S&P 500", "eua_bolsa", "pontos"), ("DAX", "alemanha_bolsa", "pontos"), ("Nikkei", "japao_bolsa", "pontos"),
+         ("Hang Seng", "hong_kong_bolsa", "pontos"), ("Merval", "argentina_bolsa", "pontos")]
+
+
+def cotacoes(pasta: Path) -> list[dict]:
+    """Último fechamento e variação do dia de alguns mercados, para a faixa do topo do site."""
+    def serie(nome: str) -> pd.Series | None:
+        caminho = pasta / f"{nome}.csv"
+        if not caminho.exists():
+            return None
+        return pd.read_csv(caminho, parse_dates=["data"]).set_index("data")["valor"].dropna()
+    saida = []
+    for rotulo, nome, tipo in FAIXA:
+        if nome == "euro":  # euro em reais = (reais por dólar) / (euros por dólar)
+            brl, eur = serie("brasil_moeda"), serie("alemanha_moeda")
+            s = (brl / eur).dropna() if brl is not None and eur is not None else None
+        else:
+            s = serie(nome)
+        if s is None or len(s) < 2:
+            continue
+        ultimo, anterior = float(s.iloc[-1]), float(s.iloc[-2])
+        saida.append({"nome": rotulo, "ultimo": round(ultimo, 4 if tipo == "brl" else 2), "tipo": tipo,
+                      "variacao_pct": round(100 * (ultimo / anterior - 1), 2), "data": s.index[-1].strftime("%Y-%m-%d")})
+    return saida
+
+
 def rodar(pasta_dados: Path, pasta_saida: Path) -> dict:
     pasta_saida.mkdir(parents=True, exist_ok=True)
     por_pais, por_regiao, detalhes = calcular(pasta_dados)
     por_pais.to_csv(pasta_saida / "mundo_paises.csv")
     por_regiao.to_csv(pasta_saida / "mundo_regioes.csv")
-    dados = {**resumo(por_pais, por_regiao, detalhes), "teste_historico": teste_historico(por_pais, por_regiao)}
+    dados = {**resumo(por_pais, por_regiao, detalhes), "cotacoes": cotacoes(pasta_dados),
+             "teste_historico": teste_historico(por_pais, por_regiao)}
     (pasta_saida / "mundo.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1))
     return dados

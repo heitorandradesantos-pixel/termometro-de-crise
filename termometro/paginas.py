@@ -59,25 +59,41 @@ CSS = """
 .caixa{background:var(--painel);border-radius:14px;padding:16px;color:var(--texto);text-decoration:none;display:block}
 a.caixa:hover{outline:1px solid #34485A}
 .caixa h3{margin:0 0 6px;font-size:18px}.caixa p{margin:6px 0 0;font-size:14px;color:var(--suave)}
-.mini{display:grid;grid-template-columns:96px 1fr 28px;gap:8px;align-items:center;font-size:12px;color:var(--suave);margin-top:6px}
+.mini{display:grid;grid-template-columns:104px 1fr 28px;gap:8px;align-items:center;font-size:13px;color:var(--suave);margin-top:6px}
+.mini .barra,.mini .barra i{height:8px}
 .mini .barra{min-width:0}
-.sinal{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,220px);gap:18px;padding:16px 0;border-bottom:1px solid var(--linha)}
+.sinal{display:grid;grid-template-columns:minmax(0,60ch) minmax(0,240px);gap:24px;padding:16px 0;border-bottom:1px solid var(--linha)}
 .sinal:last-child{border-bottom:0}.sinal h3{margin:0 0 4px;font-size:18px}.sinal p{margin:0}
 .sinal .pct{font:700 28px/1 'Space Grotesk',sans-serif}.sinal .barra{margin:8px 0 6px}
 .noticia{border-left:4px solid var(--linha);padding:2px 0 2px 14px;margin:18px 0}
 .noticia h3{font-size:17px;margin:4px 0}.noticia p{margin:4px 0;font-size:15px}
 .meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:var(--suave)}
+.meta a{display:inline-block;padding:4px 0}
 .tag{border:1px solid var(--linha);border-radius:6px;padding:4px 8px;display:inline-block}
 .fontes{font-size:13px}.fontes a{margin-right:10px;display:inline-block;padding:4px 0}
 .hist svg{width:100%;height:auto;display:block}.hist .cel{display:none}
 .picos{margin:10px 0 0;padding-left:20px}.picos li{margin:4px 0}
 .ranking td{padding:10px 8px}.ranking a{color:var(--texto);text-decoration:none;font-weight:600;display:inline-block;padding:4px 0}
 .ranking .r{color:var(--suave);font-size:13px}
+.so-celular{display:none}
 .pano{white-space:pre-wrap;background:#0B1F17;border:1px solid #1F4D3A;border-radius:14px;padding:18px;font:15px/1.55 'IBM Plex Sans',sans-serif}
 .zap{background:#25D366;color:#0E141B}
+.mapa-mundo svg{width:100%;height:auto;display:block}.mapa-mundo path{stroke:#0E141B;stroke-width:.7}
+.mapa-mundo a:hover path,.mapa-mundo a:focus path{opacity:1;filter:brightness(1.15)}.mapa-mundo .re{opacity:.8}
+.mapa-mundo .pa{stroke:#EEF2F5;stroke-width:1.1}.rot-mapa text{font:600 19px 'Space Grotesk',sans-serif;fill:#EEF2F5;
+paint-order:stroke;stroke:#0E141B;stroke-width:5px;stroke-linejoin:round;pointer-events:none}
+.comparar{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:6px;margin-top:12px}
+.comparar div{background:#121B25;border-radius:8px;padding:8px 4px;text-align:center;font-size:12px;color:var(--suave)}
+.comparar strong{display:block;font:700 18px 'Space Grotesk',sans-serif;color:var(--texto)}
+.educativo{font-size:12px;color:var(--suave);margin:10px 0 0}
+.parcial{font-size:12px;color:var(--suave);border:1px dashed #44566A;border-radius:6px;padding:2px 6px;white-space:nowrap}
+.sobe{color:#EE8A3C}.desce{color:#7CC3E0}
+.bolso{background:#13202B;border:1px solid #23394A;border-radius:14px;padding:16px 18px;margin:16px 0}
+.bolso h3{margin:0 0 8px;font-size:18px}.bolso ul{margin:0;padding-left:20px}.bolso li{margin:6px 0}
 @media (max-width:760px){.ficha{grid-template-columns:1fr;gap:14px}.ficha h1{font-size:26px}.ficha .lead{font-size:16px}
 .grade,.grade2{grid-template-columns:1fr}.sinal{grid-template-columns:1fr;gap:6px}.hist .desk{display:none}.hist .cel{display:block}
-.ranking .esconde{display:none}}
+.rot-mapa{display:none}.comparar strong{font-size:16px}
+.ranking .esconde{display:none}.so-celular{display:block}}
 """
 
 
@@ -95,8 +111,10 @@ def variacao(agora, antes, texto: str = "mês passado") -> str:
     if agora is None or antes is None:
         return ""
     d = agora - antes
-    seta = "▲" if d > 0 else ("▼" if d < 0 else "=")
-    return f"{seta} {abs(d) if d else ''} em relação ao {texto} ({antes})".replace("  ", " ")
+    if d == 0:
+        return f"Igual ao {texto} ({antes})"
+    classe, seta, verbo = ("sobe", "▲", "subiu") if d > 0 else ("desce", "▼", "caiu")
+    return f'<span class="{classe}">{seta} {verbo} {abs(d)}</span> em relação ao {texto} ({antes})'
 
 
 def num(x: float, casas: int = 1) -> str:
@@ -183,28 +201,38 @@ def historico_html(serie: pd.Series | None, picos: list[dict], nome: str, valor)
             f'</section>')
 
 
+def fontes_unicas(fontes: list[dict], maximo: int = 3) -> list[dict]:
+    vistos, saida = set(), []
+    for f in fontes:
+        nome = (f.get("veiculo") or "fonte").strip()
+        if nome.lower() not in vistos:
+            vistos.add(nome.lower())
+            saida.append({**f, "veiculo": nome})
+    return saida[:maximo]
+
+
 def noticia_html(n: dict, raiz: str, mostrar_regiao: bool = True) -> str:
     direcao = n.get("direcao") or ""
-    cor = COR_DIRECAO.get(direcao, C["linha"])
-    meta = []
-    if mostrar_regiao and n.get("regiao"):
-        if n["regiao"] in motor.REGIOES:
-            meta.append(f'<a class="tag" href="{raiz}regioes/{motor.slug(n["regiao"])}.html">{html.escape(n["regiao"])}</a>')
-        else:
-            meta.append(f'<span class="tag">{html.escape(n["regiao"])}</span>')
+    meta = [data_curta(n["data"])] if n.get("data") else []
+    if mostrar_regiao and n.get("regiao") in motor.REGIOES:
+        meta.append(f'<a href="{raiz}regioes/{motor.slug(n["regiao"])}.html">{html.escape(n["regiao"])}</a>')
+    elif mostrar_regiao and n.get("regiao"):
+        meta.append(html.escape(n["regiao"]))
     if n.get("status"):
-        meta.append(f'<span class="tag">{html.escape(n["status"])}</span>')
-    if n.get("data"):
-        meta.append(f"<span>{data_curta(n['data'])}</span>")
+        meta.append(html.escape(n["status"]))
+    mexe = ""
     if n.get("mexe_em"):
-        meta.append(f'<span style="color:{cor}">Mexe em: {html.escape(", ".join(n["mexe_em"]))}'
-                    f'{" · " + TEXTO_DIRECAO.get(direcao, "") if direcao else ""}</span>')
+        ponto = (f'<span style="color:{COR_DIRECAO[direcao]}" aria-hidden="true">●</span> '
+                 if direcao in ("pressiona", "alivia") else "")
+        mexe = (f'<p class="meta">{ponto}Mexe em: {html.escape(", ".join(n["mexe_em"]))}'
+                f'{" (" + TEXTO_DIRECAO.get(direcao, "") + ")" if direcao else ""}</p>')
     fontes = "".join(f'<a href="{html.escape(f["url"])}" target="_blank" rel="noopener noreferrer">'
-                     f'{html.escape(f.get("veiculo") or "fonte")}</a>' for f in n.get("fontes", [])[:3])
+                     f'{html.escape(f["veiculo"])}</a>' for f in fontes_unicas(n.get("fontes", [])))
     canal = (f'<p class="suave" style="font-size:14px">Como chega ao Brasil: {html.escape(n["canal_brasil"])}</p>'
              if n.get("canal_brasil") else "")
-    return (f'<article class="noticia" style="border-left-color:{cor}"><div class="meta">{"".join(meta)}</div>'
-            f'<h3>{html.escape(n["titulo"])}</h3><p>{html.escape(n.get("resumo", ""))}</p>{canal}'
+    return (f'<article class="noticia" style="border-left-color:{n.get("cor") or C["linha"]}">'
+            f'<div class="meta">{" · ".join(meta)}</div>'
+            f'<h3>{html.escape(n["titulo"])}</h3><p>{html.escape(n.get("resumo", ""))}</p>{canal}{mexe}'
             f'<div class="fontes">Fonte: {fontes}</div></article>')
 
 
@@ -215,7 +243,8 @@ def noticias_secao(noticias: list[dict], titulo: str, raiz: str, mostrar_regiao:
     itens = "".join(noticia_html(n, raiz, mostrar_regiao) for n in noticias)
     return (f'<section class="cartao"><h2 style="margin-top:0">{titulo}</h2>{itens}'
             f'<p class="suave" style="font-size:13px">Cada notícia traz o status do fato (confirmado, ameaça, negociação…) '
-            f'e o link da fonte. Laranja: aumenta a tensão. Azul: alivia.</p></section>')
+            f'e o link da fonte. A borda tem a cor do nível da região; o ponto laranja indica que a notícia aumenta a '
+            f'tensão, e o azul, que alivia.</p></section>')
 
 
 # ---------------------------------------------------------------- explicações a partir dos números
@@ -285,6 +314,110 @@ def por_que_automatico(p: dict) -> str:
     return texto
 
 
+def parcial(p: dict) -> str:
+    """Selo quando o país tem menos de 3 sinais (ex.: Egito, só moeda)."""
+    n = sum(1 for v in (p.get("sinais") or {}).values() if v is not None)
+    return f' <span class="parcial" title="Leitura com menos sinais">dados parciais: {n} de 3 sinais</span>' if 0 < n < 3 else ""
+
+
+def bolso_brasil(p: dict) -> str:
+    """O que a leitura do Brasil muda no dia a dia, em termos gerais e educativos (sem recomendação)."""
+    b, s = p.get("brutos") or {}, p.get("sinais") or {}
+    itens = []
+    v = b.get("moeda_variacao_3m_pct")
+    if v is not None and abs(v) >= 1:
+        if v > 0:
+            itens.append(f"O dólar subiu {num(v)}% em 3 meses: viagem internacional, eletrônicos, remédios e outros produtos "
+                         "importados tendem a ficar mais caros, e a conta pode chegar à inflação.")
+        else:
+            itens.append(f"O dólar caiu {num(abs(v))}% em 3 meses: importados e viagens tendem a pesar menos no bolso.")
+    q = b.get("bolsa_queda_pct")
+    if q is not None and q >= 5:
+        itens.append(f"A bolsa está {num(q)}% abaixo do topo de 12 meses: fundos de ações e planos de previdência com parte "
+                     "em ações podem mostrar saldo menor no extrato. Oscilação faz parte desse tipo de aplicação.")
+    if (s.get("volatilidade") or 0) >= 70:
+        itens.append("O sobe e desce da bolsa está acima do normal: o extrato de investimentos em ações pode variar mais "
+                     "de um dia para o outro.")
+    if not itens:
+        itens.append("Os sinais do Brasil estão perto do normal: por enquanto, pouca pressão vinda do mercado sobre o dia a dia.")
+    lista = "".join(f"<li>{html.escape(i)}</li>" for i in itens)
+    return (f'<div class="bolso"><h3>O que isso muda no seu bolso</h3><ul>{lista}</ul>'
+            f'<p class="educativo">Explicação geral e educativa. Não é recomendação de investimento.</p></div>')
+
+
+def comparacoes(f: dict) -> list[tuple[str, int]]:
+    """Mundo hoje comparado com ontem, uma semana, o mês passado e um ano atrás (como o Fear & Greed da CNN)."""
+    m = (f.get("mundo") or {}).get("mundo") or {}
+    saida = []
+    dias = f.get("dias_anteriores") or []
+    hoje = pd.Timestamp(f["data"])
+    if dias:
+        saida.append(("Último panorama" if (hoje - pd.Timestamp(dias[-1][0])).days > 1 else "Ontem", dias[-1][1]))
+        semana = [v for d, v in dias if (hoje - pd.Timestamp(d)).days >= 7]
+        if semana:
+            saida.append(("1 semana", semana[-1]))
+    if m.get("mes_anterior") is not None:
+        saida.append(("Mês passado", m["mes_anterior"]))
+    regioes = f.get("regioes")
+    if regioes is not None and "Mundo (média das regiões)" in regioes:
+        serie = regioes["Mundo (média das regiões)"].dropna()
+        if len(serie) > 12:
+            saida.append(("1 ano atrás", round(float(serie.iloc[-13]))))
+    return saida[:4]
+
+
+def comparacoes_html(lista: list[tuple[str, int]]) -> str:
+    if not lista:
+        return ""
+    itens = "".join(f'<div><strong style="color:{config.nivel_de(v)["cor"]}">{v}</strong>{html.escape(r)}</div>' for r, v in lista)
+    return f'<div class="comparar" aria-label="Comparação com leituras anteriores">{itens}</div>'
+
+
+MAPA = Path(__file__).resolve().parent / "mapa_mundo.json"
+A2 = {"EUA": "US", "Canadá": "CA", "México": "MX", "Brasil": "BR", "Argentina": "AR", "Alemanha": "DE", "França": "FR",
+      "Reino Unido": "GB", "Turquia": "TR", "Israel": "IL", "Egito": "EG", "África do Sul": "ZA", "Nigéria": "NG",
+      "Japão": "JP", "China": "CN", "Hong Kong": "HK", "Índia": "IN", "Coreia do Sul": "KR", "Austrália": "AU"}
+
+
+def mapa_svg(m: dict, raiz: str = "") -> str:
+    """Mapa-múndi clicável: cada região na cor do seu nível; os países que medimos, na cor do próprio termômetro.
+    Para teclado e leitor de tela, a lista de regiões logo abaixo faz o mesmo papel (o mapa fica fora do foco)."""
+    if not MAPA.exists():
+        return ""
+    dados = json.loads(MAPA.read_text())
+    regioes = {r["nome"]: r for r in m.get("regioes", []) if r.get("valor") is not None}
+    medidos = {A2[p["nome"]]: p for r in regioes.values() for p in r["paises"] if p.get("valor") is not None and p["nome"] in A2}
+    formas = []
+    for c in dados["paises"]:
+        r = regioes.get(c["regiao"])
+        if r is None:
+            continue
+        if c["a2"] in medidos:
+            p = medidos[c["a2"]]
+            href, cor, classe = f"{raiz}paises/{p['slug']}.html", p["cor"], "pa"
+            dica = f"{p['nome']}: {p['valor']}, {p['nivel']} (toque para entender)"
+        else:
+            href, cor, classe = f"{raiz}regioes/{r['slug']}.html", r["cor"], "re"
+            dica = f"{c['nome']} · {r['nome']}: {r['valor']}, {r['nivel']}"
+        formas.append(f'<a href="{href}" tabindex="-1"><path class="{classe}" d="{c["d"]}" fill="{cor}">'
+                      f'<title>{html.escape(dica)}</title></path></a>')
+    rotulos = "".join(f'<text x="{x}" y="{y}" text-anchor="middle">{html.escape(nome)} {regioes[nome]["valor"]}</text>'
+                      for nome, (x, y) in dados.get("rotulos", {}).items() if nome in regioes)
+    return (f'<figure class="mapa-mundo" style="margin:0"><svg viewBox="0 0 {dados["largura"]} {dados["altura"]}" '
+            f'aria-hidden="true" focusable="false">{"".join(formas)}'
+            f'<g class="rot-mapa">{rotulos}</g></svg></figure>')
+
+
+def jsonld(*itens: dict) -> str:
+    return "".join(f'<script type="application/ld+json">{json.dumps(i, ensure_ascii=False)}</script>' for i in itens)
+
+
+def migalhas(*passos: tuple[str, str]) -> dict:
+    base = config.SITE_URL or ""
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": nome, "item": f"{base}/{caminho}"} for i, (nome, caminho) in enumerate(passos, 1)]}
+
+
 def mais_pesa(p: dict) -> str:
     sinais = sorted(sinais_explicados(p), key=lambda x: -x["pct"])
     return f"O que mais pesa: {NA_FRASE[sinais[0]['chave']]} ({sinais[0]['pct']})" if sinais else ""
@@ -349,6 +482,18 @@ def fonte(pasta_edicao: Path, pasta_diario: Path) -> dict:
             p.setdefault("slug", motor.slug(p["nome"]))
             if "picos" not in p and f["paises"] is not None and p["nome"] in f["paises"]:
                 p["picos"] = motor.picos(f["paises"][p["nome"]], p["nome"], r["nome"])
+    # cor do nível da região em cada notícia (borda do cartão) e leituras anteriores do mundo (comparações)
+    cores = {r["nome"]: r.get("cor") for r in f["mundo"].get("regioes", [])}
+    listas = [f["noticias"]] + [r.get("noticias", []) for r in ((f.get("correspondente") or {}).get("regioes") or {}).values()]
+    for lista in listas:
+        for n in lista:
+            n["cor"] = cores.get(n.get("regiao"))
+    f["dias_anteriores"] = []
+    for d in dias_do_diario(pasta_diario):
+        if d.name < f["data"]:
+            valor = ((_json(d / "mundo.json") or {}).get("mundo") or {}).get("valor")
+            if valor is not None:
+                f["dias_anteriores"].append((d.name, valor))
     return f
 
 
@@ -364,9 +509,11 @@ def noticias_da_regiao(f: dict, regiao: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------- páginas
-def ficha(nome: str, valor, nivel: str, cor: str, lead: str, extra: str, rotulo: str) -> str:
+def ficha(nome: str, valor, nivel: str, cor: str, lead: str, extra: str, rotulo: str, raiz: str = "../") -> str:
     return (f'<section class="ficha"><div class="global"><span class="rotulo">{rotulo}</span>{medidor_svg(valor, cor)}'
-            f'<div class="valor">{valor}</div><div class="nivel" style="color:{cor}">{nivel.upper()}</div></div>'
+            f'<div class="valor">{valor}</div><div class="nivel" style="color:{cor}">{nivel.upper()}</div>'
+            f'<p class="educativo">Indicador educativo: mostra o que já aconteceu, não prevê nem recomenda. '
+            f'<a href="{raiz}metodologia.html#mundo">Como calculamos</a></p></div>'
             f'<div><h1>{html.escape(nome)}</h1><p class="lead">{lead}</p>{extra}</div></section>')
 
 
@@ -392,19 +539,24 @@ def pagina_regiao(f: dict, r: dict) -> str:
                         for s in sinais_explicados(p))
         cartoes.append(f'<a class="caixa" href="../paises/{p["slug"]}.html" style="border-top:5px solid {p["cor"]}">'
                        f'<h3>{html.escape(p["nome"])} <span style="float:right">{p["valor"]} {chip(p["nivel"], p["cor"])}</span></h3>'
-                       f'{minis}<p>{html.escape(curto)}</p><p style="color:#7CC3E0">Entender {html.escape(p["nome"])} →</p></a>')
+                       f'{minis}{("<p>" + parcial(p).strip() + "</p>") if parcial(p) else ""}<p>{html.escape(curto)}</p>'
+                       f'<p style="color:#7CC3E0">Entender {html.escape(com_artigo(p["nome"]))}</p></a>')
     noticias = noticias_da_regiao(f, r["nome"])
     serie = f["regioes"][r["nome"]] if f["regioes"] is not None and r["nome"] in f["regioes"] else None
     corpo = (f'<p class="trilha"><a href="../index.html">Início</a> › {html.escape(r["nome"])}</p>'
-             + ficha(r["nome"], r["valor"], r["nivel"], r["cor"], lead, extra, "TERMÔMETRO DA REGIÃO")
-             + f'<section><h2>Os países</h2><div class="grade">{"".join(cartoes)}</div></section>'
+             + ficha(r["nome"], r["valor"], r["nivel"], r["cor"], lead, extra, "Termômetro da região")
+             + (f'<section><h2>{html.escape(sujeito(ordenados[0]["nome"])[0])} {"são" if sujeito(ordenados[0]["nome"])[1] == "estão" else "é"} '
+                f'o país mais tenso da região: {ordenados[0]["valor"]}</h2><div class="grade">{"".join(cartoes)}</div></section>'
+                if ordenados else "")
              + noticias_secao(noticias, "Notícias que mexem com o termômetro", "../", mostrar_regiao=False,
                               vazio="Nenhuma notícia conferida com fonte nos últimos dias para esta região.")
              + historico_html(serie, r.get("picos", []), r["nome"], r["valor"])
              + observar_html(ex.get("observar", []))
              + metodo_curto("../"))
-    return pagina(f"{r['nome']}: termômetro em {r['valor']} ({r['nivel']}) · {config.NOME}",
-                  f"Por que o termômetro de crise {de(r['nome'])} está em {r['valor']} de 100, país por país, com as notícias que mexem com ele.",
+    corpo += jsonld(migalhas(("Início", ""), (r["nome"], f"regioes/{r['slug']}.html")))
+    return pagina(f"Risco de crise {em(r['nome'])}: termômetro em {r['valor']} ({r['nivel']})",
+                  f"Por que o risco de crise {em(r['nome'])} está em {r['valor']} de 100, país por país, com as notícias "
+                  f"que mexem com o termômetro. Atualizado todo dia útil.",
                   corpo, raiz="../", caminho=f"regioes/{r['slug']}.html", extra_css=CSS)
 
 
@@ -412,7 +564,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
     ex = explicacao(f, r["nome"])
     nivel = config.nivel_de(p["valor"])
     lead = f"{p['valor']} de 100: {nivel['leitura'].lower()}."
-    extra = (f'<p class="suave" style="margin:0 0 10px">{variacao(p["valor"], p.get("mes_anterior"))}</p>'
+    extra = (f'<p class="suave" style="margin:0 0 10px">{variacao(p["valor"], p.get("mes_anterior"))}{parcial(p)}</p>'
              f'<p style="margin:0">{html.escape(mais_pesa(p))}. Região: '
              f'<a href="../regioes/{r["slug"]}.html">{html.escape(r["nome"])} ({r["valor"]})</a>.</p>')
     linhas = "".join(f'<div class="sinal"><div><h3>{s["nome"]}</h3><p>{html.escape(s["frase"])}</p></div>'
@@ -431,9 +583,10 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
                         for v in r["paises"] if v["nome"] != p["nome"] and v.get("valor") is not None)
     corpo = (f'<p class="trilha"><a href="../index.html">Início</a> › <a href="../regioes/{r["slug"]}.html">'
              f'{html.escape(r["nome"])}</a> › {html.escape(p["nome"])}</p>'
-             + ficha(p["nome"], p["valor"], p["nivel"], p["cor"], lead, extra, "TERMÔMETRO DO PAÍS")
+             + ficha(p["nome"], p["valor"], p["nivel"], p["cor"], lead, extra, "Termômetro do país")
              + f'<section class="cartao"><h2 style="margin-top:0">Por que o termômetro está em {p["valor"]}</h2>'
                f'<p>{html.escape(por_que_automatico(p))} O termômetro é a média destes sinais:</p>{linhas}</section>'
+             + (bolso_brasil(p) if p["nome"] == "Brasil" else "")
              + bloco_contexto
              + noticias_secao(noticias, f"Notícias que mexem com {html.escape(ARTIGOS.get(p['nome'], '') + ' ' + p['nome']).strip()}", "../", mostrar_regiao=False)
              + noticias_secao(da_regiao, f"Na região: {html.escape(r['nome'])}", "../", mostrar_regiao=False)
@@ -441,8 +594,10 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
              + (f'<section><h2>Outros países da região</h2><p class="meta" style="font-size:14px">{vizinhos}</p></section>'
                 if vizinhos else "")
              + metodo_curto("../"))
-    return pagina(f"{p['nome']}: termômetro de crise em {p['valor']} ({p['nivel']}) · {config.NOME}",
-                  f"Por que o termômetro de crise {de(p['nome'])} está em {p['valor']} de 100: bolsa, sobe e desce, moeda e as notícias.",
+    corpo += jsonld(migalhas(("Início", ""), (r["nome"], f"regioes/{r['slug']}.html"), (p["nome"], f"paises/{p['slug']}.html")))
+    return pagina(f"Risco de crise {em(p['nome'])} hoje: termômetro em {p['valor']} ({p['nivel']})",
+                  f"Por que o risco de crise {em(p['nome'])} está em {p['valor']} de 100: bolsa, moeda, sobe e desce e as "
+                  f"notícias que mexem com o termômetro. Atualizado todo dia útil.",
                   corpo, raiz="../", caminho=f"paises/{p['slug']}.html", extra_css=CSS)
 
 
@@ -468,8 +623,9 @@ def pagina_ranking(f: dict) -> str:
     linhas = []
     todos = [(p, r) for r in f["mundo"].get("regioes", []) for p in r.get("paises", []) if p.get("valor") is not None]
     for i, (p, r) in enumerate(sorted(todos, key=lambda x: -x[0]["valor"]), 1):
-        linhas.append(f'<tr><td class="r">{i}</td><td><a href="paises/{p["slug"]}.html">{html.escape(p["nome"])}</a>'
-                      f'<br><a class="r" href="regioes/{r["slug"]}.html" style="font-weight:400">{html.escape(r["nome"])}</a></td>'
+        linhas.append(f'<tr><td class="r">{i}</td><td><a href="paises/{p["slug"]}.html">{html.escape(p["nome"])}</a>{parcial(p)}'
+                      f'<br><a class="r" href="regioes/{r["slug"]}.html" style="font-weight:400">{html.escape(r["nome"])}</a>'
+                      f'<div class="so-celular" style="margin-top:6px">{barra(p["valor"])}</div></td>'
                       f'<td class="esconde" style="width:30%">{barra(p["valor"])}</td>'
                       f'<td class="num">{p["valor"]}</td><td>{chip(p["nivel"], p["cor"])}</td>'
                       f'<td class="r esconde">{variacao(p["valor"], p.get("mes_anterior"))}</td></tr>')

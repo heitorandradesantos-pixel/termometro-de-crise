@@ -90,7 +90,7 @@ def historico(resultado: pd.DataFrame, dados: dict, caminho: Path, mobile: bool 
 
     inicio, fim = serie.index[0].year, serie.index[-1].year
     x0 = L["eixo"][0] - (0.04 if mobile else 0)
-    fig.text(x0, L["titulo_y"], f"{config.NOME}, {inicio}–{fim}", color=C["texto"], fontsize=L["titulo"],
+    fig.text(x0, L["titulo_y"], f"Índice dos mercados globais, {inicio}–{fim}", color=C["texto"], fontsize=L["titulo"],
              weight="semibold")
     subtitulo = ("Índice mensal de estresse dos mercados,\nde 0 a 100. Cada faixa de cor é um nível." if mobile else
                  "Índice mensal de estresse dos mercados, de 0 a 100. Cada faixa de cor é um nível.")

@@ -96,7 +96,8 @@ MEDIR = r"""() => {
   // links no meio de uma frase são exceção na WCAG 2.5.8
   const noTexto = a => { const p = a.parentElement; return a.tagName === 'A' && p &&
     ['P', 'LI', 'SPAN', 'TD', 'EM', 'STRONG'].includes(p.tagName) && (p.textContent.length - a.textContent.length) > 15; };
-  const pequenos = alvos.filter(a => { const r = a.getBoundingClientRect(); return (r.width < 24 || r.height < 24) && !noTexto(a); });
+  const pequenos = alvos.filter(a => { const r = a.getBoundingClientRect();
+    return (r.width < 24 || r.height < 24) && !noTexto(a) && !a.closest('svg[aria-hidden="true"]'); });
   o.alvos_total = alvos.length; o.alvos_pequenos = pequenos.length;
   o.exemplos_alvos = pequenos.slice(0, 5).map(a => { const r = a.getBoundingClientRect();
     return `${corta(a.textContent || a.getAttribute('aria-label') || a.tagName, 40)} (${Math.round(r.width)}×${Math.round(r.height)})`; });
