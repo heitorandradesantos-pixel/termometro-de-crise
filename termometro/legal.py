@@ -39,9 +39,10 @@ tipo de navegador, data, hora e página visitada, para manter o site no ar e seg
 servidores do Google Fonts, o que faz o seu navegador informar o seu endereço IP ao Google.</li>
 <li><strong>Newsletter.</strong> Se você se inscrever, tratamos o seu e-mail e os dados de entrega e leitura das mensagens
 (por exemplo, se o e-mail foi aberto), por meio da plataforma de envio.</li>
-<li><strong>WhatsApp.</strong> Quem segue um canal do WhatsApp não tem o número de telefone mostrado aos administradores.
-Em grupos e comunidades, o seu número fica visível para administradores e participantes, conforme as regras do próprio
-WhatsApp.</li>
+<li><strong>WhatsApp.</strong> O panorama sai nos avisos da nossa comunidade do WhatsApp. Ali, o seu número de telefone
+fica oculto para os outros participantes, mas os administradores podem vê-lo, conforme as regras do próprio WhatsApp. Não
+copiamos esses números para nenhuma outra lista nem os usamos para outro fim. Em canais, nem os administradores veem o
+número; em grupos comuns, ele fica visível para todos.</li>
 <li><strong>Contato.</strong> Se você nos escrever, tratamos o seu nome, e-mail e o conteúdo da mensagem para responder.</li>
 </ul>
 <p>Não pedimos dados sensíveis e não tratamos dados de crianças e adolescentes de forma intencional: o site é destinado a
@@ -134,8 +135,8 @@ dados e marcas de terceiros pertencem aos respectivos titulares; os links extern
 volume, e não use o nome do {config.NOME} para enganar outras pessoas.</p>
 
 <h2>7. Newsletter, panorama e canais</h2>
-<p>A inscrição é gratuita e você pode sair a qualquer momento, pelo link no fim de cada e-mail ou deixando de seguir o
-canal. O tratamento dos seus dados segue a <a href="privacidade.html">política de privacidade</a>.</p>
+<p>A inscrição é gratuita e você pode sair a qualquer momento, pelo link no fim de cada e-mail, saindo da comunidade do
+WhatsApp ou deixando de seguir o canal. O tratamento dos seus dados segue a <a href="privacidade.html">política de privacidade</a>.</p>
 
 <h2>8. Produtos pagos</h2>
 <p>Se oferecermos cursos, assinaturas ou outros produtos pagos, eles terão condições próprias, informadas antes da compra.
