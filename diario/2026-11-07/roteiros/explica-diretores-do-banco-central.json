@@ -1,0 +1,127 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "A troca no Banco Central muda seus juros? Hoje, não.",
+  "na_tela": "Seus juros mudam? HOJE, não",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "A troca no Banco Central muda seus juros? Hoje, não.",
+   "na_tela": "Seus juros mudam? HOJE, não",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027.",
+   "na_tela": "SEIS das nove cadeiras do BC",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Duas cadeiras da diretoria do Banco Central estão vagas desde janeiro.",
+   "na_tela": "Duas VAGAS desde janeiro",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "A troca no Banco Central muda seus juros? Hoje, não.",
+  "Aqui é a Clara, com o Termômetro de Crise.",
+  "Seis das nove cadeiras da diretoria terão novos ocupantes até o fim de 2027.",
+  "Lula escolhe, e o Senado precisa aprovar cada nome.",
+  "Nenhuma indicação formal chegou ao Senado até agora.",
+  "Nome que circula sem confirmação oficial é boato: espere a indicação formal.",
+  "Mas o que importa para o seu bolso é isto: hoje, nada muda.",
+  "O Copom manteve a Selic em 13,75% ao ano, por unanimidade.",
+  "A Selic é a taxa básica de juros, referência para financiamento, cartão e renda fixa.",
+  "Ter maioria não é controlar a Selic: cada decisão é votada por nove integrantes.",
+  "Com financiamento ou produto ligado à Selic, o que pesa é o Copom de dezembro.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "A troca no Banco Central muda seus juros? Hoje, não. Aqui é a Clara, com o Termômetro de Crise. Seis das nove cadeiras da diretoria terão novos ocupantes até o fim de 2027. Lula escolhe, e o Senado precisa aprovar cada nome. Nenhuma indicação formal chegou ao Senado até agora. Nome que circula sem confirmação oficial é boato: espere a indicação formal. Mas o que importa para o seu bolso é isto: hoje, nada muda. O Copom manteve a Selic em 13,75% ao ano, por unanimidade. A Selic é a taxa básica de juros, referência para financiamento, cartão e renda fixa. Ter maioria não é controlar a Selic: cada decisão é votada por nove integrantes. Com financiamento ou produto ligado à Selic, o que pesa é o Copom de dezembro. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 146,
+ "segundos": 58,
+ "na_tela": [
+  {
+   "texto": "Seus juros mudam? HOJE, não",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Seis das nove cadeiras até o fim de 2027",
+   "fonte": "Folha"
+  },
+  {
+   "fala": 4,
+   "texto": "Nenhuma indicação formal ainda",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "HOJE, nada muda",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 8,
+   "texto": "Selic = taxa básica de juros",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 9,
+   "texto": "Nove integrantes votam",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 10,
+   "texto": "Próximo ponto: Copom de dezembro",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 6,
+ "busca": "troca de diretores do Banco Central",
+ "legenda": "Troca de diretores do Banco Central: o que muda nos seus juros?\n\nSeis das nove cadeiras da diretoria do BC terão novos ocupantes até o fim de 2027. Quem escolhe é o presidente Lula, e o Senado precisa aprovar cada nome. Até agora, nenhuma indicação formal foi encontrada.\n\nHoje, nada muda: o Copom manteve a Selic em 13,75% ao ano, por unanimidade. Ter maioria de indicados não é controlar a Selic, porque cada decisão é votada por nove integrantes.\n\nSe você tem financiamento ou produto ligado à Selic, o ponto de atenção nos próximos meses é o Copom de dezembro.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancocentral #selic #copom #educacaofinanceira",
+ "hashtags": [
+  "#bancocentral",
+  "#selic",
+  "#copom",
+  "#educacaofinanceira"
+ ],
+ "tipo": "explica",
+ "persona": "Clara",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "data": "2026-11-07",
+ "gerado_em": "2026-11-07T11:00:42.594357-03:00"
+}
