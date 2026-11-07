@@ -1,0 +1,129 @@
+{
+ "titulo": "Pix, Nubank, Mercado Pago e Binance têm ligação? O que se sabe",
+ "descricao": "Pix caiu, Nubank e Mercado Pago travaram cripto e a Binance sofreu roubo de US$ 6,3 bi. Até agora, nenhuma fonte oficial liga os três casos.",
+ "palavra_chave": "pix fora do ar e roubo na binance",
+ "lead": "Até agora, nenhuma fonte oficial ou veículo consultado confirmou ligação entre a queda do Pix, o bloqueio de cripto no Nubank e no Mercado Pago e o roubo de US$ 6,3 bilhões na Binance. Os três casos ocorreram em oito dias, entre 29/10 e 6/11, mas cada um tem explicação própria dada pelas empresas ou pelo Banco Central. A causa da queda do Pix e o fornecedor que falhou nos apps de cripto ainda não foram revelados.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Pix teve falha na noite de 6/11. O Banco Central disse que houve uma 'indisponibilidade parcial', que a equipe técnica resolveu rápido e que seus sistemas funcionam normalmente. Segundo o Downdetector, site que mede reclamações de falhas, o pico foi às 19h11, com 11.090 relatos.",
+   "fonte_url": "https://diariodorn.com.br/banco-central-se-pronuncia-apos-pix-sair-do-ar-e-gerar-milhares-de-reclamacoes-nas-redes/",
+   "data": "2026-11-06",
+   "veiculo": "Diário do RN",
+   "confiavel": false
+  },
+  {
+   "texto": "A falha do Pix atingiu clientes de vários bancos, entre eles Nubank e Mercado Pago, além de Itaú, Bradesco, Caixa, Banco do Brasil, Santander, C6 Bank e Inter. A nota do BC não detalhou a causa nem quantas transações foram afetadas.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/07/banco-central-confirma-falha-parcial-no-pix-que-atingiu-bancos-na/",
+   "data": "2026-11-06",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Na sexta (6/11), o Nubank suspendeu depósitos e saques de cripto na NuCripto e atribuiu o problema a uma instabilidade em um fornecedor externo de dados. O banco diz que a falha não está na sua infraestrutura e que os ativos seguem protegidos.",
+   "fonte_url": "https://www.poder360.com.br/poder-economia/nubank-e-mercado-pago-restringem-temporariamente-operacoes-com-cripto/",
+   "data": "2026-11-06",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "O Mercado Pago bloqueou parte das transferências de cripto para carteiras externas. Atribuiu o problema a um incidente em um fornecedor de monitoramento de risco e prevenção à lavagem de dinheiro. Depósitos podem atrasar e serão creditados automaticamente quando o sistema voltar.",
+   "fonte_url": "https://amadomundo.com/criptomoedas-nubank-mercado-pago-transferencias/",
+   "data": "2026-11-06",
+   "veiculo": "Amado Mundo",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o Metrópoles, a suspensão não significa que as criptomoedas foram perdidas. O problema foi em serviços de fornecedores externos, e não em um ataque ou falha de segurança. Compra e venda dentro dos apps continuam funcionando, e nenhuma das duas empresas deu prazo para a volta das transferências.",
+   "fonte_url": "https://www.metropoles.com/brasil/entenda-por-que-nubank-e-mercado-pago-suspenderam-saques-de-cripto",
+   "data": "2026-11-06",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "A Binance sofreu o roubo de cerca de US$ 6,3 bilhões em 29/10. A maior parte saiu em cerca de 20 minutos, de carteiras que a corretora usa para processar transações. A TRM Labs, empresa de análise de blockchain, diz que os atacantes comprometeram a infraestrutura de assinatura da Binance.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/negocios/caso-binance-como-ocorreu-o-maior-roubo-da-historia-das-criptomoedas/",
+   "data": "2026-10-29",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Em relatório divulgado em 3/11, a Binance disse que os invasores usaram uma falsa entrevista de emprego e uma ferramenta adulterada para chegar às carteiras. O FBI atribuiu o ataque a um grupo norte-coreano, e a Coreia do Norte rejeitou a acusação. A Binance diz que está ressarcindo quem perdeu recursos.",
+   "fonte_url": "https://www.terra.com.br/noticias/mundo/binance-detalha-como-foi-feita-invasao-que-roubou-us-63-bi-da-corretora,4134bc6d5bde5e9d9212b8705f747df7gvs1g5l7.html",
+   "data": "2026-11-03",
+   "veiculo": "Terra",
+   "confiavel": false
+  },
+  {
+   "texto": "Nenhum veículo consultado descreve ligação entre o roubo na Binance e as falhas do Nubank e do Mercado Pago. Segundo o Amado Mundo, apesar da proximidade das datas, não há informações que liguem essas falhas a ataques ou falhas de segurança internas.",
+   "fonte_url": "https://amadomundo.com/criptomoedas-nubank-mercado-pago-transferencias/",
+   "data": "2026-11-06",
+   "veiculo": "Amado Mundo",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Banco Central confirmou instabilidade no Pix nas primeiras horas do dia, com pico de 2.444 relatos no Downdetector às 8h10.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/07/banco-central-confirma-falha-parcial-no-pix-que-atingiu-bancos-na/",
+   "data": "2026-08-23",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Binance, o invasor assumiu o controle do sistema de um desenvolvedor de carteiras e de um segundo desenvolvedor da mesma equipe.",
+   "fonte_url": "https://www.terra.com.br/noticias/mundo/binance-detalha-como-foi-feita-invasao-que-roubou-us-63-bi-da-corretora,4134bc6d5bde5e9d9212b8705f747df7gvs1g5l7.html",
+   "data": "2026-10-20",
+   "veiculo": "Terra",
+   "confiavel": false
+  },
+  {
+   "texto": "A Binance sofre o roubo de cerca de US$ 6,3 bilhões. A maior parte sai em cerca de 20 minutos, depois das 20h GMT.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/negocios/caso-binance-como-ocorreu-o-maior-roubo-da-historia-das-criptomoedas/",
+   "data": "2026-10-29",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Binance divulga o relatório sobre o ataque. O FBI atribui a ação a um grupo norte-coreano, e a Coreia do Norte rejeita a acusação.",
+   "fonte_url": "https://itforum.com.br/noticias/binance-detalha-roubo-us-63-bi-criptomoedas/",
+   "data": "2026-11-03",
+   "veiculo": "IT Forum",
+   "confiavel": false
+  },
+  {
+   "texto": "Nubank e Mercado Pago suspendem saques e depósitos de cripto, ou parte das transferências, e culpam fornecedores externos.",
+   "fonte_url": "https://www.poder360.com.br/poder-economia/nubank-e-mercado-pago-restringem-temporariamente-operacoes-com-cripto/",
+   "data": "2026-11-06",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "À noite, o Pix fica instável a partir das 18h40. O Banco Central diz que a indisponibilidade parcial foi resolvida.",
+   "fonte_url": "https://diariodorn.com.br/banco-central-se-pronuncia-apos-pix-sair-do-ar-e-gerar-milhares-de-reclamacoes-nas-redes/",
+   "data": "2026-11-06",
+   "veiculo": "Diário do RN",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não se sabe a causa da queda do Pix. O Banco Central confirmou a falha parcial, mas não disse o que a provocou.",
+  "Não se sabe qual fornecedor falhou no Nubank e no Mercado Pago. Segundo o Mixvale, as duas empresas não identificaram a empresa.",
+  "Boatos de ataque hacker à Paxos, empresa que faz a custódia (a guarda) de cripto para o Mercado Pago, circulam em portais de cripto. Não foram confirmados. Segundo o SpaceMoney, a Paxos não se manifestou de imediato.",
+  "Um portal regional cita um ataque à Chainalysis, empresa que analisa transações cripto e tem parceria com o Nubank. Não encontramos confirmação em outro veículo, e a ligação com a suspensão não foi esclarecida.",
+  "Não há confirmação de ligação entre o Pix fora do ar, o bloqueio de cripto e o roubo na Binance. Por ora, são três episódios com explicações separadas.",
+  "Não se sabe quando as transferências de cripto voltam ao normal. Nubank e Mercado Pago não deram prazo."
+ ],
+ "o_que_muda_para_voce": [
+  "Pix: segundo o Banco Central, o serviço voltou ao normal. Se uma transferência falhou na noite de 6/11, confira o extrato do app antes de repetir o envio.",
+  "Cripto no Nubank ou no Mercado Pago: o saldo não sumiu, segundo as empresas. Você pode comprar e vender dentro do app, mas por enquanto não consegue tirar a moeda para outra carteira.",
+  "Mercado Pago: depósitos de cripto podem demorar. A empresa diz que serão creditados sozinhos quando o sistema voltar.",
+  "Binance: quem tinha dinheiro na corretora deve acompanhar os comunicados dela. A empresa diz que está ressarcindo quem perdeu recursos no ataque.",
+  "Seguros de cripto: segundo a Reuters, via CNN Brasil, o roubo leva seguradoras a olhar mais de perto a segurança das empresas do setor. O efeito deve aparecer nas próximas renovações das apólices."
+ ],
+ "como_se_proteger": [],
+ "slug": "pix-fora-do-ar-e-roubo-na-binance",
+ "publicado_em": "2026-11-07T11:51:06.563635",
+ "atualizado_em": "2026-11-07T11:51:06.563635",
+ "assunto": "Pix fora do ar, Nubank e Mercado Pago travam cripto e roubo de US$ 6,3 bi na Binance: os casos estão ligados? O que se sabe",
+ "turno": "tarde"
+}
