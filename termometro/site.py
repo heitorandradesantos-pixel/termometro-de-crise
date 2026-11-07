@@ -454,7 +454,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     edicoes = _edicoes(pasta_edicoes)
     if not edicoes:
         raise SystemExit("Nenhuma edição encontrada em edicoes/.")
-    from . import acoes, arquivo, estudio, fechamento, paginas, plantao  # aqui dentro para não haver importação circular
+    from . import acoes, arquivo, fechamento, paginas, plantao  # aqui dentro para não haver importação circular
     global FAIXA
     diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
     fonte = paginas.fonte(edicoes[0], diario_dir)
@@ -604,7 +604,6 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
     novas += paginas_cotacoes + paginas_plantao
     novas += paginas_newsletter(saida, lista[0][0] if lista else "")
-    estudio.gerar(saida, diario_dir)  # página de trabalho dos vídeos: fora do menu e do sitemap
     (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
     extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")

@@ -4,8 +4,8 @@ Para cada dia com roteiro do Roteirista, uma página com os vídeos do dia, pron
 post, o texto da tela e as 6 cenas de 8 s, cada uma com a fala e o prompt, com botão de copiar. No topo, o prompt da
 foto da Clara, para gerar uma vez e usar como "ingrediente" em todas as cenas da apresentadora.
 
-O endereço é /estudio/ (a lista dos dias) e /estudio/AAAA-MM-DD.html. As páginas levam noindex e não entram no
-sitemap: são para quem faz os vídeos, não para o leitor.
+Uso interno: NÃO vai para o site público (decisão do Heitor, 07/11/2026). Gera as páginas numa pasta local,
+para conferir os vídeos do dia: estudio.gerar(Path("pasta"), Path("diario")).
 """
 
 import html
