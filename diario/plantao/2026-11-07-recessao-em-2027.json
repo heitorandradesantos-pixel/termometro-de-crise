@@ -1,0 +1,113 @@
+{
+ "titulo": "Recessão em 2027: o que dizem os economistas e os números",
+ "descricao": "Focus vê PIB de 1,20% em 2027. Economistas citam risco de recessão, mas a maioria ainda projeta crescimento fraco. Veja os números.",
+ "palavra_chave": "recessão em 2027",
+ "lead": "O Brasil ainda não tem recessão prevista para 2027, mas o risco entrou no radar. No Boletim Focus de 3 de novembro, o mercado cortou a projeção de crescimento do PIB (tudo o que o país produz) de 1,31% para 1,20%. Economistas divergem: uns veem desaceleração forte, outros veem risco real de queda, e o governo descarta recessão.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Boletim Focus, pesquisa semanal do Banco Central com o mercado, trouxe em 3 de novembro uma projeção de crescimento de 1,20% do PIB em 2027. Antes, era 1,31%. É a terceira semana seguida de corte. Segundo o Focus, o PIB ainda cresce, não encolhe.",
+   "fonte_url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-03112026/",
+   "data": "2026-11-03",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "No mesmo Focus, o mercado passou a prever Selic (juros básicos) de 12,50% ao fim de 2027, ante 11,75% na semana anterior. Para o dólar em 2027, a estimativa subiu de R$ 5,15 para R$ 5,40. Para a inflação (IPCA) de 2027, subiu de 4,34% para 4,76%. A meta é 3%, com tolerância de 1,5 ponto para mais ou para menos.",
+   "fonte_url": "https://br.advfn.com/jornal/2026/11/boletim-focus-eleva-projecao-da-selic-em-2026-queda-do-pib-aumento-do-dolar-e-piora-da-inflacao",
+   "data": "2026-11-03",
+   "veiculo": "ADVFN",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Exame, o PIB cresceu 0,5% no segundo trimestre de 2026, mas o consumo das famílias caiu 0,4%, de acordo com o IBGE. A Exame diz que a Selic está em 13,75% ao ano.",
+   "fonte_url": "https://exame.com/economia/brasil-corre-risco-de-recessao-em-2027-veja-o-que-dizem-economistas-e-os-sinais-da-economia/",
+   "data": "2026-11-07",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Bancos cortaram as projeções de PIB para 2027, com estimativas entre 0,3% e 1,2%. O Bradesco projeta queda de 0,2% no PIB do terceiro trimestre de 2026. O IBGE divulga o dado em 2 de dezembro. Pela regra mais usada, recessão técnica são dois trimestres seguidos de queda.",
+   "fonte_url": "https://www.plantaobrasil.net/noticias/162295-bancos-revisam-projecoes-para-baixo-e-alertam-para-risco-de-estagnacao-em-2027",
+   "data": "2026-11-07",
+   "veiculo": "Plantão Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "A Genial projeta queda de 0,2% do PIB no terceiro trimestre de 2026 e estabilidade no quarto, segundo a Exame. A Exame lista como pontos de atenção o PIB do segundo semestre, o crédito, a inflação e as primeiras medidas econômicas do novo mandato.",
+   "fonte_url": "https://exame.com/economia/brasil-corre-risco-de-recessao-em-2027-veja-o-que-dizem-economistas-e-os-sinais-da-economia/",
+   "data": "2026-11-07",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o InfoMoney, economistas concordam que 2027 terá desaceleração. Ivo Chermont, da Quantitas, diz que uma parada brusca do crédito (empréstimos) pode levar à recessão. Antonio Ricciardi, do Daycoval, vê risco baixo e PIB perto de 1% mesmo com ajuste fiscal mais duro.",
+   "fonte_url": "https://www.infomoney.com.br/economia/recessao-brasil-riscos-economia-2027/",
+   "data": "2026-08-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Há leituras mais duras. Carlos Primo Braga, ex-Banco Mundial, disse ao InfoMoney que o país tem um encontro marcado com a crise em 2027 e prevê estagflação (inflação alta com pouco crescimento). Já Stefan D'Amato, da Fiemg, disse ao jornal O Tempo que é precipitado falar em recessão: para ele há sinais amarelos, não recessão contratada.",
+   "fonte_url": "https://www.infomoney.com.br/economia/crise-economica-2027-estagflacao-brasil/",
+   "data": "2026-09-04",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O subsecretário de Política Macroeconômica da Fazenda, Rafael Leão, descartou recessão e crise de crédito. Ele disse que a economia passa por uma acomodação após anos de expansão perto de 3%. A Fazenda também previa PIB próximo de 2% em 2026.",
+   "fonte_url": "https://www.brasilemfolhas.com.br/2026/09/fazenda-preve-desaceleracao-do-pib-no-terceiro-trimestre/",
+   "data": "2026-09-08",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Focus projeta PIB de 2027 em 1,50%, quarta queda seguida.",
+   "fonte_url": "https://conteudos.xpi.com.br/economia/boletim-focus-projecoes-de-pib-recuam-para-2027-e-2028-17-08-2026/",
+   "data": "2026-08-17",
+   "veiculo": "XP",
+   "confiavel": false
+  },
+  {
+   "texto": "Focus de 19/10 reduz a projeção do PIB de 2027 para 1,32%, segundo a Suno Notícias citada pelo SpaceMoney.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/focus-pib-2026-2027-selic-1325",
+   "data": "2026-10-19",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Focus de 26/10 traz PIB de 2027 em 1,31%, segunda semana de queda.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/boletim-focus-projecoes-26102024/",
+   "data": "2026-10-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Primeiro Focus após a eleição: PIB de 2027 cai para 1,20% e Selic de 2027 sobe para 12,50%.",
+   "fonte_url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-03112026/",
+   "data": "2026-11-03",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se o PIB do terceiro trimestre de 2026 caiu. Bradesco e Genial projetam queda de 0,2%, mas só o IBGE confirma, em 2 de dezembro.",
+  "Ninguém sabe ainda se o próximo mandato terá um plano fiscal (de contas públicas) que o mercado considere crível. Economistas ouvidos pela Exame e pelo Guia do Investidor citam isso como ponto decisivo, mas não há medida concreta anunciada nas fontes consultadas.",
+  "Não encontramos, nas buscas feitas, o resultado da reunião do Copom de 3 e 4 de novembro. Fontes divergem sobre o nível atual da Selic: a Exame fala em 13,75% e o InfoMoney em 14%. Confira a decisão no site do Banco Central.",
+  "Previsão de recessão em 2027 não é consenso. É a opinião de alguns economistas, e o Focus, que reúne a visão do mercado, ainda aponta crescimento.",
+  "Não está confirmado que um corte forte do crédito vá acontecer. Esse é um cenário citado por economistas, não um dado."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, o cenário central do mercado é crescimento baixo em 2027, não queda do PIB. Isso pode significar menos vagas e aumentos de salário menores, mas não é recessão confirmada.",
+  "Se a Selic ficar em 12,50% no fim de 2027, como o Focus projeta, financiamentos, cartão e cheque especial tendem a seguir caros. Isso pesa para quem tem dívida.",
+  "A projeção de dólar a R$ 5,40 e de inflação de 4,76% em 2027, se vier a se confirmar, significa produtos importados, viagens e alimentos mais caros. Essas são previsões do mercado, não certezas.",
+  "Quem acompanha investimentos pode observar duas datas: o PIB do terceiro trimestre (2 de dezembro) e o próximo Focus (toda segunda-feira). Esta matéria não recomenda compra nem venda."
+ ],
+ "como_se_proteger": [],
+ "slug": "recessao-em-2027",
+ "publicado_em": "2026-11-07T15:22:56.605990",
+ "atualizado_em": "2026-11-07T15:22:56.605990",
+ "assunto": "O Brasil vai entrar em recessão em 2027? O que dizem os economistas e os números",
+ "turno": "tarde"
+}
