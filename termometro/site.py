@@ -20,6 +20,16 @@ ARCOS = ["M70.0 295.7 A230 230 0 0 1 111.4 168.3", "M116.5 161.3 A230 230 0 0 1 
          "M233.1 80.0 A230 230 0 0 1 366.9 80.0", "M375.2 82.6 A230 230 0 0 1 483.5 161.3",
          "M488.6 168.3 A230 230 0 0 1 530.0 295.7"]
 
+MARCA = Path(__file__).resolve().parent.parent / "marca"  # o medidor (logo escolhida em 07/11/2026)
+SIMBOLO = ('<svg width="26" height="26" viewBox="0 0 200 200" aria-hidden="true"><g transform="translate(0,6)">'
+           '<path d="M 38.06 117.3 A 62 62 0 0 1 48.3 85.78" stroke="#3B82C4" stroke-width="18" fill="none"/>'
+           '<path d="M 51.48 81.4 A 62 62 0 0 1 78.29 61.93" stroke="#7CC3E0" stroke-width="18" fill="none"/>'
+           '<path d="M 83.43 60.25 A 62 62 0 0 1 116.57 60.25" stroke="#F2C14E" stroke-width="18" fill="none"/>'
+           '<path d="M 121.71 61.93 A 62 62 0 0 1 148.52 81.4" stroke="#EE8A3C" stroke-width="18" fill="none"/>'
+           '<path d="M 151.7 85.78 A 62 62 0 0 1 161.94 117.3" stroke="#E5554A" stroke-width="18" fill="none"/>'
+           '<line x1="100" y1="120" x2="120.44" y2="76.57" stroke="#EEF2F5" stroke-width="10" stroke-linecap="round"/>'
+           '<circle cx="100" cy="120" r="13" fill="#EEF2F5"/></g></svg>')
+
 CSS = f"""
 :root{{--fundo:{C['fundo']};--painel:{C['painel']};--linha:{C['linha']};--texto:{C['texto']};--suave:{C['suave']}}}
 *{{box-sizing:border-box}}
@@ -27,7 +37,7 @@ body{{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.6 'IBM Ple
 a{{color:#7CC3E0}}a:hover{{color:#A9DAEE}}
 .topo,.conteudo,.rodape{{max-width:1080px;margin:0 auto;padding:0 20px}}
 .topo{{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px;border-bottom:1px solid var(--linha)}}
-.marca{{font:600 15px 'Space Grotesk',sans-serif;letter-spacing:.14em;color:var(--texto);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}}
+.marca{{font:600 15px 'Space Grotesk',sans-serif;letter-spacing:.14em;color:var(--texto);text-decoration:none;display:inline-flex;align-items:center;gap:10px;min-height:44px}}.marca svg{{flex:none}}
 .topo nav a{{margin-left:12px;padding:0 6px;display:inline-flex;align-items:center;min-height:44px;color:var(--suave);text-decoration:none;font-size:14px}}
 .pular{{position:absolute;left:-9999px;top:8px}}.pular:focus{{left:16px;z-index:10;background:var(--texto);color:var(--fundo);padding:10px 14px;border-radius:8px;font-weight:600}}
 .sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
@@ -325,10 +335,11 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <meta property="og:title" content="{t}"><meta property="og:description" content="{d}"><meta property="og:type" content="website">
 {f'<meta property="og:url" content="{url}"><link rel="canonical" href="{url}">' if url else ''}
 {f'<meta property="og:image" content="{og_img}"><meta name="twitter:card" content="summary_large_image">' if og_img else ''}
+<link rel="icon" href="{raiz}favicon.svg" type="image/svg+xml"><link rel="icon" href="{raiz}favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="{raiz}apple-touch-icon.png"><meta name="theme-color" content="#0E141B">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{adsense}</head>
-<body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
+<body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">{SIMBOLO}TERMÔMETRO DE CRISE</a>
 <nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
@@ -676,6 +687,9 @@ não garante o mesmo comportamento no futuro.</p>
 
 def extras(saida: Path, caminhos: list[str]) -> None:
     (saida / ".nojekyll").write_text("")
+    for arq in MARCA.glob("*"):  # favicon, ícone do celular e a foto de perfil da marca
+        if arq.is_file():
+            shutil.copy(arq, saida / arq.name)
     (saida / "robots.txt").write_text("User-agent: *\nAllow: /\n" +
                                       (f"Sitemap: {config.SITE_URL}/sitemap.xml\n"
                                        f"Sitemap: {config.SITE_URL}/sitemap-noticias.xml\n" if config.SITE_URL else ""))
