@@ -238,9 +238,17 @@ def ferramenta_apoio() -> dict:
                                    "visual": {"type": "string", "description": "A cena, em inglês."}}}}}}}
 
 
+FORMATO = re.compile(r"(?i)\b(vertical\s*)?9:16(\s*video)?[,.]?\s*|\b\d+\s*(seconds?|segundos?|s)\b[,.]?\s*")
+
+
+def limpar_visual(visual: str) -> str:
+    """Tira do visual o formato que o modelo às vezes repete ("Vertical 9:16, 6 seconds."): o programa já põe."""
+    return re.sub(r"\s{2,}", " ", FORMATO.sub("", visual)).strip(" ,.")
+
+
 def prompt_apoio(visual: str) -> str:
     """O prompt do Flow para uma imagem de apoio: sempre vertical, sem gente, sem texto e sem fala."""
-    v = visual.strip().rstrip(".")
+    v = limpar_visual(visual)
     return (f"Vertical 9:16 video, cinematic, shallow depth of field, {SEGUNDOS_APOIO} seconds. {v[:1].upper() + v[1:]}. "
             "Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, "
             "no logos. No dialogue: soft ambient sound only.")
@@ -269,6 +277,7 @@ def apoiar(cliente, roteiro: dict) -> dict:
     for _ in range(2):
         texto = pedido if not problemas else pedido + "\n\nCORRIJA:\n- " + "\n- ".join(problemas)
         apoios = (ia.estruturado(cliente, SISTEMA_APOIO, texto, ferramenta_apoio(), max_tokens=2000) or {}).get("apoios", [])
+        apoios = [{**a, "visual": limpar_visual(a.get("visual", ""))} for a in apoios]
         problemas = conferir_apoios(apoios, roteiro)
         if not problemas:
             break

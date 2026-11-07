@@ -93,7 +93,8 @@ def test_explica_roteiriza_cada_artigo_do_dia_uma_vez(tmp_path, monkeypatch):
 
 def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     r = roteirista.montar(_bruto())
-    bons = [{"fala": 3, "visual": "a trading floor with glowing screens"}, {"fala": 6, "visual": "a dollar bill on a desk"}]
+    bons = [{"fala": 3, "visual": "Vertical 9:16, 6 seconds. a trading floor with glowing screens"},
+            {"fala": 6, "visual": "a dollar bill on a desk, 6 seconds"}]
     monkeypatch.setattr(ia, "estruturado", lambda *a, **k: {"apoios": bons})
     d = roteirista.apoiar(object(), r)
     assert d["apoios_ok"] and [a["fala"] for a in d["apoios"]] == [3, 6]
