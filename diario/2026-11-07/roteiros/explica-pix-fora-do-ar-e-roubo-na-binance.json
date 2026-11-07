@@ -1,8 +1,8 @@
 {
  "gancho": {
   "formula": "Pergunta que todo mundo faz",
-  "texto": "Pix caiu, cripto travou e roubaram US$ 6,3 bilhões da Binance. Tem ligação?",
-  "na_tela": "Pix, cripto e Binance: tem ligação?",
+  "texto": "Pix falhou, cripto travou e US$ 6,3 bilhões foram roubados. Tem ligação?",
+  "na_tela": "US$ 6,3 bilhões roubados: tem ligação?",
   "nota": {
    "especifico": 2,
    "tensao": 2,
@@ -14,8 +14,8 @@
  "ganchos": [
   {
    "formula": "Pergunta que todo mundo faz",
-   "texto": "Pix caiu, cripto travou e roubaram US$ 6,3 bilhões da Binance. Tem ligação?",
-   "na_tela": "Pix, cripto e Binance: tem ligação?",
+   "texto": "Pix falhou, cripto travou e US$ 6,3 bilhões foram roubados. Tem ligação?",
+   "na_tela": "US$ 6,3 bilhões roubados: tem ligação?",
    "nota": {
     "especifico": 2,
     "tensao": 2,
@@ -25,98 +25,92 @@
    }
   },
   {
-   "formula": "Custo escondido",
-   "texto": "Seu Pix falhou em 6/11? Antes de repetir, confira o extrato do app.",
-   "na_tela": "Pix falhou? Confira o extrato",
+   "formula": "Cena no meio",
+   "texto": "Sexta à noite, 6/11, o Pix falhou em vários bancos ao mesmo tempo.",
+   "na_tela": "Sexta, 6/11: o Pix falhou",
    "nota": {
     "especifico": 2,
     "tensao": 1,
-    "espectador": 2,
-    "rapido": 2,
+    "espectador": 0,
+    "rapido": 1,
     "verdadeiro": 1
    }
   },
   {
-   "formula": "Cena no meio",
-   "texto": "Noite de 6/11, o Pix falhou em Nubank, Itaú, Inter e mais bancos.",
-   "na_tela": "Noite de 6/11: o Pix falhou",
+   "formula": "Custo escondido",
+   "texto": "Seu Pix falhou na sexta? Antes de repetir o envio, confira isto.",
+   "na_tela": "Pix falhou? Confira antes",
    "nota": {
-    "especifico": 2,
+    "especifico": 1,
     "tensao": 1,
-    "espectador": 1,
+    "espectador": 2,
     "rapido": 2,
     "verdadeiro": 1
    }
   }
  ],
  "linhas": [
-  "Pix caiu, cripto travou e roubaram US$ 6,3 bilhões da Binance. Tem ligação?",
+  "Pix falhou, cripto travou e US$ 6,3 bilhões foram roubados. Tem ligação?",
   "Aqui é o Heitor, do Termômetro de Crise.",
   "Até a manhã de 7/11, nenhuma fonte oficial confirmou ligação entre os casos.",
-  "No Pix, segundo o Banco Central, a falha foi parcial e resolvida rápido.",
-  "Nubank e Mercado Pago travaram parte da cripto e apontaram fornecedores externos.",
-  "A Binance sofreu roubo de cerca de US$ 6,3 bilhões em 29/10.",
-  "Mas ninguém revelou a causa do Pix nem qual fornecedor falhou.",
-  "Se um Pix falhou em 6/11, confira o extrato antes de repetir.",
-  "Tenha mais de um jeito de pagar: cartão, outro banco e dinheiro em espécie.",
-  "Desconfie de ligação ou link que promete refazer Pix; use só o app oficial.",
+  "O Banco Central diz que o Pix já funciona normalmente.",
+  "Nubank e Mercado Pago atribuíram o bloqueio de cripto a fornecedores externos.",
+  "O Nubank diz ter normalizado saques e depósitos às 22h de 6/11.",
+  "Ainda não se sabe a causa da queda do Pix nem o fornecedor que falhou.",
+  "Se um Pix falhou na noite de 6/11, confira o extrato antes de repetir.",
+  "Tenha mais de um jeito de pagar: cartão, outro banco e algum dinheiro em espécie.",
+  "Desconfie de link ou mensagem que promete refazer Pix ou liberar sua cripto.",
   "Isso não é recomendação: é o termômetro.",
   "O grupo do WhatsApp está no link da bio."
  ],
- "texto_falado": "Pix caiu, cripto travou e roubaram US$ 6,3 bilhões da Binance. Tem ligação? Aqui é o Heitor, do Termômetro de Crise. Até a manhã de 7/11, nenhuma fonte oficial confirmou ligação entre os casos. No Pix, segundo o Banco Central, a falha foi parcial e resolvida rápido. Nubank e Mercado Pago travaram parte da cripto e apontaram fornecedores externos. A Binance sofreu roubo de cerca de US$ 6,3 bilhões em 29/10. Mas ninguém revelou a causa do Pix nem qual fornecedor falhou. Se um Pix falhou em 6/11, confira o extrato antes de repetir. Tenha mais de um jeito de pagar: cartão, outro banco e dinheiro em espécie. Desconfie de ligação ou link que promete refazer Pix; use só o app oficial. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
- "palavras": 141,
- "segundos": 56,
+ "texto_falado": "Pix falhou, cripto travou e US$ 6,3 bilhões foram roubados. Tem ligação? Aqui é o Heitor, do Termômetro de Crise. Até a manhã de 7/11, nenhuma fonte oficial confirmou ligação entre os casos. O Banco Central diz que o Pix já funciona normalmente. Nubank e Mercado Pago atribuíram o bloqueio de cripto a fornecedores externos. O Nubank diz ter normalizado saques e depósitos às 22h de 6/11. Ainda não se sabe a causa da queda do Pix nem o fornecedor que falhou. Se um Pix falhou na noite de 6/11, confira o extrato antes de repetir. Tenha mais de um jeito de pagar: cartão, outro banco e algum dinheiro em espécie. Desconfie de link ou mensagem que promete refazer Pix ou liberar sua cripto. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 143,
+ "segundos": 57,
  "na_tela": [
   {
-   "texto": "Pix, cripto e Binance: tem ligação?",
+   "texto": "US$ 6,3 bilhões roubados: tem ligação?",
    "fala": 0
   },
   {
    "fala": 2,
-   "texto": "Sem ligação confirmada até 7/11",
-   "fonte": "Amado Mundo"
+   "texto": "Até 7/11: ligação não confirmada",
+   "fonte": "Termômetro de Crise"
   },
   {
    "fala": 3,
-   "texto": "Pix: falha parcial",
+   "texto": "Pix: falha parcial, já normal",
    "fonte": "Banco Central"
   },
   {
-   "fala": 4,
-   "texto": "Fornecedor externo, sem nome"
-  },
-  {
    "fala": 5,
-   "texto": "Binance: US$ 6,3 bilhões em 29/10",
-   "fonte": "CNN Brasil"
+   "texto": "Nubank: normalizado às 22h de 6/11",
+   "fonte": "InfoMoney"
   },
   {
    "fala": 6,
-   "texto": "Causa do Pix: não revelada"
+   "texto": "Causa do Pix: NÃO REVELADA",
+   "fonte": "Banco Central"
   },
   {
    "fala": 7,
-   "texto": "Pix falhou em 6/11? Veja o extrato",
+   "texto": "Falhou em 6/11? Confira o extrato",
    "fonte": "Banco Central"
   },
   {
    "fala": 8,
-   "texto": "Cartão, outro banco, espécie"
-  },
-  {
-   "fala": 9,
-   "texto": "Só pelo app oficial"
+   "texto": "Cartão + outro banco + espécie",
+   "fonte": "Termômetro de Crise"
   }
  ],
  "retomada": 6,
  "busca": "Pix, Nubank, Mercado Pago e Binance têm ligação?",
- "legenda": "Pix, Nubank, Mercado Pago e Binance têm ligação?\n\nAté a manhã de 7/11, nenhuma fonte oficial confirmou ligação entre a falha do Pix, o bloqueio de cripto no Nubank e no Mercado Pago e o roubo de cerca de US$ 6,3 bilhões na Binance. Cada caso tem explicação própria, dada pelas empresas ou pelo Banco Central.\n\nA causa da queda do Pix e o fornecedor que falhou nos apps de cripto ainda não foram revelados.\n\nSe um Pix falhou na noite de 6/11, confira o extrato do app antes de repetir. Tenha mais de um jeito de pagar e desconfie de ligação ou link que promete refazer Pix ou liberar sua cripto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pix #cripto #binance #nubank #financaspessoais",
+ "legenda": "Pix, Nubank, Mercado Pago e Binance têm ligação? O que se sabe até agora.\n\nAté a manhã de 7/11, nenhuma fonte oficial confirmou ligação entre a falha do Pix, o bloqueio de cripto no Nubank e no Mercado Pago e o roubo de US$ 6,3 bilhões na Binance, segundo a CNN Brasil. Cada caso tem explicação própria dada pelas empresas ou pelo Banco Central.\n\nA causa da queda do Pix e o fornecedor que falhou nos apps de cripto ainda não foram revelados.\n\nO que fazer: se um Pix falhou na noite de 6/11, confira o extrato antes de repetir o envio. Tenha mais de um jeito de pagar e desconfie de link ou mensagem que prometa refazer Pix ou liberar sua cripto. Fale com a instituição só pelo app ou pelo site oficial.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pix #cripto #nubank #binance #educacaofinanceira",
  "hashtags": [
   "#pix",
   "#cripto",
-  "#binance",
   "#nubank",
-  "#financaspessoais"
+  "#binance",
+  "#educacaofinanceira"
  ],
  "tipo": "explica",
  "persona": "Heitor",
@@ -126,26 +120,26 @@
  "apoios": [
   {
    "fala": 4,
-   "visual": "Vertical shot, close-up of a smartphone lying on a dark desk, its screen showing only a blank gradient with a spinning loading circle that never finishes. Soft blue light, shallow depth of field. The camera slowly pushes in and tilts down toward the screen. A second phone blurs in the background. No text, no letters, no numbers, no logos, no faces.",
-   "texto_da_fala": "Nubank e Mercado Pago travaram parte da cripto e apontaram fornecedores externos.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, close-up of a smartphone lying on a dark desk, its screen showing only a blank gradient with a spinning loading circle that never finishes. Soft blue light, shallow depth of field. The camera slowly pushes in and tilts down toward the screen. A second phone blurs in the background. No text, no letters, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Slow dolly-in down a dim data center aisle lined with server racks, rows of small blinking blue and green lights, with one rack showing a single steady amber light. Cool cinematic lighting, shallow depth of field, no people, no text, no logos, no readable labels",
+   "texto_da_fala": "Nubank e Mercado Pago atribuíram o bloqueio de cripto a fornecedores externos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in down a dim data center aisle lined with server racks, rows of small blinking blue and green lights, with one rack showing a single steady amber light. Cool cinematic lighting, shallow depth of field, no people, no text, no logos, no readable labels. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "fala": 5,
-   "visual": "Vertical shot, a dark data center corridor with rows of server racks and blinking red and amber lights. The camera dollies forward along the aisle toward a heavy open steel vault door at the far end, with faint light spilling out. Cold, tense atmosphere, slight haze. No people, no text, no letters, no numbers, no logos.",
-   "texto_da_fala": "A Binance sofreu roubo de cerca de US$ 6,3 bilhões em 29/10.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, a dark data center corridor with rows of server racks and blinking red and amber lights. The camera dollies forward along the aisle toward a heavy open steel vault door at the far end, with faint light spilling out. Cold, tense atmosphere, slight haze. No people, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 7,
+   "visual": "Night scene: a smartphone lying on a wooden desk beside a dark window with city lights blurred in the background. The screen glows with an abstract blurred list of rows, with no legible text or numbers. Slow push-in toward the phone, then a gentle rack focus to the glowing screen. Moody, warm lamp light, no faces, no logos",
+   "texto_da_fala": "Se um Pix falhou na noite de 6/11, confira o extrato antes de repetir.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Night scene: a smartphone lying on a wooden desk beside a dark window with city lights blurred in the background. The screen glows with an abstract blurred list of rows, with no legible text or numbers. Slow push-in toward the phone, then a gentle rack focus to the glowing screen. Moody, warm lamp light, no faces, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
    "fala": 8,
-   "visual": "Vertical shot, top-down view of a wooden table with three payment options spread out: a plain blank credit card, a smartphone with a plain colored screen, and a small stack of paper cash with no readable markings. Warm natural light. The camera slowly glides sideways and pushes in over each item. No faces, no text, no letters, no numbers, no logos.",
-   "texto_da_fala": "Tenha mais de um jeito de pagar: cartão, outro banco e dinheiro em espécie.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, top-down view of a wooden table with three payment options spread out: a plain blank credit card, a smartphone with a plain colored screen, and a small stack of paper cash with no readable markings. Warm natural light. The camera slowly glides sideways and pushes in over each item. No faces, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Top-down overhead shot of a table with three payment options laid out: a plain blank credit card, a second plain card in a different color, and a small fold of generic paper bills with no visible numbers or markings. Slow lateral slide of the camera across the items, soft daylight, clean modern look, no people, no text, no logos",
+   "texto_da_fala": "Tenha mais de um jeito de pagar: cartão, outro banco e algum dinheiro em espécie.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down overhead shot of a table with three payment options laid out: a plain blank credit card, a second plain card in a different color, and a small fold of generic paper bills with no visible numbers or markings. Slow lateral slide of the camera across the items, soft daylight, clean modern look, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Pix caiu, cripto travou e roubaram US$ 6,3 bilhões da Binance. Tem ligação?\n\nAqui é o Heitor, do Termômetro de Crise.\n\nAté a manhã de 7/11, nenhuma fonte oficial confirmou ligação entre os casos.\n\nNo Pix, segundo o Banco Central, a falha foi parcial e resolvida rápido.\n\nNubank e Mercado Pago travaram parte da cripto e apontaram fornecedores externos.\n\nA Binance sofreu roubo de cerca de US$ 6,3 bilhões em 29/10.\n\nMas ninguém revelou a causa do Pix nem qual fornecedor falhou.\n\nSe um Pix falhou em 6/11, confira o extrato antes de repetir.\n\nTenha mais de um jeito de pagar: cartão, outro banco e dinheiro em espécie.\n\nDesconfie de ligação ou link que promete refazer Pix; use só o app oficial.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "teleprompter": "Pix falhou, cripto travou e US$ 6,3 bilhões foram roubados. Tem ligação?\n\nAqui é o Heitor, do Termômetro de Crise.\n\nAté a manhã de 7/11, nenhuma fonte oficial confirmou ligação entre os casos.\n\nO Banco Central diz que o Pix já funciona normalmente.\n\nNubank e Mercado Pago atribuíram o bloqueio de cripto a fornecedores externos.\n\nO Nubank diz ter normalizado saques e depósitos às 22h de 6/11.\n\nAinda não se sabe a causa da queda do Pix nem o fornecedor que falhou.\n\nSe um Pix falhou na noite de 6/11, confira o extrato antes de repetir.\n\nTenha mais de um jeito de pagar: cartão, outro banco e algum dinheiro em espécie.\n\nDesconfie de link ou mensagem que promete refazer Pix ou liberar sua cripto.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
  "data": "2026-11-07",
- "gerado_em": "2026-11-07T16:17:56.471893-03:00"
+ "gerado_em": "2026-11-07T16:22:41.570507-03:00"
 }
