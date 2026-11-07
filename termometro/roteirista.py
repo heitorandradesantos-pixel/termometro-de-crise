@@ -67,6 +67,8 @@ Regras:
    ("olha só", "eu fui atrás", "bora entender") e usa comparação da vida real (o mercado, a conta de luz, o cartão,
    o salário) para explicar o que é técnico; a comparação tem de ser correta, não só engraçada. Gíria leve e pouca:
    forçada soa falsa. Humor pontual, nunca sobre prejuízo, golpe ou quem perdeu dinheiro: aí o tom é sério.
+   Todo roteiro tem pelo menos uma comparação viva com a vida real e um passo simples e calmo no fim; use a
+   metáfora do termômetro (temperatura, febre, sinal amarelo) quando couber.
 6. Popular não é sensacionalista: o que aconteceu, o que muda para você e o que fazer. Fato atribuído a quem disse
    ("segundo o Banco Central"); nada de acusar empresa ou pessoa além do que a fonte diz, nada de política.
 5. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,

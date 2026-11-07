@@ -8,7 +8,7 @@ O Roteirista reescreve quando a nota fica abaixo de NOTA_MINIMA. A plataforma de
 
 from . import config, ia
 
-NOTA_MINIMA = 7
+NOTA_MINIMA = 8  # abaixo disso, o Roteirista reescreve (decisão do Heitor, 07/11/2026)
 CRITERIOS = {
     "persona": "Fala com quem sente a economia no bolso (ou com o iniciante curioso): responde 'isso mexe no meu "
                "bolso? o que eu faço?'",

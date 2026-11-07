@@ -2,7 +2,7 @@
 
 import json
 
-from termometro import ia, roteirista
+from termometro import estrategista, ia, roteirista
 
 MATERIAL = ("🌡️ FECHAMENTO DO TERMÔMETRO · 06/11\n\n🇧🇷 Brasil em 64 (Tensão) · 🌍 Mundo em 58 (Alerta)\n\n"
             "📈 Ibovespa: 168.501 pontos (▲1,39%)\nPor quê: investidores reagiram ao corte de juros nos EUA.\n"
@@ -130,5 +130,5 @@ def test_estrategista_de_marca_pede_nova_versao_quando_a_nota_e_baixa(monkeypatc
         return _bruto()
     monkeypatch.setattr(ia, "estruturado", falso)
     r = roteirista.escrever(object(), "fechamento", MATERIAL)
-    assert r["aprovado"] and r["tentativas"] == 2 and r["marca"]["nota"] == 10
+    assert r["aprovado"] and r["tentativas"] == 2 and r["marca"]["nota"] == 10 and estrategista.NOTA_MINIMA == 8
     assert chamadas.count("registrar_roteiro") == 2
