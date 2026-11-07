@@ -21,7 +21,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from . import config, ia
+from . import config, estrategista, ia
 from .revisor import linguagem_proibida
 
 PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
@@ -71,7 +71,7 @@ Regras:
    ("segundo o Banco Central"); nada de acusar empresa ou pessoa além do que a fonte diz, nada de política.
 5. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
    "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias."""
-SISTEMA += config.manual("roteiro", "redacao")
+SISTEMA += config.manual("roteiro", "redacao", "marca")
 
 
 def ferramenta() -> dict:
@@ -197,17 +197,28 @@ def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
               f"Tamanho: o gancho e o corpo, juntos, têm de {PALAVRAS[0] - fixo} a {PALAVRAS[1] - fixo} palavras "
               f"(mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} da assinatura, do fecho e da chamada.\n\n"
               f"MATERIAL CONFERIDO (a única fonte de números e fatos):\n{material}")
-    problemas = []
+    problemas, marca, melhor = [], None, None
     for tentativa in range(3):
         texto = pedido if not problemas else (
             pedido + "\n\nA VERSÃO ANTERIOR FOI REPROVADA NA CONFERÊNCIA. Corrija exatamente isto:\n- "
             + "\n- ".join(problemas))
         r = montar(ia.estruturado(cliente, SISTEMA, texto, ferramenta(), max_tokens=6000), chamada)
         problemas = conferir(r, material)
-        if not problemas:
+        if problemas:
+            continue
+        marca = avaliar_marca(cliente, r)  # fatos conferidos: agora o Estrategista vê se fala com o público certo
+        if melhor is None or (marca["nota"] or 0) > (melhor[1]["nota"] or 0):
+            melhor = (r, marca, tentativa)
+        if marca["aprovado"] or tentativa == 2:
             break
+        problemas = [f"(estrategista de marca, nota {marca['nota']}/10) {s}" for s in marca["sugestoes"]] or \
+            [f"(estrategista de marca, nota {marca['nota']}/10) {marca['veredito']}"]
+    if problemas and melhor:  # a última versão errou um fato: fica a melhor versão já conferida
+        problemas = []
+    if melhor and not problemas:
+        r, marca, _ = melhor
     saida = {**r, "tipo": tipo, "persona": PERSONA, "aprovado": not problemas, "problemas": problemas,
-             "tentativas": tentativa + 1}
+             "tentativas": tentativa + 1, "marca": marca}
     if not problemas:  # só roteiro aprovado ganha imagens de apoio
         try:
             saida.update(apoiar(cliente, r))
@@ -215,6 +226,14 @@ def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
             saida.update(apoios=[], apoios_ok=False, apoios_problemas=[f"imagens de apoio falharam: {erro}"])
     saida["teleprompter"] = teleprompter(r)
     return saida
+
+
+def avaliar_marca(cliente, r: dict) -> dict:
+    """A nota do Estrategista de marca e comportamento. Se ele falhar, o roteiro segue (a marca não trava o vídeo)."""
+    try:
+        return estrategista.avaliar(cliente, "\n".join(r["linhas"]) + "\n\nLEGENDA DO POST:\n" + r["legenda"])
+    except Exception as erro:  # noqa: BLE001
+        return {"nota": None, "aprovado": True, "notas": {}, "sugestoes": [], "veredito": f"estrategista falhou: {erro}"}
 
 
 # ---------------------------------------------------------------- imagens de apoio e teleprompter
@@ -306,7 +325,9 @@ def pacote_whatsapp(roteiro: dict, titulo: str) -> list[str]:
             f"teleprompter: copie e cole no app.\n\n{DICAS}",
             teleprompter(roteiro),
             f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
-            + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else ""),
+            + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
+            + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()
+               if (marca := roteiro.get("marca") or {}).get("nota") is not None else ""),
             f"📝 LEGENDA DO POST\n\n{roteiro['legenda']}"]
 
 

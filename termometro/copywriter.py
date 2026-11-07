@@ -39,7 +39,7 @@ Princípios:
 - X: uma ideia, até 270 caracteres, sem hashtags.
 - LinkedIn: tom profissional, 3 a 5 parágrafos curtos, termine com uma pergunta ao leitor.
 Respeite os limites de caracteres de cada campo. Registre tudo com a ferramenta registrar_copy."""
-SISTEMA += config.manual('redacao')
+SISTEMA += config.manual('redacao', 'marca')
 
 FERRAMENTA = {
     "name": "registrar_copy",

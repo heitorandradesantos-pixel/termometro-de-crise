@@ -110,3 +110,25 @@ def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     assert len(msgs) == 4 and msgs[1] == roteirista.teleprompter(r) and "Ibovespa hoje" in msgs[0]
     assert "fala 4" in msgs[2] and roteirista.AVISO_LEGENDA in msgs[3]
     assert {"6", "9"} <= roteirista.permitidos("Seis das nove cadeiras")
+
+
+def test_estrategista_de_marca_pede_nova_versao_quando_a_nota_e_baixa(monkeypatch):
+    chamadas = []
+
+    def falso(cliente, sistema, pedido, saida, **k):
+        chamadas.append(saida["name"])
+        if saida["name"] == "registrar_avaliacao":
+            if chamadas.count("registrar_avaliacao") == 1:
+                return {"notas": {"persona": 0, "arquetipo": 1, "temperamentos": 1, "gatilhos": 2, "voz": 1},
+                        "sugestoes": ["O gancho fala do mercado, não do bolso de quem assiste."], "veredito": "frio"}
+            return {"notas": {k: 2 for k in ("persona", "arquetipo", "temperamentos", "gatilhos", "voz")},
+                    "sugestoes": [], "veredito": "fala com o público"}
+        if saida["name"] == "registrar_apoios":
+            return {"apoios": []}
+        if chamadas.count("registrar_roteiro") == 2:
+            assert "estrategista de marca, nota 5/10" in pedido and "bolso de quem assiste" in pedido
+        return _bruto()
+    monkeypatch.setattr(ia, "estruturado", falso)
+    r = roteirista.escrever(object(), "fechamento", MATERIAL)
+    assert r["aprovado"] and r["tentativas"] == 2 and r["marca"]["nota"] == 10
+    assert chamadas.count("registrar_roteiro") == 2
