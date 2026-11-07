@@ -1,0 +1,113 @@
+{
+ "titulo": "Troca de diretores do Banco Central até 2027: o que se sabe",
+ "descricao": "Seis vagas de diretor no BC abrem até o fim de 2027. Veja quem indica, o papel do Senado, o que pode mudar nos juros e o que ainda não se sabe.",
+ "palavra_chave": "diretores do banco central",
+ "lead": "Seis das nove cadeiras da diretoria do Banco Central (BC) terão novos ocupantes até o fim de 2027, segundo reportagem da Folha publicada em 3 de novembro. A escolha é do presidente Lula, e cada nome precisa do aval do Senado. Nada muda nos juros agora: em 4 de novembro, o Copom manteve a Selic em 13,75% ao ano, por unanimidade.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O presidente reeleito Lula poderá indicar seis nomes para a diretoria do BC até o fim de 2027. Duas cadeiras estão vagas desde janeiro, mais duas indicações podem sair até fevereiro de 2027, e outras duas vagas abrem em 31 de dezembro de 2027.",
+   "fonte_url": "https://iclnoticias.com.br/economia/lula-indicara-seis-diretores-do-banco/",
+   "data": "2026-11-03",
+   "veiculo": "Folhapress (via ICL Notícias)",
+   "confiavel": false
+  },
+  {
+   "texto": "As duas vagas abertas são as de Diogo Guillen (Política Econômica) e Renato Gomes (Organização do Sistema Financeiro e Resolução), cujos mandatos terminaram em janeiro. Desde então, outros diretores cumprem essas funções de forma interina, ou seja, temporária.",
+   "fonte_url": "https://jornalocal.com.br/lula-podera-indicar-seis-diretores-do-banco-central-ate-2027-e-alterar-composicao-do-copom/",
+   "data": "2026-11-03",
+   "veiculo": "Jornalocal (com base na Folha)",
+   "confiavel": false
+  },
+  {
+   "texto": "Nilton David, diretor de Política Monetária, tem mandato até 28 de fevereiro de 2027, pois ocupou a vaga que sobrou da ida de Galípolo para a presidência do BC.",
+   "fonte_url": "https://www.infomoney.com.br/economia/decreto-com-nomeacao-de-galipolo-e-de-diretores-do-bc-e-publicado-no-diario-oficial/",
+   "data": "2024-12-31",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Paulo Picchetti e Rodrigo Alves Teixeira têm mandato até 31 de dezembro de 2027. A Lei de Autonomia do BC permite renovar por mais quatro anos.",
+   "fonte_url": "https://agenciagov.ebc.com.br/noticias/202401/novos-diretores-do-banco-central-tomam-posse-nesta-terca-feira-2",
+   "data": "2024-01-02",
+   "veiculo": "Agência Gov",
+   "confiavel": false
+  },
+  {
+   "texto": "A escolha do nome é do presidente da República, mas o Senado precisa aprovar cada indicado depois de uma arguição pública na Comissão de Assuntos Econômicos (CAE).",
+   "fonte_url": "https://distritonews.com/economia/banco-central-seis-vagas-diretoria-ate-2027-senado-sabatina-cae-lula-3-novembro-2026",
+   "data": "2026-11-03",
+   "veiculo": "Distrito News",
+   "confiavel": false
+  },
+  {
+   "texto": "Se as seis vagas forem preenchidas, os novos diretores serão maioria na diretoria de nove integrantes a partir de 2028. Ficariam Gabriel Galípolo, Gilneu Vivan e Izabela Correa, com mandatos até 31 de dezembro de 2028.",
+   "fonte_url": "https://www.diariodecuiaba.com.br/brasil/lula-indicara-seis-diretores-do-banco-central-ate-o-fim-de-2027-e-mercado-teme-mudanca-de-perfil/761612",
+   "data": "2026-11-03",
+   "veiculo": "Folhapress (via Diário de Cuiabá)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom manteve a Selic em 13,75% ao ano, por unanimidade. Isso interrompeu uma sequência de cinco cortes. O comitê citou mais incerteza e expectativas de inflação mais altas.",
+   "fonte_url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+   "data": "2026-11-04",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 8 de maio de 2024, Galípolo e os demais indicados por Lula votaram por um corte maior da Selic, de 0,50 ponto percentual. Perderam por 5 votos a 4. Depois disso, todas as decisões do colegiado foram unânimes.",
+   "fonte_url": "https://www.diariodecuiaba.com.br/brasil/lula-indicara-seis-diretores-do-banco-central-ate-o-fim-de-2027-e-mercado-teme-mudanca-de-perfil/761612",
+   "data": "2024-05-08",
+   "veiculo": "Folhapress (via Diário de Cuiabá)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Lula nomeia Galípolo presidente do BC e Nilton David, Izabela Correa e Gilneu Vivan diretores, em decreto no Diário Oficial.",
+   "fonte_url": "https://www.infomoney.com.br/economia/decreto-com-nomeacao-de-galipolo-e-de-diretores-do-bc-e-publicado-no-diario-oficial/",
+   "data": "2024-12-31",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Duas diretorias do BC ficam vagas, com o fim dos mandatos de Diogo Guillen e Renato Gomes.",
+   "fonte_url": "https://jornalocal.com.br/lula-podera-indicar-seis-diretores-do-banco-central-ate-2027-e-alterar-composicao-do-copom/",
+   "data": "2026-01-01",
+   "veiculo": "Jornalocal",
+   "confiavel": false
+  },
+  {
+   "texto": "A Folha publica que Lula poderá indicar seis diretores do BC até o fim de 2027.",
+   "fonte_url": "https://iclnoticias.com.br/economia/lula-indicara-seis-diretores-do-banco/",
+   "data": "2026-11-03",
+   "veiculo": "Folhapress (via ICL Notícias)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom mantém a Selic em 13,75% ao ano, por unanimidade, na primeira reunião depois do segundo turno das eleições.",
+   "fonte_url": "https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/copom-interrompe-cortes-e-mantem-selic-em-1375-o-que-muda-para-quem-quer-financiar-um-imovel/",
+   "data": "2026-11-04",
+   "veiculo": "Jornal de Brasília",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quem serão os indicados. As buscas não encontraram nenhuma indicação formal enviada ao Senado, e as datas das sabatinas (as arguições na CAE) não foram divulgadas.",
+  "Nomes que circulam são boatos ou relatos, sem confirmação oficial. Um é o do economista André Roncaglia, que disse estar surpreso e não ter sido procurado pela equipe econômica. Outro é o de Carolina Bohrer, que, segundo relatos reunidos pela Folha, teria a simpatia de Galípolo.",
+  "Se os diretores com mandato até 2027 serão reconduzidos (mantidos por mais quatro anos). A Folha diz que a recondução do diretor de Fiscalização não está descartada, mas não há decisão.",
+  "Como os novos diretores votarão nos juros. As leituras divergem: segundo a Folha, o mercado teme um BC mais tolerante com a inflação para acelerar a queda da Selic. O ex-diretor do BC Sérgio Werlang acha que Lula deve escolher perfis moderadamente conservadores, como Galípolo e Picchetti. Já Gustavo Loyola, da Tendências, diz que o governo pode preferir nomes mais flexíveis se a popularidade cair.",
+  "Por que duas vagas seguem abertas desde janeiro. O Metrópoles atribuiu a demora a uma disputa entre o Planalto e o presidente do Senado, Davi Alcolumbre. Essa explicação foi atribuída ao veículo e não foi confirmada por fonte oficial."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda. A Selic, a taxa básica de juros que serve de referência para financiamentos, cartão e renda fixa, está em 13,75% ao ano, definida pelo Copom atual.",
+  "As trocas só começam com a aprovação do Senado e se completam até o fim de 2027. Os mandatos são fixos, de quatro anos, e o presidente não pode demitir diretores a qualquer momento.",
+  "Ter maioria de indicados não significa controlar a Selic. Cada decisão do Copom é votada por nove integrantes, e os juros dependem também da inflação e das contas públicas.",
+  "Para quem tem financiamento ou investe em produtos ligados à Selic, o que pesa nos próximos meses é o Copom de dezembro. Parte dos economistas ouvidos pelo Jornal de Brasília avalia que a taxa pode ficar em 13,75% na reunião de dezembro."
+ ],
+ "como_se_proteger": [],
+ "slug": "diretores-do-banco-central",
+ "publicado_em": "2026-11-07T10:59:01.661192",
+ "atualizado_em": "2026-11-07T10:59:01.661192",
+ "assunto": "Banco Central: seis diretores trocam até o fim de 2027. O que muda para os juros e o que se sabe",
+ "turno": "tarde"
+}
