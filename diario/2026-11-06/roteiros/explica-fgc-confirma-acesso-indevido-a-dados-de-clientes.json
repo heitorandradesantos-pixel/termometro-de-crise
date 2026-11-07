@@ -1,0 +1,137 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "Recebeu a garantia do FGC? Seus dados podem ter sido acessados sem autorização.",
+  "na_tela": "Dados do FGC foram acessados",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Recebeu a garantia do FGC? Seus dados podem ter sido acessados sem autorização.",
+   "na_tela": "Dados do FGC foram acessados",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O FGC não achou perda de dinheiro, mas dados de clientes foram acessados.",
+   "na_tela": "Sem perda, mas com acesso",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Nome, CPF, e-mail e data de nascimento de clientes do FGC foram acessados.",
+   "na_tela": "Nome, CPF, e-mail e nascimento",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Recebeu a garantia do FGC? Seus dados podem ter sido acessados sem autorização.",
+  "Aqui é a Clara, com o Termômetro de Crise.",
+  "O FGC contou em 5 de novembro que houve um acesso não autorizado.",
+  "Detectado em 26 de outubro, atingiu dados de quem recebe a garantia.",
+  "Foram acessados nome, CPF, e-mail e data de nascimento.",
+  "O FGC diz não ter evidência de vazamento nem de perda financeira.",
+  "Mas a investigação não terminou, e o FGC não disse quantos foram afetados.",
+  "O risco agora é o golpe: seus dados deixam a mentira mais convincente.",
+  "Desconfie de contato que cite seu CPF ou a garantia. Não confirme nada.",
+  "O FGC diz que não faz contato por WhatsApp nem SMS, e não cobra taxa.",
+  "Nunca passe senha ou código, nem clique em link de mensagem suspeita.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Recebeu a garantia do FGC? Seus dados podem ter sido acessados sem autorização. Aqui é a Clara, com o Termômetro de Crise. O FGC contou em 5 de novembro que houve um acesso não autorizado. Detectado em 26 de outubro, atingiu dados de quem recebe a garantia. Foram acessados nome, CPF, e-mail e data de nascimento. O FGC diz não ter evidência de vazamento nem de perda financeira. Mas a investigação não terminou, e o FGC não disse quantos foram afetados. O risco agora é o golpe: seus dados deixam a mentira mais convincente. Desconfie de contato que cite seu CPF ou a garantia. Não confirme nada. O FGC diz que não faz contato por WhatsApp nem SMS, e não cobra taxa. Nunca passe senha ou código, nem clique em link de mensagem suspeita. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 151,
+ "segundos": 60,
+ "na_tela": [
+  {
+   "texto": "Dados do FGC foram acessados",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "5 de novembro",
+   "fonte": "Poder360"
+  },
+  {
+   "fala": 3,
+   "texto": "26 de outubro",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "Nome, CPF, e-mail, nascimento",
+   "fonte": "Poder360"
+  },
+  {
+   "fala": 5,
+   "texto": "Sem evidência de vazamento",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 6,
+   "texto": "Quantos afetados? Não divulgado",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 7,
+   "texto": "O risco: GOLPE",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 8,
+   "texto": "Não confirme nada",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Sem contato por WhatsApp ou SMS",
+   "fonte": "Portal ASA"
+  },
+  {
+   "fala": 10,
+   "texto": "Sem senha, sem código, sem link",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "FGC dados vazados: o que fazer",
+ "legenda": "FGC acesso indevido a dados de clientes: o que se sabe e como se proteger\n\nO FGC informou em 5 de novembro que dados pessoais de clientes foram acessados sem autorização. São dados de quem recebeu ou vai receber a garantia: nome, CPF, e-mail e data de nascimento. O fundo diz que não há evidência de vazamento, uso indevido ou perda financeira, mas a investigação continua.\n\nO que ainda não se sabe: quantas pessoas foram afetadas, quem fez o acesso e se os dados foram copiados ou usados.\n\nComo se proteger: desconfie de contato que cite seus dados ou a garantia, não passe senhas nem códigos e não pague taxas. Segundo o FGC, o fundo não faz contato por WhatsApp ou SMS. Em caso de dúvida, procure o fundo pelos canais oficiais: atendimento.credores@fgc.org.br (dúvidas sobre dados pessoais: privacidade@fgc.org.br).\n\nConteúdo educativo, não é recomendação de investimento.\n\n#fgc #golpe #segurancadigital #educacaofinanceira",
+ "hashtags": [
+  "#fgc",
+  "#golpe",
+  "#segurancadigital",
+  "#educacaofinanceira"
+ ],
+ "tipo": "explica",
+ "persona": "Clara",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "data": "2026-11-06",
+ "gerado_em": "2026-11-06T22:22:02.973557-03:00"
+}

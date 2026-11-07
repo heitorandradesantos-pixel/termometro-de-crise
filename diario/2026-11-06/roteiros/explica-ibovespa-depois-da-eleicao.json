@@ -1,0 +1,141 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "A bolsa caiu 13,88% em um dia, e isso pode mexer no seu fundo.",
+  "na_tela": "Caiu 13,88% em um dia",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O Ibovespa está cerca de 20,5% abaixo do recorde, e o motivo divide analistas.",
+   "na_tela": "20,5% abaixo do recorde",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Em 9 de outubro, 209.067 pontos. Em 5 de novembro, 166.191,45.",
+   "na_tela": "209.067 → 166.191,45 pontos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "A bolsa caiu 13,88% em um dia, e isso pode mexer no seu fundo.",
+   "na_tela": "Caiu 13,88% em um dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "A bolsa caiu 13,88% em um dia, e isso pode mexer no seu fundo.",
+  "Aqui é a Clara, com o Termômetro de Crise.",
+  "Hoje o índice está cerca de 20,5% abaixo do recorde de 9 de outubro.",
+  "A maior parte veio em 26 de outubro, um dia depois da eleição.",
+  "Foi a maior perda em um dia desde março de 2020.",
+  "Segundo a Reuters, o resultado contrariou a aposta de investidores.",
+  "Se você tem fundo que acompanha o Ibovespa, a cota segue o índice.",
+  "Mas tem um detalhe: o índice é uma média.",
+  "Em outubro, só 11 das 76 ações dele subiram.",
+  "O Copom manteve a Selic, a taxa básica de juros, em 13,75% ao ano.",
+  "Não há consenso se a queda já acabou.",
+  "Para se proteger, confira o que seu fundo acompanha.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "A bolsa caiu 13,88% em um dia, e isso pode mexer no seu fundo. Aqui é a Clara, com o Termômetro de Crise. Hoje o índice está cerca de 20,5% abaixo do recorde de 9 de outubro. A maior parte veio em 26 de outubro, um dia depois da eleição. Foi a maior perda em um dia desde março de 2020. Segundo a Reuters, o resultado contrariou a aposta de investidores. Se você tem fundo que acompanha o Ibovespa, a cota segue o índice. Mas tem um detalhe: o índice é uma média. Em outubro, só 11 das 76 ações dele subiram. O Copom manteve a Selic, a taxa básica de juros, em 13,75% ao ano. Não há consenso se a queda já acabou. Para se proteger, confira o que seu fundo acompanha. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 149,
+ "segundos": 60,
+ "na_tela": [
+  {
+   "texto": "Caiu 13,88% em um dia",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "20,5% abaixo do recorde",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "26 de outubro",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 4,
+   "texto": "Maior perda em um dia desde março de 2020",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 5,
+   "texto": "Aposta de investidores contrariada",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 6,
+   "texto": "Fundo de Ibovespa: a cota segue o índice",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "O índice é uma média"
+  },
+  {
+   "fala": 8,
+   "texto": "Só 11 das 76 ações subiram",
+   "fonte": "Gazeta Mercantil"
+  },
+  {
+   "fala": 9,
+   "texto": "Selic em 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 10,
+   "texto": "Sem consenso: a queda acabou?"
+  },
+  {
+   "fala": 11,
+   "texto": "Confira o que seu fundo acompanha"
+  }
+ ],
+ "retomada": 7,
+ "busca": "Ibovespa hoje: quanto caiu depois da eleição",
+ "legenda": "Ibovespa hoje: quanto caiu depois da eleição e o que isso muda para você\n\nO Ibovespa fechou a 166.191,45 pontos em 5 de novembro, cerca de 20,5% abaixo do recorde de 9 de outubro. A maior parte da queda veio em 26 de outubro, quando o índice caiu 13,88%, segundo o InfoMoney.\n\nO índice é uma média: em outubro, só 11 das 76 ações dele subiram. Se você tem fundo ou ETF que acompanha o Ibovespa, a cota segue o índice. E a Selic mantida em 13,75% ao ano significa que a taxa básica parou de cair por ora.\n\nAinda não há consenso se a queda acabou nem sobre o peso de cada causa. Um passo simples: conferir o que o seu fundo acompanha.\n\nO grupo do WhatsApp está no link da bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ibovespa #bolsa #selic #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#ibovespa",
+  "#bolsa",
+  "#selic",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "tipo": "explica",
+ "persona": "Clara",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "data": "2026-11-06",
+ "gerado_em": "2026-11-06T22:22:47.201781-03:00"
+}

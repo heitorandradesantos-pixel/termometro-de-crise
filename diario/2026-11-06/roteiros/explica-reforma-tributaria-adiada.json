@@ -1,0 +1,124 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "A reforma tributária foi adiada? Até 6 de novembro, não.",
+  "na_tela": "Reforma adiada? NÃO",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "A reforma tributária foi adiada? Até 6 de novembro, não.",
+   "na_tela": "Reforma adiada? NÃO",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Empresas pediram mais um ano. O governo disse que mantém janeiro de 2027.",
+   "na_tela": "Pediram mais um ano",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Pediram para adiar a CBS até 2028. O ministro da Fazenda respondeu que não.",
+   "na_tela": "CBS: adiar até 2028?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "A reforma tributária foi adiada? Até 6 de novembro, não.",
+  "Aqui é a Clara, com o Termômetro de Crise.",
+  "O ministro da Fazenda, Dario Durigan, disse em 5 de novembro: a data fica.",
+  "A CBS, novo tributo sobre consumo, substitui PIS e Cofins em janeiro de 2027.",
+  "Entidades empresariais e Bernard Appy pedem empurrar a cobrança para 2028.",
+  "Pedido não é lei, e o calendário oficial não mudou.",
+  "Mas tem um número: o TCU aprovou 11,3% como alíquota de referência da CBS.",
+  "Quem define a alíquota final é o Senado.",
+  "Se você é consumidor, nada muda hoje: PIS e Cofins já estão nos preços.",
+  "Se você tem empresa ou MEI, não trate 2027 como adiado.",
+  "Converse com seu contador sobre notas fiscais e contratos.",
+  "Adiar de verdade exigiria votação no Congresso.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "A reforma tributária foi adiada? Até 6 de novembro, não. Aqui é a Clara, com o Termômetro de Crise. O ministro da Fazenda, Dario Durigan, disse em 5 de novembro: a data fica. A CBS, novo tributo sobre consumo, substitui PIS e Cofins em janeiro de 2027. Entidades empresariais e Bernard Appy pedem empurrar a cobrança para 2028. Pedido não é lei, e o calendário oficial não mudou. Mas tem um número: o TCU aprovou 11,3% como alíquota de referência da CBS. Quem define a alíquota final é o Senado. Se você é consumidor, nada muda hoje: PIS e Cofins já estão nos preços. Se você tem empresa ou MEI, não trate 2027 como adiado. Converse com seu contador sobre notas fiscais e contratos. Adiar de verdade exigiria votação no Congresso. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 147,
+ "segundos": 59,
+ "na_tela": [
+  {
+   "texto": "Reforma adiada? NÃO",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Reforma adiada? NÃO (até 6 de novembro)",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 3,
+   "texto": "CBS começa em janeiro de 2027",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 4,
+   "texto": "Pedido: cobrança em 2028",
+   "fonte": "Poder360"
+  },
+  {
+   "fala": 6,
+   "texto": "Alíquota de referência: 11,3%",
+   "fonte": "Correio Braziliense"
+  },
+  {
+   "fala": 8,
+   "texto": "Consumidor: nada muda hoje",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 9,
+   "texto": "Empresa ou MEI: fale com seu contador",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "reforma tributária adiada",
+ "legenda": "A reforma tributária foi adiada? Até 6 de novembro, não.\n\nO ministro da Fazenda, Dario Durigan, disse em 5 de novembro que o governo mantém o início da CBS em janeiro de 2027. A CBS é um novo tributo federal sobre consumo e substitui o PIS e a Cofins.\n\nEntidades empresariais e o ex-secretário da reforma Bernard Appy pedem mais tempo de testes, o que levaria a cobrança para 2028. O pedido não mudou o calendário. O TCU aprovou 11,3% como alíquota de referência da CBS, e a decisão final cabe ao Senado.\n\nSe você tem empresa ou MEI, não trate a data como adiada. Converse com seu contador sobre notas fiscais e contratos.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#reformatributaria #cbs #mei #economia #termometrodecrise",
+ "hashtags": [
+  "#reformatributaria",
+  "#cbs",
+  "#mei",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "tipo": "explica",
+ "persona": "Clara",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "data": "2026-11-06",
+ "gerado_em": "2026-11-06T22:23:30.540142-03:00"
+}
