@@ -62,8 +62,8 @@ def test_segunda_versao_quando_a_primeira_reprova(tmp_path, monkeypatch):
             pedidos.append(pedido)
         if len(pedidos) == 1:
             return _bruto(falas=_bruto()["falas"][:6] + ["O índice pode ir a 200.000 pontos."])
-        if saida["name"] == "registrar_cenas":
-            return {"cenas": []}  # a decupagem falha: o roteiro continua valendo
+        if saida["name"] == "registrar_apoios":
+            return {"apoios": []}  # as imagens de apoio falham: o roteiro continua valendo
         return _bruto()
     monkeypatch.setattr(ia, "estruturado", falso)
     pasta = tmp_path / "envio"
@@ -86,59 +86,26 @@ def test_explica_roteiriza_cada_artigo_do_dia_uma_vez(tmp_path, monkeypatch):
     material = roteirista.material_artigo(artigo)
     assert "11,3%" in material and "Correio Braziliense" in material
     monkeypatch.setattr(ia, "estruturado", lambda c, s, p, saida, **k: _bruto() if saida["name"] == "registrar_roteiro"
-                        else {"cenas": []})
+                        else {"apoios": []})
     assert len(roteirista.rodar(tmp_path, "explica", dia="2026-11-06", cliente=object())) == 1
     assert roteirista.rodar(tmp_path, "explica", dia="2026-11-06", cliente=object()) == []  # já tem roteiro
 
 
-def _cenas(r):
-    l = r["linhas"]
-    partes = [l[0] + " " + l[1], l[2] + " " + l[3], l[4], l[5] + " " + l[6], l[7] + " " + l[8], " ".join(l[9:])]
-    tipos = ["apresentadora", "imagem", "apresentadora", "imagem", "imagem", "apresentadora"]
-    return [{"tipo": t, "fala": f, "visual": "a trading floor with glowing screens", "na_tela": "Ibovespa",
-             "transicao": "camera keeps pushing in"} for t, f in zip(tipos, partes)]
-
-
-def test_decupagem_em_6_cenas_de_8_segundos_com_prompt_do_flow(monkeypatch):
+def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     r = roteirista.montar(_bruto())
-    cenas = _cenas(r)
-    assert roteirista.conferir_cenas(cenas, r) == []
-    monkeypatch.setattr(ia, "estruturado", lambda *a, **k: {"cenas": cenas})
-    d = roteirista.decupar(object(), r)
-    assert d["cenas_ok"] and [c["inicio_s"] for c in d["cenas"]] == [0, 8, 16, 24, 32, 40]
-    p1, p2 = d["cenas"][0]["prompt_flow"], d["cenas"][1]["prompt_flow"]
-    assert roteirista.BIBLIA["persona"] in p1 and "Brazilian Portuguese" in p1 and "No on-screen text" in p1
-    assert "Voice-over" in p2 and roteirista.BIBLIA["persona"] not in p2
-    telao = roteirista.prompt_flow({"tipo": "apresentadora", "fala": "Oi.", "transicao": "x",
-                                    "visual": "Large studio screen behind the presenter showing a central bank at dawn"})
-    assert "her shows a central bank at dawn." in telao
-    assert d["flow"].startswith("Google Flow: 6 cenas") and "CENA 6 (40-48 s, apresentadora)" in d["flow"]
-
-
-def test_decupagem_reprova_fala_mudada_numero_na_imagem_e_ordem_errada():
-    r = roteirista.montar(_bruto())
-    cenas = _cenas(r)
-    cenas[2] = {**cenas[2], "fala": "Uma frase que não estava no roteiro."}
-    cenas[1] = {**cenas[1], "visual": "a big screen showing 168.501"}
-    cenas[0] = {**cenas[0], "tipo": "imagem"}
-    cenas[3] = {**cenas[3], "fala": cenas[3]["fala"].rstrip(".") + ","}
-    problemas = roteirista.conferir_cenas(cenas, r)
-    assert any("cortam uma frase" in p for p in problemas)
-    assert any("não são exatamente o roteiro" in p for p in problemas)
-    assert any("número dentro da imagem" in p for p in problemas)
-    assert any("primeira e a última" in p for p in problemas)
-
-
-def test_programa_divide_em_6_cenas_sem_cortar_frase_e_reprova_roteiro_que_nao_cabe():
-    r = roteirista.montar(_bruto())
-    cenas = roteirista.dividir(r["linhas"])
-    assert len(cenas) == 6 and " ".join(cenas) == " ".join(r["linhas"])
-    assert all(c.endswith(".") and roteirista._palavras(c) <= roteirista.MAXIMO_CENA for c in cenas)
-    # uma fala sem ponto final não vira fim de cena
-    linhas = ["Primeira frase curta aqui.", "Segunda parte que continua,", "e termina aqui.", *["Mais uma fala."] * 5]
-    assert all(c.endswith(".") for c in roteirista.dividir(linhas))
-    # roteiro com cenas que passariam de 8 s volta para reescrever
-    longo = _bruto(falas=["Uma fala bem comprida com muitas palavras para encher a cena do vídeo hoje."] * 7)
-    problemas = roteirista.conferir(roteirista.montar(longo), MATERIAL)
-    assert any("não cabe em 6 cenas" in p or "tamanho" in p for p in problemas)
+    bons = [{"fala": 3, "visual": "a trading floor with glowing screens"}, {"fala": 6, "visual": "a dollar bill on a desk"}]
+    monkeypatch.setattr(ia, "estruturado", lambda *a, **k: {"apoios": bons})
+    d = roteirista.apoiar(object(), r)
+    assert d["apoios_ok"] and [a["fala"] for a in d["apoios"]] == [3, 6]
+    assert d["apoios"][0]["texto_da_fala"] == r["linhas"][3] and "No people in focus" in d["apoios"][0]["prompt_flow"]
+    assert d["apoios"][0]["prompt_flow"].startswith("Vertical 9:16 video") and "A trading floor" in d["apoios"][0]["prompt_flow"]
+    ruins = [{"fala": 0, "visual": "a screen showing 168.501"}]
+    problemas = roteirista.conferir_apoios(ruins, r)
+    assert any("fora do corpo" in p for p in problemas) and any("número dentro" in p for p in problemas)
+    assert any("de 2 a 3" in p for p in problemas)
+    r = {**r, **d}
+    assert roteirista.teleprompter(r).split("\n\n") == r["linhas"] and r["linhas"][1] == roteirista.ASSINATURA
+    msgs = roteirista.pacote_whatsapp(r, "Ibovespa hoje")
+    assert len(msgs) == 4 and msgs[1] == roteirista.teleprompter(r) and "Ibovespa hoje" in msgs[0]
+    assert "fala 4" in msgs[2] and roteirista.AVISO_LEGENDA in msgs[3]
     assert {"6", "9"} <= roteirista.permitidos("Seis das nove cadeiras")

@@ -90,7 +90,7 @@ def mensagens_abertura(pasta_diario: Path, pasta_trabalho: Path) -> dict | None:
 
 
 LEGENDA_MAXIMA = 1000  # o WhatsApp corta legendas de imagem perto de 1.024 caracteres
-NOMES = {"fechamento": "O fechamento", "abertura": "A abertura"}
+NOMES = {"fechamento": "O fechamento", "abertura": "A abertura", "roteiros": "Os roteiros"}
 
 
 def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, teste: bool = False, tipo: str = "fechamento") -> str:
@@ -127,7 +127,56 @@ def concluir(pasta_diario: Path, pasta_saida: Path) -> str:
     envio = json.loads(arq.read_text())
     tipo = envio.get("tipo", "fechamento")
     resultado = json.loads(res.read_text()) if res.exists() else {"ok": False}
+    if tipo == "roteiros":
+        return concluir_roteiros(envio, resultado)
     if envio.get("modo") == "sim" or resultado.get("ok"):
         registrar(pasta_diario / envio["dia"], tipo, resultado, envio.get("modo"))
     return (f"{NOMES[tipo]} de {envio['dia']}: enviado ({envio.get('modo')})." if resultado.get("ok")
             else f"{NOMES[tipo]} de {envio['dia']}: o envio falhou.")
+
+
+# ---------------------------------------------------------------- roteiros para gravar
+
+ROTEIROS_TIPOS = tuple(t.strip() for t in (os.environ.get("ROTEIROS_WHATSAPP") or "explica").split(",") if t.strip())
+
+
+def _titulo_roteiro(pasta_diario: Path, dia: str, arq: Path) -> str:
+    tipo = arq.stem.split("-")[0]
+    if tipo == "explica":
+        artigo = pasta_diario / "plantao" / f"{dia}-{arq.stem[len('explica-'):]}.json"
+        if artigo.exists():
+            return json.loads(artigo.read_text()).get("titulo", arq.stem)
+    return f"{tipo.capitalize()} de {dia[8:10]}/{dia[5:7]}"
+
+
+def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
+    """Os roteiros aprovados do dia que ainda não foram para a conversa do próprio número (para o Heitor gravar)."""
+    from . import roteirista
+    pasta = pasta_diario / dia / "roteiros"
+    novos = []
+    for arq in sorted(pasta.glob("*.json")) if pasta.is_dir() else []:
+        r = json.loads(arq.read_text())
+        if arq.stem.split("-")[0] in ROTEIROS_TIPOS and r.get("aprovado") and r.get("teleprompter") \
+                and not r.get("enviado_whatsapp"):
+            novos.append((arq, r))
+    if not novos:
+        return f"Nenhum roteiro novo de {dia} para mandar."
+    if pasta_saida.exists():
+        shutil.rmtree(pasta_saida)
+    pasta_saida.mkdir(parents=True)
+    textos = [t for arq, r in novos for t in roteirista.pacote_whatsapp(r, _titulo_roteiro(pasta_diario, dia, arq))]
+    envio = {"modo": "teste", "dia": dia, "tipo": "roteiros", "textos": textos, "roteiros": [str(a) for a, _ in novos]}
+    (pasta_saida / "envio.json").write_text(json.dumps(envio, ensure_ascii=False, indent=1))
+    return f"{len(novos)} roteiro(s) de {dia} prontos para mandar (conversa do próprio número)."
+
+
+def concluir_roteiros(envio: dict, resultado: dict) -> str:
+    if not resultado.get("ok"):
+        return f"Roteiros de {envio['dia']}: o envio falhou."
+    quando = pd.Timestamp.now(tz="America/Sao_Paulo").isoformat()
+    for caminho in envio.get("roteiros", []):
+        arq = Path(caminho)
+        if arq.exists():
+            r = json.loads(arq.read_text())
+            arq.write_text(json.dumps({**r, "enviado_whatsapp": quando}, ensure_ascii=False, indent=1))
+    return f"Roteiros de {envio['dia']}: {len(envio.get('roteiros', []))} enviado(s) para a conversa do próprio número."

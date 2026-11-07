@@ -34,6 +34,8 @@ jobs:
   plantao:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    outputs:
+      publicado: ${{ steps.plantao.outputs.publicar }}
     env:
       SITE_URL: ${{ vars.SITE_URL }}
       MODELO_CLAUDE: ${{ vars.MODELO_CLAUDE }}
@@ -92,3 +94,12 @@ jobs:
           git commit -q -m "Roteirista: roteiro do Reel Explica"
           git pull -q --rebase origin main
           git push
+
+  roteiro-whatsapp:
+    # o roteiro do Reel vai para a conversa do próprio número, para o Heitor gravar
+    needs: plantao
+    if: needs.plantao.outputs.publicado == 'sim' && vars.PLANTAO_AUTOMATICO != 'nao'
+    uses: ./.github/workflows/whatsapp.yml
+    with:
+      acao: roteiros
+    secrets: inherit

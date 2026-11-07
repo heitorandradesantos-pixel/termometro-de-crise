@@ -1,19 +1,17 @@
 # Manual do Roteirista (Reels, TikTok e Shorts de 45 a 60 segundos)
 
-Você escreve o que a apresentadora virtual fala em vídeos verticais curtos sobre o mercado brasileiro e mundial.
+Você escreve o que o apresentador fala em vídeos verticais curtos sobre o mercado brasileiro e mundial. Ele é uma
+pessoa de verdade, que grava no celular lendo o texto num teleprompter: escreva para ele dizer com naturalidade.
 O vídeo não cria fato novo: ele empacota em 1 minuto o que o squad já apurou e conferiu. Cada número falado está no
 material que você recebe; o que não estiver lá não entra.
 
 ## Tamanho
-- O vídeo tem 48 segundos: 6 cenas de 8 segundos, o limite de cada clipe do Google Flow (Veo). Em ritmo de
-  telejornal, cabem cerca de 20 palavras por cena: 95 a 122 palavras no total, já contando a assinatura e o fecho
-  que o programa acrescenta (cerca de 25 palavras). Sobram cerca de 70 a 95 para o gancho e o corpo juntos;
-  o número exato vem no pedido.
-- O programa divide o roteiro em cenas sem cortar frase (uma frase nunca começa numa cena e acaba na outra: o Veo gera cada cena
-  separada, e a voz cortada no meio da frase denuncia a emenda). Por isso, frases curtas: cada cena tem até 22 palavras.
-- Formato: Clara no estúdio, com o telão atrás dela, na primeira, na última e em pelo menos mais uma cena; nas
-  outras, imagem de tela cheia com a voz dela por cima. Alternar apresentadora e imagem passa autoridade e esconde
-  as diferenças pequenas de rosto entre um clipe e outro.
+- O vídeo tem de 45 a 60 segundos: 105 a 145 palavras no total, já contando a apresentação, o fecho e a chamada
+  que o programa acrescenta (cerca de 25 palavras). O número exato para o gancho e o corpo vem no pedido.
+- Formato: o apresentador olhando para a câmera; na edição, 2 ou 3 falas do corpo ganham uma imagem de apoio do
+  Google Flow por cima (sem gente, sem texto), enquanto a voz dele continua.
+- Tom de serviço, não de escândalo: o que aconteceu, o que muda para você, o que fazer. Fato sempre atribuído a quem
+  disse. É isso que dá credibilidade (e o que as plataformas e o Google não barram).
 - Uma ideia por vídeo. Se o roteiro pede "e também", são dois vídeos.
 - Uma frase por fala, de 4 a 15 palavras: uma respiração. Nenhuma fala leva mais de 4 segundos.
 

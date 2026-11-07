@@ -3,15 +3,15 @@
 Três tipos: "abertura" (a mensagem da Abertura no WhatsApp), "fechamento" (o balanço e o panorama do dia) e
 "explica" (um artigo do Plantão). O vídeo não cria fato: cada número falado tem de estar no material. O programa
 confere tudo (tamanho, números, linguagem proibida, vícios de texto de máquina, gancho) e, se algo falhar, pede
-uma segunda versão dizendo o que corrigir. A assinatura da apresentadora e o fecho com o aviso são postos pelo
-programa, nunca pela IA.
+outra versão dizendo o que corrigir. A apresentação do apresentador e o fecho com o aviso são postos pelo programa,
+nunca pela IA.
 
-Depois de aprovado, o roteiro é decupado em 6 cenas de 8 segundos (o limite de cada clipe do Veo, o modelo do
-Google Flow): a Clara na bancada com o telão atrás e cenas só de imagem, alternadas. Cada cena sai com o prompt pronto
-para o Flow, montado pelo programa a partir da "bíblia" da persona (o mesmo rosto, roupa, estúdio, voz e câmera em
-todas), para os 6 pedaços parecerem um vídeo só.
+Quem apresenta é uma pessoa de verdade (o Heitor), que grava no celular lendo um teleprompter. Depois de aprovado, o
+roteiro ganha de 2 a 3 imagens de apoio: falas que, na edição, são cobertas por um clipe do Google Flow (sem gente,
+sem texto) enquanto a voz continua. O pacote (teleprompter, texto da tela, apoios e legenda) vai para a conversa do
+próprio número no WhatsApp.
 
-Grava diario/AAAA-MM-DD/roteiros/<tipo>[-slug].json, que a esteira de vídeo usa depois.
+Grava diario/AAAA-MM-DD/roteiros/<tipo>[-slug].json.
 """
 
 import json
@@ -24,14 +24,14 @@ import pandas as pd
 from . import config, ia
 from .revisor import linguagem_proibida
 
-PERSONA = os.environ.get("PERSONA_NOME") or "Clara"
-ASSINATURA = f"Aqui é a {PERSONA}, com o Termômetro de Crise."
+PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
+ASSINATURA = f"Aqui é o {PERSONA}, do Termômetro de Crise."
 FECHO = "Isso não é recomendação: é o termômetro."
 CHAMADAS = {"grupo": "O grupo do WhatsApp está no link da bio.",
             "newsletter": "O Termômetro da Semana chega por e-mail: link na bio."}
 AVISO_LEGENDA = "Conteúdo educativo, não é recomendação de investimento."
 PALAVRAS_POR_MINUTO = 150
-PALAVRAS = (95, 122)  # 6 cenas de 8 s = 48 s; cerca de 20 palavras por cena, contando assinatura e fecho
+PALAVRAS = (105, 145)  # 45 a 60 s de fala, contando apresentação, fecho e chamada
 MAXIMO_FALA = 18  # palavras por fala (uma respiração)
 NOTA_MINIMA = 7
 
@@ -49,20 +49,23 @@ TIPOS = {
                "o que ainda não se sabe e como se proteger, sem recomendar investimento).",
 }
 
-SISTEMA = f"""Você é o Roteirista do "{config.NOME}", um portal financeiro brasileiro para leigos. Escreve o que a
-{PERSONA}, apresentadora virtual do {config.NOME}, fala em vídeos verticais de 45 a 60 segundos.
+SISTEMA = f"""Você é o Roteirista do "{config.NOME}", um portal financeiro brasileiro para leigos. Escreve o que o
+{PERSONA}, apresentador do {config.NOME} (uma pessoa de verdade, que grava no celular lendo um teleprompter), fala em
+vídeos verticais de 45 a 60 segundos.
 
-O programa põe sozinho, depois do gancho, a assinatura "{ASSINATURA}" e, no fim, o fecho "{FECHO}" com a chamada
+O programa põe sozinho, depois do gancho, a apresentação "{ASSINATURA}" e, no fim, o fecho "{FECHO}" com a chamada
 para o link da bio. Você escreve só o gancho (3 opções, com nota) e o corpo, mais o texto da tela e a legenda.
 
 Regras:
 1. Todo número que você escrever tem de estar no material, escrito do mesmo jeito (vírgula decimal, ponto de milhar).
    Número que não está no material não entra. Prefira poucos números: 2 ou 3 bem escolhidos valem mais que 8.
-2. Uma ideia por vídeo. O vídeo tem 48 segundos (6 cenas de 8 s): corpo entre 6 e 9 falas, cada uma com 4 a 15
-   palavras. O tamanho exato (gancho e corpo juntos) vem no pedido: conte as palavras antes de entregar.
-   Menos é mais: cada palavra a mais acelera a fala.
+2. Uma ideia por vídeo. Corpo entre 6 e 10 falas, cada uma com 4 a 15 palavras (uma respiração). O tamanho
+   exato (gancho e corpo juntos) vem no pedido: conte as palavras antes de entregar.
 3. Nada de recomendação, previsão, alarmismo, política partidária ou opinião sobre governo.
-4. Escreva para o ouvido: frases que se dizem em voz alta, para uma pessoa ("você").
+4. Escreva para o ouvido, no tom de conversa de quem explica para um amigo: frases que se dizem em voz alta, para
+   uma pessoa ("você"). Ele pode falar em primeira pessoa ("olha só", "eu fui conferir").
+6. Tom de serviço, não de escândalo: o que aconteceu, o que muda para você e o que fazer. Fato atribuído a quem
+   disse ("segundo o Banco Central"); nada de acusar empresa ou pessoa além do que a fonte diz.
 5. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
    "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias."""
 SISTEMA += config.manual("roteiro", "redacao")
@@ -70,7 +73,7 @@ SISTEMA += config.manual("roteiro", "redacao")
 
 def ferramenta() -> dict:
     nota = {"type": "integer", "minimum": 0, "maximum": 2}
-    return {"name": "registrar_roteiro", "description": "O roteiro do Reel, pronto para a voz e o avatar.",
+    return {"name": "registrar_roteiro", "description": "O roteiro do Reel, pronto para o teleprompter.",
             "input_schema": {"type": "object", "required": ["ganchos", "gancho_escolhido", "falas", "retomada",
                                                             "na_tela", "busca", "legenda", "hashtags"],
                              "properties": {
@@ -160,11 +163,6 @@ def conferir(r: dict, material: str) -> list[str]:
     elif r["palavras"] < PALAVRAS[0]:
         problemas.append(f"tamanho: {r['palavras']} palavras faladas, o mínimo é {PALAVRAS[0]}: acrescente cerca de "
                          f"{PALAVRAS[0] - r['palavras'] + 5} palavras ao corpo")
-    else:
-        maior = max(map(_palavras, dividir(r["linhas"])))
-        if maior > MAXIMO_CENA:
-            problemas.append(f"não cabe em {CENAS} cenas de {SEGUNDOS_CENA} s: a cena mais longa teria {maior} "
-                             f"palavras (máximo {MAXIMO_CENA}); encurte as falas mais longas")
     if nota(r["gancho"]) < NOTA_MINIMA:
         problemas.append(f"gancho fraco: nota {nota(r['gancho'])}/10 (mínimo {NOTA_MINIMA})")
     if _palavras(r["gancho"].get("texto", "")) > 15:
@@ -207,198 +205,97 @@ def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
             break
     saida = {**r, "tipo": tipo, "persona": PERSONA, "aprovado": not problemas, "problemas": problemas,
              "tentativas": tentativa + 1}
-    if not problemas:  # só roteiro aprovado vira cena
+    if not problemas:  # só roteiro aprovado ganha imagens de apoio
         try:
-            saida.update(decupar(cliente, r))
-        except Exception as erro:  # noqa: BLE001 — sem cenas, o roteiro continua valendo
-            saida.update(cenas=[], cenas_ok=False, cenas_problemas=[f"decupagem falhou: {erro}"], flow="")
+            saida.update(apoiar(cliente, r))
+        except Exception as erro:  # noqa: BLE001 — sem apoio, o roteiro continua valendo
+            saida.update(apoios=[], apoios_ok=False, apoios_problemas=[f"imagens de apoio falharam: {erro}"])
+    saida["teleprompter"] = teleprompter(r)
     return saida
 
 
-# ---------------------------------------------------------------- cenas para o Google Flow
+# ---------------------------------------------------------------- imagens de apoio e teleprompter
 
-CENAS = 6
-SEGUNDOS_CENA = 8
-MAXIMO_CENA = 22  # palavras faladas que cabem em 8 s num ritmo de telejornal
-BIBLIA = {  # a persona e o estúdio, iguais em todo prompt (no Flow, use a foto da Clara como "ingrediente")
-    "persona": ("Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin "
-                "and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings"),
-    "estudio": ("a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind "
-                "her"),
-    "voz": "She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace.",
-    "camera": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds.",
-    "proibido": "No on-screen text, no subtitles, no captions, no logos, no real public figures.",
-}
+APOIOS = (2, 3)  # quantas falas ganham imagem de apoio (o resto é o apresentador olhando para a câmera)
+SEGUNDOS_APOIO = 6
+SISTEMA_APOIO = f"""Você é o editor de vídeo do "{config.NOME}". O {PERSONA} grava o roteiro no celular, olhando para a
+câmera e lendo num teleprompter. Na edição, algumas falas são cobertas por uma imagem de apoio gerada no Google Flow,
+enquanto a voz dele continua por baixo.
 
-SISTEMA_CENAS = f"""Você é o diretor de vídeo do "{config.NOME}". Recebe um roteiro aprovado e o divide em exatamente
-{CENAS} cenas de {SEGUNDOS_CENA} segundos para o Google Flow (Veo).
-
-Regras:
-1. A fala de cada cena já vem pronta, dividida pelo programa (cada cena termina no fim de uma frase). Não mude nem
-   repita a fala: para cada cena, na ordem, você escolhe o tipo, o visual, o texto da tela e a transição.
-2. Alterne: a cena 1 (o gancho) e a cena {CENAS} (o fecho) são da apresentadora; no meio, intercale apresentadora e
-   imagem (pelo menos 2 cenas de imagem).
-3. "visual" é escrito em inglês, para o Veo: na cena da apresentadora, só o que aparece no telão, como um nome
-   ("a modern central bank building at dawn"), sem repetir "screen behind the presenter"; na cena de imagem, a cena
-   inteira (lugar, objeto, movimento de câmera). Concreto e filmável: um prédio, uma sala de reunião,
-   moedas, um navio, um gráfico abstrato subindo.
-4. Nunca mostre pessoa real (político, ministro, presidente, empresário) nem rosto reconhecível; nada de texto, número
-   ou logotipo dentro da imagem: os números entram na edição.
-5. "transicao" diz como a cena termina para emendar na próxima (por exemplo: "camera keeps slowly pushing in")."""
+Escolha de {APOIOS[0]} a {APOIOS[1]} falas do corpo para cobrir com imagem (nunca o gancho, a apresentação, o fecho ou
+a chamada final). Prefira as falas que contam um fato concreto (um lugar, um objeto, uma situação), não as de opinião.
+Para cada uma, escreva "visual" em inglês, para o Flow: uma cena concreta de {SEGUNDOS_APOIO} segundos, vertical, com
+movimento de câmera. Proibido no visual: pessoas reconhecíveis ou rosto em foco, texto, letras, números, logotipos,
+marcas, bandeiras de partido."""
 
 
-def ferramenta_cenas() -> dict:
-    return {"name": "registrar_cenas", "description": "As cenas do Reel para o Google Flow.",
-            "input_schema": {"type": "object", "required": ["cenas"], "properties": {"cenas": {
-                "type": "array", "minItems": CENAS, "maxItems": CENAS, "items": {
-                    "type": "object", "required": ["tipo", "visual", "transicao"],
-                    "properties": {"tipo": {"type": "string", "enum": ["apresentadora", "imagem"]},
-                                   "visual": {"type": "string", "description": "Em inglês."},
-                                   "na_tela": {"type": "string", "description": "Texto da edição, até 6 palavras."},
-                                   "transicao": {"type": "string", "description": "Em inglês."}}}}}}}
+def ferramenta_apoio() -> dict:
+    return {"name": "registrar_apoios", "description": "As falas que ganham imagem de apoio e a imagem de cada uma.",
+            "input_schema": {"type": "object", "required": ["apoios"], "properties": {"apoios": {
+                "type": "array", "minItems": APOIOS[0], "maxItems": APOIOS[1], "items": {
+                    "type": "object", "required": ["fala", "visual"],
+                    "properties": {"fala": {"type": "integer", "description": "O número da fala, como na lista."},
+                                   "visual": {"type": "string", "description": "A cena, em inglês."}}}}}}}
 
 
-PROMPT_FOTO = (  # a foto de referência da Clara: gerar uma vez, escolher a melhor e usar como "ingrediente" no Flow
-    f"Photorealistic studio portrait, vertical 9:16. {BIBLIA['persona']}. She stands in {BIBLIA['estudio']}, the video "
-    "wall softly blurred. Waist-up medium shot, looking straight into the camera with a calm, confident, friendly "
-    "expression, mouth closed, hands relaxed at her sides. Soft key light, natural skin texture, 85 mm lens, shallow "
-    f"depth of field. {BIBLIA['proibido']}")
-
-MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
-         "novembro", "dezembro"]
-GRANDEZA = r"(mil|milhão|milhões|bilhão|bilhões|trilhão|trilhões)"
+def prompt_apoio(visual: str) -> str:
+    """O prompt do Flow para uma imagem de apoio: sempre vertical, sem gente, sem texto e sem fala."""
+    v = visual.strip().rstrip(".")
+    return (f"Vertical 9:16 video, cinematic, shallow depth of field, {SEGUNDOS_APOIO} seconds. {v[:1].upper() + v[1:]}. "
+            "Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, "
+            "no logos. No dialogue: soft ambient sound only.")
 
 
-def falado(texto: str) -> str:
-    """A fala como a voz deve ler: sem símbolo que o Veo soletra ("US$", "%", "7/11", "EUA")."""
-    t = re.sub(r"US\$ ?(\d[\d.,]*) " + GRANDEZA, r"\1 \2 de dólares", texto)
-    t = re.sub(r"US\$ ?(\d[\d.,]*)", r"\1 dólares", t)
-    t = re.sub(r"R\$ ?(\d[\d.,]*) " + GRANDEZA, r"\1 \2 de reais", t)
-    t = re.sub(r"R\$ ?(\d[\d.,]*)", r"\1 reais", t)
-    t = re.sub(r"(\d[\d.,]*) ?%", r"\1 por cento", t)
-    t = re.sub(r"\b(\d{1,2})/(\d{1,2})\b(?!/)",
-               lambda m: f"{int(m[1])} de {MESES[int(m[2]) - 1]}" if 1 <= int(m[2]) <= 12 else m[0], t)
-    return re.sub(r"\bEUA\b", "Estados Unidos", t)
-
-
-TELAO = re.compile(r"^(a |the )?(large |big )?(studio |video )?(screen|wall|video wall)( behind (her|the presenter))?"
-                   r"( shows| showing| displaying| with)?\s*", re.I)
-
-
-def prompt_flow(cena: dict) -> str:
-    """O prompt de uma cena, sempre com a mesma persona, estúdio, voz e câmera."""
-    b = BIBLIA
-    if cena["tipo"] == "apresentadora":
-        cena = {**cena, "visual": TELAO.sub("", cena["visual"].strip())}
-    fala = falado(cena["fala"]).replace('"', "'")
-    visual = cena["visual"].strip().rstrip(".")
-    cena = {**cena, "visual": visual[:1].upper() + visual[1:] if cena["tipo"] == "imagem" else visual}
-    if cena["tipo"] == "apresentadora":
-        return (f"{b['camera']} Medium close-up of {b['persona']}, standing in {b['estudio']}. The video wall behind "
-                f"her shows {cena['visual'].rstrip('.')}. She looks into the camera with a subtle natural hand gesture "
-                f'and says: "{fala}" {b["voz"]} Ending: {cena["transicao"].rstrip(".")}. {b["proibido"]}')
-    return (f"{b['camera']} {cena['visual'].rstrip('.')}. Slow, smooth camera movement. Voice-over in the same calm "
-            f'Brazilian woman\'s voice, in Brazilian Portuguese: "{fala}" No faces in focus. Ending: '
-            f"{cena['transicao'].rstrip('.')}. {b['proibido']}")
-
-
-FIM_DE_FRASE = re.compile(r"[.!?]['\"”]?$")
-
-
-def dividir(linhas: list[str], n: int = CENAS) -> list[str]:
-    """As falas das n cenas: falas inteiras, na ordem, cortando só onde uma frase termina, com a cena mais longa o
-    mais curta possível (e as cenas o mais parecidas possível). Feito pelo programa, não pela IA: nunca corta uma
-    frase no meio nem perde uma palavra."""
-    linhas = [l.strip() for l in linhas if l.strip()]
-    if len(linhas) <= n:
-        return linhas
-    pesos = [_palavras(l) for l in linhas]
-    total = len(linhas)
-
-    def resolver(pode: list[bool]):
-        memo = {}
-
-        def melhor(i: int, k: int):
-            if (i, k) in memo:
-                return memo[i, k]
-            if k == 1:
-                w = sum(pesos[i:])
-                memo[i, k] = ((w, w * w), (total,))
-                return memo[i, k]
-            achado, acum = None, 0
-            for j in range(i, total - k + 1):  # a cena vai da fala i até a j
-                acum += pesos[j]
-                if not pode[j]:
-                    continue
-                resto = melhor(j + 1, k - 1)
-                if resto is None:
-                    continue
-                custo = (max(acum, resto[0][0]), acum * acum + resto[0][1])
-                if achado is None or custo < achado[0]:
-                    achado = (custo, (j + 1,) + resto[1])
-            memo[i, k] = achado
-            return achado
-
-        return melhor(0, n)
-
-    achado = resolver([bool(FIM_DE_FRASE.search(l)) for l in linhas]) or resolver([True] * total)
-    cortes = (0,) + achado[1]
-    return [" ".join(linhas[a:b]) for a, b in zip(cortes, cortes[1:])]
-
-
-def _normal(t: str) -> str:
-    return re.sub(r"\W+", " ", _sem_acento(t).lower()).strip()
-
-
-def conferir_cenas(cenas: list[dict], roteiro: dict) -> list[str]:
+def conferir_apoios(apoios: list[dict], roteiro: dict) -> list[str]:
     problemas = []
-    if len(cenas) != CENAS:
-        problemas.append(f"são {len(cenas)} cenas; precisam ser {CENAS}")
-    if _normal(" ".join(c.get("fala", "") for c in cenas)) != _normal(roteiro["texto_falado"]):
-        problemas.append("as falas das cenas, juntas, não são exatamente o roteiro (sem tirar nem mudar palavras)")
-    cortadas = [i + 1 for i, c in enumerate(cenas) if not FIM_DE_FRASE.search(c.get("fala", "").strip())]
-    if cortadas:
-        problemas.append("cenas que cortam uma frase no meio (cada cena termina em ponto): " + ", ".join(map(str, cortadas)))
-    longas = [i + 1 for i, c in enumerate(cenas) if _palavras(c.get("fala", "")) > MAXIMO_CENA]
-    if longas:
-        problemas.append(f"cenas com mais de {MAXIMO_CENA} palavras (não cabem em 8 s): " + ", ".join(map(str, longas)))
-    if cenas and (cenas[0].get("tipo") != "apresentadora" or cenas[-1].get("tipo") != "apresentadora"):
-        problemas.append("a primeira e a última cena são da apresentadora")
-    if sum(c.get("tipo") == "imagem" for c in cenas) < 2:
-        problemas.append("pelo menos 2 cenas de imagem")
-    soltos = sorted(_numeros(" ".join(c.get("visual", "") for c in cenas)))
+    corpo = range(2, len(roteiro["linhas"]) - 2)  # sem gancho, apresentação, fecho e chamada
+    if not APOIOS[0] <= len(apoios) <= APOIOS[1]:
+        problemas.append(f"são {len(apoios)} imagens de apoio; precisam ser de {APOIOS[0]} a {APOIOS[1]}")
+    fora = [a.get("fala") for a in apoios if a.get("fala") not in corpo]
+    if fora:
+        problemas.append(f"falas fora do corpo (use de {corpo.start} a {corpo.stop - 1}): {fora}")
+    if len({a.get("fala") for a in apoios}) != len(apoios):
+        problemas.append("a mesma fala aparece duas vezes")
+    soltos = sorted(_numeros(" ".join(a.get("visual", "") for a in apoios)))
     if soltos:
-        problemas.append("número dentro da imagem (entra só na edição): " + ", ".join(soltos))
+        problemas.append("número dentro da imagem (número entra só no texto da tela): " + ", ".join(soltos))
     return problemas
 
 
-def decupar(cliente, roteiro: dict) -> dict:
-    """Divide o roteiro aprovado em cenas de 8 s com o prompt do Flow. O programa corta as falas; a IA dirige
-    (tipo de cena, imagem, texto da tela, transição). Duas tentativas."""
-    falas = dividir(roteiro["linhas"])
-    pedido = "AS CENAS, COM A FALA DE CADA UMA (já divididas; não mude):\n" + "\n".join(
-        f"CENA {i}: {f}" for i, f in enumerate(falas, 1))
+def apoiar(cliente, roteiro: dict) -> dict:
+    """Escolhe as falas com imagem de apoio e escreve o prompt do Flow de cada uma. Duas tentativas."""
+    pedido = "O ROTEIRO, FALA POR FALA:\n" + "\n".join(f"{i}. {l}" for i, l in enumerate(roteiro["linhas"]))
     problemas = []
     for _ in range(2):
         texto = pedido if not problemas else pedido + "\n\nCORRIJA:\n- " + "\n- ".join(problemas)
-        cenas = (ia.estruturado(cliente, SISTEMA_CENAS, texto, ferramenta_cenas(), max_tokens=3000) or {}).get("cenas", [])
-        if len(cenas) == len(falas):
-            cenas = [{**c, "fala": f} for c, f in zip(cenas, falas)]
-        problemas = conferir_cenas(cenas, roteiro)
+        apoios = (ia.estruturado(cliente, SISTEMA_APOIO, texto, ferramenta_apoio(), max_tokens=2000) or {}).get("apoios", [])
+        problemas = conferir_apoios(apoios, roteiro)
         if not problemas:
             break
-    cenas = [{**c, "inicio_s": i * SEGUNDOS_CENA, "prompt_flow": prompt_flow(c)} for i, c in enumerate(cenas)]
-    return {"cenas": cenas, "cenas_ok": not problemas, "cenas_problemas": problemas, "flow": texto_flow(cenas)}
+    apoios = sorted(({**a, "texto_da_fala": roteiro["linhas"][a["fala"]], "prompt_flow": prompt_apoio(a["visual"])}
+                     for a in apoios if a.get("fala") in range(len(roteiro["linhas"]))), key=lambda a: a["fala"])
+    return {"apoios": apoios, "apoios_ok": not problemas, "apoios_problemas": problemas}
 
 
-def texto_flow(cenas: list[dict]) -> str:
-    """O pacote para colar no Flow: uma cena por bloco, na ordem."""
-    blocos = ["Google Flow: 6 cenas de 8 s (Veo). Nas cenas da apresentadora, use a foto da Clara como ingrediente.",
-              ""]
-    for i, c in enumerate(cenas, 1):
-        blocos += [f"CENA {i} ({c['inicio_s']}-{c['inicio_s'] + SEGUNDOS_CENA} s, {c['tipo']})",
-                   f"Fala: {c['fala']}", f"Tela: {c.get('na_tela') or '-'}", f"Prompt: {c['prompt_flow']}", ""]
-    return "\n".join(blocos).strip()
+def teleprompter(roteiro: dict) -> str:
+    """O texto para colar no app de teleprompter: uma fala por parágrafo, exatamente como foi aprovado."""
+    return "\n\n".join(roteiro["linhas"])
+
+
+DICAS = ("Dicas: celular na vertical, na altura dos olhos, luz de frente (janela ou ring light). Grave tudo de uma vez; "
+         "se errar, pare, respire e repita só a frase. Me mande o vídeo aqui que eu edito.")
+
+
+def pacote_whatsapp(roteiro: dict, titulo: str) -> list[str]:
+    """As mensagens que vão para a conversa do próprio número: aviso, teleprompter, edição e legenda."""
+    tela = " · ".join(t["texto"] for t in roteiro.get("na_tela") or [] if t.get("texto"))
+    apoios = "\n".join(f"- fala {a['fala'] + 1}: \"{a['texto_da_fala']}\"" for a in roteiro.get("apoios") or [])
+    return [f"🎬 ROTEIRO PARA GRAVAR: {titulo} (cerca de {roteiro['segundos']} s)\n\nA próxima mensagem é o texto do "
+            f"teleprompter: copie e cole no app.\n\n{DICAS}",
+            teleprompter(roteiro),
+            f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
+            + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else ""),
+            f"📝 LEGENDA DO POST\n\n{roteiro['legenda']}"]
 
 
 # ---------------------------------------------------------------- material

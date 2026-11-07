@@ -57,3 +57,25 @@ def test_desligado_nao_prepara_nada(tmp_path, monkeypatch):
     monkeypatch.setenv("WHATSAPP_ENVIO", "nao")
     assert "desligado" in whatsapp.preparar(_dia(tmp_path), "2026-11-06", tmp_path / "envio")
     assert not (tmp_path / "envio").exists()
+
+
+def test_roteiros_novos_vao_para_o_proprio_numero_uma_vez(tmp_path):
+    import json
+    diario = tmp_path / "diario"
+    (diario / "2026-11-07" / "roteiros").mkdir(parents=True)
+    (diario / "plantao").mkdir()
+    (diario / "plantao" / "2026-11-07-pix.json").write_text(json.dumps({"titulo": "Pix caiu: o que se sabe"}))
+    base = {"aprovado": True, "teleprompter": "Linha 1.\n\nLinha 2.", "linhas": ["Linha 1.", "Linha 2."], "segundos": 50,
+            "na_tela": [{"texto": "Pix *caiu*"}], "apoios": [], "legenda": "Pix hoje."}
+    (diario / "2026-11-07" / "roteiros" / "explica-pix.json").write_text(json.dumps(base))
+    (diario / "2026-11-07" / "roteiros" / "fechamento.json").write_text(json.dumps(base))  # tipo que não vai
+    (diario / "2026-11-07" / "roteiros" / "explica-velho.json").write_text(json.dumps({**base, "aprovado": False}))
+    saida = tmp_path / "_whatsapp"
+    assert "1 roteiro" in whatsapp.preparar_roteiros(diario, "2026-11-07", saida)
+    envio = json.loads((saida / "envio.json").read_text())
+    assert envio["modo"] == "teste" and envio["tipo"] == "roteiros" and len(envio["textos"]) == 4
+    assert "Pix caiu: o que se sabe" in envio["textos"][0] and envio["textos"][1] == "Linha 1.\n\nLinha 2."
+    (saida / "envio.json.resultado.json").write_text(json.dumps({"ok": True, "ids": ["a"] * 4}))
+    assert "1 enviado" in whatsapp.concluir(diario, saida)
+    assert json.loads((diario / "2026-11-07" / "roteiros" / "explica-pix.json").read_text())["enviado_whatsapp"]
+    assert "Nenhum roteiro novo" in whatsapp.preparar_roteiros(diario, "2026-11-07", saida)
