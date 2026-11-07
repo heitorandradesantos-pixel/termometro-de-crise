@@ -202,7 +202,8 @@ def test_site_com_atualizacao_diaria_tem_paginas_clicaveis(tmp_path, dados_mundo
     for arquivo in paginas_geradas:
         for href in re.findall(r'href="([^"#]+\.html)"', arquivo.read_text()):
             if not href.startswith("http"):
-                assert (arquivo.parent / href).resolve().exists(), f"{arquivo.name} → {href}"
+                alvo = saida / href.lstrip("/") if href.startswith("/") else arquivo.parent / href  # "/x" = raiz
+                assert alvo.resolve().exists(), f"{arquivo.name} → {href}"
 
 
 def test_todo_pais_do_motor_aparece_no_mapa():

@@ -80,7 +80,8 @@ def test_arquivo_completo_e_sem_links_quebrados(tmp_path):
     for pagina in saida.rglob("*.html"):
         for href in re.findall(r'href="([^"#?]+\.html)"', pagina.read_text()):
             if not href.startswith("http"):
-                assert (pagina.parent / href).resolve().exists(), f"{pagina.relative_to(saida)} → {href}"
+                alvo = saida / href.lstrip("/") if href.startswith("/") else pagina.parent / href  # "/x" = raiz
+                assert alvo.resolve().exists(), f"{pagina.relative_to(saida)} → {href}"
 
 
 def test_paginacao_numerada():
