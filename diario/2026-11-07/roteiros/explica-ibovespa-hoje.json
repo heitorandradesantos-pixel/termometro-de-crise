@@ -1,8 +1,8 @@
 {
  "gancho": {
   "formula": "Número + porquê",
-  "texto": "O dólar fechou a R$ 5,51, e o motivo veio dos EUA.",
-  "na_tela": "Dólar a R$ 5,51: o motivo",
+  "texto": "Dólar a R$ 5,51, e o motivo está nos EUA.",
+  "na_tela": "Dólar a R$ 5,51: por quê?",
   "nota": {
    "especifico": 2,
    "tensao": 2,
@@ -14,8 +14,8 @@
  "ganchos": [
   {
    "formula": "Número + porquê",
-   "texto": "O dólar fechou a R$ 5,51, e o motivo veio dos EUA.",
-   "na_tela": "Dólar a R$ 5,51: o motivo",
+   "texto": "Dólar a R$ 5,51, e o motivo está nos EUA.",
+   "na_tela": "Dólar a R$ 5,51: por quê?",
    "nota": {
     "especifico": 2,
     "tensao": 2,
@@ -25,84 +25,83 @@
    }
   },
   {
-   "formula": "Custo escondido",
-   "texto": "Dólar a R$ 5,51: quem viaja paga ainda mais caro que isso.",
-   "na_tela": "Quem viaja paga mais caro",
-   "nota": {
-    "especifico": 2,
-    "tensao": 1,
-    "espectador": 2,
-    "rapido": 2,
-    "verdadeiro": 1
-   }
-  },
-  {
-   "formula": "Cena no meio",
-   "texto": "Os EUA criaram 165 mil vagas em um mês, e o dólar reagiu.",
-   "na_tela": "165 mil vagas, dólar reage",
+   "formula": "Antes e depois",
+   "texto": "O Ibovespa subiu 1,39% na sexta, depois de três semanas de queda.",
+   "na_tela": "Ibovespa +1,39% após 3 quedas",
    "nota": {
     "especifico": 2,
     "tensao": 1,
     "espectador": 0,
     "rapido": 2,
-    "verdadeiro": 2
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "O dólar a R$ 5,51 mexe no seu bolso por dois caminhos.",
+   "na_tela": "Dólar a R$ 5,51 no seu bolso",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
    }
   }
  ],
  "linhas": [
-  "O dólar fechou a R$ 5,51, e o motivo veio dos EUA.",
+  "Dólar a R$ 5,51, e o motivo está nos EUA.",
   "Aqui é a Clara, com o Termômetro de Crise.",
-  "Foi o maior desde 30 de dezembro de 2025.",
-  "Os EUA criaram 165 mil vagas, e os economistas esperavam 65 mil.",
-  "Isso mexeu com as apostas sobre o banco central dos EUA.",
-  "Mas ninguém mediu quanto cada fator pesou no dólar.",
-  "Dólar mais caro encarece importados e viagens ao exterior.",
-  "Combustíveis também podem sentir, porque o petróleo é negociado em dólar.",
-  "Quem viaja paga a cotação do turismo, que costuma ser mais alta.",
-  "Antes de viajar, confira essa cotação, não a das notícias.",
+  "É o maior valor desde 30 de dezembro de 2025.",
+  "O motivo foi o emprego nos Estados Unidos.",
+  "A economia americana criou 165 mil vagas, e economistas esperavam 65 mil.",
+  "Isso mexeu nas apostas sobre o banco central americano.",
+  "Mas tem um detalhe: ninguém mediu quanto cada fator pesou.",
+  "Dólar alto encarece importados e viagens ao exterior.",
+  "Combustíveis podem sentir, mas o repasse leva semanas.",
+  "No cartão ou no turismo, a cotação costuma ser mais alta.",
+  "Por isso, cheque antes de pagar.",
   "Isso não é recomendação: é o termômetro.",
   "O grupo do WhatsApp está no link da bio."
  ],
- "texto_falado": "O dólar fechou a R$ 5,51, e o motivo veio dos EUA. Aqui é a Clara, com o Termômetro de Crise. Foi o maior desde 30 de dezembro de 2025. Os EUA criaram 165 mil vagas, e os economistas esperavam 65 mil. Isso mexeu com as apostas sobre o banco central dos EUA. Mas ninguém mediu quanto cada fator pesou no dólar. Dólar mais caro encarece importados e viagens ao exterior. Combustíveis também podem sentir, porque o petróleo é negociado em dólar. Quem viaja paga a cotação do turismo, que costuma ser mais alta. Antes de viajar, confira essa cotação, não a das notícias. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
- "palavras": 120,
- "segundos": 48,
+ "texto_falado": "Dólar a R$ 5,51, e o motivo está nos EUA. Aqui é a Clara, com o Termômetro de Crise. É o maior valor desde 30 de dezembro de 2025. O motivo foi o emprego nos Estados Unidos. A economia americana criou 165 mil vagas, e economistas esperavam 65 mil. Isso mexeu nas apostas sobre o banco central americano. Mas tem um detalhe: ninguém mediu quanto cada fator pesou. Dólar alto encarece importados e viagens ao exterior. Combustíveis podem sentir, mas o repasse leva semanas. No cartão ou no turismo, a cotação costuma ser mais alta. Por isso, cheque antes de pagar. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 117,
+ "segundos": 47,
  "na_tela": [
   {
-   "texto": "Dólar a R$ 5,51: o motivo",
+   "texto": "Dólar a R$ 5,51: por quê?",
    "fala": 0
   },
   {
    "fala": 2,
-   "texto": "Maior valor desde 30/12/2025",
+   "texto": "R$ 5,51: maior valor desde 30/12/2025",
    "fonte": "Diário do Sudoeste"
   },
   {
-   "fala": 3,
-   "texto": "165 mil vagas (esperado: 65 mil)",
+   "fala": 4,
+   "texto": "EUA criaram 165 mil vagas (esperado: 65 mil)",
    "fonte": "Jornal de Brasília"
   },
   {
-   "fala": 5,
-   "texto": "Quanto cada fator pesou? Ninguém mediu",
-   "fonte": "Termômetro de Crise"
-  },
-  {
    "fala": 6,
-   "texto": "Importados e viagens mais caros",
-   "fonte": "Termômetro de Crise"
+   "texto": "Peso de cada fator: ninguém mediu",
+   "fonte": "Diário do Sudoeste"
   },
   {
-   "fala": 8,
-   "texto": "Cotação do turismo costuma ser mais alta",
-   "fonte": "Termômetro de Crise"
+   "fala": 7,
+   "texto": "Dólar alto: importados e viagens mais caros"
+  },
+  {
+   "fala": 9,
+   "texto": "Cartão e turismo: cotação mais alta que a comercial"
   }
  ],
- "retomada": 5,
+ "retomada": 6,
  "busca": "dólar hoje",
- "legenda": "Dólar hoje: por que fechou a R$ 5,51?\n\nO dólar chegou ao maior valor desde 30 de dezembro de 2025, depois de dados fortes de emprego nos EUA: 165 mil vagas criadas, contra 65 mil esperadas. Nenhum veículo mediu quanto cada fator pesou na alta.\n\nPara o seu bolso: dólar mais caro encarece importados e viagens, e os combustíveis também podem sentir, porque o petróleo é negociado em dólar. Quem viaja paga a cotação do turismo ou do cartão, que costuma ser mais alta que a das notícias.\n\nO grupo do WhatsApp está no link da bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #dolar #economia #financaspessoais",
+ "legenda": "Dólar hoje: por que fechou a R$ 5,51?\n\nO dólar fechou a R$ 5,51 na sexta (6/11), o maior valor desde 30 de dezembro de 2025, segundo o Diário do Sudoeste. O principal impulso foi o relatório de emprego dos EUA: 165 mil vagas criadas, contra 65 mil esperadas.\n\nOs veículos citam também falas sobre política econômica e cautela com as contas públicas, mas nenhum mediu o peso de cada fator. Os números variam um pouco de uma fonte para outra.\n\nPara o seu bolso: dólar mais caro encarece importados e viagens, e os combustíveis podem sentir o efeito, porque o petróleo é negociado em dólar. Quem vai viajar paga a cotação do turismo ou do cartão, que costuma ser mais alta que a do dólar comercial.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #economia #financaspessoais",
  "hashtags": [
   "#dolarhoje",
-  "#dolar",
+  "#ibovespa",
   "#economia",
   "#financaspessoais"
  ],
@@ -110,66 +109,66 @@
  "persona": "Clara",
  "aprovado": true,
  "problemas": [],
- "tentativas": 1,
+ "tentativas": 2,
  "cenas": [
   {
    "tipo": "apresentadora",
-   "visual": "a abstract glowing red line chart rising over a dark blue background with a faint silhouette of a city skyline",
-   "na_tela": "Dólar fecha a R$ 5,51",
-   "transicao": "camera keeps slowly pushing in on the presenter as she finishes the line",
-   "fala": "O dólar fechou a R$ 5,51, e o motivo veio dos EUA. Aqui é a Clara, com o Termômetro de Crise.",
+   "visual": "a abstract glowing red line chart rising over a dark blue background, with a soft silhouette of a skyline of a US financial district",
+   "na_tela": "Dólar a R$ 5,51",
+   "transicao": "presenter holds her pose while the camera slowly pushes in, ready to cut to the next scene",
+   "fala": "Dólar a R$ 5,51, e o motivo está nos EUA. Aqui é a Clara, com o Termômetro de Crise.",
    "inicio_s": 0,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a abstract glowing red line chart rising over a dark blue background with a faint silhouette of a city skyline. She looks into the camera with a subtle natural hand gesture and says: \"O dólar fechou a R$ 5,51, e o motivo veio dos EUA. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter as she finishes the line. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a abstract glowing red line chart rising over a dark blue background, with a soft silhouette of a skyline of a US financial district. She looks into the camera with a subtle natural hand gesture and says: \"Dólar a R$ 5,51, e o motivo está nos EUA. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter holds her pose while the camera slowly pushes in, ready to cut to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "imagem",
-   "visual": "a busy modern American factory and office district at morning, wide aerial shot of glass buildings and workers' entrance doors with anonymous silhouettes far away, camera slowly gliding forward, no text, no faces",
-   "na_tela": "165 mil vagas, esperado: 65 mil",
-   "transicao": "camera continues gliding forward and fades softly toward a bright blue tone",
-   "fala": "Foi o maior desde 30 de dezembro de 2025. Os EUA criaram 165 mil vagas, e os economistas esperavam 65 mil.",
+   "visual": "Slow cinematic push-in on a stack of US dollar bills and coins on a dark reflective table, warm light, a blurred city skyline at dusk in the background, no text or numbers visible",
+   "na_tela": "Maior valor desde 30/12/2025",
+   "transicao": "camera keeps slowly pushing in on the bills, then softly blurs to match the next scene",
+   "fala": "É o maior valor desde 30 de dezembro de 2025. O motivo foi o emprego nos Estados Unidos.",
    "inicio_s": 8,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a busy modern American factory and office district at morning, wide aerial shot of glass buildings and workers' entrance doors with anonymous silhouettes far away, camera slowly gliding forward, no text, no faces. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Foi o maior desde 30 de dezembro de 2025. Os EUA criaram 165 mil vagas, e os economistas esperavam 65 mil.\" No faces in focus. Ending: camera continues gliding forward and fades softly toward a bright blue tone. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Slow cinematic push-in on a stack of US dollar bills and coins on a dark reflective table, warm light, a blurred city skyline at dusk in the background, no text or numbers visible. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"É o maior valor desde 30 de dezembro de 2025. O motivo foi o emprego nos Estados Unidos.\" No faces in focus. Ending: camera keeps slowly pushing in on the bills, then softly blurs to match the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "apresentadora",
-   "visual": "a grand neoclassical central bank building with tall columns at dawn, soft golden light",
-   "na_tela": "Apostas sobre o banco central",
-   "transicao": "camera keeps slowly pushing in on the presenter, same framing",
-   "fala": "Isso mexeu com as apostas sobre o banco central dos EUA. Mas ninguém mediu quanto cada fator pesou no dólar.",
+   "visual": "a modern central bank building with tall columns at dawn, soft golden light, no visible text or logos",
+   "na_tela": "165 mil vagas contra 65 mil",
+   "transicao": "presenter finishes speaking and stays still while the screen behind her slowly zooms in",
+   "fala": "A economia americana criou 165 mil vagas, e economistas esperavam 65 mil. Isso mexeu nas apostas sobre o banco central americano.",
    "inicio_s": 16,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a grand neoclassical central bank building with tall columns at dawn, soft golden light. She looks into the camera with a subtle natural hand gesture and says: \"Isso mexeu com as apostas sobre o banco central dos EUA. Mas ninguém mediu quanto cada fator pesou no dólar.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter, same framing. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building with tall columns at dawn, soft golden light, no visible text or logos. She looks into the camera with a subtle natural hand gesture and says: \"A economia americana criou 165 mil vagas, e economistas esperavam 65 mil. Isso mexeu nas apostas sobre o banco central americano.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter finishes speaking and stays still while the screen behind her slowly zooms in. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "imagem",
-   "visual": "close-up of a cargo ship loaded with containers at a port at sunset, then slow pan to a fuel pump nozzle and an oil refinery in the background, warm tones, no text, no logos",
-   "na_tela": "Importados, viagens e combustíveis",
-   "transicao": "slow pan continues to the right, ending on the refinery lights",
-   "fala": "Dólar mais caro encarece importados e viagens ao exterior. Combustíveis também podem sentir, porque o petróleo é negociado em dólar.",
+   "visual": "Close-up tracking shot of an airport departure hall with travelers pulling suitcases, then pan to shelves of imported electronics in a store, shallow depth of field, no readable text or logos, no recognizable faces",
+   "na_tela": "Ninguém mediu o peso de cada fator",
+   "transicao": "camera continues a slow lateral pan to the right, ready to cut to the next scene",
+   "fala": "Mas tem um detalhe: ninguém mediu quanto cada fator pesou. Dólar alto encarece importados e viagens ao exterior.",
    "inicio_s": 24,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a cargo ship loaded with containers at a port at sunset, then slow pan to a fuel pump nozzle and an oil refinery in the background, warm tones, no text, no logos. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Dólar mais caro encarece importados e viagens ao exterior. Combustíveis também podem sentir, porque o petróleo é negociado em dólar.\" No faces in focus. Ending: slow pan continues to the right, ending on the refinery lights. No on-screen text, no subtitles, no captions, no logos, no real public figures."
-  },
-  {
-   "tipo": "imagem",
-   "visual": "an airport terminal with a large window showing a plane on the runway, a traveler's hand holding a passport and a few foreign banknotes on a table, shallow depth of field, no readable text, no recognizable face",
-   "na_tela": "Confira a cotação do turismo",
-   "transicao": "camera slowly pulls back and cuts to the presenter in the studio",
-   "fala": "Quem viaja paga a cotação do turismo, que costuma ser mais alta. Antes de viajar, confira essa cotação, não a das notícias.",
-   "inicio_s": 32,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. an airport terminal with a large window showing a plane on the runway, a traveler's hand holding a passport and a few foreign banknotes on a table, shallow depth of field, no readable text, no recognizable face. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Quem viaja paga a cotação do turismo, que costuma ser mais alta. Antes de viajar, confira essa cotação, não a das notícias.\" No faces in focus. Ending: camera slowly pulls back and cuts to the presenter in the studio. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Close-up tracking shot of an airport departure hall with travelers pulling suitcases, then pan to shelves of imported electronics in a store, shallow depth of field, no readable text or logos, no recognizable faces. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Mas tem um detalhe: ninguém mediu quanto cada fator pesou. Dólar alto encarece importados e viagens ao exterior.\" No faces in focus. Ending: camera continues a slow lateral pan to the right, ready to cut to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "apresentadora",
-   "visual": "a calm abstract thermometer-shaped light gradient from blue to red on a dark background, no text",
-   "na_tela": "Link do grupo na bio",
-   "transicao": "camera holds the presenter with a gentle smile and slowly settles, final shot",
-   "fala": "Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+   "visual": "a gas station with fuel pumps at sunrise, then a credit card being held near a payment terminal, no readable text or logos",
+   "na_tela": "Repasse leva semanas",
+   "transicao": "presenter holds her pose with a slight smile while the background gently pushes in",
+   "fala": "Combustíveis podem sentir, mas o repasse leva semanas. No cartão ou no turismo, a cotação costuma ser mais alta.",
+   "inicio_s": 32,
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a gas station with fuel pumps at sunrise, then a credit card being held near a payment terminal, no readable text or logos. She looks into the camera with a subtle natural hand gesture and says: \"Combustíveis podem sentir, mas o repasse leva semanas. No cartão ou no turismo, a cotação costuma ser mais alta.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter holds her pose with a slight smile while the background gently pushes in. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+  },
+  {
+   "tipo": "apresentadora",
+   "visual": "a clean abstract thermometer-shaped graphic glowing in orange and blue on a dark background, no text or numbers",
+   "na_tela": "WhatsApp: link da bio",
+   "transicao": "presenter finishes with a small nod and holds still as the scene gently fades to the end",
+   "fala": "Por isso, cheque antes de pagar. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
    "inicio_s": 40,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calm abstract thermometer-shaped light gradient from blue to red on a dark background, no text. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds the presenter with a gentle smile and slowly settles, final shot. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a clean abstract thermometer-shaped graphic glowing in orange and blue on a dark background, no text or numbers. She looks into the camera with a subtle natural hand gesture and says: \"Por isso, cheque antes de pagar. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter finishes with a small nod and holds still as the scene gently fades to the end. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   }
  ],
  "cenas_ok": true,
  "cenas_problemas": [],
- "flow": "Google Flow: 6 cenas de 8 s (Veo). Nas cenas da apresentadora, use a foto da Clara como ingrediente.\n\nCENA 1 (0-8 s, apresentadora)\nFala: O dólar fechou a R$ 5,51, e o motivo veio dos EUA. Aqui é a Clara, com o Termômetro de Crise.\nTela: Dólar fecha a R$ 5,51\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a abstract glowing red line chart rising over a dark blue background with a faint silhouette of a city skyline. She looks into the camera with a subtle natural hand gesture and says: \"O dólar fechou a R$ 5,51, e o motivo veio dos EUA. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter as she finishes the line. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 2 (8-16 s, imagem)\nFala: Foi o maior desde 30 de dezembro de 2025. Os EUA criaram 165 mil vagas, e os economistas esperavam 65 mil.\nTela: 165 mil vagas, esperado: 65 mil\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a busy modern American factory and office district at morning, wide aerial shot of glass buildings and workers' entrance doors with anonymous silhouettes far away, camera slowly gliding forward, no text, no faces. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Foi o maior desde 30 de dezembro de 2025. Os EUA criaram 165 mil vagas, e os economistas esperavam 65 mil.\" No faces in focus. Ending: camera continues gliding forward and fades softly toward a bright blue tone. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 3 (16-24 s, apresentadora)\nFala: Isso mexeu com as apostas sobre o banco central dos EUA. Mas ninguém mediu quanto cada fator pesou no dólar.\nTela: Apostas sobre o banco central\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a grand neoclassical central bank building with tall columns at dawn, soft golden light. She looks into the camera with a subtle natural hand gesture and says: \"Isso mexeu com as apostas sobre o banco central dos EUA. Mas ninguém mediu quanto cada fator pesou no dólar.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter, same framing. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 4 (24-32 s, imagem)\nFala: Dólar mais caro encarece importados e viagens ao exterior. Combustíveis também podem sentir, porque o petróleo é negociado em dólar.\nTela: Importados, viagens e combustíveis\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a cargo ship loaded with containers at a port at sunset, then slow pan to a fuel pump nozzle and an oil refinery in the background, warm tones, no text, no logos. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Dólar mais caro encarece importados e viagens ao exterior. Combustíveis também podem sentir, porque o petróleo é negociado em dólar.\" No faces in focus. Ending: slow pan continues to the right, ending on the refinery lights. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 5 (32-40 s, imagem)\nFala: Quem viaja paga a cotação do turismo, que costuma ser mais alta. Antes de viajar, confira essa cotação, não a das notícias.\nTela: Confira a cotação do turismo\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. an airport terminal with a large window showing a plane on the runway, a traveler's hand holding a passport and a few foreign banknotes on a table, shallow depth of field, no readable text, no recognizable face. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Quem viaja paga a cotação do turismo, que costuma ser mais alta. Antes de viajar, confira essa cotação, não a das notícias.\" No faces in focus. Ending: camera slowly pulls back and cuts to the presenter in the studio. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 6 (40-48 s, apresentadora)\nFala: Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\nTela: Link do grupo na bio\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calm abstract thermometer-shaped light gradient from blue to red on a dark background, no text. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds the presenter with a gentle smile and slowly settles, final shot. No on-screen text, no subtitles, no captions, no logos, no real public figures.",
+ "flow": "Google Flow: 6 cenas de 8 s (Veo). Nas cenas da apresentadora, use a foto da Clara como ingrediente.\n\nCENA 1 (0-8 s, apresentadora)\nFala: Dólar a R$ 5,51, e o motivo está nos EUA. Aqui é a Clara, com o Termômetro de Crise.\nTela: Dólar a R$ 5,51\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a abstract glowing red line chart rising over a dark blue background, with a soft silhouette of a skyline of a US financial district. She looks into the camera with a subtle natural hand gesture and says: \"Dólar a R$ 5,51, e o motivo está nos EUA. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter holds her pose while the camera slowly pushes in, ready to cut to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 2 (8-16 s, imagem)\nFala: É o maior valor desde 30 de dezembro de 2025. O motivo foi o emprego nos Estados Unidos.\nTela: Maior valor desde 30/12/2025\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Slow cinematic push-in on a stack of US dollar bills and coins on a dark reflective table, warm light, a blurred city skyline at dusk in the background, no text or numbers visible. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"É o maior valor desde 30 de dezembro de 2025. O motivo foi o emprego nos Estados Unidos.\" No faces in focus. Ending: camera keeps slowly pushing in on the bills, then softly blurs to match the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 3 (16-24 s, apresentadora)\nFala: A economia americana criou 165 mil vagas, e economistas esperavam 65 mil. Isso mexeu nas apostas sobre o banco central americano.\nTela: 165 mil vagas contra 65 mil\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building with tall columns at dawn, soft golden light, no visible text or logos. She looks into the camera with a subtle natural hand gesture and says: \"A economia americana criou 165 mil vagas, e economistas esperavam 65 mil. Isso mexeu nas apostas sobre o banco central americano.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter finishes speaking and stays still while the screen behind her slowly zooms in. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 4 (24-32 s, imagem)\nFala: Mas tem um detalhe: ninguém mediu quanto cada fator pesou. Dólar alto encarece importados e viagens ao exterior.\nTela: Ninguém mediu o peso de cada fator\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Close-up tracking shot of an airport departure hall with travelers pulling suitcases, then pan to shelves of imported electronics in a store, shallow depth of field, no readable text or logos, no recognizable faces. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Mas tem um detalhe: ninguém mediu quanto cada fator pesou. Dólar alto encarece importados e viagens ao exterior.\" No faces in focus. Ending: camera continues a slow lateral pan to the right, ready to cut to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 5 (32-40 s, apresentadora)\nFala: Combustíveis podem sentir, mas o repasse leva semanas. No cartão ou no turismo, a cotação costuma ser mais alta.\nTela: Repasse leva semanas\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a gas station with fuel pumps at sunrise, then a credit card being held near a payment terminal, no readable text or logos. She looks into the camera with a subtle natural hand gesture and says: \"Combustíveis podem sentir, mas o repasse leva semanas. No cartão ou no turismo, a cotação costuma ser mais alta.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter holds her pose with a slight smile while the background gently pushes in. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 6 (40-48 s, apresentadora)\nFala: Por isso, cheque antes de pagar. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\nTela: WhatsApp: link da bio\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a clean abstract thermometer-shaped graphic glowing in orange and blue on a dark background, no text or numbers. She looks into the camera with a subtle natural hand gesture and says: \"Por isso, cheque antes de pagar. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter finishes with a small nod and holds still as the scene gently fades to the end. No on-screen text, no subtitles, no captions, no logos, no real public figures.",
  "data": "2026-11-07",
- "gerado_em": "2026-11-07T11:48:17.337565-03:00"
+ "gerado_em": "2026-11-07T11:59:02.404862-03:00"
 }

@@ -1,111 +1,115 @@
 {
  "gancho": {
-  "formula": "Número + porquê",
-  "texto": "Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027.",
-  "na_tela": "6 de 9 cadeiras do BC vão mudar",
+  "formula": "Custo escondido",
+  "texto": "Seis das nove cadeiras do BC terão novos donos. E o seu juro?",
+  "na_tela": "Seis cadeiras do BC: e o juro?",
   "nota": {
    "especifico": 2,
-   "tensao": 1,
-   "espectador": 0,
-   "rapido": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
    "verdadeiro": 2
   }
  },
  "ganchos": [
   {
+   "formula": "Custo escondido",
+   "texto": "Seis das nove cadeiras do BC terão novos donos. E o seu juro?",
+   "na_tela": "Seis cadeiras do BC: e o juro?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
    "formula": "Número + porquê",
-   "texto": "Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027.",
-   "na_tela": "6 de 9 cadeiras do BC vão mudar",
+   "texto": "Selic em 13,75%, e seis diretores novos no BC até 2027.",
+   "na_tela": "Selic em 13,75%. E o BC?",
    "nota": {
     "especifico": 2,
     "tensao": 1,
-    "espectador": 0,
+    "espectador": 1,
     "rapido": 2,
     "verdadeiro": 2
    }
   },
   {
    "formula": "Não foi o que você pensa",
-   "texto": "Selic parada em 13,75%, mas o Banco Central terá seis diretores novos.",
-   "na_tela": "Selic parada, BC em mudança",
-   "nota": {
-    "especifico": 2,
-    "tensao": 1,
-    "espectador": 0,
-    "rapido": 2,
-    "verdadeiro": 2
-   }
-  },
-  {
-   "formula": "Custo escondido",
-   "texto": "Seus juros são votados por nove diretores, e seis cadeiras vão mudar.",
-   "na_tela": "Seus juros: 6 cadeiras mudam",
+   "texto": "Seis diretores novos no BC não mudam seu juro hoje.",
+   "na_tela": "Seis diretores novos. Juro igual.",
    "nota": {
     "especifico": 2,
     "tensao": 1,
     "espectador": 2,
     "rapido": 2,
-    "verdadeiro": 1
+    "verdadeiro": 2
    }
   }
  ],
  "linhas": [
-  "Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027.",
+  "Seis das nove cadeiras do BC terão novos donos. E o seu juro?",
   "Aqui é a Clara, com o Termômetro de Crise.",
-  "Duas vagas estão abertas desde janeiro.",
-  "As outras quatro abrem até o fim de 2027.",
-  "O presidente indica, e o Senado precisa aprovar cada nome.",
-  "Até agora, não há indicação formal enviada ao Senado.",
-  "Mas hoje nada muda: a Selic segue em 13,75%.",
-  "Ela é a taxa que guia financiamento, cartão e renda fixa.",
-  "Maioria de indicados não controla a Selic sozinha: são nove votos.",
-  "Se tem financiamento, fique de olho no Copom de dezembro.",
+  "Duas cadeiras estão vagas desde janeiro, e as outras trocas vão até 2027.",
+  "O presidente escolhe e o Senado precisa aprovar.",
+  "Ainda não se sabe quem serão os indicados.",
+  "Também não se sabe como eles votarão nos juros.",
+  "Mas ter maioria de indicados não significa controlar a Selic.",
+  "Cada decisão tem nove votos, e a inflação também pesa.",
+  "Hoje, nada muda: a Selic está em 13,75% ao ano.",
+  "Para quem tem financiamento, pesa o Copom de dezembro.",
   "Isso não é recomendação: é o termômetro.",
   "O grupo do WhatsApp está no link da bio."
  ],
- "texto_falado": "Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027. Aqui é a Clara, com o Termômetro de Crise. Duas vagas estão abertas desde janeiro. As outras quatro abrem até o fim de 2027. O presidente indica, e o Senado precisa aprovar cada nome. Até agora, não há indicação formal enviada ao Senado. Mas hoje nada muda: a Selic segue em 13,75%. Ela é a taxa que guia financiamento, cartão e renda fixa. Maioria de indicados não controla a Selic sozinha: são nove votos. Se tem financiamento, fique de olho no Copom de dezembro. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
- "palavras": 112,
- "segundos": 45,
+ "texto_falado": "Seis das nove cadeiras do BC terão novos donos. E o seu juro? Aqui é a Clara, com o Termômetro de Crise. Duas cadeiras estão vagas desde janeiro, e as outras trocas vão até 2027. O presidente escolhe e o Senado precisa aprovar. Ainda não se sabe quem serão os indicados. Também não se sabe como eles votarão nos juros. Mas ter maioria de indicados não significa controlar a Selic. Cada decisão tem nove votos, e a inflação também pesa. Hoje, nada muda: a Selic está em 13,75% ao ano. Para quem tem financiamento, pesa o Copom de dezembro. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 115,
+ "segundos": 46,
  "na_tela": [
   {
-   "texto": "6 de 9 cadeiras do BC vão mudar",
+   "texto": "Seis cadeiras do BC: e o juro?",
    "fala": 0
   },
   {
    "fala": 2,
-   "texto": "2 vagas abertas desde janeiro",
-   "fonte": "Folha"
+   "texto": "Duas vagas desde janeiro · trocas até 2027",
+   "fonte": "Folhapress"
   },
   {
-   "fala": 3,
-   "texto": "Mais 4 até o fim de 2027",
-   "fonte": "Folha"
-  },
-  {
-   "fala": 5,
-   "texto": "Nenhuma indicação formal"
+   "fala": 4,
+   "texto": "Indicados: sem nome oficial",
+   "fonte": "Folhapress"
   },
   {
    "fala": 6,
+   "texto": "Maioria ≠ controle da Selic",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Nove votos por decisão",
+   "fonte": "Folhapress"
+  },
+  {
+   "fala": 8,
    "texto": "Selic: 13,75% ao ano",
    "fonte": "Banco Central"
   },
   {
-   "fala": 8,
-   "texto": "Copom: 9 votos"
-  },
-  {
    "fala": 9,
-   "texto": "Próximo passo: Copom de dezembro"
+   "texto": "Próximo teste: Copom de dezembro",
+   "fonte": "Banco Central"
   }
  ],
  "retomada": 6,
- "busca": "troca de diretores do Banco Central: o que muda nos juros",
- "legenda": "Troca de diretores do Banco Central: o que muda nos juros?\n\nSeis das nove cadeiras da diretoria do BC terão novos ocupantes até o fim de 2027, segundo a Folha. A escolha é do presidente da República, e cada nome precisa do aval do Senado.\n\nHoje, nada muda: a Selic está em 13,75% ao ano. Ter maioria de indicados não significa controlar os juros, porque cada decisão do Copom é votada por nove integrantes.\n\nAinda não há indicação formal nem data de sabatina. Para quem tem financiamento, o que pesa nos próximos meses é o Copom de dezembro.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancocentral #selic #copom #educacaofinanceira",
+ "busca": "troca de diretores do Banco Central: o que muda na Selic",
+ "legenda": "Troca de diretores do Banco Central: o que muda na Selic?\n\nSeis das nove cadeiras da diretoria do BC terão novos ocupantes até o fim de 2027. Duas estão vagas desde janeiro. O presidente escolhe, e o Senado precisa aprovar cada nome.\n\nAinda não há indicados confirmados nem se sabe como os novos diretores votarão nos juros. Hoje, nada muda: a Selic está em 13,75% ao ano, e cada decisão do Copom tem nove votos.\n\nSe você tem financiamento ou investe em produtos ligados à Selic, o que pesa nos próximos meses é o Copom de dezembro.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancocentral #selic #copom #juroshoje #educacaofinanceira",
  "hashtags": [
   "#bancocentral",
   "#selic",
   "#copom",
+  "#juroshoje",
   "#educacaofinanceira"
  ],
  "tipo": "explica",
@@ -116,62 +120,62 @@
  "cenas": [
   {
    "tipo": "apresentadora",
-   "visual": "a modern central bank building at dawn, with soft golden light on the facade",
-   "na_tela": "6 de 9 cadeiras mudam até 2027",
-   "transicao": "camera keeps slowly pushing in on the presenter as the screen behind her fades to a dark conference room",
-   "fala": "Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027. Aqui é a Clara, com o Termômetro de Crise.",
+   "visual": "a modern central bank building at dawn, with nine empty leather chairs glowing softly in a row in the foreground",
+   "na_tela": "6 de 9 cadeiras do BC",
+   "transicao": "camera keeps slowly pushing in on the presenter as the background fades to a dim boardroom",
+   "fala": "Seis das nove cadeiras do BC terão novos donos. E o seu juro? Aqui é a Clara, com o Termômetro de Crise.",
    "inicio_s": 0,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, with soft golden light on the facade. She looks into the camera with a subtle natural hand gesture and says: \"Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter as the screen behind her fades to a dark conference room. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, with nine empty leather chairs glowing softly in a row in the foreground. She looks into the camera with a subtle natural hand gesture and says: \"Seis das nove cadeiras do BC terão novos donos. E o seu juro? Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter as the background fades to a dim boardroom. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "imagem",
-   "visual": "a large empty boardroom with nine leather chairs around a long polished table, two chairs highlighted by a soft beam of light while the other seven stay in shadow; slow dolly forward along the table",
-   "na_tela": "2 vagas abertas desde janeiro",
-   "transicao": "camera keeps gliding forward along the table toward the end of the room, then cuts to the presenter",
-   "fala": "Duas vagas estão abertas desde janeiro. As outras quatro abrem até o fim de 2027.",
+   "visual": "a wide shot of a large empty boardroom with a long oval table and nine chairs, two of them pulled away and visibly vacant, soft morning light through tall windows, slow dolly forward along the table",
+   "na_tela": "2 vagas desde janeiro",
+   "transicao": "camera keeps gliding forward toward the end of the table, ending on a distant government building through the window",
+   "fala": "Duas cadeiras estão vagas desde janeiro, e as outras trocas vão até 2027. O presidente escolhe e o Senado precisa aprovar.",
    "inicio_s": 8,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a large empty boardroom with nine leather chairs around a long polished table, two chairs highlighted by a soft beam of light while the other seven stay in shadow; slow dolly forward along the table. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Duas vagas estão abertas desde janeiro. As outras quatro abrem até o fim de 2027.\" No faces in focus. Ending: camera keeps gliding forward along the table toward the end of the room, then cuts to the presenter. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a wide shot of a large empty boardroom with a long oval table and nine chairs, two of them pulled away and visibly vacant, soft morning light through tall windows, slow dolly forward along the table. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Duas cadeiras estão vagas desde janeiro, e as outras trocas vão até 2027. O presidente escolhe e o Senado precisa aprovar.\" No faces in focus. Ending: camera keeps gliding forward toward the end of the table, ending on a distant government building through the window. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "apresentadora",
-   "visual": "a grand neoclassical parliament building with a wide staircase, seen from a low angle under a clear sky",
-   "na_tela": "Presidente indica, Senado aprova",
-   "transicao": "camera slowly pushes in as the presenter keeps looking ahead, matching the next shot's forward motion",
-   "fala": "O presidente indica, e o Senado precisa aprovar cada nome. Até agora, não há indicação formal enviada ao Senado.",
+   "visual": "a blurred silhouette-free abstract backdrop of a Brazilian Senate-style dome building at dusk, with floating empty question-mark-shaped light glows, no text",
+   "na_tela": "Quem serão os indicados?",
+   "transicao": "camera slowly pushes in, background light dims to neutral gray-blue",
+   "fala": "Ainda não se sabe quem serão os indicados. Também não se sabe como eles votarão nos juros.",
    "inicio_s": 16,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a grand neoclassical parliament building with a wide staircase, seen from a low angle under a clear sky. She looks into the camera with a subtle natural hand gesture and says: \"O presidente indica, e o Senado precisa aprovar cada nome. Até agora, não há indicação formal enviada ao Senado.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera slowly pushes in as the presenter keeps looking ahead, matching the next shot's forward motion. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a blurred silhouette-free abstract backdrop of a Brazilian Senate-style dome building at dusk, with floating empty question-mark-shaped light glows, no text. She looks into the camera with a subtle natural hand gesture and says: \"Ainda não se sabe quem serão os indicados. Também não se sabe como eles votarão nos juros.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera slowly pushes in, background light dims to neutral gray-blue. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "imagem",
-   "visual": "close-up of a stack of gold coins next to a credit card and a small house model on a desk, with a soft abstract line chart glowing in the blurred background; slow camera push in",
-   "na_tela": "Selic segue em 13,75%",
-   "transicao": "camera keeps slowly pushing in past the objects, softly blurring into the next scene",
-   "fala": "Mas hoje nada muda: a Selic segue em 13,75%. Ela é a taxa que guia financiamento, cartão e renda fixa.",
+   "visual": "close-up of a balanced old-fashioned brass scale on a polished table, nine small identical wooden blocks on one side and a glowing orange orb representing inflation on the other, slow lateral camera move, shallow depth of field",
+   "na_tela": "9 votos, inflação pesa",
+   "transicao": "camera keeps drifting slowly to the right, scale slips out of focus into warm office light",
+   "fala": "Mas ter maioria de indicados não significa controlar a Selic. Cada decisão tem nove votos, e a inflação também pesa.",
    "inicio_s": 24,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a stack of gold coins next to a credit card and a small house model on a desk, with a soft abstract line chart glowing in the blurred background; slow camera push in. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Mas hoje nada muda: a Selic segue em 13,75%. Ela é a taxa que guia financiamento, cartão e renda fixa.\" No faces in focus. Ending: camera keeps slowly pushing in past the objects, softly blurring into the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a balanced old-fashioned brass scale on a polished table, nine small identical wooden blocks on one side and a glowing orange orb representing inflation on the other, slow lateral camera move, shallow depth of field. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Mas ter maioria de indicados não significa controlar a Selic. Cada decisão tem nove votos, e a inflação também pesa.\" No faces in focus. Ending: camera keeps drifting slowly to the right, scale slips out of focus into warm office light. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "apresentadora",
-   "visual": "an abstract glowing bar chart with nine identical blocks, with one calendar page for December turning slowly, no text",
-   "na_tela": "Fique de olho no Copom de dezembro",
-   "transicao": "camera holds a slow push in on the presenter, preparing for a calm closing shot",
-   "fala": "Maioria de indicados não controla a Selic sozinha: são nove votos. Se tem financiamento, fique de olho no Copom de dezembro.",
+   "visual": "an abstract flat line chart holding steady in a calm horizontal line, then a calendar-like page turning to December, no numbers or text visible, soft blue tones",
+   "na_tela": "Selic: 13,75% ao ano",
+   "transicao": "camera keeps slowly pushing in as the chart line fades into a window view of a city street",
+   "fala": "Hoje, nada muda: a Selic está em 13,75% ao ano. Para quem tem financiamento, pesa o Copom de dezembro.",
    "inicio_s": 32,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract glowing bar chart with nine identical blocks, with one calendar page for December turning slowly, no text. She looks into the camera with a subtle natural hand gesture and says: \"Maioria de indicados não controla a Selic sozinha: são nove votos. Se tem financiamento, fique de olho no Copom de dezembro.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds a slow push in on the presenter, preparing for a calm closing shot. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract flat line chart holding steady in a calm horizontal line, then a calendar-like page turning to December, no numbers or text visible, soft blue tones. She looks into the camera with a subtle natural hand gesture and says: \"Hoje, nada muda: a Selic está em 13,75% ao ano. Para quem tem financiamento, pesa o Copom de dezembro.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in as the chart line fades into a window view of a city street. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   },
   {
    "tipo": "apresentadora",
-   "visual": "a calm abstract thermometer-like gradient of red and amber light on a dark background, softly pulsing",
-   "na_tela": "WhatsApp no link da bio",
-   "transicao": "camera slowly pushes in and the shot holds steady, final frame fades out gently",
+   "visual": "a large glass thermometer glowing red-orange in a dark modern studio, with soft bokeh city lights behind it",
+   "na_tela": "WhatsApp: link da bio",
+   "transicao": "camera holds steady on the presenter, thermometer glow slowly fades out to end the video",
    "fala": "Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
    "inicio_s": 40,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calm abstract thermometer-like gradient of red and amber light on a dark background, softly pulsing. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera slowly pushes in and the shot holds steady, final frame fades out gently. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a large glass thermometer glowing red-orange in a dark modern studio, with soft bokeh city lights behind it. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds steady on the presenter, thermometer glow slowly fades out to end the video. No on-screen text, no subtitles, no captions, no logos, no real public figures."
   }
  ],
  "cenas_ok": true,
  "cenas_problemas": [],
- "flow": "Google Flow: 6 cenas de 8 s (Veo). Nas cenas da apresentadora, use a foto da Clara como ingrediente.\n\nCENA 1 (0-8 s, apresentadora)\nFala: Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027. Aqui é a Clara, com o Termômetro de Crise.\nTela: 6 de 9 cadeiras mudam até 2027\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, with soft golden light on the facade. She looks into the camera with a subtle natural hand gesture and says: \"Seis das nove cadeiras do Banco Central terão novos ocupantes até 2027. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter as the screen behind her fades to a dark conference room. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 2 (8-16 s, imagem)\nFala: Duas vagas estão abertas desde janeiro. As outras quatro abrem até o fim de 2027.\nTela: 2 vagas abertas desde janeiro\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a large empty boardroom with nine leather chairs around a long polished table, two chairs highlighted by a soft beam of light while the other seven stay in shadow; slow dolly forward along the table. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Duas vagas estão abertas desde janeiro. As outras quatro abrem até o fim de 2027.\" No faces in focus. Ending: camera keeps gliding forward along the table toward the end of the room, then cuts to the presenter. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 3 (16-24 s, apresentadora)\nFala: O presidente indica, e o Senado precisa aprovar cada nome. Até agora, não há indicação formal enviada ao Senado.\nTela: Presidente indica, Senado aprova\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a grand neoclassical parliament building with a wide staircase, seen from a low angle under a clear sky. She looks into the camera with a subtle natural hand gesture and says: \"O presidente indica, e o Senado precisa aprovar cada nome. Até agora, não há indicação formal enviada ao Senado.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera slowly pushes in as the presenter keeps looking ahead, matching the next shot's forward motion. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 4 (24-32 s, imagem)\nFala: Mas hoje nada muda: a Selic segue em 13,75%. Ela é a taxa que guia financiamento, cartão e renda fixa.\nTela: Selic segue em 13,75%\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a stack of gold coins next to a credit card and a small house model on a desk, with a soft abstract line chart glowing in the blurred background; slow camera push in. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Mas hoje nada muda: a Selic segue em 13,75%. Ela é a taxa que guia financiamento, cartão e renda fixa.\" No faces in focus. Ending: camera keeps slowly pushing in past the objects, softly blurring into the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 5 (32-40 s, apresentadora)\nFala: Maioria de indicados não controla a Selic sozinha: são nove votos. Se tem financiamento, fique de olho no Copom de dezembro.\nTela: Fique de olho no Copom de dezembro\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract glowing bar chart with nine identical blocks, with one calendar page for December turning slowly, no text. She looks into the camera with a subtle natural hand gesture and says: \"Maioria de indicados não controla a Selic sozinha: são nove votos. Se tem financiamento, fique de olho no Copom de dezembro.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds a slow push in on the presenter, preparing for a calm closing shot. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 6 (40-48 s, apresentadora)\nFala: Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\nTela: WhatsApp no link da bio\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calm abstract thermometer-like gradient of red and amber light on a dark background, softly pulsing. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera slowly pushes in and the shot holds steady, final frame fades out gently. No on-screen text, no subtitles, no captions, no logos, no real public figures.",
+ "flow": "Google Flow: 6 cenas de 8 s (Veo). Nas cenas da apresentadora, use a foto da Clara como ingrediente.\n\nCENA 1 (0-8 s, apresentadora)\nFala: Seis das nove cadeiras do BC terão novos donos. E o seu juro? Aqui é a Clara, com o Termômetro de Crise.\nTela: 6 de 9 cadeiras do BC\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, with nine empty leather chairs glowing softly in a row in the foreground. She looks into the camera with a subtle natural hand gesture and says: \"Seis das nove cadeiras do BC terão novos donos. E o seu juro? Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter as the background fades to a dim boardroom. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 2 (8-16 s, imagem)\nFala: Duas cadeiras estão vagas desde janeiro, e as outras trocas vão até 2027. O presidente escolhe e o Senado precisa aprovar.\nTela: 2 vagas desde janeiro\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a wide shot of a large empty boardroom with a long oval table and nine chairs, two of them pulled away and visibly vacant, soft morning light through tall windows, slow dolly forward along the table. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Duas cadeiras estão vagas desde janeiro, e as outras trocas vão até 2027. O presidente escolhe e o Senado precisa aprovar.\" No faces in focus. Ending: camera keeps gliding forward toward the end of the table, ending on a distant government building through the window. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 3 (16-24 s, apresentadora)\nFala: Ainda não se sabe quem serão os indicados. Também não se sabe como eles votarão nos juros.\nTela: Quem serão os indicados?\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a blurred silhouette-free abstract backdrop of a Brazilian Senate-style dome building at dusk, with floating empty question-mark-shaped light glows, no text. She looks into the camera with a subtle natural hand gesture and says: \"Ainda não se sabe quem serão os indicados. Também não se sabe como eles votarão nos juros.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera slowly pushes in, background light dims to neutral gray-blue. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 4 (24-32 s, imagem)\nFala: Mas ter maioria de indicados não significa controlar a Selic. Cada decisão tem nove votos, e a inflação também pesa.\nTela: 9 votos, inflação pesa\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a balanced old-fashioned brass scale on a polished table, nine small identical wooden blocks on one side and a glowing orange orb representing inflation on the other, slow lateral camera move, shallow depth of field. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Mas ter maioria de indicados não significa controlar a Selic. Cada decisão tem nove votos, e a inflação também pesa.\" No faces in focus. Ending: camera keeps drifting slowly to the right, scale slips out of focus into warm office light. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 5 (32-40 s, apresentadora)\nFala: Hoje, nada muda: a Selic está em 13,75% ao ano. Para quem tem financiamento, pesa o Copom de dezembro.\nTela: Selic: 13,75% ao ano\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract flat line chart holding steady in a calm horizontal line, then a calendar-like page turning to December, no numbers or text visible, soft blue tones. She looks into the camera with a subtle natural hand gesture and says: \"Hoje, nada muda: a Selic está em 13,75% ao ano. Para quem tem financiamento, pesa o Copom de dezembro.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in as the chart line fades into a window view of a city street. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 6 (40-48 s, apresentadora)\nFala: Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\nTela: WhatsApp: link da bio\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a large glass thermometer glowing red-orange in a dark modern studio, with soft bokeh city lights behind it. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds steady on the presenter, thermometer glow slowly fades out to end the video. No on-screen text, no subtitles, no captions, no logos, no real public figures.",
  "data": "2026-11-07",
- "gerado_em": "2026-11-07T11:47:37.897151-03:00"
+ "gerado_em": "2026-11-07T11:57:31.092960-03:00"
 }
