@@ -1,0 +1,124 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "O dólar a R$ 5,51 mexe no seu bolso, mesmo sem viagem.",
+  "na_tela": "Dólar a R$ 5,51 e o seu bolso",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar fechou a R$ 5,51, e o motivo saiu dos Estados Unidos.",
+   "na_tela": "Dólar a R$ 5,51: o motivo",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "O dólar a R$ 5,51 mexe no seu bolso, mesmo sem viagem.",
+   "na_tela": "Dólar a R$ 5,51 e o seu bolso",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Os EUA criaram 165 mil vagas, e o seu dólar ficou mais caro.",
+   "na_tela": "165 mil vagas, dólar mais caro",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar a R$ 5,51 mexe no seu bolso, mesmo sem viagem.",
+  "Aqui é a Clara, com o Termômetro de Crise.",
+  "É o maior valor desde 30 de dezembro de 2025.",
+  "O empurrão principal foi o relatório de emprego dos EUA, o payroll.",
+  "A economia americana criou 165 mil vagas no mês.",
+  "Os economistas esperavam 65 mil.",
+  "Isso mexeu com as apostas sobre o Federal Reserve, o banco central dos EUA.",
+  "Mas tem um detalhe: ninguém mediu quanto cada fator pesou no dólar.",
+  "Entraram na conta também a política econômica e a cautela com as contas públicas.",
+  "Para o seu bolso: dólar mais caro encarece importados e viagens.",
+  "Combustíveis também podem sentir, porque o petróleo é negociado em dólar.",
+  "O repasse costuma levar semanas.",
+  "Se vai viajar, saiba que o cartão e o turismo têm cotação mais alta.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "O dólar a R$ 5,51 mexe no seu bolso, mesmo sem viagem. Aqui é a Clara, com o Termômetro de Crise. É o maior valor desde 30 de dezembro de 2025. O empurrão principal foi o relatório de emprego dos EUA, o payroll. A economia americana criou 165 mil vagas no mês. Os economistas esperavam 65 mil. Isso mexeu com as apostas sobre o Federal Reserve, o banco central dos EUA. Mas tem um detalhe: ninguém mediu quanto cada fator pesou no dólar. Entraram na conta também a política econômica e a cautela com as contas públicas. Para o seu bolso: dólar mais caro encarece importados e viagens. Combustíveis também podem sentir, porque o petróleo é negociado em dólar. O repasse costuma levar semanas. Se vai viajar, saiba que o cartão e o turismo têm cotação mais alta. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 154,
+ "segundos": 62,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,51 e o seu bolso",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 5,51: maior valor desde 30 de dezembro de 2025",
+   "fonte": "Diário do Sudoeste"
+  },
+  {
+   "fala": 4,
+   "texto": "165 mil vagas criadas nos EUA",
+   "fonte": "Jornal de Brasília"
+  },
+  {
+   "fala": 5,
+   "texto": "Esperado: 65 mil",
+   "fonte": "Jornal de Brasília"
+  },
+  {
+   "fala": 7,
+   "texto": "Peso de cada fator: ninguém mediu",
+   "fonte": "Diário do Sudoeste"
+  },
+  {
+   "fala": 9,
+   "texto": "Importados e viagens mais caros",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 12,
+   "texto": "Cartão e turismo: cotação mais alta",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 7,
+ "busca": "dólar hoje: por que o dólar subiu para R$ 5,51",
+ "legenda": "Dólar hoje: por que o dólar subiu para R$ 5,51?\n\nO dólar comercial fechou a sexta a R$ 5,51, o maior valor desde 30 de dezembro de 2025. O principal empurrão foi o relatório de emprego dos EUA: 165 mil vagas criadas, contra 65 mil esperadas.\n\nOs veículos também citam falas sobre política econômica e cautela com as contas públicas, mas nenhum mediu quanto cada fator pesou.\n\nPara o bolso, dólar mais caro encarece importados e viagens. Combustíveis também podem sentir, e o repasse costuma levar semanas. Quem vai viajar ou comprar do exterior paga a cotação do turismo ou do cartão, mais alta que a do dólar comercial.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #economia #financaspessoais #mercadofinanceiro",
+ "hashtags": [
+  "#dolar",
+  "#economia",
+  "#financaspessoais",
+  "#mercadofinanceiro"
+ ],
+ "tipo": "explica",
+ "persona": "Clara",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "data": "2026-11-07",
+ "gerado_em": "2026-11-07T09:17:00.081297-03:00"
+}
