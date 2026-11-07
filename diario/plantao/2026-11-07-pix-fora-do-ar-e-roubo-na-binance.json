@@ -1,8 +1,8 @@
 {
  "titulo": "Pix, Nubank, Mercado Pago e Binance têm ligação? O que se sabe",
- "descricao": "Pix caiu, Nubank e Mercado Pago travaram cripto e a Binance sofreu roubo de US$ 6,3 bi. Até agora, nenhuma fonte oficial liga os três casos.",
+ "descricao": "Pix caiu, Nubank e Mercado Pago travaram cripto, a Binance sofreu roubo de US$ 6,3 bi e o FGC teve dados acessados. Até agora, nenhuma fonte oficial liga os casos.",
  "palavra_chave": "pix fora do ar e roubo na binance",
- "lead": "Até agora, nenhuma fonte oficial ou veículo consultado confirmou ligação entre a queda do Pix, o bloqueio de cripto no Nubank e no Mercado Pago e o roubo de US$ 6,3 bilhões na Binance. Os três casos ocorreram em oito dias, entre 29/10 e 6/11, mas cada um tem explicação própria dada pelas empresas ou pelo Banco Central. A causa da queda do Pix e o fornecedor que falhou nos apps de cripto ainda não foram revelados.",
+ "lead": "Até a manhã de 7/11, nenhuma fonte oficial ou veículo consultado confirmou ligação entre a queda do Pix, o bloqueio de cripto no Nubank e no Mercado Pago e o roubo de US$ 6,3 bilhões na Binance. Os casos ocorreram entre 29/10 e 6/11, e cada um tem explicação própria dada pelas empresas ou pelo Banco Central. O Nubank normalizou saques e depósitos de cripto às 22h de 6/11. A causa da queda do Pix e o fornecedor que falhou nos apps de cripto ainda não foram revelados.",
  "o_que_se_sabe": [
   {
    "texto": "O Pix teve falha na noite de 6/11. O Banco Central disse que houve uma 'indisponibilidade parcial', que a equipe técnica resolveu rápido e que seus sistemas funcionam normalmente. Segundo o Downdetector, site que mede reclamações de falhas, o pico foi às 19h11, com 11.090 relatos.",
@@ -23,6 +23,13 @@
    "fonte_url": "https://www.poder360.com.br/poder-economia/nubank-e-mercado-pago-restringem-temporariamente-operacoes-com-cripto/",
    "data": "2026-11-06",
    "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "O Nubank normalizou os saques e depósitos de cripto a partir das 22h de sexta (6/11). O banco disse que a instabilidade no fornecedor não afetou sua infraestrutura e que os ativos e as informações dos clientes ficaram protegidos.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
+   "data": "2026-11-07",
+   "veiculo": "InfoMoney",
    "confiavel": true
   },
   {
@@ -54,21 +61,35 @@
    "confiavel": false
   },
   {
+   "texto": "A Chainalysis, empresa americana que analisa transações de cripto para corretoras, bancos e polícias, informou em 30/10 que um invasor acessou sistemas internos e dados de clientes. A empresa disse que o caso não tem relação com o roubo na Binance.",
+   "fonte_url": "https://www.infosecurity-magazine.com/news/chainalysis-customers-offensive/",
+   "data": "2026-10-30",
+   "veiculo": "Infosecurity Magazine",
+   "confiavel": true
+  },
+  {
+   "texto": "Um dia antes, em 5/11, o FGC (Fundo Garantidor de Créditos) informou que dados pessoais de clientes, como nome, CPF e e-mail, foram acessados sem autorização. O fundo diz não ter visto perda financeira e alerta para golpes.",
+   "fonte_url": "https://www.poder360.com.br/poder-economia/fgc-identifica-acesso-indevido-a-dados-e-informa-clientes/",
+   "data": "2026-11-05",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
    "texto": "Nenhum veículo consultado descreve ligação entre o roubo na Binance e as falhas do Nubank e do Mercado Pago. Segundo o Amado Mundo, apesar da proximidade das datas, não há informações que liguem essas falhas a ataques ou falhas de segurança internas.",
    "fonte_url": "https://amadomundo.com/criptomoedas-nubank-mercado-pago-transferencias/",
    "data": "2026-11-06",
    "veiculo": "Amado Mundo",
    "confiavel": false
+  },
+  {
+   "texto": "O vídeo que viralizou também cita \"33 países\" que orientam a população a estocar comida. Japão, Alemanha, Suécia, Noruega, Reino Unido e Estados Unidos têm orientações de reserva em casa, em geral de 3 a 10 dias, por desastres naturais, guerra e ciberataques. Várias orientações são antigas: a dos EUA existe há anos, a da Noruega é de 2024 e a proposta da União Europeia, de março de 2025.",
+   "fonte_url": "https://www.gazetadopovo.com.br/mundo/por-que-japao-e-outros-paises-estao-recomendando-estocar-mantimentos/",
+   "data": "2026-11-03",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": true
   }
  ],
  "linha_do_tempo": [
-  {
-   "texto": "O Banco Central confirmou instabilidade no Pix nas primeiras horas do dia, com pico de 2.444 relatos no Downdetector às 8h10.",
-   "fonte_url": "https://www.mixvale.com.br/2026/11/07/banco-central-confirma-falha-parcial-no-pix-que-atingiu-bancos-na/",
-   "data": "2026-08-23",
-   "veiculo": "Mixvale",
-   "confiavel": false
-  },
   {
    "texto": "Segundo a Binance, o invasor assumiu o controle do sistema de um desenvolvedor de carteiras e de um segundo desenvolvedor da mesma equipe.",
    "fonte_url": "https://www.terra.com.br/noticias/mundo/binance-detalha-como-foi-feita-invasao-que-roubou-us-63-bi-da-corretora,4134bc6d5bde5e9d9212b8705f747df7gvs1g5l7.html",
@@ -84,11 +105,25 @@
    "confiavel": true
   },
   {
+   "texto": "A Chainalysis informa que um invasor acessou sistemas internos e dados de clientes.",
+   "fonte_url": "https://www.infosecurity-magazine.com/news/chainalysis-customers-offensive/",
+   "data": "2026-10-30",
+   "veiculo": "Infosecurity Magazine",
+   "confiavel": true
+  },
+  {
    "texto": "A Binance divulga o relatório sobre o ataque. O FBI atribui a ação a um grupo norte-coreano, e a Coreia do Norte rejeita a acusação.",
    "fonte_url": "https://itforum.com.br/noticias/binance-detalha-roubo-us-63-bi-criptomoedas/",
    "data": "2026-11-03",
    "veiculo": "IT Forum",
    "confiavel": false
+  },
+  {
+   "texto": "O FGC informa acesso não autorizado a dados pessoais de clientes.",
+   "fonte_url": "https://www.poder360.com.br/poder-economia/fgc-identifica-acesso-indevido-a-dados-e-informa-clientes/",
+   "data": "2026-11-05",
+   "veiculo": "Poder360",
+   "confiavel": true
   },
   {
    "texto": "Nubank e Mercado Pago suspendem saques e depósitos de cripto, ou parte das transferências, e culpam fornecedores externos.",
@@ -103,27 +138,39 @@
    "data": "2026-11-06",
    "veiculo": "Diário do RN",
    "confiavel": false
+  },
+  {
+   "texto": "Às 22h, o Nubank normaliza saques e depósitos de cripto.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
+   "data": "2026-11-06",
+   "veiculo": "InfoMoney",
+   "confiavel": true
   }
  ],
  "o_que_nao_se_sabe": [
   "Não se sabe a causa da queda do Pix. O Banco Central confirmou a falha parcial, mas não disse o que a provocou.",
   "Não se sabe qual fornecedor falhou no Nubank e no Mercado Pago. Segundo o Mixvale, as duas empresas não identificaram a empresa.",
+  "Se a Chainalysis é o fornecedor que falhou no Nubank ou no Mercado Pago. A empresa confirmou o ataque que sofreu, mas nenhuma das duas instituições disse quem é o fornecedor, e não há ligação confirmada.",
   "Boatos de ataque hacker à Paxos, empresa que faz a custódia (a guarda) de cripto para o Mercado Pago, circulam em portais de cripto. Não foram confirmados. Segundo o SpaceMoney, a Paxos não se manifestou de imediato.",
-  "Um portal regional cita um ataque à Chainalysis, empresa que analisa transações cripto e tem parceria com o Nubank. Não encontramos confirmação em outro veículo, e a ligação com a suspensão não foi esclarecida.",
   "Não há confirmação de ligação entre o Pix fora do ar, o bloqueio de cripto e o roubo na Binance. Por ora, são três episódios com explicações separadas.",
-  "Não se sabe quando as transferências de cripto voltam ao normal. Nubank e Mercado Pago não deram prazo."
+  "Quando o Mercado Pago libera de novo todas as transferências de cripto para carteiras externas. Até a manhã de 7/11, não havia confirmação.",
+  "De onde vem a conta de \"33 países\". A Gazeta do Povo lista as orientações de cerca de oito governos e não cita uma lista de 33. Na Malásia, onde o número circulou na imprensa, o governo disse que não é preciso estocar comida (fonte: Malay Mail, 2/11)."
  ],
  "o_que_muda_para_voce": [
   "Pix: segundo o Banco Central, o serviço voltou ao normal. Se uma transferência falhou na noite de 6/11, confira o extrato do app antes de repetir o envio.",
-  "Cripto no Nubank ou no Mercado Pago: o saldo não sumiu, segundo as empresas. Você pode comprar e vender dentro do app, mas por enquanto não consegue tirar a moeda para outra carteira.",
+  "Cripto no Nubank: saques e depósitos voltaram às 22h de 6/11, segundo o banco. No Mercado Pago, compra e venda seguem funcionando, mas parte das transferências para carteiras externas pode continuar bloqueada.",
   "Mercado Pago: depósitos de cripto podem demorar. A empresa diz que serão creditados sozinhos quando o sistema voltar.",
   "Binance: quem tinha dinheiro na corretora deve acompanhar os comunicados dela. A empresa diz que está ressarcindo quem perdeu recursos no ataque.",
   "Seguros de cripto: segundo a Reuters, via CNN Brasil, o roubo leva seguradoras a olhar mais de perto a segurança das empresas do setor. O efeito deve aparecer nas próximas renovações das apólices."
  ],
- "como_se_proteger": [],
+ "como_se_proteger": [
+  "Tenha mais de um jeito de pagar: um cartão, a conta de um segundo banco e um pouco de dinheiro em espécie ajudam quando o Pix ou um app falha por algumas horas.",
+  "Desconfie de ligação, mensagem ou link que promete refazer um Pix que falhou, liberar sua cripto ou devolver dinheiro da Binance. Fale com a instituição só pelo app ou pelo site oficial.",
+  "Desconfie de conteúdo que junta notícias soltas para vender uma solução (conta no exterior, outra cidadania, cripto). Antes de mexer no seu dinheiro por medo, confira os fatos nas fontes oficiais."
+ ],
  "slug": "pix-fora-do-ar-e-roubo-na-binance",
  "publicado_em": "2026-11-07T11:51:06.563635",
- "atualizado_em": "2026-11-07T11:51:06.563635",
+ "atualizado_em": "2026-11-07T11:54:52.950161",
  "assunto": "Pix fora do ar, Nubank e Mercado Pago travam cripto e roubo de US$ 6,3 bi na Binance: os casos estão ligados? O que se sabe",
  "turno": "tarde"
 }
