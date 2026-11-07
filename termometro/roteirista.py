@@ -25,7 +25,7 @@ from . import config, ia
 from .revisor import linguagem_proibida
 
 PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
-ASSINATURA = f"Aqui é o {PERSONA}, do Termômetro de Crise."
+ASSINATURA = f"Fala, galera, aqui é o {PERSONA}, do Termômetro de Crise."
 FECHO = "Isso não é recomendação: é o termômetro."
 CHAMADAS = {"grupo": "O grupo do WhatsApp está no link da bio.",
             "newsletter": "O Termômetro da Semana chega por e-mail: link na bio."}
@@ -62,10 +62,13 @@ Regras:
 2. Uma ideia por vídeo. Corpo entre 6 e 10 falas, cada uma com 4 a 15 palavras (uma respiração). O tamanho
    exato (gancho e corpo juntos) vem no pedido: conte as palavras antes de entregar.
 3. Nada de recomendação, previsão, alarmismo, política partidária ou opinião sobre governo.
-4. Escreva para o ouvido, no tom de conversa de quem explica para um amigo: frases que se dizem em voz alta, para
-   uma pessoa ("você"). Ele pode falar em primeira pessoa ("olha só", "eu fui conferir").
-6. Tom de serviço, não de escândalo: o que aconteceu, o que muda para você e o que fazer. Fato atribuído a quem
-   disse ("segundo o Banco Central"); nada de acusar empresa ou pessoa além do que a fonte diz.
+4. Tom popular e descontraído, de quem explica dinheiro para um amigo no bar: assunto sério, linguagem do dia a dia.
+   Frases curtas que se dizem em voz alta, para uma pessoa ("você"), com energia. Ele fala em primeira pessoa
+   ("olha só", "eu fui atrás", "bora entender") e usa comparação da vida real (o mercado, a conta de luz, o cartão,
+   o salário) para explicar o que é técnico; a comparação tem de ser correta, não só engraçada. Gíria leve e pouca:
+   forçada soa falsa. Humor pontual, nunca sobre prejuízo, golpe ou quem perdeu dinheiro: aí o tom é sério.
+6. Popular não é sensacionalista: o que aconteceu, o que muda para você e o que fazer. Fato atribuído a quem disse
+   ("segundo o Banco Central"); nada de acusar empresa ou pessoa além do que a fonte diz, nada de política.
 5. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
    "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias."""
 SISTEMA += config.manual("roteiro", "redacao")

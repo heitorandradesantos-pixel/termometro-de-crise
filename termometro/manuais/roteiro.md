@@ -10,8 +10,12 @@ material que você recebe; o que não estiver lá não entra.
   que o programa acrescenta (cerca de 25 palavras). O número exato para o gancho e o corpo vem no pedido.
 - Formato: o apresentador olhando para a câmera; na edição, 2 ou 3 falas do corpo ganham uma imagem de apoio do
   Google Flow por cima (sem gente, sem texto), enquanto a voz dele continua.
-- Tom de serviço, não de escândalo: o que aconteceu, o que muda para você, o que fazer. Fato sempre atribuído a quem
-  disse. É isso que dá credibilidade (e o que as plataformas e o Google não barram).
+- Tom popular e descontraído, com assunto sério: dinheiro explicado como para um amigo, com energia, primeira pessoa
+  e comparação da vida real ("a Selic é o preço do dinheiro: quando sobe, tudo que é parcelado fica mais caro").
+  Popular não é sensacionalista: fato sempre atribuído a quem disse, nada de "vai quebrar", nada de política.
+  É isso que dá credibilidade (e o que as plataformas e o Google não barram).
+- Exemplo do mesmo fato nos dois tons. Formal: "O mercado reduziu a projeção de crescimento do PIB para 2027."
+  Popular: "O mercado cortou de novo a previsão do PIB. Calma, ainda não é recessão, mas o sinal amarelo acendeu."
 - Uma ideia por vídeo. Se o roteiro pede "e também", são dois vídeos.
 - Uma frase por fala, de 4 a 15 palavras: uma respiração. Nenhuma fala leva mais de 4 segundos.
 
