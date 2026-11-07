@@ -348,18 +348,13 @@ def corpo_artigo(a: dict, raiz: str = "../../") -> str:
     if a["linha_do_tempo"]:
         secoes.append(_secao("Linha do tempo", [f"<strong>{pd.Timestamp(f['data']):%d/%m}</strong>: "
                                                  f"{html.escape(f['texto'])}{_fonte(f)}" for f in a["linha_do_tempo"]]))
-    vistos, fontes = set(), []
-    for f in a["o_que_se_sabe"] + a["linha_do_tempo"]:
-        if f["fonte_url"] not in vistos:
-            vistos.add(f["fonte_url"])
-            fontes.append(f'<li><a href="{html.escape(f["fonte_url"])}" target="_blank" rel="noopener">'
-                          f'{html.escape(f["veiculo"])}<span class="sr"> (abre em nova aba)</span></a></li>')
+    # cada fato já leva o link da fonte; sem lista repetida de fontes no fim (pedido do Heitor, 07/11/2026)
     atualizado = (f' · Atualizado em {_quando(a["atualizado_em"])}' if a["atualizado_em"] != a["publicado_em"] else "")
     return (f'<article class="edicao plantao-art"><p class="trilha"><a href="{raiz}index.html">Início</a> › '
             f'<a href="{raiz}noticias/plantao/index.html">Plantão</a></p><span class="selo-plantao">PLANTÃO</span>'
             f'<h1>{html.escape(a["titulo"])}</h1><p class="meta">Publicado em {_quando(a["publicado_em"])}{atualizado} · '
             f'Termômetro de Crise · <a href="{raiz}politica-editorial.html">como fazemos</a></p>'
-            f'<p class="lead">{html.escape(a["lead"])}</p>{"".join(secoes)}<h2>Fontes</h2><ul>{"".join(fontes)}</ul>'
+            f'<p class="lead">{html.escape(a["lead"])}</p>{"".join(secoes)}'
             f'<p class="suave" style="font-size:14px">{config.AVISO} Viu um erro? Escreva para '
             f'<a href="mailto:{config.CONTATO_EMAIL}">{config.CONTATO_EMAIL}</a> '
             f'(<a href="{raiz}correcoes.html">política de correções</a>).</p>'
