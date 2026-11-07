@@ -30,7 +30,14 @@ export async function onRequestPost ({ request, env }) {
       headers: { accept: 'application/json', 'content-type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams({ email_address: email }).toString()
     })
-    if (!r.ok) throw new Error(`Kit respondeu ${r.status}`)
+    // o Kit responde 200 mesmo quando recusa: o resultado vem em "status"
+    const j = await r.json().catch(() => ({}))
+    if (j.status !== 'success') {
+      const msg = ((j.errors || {}).messages || []).join(' ')
+      console.log(`inscrever: Kit recusou (${r.status}): ${msg || JSON.stringify(j).slice(0, 200)}`)
+      if (/invalid/i.test(msg)) return resposta(request, false, 'Esse e-mail não parece certo. Confira e tente de novo.', 400)
+      return resposta(request, false, 'Não deu certo agora. Tente de novo em alguns minutos.', 502)
+    }
     return resposta(request, true, 'Quase lá! Abra o seu e-mail e clique em "Confirmar inscrição".')
   } catch (erro) {
     console.log(`inscrever: ${erro.message}`)

@@ -157,14 +157,14 @@ def mini_brasil(m: dict) -> str:
 
 
 CSS_NEWS = ".chega{padding-left:20px;line-height:1.6}.chega li{margin:6px 0}"
-NEWS_JS = """<script>(function(){if(window.__news)return;window.__news=1;document.addEventListener('submit',async function(e){var f=e.target;if(!f.matches||!f.matches('form[data-news]'))return;e.preventDefault();var m=f.querySelector('.news-msg'),b=f.querySelector('button');b.disabled=true;m.textContent='Enviando...';try{var r=await fetch('/api/inscrever',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)});var j=await r.json();m.textContent=j.mensagem||(j.ok?'Quase lá! Confira o seu e-mail.':'Não deu certo. Tente de novo.');if(j.ok)f.querySelector('input[type=email]').value='';}catch(_){m.textContent='Não deu certo agora. Tente de novo em instantes.';}b.disabled=false;});})();</script>"""
+NEWS_JS = """<script>(function(){if(window.__news)return;window.__news=1;var ERROS={'Email address is invalid':'Esse e-mail não parece certo. Confira e tente de novo.'};document.addEventListener('submit',async function(e){var f=e.target;if(!f.matches||!f.matches('form[data-news]'))return;e.preventDefault();var m=f.querySelector('.news-msg'),b=f.querySelector('button'),em=f.querySelector('input[type=email]');if(f.querySelector('.isca').value){m.textContent='Quase lá! Confira o seu e-mail.';return;}b.disabled=true;m.textContent='Enviando...';try{var r=await fetch('https://app.kit.com/forms/'+f.dataset.form+'/subscriptions',{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({email_address:em.value.trim()}).toString()});var j=await r.json();if(j.status==='success'){m.textContent='Quase lá! Abra o seu e-mail e clique em \u201cConfirmar inscrição\u201d (olhe também em Promoções e no spam).';em.value='';}else{var msg=((j.errors||{}).messages||[]).map(function(x){return ERROS[x]||x;}).join(' ');m.textContent=msg||'Não deu certo agora. Tente de novo em alguns minutos.';}}catch(_){f.submit();return;}b.disabled=false;});})();</script>"""
 
 
 def form_newsletter(raiz: str = "", origem: str = "site") -> str:
     """O formulário do Termômetro da Semana (Kit). Sem JavaScript, ele envia e volta para a página de obrigado."""
     if not config.KIT_FORM_ID:
         return ""
-    return (f'<form class="news" action="/api/inscrever" method="post" data-news>'
+    return (f'<form class="news" action="/api/inscrever" method="post" data-news data-form="{html.escape(config.KIT_FORM_ID)}">'
             f'<label class="sr" for="news-{origem}">Seu e-mail</label>'
             f'<input id="news-{origem}" type="email" name="email" required maxlength="200" placeholder="seu@email.com" '
             f'autocomplete="email" inputmode="email">'
