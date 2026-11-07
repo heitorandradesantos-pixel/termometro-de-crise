@@ -38,7 +38,7 @@ publicidade. A empresa que hospeda e protege o site (Cloudflare) registra dados 
 tipo de navegador, data, hora e página visitada, para manter o site no ar e seguro. As fontes do texto são carregadas dos
 servidores do Google Fonts, o que faz o seu navegador informar o seu endereço IP ao Google.</li>
 <li><strong>Newsletter.</strong> Se você se inscrever, tratamos o seu e-mail e os dados de entrega e leitura das mensagens
-(por exemplo, se o e-mail foi aberto), por meio da plataforma de envio.</li>
+(por exemplo, se o e-mail foi aberto), por meio da plataforma de envio (Kit). A inscrição só vale depois que você confirma pelo link que chega no seu e-mail.</li>
 <li><strong>WhatsApp.</strong> O panorama sai nos avisos da nossa comunidade do WhatsApp. Ali, o seu número de telefone
 fica oculto para os outros participantes, mas os administradores podem vê-lo, conforme as regras do próprio WhatsApp. Não
 copiamos esses números para nenhuma outra lista nem os usamos para outro fim. Em canais, nem os administradores veem o
@@ -60,7 +60,7 @@ mínimo de dados possível.</li>
 
 <h2>4. Com quem compartilhamos</h2>
 <p>Não vendemos nem alugamos dados pessoais. Compartilhamos só o necessário com empresas que prestam serviço para nós
-(operadores), como hospedagem e proteção do site (Cloudflare), envio da newsletter (plataforma de e-mail) e
+(operadores), como hospedagem e proteção do site (Cloudflare), envio da newsletter (Kit, plataforma de e-mail) e
 armazenamento do código (GitHub). Os textos do site são escritos com ajuda de inteligência artificial a partir de dados
 públicos de mercado e notícias; nenhum dado pessoal de leitores é enviado para isso. Também podemos compartilhar dados
 quando uma autoridade exigir, nos termos da lei.</p>

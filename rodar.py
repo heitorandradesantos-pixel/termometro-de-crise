@@ -3,7 +3,7 @@
 
     python rodar.py                 gera a edição da semana com todos os agentes
     python rodar.py --site          monta o site com as edições da pasta edicoes/
-    python rodar.py --newsletter    manda a edição mais recente ao beehiiv
+    python rodar.py --newsletter    manda a edição mais recente à newsletter (Kit ou beehiiv)
     python rodar.py --aprovado      termina com código 0 se o Revisor aprovou a edição mais recente
     python rodar.py --so-coleta     só baixa os dados (o robô roda os testes antes de chamar a IA)
     python rodar.py --diario        atualização de dia útil: motor mundial, Correspondente e panorama do WhatsApp
@@ -339,10 +339,15 @@ def main() -> None:
     elif a.newsletter:
         pasta = mais_recente()
         if (pasta / "enviado.json").exists():
-            print(f"A edição {pasta.name} já foi enviada ao beehiiv; nada a fazer.")
-        elif publicar.newsletter(pasta):
+            print(f"A edição {pasta.name} já foi para a newsletter; nada a fazer.")
+        elif os.environ.get("KIT_API_KEY") and publicar.newsletter_kit(pasta):
             (pasta / "enviado.json").write_text(json.dumps(
-                {"enviado_em": pd.Timestamp.now(tz="America/Sao_Paulo").isoformat()}, ensure_ascii=False))
+                {"enviado_em": pd.Timestamp.now(tz="America/Sao_Paulo").isoformat(), "plataforma": "kit",
+                 "modo": publicar.modo_kit()}, ensure_ascii=False))
+        elif not os.environ.get("KIT_API_KEY") and publicar.newsletter(pasta):
+            (pasta / "enviado.json").write_text(json.dumps(
+                {"enviado_em": pd.Timestamp.now(tz="America/Sao_Paulo").isoformat(), "plataforma": "beehiiv"},
+                ensure_ascii=False))
     elif a.aprovado:
         sys.exit(0 if json.loads((mais_recente() / "revisao.json").read_text())["aprovado"] else 1)
     else:

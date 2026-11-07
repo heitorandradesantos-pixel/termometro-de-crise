@@ -101,7 +101,7 @@ border-radius:10px;font-size:16px;color:#E6EAF0;margin:12px 0 24px}}
 .contorno{{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:12px;border:1px solid #A9B4C4;color:var(--texto);font-weight:600;font-size:15px;text-decoration:none;background:transparent;cursor:pointer;font-family:inherit}}
 .contorno:hover{{background:#1A2430;color:var(--texto)}}
 .celular{{background:#13261C;border:1px solid #25D366;border-radius:14px;padding:18px 20px;margin:20px 0}}
-.celular h2{{margin:0 0 6px;font-size:22px}}.celular .acoes{{margin:12px 0 6px}}.celular small{{color:var(--suave);font-size:13px}}
+.celular h2{{margin:0 0 6px;font-size:22px}}.celular small a{{color:var(--suave)}}.news{{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 10px}}.news input[type=email]{{flex:1 1 220px;min-height:48px;border-radius:12px;border:1px solid #A9B4C4;background:#0B1220;color:var(--texto);padding:0 14px;font-size:16px;font-family:inherit}}.news .isca{{position:absolute;left:-9999px;width:1px;height:1px}}.news-botao{{background:#F2C14E}}.news-msg{{flex-basis:100%;margin:0;font-size:14px;color:var(--texto);min-height:1em}}.celular .acoes{{margin:12px 0 6px}}.celular small{{color:var(--suave);font-size:13px}}
 .mini-brasil{{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;padding:10px;border-radius:10px;background:#121B25;color:var(--texto);text-decoration:none;font-size:15px;min-height:44px}}.mini-brasil:hover{{color:var(--texto);outline:1px solid #34485A}}.faixa-zap{{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;background:var(--painel);border:1px solid var(--linha);border-radius:14px;padding:16px 18px;margin:24px 0}}
 .regiao .v{{font:700 30px/1 'Space Grotesk',sans-serif}}.chip{{font-size:13px;font-weight:600;color:#0E141B;border-radius:6px;padding:2px 8px}}
 .paises{{font-size:13px;color:var(--suave)}}
@@ -156,21 +156,88 @@ def mini_brasil(m: dict) -> str:
             f'{chip(b["nivel"], b["cor"])}{seta}<span class="suave" style="font-size:13px">ver por quê</span></a>')
 
 
+CSS_NEWS = ".chega{padding-left:20px;line-height:1.6}.chega li{margin:6px 0}"
+NEWS_JS = """<script>(function(){if(window.__news)return;window.__news=1;document.addEventListener('submit',async function(e){var f=e.target;if(!f.matches||!f.matches('form[data-news]'))return;e.preventDefault();var m=f.querySelector('.news-msg'),b=f.querySelector('button');b.disabled=true;m.textContent='Enviando...';try{var r=await fetch('/api/inscrever',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)});var j=await r.json();m.textContent=j.mensagem||(j.ok?'Quase lá! Confira o seu e-mail.':'Não deu certo. Tente de novo.');if(j.ok)f.querySelector('input[type=email]').value='';}catch(_){m.textContent='Não deu certo agora. Tente de novo em instantes.';}b.disabled=false;});})();</script>"""
+
+
+def form_newsletter(raiz: str = "", origem: str = "site") -> str:
+    """O formulário do Termômetro da Semana (Kit). Sem JavaScript, ele envia e volta para a página de obrigado."""
+    if not config.KIT_FORM_ID:
+        return ""
+    return (f'<form class="news" action="/api/inscrever" method="post" data-news>'
+            f'<label class="sr" for="news-{origem}">Seu e-mail</label>'
+            f'<input id="news-{origem}" type="email" name="email" required maxlength="200" placeholder="seu@email.com" '
+            f'autocomplete="email" inputmode="email">'
+            f'<input class="isca" type="text" name="site" tabindex="-1" autocomplete="off" aria-hidden="true">'
+            f'<input type="hidden" name="origem" value="{html.escape(origem)}">'
+            f'<button class="acao news-botao" type="submit">Quero receber</button>'
+            f'<p class="news-msg" role="status" aria-live="polite"></p></form>{NEWS_JS}')
+
+
 def bloco_celular(raiz: str = "") -> str:
-    """Receba o termômetro no celular: uma ação principal (WhatsApp) e uma secundária (newsletter)."""
+    """Receba o termômetro: WhatsApp todo dia útil (ação principal) e a newsletter de domingo por e-mail."""
     if config.WHATSAPP_URL:
         principal = f'<a class="acao" href="{html.escape(config.WHATSAPP_URL)}">Receber no WhatsApp</a>'
     else:
         principal = f'<a class="acao" href="{raiz}panorama.html">Receber no WhatsApp</a>'
-    if config.NEWSLETTER_URL:
-        secundaria = f'<a class="contorno" href="{html.escape(config.NEWSLETTER_URL)}">Receber a newsletter todo domingo</a>'
+    if config.KIT_FORM_ID:
+        email = (f'<p class="suave" style="margin:16px 0 8px"><strong>Prefere e-mail?</strong> O Termômetro da Semana chega '
+                 f'todo domingo às 8h: o que mexeu com o seu dinheiro, em 5 minutos.</p>{form_newsletter(raiz, "bloco")}')
+    elif config.NEWSLETTER_URL:
+        email = f'<div class="acoes"><a class="contorno" href="{html.escape(config.NEWSLETTER_URL)}">Receber a newsletter todo domingo</a></div>'
     else:
-        secundaria = f'<a class="contorno" href="{raiz}edicoes/index.html">Ler a análise da semana</a>'
+        email = f'<div class="acoes"><a class="contorno" href="{raiz}edicoes/index.html">Ler a análise da semana</a></div>'
     return (f'<section class="celular"><h2>Receba o termômetro no seu celular</h2>'
             f'<p class="suave" style="margin:0">Todo dia útil, no fim da tarde, no grupo do WhatsApp: o card do fechamento e o '
             f'panorama do mundo, das regiões e do Brasil, com as notícias que mexeram com o termômetro.</p>'
-            f'<div class="acoes">{principal}{secundaria}</div>'
-            f'<small>Grátis. Um envio por dia útil. Sem recomendação de investimento. Sai quando quiser.</small></section>')
+            f'<div class="acoes">{principal}</div>{email}'
+            f'<small>Grátis. Um envio por dia útil no WhatsApp e um por semana no e-mail. Sem recomendação de investimento. '
+            f'Sai quando quiser. <a href="{raiz}privacidade.html">Privacidade</a></small></section>')
+
+
+def paginas_newsletter(saida: Path, ultima_edicao: str = "") -> list[str]:
+    """/newsletter (inscrição), /newsletter/obrigado (confira o e-mail) e /newsletter/confirmado (depois do clique)."""
+    pasta = saida / "newsletter"
+    pasta.mkdir(parents=True, exist_ok=True)
+    amostra = (f'<p><a class="contorno" href="../edicoes/{ultima_edicao}.html">Ler a última edição</a></p>'
+               if ultima_edicao else "")
+    grupo = html.escape(config.WHATSAPP_URL)
+    corpo = f"""<section class="edicao"><h1>O Termômetro da Semana</h1>
+<p class="suave">O que mexeu com o seu dinheiro no Brasil e no mundo, em 5 minutos, todo domingo às 8h. Grátis, com fonte em
+cada fato e sem recomendação de investimento.</p>
+{form_newsletter("../", "pagina")}
+<h2>O que chega no seu e-mail</h2>
+<ul class="chega">
+<li><strong>O termômetro da semana:</strong> Brasil e mundo, quanto subiu ou caiu e por quê.</li>
+<li><strong>As notícias que mexeram no bolso:</strong> com o link para cada artigo do Plantão.</li>
+<li><strong>Os números da semana:</strong> Ibovespa, dólar, Selic e a inflação esperada pelo mercado (Focus).</li>
+<li><strong>O que vem pela frente:</strong> Copom, inflação, juros nos EUA e os balanços que importam.</li>
+</ul>
+{amostra}
+<h2>Perguntas rápidas</h2>
+<p><strong>É grátis?</strong> Sim. <strong>Com que frequência?</strong> Uma vez por semana, no domingo às 8h.
+<strong>Tem recomendação de investimento?</strong> Não: é informação e educação, com fonte. <strong>Dá para sair?</strong> Sim,
+com um clique no fim de qualquer e-mail.</p>
+<p class="suave">Quer o fechamento todo dia útil? Ele sai no <a href="{grupo}">grupo do WhatsApp</a>.</p></section>"""
+    (pasta / "index.html").write_text(pagina(f"Newsletter O Termômetro da Semana · {config.NOME}",
+                                             "Todo domingo às 8h, o que mexeu com o seu dinheiro no Brasil e no mundo, em 5 "
+                                             "minutos. Grátis, com fonte em cada fato.", corpo, raiz="../",
+                                             caminho="newsletter/", extra_css=CSS_NEWS))
+    obrigado = f"""<section class="edicao"><h1>Quase lá!</h1>
+<p>Abra o seu e-mail e clique em <strong>Confirmar inscrição</strong>. Se não encontrar, olhe na caixa de spam ou em
+Promoções e marque como "não é spam".</p>
+<p class="suave">Enquanto isso, o fechamento de cada dia útil sai no grupo do WhatsApp.</p>
+<p><a class="acao" href="{grupo}">Entrar no grupo do WhatsApp</a></p></section>"""
+    (pasta / "obrigado.html").write_text(pagina(f"Confira o seu e-mail · {config.NOME}", "Falta confirmar a inscrição.",
+                                                obrigado, raiz="../", caminho="newsletter/obrigado.html"))
+    confirmado = f"""<section class="edicao"><h1>Inscrição confirmada</h1>
+<p>Pronto: o Termômetro da Semana chega no seu e-mail todo domingo às 8h.</p>
+<p class="suave">Para o fechamento de cada dia útil (o card do dia, o balanço e o panorama), entre no grupo do WhatsApp:</p>
+<p><a class="acao" href="{grupo}">Entrar no grupo do WhatsApp</a></p>
+<p><a class="contorno" href="../index.html">Ver o termômetro de hoje</a></p></section>"""
+    (pasta / "confirmado.html").write_text(pagina(f"Inscrição confirmada · {config.NOME}", "Bem-vindo ao Termômetro da Semana.",
+                                                  confirmado, raiz="../", caminho="newsletter/confirmado.html"))
+    return ["newsletter/"]
 
 
 def faixa_mercados(cotacoes: list[dict], parcial: str | None = None) -> str:
@@ -260,7 +327,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{adsense}</head>
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">TERMÔMETRO DE CRISE</a>
-<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
+<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
@@ -534,6 +601,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
     novas += paginas_cotacoes + paginas_plantao
+    novas += paginas_newsletter(saida, lista[0][0] if lista else "")
     (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
     extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")

@@ -65,7 +65,9 @@ NOME = "Termômetro de Crise"
 SITE_URL = (os.environ.get("SITE_URL") or "https://termometrodecrise.com").rstrip("/")  # endereço oficial (canônico e mapas)
 DOMINIO = os.environ.get("DOMINIO", "")                  # ex.: termometrodecrise.com.br (gera o CNAME)
 ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "")    # ex.: ca-pub-1234567890 (só depois de aprovado)
-NEWSLETTER_URL = os.environ.get("NEWSLETTER_URL", "")    # página de inscrição (ex.: a do beehiiv)
+NEWSLETTER_URL = os.environ.get("NEWSLETTER_URL", "")    # página de inscrição externa (sem formulário do Kit)
+# Formulário "Termômetro da Semana" no Kit: o site manda o e-mail para ele (dupla confirmação feita pelo Kit).
+KIT_FORM_ID = os.environ.get("KIT_FORM_ID", "10157338")
 
 CORES = {"fundo": "#0E141B", "painel": "#1A2430", "linha": "#22303C", "texto": "#EEF2F5", "suave": "#A9B4C4"}
 

@@ -61,7 +61,7 @@ jobs:
       - name: Entregar (publicar ou pedir aprovação)
         env:
           GH_TOKEN: ${{ github.token }}
-          AUTOMATICO: ${{ vars.AUTOMATICO }}
+          AUTOMATICO: ${{ vars.AUTOMATICO || 'sim' }} # aprovada pelo Revisor, publica sozinha (AUTOMATICO=nao pede aprovação)
           DATA: ${{ steps.agentes.outputs.data }}
           APROVADO: ${{ steps.agentes.outputs.aprovado }}
         run: |

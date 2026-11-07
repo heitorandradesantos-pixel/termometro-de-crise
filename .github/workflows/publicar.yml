@@ -2,7 +2,7 @@ name: Publicar newsletter
 
 # O site é publicado pelo Cloudflare Pages, que reconstrói sozinho a cada mudança
 # no ramo principal (comando: python rodar.py --site). Aqui fica só a newsletter:
-# quando uma edição entra no ramo principal, ela vai para o beehiiv uma vez só.
+# quando uma edição entra no ramo principal, ela vai para a newsletter (Kit) uma vez só.
 on:
   push:
     branches: [main]
@@ -26,8 +26,11 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -q -r requirements.txt
-      - name: Agente Publicador (beehiiv)
+      - name: Agente Publicador (newsletter no Kit; beehiiv como alternativa)
         env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          KIT_ENVIO: ${{ vars.KIT_ENVIO }}
+          WHATSAPP_URL: ${{ vars.WHATSAPP_URL }}
           BEEHIIV_API_KEY: ${{ secrets.BEEHIIV_API_KEY }}
           BEEHIIV_PUBLICATION_ID: ${{ secrets.BEEHIIV_PUBLICATION_ID }}
           BEEHIIV_ENVIO: ${{ vars.BEEHIIV_ENVIO }}
