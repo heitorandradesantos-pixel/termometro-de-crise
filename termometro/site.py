@@ -307,7 +307,9 @@ vai();setInterval(vai,30000);document.addEventListener('visibilitychange',vai)})
 def nova_aba(html_corpo: str) -> str:
     """Links que abrem em nova aba avisam quem usa leitor de tela (WCAG, técnica G201)."""
     import re
-    return re.sub(r'(<a [^>]*target="_blank"[^>]*>)(.*?)</a>', r'\1\2<span class="sr"> (abre em nova aba)</span></a>', html_corpo)
+    aviso = '<span class="sr"> (abre em nova aba)</span>'
+    return re.sub(r'(<a [^>]*target="_blank"[^>]*>)(.*?)</a>',
+                  lambda m: m[0] if aviso in m[2] else f"{m[1]}{m[2]}{aviso}</a>", html_corpo)  # não repete o aviso
 
 
 def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "",
