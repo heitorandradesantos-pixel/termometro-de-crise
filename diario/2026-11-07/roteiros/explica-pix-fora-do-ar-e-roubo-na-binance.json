@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação?",
+  "na_tela": "Pix, cripto e Binance: tem ligação?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação?",
+   "na_tela": "Pix, cripto e Binance: tem ligação?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Três problemas em oito dias, e nenhuma fonte oficial os liga.",
+   "na_tela": "Três problemas, nenhuma ligação",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Se você usa Pix ou cripto no Nubank, confira isto antes de repetir qualquer envio.",
+   "na_tela": "Antes de repetir o envio",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação?",
+  "Aqui é a Clara, com o Termômetro de Crise.",
+  "Até agora, nenhuma fonte oficial confirmou ligação entre os três casos.",
+  "O Banco Central diz que o Pix voltou ao normal.",
+  "Nubank e Mercado Pago culpam fornecedores externos, ainda sem nome.",
+  "Mas tem um detalhe: ninguém disse o que derrubou o Pix.",
+  "Se um Pix falhou, confira o extrato antes de repetir.",
+  "O saldo de cripto não sumiu, mas não sai do app.",
+  "Quem tem dinheiro na Binance deve acompanhar os comunicados dela.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação? Aqui é a Clara, com o Termômetro de Crise. Até agora, nenhuma fonte oficial confirmou ligação entre os três casos. O Banco Central diz que o Pix voltou ao normal. Nubank e Mercado Pago culpam fornecedores externos, ainda sem nome. Mas tem um detalhe: ninguém disse o que derrubou o Pix. Se um Pix falhou, confira o extrato antes de repetir. O saldo de cripto não sumiu, mas não sai do app. Quem tem dinheiro na Binance deve acompanhar os comunicados dela. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Pix, cripto e Binance: tem ligação?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "US$ 6,3 bilhões roubados na Binance",
+   "fonte": "CNN Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "Nenhuma ligação confirmada",
+   "fonte": "Amado Mundo"
+  },
+  {
+   "fala": 3,
+   "texto": "Pix: falha parcial, já normalizado",
+   "fonte": "Diário do RN"
+  },
+  {
+   "fala": 4,
+   "texto": "Fornecedor externo: sem nome",
+   "fonte": "Poder360"
+  },
+  {
+   "fala": 5,
+   "texto": "Causa da queda do Pix: não revelada",
+   "fonte": "Diário do RN"
+  },
+  {
+   "fala": 6,
+   "texto": "Confira o extrato antes de repetir"
+  },
+  {
+   "fala": 7,
+   "texto": "Saldo de cripto não sumiu",
+   "fonte": "Metrópoles"
+  },
+  {
+   "fala": 8,
+   "texto": "Binance: acompanhe os comunicados",
+   "fonte": "CNN Brasil"
+  }
+ ],
+ "retomada": 5,
+ "busca": "Pix, Nubank, Mercado Pago e Binance têm ligação?",
+ "legenda": "Pix, Nubank, Mercado Pago e Binance têm ligação? O que se sabe até agora.\n\nAté agora, nenhuma fonte oficial confirmou ligação entre a queda do Pix, o bloqueio de cripto no Nubank e no Mercado Pago e o roubo na Binance. Cada caso tem explicação própria, dada pelas empresas ou pelo Banco Central.\n\nO que ainda não se sabe: a causa da queda do Pix e qual fornecedor falhou nos apps de cripto.\n\nNa prática: se um Pix falhou na noite de 6/11, confira o extrato antes de repetir o envio. Quem tem cripto no Nubank ou no Mercado Pago não perdeu o saldo, segundo as empresas, mas por enquanto não consegue transferir para outra carteira.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pix #nubank #mercadopago #binance #termometrodecrise",
+ "hashtags": [
+  "#pix",
+  "#nubank",
+  "#mercadopago",
+  "#binance",
+  "#termometrodecrise"
+ ],
+ "tipo": "explica",
+ "persona": "Clara",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "cenas": [
+  {
+   "tipo": "apresentadora",
+   "visual": "abstract red glowing alert graphic of a cracked digital payment symbol and falling crypto coins, dark background",
+   "na_tela": "Pix, cripto e Binance: tem ligação?",
+   "transicao": "Presenter holds her pose while the camera keeps slowly pushing in, ready to cut to the next presenter shot",
+   "fala": "Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação?",
+   "inicio_s": 0,
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows abstract red glowing alert graphic of a cracked digital payment symbol and falling crypto coins, dark background. She looks into the camera with a subtle natural hand gesture and says: \"Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação?\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Presenter holds her pose while the camera keeps slowly pushing in, ready to cut to the next presenter shot. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+  },
+  {
+   "tipo": "apresentadora",
+   "visual": "a modern central bank building at dawn, soft golden light",
+   "na_tela": "Nenhuma fonte oficial confirma ligação",
+   "transicao": "Camera keeps slowly pushing in on the presenter, then cuts to the next scene's exterior shot",
+   "fala": "Aqui é a Clara, com o Termômetro de Crise. Até agora, nenhuma fonte oficial confirmou ligação entre os três casos.",
+   "inicio_s": 8,
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, soft golden light. She looks into the camera with a subtle natural hand gesture and says: \"Aqui é a Clara, com o Termômetro de Crise. Até agora, nenhuma fonte oficial confirmou ligação entre os três casos.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Camera keeps slowly pushing in on the presenter, then cuts to the next scene's exterior shot. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+  },
+  {
+   "tipo": "imagem",
+   "visual": "a modern central bank building at dawn, slow aerial push-in, then a quick glide through a quiet server room with rows of blinking blue lights, no text or logos",
+   "na_tela": "Pix normalizado; fornecedores sem nome",
+   "transicao": "Camera keeps gliding forward down the server room corridor, fading into the next scene",
+   "fala": "O Banco Central diz que o Pix voltou ao normal. Nubank e Mercado Pago culpam fornecedores externos, ainda sem nome.",
+   "inicio_s": 16,
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a modern central bank building at dawn, slow aerial push-in, then a quick glide through a quiet server room with rows of blinking blue lights, no text or logos. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"O Banco Central diz que o Pix voltou ao normal. Nubank e Mercado Pago culpam fornecedores externos, ainda sem nome.\" No faces in focus. Ending: Camera keeps gliding forward down the server room corridor, fading into the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+  },
+  {
+   "tipo": "apresentadora",
+   "visual": "an abstract dark question mark made of broken glowing lines over a blank digital network map",
+   "na_tela": "Ninguém disse o que derrubou o Pix",
+   "transicao": "Camera keeps slowly pushing in on the presenter, then cuts to a close-up of a hand holding a phone",
+   "fala": "Mas tem um detalhe: ninguém disse o que derrubou o Pix. Se um Pix falhou, confira o extrato antes de repetir.",
+   "inicio_s": 24,
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract dark question mark made of broken glowing lines over a blank digital network map. She looks into the camera with a subtle natural hand gesture and says: \"Mas tem um detalhe: ninguém disse o que derrubou o Pix. Se um Pix falhou, confira o extrato antes de repetir.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Camera keeps slowly pushing in on the presenter, then cuts to a close-up of a hand holding a phone. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+  },
+  {
+   "tipo": "imagem",
+   "visual": "close-up of a hand holding a smartphone with a blurry abstract app screen, gold crypto coins resting on a desk beside it, shallow depth of field, slow camera dolly to the right, no readable text or logos",
+   "na_tela": "Saldo não sumiu, mas está preso",
+   "transicao": "Camera keeps slowly dollying right, blurring out softly to match the next presenter scene",
+   "fala": "O saldo de cripto não sumiu, mas não sai do app. Quem tem dinheiro na Binance deve acompanhar os comunicados dela.",
+   "inicio_s": 32,
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a hand holding a smartphone with a blurry abstract app screen, gold crypto coins resting on a desk beside it, shallow depth of field, slow camera dolly to the right, no readable text or logos. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"O saldo de cripto não sumiu, mas não sai do app. Quem tem dinheiro na Binance deve acompanhar os comunicados dela.\" No faces in focus. Ending: Camera keeps slowly dollying right, blurring out softly to match the next presenter scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+  },
+  {
+   "tipo": "apresentadora",
+   "visual": "a calm abstract thermometer graphic with a soft glowing gradient from green to orange, clean dark background",
+   "na_tela": "Isso é o termômetro. Link na bio.",
+   "transicao": "Presenter smiles and holds the final pose while the camera slowly settles, gentle fade out",
+   "fala": "Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+   "inicio_s": 40,
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calm abstract thermometer graphic with a soft glowing gradient from green to orange, clean dark background. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Presenter smiles and holds the final pose while the camera slowly settles, gentle fade out. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+  }
+ ],
+ "cenas_ok": true,
+ "cenas_problemas": [],
+ "flow": "Google Flow: 6 cenas de 8 s (Veo). Nas cenas da apresentadora, use a foto da Clara como ingrediente.\n\nCENA 1 (0-8 s, apresentadora)\nFala: Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação?\nTela: Pix, cripto e Binance: tem ligação?\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows abstract red glowing alert graphic of a cracked digital payment symbol and falling crypto coins, dark background. She looks into the camera with a subtle natural hand gesture and says: \"Pix caiu, cripto travou, e roubaram US$ 6,3 bilhões da Binance. Tem ligação?\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Presenter holds her pose while the camera keeps slowly pushing in, ready to cut to the next presenter shot. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 2 (8-16 s, apresentadora)\nFala: Aqui é a Clara, com o Termômetro de Crise. Até agora, nenhuma fonte oficial confirmou ligação entre os três casos.\nTela: Nenhuma fonte oficial confirma ligação\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, soft golden light. She looks into the camera with a subtle natural hand gesture and says: \"Aqui é a Clara, com o Termômetro de Crise. Até agora, nenhuma fonte oficial confirmou ligação entre os três casos.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Camera keeps slowly pushing in on the presenter, then cuts to the next scene's exterior shot. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 3 (16-24 s, imagem)\nFala: O Banco Central diz que o Pix voltou ao normal. Nubank e Mercado Pago culpam fornecedores externos, ainda sem nome.\nTela: Pix normalizado; fornecedores sem nome\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. a modern central bank building at dawn, slow aerial push-in, then a quick glide through a quiet server room with rows of blinking blue lights, no text or logos. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"O Banco Central diz que o Pix voltou ao normal. Nubank e Mercado Pago culpam fornecedores externos, ainda sem nome.\" No faces in focus. Ending: Camera keeps gliding forward down the server room corridor, fading into the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 4 (24-32 s, apresentadora)\nFala: Mas tem um detalhe: ninguém disse o que derrubou o Pix. Se um Pix falhou, confira o extrato antes de repetir.\nTela: Ninguém disse o que derrubou o Pix\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract dark question mark made of broken glowing lines over a blank digital network map. She looks into the camera with a subtle natural hand gesture and says: \"Mas tem um detalhe: ninguém disse o que derrubou o Pix. Se um Pix falhou, confira o extrato antes de repetir.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Camera keeps slowly pushing in on the presenter, then cuts to a close-up of a hand holding a phone. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 5 (32-40 s, imagem)\nFala: O saldo de cripto não sumiu, mas não sai do app. Quem tem dinheiro na Binance deve acompanhar os comunicados dela.\nTela: Saldo não sumiu, mas está preso\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. close-up of a hand holding a smartphone with a blurry abstract app screen, gold crypto coins resting on a desk beside it, shallow depth of field, slow camera dolly to the right, no readable text or logos. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"O saldo de cripto não sumiu, mas não sai do app. Quem tem dinheiro na Binance deve acompanhar os comunicados dela.\" No faces in focus. Ending: Camera keeps slowly dollying right, blurring out softly to match the next presenter scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 6 (40-48 s, apresentadora)\nFala: Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\nTela: Isso é o termômetro. Link na bio.\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calm abstract thermometer graphic with a soft glowing gradient from green to orange, clean dark background. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: Presenter smiles and holds the final pose while the camera slowly settles, gentle fade out. No on-screen text, no subtitles, no captions, no logos, no real public figures.",
+ "data": "2026-11-07",
+ "gerado_em": "2026-11-07T11:53:12.182422-03:00"
+}
