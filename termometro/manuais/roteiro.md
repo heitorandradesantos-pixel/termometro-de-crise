@@ -7,9 +7,10 @@ material que você recebe; o que não estiver lá não entra.
 ## Tamanho
 - O vídeo tem 48 segundos: 6 cenas de 8 segundos, o limite de cada clipe do Google Flow (Veo). Em ritmo de
   telejornal, cabem cerca de 20 palavras por cena: 95 a 122 palavras no total, já contando a assinatura e o fecho
-  que o programa acrescenta (cerca de 22 palavras). Sobram 73 a 100 para o gancho e o corpo.
-- Cada cena termina no fim de uma frase. Uma frase nunca começa numa cena e acaba na outra: o Veo gera cada cena
-  separada, e a voz cortada no meio da frase denuncia a emenda.
+  que o programa acrescenta (cerca de 25 palavras). Sobram cerca de 70 a 95 para o gancho e o corpo juntos;
+  o número exato vem no pedido.
+- O programa divide o roteiro em cenas sem cortar frase (uma frase nunca começa numa cena e acaba na outra: o Veo gera cada cena
+  separada, e a voz cortada no meio da frase denuncia a emenda). Por isso, frases curtas: cada cena tem até 22 palavras.
 - Formato: Clara no estúdio, com o telão atrás dela, na primeira, na última e em pelo menos mais uma cena; nas
   outras, imagem de tela cheia com a voz dela por cima. Alternar apresentadora e imagem passa autoridade e esconde
   as diferenças pequenas de rosto entre um clipe e outro.

@@ -59,7 +59,8 @@ Regras:
 1. Todo número que você escrever tem de estar no material, escrito do mesmo jeito (vírgula decimal, ponto de milhar).
    Número que não está no material não entra. Prefira poucos números: 2 ou 3 bem escolhidos valem mais que 8.
 2. Uma ideia por vídeo. O vídeo tem 48 segundos (6 cenas de 8 s): corpo entre 6 e 9 falas, cada uma com 4 a 15
-   palavras, e de 75 a 100 palavras no corpo. Menos é mais: cada palavra a mais acelera a fala.
+   palavras. O tamanho exato (gancho e corpo juntos) vem no pedido: conte as palavras antes de entregar.
+   Menos é mais: cada palavra a mais acelera a fala.
 3. Nada de recomendação, previsão, alarmismo, política partidária ou opinião sobre governo.
 4. Escreva para o ouvido: frases que se dizem em voz alta, para uma pessoa ("você").
 5. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
@@ -104,9 +105,16 @@ def _numeros(texto: str) -> set[str]:
     return {n.rstrip(".,") for n in re.findall(r"\d[\d.,]*", texto)}
 
 
+EXTENSO = {"um": 1, "uma": 1, "dois": 2, "duas": 2, "tres": 3, "quatro": 4, "cinco": 5, "seis": 6, "sete": 7,
+           "oito": 8, "nove": 9, "dez": 10, "onze": 11, "doze": 12, "treze": 13, "catorze": 14, "quatorze": 14,
+           "quinze": 15, "dezesseis": 16, "dezessete": 17, "dezoito": 18, "dezenove": 19, "vinte": 20, "trinta": 30,
+           "quarenta": 40, "cinquenta": 50, "cem": 100}
+
+
 def permitidos(material: str) -> set[str]:
-    """Números que o roteiro pode usar: os do material, com e sem casas decimais finais."""
-    saida = set()
+    """Números que o roteiro pode usar: os do material, com e sem casas decimais finais, e os escritos por extenso
+    no material ("seis das nove cadeiras" deixa a tela mostrar 6 e 9)."""
+    saida = {str(EXTENSO[w]) for w in re.findall(r"\w+", _sem_acento(material).lower()) if w in EXTENSO}
     for n in _numeros(material):
         saida.add(n)
         if "," in n:  # 1,50 também vale como 1,5 (só zeros à direita; nada de arredondar)
@@ -146,9 +154,17 @@ def montar(bruto: dict, chamada: str = "grupo") -> dict:
 def conferir(r: dict, material: str) -> list[str]:
     """O que impede o roteiro de ir para a voz. Lista vazia = aprovado."""
     problemas = []
-    if not (PALAVRAS[0] <= r["palavras"] <= PALAVRAS[1]):
-        problemas.append(f"tamanho: {r['palavras']} palavras faladas (precisa de {PALAVRAS[0]} a {PALAVRAS[1]}, "
-                         f"45 a 60 segundos)")
+    if r["palavras"] > PALAVRAS[1]:
+        problemas.append(f"tamanho: {r['palavras']} palavras faladas, o máximo é {PALAVRAS[1]}: corte pelo menos "
+                         f"{r['palavras'] - PALAVRAS[1] + 5} palavras do gancho e do corpo (tire uma fala inteira)")
+    elif r["palavras"] < PALAVRAS[0]:
+        problemas.append(f"tamanho: {r['palavras']} palavras faladas, o mínimo é {PALAVRAS[0]}: acrescente cerca de "
+                         f"{PALAVRAS[0] - r['palavras'] + 5} palavras ao corpo")
+    else:
+        maior = max(map(_palavras, dividir(r["linhas"])))
+        if maior > MAXIMO_CENA:
+            problemas.append(f"não cabe em {CENAS} cenas de {SEGUNDOS_CENA} s: a cena mais longa teria {maior} "
+                             f"palavras (máximo {MAXIMO_CENA}); encurte as falas mais longas")
     if nota(r["gancho"]) < NOTA_MINIMA:
         problemas.append(f"gancho fraco: nota {nota(r['gancho'])}/10 (mínimo {NOTA_MINIMA})")
     if _palavras(r["gancho"].get("texto", "")) > 15:
@@ -174,11 +190,14 @@ def conferir(r: dict, material: str) -> list[str]:
 
 
 def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
-    """Pede o roteiro; se a conferência reprovar, pede uma segunda versão com a lista do que corrigir."""
-    pedido = (f"Tipo de vídeo: {TIPOS[tipo]}\nChamada do fim (o programa põe): {CHAMADAS.get(chamada)}\n\n"
+    """Pede o roteiro; se a conferência reprovar, pede outra versão (até 3) com a lista do que corrigir."""
+    fixo = _palavras(" ".join([ASSINATURA, FECHO, CHAMADAS.get(chamada, CHAMADAS["grupo"])]))
+    pedido = (f"Tipo de vídeo: {TIPOS[tipo]}\nChamada do fim (o programa põe): {CHAMADAS.get(chamada)}\n"
+              f"Tamanho: o gancho e o corpo, juntos, têm de {PALAVRAS[0] - fixo} a {PALAVRAS[1] - fixo} palavras "
+              f"(mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} da assinatura, do fecho e da chamada.\n\n"
               f"MATERIAL CONFERIDO (a única fonte de números e fatos):\n{material}")
     problemas = []
-    for tentativa in range(2):
+    for tentativa in range(3):
         texto = pedido if not problemas else (
             pedido + "\n\nA VERSÃO ANTERIOR FOI REPROVADA NA CONFERÊNCIA. Corrija exatamente isto:\n- "
             + "\n- ".join(problemas))
@@ -215,9 +234,8 @@ SISTEMA_CENAS = f"""Você é o diretor de vídeo do "{config.NOME}". Recebe um r
 {CENAS} cenas de {SEGUNDOS_CENA} segundos para o Google Flow (Veo).
 
 Regras:
-1. A fala de cada cena é um trecho do roteiro, na ordem, copiado sem mudar uma palavra; as {CENAS} falas juntas são o
-   roteiro inteiro. Cada cena tem de 12 a {MAXIMO_CENA} palavras faladas e termina no fim de uma frase (ponto,
-   interrogação ou exclamação): nunca corte uma frase entre duas cenas.
+1. A fala de cada cena já vem pronta, dividida pelo programa (cada cena termina no fim de uma frase). Não mude nem
+   repita a fala: para cada cena, na ordem, você escolhe o tipo, o visual, o texto da tela e a transição.
 2. Alterne: a cena 1 (o gancho) e a cena {CENAS} (o fecho) são da apresentadora; no meio, intercale apresentadora e
    imagem (pelo menos 2 cenas de imagem).
 3. "visual" é escrito em inglês, para o Veo: na cena da apresentadora, só o que aparece no telão, como um nome
@@ -233,9 +251,8 @@ def ferramenta_cenas() -> dict:
     return {"name": "registrar_cenas", "description": "As cenas do Reel para o Google Flow.",
             "input_schema": {"type": "object", "required": ["cenas"], "properties": {"cenas": {
                 "type": "array", "minItems": CENAS, "maxItems": CENAS, "items": {
-                    "type": "object", "required": ["tipo", "fala", "visual", "transicao"],
+                    "type": "object", "required": ["tipo", "visual", "transicao"],
                     "properties": {"tipo": {"type": "string", "enum": ["apresentadora", "imagem"]},
-                                   "fala": {"type": "string"},
                                    "visual": {"type": "string", "description": "Em inglês."},
                                    "na_tela": {"type": "string", "description": "Texto da edição, até 6 palavras."},
                                    "transicao": {"type": "string", "description": "Em inglês."}}}}}}}
@@ -260,6 +277,50 @@ def prompt_flow(cena: dict) -> str:
             f"{cena['transicao'].rstrip('.')}. {b['proibido']}")
 
 
+FIM_DE_FRASE = re.compile(r"[.!?]['\"”]?$")
+
+
+def dividir(linhas: list[str], n: int = CENAS) -> list[str]:
+    """As falas das n cenas: falas inteiras, na ordem, cortando só onde uma frase termina, com a cena mais longa o
+    mais curta possível (e as cenas o mais parecidas possível). Feito pelo programa, não pela IA: nunca corta uma
+    frase no meio nem perde uma palavra."""
+    linhas = [l.strip() for l in linhas if l.strip()]
+    if len(linhas) <= n:
+        return linhas
+    pesos = [_palavras(l) for l in linhas]
+    total = len(linhas)
+
+    def resolver(pode: list[bool]):
+        memo = {}
+
+        def melhor(i: int, k: int):
+            if (i, k) in memo:
+                return memo[i, k]
+            if k == 1:
+                w = sum(pesos[i:])
+                memo[i, k] = ((w, w * w), (total,))
+                return memo[i, k]
+            achado, acum = None, 0
+            for j in range(i, total - k + 1):  # a cena vai da fala i até a j
+                acum += pesos[j]
+                if not pode[j]:
+                    continue
+                resto = melhor(j + 1, k - 1)
+                if resto is None:
+                    continue
+                custo = (max(acum, resto[0][0]), acum * acum + resto[0][1])
+                if achado is None or custo < achado[0]:
+                    achado = (custo, (j + 1,) + resto[1])
+            memo[i, k] = achado
+            return achado
+
+        return melhor(0, n)
+
+    achado = resolver([bool(FIM_DE_FRASE.search(l)) for l in linhas]) or resolver([True] * total)
+    cortes = (0,) + achado[1]
+    return [" ".join(linhas[a:b]) for a, b in zip(cortes, cortes[1:])]
+
+
 def _normal(t: str) -> str:
     return re.sub(r"\W+", " ", _sem_acento(t).lower()).strip()
 
@@ -270,7 +331,7 @@ def conferir_cenas(cenas: list[dict], roteiro: dict) -> list[str]:
         problemas.append(f"são {len(cenas)} cenas; precisam ser {CENAS}")
     if _normal(" ".join(c.get("fala", "") for c in cenas)) != _normal(roteiro["texto_falado"]):
         problemas.append("as falas das cenas, juntas, não são exatamente o roteiro (sem tirar nem mudar palavras)")
-    cortadas = [i + 1 for i, c in enumerate(cenas) if not re.search(r"[.!?]['\"”]?$", c.get("fala", "").strip())]
+    cortadas = [i + 1 for i, c in enumerate(cenas) if not FIM_DE_FRASE.search(c.get("fala", "").strip())]
     if cortadas:
         problemas.append("cenas que cortam uma frase no meio (cada cena termina em ponto): " + ", ".join(map(str, cortadas)))
     longas = [i + 1 for i, c in enumerate(cenas) if _palavras(c.get("fala", "")) > MAXIMO_CENA]
@@ -287,12 +348,17 @@ def conferir_cenas(cenas: list[dict], roteiro: dict) -> list[str]:
 
 
 def decupar(cliente, roteiro: dict) -> dict:
-    """Divide o roteiro aprovado em cenas de 8 s com o prompt do Flow. Duas tentativas."""
-    pedido = "ROTEIRO APROVADO (fala por fala):\n" + "\n".join(roteiro["linhas"])
+    """Divide o roteiro aprovado em cenas de 8 s com o prompt do Flow. O programa corta as falas; a IA dirige
+    (tipo de cena, imagem, texto da tela, transição). Duas tentativas."""
+    falas = dividir(roteiro["linhas"])
+    pedido = "AS CENAS, COM A FALA DE CADA UMA (já divididas; não mude):\n" + "\n".join(
+        f"CENA {i}: {f}" for i, f in enumerate(falas, 1))
     problemas = []
     for _ in range(2):
         texto = pedido if not problemas else pedido + "\n\nCORRIJA:\n- " + "\n- ".join(problemas)
         cenas = (ia.estruturado(cliente, SISTEMA_CENAS, texto, ferramenta_cenas(), max_tokens=3000) or {}).get("cenas", [])
+        if len(cenas) == len(falas):
+            cenas = [{**c, "fala": f} for c, f in zip(cenas, falas)]
         problemas = conferir_cenas(cenas, roteiro)
         if not problemas:
             break

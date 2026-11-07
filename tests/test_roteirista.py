@@ -127,3 +127,18 @@ def test_decupagem_reprova_fala_mudada_numero_na_imagem_e_ordem_errada():
     assert any("não são exatamente o roteiro" in p for p in problemas)
     assert any("número dentro da imagem" in p for p in problemas)
     assert any("primeira e a última" in p for p in problemas)
+
+
+def test_programa_divide_em_6_cenas_sem_cortar_frase_e_reprova_roteiro_que_nao_cabe():
+    r = roteirista.montar(_bruto())
+    cenas = roteirista.dividir(r["linhas"])
+    assert len(cenas) == 6 and " ".join(cenas) == " ".join(r["linhas"])
+    assert all(c.endswith(".") and roteirista._palavras(c) <= roteirista.MAXIMO_CENA for c in cenas)
+    # uma fala sem ponto final não vira fim de cena
+    linhas = ["Primeira frase curta aqui.", "Segunda parte que continua,", "e termina aqui.", *["Mais uma fala."] * 5]
+    assert all(c.endswith(".") for c in roteirista.dividir(linhas))
+    # roteiro com cenas que passariam de 8 s volta para reescrever
+    longo = _bruto(falas=["Uma fala bem comprida com muitas palavras para encher a cena do vídeo hoje."] * 7)
+    problemas = roteirista.conferir(roteirista.montar(longo), MATERIAL)
+    assert any("não cabe em 6 cenas" in p or "tamanho" in p for p in problemas)
+    assert {"6", "9"} <= roteirista.permitidos("Seis das nove cadeiras")
