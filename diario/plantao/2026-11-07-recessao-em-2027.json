@@ -19,6 +19,13 @@
    "confiavel": false
   },
   {
+   "texto": "Em 4/11, o Copom manteve a Selic em 13,75% ao ano e interrompeu o ciclo de cortes. O Banco Central citou uma desaceleração mais intensa da atividade. Para Pablo Spyer, conselheiro da Ancord, \"a economia perde fôlego\", enquanto a inflação e as expectativas continuam pressionadas.",
+   "fonte_url": "https://bpmoney.com.br/mercado/selic-a-1375-ciclo-de-cortes-pode-ter-chegado-ao-fim-diz-especialista/",
+   "data": "2026-11-04",
+   "veiculo": "BP Money",
+   "confiavel": true
+  },
+  {
    "texto": "Segundo a Exame, o PIB cresceu 0,5% no segundo trimestre de 2026, mas o consumo das famílias caiu 0,4%, de acordo com o IBGE. A Exame diz que a Selic está em 13,75% ao ano.",
    "fonte_url": "https://exame.com/economia/brasil-corre-risco-de-recessao-em-2027-veja-o-que-dizem-economistas-e-os-sinais-da-economia/",
    "data": "2026-11-07",
@@ -26,14 +33,14 @@
    "confiavel": true
   },
   {
-   "texto": "Bancos cortaram as projeções de PIB para 2027, com estimativas entre 0,3% e 1,2%. O Bradesco projeta queda de 0,2% no PIB do terceiro trimestre de 2026. O IBGE divulga o dado em 2 de dezembro. Pela regra mais usada, recessão técnica são dois trimestres seguidos de queda.",
-   "fonte_url": "https://www.plantaobrasil.net/noticias/162295-bancos-revisam-projecoes-para-baixo-e-alertam-para-risco-de-estagnacao-em-2027",
+   "texto": "A Genial projeta queda de 0,2% do PIB no terceiro trimestre de 2026 e estabilidade no quarto, segundo a Exame. A Exame lista como pontos de atenção o PIB do segundo semestre, o crédito, a inflação e as primeiras medidas econômicas do novo mandato.",
+   "fonte_url": "https://exame.com/economia/brasil-corre-risco-de-recessao-em-2027-veja-o-que-dizem-economistas-e-os-sinais-da-economia/",
    "data": "2026-11-07",
-   "veiculo": "Plantão Brasil",
-   "confiavel": false
+   "veiculo": "Exame",
+   "confiavel": true
   },
   {
-   "texto": "A Genial projeta queda de 0,2% do PIB no terceiro trimestre de 2026 e estabilidade no quarto, segundo a Exame. A Exame lista como pontos de atenção o PIB do segundo semestre, o crédito, a inflação e as primeiras medidas econômicas do novo mandato.",
+   "texto": "Milton Maluhy, presidente do Itaú Unibanco, disse à Exame que as condições para 2027 são piores, com revisões do PIB, possível alta do desemprego e juros altos por mais tempo. Sergio Vale, da MB Associados, projeta crescimento de cerca de 1% em 2027, com tendência de ficar abaixo disso.",
    "fonte_url": "https://exame.com/economia/brasil-corre-risco-de-recessao-em-2027-veja-o-que-dizem-economistas-e-os-sinais-da-economia/",
    "data": "2026-11-07",
    "veiculo": "Exame",
@@ -92,9 +99,8 @@
   }
  ],
  "o_que_nao_se_sabe": [
-  "Não foi confirmado se o PIB do terceiro trimestre de 2026 caiu. Bradesco e Genial projetam queda de 0,2%, mas só o IBGE confirma, em 2 de dezembro.",
+  "Não foi confirmado se o PIB do terceiro trimestre de 2026 caiu. A Genial projeta queda de 0,2%, mas só o IBGE confirma, em 2 de dezembro.",
   "Ninguém sabe ainda se o próximo mandato terá um plano fiscal (de contas públicas) que o mercado considere crível. Economistas ouvidos pela Exame e pelo Guia do Investidor citam isso como ponto decisivo, mas não há medida concreta anunciada nas fontes consultadas.",
-  "Não encontramos, nas buscas feitas, o resultado da reunião do Copom de 3 e 4 de novembro. Fontes divergem sobre o nível atual da Selic: a Exame fala em 13,75% e o InfoMoney em 14%. Confira a decisão no site do Banco Central.",
   "Previsão de recessão em 2027 não é consenso. É a opinião de alguns economistas, e o Focus, que reúne a visão do mercado, ainda aponta crescimento.",
   "Não está confirmado que um corte forte do crédito vá acontecer. Esse é um cenário citado por economistas, não um dado."
  ],
@@ -104,10 +110,14 @@
   "A projeção de dólar a R$ 5,40 e de inflação de 4,76% em 2027, se vier a se confirmar, significa produtos importados, viagens e alimentos mais caros. Essas são previsões do mercado, não certezas.",
   "Quem acompanha investimentos pode observar duas datas: o PIB do terceiro trimestre (2 de dezembro) e o próximo Focus (toda segunda-feira). Esta matéria não recomenda compra nem venda."
  ],
- "como_se_proteger": [],
+ "como_se_proteger": [
+  "Monte ou reforce a reserva de emergência: com a economia desacelerando, o risco de perder renda aumenta.",
+  "Evite dívida cara, como o rotativo do cartão e o cheque especial. Se já tiver, tente renegociar ou trocar por um crédito mais barato.",
+  "Desconfie de quem promete proteção garantida contra a crise: nenhum investimento elimina o risco."
+ ],
  "slug": "recessao-em-2027",
  "publicado_em": "2026-11-07T15:22:56.605990",
- "atualizado_em": "2026-11-07T15:22:56.605990",
+ "atualizado_em": "2026-11-07T15:25:19.134722",
  "assunto": "O Brasil vai entrar em recessão em 2027? O que dizem os economistas e os números",
  "turno": "tarde"
 }
