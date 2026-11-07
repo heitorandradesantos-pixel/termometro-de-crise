@@ -1,11 +1,11 @@
 {
  "gancho": {
   "formula": "Pergunta que todo mundo faz",
-  "texto": "Recessão em 2027? Ainda não, mas o sinal amarelo acendeu.",
-  "na_tela": "Recessão em 2027? Sinal amarelo",
+  "texto": "Recessão em 2027? Ainda não, mas o risco entrou no radar.",
+  "na_tela": "Recessão em 2027? AINDA NÃO",
   "nota": {
-   "especifico": 1,
-   "tensao": 2,
+   "especifico": 2,
+   "tensao": 1,
    "espectador": 1,
    "rapido": 2,
    "verdadeiro": 2
@@ -13,24 +13,24 @@
  },
  "ganchos": [
   {
-   "formula": "Antes e depois",
-   "texto": "Antes, 1,31%. Agora, 1,20%: o mercado cortou de novo o PIB de 2027.",
-   "na_tela": "PIB 2027: de 1,31% para 1,20%",
+   "formula": "Número + porquê",
+   "texto": "O mercado cortou o PIB de 2027 de 1,31% para 1,20%.",
+   "na_tela": "PIB de 2027 cortado de novo",
    "nota": {
     "especifico": 2,
-    "tensao": 2,
+    "tensao": 1,
     "espectador": 0,
-    "rapido": 1,
-    "verdadeiro": 1
+    "rapido": 2,
+    "verdadeiro": 2
    }
   },
   {
    "formula": "Pergunta que todo mundo faz",
-   "texto": "Recessão em 2027? Ainda não, mas o sinal amarelo acendeu.",
-   "na_tela": "Recessão em 2027? Sinal amarelo",
+   "texto": "Recessão em 2027? Ainda não, mas o risco entrou no radar.",
+   "na_tela": "Recessão em 2027? AINDA NÃO",
    "nota": {
-    "especifico": 1,
-    "tensao": 2,
+    "especifico": 2,
+    "tensao": 1,
     "espectador": 1,
     "rapido": 2,
     "verdadeiro": 2
@@ -38,83 +38,75 @@
   },
   {
    "formula": "Custo escondido",
-   "texto": "Selic a 12,50% em 2027 pode deixar seu cartão mais caro.",
-   "na_tela": "Selic 12,50% e seu cartão",
+   "texto": "Terceira semana seguida de corte no PIB de 2027, e isso chega no seu bolso.",
+   "na_tela": "O PIB cai e chega no seu BOLSO",
    "nota": {
     "especifico": 2,
     "tensao": 1,
     "espectador": 2,
-    "rapido": 2,
+    "rapido": 1,
     "verdadeiro": 1
    }
   }
  ],
  "linhas": [
-  "Recessão em 2027? Ainda não, mas o sinal amarelo acendeu.",
+  "Recessão em 2027? Ainda não, mas o risco entrou no radar.",
   "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
-  "O Focus é a pesquisa semanal do Banco Central com o mercado.",
-  "Foi a terceira semana seguida de corte na previsão, mas o PIB ainda cresce.",
-  "Alguns economistas veem risco de recessão; outros falam só em sinal amarelo.",
-  "Tem um detalhe: o mercado prevê Selic de 12,50% no fim de 2027.",
-  "Selic é o preço do dinheiro: se fica alta, cartão e financiamento podem seguir caros.",
-  "Primeiro, fuja de dívida cara, como rotativo do cartão e cheque especial.",
-  "Segundo, monte uma reserva de emergência, porque a renda pode apertar.",
-  "Marque 2 de dezembro: o IBGE confirma se o PIB do terceiro trimestre caiu.",
+  "Olha só: o Focus, pesquisa semanal do Banco Central, cortou o PIB.",
+  "PIB é tudo que o país produz: a previsão caiu de 1,31% para 1,20%.",
+  "Segundo o Focus, o PIB ainda cresce, não encolhe. Recessão não é consenso.",
+  "Mas tem um detalhe: é a terceira semana seguida de corte.",
+  "O mesmo Focus prevê Selic, o preço do dinheiro, em 12,50% no fim de 2027.",
+  "Se isso vier, cartão e cheque especial tendem a seguir caros. Quem deve, sente.",
+  "Monte ou reforce a reserva de emergência e evite o rotativo do cartão.",
+  "E desconfie de quem promete proteção garantida: nenhum investimento elimina o risco.",
   "Isso não é recomendação: é o termômetro.",
   "O grupo do WhatsApp está no link da bio."
  ],
- "texto_falado": "Recessão em 2027? Ainda não, mas o sinal amarelo acendeu. Fala, galera, aqui é o Heitor, do Termômetro de Crise. O Focus é a pesquisa semanal do Banco Central com o mercado. Foi a terceira semana seguida de corte na previsão, mas o PIB ainda cresce. Alguns economistas veem risco de recessão; outros falam só em sinal amarelo. Tem um detalhe: o mercado prevê Selic de 12,50% no fim de 2027. Selic é o preço do dinheiro: se fica alta, cartão e financiamento podem seguir caros. Primeiro, fuja de dívida cara, como rotativo do cartão e cheque especial. Segundo, monte uma reserva de emergência, porque a renda pode apertar. Marque 2 de dezembro: o IBGE confirma se o PIB do terceiro trimestre caiu. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
- "palavras": 139,
+ "texto_falado": "Recessão em 2027? Ainda não, mas o risco entrou no radar. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: o Focus, pesquisa semanal do Banco Central, cortou o PIB. PIB é tudo que o país produz: a previsão caiu de 1,31% para 1,20%. Segundo o Focus, o PIB ainda cresce, não encolhe. Recessão não é consenso. Mas tem um detalhe: é a terceira semana seguida de corte. O mesmo Focus prevê Selic, o preço do dinheiro, em 12,50% no fim de 2027. Se isso vier, cartão e cheque especial tendem a seguir caros. Quem deve, sente. Monte ou reforce a reserva de emergência e evite o rotativo do cartão. E desconfie de quem promete proteção garantida: nenhum investimento elimina o risco. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 141,
  "segundos": 56,
  "na_tela": [
   {
-   "texto": "Recessão em 2027? Sinal amarelo",
+   "texto": "Recessão em 2027? AINDA NÃO",
    "fala": 0
   },
   {
-   "fala": 2,
-   "texto": "Focus: pesquisa semanal",
-   "fonte": "Banco Central"
-  },
-  {
    "fala": 3,
-   "texto": "3ª semana de corte no PIB",
+   "texto": "PIB 2027: 1,31% → 1,20%",
    "fonte": "Banco Central"
   },
   {
    "fala": 4,
-   "texto": "Recessão não é consenso",
-   "fonte": "InfoMoney"
+   "texto": "O PIB ainda CRESCE",
+   "fonte": "Banco Central"
   },
   {
    "fala": 5,
-   "texto": "Selic 12,50% no fim de 2027",
+   "texto": "3ª semana seguida de corte",
    "fonte": "Banco Central"
   },
   {
    "fala": 6,
-   "texto": "Selic alta = crédito caro",
-   "fonte": "Termômetro de Crise"
+   "texto": "Selic no fim de 2027: 12,50%",
+   "fonte": "Banco Central"
   },
   {
    "fala": 7,
-   "texto": "Fuja do rotativo e do cheque especial",
-   "fonte": "Termômetro de Crise"
+   "texto": "Dívida cara pesa mais"
   },
   {
    "fala": 8,
-   "texto": "Reserva de emergência",
-   "fonte": "Termômetro de Crise"
+   "texto": "Reserva de emergência"
   },
   {
    "fala": 9,
-   "texto": "2 de dezembro: PIB do 3º tri",
-   "fonte": "IBGE"
+   "texto": "Proteção garantida? DESCONFIE"
   }
  ],
  "retomada": 5,
  "busca": "recessão em 2027",
- "legenda": "Recessão em 2027: vai ter?\n\nAinda não. Segundo o Boletim Focus, pesquisa semanal do Banco Central com o mercado, o PIB (tudo o que o país produz) ainda cresce em 2027, só que menos a cada semana. Foi a terceira semana seguida de corte na previsão.\n\nEconomistas divergem: alguns veem risco de recessão, outros falam só em sinal amarelo. O mesmo Focus prevê Selic de 12,50% no fim de 2027. Se isso se confirmar, cartão e financiamento podem seguir caros.\n\nPara se proteger: fuja de dívida cara, como rotativo do cartão e cheque especial, monte uma reserva de emergência e desconfie de quem promete proteção garantida. Nenhum investimento elimina o risco.\n\nA próxima data é 2 de dezembro, quando o IBGE confirma o PIB do terceiro trimestre.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#recessao #pib #selic #educacaofinanceira #termometrodecrise",
+ "legenda": "Recessão em 2027: o que dizem os economistas e os números.\n\nO Boletim Focus, pesquisa semanal do Banco Central com o mercado, cortou a previsão de crescimento do PIB de 2027 de 1,31% para 1,20%. É a terceira semana seguida de corte. Mas, segundo o Focus, o PIB ainda cresce: recessão não é consenso, é a opinião de alguns economistas.\n\nO mesmo Focus prevê Selic de 12,50% no fim de 2027. É uma previsão do mercado, não uma certeza. Se vier, cartão e cheque especial tendem a seguir caros, e isso pesa para quem tem dívida.\n\nPara se proteger: monte ou reforce a reserva de emergência, evite o rotativo do cartão e desconfie de quem promete proteção garantida contra a crise.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#recessao #pib #selic #educacaofinanceira #termometrodecrise",
  "hashtags": [
   "#recessao",
   "#pib",
@@ -127,30 +119,46 @@
  "aprovado": true,
  "problemas": [],
  "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Se isso vier, cartão e cheque especial tendem a seguir caros. Quem deve, sente.\": falta a comparação viva do sanguíneo e o passo simples do fleumático. Reescreva com uma imagem do dia a dia, por exemplo: \"é como a parcela do cartão que continua pesando no fim do mês\". Depois, feche com um passo único e fácil: \"comece olhando quanto você paga de juro no rotativo\". Não acrescente número novo.",
+   "Frase \"Monte ou reforce a reserva de emergência e evite o rotativo do cartão.\": são dois passos juntos e o tom é de ordem, sem calma. Reduza para um passo simples, com acolhimento: \"se você tem dívida no cartão, esse é o primeiro ponto de atenção; a reserva vem junto, aos poucos\". Isso atende o fleumático sem repetir o conteúdo.",
+   "Frase \"É a terceira semana seguida de corte.\": o melancólico quer saber o que ainda não se sabe. Acrescente que a Selic de 12,50% é uma previsão do mercado, não uma certeza, como já está na legenda. Isso deixa o vídeo mais honesto e mais completo."
+  ],
+  "veredito": "A peça fala com quem sente o bolso, usa o tom de Sábio com Cara Comum, os bordões da casa e gatilhos éticos, com a perda sempre acompanhada de saída. Falta uma comparação viva do dia a dia e um passo mais calmo e simples para cobrir bem os quatro temperamentos."
+ },
  "apoios": [
   {
-   "fala": 2,
-   "visual": "shot, : a quiet empty meeting room inside a central bank building, large polished table with blank folders and a glass of water, tall windows with soft daylight, slow dolly-in along the table, no people, no text, no logos",
-   "texto_da_fala": "O Focus é a pesquisa semanal do Banco Central com o mercado.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : a quiet empty meeting room inside a central bank building, large polished table with blank folders and a glass of water, tall windows with soft daylight, slow dolly-in along the table, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 3,
+   "visual": "Slow dolly-in across a busy modern container port at golden hour: cranes loading stacked shipping containers onto a cargo ship, forklifts and trucks moving in the background. Gentle parallax, cinematic, no people in focus, no text, no logos, no readable markings",
+   "texto_da_fala": "PIB é tudo que o país produz: a previsão caiu de 1,31% para 1,20%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in across a busy modern container port at golden hour: cranes loading stacked shipping containers onto a cargo ship, forklifts and trucks moving in the background. Gentle parallax, cinematic, no people in focus, no text, no logos, no readable markings. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "fala": 6,
-   "visual": "shot, : close-up of a plain blank credit card and a pile of coins resting on a wooden table next to a closed laptop, shallow depth of field, slow camera push-in then gentle tilt up, warm light, no faces, no text, no numbers, no logos",
-   "texto_da_fala": "Selic é o preço do dinheiro: se fica alta, cartão e financiamento podem seguir caros.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : close-up of a plain blank credit card and a pile of coins resting on a wooden table next to a closed laptop, shallow depth of field, slow camera push-in then gentle tilt up, warm light, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 7,
+   "visual": "Close-up tracking shot over a wooden table with several blank plastic credit cards fanned out next to a calculator with a blank screen and a pile of unmarked paper bills; the camera slowly slides left to right, shallow depth of field, warm moody light, no text, no numbers, no logos, no faces",
+   "texto_da_fala": "Se isso vier, cartão e cheque especial tendem a seguir caros. Quem deve, sente.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up tracking shot over a wooden table with several blank plastic credit cards fanned out next to a calculator with a blank screen and a pile of unmarked paper bills; the camera slowly slides left to right, shallow depth of field, warm moody light, no text, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
    "fala": 8,
-   "visual": "shot, : a glass jar filled with coins and folded banknotes sitting on a kitchen shelf, morning sunlight through a window, slow camera orbit around the jar, a hand (not a face) dropping in one more coin, no text, no numbers, no logos",
-   "texto_da_fala": "Segundo, monte uma reserva de emergência, porque a renda pode apertar.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : a glass jar filled with coins and folded banknotes sitting on a kitchen shelf, morning sunlight through a window, slow camera orbit around the jar, a hand (not a face) dropping in one more coin, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Slow overhead push-in on a clear glass jar filled with coins and folded banknotes sitting on a tidy kitchen counter, a hand-free scene with a small green plant beside it, soft morning window light, calm mood, no text, no numbers, no logos, no recognizable people",
+   "texto_da_fala": "Monte ou reforce a reserva de emergência e evite o rotativo do cartão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow overhead push-in on a clear glass jar filled with coins and folded banknotes sitting on a tidy kitchen counter, a hand-free scene with a small green plant beside it, soft morning window light, calm mood, no text, no numbers, no logos, no recognizable people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Recessão em 2027? Ainda não, mas o sinal amarelo acendeu.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nO Focus é a pesquisa semanal do Banco Central com o mercado.\n\nFoi a terceira semana seguida de corte na previsão, mas o PIB ainda cresce.\n\nAlguns economistas veem risco de recessão; outros falam só em sinal amarelo.\n\nTem um detalhe: o mercado prevê Selic de 12,50% no fim de 2027.\n\nSelic é o preço do dinheiro: se fica alta, cartão e financiamento podem seguir caros.\n\nPrimeiro, fuja de dívida cara, como rotativo do cartão e cheque especial.\n\nSegundo, monte uma reserva de emergência, porque a renda pode apertar.\n\nMarque 2 de dezembro: o IBGE confirma se o PIB do terceiro trimestre caiu.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "teleprompter": "Recessão em 2027? Ainda não, mas o risco entrou no radar.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: o Focus, pesquisa semanal do Banco Central, cortou o PIB.\n\nPIB é tudo que o país produz: a previsão caiu de 1,31% para 1,20%.\n\nSegundo o Focus, o PIB ainda cresce, não encolhe. Recessão não é consenso.\n\nMas tem um detalhe: é a terceira semana seguida de corte.\n\nO mesmo Focus prevê Selic, o preço do dinheiro, em 12,50% no fim de 2027.\n\nSe isso vier, cartão e cheque especial tendem a seguir caros. Quem deve, sente.\n\nMonte ou reforce a reserva de emergência e evite o rotativo do cartão.\n\nE desconfie de quem promete proteção garantida: nenhum investimento elimina o risco.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
  "data": "2026-11-07",
- "gerado_em": "2026-11-07T19:50:18.433360-03:00",
- "enviado_whatsapp": "não enviado (refeito no tom novo em 07/11)"
+ "gerado_em": "2026-11-07T19:59:47.077248-03:00"
 }

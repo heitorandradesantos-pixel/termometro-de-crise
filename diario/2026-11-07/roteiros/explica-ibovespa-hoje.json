@@ -1,12 +1,12 @@
 {
  "gancho": {
   "formula": "Número + porquê",
-  "texto": "Dólar a R$ 5,51, e o motivo veio dos EUA.",
+  "texto": "Dólar a R$ 5,51, e o motivo veio dos Estados Unidos.",
   "na_tela": "Dólar a R$ 5,51: o motivo",
   "nota": {
    "especifico": 2,
-   "tensao": 1,
-   "espectador": 0,
+   "tensao": 2,
+   "espectador": 1,
    "rapido": 2,
    "verdadeiro": 2
   }
@@ -14,22 +14,10 @@
  "ganchos": [
   {
    "formula": "Número + porquê",
-   "texto": "Dólar a R$ 5,51, e o motivo veio dos EUA.",
+   "texto": "Dólar a R$ 5,51, e o motivo veio dos Estados Unidos.",
    "na_tela": "Dólar a R$ 5,51: o motivo",
    "nota": {
     "especifico": 2,
-    "tensao": 1,
-    "espectador": 0,
-    "rapido": 2,
-    "verdadeiro": 2
-   }
-  },
-  {
-   "formula": "Pergunta que todo mundo faz",
-   "texto": "Por que o dólar sobe quando os EUA criam emprego?",
-   "na_tela": "Emprego lá, dólar aqui",
-   "nota": {
-    "especifico": 1,
     "tensao": 2,
     "espectador": 1,
     "rapido": 2,
@@ -37,34 +25,47 @@
    }
   },
   {
-   "formula": "Custo escondido",
-   "texto": "Vagas de emprego nos EUA mexem no preço da sua viagem.",
-   "na_tela": "Emprego nos EUA, sua viagem",
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Por que o dólar foi a R$ 5,51? A resposta veio dos Estados Unidos.",
+   "na_tela": "Por que o dólar subiu?",
    "nota": {
-    "especifico": 1,
+    "especifico": 2,
     "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "O dólar a R$ 5,51 chega na sua viagem e no seu cartão.",
+   "na_tela": "Dólar a R$ 5,51 no seu cartão",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
     "espectador": 2,
-    "rapido": 2,
-    "verdadeiro": 1
+    "rapido": 1,
+    "verdadeiro": 2
    }
   }
  ],
  "linhas": [
-  "Dólar a R$ 5,51, e o motivo veio dos EUA.",
+  "Dólar a R$ 5,51, e o motivo veio dos Estados Unidos.",
   "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
-  "Segundo o Diário do Sudoeste, foi o maior valor desde 30 de dezembro de 2025.",
-  "O estopim foi o relatório de emprego dos EUA, o payroll.",
-  "A economia americana criou 165 mil vagas. Os economistas esperavam 65 mil.",
-  "Isso mexeu nas apostas sobre o Federal Reserve, o banco central dos EUA.",
-  "Só que nenhum veículo mediu quanto o payroll pesou nessa alta do dólar.",
-  "Dólar mais caro encarece produto importado e viagem ao exterior.",
-  "Vai viajar ou comprar lá fora? Você paga o dólar turismo ou cartão.",
-  "Essa cotação costuma ser mais alta que a das notícias. Confira antes de fechar.",
+  "Foi o maior valor desde dezembro, segundo o Diário do Sudoeste.",
+  "Olha só: o principal empurrão foi o relatório de emprego americano.",
+  "A economia deles criou 165 mil vagas, e os economistas esperavam 65 mil.",
+  "Emprego forte mexe nas apostas sobre o Federal Reserve, o banco central americano.",
+  "Os jornais citam outros motivos, mas nenhum mediu o peso de cada um.",
+  "Agora, o seu bolso: dólar mais caro encarece importados e viagens.",
+  "No combustível, o repasse costuma levar semanas.",
+  "Vai viajar? Você paga a cotação do turismo ou do cartão.",
+  "Ela costuma ser mais alta que os R$ 5,51 das notícias.",
   "Isso não é recomendação: é o termômetro.",
   "O grupo do WhatsApp está no link da bio."
  ],
- "texto_falado": "Dólar a R$ 5,51, e o motivo veio dos EUA. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo o Diário do Sudoeste, foi o maior valor desde 30 de dezembro de 2025. O estopim foi o relatório de emprego dos EUA, o payroll. A economia americana criou 165 mil vagas. Os economistas esperavam 65 mil. Isso mexeu nas apostas sobre o Federal Reserve, o banco central dos EUA. Só que nenhum veículo mediu quanto o payroll pesou nessa alta do dólar. Dólar mais caro encarece produto importado e viagem ao exterior. Vai viajar ou comprar lá fora? Você paga o dólar turismo ou cartão. Essa cotação costuma ser mais alta que a das notícias. Confira antes de fechar. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
- "palavras": 137,
+ "texto_falado": "Dólar a R$ 5,51, e o motivo veio dos Estados Unidos. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Foi o maior valor desde dezembro, segundo o Diário do Sudoeste. Olha só: o principal empurrão foi o relatório de emprego americano. A economia deles criou 165 mil vagas, e os economistas esperavam 65 mil. Emprego forte mexe nas apostas sobre o Federal Reserve, o banco central americano. Os jornais citam outros motivos, mas nenhum mediu o peso de cada um. Agora, o seu bolso: dólar mais caro encarece importados e viagens. No combustível, o repasse costuma levar semanas. Vai viajar? Você paga a cotação do turismo ou do cartão. Ela costuma ser mais alta que os R$ 5,51 das notícias. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 138,
  "segundos": 55,
  "na_tela": [
   {
@@ -73,12 +74,12 @@
   },
   {
    "fala": 2,
-   "texto": "R$ 5,51: maior valor desde 30 de dezembro de 2025",
+   "texto": "Dólar R$ 5,51: maior valor desde dezembro",
    "fonte": "Diário do Sudoeste"
   },
   {
    "fala": 3,
-   "texto": "Payroll: relatório de emprego dos EUA",
+   "texto": "Relatório de emprego dos EUA",
    "fonte": "Jornal de Brasília"
   },
   {
@@ -88,64 +89,81 @@
   },
   {
    "fala": 5,
-   "texto": "Federal Reserve = banco central dos EUA",
+   "texto": "Federal Reserve",
    "fonte": "Jornal de Brasília"
   },
   {
    "fala": 6,
-   "texto": "Peso de cada fator: ninguém mediu",
-   "fonte": "Diário do Sudoeste"
+   "texto": "Peso de cada motivo: ninguém mediu"
   },
   {
    "fala": 7,
-   "texto": "Dólar caro: importados e viagens",
-   "fonte": "Termômetro de Crise"
+   "texto": "Importados e viagens mais caros"
   },
   {
    "fala": 9,
-   "texto": "Dólar turismo costuma ser mais alto",
-   "fonte": "Termômetro de Crise"
+   "texto": "Cotação do turismo ou do cartão"
+  },
+  {
+   "fala": 10,
+   "texto": "R$ 5,51 é o dólar comercial",
+   "fonte": "Diário do Sudoeste"
   }
  ],
  "retomada": 6,
- "busca": "dólar hoje: por que o dólar subiu",
- "legenda": "dólar hoje: por que o dólar subiu e o que isso muda para você\n\nO dólar fechou a R$ 5,51 na sexta, o maior valor desde 30 de dezembro de 2025, segundo o Diário do Sudoeste. O principal impulso foi o relatório de emprego dos EUA: 165 mil vagas criadas, contra 65 mil esperadas por economistas.\n\nO que ainda não se sabe: quanto cada fator pesou. Os veículos citam o payroll e a cautela com as contas públicas, mas nenhum mediu o peso de cada um. E os números variam um pouco de uma fonte para outra.\n\nO que muda para você: dólar mais caro encarece importados e viagens. Quem vai viajar ou comprar lá fora paga a cotação do turismo ou do cartão, que costuma ser mais alta que a do dólar comercial. Vale conferir o valor antes de fechar.\n\nEntre no grupo do WhatsApp pelo link da bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #dolarhoje #economia #financas #educacaofinanceira",
+ "busca": "dólar hoje: por que subiu para R$ 5,51",
+ "legenda": "Dólar hoje: por que ele foi a R$ 5,51 e o que isso muda para você.\n\nSegundo o Diário do Sudoeste, foi o maior valor desde dezembro. O principal empurrão, de acordo com o Jornal de Brasília, foi o relatório de emprego dos Estados Unidos: a economia americana criou 165 mil vagas, contra 65 mil esperadas por economistas.\n\nO que ainda não se sabe: os veículos citam outros motivos, mas nenhum mediu o peso de cada um.\n\nNo seu bolso, dólar mais caro encarece importados e viagens. Se for viajar ou comprar de fora, você paga a cotação do turismo ou do cartão, que costuma ser mais alta que a do dólar comercial das notícias.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #economia #educacaofinanceira #termometrodecrise",
  "hashtags": [
-  "#dolar",
   "#dolarhoje",
   "#economia",
-  "#financas",
-  "#educacaofinanceira"
+  "#educacaofinanceira",
+  "#termometrodecrise"
  ],
  "tipo": "explica",
  "persona": "Heitor",
  "aprovado": true,
  "problemas": [],
  "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Emprego forte mexe nas apostas sobre o Federal Reserve, o banco central americano.\": a frase traduz o banco central, mas deixa o porquê pela metade. Acrescente uma comparação do dia a dia que explique a ligação, sem inventar fato nem número. Por exemplo: quando os juros lá fora ficam atraentes, o dinheiro vai para lá, e isso é como todo mundo correr para a loja que está em promoção. Isso dá a imagem viva que falta ao sanguíneo.",
+   "\"Agora, o seu bolso: dólar mais caro encarece importados e viagens.\" / \"Vai viajar? Você paga a cotação do turismo ou do cartão.\": o roteiro explica o efeito, mas termina sem um passo simples, que é o que o colérico e o fleumático esperam. Troque o fim por uma ação e um tom calmo. Exemplo: \"Se for viajar, confira a cotação do turismo ou do cartão antes de fechar o orçamento. Sem pânico: é só conta de conferir.\" Só use essa saída se ela estiver na pesquisa.",
+   "\"Dólar a R$ 5,51, e o motivo veio dos Estados Unidos.\" / \"Olha só: o principal empurrão foi o relatório de emprego americano.\": a abertura está correta, mas falta a metáfora da casa, que é a marca da voz. Use a linguagem do termômetro. Exemplo: \"o termômetro do dólar subiu\" ou \"sinal amarelo no câmbio\". Escolha o tom sem exagerar e sem dar a entender que há crise. Se puder, ligue o fim ao bordão: \"O grupo do WhatsApp está no link da bio\" fica solto depois do fecho, então ponha o convite antes do \"Isso não é recomendação: é o termômetro.\""
+  ],
+  "veredito": "A peça fala com quem sente o dólar no bolso, usa fonte e diz o que ainda não se sabe, mas faltam uma comparação viva, um passo prático calmo no fim e a metáfora do termômetro na voz."
+ },
  "apoios": [
   {
    "fala": 4,
-   "visual": "Slow dolly-in along a busy American warehouse and logistics floor: workers seen only from far away as tiny silhouettes in hi-vis vests, rows of cardboard boxes on shelves, forklifts moving, conveyor belts carrying parcels. Warm industrial light, shallow depth of field, no faces in focus, no text or logos on boxes",
-   "texto_da_fala": "A economia americana criou 165 mil vagas. Os economistas esperavam 65 mil.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a busy American warehouse and logistics floor: workers seen only from far away as tiny silhouettes in hi-vis vests, rows of cardboard boxes on shelves, forklifts moving, conveyor belts carrying parcels. Warm industrial light, shallow depth of field, no faces in focus, no text or logos on boxes. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
-  },
-  {
-   "fala": 7,
-   "visual": "Slow smooth tracking shot across a store shelf of imported goods: sealed cardboard boxes, imported electronics such as a generic unbranded smartphone and headphones with no logos, then the camera drifts to a suitcase and a passport-less airplane window view with clouds. Soft natural light, cinematic, no text, no letters, no numbers, no brands",
-   "texto_da_fala": "Dólar mais caro encarece produto importado e viagem ao exterior.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow smooth tracking shot across a store shelf of imported goods: sealed cardboard boxes, imported electronics such as a generic unbranded smartphone and headphones with no logos, then the camera drifts to a suitcase and a passport-less airplane window view with clouds. Soft natural light, cinematic, no text, no letters, no numbers, no brands. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Slow dolly-in on a busy American warehouse and logistics floor: workers in hard hats and vests seen only from behind and at a distance, forklifts moving pallets, conveyor belts carrying cardboard boxes, soft daylight through high windows. No readable text, no logos, no faces in focus",
+   "texto_da_fala": "A economia deles criou 165 mil vagas, e os economistas esperavam 65 mil.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in on a busy American warehouse and logistics floor: workers in hard hats and vests seen only from behind and at a distance, forklifts moving pallets, conveyor belts carrying cardboard boxes, soft daylight through high windows. No readable text, no logos, no faces in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
    "fala": 8,
-   "visual": "Close-up handheld shot of a generic blank credit card lying next to a travel suitcase and an airplane boarding ticket-free tray on a wooden table near a bright airport window; camera slowly pushes in and tilts up to see an airplane taxiing outside. Warm daylight, no faces, no text, no numbers, no logos",
-   "texto_da_fala": "Vai viajar ou comprar lá fora? Você paga o dólar turismo ou cartão.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up handheld shot of a generic blank credit card lying next to a travel suitcase and an airplane boarding ticket-free tray on a wooden table near a bright airport window; camera slowly pushes in and tilts up to see an airplane taxiing outside. Warm daylight, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Slow tracking shot along a row of fuel pumps at a Brazilian gas station at golden hour, a nozzle resting in its holster and a fuel tanker truck parked in the background, gentle heat haze. No readable text, no numbers on the pumps, no logos, no brand colors, no faces",
+   "texto_da_fala": "No combustível, o repasse costuma levar semanas.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow tracking shot along a row of fuel pumps at a Brazilian gas station at golden hour, a nozzle resting in its holster and a fuel tanker truck parked in the background, gentle heat haze. No readable text, no numbers on the pumps, no logos, no brand colors, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 9,
+   "visual": "Slow push-in on a travel desk scene: an open passport and a generic blank credit card lying on a wooden table beside a small suitcase and a world map, warm window light, shallow depth of field. No readable text, no numbers, no logos, no faces",
+   "texto_da_fala": "Vai viajar? Você paga a cotação do turismo ou do cartão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in on a travel desk scene: an open passport and a generic blank credit card lying on a wooden table beside a small suitcase and a world map, warm window light, shallow depth of field. No readable text, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Dólar a R$ 5,51, e o motivo veio dos EUA.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo o Diário do Sudoeste, foi o maior valor desde 30 de dezembro de 2025.\n\nO estopim foi o relatório de emprego dos EUA, o payroll.\n\nA economia americana criou 165 mil vagas. Os economistas esperavam 65 mil.\n\nIsso mexeu nas apostas sobre o Federal Reserve, o banco central dos EUA.\n\nSó que nenhum veículo mediu quanto o payroll pesou nessa alta do dólar.\n\nDólar mais caro encarece produto importado e viagem ao exterior.\n\nVai viajar ou comprar lá fora? Você paga o dólar turismo ou cartão.\n\nEssa cotação costuma ser mais alta que a das notícias. Confira antes de fechar.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "teleprompter": "Dólar a R$ 5,51, e o motivo veio dos Estados Unidos.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nFoi o maior valor desde dezembro, segundo o Diário do Sudoeste.\n\nOlha só: o principal empurrão foi o relatório de emprego americano.\n\nA economia deles criou 165 mil vagas, e os economistas esperavam 65 mil.\n\nEmprego forte mexe nas apostas sobre o Federal Reserve, o banco central americano.\n\nOs jornais citam outros motivos, mas nenhum mediu o peso de cada um.\n\nAgora, o seu bolso: dólar mais caro encarece importados e viagens.\n\nNo combustível, o repasse costuma levar semanas.\n\nVai viajar? Você paga a cotação do turismo ou do cartão.\n\nEla costuma ser mais alta que os R$ 5,51 das notícias.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
  "data": "2026-11-07",
- "gerado_em": "2026-11-07T19:48:19.911113-03:00",
- "enviado_whatsapp": "não enviado (refeito no tom novo em 07/11)"
+ "gerado_em": "2026-11-07T19:57:55.147689-03:00"
 }
