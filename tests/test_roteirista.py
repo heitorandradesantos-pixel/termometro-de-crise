@@ -28,8 +28,8 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
             "gancho_escolhido": 0, "falas": falas, "retomada": 3,
             "na_tela": [{"fala": 0, "texto": "168.501 pontos", "fonte": "Yahoo Finance"},
                         {"fala": 4, "texto": "R$ 5,51", "fonte": "Yahoo Finance"}],
-            "busca": "ibovespa hoje", "legenda": "Ibovespa hoje: a bolsa subiu 1,39% e o dólar também.",
-            "hashtags": ["ibovespa", "dolar", "mercadofinanceiro"]}
+            "busca": "ibovespa hoje", "legenda": "Ibovespa hoje: a bolsa subiu 1,39%.\\n\\nE o dólar também.",
+            "hashtags": ["ibovespa", "#dólar", "mercadofinanceiro"]}
 
 
 def test_roteiro_bom_passa_e_ganha_assinatura_fecho_e_aviso():
@@ -38,6 +38,7 @@ def test_roteiro_bom_passa_e_ganha_assinatura_fecho_e_aviso():
     assert roteirista.conferir(r, MATERIAL) == []
     assert 42 <= r["segundos"] <= 64 and r["retomada"] == 5
     assert roteirista.AVISO_LEGENDA in r["legenda"] and r["legenda"].endswith("#ibovespa #dolar #mercadofinanceiro")
+    assert "1,39%.\n\nE o dólar" in r["legenda"]  # quebra de linha escrita como texto vira quebra de verdade
     assert r["na_tela"][0]["texto"] == "Ibovespa *+1,39%*" and r["na_tela"][1]["fala"] == 2
 
 

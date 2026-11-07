@@ -55,7 +55,9 @@ Regras:
    Número que não está no material não entra. Prefira poucos números: 2 ou 3 bem escolhidos valem mais que 8.
 2. Uma ideia por vídeo. Corpo entre 7 e 12 falas, cada uma com 4 a 15 palavras.
 3. Nada de recomendação, previsão, alarmismo, política partidária ou opinião sobre governo.
-4. Escreva para o ouvido: frases que se dizem em voz alta, para uma pessoa ("você")."""
+4. Escreva para o ouvido: frases que se dizem em voz alta, para uma pessoa ("você").
+5. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
+   "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias."""
 SISTEMA += config.manual("roteiro", "redacao")
 
 
@@ -106,6 +108,11 @@ def permitidos(material: str) -> set[str]:
     return saida
 
 
+def _sem_acento(t: str) -> str:
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", t) if unicodedata.category(c) != "Mn")
+
+
 def nota(gancho: dict) -> int:
     return sum(int(v) for v in (gancho.get("nota") or {}).values())
 
@@ -118,8 +125,8 @@ def montar(bruto: dict, chamada: str = "grupo") -> dict:
     falas = [f.strip() for f in bruto.get("falas") or [] if f.strip()]
     linhas = [gancho["texto"].strip(), ASSINATURA, *falas, FECHO, CHAMADAS.get(chamada, CHAMADAS["grupo"])]
     texto = " ".join(linhas)
-    hashtags = ["#" + h.lstrip("#").replace(" ", "") for h in bruto.get("hashtags") or []][:5]
-    legenda = (bruto.get("legenda") or "").strip()
+    hashtags = ["#" + _sem_acento(h.lstrip("#").replace(" ", "")).lower() for h in bruto.get("hashtags") or []][:5]
+    legenda = (bruto.get("legenda") or "").replace("\\n", "\n").strip()  # \n escrito como texto vira quebra
     if AVISO_LEGENDA not in legenda:
         legenda = f"{legenda}\n\n{AVISO_LEGENDA}"
     return {"gancho": gancho, "ganchos": ganchos, "linhas": linhas, "texto_falado": texto,
