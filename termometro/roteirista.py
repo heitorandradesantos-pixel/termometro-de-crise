@@ -258,6 +258,29 @@ def ferramenta_cenas() -> dict:
                                    "transicao": {"type": "string", "description": "Em inglês."}}}}}}}
 
 
+PROMPT_FOTO = (  # a foto de referência da Clara: gerar uma vez, escolher a melhor e usar como "ingrediente" no Flow
+    f"Photorealistic studio portrait, vertical 9:16. {BIBLIA['persona']}. She stands in {BIBLIA['estudio']}, the video "
+    "wall softly blurred. Waist-up medium shot, looking straight into the camera with a calm, confident, friendly "
+    "expression, mouth closed, hands relaxed at her sides. Soft key light, natural skin texture, 85 mm lens, shallow "
+    f"depth of field. {BIBLIA['proibido']}")
+
+MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
+         "novembro", "dezembro"]
+GRANDEZA = r"(mil|milhão|milhões|bilhão|bilhões|trilhão|trilhões)"
+
+
+def falado(texto: str) -> str:
+    """A fala como a voz deve ler: sem símbolo que o Veo soletra ("US$", "%", "7/11", "EUA")."""
+    t = re.sub(r"US\$ ?(\d[\d.,]*) " + GRANDEZA, r"\1 \2 de dólares", texto)
+    t = re.sub(r"US\$ ?(\d[\d.,]*)", r"\1 dólares", t)
+    t = re.sub(r"R\$ ?(\d[\d.,]*) " + GRANDEZA, r"\1 \2 de reais", t)
+    t = re.sub(r"R\$ ?(\d[\d.,]*)", r"\1 reais", t)
+    t = re.sub(r"(\d[\d.,]*) ?%", r"\1 por cento", t)
+    t = re.sub(r"\b(\d{1,2})/(\d{1,2})\b(?!/)",
+               lambda m: f"{int(m[1])} de {MESES[int(m[2]) - 1]}" if 1 <= int(m[2]) <= 12 else m[0], t)
+    return re.sub(r"\bEUA\b", "Estados Unidos", t)
+
+
 TELAO = re.compile(r"^(a |the )?(large |big )?(studio |video )?(screen|wall|video wall)( behind (her|the presenter))?"
                    r"( shows| showing| displaying| with)?\s*", re.I)
 
@@ -267,7 +290,9 @@ def prompt_flow(cena: dict) -> str:
     b = BIBLIA
     if cena["tipo"] == "apresentadora":
         cena = {**cena, "visual": TELAO.sub("", cena["visual"].strip())}
-    fala = cena["fala"].replace('"', "'")
+    fala = falado(cena["fala"]).replace('"', "'")
+    visual = cena["visual"].strip().rstrip(".")
+    cena = {**cena, "visual": visual[:1].upper() + visual[1:] if cena["tipo"] == "imagem" else visual}
     if cena["tipo"] == "apresentadora":
         return (f"{b['camera']} Medium close-up of {b['persona']}, standing in {b['estudio']}. The video wall behind "
                 f"her shows {cena['visual'].rstrip('.')}. She looks into the camera with a subtle natural hand gesture "
