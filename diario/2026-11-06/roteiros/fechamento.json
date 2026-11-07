@@ -1,0 +1,127 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Dólar a R$ 5,51 encarece sua viagem e o que vem de fora.",
+  "na_tela": "Dólar a R$ 5,51 pesa no seu bolso",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 1
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio",
+   "texto": "O dólar fechou a R$ 5,51, no segundo dia seguido de alta.",
+   "na_tela": "Dólar R$ 5,51, alta de novo",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Dólar a R$ 5,51 encarece sua viagem e o que vem de fora.",
+   "na_tela": "Dólar a R$ 5,51 pesa no seu bolso",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Contraste de números",
+   "texto": "A bolsa brasileira subiu 1,39% num dia de queda forte nos EUA.",
+   "na_tela": "Bolsa sobe, EUA caem",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Dólar a R$ 5,51 encarece sua viagem e o que vem de fora.",
+  "Aqui é a Clara, com o Termômetro de Crise.",
+  "Ele subiu pelo segundo dia seguido frente ao real, no fechamento de hoje.",
+  "Se você compra importados ou planeja viajar, sente isso primeiro.",
+  "Já o Ibovespa, principal índice da bolsa brasileira, subiu 1,39%.",
+  "No termômetro, o Brasil fechou em 64, nível de Tensão.",
+  "O mundo ficou em 58, nível de Alerta.",
+  "Mas lá fora o S&P 500, índice das grandes empresas americanas, caiu 4,4%.",
+  "A Nasdaq, bolsa de tecnologia, entrou em correção com a queda das empresas de IA.",
+  "Correção é uma queda forte depois de uma alta.",
+  "Fica para amanhã ver se o dólar sobe de novo.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Dólar a R$ 5,51 encarece sua viagem e o que vem de fora. Aqui é a Clara, com o Termômetro de Crise. Ele subiu pelo segundo dia seguido frente ao real, no fechamento de hoje. Se você compra importados ou planeja viajar, sente isso primeiro. Já o Ibovespa, principal índice da bolsa brasileira, subiu 1,39%. No termômetro, o Brasil fechou em 64, nível de Tensão. O mundo ficou em 58, nível de Alerta. Mas lá fora o S&P 500, índice das grandes empresas americanas, caiu 4,4%. A Nasdaq, bolsa de tecnologia, entrou em correção com a queda das empresas de IA. Correção é uma queda forte depois de uma alta. Fica para amanhã ver se o dólar sobe de novo. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 137,
+ "segundos": 55,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,51 pesa no seu bolso",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar: R$ 5,51",
+   "fonte": "Fonte: Termômetro de Crise, fechamento de 06/11"
+  },
+  {
+   "fala": 4,
+   "texto": "Ibovespa ▲1,39%",
+   "fonte": "Fonte: Termômetro de Crise, fechamento de 06/11"
+  },
+  {
+   "fala": 5,
+   "texto": "Brasil: 64 · Tensão",
+   "fonte": "Fonte: Termômetro de Crise, 06/11"
+  },
+  {
+   "fala": 6,
+   "texto": "Mundo: 58 · Alerta",
+   "fonte": "Fonte: Termômetro de Crise, 06/11"
+  },
+  {
+   "fala": 7,
+   "texto": "S&P 500 ▼4,4%",
+   "fonte": "Fonte: Termômetro de Crise, 06/11"
+  },
+  {
+   "fala": 8,
+   "texto": "Nasdaq em correção",
+   "fonte": "Fonte: Termômetro de Crise, 06/11"
+  },
+  {
+   "fala": 10,
+   "texto": "Amanhã: dólar de novo?"
+  }
+ ],
+ "retomada": 7,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: fechou a R$ 5,51, no segundo dia seguido de alta frente ao real.\\n\\nO Ibovespa subiu 1,39% no dia. Lá fora, o S&P 500 caiu 4,4% e a Nasdaq entrou em correção, com a queda das empresas de inteligência artificial.\\n\\nNo Termômetro de Crise, o Brasil fechou em 64 (Tensão) e o mundo em 58 (Alerta), numa escala de 0 (calmo) a 100 (mais tenso da história).\\n\\nO grupo do WhatsApp está no link da bio.\\n\\nConteúdo educativo, não é recomendação de investimento.\n\n#dólarhoje #ibovespa #termômetrodecrise #mercadofinanceiro #educaçãofinanceira",
+ "hashtags": [
+  "#dólarhoje",
+  "#ibovespa",
+  "#termômetrodecrise",
+  "#mercadofinanceiro",
+  "#educaçãofinanceira"
+ ],
+ "tipo": "fechamento",
+ "persona": "Clara",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "data": "2026-11-06",
+ "gerado_em": "2026-11-06T22:20:06.287393-03:00"
+}
