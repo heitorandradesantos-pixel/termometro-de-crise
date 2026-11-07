@@ -605,6 +605,12 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas += paginas_cotacoes + paginas_plantao
     novas += paginas_newsletter(saida, lista[0][0] if lista else "")
     (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
+    # endereço que não existe responde 404 de verdade (sem isso, o Cloudflare devolve a home com 200)
+    (saida / "404.html").write_text(pagina(f"Página não encontrada · {config.NOME}", "Esta página não existe.",
+                                           '<section class="edicao"><h1>Página não encontrada</h1><p>O endereço não '
+                                           'existe ou mudou.</p><p><a class="acao" href="/index.html">Ver o termômetro '
+                                           'de hoje</a> <a class="contorno" href="/noticias/index.html">Notícias</a>'
+                                           '</p></section>', raiz="/"))
     extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 
