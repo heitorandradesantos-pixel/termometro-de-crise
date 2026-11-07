@@ -31,7 +31,7 @@ CHAMADAS = {"grupo": "O grupo do WhatsApp está no link da bio.",
             "newsletter": "O Termômetro da Semana chega por e-mail: link na bio."}
 AVISO_LEGENDA = "Conteúdo educativo, não é recomendação de investimento."
 PALAVRAS_POR_MINUTO = 150
-PALAVRAS = (100, 128)  # 6 cenas de 8 s = 48 s; cerca de 20 palavras por cena, contando assinatura e fecho
+PALAVRAS = (95, 122)  # 6 cenas de 8 s = 48 s; cerca de 20 palavras por cena, contando assinatura e fecho
 MAXIMO_FALA = 18  # palavras por fala (uma respiração)
 NOTA_MINIMA = 7
 
@@ -200,7 +200,7 @@ def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
 
 CENAS = 6
 SEGUNDOS_CENA = 8
-MAXIMO_CENA = 24  # palavras faladas que cabem em 8 s num ritmo de telejornal
+MAXIMO_CENA = 22  # palavras faladas que cabem em 8 s num ritmo de telejornal
 BIBLIA = {  # a persona e o estúdio, iguais em todo prompt (no Flow, use a foto da Clara como "ingrediente")
     "persona": ("Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin "
                 "and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings"),
@@ -216,11 +216,13 @@ SISTEMA_CENAS = f"""Você é o diretor de vídeo do "{config.NOME}". Recebe um r
 
 Regras:
 1. A fala de cada cena é um trecho do roteiro, na ordem, copiado sem mudar uma palavra; as {CENAS} falas juntas são o
-   roteiro inteiro. Cada cena tem de 12 a {MAXIMO_CENA} palavras faladas.
+   roteiro inteiro. Cada cena tem de 12 a {MAXIMO_CENA} palavras faladas e termina no fim de uma frase (ponto,
+   interrogação ou exclamação): nunca corte uma frase entre duas cenas.
 2. Alterne: a cena 1 (o gancho) e a cena {CENAS} (o fecho) são da apresentadora; no meio, intercale apresentadora e
    imagem (pelo menos 2 cenas de imagem).
-3. "visual" é escrito em inglês, para o Veo: na cena da apresentadora, o que aparece no telão atrás dela; na cena de
-   imagem, a cena inteira (lugar, objeto, movimento de câmera). Concreto e filmável: um prédio, uma sala de reunião,
+3. "visual" é escrito em inglês, para o Veo: na cena da apresentadora, só o que aparece no telão, como um nome
+   ("a modern central bank building at dawn"), sem repetir "screen behind the presenter"; na cena de imagem, a cena
+   inteira (lugar, objeto, movimento de câmera). Concreto e filmável: um prédio, uma sala de reunião,
    moedas, um navio, um gráfico abstrato subindo.
 4. Nunca mostre pessoa real (político, ministro, presidente, empresário) nem rosto reconhecível; nada de texto, número
    ou logotipo dentro da imagem: os números entram na edição.
@@ -239,9 +241,15 @@ def ferramenta_cenas() -> dict:
                                    "transicao": {"type": "string", "description": "Em inglês."}}}}}}}
 
 
+TELAO = re.compile(r"^(a |the )?(large |big )?(studio |video )?(screen|wall|video wall)( behind (her|the presenter))?"
+                   r"( shows| showing| displaying| with)?\s*", re.I)
+
+
 def prompt_flow(cena: dict) -> str:
     """O prompt de uma cena, sempre com a mesma persona, estúdio, voz e câmera."""
     b = BIBLIA
+    if cena["tipo"] == "apresentadora":
+        cena = {**cena, "visual": TELAO.sub("", cena["visual"].strip())}
     fala = cena["fala"].replace('"', "'")
     if cena["tipo"] == "apresentadora":
         return (f"{b['camera']} Medium close-up of {b['persona']}, standing in {b['estudio']}. The video wall behind "
@@ -262,6 +270,9 @@ def conferir_cenas(cenas: list[dict], roteiro: dict) -> list[str]:
         problemas.append(f"são {len(cenas)} cenas; precisam ser {CENAS}")
     if _normal(" ".join(c.get("fala", "") for c in cenas)) != _normal(roteiro["texto_falado"]):
         problemas.append("as falas das cenas, juntas, não são exatamente o roteiro (sem tirar nem mudar palavras)")
+    cortadas = [i + 1 for i, c in enumerate(cenas) if not re.search(r"[.!?]['\"”]?$", c.get("fala", "").strip())]
+    if cortadas:
+        problemas.append("cenas que cortam uma frase no meio (cada cena termina em ponto): " + ", ".join(map(str, cortadas)))
     longas = [i + 1 for i, c in enumerate(cenas) if _palavras(c.get("fala", "")) > MAXIMO_CENA]
     if longas:
         problemas.append(f"cenas com mais de {MAXIMO_CENA} palavras (não cabem em 8 s): " + ", ".join(map(str, longas)))

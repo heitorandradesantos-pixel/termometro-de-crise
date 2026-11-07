@@ -109,6 +109,9 @@ def test_decupagem_em_6_cenas_de_8_segundos_com_prompt_do_flow(monkeypatch):
     p1, p2 = d["cenas"][0]["prompt_flow"], d["cenas"][1]["prompt_flow"]
     assert roteirista.BIBLIA["persona"] in p1 and "Brazilian Portuguese" in p1 and "No on-screen text" in p1
     assert "Voice-over" in p2 and roteirista.BIBLIA["persona"] not in p2
+    telao = roteirista.prompt_flow({"tipo": "apresentadora", "fala": "Oi.", "transicao": "x",
+                                    "visual": "Large studio screen behind the presenter showing a central bank at dawn"})
+    assert "her shows a central bank at dawn." in telao
     assert d["flow"].startswith("Google Flow: 6 cenas") and "CENA 6 (40-48 s, apresentadora)" in d["flow"]
 
 
@@ -118,7 +121,9 @@ def test_decupagem_reprova_fala_mudada_numero_na_imagem_e_ordem_errada():
     cenas[2] = {**cenas[2], "fala": "Uma frase que não estava no roteiro."}
     cenas[1] = {**cenas[1], "visual": "a big screen showing 168.501"}
     cenas[0] = {**cenas[0], "tipo": "imagem"}
+    cenas[3] = {**cenas[3], "fala": cenas[3]["fala"].rstrip(".") + ","}
     problemas = roteirista.conferir_cenas(cenas, r)
+    assert any("cortam uma frase" in p for p in problemas)
     assert any("não são exatamente o roteiro" in p for p in problemas)
     assert any("número dentro da imagem" in p for p in problemas)
     assert any("primeira e a última" in p for p in problemas)
