@@ -251,8 +251,9 @@ def rodar(diario: Path, agora: pd.Timestamp | None = None, cliente=None, tema: s
         return []
     anteriores = publicados(diario)
     do_dia = sum(1 for a in anteriores if a["publicado_em"][:10] == hoje)
-    if do_dia >= MAXIMO_POR_DIA:
-        print(f"Plantão: já saíram {do_dia} artigos hoje (máximo {MAXIMO_POR_DIA}); nada a fazer.")
+    limite = 99 if tema else MAXIMO_POR_DIA  # o limite diário vale para a pauta do robô, não para o pedido do editor
+    if do_dia >= limite:
+        print(f"Plantão: já saíram {do_dia} artigos hoje (máximo {limite}); nada a fazer.")
         return []
     if not tema and any(a.get("turno") == turno and a["atualizado_em"][:10] == hoje for a in anteriores):
         print(f"Plantão: o turno da {turno} já publicou hoje; nada a fazer.")
@@ -270,7 +271,7 @@ def rodar(diario: Path, agora: pd.Timestamp | None = None, cliente=None, tema: s
             print("  nenhum assunto passou; pedindo outra pauta")
             assuntos = pautar(cliente, hoje, anteriores, turno, recusados)
         for assunto in assuntos:
-            if len(gravados) >= MAXIMO_POR_RODADA or do_dia + len(gravados) >= MAXIMO_POR_DIA:
+            if len(gravados) >= MAXIMO_POR_RODADA or do_dia + len(gravados) >= limite:
                 break
             velho = por_slug.get(assunto.get("atualizar_slug") or "") if turno == "noite" else None
             if not tema and not velho and turno != "manha" and \
