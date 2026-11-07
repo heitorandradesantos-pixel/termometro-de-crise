@@ -5,8 +5,9 @@ O vídeo não cria fato novo: ele empacota em 1 minuto o que o squad já apurou 
 material que você recebe; o que não estiver lá não entra.
 
 ## Tamanho
-- Português falado: cerca de 150 palavras por minuto. 45 a 60 segundos = 110 a 150 palavras no total, já contando
-  a assinatura e o fecho que o programa acrescenta (cerca de 25 palavras). Sobram 85 a 125 para o gancho e o corpo.
+- O vídeo tem 48 segundos: 6 cenas de 8 segundos, o limite de cada clipe do Google Flow (Veo). Em ritmo de
+  telejornal, cabem cerca de 20 palavras por cena: 100 a 128 palavras no total, já contando a assinatura e o fecho
+  que o programa acrescenta (cerca de 22 palavras). Sobram 75 a 100 para o gancho e o corpo.
 - Uma ideia por vídeo. Se o roteiro pede "e também", são dois vídeos.
 - Uma frase por fala, de 4 a 15 palavras: uma respiração. Nenhuma fala leva mais de 4 segundos.
 

@@ -17,11 +17,8 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
         "Juro mais baixo lá fora deixa o dinheiro mais disposto a correr risco aqui.",
         "Mas tem um detalhe que pouca gente viu: o dólar também subiu.",
         "Ele fechou em R$ 5,51, alta de 0,85%.",
-        "Normalmente, bolsa e dólar andam em direções opostas.",
-        "Hoje andaram juntos, e isso mostra que o mercado ainda está desconfiado.",
         "O termômetro do Brasil está em 64, na faixa de Tensão.",
         "O do mundo está em 58, em Alerta.",
-        "Amanhã o foco volta para a inflação de outubro.",
     ]
     return {"ganchos": [{"formula": "número + porquê", "texto": gancho, "na_tela": "Ibovespa *+1,39%*",
                          "nota": nota or NOTA_BOA}] * 3,
@@ -43,11 +40,11 @@ def test_roteiro_bom_passa_e_ganha_assinatura_fecho_e_aviso():
 
 
 def test_numero_inventado_vicio_e_recomendacao_reprovam():
-    falas = _bruto()["falas"][:9] + ["O Ibovespa pode chegar a 180.000 pontos, vale ressaltar."]
+    falas = _bruto()["falas"][:6] + ["O Ibovespa pode chegar a 180.000 pontos, vale ressaltar."]
     problemas = roteirista.conferir(roteirista.montar(_bruto(falas=falas)), MATERIAL)
     assert any("180.000" in p for p in problemas)  # número que não está no material
     assert any("vícios" in p for p in problemas)
-    falas = _bruto()["falas"][:9] + ["É hora de comprar ações da Petrobras."]
+    falas = _bruto()["falas"][:6] + ["É hora de comprar ações da Petrobras."]
     assert any("proibida" in p for p in roteirista.conferir(roteirista.montar(_bruto(falas=falas)), MATERIAL))
 
 
@@ -61,9 +58,12 @@ def test_segunda_versao_quando_a_primeira_reprova(tmp_path, monkeypatch):
     pedidos = []
 
     def falso(cliente, sistema, pedido, saida, buscas=0, max_tokens=0, links=None):
-        pedidos.append(pedido)
+        if saida["name"] == "registrar_roteiro":
+            pedidos.append(pedido)
         if len(pedidos) == 1:
-            return _bruto(falas=_bruto()["falas"][:9] + ["O índice pode ir a 200.000 pontos."])
+            return _bruto(falas=_bruto()["falas"][:6] + ["O índice pode ir a 200.000 pontos."])
+        if saida["name"] == "registrar_cenas":
+            return {"cenas": []}  # a decupagem falha: o roteiro continua valendo
         return _bruto()
     monkeypatch.setattr(ia, "estruturado", falso)
     pasta = tmp_path / "envio"
@@ -85,6 +85,40 @@ def test_explica_roteiriza_cada_artigo_do_dia_uma_vez(tmp_path, monkeypatch):
     (tmp_path / "plantao" / "2026-11-06-reforma-tributaria-adiada.json").write_text(json.dumps(artigo))
     material = roteirista.material_artigo(artigo)
     assert "11,3%" in material and "Correio Braziliense" in material
-    monkeypatch.setattr(ia, "estruturado", lambda *a, **k: _bruto())
+    monkeypatch.setattr(ia, "estruturado", lambda c, s, p, saida, **k: _bruto() if saida["name"] == "registrar_roteiro"
+                        else {"cenas": []})
     assert len(roteirista.rodar(tmp_path, "explica", dia="2026-11-06", cliente=object())) == 1
     assert roteirista.rodar(tmp_path, "explica", dia="2026-11-06", cliente=object()) == []  # já tem roteiro
+
+
+def _cenas(r):
+    l = r["linhas"]
+    partes = [l[0] + " " + l[1], l[2] + " " + l[3], l[4], l[5] + " " + l[6], l[7] + " " + l[8], " ".join(l[9:])]
+    tipos = ["apresentadora", "imagem", "apresentadora", "imagem", "imagem", "apresentadora"]
+    return [{"tipo": t, "fala": f, "visual": "a trading floor with glowing screens", "na_tela": "Ibovespa",
+             "transicao": "camera keeps pushing in"} for t, f in zip(tipos, partes)]
+
+
+def test_decupagem_em_6_cenas_de_8_segundos_com_prompt_do_flow(monkeypatch):
+    r = roteirista.montar(_bruto())
+    cenas = _cenas(r)
+    assert roteirista.conferir_cenas(cenas, r) == []
+    monkeypatch.setattr(ia, "estruturado", lambda *a, **k: {"cenas": cenas})
+    d = roteirista.decupar(object(), r)
+    assert d["cenas_ok"] and [c["inicio_s"] for c in d["cenas"]] == [0, 8, 16, 24, 32, 40]
+    p1, p2 = d["cenas"][0]["prompt_flow"], d["cenas"][1]["prompt_flow"]
+    assert roteirista.BIBLIA["persona"] in p1 and "Brazilian Portuguese" in p1 and "No on-screen text" in p1
+    assert "Voice-over" in p2 and roteirista.BIBLIA["persona"] not in p2
+    assert d["flow"].startswith("Google Flow: 6 cenas") and "CENA 6 (40-48 s, apresentadora)" in d["flow"]
+
+
+def test_decupagem_reprova_fala_mudada_numero_na_imagem_e_ordem_errada():
+    r = roteirista.montar(_bruto())
+    cenas = _cenas(r)
+    cenas[2] = {**cenas[2], "fala": "Uma frase que não estava no roteiro."}
+    cenas[1] = {**cenas[1], "visual": "a big screen showing 168.501"}
+    cenas[0] = {**cenas[0], "tipo": "imagem"}
+    problemas = roteirista.conferir_cenas(cenas, r)
+    assert any("não são exatamente o roteiro" in p for p in problemas)
+    assert any("número dentro da imagem" in p for p in problemas)
+    assert any("primeira e a última" in p for p in problemas)
