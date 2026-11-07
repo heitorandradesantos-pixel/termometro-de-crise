@@ -79,3 +79,16 @@ jobs:
             gh pr create --base main --head "$RAMO" --title "Plantão: $TITULO (aprovar?)" --body "Artigo do Plantão conferido pelo robô. Aprovar publica no site."
           fi
           echo "### Publicado: $TITULO" >> "$GITHUB_STEP_SUMMARY"
+      - name: Roteiro do Reel Explica (Roteirista)
+        if: steps.plantao.outputs.publicar == 'sim' && vars.PLANTAO_AUTOMATICO != 'nao'
+        continue-on-error: true # sem roteiro, o artigo já está no ar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PERSONA_NOME: ${{ vars.PERSONA_NOME }}
+        run: |
+          python rodar.py --roteiro explica
+          git add diario
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "Roteirista: roteiro do Reel Explica"
+          git pull -q --rebase origin main
+          git push

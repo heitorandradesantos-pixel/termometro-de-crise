@@ -115,6 +115,14 @@ jobs:
         working-directory: whatsapp
         run: node enviar.mjs "$(case "$ACAO" in teste*) echo teste ;; *) echo enviar ;; esac)" ../_whatsapp/envio.json
 
+      - name: Roteiro do Reel (Roteirista)
+        if: (env.ACAO == 'abertura' || env.ACAO == 'fechamento') && hashFiles('_whatsapp/envio.json') != ''
+        continue-on-error: true # sem roteiro, o envio do WhatsApp segue igual
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PERSONA_NOME: ${{ vars.PERSONA_NOME }}
+        run: python rodar.py --roteiro "$ACAO"
+
       - name: Registrar o envio
         if: always() && env.ACAO != 'parear' && !startsWith(env.ACAO, 'teste') && hashFiles('_whatsapp/envio.json') != ''
         run: |
@@ -123,7 +131,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add diario
           if git diff --cached --quiet; then exit 0; fi
-          git commit -q -m "WhatsApp: registro do envio do fechamento"
+          git commit -q -m "WhatsApp: registro do envio ($ACAO) e roteiro do Reel"
           git pull -q --rebase origin main
           git push
 

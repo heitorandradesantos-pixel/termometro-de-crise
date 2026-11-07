@@ -280,6 +280,9 @@ def main() -> None:
                    help="WhatsApp: prepara o envio do fechamento (card, balanço e panorama) ou registra o resultado")
     p.add_argument("--teste", action="store_true", help="WhatsApp: prepara o envio para o próprio número")
     p.add_argument("--tipo", choices=["fechamento", "abertura"], default="fechamento", help="WhatsApp: o que enviar")
+    p.add_argument("--roteiro", choices=["abertura", "fechamento", "explica"],
+                   help="Roteirista: escreve o roteiro do Reel (abertura e fechamento a partir da mensagem preparada "
+                        "para o WhatsApp; explica a partir dos artigos do Plantão do dia)")
     p.add_argument("--pasta", default=str(RAIZ / "_whatsapp"), help="WhatsApp: pasta do envio")
     p.add_argument("--tema", default="", help="Plantão: assunto escolhido pelo editor (pula a pauta automática)")
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
@@ -308,6 +311,9 @@ def main() -> None:
     elif a.diario:
         data = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         diario(Path(a.dados), data, coletar=not a.sem_coleta)
+    elif a.roteiro:
+        from termometro import roteirista
+        roteirista.rodar(DIARIO, a.roteiro, Path(a.pasta), a.data or "")
     elif a.whatsapp:
         from termometro import whatsapp
         if a.whatsapp == "preparar":

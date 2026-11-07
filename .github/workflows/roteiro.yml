@@ -1,0 +1,57 @@
+name: Roteirista
+
+# Escreve (ou reescreve) o roteiro do Reel na hora, sem mandar nada para o WhatsApp.
+# Normalmente o Roteirista roda sozinho: depois da Abertura e do Fechamento (robô WhatsApp) e depois de cada
+# artigo do Plantão. Use este robô para refazer um roteiro ou testar.
+on:
+  workflow_dispatch:
+    inputs:
+      tipo:
+        description: "abertura, fechamento ou explica"
+        required: true
+        default: "fechamento"
+      data:
+        description: "dia (AAAA-MM-DD); vazio = o último fechamento / hoje"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: roteirista
+  cancel-in-progress: false
+
+jobs:
+  roteiro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TIPO: ${{ inputs.tipo }}
+      DATA: ${{ inputs.data }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      PERSONA_NOME: ${{ vars.PERSONA_NOME }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Escrever o roteiro
+        run: |
+          case "$TIPO" in
+            abertura) python rodar.py --whatsapp preparar --teste --tipo abertura && python rodar.py --roteiro abertura ;;
+            fechamento) python rodar.py --whatsapp preparar --teste --data "$DATA" && python rodar.py --roteiro fechamento ;;
+            explica) rm -f diario/${DATA:-$(TZ=America/Sao_Paulo date +%F)}/roteiros/explica-*.json; python rodar.py --roteiro explica --data "$DATA" ;;
+            *) echo "Tipo desconhecido: $TIPO"; exit 1 ;;
+          esac
+      - name: Guardar
+        run: |
+          git config user.name "termometro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diario
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          git commit -q -m "Roteirista: roteiro do Reel ($TIPO)"
+          git pull -q --rebase origin main
+          git push
