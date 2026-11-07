@@ -1,12 +1,12 @@
 {
  "gancho": {
-  "formula": "Número + porquê",
-  "texto": "Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20%.",
-  "na_tela": "PIB de 2027 cortado: 1,20%",
+  "formula": "Não é o que você pensa",
+  "texto": "Recessão em 2027 não está prevista, mas o risco entrou no radar.",
+  "na_tela": "Recessão em 2027: risco no radar",
   "nota": {
-   "especifico": 2,
-   "tensao": 1,
-   "espectador": 0,
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 1,
    "rapido": 2,
    "verdadeiro": 2
   }
@@ -14,34 +14,34 @@
  "ganchos": [
   {
    "formula": "Número + porquê",
-   "texto": "Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20%.",
-   "na_tela": "PIB de 2027 cortado: 1,20%",
+   "texto": "O mercado cortou de novo a previsão do PIB de 2027, para 1,20%.",
+   "na_tela": "PIB de 2027 cortado de novo",
    "nota": {
     "especifico": 2,
     "tensao": 1,
-    "espectador": 0,
-    "rapido": 2,
+    "espectador": 1,
+    "rapido": 1,
     "verdadeiro": 2
    }
   },
   {
-   "formula": "Não foi o que você pensa",
-   "texto": "Recessão em 2027 não está prevista, mas entrou no radar do mercado.",
-   "na_tela": "Recessão em 2027? Entrou no radar",
+   "formula": "Não é o que você pensa",
+   "texto": "Recessão em 2027 não está prevista, mas o risco entrou no radar.",
+   "na_tela": "Recessão em 2027: risco no radar",
    "nota": {
     "especifico": 1,
     "tensao": 2,
-    "espectador": 0,
+    "espectador": 1,
     "rapido": 2,
     "verdadeiro": 2
    }
   },
   {
    "formula": "Custo escondido",
-   "texto": "Crescimento baixo em 2027 pode mexer no seu emprego e no seu salário.",
-   "na_tela": "Seu salário em 2027",
+   "texto": "O Focus prevê Selic de 12,50% em 2027, e isso pesa no seu cartão.",
+   "na_tela": "Selic 12,50% e seu cartão",
    "nota": {
-    "especifico": 1,
+    "especifico": 2,
     "tensao": 1,
     "espectador": 2,
     "rapido": 1,
@@ -50,131 +50,105 @@
   }
  ],
  "linhas": [
-  "Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20%.",
-  "Aqui é a Clara, com o Termômetro de Crise.",
-  "O Focus é a pesquisa semanal do Banco Central com o mercado.",
-  "Antes era 1,31%, mas o PIB ainda cresce, não encolhe.",
-  "Recessão não é consenso: é opinião de alguns economistas.",
-  "Mas o PIB do terceiro trimestre sai em 2 de dezembro, pelo IBGE.",
-  "Crescimento baixo pode significar menos vagas e aumentos menores.",
-  "Se os juros seguirem altos, cartão e cheque especial seguem caros.",
-  "Quem tem dívida pode conferir quanto paga de juros e acompanhar o Focus.",
+  "Recessão em 2027 não está prevista, mas o risco entrou no radar.",
+  "Aqui é o Heitor, do Termômetro de Crise.",
+  "No Focus de 3 de novembro, o mercado cortou a previsão do PIB.",
+  "PIB é tudo o que o país produz.",
+  "A previsão para 2027 caiu de 1,31% para 1,20%: ainda é crescimento, não queda.",
+  "Uns veem desaceleração, outros veem risco real de queda, e a Fazenda descarta recessão.",
+  "Mas olha o que pesa: o Focus vê a Selic em 12,50% no fim de 2027.",
+  "Selic é o juro básico. Com ela alta, dívida no cartão tende a seguir cara.",
+  "Falta saber: o IBGE confirma o PIB do terceiro trimestre em 2 de dezembro.",
+  "Reforce a reserva de emergência, evite dívida cara e desconfie de proteção garantida.",
   "Isso não é recomendação: é o termômetro.",
   "O grupo do WhatsApp está no link da bio."
  ],
- "texto_falado": "Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20%. Aqui é a Clara, com o Termômetro de Crise. O Focus é a pesquisa semanal do Banco Central com o mercado. Antes era 1,31%, mas o PIB ainda cresce, não encolhe. Recessão não é consenso: é opinião de alguns economistas. Mas o PIB do terceiro trimestre sai em 2 de dezembro, pelo IBGE. Crescimento baixo pode significar menos vagas e aumentos menores. Se os juros seguirem altos, cartão e cheque especial seguem caros. Quem tem dívida pode conferir quanto paga de juros e acompanhar o Focus. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
- "palavras": 114,
- "segundos": 46,
+ "texto_falado": "Recessão em 2027 não está prevista, mas o risco entrou no radar. Aqui é o Heitor, do Termômetro de Crise. No Focus de 3 de novembro, o mercado cortou a previsão do PIB. PIB é tudo o que o país produz. A previsão para 2027 caiu de 1,31% para 1,20%: ainda é crescimento, não queda. Uns veem desaceleração, outros veem risco real de queda, e a Fazenda descarta recessão. Mas olha o que pesa: o Focus vê a Selic em 12,50% no fim de 2027. Selic é o juro básico. Com ela alta, dívida no cartão tende a seguir cara. Falta saber: o IBGE confirma o PIB do terceiro trimestre em 2 de dezembro. Reforce a reserva de emergência, evite dívida cara e desconfie de proteção garantida. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 143,
+ "segundos": 57,
  "na_tela": [
   {
-   "texto": "PIB de 2027 cortado: 1,20%",
+   "texto": "Recessão em 2027: risco no radar",
    "fala": 0
   },
   {
    "fala": 2,
-   "texto": "Focus: pesquisa semanal com o mercado",
+   "texto": "Focus: 3 de novembro",
    "fonte": "Banco Central"
   },
   {
    "fala": 3,
+   "texto": "PIB = tudo o que o país produz"
+  },
+  {
+   "fala": 4,
    "texto": "PIB 2027: 1,31% → 1,20%",
    "fonte": "Banco Central"
   },
   {
-   "fala": 4,
-   "texto": "Recessão: não é consenso",
+   "fala": 5,
+   "texto": "Economistas divergem",
    "fonte": "InfoMoney"
   },
   {
-   "fala": 5,
-   "texto": "PIB do terceiro trimestre: 2 de dezembro",
-   "fonte": "Plantão Brasil"
+   "fala": 6,
+   "texto": "Selic em 12,50% no fim de 2027",
+   "fonte": "Banco Central"
   },
   {
-   "fala": 6,
-   "texto": "Menos vagas, aumentos menores",
-   "fonte": "Termômetro de Crise"
+   "fala": 7,
+   "texto": "Selic = juro básico"
   },
   {
    "fala": 8,
-   "texto": "Próximo Focus: toda segunda",
-   "fonte": "Banco Central"
+   "texto": "PIB do 3º trimestre: 2 de dezembro",
+   "fonte": "IBGE"
+  },
+  {
+   "fala": 9,
+   "texto": "Reserva de emergência"
   }
  ],
- "retomada": 5,
+ "retomada": 6,
  "busca": "recessão em 2027",
- "legenda": "Recessão em 2027: o que dizem os economistas e os números.\n\nO Brasil não tem recessão prevista para 2027, mas o risco entrou no radar. No Boletim Focus de 3 de novembro, o mercado cortou a projeção de crescimento do PIB (tudo o que o país produz) de 1,31% para 1,20%. O PIB ainda cresce, não encolhe.\n\nPara o seu bolso, crescimento baixo pode significar menos vagas e aumentos menores. Se os juros seguirem altos, cartão e cheque especial seguem caros, o que pesa para quem tem dívida.\n\nO dado a observar é o PIB do terceiro trimestre, que o IBGE divulga em 2 de dezembro. O Focus sai toda segunda-feira.\n\nO grupo do WhatsApp está no link da bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#recessao #pib #boletimfocus #economia #financaspessoais",
+ "legenda": "Recessão em 2027: o que dizem os economistas e os números\n\nO Brasil ainda não tem recessão prevista para 2027, mas o risco entrou no radar. No Boletim Focus de 3 de novembro, o mercado cortou a projeção de crescimento do PIB de 1,31% para 1,20%. Ou seja, a previsão ainda é de crescimento, só que menor.\n\nOs economistas divergem: uns veem desaceleração, outros veem risco real de queda, e a Fazenda descarta recessão. O Focus também projeta Selic de 12,50% no fim de 2027, o que tende a manter o crédito caro.\n\nO que falta saber: o IBGE confirma o PIB do terceiro trimestre em 2 de dezembro. Para se proteger, reforce a reserva de emergência, evite dívida cara e desconfie de quem promete proteção garantida.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#recessao #pib #selic #boletimfocus #financaspessoais",
  "hashtags": [
   "#recessao",
   "#pib",
+  "#selic",
   "#boletimfocus",
-  "#economia",
   "#financaspessoais"
  ],
  "tipo": "explica",
- "persona": "Clara",
+ "persona": "Heitor",
  "aprovado": true,
  "problemas": [],
  "tentativas": 1,
- "cenas": [
+ "apoios": [
   {
-   "tipo": "apresentadora",
-   "visual": "a modern central bank building at dawn, soft golden light",
-   "na_tela": "PIB 2027: 1,20%",
-   "transicao": "camera keeps slowly pushing in on the presenter, then cuts to the next scene",
-   "fala": "Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20%. Aqui é a Clara, com o Termômetro de Crise.",
-   "inicio_s": 0,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, soft golden light. She looks into the camera with a subtle natural hand gesture and says: \"Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20 por cento. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter, then cuts to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "fala": 2,
+   "visual": "Vertical 9:16, 6 seconds. Slow upward crane shot along the glass facades of Brazilian financial district office towers at early morning, soft golden light reflecting on the windows, a few blurred silhouettes far below too small to identify. No text, no letters, no numbers, no logos, no screens with readable content.",
+   "texto_da_fala": "No Focus de 3 de novembro, o mercado cortou a previsão do PIB.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical 9:16, 6 seconds. Slow upward crane shot along the glass facades of Brazilian financial district office towers at early morning, soft golden light reflecting on the windows, a few blurred silhouettes far below too small to identify. No text, no letters, no numbers, no logos, no screens with readable content. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "tipo": "imagem",
-   "visual": "an abstract glowing line chart on a dark blue background, the line slowly descending a little and then flattening while still staying above the baseline, slow push-in camera, no text or numbers",
-   "na_tela": "Focus: de 1,31% a 1,20%",
-   "transicao": "camera keeps slowly pushing in through the chart, ready to cut back to the presenter",
-   "fala": "O Focus é a pesquisa semanal do Banco Central com o mercado. Antes era 1,31%, mas o PIB ainda cresce, não encolhe.",
-   "inicio_s": 8,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. An abstract glowing line chart on a dark blue background, the line slowly descending a little and then flattening while still staying above the baseline, slow push-in camera, no text or numbers. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"O Focus é a pesquisa semanal do Banco Central com o mercado. Antes era 1,31 por cento, mas o PIB ainda cresce, não encolhe.\" No faces in focus. Ending: camera keeps slowly pushing in through the chart, ready to cut back to the presenter. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "fala": 7,
+   "visual": "Vertical 9:16, 6 seconds. Close-up macro shot on a wooden kitchen table: a plain blank unbranded credit card lying beside a small stack of unmarked envelopes and a pocket calculator turned away from the camera. Slow dolly-in with shallow depth of field, warm tense light. No text, no letters, no numbers, no logos, no faces.",
+   "texto_da_fala": "Selic é o juro básico. Com ela alta, dívida no cartão tende a seguir cara.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical 9:16, 6 seconds. Close-up macro shot on a wooden kitchen table: a plain blank unbranded credit card lying beside a small stack of unmarked envelopes and a pocket calculator turned away from the camera. Slow dolly-in with shallow depth of field, warm tense light. No text, no letters, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "tipo": "apresentadora",
-   "visual": "a calendar page on a desk next to a modern government office building, soft daylight, no readable text",
-   "na_tela": "PIB do 3º tri: 2 de dezembro",
-   "transicao": "presenter holds the final pose, camera slightly pushing in, then cuts to the next scene",
-   "fala": "Recessão não é consenso: é opinião de alguns economistas. Mas o PIB do terceiro trimestre sai em 2 de dezembro, pelo IBGE.",
-   "inicio_s": 16,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calendar page on a desk next to a modern government office building, soft daylight, no readable text. She looks into the camera with a subtle natural hand gesture and says: \"Recessão não é consenso: é opinião de alguns economistas. Mas o PIB do terceiro trimestre sai em 2 de dezembro, pelo IBGE.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter holds the final pose, camera slightly pushing in, then cuts to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
-  },
-  {
-   "tipo": "imagem",
-   "visual": "a busy Brazilian city street with people walking past small shops with closed and help-wanted signs blurred, then close-up of a credit card and coins on a table, shallow depth of field, slow dolly forward, no faces recognizable, no text",
-   "na_tela": "Menos vagas, crédito caro",
-   "transicao": "camera slowly dollies forward toward the credit card, ready to cut to the presenter",
-   "fala": "Crescimento baixo pode significar menos vagas e aumentos menores. Se os juros seguirem altos, cartão e cheque especial seguem caros.",
-   "inicio_s": 24,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. A busy Brazilian city street with people walking past small shops with closed and help-wanted signs blurred, then close-up of a credit card and coins on a table, shallow depth of field, slow dolly forward, no faces recognizable, no text. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Crescimento baixo pode significar menos vagas e aumentos menores. Se os juros seguirem altos, cartão e cheque especial seguem caros.\" No faces in focus. Ending: camera slowly dollies forward toward the credit card, ready to cut to the presenter. No on-screen text, no subtitles, no captions, no logos, no real public figures."
-  },
-  {
-   "tipo": "apresentadora",
-   "visual": "a calculator, a bank statement and a coffee cup on a tidy desk, warm light, no readable text or numbers",
-   "na_tela": "Confira seus juros",
-   "transicao": "presenter finishes the sentence, camera keeps slowly pushing in, then cuts to the next scene",
-   "fala": "Quem tem dívida pode conferir quanto paga de juros e acompanhar o Focus.",
-   "inicio_s": 32,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calculator, a bank statement and a coffee cup on a tidy desk, warm light, no readable text or numbers. She looks into the camera with a subtle natural hand gesture and says: \"Quem tem dívida pode conferir quanto paga de juros e acompanhar o Focus.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter finishes the sentence, camera keeps slowly pushing in, then cuts to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures."
-  },
-  {
-   "tipo": "apresentadora",
-   "visual": "an abstract glowing thermometer made of light over a soft blue city skyline at dusk, no text",
-   "na_tela": "WhatsApp: link da bio",
-   "transicao": "camera holds steady on the presenter with a gentle slow push-in, final fade out",
-   "fala": "Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
-   "inicio_s": 40,
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract glowing thermometer made of light over a soft blue city skyline at dusk, no text. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds steady on the presenter with a gentle slow push-in, final fade out. No on-screen text, no subtitles, no captions, no logos, no real public figures."
+   "fala": 9,
+   "visual": "Vertical 9:16, 6 seconds. A glass jar filling slowly with coins on a sunlit wooden shelf, a small closed metal safe sitting beside it. Gentle slow orbit camera movement, warm calm lighting, shallow depth of field. No text, no letters, no numbers, no logos, no people.",
+   "texto_da_fala": "Reforce a reserva de emergência, evite dívida cara e desconfie de proteção garantida.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical 9:16, 6 seconds. A glass jar filling slowly with coins on a sunlit wooden shelf, a small closed metal safe sitting beside it. Gentle slow orbit camera movement, warm calm lighting, shallow depth of field. No text, no letters, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
- "cenas_ok": true,
- "cenas_problemas": [],
- "flow": "Google Flow: 6 cenas de 8 s (Veo). Nas cenas da apresentadora, use a foto da Clara como ingrediente.\n\nCENA 1 (0-8 s, apresentadora)\nFala: Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20%. Aqui é a Clara, com o Termômetro de Crise.\nTela: PIB 2027: 1,20%\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a modern central bank building at dawn, soft golden light. She looks into the camera with a subtle natural hand gesture and says: \"Pela terceira semana, o mercado corta o PIB de 2027: agora 1,20 por cento. Aqui é a Clara, com o Termômetro de Crise.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera keeps slowly pushing in on the presenter, then cuts to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 2 (8-16 s, imagem)\nFala: O Focus é a pesquisa semanal do Banco Central com o mercado. Antes era 1,31%, mas o PIB ainda cresce, não encolhe.\nTela: Focus: de 1,31% a 1,20%\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. An abstract glowing line chart on a dark blue background, the line slowly descending a little and then flattening while still staying above the baseline, slow push-in camera, no text or numbers. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"O Focus é a pesquisa semanal do Banco Central com o mercado. Antes era 1,31 por cento, mas o PIB ainda cresce, não encolhe.\" No faces in focus. Ending: camera keeps slowly pushing in through the chart, ready to cut back to the presenter. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 3 (16-24 s, apresentadora)\nFala: Recessão não é consenso: é opinião de alguns economistas. Mas o PIB do terceiro trimestre sai em 2 de dezembro, pelo IBGE.\nTela: PIB do 3º tri: 2 de dezembro\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calendar page on a desk next to a modern government office building, soft daylight, no readable text. She looks into the camera with a subtle natural hand gesture and says: \"Recessão não é consenso: é opinião de alguns economistas. Mas o PIB do terceiro trimestre sai em 2 de dezembro, pelo IBGE.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter holds the final pose, camera slightly pushing in, then cuts to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 4 (24-32 s, imagem)\nFala: Crescimento baixo pode significar menos vagas e aumentos menores. Se os juros seguirem altos, cartão e cheque especial seguem caros.\nTela: Menos vagas, crédito caro\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. A busy Brazilian city street with people walking past small shops with closed and help-wanted signs blurred, then close-up of a credit card and coins on a table, shallow depth of field, slow dolly forward, no faces recognizable, no text. Slow, smooth camera movement. Voice-over in the same calm Brazilian woman's voice, in Brazilian Portuguese: \"Crescimento baixo pode significar menos vagas e aumentos menores. Se os juros seguirem altos, cartão e cheque especial seguem caros.\" No faces in focus. Ending: camera slowly dollies forward toward the credit card, ready to cut to the presenter. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 5 (32-40 s, apresentadora)\nFala: Quem tem dívida pode conferir quanto paga de juros e acompanhar o Focus.\nTela: Confira seus juros\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows a calculator, a bank statement and a coffee cup on a tidy desk, warm light, no readable text or numbers. She looks into the camera with a subtle natural hand gesture and says: \"Quem tem dívida pode conferir quanto paga de juros e acompanhar o Focus.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: presenter finishes the sentence, camera keeps slowly pushing in, then cuts to the next scene. No on-screen text, no subtitles, no captions, no logos, no real public figures.\n\nCENA 6 (40-48 s, apresentadora)\nFala: Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\nTela: WhatsApp: link da bio\nPrompt: Vertical 9:16 video, cinematic, shallow depth of field, natural skin texture, 8 seconds. Medium close-up of Clara, a Brazilian woman in her early 30s with shoulder-length dark brown hair, warm light-brown skin and brown eyes, wearing a navy blue blazer over a white blouse and small gold earrings, standing in a modern dark navy TV news studio with soft amber and blue rim lights and a large video wall behind her. The video wall behind her shows an abstract glowing thermometer made of light over a soft blue city skyline at dusk, no text. She looks into the camera with a subtle natural hand gesture and says: \"Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.\" She speaks Brazilian Portuguese in a calm, clear, mid-pitched voice, at a steady news-anchor pace. Ending: camera holds steady on the presenter with a gentle slow push-in, final fade out. No on-screen text, no subtitles, no captions, no logos, no real public figures.",
+ "apoios_ok": false,
+ "apoios_problemas": [
+  "número dentro da imagem (número entra só no texto da tela): 16, 6, 9"
+ ],
+ "teleprompter": "Recessão em 2027 não está prevista, mas o risco entrou no radar.\n\nAqui é o Heitor, do Termômetro de Crise.\n\nNo Focus de 3 de novembro, o mercado cortou a previsão do PIB.\n\nPIB é tudo o que o país produz.\n\nA previsão para 2027 caiu de 1,31% para 1,20%: ainda é crescimento, não queda.\n\nUns veem desaceleração, outros veem risco real de queda, e a Fazenda descarta recessão.\n\nMas olha o que pesa: o Focus vê a Selic em 12,50% no fim de 2027.\n\nSelic é o juro básico. Com ela alta, dívida no cartão tende a seguir cara.\n\nFalta saber: o IBGE confirma o PIB do terceiro trimestre em 2 de dezembro.\n\nReforce a reserva de emergência, evite dívida cara e desconfie de proteção garantida.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
  "data": "2026-11-07",
- "gerado_em": "2026-11-07T15:24:28.297002-03:00"
+ "gerado_em": "2026-11-07T16:19:05.135610-03:00"
 }
