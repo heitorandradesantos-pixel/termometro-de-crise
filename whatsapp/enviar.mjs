@@ -182,6 +182,22 @@ async function principal () {
         text: `✅ Termômetro de Crise conectado. Os envios automáticos vão para a comunidade "${d.nome}".`
       })
       resultado.destino = d.nome
+    } else if (acao === 'foto') { // a logo vira a foto da comunidade e do grupo de avisos (o número do robô não muda)
+      const img = fs.readFileSync(arquivo)
+      sock = await conectar()
+      await delay(4000)
+      const d = await acharDestino(sock)
+      const alvos = [d.jid]
+      const meta = await sock.groupMetadata(d.jid).catch(() => null)
+      if (meta?.linkedParent) alvos.unshift(meta.linkedParent)
+      let feitos = 0
+      for (const jid of alvos) {
+        try { await sock.updateProfilePicture(jid, img); feitos++ } catch (e) { diga(`Não troquei uma das fotos (${e.message}).`) }
+        await delay(2000)
+      }
+      resultado.ok = feitos > 0
+      resultado.destino = d.nome
+      diga(`Foto trocada em ${feitos} de ${alvos.length} (comunidade e grupo de avisos).`)
     } else if (acao === 'teste' || acao === 'enviar') {
       const envio = JSON.parse(fs.readFileSync(arquivo, 'utf8'))
       if (envio.imagem && !path.isAbsolute(envio.imagem)) envio.imagem = path.join(path.dirname(arquivo), envio.imagem)

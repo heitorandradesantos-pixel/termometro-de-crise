@@ -9,6 +9,7 @@ name: WhatsApp
 # - abertura: como o mundo amanheceu e como o Brasil abriu, todo dia útil logo depois que a B3 abre (10h21).
 # - roteiros: manda para a conversa do próprio número os roteiros novos do dia (teleprompter, texto da tela, imagens
 #   de apoio e legenda), para o Heitor gravar. O Plantão chama esta ação depois de cada artigo.
+# - foto: põe a logo (marca/perfil-1080.png) como foto da comunidade e do grupo de avisos.
 # O número e o código ficam fora do registro público; a sessão fica no cache do GitHub, criptografada.
 on:
   schedule:
@@ -16,7 +17,7 @@ on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "parear, teste, teste-abertura, fechamento, abertura ou roteiros"
+        description: "parear, teste, teste-abertura, fechamento, abertura, roteiros ou foto"
         required: true
         default: "teste"
       numero:
@@ -111,10 +112,16 @@ jobs:
             teste-abertura) python rodar.py --whatsapp preparar --teste --tipo abertura ;;
             abertura) python rodar.py --whatsapp preparar --tipo abertura ;;
             roteiros) python rodar.py --whatsapp roteiros --data "$DATA" ;;
+            foto) echo "Foto: nada a preparar." ;;
             *) python rodar.py --whatsapp preparar --data "$DATA" ;;
           esac
+      - name: Trocar a foto da comunidade (logo)
+        if: inputs.acao == 'foto'
+        working-directory: whatsapp
+        run: node enviar.mjs foto ../marca/perfil-1080.png
+
       - name: Enviar
-        if: inputs.acao != 'parear' && hashFiles('_whatsapp/envio.json') != ''
+        if: inputs.acao != 'parear' && inputs.acao != 'foto' && hashFiles('_whatsapp/envio.json') != ''
         working-directory: whatsapp
         run: node enviar.mjs "$(case "$ACAO" in teste*) echo teste ;; *) echo enviar ;; esac)" ../_whatsapp/envio.json
 
