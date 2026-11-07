@@ -201,7 +201,7 @@ def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
         texto = pedido if not problemas else (
             pedido + "\n\nA VERSÃO ANTERIOR FOI REPROVADA NA CONFERÊNCIA. Corrija exatamente isto:\n- "
             + "\n- ".join(problemas))
-        r = montar(ia.estruturado(cliente, SISTEMA, texto, ferramenta(), max_tokens=4000), chamada)
+        r = montar(ia.estruturado(cliente, SISTEMA, texto, ferramenta(), max_tokens=6000), chamada)
         problemas = conferir(r, material)
         if not problemas:
             break
