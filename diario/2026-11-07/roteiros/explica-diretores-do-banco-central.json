@@ -1,12 +1,12 @@
 {
  "gancho": {
-  "formula": "Número + porquê",
-  "texto": "Seis das nove cadeiras do Banco Central vão mudar até 2027.",
-  "na_tela": "SEIS das NOVE cadeiras do BC",
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "Seu financiamento muda com a troca de diretores do BC? Hoje, não.",
+  "na_tela": "A troca no BC muda seu financiamento?",
   "nota": {
-   "especifico": 2,
-   "tensao": 1,
-   "espectador": 1,
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
    "rapido": 2,
    "verdadeiro": 2
   }
@@ -14,8 +14,8 @@
  "ganchos": [
   {
    "formula": "Número + porquê",
-   "texto": "Seis das nove cadeiras do Banco Central vão mudar até 2027.",
-   "na_tela": "SEIS das NOVE cadeiras do BC",
+   "texto": "Seis cadeiras do Banco Central vão mudar de dono até 2027.",
+   "na_tela": "Seis cadeiras do BC vão mudar",
    "nota": {
     "especifico": 2,
     "tensao": 1,
@@ -25,98 +25,91 @@
    }
   },
   {
-   "formula": "Custo escondido",
-   "texto": "Seis diretores novos no Banco Central mexem no seu juro? Hoje, não.",
-   "na_tela": "Diretores novos mexem no seu juro?",
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Seu financiamento muda com a troca de diretores do BC? Hoje, não.",
+   "na_tela": "A troca no BC muda seu financiamento?",
    "nota": {
-    "especifico": 2,
-    "tensao": 1,
+    "especifico": 1,
+    "tensao": 2,
     "espectador": 2,
     "rapido": 2,
-    "verdadeiro": 1
+    "verdadeiro": 2
    }
   },
   {
    "formula": "Cena no meio",
-   "texto": "Duas cadeiras da diretoria do Banco Central estão vagas desde janeiro.",
-   "na_tela": "Duas vagas no BC desde janeiro",
+   "texto": "Duas cadeiras do Banco Central estão vagas desde janeiro. Quem vai ocupar?",
+   "na_tela": "Duas cadeiras vagas no BC",
    "nota": {
     "especifico": 2,
-    "tensao": 1,
+    "tensao": 2,
     "espectador": 0,
     "rapido": 2,
-    "verdadeiro": 2
+    "verdadeiro": 1
    }
   }
  ],
  "linhas": [
-  "Seis das nove cadeiras do Banco Central vão mudar até 2027.",
-  "Aqui é o Heitor, do Termômetro de Crise.",
-  "Segundo a Folha, a escolha dos seis nomes é do presidente Lula.",
-  "Duas vagas estão abertas desde janeiro.",
-  "Cada nome precisa passar por arguição pública e aval do Senado.",
-  "Para o seu bolso, hoje, nada muda.",
-  "O Copom manteve a Selic, a taxa básica de juros, em 13,75% ao ano.",
-  "Mas tem um detalhe: ter maioria de indicados não significa controlar a Selic.",
-  "Cada decisão tem nove votos, e os juros dependem também da inflação.",
-  "Ainda não se sabe quem serão os indicados, nem como votarão nos juros.",
-  "Para quem tem financiamento, o que pesa nos próximos meses é o Copom de dezembro.",
+  "Seu financiamento muda com a troca de diretores do BC? Hoje, não.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: seis das nove cadeiras do Banco Central terão novos donos até 2027.",
+  "Segundo a Folha, duas estão vagas desde janeiro.",
+  "Quem escolhe é o presidente, mas o Senado aprova cada nome.",
+  "Hoje nada muda: a Selic, a taxa básica de juros, está em 13,75%.",
+  "Mas tem um detalhe: maioria de indicados não é controlar a Selic.",
+  "Cada decisão do Copom tem nove votos, e os juros dependem também da inflação.",
+  "Ainda não há indicação formal no Senado, e os nomes que circulam são só relato.",
+  "Tem financiamento ou produto ligado à Selic? Fique de olho no Copom de dezembro.",
   "Isso não é recomendação: é o termômetro.",
   "O grupo do WhatsApp está no link da bio."
  ],
- "texto_falado": "Seis das nove cadeiras do Banco Central vão mudar até 2027. Aqui é o Heitor, do Termômetro de Crise. Segundo a Folha, a escolha dos seis nomes é do presidente Lula. Duas vagas estão abertas desde janeiro. Cada nome precisa passar por arguição pública e aval do Senado. Para o seu bolso, hoje, nada muda. O Copom manteve a Selic, a taxa básica de juros, em 13,75% ao ano. Mas tem um detalhe: ter maioria de indicados não significa controlar a Selic. Cada decisão tem nove votos, e os juros dependem também da inflação. Ainda não se sabe quem serão os indicados, nem como votarão nos juros. Para quem tem financiamento, o que pesa nos próximos meses é o Copom de dezembro. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
- "palavras": 138,
- "segundos": 55,
+ "texto_falado": "Seu financiamento muda com a troca de diretores do BC? Hoje, não. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: seis das nove cadeiras do Banco Central terão novos donos até 2027. Segundo a Folha, duas estão vagas desde janeiro. Quem escolhe é o presidente, mas o Senado aprova cada nome. Hoje nada muda: a Selic, a taxa básica de juros, está em 13,75%. Mas tem um detalhe: maioria de indicados não é controlar a Selic. Cada decisão do Copom tem nove votos, e os juros dependem também da inflação. Ainda não há indicação formal no Senado, e os nomes que circulam são só relato. Tem financiamento ou produto ligado à Selic? Fique de olho no Copom de dezembro. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 139,
+ "segundos": 56,
  "na_tela": [
   {
-   "texto": "SEIS das NOVE cadeiras do BC",
+   "texto": "A troca no BC muda seu financiamento?",
    "fala": 0
   },
   {
    "fala": 2,
-   "texto": "SEIS nomes para a diretoria",
+   "texto": "Seis das nove cadeiras do BC",
+   "fonte": "Folha"
+  },
+  {
+   "fala": 2,
+   "texto": "Até 2027",
    "fonte": "Folha"
   },
   {
    "fala": 3,
-   "texto": "Duas vagas abertas desde janeiro",
+   "texto": "Duas vagas desde janeiro",
    "fonte": "Folha"
   },
   {
-   "fala": 4,
-   "texto": "Aval do Senado",
-   "fonte": "Distrito News"
-  },
-  {
    "fala": 5,
-   "texto": "Hoje, nada muda"
-  },
-  {
-   "fala": 6,
    "texto": "Selic: 13,75% ao ano",
    "fonte": "Banco Central"
   },
   {
-   "fala": 7,
-   "texto": "Maioria não é controle da Selic"
-  },
-  {
-   "fala": 8,
-   "texto": "NOVE votos por decisão",
+   "fala": 6,
+   "texto": "Maioria de indicados ≠ controle da Selic",
    "fonte": "Termômetro de Crise"
   },
   {
-   "fala": 9,
-   "texto": "Quem serão os indicados?"
+   "fala": 8,
+   "texto": "Nenhuma indicação formal ainda",
+   "fonte": "Folha"
   },
   {
-   "fala": 10,
-   "texto": "Próximo ponto: Copom de dezembro"
+   "fala": 9,
+   "texto": "Próximo Copom: dezembro",
+   "fonte": "Banco Central"
   }
  ],
- "retomada": 7,
- "busca": "troca de diretores do Banco Central",
- "legenda": "Troca de diretores do Banco Central: o que muda nos juros?\n\nSegundo a Folha, seis das nove cadeiras da diretoria do Banco Central terão novos ocupantes até o fim de 2027. A escolha é do presidente Lula, e cada nome precisa do aval do Senado.\n\nPara o seu bolso, hoje, nada muda. O Copom manteve a Selic em 13,75% ao ano, por unanimidade. Ter maioria de indicados não significa controlar a Selic: cada decisão tem nove votos, e os juros dependem também da inflação.\n\nAinda não se sabe quem serão os indicados nem como votarão. Para quem tem financiamento, o que pesa nos próximos meses é o Copom de dezembro.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancocentral #selic #copom #educacaofinanceira",
+ "retomada": 6,
+ "busca": "troca de diretores do Banco Central muda a Selic?",
+ "legenda": "troca de diretores do Banco Central muda a Selic?\n\nSeis das nove cadeiras da diretoria do Banco Central terão novos ocupantes até o fim de 2027, segundo a Folha. Quem escolhe os nomes é o presidente da República, e o Senado precisa aprovar cada um.\n\nHoje, nada muda: a Selic, a taxa básica de juros, está em 13,75% ao ano. Ter maioria de indicados não significa controlar a Selic, porque cada decisão do Copom tem nove votos e os juros dependem também da inflação.\n\nAinda não há indicação formal enviada ao Senado. Os nomes que circulam são relatos, sem confirmação oficial. Quem tem financiamento ou produto ligado à Selic pode acompanhar o Copom de dezembro.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancocentral #selic #copom #educacaofinanceira",
  "hashtags": [
   "#bancocentral",
   "#selic",
@@ -131,27 +124,26 @@
  "apoios": [
   {
    "fala": 3,
-   "visual": "Slow dolly-in along a long polished wooden boardroom table in a quiet, modern institutional meeting room. Most leather chairs are neatly tucked in, but two chairs are visibly empty, pushed back and covered with a thin translucent dust sheet. Soft morning light through tall windows, dust motes floating in the air. No people, no text, no logos",
-   "texto_da_fala": "Duas vagas estão abertas desde janeiro.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a long polished wooden boardroom table in a quiet, modern institutional meeting room. Most leather chairs are neatly tucked in, but two chairs are visibly empty, pushed back and covered with a thin translucent dust sheet. Soft morning light through tall windows, dust motes floating in the air. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Slow dolly-in along a long polished wooden boardroom table in a quiet, modern government meeting hall. Leather chairs are lined up on both sides, and two of them are visibly pulled back and empty with a thin layer of dust on the seat. Soft morning light comes through tall windows. No people, no text, no logos, no flags",
+   "texto_da_fala": "Segundo a Folha, duas estão vagas desde janeiro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a long polished wooden boardroom table in a quiet, modern government meeting hall. Leather chairs are lined up on both sides, and two of them are visibly pulled back and empty with a thin layer of dust on the seat. Soft morning light comes through tall windows. No people, no text, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
    "fala": 4,
-   "visual": "Empty semicircular legislative hearing chamber with rows of wooden desks rising in tiers, and a single lone microphone on a witness table in the foreground. Slow push-in with a gentle crane-down movement toward the microphone. Warm, dramatic side light, polished marble floor reflections. No people, no flags, no text, no logos",
-   "texto_da_fala": "Cada nome precisa passar por arguição pública e aval do Senado.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Empty semicircular legislative hearing chamber with rows of wooden desks rising in tiers, and a single lone microphone on a witness table in the foreground. Slow push-in with a gentle crane-down movement toward the microphone. Warm, dramatic side light, polished marble floor reflections. No people, no flags, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Slow upward crane move inside an empty legislative plenary chamber with curved rows of wooden desks and green leather seats, lit by warm light from a high skylight. The camera drifts from the empty seats toward the central podium. No people, no text, no logos, no flags, no symbols",
+   "texto_da_fala": "Quem escolhe é o presidente, mas o Senado aprova cada nome.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward crane move inside an empty legislative plenary chamber with curved rows of wooden desks and green leather seats, lit by warm light from a high skylight. The camera drifts from the empty seats toward the central podium. No people, no text, no logos, no flags, no symbols. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "fala": 10,
-   "visual": "Close-up on a wooden desk where a set of house keys lies next to a small architectural model of a house. Slow rack focus from the keys in the foreground to the miniature house behind them, while soft window light slowly shifts across the scene. Shallow depth of field, calm and tense mood. No people, no text, no numbers, no logos",
-   "texto_da_fala": "Para quem tem financiamento, o que pesa nos próximos meses é o Copom de dezembro.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a wooden desk where a set of house keys lies next to a small architectural model of a house. Slow rack focus from the keys in the foreground to the miniature house behind them, while soft window light slowly shifts across the scene. Shallow depth of field, calm and tense mood. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 7,
+   "visual": "Slow orbiting shot around an oval conference table with a row of identical high-backed chairs. In front of each seat sit a glass of water and a small closed folder. A soft reflection of city skyscrapers glides across the glossy tabletop. Calm, serious mood. No people, no text, no numbers, no logos, no flags",
+   "texto_da_fala": "Cada decisão do Copom tem nove votos, e os juros dependem também da inflação.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow orbiting shot around an oval conference table with a row of identical high-backed chairs. In front of each seat sit a glass of water and a small closed folder. A soft reflection of city skyscrapers glides across the glossy tabletop. Calm, serious mood. No people, no text, no numbers, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Seis das nove cadeiras do Banco Central vão mudar até 2027.\n\nAqui é o Heitor, do Termômetro de Crise.\n\nSegundo a Folha, a escolha dos seis nomes é do presidente Lula.\n\nDuas vagas estão abertas desde janeiro.\n\nCada nome precisa passar por arguição pública e aval do Senado.\n\nPara o seu bolso, hoje, nada muda.\n\nO Copom manteve a Selic, a taxa básica de juros, em 13,75% ao ano.\n\nMas tem um detalhe: ter maioria de indicados não significa controlar a Selic.\n\nCada decisão tem nove votos, e os juros dependem também da inflação.\n\nAinda não se sabe quem serão os indicados, nem como votarão nos juros.\n\nPara quem tem financiamento, o que pesa nos próximos meses é o Copom de dezembro.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "teleprompter": "Seu financiamento muda com a troca de diretores do BC? Hoje, não.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: seis das nove cadeiras do Banco Central terão novos donos até 2027.\n\nSegundo a Folha, duas estão vagas desde janeiro.\n\nQuem escolhe é o presidente, mas o Senado aprova cada nome.\n\nHoje nada muda: a Selic, a taxa básica de juros, está em 13,75%.\n\nMas tem um detalhe: maioria de indicados não é controlar a Selic.\n\nCada decisão do Copom tem nove votos, e os juros dependem também da inflação.\n\nAinda não há indicação formal no Senado, e os nomes que circulam são só relato.\n\nTem financiamento ou produto ligado à Selic? Fique de olho no Copom de dezembro.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
  "data": "2026-11-07",
- "gerado_em": "2026-11-07T16:21:01.781539-03:00",
- "enviado_whatsapp": "não enviado (teste de 07/11: só o da recessão)"
+ "gerado_em": "2026-11-07T19:47:27.368192-03:00"
 }
