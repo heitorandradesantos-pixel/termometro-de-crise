@@ -1,0 +1,167 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "Bloqueio do benefício dia 20 de novembro? Segundo o INSS, é falso.",
+  "na_tela": "Bloqueio dia 20 de novembro?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Bloqueio do benefício dia 20 de novembro? Segundo o INSS, é falso.",
+   "na_tela": "Bloqueio dia 20 de novembro?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Recebeu aviso de biometria do INSS? Golpistas usam esse boato para pegar seus dados.",
+   "na_tela": "Aviso do INSS pode ser golpe",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Biometria no INSS vale para pedido novo, não para quem já recebe.",
+   "na_tela": "Biometria: só pedido novo",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Bloqueio do benefício dia 20 de novembro? Segundo o INSS, é falso.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Eu fui atrás do que o INSS realmente disse.",
+  "O INSS afirma: não existe prazo geral de 20 de novembro.",
+  "Segundo o instituto, quem já recebe não terá bloqueio por falta de biometria.",
+  "Biometria não é prova de vida: são coisas diferentes, diz o INSS.",
+  "Agora vem a parte que pouca gente viu: biometria vale só para pedido novo.",
+  "É como cadastro de loja: cliente novo faz agora, o antigo espera aviso.",
+  "Golpistas usam esse boato para pegar dados, alerta o INSS. Desconfie de mensagem assim.",
+  "Não clique em link estranho; na dúvida, ligue 135 ou abra o Meu INSS.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Bloqueio do benefício dia 20 de novembro? Segundo o INSS, é falso. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Eu fui atrás do que o INSS realmente disse. O INSS afirma: não existe prazo geral de 20 de novembro. Segundo o instituto, quem já recebe não terá bloqueio por falta de biometria. Biometria não é prova de vida: são coisas diferentes, diz o INSS. Agora vem a parte que pouca gente viu: biometria vale só para pedido novo. É como cadastro de loja: cliente novo faz agora, o antigo espera aviso. Golpistas usam esse boato para pegar dados, alerta o INSS. Desconfie de mensagem assim. Não clique em link estranho; na dúvida, ligue 135 ou abra o Meu INSS. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 138,
+ "segundos": 55,
+ "na_tela": [
+  {
+   "texto": "Bloqueio dia 20 de novembro?",
+   "fala": 0
+  },
+  {
+   "fala": 3,
+   "texto": "Prazo de 20 de novembro: não existe",
+   "fonte": "Notícias ao Minuto"
+  },
+  {
+   "fala": 4,
+   "texto": "Quem já recebe: sem bloqueio",
+   "fonte": "Notícias ao Minuto"
+  },
+  {
+   "fala": 5,
+   "texto": "Biometria ≠ prova de vida",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 6,
+   "texto": "Só vale para pedido novo",
+   "fonte": "Tribuna do Planalto"
+  },
+  {
+   "fala": 8,
+   "texto": "Sinal amarelo: boato usado em golpe",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Central 135 ou Meu INSS",
+   "fonte": "INSS"
+  }
+ ],
+ "retomada": 6,
+ "busca": "INSS vai bloquear benefício sem biometria?",
+ "legenda": "INSS vai bloquear benefício sem biometria?\n\nSegundo o INSS, não. O aviso de bloqueio no dia 20 de novembro é falso, e o instituto diz que não existe prazo geral para todos os aposentados.\n\nA biometria vale para pedidos novos. Ela não é prova de vida: são procedimentos diferentes, segundo o INSS. Quem já recebe não precisa correr à agência por causa do boato.\n\nO INSS alerta que golpistas usam essa história para pegar dados. Desconfie de mensagem que ameaça bloquear o benefício, não clique em link desconhecido e, na dúvida, ligue 135 ou use o Meu INSS.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inss #aposentadoria #golpe #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#inss",
+  "#aposentadoria",
+  "#golpe",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Bloqueio do INSS dia 20 de novembro? Segundo o INSS, é falso.",
+  "topicos": [
+   "O INSS afirma que não existe prazo geral de 20 de novembro.",
+   "Segundo o INSS, quem já recebe não terá bloqueio por falta de biometria.",
+   "Segundo o INSS, biometria só vale para pedido novo; não é prova de vida.",
+   "Desconfie de ameaça de bloqueio. Na dúvida, ligue 135 ou abra o Meu INSS."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e exceções, que pede calma e teleprompter, não uma notícia de última hora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase: \"Biometria não é prova de vida: são coisas diferentes, diz o INSS.\" Traduza na mesma frase o que cada uma é, usando só o que a peça já diz. Por exemplo: biometria é o cadastro de quem está pedindo benefício novo, e prova de vida é outro procedimento. Hoje o termo técnico fica sem explicação para quem já se confunde com os dois.",
+   "Frase: \"Isso não é recomendação: é o termômetro.\" O bordão é de assunto de investimento e soa deslocado num alerta de golpe a aposentados. Mantenha o bordão da casa, mas feche o passo prático logo antes dele (\"na dúvida, 135 ou Meu INSS\"). Assim a última coisa que a pessoa ouve antes do fecho é a saída, e o tom fica sério e acolhedor.",
+   "Frase: \"Fala, galera, aqui é o Heitor...\" vem depois de uma primeira linha seca e informativa. Abra com a identificação e a calma, por exemplo \"Se você ou alguém da sua família recebe INSS, calma: o bloqueio no dia 20 é falso, segundo o INSS\". Depois use o bordão de abertura. Isso fala direto com o bolso e com o medo de perder o benefício, e dá um gancho mais humano."
+  ],
+  "veredito": "A peça responde bem ao \\\"isso mexe no meu bolso? o que eu faço?\\\" com fonte atribuída, comparação do cadastro de loja, alerta de golpe e saída clara (135 ou Meu INSS), sem alarmismo. Falta traduzir melhor biometria e prova de vida, e ajustar o tom do bordão de fecho e da abertura, que estão frios para um assunto que assusta aposentados."
+ },
+ "apoios": [
+  {
+   "fala": 7,
+   "visual": "Slow dolly-in along a clean, modern clothing store checkout counter in warm daylight. A blank tablet with a softly glowing empty screen sits on the counter next to a small box of plain blank cards. Racks of folded clothes blurred in the background. No people, no text, no logos, no signs",
+   "texto_da_fala": "É como cadastro de loja: cliente novo faz agora, o antigo espera aviso.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a clean, modern clothing store checkout counter in warm daylight. A blank tablet with a softly glowing empty screen sits on the counter next to a small box of plain blank cards. Racks of folded clothes blurred in the background. No people, no text, no logos, no signs. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Dark room at night, a smartphone lying on a wooden table, its screen lighting up and vibrating with abstract empty message bubbles as plain colored shapes, with no readable text, no letters, no numbers, no logos. Slow push-in camera with shallow depth of field, cold bluish glow, slightly tense mood. No people, no faces",
+   "texto_da_fala": "Golpistas usam esse boato para pegar dados, alerta o INSS. Desconfie de mensagem assim.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Dark room at night, a smartphone lying on a wooden table, its screen lighting up and vibrating with abstract empty message bubbles as plain colored shapes, with no readable text, no letters, no numbers, no logos. Slow push-in camera with shallow depth of field, cold bluish glow, slightly tense mood. No people, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Bloqueio do benefício dia 20 de novembro? Segundo o INSS, é falso.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nEu fui atrás do que o INSS realmente disse.\n\nO INSS afirma: não existe prazo geral de 20 de novembro.\n\nSegundo o instituto, quem já recebe não terá bloqueio por falta de biometria.\n\nBiometria não é prova de vida: são coisas diferentes, diz o INSS.\n\nAgora vem a parte que pouca gente viu: biometria vale só para pedido novo.\n\nÉ como cadastro de loja: cliente novo faz agora, o antigo espera aviso.\n\nGolpistas usam esse boato para pegar dados, alerta o INSS. Desconfie de mensagem assim.\n\nNão clique em link estranho; na dúvida, ligue 135 ou abra o Meu INSS.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "data": "2026-11-07",
+ "gerado_em": "2026-11-07T21:37:47.505220-03:00"
+}
