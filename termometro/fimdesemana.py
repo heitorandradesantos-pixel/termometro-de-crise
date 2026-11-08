@@ -219,7 +219,8 @@ def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, buscar=requests.ge
         return "Edição de domingo desligada (FDS_MODO=nao)."
     if pd.Timestamp(dia).weekday() != 6:
         return f"{dia} não é domingo: sem edição de fim de semana."
-    from .whatsapp import ja_enviado, modo as modo_whatsapp
+    from .whatsapp import ja_enviado
+    from .whatsapp import modo as modo_whatsapp
     destino = "teste" if como == "previa" else "sim"
     if destino == "sim" and modo_whatsapp() != "sim":  # a chave geral do WhatsApp manda (whatsapp/modo.txt)
         return f"Envio ao grupo desligado (WhatsApp em modo '{modo_whatsapp()}'); edição de domingo não enviada."
