@@ -2,39 +2,39 @@
   "palavra_chave": "crise econômica mundial",
   "secundarias": [
     "risco de crise no mundo",
-    "vai ter crise?",
-    "por que o dólar subiu",
-    "selic 13,75%",
-    "petróleo brent",
+    "dólar alto hoje",
+    "selic em 13,75%",
+    "petróleo brent em queda",
+    "guerra no irã e economia",
     "estreito de ormuz",
-    "wall street e vix",
-    "juros dos eua fed"
+    "juros altos nos eua",
+    "termômetro de crise"
   ],
   "perguntas": [
-    "Vai ter crise econômica mundial? Qual é o risco hoje?",
-    "Por que o dólar subiu e fechou a R$ 5,51, o maior nível de 2026?",
-    "Por que o Copom manteve a Selic em 13,75% e parou os cortes?",
-    "O que o conflito entre EUA e Irã em Ormuz muda no preço do petróleo e na economia?",
-    "O que a queda de Wall Street e os juros dos EUA têm a ver com o Brasil?"
+    "Vai ter crise econômica mundial?",
+    "Por que o dólar subiu para perto de R$ 5,50?",
+    "O que significa o Copom manter a Selic em 13,75%?",
+    "Por que o petróleo caiu na semana se a guerra com o Irã continua?",
+    "O que os juros altos nos EUA e no Reino Unido mudam para o Brasil?"
   ],
-  "titulo_seo": "Crise econômica mundial: risco em alerta (59) esta semana",
-  "descricao_seo": "Crise econômica mundial: termômetro em 59 (Alerta). Entenda petróleo, Ormuz, juros dos EUA, Selic a 13,75% e dólar a R$ 5,51.",
+  "titulo_seo": "Crise econômica mundial: risco em 59 pontos (Alerta)",
+  "descricao_seo": "Risco de crise econômica mundial em 59 pontos, nível Alerta. Veja o que pesa: dólar a R$ 5,50, Selic em 13,75%, petróleo e guerra no Irã.",
   "links_internos": [
     "mundo.html",
-    "panorama.html",
-    "metodologia.html",
     "paises/brasil.html",
     "regioes/oriente-medio.html",
-    "paises/eua.html"
+    "paises/eua.html",
+    "paises/reino-unido.html",
+    "metodologia.html"
   ],
   "evitar": [
-    "Títulos caça-clique ou de pânico (\"colapso\", \"apocalipse do",
-    "Prometer ou prever o valor futuro do dólar, da bolsa ou da",
-    "Jargão sem tradução: explicar VIX, Treasury, payroll, Copom",
-    "Repetir a palavra-chave em excesso; usar sinônimos como",
-    "Citar números de Wall Street ou do VIX sem conferir na",
-    "Disputar \"dólar hoje\" ou \"Ibovespa hoje\" com o site de"
+    "colapso, quebradeira, desastre ou outro alarmismo",
+    "previsão de cotação (\"dólar vai a R$ 6\") ou conselho de",
+    "\"hora de comprar dólar\" e outras promessas",
+    "jargão sem tradução: payroll, Treasury, hawkish,",
+    "\"ao vivo\" ou \"cotação em tempo real\" (o portal não é de",
+    "disputar \"risco de crise no Brasil\" e \"crise no [país]\" com"
   ],
-  "por_que": "A semana junta dólar no maior nível do ano, Selic parada em 13,75%, tensão em Ormuz e queda em Wall Street, o que leva o leitor a perguntar se vem uma crise mundial, e essa é a pergunta que o Termômetro responde.",
+  "por_que": "A semana juntou dólar na maior cotação desde dezembro de 2025, Selic parada, Brent com a maior queda semanal desde 2020 e guerra no Irã, e o leitor quer saber se isso vira crise, o que o termo amplo \"crise econômica",
   "modo": "claude (claude-sonnet-5-5)"
 }
