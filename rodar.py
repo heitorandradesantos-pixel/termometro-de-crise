@@ -276,7 +276,7 @@ def main() -> None:
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
     p.add_argument("--parcial", action="store_true", help="leitura do meio do dia: só os números do mundo")
     p.add_argument("--plantao", action="store_true", help="Plantão: notícia de dinheiro do momento, com fonte")
-    p.add_argument("--whatsapp", choices=["preparar", "concluir", "roteiros"],
+    p.add_argument("--whatsapp", choices=["preparar", "concluir", "roteiros", "fimdesemana"],
                    help="WhatsApp: prepara o envio do fechamento (card, balanço e panorama) ou registra o resultado")
     p.add_argument("--teste", action="store_true", help="WhatsApp: prepara o envio para o próprio número")
     p.add_argument("--tipo", choices=["fechamento", "abertura"], default="fechamento", help="WhatsApp: o que enviar")
@@ -319,6 +319,10 @@ def main() -> None:
         if a.whatsapp == "roteiros":
             dia = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
             print(whatsapp.preparar_roteiros(DIARIO, dia, Path(a.pasta)))
+        elif a.whatsapp == "fimdesemana":
+            from termometro import fimdesemana
+            dia = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+            print(fimdesemana.preparar(DIARIO, dia, Path(a.pasta)))
         elif a.whatsapp == "preparar":
             dias = [d.name for d in paginas.dias_do_diario(DIARIO) if (d / "panorama.txt").exists()]
             dia = a.data or (dias[-1] if dias else "")

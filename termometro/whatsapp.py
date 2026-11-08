@@ -90,7 +90,8 @@ def mensagens_abertura(pasta_diario: Path, pasta_trabalho: Path) -> dict | None:
 
 
 LEGENDA_MAXIMA = 1000  # o WhatsApp corta legendas de imagem perto de 1.024 caracteres
-NOMES = {"fechamento": "O fechamento", "abertura": "A abertura", "roteiros": "Os roteiros"}
+NOMES = {"fechamento": "O fechamento", "abertura": "A abertura", "roteiros": "Os roteiros",
+         "fimdesemana": "A edição de domingo"}
 
 
 def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, teste: bool = False, tipo: str = "fechamento") -> str:

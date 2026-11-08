@@ -173,3 +173,9 @@ def test_cinco_turnos_pelo_horario():
     for h, turno in horas.items():
         assert pl.turno_de(pd.Timestamp(f"2026-11-09 {h:02d}:30", tz="America/Sao_Paulo")) == turno
     assert set(pl.TURNOS) == set(horas.values()) and pl.MAXIMO_POR_DIA == 5
+
+
+def test_domingo_de_manha_e_a_agenda_da_semana():
+    from termometro import plantao as pl
+    assert pl.instrucao("manha", "2026-11-15") == pl.DOMINGO_MANHA
+    assert pl.instrucao("manha", "2026-11-16") == pl.TURNOS["manha"] and pl.instrucao("tarde", "2026-11-15") == pl.TURNOS["tarde"]

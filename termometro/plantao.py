@@ -101,6 +101,19 @@ TURNOS = {
 }
 
 
+# Domingo de manhã a pauta é sempre a agenda da semana: é o bloco "o que vem" da edição de domingo no WhatsApp
+DOMINGO_MANHA = ("Turno de domingo de manhã: a agenda econômica da semana que começa amanhã, no estilo 'o que esperar "
+                 "do mercado esta semana'. Datas e horários oficiais (IBGE, Banco Central, Copom, Fed, payroll, inflação "
+                 "nos EUA e na China, balanços de empresas grandes), cada um com o motivo de importar para o bolso. "
+                 "A busca do leitor é do tipo 'agenda econômica da semana', 'o que esperar do mercado'.")
+
+
+def instrucao(turno: str, hoje: str) -> str:
+    if turno == "manha" and pd.Timestamp(hoje[:10]).weekday() == 6:
+        return DOMINGO_MANHA
+    return TURNOS[turno]
+
+
 def turno_de(agora: pd.Timestamp) -> str:
     h = agora.hour
     return "manha" if h < 11 else "meio" if h < 13 else "tarde" if h < 16 else "viral" if h < 18 else "noite"
@@ -222,7 +235,7 @@ def conferir(bruto: dict, buscados: set | None, hoje: str) -> dict:
 
 def pautar(cliente, hoje: str, anteriores: list[dict], turno: str = "tarde", recusados: list[str] | None = None) -> list[dict]:
     cobertos = "; ".join(f"{a['titulo']} (slug {a['slug']}, {a['publicado_em'][:10]})" for a in anteriores[:15]) or "nenhum"
-    pedido = (f"Hoje é {hoje}. {TURNOS[turno]}\nQuais são os assuntos de dinheiro mais procurados no Brasil agora "
+    pedido = (f"Hoje é {hoje}. {instrucao(turno, hoje)}\nQuais são os assuntos de dinheiro mais procurados no Brasil agora "
               f"para este turno?\nJá publicados (não repetir; no turno da noite, podem ser atualizados): {cobertos}")
     if recusados:  # segunda pauta da rodada: o que não se confirmou fica de fora
         pedido += ("\nJá tentados nesta rodada e recusados na conferência (fato velho ou sem fonte; não traga de novo): "
