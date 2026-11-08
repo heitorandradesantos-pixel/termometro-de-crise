@@ -5,5 +5,12 @@
   "ok": true,
   "quando": "2026-11-08T10:17:03.125802-03:00",
   "mensagens": 2
+ },
+ {
+  "o_que": "fimdesemana",
+  "modo": "sim",
+  "ok": true,
+  "quando": "2026-11-08T10:32:16.528325-03:00",
+  "mensagens": 1
  }
 ]
