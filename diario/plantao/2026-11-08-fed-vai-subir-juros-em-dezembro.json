@@ -1,0 +1,113 @@
+{
+ "titulo": "Fed vai subir juros em dezembro: o que se sabe",
+ "descricao": "Mercado dá cerca de 77% de chance de alta de juros do Fed em dezembro após o payroll. Veja o que é fato, o que falta saber e o que muda para você.",
+ "palavra_chave": "fed vai subir juros em dezembro",
+ "lead": "O Fed ainda não decidiu, mas o mercado dá cerca de 77% a 78% de chance de alta de 0,25 ponto nos juros dos EUA na reunião de 8 e 9 de dezembro. A aposta subiu na sexta (6/11), depois que o payroll, relatório de emprego dos EUA, mostrou 165 mil vagas em outubro, bem acima do esperado. Os dados vêm do Departamento do Trabalho dos EUA e da Reuters.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Departamento do Trabalho dos EUA (BLS) informou em 6/11 que a economia criou 165 mil vagas em outubro. O desemprego ficou em 4,1%.",
+   "fonte_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+   "data": "2026-11-06",
+   "veiculo": "BLS (fonte oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "As 165 mil vagas superam a média mensal de 48 mil dos 12 meses anteriores, segundo o próprio BLS.",
+   "fonte_url": "https://www.bls.gov/news.release/pdf/empsit.pdf",
+   "data": "2026-11-06",
+   "veiculo": "BLS (fonte oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "A previsão era de 59 mil vagas, segundo a CNBC (pesquisa da Dow Jones). Outros veículos citam de 60 mil a 65 mil. Todas ficaram abaixo do resultado.",
+   "fonte_url": "https://www.forexfactory.com/news/1435201-the-us-employment-situation-october-2026",
+   "data": "2026-11-06",
+   "veiculo": "ForexFactory (reproduz CNBC)",
+   "confiavel": false
+  },
+  {
+   "texto": "Pelo CME, a chance de alta em dezembro foi de 66,9% na quinta (5/11) para 76,8% na sexta.",
+   "fonte_url": "https://www.bomdiamercado.com.br/mercado-financeiro/cambio/dolar-sobe-apos-payroll-forte-aumentar-chance-de-alta-de-juros-pelo-fed-em-dezembro/",
+   "data": "2026-11-06",
+   "veiculo": "Bom Dia Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "A Reuters cita cerca de 78% de chance de alta de 0,25 ponto em 8 e 9 de dezembro. Operadores agora veem a próxima alta em abril, e não em junho.",
+   "fonte_url": "https://finance.yahoo.com/economy/policy/articles/traders-raise-bets-fed-rate-134402668.html",
+   "data": "2026-11-06",
+   "veiculo": "Reuters (via Yahoo Finance)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 28/10, o Fed manteve os juros e não deu sinal claro sobre dezembro. O presidente, Kevin Warsh, disse que o banco está pronto para agir se for preciso.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision",
+   "data": "2026-10-28",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "Antes da reunião de outubro, os juros dos EUA estavam em 3,75% a 4%, após a alta de setembro. A inflação anual era de 3,7%, acima da meta de 2%.",
+   "fonte_url": "https://uk.finance.yahoo.com/news/expect-fed-warsh-weighs-hot-142330922.html",
+   "data": "2026-10-28",
+   "veiculo": "Euronews (via Yahoo Finance)",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar fechou a R$ 5,5087 na sexta, alta de 0,37%, o maior fechamento desde 29/12/2025.",
+   "fonte_url": "https://midiamax.com.br/cotidiano/economia/2026/dolar-atinge-r-550-emprego-forte-eua-cautela-fiscal/",
+   "data": "2026-11-06",
+   "veiculo": "Midiamax",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Fed mantém os juros e Warsh não dá sinal claro sobre dezembro.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision",
+   "data": "2026-10-28",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "BLS divulga o payroll de outubro: 165 mil vagas e desemprego de 4,1%.",
+   "fonte_url": "https://www.bls.gov/ces/",
+   "data": "2026-11-06",
+   "veiculo": "BLS (fonte oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "Chance de alta em dezembro sobe para cerca de 78%, segundo a Reuters.",
+   "fonte_url": "https://finance.yahoo.com/economy/policy/articles/traders-raise-bets-fed-rate-134402668.html",
+   "data": "2026-11-06",
+   "veiculo": "Reuters (via Yahoo Finance)",
+   "confiavel": false
+  },
+  {
+   "texto": "Dólar fecha a R$ 5,5087, maior fechamento desde 29/12/2025.",
+   "fonte_url": "https://midiamax.com.br/cotidiano/economia/2026/dolar-atinge-r-550-emprego-forte-eua-cautela-fiscal/",
+   "data": "2026-11-06",
+   "veiculo": "Midiamax",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o Fed vai subir os juros em dezembro. Não foi confirmado: os 77% a 78% são aposta do mercado, não decisão.",
+  "Qual será a inflação de outubro nos EUA (CPI, sai na terça, 10/11). Segundo a Bloomberg, é o último CPI antes da reunião. O resultado pode mudar a aposta.",
+  "Quantas altas virão depois de dezembro. A Reuters cita operadores que veem outra em abril. O banco ING, segundo o Midiamax, duvida de mais altas em 2027. As leituras divergem.",
+  "O efeito na inflação brasileira. Nenhuma fonte consultada mediu esse efeito. O caminho via dólar e importados é só um canal possível, não confirmado.",
+  "Quanto da alta do dólar vem do Fed e quanto vem de fatores locais. Não há medição disso nas fontes consultadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Por ora, nada muda por decreto. A decisão do Fed é em 8 e 9 de dezembro. Até lá, pesa a expectativa.",
+  "Juros maiores nos EUA podem fortalecer o dólar, segundo o site O Cafezinho, pois reduzem a vantagem de aplicar em reais. Dólar mais caro tende a encarecer importados, eletrônicos e viagens. O repasse leva tempo e depende de outros fatores.",
+  "Se o Fed não subir os juros, essa pressão sobre o dólar pode ser menor.",
+  "Datas para acompanhar: CPI dos EUA em 10/11, payroll de novembro em 4/12 e reunião do Fed em 8 e 9/12."
+ ],
+ "como_se_proteger": [],
+ "slug": "fed-vai-subir-juros-em-dezembro",
+ "publicado_em": "2026-11-08T11:44:55.025474",
+ "atualizado_em": "2026-11-08T11:44:55.025474",
+ "assunto": "Payroll dos EUA de outubro (divulgado em 6/11) veio em 165 mil vagas contra ~65 mil previstas, desemprego em 4,1%, e reforçou as apostas de alta dos juros pelo Fed em dezembro; dólar fechou a R$ 5,51 na sexta. Fato de 2 dias atrás: só entra com ângulo novo (Fed/juros EUA), pois o dólar a R$ 5,51 já foi publicado.",
+ "turno": "meio"
+}
