@@ -1,0 +1,125 @@
+{
+ "titulo": "INSS vai bloquear benefício sem biometria? O que se sabe",
+ "descricao": "INSS diz que é falso o prazo de 20 de novembro para aposentados terem biometria. Quem já recebe não precisa ir à agência. Veja o que vale e como evitar golpe.",
+ "palavra_chave": "inss vai bloquear benefício sem biometria",
+ "lead": "O INSS afirmou em 27 de outubro que é falso o aviso de que aposentados e pensionistas teriam o benefício bloqueado se não apresentassem documento com biometria até 20 de novembro. A exigência vale só para pedidos novos feitos desde 21 de novembro de 2025. Em 7 de novembro, textos com títulos que sugerem \"novo prazo\" voltaram a circular, mas o desmentido não mudou.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O INSS esclareceu em 27/10 que são falsas as informações de que beneficiários precisam providenciar documento com biometria até 20 de novembro para não ter o benefício bloqueado. Segundo o instituto, não existe prazo geral de 20 de novembro para todos os aposentados.",
+   "fonte_url": "https://www.noticiasaominuto.com.br/economia/2424683/inss-vai-bloquear-aposentadoria-sem-biometria-veja-o-que-e-verdade",
+   "data": "2026-10-27",
+   "veiculo": "Notícias ao Minuto",
+   "confiavel": false
+  },
+  {
+   "texto": "O texto do comunicado do INSS foi reproduzido por outros veículos. Ele diz que a exigência de biometria vale só para pedidos feitos desde 21/11/2025.",
+   "fonte_url": "https://tribunadoplanalto.com.br/e-falsa-a-informacao-de-que-inss-vai-bloquear-beneficio-de-quem-nao-tiver-documento-com-biometria/",
+   "data": "2026-10-27",
+   "veiculo": "Tribuna do Planalto",
+   "confiavel": false
+  },
+  {
+   "texto": "Há exceções mesmo para pedidos novos: pessoas com mais de 80 anos, migrantes, refugiados e outros casos previstos em lei. Também ficam de fora os pedidos de salário-maternidade, benefícios por incapacidade e pensão por morte.",
+   "fonte_url": "https://www.reporterdiario.com.br/noticia/3922576/inss-desmente-boato-sobre-bloqueio-de-beneficio-por-falta-de-biometria-2/",
+   "data": "2026-10-27",
+   "veiculo": "Repórter Diário",
+   "confiavel": false
+  },
+  {
+   "texto": "O INSS disse que ninguém precisa ir a uma agência para cadastrar biometria. O registro é feito quando a pessoa emite outro documento oficial, como a Carteira de Identidade Nacional (CIN), a CNH ou o título de eleitor.",
+   "fonte_url": "https://www12.senado.leg.br/radio/1/noticia/2026/10/29/inss-esclarece-informacao-falsa-sobre-bloqueio-de-beneficios-por-falta-de-biometria",
+   "data": "2026-10-29",
+   "veiculo": "Rádio Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "O INSS afirma que o cadastro biométrico e a prova de vida são procedimentos diferentes. A comprovação de vida ocorre, em regra, por cruzamento automático de dados de órgãos públicos.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/03/biometria-no-inss-nao-causa-suspensao-de-pagamentos-em-novembro-e-instituto-faz-alerta-aos-aposentados-e-pensionistas/",
+   "data": "2026-11-03",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Já em janeiro, o governo disse que aposentados e pensionistas com benefício ativo não precisavam tomar providência imediata. Segundo a Agência Brasil, só a partir de 1º/01/2028 a CIN será o único documento com biometria aceito para pedir e manter benefícios.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/inss-nao-deixara-de-pagar-aposentadoria-quem-nao-tem-nova-identidade",
+   "data": "2026-01-26",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Agência GBC publicou em 4/11 um texto com título sobre \"prazo\" para a nova identidade. No corpo, o mesmo texto registra que o bloqueio em 20/11 é falso e que não há bloqueio automático por falta da CIN.",
+   "fonte_url": "https://agenciagbc.com/2026/11/04/inss-muda-regras-da-biometria-e-estabelece-prazo-para-nova-carteira-de-identidade-veja-quem-precisa-emitir/",
+   "data": "2026-11-04",
+   "veiculo": "Agência GBC",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Começa a exigir biometria nos pedidos novos de benefício do INSS, com exceções previstas em lei.",
+   "fonte_url": "https://www12.senado.leg.br/radio/1/noticia/2026/10/29/inss-esclarece-informacao-falsa-sobre-bloqueio-de-beneficios-por-falta-de-biometria",
+   "data": "2025-11-21",
+   "veiculo": "Rádio Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "Agência Brasil informa que o INSS não deixará de pagar aposentadoria a quem não tem a nova identidade. Redes sociais circulavam notícias falsas sobre o tema.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/inss-nao-deixara-de-pagar-aposentadoria-quem-nao-tem-nova-identidade",
+   "data": "2026-01-26",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O INSS diz que é falso o aviso de bloqueio em 20 de novembro por falta de biometria.",
+   "fonte_url": "https://www.noticiasaominuto.com.br/economia/2424683/inss-vai-bloquear-aposentadoria-sem-biometria-veja-o-que-e-verdade",
+   "data": "2026-10-27",
+   "veiculo": "Notícias ao Minuto",
+   "confiavel": false
+  },
+  {
+   "texto": "Rádio Senado repercute o desmentido e o alerta do INSS sobre fraudes que usam o falso pedido de biometria.",
+   "fonte_url": "https://www12.senado.leg.br/radio/1/noticia/2026/10/29/inss-esclarece-informacao-falsa-sobre-bloqueio-de-beneficios-por-falta-de-biometria",
+   "data": "2026-10-29",
+   "veiculo": "Rádio Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "Agência GBC publica texto com título sobre prazo da nova identidade, mas registra que o bloqueio em 20/11 é falso.",
+   "fonte_url": "https://agenciagbc.com/2026/11/04/inss-muda-regras-da-biometria-e-estabelece-prazo-para-nova-carteira-de-identidade-veja-quem-precisa-emitir/",
+   "data": "2026-11-04",
+   "veiculo": "Agência GBC",
+   "confiavel": false
+  },
+  {
+   "texto": "Blog Meutudo repete que é falso o bloqueio e que a exigência vale só para novos pedidos.",
+   "fonte_url": "https://meutudo.com.br/blog/noticias/2026/11/05/e-fake-que-o-inss-vai-bloquear-beneficios-de-quem-nao-cadastrar-biometria-ate-novembro",
+   "data": "2026-11-05",
+   "veiculo": "Meutudo",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado, por fonte oficial, nenhum prazo de 20 de novembro de 2026 para bloqueio de benefícios. O INSS diz que esse prazo não existe.",
+  "Não conseguimos abrir a página original do comunicado no gov.br/inss. O texto aparece reproduzido por vários veículos, e um deles (Horams) cita o link oficial, com publicação em 27/10 às 15h58. Recomenda-se conferir o original antes de reutilizar o texto.",
+  "Não localizamos nesta apuração a versão de 7/11 da Agência GBC nem o texto da GMC Online. Só a versão de 4/11 da GBC apareceu. Por isso, não dá para confirmar o que os textos de 7/11 afirmam além do que o título sugere.",
+  "Calendários da nova identidade (2027 e 2028) aparecem de forma diferente em alguns veículos. Esta apuração não confirmou, em fonte oficial, como e quando os atuais beneficiários serão convocados. O governo disse que a adaptação será gradual e que o INSS avisará pelo Meu INSS."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você já recebe aposentadoria ou pensão, o INSS diz que o pagamento não será bloqueado por falta de documento com biometria. Você não precisa correr à agência por causa do boato.",
+  "Se vai pedir um benefício novo, em regra precisa ter biometria cadastrada em um documento oficial (CIN, CNH ou título de eleitor). Há exceções, como ter mais de 80 anos.",
+  "Biometria não é prova de vida. Se houver pendência de prova de vida, o aviso aparece quando você for sacar o benefício. Você pode resolver no banco ou pelo Meu INSS.",
+  "Para os próximos anos, existe um calendário de transição até a CIN virar o único documento aceito, em 2028, segundo a Agência Brasil. O INSS diz que vai avisar os segurados pelo app e pelo site Meu INSS."
+ ],
+ "como_se_proteger": [
+  "Desconfie de mensagem que ameaça bloquear o benefício se você não enviar documento, foto ou dados. O INSS alerta que golpistas usam esse boato para pegar dados pessoais.",
+  "Não clique em links desconhecidos recebidos por mensagem e não informe senhas ou dados bancários.",
+  "O INSS diz que não envia servidor à casa do segurado para fazer prova de vida e não pede transferência de dinheiro.",
+  "Em caso de dúvida, consulte o aplicativo ou o site Meu INSS, ligue para a Central 135 ou acesse gov.br/inss.",
+  "Alertas oficiais do INSS no WhatsApp vêm da conta do Governo do Brasil com selo azul de verificação. A mesma mensagem também chega à caixa postal do app gov.br."
+ ],
+ "slug": "inss-vai-bloquear-beneficio-sem-biometria",
+ "publicado_em": "2026-11-07T21:35:21.769150",
+ "atualizado_em": "2026-11-07T21:35:21.769150",
+ "assunto": "Boato de que aposentados do INSS teriam o benefício bloqueado se não apresentarem documento com biometria até 20 de novembro: o INSS classificou a informação como falsa em comunicado de 27/10/2026, e matérias de 07/11 voltam a circular com títulos que sugerem nova exigência e prazo.",
+ "turno": "viral"
+}
