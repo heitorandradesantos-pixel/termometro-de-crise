@@ -1,0 +1,149 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Os EUA criaram 165 mil vagas, e isso pode pesar no seu bolso.",
+  "na_tela": "165 mil vagas nos EUA",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "Os EUA criaram 165 mil vagas, e isso pode pesar no seu bolso.",
+   "na_tela": "165 mil vagas nos EUA",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Por que o juro dos EUA pode encarecer seus eletrônicos?",
+   "na_tela": "Juro dos EUA e seu bolso",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Quinta, 66,9% de chance de juro maior nos EUA. Sexta, 76,8%.",
+   "na_tela": "66,9% para 76,8%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Os EUA criaram 165 mil vagas, e isso pode pesar no seu bolso.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Na sexta, 6/11, saiu o payroll, o relatório de emprego dos EUA.",
+  "A Reuters cita cerca de 78% de chance de o Fed subir os juros.",
+  "Seria 0,25 ponto, na reunião de 8 e 9 de dezembro.",
+  "Segundo O Cafezinho, juros maiores nos EUA podem fortalecer o dólar.",
+  "Mas calma: o Fed ainda não decidiu. Isso é aposta, não decisão.",
+  "Dólar mais caro tende a encarecer importados e viagens, mas o repasse demora.",
+  "É como aviso de chuva: ainda não molhou, mas vale olhar o céu.",
+  "Acompanhe o CPI, a inflação dos EUA, em 10/11, sem decidir no susto.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Os EUA criaram 165 mil vagas, e isso pode pesar no seu bolso. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Na sexta, 6/11, saiu o payroll, o relatório de emprego dos EUA. A Reuters cita cerca de 78% de chance de o Fed subir os juros. Seria 0,25 ponto, na reunião de 8 e 9 de dezembro. Segundo O Cafezinho, juros maiores nos EUA podem fortalecer o dólar. Mas calma: o Fed ainda não decidiu. Isso é aposta, não decisão. Dólar mais caro tende a encarecer importados e viagens, mas o repasse demora. É como aviso de chuva: ainda não molhou, mas vale olhar o céu. Acompanhe o CPI, a inflação dos EUA, em 10/11, sem decidir no susto. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 140,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "165 mil vagas nos EUA",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "165 mil vagas em outubro",
+   "fonte": "BLS"
+  },
+  {
+   "fala": 3,
+   "texto": "78% de chance de alta",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 4,
+   "texto": "0,25 ponto | 8 e 9 de dezembro",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 6,
+   "texto": "Aposta, não decisão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "CPI dos EUA: 10/11",
+   "fonte": "Bloomberg"
+  }
+ ],
+ "retomada": 6,
+ "busca": "Fed vai subir juros em dezembro?",
+ "legenda": "Fed vai subir juros em dezembro? Ainda não, mas o mercado está apostando nisso.\n\nNa sexta (6/11), o relatório de emprego dos EUA mostrou 165 mil vagas em outubro, bem acima do esperado. Com isso, a Reuters cita cerca de 78% de chance de alta de 0,25 ponto na reunião de 8 e 9 de dezembro.\n\nIsso é aposta do mercado, não decisão do Fed. Segundo O Cafezinho, juro maior nos EUA pode fortalecer o dólar, e dólar mais caro tende a encarecer importados e viagens. O repasse leva tempo, e nenhuma fonte consultada mediu o efeito na inflação brasileira.\n\nDatas para acompanhar: CPI dos EUA em 10/11, payroll de novembro em 4/12 e reunião do Fed em 8 e 9/12. O grupo do WhatsApp está no link da bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#fed #juroseua #dolar #economiasimples #termometrodecrise",
+ "hashtags": [
+  "#fed",
+  "#juroseua",
+  "#dolar",
+  "#economiasimples",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Os EUA criaram 165 mil vagas, e o mercado mexeu nos juros.",
+  "topicos": [
+   "BLS, em 6/11: 165 mil vagas em outubro. Previsão: 59 mil, segundo a CNBC.",
+   "Reuters: cerca de 78% de chance de alta de 0,25 ponto em dezembro.",
+   "Segundo O Cafezinho, juros maiores nos EUA podem fortalecer o dólar. Ainda é aposta.",
+   "O que fazer: acompanhe o CPI dos EUA em 10/11, sem decidir no susto."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto (aposta, datas, efeito no dólar), que pede calma e teleprompter.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "versão rua: gancho até 12 palavras e tópicos até 14"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "teleprompter": "Os EUA criaram 165 mil vagas, e isso pode pesar no seu bolso.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nNa sexta, 6/11, saiu o payroll, o relatório de emprego dos EUA.\n\nA Reuters cita cerca de 78% de chance de o Fed subir os juros.\n\nSeria 0,25 ponto, na reunião de 8 e 9 de dezembro.\n\nSegundo O Cafezinho, juros maiores nos EUA podem fortalecer o dólar.\n\nMas calma: o Fed ainda não decidiu. Isso é aposta, não decisão.\n\nDólar mais caro tende a encarecer importados e viagens, mas o repasse demora.\n\nÉ como aviso de chuva: ainda não molhou, mas vale olhar o céu.\n\nAcompanhe o CPI, a inflação dos EUA, em 10/11, sem decidir no susto.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "BLS (fonte oficial)",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+   "destaque": "O Departamento do Trabalho dos EUA (BLS) informou em 6/11 que a economia criou 165 mil vagas em outubro."
+  },
+  {
+   "veiculo": "BLS (fonte oficial)",
+   "url": "https://www.bls.gov/news.release/pdf/empsit.pdf",
+   "destaque": "As 165 mil vagas superam a média mensal de 48 mil dos 12 meses anteriores, segundo o próprio BLS."
+  },
+  {
+   "veiculo": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision",
+   "destaque": "Em 28/10, o Fed manteve os juros e não deu sinal claro sobre dezembro."
+  }
+ ],
+ "data": "2026-11-08",
+ "gerado_em": "2026-11-08T11:50:02.246718-03:00"
+}
