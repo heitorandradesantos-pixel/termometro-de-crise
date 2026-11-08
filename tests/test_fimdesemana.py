@@ -74,14 +74,21 @@ def test_mensagem_com_e_sem_numeros(diario):
 
 
 def test_previa_vai_para_o_proprio_numero_e_so_no_domingo(diario, tmp_path, monkeypatch):
-    monkeypatch.delenv("FDS_MODO", raising=False)
+    monkeypatch.setenv("FDS_MODO", "previa")
     saida = tmp_path / "_fds"
     assert "não é domingo" in fds.preparar(diario, "2026-11-14", saida, buscar=yahoo_falso)
     assert "prévia" in fds.preparar(diario, "2026-11-15", saida, buscar=yahoo_falso)
     envio = json.loads((saida / "envio.json").read_text())
     assert envio["modo"] == "teste" and envio["tipo"] == "fimdesemana" and "PRÉVIA" in envio["textos"][0]
     assert "Bitcoin" in envio["textos"][1]  # na prévia, os números aparecem para o Heitor decidir
-    monkeypatch.setenv("FDS_MODO", "grupo")
+    monkeypatch.delenv("FDS_MODO")  # padrão: grupo, com os números
+    monkeypatch.setenv("WHATSAPP_ENVIO", "nao")
+    assert "desligado" in fds.preparar(diario, "2026-11-15", tmp_path / "_off", buscar=yahoo_falso)
+    monkeypatch.setenv("WHATSAPP_ENVIO", "sim")
+    monkeypatch.delenv("FDS_NUMEROS", raising=False)
     fds.preparar(diario, "2026-11-15", saida, buscar=yahoo_falso)
     envio = json.loads((saida / "envio.json").read_text())
-    assert envio["modo"] == "sim" and len(envio["textos"]) == 1 and "Bitcoin" not in envio["textos"][0]
+    assert envio["modo"] == "sim" and len(envio["textos"]) == 1 and "Bitcoin" in envio["textos"][0]
+    monkeypatch.setenv("FDS_NUMEROS", "nao")
+    fds.preparar(diario, "2026-11-15", saida, buscar=yahoo_falso)
+    assert "Bitcoin" not in json.loads((saida / "envio.json").read_text())["textos"][0]

@@ -3,11 +3,12 @@
 Formato fixo, em 1 a 2 telas:
 1. o termômetro do mundo e do Brasil, e quanto mudou desde a semana anterior;
 2. o que vem na semana (os fatos do Plantão de domingo de manhã, que é sempre a agenda da semana, já conferidos);
-3. commodities (fechamento de sexta) e cripto (bitcoin e ethereum, 7 dias, corte domingo 12h de Brasília), só com
-   FDS_NUMEROS=sim e sempre com "Fonte: Yahoo Finance";
+3. commodities (fechamento de sexta) e cripto (bitcoin e ethereum, 7 dias, corte domingo 12h de Brasília), sempre
+   com "Fonte: Yahoo Finance" (desligam com FDS_NUMEROS=nao);
 4. IA e tecnologia, só quando o Plantão da semana publicou um fato com fonte sobre isso;
 5. um convite só: a newsletter.
-FDS_MODO: "previa" (padrão: vai para a conversa do próprio número, para o Heitor aprovar), "grupo" ou "nao".
+FDS_MODO: "grupo" (padrão desde 08/11/2026, aprovado pelo Heitor), "previa" (só a conversa do próprio número) ou "nao".
+FDS_NUMEROS: "sim" (padrão; o advogado do Heitor liberou as cotações do Yahoo com a fonte citada) ou "nao".
 """
 
 import json
@@ -33,12 +34,12 @@ AVISO = "_Conteúdo educativo, com fonte em cada fato. Não é recomendação de
 
 
 def modo() -> str:
-    m = (os.environ.get("FDS_MODO") or "previa").strip().lower()
+    m = (os.environ.get("FDS_MODO") or "grupo").strip().lower()
     return m if m in ("previa", "grupo", "nao") else "previa"
 
 
 def com_numeros() -> bool:
-    return (os.environ.get("FDS_NUMEROS") or "nao").strip().lower() == "sim"
+    return (os.environ.get("FDS_NUMEROS") or "sim").strip().lower() == "sim"
 
 
 def _var(v: float) -> str:
@@ -218,8 +219,10 @@ def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, buscar=requests.ge
         return "Edição de domingo desligada (FDS_MODO=nao)."
     if pd.Timestamp(dia).weekday() != 6:
         return f"{dia} não é domingo: sem edição de fim de semana."
-    from .whatsapp import ja_enviado
+    from .whatsapp import ja_enviado, modo as modo_whatsapp
     destino = "teste" if como == "previa" else "sim"
+    if destino == "sim" and modo_whatsapp() != "sim":  # a chave geral do WhatsApp manda (whatsapp/modo.txt)
+        return f"Envio ao grupo desligado (WhatsApp em modo '{modo_whatsapp()}'); edição de domingo não enviada."
     if ja_enviado(pasta_diario / dia, "fimdesemana", destino):
         return f"A edição de domingo de {dia} já foi enviada ({como})."
     m = montar(pasta_diario, dia, numeros=com_numeros() or como == "previa", buscar=buscar)
