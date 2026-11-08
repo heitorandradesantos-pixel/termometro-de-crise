@@ -71,7 +71,12 @@ Regras:
    metáfora do termômetro (temperatura, febre, sinal amarelo) quando couber.
 6. Popular não é sensacionalista: o que aconteceu, o que muda para você e o que fazer. Fato atribuído a quem disse
    ("segundo o Banco Central"); nada de acusar empresa ou pessoa além do que a fonte diz, nada de política.
-5. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
+7. Escreva também a VERSÃO RUA, para gravar de improviso na rua ou no carro parado, sem teleprompter: um gancho
+   curto (até 12 palavras) e de 3 a 4 tópicos de até 14 palavras cada, na ordem da fala. Cada tópico é um fato com
+   o número e quem disse; o último é o que fazer. Mesmas regras de número e de linguagem do roteiro.
+8. Diga o formato que combina mais: "rua" para notícia quente do dia, que acabou de acontecer e pede urgência
+   ("tô aqui e preciso te contar isso"); "bancada" para explicação, contexto ou assunto com muitos números.
+9. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
    "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias."""
 SISTEMA += config.manual("roteiro", "redacao", "marca")
 
@@ -80,7 +85,8 @@ def ferramenta() -> dict:
     nota = {"type": "integer", "minimum": 0, "maximum": 2}
     return {"name": "registrar_roteiro", "description": "O roteiro do Reel, pronto para o teleprompter.",
             "input_schema": {"type": "object", "required": ["ganchos", "gancho_escolhido", "falas", "retomada",
-                                                            "na_tela", "busca", "legenda", "hashtags"],
+                                                            "na_tela", "rua", "formato", "busca", "legenda",
+                                                            "hashtags"],
                              "properties": {
                 "ganchos": {"type": "array", "minItems": 3, "maxItems": 3, "items": {
                     "type": "object", "required": ["formula", "texto", "na_tela", "nota"],
@@ -99,6 +105,12 @@ def ferramenta() -> dict:
                     "type": "object", "required": ["fala", "texto"],
                     "properties": {"fala": {"type": "integer"}, "texto": {"type": "string"},
                                    "fonte": {"type": "string"}}}},
+                "rua": {"type": "object", "required": ["gancho", "topicos"], "properties": {
+                    "gancho": {"type": "string", "description": "Até 12 palavras."},
+                    "topicos": {"type": "array", "minItems": 3, "maxItems": 4, "items": {"type": "string"},
+                                "description": "Até 14 palavras cada: fato, número e quem disse; o último é o que fazer."}}},
+                "formato": {"type": "string", "enum": ["bancada", "rua"]},
+                "por_que_formato": {"type": "string", "description": "Uma frase."},
                 "busca": {"type": "string", "description": "A busca que a pessoa faz (\"dólar hoje\"), para a 1ª linha."},
                 "legenda": {"type": "string", "description": "A legenda do post, até 1.500 caracteres, sem hashtags."},
                 "hashtags": {"type": "array", "minItems": 3, "maxItems": 5, "items": {"type": "string"}}}}}
@@ -156,7 +168,11 @@ def montar(bruto: dict, chamada: str = "grupo") -> dict:
             "na_tela": [{"texto": gancho.get("na_tela", ""), "fala": 0}]
                        + [{**t, "fala": int(t.get("fala", 0)) + 2} for t in bruto.get("na_tela") or []],
             "retomada": int(bruto.get("retomada", 0)) + 2, "busca": (bruto.get("busca") or "").strip(),
-            "legenda": legenda + ("\n\n" + " ".join(hashtags) if hashtags else ""), "hashtags": hashtags}
+            "legenda": legenda + ("\n\n" + " ".join(hashtags) if hashtags else ""), "hashtags": hashtags,
+            "rua": {"gancho": ((bruto.get("rua") or {}).get("gancho") or "").strip(),
+                    "topicos": [t.strip() for t in (bruto.get("rua") or {}).get("topicos") or [] if t.strip()]},
+            "formato": bruto.get("formato") if bruto.get("formato") in ("bancada", "rua") else "bancada",
+            "por_que_formato": (bruto.get("por_que_formato") or "").strip()}
 
 
 def conferir(r: dict, material: str) -> list[str]:
@@ -189,6 +205,18 @@ def conferir(r: dict, material: str) -> list[str]:
         problemas.append("legenda passa de 2.200 caracteres (limite do Instagram)")
     if not 3 <= len(r["hashtags"]) <= 5:
         problemas.append("use de 3 a 5 hashtags")
+    rua = r.get("rua") or {}
+    if not rua.get("gancho") or not 3 <= len(rua.get("topicos") or []) <= 4:
+        problemas.append("versão rua incompleta: um gancho e de 3 a 4 tópicos")
+    else:
+        texto_rua = rua["gancho"] + " " + " ".join(rua["topicos"])
+        if _palavras(rua["gancho"]) > 12 or any(_palavras(t) > 14 for t in rua["topicos"]):
+            problemas.append("versão rua: gancho até 12 palavras e tópicos até 14")
+        soltos_rua = sorted(_numeros(texto_rua) - permitidos(material))
+        if soltos_rua:
+            problemas.append("versão rua com números que não estão no material: " + ", ".join(soltos_rua))
+        if linguagem_proibida(texto_rua):
+            problemas.append("versão rua com linguagem proibida: " + ", ".join(linguagem_proibida(texto_rua)))
     return problemas
 
 
@@ -316,17 +344,29 @@ def teleprompter(roteiro: dict) -> str:
 
 
 DICAS = ("Dicas: celular na vertical, na altura dos olhos, luz de frente (janela ou ring light). Grave tudo de uma vez; "
-         "se errar, pare, respire e repita só a frase. Me mande o vídeo aqui que eu edito.")
+         "se errar, pare, respire e repita só a frase. Na rua, microfone na roupa e nunca grave dirigindo. "
+         "Me mande o vídeo aqui que eu edito.")
 
 
 def pacote_whatsapp(roteiro: dict, titulo: str) -> list[str]:
-    """As mensagens que vão para a conversa do próprio número: aviso, teleprompter, edição e legenda."""
+    """As mensagens que vão para a conversa do próprio número: aviso (com o formato sugerido), teleprompter,
+    versão rua, edição e legenda."""
     tela = " · ".join(t["texto"] for t in roteiro.get("na_tela") or [] if t.get("texto"))
     apoios = "\n".join(f"- fala {a['fala'] + 1}: \"{a['texto_da_fala']}\"" for a in roteiro.get("apoios") or [])
-    return [f"🎬 ROTEIRO PARA GRAVAR: {titulo} (cerca de {roteiro['segundos']} s)\n\nA próxima mensagem é o texto do "
-            f"teleprompter: copie e cole no app.\n\n{DICAS}",
-            teleprompter(roteiro),
-            f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
+    formato = roteiro.get("formato") or "bancada"
+    sugestao = ("🚶 Formato sugerido: RUA (notícia quente; grave de improviso com a versão rua)" if formato == "rua"
+                else "🏙️ Formato sugerido: BANCADA (com o teleprompter, no fundo dos prédios)")
+    if roteiro.get("por_que_formato"):
+        sugestao += f"\n{roteiro['por_que_formato']}"
+    rua = roteiro.get("rua") or {}
+    aviso = (f"🎬 ROTEIRO PARA GRAVAR: {titulo} (cerca de {roteiro['segundos']} s)\n\n{sugestao}\n\nA próxima "
+             f"mensagem é o texto do teleprompter: copie e cole no app.\n\n{DICAS}")
+    msgs = [aviso, teleprompter(roteiro)]
+    if rua.get("gancho") and rua.get("topicos"):
+        msgs.append("🚶 VERSÃO RUA (sem teleprompter: decore o gancho e fale os tópicos do seu jeito)\n\n"
+                    f"Gancho: {rua['gancho']}\n" + "\n".join(f"• {t}" for t in rua["topicos"])
+                    + f"\n\nFecho: {FECHO} {roteiro['linhas'][-1]}")
+    return msgs + [f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
             + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
             + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()
                if (marca := roteiro.get("marca") or {}).get("nota") is not None else ""),

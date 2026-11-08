@@ -38,7 +38,7 @@ JANELA_DIAS = 3          # fato com data mais antiga que isso não sustenta "not
 MINIMO_FATOS = 3         # menos que isso, não há o que publicar
 REPETIDO_DIAS = 3        # o mesmo assunto não vira dois artigos em 3 dias
 MAXIMO_POR_RODADA = int(os.environ.get("PLANTAO_MAXIMO") or "1")
-MAXIMO_POR_DIA = int(os.environ.get("PLANTAO_POR_DIA") or "3")  # no começo, no máximo 3 artigos por dia
+MAXIMO_POR_DIA = int(os.environ.get("PLANTAO_POR_DIA") or "5")  # um por turno (pedido do Heitor, 07/11/2026)
 
 TEMAS = ("bancos e fintechs (Nubank, Itaú, Inter, Mercado Pago, PicPay), Pix e boletos, FGC e garantias, golpes e "
          "vazamentos de dados, criptomoedas e corretoras, Selic, inflação, dólar, imposto de renda e Receita Federal, "
@@ -81,14 +81,20 @@ caça-clique. O título tem a busca que o leitor faz e termina, quando couber, e
 """ + config.manual("redacao", "seo")
 
 
-# Três turnos por dia, cada um com uma linha editorial (pedido do dono):
+# Cinco turnos por dia, cada um com uma linha editorial (pedido do dono):
 TURNOS = {
     "manha": ("Turno da manhã: o artigo de contexto do mercado do dia, no estilo 'o que o mercado olha hoje'. "
               "Como fecharam ontem o Ibovespa e o dólar, o que aconteceu de madrugada na Ásia, na Europa e nos "
               "futuros dos EUA, e a agenda de hoje (Copom, IPCA, payroll, falas de autoridades, balanços). A busca do "
               "leitor é do tipo 'ibovespa hoje', 'dólar hoje'. Escolha um único assunto: o mercado do dia."),
+    "meio": ("Turno do meio da manhã: a notícia internacional quente de hoje (guerra, eleição, juros e dados dos EUA, "
+             "petróleo, China, tarifas) e o que ela muda para o Brasil: dólar, bolsa, combustível, preços. A busca do "
+             "leitor é do tipo 'guerra dólar hoje', 'petróleo hoje'."),
     "tarde": ("Turno da tarde: a notícia de dinheiro do cotidiano que mais gente está procurando hoje: Pix, INSS e "
               "benefícios, imposto de renda, bancos e fintechs, preços, contas, crédito, combustíveis, regras novas."),
+    "viral": ("Turno do fim da tarde: o assunto de dinheiro que está viralizando hoje nas redes (Reels, TikTok, X, "
+              "grupos de WhatsApp): o que é verdade, o que é exagero e o que muda para o bolso. Só com fato conferido "
+              "em fonte oficial ou em mais de um veículo; boato desmentido também é notícia."),
     "noite": ("Turno do fim do dia: a atualização de um caso que já publicamos (se teve desdobramento hoje, devolva "
               "o campo atualizar_slug com o slug dele) ou o caso quente do dia: golpe, vazamento, quebra, "
               "investigação, empresa em apuros. Só com fato confirmado por fonte oficial ou mais de um veículo."),
@@ -96,7 +102,8 @@ TURNOS = {
 
 
 def turno_de(agora: pd.Timestamp) -> str:
-    return "manha" if agora.hour < 11 else ("tarde" if agora.hour < 16 else "noite")
+    h = agora.hour
+    return "manha" if h < 11 else "meio" if h < 13 else "tarde" if h < 16 else "viral" if h < 18 else "noite"
 
 
 def ferramenta_pauta() -> dict:

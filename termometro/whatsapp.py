@@ -137,8 +137,9 @@ def concluir(pasta_diario: Path, pasta_saida: Path) -> str:
 
 # ---------------------------------------------------------------- roteiros para gravar
 
-ROTEIROS_TIPOS = tuple(t.strip() for t in (os.environ.get("ROTEIROS_WHATSAPP") or "explica,fixado").split(",")
-                       if t.strip())
+ROTEIROS_TIPOS = tuple(t.strip() for t in (os.environ.get("ROTEIROS_WHATSAPP")
+                                          or "explica,fixado,abertura,fechamento").split(",") if t.strip())
+ROTEIROS_DESDE = os.environ.get("ROTEIROS_DESDE") or "2026-11-09"  # o Heitor começa a gravar na segunda
 
 
 def _titulo_roteiro(pasta_diario: Path, dia: str, arq: Path) -> str:
@@ -156,6 +157,8 @@ def _titulo_roteiro(pasta_diario: Path, dia: str, arq: Path) -> str:
 def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
     """Os roteiros aprovados do dia que ainda não foram para a conversa do próprio número (para o Heitor gravar)."""
     from . import roteirista
+    if dia < ROTEIROS_DESDE:
+        return f"Os roteiros para gravar começam em {ROTEIROS_DESDE}; nada enviado."
     pasta = pasta_diario / dia / "roteiros"
     novos = []
     for arq in sorted(pasta.glob("*.json")) if pasta.is_dir() else []:

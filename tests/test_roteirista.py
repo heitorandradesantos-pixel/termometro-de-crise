@@ -25,6 +25,10 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
             "gancho_escolhido": 0, "falas": falas, "retomada": 3,
             "na_tela": [{"fala": 0, "texto": "168.501 pontos", "fonte": "Yahoo Finance"},
                         {"fala": 4, "texto": "R$ 5,51", "fonte": "Yahoo Finance"}],
+            "rua": {"gancho": "O Ibovespa subiu 1,39% hoje.", "topicos": [
+                "Fechou em 168.501 pontos, segundo o Yahoo Finance.", "O dólar subiu 0,85%, para R$ 5,51.",
+                "Antes de mexer no dinheiro, olhe o seu prazo."]},
+            "formato": "rua", "por_que_formato": "Notícia do dia.",
             "busca": "ibovespa hoje", "legenda": "Ibovespa hoje: a bolsa subiu 1,39%.\\n\\nE o dólar também.",
             "hashtags": ["ibovespa", "#dólar", "mercadofinanceiro"]}
 
@@ -107,8 +111,12 @@ def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     r = {**r, **d}
     assert roteirista.teleprompter(r).split("\n\n") == r["linhas"] and r["linhas"][1] == roteirista.ASSINATURA
     msgs = roteirista.pacote_whatsapp(r, "Ibovespa hoje")
-    assert len(msgs) == 4 and msgs[1] == roteirista.teleprompter(r) and "Ibovespa hoje" in msgs[0]
-    assert "fala 4" in msgs[2] and roteirista.AVISO_LEGENDA in msgs[3]
+    assert len(msgs) == 5 and msgs[1] == roteirista.teleprompter(r) and "Ibovespa hoje" in msgs[0]
+    assert "RUA" in msgs[0] and "VERSÃO RUA" in msgs[2] and "• O dólar subiu 0,85%" in msgs[2]
+    assert "fala 4" in msgs[3] and roteirista.AVISO_LEGENDA in msgs[4]
+    ruim = roteirista.montar({**_bruto(), "rua": {"gancho": "O dólar vai a R$ 7.", "topicos": ["Só um."]}})
+    problemas = roteirista.conferir(ruim, MATERIAL)
+    assert any("versão rua incompleta" in p for p in problemas)
     assert {"6", "9"} <= roteirista.permitidos("Seis das nove cadeiras")
 
 

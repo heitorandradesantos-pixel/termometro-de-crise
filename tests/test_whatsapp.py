@@ -68,9 +68,11 @@ def test_roteiros_novos_vao_para_o_proprio_numero_uma_vez(tmp_path):
     base = {"aprovado": True, "teleprompter": "Linha 1.\n\nLinha 2.", "linhas": ["Linha 1.", "Linha 2."], "segundos": 50,
             "na_tela": [{"texto": "Pix *caiu*"}], "apoios": [], "legenda": "Pix hoje."}
     (diario / "2026-11-07" / "roteiros" / "explica-pix.json").write_text(json.dumps(base))
-    (diario / "2026-11-07" / "roteiros" / "fechamento.json").write_text(json.dumps(base))  # tipo que não vai
+    (diario / "2026-11-07" / "roteiros" / "outro.json").write_text(json.dumps(base))  # tipo que não vai
     (diario / "2026-11-07" / "roteiros" / "explica-velho.json").write_text(json.dumps({**base, "aprovado": False}))
     saida = tmp_path / "_whatsapp"
+    assert "começam em" in whatsapp.preparar_roteiros(diario, "2026-11-01", saida)  # antes da segunda, 09/11
+    whatsapp.ROTEIROS_DESDE = "2026-11-07"
     assert "1 roteiro" in whatsapp.preparar_roteiros(diario, "2026-11-07", saida)
     envio = json.loads((saida / "envio.json").read_text())
     assert envio["modo"] == "teste" and envio["tipo"] == "roteiros" and len(envio["textos"]) == 4

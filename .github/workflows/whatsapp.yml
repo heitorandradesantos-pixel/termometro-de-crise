@@ -133,6 +133,16 @@ jobs:
           PERSONA_NOME: ${{ vars.PERSONA_NOME }}
         run: python rodar.py --roteiro "$ACAO"
 
+      - name: Roteiro para gravar (conversa do próprio número)
+        if: (env.ACAO == 'abertura' || env.ACAO == 'fechamento') && hashFiles('_whatsapp/envio.json') != ''
+        continue-on-error: true # sem isso, o envio do grupo segue igual
+        run: |
+          python rodar.py --whatsapp roteiros --pasta _roteiros ${DATA:+--data "$DATA"}
+          if [ -f _roteiros/envio.json ]; then
+            (cd whatsapp && node enviar.mjs enviar ../_roteiros/envio.json)
+            python rodar.py --whatsapp concluir --pasta _roteiros
+          fi
+
       - name: Registrar o envio
         if: always() && env.ACAO != 'parear' && !startsWith(env.ACAO, 'teste') && hashFiles('_whatsapp/envio.json') != ''
         run: |

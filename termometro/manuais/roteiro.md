@@ -47,6 +47,12 @@ Nunca abra com: cumprimento, nome, "neste vídeo", "hoje vamos falar", pergunta 
 - Entre 40% e 60% do roteiro, uma **retomada**: uma fala que reacende a atenção (o número mais forte, uma virada, "mas tem um detalhe que pouca gente viu").
 - Nunca três falas abstratas seguidas: a terceira vira exemplo concreto (um número, um lugar, um nome).
 
+## Dois formatos de gravação
+- **Bancada** (em casa, no fundo dos prédios, com teleprompter): para explicar com calma. Abertura, fechamento, temas com vários números ou que precisam de contexto.
+- **Rua** (andando, no carro com o carro parado, "tô aqui e preciso te dar essa notícia"): para notícia quente do dia. Sem teleprompter: o Heitor decora o gancho (até 12 palavras) e fala 3 ou 4 tópicos curtos (até 14 palavras cada) do jeito dele. Os números dos tópicos são os do material, os mesmos da versão bancada.
+- Todo roteiro traz as duas versões e uma sugestão de formato com o motivo; quem decide na hora é o Heitor.
+- Na rua vale ainda mais: frase curta, um número por fala, o fecho é o bordão "Isso não é recomendação: é o termômetro." Nunca gravar dirigindo.
+
 ## Texto na tela
 - O gancho na tela em até 6 palavras, com uma palavra de destaque.
 - Cada número falado aparece escrito na tela, com a fonte no canto ("Fonte: Yahoo Finance", "Fonte: Banco Central").

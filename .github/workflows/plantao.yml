@@ -1,7 +1,9 @@
 name: Plantão de notícias
 
-# Três turnos por dia (de Brasília): 9h13 o contexto do mercado do dia, 13h13 a notícia de dinheiro do cotidiano e
-# 18h43 a atualização de um caso já publicado ou o caso quente do dia. No máximo 3 artigos por dia (PLANTAO_POR_DIA).
+# Cinco turnos por dia (de Brasília): 9h13 o contexto do mercado do dia, 11h43 a notícia internacional quente e o
+# efeito no Brasil, 13h13 a notícia de dinheiro do cotidiano, 16h13 o assunto que viralizou nas redes (verdade ou
+# exagero) e 18h43 a atualização de um caso já publicado ou o caso quente do dia. Um artigo por turno, no máximo 5 por
+# dia (PLANTAO_POR_DIA); o tema pedido pelo editor não conta no limite. Cada artigo vira roteiro de Reel.
 # Em cada turno o robô procura o assunto de dinheiro que mais
 # gente está buscando no Google, escreve "o que se sabe" com fonte em cada fato e publica sozinho se passar
 # na conferência. Nada passa sem fonte devolvida pela própria busca. Com a variável PLANTAO_AUTOMATICO=nao,
@@ -9,7 +11,9 @@ name: Plantão de notícias
 on:
   schedule:
     - cron: "13 12 * * *" # 9h13 em Brasília: manhã
+    - cron: "43 14 * * *" # 11h43: meio da manhã (internacional)
     - cron: "13 16 * * *" # 13h13: tarde
+    - cron: "13 19 * * *" # 16h13: viral
     - cron: "43 21 * * *" # 18h43: fim do dia
   workflow_dispatch:
     inputs:
@@ -18,7 +22,7 @@ on:
         required: false
         default: ""
       turno:
-        description: "manha, tarde ou noite (vazio = pelo horário)"
+        description: "manha, meio, tarde, viral ou noite (vazio = pelo horário)"
         required: false
         default: ""
 

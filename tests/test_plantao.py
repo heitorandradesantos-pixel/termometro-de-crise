@@ -163,3 +163,13 @@ def test_card_do_fechamento_e_texto_do_balanco(tmp_path):
     m["cotacoes"][1]["serie"] = "brasil_moeda"  # dólar do FRED (outro horário): sem card, para não contradizer o dia
     (dia / "mundo.json").write_text(json.dumps(m))
     assert fechamento.gerar(tmp_path / "_site2", tmp_path / "diario", "2026-11-06") is None
+
+
+def test_cinco_turnos_pelo_horario():
+    import pandas as pd
+
+    from termometro import plantao as pl
+    horas = {9: "manha", 11: "meio", 13: "tarde", 16: "viral", 18: "noite"}
+    for h, turno in horas.items():
+        assert pl.turno_de(pd.Timestamp(f"2026-11-09 {h:02d}:30", tz="America/Sao_Paulo")) == turno
+    assert set(pl.TURNOS) == set(horas.values()) and pl.MAXIMO_POR_DIA == 5
