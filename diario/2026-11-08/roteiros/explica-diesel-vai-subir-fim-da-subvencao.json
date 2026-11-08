@@ -1,0 +1,180 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso / custo escondido",
+  "texto": "Você não recebe um centavo da ajuda que segura o diesel.",
+  "na_tela": "A ajuda do diesel não é sua",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "A ajuda de R$ 1,40 no diesel vence dia 11 ou 12.",
+   "na_tela": "Ajuda do diesel vence",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Diesel mais caro na bomba? Ainda não há aviso oficial.",
+   "na_tela": "Diesel mais caro? Sem aviso",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso / custo escondido",
+   "texto": "Você não recebe um centavo da ajuda que segura o diesel.",
+   "na_tela": "A ajuda do diesel não é sua",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Você não recebe um centavo da ajuda que segura o diesel.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: duas ajudas do governo seguram o preço do diesel.",
+  "A de R$ 2,12 foi renovada em 27/10.",
+  "A de R$ 1,40 vale só para o diesel importado, sem renovação anunciada.",
+  "Um dirigente do setor alertou: R$ 10 a R$ 11 por litro, sem ajuda.",
+  "Mas calma: isso é alerta do setor, não aviso oficial de aumento na bomba.",
+  "Pense numa promoção no mercado: quando acaba, a etiqueta pode mudar.",
+  "A ajuda vai para quem produz ou importa, não para o motorista.",
+  "Passo simples: acompanhe o Diário Oficial e a pesquisa semanal de preços da ANP.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Você não recebe um centavo da ajuda que segura o diesel. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: duas ajudas do governo seguram o preço do diesel. A de R$ 2,12 foi renovada em 27/10. A de R$ 1,40 vale só para o diesel importado, sem renovação anunciada. Um dirigente do setor alertou: R$ 10 a R$ 11 por litro, sem ajuda. Mas calma: isso é alerta do setor, não aviso oficial de aumento na bomba. Pense numa promoção no mercado: quando acaba, a etiqueta pode mudar. A ajuda vai para quem produz ou importa, não para o motorista. Passo simples: acompanhe o Diário Oficial e a pesquisa semanal de preços da ANP. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 135,
+ "segundos": 54,
+ "na_tela": [
+  {
+   "texto": "A ajuda do diesel não é sua",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "2 ajudas seguram o diesel",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 2,12 por litro, renovada em 27/10",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 1,40: só diesel importado",
+   "fonte": "Agência Gov"
+  },
+  {
+   "fala": 5,
+   "texto": "Alerta do setor: R$ 10 a R$ 11 por litro",
+   "fonte": "ABC Repórter, via emiteaí"
+  },
+  {
+   "fala": 6,
+   "texto": "Alerta, não aviso oficial",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Diário Oficial + pesquisa semanal da ANP",
+   "fonte": "ANP"
+  }
+ ],
+ "retomada": 6,
+ "busca": "diesel vai subir? fim da subvenção",
+ "legenda": "Diesel vai subir? Fim da subvenção: o que se sabe até agora.\n\nDuas ajudas do governo seguram o preço do diesel. A de R$ 2,12 por litro foi renovada em 27/10, segundo a Agência Brasil. A de R$ 1,40 vale só para o diesel importado e vence em 11 ou 12 de novembro, e a renovação não foi anunciada.\n\nUm dirigente do setor alertou para R$ 10 a R$ 11 por litro sem as ajudas. É um alerta do setor, não um reajuste anunciado nem uma projeção oficial.\n\nA ajuda vai para quem produz ou importa, não para o motorista. Para ver o que vale de fato, acompanhe o Diário Oficial da União e a pesquisa semanal de preços da ANP.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#diesel #subvencao #combustivel #economia #termometrodecrise",
+ "hashtags": [
+  "#diesel",
+  "#subvencao",
+  "#combustivel",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Duas ajudas seguram o diesel, e uma vence dia 11 ou 12.",
+  "topicos": [
+   "Agência Brasil: ajuda de R$ 2,12 por litro foi renovada em 27/10.",
+   "Agência Gov: R$ 1,40 vale só para o diesel importado; renovação não foi anunciada.",
+   "Alerta do setor, não oficial: R$ 10 a R$ 11 o litro sem ajuda.",
+   "Acompanhe o Diário Oficial e a pesquisa semanal de preços da ANP."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto, duas ajudas e datas que divergem entre as fontes, que pede calma e prints na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho \"Você não recebe um centavo da ajuda que segura o diesel.\": fala com o bolso só de forma indireta e não diz quem é \"você\". Reescreva ligando ao dia a dia, por exemplo: \"Se você enche o tanque ou compra no mercado, o diesel mexe no seu bolso, porque o frete leva o custo.\" Use só o que a fonte sustenta e não invente número de impacto.",
+   "Frase \"Um dirigente do setor alertou: R$ 10 a R$ 11 por litro, sem ajuda.\": o número assusta antes da calma e fica sem saída concreta. Inverta a ordem: abra com \"é alerta do setor, não aviso oficial\" e só depois dê o valor. O \"Passo simples\" fica mais forte se disser o que a pessoa ganha ao acompanhar, por exemplo: \"assim você vê o preço real na bomba antes de qualquer boato\".",
+   "Frase \"A de R$ 2,12 foi renovada em 27/10\" e o termo \"subvenção/ajuda\": traduza na mesma frase quem recebe e o que é, por exemplo: \"é um dinheiro que o governo paga a quem produz ou importa para o litro não subir\". Isso já está na peça, então junte as duas ideias em uma frase. Também troque \"Olha só\" para depois do gancho, a virada \"agora vem a parte que pouca gente viu\" pode entrar antes da explicação de quem recebe a ajuda."
+  ],
+  "veredito": "A peça é sóbria, com fonte e comparação viva (promoção no mercado), traz o alerta do setor sem alarmismo e fecha com um passo simples. Falta ligar o diesel ao bolso de quem não dirige caminhão e suavizar o susto do R$ 10 a R$ 11, que chega antes da calma."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Slow aerial drone shot over a busy commercial port at golden hour: a large tanker ship docked beside storage tanks and pipelines, with cranes and unmarked trucks in the background. The camera glides forward and slowly descends toward the ship's deck. Realistic, cinematic, no people in focus, no text, no logos, no markings, no flags",
+   "texto_da_fala": "A de R$ 1,40 vale só para o diesel importado, sem renovação anunciada.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone shot over a busy commercial port at golden hour: a large tanker ship docked beside storage tanks and pipelines, with cranes and unmarked trucks in the background. The camera glides forward and slowly descends toward the ship's deck. Realistic, cinematic, no people in focus, no text, no logos, no markings, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Close-up of a supermarket shelf with generic, unbranded products in a bright aisle. Blank white shelf tags with no writing. A hand-less mechanical effect: a blank red promotional sticker peels away and a plain new blank tag takes its place. Camera dollies slowly sideways along the shelf with shallow depth of field. No people, no text, no numbers, no logos, no brands",
+   "texto_da_fala": "Pense numa promoção no mercado: quando acaba, a etiqueta pode mudar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a supermarket shelf with generic, unbranded products in a bright aisle. Blank white shelf tags with no writing. A hand-less mechanical effect: a blank red promotional sticker peels away and a plain new blank tag takes its place. Camera dollies slowly sideways along the shelf with shallow depth of field. No people, no text, no numbers, no logos, no brands. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Slow upward crane shot of an oil refinery at dusk with distillation towers, glowing pipelines and large storage tanks, steam rising. The camera then pans down to a line of unmarked tanker trucks leaving the gate, while a lone empty diesel pump at a roadside station is seen blurred in the distance. No recognizable people, no text, no logos, no flags",
+   "texto_da_fala": "A ajuda vai para quem produz ou importa, não para o motorista.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward crane shot of an oil refinery at dusk with distillation towers, glowing pipelines and large storage tanks, steam rising. The camera then pans down to a line of unmarked tanker trucks leaving the gate, while a lone empty diesel pump at a roadside station is seen blurred in the distance. No recognizable people, no text, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Você não recebe um centavo da ajuda que segura o diesel.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: duas ajudas do governo seguram o preço do diesel.\n\nA de R$ 2,12 foi renovada em 27/10.\n\nA de R$ 1,40 vale só para o diesel importado, sem renovação anunciada.\n\nUm dirigente do setor alertou: R$ 10 a R$ 11 por litro, sem ajuda.\n\nMas calma: isso é alerta do setor, não aviso oficial de aumento na bomba.\n\nPense numa promoção no mercado: quando acaba, a etiqueta pode mudar.\n\nA ajuda vai para quem produz ou importa, não para o motorista.\n\nPasso simples: acompanhe o Diário Oficial e a pesquisa semanal de preços da ANP.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+   "destaque": "A subvenção de R$ 2,12 por litro foi renovada por mais 30 dias."
+  }
+ ],
+ "data": "2026-11-08",
+ "gerado_em": "2026-11-08T16:12:37.830118-03:00"
+}
