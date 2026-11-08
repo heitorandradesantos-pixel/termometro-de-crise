@@ -340,7 +340,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{adsense}</head>
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">{SIMBOLO}TERMÔMETRO DE CRISE</a>
-<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
+<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
@@ -466,7 +466,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     edicoes = _edicoes(pasta_edicoes)
     if not edicoes:
         raise SystemExit("Nenhuma edição encontrada em edicoes/.")
-    from . import acoes, arquivo, fechamento, paginas, plantao  # aqui dentro para não haver importação circular
+    from . import acoes, arquivo, bolsas, fechamento, paginas, plantao  # aqui dentro para não haver importação circular
     global FAIXA
     diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
     fonte = paginas.fonte(edicoes[0], diario_dir)
@@ -616,6 +616,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas = paginas.gerar(saida, fonte) if mundo.get("regioes") else []
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
     novas += paginas_cotacoes + paginas_plantao
+    novas += bolsas.gerar(saida, pagina)
     novas += paginas_newsletter(saida, lista[0][0] if lista else "")
     (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
     # endereço que não existe responde 404 de verdade (sem isso, o Cloudflare devolve a home com 200)

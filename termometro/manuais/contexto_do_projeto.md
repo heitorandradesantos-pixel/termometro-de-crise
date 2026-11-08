@@ -16,8 +16,10 @@ Tudo é feito por agentes de IA e publicado sozinho quando passa nas conferênci
 - Lançado agora: audiência praticamente zero, sem dados de tráfego, sem lista de e-mails, sem seguidores.
 - Dono: Heitor, empreendedor de produtos digitais, sem experiência técnica; tem um sócio programador.
 - Verba pequena. Custo atual: hospedagem grátis e uso da API do Claude.
-- Dados de bolsa e de parte das moedas vêm do Yahoo Finance, cujos termos restringem uso comercial: antes de cobrar
-  ou anunciar em escala, é preciso trocar por um provedor com licença.
+- Dados de bolsa e de parte das moedas vêm do Yahoo Finance. O advogado do Heitor disse (nov/2026) que pode usar
+  cotações de fontes como o Yahoo desde que a fonte fique citada ("Fonte: Yahoo Finance"); é assim que o site, a
+  abertura e o panorama já fazem. Os termos do Yahoo restringem uso comercial: trocar por um provedor com licença
+  continua no radar para quando o projeto escalar, mas não é pré-requisito para publicar com a fonte citada.
 
 ## O que o dono quer
 - Uma comunidade no WhatsApp que receba o panorama todo fim de tarde e crie sensação de pertencimento.

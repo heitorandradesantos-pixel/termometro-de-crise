@@ -13,7 +13,7 @@ from urllib.parse import quote
 
 import pandas as pd
 
-from . import config, correspondente as corr, mundo as motor, panorama
+from . import bolsas, config, correspondente as corr, mundo as motor, panorama
 from .grafico import mes_curto
 from .site import bloco_celular, medidor_svg, pagina
 
@@ -639,6 +639,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
     corpo = (f'<p class="trilha"><a href="../index.html">Início</a> › <a href="../regioes/{r["slug"]}.html">'
              f'{html.escape(r["nome"])}</a> › {html.escape(p["nome"])}</p>'
              + ficha(p["nome"], p["valor"], p["nivel"], p["cor"], lead, extra, "Termômetro do país", ancora="pais")
+             + bolsas.linha_pais(p["nome"], "../")
              + f'<section class="cartao"><h2 style="margin-top:0">Por que o termômetro está em {p["valor"]}</h2>'
                f'<p>{html.escape(por_que_automatico(p))} O termômetro é a média destes sinais:</p>{linhas}</section>'
              + (bolso_brasil(p) if p["nome"] == "Brasil" else "")
@@ -656,7 +657,7 @@ def pagina_pais(f: dict, r: dict, p: dict) -> str:
     return pagina(f"Risco de crise {em(p['nome'])} hoje: termômetro em {p['valor']} ({p['nivel']})",
                   f"Por que o risco de crise {em(p['nome'])} está em {p['valor']} de 100: bolsa, moeda, sobe e desce e as "
                   f"notícias que mexem com o termômetro. Atualizado todo dia útil.",
-                  corpo, raiz="../", caminho=f"paises/{p['slug']}.html", extra_css=CSS)
+                  corpo, raiz="../", caminho=f"paises/{p['slug']}.html", extra_css=CSS + bolsas.CSS)
 
 
 def observar_html(itens: list[dict]) -> str:
