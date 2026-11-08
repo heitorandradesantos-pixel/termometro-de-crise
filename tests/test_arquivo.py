@@ -71,7 +71,7 @@ def test_arquivo_completo_e_sem_links_quebrados(tmp_path):
     # mapa do site: arquivo mensal sim, páginas 2 em diante não
     mapa = (saida / "sitemap.xml").read_text() if (saida / "sitemap.xml").exists() else ""
     if mapa:
-        assert "index-2026-10.html" in mapa and "pagina-2" not in mapa and "noticias/israel.html" not in mapa
+        assert "index-2026-10</loc>" in mapa and ".html</loc>" not in mapa and "pagina-2" not in mapa and "noticias/israel" not in mapa
     # páginas de arquivo sem a faixa de cotações (decisão do guardião de regras)
     assert 'class="faixa"' not in outubro and 'class="faixa"' not in meio
     assert (saida / "correcoes.html").exists()
@@ -99,3 +99,12 @@ def test_privacidade_explica_o_adsense_so_quando_ele_entra(monkeypatch):
     texto = " ".join(legal.privacidade().split())
     assert "Fornecedores terceiros, incluindo o Google" in texto and "adssettings.google.com" in texto
     assert "Hoje não usamos cookies de publicidade" not in texto
+
+
+def test_endereco_publico_sem_html():
+    from termometro import config
+    base = config.SITE_URL
+    assert config.url_publica("noticias/plantao/x.html") == f"{base}/noticias/plantao/x"
+    assert config.url_publica("noticias/plantao/index.html") == f"{base}/noticias/plantao/"
+    assert config.url_publica("index.html") == config.url_publica("") == f"{base}/"
+    assert config.url_publica("noticias/plantao/x.png") == f"{base}/noticias/plantao/x.png"

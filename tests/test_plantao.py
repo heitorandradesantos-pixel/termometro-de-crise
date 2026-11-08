@@ -90,7 +90,7 @@ def test_paginas_e_mapa_de_noticias(tmp_path):
                    "PLANTÃO", "Publicado em 06/11/2026 às 14h20"]:
         assert trecho in pagina, trecho
     mapa = plantao.sitemap_noticias(artigos, AGORA + pd.Timedelta(hours=3))
-    assert "<news:title>FGC foi hackeado?" in mapa and "fgc-foi-hackeado.html" in mapa
+    assert "<news:title>FGC foi hackeado?" in mapa and "/fgc-foi-hackeado</loc>" in mapa
     assert "fgc-foi-hackeado" not in plantao.sitemap_noticias(artigos, AGORA + pd.Timedelta(days=3))
 
 

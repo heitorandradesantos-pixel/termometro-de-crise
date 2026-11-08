@@ -85,7 +85,7 @@ def destaque(pasta_diario: Path, hoje: str) -> dict | None:
     if not artigos:
         return None
     a = min(artigos, key=lambda x: x.get("publicado_em") or "")
-    return {"titulo": a["titulo"], "url": f"{config.SITE_URL}/noticias/plantao/{a['slug']}.html"}
+    return {"titulo": a["titulo"], "url": config.url_publica(f"noticias/plantao/{a['slug']}.html")}
 
 
 def montar(cot: dict, fechamento: dict | None, art: dict | None) -> str | None:

@@ -324,7 +324,7 @@ def nova_aba(html_corpo: str) -> str:
 
 def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "",
            extra_css: str = "", sem_faixa: bool = False) -> str:
-    url = f"{config.SITE_URL}/{caminho}" if config.SITE_URL else ""
+    url = config.url_publica(caminho) if config.SITE_URL else ""
     og_img = f"{config.SITE_URL}/{imagem}" if config.SITE_URL and imagem else ""
     adsense = (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={config.ADSENSE_CLIENT}" '
                f'crossorigin="anonymous"></script>') if config.ADSENSE_CLIENT else ""
@@ -696,7 +696,7 @@ def extras(saida: Path, caminhos: list[str]) -> None:
                                       (f"Sitemap: {config.SITE_URL}/sitemap.xml\n"
                                        f"Sitemap: {config.SITE_URL}/sitemap-noticias.xml\n" if config.SITE_URL else ""))
     if config.SITE_URL:
-        urls = "".join(f"<url><loc>{config.SITE_URL}/{c}</loc></url>" for c in caminhos)
+        urls = "".join(f"<url><loc>{config.url_publica(c)}</loc></url>" for c in caminhos)
         (saida / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>'
                                            f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
     if config.DOMINIO:

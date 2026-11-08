@@ -47,7 +47,7 @@ def test_texto_da_abertura_com_asia_fechada_europa_aberta_e_destaque(tmp_path):
     assert "Ibovespa: 169.000 pontos (▲1,00%)" in texto and "Dólar: R$ 5,48" in texto
     assert "Brasil na abertura (10h05)" in texto and "Petróleo Brent US$ 64,20" in texto and "Bitcoin US$ 101.200" in texto
     assert "No último fechamento (06/11): Brasil em 64 (Tensão)" in texto
-    assert "Dólar abre a semana em alta" in texto and "/noticias/plantao/dolar-abre.html" in texto
+    assert "Dólar abre a semana em alta" in texto and "/noticias/plantao/dolar-abre\n" in texto + "\n"
     assert len(texto) <= whatsapp.LEGENDA_MAXIMA  # cabe inteiro na legenda do card
 
 

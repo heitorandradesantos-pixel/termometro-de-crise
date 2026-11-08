@@ -447,9 +447,9 @@ def jsonld(*itens: dict) -> str:
 
 
 def migalhas(*passos: tuple[str, str]) -> dict:
-    base = config.SITE_URL or ""
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-        {"@type": "ListItem", "position": i, "name": nome, "item": f"{base}/{caminho}"} for i, (nome, caminho) in enumerate(passos, 1)]}
+        {"@type": "ListItem", "position": i, "name": nome, "item": config.url_publica(caminho)}
+        for i, (nome, caminho) in enumerate(passos, 1)]}
 
 
 def mais_pesa(p: dict) -> str:
@@ -678,7 +678,7 @@ def link_arquivo(f: dict, slug: str, texto: str) -> str:
 
 
 def compartilhar(titulo: str, caminho: str) -> str:
-    url = f"{config.SITE_URL or 'https://termometrodecrise.com'}/{caminho}"
+    url = config.url_publica(caminho)
     texto = quote(f"{titulo}: {url}")
     return (f'<p class="meta" style="font-size:14px;margin-top:20px">Compartilhar: '
             f'<a href="https://wa.me/?text={texto}" target="_blank" rel="noopener">WhatsApp</a> · '

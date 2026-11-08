@@ -393,7 +393,7 @@ def paginas(saida: Path, diario: Path) -> tuple[list[str], list[dict]]:
     from .grafico import card_noticia
     for a in artigos:
         caminho = f"noticias/plantao/{a['slug']}.html"
-        url = f"{config.SITE_URL or 'https://termometrodecrise.com'}/{caminho}"
+        url = config.url_publica(caminho)
         imagem = f"noticias/plantao/{a['slug']}.png"
         try:
             card_noticia(a["titulo"], f"{pd.Timestamp(a['publicado_em']):%d/%m/%Y}", saida / imagem)
@@ -422,9 +422,11 @@ def paginas(saida: Path, diario: Path) -> tuple[list[str], list[dict]]:
 def sitemap_noticias(artigos: list[dict], agora: pd.Timestamp | None = None) -> str:
     """Mapa de notícias do Google News: só os artigos das últimas 48 horas."""
     agora = agora or pd.Timestamp.now(tz="America/Sao_Paulo").tz_localize(None)
-    base = config.SITE_URL or "https://termometrodecrise.com"
+    def loc(a: dict) -> str:
+        return config.url_publica(f"noticias/plantao/{a['slug']}.html")
+
     urls = "".join(
-        f'<url><loc>{base}/noticias/plantao/{a["slug"]}.html</loc><news:news><news:publication><news:name>'
+        f'<url><loc>{loc(a)}</loc><news:news><news:publication><news:name>'
         f'{html.escape(config.NOME)}</news:name><news:language>pt</news:language></news:publication>'
         f'<news:publication_date>{pd.Timestamp(a["publicado_em"]).tz_localize("America/Sao_Paulo").isoformat()}'
         f'</news:publication_date><news:title>{html.escape(a["titulo"])}</news:title></news:news></url>'
