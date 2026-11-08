@@ -1,0 +1,52 @@
+{
+ "tipo": "fixado",
+ "titulo": "Vídeo fixado 3: o que você recebe no grupo do WhatsApp",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "gancho": {
+  "texto": "Duas mensagens por dia útil e você nunca mais é pego de surpresa pelo dólar."
+ },
+ "linhas": [
+  "Duas mensagens por dia útil e você nunca mais é pego de surpresa pelo dólar.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "No grupo do Termômetro, chegam duas mensagens por dia útil.",
+  "De manhã, como o mundo amanheceu e como a bolsa brasileira abriu.",
+  "No fim da tarde, o fechamento: o card do dia e o porquê de cada número.",
+  "É grupo só de avisos: ninguém manda corrente, só a gente posta.",
+  "E é de graça.",
+  "No domingo ainda tem a newsletter por e-mail, com o resumo da semana.",
+  "Pensa num boletim do tempo, só que do seu dinheiro.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "palavras": 119,
+ "segundos": 48,
+ "na_tela": [
+  {
+   "fala": null,
+   "texto": "*2 mensagens* por dia útil"
+  },
+  {
+   "fala": null,
+   "texto": "Manhã: abertura"
+  },
+  {
+   "fala": null,
+   "texto": "Fim da tarde: fechamento"
+  },
+  {
+   "fala": null,
+   "texto": "Só avisos · *grátis*"
+  },
+  {
+   "fala": null,
+   "texto": "Domingo: newsletter"
+  }
+ ],
+ "legenda": "O que chega no grupo do Termômetro de Crise?\n\nDe manhã, como o mundo amanheceu e como a bolsa brasileira abriu. No fim da tarde, o fechamento do dia, com o card e o porquê de cada número. É grupo só de avisos e é de graça.\n\nNo domingo, a newsletter com o resumo da semana. O link do grupo está na bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#whatsapp #economia #dinheiro #educacaofinanceira #termometrodecrise",
+ "apoios": [],
+ "teleprompter": "Duas mensagens por dia útil e você nunca mais é pego de surpresa pelo dólar.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nNo grupo do Termômetro, chegam duas mensagens por dia útil.\n\nDe manhã, como o mundo amanheceu e como a bolsa brasileira abriu.\n\nNo fim da tarde, o fechamento: o card do dia e o porquê de cada número.\n\nÉ grupo só de avisos: ninguém manda corrente, só a gente posta.\n\nE é de graça.\n\nNo domingo ainda tem a newsletter por e-mail, com o resumo da semana.\n\nPensa num boletim do tempo, só que do seu dinheiro.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "escrito_por": "Claude (editor), 07/11/2026"
+}

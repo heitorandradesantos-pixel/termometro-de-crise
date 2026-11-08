@@ -137,11 +137,15 @@ def concluir(pasta_diario: Path, pasta_saida: Path) -> str:
 
 # ---------------------------------------------------------------- roteiros para gravar
 
-ROTEIROS_TIPOS = tuple(t.strip() for t in (os.environ.get("ROTEIROS_WHATSAPP") or "explica").split(",") if t.strip())
+ROTEIROS_TIPOS = tuple(t.strip() for t in (os.environ.get("ROTEIROS_WHATSAPP") or "explica,fixado").split(",")
+                       if t.strip())
 
 
 def _titulo_roteiro(pasta_diario: Path, dia: str, arq: Path) -> str:
     tipo = arq.stem.split("-")[0]
+    titulo = json.loads(arq.read_text()).get("titulo")
+    if titulo:
+        return titulo
     if tipo == "explica":
         artigo = pasta_diario / "plantao" / f"{dia}-{arq.stem[len('explica-'):]}.json"
         if artigo.exists():
