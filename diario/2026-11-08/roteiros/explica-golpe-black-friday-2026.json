@@ -1,0 +1,180 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Caiu em golpe no Pix? Existe um prazo de 80 dias.",
+  "na_tela": "Golpe no Pix? Prazo de 80 dias",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Black Friday projeta R$ 13,3 bilhões, e o golpista também está de olho.",
+   "na_tela": "Black Friday: o golpista também",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Caiu em golpe no Pix? Existe um prazo de 80 dias.",
+   "na_tela": "Golpe no Pix? Prazo de 80 dias",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "O Itaú reforçou o alerta, e o golpe pode começar no preço bom demais.",
+   "na_tela": "Preço bom demais?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Caiu em golpe no Pix? Existe um prazo de 80 dias.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Segundo o Itaú, mais compras na Black Friday costumam trazer mais golpes.",
+  "É como feira lotada: onde tem gente comprando, tem batedor de carteira.",
+  "O Itaú manda desconfiar de preço muito abaixo do mercado.",
+  "Antes do Pix, confira nome e CNPJ de quem recebe. Não bateu, cancele.",
+  "Pouca gente sabe: o Pix tem o MED, o mecanismo de devolução do Banco Central.",
+  "Dá para pedir devolução em até 80 dias, mas o banco analisa cada caso.",
+  "Ainda não há número de golpes desta Black Friday: é sinal amarelo, não alarme.",
+  "Caiu? Avise o banco na hora, guarde as provas e registre boletim de ocorrência.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Caiu em golpe no Pix? Existe um prazo de 80 dias. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo o Itaú, mais compras na Black Friday costumam trazer mais golpes. É como feira lotada: onde tem gente comprando, tem batedor de carteira. O Itaú manda desconfiar de preço muito abaixo do mercado. Antes do Pix, confira nome e CNPJ de quem recebe. Não bateu, cancele. Pouca gente sabe: o Pix tem o MED, o mecanismo de devolução do Banco Central. Dá para pedir devolução em até 80 dias, mas o banco analisa cada caso. Ainda não há número de golpes desta Black Friday: é sinal amarelo, não alarme. Caiu? Avise o banco na hora, guarde as provas e registre boletim de ocorrência. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 141,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "Golpe no Pix? Prazo de 80 dias",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Itaú reforça alerta de golpes",
+   "fonte": "Money Report"
+  },
+  {
+   "fala": 4,
+   "texto": "Preço muito abaixo do mercado?",
+   "fonte": "Money Report"
+  },
+  {
+   "fala": 5,
+   "texto": "Confira nome e CNPJ",
+   "fonte": "Bonde"
+  },
+  {
+   "fala": 6,
+   "texto": "MED: devolução do Pix",
+   "fonte": "Senado Verifica"
+  },
+  {
+   "fala": 7,
+   "texto": "Até 80 dias",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 8,
+   "texto": "Sem número de 2026 ainda",
+   "fonte": "Money Report"
+  },
+  {
+   "fala": 9,
+   "texto": "Avise o banco, guarde provas, faça B.O.",
+   "fonte": "Money Report"
+  }
+ ],
+ "retomada": 6,
+ "busca": "golpe Black Friday 2026",
+ "legenda": "Golpe na Black Friday 2026: o que o Itaú alerta e o que fazer.\n\nEm 7 de novembro, o Itaú Unibanco reforçou o alerta: mais compras e transações costumam trazer mais golpes. A projeção da Confi/Neotrust é de R$ 13,3 bilhões em vendas online entre 26 e 29 de novembro.\n\nAntes de pagar por Pix ou boleto, confira nome e CNPJ de quem recebe. Se não bater, cancele. Se cair em golpe, avise o banco na hora, guarde as provas e registre boletim de ocorrência. No Pix, dá para pedir a devolução pelo MED, do Banco Central, em até 80 dias, mas o banco analisa cada caso e a devolução não é garantida.\n\nAinda não há número de golpes registrados nesta Black Friday.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#blackfriday #golpenopix #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#blackfriday",
+  "#golpenopix",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Caiu em golpe no Pix? Tem prazo de 80 dias.",
+  "topicos": [
+   "O Itaú reforçou em 7 de novembro o alerta de golpes na Black Friday.",
+   "Itaú: no Pix, confira nome e CNPJ de quem recebe. Não bateu, cancele.",
+   "Pelo MED, do Banco Central, dá para pedir devolução em até 80 dias.",
+   "Caiu? Avise o banco na hora, guarde as provas e registre boletim."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários passos de proteção e o que ainda não se sabe, não uma notícia quente de última hora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 10,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [],
+  "veredito": "A peça fala direto com quem tem medo de golpe no Pix, abre com o ponto e o prazo, usa a comparação da feira lotada, traz fonte e o limite do que ainda não se sabe, e fecha com passos simples e os bordões da casa, sem alarmismo nem promessa de devolução garantida."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "A crowded open-air street market (feira) on a sunny morning, packed with colorful fruit and clothing stalls. The camera glides slowly forward at shoulder height through the crowd, filmed from behind so no faces are visible, only backs, shopping bags and tote bags. Shallow depth of field, people softly blurred. Near the end, the camera pushes in on a half-open tote bag in the foreground as an anonymous hand in a sleeve moves close to it. No text, no signs with letters, no logos",
+   "texto_da_fala": "É como feira lotada: onde tem gente comprando, tem batedor de carteira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A crowded open-air street market (feira) on a sunny morning, packed with colorful fruit and clothing stalls. The camera glides slowly forward at shoulder height through the crowd, filmed from behind so no faces are visible, only backs, shopping bags and tote bags. Shallow depth of field, people softly blurred. Near the end, the camera pushes in on a half-open tote bag in the foreground as an anonymous hand in a sleeve moves close to it. No text, no signs with letters, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Close-up of a shop shelf lined with plain unbranded sneakers and gadgets, each with a blank, handwriting-free paper price tag hanging from it, one bright red tag swaying slightly. The camera tracks slowly sideways in a smooth dolly move with warm retail lighting and a slightly suspicious, high-contrast mood. No text, no numbers, no letters, no logos, no people",
+   "texto_da_fala": "O Itaú manda desconfiar de preço muito abaixo do mercado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a shop shelf lined with plain unbranded sneakers and gadgets, each with a blank, handwriting-free paper price tag hanging from it, one bright red tag swaying slightly. The camera tracks slowly sideways in a smooth dolly move with warm retail lighting and a slightly suspicious, high-contrast mood. No text, no numbers, no letters, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 9,
+   "visual": "Top-down view of a tidy wooden desk at night: a smartphone with a softly glowing blank screen, a closed notebook with a pen, and a neat stack of blank paper sheets in a folder, lit by a warm desk lamp. The camera slowly pushes in and drifts slightly to the right. No readable text, no letters, no numbers, no logos, no faces; at most a hand entering the frame out of focus",
+   "texto_da_fala": "Caiu? Avise o banco na hora, guarde as provas e registre boletim de ocorrência.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down view of a tidy wooden desk at night: a smartphone with a softly glowing blank screen, a closed notebook with a pen, and a neat stack of blank paper sheets in a folder, lit by a warm desk lamp. The camera slowly pushes in and drifts slightly to the right. No readable text, no letters, no numbers, no logos, no faces; at most a hand entering the frame out of focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Caiu em golpe no Pix? Existe um prazo de 80 dias.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo o Itaú, mais compras na Black Friday costumam trazer mais golpes.\n\nÉ como feira lotada: onde tem gente comprando, tem batedor de carteira.\n\nO Itaú manda desconfiar de preço muito abaixo do mercado.\n\nAntes do Pix, confira nome e CNPJ de quem recebe. Não bateu, cancele.\n\nPouca gente sabe: o Pix tem o MED, o mecanismo de devolução do Banco Central.\n\nDá para pedir devolução em até 80 dias, mas o banco analisa cada caso.\n\nAinda não há número de golpes desta Black Friday: é sinal amarelo, não alarme.\n\nCaiu? Avise o banco na hora, guarde as provas e registre boletim de ocorrência.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "Febraban",
+   "url": "https://portal.febraban.org.br/noticia/4381/pt-br/",
+   "destaque": "Dado antigo, de 2025: a Febraban (federação dos bancos) registrou 174 mil ocorrências de golpe da falsa venda no 1º semestre de 2025, alta…"
+  }
+ ],
+ "data": "2026-11-08",
+ "gerado_em": "2026-11-08T13:17:36.318982-03:00"
+}
