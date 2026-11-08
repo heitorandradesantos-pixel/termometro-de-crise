@@ -1,0 +1,79 @@
+{
+ "titulo": "O que esperar do mercado essa semana (9 a 13/11): o que se sabe",
+ "descricao": "Sem pregão no domingo. A semana traz IPCA de outubro, inflação dos EUA e da China. Veja as datas e o que pode mexer com juros, dólar e preços.",
+ "palavra_chave": "o que esperar do mercado essa semana",
+ "lead": "A bolsa e o câmbio não abrem neste domingo (8/11). O último fechamento foi o de sexta (6/11): Ibovespa a 168.498,45 pontos e dólar perto de R$ 5,51. Na semana de 9 a 13 de novembro, o foco são os dados de inflação do Brasil (IPCA de outubro), dos EUA e da China, segundo as agendas da Safras & Mercado e da TradingKey.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou a sexta (6/11) em alta de 1,39%, aos 168.498,45 pontos. Na semana, subiu 0,34% e encerrou três semanas seguidas de queda, segundo o InfoMoney.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/",
+   "data": "2026-11-06",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar fechou a sexta em alta de 0,44%, a R$ 5,511, e acumulou alta de 1,20% na semana, segundo o Jornal de Brasília. A cotação varia um pouco conforme a fonte: o Diário do Sudoeste cita R$ 5,5087, o maior fechamento desde 30 de dezembro de 2025.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/dolar-sobe-a-r-551-e-ibovespa-avanca-139-em-dia-de-reacao-dos-mercados/",
+   "data": "2026-11-06",
+   "veiculo": "Jornal de Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "Na sexta, investidores reagiram a dados de emprego dos EUA melhores do que o esperado, segundo a CNN Brasil. O Jornal de Brasília também cita falas de Lula sobre política econômica. O índice segue abaixo dos mais de 205 mil pontos que marcava antes do desfecho da eleição presidencial, diz o jornal.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/",
+   "data": "2026-11-06",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A China divulga o CPI (inflação ao consumidor) e o PPI (inflação ao produtor, ou seja, nos preços cobrados pela indústria) de outubro neste domingo (8/11), às 22h30, segundo a agenda da Safras & Mercado.",
+   "fonte_url": "https://safras.com.br/de-9-a-13-de-novembro-confira-os-principais-eventos-do-agronegocio",
+   "data": "2026-11-08",
+   "veiculo": "Safras & Mercado",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Ibovespa fecha a 168.498,45 pontos e dólar a R$ 5,511, após dados de emprego dos EUA.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/dolar-sobe-a-r-551-e-ibovespa-avanca-139-em-dia-de-reacao-dos-mercados/",
+   "data": "2026-11-06",
+   "veiculo": "Jornal de Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "China divulga CPI e PPI de outubro, às 22h30.",
+   "fonte_url": "https://safras.com.br/de-9-a-13-de-novembro-confira-os-principais-eventos-do-agronegocio",
+   "data": "2026-11-08",
+   "veiculo": "Safras & Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "Primeiro pregão da semana, segundo o calendário normal da B3.",
+   "fonte_url": "https://safras.com.br/de-9-a-13-de-novembro-confira-os-principais-eventos-do-agronegocio",
+   "data": "2026-11-09",
+   "veiculo": "Safras & Mercado",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O resultado do CPI e do PPI da China ainda não saiu. A divulgação está marcada para as 22h30 de hoje, e a busca não trouxe números nem a reação dos mercados na Ásia ou dos contratos futuros (apostas sobre a abertura de segunda).",
+  "A data do IPCA de outubro não foi confirmada no calendário do próprio IBGE. A Brasil Indicadores aponta 12/11; outro texto (Remessa Online) fala em 10/11, de forma aproximada. Confirme no site do IBGE.",
+  "Não encontrei uma projeção confiável do mercado para o IPCA de outubro de 2026 nem para o CPI dos EUA. Por isso, o texto não traz estimativas.",
+  "As datas dos balanços de JBS e São Martinho nesta semana não foram confirmadas por fonte da busca. Consulte o calendário de resultados de cada empresa.",
+  "Um boletim de notícias sobre criptomoedas (Mars Finance/BlockBeats) fala em expectativa de alta de juros pelo Fed em dezembro. Isso não foi confirmado por veículo de primeira linha nem pelo Fed.",
+  "Não está claro quanto de cada movimento de sexta veio dos dados dos EUA, da política brasileira ou das ações de tecnologia. Cada veículo dá um peso diferente a esses fatores."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje não há pregão. Quem busca 'Ibovespa hoje' ou 'dólar hoje' vê o fechamento de sexta (6/11). O mercado volta a funcionar na segunda (9/11).",
+  "O IPCA mede a inflação oficial do país. Ele pode influenciar a expectativa para os juros e reajustes de contratos e títulos ligados à inflação.",
+  "Os dados de inflação dos EUA mexem com a expectativa de juros por lá. Isso pode afetar o dólar no Brasil. Dólar mais caro encarece produtos importados e viagens ao exterior.",
+  "Bolsa e dólar podem oscilar nos dias de divulgação. Uma conta ou um investimento só ganha ou perde com isso se estiver ligado a esses índices."
+ ],
+ "como_se_proteger": [],
+ "slug": "o-que-esperar-do-mercado-essa-semana",
+ "publicado_em": "2026-11-08T09:14:13.517431",
+ "atualizado_em": "2026-11-08T09:14:13.517431",
+ "assunto": "Semana de 9 a 13/11 traz IPCA de outubro (IBGE), CPI e PPI dos EUA, CPI e PPI da China (domingo, 22h30) e balanços como JBS e São Martinho; domingo não tem pregão e o último fechamento foi o de sexta (6/11): Ibovespa a 168.498 pontos e dólar a R$ 5,511.",
+ "turno": "manha"
+}
