@@ -1,4 +1,5 @@
-"""Referências: todo dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian) e
+"""Referências: 5 vezes por dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian e
+Shimon) e
 alimenta o Roteirista, o Copywriter e o Estrategista com o que funciona neles. Roda na nuvem, sem o computador.
 
 Como: a API oficial do Instagram ("Business Discovery") deixa uma conta profissional (a do Termômetro) ler os posts
@@ -23,11 +24,12 @@ import requests
 
 from . import config, ia
 
-PERFIS = tuple(p.strip().lstrip("@") for p in (os.environ.get("REFERENCIAS_PERFIS") or "pablospyer,falecomrian").split(",")
+PERFIS = tuple(p.strip().lstrip("@") for p in (os.environ.get("REFERENCIAS_PERFIS") or "pablospyer,falecomrian,shimoncomunica").split(",")
                if p.strip())
 GRAPH = "https://graph.facebook.com/v21.0"
 DIAS = int(os.environ.get("REFERENCIAS_DIAS") or "3")  # só o que saiu nos últimos dias
-MAX_NOTAS = 12  # o diário de referências no manual fica curto (entra nas instruções dos agentes)
+MAX_PAUTAS_DIA = 3  # pautas que as referências mandam ao Plantão por dia (o tema do editor não tem limite lá)
+MAX_NOTAS = 15  # o diário de referências no manual fica curto (entra nas instruções dos agentes)
 ARQ_MANUAL = config.MANUAIS / "referencias.md"
 MARCA_DIARIO = "## Diário de referências (atualizado pelo robô)"
 
@@ -141,6 +143,8 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
     ja, titulos = vistos(pasta), titulos_publicados(diario)
     limite = pd.Timestamp.now(tz="UTC") - pd.Timedelta(days=DIAS)
     notas, pautas = [], []
+    hoje = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+    vagas = MAX_PAUTAS_DIA - sum(1 for v in ja.values() if v.get("pauta_enviada") == hoje)
     for perfil in PERFIS:
         try:
             lista = posts(perfil, token, conta, buscar)
@@ -163,12 +167,16 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
                 continue
             notas.append(nota(perfil, post, a))
             pauta = (a.get("pauta") or "").strip()
-            if pauta and not a.get("ja_coberto") and not re.search(r"\b(compre|venda|invista)\b", pauta, re.IGNORECASE):
-                pautas.append(pauta)
+            enviar = (pauta and not a.get("ja_coberto") and len(pautas) < vagas
+                      and not re.search(r"\b(compre|venda|invista)\b", pauta, re.IGNORECASE))
             ja[post["id"]] = {"perfil": perfil, "link": post.get("permalink", ""), "dia": str(quando.date()),
                               "pauta": pauta}  # só o link e a nossa pauta: nada do texto do criador
+            if enviar:
+                pautas.append(pauta)
+                titulos.append(pauta)  # o mesmo assunto em outro criador conta como já coberto
+                ja[post["id"]]["pauta_enviada"] = hoje
             print(f"  @{perfil} {quando.date()}: {a['tema']}" + (f" → pauta: {pauta}" if pauta else ""))
     if notas:
         atualizar_manual(notas)
     (pasta / "vistos.json").write_text(json.dumps(ja, ensure_ascii=False, indent=1))
-    return {"notas": notas, "pautas": pautas[:2]}  # no máximo 2 pautas por dia vindas daqui
+    return {"notas": notas, "pautas": pautas}

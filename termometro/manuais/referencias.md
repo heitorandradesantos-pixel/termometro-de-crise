@@ -1,8 +1,8 @@
 # Referências de conteúdo (o que o Heitor consome e gosta)
 
-Criadores que servem de régua para o tom e o formato: Pablo Spyer (@pablospyer, boletim diário, popular e animado) e
-Rian (@falecomrian, "Café com seu dinheiro": selfie em casa, de noite, com prints da fonte real na tela). Aprendemos a
-técnica, nunca copiamos frase, roteiro ou ideia de vídeo. O que não pegamos deles: indicar título, ativo ou "onde
+Criadores que servem de régua para o tom e o formato: Pablo Spyer (@pablospyer, boletim diário, popular e animado),
+Rian (@falecomrian, "Café com seu dinheiro": selfie em casa, de noite, com prints da fonte real na tela) e Shimon
+(@shimoncomunica). Aprendemos a técnica, nunca copiamos frase, roteiro ou ideia de vídeo. O que não pegamos deles: indicar título, ativo ou "onde
 investir".
 
 Como usar o diário abaixo:
@@ -11,7 +11,7 @@ Como usar o diário abaixo:
 - Copywriter: a primeira linha da legenda pode usar a mesma lógica de gancho (pergunta de bolso, número + porquê).
 - Estrategista: compare a peça com o padrão que está funcionando nas referências.
 
-O diário é atualizado sozinho, todo dia, pelo robô de referências (API do Instagram + transcrição do áudio). Ele
+O diário é atualizado sozinho, 5 vezes por dia, pelo robô de referências (API do Instagram + transcrição do áudio). Ele
 guarda só a nossa análise e o link, nunca a legenda ou a fala do criador.
 
 ## Diário de referências (atualizado pelo robô)
