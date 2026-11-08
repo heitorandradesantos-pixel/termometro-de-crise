@@ -12,6 +12,35 @@ def _paises() -> int:
 ATUALIZADO = "5 de novembro de 2026"
 
 
+def _navegacao() -> str:
+    if config.ADSENSE_CLIENT:
+        return ("O site não usa cookies próprios, mas exibe anúncios do Google AdSense, que usa cookies e tecnologias "
+                "parecidas para mostrar e medir anúncios (veja a seção 9).")
+    return "Hoje o site não usa cookies próprios nem ferramentas de rastreamento para publicidade."
+
+
+def _anuncios() -> str:
+    """A seção de anúncios muda sozinha quando o código do AdSense entra no site (o que o Google exige na política)."""
+    if not config.ADSENSE_CLIENT:
+        return ("<p>Hoje não usamos cookies de publicidade. Se passarmos a exibir anúncios (por exemplo, do Google AdSense, "
+                "que usa cookies para personalizar e medir anúncios) ou ferramentas de medição com cookies, esta política "
+                "será atualizada antes, e você poderá escolher, quando a lei exigir.</p>")
+    return """<p>O site exibe anúncios do Google AdSense, que ajudam a manter o conteúdo gratuito. Fornecedores terceiros,
+incluindo o Google, usam cookies para exibir anúncios com base nas suas visitas anteriores a este site ou a outros sites.
+Com os cookies de publicidade, o Google e os parceiros dele podem exibir anúncios com base nas suas visitas a este e a
+outros sites na internet.</p>
+<ul>
+<li>Você pode desativar a publicidade personalizada nas
+<a href="https://adssettings.google.com" target="_blank" rel="noopener">Configurações de anúncios do Google</a>.</li>
+<li>Também pode desativar os cookies de publicidade personalizada de outros fornecedores em
+<a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener">aboutads.info</a>.</li>
+<li>Como o Google usa os dados dos sites parceiros:
+<a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.</li>
+</ul>
+<p>Você também pode bloquear ou apagar cookies nas configurações do seu navegador. Os anúncios são do Google e não são
+recomendação do Termômetro de Crise; eles aparecem separados do conteúdo e identificados como publicidade.</p>"""
+
+
 def _contato() -> str:
     email = html.escape(config.CONTATO_EMAIL)
     return f'<a href="mailto:{email}">{email}</a>'
@@ -33,8 +62,7 @@ encarregado (DPO), escreva para {_contato()}.</p>
 
 <h2>2. Que dados tratamos</h2>
 <ul>
-<li><strong>Navegação no site.</strong> Hoje o site não usa cookies próprios nem ferramentas de rastreamento para
-publicidade. A empresa que hospeda e protege o site (Cloudflare) registra dados técnicos de cada acesso, como endereço IP,
+<li><strong>Navegação no site.</strong> {_navegacao()} A empresa que hospeda e protege o site (Cloudflare) registra dados técnicos de cada acesso, como endereço IP,
 tipo de navegador, data, hora e página visitada, para manter o site no ar e seguro. As fontes do texto são carregadas dos
 servidores do Google Fonts, o que faz o seu navegador informar o seu endereço IP ao Google.</li>
 <li><strong>Newsletter.</strong> Se você se inscrever, tratamos o seu e-mail e os dados de entrega e leitura das mensagens
@@ -85,9 +113,7 @@ Nacional de Proteção de Dados (ANPD).</p>
 administram o site são protegidos e restritos.</p>
 
 <h2>9. Cookies e anúncios</h2>
-<p>Hoje não usamos cookies de publicidade. Se passarmos a exibir anúncios (por exemplo, do Google AdSense, que usa cookies
-para personalizar e medir anúncios) ou ferramentas de medição com cookies, esta política será atualizada antes, e você
-poderá escolher, quando a lei exigir.</p>
+{_anuncios()}
 
 <h2>10. Mudanças nesta política</h2>
 <p>Quando esta política mudar, a nova versão será publicada aqui, com a data de atualização. Mudanças importantes também

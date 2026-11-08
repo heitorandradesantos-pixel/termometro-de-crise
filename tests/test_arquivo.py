@@ -89,3 +89,13 @@ def test_paginacao_numerada():
     assert 'aria-current="page">5<' in nav and 'href="p1.html"' in nav and 'href="p9.html"' in nav
     assert "Mais novas" in nav and "Mais antigas" in nav and nav.count("…") == 2
     assert arquivo.paginacao(1, 1, str) == ""
+
+
+def test_privacidade_explica_o_adsense_so_quando_ele_entra(monkeypatch):
+    from termometro import config, legal
+    monkeypatch.setattr(config, "ADSENSE_CLIENT", "")
+    assert "Hoje não usamos cookies de publicidade" in legal.privacidade() and "aboutads" not in legal.privacidade()
+    monkeypatch.setattr(config, "ADSENSE_CLIENT", "ca-pub-0000000000000000")
+    texto = " ".join(legal.privacidade().split())
+    assert "Fornecedores terceiros, incluindo o Google" in texto and "adssettings.google.com" in texto
+    assert "Hoje não usamos cookies de publicidade" not in texto
