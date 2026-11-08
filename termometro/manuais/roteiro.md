@@ -36,6 +36,7 @@ Fórmulas que funcionam para notícia de dinheiro (são formas, não frases para
 - **Pergunta que todo mundo faz:** "[Pergunta real]? [Resposta curta]." Ex.: "A reforma tributária foi adiada? Não. E o que muda em janeiro."
 - **Não foi o que você pensa:** "[Resultado], e não foi [causa óbvia]." Ex.: "O Ibovespa subiu 1,4% hoje, e não foi por causa da eleição."
 - **Antes e depois:** "[Antes, com número]. [Depois, com número]." Ex.: "Em outubro, 209 mil pontos. Hoje, 168 mil."
+- **Pergunta de bolso:** uma pergunta curta em "você/te" que vira o assunto seco do avesso. Ex.: "Quanto o governo te paga?" (para falar de Tesouro), "Quem paga o seu Pix?" (para falar de tarifa). O número que responde vem logo depois, com a prova na tela.
 - **Cena no meio:** comece no fato, sem preparação. Ex.: "Dez da manhã, e a bolsa de Hong Kong já fechou em queda de 1%."
 
 Nunca abra com: cumprimento, nome, "neste vídeo", "hoje vamos falar", pergunta de sim ou não óbvia, "você sabia".
@@ -46,6 +47,15 @@ Nunca abra com: cumprimento, nome, "neste vídeo", "hoje vamos falar", pergunta 
 - **Explica:** o fato (o que se sabe, com data) → por que importa para o bolso → o que ainda não se sabe → o que o espectador pode fazer para se proteger (sem recomendar investimento).
 - Entre 40% e 60% do roteiro, uma **retomada**: uma fala que reacende a atenção (o número mais forte, uma virada, "mas tem um detalhe que pouca gente viu").
 - Nunca três falas abstratas seguidas: a terceira vira exemplo concreto (um número, um lugar, um nome).
+
+## O que funciona nos criadores que o Heitor consome (Pablo Spyer, Rian do "Café com seu dinheiro")
+Técnicas, não frases para copiar:
+- **Selfie em casa, de noite, com a cidade na janela atrás.** Câmera na mão, perto do rosto, camiseta. Parece conversa, não estúdio. É o cenário de bancada do Heitor.
+- **A prova na tela, não enfeite.** Em vez de imagem genérica, aparece o print da coisa real: a página do título do Tesouro com a taxa, a manchete com a frase grifada, o gráfico do mês. Fica no terço de cima da tela e nunca tapa o rosto. Cada número falado tem o seu print, com a fonte visível.
+- **Um número grande que muda junto com a fala** (um selo por cima do print), como um placar: o espectador vê a conta andando. Só com números do material.
+- **Gesto marca a virada:** apontar para o print quando fala do número, mão na boca no "segredo que pouca gente sabe", mão espalmada no "calma". O gesto é do Heitor, não vai escrito no roteiro: escreva a fala de um jeito que peça o gesto.
+- **Assunto técnico com cara de vida real:** taxa de título vira "quanto o governo te paga"; juro real vira "o Brasil paga o maior juro do mundo, e isso tem dois lados para você".
+- **Fala direto, sem introdução**, e sai rápido: 30 a 45 segundos já resolvem quando o assunto é um número só.
 
 ## Dois formatos de gravação
 - **Bancada** (em casa, no fundo dos prédios, com teleprompter): para explicar com calma. Abertura, fechamento, temas com vários números ou que precisam de contexto.

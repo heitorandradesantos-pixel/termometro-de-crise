@@ -35,6 +35,13 @@
   parte que pouca gente viu"; fecho "Isso não é recomendação: é o termômetro."
 - Gíria leve e pouca. Humor nunca sobre quem perdeu dinheiro.
 
+## Referências que o Heitor consome e gosta
+Pablo Spyer (boletim diário, popular e animado) e Rian, do "Café com seu dinheiro" (selfie em casa, de noite, com prints
+da fonte real na tela e a pergunta de bolso: "Quanto o governo te paga?"). O que pegamos deles: assunto sério em
+linguagem de conversa, a pergunta em "você/te", a prova visível (print, número, fonte) e a velocidade. O que não pegamos:
+indicar título, ativo ou "onde investir". No Termômetro, mostrar quanto um título paga é informação; dizer para comprar
+é recomendação, e isso a gente não faz.
+
 ## Gatilhos (com ética)
 - Usamos: curiosidade que o conteúdo paga; concretude (número com fonte, data, lugar); identificação ("se você é
   CLT"); aversão à perda sempre com a saída (o passo para se proteger); prova social só com número real;

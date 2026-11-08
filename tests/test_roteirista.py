@@ -140,3 +140,18 @@ def test_estrategista_de_marca_pede_nova_versao_quando_a_nota_e_baixa(monkeypatc
     r = roteirista.escrever(object(), "fechamento", MATERIAL)
     assert r["aprovado"] and r["tentativas"] == 2 and r["marca"]["nota"] == 10 and estrategista.NOTA_MINIMA == 8
     assert chamadas.count("registrar_roteiro") == 2
+
+
+def test_prints_da_fonte_para_a_edicao():
+    artigo = {"o_que_se_sabe": [
+        {"texto": "O Focus trouxe 1,20% para o PIB de 2027. Antes, era 1,31%.", "fonte_url": "https://a.com/focus",
+         "veiculo": "InfoMoney", "confiavel": True},
+        {"texto": "Outro fato do mesmo link.", "fonte_url": "https://a.com/focus", "veiculo": "InfoMoney"},
+        {"texto": "Fato duvidoso.", "fonte_url": "https://b.com/x", "veiculo": "Blog", "confiavel": False},
+        {"texto": "O Copom manteve a Selic.", "fonte_url": "https://bcb.gov.br/copom", "veiculo": "Banco Central"}]}
+    prints = roteirista.prints_artigo(artigo)
+    assert [p["veiculo"] for p in prints] == ["InfoMoney", "Banco Central"]
+    assert prints[0]["destaque"] == "O Focus trouxe 1,20% para o PIB de 2027."
+    r = {**roteirista.montar(_bruto()), "prints": prints}
+    edicao = roteirista.pacote_whatsapp(r, "PIB")[3]
+    assert "Prints da fonte" in edicao and "https://bcb.gov.br/copom" in edicao

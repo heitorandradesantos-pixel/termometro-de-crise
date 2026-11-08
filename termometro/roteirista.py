@@ -338,6 +338,32 @@ def apoiar(cliente, roteiro: dict) -> dict:
     return {"apoios": apoios, "apoios_ok": not problemas, "apoios_problemas": problemas}
 
 
+PRINTS = 3  # quantos prints de fonte, no máximo, entram na edição (a prova na tela, no terço de cima)
+PRINTS_MERCADO = [{"veiculo": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+                   "destaque": "gráfico do Ibovespa no mês"},
+                  {"veiculo": "Yahoo Finance", "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+                   "destaque": "gráfico do dólar no mês"}]
+
+
+def _frase(texto: str, limite: int = 140) -> str:
+    primeira = re.split(r"(?<=[.!?])\s", texto.strip(), maxsplit=1)[0]
+    return primeira if len(primeira) <= limite else primeira[:limite].rsplit(" ", 1)[0] + "…"
+
+
+def prints_artigo(artigo: dict) -> list[dict]:
+    """Os prints de prova para a edição: as fontes reais dos fatos do artigo, uma por veículo, com a frase a grifar."""
+    prints, vistos = [], set()
+    for f in artigo.get("o_que_se_sabe", []):
+        url = f.get("fonte_url") or ""
+        if not url.startswith("http") or url in vistos or f.get("confiavel") is False:
+            continue
+        vistos.add(url)
+        prints.append({"veiculo": f.get("veiculo") or "fonte", "url": url, "destaque": _frase(f.get("texto", ""))})
+        if len(prints) == PRINTS:
+            break
+    return prints
+
+
 def teleprompter(roteiro: dict) -> str:
     """O texto para colar no app de teleprompter: uma fala por parágrafo, exatamente como foi aprovado."""
     return "\n\n".join(roteiro["linhas"])
@@ -366,7 +392,9 @@ def pacote_whatsapp(roteiro: dict, titulo: str) -> list[str]:
         msgs.append("🚶 VERSÃO RUA (sem teleprompter: decore o gancho e fale os tópicos do seu jeito)\n\n"
                     f"Gancho: {rua['gancho']}\n" + "\n".join(f"• {t}" for t in rua["topicos"])
                     + f"\n\nFecho: {FECHO} {roteiro['linhas'][-1]}")
+    prints = "\n".join(f"- {p['veiculo']}: \"{p['destaque']}\" ({p['url']})" for p in roteiro.get("prints") or [])
     return msgs + [f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
+            + (f"\nPrints da fonte no terço de cima (a prova, sem tapar o rosto):\n{prints}" if prints else "")
             + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
             + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()
                if (marca := roteiro.get("marca") or {}).get("nota") is not None else ""),
@@ -403,7 +431,7 @@ def rodar(diario: Path, tipo: str, pasta_envio: Path | None = None, dia: str = "
         print("Roteirista: sem chave de IA, nada a fazer.")
         return []
     chamada = "newsletter" if os.environ.get("NEWSLETTER_ATIVA") == "sim" and tipo == "fechamento" else "grupo"
-    trabalhos = []  # (dia, nome, material)
+    trabalhos = []  # (dia, nome, material, prints)
     if tipo in ("abertura", "fechamento"):
         arq = (pasta_envio or Path("_whatsapp")) / "envio.json"
         if not arq.exists():
@@ -413,21 +441,22 @@ def rodar(diario: Path, tipo: str, pasta_envio: Path | None = None, dia: str = "
         if envio.get("tipo", "fechamento") != tipo:
             print(f"Roteirista: a mensagem preparada é de {envio.get('tipo')}, não de {tipo}.")
             return []
-        trabalhos.append((envio["dia"], tipo, material_envio(envio)))
+        trabalhos.append((envio["dia"], tipo, material_envio(envio), PRINTS_MERCADO))
     else:
         dia = dia or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
         for a in sorted((diario / "plantao").glob(f"{dia}-*.json")):
             if (diario / dia / "roteiros" / f"explica-{a.stem[11:]}.json").exists():
                 continue  # já tem roteiro
             artigo = json.loads(a.read_text())
-            trabalhos.append((dia, f"explica-{artigo['slug']}", material_artigo(artigo)))
+            trabalhos.append((dia, f"explica-{artigo['slug']}", material_artigo(artigo), prints_artigo(artigo)))
     if not trabalhos:
         print("Roteirista: nada novo para roteirizar.")
         return []
     cliente = cliente or ia.novo_cliente()
     gravados = []
-    for d, nome, material in trabalhos:
+    for d, nome, material, prints in trabalhos:
         r = escrever(cliente, "explica" if nome.startswith("explica") else tipo, material, chamada)
+        r["prints"] = prints
         gravados.append(gravar(diario, d, r, nome))
         estado = "aprovado" if r["aprovado"] else "reprovado: " + "; ".join(r["problemas"])
         print(f"  roteiro {nome} ({r['segundos']} s, gancho {nota(r['gancho'])}/10): {estado}")
