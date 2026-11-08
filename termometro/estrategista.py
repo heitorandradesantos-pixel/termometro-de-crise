@@ -29,7 +29,7 @@ Dê nota de 0 a 2 em cada critério (0 = falha, 1 = em parte, 2 = acerta):
 """ + "\n".join(f"- {k}: {v}" for k, v in CRITERIOS.items()) + """
 
 Depois, até 3 sugestões concretas, cada uma citando a frase e dizendo como reescrever (sem inventar número ou fato
-que não está na peça). Se a peça já está boa, não invente problema: sugestões vazias.""" + config.manual("marca", "comportamento")
+que não está na peça). Se a peça já está boa, não invente problema: sugestões vazias.""" + config.manual("marca", "comportamento", "referencias")
 
 
 def ferramenta() -> dict:

@@ -1,0 +1,61 @@
+name: Referências
+
+# Todo dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer e Rian), pela API oficial do
+# Instagram (Business Discovery, com a conta profissional do Termômetro), transcreve o áudio aqui no robô e grava a
+# análise (tema, gancho, técnicas, formato) no manual termometro/manuais/referencias.md, que o Roteirista, o
+# Copywriter e o Estrategista leem. Se o vídeo trata de notícia de dinheiro quente que ainda não cobrimos, manda a
+# pauta para o Plantão (que confere tudo com fonte antes de publicar). Nunca guarda a legenda nem a fala do criador.
+# Precisa dos secrets IG_TOKEN e IG_USER_ID; sem eles, não faz nada.
+on:
+  schedule:
+    - cron: "47 14 * * *" # 11h47 em Brasília (um agendamento externo também dispara)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: referencias
+  cancel-in-progress: false
+
+jobs:
+  referencias:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      MODELO_CLAUDE: ${{ vars.MODELO_CLAUDE }}
+      REFERENCIAS_PERFIS: ${{ vars.REFERENCIAS_PERFIS }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt faster-whisper
+      - name: Analisar os Reels novos
+        id: ref
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python rodar.py --referencias
+      - name: Guardar a análise
+        run: |
+          git config user.name "termometro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add termometro/manuais/referencias.md diario/referencias || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "Referências: análise dos Reels novos"
+          git pull -q --rebase origin main
+          git push
+      - name: Pautas para o Plantão
+        if: steps.ref.outputs.pautas != '' && steps.ref.outputs.pautas != '[]'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAUTAS: ${{ steps.ref.outputs.pautas }}
+        run: |
+          echo "$PAUTAS" | jq -r '.[]' | while IFS= read -r tema; do
+            gh workflow run plantao.yml --ref main -f tema="$tema"
+            echo "Pauta enviada ao Plantão: $tema" >> "$GITHUB_STEP_SUMMARY"
+          done

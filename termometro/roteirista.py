@@ -78,7 +78,7 @@ Regras:
    ("tô aqui e preciso te contar isso"); "bancada" para explicação, contexto ou assunto com muitos números.
 9. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
    "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias."""
-SISTEMA += config.manual("roteiro", "redacao", "marca")
+SISTEMA += config.manual("roteiro", "redacao", "marca", "referencias")
 
 
 def ferramenta() -> dict:

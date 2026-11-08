@@ -286,6 +286,8 @@ def main() -> None:
     p.add_argument("--pasta", default=str(RAIZ / "_whatsapp"), help="WhatsApp: pasta do envio")
     p.add_argument("--tema", default="", help="Plantão: assunto escolhido pelo editor (pula a pauta automática)")
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
+    p.add_argument("--referencias", action="store_true",
+                   help="Referências: analisa os Reels novos dos criadores que o Heitor acompanha (API do Instagram)")
     p.add_argument("--conselho", action="store_true", help="conselho de monetização: os agentes debatem e fecham um plano")
     p.add_argument("--dados", default=str(RAIZ / "dados"), help="pasta dos dados baixados")
     p.add_argument("--sem-coleta", action="store_true", help="usa os dados já baixados")
@@ -329,6 +331,13 @@ def main() -> None:
             print(whatsapp.preparar(DIARIO, dia, Path(a.pasta), teste=a.teste, tipo=a.tipo))
         else:
             print(whatsapp.concluir(DIARIO, Path(a.pasta)))
+    elif a.referencias:
+        from termometro import referencias
+        r = referencias.rodar(DIARIO, DIARIO / "referencias")
+        print(f"Referências: {len(r['notas'])} vídeo(s) novo(s), {len(r['pautas'])} pauta(s) para o Plantão.")
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
+                saida.write(f"pautas={json.dumps(r['pautas'], ensure_ascii=False)}\n")
     elif a.plantao:
         gravados = plantao.rodar(DIARIO, tema=a.tema, turno=os.environ.get("PLANTAO_TURNO", ""))
         if os.environ.get("GITHUB_OUTPUT"):
