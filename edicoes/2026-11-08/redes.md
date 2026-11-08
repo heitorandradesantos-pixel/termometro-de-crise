@@ -2,39 +2,38 @@
 
 ## Instagram (use card.png)
 
-O Termômetro de Crise subiu de 38 para 59 e entrou no nível Alerta. 🌡️
+O Termômetro de Crise está em 59 de 100. Nível: Alerta. 🌡️
 
-Alerta quer dizer dois ou mais sinais estressados ao mesmo tempo. Não é previsão de crise: é um aviso de que o risco está no radar.
+Pense num sinal amarelo: não é o momento de pânico, mas é o de prestar atenção.
 
-Olha só o que puxou a alta (leitura de set/26):
-• Petróleo: percentil 91, ou seja, mais tenso do que em 91% dos meses da série.
-• Juros longos dos EUA: percentil 76.
-• Bolsa americana: percentil 53.
+Como chegamos nesse número? Olhamos 5 indicadores públicos. Cada um é comparado com o próprio histórico desde 1990. Assim, a gente vê se o dado está mais tenso ou mais calmo do que de costume.
 
-E o seu bolso? O dólar fechou a R$ 5,51 na sexta (6/11), o maior valor de 2026. Dólar mais caro encarece importados e viagens. Com a Selic parada em 13,75%, o crédito continua caro.
+A leitura é de set/26, a mais recente com dados completos. O método é aberto: qualquer pessoa pode conferir de onde vem cada número.
 
-Para comparar: os picos foram 96 em 2008 e 94 na Covid.
+Olha só: o objetivo não é te assustar nem prever o futuro. É te mostrar a temperatura da economia numa conta que você consegue acompanhar.
 
-A edição completa, com a agenda dos próximos 7 dias, sai todo domingo. Link na bio.
+Quer receber a edição completa todo domingo? O link está na bio.
 
 Isso não é recomendação: é o termômetro.
 
 Conteúdo educativo, não é recomendação de investimento.
 
-#TermometroDeCrise #Dolar #Selic #EconomiaSimples #FinancasPessoais
+#TermometroDeCrise #EconomiaSimples #EducacaoFinanceira #Economia #Dinheiro
 
 ## X
 
-O Termômetro de Crise subiu de 38 para 59 e chegou ao nível Alerta (leitura de set/26). Petróleo, juros dos EUA e ações puxaram a alta. Não é previsão de crise: é o risco no radar. Edição completa: https://termometrodecrise.com
+O Termômetro de Crise está em 59 de 100, nível Alerta (leitura de set/26). A nota junta 5 indicadores públicos, cada um comparado com o próprio histórico desde 1990. Método aberto: termometrodecrise.com
 
 ## LinkedIn
 
-O Termômetro de Crise marcou 59 de 100 na leitura de set/26, nível Alerta. Em ago, estava em 38 (Atenção). Alerta quer dizer dois ou mais sinais estressados ao mesmo tempo.
+O Termômetro de Crise está em 59 de 100, nível Alerta, na edição de 08/11/2026.
 
-Três componentes puxaram a alta: energia (petróleo Brent contra a média de 12 meses), no percentil 91; juros longos dos EUA, no percentil 76; e ações (queda do S&P 500 desde a máxima de 12 meses), no percentil 53. Percentil 91 quer dizer mais tenso do que em 91% dos meses da série.
+A leitura é de set/26, a mais recente com dados completos. O número resume 5 indicadores públicos, e cada um é comparado com o próprio histórico desde 1990.
 
-Na semana, o dólar fechou a R$ 5,5087, o maior valor de 2026, e o Copom manteve a Selic em 13,75%. Nos EUA, o S&P 500 caiu 4,36% na quinta (5/11). Em Ormuz, EUA e Irã trocam incidentes. Ressalva: a leitura é anterior a essa semana e não foi recalculada.
+Essa comparação importa. Um dado isolado diz pouco. Quando se vê quanto ele está acima ou abaixo do que costuma ser, fica mais fácil separar ruído de sinal.
 
-O índice mostra risco no radar, mas não prevê que a crise vai acontecer. Para comparar, os picos foram 96 em 2008 e 94 na Covid.
+O método é aberto e a ideia é simples: dar ao leitor sem formação em economia uma medida clara de risco, com fonte. O Termômetro não prevê crise nem recomenda compra ou venda de ativo.
 
-Qual desses sinais pesa mais no seu trabalho hoje: câmbio, juros ou energia?
+A edição completa está em https://termometrodecrise.com
+
+Você acompanha algum indicador para entender o risco da economia? Qual?

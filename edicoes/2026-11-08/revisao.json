@@ -1,6 +1,6 @@
 {
-  "aprovado": true,
-  "palavras": 1015,
+  "aprovado": false,
+  "palavras": 34,
   "checagens": [
     {
       "regra": "Aviso legal presente",
@@ -10,8 +10,8 @@
     },
     {
       "regra": "Seções completas e na ordem",
-      "ok": true,
-      "detalhe": "faltando: ",
+      "ok": false,
+      "detalhe": "faltando: O Termômetro da semana, Os 3 riscos no radar, Uma lição da história, O que acompanhar nos próximos 7 dias",
       "bloqueia": true
     },
     {
@@ -22,8 +22,8 @@
     },
     {
       "regra": "Número e nível do Termômetro corretos",
-      "ok": true,
-      "detalhe": "no texto: [59]; válidos: [27, 36, 38, 42, 47, 51, 53, 59, 64, 68, 76, 78, 88, 89, 91, 94, 96]",
+      "ok": false,
+      "detalhe": "no texto: []; válidos: [27, 36, 38, 41, 48, 51, 53, 59, 64, 68, 76, 79, 88, 89, 91, 94, 96]",
       "bloqueia": true
     },
     {
@@ -40,14 +40,14 @@
     },
     {
       "regra": "Cada risco com fonte",
-      "ok": true,
+      "ok": false,
       "detalhe": "menos de 3 links nos riscos",
       "bloqueia": true
     },
     {
       "regra": "Tamanho entre 400 e 1.300 palavras",
-      "ok": true,
-      "detalhe": "1015 palavras",
+      "ok": false,
+      "detalhe": "34 palavras",
       "bloqueia": true
     },
     {
@@ -58,8 +58,8 @@
     },
     {
       "regra": "Fontes de primeira linha",
-      "ok": false,
-      "detalhe": "conferir: https://www.aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran, https://www.kyivpost.com/post/88451, https://www.nomadglobal.com/portal/analises/analise-do-copom-novembro-de-2026, https://www.schwab.com/learn/story/stock-market-update-open",
+      "ok": true,
+      "detalhe": "conferir: ",
       "bloqueia": false
     },
     {
@@ -76,8 +76,8 @@
     },
     {
       "regra": "SEO: palavra-chave no título e na abertura",
-      "ok": true,
-      "detalhe": "'crise econômica mundial' faltou em: ",
+      "ok": false,
+      "detalhe": "'crise econômica mundial' faltou em: abertura",
       "bloqueia": false
     },
     {
@@ -90,43 +90,43 @@
   "agentes": [
     {
       "agente": "Analista",
-      "segundos": 0.3,
+      "segundos": 0.4,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Analista mundial",
-      "segundos": 193.3,
+      "segundos": 199.4,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Arte: gráfico histórico",
-      "segundos": 0.3,
+      "segundos": 0.4,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Buscador",
-      "segundos": 114.5,
+      "segundos": 107.6,
       "ok": true,
       "erro": null
     },
     {
       "agente": "SEO",
-      "segundos": 23.3,
+      "segundos": 23.0,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Redator",
-      "segundos": 37.9,
+      "segundos": 46.4,
       "ok": true,
       "erro": null
     },
     {
       "agente": "Copy",
-      "segundos": 21.2,
+      "segundos": 19.1,
       "ok": true,
       "erro": null
     },

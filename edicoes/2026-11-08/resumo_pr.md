@@ -1,34 +1,34 @@
 ## Termômetro: 59 · Alerta (leitura de set/26)
 
-✅ **Aprovada pelo Revisor.**
+⛔ **O Revisor segurou esta edição.** Veja abaixo.
 
-**Assunto do e-mail:** Termômetro em 59, Alerta: o que pesou
-**Pré-cabeçalho:** Petróleo, juros dos EUA e ações puxaram a alta. Veja o que muda no seu bolso e a agenda da semana.
+**Assunto do e-mail:** Termômetro em 59: nível Alerta, leitura de set/26
+**Pré-cabeçalho:** 5 indicadores públicos, cada um comparado com o próprio histórico desde 1990. Edição de 08/11.
 
 | Regra | Detalhe |
 |---|---|
 | ✅ Aviso legal presente |  |
-| ✅ Seções completas e na ordem |  |
+| ⛔ Seções completas e na ordem | faltando: O Termômetro da semana, Os 3 riscos no radar, Uma lição da história, O que acompanhar nos próximos 7 dias |
 | ✅ Nada pendente |  |
-| ✅ Número e nível do Termômetro corretos |  |
+| ⛔ Número e nível do Termômetro corretos | no texto: []; válidos: [27, 36, 38, 41, 48, 51, 53, 59, 64, 68, 76, 79, 88, 89, 91, 94, 96] |
 | ✅ Sem recomendação, promessa ou alarmismo |  |
 | ✅ Todo link veio da pesquisa do Buscador |  |
-| ✅ Cada risco com fonte |  |
-| ✅ Tamanho entre 400 e 1.300 palavras |  |
+| ⛔ Cada risco com fonte | menos de 3 links nos riscos |
+| ⛔ Tamanho entre 400 e 1.300 palavras | 34 palavras |
 | ✅ Copy sem linguagem proibida |  |
-| ⚠️ Fontes de primeira linha | conferir: https://www.aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran, https://www.kyivpost.com/post/88451, https://www.nomadglobal.com/portal/analises/analise-do-copom-novembro-de-2026, https://www.schwab.com/learn/story/stock-market-update-open |
+| ✅ Fontes de primeira linha |  |
 | ✅ Copy sem ajustes automáticos |  |
 | ✅ Frases curtas (linguagem simples) |  |
-| ✅ SEO: palavra-chave no título e na abertura |  |
+| ⚠️ SEO: palavra-chave no título e na abertura | 'crise econômica mundial' faltou em: abertura |
 | ✅ Jargão traduzido |  |
 
 ### O que o Buscador encontrou
-- **Brent fecha a US$ 98,32 após maior queda semanal desde março de 2020** (Global, fato confirmado)
-- **Dólar fecha a R$ 5,51, maior nível de 2026, após reeleição de Lula** (Américas, fato confirmado)
-- **EUA e Irã trocam incidentes militares em Ormuz e no bloqueio naval** (Oriente Médio, operação em curso)
-- **Copom mantém a Selic em 13,75% por unanimidade e interrompe cinco cortes** (Américas, fato confirmado)
-- **Democratas vencem Câmara e Senado nas eleições legislativas dos EUA** (Américas, fato confirmado)
-- **Mediação do Catar entre EUA e Irã: versões divergem sobre o avanço** (Oriente Médio, negociação)
+- **Brent fecha a US$ 98,32, com queda semanal de 13% a 16%, a maior desde 2020** (Global, fato confirmado)
+- **Dólar renova máxima a R$ 5,523 e Ibovespa fecha a semana em alta de 0,34%, após reeleição de Lula** (Américas, fato confirmado)
+- **EUA dizem ter inutilizado navio que tentou furar bloqueio ao Irã; IRGC reivindica derrubada de drone** (Oriente Médio, operação em curso)
+- **Copom mantém a Selic em 13,75% por unanimidade e interrompe cinco cortes seguidos** (Américas, fato confirmado)
+- **Democratas conquistam Câmara e Senado nas eleições de meio de mandato dos EUA** (Américas, fato confirmado)
+- **EUA criam 165 mil vagas em outubro, desemprego cai a 4,1%; Treasury de 10 anos a 4,86%** (Américas, fato confirmado)
 
 ### Para publicar
 Toque em **Merge pull request**. O site atualiza e a newsletter segue para o beehiiv sozinhos.
