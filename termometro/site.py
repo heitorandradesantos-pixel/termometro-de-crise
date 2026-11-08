@@ -344,6 +344,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
+{('<p>Siga o Termômetro: ' + ' · '.join(f'<a href="{u}" target="_blank" rel="noopener me">{n}</a>' for n, u in config.REDES.items()) + '</p>') if config.REDES else ''}
 <p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}correcoes.html">Correções</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
 </body></html>"""
 
@@ -581,7 +582,8 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     estruturados = paginas.jsonld(
         {"@context": "https://schema.org", "@type": "WebSite", "name": config.NOME, "url": config.SITE_URL or "",
          "inLanguage": "pt-BR", "description": f"O termômetro de crise do mundo, das regiões e de {len(paginas.motor.PAISES)} países, em linguagem simples."},
-        {"@context": "https://schema.org", "@type": "Organization", "name": config.NOME, "url": config.SITE_URL or ""})
+        {"@context": "https://schema.org", "@type": "Organization", "name": config.NOME, "url": config.SITE_URL or "",
+         "logo": f"{config.SITE_URL}/icone-512.png", "sameAs": list(config.REDES.values())})
     corpo = topo + f"""
 {'<div class="anuncio"></div>' if config.ADSENSE_CLIENT else ''}
 <section class="cartao"><h2 style="margin-top:0">{titulo_tabela}</h2>
