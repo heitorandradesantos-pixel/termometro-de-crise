@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Dólar hoje? O número que você vê é o de sexta.",
+  "na_tela": "Dólar HOJE? É o de sexta",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Dólar hoje? O número que você vê é o de sexta.",
+   "na_tela": "Dólar HOJE? É o de sexta",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + contraste",
+   "texto": "A bolsa subiu 0,34% na semana, mas a próxima é de inflação.",
+   "na_tela": "Semana de INFLAÇÃO",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Bolsa e dólar descansam hoje, mas a semana vem cheia de inflação.",
+   "na_tela": "Bolsa e dólar descansam",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Dólar hoje? O número que você vê é o de sexta.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Domingo: a bolsa e o dólar não abrem.",
+  "Segundo o Jornal de Brasília, o dólar fechou sexta a R$ 5,511.",
+  "O Ibovespa, o índice da bolsa, subiu 0,34% na semana, segundo o InfoMoney.",
+  "De 9 a 13/11, Brasil, EUA e China divulgam inflação, diz a Safras & Mercado.",
+  "Olha só: o IPCA, a inflação oficial, é o termômetro do preço no mercado.",
+  "Inflação nos EUA mexe com os juros de lá, e isso pode afetar o dólar.",
+  "A data do IPCA não está confirmada: confira no site do IBGE.",
+  "Calma: sua conta só muda se estiver ligada a esses índices.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Dólar hoje? O número que você vê é o de sexta. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Domingo: a bolsa e o dólar não abrem. Segundo o Jornal de Brasília, o dólar fechou sexta a R$ 5,511. O Ibovespa, o índice da bolsa, subiu 0,34% na semana, segundo o InfoMoney. De 9 a 13/11, Brasil, EUA e China divulgam inflação, diz a Safras & Mercado. Olha só: o IPCA, a inflação oficial, é o termômetro do preço no mercado. Inflação nos EUA mexe com os juros de lá, e isso pode afetar o dólar. A data do IPCA não está confirmada: confira no site do IBGE. Calma: sua conta só muda se estiver ligada a esses índices. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 137,
+ "segundos": 55,
+ "na_tela": [
+  {
+   "texto": "Dólar HOJE? É o de sexta",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Sem pregão hoje",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Dólar: R$ 5,511",
+   "fonte": "Jornal de Brasília"
+  },
+  {
+   "fala": 4,
+   "texto": "Ibovespa: +0,34% na semana",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 5,
+   "texto": "Inflação: 9 a 13/11",
+   "fonte": "Safras & Mercado"
+  },
+  {
+   "fala": 6,
+   "texto": "IPCA = inflação oficial",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Confirme a data no IBGE",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: o que você vê é o fechamento de sexta (6/11), porque a bolsa e o câmbio não abrem no domingo.\n\nSegundo o Jornal de Brasília, o dólar fechou a R$ 5,511. O Ibovespa subiu 0,34% na semana, segundo o InfoMoney.\n\nNa semana de 9 a 13/11, o foco são os dados de inflação do Brasil (IPCA de outubro), dos EUA e da China, segundo a Safras & Mercado. A data do IPCA não está confirmada: confira no site do IBGE.\n\nSua conta só muda se estiver ligada a esses índices.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #inflacao #ipca #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#inflacao",
+  "#ipca",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar hoje? O número que você vê é o de sexta.",
+  "topicos": [
+   "Bolsa e dólar não abrem hoje; vale o fechamento de sexta, 6/11.",
+   "Dólar fechou a R$ 5,511, segundo o Jornal de Brasília.",
+   "Brasil, EUA e China divulgam inflação até 13/11, diz a Safras & Mercado.",
+   "Calma: só mexe na sua conta se ela estiver ligada a esses índices."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação de contexto sobre a semana, com vários dados e sem notícia quente que peça urgência na rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "\"Calma: sua conta só muda se estiver ligada a esses índices.\" — A frase é vaga e não diz o que fazer. Reescreva ligando a casos do dia a dia que já estão na peça: \"Se você paga ou recebe algo atrelado ao IPCA ou ao dólar, é aí que isso chega no seu bolso. Se não, é só acompanhar.\" Deixe o passo simples (conferir a data no site do IBGE) como a ação final.",
+   "\"Inflação nos EUA mexe com os juros de lá, e isso pode afetar o dólar.\" — A frase é abstrata e não traz comparação viva. Troque por uma imagem do cotidiano, sem número novo. Por exemplo: \"é como o preço do mercado lá fora subindo e mexendo no que a gente paga aqui\". Traduza \"juros\" na mesma frase.",
+   "\"O Ibovespa, o índice da bolsa, subiu 0,34% na semana\" / \"De 9 a 13/11, Brasil, EUA e China divulgam inflação\" — A lista de dados está seca e parece boletim. Abra com a pergunta de bolso (\"isso mexe no seu dinheiro?\") e ponha a resposta cedo, logo após o gancho. Use o \"Olha só\" para a virada. Assim a peça fala primeiro ao colérico e ao público que sente o bolso."
+  ],
+  "veredito": "A peça é honesta e bem fundamentada: cita as fontes, traduz o IPCA, avisa que a data não está confirmada e não faz promessa. Falta ligar tudo ao bolso da pessoa, com uma comparação viva e um passo prático além do \\\"calma\\\" genérico."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Quiet Sunday morning in a financial district: empty plaza and glass office towers with soft golden light, not a single person, closed glass doors of a building lobby with dark, switched-off screens. Slow cinematic drone push-in toward the towers, then a gentle tilt up. No text, no letters, no numbers, no logos, no flags, no people",
+   "texto_da_fala": "Domingo: a bolsa e o dólar não abrem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Quiet Sunday morning in a financial district: empty plaza and glass office towers with soft golden light, not a single person, closed glass doors of a building lobby with dark, switched-off screens. Slow cinematic drone push-in toward the towers, then a gentle tilt up. No text, no letters, no numbers, no logos, no flags, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Supermarket produce aisle with fresh fruit and vegetables stacked in crates, bright warm lighting, shelves with plain unlabeled blank packaging, no price tags and no signs. Slow smooth dolly forward along the aisle with shallow depth of field, ending on a close-up of a hand-free pile of tomatoes and oranges. No text, no letters, no numbers, no digits, no logos, no people, no faces",
+   "texto_da_fala": "Olha só: o IPCA, a inflação oficial, é o termômetro do preço no mercado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Supermarket produce aisle with fresh fruit and vegetables stacked in crates, bright warm lighting, shelves with plain unlabeled blank packaging, no price tags and no signs. Slow smooth dolly forward along the aisle with shallow depth of field, ending on a close-up of a hand-free pile of tomatoes and oranges. No text, no letters, no numbers, no digits, no logos, no people, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dólar hoje? O número que você vê é o de sexta.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nDomingo: a bolsa e o dólar não abrem.\n\nSegundo o Jornal de Brasília, o dólar fechou sexta a R$ 5,511.\n\nO Ibovespa, o índice da bolsa, subiu 0,34% na semana, segundo o InfoMoney.\n\nDe 9 a 13/11, Brasil, EUA e China divulgam inflação, diz a Safras & Mercado.\n\nOlha só: o IPCA, a inflação oficial, é o termômetro do preço no mercado.\n\nInflação nos EUA mexe com os juros de lá, e isso pode afetar o dólar.\n\nA data do IPCA não está confirmada: confira no site do IBGE.\n\nCalma: sua conta só muda se estiver ligada a esses índices.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/",
+   "destaque": "O Ibovespa fechou a sexta (6/11) em alta de 1,39%, aos 168.498,45 pontos."
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/",
+   "destaque": "Na sexta, investidores reagiram a dados de emprego dos EUA melhores do que o esperado, segundo a CNN Brasil."
+  }
+ ],
+ "data": "2026-11-08",
+ "gerado_em": "2026-11-08T09:19:06.232487-03:00"
+}
