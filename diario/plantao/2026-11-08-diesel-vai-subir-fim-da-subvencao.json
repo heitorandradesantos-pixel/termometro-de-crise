@@ -1,0 +1,120 @@
+{
+ "titulo": "Diesel vai subir com o fim da subvenção: o que se sabe",
+ "descricao": "Subvenção de R$ 1,40 ao diesel importado vence em 11 ou 12/11; a de R$ 2,12 foi renovada. Veja o que é fato e o que ninguém explicou.",
+ "palavra_chave": "diesel vai subir fim da subvenção",
+ "lead": "Duas subvenções (ajuda paga pelo governo a quem produz ou importa diesel) seguram o preço do combustível. A de R$ 1,40 por litro vence em 11 ou 12 de novembro, e a de R$ 2,12 foi renovada em 27/10 e, pelo calendário da ANP, vai até 26/11. Não há aviso oficial de que o diesel vai subir na bomba. A renovação da parcela de R$ 1,40 também não foi anunciada até agora.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A subvenção de R$ 2,12 por litro foi renovada por mais 30 dias. O governo anunciou em 27/10 e disse que o custo será compensado com receitas extraordinárias do petróleo. Ela é paga a produtores e importadores e se apoia na Medida Provisória 1.391, de 11/09.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+   "data": "2026-10-27",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A renovação saiu pela Portaria MF nº 3.181. Pelo calendário de apuração da ANP, o período de R$ 2,12 vai de 12 a 26 de novembro. A Abicom, associação dos importadores, fala em vencimento no \"fim do mês\".",
+   "fonte_url": "https://portalunibus.com.br/2026/11/07/subsidio-ao-diesel-prorrogacao-medida-provisoria-60-dias/",
+   "data": "2026-10-27",
+   "veiculo": "Portal UNIBUS",
+   "confiavel": false
+  },
+  {
+   "texto": "Os R$ 1,40 por litro valem só para o diesel A rodoviário importado, não para o diesel nacional. O governo anunciou a parcela em 13/10, por 30 dias, com custo estimado de R$ 1,6 bilhão. O valor vem somado aos R$ 2,12, o que dá R$ 3,52 para o litro importado.",
+   "fonte_url": "https://agenciagov.ebc.com.br/noticias/202610/governo-federal-prorroga-desoneracao-da-gasolina-e-do-etanol",
+   "data": "2026-10-13",
+   "veiculo": "Agência Gov",
+   "confiavel": false
+  },
+  {
+   "texto": "A data de fim dos R$ 1,40 varia conforme a fonte. O presidente da Abicom e a Refina Brasil citam 12/11. Já o levantamento do Minaspetro, de 30/10, aponta 11/11. Uma extensão por mais 30 dias está prevista, mas não é automática.",
+   "fonte_url": "https://minaspetro.com.br/subsidios-e-desoneracoes-atencao-para-prazos-de-encerramento-em-novembro/",
+   "data": "2026-10-30",
+   "veiculo": "Minaspetro",
+   "confiavel": false
+  },
+  {
+   "texto": "O Congresso estendeu por 60 dias a validade da MP 1.391, que autoriza a subvenção. A publicação saiu no Diário Oficial de 6/11. Isso mantém a possibilidade de continuar o programa, mas não é a aprovação definitiva da MP.",
+   "fonte_url": "https://portalunibus.com.br/2026/11/07/subsidio-ao-diesel-prorrogacao-medida-provisoria-60-dias/",
+   "data": "2026-11-06",
+   "veiculo": "Portal UNIBUS",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Abicom, a Petrobras vende o diesel nas refinarias a R$ 3,57 por litro, e a referência internacional está em R$ 7,49. Esse é o preço que a Petrobras cobra das distribuidoras, não o da bomba. O presidente da entidade diz que sem as ações do governo o combustível poderia custar o dobro.",
+   "fonte_url": "https://www.portalr10.com/noticia/157851/medidas-do-governo-evitam-que-combustiveis-dobrem-de-preco-diante-da-alta-do-petroleo/",
+   "data": "2026-11-08",
+   "veiculo": "Portal R10",
+   "confiavel": false
+  },
+  {
+   "texto": "O diesel S10 custava em média R$ 7,36 por litro no país na semana de 4 a 10 de outubro, segundo a ANP. Esse é o preço de bomba.",
+   "fonte_url": "https://agorarn.com.br/brasil/subvencao-diesel-prorrogada-novembro/",
+   "data": "2026-10-10",
+   "veiculo": "Agora RN",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ministério da Fazenda justificou a renovação de R$ 2,12 pela persistência de restrições no mercado internacional. Lembrou que mais de 25% do diesel usado no Brasil é importado.",
+   "fonte_url": "https://agorarn.com.br/brasil/subvencao-diesel-prorrogada-novembro/",
+   "data": "2026-10-27",
+   "veiculo": "Agora RN",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "MP 1.391 autoriza o governo a pagar subvenção a produtores e importadores de diesel.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+   "data": "2026-09-11",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Portaria MF 3.082 cria os R$ 1,40 extras por litro para o diesel A rodoviário importado, por 30 dias.",
+   "fonte_url": "https://gurudoscarros.com.br/2026/10/16/subsidio-diesel-importado-352-litro-como-funciona/",
+   "data": "2026-10-13",
+   "veiculo": "Guru dos Carros",
+   "confiavel": false
+  },
+  {
+   "texto": "Governo anuncia a renovação por 30 dias dos R$ 2,12 por litro.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+   "data": "2026-10-27",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Congresso prorroga por 60 dias a validade da MP 1.391, em publicação no Diário Oficial.",
+   "fonte_url": "https://portalunibus.com.br/2026/11/07/subsidio-ao-diesel-prorrogacao-medida-provisoria-60-dias/",
+   "data": "2026-11-06",
+   "veiculo": "Portal UNIBUS",
+   "confiavel": false
+  },
+  {
+   "texto": "Presidente da Abicom diz que as duas subvenções estão empilhadas: R$ 1,40 vence em 12/11 e R$ 2,12 no fim do mês, num total de R$ 3,52.",
+   "fonte_url": "https://amazonasatual.com.br/acoes-do-governo-lula-evitaram-alta-duas-vezes-maior-dos-combustiveis/",
+   "data": "2026-11-08",
+   "veiculo": "Estadão Conteúdo (via Amazonas Atual)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se o governo vai renovar os R$ 1,40. Não encontramos aviso oficial da Fazenda, da ANP ou da Petrobras sobre o tema até 8/11.",
+  "Não foi confirmado quanto o diesel subiria na bomba se as subvenções acabassem. Um dirigente do setor de distribuição, segundo o ABC Repórter citado pelo site emiteaí, alertou para R$ 10 a R$ 11 por litro até o fim de novembro, sem subvenção. É um alerta do setor, não um reajuste anunciado nem projeção oficial.",
+  "Não se sabe se a Petrobras vai reajustar o diesel nas refinarias. O site emiteaí diz que faz cerca de 145 dias sem reajuste. A empresa não anunciou mudança. O balanço do trimestre sai em 10/11, segundo o site Investir e Cuidar.",
+  "Os números da Abicom não batem entre si. R$ 3,57 contra R$ 7,497 dá diferença de R$ 3,93. O relatório de 6/11, segundo o Investir e Cuidar, aponta R$ 3,23, e o Minaspetro (via Folhapress) cita R$ 3,53. Não conseguimos consultar o relatório original da Abicom, e ninguém explicou a diferença.",
+  "A data exata do fim dos R$ 1,40 (11 ou 12/11) e do fim dos R$ 2,12 (26/11 pelo calendário da ANP, \"fim do mês\" pela Abicom) precisa de confirmação no Diário Oficial."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem abastece: a subvenção vai para produtores e importadores, não para o motorista. Você não recebe crédito nem pode exigir desconto no posto (Guru dos Carros). O preço na bomba depende também de distribuidoras e postos.",
+  "Preço de refinaria não é preço de bomba. Os R$ 3,57 são o que a Petrobras cobra das distribuidoras. Na bomba, o S10 custava R$ 7,36 em média na primeira semana de outubro.",
+  "Quem depende de frete: os R$ 1,40 valem só para o diesel importado, que responde por cerca de 33% do consumo, segundo o governo. Se o benefício acabar, o custo desse litro pode subir. O efeito em fretes e alimentos depende de reajuste da Petrobras e de repasse das empresas.",
+  "Para ver o que vale de fato, acompanhe o Diário Oficial da União, os comunicados da ANP e a pesquisa semanal de preços da ANP."
+ ],
+ "como_se_proteger": [],
+ "slug": "diesel-vai-subir-fim-da-subvencao",
+ "publicado_em": "2026-11-08T16:06:58.668313",
+ "atualizado_em": "2026-11-08T16:06:58.668313",
+ "assunto": "Subvenções que seguram o preço do diesel vencem: a de R$ 1,40 por litro termina na quinta (12/11) e a de R$ 2,12 no fim do mês, segundo reportagem de 8/11 com dados da Abicom.",
+ "turno": "viral"
+}
