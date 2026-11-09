@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Fala,Inter Display Black,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,7,3,2,80,80,600,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.10,Fala,,0,0,0,,Se você tem
+Dialogue: 0,0:00:01.10,0:00:02.20,Fala,,0,0,0,,{\c&H4EC1F2&}Nvidia{\c&HFFFFFF&} na sua
+Dialogue: 0,0:00:02.20,0:00:02.96,Fala,,0,0,0,,carteira
+Dialogue: 0,0:00:02.96,0:00:03.82,Fala,,0,0,0,,então preste muita
+Dialogue: 0,0:00:03.82,0:00:04.30,Fala,,0,0,0,,atenção
+Dialogue: 0,0:00:04.30,0:00:04.54,Fala,,0,0,0,,Fala
+Dialogue: 0,0:00:04.54,0:00:04.88,Fala,,0,0,0,,galera
+Dialogue: 0,0:00:04.88,0:00:05.66,Fala,,0,0,0,,aqui é o Heitor
+Dialogue: 0,0:00:05.66,0:00:07.19,Fala,,0,0,0,,do Termômetro de Crise
+Dialogue: 0,0:00:07.19,0:00:08.03,Fala,,0,0,0,,No último domingo
+Dialogue: 0,0:00:08.03,0:00:08.63,Fala,,0,0,0,,o conselho abriu
+Dialogue: 0,0:00:08.63,0:00:09.35,Fala,,0,0,0,,uma investigação
+Dialogue: 0,0:00:09.35,0:00:11.19,Fala,,0,0,0,,independente sobre {\c&H4EC1F2&}Jensen Huang{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.19,0:00:12.80,Fala,,0,0,0,,Reportagem é do {\c&H4EC1F2&}New York Times{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.80,0:00:13.76,Fala,,0,0,0,,com fontes anônimas
+Dialogue: 0,0:00:13.76,0:00:14.54,Fala,,0,0,0,,O conselho diz
+Dialogue: 0,0:00:14.54,0:00:15.40,Fala,,0,0,0,,não ter motivo
+Dialogue: 0,0:00:15.40,0:00:16.52,Fala,,0,0,0,,para crer que vazaram
+Dialogue: 0,0:00:16.52,0:00:17.27,Fala,,0,0,0,,segredos
+Dialogue: 0,0:00:17.27,0:00:18.19,Fala,,0,0,0,,Segundo a {\c&H4EC1F2&}Bloomberg{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.19,0:00:19.09,Fala,,0,0,0,,a ação já caía
+Dialogue: 0,0:00:19.09,0:00:20.47,Fala,,0,0,0,,{\c&H4EC1F2&}5%{\c&HFFFFFF&} antes mesmo da
+Dialogue: 0,0:00:20.47,0:00:21.03,Fala,,0,0,0,,abertura
+Dialogue: 0,0:00:21.03,0:00:22.02,Fala,,0,0,0,,Pela mesma conta
+Dialogue: 0,0:00:22.02,0:00:24.04,Fala,,0,0,0,,uns {\c&H4EC1F2&}225{\c&HFFFFFF&} bilhões
+Dialogue: 0,0:00:24.04,0:00:24.84,Fala,,0,0,0,,de dólares a menos
+Dialogue: 0,0:00:24.84,0:00:25.33,Fala,,0,0,0,,do valor
+Dialogue: 0,0:00:25.33,0:00:26.11,Fala,,0,0,0,,Quem tem {\c&H4EC1F2&}Nvidia{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.11,0:00:26.81,Fala,,0,0,0,,tem um recibo
+Dialogue: 0,0:00:26.81,0:00:28.23,Fala,,0,0,0,,em reais da ação
+Dialogue: 0,0:00:28.23,0:00:28.84,Fala,,0,0,0,,americana
+Dialogue: 0,0:00:28.84,0:00:29.68,Fala,,0,0,0,,Tipo fatura com dois
+Dialogue: 0,0:00:29.68,0:00:29.98,Fala,,0,0,0,,itens
+Dialogue: 0,0:00:29.98,0:00:30.60,Fala,,0,0,0,,a ação lá
+Dialogue: 0,0:00:30.60,0:00:31.63,Fala,,0,0,0,,fora e o dólar
+Dialogue: 0,0:00:31.63,0:00:32.61,Fala,,0,0,0,,Ainda não se sabe
+Dialogue: 0,0:00:32.61,0:00:33.67,Fala,,0,0,0,,nem o prazo
+Dialogue: 0,0:00:33.67,0:00:34.52,Fala,,0,0,0,,nem o resultado
+Dialogue: 0,0:00:34.52,0:00:36.09,Fala,,0,0,0,,A investigação mal começou
+Dialogue: 0,0:00:36.09,0:00:36.97,Fala,,0,0,0,,mas fica tranquilo
+Dialogue: 0,0:00:36.97,0:00:37.61,Fala,,0,0,0,,sem {\c&H4EC1F2&}pânico{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.61,0:00:38.37,Fala,,0,0,0,,Confira o que você
+Dialogue: 0,0:00:38.37,0:00:39.09,Fala,,0,0,0,,tem e acompanha
+Dialogue: 0,0:00:39.09,0:00:39.83,Fala,,0,0,0,,a reunião do dia
+Dialogue: 0,0:00:39.83,0:00:41.07,Fala,,0,0,0,,{\c&H4EC1F2&}18{\c&HFFFFFF&} de novembro
+Dialogue: 0,0:00:41.07,0:00:42.40,Fala,,0,0,0,,Isso não é recomendação
+Dialogue: 0,0:00:42.40,0:00:43.41,Fala,,0,0,0,,é o termômetro
+Dialogue: 0,0:00:43.41,0:00:43.85,Fala,,0,0,0,,E o grupo
+Dialogue: 0,0:00:43.85,0:00:44.60,Fala,,0,0,0,,do nosso WhatsApp
+Dialogue: 0,0:00:44.60,0:00:45.35,Fala,,0,0,0,,está com o link
+Dialogue: 0,0:00:45.35,0:00:45.73,Fala,,0,0,0,,na bio
+Dialogue: 0,0:00:45.73,0:00:46.51,Fala,,0,0,0,,é só acessar
+Dialogue: 0,0:00:46.51,0:00:47.29,Fala,,0,0,0,,e entrar para saber
+Dialogue: 0,0:00:47.29,0:00:48.69,Fala,,0,0,0,,as novidades do mercado
