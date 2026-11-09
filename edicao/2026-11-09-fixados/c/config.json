@@ -1,0 +1,130 @@
+{
+ "destaques": "\\d|%|pix|cripto|whatsapp|graça|grátis|jargão|pânico|fonte|febre|calmaria|atenção|alerta|tensão|crise\\b|temperatura|susto|mensagens|manhã|tarde|domingo|newsletter|surpresa|dólar",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "saida": "fixado-3-editado.mp4",
+ "fim": 45.75,
+ "bordao": [
+  43.0,
+  45.75
+ ],
+ "roteiro": [
+  "Duas mensagens por dia útil e você nunca mais é pego de surpresa pelo dólar.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "No grupo do Termômetro, chegam duas mensagens por dia útil.",
+  "De manhã, como o mundo amanheceu e como a bolsa brasileira abriu.",
+  "No fim da tarde, o fechamento: o card do dia e o porquê de cada número.",
+  "É grupo só de avisos: ninguém manda corrente, só a gente posta.",
+  "E é de graça.",
+  "No domingo tem resumo especial no grupo e a newsletter por e-mail.",
+  "Pensa num boletim do tempo, só que do seu dinheiro.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "whatsapp"
+   ],
+   [
+    "WhatsApp"
+   ]
+  ],
+  [
+   [
+    "email"
+   ],
+   [
+    "e-mail"
+   ]
+  ],
+  [
+   [
+    "Só",
+    "Duas"
+   ],
+   [
+    "Só",
+    "duas"
+   ]
+  ],
+  [
+   [
+    "chegam",
+    "duas",
+    "mensagens",
+    "por",
+    "dia"
+   ],
+   [
+    "chegam",
+    "duas",
+    "mensagens",
+    "por",
+    "dia|"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   4.12,
+   "*2 mensagens* e nada de susto com o dólar",
+   ""
+  ],
+  [
+   7.72,
+   11.74,
+   "Grupo do Termômetro: *2 mensagens* por dia útil",
+   ""
+  ],
+  [
+   11.98,
+   16.48,
+   "*Manhã*: como o mundo e a bolsa abriram",
+   ""
+  ],
+  [
+   16.64,
+   21.46,
+   "*Fim da tarde*: o fechamento e o card do dia",
+   ""
+  ],
+  [
+   21.84,
+   27.98,
+   "Só avisos · *grátis*",
+   ""
+  ],
+  [
+   28.14,
+   32.2,
+   "*Domingo*: resumo especial + newsletter",
+   ""
+  ],
+  [
+   32.4,
+   36.12,
+   "Um boletim do tempo *do seu dinheiro*",
+   ""
+  ],
+  [
+   36.5,
+   38.66,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   38.94,
+   42.8,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}

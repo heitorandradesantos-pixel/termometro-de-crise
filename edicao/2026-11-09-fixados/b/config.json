@@ -1,0 +1,182 @@
+{
+ "destaques": "\\d|%|pix|cripto|whatsapp|graça|grátis|jargão|pânico|fonte|febre|calmaria|atenção|alerta|tensão|crise\\b|temperatura|susto",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "saida": "fixado-2-editado.mp4",
+ "fim": 47.2,
+ "bordao": [
+  44.72,
+  47.2
+ ],
+ "roteiro": [
+  "O Brasil está com febre hoje? Tem um número que te diz isso todo dia.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "O termômetro mede, de 0 a 100, o nervosismo dos mercados.",
+  "A gente olha a bolsa, o sobe e desce do mercado e a moeda de 35 países.",
+  "Até 20 é calmaria, no azul. De 21 a 40, atenção.",
+  "De 41 a 60 é alerta, no amarelo. De 61 a 80, tensão, no laranja.",
+  "E acima de 80 é crise, no vermelho.",
+  "Pensa no termômetro de casa: 37 e meio não é doença, mas pede atenção.",
+  "O número não diz o que comprar. Ele diz a temperatura.",
+  "E com a temperatura na mão, você não decide nada no susto.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "é",
+    "a",
+    "tensão"
+   ],
+   [
+    "é",
+    "atenção"
+   ]
+  ],
+  [
+   [
+    "37",
+    ",5"
+   ],
+   [
+    "37,5"
+   ]
+  ],
+  [
+   [
+    "whatsapp"
+   ],
+   [
+    "WhatsApp"
+   ]
+  ],
+  [
+   [
+    "brasil"
+   ],
+   [
+    "Brasil"
+   ]
+  ],
+  [
+   [
+    "heitor"
+   ],
+   [
+    "Heitor"
+   ]
+  ],
+  [
+   [
+    "o",
+    "brasil"
+   ],
+   [
+    "O",
+    "Brasil"
+   ]
+  ],
+  [
+   [
+    "para",
+    "você"
+   ],
+   [
+    "para",
+    "você|"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   4.38,
+   "O Brasil está com *febre* hoje?",
+   ""
+  ],
+  [
+   6.74,
+   10.34,
+   "Nervosismo dos mercados, de *0 a 100*",
+   ""
+  ],
+  [
+   10.5,
+   15.12,
+   "Bolsa · sobe e desce · moeda de *35 países*",
+   ""
+  ],
+  [
+   15.44,
+   17.26,
+   "*0 a 20*: Calmaria",
+   "",
+   "#5FA8E8"
+  ],
+  [
+   17.26,
+   19.25,
+   "*21 a 40*: Atenção",
+   "",
+   "#7CC3E0"
+  ],
+  [
+   19.3,
+   22.08,
+   "*41 a 60*: Alerta",
+   "",
+   "#F2C14E"
+  ],
+  [
+   22.08,
+   24.24,
+   "*61 a 80*: Tensão",
+   "",
+   "#EE8A3C"
+  ],
+  [
+   24.24,
+   26.22,
+   "*81 a 100*: Crise",
+   "",
+   "#E5554A"
+  ],
+  [
+   26.56,
+   30.48,
+   "*37,5 °C* não é doença, mas pede atenção",
+   ""
+  ],
+  [
+   30.82,
+   34.58,
+   "Não diz o que comprar: diz a *temperatura*",
+   ""
+  ],
+  [
+   34.58,
+   38.44,
+   "Nada de decidir *no susto*",
+   ""
+  ],
+  [
+   38.44,
+   40.58,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   40.58,
+   44.6,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}

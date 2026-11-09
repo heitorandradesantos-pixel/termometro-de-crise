@@ -1,0 +1,148 @@
+{
+ "destaques": "\\d|%|pix|cripto|whatsapp|graça|grátis|jargão|pânico|fonte|febre|calmaria|atenção|alerta|tensão|crise\\b|temperatura|susto",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "saida": "fixado-1-editado.mp4",
+ "fim": 47.0,
+ "bordao": [
+  44.36,
+  47.0
+ ],
+ "remover": [
+  [
+   31.66,
+   34.36
+  ]
+ ],
+ "roteiro": [
+  "Notícia de economia parece outra língua? Então esse perfil é pra você.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Todo dia sai notícia de dólar, juros, bolsa, Pix e cripto.",
+  "E quase ninguém explica o que isso muda no seu bolso.",
+  "É isso que eu faço aqui: pego o que mexeu com o seu dinheiro e explico em um minuto.",
+  "Sem jargão, sem pânico e sempre com a fonte na tela.",
+  "Olha só: eu não vou te dizer em que investir.",
+  "Meu trabalho é te deixar por dentro, pra você decidir melhor sozinho.",
+  "Todo dia útil tem vídeo novo por aqui.",
+  "E o resumo do dia chega no grupo do WhatsApp, de graça.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!",
+  "Tá com link aqui na bio."
+ ],
+ "corrigir": [
+  [
+   [
+    "economia",
+    "Aparece"
+   ],
+   [
+    "economia",
+    "parece"
+   ]
+  ],
+  [
+   [
+    "quem",
+    "vestir"
+   ],
+   [
+    "que",
+    "investir"
+   ]
+  ],
+  [
+   [
+    "whatsapp"
+   ],
+   [
+    "WhatsApp"
+   ]
+  ],
+  [
+   [
+    "pix"
+   ],
+   [
+    "Pix"
+   ]
+  ],
+  [
+   [
+    "E",
+    "Todo"
+   ],
+   [
+    "E",
+    "todo"
+   ]
+  ],
+  [
+   [
+    "E",
+    "É",
+    "isso"
+   ],
+   [
+    "E",
+    "é",
+    "isso"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   3.84,
+   "Economia parece *outra língua*?",
+   ""
+  ],
+  [
+   6.74,
+   10.78,
+   "Dólar · juros · *Pix* · cripto",
+   ""
+  ],
+  [
+   14.1,
+   18.56,
+   "O que mexeu com o seu dinheiro, em *1 minuto*",
+   ""
+  ],
+  [
+   18.76,
+   21.88,
+   "Sem jargão · sem pânico · *fonte na tela*",
+   ""
+  ],
+  [
+   22.18,
+   28.9,
+   "Não digo onde investir: *você decide*",
+   ""
+  ],
+  [
+   28.9,
+   31.62,
+   "Vídeo novo *todo dia útil*",
+   ""
+  ],
+  [
+   34.4,
+   40.38,
+   "Resumo do dia no grupo: *grátis* · link na bio",
+   ""
+  ],
+  [
+   40.38,
+   44.3,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}
