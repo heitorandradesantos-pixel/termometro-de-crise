@@ -1,0 +1,40 @@
+name: Ler post
+
+# Lê um post do Instagram pelo link (API oficial do Instagram, com a conta do Termômetro): autor, legenda, data e a
+# fala transcrita, para checar se é fato ou mito. O resultado sai criptografado no log; a chave vem no disparo.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "link do post"
+        required: true
+      perfis:
+        description: "@ de quem postou, se souber (separados por vírgula)"
+        required: false
+        default: ""
+      chave:
+        description: "chave para criptografar o resultado"
+        required: true
+
+jobs:
+  ler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt faster-whisper
+      - run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Ler
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          URL: ${{ inputs.url }}
+          PERFIS: ${{ inputs.perfis }}
+        run: |
+          CHAVE=$(jq -r '.inputs.chave' "$GITHUB_EVENT_PATH")
+          echo "::add-mask::$CHAVE"
+          export CHAVE
+          python -m termometro.ler_post "$URL" "$PERFIS"
