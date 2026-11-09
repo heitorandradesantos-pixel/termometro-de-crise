@@ -1,0 +1,191 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Tem NVDC34 na carteira? Então essa investigação na Nvidia é com você.",
+  "na_tela": "Tem NVDC34? Isso é com você",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 1
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Nvidia caía cerca de 5% antes de abrir. O motivo: uma investigação no topo.",
+   "na_tela": "Nvidia cai 5% antes de abrir",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Tem NVDC34 na carteira? Então essa investigação na Nvidia é com você.",
+   "na_tela": "Tem NVDC34? Isso é com você",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "No domingo, o conselho da Nvidia abriu uma investigação sobre o próprio CEO.",
+   "na_tela": "Nvidia investiga o próprio CEO",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Tem NVDC34 na carteira? Então essa investigação na Nvidia é com você.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "No domingo, o conselho abriu uma investigação independente sobre Jensen Huang.",
+  "Reportagem do New York Times, com fontes anônimas; a China nega.",
+  "O conselho diz não ter motivo para crer que segredos vazaram.",
+  "Segundo a Bloomberg, a ação caía cerca de 5% antes da abertura.",
+  "Olha só: pela mesma conta, uns US$ 225 bilhões a menos de valor.",
+  "Quem tem NVDC34 tem um recibo, em reais, da ação americana.",
+  "Tipo fatura com dois itens: a ação lá fora e o dólar.",
+  "Ainda não se sabe prazo nem resultado: a investigação mal começou.",
+  "Sem pânico: confira o que você tem e acompanhe a reunião de 18/11.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Tem NVDC34 na carteira? Então essa investigação na Nvidia é com você. Fala, galera, aqui é o Heitor, do Termômetro de Crise. No domingo, o conselho abriu uma investigação independente sobre Jensen Huang. Reportagem do New York Times, com fontes anônimas; a China nega. O conselho diz não ter motivo para crer que segredos vazaram. Segundo a Bloomberg, a ação caía cerca de 5% antes da abertura. Olha só: pela mesma conta, uns US$ 225 bilhões a menos de valor. Quem tem NVDC34 tem um recibo, em reais, da ação americana. Tipo fatura com dois itens: a ação lá fora e o dólar. Ainda não se sabe prazo nem resultado: a investigação mal começou. Sem pânico: confira o que você tem e acompanhe a reunião de 18/11. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 144,
+ "segundos": 58,
+ "na_tela": [
+  {
+   "texto": "Tem NVDC34? Isso é com você",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Investigação independente",
+   "fonte": "CNBC"
+  },
+  {
+   "fala": 3,
+   "texto": "Fontes anônimas · China nega",
+   "fonte": "New York Times"
+  },
+  {
+   "fala": 5,
+   "texto": "Queda de cerca de 5%",
+   "fonte": "Bloomberg"
+  },
+  {
+   "fala": 6,
+   "texto": "US$ 225 bilhões",
+   "fonte": "Bloomberg"
+  },
+  {
+   "fala": 7,
+   "texto": "NVDC34 = recibo em reais",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 10,
+   "texto": "18/11",
+   "fonte": "South China Morning Post"
+  }
+ ],
+ "retomada": 6,
+ "busca": "Nvidia investigação Jensen Huang: o que muda para quem tem NVDC34",
+ "legenda": "Nvidia investigação Jensen Huang: o que muda para quem tem NVDC34?\n\nNo domingo (8/11), o conselho da Nvidia anunciou uma investigação independente sobre o CEO, depois de reportagens do New York Times com fontes anônimas. O conselho diz não ter motivo para crer que segredos da empresa foram afetados. A China nega qualquer ligação.\n\nSegundo a Bloomberg, a ação chegou a cair cerca de 5% no pré-mercado, o que equivale a uns US$ 225 bilhões a menos em valor de mercado. Quem tem o BDR NVDC34 sente a ação lá fora e também o dólar.\n\nAinda não há prazo nem resultado. Uma data a acompanhar é a reunião pedida pela Câmara dos EUA, em 18/11.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#nvidia #nvdc34 #bdr #mercadofinanceiro #termometrodecrise",
+ "hashtags": [
+  "#nvidia",
+  "#nvdc34",
+  "#bdr",
+  "#mercadofinanceiro",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Tem NVDC34? A Nvidia abriu investigação sobre o próprio CEO.",
+  "topicos": [
+   "Domingo, a Nvidia abriu investigação sobre o CEO, segundo comunicado à CNBC.",
+   "A Bloomberg diz: ação caía cerca de 5%, uns US$ 225 bilhões a menos.",
+   "Quem tem NVDC34 sente a ação lá fora e o dólar.",
+   "Sem pânico: confira o que você tem e acompanhe a reunião de 18/11."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente da segunda-feira, com a ação ainda oscilando no pré-mercado, e pede o tom de \"preciso te contar isso\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho \"Tem NVDC34 na carteira? Então essa investigação na Nvidia é com você.\": acerta na identificação, mas fecha o público principal (quem sente a economia no bolso e não tem BDR). Reescreva abrindo com a pergunta de bolso, algo como \"Investigação na Nvidia: isso mexe no seu bolso?\", e deixe o NVDC34 para a frase seguinte, para quem tem. Assim o iniciante curioso também fica.",
+   "\"Quem tem NVDC34 tem um recibo, em reais, da ação americana.\": a imagem do recibo ajuda, mas BDR e \"pré-mercado\" seguem como jargão. Traduza na mesma frase (por exemplo, \"BDR é o papel brasileiro que acompanha a ação de lá\"). A comparação da fatura com dois itens fica mais viva se disser o que sobe e o que desce: \"se a ação cai ou o dólar muda, o seu recibo mexe\". Não invente número.",
+   "\"Sem pânico: confira o que você tem e acompanhe a reunião de 18/11.\": o passo é vago para quem tem pouca experiência. Diga o que conferir, por exemplo \"abra o app da corretora e veja se NVDC34 está na sua carteira e quanto ela pesa\". Deixe a calma mais acolhedora, como \"a investigação mal começou, não há decisão a tomar hoje\". Não prometa proteção. Troque também o \"O grupo do WhatsApp está no link da bio\" por um convite que diga o que a pessoa recebe lá, sem soar como urgência."
+  ],
+  "veredito": "A peça tem fonte em cada afirmação, deixa claro o que ainda não se sabe, fecha com calma e usa os bordões da casa, sem alarmismo e sem recomendação; falta abrir para quem não tem NVDC34, traduzir BDR e pré-mercado e dar um passo mais concreto ao final."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Empty modern corporate boardroom at dusk, a long polished table with leather chairs and closed blank folders, floor-to-ceiling windows with a glowing city skyline outside. Slow dolly-in along the length of the table, cool blue light, cinematic shallow depth of field. No people, no text, no logos",
+   "texto_da_fala": "No domingo, o conselho abriu uma investigação independente sobre Jensen Huang.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Empty modern corporate boardroom at dusk, a long polished table with leather chairs and closed blank folders, floor-to-ceiling windows with a glowing city skyline outside. Slow dolly-in along the length of the table, cool blue light, cinematic shallow depth of field. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Quiet trading room just before market open, early blue morning light, rows of dark monitors showing only abstract glowing red downward-sloping line graphics with no numbers, letters or symbols. Slow lateral tracking shot across the empty desks, subtle screen reflections, tense mood. No people, no text, no logos",
+   "texto_da_fala": "Segundo a Bloomberg, a ação caía cerca de 5% antes da abertura.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Quiet trading room just before market open, early blue morning light, rows of dark monitors showing only abstract glowing red downward-sloping line graphics with no numbers, letters or symbols. Slow lateral tracking shot across the empty desks, subtle screen reflections, tense mood. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Close-up of a long paper receipt on a wooden desk, with two bold abstract horizontal ink bars as line items and no readable characters, next to a small glass globe and a stack of coins. Slow top-down camera push-in with a slight rotation, warm desk lamp light, soft shadows. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Tipo fatura com dois itens: a ação lá fora e o dólar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a long paper receipt on a wooden desk, with two bold abstract horizontal ink bars as line items and no readable characters, next to a small glass globe and a stack of coins. Slow top-down camera push-in with a slight rotation, warm desk lamp light, soft shadows. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Tem NVDC34 na carteira? Então essa investigação na Nvidia é com você.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nNo domingo, o conselho abriu uma investigação independente sobre Jensen Huang.\n\nReportagem do New York Times, com fontes anônimas; a China nega.\n\nO conselho diz não ter motivo para crer que segredos vazaram.\n\nSegundo a Bloomberg, a ação caía cerca de 5% antes da abertura.\n\nOlha só: pela mesma conta, uns US$ 225 bilhões a menos de valor.\n\nQuem tem NVDC34 tem um recibo, em reais, da ação americana.\n\nTipo fatura com dois itens: a ação lá fora e o dólar.\n\nAinda não se sabe prazo nem resultado: a investigação mal começou.\n\nSem pânico: confira o que você tem e acompanhe a reunião de 18/11.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "CNBC (texto do comunicado)",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "destaque": "O conselho da Nvidia informou em comunicado, no domingo (8/11), que abriu uma investigação independente após reportagens de que o fundador…"
+  },
+  {
+   "veiculo": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+   "destaque": "O conselho diz não ter motivo para acreditar que a segurança nacional ou segredos da Nvidia foram comprometidos, mas afirma que a apuração…"
+  },
+  {
+   "veiculo": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-07/us-believes-woman-close-to-nvidia-ceo-was-a-china-spy-nyt-says",
+   "destaque": "A reportagem que deu origem ao caso é do New York Times."
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T09:04:22.719009-03:00"
+}
