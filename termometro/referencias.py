@@ -152,6 +152,15 @@ def analisar(cliente, perfil: str, legenda: str, transcricao: str, titulos: list
     return ia.estruturado(cliente, SISTEMA, pedido, ferramenta(), max_tokens=2000) or {}
 
 
+SEM_PAUTA = re.compile(r"^\W*(sem pauta|nenhum|nenhuma|vazio|n/?a|-+)\b|^\W*$", re.IGNORECASE)
+
+
+def limpar_pauta(pauta: str) -> str:
+    """O modelo às vezes escreve "Sem pauta: ..." no campo; isso é pauta vazia."""
+    pauta = pauta.strip()
+    return "" if SEM_PAUTA.search(pauta) else pauta
+
+
 def nota(perfil: str, post: dict, a: dict) -> str:
     dia = str(post.get("timestamp", ""))[:10]
     tecnicas = "; ".join(a.get("tecnicas") or [])
@@ -205,11 +214,15 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
                         transcricao = transcritor(baixar(post["media_url"], Path(tmp) / "reel.mp4", buscar))
                     except Exception as erro:  # noqa: BLE001 — sem áudio, analisa pela legenda
                         print(f"  @{perfil}: sem transcrição ({str(erro)[:80]})")
-            a = analisar(cliente, perfil, post.get("caption") or "", transcricao, titulos)
+            legenda = (post.get("caption") or "").strip()
+            if not legenda and not transcricao:  # nada para analisar: tenta de novo na próxima leitura
+                print(f"  @{perfil}: sem legenda e sem áudio transcrito; fica para a próxima")
+                continue
+            a = analisar(cliente, perfil, legenda, transcricao, titulos)
             if not a.get("tema"):
                 continue
             notas.append(nota(perfil, post, a))
-            pauta = (a.get("pauta") or "").strip()
+            pauta = limpar_pauta(a.get("pauta") or "")
             enviar = (pauta and not a.get("ja_coberto") and len(pautas) < vagas
                       and not re.search(r"\b(compre|venda|invista)\b", pauta, re.IGNORECASE))
             ja[post["id"]] = {"perfil": perfil, "link": post.get("permalink", ""), "dia": str(quando.date()),

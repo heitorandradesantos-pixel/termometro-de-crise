@@ -339,7 +339,8 @@ def main() -> None:
             with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
                 saida.write(f"pautas={json.dumps(r['pautas'], ensure_ascii=False)}\n")
     elif a.plantao:
-        gravados = plantao.rodar(DIARIO, tema=a.tema, turno=os.environ.get("PLANTAO_TURNO", ""))
+        gravados = plantao.rodar(DIARIO, tema=a.tema, turno=os.environ.get("PLANTAO_TURNO", ""),
+                                 sugerido=os.environ.get("PLANTAO_ORIGEM", "") == "referencias")
         if os.environ.get("GITHUB_OUTPUT"):
             with open(os.environ["GITHUB_OUTPUT"], "a") as saida:
                 saida.write(f"publicar={'sim' if gravados else 'nao'}\n")

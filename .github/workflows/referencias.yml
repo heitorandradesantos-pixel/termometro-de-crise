@@ -37,7 +37,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -q -r requirements.txt faster-whisper
+      - run: pip install -q -r requirements.txt faster-whisper "av<15"  # o av 15 quebrou o faster-whisper
       - name: Analisar os Reels novos
         id: ref
         env:
@@ -62,6 +62,6 @@ jobs:
           PAUTAS: ${{ steps.ref.outputs.pautas }}
         run: |
           echo "$PAUTAS" | jq -r '.[]' | while IFS= read -r tema; do
-            gh workflow run plantao.yml --ref main -f tema="$tema"
+            gh workflow run plantao.yml --ref main -f tema="$tema" -f origem=referencias
             echo "Pauta enviada ao Plantão: $tema" >> "$GITHUB_STEP_SUMMARY"
           done

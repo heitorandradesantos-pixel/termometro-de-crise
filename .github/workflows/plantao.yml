@@ -25,6 +25,10 @@ on:
         description: "manha, meio, tarde, viral ou noite (vazio = pelo horário)"
         required: false
         default: ""
+      origem:
+        description: "referencias = pauta sugerida pelo robô de referências (não pode repetir assunto)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -61,6 +65,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TEMA: ${{ inputs.tema }}
           PLANTAO_TURNO: ${{ inputs.turno }}
+          PLANTAO_ORIGEM: ${{ inputs.origem }}
         run: python rodar.py --plantao --tema "$TEMA"
       - name: Publicar ou pedir aprovação
         if: steps.plantao.outputs.publicar == 'sim'

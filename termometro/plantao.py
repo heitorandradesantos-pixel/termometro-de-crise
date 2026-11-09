@@ -59,7 +59,7 @@ Regras:
 5. O fato que vira notícia tem que ser de hoje ou de ontem. Caso de uma semana atrás só entra se houve novidade hoje,
    e aí o assunto é a novidade (com a data dela).""" + config.manual("pesquisa", "seo")
 
-REPORTER = f"""Você é o repórter do Plantão do Termômetro de Crise, um portal financeiro brasileiro para leigos.
+REPORTER = """Você é o repórter do Plantão do Termômetro de Crise, um portal financeiro brasileiro para leigos.
 Escreva a notícia no formato "o que se sabe", que é o que o Google mostra quando o assunto está quente.
 
 Regras de apuração:
@@ -261,7 +261,7 @@ def escrever(cliente, assunto: dict, hoje: str, anterior: dict | None = None) ->
 
 
 def rodar(diario: Path, agora: pd.Timestamp | None = None, cliente=None, tema: str = "",
-          turno: str = "") -> list[Path]:
+          turno: str = "", sugerido: bool = False) -> list[Path]:
     """Uma rodada do Plantão. Devolve os artigos gravados (nenhum, se nada passou na conferência)."""
     agora = agora or pd.Timestamp.now(tz="America/Sao_Paulo").tz_localize(None)
     hoje = agora.strftime("%Y-%m-%d")
@@ -294,7 +294,8 @@ def rodar(diario: Path, agora: pd.Timestamp | None = None, cliente=None, tema: s
             if len(gravados) >= MAXIMO_POR_RODADA or do_dia + len(gravados) >= limite:
                 break
             velho = por_slug.get(assunto.get("atualizar_slug") or "") if turno == "noite" else None
-            if not tema and not velho and turno != "manha" and \
+            # o pedido do editor passa direto; a pauta sugerida pelas referências (outro criador) não pode repetir
+            if (sugerido or (not tema and turno != "manha")) and not velho and \
                     repetido(assunto["assunto"] + " " + assunto["busca_do_leitor"], anteriores, agora):
                 print(f"  já coberto: {assunto['assunto']}")
                 continue

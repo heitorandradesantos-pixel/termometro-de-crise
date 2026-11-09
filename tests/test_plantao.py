@@ -179,3 +179,12 @@ def test_domingo_de_manha_e_a_agenda_da_semana():
     from termometro import plantao as pl
     assert pl.instrucao("manha", "2026-11-15") == pl.DOMINGO_MANHA
     assert pl.instrucao("manha", "2026-11-16") == pl.TURNOS["manha"] and pl.instrucao("tarde", "2026-11-15") == pl.TURNOS["tarde"]
+
+
+def test_pauta_das_referencias_nao_repete_assunto(tmp_path, monkeypatch):
+    import inspect
+
+    from termometro import plantao as pl
+    assert "sugerido" in inspect.signature(pl.rodar).parameters
+    fonte = inspect.getsource(pl.rodar)
+    assert "sugerido or (not tema" in fonte

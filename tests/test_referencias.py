@@ -89,3 +89,10 @@ def test_no_maximo_tres_pautas_por_dia(tmp_path, monkeypatch):
     (tmp_path / "plantao").mkdir()
     r = ref.rodar(tmp_path, pasta, cliente=object(), buscar=graph_falso, transcritor=lambda v: "")
     assert len(r["pautas"]) == 1  # já tinham ido 2 hoje
+
+
+def test_sem_pauta_vira_vazio():
+    for texto in ("Sem pauta: material insuficiente.", "(vazio: sem conteúdo)", "Nenhuma: vídeo atemporal", "-",
+                  "SEM PAUTA", "  "):
+        assert ref.limpar_pauta(texto) == ""
+    assert ref.limpar_pauta("O que se sabe sobre o boletim Focus") == "O que se sabe sobre o boletim Focus"
