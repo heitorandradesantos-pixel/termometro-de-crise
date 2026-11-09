@@ -1,8 +1,9 @@
 # Referências de conteúdo (o que o Heitor consome e gosta)
 
 Criadores que servem de régua para o tom e o formato: Pablo Spyer (@pablospyer, boletim diário, popular e animado),
-Rian (@falecomrian, "Café com seu dinheiro": selfie em casa, de noite, com prints da fonte real na tela) e Shimon
-(@shimoncomunica). Aprendemos a técnica, nunca copiamos frase, roteiro ou ideia de vídeo. O que não pegamos deles: indicar título, ativo ou "onde
+Rian (@falecomrian, "Café com seu dinheiro": selfie em casa, de noite, com prints da fonte real na tela), Shimon
+(@shimoncomunica) e Andrey Nousi (@andreynousi, que o Heitor gosta muito; o grupo de WhatsApp do Termômetro foi
+inspirado no dele). Aprendemos a técnica, nunca copiamos frase, roteiro ou ideia de vídeo. O que não pegamos deles: indicar título, ativo ou "onde
 investir".
 
 Como usar o diário abaixo:

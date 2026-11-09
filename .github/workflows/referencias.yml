@@ -1,6 +1,6 @@
 name: Referências
 
-# 6 vezes por dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian e Shimon), pela API oficial do
+# 6 vezes por dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian, Shimon e Andrey Nousi), pela API oficial do
 # Instagram (Business Discovery, com a conta profissional do Termômetro), transcreve o áudio aqui no robô e grava a
 # análise (tema, gancho, técnicas, formato) no manual termometro/manuais/referencias.md, que o Roteirista, o
 # Copywriter e o Estrategista leem. Se o vídeo trata de notícia de dinheiro quente que ainda não cobrimos, manda a

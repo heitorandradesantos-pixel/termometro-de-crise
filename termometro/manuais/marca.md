@@ -41,7 +41,8 @@
 
 ## Referências que o Heitor consome e gosta
 Pablo Spyer (boletim diário, popular e animado) e Rian, do "Café com seu dinheiro" (selfie em casa, de noite, com prints
-da fonte real na tela e a pergunta de bolso: "Quanto o governo te paga?"). O que pegamos deles: assunto sério em
+da fonte real na tela e a pergunta de bolso: "Quanto o governo te paga?"), Shimon (@shimoncomunica) e Andrey Nousi
+(@andreynousi; o grupo de WhatsApp do Termômetro foi inspirado no dele). O que pegamos deles: assunto sério em
 linguagem de conversa, a pergunta em "você/te", a prova visível (print, número, fonte) e a velocidade. O que não pegamos:
 indicar título, ativo ou "onde investir". No Termômetro, mostrar quanto um título paga é informação; dizer para comprar
 é recomendação, e isso a gente não faz.
