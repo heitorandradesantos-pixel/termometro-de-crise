@@ -1,0 +1,59 @@
+{
+ "tipo": "fixado",
+ "titulo": "Vídeo fixado 2: como funciona o termômetro de 0 a 100",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "gancho": {
+  "texto": "O Brasil está com febre hoje? Tem um número que te diz isso todo dia."
+ },
+ "linhas": [
+  "O Brasil está com febre hoje? Tem um número que te diz isso todo dia.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "O termômetro mede, de 0 a 100, o nervosismo dos mercados.",
+  "A gente olha a bolsa, o sobe e desce do mercado e a moeda de 35 países.",
+  "Até 20 é calmaria, no azul. De 21 a 40, atenção.",
+  "De 41 a 60 é alerta, no amarelo. De 61 a 80, tensão, no laranja.",
+  "E acima de 80 é crise, no vermelho.",
+  "Pensa no termômetro de casa: 37 e meio não é doença, mas pede atenção.",
+  "O número não diz o que comprar. Ele diz a temperatura.",
+  "E com a temperatura na mão, você não decide nada no susto.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "palavras": 148,
+ "segundos": 59,
+ "na_tela": [
+  {
+   "fala": null,
+   "texto": "De *0 a 100*"
+  },
+  {
+   "fala": null,
+   "texto": "Bolsa · sobe e desce · moeda"
+  },
+  {
+   "fala": null,
+   "texto": "35 países"
+  },
+  {
+   "fala": null,
+   "texto": "0–20 Calmaria · 21–40 Atenção"
+  },
+  {
+   "fala": null,
+   "texto": "41–60 Alerta · 61–80 Tensão"
+  },
+  {
+   "fala": null,
+   "texto": "81–100 *Crise*"
+  }
+ ],
+ "legenda": "Como funciona o Termômetro de Crise?\n\nÉ um número de 0 a 100 que mede o nervosismo dos mercados, a partir da bolsa, do sobe e desce do mercado e da moeda de 35 países. Até 20 é calmaria; acima de 80, crise.\n\nEle não diz o que comprar: diz a temperatura, pra você não decidir nada no susto. O método é aberto e está no site.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#economia #mercadofinanceiro #educacaofinanceira #dolar #termometrodecrise",
+ "apoios": [],
+ "teleprompter": "O Brasil está com febre hoje? Tem um número que te diz isso todo dia.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nO termômetro mede, de 0 a 100, o nervosismo dos mercados.\n\nA gente olha a bolsa, o sobe e desce do mercado e a moeda de 35 países.\n\nAté 20 é calmaria, no azul. De 21 a 40, atenção.\n\nDe 41 a 60 é alerta, no amarelo. De 61 a 80, tensão, no laranja.\n\nE acima de 80 é crise, no vermelho.\n\nPensa no termômetro de casa: 37 e meio não é doença, mas pede atenção.\n\nO número não diz o que comprar. Ele diz a temperatura.\n\nE com a temperatura na mão, você não decide nada no susto.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "escrito_por": "Claude (editor), 07/11/2026",
+ "atualizado": "2026-11-09: fecho novo (aviso + bordão)"
+}
