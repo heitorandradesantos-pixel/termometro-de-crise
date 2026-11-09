@@ -1,0 +1,62 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [],
+ "noticias": 31,
+ "descartes": [
+  {
+   "onde": "Eleição em Israel sem maioria clara derruba Tel Aviv: TA-125 cai 3,3% em 28/10",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "África do Sul prevê déficit de 3,9% do PIB e corta imposto do combustível até 1º/12",
+   "motivo": "data fora da janela (2026-10-21)"
+  },
+  {
+   "onde": "Rand caiu mais de 2% em setembro e bolsa sul-africana ficou longe do topo",
+   "motivo": "data fora da janela (2026-10-02)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 197.7,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 3.1,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 2.8,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 8.1,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 310.6,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}
