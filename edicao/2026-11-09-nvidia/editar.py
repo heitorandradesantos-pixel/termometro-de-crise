@@ -11,14 +11,18 @@ import numpy as np
 AQUI = Path(__file__).resolve().parent
 ORIGINAL = AQUI / "original.mov"
 FIM = 57.20
-REMOVER = [(4.27, 6.26), (16.93, 19.12)]  # "Essa investigação é contra você." / "Obviamente que a China vai negar."
-LIMIAR_DB, MINIMO_PAUSA = -31, 0.16
-FOLGA_ANTES, FOLGA_DEPOIS = 0.06, 0.04
+REMOVER = [(4.27, 6.26), (16.93, 19.12),  # "Essa investigação é contra você." / "Obviamente que a China vai negar."
+           (8.25, 9.12)]  # "Termômetro de... de Crise": fica só o segundo "de"
+LIMIAR_DB, MINIMO_PAUSA = -32, 0.18  # com o atraso do áudio corrigido, os cortes caem na pausa de verdade
+FOLGA_ANTES, FOLGA_DEPOIS, FOLGA_CHIADO = 0.09, 0.06, 0.05  # "s", "z", "x", "f" no fim da palavra: mais folga
+TRANSCRICAO = "transcricao.json"  # a 1ª transcrição acertou mais palavras (a 2ª, ao pé da letra, pulou "na bio")
 ZOOM = 1.08
 AMARELO = "&H4EC1F2&"  # #F2C14E em BGR
 DESTAQUES = re.compile(r"\d|%|nvidia|nvdc|jensen|huang|bloomberg|new york|times|pânico|china", re.I)
 
-CARTOES = [  # (início, fim) no vídeo original, texto (com *destaque*), fonte
+# Tempos de REMOVER, CARTOES, FIM e da transcrição estão na linha do tempo do ÁUDIO (que no iPhone começa um
+# pouco depois da imagem); viram tempo de vídeo somando o atraso (ATRASO), num lugar só.
+CARTOES = [  # (início, fim), texto (com *destaque*), fonte
     (0.00, 4.26, "Tem *Nvidia* na carteira?", ""),
     (9.96, 14.00, "Investigação *independente* sobre o CEO", "Fonte: CNBC"),
     (14.22, 16.95, "Fontes anônimas · *China nega*", "Fonte: The New York Times"),
@@ -37,6 +41,10 @@ LIGACOES = {"e", "o", "a", "os", "as", "da", "do", "de", "em", "que", "um", "uns
             "se", "é", "sobre", "dos", "das", "pela", "tipo", "uma", "ter", "não", "já", "mal", "mesmo"}
 
 
+def palavras_audio() -> list:
+    return [w for s in json.loads((AQUI / TRANSCRICAO).read_text()) for w in s["palavras"]]
+
+
 def pausas() -> list[tuple[float, float]]:
     bruto = subprocess.run(["ffmpeg", "-v", "error", "-i", str(ORIGINAL), "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
                            check=True, capture_output=True).stdout
@@ -51,7 +59,10 @@ def pausas() -> list[tuple[float, float]]:
             while j < n and db[j] < LIMIAR_DB:
                 j += 1
             if (j - i) * 0.01 >= MINIMO_PAUSA:
-                saida.append((i * 0.01 + FOLGA_ANTES, j * 0.01 - FOLGA_DEPOIS))
+                ini = i * 0.01
+                antes = [w for w in palavras_audio() if w[0] < ini]
+                chiado = bool(antes) and antes[-1][2].strip(",.?!").lower()[-1:] in "szxf"
+                saida.append((ini + FOLGA_ANTES + (FOLGA_CHIADO if chiado else 0) + ATRASO, j * 0.01 - FOLGA_DEPOIS + ATRASO))
             i = j
         else:
             i += 1
@@ -59,7 +70,8 @@ def pausas() -> list[tuple[float, float]]:
 
 
 def trechos() -> list[tuple[float, float]]:
-    cortes = sorted(REMOVER + [p for p in pausas() if p[1] - p[0] >= 0.08])
+    fim_video = min(FIM + ATRASO, DURACAO - 0.02)
+    cortes = sorted([(a + ATRASO, b + ATRASO) for a, b in REMOVER] + [p for p in pausas() if p[1] - p[0] >= 0.08])
     juntos = []
     for a, b in cortes:
         if juntos and a <= juntos[-1][1]:
@@ -69,10 +81,10 @@ def trechos() -> list[tuple[float, float]]:
     manter, t = [], 0.0
     for a, b in juntos:
         if a > t + 0.05:
-            manter.append((round(t, 3), round(min(a, FIM), 3)))
+            manter.append((round(t, 3), round(min(a, fim_video), 3)))
         t = max(t, b)
-    if t < FIM:
-        manter.append((round(t, 3), FIM))
+    if t < fim_video:
+        manter.append((round(t, 3), fim_video))
     quadro = lambda x: round(round(x * 30) / 30, 4)  # noqa: E731
     return [(quadro(a), quadro(b)) for a, b in manter if quadro(b) - quadro(a) >= 2 / 30]
 
@@ -96,7 +108,7 @@ def ts(t: float) -> str:
 
 
 def legenda(manter, novo) -> str:
-    segs = json.loads((AQUI / "transcricao.json").read_text())
+    segs = json.loads((AQUI / TRANSCRICAO).read_text())
     palavras = []
     for s in segs:
         for ini, fim, w, _ in s["palavras"]:
@@ -108,7 +120,7 @@ def legenda(manter, novo) -> str:
             if w == "%" and palavras:
                 palavras[-1][2] += "%"
                 continue
-            palavras.append([novo(ini), novo(fim), w, quebra])
+            palavras.append([novo(ini + ATRASO), novo(fim + ATRASO), w, quebra])
     for nome in (["New", "York", "Times"], ["Jensen", "Huang"]):  # nome próprio não se quebra
         i = 0
         while i <= len(palavras) - len(nome):
@@ -192,6 +204,12 @@ def imagens() -> list[Path]:
     return [Path(str(p) + ".png") for p in paginas]
 
 
+def duracao() -> float:
+    saida = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=duration",
+                            "-of", "csv=p=0", str(ORIGINAL)], check=True, capture_output=True, text=True).stdout
+    return float(saida.strip())
+
+
 def atraso_audio() -> float:
     """O iPhone grava o áudio começando um pouco depois do vídeo (aqui, 0,142 s)."""
     saida = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries", "stream=start_time",
@@ -241,7 +259,7 @@ def montar():
     # 2) cartões, selo, legenda e áudio por cima do vídeo já cortado
     entradas, filtro, atual = ["-i", str(junto)], "", "0:v"
     for k, ((ini, fim, _, _), png) in enumerate(zip(CARTOES, pngs[:-1]), start=1):
-        a, b = novo(ini), min(novo(fim), total)
+        a, b = novo(ini + ATRASO), min(novo(fim + ATRASO), total)
         dur = max(0.3, b - a)
         entradas += ["-loop", "1", "-t", f"{dur:.3f}", "-i", str(png)]
         filtro += (f"[{k}:v]format=rgba,fade=t=in:st=0:d=0.18:alpha=1,fade=t=out:st={dur - 0.18:.3f}:d=0.18:alpha=1,"
@@ -262,6 +280,9 @@ def montar():
     subprocess.run(cmd, check=True)
     print(f"{len(manter)} trechos, {FIM:.1f}s → {total:.1f}s")
 
+
+ATRASO = atraso_audio()
+DURACAO = duracao()
 
 if __name__ == "__main__":
     montar()
