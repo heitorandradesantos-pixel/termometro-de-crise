@@ -169,6 +169,8 @@ def paginas_para_auditar(site: Path) -> dict[str, str]:
     edicoes = sorted((site / "edicoes").glob("20??-??-??.html")) if (site / "edicoes").exists() else []
     if edicoes:
         escolhidas["Edição"] = f"edicoes/{edicoes[-1].name}"
+    if (site / "painel" / "demo" / "index.html").exists():
+        escolhidas["Painel de desempenho (demo)"] = "painel/demo/index.html"
     return escolhidas
 
 

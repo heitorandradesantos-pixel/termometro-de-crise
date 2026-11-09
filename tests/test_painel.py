@@ -114,6 +114,15 @@ def test_pagina_do_painel_fora_do_google(tmp_path):
     assert "__FONTE__" not in pagina and f"const ITER = {painel.ITERACOES};" in pagina
     assert (tmp_path / "site" / "painel" / "dados.enc").exists()
     assert "X-Robots-Tag: noindex" in (tmp_path / "site" / "_headers").read_text()
+    vitrine = (tmp_path / "site" / "painel" / "demo" / "index.html").read_text()
+    assert "/*__DEMO__*/null" not in vitrine and '"usuario": "seuperfil"' in vitrine and "__ITER__" not in vitrine
+
+
+def test_demo_tem_numeros_estaveis_e_recentes():
+    hoje = pd.Timestamp("2026-11-09T10:00", tz="America/Sao_Paulo")
+    a, b = painel.demo(hoje), painel.demo(hoje)
+    assert a == b and len(a["posts"]) == len(painel.DEMO_TITULOS)
+    assert all(p["forca"] is not None for p in a["posts"]) and painel.candidatos(a["posts"])[1]
 
 
 def test_ranking_vai_para_o_whatsapp(tmp_path, monkeypatch):

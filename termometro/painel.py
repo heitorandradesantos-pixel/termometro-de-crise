@@ -266,9 +266,46 @@ def gerar(saida: Path, arq: Path | None = None) -> None:
     fonte = f"https://raw.githubusercontent.com/{REPO}/main/painel/dados.enc"
     (pasta / "index.html").write_text(PAGINA.replace("__FONTE__", html.escape(fonte))
                                       .replace("__ITER__", str(ITERACOES)))
+    (pasta / "demo").mkdir(exist_ok=True)  # vitrine pública com números fictícios (e o que o squad de design avalia)
+    js = json.dumps(demo(), ensure_ascii=False).replace("</", "<\\/")
+    (pasta / "demo" / "index.html").write_text(PAGINA.replace("__FONTE__", "").replace("__ITER__", str(ITERACOES))
+                                               .replace("/*__DEMO__*/null", js).replace('href="../favicon.svg"',
+                                                                                         'href="../../favicon.svg"'))
     cabecalhos = saida / "_headers"
     regra = "/painel/*\n  X-Robots-Tag: noindex, nofollow\n  Cache-Control: no-store\n  Referrer-Policy: no-referrer\n"
     cabecalhos.write_text((cabecalhos.read_text() + "\n" if cabecalhos.exists() else "") + regra)
+
+
+DEMO_TITULOS = ["3 erros que travam o alcance do seu Reel", "Como eu gravo 5 vídeos em 1 hora",
+                "O que ninguém te conta sobre o algoritmo", "Editei o mesmo vídeo de 2 jeitos: qual ganhou?",
+                "Qual capa você clicaria?", "Meu setup de gravação de R$ 300", "Tendência da semana: vale entrar?",
+                "Bastidores de um dia de produção", "Responda em 3 segundos: o que te faz parar de rolar?",
+                "O roteiro que eu uso em todo vídeo"]
+
+
+def demo(hoje: pd.Timestamp | None = None) -> dict:
+    """Dados fictícios (sempre os mesmos números, com datas recentes) para a vitrine /painel/demo/."""
+    import random
+    sorteio = random.Random(42)
+    hoje = (hoje or pd.Timestamp.now(tz="America/Sao_Paulo")).floor("h")
+    posts = []
+    for i, titulo in enumerate(DEMO_TITULOS):
+        quando = hoje - pd.Timedelta(hours=19 * i + 3)
+        alcance = sorteio.randint(1800, 42000)
+        p = {"id": f"demo{i}", "tipo": "REELS", "formato": "VIDEO", "legenda": titulo, "link": "#",
+             "data": quando.isoformat(), "capa": "", "alcance": alcance, "views": int(alcance * sorteio.uniform(1.3, 1.9)),
+             "salvos": int(alcance * sorteio.uniform(0.004, 0.04)), "compartilhamentos": int(alcance * sorteio.uniform(0.002, 0.05)),
+             "comentarios": sorteio.randint(8, 160), "curtidas": int(alcance * sorteio.uniform(0.03, 0.08)),
+             "interacoes": None, "seguiram": None, "tempo_medio": round(sorteio.uniform(4.5, 21), 1)}
+        p["forca"] = forca(p)
+        p["serie"] = [[(hoje - pd.Timedelta(hours=h)).isoformat(timespec="minutes"), int(p["views"] * (1 - h / 120))]
+                      for h in (24, 18, 12, 6, 0)]
+        posts.append(p)
+    seguidores = [{"t": (hoje - pd.Timedelta(hours=6 * k)).isoformat(timespec="minutes"),
+                   "n": int(12480 + (40 - k) ** 1.6 + sorteio.randint(0, 25))} for k in range(40, -1, -1)]
+    return {"atualizado": hoje.isoformat(timespec="minutes"),
+            "conta": {"usuario": "seuperfil", "seguidores": seguidores[-1]["n"], "posts": len(posts)},
+            "seguidores": seguidores, "posts": posts, "minimo_alcance": MINIMO_ALCANCE}
 
 
 PAGINA = (Path(__file__).resolve().parent / "painel.html").read_text() if (

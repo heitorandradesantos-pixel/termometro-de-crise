@@ -116,6 +116,7 @@ details td:last-child,details th:last-child{text-align:right}
   <main id="painel" hidden>
     <h1 style="font-size:26px">Painel de desempenho</h1>
     <p class="sub" id="atualizado"></p>
+    <p class="aviso" id="demo-aviso" style="margin-top:12px" hidden>Demonstração com números fictícios: é assim que o painel mostra os seus posts.</p>
     <div class="filtros" style="margin-top:16px">
       <div class="segmento" role="group" aria-label="Período">
         <button type="button" data-dias="7" aria-pressed="true">7 dias</button>
@@ -164,6 +165,7 @@ details td:last-child,details th:last-child{text-align:right}
 (() => {
   const FONTES = ["__FONTE__", "dados.enc"];
   const ITER = __ITER__;
+  const DEMO = /*__DEMO__*/null;
   const GUARDA = "termometro-painel";
   const nf = new Intl.NumberFormat("pt-BR");
   const nf1 = new Intl.NumberFormat("pt-BR", {maximumFractionDigits: 1});
@@ -198,6 +200,7 @@ details td:last-child,details th:last-child{text-align:right}
   }
 
   async function iniciar() {
+    if (DEMO) { dados = DEMO; $("demo-aviso").hidden = false; mostrar(); $("sair").hidden = true; return; }
     try { envelope = await baixar(); }
     catch (e) { $("erro").textContent = "O painel ainda não tem dados. O robô cria o arquivo na primeira atualização."; return; }
     const salvo = lembrado();
