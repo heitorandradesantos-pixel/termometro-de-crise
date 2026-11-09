@@ -1,0 +1,114 @@
+{
+ "titulo": "Novas regras de vale-refeição e vale-alimentação: o que se sabe",
+ "descricao": "Desde 7/11, cartões de VR e VA devem valer em qualquer maquininha habilitada. Veja o que muda para o trabalhador e o que ainda não funciona.",
+ "palavra_chave": "novas regras vale-refeição vale-alimentação",
+ "lead": "Desde sábado (7/11), vale a última etapa das novas regras do vale-refeição (VR) e do vale-alimentação (VA): os cartões devem ser aceitos em qualquer maquininha habilitada. O teto de 3,6% nas taxas dos lojistas e o repasse em até 15 dias já valiam desde fevereiro. Para o trabalhador, o cartão e o saldo continuam os mesmos, mas a aceitação ainda é incompleta, segundo setores ouvidos pela imprensa.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 7 de novembro entrou em vigor a última etapa da reforma do Programa de Alimentação do Trabalhador (PAT). A principal mudança é a interoperabilidade: cartões de VR e VA de operadoras diferentes devem ser aceitos em qualquer maquininha habilitada para esse tipo de benefício.",
+   "fonte_url": "https://www.infomoney.com.br/consumo/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras/",
+   "data": "2026-11-07",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o Ministério do Trabalho e Emprego, a regra amplia a rede de aceitação aos poucos, conforme os terminais se habilitam. O que não muda é a trava que limita o uso do VA e do VR a estabelecimentos do setor de alimentação. O valor recebido pelo trabalhador também não muda automaticamente.",
+   "fonte_url": "https://www.infomoney.com.br/consumo/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras/",
+   "data": "2026-11-07",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o Terra, as regras de uso continuam as mesmas para o trabalhador. A reportagem cita taxa máxima de 3,6% para lojistas e repasse das vendas em até 15 dias corridos.",
+   "fonte_url": "https://www.terra.com.br/noticias/novas-regras-do-pix-va-e-vr-veja-o-que-muda-para-milhoes-de-brasileiros,12289a42aac8219251560a44a78d981dcvj57prt.html",
+   "data": "2026-11-07",
+   "veiculo": "Terra",
+   "confiavel": false
+  },
+  {
+   "texto": "O teto de 3,6% na taxa cobrada dos comerciantes, o limite de 2% na tarifa de intercâmbio (cobrada entre as empresas do sistema) e o repasse em até 15 dias corridos passaram a valer em 10 de fevereiro de 2026. Antes, o prazo era de cerca de 30 dias ou mais.",
+   "fonte_url": "https://csb.org.br/noticias/novas-regras-do-vr-e-do-va",
+   "data": "2026-02-10",
+   "veiculo": "CSB",
+   "confiavel": false
+  },
+  {
+   "texto": "A interoperabilidade é a fase final de um decreto publicado em novembro de 2025, com prazo de 360 dias. A parte das taxas e do repasse tinha prazo em fevereiro de 2026.",
+   "fonte_url": "https://www.infomoney.com.br/business/pat-operadoras-de-va-e-vr-chegam-ao-prazo-final-sem-cumprir-todas-as-novas-regras/",
+   "data": "2026-11-07",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Os cartões ainda não são aceitos em todas as maquininhas, mesmo após o fim do prazo. Supermercados e restaurantes relatam problemas. As operadoras Ticket, Pluxee, VR e Alelo apontam dificuldades técnicas.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/80701/va-e-vr-ainda-nao-sao-aceitos-em-todas-as-maquininhas-apos-prazo",
+   "data": "2026-11-09",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 3 de novembro, a Associação Brasileira de Supermercados (Abras) entrou com ação civil pública contra as operadoras de VA e VR, para exigir o cumprimento das novas regras.",
+   "fonte_url": "https://www.infomoney.com.br/business/pat-operadoras-de-va-e-vr-chegam-ao-prazo-final-sem-cumprir-todas-as-novas-regras/",
+   "data": "2026-11-03",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Decreto nº 12.712 muda as regras do PAT. Operadoras com mais de 500 mil trabalhadores teriam 180 dias para abrir suas redes, e todas teriam 360 dias para a interoperabilidade.",
+   "fonte_url": "https://www.infomoney.com.br/business/pat-operadoras-de-va-e-vr-chegam-ao-prazo-final-sem-cumprir-todas-as-novas-regras/",
+   "data": "2025-11-30",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Passam a valer o teto de 3,6% nas taxas dos lojistas e o repasse em até 15 dias corridos.",
+   "fonte_url": "https://csb.org.br/noticias/novas-regras-do-vr-e-do-va",
+   "data": "2026-02-10",
+   "veiculo": "CSB",
+   "confiavel": false
+  },
+  {
+   "texto": "A Abras entra com ação civil pública contra as operadoras de VA e VR.",
+   "fonte_url": "https://www.infomoney.com.br/business/pat-operadoras-de-va-e-vr-chegam-ao-prazo-final-sem-cumprir-todas-as-novas-regras/",
+   "data": "2026-11-03",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Termina o prazo de 360 dias e entra em vigor a última etapa: a interoperabilidade.",
+   "fonte_url": "https://www.infomoney.com.br/consumo/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras/",
+   "data": "2026-11-07",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Setores relatam que os cartões ainda não são aceitos em todas as maquininhas.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/80701/va-e-vr-ainda-nao-sao-aceitos-em-todas-as-maquininhas-apos-prazo",
+   "data": "2026-11-09",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quando todas as maquininhas vão aceitar os cartões de qualquer operadora. Não há data confirmada; o Ministério do Trabalho diz que a rede cresce aos poucos.",
+  "Se as operadoras serão multadas. O decreto prevê multas de até R$ 50 mil, mas esta apuração não encontrou notícia de multa aplicada.",
+  "Se as operadoras cumprem o teto de 3,6%. Restaurantes e supermercados as acusam de não cumprir, e uma pesquisa encomendada pela Associação Nacional de Restaurantes (ANR) aponta taxa média de 6,18% em jun-jul de 2026. As operadoras não confirmaram essa leitura, e a Justiça ainda não decidiu a ação da Abras.",
+  "Se a justificativa técnica das operadoras procede. A versão vem de executivos sob anonimato; especialistas em pagamentos contestam, segundo o Contábeis. Nada disso foi confirmado por fonte oficial.",
+  "O texto do decreto nº 12.712/2025 não foi aberto diretamente nesta apuração; as regras acima vêm de reportagens que o citam e do Ministério do Trabalho."
+ ],
+ "o_que_muda_para_voce": [
+  "O cartão continua o mesmo. Não é preciso trocar de operadora nem pedir novo cartão, e o saldo não muda por causa das regras.",
+  "O valor do VR ou do VA continua sendo definido pela sua empresa. As novas regras não mandam aumentar nem reduzir o benefício.",
+  "Você pode encontrar mais lugares que aceitam o cartão, mas isso ocorre aos poucos. Se o cartão for recusado em maquininha habilitada, é possível registrar denúncia no Ministério do Trabalho e Emprego.",
+  "O uso continua só para alimentação: VR para refeição pronta e VA para compra de alimentos. O saldo não pode ser sacado nem transferido.",
+  "O teto de 3,6% vale para a taxa cobrada do lojista, não para você. O governo espera preços finais menores com a mudança, mas isso não é garantido."
+ ],
+ "como_se_proteger": [],
+ "slug": "novas-regras-vale-refeicao-vale-alimentacao",
+ "publicado_em": "2026-11-09T13:17:39.364203",
+ "atualizado_em": "2026-11-09T13:17:39.364203",
+ "assunto": "Nova etapa das regras de VA e VR começou a valer no sábado (7/11): teto de 3,6% nas taxas cobradas dos estabelecimentos e repasse das vendas em até 15 dias corridos. Para o trabalhador, o uso do cartão continua igual. A mesma reportagem lembra mudanças recentes do Pix (aviso de suspeita de fraude e regra contra pagamento duplicado em cobrança com boleto e QR Code).",
+ "turno": "tarde"
+}
