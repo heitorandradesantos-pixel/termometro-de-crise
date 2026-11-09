@@ -1,14 +1,17 @@
 name: Transcrever
 
 # Transcreve o áudio de um vídeo gravado pelo Heitor (faster-whisper, em português, com o tempo de cada palavra),
-# para a edição cortar os erros e as pausas e pôr a legenda. O áudio chega num rascunho de release (que só quem
-# tem acesso ao repositório vê), apagado depois da edição. O resultado sai no log entre as marcas
-# TRANSCRICAO_INICIO e TRANSCRICAO_FIM.
+# para a edição cortar os erros e as pausas e pôr a legenda. O áudio chega criptografado (AES-256) num ramo
+# temporário, que é apagado depois da edição; a chave vem no disparo e não aparece no log. O resultado sai no log
+# entre as marcas TRANSCRICAO_INICIO e TRANSCRICAO_FIM.
 on:
   workflow_dispatch:
     inputs:
-      tag:
-        description: "rascunho de release com o arquivo audio.ogg"
+      ramo:
+        description: "ramo temporário com audio.enc"
+        required: true
+      chave:
+        description: "chave do audio.enc"
         required: true
       modelo:
         description: "small, medium ou large-v3"
@@ -20,7 +23,7 @@ on:
         default: ""
 
 permissions:
-  contents: write # para enxergar o rascunho de release
+  contents: read
 
 jobs:
   transcrever:
@@ -32,11 +35,18 @@ jobs:
           python-version: "3.12"
       - run: pip install -q faster-whisper numpy
       - run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-      - name: Baixar o áudio
-        env:
-          GH_TOKEN: ${{ github.token }}
-          TAG: ${{ inputs.tag }}
-        run: gh release download "$TAG" -R "$GITHUB_REPOSITORY" -p audio.ogg && ls -la audio.ogg
+      - name: Esconder a chave
+        run: echo "::add-mask::$(jq -r '.inputs.chave' "$GITHUB_EVENT_PATH")"
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ramo }}
+          sparse-checkout: audio.enc
+          sparse-checkout-cone-mode: false
+      - name: Abrir o áudio
+        run: |
+          CHAVE=$(jq -r '.inputs.chave' "$GITHUB_EVENT_PATH")
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in audio.enc -out audio.ogg -pass "pass:$CHAVE"
+          ls -la audio.ogg
       - name: Transcrever
         env:
           MODELO: ${{ inputs.modelo }}
