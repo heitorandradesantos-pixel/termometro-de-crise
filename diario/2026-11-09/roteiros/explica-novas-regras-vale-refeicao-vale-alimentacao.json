@@ -1,0 +1,180 @@
+{
+ "gancho": {
+  "formula": "Promessa x realidade",
+  "texto": "Seu VR deveria passar em qualquer maquininha desde 7 de novembro. Deveria.",
+  "na_tela": "Seu VR passa em qualquer maquininha?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Promessa x realidade",
+   "texto": "Seu VR deveria passar em qualquer maquininha desde 7 de novembro. Deveria.",
+   "na_tela": "Seu VR passa em qualquer maquininha?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem paga a taxa do seu cartão de vale-refeição? Não é você.",
+   "na_tela": "Quem paga a taxa do VR?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O teto de 3,6% nas taxas do VR existe, mas a aceitação ainda falha.",
+   "na_tela": "Teto de 3,6%, mas aceitação falha",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Seu VR deveria passar em qualquer maquininha desde 7 de novembro. Deveria.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: cartão de qualquer operadora deve passar em maquininha habilitada, segundo o InfoMoney.",
+  "Na prática, é como tomada nova: nem toda parede foi trocada ainda.",
+  "Detalhe: o teto de 3,6% vale para a taxa do lojista, não para você.",
+  "Restaurantes acusam as operadoras de furar o teto; pesquisa da ANR cita média de 6,18%.",
+  "As operadoras não confirmam, e a Justiça ainda não decidiu.",
+  "Para você, cartão e saldo continuam os mesmos, sem trocar de operadora.",
+  "Calma: se for recusado em maquininha habilitada, dá para denunciar no Ministério do Trabalho.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu VR deveria passar em qualquer maquininha desde 7 de novembro. Deveria. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: cartão de qualquer operadora deve passar em maquininha habilitada, segundo o InfoMoney. Na prática, é como tomada nova: nem toda parede foi trocada ainda. Detalhe: o teto de 3,6% vale para a taxa do lojista, não para você. Restaurantes acusam as operadoras de furar o teto; pesquisa da ANR cita média de 6,18%. As operadoras não confirmam, e a Justiça ainda não decidiu. Para você, cartão e saldo continuam os mesmos, sem trocar de operadora. Calma: se for recusado em maquininha habilitada, dá para denunciar no Ministério do Trabalho. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 137,
+ "segundos": 55,
+ "na_tela": [
+  {
+   "texto": "Seu VR passa em qualquer maquininha?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Em vigor desde 7/11: cartão em qualquer maquininha",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 3,
+   "texto": "Aceitação ainda incompleta",
+   "fonte": "Contábeis"
+  },
+  {
+   "fala": 4,
+   "texto": "Teto de 3,6% para o lojista",
+   "fonte": "Terra"
+  },
+  {
+   "fala": 5,
+   "texto": "Pesquisa ANR: média de 6,18%",
+   "fonte": "ANR"
+  },
+  {
+   "fala": 6,
+   "texto": "Justiça ainda não decidiu",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 8,
+   "texto": "Recusa? Denuncie ao Ministério do Trabalho",
+   "fonte": "Ministério do Trabalho e Emprego"
+  }
+ ],
+ "retomada": 5,
+ "busca": "novas regras vale-refeição maquininha",
+ "legenda": "Novas regras do vale-refeição: o que muda na maquininha?\n\nDesde 7 de novembro vale a última etapa: cartões de VR e VA devem ser aceitos em qualquer maquininha habilitada, segundo o InfoMoney. Mas a aceitação ainda é incompleta.\n\nPara você, o cartão e o saldo continuam os mesmos. O teto de 3,6% vale para a taxa do lojista, não para quem usa o cartão.\n\nSe o cartão for recusado em maquininha habilitada, dá para registrar denúncia no Ministério do Trabalho e Emprego.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#valerefeicao #valealimentacao #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#valerefeicao",
+  "#valealimentacao",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Desde 7 de novembro, seu VR deveria passar em qualquer maquininha.",
+  "topicos": [
+   "Desde 7/11, VR e VA devem passar em qualquer maquininha, diz o InfoMoney.",
+   "O teto de 3,6% é da taxa do lojista, não sua, segundo o Terra.",
+   "Pesquisa da ANR cita média de 6,18%; operadoras não confirmam, Justiça não decidiu.",
+   "Se recusarem seu cartão em maquininha habilitada, denuncie ao Ministério do Trabalho."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente: a última etapa das regras entrou em vigor em 7 de novembro e pede urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 10,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [],
+  "veredito": "A peça fala direto com quem usa VR e responde \"mexe no meu bolso? o que eu faço?\" (cartão e saldo iguais, denunciar se recusarem). Tem a comparação da tomada, o número com fonte, o que ainda não se sabe, um tom calmo e o bordão de encerramento no lugar certo. Não falta nada de relevante."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Close-up of a modern white wall with a freshly installed new-style electrical outlet, while the neighboring wall further along still has old two-pin outlets. Slow dolly-in sideways along the wall from the new outlet to the old ones, soft natural indoor light, no people, no text",
+   "texto_da_fala": "Na prática, é como tomada nova: nem toda parede foi trocada ainda.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a modern white wall with a freshly installed new-style electrical outlet, while the neighboring wall further along still has old two-pin outlets. Slow dolly-in sideways along the wall from the new outlet to the old ones, soft natural indoor light, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Interior of a busy restaurant at lunchtime, shot over a counter: a handheld card payment terminal resting beside a printed receipt and empty plates on a wooden table, blurred waiters moving in the background with no faces in focus. Slow push-in toward the terminal, warm lighting, no text, no logos",
+   "texto_da_fala": "Restaurantes acusam as operadoras de furar o teto; pesquisa da ANR cita média de 6,18%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a busy restaurant at lunchtime, shot over a counter: a handheld card payment terminal resting beside a printed receipt and empty plates on a wooden table, blurred waiters moving in the background with no faces in focus. Slow push-in toward the terminal, warm lighting, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Close-up of a card payment terminal on a shop counter with a red declined indicator light and a meal voucher card held in a hand, only the hand visible with no face. Camera slowly orbits around the terminal, shallow depth of field, shop interior blurred behind, no text, no numbers, no logos",
+   "texto_da_fala": "Calma: se for recusado em maquininha habilitada, dá para denunciar no Ministério do Trabalho.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a card payment terminal on a shop counter with a red declined indicator light and a meal voucher card held in a hand, only the hand visible with no face. Camera slowly orbits around the terminal, shallow depth of field, shop interior blurred behind, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu VR deveria passar em qualquer maquininha desde 7 de novembro. Deveria.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: cartão de qualquer operadora deve passar em maquininha habilitada, segundo o InfoMoney.\n\nNa prática, é como tomada nova: nem toda parede foi trocada ainda.\n\nDetalhe: o teto de 3,6% vale para a taxa do lojista, não para você.\n\nRestaurantes acusam as operadoras de furar o teto; pesquisa da ANR cita média de 6,18%.\n\nAs operadoras não confirmam, e a Justiça ainda não decidiu.\n\nPara você, cartão e saldo continuam os mesmos, sem trocar de operadora.\n\nCalma: se for recusado em maquininha habilitada, dá para denunciar no Ministério do Trabalho.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/consumo/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras/",
+   "destaque": "Em 7 de novembro entrou em vigor a última etapa da reforma do Programa de Alimentação do Trabalhador (PAT)."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/business/pat-operadoras-de-va-e-vr-chegam-ao-prazo-final-sem-cumprir-todas-as-novas-regras/",
+   "destaque": "A interoperabilidade é a fase final de um decreto publicado em novembro de 2025, com prazo de 360 dias."
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T13:21:04.845313-03:00"
+}
