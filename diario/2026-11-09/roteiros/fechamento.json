@@ -1,0 +1,197 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "A bolsa subiu 2,02%, mas a febre do Brasil não baixou.",
+  "na_tela": "Bolsa sobe, febre fica",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A bolsa subiu 2,02%, mas a febre do Brasil não baixou.",
+   "na_tela": "Bolsa sobe, febre fica",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Dólar a R$ 5,51: quanto isso pesa no seu bolso hoje?",
+   "na_tela": "Dólar a R$ 5,51 e você",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Bolsa em 171.906 pontos e Brasil em 65: o que pesa mais?",
+   "na_tela": "Bolsa em alta, Brasil em 65",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "A bolsa subiu 2,02%, mas a febre do Brasil não baixou.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "O Ibovespa, índice das maiores empresas da bolsa, fechou em 171.906 pontos.",
+  "Segundo o Termômetro, o exterior ajudou e os juros futuros recuaram.",
+  "Quem não investe: 2,02% é só o placar da bolsa.",
+  "O dólar a R$ 5,51 é a etiqueta de importado e viagem.",
+  "Olha só: com a bolsa em alta, o Brasil está em 65, Tensão.",
+  "É febre que sobe após dia bom: bolsa em 75, dólar em 70.",
+  "O mundo está em 56, no Alerta.",
+  "Antes de repassar uma manchete, confira a temperatura e a fonte.",
+  "Quer esse resumo todo dia? Vem comigo.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "A bolsa subiu 2,02%, mas a febre do Brasil não baixou. Fala, galera, aqui é o Heitor, do Termômetro de Crise. O Ibovespa, índice das maiores empresas da bolsa, fechou em 171.906 pontos. Segundo o Termômetro, o exterior ajudou e os juros futuros recuaram. Quem não investe: 2,02% é só o placar da bolsa. O dólar a R$ 5,51 é a etiqueta de importado e viagem. Olha só: com a bolsa em alta, o Brasil está em 65, Tensão. É febre que sobe após dia bom: bolsa em 75, dólar em 70. O mundo está em 56, no Alerta. Antes de repassar uma manchete, confira a temperatura e a fonte. Quer esse resumo todo dia? Vem comigo. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 141,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "Bolsa sobe, febre fica",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Ibovespa: 171.906 pontos",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Juros futuros recuaram",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "▲2,02%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 5,
+   "texto": "Dólar: R$ 5,51",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Brasil em 65 · Tensão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Bolsa 75 · Dólar 70",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Mundo em 56 · Alerta",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Confira a temperatura e a fonte",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "Ibovespa hoje: por que a bolsa subiu e o Brasil segue em Tensão",
+ "legenda": "Ibovespa hoje: por que a bolsa subiu e o Brasil segue em Tensão\n\nO Ibovespa, índice das maiores empresas da bolsa, fechou em 171.906 pontos, alta de 2,02%. Segundo o Termômetro de Crise, o exterior ajudou e os juros futuros recuaram. O dólar fechou a R$ 5,51.\n\nMesmo com a bolsa em alta, o Brasil está em 65, na faixa Tensão. É como febre que sobe depois de um dia bom. O mundo está em 56, no Alerta.\n\nUm passo simples: antes de repassar uma manchete, confira a temperatura e a fonte. Para receber esse resumo todo dia, o grupo do WhatsApp está no link da bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ibovespa #dolar #termometrodecrise #educacaofinanceira",
+ "hashtags": [
+  "#ibovespa",
+  "#dolar",
+  "#termometrodecrise",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "A bolsa subiu 2,02%, mas o Brasil segue em Tensão, 65.",
+  "topicos": [
+   "Ibovespa fechou em 171.906 pontos, alta de 2,02%, segundo o Termômetro de Crise.",
+   "Dólar a R$ 5,51, alta de 0,10%; o Brasil está em 65, Tensão.",
+   "Mundo em 56, Alerta, segundo o Termômetro; Ásia e Pacífico subiu para Tensão.",
+   "Antes de repassar manchete, confira a temperatura e a fonte; resumo diário no grupo."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Fechamento do dia com vários números e uma explicação de contexto (bolsa em alta, Brasil em Tensão) pede a calma da bancada, não a urgência da rua.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Quem não investe: 2,02% é só o placar da bolsa.\": ela diz o que a alta não é, mas não responde \"isso mexe no meu bolso?\". Reescreva ligando ao dia a dia, por exemplo: \"Se você não investe, essa alta não muda sua conta; o que chega ao bolso é o dólar e os juros\". Assim a pessoa sabe o que olhar, sem inventar número novo.",
+   "Frase \"O dólar a R$ 5,51 é a etiqueta de importado e viagem.\": a comparação é boa, mas fica solta. Feche com uma consequência prática da peça: \"se você vai comprar importado ou viajar, é esse preço que vale hoje\". Dê também a comparação viva para o 65 de Tensão, que hoje só aparece como número: explique o que a faixa Tensão significa para quem está em casa (em termos de sinal amarelo), na mesma frase.",
+   "Frase \"É febre que sobe após dia bom: bolsa em 75, dólar em 70.\" e \"Antes de repassar uma manchete, confira a temperatura e a fonte.\": o porquê da febre alta fica só em números, sem explicação, e o passo final é genérico. Traduza em uma frase o que o 75 e o 70 querem dizer (por exemplo, \"a bolsa subiu, mas o risco continua alto\") e cite a fonte do índice na tela ou na fala. O passo para a pessoa pode ser mais concreto: \"abra o Termômetro e veja a fonte antes de repassar\"."
+  ],
+  "veredito": "A peça tem a voz certa (abertura, bordões, termo técnico traduzido, aviso e fecho da casa), sem alarmismo nem promessa, mas fica mais no placar do que no bolso: faltam uma comparação viva que ligue a febre de 65 ao dia a dia e um passo concreto além de \\\"confira a fonte\\\"."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow upward tilt along the glass facade of a modern financial district skyscraper at golden hour, reflections of clouds sliding across the windows, a few office lights turning on. Smooth cinematic drone-style move, no people in focus, no signs, no text, no logos",
+   "texto_da_fala": "O Ibovespa, índice das maiores empresas da bolsa, fechou em 171.906 pontos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the glass facade of a modern financial district skyscraper at golden hour, reflections of clouds sliding across the windows, a few office lights turning on. Smooth cinematic drone-style move, no people in focus, no signs, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Aerial drone shot slowly pushing forward over a busy container port at dawn, stacked colorful shipping containers with no markings, a large cargo ship gliding into the harbor and gantry cranes lifting boxes. Calm sea, soft light, no people in focus, no text, no logos",
+   "texto_da_fala": "Segundo o Termômetro, o exterior ajudou e os juros futuros recuaram.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial drone shot slowly pushing forward over a busy container port at dawn, stacked colorful shipping containers with no markings, a large cargo ship gliding into the harbor and gantry cranes lifting boxes. Calm sea, soft light, no people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro close-up with a slow dolly-in over a table with a blank paper price tag tied to a small wrapped gift box, a passport-style blank booklet and a toy airplane next to it, warm shallow depth of field, soft window light. No text, no numbers, no logos, no people",
+   "texto_da_fala": "O dólar a R$ 5,51 é a etiqueta de importado e viagem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up with a slow dolly-in over a table with a blank paper price tag tied to a small wrapped gift box, a passport-style blank booklet and a toy airplane next to it, warm shallow depth of field, soft window light. No text, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "A bolsa subiu 2,02%, mas a febre do Brasil não baixou.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nO Ibovespa, índice das maiores empresas da bolsa, fechou em 171.906 pontos.\n\nSegundo o Termômetro, o exterior ajudou e os juros futuros recuaram.\n\nQuem não investe: 2,02% é só o placar da bolsa.\n\nO dólar a R$ 5,51 é a etiqueta de importado e viagem.\n\nOlha só: com a bolsa em alta, o Brasil está em 65, Tensão.\n\nÉ febre que sobe após dia bom: bolsa em 75, dólar em 70.\n\nO mundo está em 56, no Alerta.\n\nAntes de repassar uma manchete, confira a temperatura e a fonte.\n\nQuer esse resumo todo dia? Vem comigo.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T18:32:58.877519-03:00",
+ "enviado_whatsapp": "2026-11-09T18:33:49.243858-03:00"
+}
