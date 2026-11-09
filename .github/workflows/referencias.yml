@@ -15,6 +15,14 @@ on:
         description: "sim = confere se o token enxerga a conta do Termômetro"
         required: false
         default: ""
+      perfis:
+        description: "só estes perfis (separados por vírgula); vazio = todos"
+        required: false
+        default: ""
+      dias:
+        description: "quantos dias para trás olhar (padrão 3; use mais para mapear um perfil novo)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -30,7 +38,8 @@ jobs:
     timeout-minutes: 30
     env:
       MODELO_CLAUDE: ${{ vars.MODELO_CLAUDE }}
-      REFERENCIAS_PERFIS: ${{ vars.REFERENCIAS_PERFIS }}
+      REFERENCIAS_PERFIS: ${{ inputs.perfis || vars.REFERENCIAS_PERFIS }}
+      REFERENCIAS_DIAS: ${{ inputs.dias || vars.REFERENCIAS_DIAS }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
