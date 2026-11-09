@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Você tem R$ 400 mil no mesmo banco? O FGC não cobre tudo.",
+  "na_tela": "R$ 400 mil no mesmo banco?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Você tem R$ 400 mil no mesmo banco? O FGC não cobre tudo.",
+   "na_tela": "R$ 400 mil no mesmo banco?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu CDB e sua conta no mesmo banco dividem um único limite do FGC.",
+   "na_tela": "Conta e CDB dividem um limite",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Os R$ 250 mil do FGC não são por aplicação. São por grupo de bancos.",
+   "na_tela": "R$ 250 mil: por grupo, não por aplicação",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Você tem R$ 400 mil no mesmo banco? O FGC não cobre tudo.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Segundo o FGC, são R$ 250 mil por CPF em cada grupo de bancos.",
+  "É como o limite do cartão: um só, não importa quantas compras.",
+  "Imagine R$ 200 mil na conta e R$ 200 mil no CDB, no mesmo banco.",
+  "O FGC garante R$ 250 mil no total, não R$ 400 mil.",
+  "Mas tem um detalhe: bancos do mesmo dono contam como um banco só.",
+  "Ações, fundos, Tesouro Direto e cripto ficam fora do FGC, e têm outros riscos.",
+  "Veja de quem é cada banco e confirme seu produto em fgc.org.br.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Você tem R$ 400 mil no mesmo banco? O FGC não cobre tudo. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo o FGC, são R$ 250 mil por CPF em cada grupo de bancos. É como o limite do cartão: um só, não importa quantas compras. Imagine R$ 200 mil na conta e R$ 200 mil no CDB, no mesmo banco. O FGC garante R$ 250 mil no total, não R$ 400 mil. Mas tem um detalhe: bancos do mesmo dono contam como um banco só. Ações, fundos, Tesouro Direto e cripto ficam fora do FGC, e têm outros riscos. Veja de quem é cada banco e confirme seu produto em fgc.org.br. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 141,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "R$ 400 mil no mesmo banco?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 250 mil por CPF, por grupo de bancos",
+   "fonte": "FGC"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 200 mil + R$ 200 mil, mesmo banco",
+   "fonte": "Tax Group"
+  },
+  {
+   "fala": 5,
+   "texto": "Garantido: R$ 250 mil (não R$ 400 mil)",
+   "fonte": "Tax Group"
+  },
+  {
+   "fala": 6,
+   "texto": "Mesmo dono = um banco só",
+   "fonte": "FGC"
+  },
+  {
+   "fala": 7,
+   "texto": "Fora do FGC: ações, fundos, Tesouro, cripto",
+   "fonte": "ADVFN"
+  },
+  {
+   "fala": 8,
+   "texto": "Confirme em fgc.org.br",
+   "fonte": "FGC"
+  }
+ ],
+ "retomada": 6,
+ "busca": "quanto o FGC cobre se o banco quebrar",
+ "legenda": "Quanto o FGC cobre se o banco quebrar?\n\nSegundo o FGC, o limite é de R$ 250 mil por CPF ou CNPJ em cada banco ou grupo de bancos. O limite vale para a soma de tudo o que você tem coberto ali, não para cada aplicação. Com R$ 200 mil na conta e R$ 200 mil no CDB no mesmo banco, o total garantido é R$ 250 mil, não R$ 400 mil.\n\nAções, fundos, Tesouro Direto e criptomoedas ficam fora dessa garantia. Eles têm outros riscos e outras proteções.\n\nO passo simples: veja a quem pertence cada banco onde está seu dinheiro e confirme o seu produto em fgc.org.br.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#fgc #educacaofinanceira #investimentos #termometrodecrise",
+ "hashtags": [
+  "#fgc",
+  "#educacaofinanceira",
+  "#investimentos",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Você tem R$ 400 mil no mesmo banco? O FGC não cobre.",
+  "topicos": [
+   "Segundo o FGC: R$ 250 mil por CPF, em cada grupo de bancos.",
+   "Mesmo banco, conta e CDB juntos: R$ 250 mil garantidos, não R$ 400 mil.",
+   "Fora do FGC: ações, fundos, Tesouro Direto e cripto, segundo guias de investimento.",
+   "Veja de quem é cada banco e confirme seu produto em fgc.org.br."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um assunto de explicação, com exemplo de conta e vários números, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Ações, fundos, Tesouro Direto e cripto ficam fora do FGC, e têm outros riscos.\": \"FGC\" aparece sem tradução no gancho e no corpo. Reescreva na primeira menção explicando o que é, por exemplo \"o FGC, o fundo que devolve seu dinheiro se o banco quebrar\". Quem não investe pode não conhecer a sigla.",
+   "Frase \"Imagine R$ 200 mil na conta e R$ 200 mil no CDB, no mesmo banco.\": \"CDB\" também fica sem tradução. Acrescente algo como \"CDB, aquele investimento de renda fixa do banco\" na mesma frase, para o público que vive de poupança e app do banco.",
+   "Frase \"O grupo do WhatsApp está no link da bio.\": o convite entra entre o passo final (\"confirme em fgc.org.br\") e o aviso, o que quebra o fechamento calmo. Mova o convite para antes do passo simples, ou encurte, para que a última ideia antes do aviso e do bordão seja o que a pessoa faz. Isso deixa o vídeo mais fleumático e mais fiel ao tom da marca."
+  ],
+  "veredito": "A peça acerta o público, o arquétipo Sábio com jeito de Cara Comum, a comparação do cartão, a fonte e o passo simples, sem medo sem saída. Falta traduzir as siglas FGC e CDB para quem não é do meio e arrumar a ordem do fechamento, para o tom ficar mais popular."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Close-up of a plain, blank matte credit card with no markings, no numbers and no logo, resting on a wooden shop counter. Colorful paper shopping bags pile up around it one after another. Slow dolly-in with shallow depth of field, soft warm daylight, no people visible",
+   "texto_da_fala": "É como o limite do cartão: um só, não importa quantas compras.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a plain, blank matte credit card with no markings, no numbers and no logo, resting on a wooden shop counter. Colorful paper shopping bags pile up around it one after another. Slow dolly-in with shallow depth of field, soft warm daylight, no people visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Inside a modern bank vault, two identical open steel safe deposit boxes sit side by side. Each holds neat bundles of plain, generic banknotes with no readable numbers, text or symbols. Slow push-in between the two boxes, cool cinematic lighting with soft reflections on polished metal, no people",
+   "texto_da_fala": "Imagine R$ 200 mil na conta e R$ 200 mil no CDB, no mesmo banco.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Inside a modern bank vault, two identical open steel safe deposit boxes sit side by side. Each holds neat bundles of plain, generic banknotes with no readable numbers, text or symbols. Slow push-in between the two boxes, cool cinematic lighting with soft reflections on polished metal, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Aerial drone shot slowly orbiting three modern glass office towers in different colors, with blank facades and no signs, text or logos. A glass skybridge connects them into a single complex. Golden-hour light, gentle upward camera rise, no recognizable people",
+   "texto_da_fala": "Mas tem um detalhe: bancos do mesmo dono contam como um banco só.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial drone shot slowly orbiting three modern glass office towers in different colors, with blank facades and no signs, text or logos. A glass skybridge connects them into a single complex. Golden-hour light, gentle upward camera rise, no recognizable people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Você tem R$ 400 mil no mesmo banco? O FGC não cobre tudo.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo o FGC, são R$ 250 mil por CPF em cada grupo de bancos.\n\nÉ como o limite do cartão: um só, não importa quantas compras.\n\nImagine R$ 200 mil na conta e R$ 200 mil no CDB, no mesmo banco.\n\nO FGC garante R$ 250 mil no total, não R$ 400 mil.\n\nMas tem um detalhe: bancos do mesmo dono contam como um banco só.\n\nAções, fundos, Tesouro Direto e cripto ficam fora do FGC, e têm outros riscos.\n\nVeja de quem é cada banco e confirme seu produto em fgc.org.br.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "FGC (material oficial)",
+   "url": "https://fgc.org.br/documents/d/guest/material-para-corretoras_versao-dezembro2025",
+   "destaque": "O limite é de R$ 250 mil por CPF ou CNPJ em cada instituição ou conglomerado (grupo de bancos do mesmo dono)."
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T20:57:45.633989-03:00"
+}
