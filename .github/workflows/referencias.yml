@@ -10,6 +10,11 @@ on:
   schedule:
     - cron: "47 12,15,18,21,0 * * *" # 9h47, 12h47, 15h47, 18h47 e 21h47 em Brasília (um agendamento externo também dispara)
   workflow_dispatch:
+    inputs:
+      diagnostico:
+        description: "sim = confere se o token enxerga a conta do Termômetro"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -39,6 +44,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          REFERENCIAS_DIAGNOSTICO: ${{ inputs.diagnostico }}
         run: python rodar.py --referencias
       - name: Guardar a análise
         run: |

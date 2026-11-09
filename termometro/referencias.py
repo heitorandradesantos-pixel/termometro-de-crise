@@ -66,8 +66,32 @@ def posts(perfil: str, token: str, conta: str, buscar=requests.get) -> list[dict
     campos = (f"business_discovery.username({perfil}){{media.limit(8){{id,caption,media_type,media_product_type,permalink,"
               "timestamp,media_url}}")
     r = buscar(f"{GRAPH}/{conta}", params={"fields": campos, "access_token": token}, timeout=60)
-    r.raise_for_status()
+    _conferir(r)
     return (((r.json().get("business_discovery") or {}).get("media") or {}).get("data")) or []
+
+
+def _conferir(r) -> None:
+    """Erro da API com a mensagem da Meta, sem o endereço (que leva o token)."""
+    if getattr(r, "status_code", 200) >= 400:
+        try:
+            e = r.json().get("error", {})
+        except ValueError:
+            e = {}
+        raise RuntimeError(f"HTTP {r.status_code}: {e.get('message', '')} (code {e.get('code')}, "
+                           f"subcode {e.get('error_subcode')}, tipo {e.get('type')})")
+
+
+def diagnostico(token: str, conta: str, buscar=requests.get) -> str:
+    """Confere se o token enxerga a conta do Termômetro (ajuda a achar permissão ou Página faltando)."""
+    saida = []
+    for host in (GRAPH, GRAPH.replace("graph.facebook.com", "graph.instagram.com")):
+        try:
+            r = buscar(f"{host}/{conta}", params={"fields": "id,username", "access_token": token}, timeout=30)
+            _conferir(r)
+            saida.append(f"{host.split('/')[2]}: ok (@{r.json().get('username')})")
+        except Exception as erro:  # noqa: BLE001
+            saida.append(f"{host.split('/')[2]}: {str(erro)[:200]}")
+    return " | ".join(saida)
 
 
 def baixar(url: str, destino: Path, buscar=requests.get) -> Path:
@@ -140,6 +164,8 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
         return {"notas": [], "pautas": []}
     cliente = cliente or ia.novo_cliente()
     pasta.mkdir(parents=True, exist_ok=True)
+    if os.environ.get("REFERENCIAS_DIAGNOSTICO"):
+        print("Diagnóstico do token:", diagnostico(token, conta, buscar))
     ja, titulos = vistos(pasta), titulos_publicados(diario)
     limite = pd.Timestamp.now(tz="UTC") - pd.Timedelta(days=DIAS)
     notas, pautas = [], []
@@ -149,7 +175,7 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
         try:
             lista = posts(perfil, token, conta, buscar)
         except Exception as erro:  # noqa: BLE001 — um perfil fora do ar não para os outros
-            print(f"  @{perfil}: não consegui ler ({str(erro)[:100]})")
+            print(f"  @{perfil}: não consegui ler ({str(erro)[:240]})")
             continue
         for post in lista:
             quando = pd.Timestamp(post.get("timestamp", "1970-01-01T00:00:00+0000"))
