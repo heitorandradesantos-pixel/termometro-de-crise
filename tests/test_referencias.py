@@ -37,6 +37,7 @@ def test_sem_token_nao_faz_nada(tmp_path, monkeypatch):
 def test_analisa_os_reels_novos_sem_guardar_o_texto_do_criador(tmp_path, monkeypatch):
     monkeypatch.setenv("IG_TOKEN", "t")
     monkeypatch.setenv("IG_USER_ID", "1")
+    monkeypatch.setattr(ref, "PERFIS", ("pablospyer", "falecomrian", "shimoncomunica"))
     manual = tmp_path / "referencias.md"
     manual.write_text("# Referências\n\n" + ref.MARCA_DIARIO + "\n- 2026-11-01 · nota antiga\n")
     monkeypatch.setattr(ref, "ARQ_MANUAL", manual)
