@@ -1,0 +1,111 @@
+{
+ "titulo": "FGC: o que cobre e o que não cobre se o banco quebrar: o que se sabe",
+ "descricao": "Veja o que o FGC paga se o banco quebrar: R$ 250 mil por CPF e por instituição, teto de R$ 1 milhão em 4 anos, e o que fica de fora.",
+ "palavra_chave": "fgc o que cobre",
+ "lead": "O FGC (Fundo Garantidor de Créditos) paga até R$ 250 mil por CPF ou CNPJ em cada banco ou grupo de bancos que quebrar, com teto de R$ 1 milhão a cada 4 anos. Ações, fundos, Tesouro Direto e criptomoedas ficam fora dessa garantia. Os limites seguem os mesmos em 2026; em 5 de novembro, o FGC informou um ataque digital a seus sistemas, identificado em 26 de outubro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O limite é de R$ 250 mil por CPF ou CNPJ em cada instituição ou conglomerado (grupo de bancos do mesmo dono). Vale para a soma de tudo o que você tem coberto ali, não para cada aplicação. Segundo o material do próprio FGC (versão de dezembro de 2025), a garantia considera o saldo na data em que o Banco Central decreta o regime especial (intervenção ou liquidação).",
+   "fonte_url": "https://fgc.org.br/documents/d/guest/material-para-corretoras_versao-dezembro2025",
+   "data": "2025-12-01",
+   "veiculo": "FGC (material oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "Há um teto de R$ 1 milhão por CPF ou CNPJ em garantias pagas a cada período de 4 anos. O prazo conta da data da primeira intervenção, segundo o FGC. O teto só pesa se mais de uma instituição associada for liquidada nesse período. Ele não é um limite para quem nunca recebeu a garantia.",
+   "fonte_url": "https://fgc.org.br/documents/d/guest/material-para-corretoras_versao-dezembro2025",
+   "data": "2025-12-01",
+   "veiculo": "FGC (material oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "Na prática, o limite é por conglomerado. Com R$ 200 mil em conta corrente e R$ 200 mil em CDB no mesmo banco, o total garantido é R$ 250 mil, não R$ 400 mil. Com R$ 250 mil em dois bancos de grupos diferentes, cada um fica dentro do limite, até o teto de R$ 1 milhão em 4 anos.",
+   "fonte_url": "https://www.taxgroup.com.br/intelligence/fgc-o-que-e-e-como-funciona-a-protecao-do-seu-dinheiro/",
+   "data": "2026-11-09",
+   "veiculo": "Tax Group",
+   "confiavel": false
+  },
+  {
+   "texto": "O FGC cobre conta corrente, poupança, CDB, RDB, LCI, LCA, LC e LH (letras de crédito e de câmbio emitidas por bancos). Em CDB, LCI, LCA e LC, a garantia inclui o rendimento até a data do evento, sempre dentro do limite de R$ 250 mil.",
+   "fonte_url": "https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/fgc/",
+   "data": "2026-11-09",
+   "veiculo": "XP Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "Conta conjunta: o limite de R$ 250 mil vale para a conta toda e é dividido entre os titulares. Cada titular não ganha R$ 250 mil extras. Já o CNPJ de uma empresa tem limite próprio, separado do CPF do dono.",
+   "fonte_url": "https://safiron.net/fgc-cobre-corretora-de-cfd/",
+   "data": "2026-11-05",
+   "veiculo": "Safiron (cita página oficial do FGC lida em 05/11/2026)",
+   "confiavel": false
+  },
+  {
+   "texto": "O dinheiro acima do limite não é pago pelo FGC, mas não some. Ele continua sendo crédito seu contra a instituição em liquidação, e a recuperação pode levar anos e não é garantida.",
+   "fonte_url": "https://www.barbieriadvogados.com/fundo-garantidor-creditos-fgc-limite-liquidacao/",
+   "data": "2026-10-19",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "Ficam fora da garantia: Tesouro Direto, fundos de investimento, ações e ETFs, debêntures (dívida de empresas), CRI e CRA, letras financeiras e previdência privada (PGBL e VGBL). O Tesouro Direto é garantido pelo governo federal, não por banco. Ações ficam custodiadas na B3, e fundos têm patrimônio separado do banco.",
+   "fonte_url": "https://br.advfn.com/jornal/2026/02/fgc-explica-como-proteger-ate-r-1-milhao-em-investimentos-entenda-limites-e-produtos-cobertos",
+   "data": "2026-02-01",
+   "veiculo": "ADVFN",
+   "confiavel": false
+  },
+  {
+   "texto": "Criptomoedas e outros ativos digitais não têm cobertura do FGC. Segundo o portal Investimentos.com.br, o bitcoin não está entre os produtos garantidos. O FGC protege produtos de instituições associadas, como CDB e poupança, e comprar cripto não é um depósito bancário. Uma exchange (corretora de cripto) quebrada não aciona o FGC.",
+   "fonte_url": "https://investimentos.com.br/artigos/investir-em-bitcoin-e-seguro/",
+   "data": "2026-10-29",
+   "veiculo": "Investimentos.com.br",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O FGC identifica acesso não autorizado em processos do fluxo de pagamento de garantias.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/5/fgc-sofre-ataque-hacker-que-da-acesso-a-dados-de-pessoas-indenizadas-pela-instituicao",
+   "data": "2026-10-26",
+   "veiculo": "O Tempo / Folhapress",
+   "confiavel": false
+  },
+  {
+   "texto": "O FGC anuncia o incidente. Os dados acessados incluem nome, CPF, e-mail e data de nascimento. O fundo diz que não há evidência de uso indevido nem perda financeira.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/5/fgc-sofre-ataque-hacker-que-da-acesso-a-dados-de-pessoas-indenizadas-pela-instituicao",
+   "data": "2026-11-05",
+   "veiculo": "O Tempo / Folhapress",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Safiron, o FGC mantém na página oficial os limites de R$ 250 mil por CPF e de R$ 1 milhão em 4 anos. A Safiron leu a página nesta data.",
+   "fonte_url": "https://safiron.net/fgc-cobre-corretora-de-cfd/",
+   "data": "2026-11-05",
+   "veiculo": "Safiron",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quantas pessoas tiveram dados acessados no ataque digital ao FGC não foi informado. Os veículos consultados dizem que todos os clientes afetados foram notificados.",
+  "Quem fez o ataque e como ele foi feito não foi divulgado nos textos consultados. Nada foi confirmado sobre isso.",
+  "O FGC diz que não achou evidência de uso indevido dos dados, mas alertou que eles podem servir para tentativas de fraude. Se isso vai acontecer, não dá para saber.",
+  "Não foi possível abrir a página oficial do FGC com as listas completas de produtos garantidos e não garantidos. Parte da lista de itens fora da garantia vem de veículos e guias de investimento. Confirme o seu produto em fgc.org.br."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem até R$ 250 mil em produtos cobertos em um mesmo grupo de bancos, o valor está dentro do limite do FGC. Isso inclui o rendimento até a data da intervenção.",
+  "Se você tem mais de R$ 250 mil no mesmo conglomerado, o que passar disso fica fora da garantia. Bancos do mesmo grupo contam como um só. Vale conferir a quem pertence cada instituição.",
+  "Quem já recebeu o FGC em algum caso gasta parte do teto de R$ 1 milhão. O limite só volta a contar inteiro depois de 4 anos, segundo as regras descritas pelo FGC.",
+  "Ações, fundos, Tesouro Direto e cripto não têm o FGC. Têm outros riscos e outras proteções: o Tesouro é garantido pelo governo, e ações ficam custodiadas na B3. O FGC não cobre perdas por queda de preço.",
+  "Quem recebeu indenização do FGC no passado pode ter tido nome, CPF, e-mail e data de nascimento acessados no ataque do fim de outubro. O FGC diz que não houve perda financeira."
+ ],
+ "como_se_proteger": [
+  "Para ver ou receber o pagamento do FGC, use só o aplicativo oficial, baixado na loja do celular, ou digite fgc.org.br no navegador.",
+  "Não clique em links de mensagens, e-mails ou ligações de quem diz ser do FGC, segundo a recomendação do próprio FGC.",
+  "Desconfie de quem pedir pagamento, senha, código de autenticação ou instalação de aplicativo. O FGC não cobra para pagar a garantia.",
+  "Se receber contato suspeito, guarde as mensagens, registre um boletim de ocorrência e fale com o FGC pelos canais oficiais."
+ ],
+ "slug": "fgc-o-que-cobre",
+ "publicado_em": "2026-11-09T20:56:02.971881",
+ "atualizado_em": "2026-11-09T20:56:02.971881",
+ "assunto": "FGC: o que cobre e o que não cobre se o seu banco quebrar (limite por CPF e por instituição, teto de 4 anos, o que fica de fora como ações, fundos, Tesouro Direto e cripto)",
+ "turno": "noite"
+}
