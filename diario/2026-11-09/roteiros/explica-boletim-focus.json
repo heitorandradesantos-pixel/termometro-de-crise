@@ -1,0 +1,190 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "A previsão da Selic subiu para 13,75%, e isso pesa no seu bolso.",
+  "na_tela": "Selic: a aposta mudou",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "A previsão da Selic subiu para 13,75%, e isso pesa no seu bolso.",
+   "na_tela": "Selic: a aposta mudou",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Juros altos até o fim do ano? Veja a aposta dos economistas.",
+   "na_tela": "Juros altos até o fim do ano?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Antes, 13,50%. Agora, 13,75%. Os economistas mudaram a aposta para a Selic.",
+   "na_tela": "Antes 13,50%. Agora 13,75%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "A previsão da Selic subiu para 13,75%, e isso pesa no seu bolso.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: o Focus, do Banco Central, saiu nesta segunda-feira.",
+  "Economistas esperam a Selic, o juro básico, em 13,75% no fim do ano.",
+  "Antes, a aposta era 13,50%. Mudou quando o comitê do Banco Central manteve a taxa.",
+  "O PIB, tudo que o país produz, tem projeção de 1,75% para 2026.",
+  "Agora, o detalhe que pouca gente viu: a inflação esperada é 5,22%.",
+  "Se o seu salário sobe menos que isso, o carrinho do mercado encolhe.",
+  "Quando a Selic começa a cair, ninguém confirmou. O Focus muda toda segunda.",
+  "Passo calmo: veja o que pesa na sua parcela e no seu reajuste.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "A previsão da Selic subiu para 13,75%, e isso pesa no seu bolso. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: o Focus, do Banco Central, saiu nesta segunda-feira. Economistas esperam a Selic, o juro básico, em 13,75% no fim do ano. Antes, a aposta era 13,50%. Mudou quando o comitê do Banco Central manteve a taxa. O PIB, tudo que o país produz, tem projeção de 1,75% para 2026. Agora, o detalhe que pouca gente viu: a inflação esperada é 5,22%. Se o seu salário sobe menos que isso, o carrinho do mercado encolhe. Quando a Selic começa a cair, ninguém confirmou. O Focus muda toda segunda. Passo calmo: veja o que pesa na sua parcela e no seu reajuste. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 142,
+ "segundos": 57,
+ "na_tela": [
+  {
+   "texto": "Selic: a aposta mudou",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Focus: Selic 13,75%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 3,
+   "texto": "13,75% no fim de 2026",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 4,
+   "texto": "13,50% → 13,75%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "PIB 2026: 1,75%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 6,
+   "texto": "Inflação esperada: 5,22%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 8,
+   "texto": "Início do corte: sem confirmação",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "Boletim Focus hoje: o que os economistas esperam para a Selic",
+ "legenda": "Boletim Focus hoje: o que os economistas esperam para a Selic.\n\nSegundo o Focus do Banco Central, divulgado na segunda-feira (9/11), economistas esperam a Selic em 13,75% no fim de 2026. Antes, a aposta era 13,50%. A inflação esperada é 5,22% e o PIB tem projeção de 1,75%.\n\nO que isso muda para você: se o seu salário ou benefício sobe menos que a inflação, ele perde poder de compra. Ninguém confirmou quando a Selic começa a cair, e o Focus muda toda semana.\n\nPasso calmo: veja o que pesa na sua parcela e no seu reajuste.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#focus #selic #bancocentral #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#focus",
+  "#selic",
+  "#bancocentral",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Economistas mudaram a aposta da Selic para o fim do ano.",
+  "topicos": [
+   "Segundo o Focus, do Banco Central, economistas esperam Selic de 13,75% em 2026.",
+   "A inflação esperada é 5,22%: salário que sobe menos perde poder de compra.",
+   "O PIB tem projeção de 1,75%, e ninguém confirmou quando a Selic cai.",
+   "Confira o que pesa na sua parcela e no seu reajuste."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto, que pede calma e prova na tela, não uma notícia de urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Passo calmo: veja o que pesa na sua parcela e no seu reajuste.\" Está vago. Troque por uma ação simples: \"pegue o último reajuste do seu salário e compare com os 5,22% esperados\". Use só o número que já está na peça.",
+   "\"Se o seu salário sobe menos que isso, o carrinho do mercado encolhe.\" É a única comparação viva da peça. Dê uma cena do dia a dia: \"você paga o mesmo no caixa e sai com menos sacola\". Assim o sanguíneo ganha corpo, sem número novo.",
+   "\"o Focus, do Banco Central, saiu nesta segunda-feira.\" O termo técnico fica sem tradução. Explique na mesma frase: \"o Focus, a pesquisa semanal do Banco Central com economistas\"."
+  ],
+  "veredito": "A peça fala com quem sente o bolso, tem fonte, bordões e perda com saída, mas o passo final é vago e a comparação do dia a dia é curta."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Slow push-in along a long polished wooden table in an empty, modern meeting room, with leather chairs, glass water pitchers and closed folders. Soft morning light comes through tall windows, and city buildings are blurred outside. No people, no screens, no text, no logos",
+   "texto_da_fala": "Antes, a aposta era 13,50%. Mudou quando o comitê do Banco Central manteve a taxa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in along a long polished wooden table in an empty, modern meeting room, with leather chairs, glass water pitchers and closed folders. Soft morning light comes through tall windows, and city buildings are blurred outside. No people, no screens, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Drone shot rising slowly over a busy container port at golden hour. Plain, unmarked colored containers are stacked in rows. Cranes lift a container and trucks move along the lanes below. Smooth forward and upward camera movement. No people in view, no text, no logos",
+   "texto_da_fala": "O PIB, tudo que o país produz, tem projeção de 1,75% para 2026.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Drone shot rising slowly over a busy container port at golden hour. Plain, unmarked colored containers are stacked in rows. Cranes lift a container and trucks move along the lanes below. Smooth forward and upward camera movement. No people in view, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Smooth dolly shot following a shopping cart down a supermarket aisle. The cart is almost empty, with just a bag of rice and a loaf of bread at the bottom. Shelves on both sides are blurred and the packaging is generic with no readable labels. Warm store lighting, shallow depth of field. No people, no text, no logos",
+   "texto_da_fala": "Se o seu salário sobe menos que isso, o carrinho do mercado encolhe.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth dolly shot following a shopping cart down a supermarket aisle. The cart is almost empty, with just a bag of rice and a loaf of bread at the bottom. Shelves on both sides are blurred and the packaging is generic with no readable labels. Warm store lighting, shallow depth of field. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "A previsão da Selic subiu para 13,75%, e isso pesa no seu bolso.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: o Focus, do Banco Central, saiu nesta segunda-feira.\n\nEconomistas esperam a Selic, o juro básico, em 13,75% no fim do ano.\n\nAntes, a aposta era 13,50%. Mudou quando o comitê do Banco Central manteve a taxa.\n\nO PIB, tudo que o país produz, tem projeção de 1,75% para 2026.\n\nAgora, o detalhe que pouca gente viu: a inflação esperada é 5,22%.\n\nSe o seu salário sobe menos que isso, o carrinho do mercado encolhe.\n\nQuando a Selic começa a cair, ninguém confirmou. O Focus muda toda segunda.\n\nPasso calmo: veja o que pesa na sua parcela e no seu reajuste.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/apos-copom-economistas-veem-selic-em-1375-em-2026-veja-o-focus-desta-segunda-feira-9-jcav/",
+   "destaque": "Juros: a projeção para a Selic, a taxa básica de juros, no fim de 2026 subiu de 13,50% para 13,75% ao ano."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-09112026/",
+   "destaque": "Inflação de 2027 em diante: a projeção para 2027 subiu de 4,76% para 4,90%."
+  },
+  {
+   "veiculo": "Poder360",
+   "url": "https://poder360.com.br/poder-economia/mercado-reduz-expectativa-do-pib-de-2026-para-175",
+   "destaque": "Contexto: os dados foram coletados até 6/11, depois de o Copom manter a Selic em 13,75% ao ano, na quarta-feira (4/11)."
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T11:06:51.508253-03:00"
+}

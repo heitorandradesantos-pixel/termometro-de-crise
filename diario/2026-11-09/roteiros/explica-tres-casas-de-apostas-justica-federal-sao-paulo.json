@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Você tem conta na Betsul? Olha o que a Justiça decidiu em 6 de novembro.",
+  "na_tela": "Conta na Betsul? Olha isso",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "Três casas de apostas foram liberadas e barradas de novo na Justiça.",
+   "na_tela": "Liberadas e barradas de novo",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Você tem conta na Betsul? Olha o que a Justiça decidiu em 6 de novembro.",
+   "na_tela": "Conta na Betsul? Olha isso",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "A autorização durou pouco: o presidente do TRF3 derrubou a liminar.",
+   "na_tela": "Liminar derrubada pelo TRF3",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Você tem conta na Betsul? Olha o que a Justiça decidiu em 6 de novembro.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Uma liminar, decisão provisória, liberou Casa de Apostas, Betsul e Jogo Online.",
+  "Valia só para a CDA Gaming, contra a MP 1.394/2026, que proíbe apostas.",
+  "A AGU, que representa o governo, disse que ia recorrer.",
+  "Só que, em 6 de novembro, o presidente do TRF3 suspendeu a liminar.",
+  "Pensa num sinal verde que abriu só para um carro e fechou logo depois.",
+  "Para as outras casas, nada mudou: a proibição segue em vigor.",
+  "Ainda cabe recurso, e as fontes não dizem como fica seu saldo.",
+  "Tem conta nelas? Procure os canais oficiais da empresa.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Você tem conta na Betsul? Olha o que a Justiça decidiu em 6 de novembro. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Uma liminar, decisão provisória, liberou Casa de Apostas, Betsul e Jogo Online. Valia só para a CDA Gaming, contra a MP 1.394/2026, que proíbe apostas. A AGU, que representa o governo, disse que ia recorrer. Só que, em 6 de novembro, o presidente do TRF3 suspendeu a liminar. Pensa num sinal verde que abriu só para um carro e fechou logo depois. Para as outras casas, nada mudou: a proibição segue em vigor. Ainda cabe recurso, e as fontes não dizem como fica seu saldo. Tem conta nelas? Procure os canais oficiais da empresa. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 136,
+ "segundos": 54,
+ "na_tela": [
+  {
+   "texto": "Conta na Betsul? Olha isso",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Casa de Apostas, Betsul e Jogo Online",
+   "fonte": "Poder360"
+  },
+  {
+   "fala": 3,
+   "texto": "MP 1.394/2026",
+   "fonte": "Poder360"
+  },
+  {
+   "fala": 5,
+   "texto": "6 de novembro: liminar suspensa",
+   "fonte": "Times Brasil"
+  },
+  {
+   "fala": 7,
+   "texto": "Demais casas: proibição segue",
+   "fonte": "Poder360"
+  },
+  {
+   "fala": 8,
+   "texto": "Saldo: fontes não dizem",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Canais oficiais da empresa",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "casas de apostas liberadas e barradas na Justiça",
+ "legenda": "Casas de apostas liberadas e barradas na Justiça: o que se sabe.\n\nUma liminar, que é uma decisão provisória, liberou Casa de Apostas, Betsul e Jogo Online. Valia só para a CDA Gaming. Em 6 de novembro, o presidente do TRF3 suspendeu a decisão, segundo o tribunal.\n\nPara as outras casas, nada mudou: a MP 1.394/2026 segue em vigor, segundo os veículos consultados.\n\nAinda cabe recurso, e as fontes não dizem como fica o saldo de quem tem conta nas três marcas. Procure os canais oficiais da empresa.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#casasdeapostas #bets #termometrodecrise #educacaofinanceira",
+ "hashtags": [
+  "#casasdeapostas",
+  "#bets",
+  "#termometrodecrise",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Três casas de apostas liberadas e barradas de novo pela Justiça.",
+  "topicos": [
+   "Liminar liberou Casa de Apostas, Betsul e Jogo Online, segundo o Poder360.",
+   "Em 6 de novembro, o presidente do TRF3 suspendeu, a pedido da AGU.",
+   "Para as outras casas, a MP 1.394/2026 segue valendo, segundo os veículos consultados.",
+   "Tem conta nelas? Procure os canais oficiais da empresa sobre seu saldo."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente, suspensa em 6 de novembro, e pede o tom de \"preciso te contar isso agora\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Uma liminar, decisão provisória, liberou Casa de Apostas, Betsul e Jogo Online.\": o termo técnico está traduzido, mas a leitura soa seca. Reescreva com o \"Olha só\" da casa e a tradução em tom de conversa, por exemplo: \"Olha só: uma liminar, que é uma decisão provisória, liberou três casas.\" Isso dá a virada de voz do Heitor sem mudar nenhum fato.",
+   "Frase \"Valia só para a CDA Gaming, contra a MP 1.394/2026, que proíbe apostas.\": a sigla e o número da MP chegam em sequência, e um público que acha notícia de economia \"outra língua\" pode se perder. Quebre em duas frases curtas e traduza a sigla na hora, usando só o que a peça já diz (AGU já está explicada como quem representa o governo). Diga, por exemplo: \"Quem pediu foi a CDA Gaming. Ela questionava a MP 1.394/2026, a regra que proíbe apostas.\"",
+   "Frase \"Tem conta nelas? Procure os canais oficiais da empresa.\": o passo é correto, mas ficou genérico. Reescreva em tom acolhedor e com um passo simples, por exemplo: \"Tem conta numa delas? Calma: não mexa por impulso e fale pelos canais oficiais da empresa para saber do seu saldo.\" Assim o fleumático recebe calma e o colérico recebe a ação, sem prometer nada sobre o saldo."
+  ],
+  "veredito": "A peça fala direto com quem tem conta nas casas, traduz o termo técnico, usa a metáfora do sinal verde, assume o que ainda não se sabe e dá a saída ao leitor; o que falta é um pouco mais de calor de conversa (o \\\"Olha só\\\" e frases mais curtas) e um passo final mais acolhedor."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Vertical slow push-in down a quiet government ministry corridor with polished floors, a closed office door at the end and a stack of legal folders on a table in the foreground, warm light, no recognizable people, no text, no logos",
+   "texto_da_fala": "A AGU, que representa o governo, disse que ia recorrer.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical slow push-in down a quiet government ministry corridor with polished floors, a closed office door at the end and a stack of legal folders on a table in the foreground, warm light, no recognizable people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical slow upward tilt along the columns of a large neoclassical federal courthouse facade in daylight, with a heavy wooden door in the foreground and a gavel resting on a desk in soft focus, no people, no text, no logos, no flags",
+   "texto_da_fala": "Só que, em 6 de novembro, o presidente do TRF3 suspendeu a liminar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical slow upward tilt along the columns of a large neoclassical federal courthouse facade in daylight, with a heavy wooden door in the foreground and a gavel resting on a desk in soft focus, no people, no text, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Vertical shot of a traffic light on an empty city avenue at dusk, glowing green for a single car passing through, then switching to red as the lane empties; slow dolly-in toward the light, shallow depth of field, no text, no people's faces, no logos",
+   "texto_da_fala": "Pensa num sinal verde que abriu só para um carro e fechou logo depois.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of a traffic light on an empty city avenue at dusk, glowing green for a single car passing through, then switching to red as the lane empties; slow dolly-in toward the light, shallow depth of field, no text, no people's faces, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Você tem conta na Betsul? Olha o que a Justiça decidiu em 6 de novembro.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nUma liminar, decisão provisória, liberou Casa de Apostas, Betsul e Jogo Online.\n\nValia só para a CDA Gaming, contra a MP 1.394/2026, que proíbe apostas.\n\nA AGU, que representa o governo, disse que ia recorrer.\n\nSó que, em 6 de novembro, o presidente do TRF3 suspendeu a liminar.\n\nPensa num sinal verde que abriu só para um carro e fechou logo depois.\n\nPara as outras casas, nada mudou: a proibição segue em vigor.\n\nAinda cabe recurso, e as fontes não dizem como fica seu saldo.\n\nTem conta nelas? Procure os canais oficiais da empresa.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "Poder360",
+   "url": "https://www.poder360.com.br/poder-governo/governo-recorrera-de-decisao-que-liberou-3-bets-no-brasil/",
+   "destaque": "A desembargadora Adriana Pileggi, do TRF3 (Tribunal Regional Federal da 3ª Região, em São Paulo), restabeleceu provisoriamente a…"
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T11:08:38.466602-03:00"
+}
