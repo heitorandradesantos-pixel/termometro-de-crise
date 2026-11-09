@@ -1,0 +1,114 @@
+{
+ "titulo": "Nvidia investiga Jensen Huang: o que se sabe e o efeito nas ações",
+ "descricao": "Conselho da Nvidia abriu investigação independente sobre o CEO após reportagens sobre inteligência chinesa. Veja o que se sabe e o que pode afetar NVDC34.",
+ "palavra_chave": "nvidia investigação jensen huang",
+ "lead": "O conselho da Nvidia anunciou no domingo (8/11) uma investigação independente sobre o CEO Jensen Huang, depois de reportagens de que ele foi alvo de uma ação de inteligência estrangeira. O conselho diz não ter motivo para crer que segredos da empresa ou a segurança nacional dos EUA foram afetados. As ações da Nvidia chegaram a cair cerca de 5% no pré-mercado (negociação antes da abertura) de segunda-feira (9/11), segundo a Bloomberg e a CNBC.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O conselho da Nvidia informou em comunicado, no domingo (8/11), que abriu uma investigação independente após reportagens de que o fundador e CEO Jensen Huang foi alvo de um esforço de inteligência estrangeira. Um comitê de conselheiros independentes, com advogados externos, vai conduzir a apuração.",
+   "fonte_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "data": "2026-11-08",
+   "veiculo": "CNBC (texto do comunicado)",
+   "confiavel": true
+  },
+  {
+   "texto": "O conselho diz não ter motivo para acreditar que a segurança nacional ou segredos da Nvidia foram comprometidos, mas afirma que a apuração vai examinar todas as informações disponíveis. Também diz ter confiança em Huang e em sua equipe e que dará novas informações quando couber.",
+   "fonte_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+   "data": "2026-11-08",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "Em e-mail a funcionários, Huang disse que apoia a investigação e vai cooperar totalmente. Na mesma mensagem, admitiu ter sido infiel à esposa e pediu desculpas. A empresa diz que ele quer continuar no comando.",
+   "fonte_url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "data": "2026-11-08",
+   "veiculo": "TechCrunch",
+   "confiavel": false
+  },
+  {
+   "texto": "A reportagem que deu origem ao caso é do New York Times. Segundo o jornal, que cita fontes anônimas, autoridades de inteligência dos EUA disseram ao governo Trump que uma executiva da Megaspeed, empresa asiática de tecnologia e cliente da Nvidia, trabalhava para um órgão de espionagem chinês e foi recrutada para coletar informações sobre Huang. O governo dos EUA não confirmou isso oficialmente nas fontes consultadas.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-07/us-believes-woman-close-to-nvidia-ceo-was-a-china-spy-nyt-says",
+   "data": "2026-11-06",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 4/11, três presidentes de comissões da Câmara dos EUA, todos republicanos, pediram que Huang participe de uma reunião fechada em 18/11 sobre suas interações com a executiva e sobre as defesas da Nvidia contra espionagem estrangeira.",
+   "fonte_url": "https://www.scmp.com/tech/article/3373724/nvidia-ceo-jensen-huang-admits-affair-board-orders-investigation",
+   "data": "2026-11-04",
+   "veiculo": "South China Morning Post",
+   "confiavel": false
+  },
+  {
+   "texto": "As ações da Nvidia caíam cerca de 5% no pré-mercado de segunda-feira (9/11). A Bloomberg calculou que uma queda desse tamanho equivale a uns US$ 225 bilhões a menos em valor de mercado.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+   "data": "2026-11-09",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "Um jornal estatal chinês, o Global Times, negou que Pequim tenha ligação com o caso. O jornal acusa veículos americanos de espalhar uma narrativa de espionagem inventada e alerta que o tema pode prejudicar as relações entre os países.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-09/china-newspaper-dismisses-jensen-huang-spy-claim-warns-on-ties",
+   "data": "2026-11-09",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Bloomberg, a Megaspeed é cliente da Nvidia e foi acusada de ajudar empresas chinesas com restrições a obter chips de IA da Nvidia (informação atribuída a reportagens; a CNBC descreve a acusação como feita contra a empresa).",
+   "fonte_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+   "data": "2026-11-08",
+   "veiculo": "CNBC",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Três presidentes de comissões da Câmara dos EUA pedem que Huang participe de reunião fechada em 18/11.",
+   "fonte_url": "https://www.scmp.com/tech/article/3373724/nvidia-ceo-jensen-huang-admits-affair-board-orders-investigation",
+   "data": "2026-11-04",
+   "veiculo": "South China Morning Post",
+   "confiavel": false
+  },
+  {
+   "texto": "New York Times relata que a inteligência dos EUA avisou o governo Trump sobre a executiva ligada a Huang.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-07/us-believes-woman-close-to-nvidia-ceo-was-a-china-spy-nyt-says",
+   "data": "2026-11-06",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "Conselho da Nvidia anuncia investigação independente; Huang escreve aos funcionários.",
+   "fonte_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "data": "2026-11-08",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "Ações da Nvidia caem cerca de 5% no pré-mercado; jornal estatal chinês nega ligação de Pequim.",
+   "fonte_url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+   "data": "2026-11-09",
+   "veiculo": "CNBC",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto tempo vai durar a investigação e quando haverá resultado: o conselho não informou prazo.",
+  "Se Huang continuará como CEO: a empresa diz que sim e que tem confiança nele. O analista Dan Ives, da Yorkville Ives, disse haver risco de remoção dependendo da apuração, mas é uma opinião dele, não um fato.",
+  "Se houve vazamento de segredos da Nvidia ou de informação de segurança nacional: o conselho diz não ter motivo para crer nisso, mas a investigação ainda não terminou.",
+  "Se as acusações de espionagem são verdadeiras: elas vêm de reportagens com fontes anônimas, a China nega e não encontramos confirmação oficial do governo dos EUA.",
+  "Como a ação e o BDR NVDC34 fecharam em 9/11: só encontramos dados de pré-mercado e de outras bolsas; o fechamento não foi confirmado."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem o BDR NVDC34 na B3 (um recibo, negociado em reais, que acompanha a ação da Nvidia nos EUA) fica exposto à queda da ação lá fora e também à variação do dólar, já que o preço do BDR depende dos dois.",
+  "O BDR continua sendo negociado enquanto a Nvidia estiver listada. Uma eventual troca de CEO não faz o NVDC34 deixar de existir, segundo o site Investir e Cuidar para Começar.",
+  "Analistas veem 'risco de pessoa-chave': a Nvidia depende muito da imagem e da estratégia de Huang. Dan Ives afirma que o resultado da investigação pode pesar na ação, mas que espera Huang no cargo no curto prazo.",
+  "Datas a acompanhar: a reunião pedida pela Câmara dos EUA (18/11) e o balanço do terceiro trimestre da Nvidia, que, segundo a Fox Business, sai um dia antes. Elas podem trazer novas informações.",
+  "Fundos e outras ações ligadas à IA também podem oscilar com a notícia. Nesta segunda, porém, fornecedores asiáticos de chips como TSMC, Samsung e SK Hynix se recuperaram, segundo o Money Times."
+ ],
+ "como_se_proteger": [],
+ "slug": "nvidia-investigacao-jensen-huang",
+ "publicado_em": "2026-11-09T09:02:07.153737",
+ "atualizado_em": "2026-11-09T09:02:07.153737",
+ "assunto": "Nvidia abre investigação independente sobre o CEO Jensen Huang depois de reportagens de que ele foi alvo da inteligência chinesa (comunicado do conselho em 8/11/2026): o que se sabe e o que pode mexer nas ações da Nvidia, no mercado de inteligência artificial e no BDR da Nvidia na B3. Fontes: comunicado oficial do conselho (nvidianews.nvidia.com), Bloomberg, TechCrunch, Washington Post. Sem detalhes da vida pessoal além do que a empresa e o próprio CEO declararam.",
+ "turno": "manha"
+}
