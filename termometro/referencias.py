@@ -55,8 +55,8 @@ SISTEMA += config.manual("marca")
 
 def ferramenta() -> dict:
     return {"name": "registrar_analise", "description": "A análise do Reel de referência.",
-            "input_schema": {"type": "object", "required": ["tema", "gancho", "tecnicas", "formato", "relevancia", "pauta",
-                                                            "ja_coberto", "ideia_reel"],
+            # pauta e ideia podem ficar vazias de propósito: não entram como obrigatórias
+            "input_schema": {"type": "object", "required": ["tema", "gancho", "tecnicas", "formato", "relevancia"],
                              "properties": {
                                  "tema": {"type": "string", "description": "O assunto, em uma frase curta."},
                                  "gancho": {"type": "string", "description": "Como o vídeo prende nos 3 primeiros segundos (a técnica)."},
@@ -233,7 +233,11 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
             if not legenda and not transcricao:  # nada para analisar: tenta de novo na próxima leitura
                 print(f"  @{perfil}: sem legenda e sem áudio transcrito; fica para a próxima")
                 continue
-            a = analisar(cliente, perfil, legenda, transcricao, titulos)
+            try:
+                a = analisar(cliente, perfil, legenda, transcricao, titulos)
+            except Exception as erro:  # noqa: BLE001 — um vídeo que não deu não para os outros
+                print(f"  @{perfil}: análise falhou ({str(erro)[:120]}); fica para a próxima")
+                continue
             if not a.get("tema"):
                 continue
             notas.append(nota(perfil, post, a))
