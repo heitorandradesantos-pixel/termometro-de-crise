@@ -48,8 +48,8 @@ Regras:
    Nos outros casos, deixe vazio. Na dúvida, deixe vazio: o artigo só sai quando vale muito a pena.
 6. "ja_coberto": verdadeiro se a pauta já está entre os títulos que publicamos (lista no pedido).
 7. "ideia_reel": um assunto que renderia um Reel nosso, com o ângulo do Termômetro (o que muda no bolso, com fonte),
-   em 1 ou 2 frases. Vale para assunto educativo e atemporal também. Nunca o mesmo roteiro do criador. Vazio se não
-   serve para o nosso público."""
+   em 1 ou 2 frases. Vale para assunto educativo e atemporal também. Nunca o mesmo roteiro do criador. Se o vídeo
+   é política, opinião ou não tem efeito no bolso, deixe vazio (não escreva "não serve" nem explique)."""
 SISTEMA += config.manual("marca")
 
 
@@ -167,7 +167,23 @@ def analisar(cliente, perfil: str, legenda: str, transcricao: str, titulos: list
     return ia.estruturado(cliente, SISTEMA, pedido, ferramenta(), max_tokens=2000) or {}
 
 
-SEM_PAUTA = re.compile(r"^\W*(sem pauta|nenhum|nenhuma|vazio|n/?a|-+)\b|^\W*$", re.IGNORECASE)
+SEM_PAUTA = re.compile(r"^\W*(sem pauta|sem ideia|nenhum|nenhuma|vazio|n/?a|-+|não serve|nao serve|não vale|nao vale|"
+                       r"não se aplica|nao se aplica|não há|nao ha|fora do escopo)\b|^\W*$", re.IGNORECASE)
+_PALAVRAS_VAZIAS = {
+    "sobre", "como", "para", "porque", "quando", "quanto", "qual", "quais", "isso", "essa", "esse", "este", "esta",
+    "mostrar", "explicar", "reel", "nosso", "nossa", "seus", "suas", "você", "voce", "fonte", "bolso", "muda",
+    "mudar", "pode", "com", "sem", "mais", "menos", "entre", "depois", "antes", "cada"
+}
+
+
+def _termos(texto: str) -> set[str]:
+    return {p for p in re.findall(r"[a-záàâãéêíóôõúç0-9]{4,}", texto.lower()) if p not in _PALAVRAS_VAZIAS}
+
+
+def _parecida(a: str, b: str) -> bool:
+    """Duas ideias sobre o mesmo assunto (ex.: duas do FGC) contam como uma só no resumo."""
+    ta, tb = _termos(a), _termos(b)
+    return bool(ta and tb) and len(ta & tb) / min(len(ta), len(tb)) >= 0.35
 
 
 def limpar_pauta(pauta: str) -> str:
@@ -266,9 +282,29 @@ def ideias_pendentes(pasta: Path, dias: int = 3) -> list[tuple[str, dict]]:
     return sorted(itens, key=lambda kv: kv[1].get("dia", ""), reverse=True)
 
 
+def selecionar_ideias(itens: list[tuple[str, dict]], maximo: int = 6) -> tuple[list, list[str]]:
+    """Tira ideias vazias, as do tipo "não serve" e as que repetem o assunto de outra; fica com até `maximo`.
+    Devolve (escolhidas, chaves descartadas), para as descartadas não voltarem no resumo do dia seguinte."""
+    escolhidas: list[tuple[str, dict]] = []
+    descartadas: list[str] = []
+    for k, v in itens:
+        if len(escolhidas) >= maximo:
+            break
+        ideia = limpar_pauta(v.get("ideia_reel") or "")
+        if ideia and not any(_parecida(ideia, e["ideia_reel"]) for _, e in escolhidas):
+            escolhidas.append((k, v))
+        else:
+            descartadas.append(k)
+    return escolhidas, descartadas
+
+
+def sem_repetidas(itens: list[tuple[str, dict]], maximo: int = 6) -> list[tuple[str, dict]]:
+    return selecionar_ideias(itens, maximo)[0]
+
+
 def mensagem_ideias(itens: list[tuple[str, dict]], maximo: int = 6) -> str:
-    linhas = [f"• {v['ideia_reel']} _(inspirado em @{v['perfil']})_" for _, v in itens[:maximo]]
-    return ("💡 IDEIAS DE REELS (das referências de hoje)\n\nAssuntos que renderiam vídeo nosso, com o ângulo do "
+    linhas = [f"• {v['ideia_reel']} _(inspirado em @{v['perfil']})_" for _, v in sem_repetidas(itens, maximo)]
+    return ("💡 IDEIAS DE REELS (das referências mais recentes)\n\nAssuntos que renderiam vídeo nosso, com o ângulo do "
             "Termômetro. Se quiser roteiro de algum, me pede.\n\n" + "\n".join(linhas))
 
 

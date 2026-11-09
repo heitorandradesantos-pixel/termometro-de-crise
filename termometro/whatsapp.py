@@ -201,7 +201,10 @@ def concluir_roteiros(envio: dict, resultado: dict) -> str:
 def preparar_ideias(pasta_diario: Path, pasta_saida: Path, maximo: int = 6) -> str:
     """Um resumo por dia, na conversa do próprio número, com os assuntos das referências que viram Reel nosso."""
     from . import referencias
-    itens = referencias.ideias_pendentes(pasta_diario / "referencias")[:maximo]
+    itens, descartadas = referencias.selecionar_ideias(referencias.ideias_pendentes(pasta_diario / "referencias"),
+                                                       maximo)
+    if descartadas:  # repetidas ou sem ângulo de bolso: não voltam amanhã
+        referencias.marcar_ideias(pasta_diario / "referencias", descartadas)
     if not itens:
         return "Nenhuma ideia de Reel nova."
     if pasta_saida.exists():

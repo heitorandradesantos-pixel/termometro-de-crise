@@ -129,3 +129,23 @@ def test_so_relevancia_alta_vira_artigo(tmp_path, monkeypatch):
     r = ref.rodar(tmp_path, tmp_path / "ref", cliente=object(), buscar=graph_falso, transcritor=lambda v: "fala")
     assert r["pautas"] == ["O que se sabe sobre pablospyer"]
     assert len(ref.ideias_pendentes(tmp_path / "ref")) == 3
+
+
+def test_resumo_de_ideias_tira_repetida_e_nao_serve(tmp_path):
+    from termometro import whatsapp
+    pasta = tmp_path / "referencias"
+    pasta.mkdir()
+    hoje = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+    (pasta / "vistos.json").write_text(json.dumps({
+        "a": {"perfil": "falecomrian", "dia": hoje,
+              "ideia_reel": "Se o seu banco quebrar, o que o FGC cobre por CPF e por instituição."},
+        "b": {"perfil": "pablospyer", "dia": hoje,
+              "ideia_reel": "O que o FGC cobre por CPF e por instituição quando um banco digital quebra."},
+        "c": {"perfil": "shimoncomunica", "dia": hoje, "ideia_reel": "Não serve como está: é opinião política."},
+        "d": {"perfil": "pablospyer", "dia": hoje, "ideia_reel": "Selic mantida: o que muda na parcela do cartão."}}))
+    saida = tmp_path / "_ideias"
+    assert "2 ideia" in whatsapp.preparar_ideias(tmp_path, saida)
+    envio = json.loads((saida / "envio.json").read_text())
+    assert sorted(envio["ideias"]) == ["a", "d"] and "Não serve" not in envio["textos"][0]
+    vistos = json.loads((pasta / "vistos.json").read_text())
+    assert vistos["b"].get("ideia_enviada") and vistos["c"].get("ideia_enviada")  # descartadas não voltam amanhã
