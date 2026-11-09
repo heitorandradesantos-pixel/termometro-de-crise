@@ -11,7 +11,7 @@ Como usar o diário abaixo:
 - Copywriter: a primeira linha da legenda pode usar a mesma lógica de gancho (pergunta de bolso, número + porquê).
 - Estrategista: compare a peça com o padrão que está funcionando nas referências.
 
-O diário é atualizado sozinho, 5 vezes por dia, pelo robô de referências (API do Instagram + transcrição do áudio). Ele
+O diário é atualizado sozinho, 6 vezes por dia, pelo robô de referências (API do Instagram + transcrição do áudio). Ele
 guarda só a nossa análise e o link, nunca a legenda ou a fala do criador.
 
 ## Diário de referências (atualizado pelo robô)

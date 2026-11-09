@@ -1,6 +1,6 @@
 name: Referências
 
-# 5 vezes por dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian e Shimon), pela API oficial do
+# 6 vezes por dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian e Shimon), pela API oficial do
 # Instagram (Business Discovery, com a conta profissional do Termômetro), transcreve o áudio aqui no robô e grava a
 # análise (tema, gancho, técnicas, formato) no manual termometro/manuais/referencias.md, que o Roteirista, o
 # Copywriter e o Estrategista leem. Se o vídeo trata de notícia de dinheiro quente que ainda não cobrimos, manda a
@@ -8,7 +8,7 @@ name: Referências
 # Precisa dos secrets IG_TOKEN e IG_USER_ID; sem eles, não faz nada.
 on:
   schedule:
-    - cron: "47 12,15,18,21,0 * * *" # 9h47, 12h47, 15h47, 18h47 e 21h47 em Brasília (um agendamento externo também dispara)
+    - cron: "47 10,12,15,18,21,0 * * *" # 7h47, 9h47, 12h47, 15h47, 18h47 e 21h47 em Brasília (um agendamento externo também dispara)
   workflow_dispatch:
     inputs:
       diagnostico:

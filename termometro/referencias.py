@@ -1,4 +1,4 @@
-"""Referências: 5 vezes por dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian e
+"""Referências: 6 vezes por dia, o robô olha os Reels novos dos criadores que o Heitor acompanha (Pablo Spyer, Rian e
 Shimon) e
 alimenta o Roteirista, o Copywriter e o Estrategista com o que funciona neles. Roda na nuvem, sem o computador.
 
