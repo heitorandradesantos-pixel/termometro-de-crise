@@ -290,13 +290,15 @@ def demo(hoje: pd.Timestamp | None = None) -> dict:
     hoje = (hoje or pd.Timestamp.now(tz="America/Sao_Paulo")).floor("h")
     posts = []
     for i, titulo in enumerate(DEMO_TITULOS):
-        quando = hoje - pd.Timedelta(hours=19 * i + 3)
-        alcance = sorteio.randint(1800, 42000)
+        quando = hoje - pd.Timedelta(hours=34 * i + 3)  # 10 posts em duas semanas: dá para comparar com a anterior
+        alcance = sorteio.randint(9000, 30000)
         p = {"id": f"demo{i}", "tipo": "REELS", "formato": "VIDEO", "legenda": titulo, "link": "#",
              "data": quando.isoformat(), "capa": "", "alcance": alcance, "views": int(alcance * sorteio.uniform(1.3, 1.9)),
              "salvos": int(alcance * sorteio.uniform(0.004, 0.04)), "compartilhamentos": int(alcance * sorteio.uniform(0.002, 0.05)),
              "comentarios": sorteio.randint(8, 160), "curtidas": int(alcance * sorteio.uniform(0.03, 0.08)),
              "interacoes": None, "seguiram": None, "tempo_medio": round(sorteio.uniform(4.5, 21), 1)}
+        if i == 1:  # o post que "estourou": é ele que a vitrine mostra como o que vale impulsionar
+            p.update(alcance=38500, views=71200, compartilhamentos=2950, salvos=1840, comentarios=212)
         p["forca"] = forca(p)
         p["serie"] = [[(hoje - pd.Timedelta(hours=h)).isoformat(timespec="minutes"), int(p["views"] * (1 - h / 120))]
                       for h in (24, 18, 12, 6, 0)]
