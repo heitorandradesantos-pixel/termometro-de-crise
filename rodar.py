@@ -26,10 +26,30 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent
 sys.path.insert(0, str(RAIZ))
 
-import pandas as pd  # noqa: E402
+import pandas as pd
 
-from termometro import (acoes, bcb, buscador, coleta, plantao, config, conselho, copywriter, correspondente, design, grafico, ia, motor,  # noqa: E402
-                        mundo, paginas, panorama, publicar, redator, revisor, seo, site)
+from termometro import (
+    acoes,
+    bcb,
+    buscador,
+    coleta,
+    conselho,
+    copywriter,
+    correspondente,
+    design,
+    grafico,
+    ia,
+    motor,
+    mundo,
+    paginas,
+    panorama,
+    plantao,
+    publicar,
+    redator,
+    revisor,
+    seo,
+    site,
+)
 
 EDICOES = RAIZ / "edicoes"
 DIARIO = RAIZ / "diario"
@@ -276,7 +296,7 @@ def main() -> None:
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
     p.add_argument("--parcial", action="store_true", help="leitura do meio do dia: só os números do mundo")
     p.add_argument("--plantao", action="store_true", help="Plantão: notícia de dinheiro do momento, com fonte")
-    p.add_argument("--whatsapp", choices=["preparar", "concluir", "roteiros", "fimdesemana"],
+    p.add_argument("--whatsapp", choices=["preparar", "concluir", "roteiros", "fimdesemana", "ideias"],
                    help="WhatsApp: prepara o envio do fechamento (card, balanço e panorama) ou registra o resultado")
     p.add_argument("--teste", action="store_true", help="WhatsApp: prepara o envio para o próprio número")
     p.add_argument("--tipo", choices=["fechamento", "abertura"], default="fechamento", help="WhatsApp: o que enviar")
@@ -321,6 +341,8 @@ def main() -> None:
         if a.whatsapp == "roteiros":
             dia = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
             print(whatsapp.preparar_roteiros(DIARIO, dia, Path(a.pasta)))
+        elif a.whatsapp == "ideias":
+            print(whatsapp.preparar_ideias(DIARIO, Path(a.pasta)))
         elif a.whatsapp == "fimdesemana":
             from termometro import fimdesemana
             dia = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")

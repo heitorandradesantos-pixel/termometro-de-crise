@@ -91,7 +91,7 @@ def mensagens_abertura(pasta_diario: Path, pasta_trabalho: Path) -> dict | None:
 
 LEGENDA_MAXIMA = 1000  # o WhatsApp corta legendas de imagem perto de 1.024 caracteres
 NOMES = {"fechamento": "O fechamento", "abertura": "A abertura", "roteiros": "Os roteiros",
-         "fimdesemana": "A edição de domingo"}
+         "fimdesemana": "A edição de domingo", "ideias": "As ideias de Reels"}
 
 
 def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, teste: bool = False, tipo: str = "fechamento") -> str:
@@ -130,6 +130,12 @@ def concluir(pasta_diario: Path, pasta_saida: Path) -> str:
     resultado = json.loads(res.read_text()) if res.exists() else {"ok": False}
     if tipo == "roteiros":
         return concluir_roteiros(envio, resultado)
+    if tipo == "ideias":
+        if not resultado.get("ok"):
+            return "Ideias de Reels: o envio falhou."
+        from . import referencias
+        referencias.marcar_ideias(pasta_diario / "referencias", envio.get("ideias", []))
+        return f"Ideias de Reels: {len(envio.get('ideias', []))} enviada(s) para a conversa do próprio número."
     if envio.get("modo") == "sim" or resultado.get("ok"):
         registrar(pasta_diario / envio["dia"], tipo, resultado, envio.get("modo"))
     return (f"{NOMES[tipo]} de {envio['dia']}: enviado ({envio.get('modo')})." if resultado.get("ok")
@@ -188,3 +194,21 @@ def concluir_roteiros(envio: dict, resultado: dict) -> str:
             r = json.loads(arq.read_text())
             arq.write_text(json.dumps({**r, "enviado_whatsapp": quando}, ensure_ascii=False, indent=1))
     return f"Roteiros de {envio['dia']}: {len(envio.get('roteiros', []))} enviado(s) para a conversa do próprio número."
+
+
+# ---------------------------------------------------------------- ideias de Reels (das referências)
+
+def preparar_ideias(pasta_diario: Path, pasta_saida: Path, maximo: int = 6) -> str:
+    """Um resumo por dia, na conversa do próprio número, com os assuntos das referências que viram Reel nosso."""
+    from . import referencias
+    itens = referencias.ideias_pendentes(pasta_diario / "referencias")[:maximo]
+    if not itens:
+        return "Nenhuma ideia de Reel nova."
+    if pasta_saida.exists():
+        shutil.rmtree(pasta_saida)
+    pasta_saida.mkdir(parents=True)
+    dia = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+    envio = {"modo": "teste", "dia": dia, "tipo": "ideias", "textos": [referencias.mensagem_ideias(itens, maximo)],
+             "ideias": [k for k, _ in itens]}
+    (pasta_saida / "envio.json").write_text(json.dumps(envio, ensure_ascii=False, indent=1))
+    return f"{len(itens)} ideia(s) de Reel prontas para mandar (conversa do próprio número)."

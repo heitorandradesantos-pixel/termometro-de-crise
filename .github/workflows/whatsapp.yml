@@ -19,7 +19,7 @@ on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "parear, teste, teste-abertura, fechamento, abertura, roteiros, fimdesemana ou foto"
+        description: "parear, teste, teste-abertura, fechamento, abertura, roteiros, fimdesemana, ideias ou foto"
         required: true
         default: "teste"
       numero:
@@ -116,6 +116,7 @@ jobs:
             teste-abertura) python rodar.py --whatsapp preparar --teste --tipo abertura ;;
             abertura) python rodar.py --whatsapp preparar --tipo abertura ;;
             roteiros) python rodar.py --whatsapp roteiros --data "$DATA" ;;
+            ideias) python rodar.py --whatsapp ideias ;;
             fimdesemana) python rodar.py --whatsapp fimdesemana ${DATA:+--data "$DATA"} ;;
             foto) echo "Foto: nada a preparar." ;;
             *) python rodar.py --whatsapp preparar --data "$DATA" ;;

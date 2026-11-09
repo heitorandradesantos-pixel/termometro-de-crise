@@ -47,7 +47,7 @@ def test_analisa_os_reels_novos_sem_guardar_o_texto_do_criador(tmp_path, monkeyp
         vistos_transcritos.append(transcricao)
         pauta = "O que se sabe sobre o novo imposto do Pix" if perfil == "pablospyer" else ""
         return {"tema": f"Tema de {perfil}", "gancho": "Pergunta de bolso.", "tecnicas": ["print da fonte"],
-                "formato": "selfie, 40 s", "pauta": pauta, "ja_coberto": False}
+                "formato": "selfie, 40 s", "pauta": pauta, "ja_coberto": False, "relevancia": "alta"}
 
     monkeypatch.setattr(ref, "analisar", analisar_falso)
     (tmp_path / "plantao").mkdir()
@@ -77,18 +77,19 @@ def test_manual_de_referencias_entra_no_roteirista_e_no_copy():
     assert json.dumps(ref.ferramenta())  # o formulário é JSON válido
 
 
-def test_no_maximo_tres_pautas_por_dia(tmp_path, monkeypatch):
+def test_no_maximo_duas_pautas_por_dia(tmp_path, monkeypatch):
     monkeypatch.setenv("IG_TOKEN", "t")
     monkeypatch.setenv("IG_USER_ID", "1")
     monkeypatch.setattr(ref, "atualizar_manual", lambda notas: None)
     hoje = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
     pasta = tmp_path / "ref"
     pasta.mkdir()
-    (pasta / "vistos.json").write_text(json.dumps({"a": {"pauta_enviada": hoje}, "b": {"pauta_enviada": hoje}}))
-    monkeypatch.setattr(ref, "analisar", lambda c, perfil, *a: {"tema": "t", "pauta": f"Pauta de {perfil}", "ja_coberto": False})
+    (pasta / "vistos.json").write_text(json.dumps({"a": {"pauta_enviada": hoje}}))
+    monkeypatch.setattr(ref, "analisar", lambda c, perfil, *a: {"tema": "t", "pauta": f"Pauta de {perfil}", "ja_coberto": False,
+                                                              "relevancia": "alta"})
     (tmp_path / "plantao").mkdir()
     r = ref.rodar(tmp_path, pasta, cliente=object(), buscar=graph_falso, transcritor=lambda v: "")
-    assert len(r["pautas"]) == 1  # já tinham ido 2 hoje
+    assert len(r["pautas"]) == 1  # já tinha ido 1 hoje; o teto é 2
 
 
 def test_sem_pauta_vira_vazio():
@@ -96,3 +97,35 @@ def test_sem_pauta_vira_vazio():
                   "SEM PAUTA", "  "):
         assert ref.limpar_pauta(texto) == ""
     assert ref.limpar_pauta("O que se sabe sobre o boletim Focus") == "O que se sabe sobre o boletim Focus"
+
+
+def test_ideias_de_reels_vao_para_o_whatsapp_uma_vez(tmp_path, monkeypatch):
+    from termometro import whatsapp
+    hoje = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+    pasta = tmp_path / "referencias"
+    pasta.mkdir()
+    (pasta / "vistos.json").write_text(json.dumps({
+        "a": {"perfil": "pablospyer", "dia": hoje, "ideia_reel": "Quanto o Focus prevê para a inflação e o que muda no seu boleto."},
+        "b": {"perfil": "falecomrian", "dia": hoje, "ideia_reel": ""},
+        "c": {"perfil": "shimoncomunica", "dia": "2020-01-01", "ideia_reel": "velha"}}))
+    saida = tmp_path / "_ideias"
+    assert "1 ideia" in whatsapp.preparar_ideias(tmp_path, saida)
+    envio = json.loads((saida / "envio.json").read_text())
+    assert envio["modo"] == "teste" and "Focus" in envio["textos"][0] and envio["ideias"] == ["a"]
+    (saida / "envio.json.resultado.json").write_text(json.dumps({"ok": True}))
+    assert "1 enviada" in whatsapp.concluir(tmp_path, saida)
+    assert "Nenhuma ideia" in whatsapp.preparar_ideias(tmp_path, saida)
+
+
+def test_so_relevancia_alta_vira_artigo(tmp_path, monkeypatch):
+    monkeypatch.setenv("IG_TOKEN", "t")
+    monkeypatch.setenv("IG_USER_ID", "1")
+    monkeypatch.setattr(ref, "atualizar_manual", lambda notas: None)
+    (tmp_path / "plantao").mkdir()
+    respostas = {"pablospyer": "alta", "falecomrian": "media", "shimoncomunica": "baixa"}
+    monkeypatch.setattr(ref, "analisar", lambda c, perfil, *a: {
+        "tema": "t", "pauta": f"O que se sabe sobre {perfil}", "ja_coberto": False, "relevancia": respostas[perfil],
+        "ideia_reel": f"Ideia de {perfil}"})
+    r = ref.rodar(tmp_path, tmp_path / "ref", cliente=object(), buscar=graph_falso, transcritor=lambda v: "fala")
+    assert r["pautas"] == ["O que se sabe sobre pablospyer"]
+    assert len(ref.ideias_pendentes(tmp_path / "ref")) == 3

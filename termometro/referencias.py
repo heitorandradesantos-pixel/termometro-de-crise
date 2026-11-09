@@ -28,7 +28,7 @@ PERFIS = tuple(p.strip().lstrip("@") for p in (os.environ.get("REFERENCIAS_PERFI
                if p.strip())
 GRAPH = "https://graph.facebook.com/v21.0"
 DIAS = int(os.environ.get("REFERENCIAS_DIAS") or "3")  # só o que saiu nos últimos dias
-MAX_PAUTAS_DIA = 3  # pautas que as referências mandam ao Plantão por dia (o tema do editor não tem limite lá)
+MAX_PAUTAS_DIA = 2  # só notícia de relevância alta vira artigo; o resto vira ideia de Reel (pedido do Heitor, 09/11)
 MAX_NOTAS = 15  # o diário de referências no manual fica curto (entra nas instruções dos agentes)
 ARQ_MANUAL = config.MANUAIS / "referencias.md"
 MARCA_DIARIO = "## Diário de referências (atualizado pelo robô)"
@@ -41,23 +41,31 @@ Regras:
 1. Escreva com as suas palavras. Nunca copie frases do criador: no máximo uma expressão curta (até 6 palavras) entre aspas.
 2. Técnicas, não conteúdo: gancho, estrutura, ritmo, prova na tela, tom, gesto, chamada final.
 3. Nada de opinião sobre o criador, nem sobre investimento. Não repita recomendações de compra que ele tenha feito.
-4. "pauta": só se o vídeo trata de uma notícia de dinheiro do momento (fato do dia ou da semana) que interessa ao
-   leigo brasileiro. Escreva a pauta como um fato a conferir ("O que se sabe sobre X"), não como opinião. Se o vídeo é
-   atemporal, educativo ou opinião, deixe vazio.
-5. "ja_coberto": verdadeiro se a pauta já está entre os títulos que publicamos (lista no pedido)."""
+4. "relevancia": "alta" só para notícia de dinheiro do momento que mexe com muita gente ou com o mercado (juros,
+   inflação, dólar, impostos, golpe em massa, empresa gigante, decisão do governo). Bastidor, fofoca, opinião, assunto
+   educativo ou atemporal é "baixa" ou "media".
+5. "pauta": preencha só quando a relevância é "alta". É um fato a conferir ("O que se sabe sobre X"), não opinião.
+   Nos outros casos, deixe vazio. Na dúvida, deixe vazio: o artigo só sai quando vale muito a pena.
+6. "ja_coberto": verdadeiro se a pauta já está entre os títulos que publicamos (lista no pedido).
+7. "ideia_reel": um assunto que renderia um Reel nosso, com o ângulo do Termômetro (o que muda no bolso, com fonte),
+   em 1 ou 2 frases. Vale para assunto educativo e atemporal também. Nunca o mesmo roteiro do criador. Vazio se não
+   serve para o nosso público."""
 SISTEMA += config.manual("marca")
 
 
 def ferramenta() -> dict:
     return {"name": "registrar_analise", "description": "A análise do Reel de referência.",
-            "input_schema": {"type": "object", "required": ["tema", "gancho", "tecnicas", "formato", "pauta", "ja_coberto"],
+            "input_schema": {"type": "object", "required": ["tema", "gancho", "tecnicas", "formato", "relevancia", "pauta",
+                                                            "ja_coberto", "ideia_reel"],
                              "properties": {
                                  "tema": {"type": "string", "description": "O assunto, em uma frase curta."},
                                  "gancho": {"type": "string", "description": "Como o vídeo prende nos 3 primeiros segundos (a técnica)."},
                                  "tecnicas": {"type": "array", "maxItems": 4, "items": {"type": "string"}},
                                  "formato": {"type": "string", "description": "Cenário, enquadramento, duração aproximada, texto na tela."},
+                                 "relevancia": {"type": "string", "enum": ["alta", "media", "baixa"]},
                                  "pauta": {"type": "string"},
-                                 "ja_coberto": {"type": "boolean"}}}}
+                                 "ja_coberto": {"type": "boolean"},
+                                 "ideia_reel": {"type": "string"}}}}
 
 
 # ---------------------------------------------------------------- Instagram (API oficial)
@@ -230,10 +238,11 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
                 continue
             notas.append(nota(perfil, post, a))
             pauta = limpar_pauta(a.get("pauta") or "")
-            enviar = (pauta and not a.get("ja_coberto") and len(pautas) < vagas
+            enviar = (pauta and a.get("relevancia") == "alta" and not a.get("ja_coberto") and len(pautas) < vagas
                       and not re.search(r"\b(compre|venda|invista)\b", pauta, re.IGNORECASE))
+            ideia = limpar_pauta(a.get("ideia_reel") or "")
             ja[post["id"]] = {"perfil": perfil, "link": post.get("permalink", ""), "dia": str(quando.date()),
-                              "pauta": pauta}  # só o link e a nossa pauta: nada do texto do criador
+                              "pauta": pauta, "ideia_reel": ideia}  # só o link e a nossa análise, nada do criador
             if enviar:
                 pautas.append(pauta)
                 titulos.append(pauta)  # o mesmo assunto em outro criador conta como já coberto
@@ -243,3 +252,26 @@ def rodar(diario: Path, pasta: Path, cliente=None, buscar=requests.get, transcri
         atualizar_manual(notas)
     (pasta / "vistos.json").write_text(json.dumps(ja, ensure_ascii=False, indent=1))
     return {"notas": notas, "pautas": pautas}
+
+
+def ideias_pendentes(pasta: Path, dias: int = 3) -> list[tuple[str, dict]]:
+    """As ideias de Reel que ainda não foram para o WhatsApp do Heitor (as mais novas primeiro)."""
+    limite = (pd.Timestamp.now(tz="America/Sao_Paulo") - pd.Timedelta(days=dias)).strftime("%Y-%m-%d")
+    itens = [(k, v) for k, v in vistos(pasta).items()
+             if v.get("ideia_reel") and not v.get("ideia_enviada") and v.get("dia", "") >= limite]
+    return sorted(itens, key=lambda kv: kv[1].get("dia", ""), reverse=True)
+
+
+def mensagem_ideias(itens: list[tuple[str, dict]], maximo: int = 6) -> str:
+    linhas = [f"• {v['ideia_reel']} _(inspirado em @{v['perfil']})_" for _, v in itens[:maximo]]
+    return ("💡 IDEIAS DE REELS (das referências de hoje)\n\nAssuntos que renderiam vídeo nosso, com o ângulo do "
+            "Termômetro. Se quiser roteiro de algum, me pede.\n\n" + "\n".join(linhas))
+
+
+def marcar_ideias(pasta: Path, chaves: list[str]) -> None:
+    ja = vistos(pasta)
+    hoje = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+    for k in chaves:
+        if k in ja:
+            ja[k]["ideia_enviada"] = hoje
+    (pasta / "vistos.json").write_text(json.dumps(ja, ensure_ascii=False, indent=1))
