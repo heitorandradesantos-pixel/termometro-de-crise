@@ -19,7 +19,7 @@ on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "parear, teste, teste-abertura, fechamento, abertura, roteiros, fimdesemana, ideias, ranking ou foto"
+        description: "parear, teste, teste-abertura, fechamento, abertura, roteiros, fimdesemana, ideias, ranking, ouvir ou foto"
         required: true
         default: "teste"
       numero:
@@ -46,6 +46,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # ouvir: manda os pedidos de roteiro para o Plantão
 
 concurrency:
   group: whatsapp-sessao # uma conexão por vez com a mesma sessão
@@ -122,6 +123,7 @@ jobs:
             ranking) python rodar.py --whatsapp ranking ;;
             fimdesemana) python rodar.py --whatsapp fimdesemana ${DATA:+--data "$DATA"} ;;
             foto) echo "Foto: nada a preparar." ;;
+            ouvir) echo "Ouvir: nada a preparar." ;;
             *) python rodar.py --whatsapp preparar --data "$DATA" ;;
           esac
       - name: Trocar a foto da comunidade (logo)
@@ -129,8 +131,22 @@ jobs:
         working-directory: whatsapp
         run: node enviar.mjs foto ../marca/perfil-1080.png
 
+      - name: Ouvir os pedidos de roteiro na conversa do próprio número
+        if: inputs.acao == 'ouvir'
+        working-directory: whatsapp
+        run: node enviar.mjs ouvir ../_pedidos.json
+      - name: Pedidos para o Plantão
+        if: inputs.acao == 'ouvir' && hashFiles('_pedidos.json') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          jq -r '.pedidos[].tema' _pedidos.json | while IFS= read -r tema; do
+            gh workflow run plantao.yml --ref main -f tema="$tema"
+            echo "Pedido de roteiro enviado ao Plantão." >> "$GITHUB_STEP_SUMMARY"
+          done
+
       - name: Enviar
-        if: inputs.acao != 'parear' && inputs.acao != 'foto' && hashFiles('_whatsapp/envio.json') != ''
+        if: inputs.acao != 'parear' && inputs.acao != 'foto' && inputs.acao != 'ouvir' && hashFiles('_whatsapp/envio.json') != ''
         working-directory: whatsapp
         run: node enviar.mjs "$(case "$ACAO" in teste*) echo teste ;; *) echo enviar ;; esac)" ../_whatsapp/envio.json
 

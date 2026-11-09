@@ -7,6 +7,8 @@
 //   node enviar.mjs parear              liga o número (WA_NUMERO) com o código de 8 letras (WA_CODIGO)
 //   node enviar.mjs teste <envio.json>  manda o envio para o próprio número (conversa "você")
 //   node enviar.mjs enviar <envio.json> manda o envio para o grupo de avisos da comunidade
+//   node enviar.mjs ouvir <saida.json>  lê os pedidos que o Heitor escreveu na conversa do próprio número
+//                                       ("roteiro: tema") desde a última vez e responde que recebeu
 //
 // envio.json: {"imagem": "card.png", "legenda": "texto da imagem", "textos": ["mensagem 2", ...]}
 // Saída: grava <envio.json>.resultado.json com {"ok", "ids", "destino"}.
@@ -36,7 +38,7 @@ const normal = (t) => (t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLower
 
 class Falha extends Error {}
 
-async function conectar ({ numero = '', codigo = '', esperaMs = 120000 } = {}) {
+async function conectar ({ numero = '', codigo = '', esperaMs = 120000, aoCriar = null } = {}) {
   fs.mkdirSync(PASTA, { recursive: true })
   let versao
   try { ({ version: versao } = await fetchLatestBaileysVersion()) } catch { /* fica a versão que vem no Baileys */ }
@@ -59,6 +61,7 @@ async function conectar ({ numero = '', codigo = '', esperaMs = 120000 } = {}) {
       getMessage: async () => undefined
     })
     sock.ev.on('creds.update', saveCreds)
+    if (aoCriar) aoCriar(sock)
     let pediu = false
     const r = await new Promise((resolve) => {
       const relogio = setTimeout(() => resolve({ erro: 'tempo' }), Math.max(fim - Date.now(), 1000))
@@ -214,8 +217,37 @@ async function principal () {
       }
       resultado.ids = await mandar(sock, jid, envio)
       diga(`Enviado para ${resultado.destino}: ${resultado.ids.length} mensagem(ns).`)
+    } else if (acao === 'ouvir') {
+      // Os pedidos ficam na conversa "você" do próprio número; o aparelho conectado recebe o que chegou enquanto
+      // estava desligado. Só conta mensagem que começa com "roteiro:" e que é mais nova que o último pedido lido.
+      const ARQ_ULTIMO = path.join(PASTA, 'ultimo-pedido.json')
+      const ultimo = fs.existsSync(ARQ_ULTIMO) ? JSON.parse(fs.readFileSync(ARQ_ULTIMO, 'utf8')).ts
+        : Math.floor(Date.now() / 1000) - 6 * 3600
+      const vistos = []
+      sock = await conectar({
+        aoCriar: (s) => s.ev.on('messages.upsert', ({ messages }) => {
+          for (const m of messages || []) {
+            const texto = m.message?.conversation || m.message?.extendedTextMessage?.text || ''
+            const tema = texto.match(/^\s*roteiro\s*[:\-–]\s*(.+)$/is)?.[1]?.trim()
+            const ts = Number(m.messageTimestamp || 0)
+            if (m.key?.fromMe && tema && ts > ultimo) vistos.push({ ts, tema: tema.slice(0, 300), jid: m.key.remoteJid, id: m.key.id })
+          }
+        })
+      })
+      await delay(30000) // tempo para chegarem as mensagens de quando o robô estava desligado
+      const eu = euMesmo(sock)
+      const unicos = new Map()
+      for (const v of vistos) if (eu.includes(jidNormalizedUser(v.jid))) unicos.set(v.id, v)
+      const pedidos = [...unicos.values()].sort((a, b) => a.ts - b.ts).map(({ ts, tema }) => ({ ts, tema }))
+      if (pedidos.length) {
+        fs.writeFileSync(ARQ_ULTIMO, JSON.stringify({ ts: pedidos[pedidos.length - 1].ts }))
+        const lista = pedidos.map((p) => `• ${p.tema}`).join('\n')
+        await sock.sendMessage(eu[0], { text: `📝 Recebi ${pedidos.length > 1 ? 'os pedidos' : 'o pedido'} de roteiro:\n${lista}\n\nO Plantão confere as fontes e o roteiro chega aqui em uns 10 a 15 minutos.` })
+      }
+      fs.writeFileSync(arquivo, JSON.stringify({ pedidos }))
+      diga(`Pedidos novos: ${pedidos.length}.`)
     } else {
-      throw new Falha('Use: parear | teste <envio.json> | enviar <envio.json>')
+      throw new Falha('Use: parear | teste <envio.json> | enviar <envio.json> | ouvir <saida.json>')
     }
     resultado.ok = true
   } finally {
