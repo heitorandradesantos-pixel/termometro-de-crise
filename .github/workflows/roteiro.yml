@@ -52,6 +52,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add diario
           if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
-          git commit -q -m "Roteirista: roteiro do Reel ($TIPO)"
+          git commit -q -m "Roteirista: roteiro do Reel ($TIPO) [CF-Pages-Skip]"
           git pull -q --rebase origin main
           git push

@@ -91,7 +91,7 @@ def mensagens_abertura(pasta_diario: Path, pasta_trabalho: Path) -> dict | None:
 
 LEGENDA_MAXIMA = 1000  # o WhatsApp corta legendas de imagem perto de 1.024 caracteres
 NOMES = {"fechamento": "O fechamento", "abertura": "A abertura", "roteiros": "Os roteiros",
-         "fimdesemana": "A edição de domingo", "ideias": "As ideias de Reels"}
+         "fimdesemana": "A edição de domingo", "ideias": "As ideias de Reels", "ranking": "O ranking da semana"}
 
 
 def preparar(pasta_diario: Path, dia: str, pasta_saida: Path, teste: bool = False, tipo: str = "fechamento") -> str:
@@ -136,6 +136,8 @@ def concluir(pasta_diario: Path, pasta_saida: Path) -> str:
         from . import referencias
         referencias.marcar_ideias(pasta_diario / "referencias", envio.get("ideias", []))
         return f"Ideias de Reels: {len(envio.get('ideias', []))} enviada(s) para a conversa do próprio número."
+    if tipo == "ranking":
+        return "Ranking da semana: " + ("enviado para a conversa do próprio número." if resultado.get("ok") else "o envio falhou.")
     if envio.get("modo") == "sim" or resultado.get("ok"):
         registrar(pasta_diario / envio["dia"], tipo, resultado, envio.get("modo"))
     return (f"{NOMES[tipo]} de {envio['dia']}: enviado ({envio.get('modo')})." if resultado.get("ok")
@@ -194,6 +196,26 @@ def concluir_roteiros(envio: dict, resultado: dict) -> str:
             r = json.loads(arq.read_text())
             arq.write_text(json.dumps({**r, "enviado_whatsapp": quando}, ensure_ascii=False, indent=1))
     return f"Roteiros de {envio['dia']}: {len(envio.get('roteiros', []))} enviado(s) para a conversa do próprio número."
+
+
+# ---------------------------------------------------------------- ranking da semana (painel de desempenho)
+
+def preparar_ranking(pasta_saida: Path) -> str:
+    """Sábado de manhã, na conversa do próprio número: os 3 posts da semana que mais aguentam anúncio."""
+    from . import painel
+    senha = os.environ.get("PAINEL_SENHA", "")
+    if not senha or not painel.ARQ.exists():
+        return "Ranking: o painel ainda não tem dados (falta PAINEL_SENHA ou a primeira atualização)."
+    dados, _ = painel.ler(senha)
+    if not dados:
+        return "Ranking: não deu para abrir os dados do painel."
+    if pasta_saida.exists():
+        shutil.rmtree(pasta_saida)
+    pasta_saida.mkdir(parents=True)
+    dia = pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
+    envio = {"modo": "teste", "dia": dia, "tipo": "ranking", "textos": [painel.ranking(dados)]}
+    (pasta_saida / "envio.json").write_text(json.dumps(envio, ensure_ascii=False, indent=1))
+    return "Ranking da semana pronto para mandar (conversa do próprio número)."
 
 
 # ---------------------------------------------------------------- ideias de Reels (das referências)

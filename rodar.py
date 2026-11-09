@@ -296,7 +296,7 @@ def main() -> None:
     p.add_argument("--diario", action="store_true", help="atualização de dia útil (mundo, notícias e panorama)")
     p.add_argument("--parcial", action="store_true", help="leitura do meio do dia: só os números do mundo")
     p.add_argument("--plantao", action="store_true", help="Plantão: notícia de dinheiro do momento, com fonte")
-    p.add_argument("--whatsapp", choices=["preparar", "concluir", "roteiros", "fimdesemana", "ideias"],
+    p.add_argument("--whatsapp", choices=["preparar", "concluir", "roteiros", "fimdesemana", "ideias", "ranking"],
                    help="WhatsApp: prepara o envio do fechamento (card, balanço e panorama) ou registra o resultado")
     p.add_argument("--teste", action="store_true", help="WhatsApp: prepara o envio para o próprio número")
     p.add_argument("--tipo", choices=["fechamento", "abertura"], default="fechamento", help="WhatsApp: o que enviar")
@@ -308,6 +308,7 @@ def main() -> None:
     p.add_argument("--design", action="store_true", help="auditoria do site e avaliação dos agentes de UI e UX")
     p.add_argument("--referencias", action="store_true",
                    help="Referências: analisa os Reels novos dos criadores que o Heitor acompanha (API do Instagram)")
+    p.add_argument("--painel", action="store_true", help="painel de desempenho: métricas do Instagram (criptografadas)")
     p.add_argument("--conselho", action="store_true", help="conselho de monetização: os agentes debatem e fecham um plano")
     p.add_argument("--dados", default=str(RAIZ / "dados"), help="pasta dos dados baixados")
     p.add_argument("--sem-coleta", action="store_true", help="usa os dados já baixados")
@@ -343,6 +344,8 @@ def main() -> None:
             print(whatsapp.preparar_roteiros(DIARIO, dia, Path(a.pasta)))
         elif a.whatsapp == "ideias":
             print(whatsapp.preparar_ideias(DIARIO, Path(a.pasta)))
+        elif a.whatsapp == "ranking":
+            print(whatsapp.preparar_ranking(Path(a.pasta)))
         elif a.whatsapp == "fimdesemana":
             from termometro import fimdesemana
             dia = a.data or pd.Timestamp.now(tz="America/Sao_Paulo").strftime("%Y-%m-%d")
@@ -353,6 +356,9 @@ def main() -> None:
             print(whatsapp.preparar(DIARIO, dia, Path(a.pasta), teste=a.teste, tipo=a.tipo))
         else:
             print(whatsapp.concluir(DIARIO, Path(a.pasta)))
+    elif a.painel:
+        from termometro import painel
+        print(painel.rodar())
     elif a.referencias:
         from termometro import referencias
         r = referencias.rodar(DIARIO, DIARIO / "referencias")

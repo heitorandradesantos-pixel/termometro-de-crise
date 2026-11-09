@@ -4,3 +4,4 @@ matplotlib>=3.8
 markdown>=3.5
 anthropic>=0.60
 pytest>=8
+cryptography>=42

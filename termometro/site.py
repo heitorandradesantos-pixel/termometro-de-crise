@@ -466,7 +466,15 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     edicoes = _edicoes(pasta_edicoes)
     if not edicoes:
         raise SystemExit("Nenhuma edição encontrada em edicoes/.")
-    from . import acoes, arquivo, bolsas, fechamento, paginas, plantao  # aqui dentro para não haver importação circular
+    from . import (  # aqui dentro para não haver importação circular
+        acoes,
+        arquivo,
+        bolsas,
+        fechamento,
+        paginas,
+        painel,
+        plantao,
+    )
     global FAIXA
     diario_dir = pasta_diario or pasta_edicoes.parent / "diario"
     fonte = paginas.fonte(edicoes[0], diario_dir)
@@ -617,6 +625,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
     novas += paginas_cotacoes + paginas_plantao
     novas += bolsas.gerar(saida, pagina)
+    painel.gerar(saida)  # /painel/: privado, fora do menu, do sitemap e do Google
     novas += paginas_newsletter(saida, lista[0][0] if lista else "")
     (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
     # endereço que não existe responde 404 de verdade (sem isso, o Cloudflare devolve a home com 200)
@@ -693,7 +702,7 @@ def extras(saida: Path, caminhos: list[str]) -> None:
     for arq in MARCA.glob("*"):  # favicon, ícone do celular e a foto de perfil da marca
         if arq.is_file():
             shutil.copy(arq, saida / arq.name)
-    (saida / "robots.txt").write_text("User-agent: *\nAllow: /\n" +
+    (saida / "robots.txt").write_text("User-agent: *\nAllow: /\nDisallow: /painel/\n" +
                                       (f"Sitemap: {config.SITE_URL}/sitemap.xml\n"
                                        f"Sitemap: {config.SITE_URL}/sitemap-noticias.xml\n" if config.SITE_URL else ""))
     if config.SITE_URL:

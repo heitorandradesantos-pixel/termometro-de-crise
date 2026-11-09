@@ -1,0 +1,44 @@
+name: Painel
+
+# 4 vezes por dia, o robô lê as métricas dos posts do @termometrodecrise pela API oficial do Instagram e guarda tudo
+# criptografado em painel/dados.enc (só abre com a senha PAINEL_SENHA, que só o Heitor sabe). A página
+# termometrodecrise.com/painel/ baixa esse arquivo e abre com a senha, no navegador. O commit não reconstrói o site
+# ([CF-Pages-Skip]): a página lê o arquivo direto do GitHub. Precisa dos secrets IG_TOKEN, IG_USER_ID e PAINEL_SENHA.
+on:
+  schedule:
+    - cron: "11 12,16,20,0 * * *" # 9h11, 13h11, 17h11 e 21h11 em Brasília (um agendamento externo também dispara)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: painel
+  cancel-in-progress: false
+
+jobs:
+  painel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Ler as métricas do Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PAINEL_SENHA: ${{ secrets.PAINEL_SENHA }}
+        run: python rodar.py --painel | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Guardar (criptografado)
+        run: |
+          git config user.name "termometro-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add painel/dados.enc || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "Painel: métricas atualizadas [CF-Pages-Skip]"
+          git pull -q --rebase origin main
+          git push

@@ -19,7 +19,7 @@ on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "parear, teste, teste-abertura, fechamento, abertura, roteiros, fimdesemana, ideias ou foto"
+        description: "parear, teste, teste-abertura, fechamento, abertura, roteiros, fimdesemana, ideias, ranking ou foto"
         required: true
         default: "teste"
       numero:
@@ -110,6 +110,8 @@ jobs:
 
       - name: Preparar o envio
         if: inputs.acao != 'parear'
+        env:
+          PAINEL_SENHA: ${{ secrets.PAINEL_SENHA }}
         run: |
           case "$ACAO" in
             teste) python rodar.py --whatsapp preparar --teste --data "$DATA" ;;
@@ -117,6 +119,7 @@ jobs:
             abertura) python rodar.py --whatsapp preparar --tipo abertura ;;
             roteiros) python rodar.py --whatsapp roteiros --data "$DATA" ;;
             ideias) python rodar.py --whatsapp ideias ;;
+            ranking) python rodar.py --whatsapp ranking ;;
             fimdesemana) python rodar.py --whatsapp fimdesemana ${DATA:+--data "$DATA"} ;;
             foto) echo "Foto: nada a preparar." ;;
             *) python rodar.py --whatsapp preparar --data "$DATA" ;;
@@ -157,7 +160,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add diario
           if git diff --cached --quiet; then exit 0; fi
-          git commit -q -m "WhatsApp: registro do envio ($ACAO) e roteiro do Reel"
+          git commit -q -m "WhatsApp: registro do envio ($ACAO) e roteiro do Reel [CF-Pages-Skip]"
           git pull -q --rebase origin main
           git push
 
