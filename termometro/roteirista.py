@@ -26,7 +26,8 @@ from .revisor import linguagem_proibida
 
 PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
 ASSINATURA = f"Fala, galera, aqui é o {PERSONA}, do Termômetro de Crise."
-FECHO = "Isso não é recomendação: é o termômetro."
+FECHO = "Isso não é recomendação: quem decide é você."
+BORDAO = os.environ.get("BORDAO") or "Sem alarde. Eu sou só o termômetro!"  # a última frase de todo vídeo
 CHAMADAS = {"grupo": "O grupo do WhatsApp está no link da bio.",
             "newsletter": "O Termômetro da Semana chega por e-mail: link na bio."}
 AVISO_LEGENDA = "Conteúdo educativo, não é recomendação de investimento."
@@ -53,8 +54,9 @@ SISTEMA = f"""Você é o Roteirista do "{config.NOME}", um portal financeiro bra
 {PERSONA}, apresentador do {config.NOME} (uma pessoa de verdade, que grava no celular lendo um teleprompter), fala em
 vídeos verticais de 45 a 60 segundos.
 
-O programa põe sozinho, depois do gancho, a apresentação "{ASSINATURA}" e, no fim, o fecho "{FECHO}" com a chamada
-para o link da bio. Você escreve só o gancho (3 opções, com nota) e o corpo, mais o texto da tela e a legenda.
+O programa põe sozinho, depois do gancho, a apresentação "{ASSINATURA}" e, no fim, a chamada para o link da bio,
+o aviso "{FECHO}" e o bordão "{BORDAO}" (a última frase de todo vídeo). Não escreva nada disso, nem uma
+frase parecida com o bordão no fim do corpo. Você escreve só o gancho (3 opções, com nota) e o corpo, mais o texto da tela e a legenda.
 
 Regras:
 1. Todo número que você escrever tem de estar no material, escrito do mesmo jeito (vírgula decimal, ponto de milhar).
@@ -152,12 +154,12 @@ def nota(gancho: dict) -> int:
 
 
 def montar(bruto: dict, chamada: str = "grupo") -> dict:
-    """O roteiro final: gancho, assinatura, corpo, fecho e chamada."""
+    """O roteiro final: gancho, assinatura, corpo, chamada, aviso e o bordão por último."""
     ganchos = bruto.get("ganchos") or []
     i = bruto.get("gancho_escolhido", 0)
     gancho = ganchos[i] if 0 <= i < len(ganchos) else (ganchos[0] if ganchos else {"texto": "", "na_tela": ""})
     falas = [f.strip() for f in bruto.get("falas") or [] if f.strip()]
-    linhas = [gancho["texto"].strip(), ASSINATURA, *falas, FECHO, CHAMADAS.get(chamada, CHAMADAS["grupo"])]
+    linhas = [gancho["texto"].strip(), ASSINATURA, *falas, CHAMADAS.get(chamada, CHAMADAS["grupo"]), FECHO, BORDAO]
     texto = " ".join(linhas)
     hashtags = ["#" + _sem_acento(h.lstrip("#").replace(" ", "")).lower() for h in bruto.get("hashtags") or []][:5]
     legenda = (bruto.get("legenda") or "").replace("\\n", "\n").strip()  # \n escrito como texto vira quebra
@@ -222,10 +224,10 @@ def conferir(r: dict, material: str) -> list[str]:
 
 def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
     """Pede o roteiro; se a conferência reprovar, pede outra versão (até 3) com a lista do que corrigir."""
-    fixo = _palavras(" ".join([ASSINATURA, FECHO, CHAMADAS.get(chamada, CHAMADAS["grupo"])]))
+    fixo = _palavras(" ".join([ASSINATURA, FECHO, BORDAO, CHAMADAS.get(chamada, CHAMADAS["grupo"])]))
     pedido = (f"Tipo de vídeo: {TIPOS[tipo]}\nChamada do fim (o programa põe): {CHAMADAS.get(chamada)}\n"
               f"Tamanho: o gancho e o corpo, juntos, têm de {PALAVRAS[0] - fixo} a {PALAVRAS[1] - fixo} palavras "
-              f"(mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} da assinatura, do fecho e da chamada.\n\n"
+              f"(mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} da assinatura, da chamada, do aviso e do bordão.\n\n"
               f"MATERIAL CONFERIDO (a única fonte de números e fatos):\n{material}")
     problemas, marca, melhor = [], None, None
     for tentativa in range(3):
@@ -308,7 +310,7 @@ def prompt_apoio(visual: str) -> str:
 
 def conferir_apoios(apoios: list[dict], roteiro: dict) -> list[str]:
     problemas = []
-    corpo = range(2, len(roteiro["linhas"]) - 2)  # sem gancho, apresentação, fecho e chamada
+    corpo = range(2, len(roteiro["linhas"]) - 3)  # sem gancho, apresentação, chamada, aviso e bordão
     if not APOIOS[0] <= len(apoios) <= APOIOS[1]:
         problemas.append(f"são {len(apoios)} imagens de apoio; precisam ser de {APOIOS[0]} a {APOIOS[1]}")
     fora = [a.get("fala") for a in apoios if a.get("fala") not in corpo]
@@ -371,6 +373,7 @@ def teleprompter(roteiro: dict) -> str:
 
 DICAS = ("Dicas: celular na vertical, na altura dos olhos, luz de frente (janela ou ring light). Grave tudo de uma vez; "
          "se errar, pare, respire e repita só a frase. Na rua, microfone na roupa e nunca grave dirigindo. "
+         f"O bordão \"{BORDAO}\" é a última frase: olho na câmera, calmo e firme. "
          "Me mande o vídeo aqui que eu edito.")
 
 
@@ -391,9 +394,10 @@ def pacote_whatsapp(roteiro: dict, titulo: str) -> list[str]:
     if rua.get("gancho") and rua.get("topicos"):
         msgs.append("🚶 VERSÃO RUA (sem teleprompter: decore o gancho e fale os tópicos do seu jeito)\n\n"
                     f"Gancho: {rua['gancho']}\n" + "\n".join(f"• {t}" for t in rua["topicos"])
-                    + f"\n\nFecho: {FECHO} {roteiro['linhas'][-1]}")
+                    + "\n\nFecho: " + " ".join(roteiro["linhas"][-3:]))
     prints = "\n".join(f"- {p['veiculo']}: \"{p['destaque']}\" ({p['url']})" for p in roteiro.get("prints") or [])
     return msgs + [f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
+            + f"\nNo fim: o bordão \"{BORDAO}\" em letra grande, com a marca"
             + (f"\nPrints da fonte no terço de cima (a prova, sem tapar o rosto):\n{prints}" if prints else "")
             + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
             + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()

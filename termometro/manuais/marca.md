@@ -32,7 +32,11 @@
   termo técnico traduzido na mesma frase, comparação com mercado, cartão, conta de luz, salário.
 - Metáfora da casa: o termômetro ("a temperatura subiu", "sinal amarelo", "o Brasil está com febre de 64").
 - Bordões: abertura "Fala, galera, aqui é o Heitor, do Termômetro de Crise."; virada "Olha só" ou "agora vem a
-  parte que pouca gente viu"; fecho "Isso não é recomendação: é o termômetro."
+  parte que pouca gente viu"; aviso "Isso não é recomendação: quem decide é você."
+- Bordão de encerramento (a marca registrada, como o "Vai, tourinho!" do Pablo e o "Blinde sua mente" do Shimon):
+  **"Sem alarde. Eu sou só o termômetro!"**. É a última frase de todo vídeo, dita olhando para a câmera, calma e
+  firme. Resume a marca: a gente não faz alarde nem previsão, só mede a temperatura e mostra a fonte. Na edição, entra
+  em letra grande no fim. Nunca trocar por outra frase nem variar as palavras.
 - Gíria leve e pouca. Humor nunca sobre quem perdeu dinheiro.
 
 ## Referências que o Heitor consome e gosta

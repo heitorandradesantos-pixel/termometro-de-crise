@@ -36,6 +36,7 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
 def test_roteiro_bom_passa_e_ganha_assinatura_fecho_e_aviso():
     r = roteirista.montar(_bruto())
     assert r["linhas"][1] == roteirista.ASSINATURA and r["linhas"][-2] == roteirista.FECHO
+    assert r["linhas"][-1] == roteirista.BORDAO == "Sem alarde. Eu sou só o termômetro!"
     assert roteirista.conferir(r, MATERIAL) == []
     assert 42 <= r["segundos"] <= 64 and r["retomada"] == 5
     assert roteirista.AVISO_LEGENDA in r["legenda"] and r["legenda"].endswith("#ibovespa #dolar #mercadofinanceiro")
