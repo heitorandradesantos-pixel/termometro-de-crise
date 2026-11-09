@@ -1,0 +1,106 @@
+{
+ "titulo": "13º do INSS em novembro, quem recebe: o que se sabe",
+ "descricao": "O 13º de novembro do INSS vale só para benefícios concedidos a partir de maio. A folha começa dia 24 (mínimo) e vai até 7/12. Veja as datas.",
+ "palavra_chave": "13º do inss novembro quem recebe",
+ "lead": "O 13º do INSS em novembro não é um lote extra para todos os aposentados e pensionistas. Segundo nota do INSS de 9 de julho, só recebe quem teve benefício concedido a partir de maio e com direito ao abono. A folha de novembro começa em 24/11, apenas para quem ganha um salário mínimo e tem final 1. Quem ganha mais recebe de 1º a 7 de dezembro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A folha de novembro do INSS começa em 24/11, mas só para quem ganha um salário mínimo e tem benefício com final 1. Quem recebe acima do mínimo é pago de 1º a 7 de dezembro, segundo a tabela de 2026 do INSS, conforme O Tempo.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/9/inss-de-novembro-comeca-no-dia-24-mas-quem-ganha-acima-do-minimo-so-recebe-em-dezembro-veja-sua-data",
+   "data": "2026-11-09",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "Em nota de 9 de julho, o INSS informou que os segurados com benefício concedido a partir de maio recebem o 13º conforme o calendário de novembro, desde que o benefício dê direito ao abono.",
+   "fonte_url": "https://www.jb.com.br/editorias/2026/10/08/inss-13-salario-antecipado-2026.html",
+   "data": "2026-07-09",
+   "veiculo": "Jornal do Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "A maior parte dos aposentados já recebeu as duas parcelas do 13º de 2026, antecipadas em abril e maio, segundo O Tempo. A antecipação foi determinada pelo Decreto nº 12.884, de 19 de março, e alcançou cerca de 35,2 milhões de benefícios, segundo o portal Mixvale.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/03/inss-paga-13o-de-novos-beneficios-de-24-de-novembro-a-7-de-dezembro/",
+   "data": "2026-03-19",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Quem já recebia benefício antes de maio recebeu o 13º entre abril e junho e não tem nova parcela. A parcela de novembro vale somente para benefícios concedidos a partir de maio, segundo o Mixvale.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/03/inss-paga-13o-de-novos-beneficios-de-24-de-novembro-a-7-de-dezembro/",
+   "data": "2026-11-03",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "O 13º desse grupo sai em parcela única, é proporcional aos meses de benefício em 2026 e é pago sem pedido, de forma automática. Beneficiários do BPC e da Renda Mensal Vitalícia continuam sem direito, porque são programas assistenciais.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/07/novos-beneficios-do-inss-recebem-13o-de-2026-de-24-de-novembro-a-7-de/",
+   "data": "2026-11-07",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Para quem ganha até um salário mínimo (R$ 1.621), a folha de novembro paga o final 1 em 24/11, o 2 em 25/11, o 3 em 26/11, o 4 em 27/11 e o 5 em 30/11. Os finais 6, 7, 8, 9 e 0 recebem de 1º a 7/12, um por dia.",
+   "fonte_url": "https://www.tnh1.com.br/noticia/nid/inss-veja-calendario-para-os-pagamentos-de-novembro/",
+   "data": "2026-11-02",
+   "veiculo": "TNH1",
+   "confiavel": false
+  },
+  {
+   "texto": "Para quem ganha acima do mínimo, os finais 1 e 6 recebem em 1º/12, os 2 e 7 em 2/12, os 3 e 8 em 3/12, os 4 e 9 em 4/12 e os 5 e 0 em 7/12. O teto do INSS é R$ 8.475,55, segundo o Mixvale.",
+   "fonte_url": "https://istoedinheiro.com.br/calendario-inss-novembro-2026-pagamentos",
+   "data": "2026-11-02",
+   "veiculo": "IstoÉ Dinheiro",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Decreto nº 12.884 antecipa o 13º de 2026 para quem já recebia benefício até abril.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/03/inss-paga-13o-de-novos-beneficios-de-24-de-novembro-a-7-de-dezembro/",
+   "data": "2026-03-19",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Primeira parcela do 13º antecipado, paga de 24/04 a 8/05. A segunda foi paga de 25/05 a 8/06.",
+   "fonte_url": "https://www.jb.com.br/editorias/2026/10/08/inss-13-salario-antecipado-2026.html",
+   "data": "2026-04-24",
+   "veiculo": "Jornal do Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Nota do INSS diz que benefícios concedidos a partir de maio recebem o 13º no calendário de novembro.",
+   "fonte_url": "https://www.jb.com.br/editorias/2026/10/08/inss-13-salario-antecipado-2026.html",
+   "data": "2026-07-09",
+   "veiculo": "Jornal do Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Último lote de pagamentos de outubro e publicação da tabela de novembro, que começa em 24/11 e vai a 7/12.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/9/inss-de-novembro-comeca-no-dia-24-mas-quem-ganha-acima-do-minimo-so-recebe-em-dezembro-veja-sua-data",
+   "data": "2026-11-09",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O valor do 13º de cada segurado não é igual para todos. Depende dos meses de benefício em 2026, e só o extrato do Meu INSS mostra a quantia de cada pessoa.",
+  "Para auxílio por incapacidade temporária (antigo auxílio-doença) e salário-maternidade, o INSS diz que o 13º é proporcional e pago durante o benefício. A data pode ser diferente da folha de novembro. Cada caso precisa ser conferido no extrato.",
+  "A apuração não abriu a página original da nota do INSS de 9 de julho. A data e o trecho vêm de veículos que a citam. Convém conferir o calendário no site oficial do INSS ou no Meu INSS.",
+  "Não foi confirmado por fonte oficial nenhum pagamento extra de 13º para quem já recebeu as duas parcelas em abril e maio. Textos que sugerem 'valor acima do habitual' para todos não têm respaldo nas fontes citadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você já recebia benefício do INSS antes de maio: não há novo 13º em novembro nem em dezembro. A folha traz só o benefício normal do mês, e isso não é erro nem atraso.",
+  "Se você ganha um salário mínimo: o pagamento de novembro vai de 24/11 (final 1) a 7/12 (final 0). O final é o número do benefício, sem contar o dígito depois do traço.",
+  "Se você ganha acima do mínimo: o pagamento de novembro só cai de 1º a 7/12, conforme o final do benefício. Não é atraso, é a ordem do calendário.",
+  "Se seu benefício foi concedido a partir de maio e dá direito ao abono: o 13º vem junto com a folha de novembro, em parcela única e proporcional. Se não aparecer, confira o extrato do Meu INSS depois de 7/12.",
+  "Se você recebe BPC/Loas ou Renda Mensal Vitalícia: esses benefícios não geram 13º. Você pode consultar data e valor no Meu INSS ou pelo telefone 135."
+ ],
+ "como_se_proteger": [],
+ "slug": "13o-do-inss-novembro-quem-recebe",
+ "publicado_em": "2026-11-09T16:14:15.676576",
+ "atualizado_em": "2026-11-09T16:14:15.676576",
+ "assunto": "INSS: o 13º de novembro não é 'lote extra para todos'. A folha de novembro começa dia 24 (só salário mínimo, final 1). Quem ganha acima do mínimo recebe de 1º a 7/12. O 13º desse lote só vai a quem teve benefício concedido a partir de maio (publicado em 09/11).",
+ "turno": "viral"
+}
