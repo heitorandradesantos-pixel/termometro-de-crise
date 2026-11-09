@@ -21,6 +21,9 @@ on:
         required: false
         default: ""
 
+permissions:
+  contents: write # para apagar o ramo temporário no fim
+
 jobs:
   transcrever:
     runs-on: ubuntu-latest
@@ -47,3 +50,8 @@ jobs:
           MODELO: ${{ inputs.modelo }}
           TEXTO: ${{ inputs.texto }}
         run: python termometro/transcrever.py audio.ogg
+      - name: Apagar o ramo temporário
+        if: always() && startsWith(inputs.ramo, 'tmp-transcricao')
+        env:
+          RAMO: ${{ inputs.ramo }}
+        run: git push origin --delete "$RAMO" || true
