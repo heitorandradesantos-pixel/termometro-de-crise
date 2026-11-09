@@ -54,8 +54,7 @@ def transcrever(media_url: str) -> str:
         with requests.get(media_url, stream=True, timeout=120) as r:
             r.raise_for_status()
             with open(arq, "wb") as f:
-                for parte in r.iter_content(1 << 20):
-                    f.write(parte)
+                f.writelines(r.iter_content(1 << 20))
         os.environ.setdefault("MODELO", "small")
         return " ".join(s["texto"] for s in t.rodar(arq))
 
