@@ -1,0 +1,144 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "13º do INSS em novembro: não é lote extra para todo aposentado.",
+  "na_tela": "13º do INSS: não é pra todos",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "13º do INSS em novembro: não é lote extra para todo aposentado.",
+   "na_tela": "13º do INSS: não é pra todos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu INSS cai em 24/11 ou só em dezembro?",
+   "na_tela": "Seu INSS cai quando?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Já recebeu o 13º em abril e maio? Então novembro não traz outro.",
+   "na_tela": "13º: abril e maio, e novembro?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "13º do INSS em novembro: não é lote extra para todo aposentado.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Segundo o INSS, só recebe quem teve benefício concedido a partir de maio.",
+  "Quem já recebia antes levou o 13º entre abril e junho.",
+  "Se não veio outro 13º, não é erro nem atraso.",
+  "O calendário é fila de mercado: o final do benefício define a vez.",
+  "Mas tem um detalhe: o final não conta o dígito depois do traço.",
+  "Com um salário mínimo, R$ 1.621, o pagamento vai de 24/11 a 7/12.",
+  "Acima do mínimo, o pagamento cai de 1º a 7/12.",
+  "Na dúvida, confira data e valor no Meu INSS ou ligue 135.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "13º do INSS em novembro: não é lote extra para todo aposentado. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo o INSS, só recebe quem teve benefício concedido a partir de maio. Quem já recebia antes levou o 13º entre abril e junho. Se não veio outro 13º, não é erro nem atraso. O calendário é fila de mercado: o final do benefício define a vez. Mas tem um detalhe: o final não conta o dígito depois do traço. Com um salário mínimo, R$ 1.621, o pagamento vai de 24/11 a 7/12. Acima do mínimo, o pagamento cai de 1º a 7/12. Na dúvida, confira data e valor no Meu INSS ou ligue 135. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 144,
+ "segundos": 58,
+ "na_tela": [
+  {
+   "texto": "13º do INSS: não é pra todos",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Só quem teve benefício concedido a partir de maio",
+   "fonte": "Jornal do Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "Quem já recebia: 13º entre abril e junho",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 6,
+   "texto": "Final sem o dígito depois do traço",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Mínimo R$ 1.621: 24/11 a 7/12",
+   "fonte": "TNH1"
+  },
+  {
+   "fala": 8,
+   "texto": "Acima do mínimo: 1º a 7/12",
+   "fonte": "IstoÉ Dinheiro"
+  },
+  {
+   "fala": 9,
+   "texto": "Meu INSS ou 135",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "13º do INSS em novembro: quem recebe",
+ "legenda": "13º do INSS em novembro: quem recebe?\n\nSegundo o INSS, só recebe o 13º de novembro quem teve benefício concedido a partir de maio. Quem já recebia antes levou o 13º entre abril e junho, segundo o Mixvale.\n\nO pagamento segue o final do benefício, sem contar o dígito depois do traço. Quem ganha um salário mínimo, R$ 1.621, recebe de 24/11 a 7/12. Acima do mínimo, é de 1º a 7/12.\n\nO valor depende dos meses de benefício em 2026. Confira data e valor no Meu INSS ou pelo telefone 135.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inss #13doinss #aposentados #educacaofinanceira",
+ "hashtags": [
+  "#inss",
+  "#13doinss",
+  "#aposentados",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "13º do INSS: só quem teve benefício concedido a partir de maio.",
+  "topicos": [
+   "Segundo o INSS, 13º de novembro só para benefício concedido a partir de maio.",
+   "Segundo o Mixvale, quem recebia antes de maio já levou o 13º.",
+   "Mínimo, R$ 1.621: final 1 em 24/11. Acima do mínimo: 1º a 7/12.",
+   "Na dúvida, confira data e valor no Meu INSS ou ligue 135."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com calendário e vários números, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "versão rua: gancho até 12 palavras e tópicos até 14"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "teleprompter": "13º do INSS em novembro: não é lote extra para todo aposentado.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo o INSS, só recebe quem teve benefício concedido a partir de maio.\n\nQuem já recebia antes levou o 13º entre abril e junho.\n\nSe não veio outro 13º, não é erro nem atraso.\n\nO calendário é fila de mercado: o final do benefício define a vez.\n\nMas tem um detalhe: o final não conta o dígito depois do traço.\n\nCom um salário mínimo, R$ 1.621, o pagamento vai de 24/11 a 7/12.\n\nAcima do mínimo, o pagamento cai de 1º a 7/12.\n\nNa dúvida, confira data e valor no Meu INSS ou ligue 135.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "IstoÉ Dinheiro",
+   "url": "https://istoedinheiro.com.br/calendario-inss-novembro-2026-pagamentos",
+   "destaque": "Para quem ganha acima do mínimo, os finais 1 e 6 recebem em 1º/12, os 2 e 7 em 2/12, os 3 e 8 em 3/12, os 4 e 9 em 4/12 e os 5 e 0 em 7/12."
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T16:18:28.987235-03:00"
+}
