@@ -124,8 +124,15 @@ def transcrever(video: Path) -> str:
         from faster_whisper import WhisperModel
     except ImportError:
         return ""
+    import subprocess
+
+    import numpy as np
+    # o áudio sai pelo ffmpeg do robô (o leitor de vídeo do faster-whisper quebrou com o av 15)
+    bruto = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(video), "-f", "s16le", "-ac", "1",
+                            "-ar", "16000", "-"], capture_output=True, check=True, timeout=300).stdout
+    audio = np.frombuffer(bruto, np.int16).astype(np.float32) / 32768.0
     modelo = WhisperModel(os.environ.get("WHISPER_MODELO") or "small", device="cpu", compute_type="int8")
-    trechos, _ = modelo.transcribe(str(video), language="pt", vad_filter=True)
+    trechos, _ = modelo.transcribe(audio, language="pt", vad_filter=True)
     return " ".join(t.text.strip() for t in trechos)
 
 
