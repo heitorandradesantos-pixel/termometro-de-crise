@@ -1,14 +1,13 @@
 name: Transcrever
 
-# Transcreve o áudio de um vídeo gravado pelo Heitor (faster-whisper, em português, com o tempo de cada palavra),
-# para a edição cortar os erros e as pausas e pôr a legenda. O áudio chega criptografado (AES-256) num ramo
-# temporário, que é apagado depois da edição; a chave vem no disparo e não aparece no log. O resultado sai no log
-# entre as marcas TRANSCRICAO_INICIO e TRANSCRICAO_FIM.
+# Transcreve o áudio de um vídeo gravado pelo Heitor (termometro/transcrever.py), para a edição cortar os erros e
+# as pausas e pôr a legenda. O áudio chega criptografado (AES-256) num ramo temporário, apagado depois da edição;
+# a chave vem no disparo e é escondida do log. O resultado sai no log entre TRANSCRICAO_INICIO e TRANSCRICAO_FIM.
 on:
   workflow_dispatch:
     inputs:
       ramo:
-        description: "ramo temporário com audio.enc"
+        description: "ramo temporario com audio.enc"
         required: true
       chave:
         description: "chave do audio.enc"
@@ -18,54 +17,33 @@ on:
         required: false
         default: "medium"
       texto:
-        description: "frases do roteiro (ajudam o modelo a acertar os nomes)"
+        description: "frases do roteiro (ajudam a acertar os nomes)"
         required: false
         default: ""
-
-permissions:
-  contents: read
 
 jobs:
   transcrever:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -q faster-whisper numpy
       - run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-      - name: Esconder a chave
-        run: echo "::add-mask::$(jq -r '.inputs.chave' "$GITHUB_EVENT_PATH")"
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ inputs.ramo }}
-          sparse-checkout: audio.enc
-          sparse-checkout-cone-mode: false
-      - name: Abrir o áudio
+      - name: Abrir o audio
+        env:
+          RAMO: ${{ inputs.ramo }}
         run: |
           CHAVE=$(jq -r '.inputs.chave' "$GITHUB_EVENT_PATH")
+          echo "::add-mask::$CHAVE"
+          git fetch -q origin "$RAMO"
+          git show "FETCH_HEAD:audio.enc" > audio.enc
           openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in audio.enc -out audio.ogg -pass "pass:$CHAVE"
           ls -la audio.ogg
       - name: Transcrever
         env:
           MODELO: ${{ inputs.modelo }}
           TEXTO: ${{ inputs.texto }}
-        run: |
-          python - <<'PY'
-          import json, os, subprocess
-          import numpy as np
-          from faster_whisper import WhisperModel
-          bruto = subprocess.run(["ffmpeg", "-v", "error", "-i", "audio.ogg", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
-                                 check=True, capture_output=True).stdout
-          audio = np.frombuffer(bruto, dtype=np.float32)
-          modelo = WhisperModel(os.environ.get("MODELO") or "medium", device="cpu", compute_type="int8")
-          segs, _ = modelo.transcribe(audio, language="pt", word_timestamps=True, vad_filter=False, beam_size=5,
-                                      condition_on_previous_text=False, initial_prompt=os.environ.get("TEXTO") or None)
-          saida = [{"ini": round(s.start, 2), "fim": round(s.end, 2), "texto": s.text.strip(),
-                    "palavras": [[round(w.start, 2), round(w.end, 2), w.word.strip(), round(w.probability, 2)] for w in s.words]}
-                   for s in segs]
-          print("TRANSCRICAO_INICIO")
-          print(json.dumps(saida, ensure_ascii=False))
-          print("TRANSCRICAO_FIM")
-          PY
+        run: python termometro/transcrever.py audio.ogg
