@@ -5,7 +5,15 @@ palavra (workflow Transcrever) e a legenda gerada. O vídeo bruto e o editado n�
 
 Como o script funciona (vale para os próximos):
 1. Transcrição no robô (`transcrever.yml`), com o áudio criptografado num ramo temporário que o próprio workflow apaga.
-2. Cortes: pausas acima de 0,16 s (energia abaixo de -31 dB) e frases que saíram erradas, presos ao quadro de 1/30 s.
+2. Cortes: pausas e frases que saíram erradas, presos ao quadro de 1/30 s. Lição do Reel da Nvidia (o Heitor
+   notou palavras comidas nos cortes e uma palavra repetida no começo):
+   - nenhum corte entra numa palavra: cada palavra da transcrição fica protegida de 0,05 s antes a 0,08 s depois
+     (o fim de palavra com "s", "f", "x" tem pouca energia e o corte só por volume engolia);
+   - folga de 0,09 s antes e 0,07 s depois de cada pausa cortada, e só pausa de 0,25 s ou mais;
+   - palavra repetida e gaguejo ("de de", "o o"): a transcrição sai ao pé da letra e cada palavra longa demais ou
+     com silêncio no meio é conferida; fica só a última tentativa;
+   - conferência final: o vídeo editado é transcrito de novo e comparado com o texto pretendido. Palavra faltando
+     ou repetida volta para o corte antes de mandar.
 3. Um passe só para cortar vídeo (select) e áudio (atrim em amostras), com o atraso de início do áudio do iPhone
    compensado: imagem e som ficam presos do começo ao fim (conferido por correlação: 0 ms de desvio).
 4. Zoom alternado de 8% nos cortes, cartões com a fonte no terço de cima, selo da marca e legenda de 2 a 3
