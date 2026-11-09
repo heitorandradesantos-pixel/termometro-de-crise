@@ -91,6 +91,23 @@ def diagnostico(token: str, conta: str, buscar=requests.get) -> str:
             saida.append(f"{host.split('/')[2]}: ok (@{r.json().get('username')})")
         except Exception as erro:  # noqa: BLE001
             saida.append(f"{host.split('/')[2]}: {str(erro)[:200]}")
+    try:  # quais permissões o token tem de verdade (sem mostrar o token)
+        r = buscar(f"{GRAPH}/debug_token", params={"input_token": token, "access_token": token}, timeout=30)
+        _conferir(r)
+        d = r.json().get("data", {})
+        granular = "; ".join(f"{g.get('scope')}→{len(g.get('target_ids') or [])} alvo(s)" for g in d.get("granular_scopes", []))
+        saida.append(f"tipo {d.get('type')}, app {d.get('application')}, válido {d.get('is_valid')}, "
+                     f"permissões: {', '.join(d.get('scopes', []))} [{granular}]")
+    except Exception as erro:  # noqa: BLE001
+        saida.append(f"debug_token: {str(erro)[:200]}")
+    try:
+        r = buscar(f"{GRAPH}/me/accounts", params={"fields": "name,instagram_business_account", "access_token": token},
+                   timeout=30)
+        _conferir(r)
+        saida.append("páginas: " + ", ".join(f"{p.get('name')} (insta: {'sim' if p.get('instagram_business_account') else 'não'})"
+                                           for p in r.json().get("data", [])))
+    except Exception as erro:  # noqa: BLE001
+        saida.append(f"me/accounts: {str(erro)[:200]}")
     return " | ".join(saida)
 
 
