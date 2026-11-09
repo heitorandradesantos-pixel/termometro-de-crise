@@ -1,0 +1,112 @@
+{
+ "titulo": "Boletim Focus desta semana: o que se sabe",
+ "descricao": "Focus de 9/11: economistas veem Selic em 13,75% no fim de 2026, IPCA em 5,22% e PIB em 1,75%. Veja o que mudou e o que ainda não se sabe.",
+ "palavra_chave": "boletim focus",
+ "lead": "O boletim Focus de segunda-feira (9/11), do Banco Central, mostra economistas esperando Selic de 13,75% no fim de 2026, inflação de 5,22% e crescimento de 1,75% do PIB. A projeção para os juros subiu de 13,50%, depois de o Copom manter a taxa em 13,75% na quarta-feira (4/11). A inflação esperada para 2027 também subiu, para 4,90%.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Juros: a projeção para a Selic, a taxa básica de juros, no fim de 2026 subiu de 13,50% para 13,75% ao ano. Para 2027, ficou em 12,50%, sem mudança. Para 2028 e 2029, as medianas seguiram em 11% e 10,25%.",
+   "fonte_url": "https://www.moneytimes.com.br/apos-copom-economistas-veem-selic-em-1375-em-2026-veja-o-focus-desta-segunda-feira-9-jcav/",
+   "data": "2026-11-09",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Inflação de 2026: a mediana para o IPCA, a inflação oficial, ficou em 5,22%. Segundo a Agenda do Poder, a previsão segue acima do limite de tolerância da meta.",
+   "fonte_url": "https://agendadopoder.com.br/boletim-focus-mercado-eleva-previsao-de-juros-para-1375-e-reduz-estimativa-de-crescimento/",
+   "data": "2026-11-09",
+   "veiculo": "Agenda do Poder",
+   "confiavel": false
+  },
+  {
+   "texto": "Inflação de 2027 em diante: a projeção para 2027 subiu de 4,76% para 4,90%. Para 2028, ficou estável em 4%. Para 2029, avançou de 3,98% para 4%.",
+   "fonte_url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-09112026/",
+   "data": "2026-11-09",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Crescimento: a projeção para o PIB, soma de tudo o que o país produz, caiu de 1,76% para 1,75% em 2026. É a 4ª queda seguida. Há um mês, a estimativa era de 1,85%.",
+   "fonte_url": "https://www.dgabc.com.br/Noticia/4367626/crescimento-do-pib-de-2026-passa-de-1-76-para-1-75-aponta-focus",
+   "data": "2026-11-09",
+   "veiculo": "DGABC",
+   "confiavel": false
+  },
+  {
+   "texto": "PIB de 2027: a estimativa recuou de 1,20% para 1,15%, na quarta redução seguida. As projeções do mercado ficam abaixo das do Banco Central, que prevê 1,8% para 2026 e 1,4% para 2027, segundo o Relatório de Política Monetária do 3º trimestre.",
+   "fonte_url": "https://www.dgabc.com.br/Noticia/4367626/crescimento-do-pib-de-2026-passa-de-1-76-para-1-75-aponta-focus",
+   "data": "2026-11-09",
+   "veiculo": "DGABC",
+   "confiavel": false
+  },
+  {
+   "texto": "Dólar: a projeção para o fim de 2026 subiu de R$ 5,34 para R$ 5,35. Para 2027, ficou em R$ 5,40.",
+   "fonte_url": "https://www.moneytimes.com.br/apos-copom-economistas-veem-selic-em-1375-em-2026-veja-o-focus-desta-segunda-feira-9-jcav/",
+   "data": "2026-11-09",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Contexto: os dados foram coletados até 6/11, depois de o Copom manter a Selic em 13,75% ao ano, na quarta-feira (4/11).",
+   "fonte_url": "https://poder360.com.br/poder-economia/mercado-reduz-expectativa-do-pib-de-2026-para-175",
+   "data": "2026-11-09",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Reuters, os analistas passaram a ver a Selic mantida em 13,75% também na última reunião do Copom de 2026, em 9 de dezembro. Antes, esperavam 13,50%.",
+   "fonte_url": "https://www.antena1.com.br/noticias/mercado-passa-a-ver-selic-em-1375-no-final-de-2026-no-focus",
+   "data": "2026-11-09",
+   "veiculo": "Reuters (via Antena 1)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Focus de 3/11 elevou a Selic esperada para o fim de 2026, de 13,25% para 13,50%. O IPCA de 2026 foi a 5,22%, e o PIB, a 1,76%.",
+   "fonte_url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-03112026/",
+   "data": "2026-11-03",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom manteve a Selic em 13,75% ao ano, na quarta-feira (4/11).",
+   "fonte_url": "https://poder360.com.br/poder-economia/mercado-reduz-expectativa-do-pib-de-2026-para-175",
+   "data": "2026-11-04",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "Fim da coleta de dados do Focus desta semana, em 6/11.",
+   "fonte_url": "https://poder360.com.br/poder-economia/mercado-reduz-expectativa-do-pib-de-2026-para-175",
+   "data": "2026-11-06",
+   "veiculo": "Poder360",
+   "confiavel": true
+  },
+  {
+   "texto": "O Banco Central divulgou o Focus de 9/11. A Selic esperada para o fim de 2026 foi a 13,75%, e o IPCA de 2027, a 4,90%.",
+   "fonte_url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-09112026/",
+   "data": "2026-11-09",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado quando a Selic começa a cair. Um site de finanças (não confirmado por fonte oficial nem pela imprensa de primeira linha) calcula o primeiro corte em março de 2027, e o NC News diz que isso é a expectativa de parte do mercado. Esse cenário não aparece nos textos de Reuters, InfoMoney ou Money Times consultados.",
+  "Não encontrei, nas buscas, a página oficial do Banco Central com o relatório de 9/11. Os números vêm de veículos que citam o documento, e todos coincidem entre si. Vale conferir no site do BC.",
+  "Ninguém garantiu que as projeções se realizam. O Focus é a mediana (valor do meio) do que economistas esperam. Ela muda toda semana.",
+  "Não se sabe se a ata do Copom vai mudar as expectativas. Um veículo (Blocktrends) cita essa dúvida, mas é uma leitura dele, sem confirmação."
+ ],
+ "o_que_muda_para_voce": [
+  "Se a Selic ficar em 13,75% até o fim do ano, como os economistas esperam, empréstimos e financiamentos seguem caros. Investimentos atrelados à Selic e ao CDI seguem com rendimento alto. O Focus não indica o que fazer com o seu dinheiro.",
+  "Inflação esperada de 5,22% em 2026 quer dizer que, em média, os preços sobem esse tanto em 12 meses. Salários e benefícios reajustados abaixo disso perdem poder de compra.",
+  "O dólar esperado a R$ 5,35 no fim do ano é uma projeção, não uma garantia. Um dólar mais caro encarece produtos importados e viagens.",
+  "O Focus se repete toda segunda-feira. O Banco Central atualiza os números a cada semana."
+ ],
+ "como_se_proteger": [],
+ "slug": "boletim-focus",
+ "publicado_em": "2026-11-09T10:32:06.076803",
+ "atualizado_em": "2026-11-09T10:32:06.076803",
+ "assunto": "O que se sabe sobre o boletim Focus desta semana: o que os economistas esperam para inflação, juros e crescimento",
+ "turno": "manha"
+}
