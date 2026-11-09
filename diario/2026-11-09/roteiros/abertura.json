@@ -1,0 +1,190 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Sua assinatura é em dólar? Então olha o dólar hoje: R$ 5,51.",
+  "na_tela": "Sua assinatura é em DÓLAR?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar subiu 0,24% hoje, e o petróleo lá fora caiu 4,23%.",
+   "na_tela": "Dólar sobe, petróleo CAI",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Sua assinatura é em dólar? Então olha o dólar hoje: R$ 5,51.",
+   "na_tela": "Sua assinatura é em DÓLAR?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "10h14, e o Ibovespa já abriu em alta de 0,49%.",
+   "na_tela": "10h14: Ibovespa ABRE em alta",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Sua assinatura é em dólar? Então olha o dólar hoje: R$ 5,51.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Segundo o Yahoo Finance, Europa e Nova York apontam para alta.",
+  "Aqui, o Ibovespa, nossa bolsa, abriu em alta de 0,49%.",
+  "O dólar, o preço da moeda americana, está em R$ 5,51.",
+  "Dólar mais caro é como reajuste no mercado: o que vem de fora pesa mais.",
+  "Olha só: o petróleo de referência lá fora, o Brent, caiu 4,23%, a US$ 94,16.",
+  "No site, tem a notícia da Nvidia investigando Jensen Huang.",
+  "Olhe quais assinaturas suas são em dólar, como streaming, e veja se alguma pode esperar.",
+  "Não vai comprar em dólar hoje? Não precisa fazer nada, só ficar de olho.",
+  "Isso não é recomendação: é o termômetro.",
+  "O grupo do WhatsApp está no link da bio."
+ ],
+ "texto_falado": "Sua assinatura é em dólar? Então olha o dólar hoje: R$ 5,51. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo o Yahoo Finance, Europa e Nova York apontam para alta. Aqui, o Ibovespa, nossa bolsa, abriu em alta de 0,49%. O dólar, o preço da moeda americana, está em R$ 5,51. Dólar mais caro é como reajuste no mercado: o que vem de fora pesa mais. Olha só: o petróleo de referência lá fora, o Brent, caiu 4,23%, a US$ 94,16. No site, tem a notícia da Nvidia investigando Jensen Huang. Olhe quais assinaturas suas são em dólar, como streaming, e veja se alguma pode esperar. Não vai comprar em dólar hoje? Não precisa fazer nada, só ficar de olho. Isso não é recomendação: é o termômetro. O grupo do WhatsApp está no link da bio.",
+ "palavras": 139,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "Sua assinatura é em DÓLAR?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Europa e Nova York em ALTA",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Ibovespa ▲0,49%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Dólar R$ 5,51",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Brent US$ 94,16 ▼4,23%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 7,
+   "texto": "Nvidia investiga Jensen Huang",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Assinaturas em dólar",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Só fique de olho",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "dólar hoje e Ibovespa hoje: como o mercado abriu",
+ "legenda": "Dólar hoje e Ibovespa hoje: como o mercado abriu nesta segunda, 09/11.\n\nSegundo o Yahoo Finance, o Ibovespa abriu em alta de 0,49% e o dólar está em R$ 5,51. O petróleo Brent, a referência lá fora, caiu 4,23%, a US$ 94,16.\n\nDólar mais caro é como reajuste no mercado: o que vem de fora pesa mais. Olhe quais assinaturas suas são em dólar e veja se alguma pode esperar. Se você não vai comprar nada em dólar hoje, não precisa fazer nada, só ficar de olho.\n\nNo site, tem a notícia da Nvidia investigando Jensen Huang.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 5,51, petróleo em queda: o que muda pra você?",
+  "topicos": [
+   "Segundo o Yahoo Finance, o Ibovespa abriu em alta de 0,49%, aos 169.322 pontos.",
+   "O dólar está em R$ 5,51, alta de 0,24%, segundo o Yahoo Finance.",
+   "O petróleo Brent, referência lá fora, caiu 4,23%, a US$ 94,16.",
+   "Assinatura em dólar? Veja se alguma pode esperar; senão, só fique de olho."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É a abertura do dia, com contexto e comparação para explicar o dólar, então pede a calma da bancada.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Dólar mais caro é como reajuste no mercado: o que vem de fora pesa mais.\": a comparação é correta, mas genérica e fraca para o sanguíneo. Reescreva com uma cena do dia a dia, ligando ao que a pessoa já paga (ex.: \"é como o streaming que chega na fatura do cartão mais caro sem você ter mudado nada\"), sem citar número novo.",
+   "Frase \"Olha só: o petróleo de referência lá fora, o Brent, caiu 4,23%, a US$ 94,16.\": o Brent cai, mas o roteiro não diz por que isso importa para o bolso, e o melancólico fica sem o \"porquê\". Acrescente uma frase curta dizendo o que essa queda pode significar para quem paga combustível e conta, ou admita que ainda não dá para saber o efeito, sem inventar dado. Se não houver ligação, corte o Brent para o roteiro ficar mais enxuto.",
+   "Frase \"No site, tem a notícia da Nvidia investigando Jensen Huang.\": é um assunto solto, que não ajuda o bolso de quem assiste e quebra o ritmo entre o passo prático e o fecho. Tire do Reel (deixe só na legenda ou no site) ou ligue ao tema do dia. Depois, deixe o \"Fala, galera\" na abertura, já que o gancho de assinatura em dólar vem antes do bordão. Assim o fecho com o passo simples e o \"Isso não é recomendação: é o termômetro.\" fica mais próximo do final."
+  ],
+  "veredito": "A peça acerta o público (gancho de assinatura em dólar, passo simples e tranquilizador, fonte citada e termos traduzidos), mas falta uma comparação mais viva, o porquê do petróleo e o corte da Nvidia, que não tem a ver com o bolso."
+ },
+ "apoios": [
+  {
+   "fala": 5,
+   "visual": "Slow dolly-in along a brightly lit supermarket aisle, shelves full of generic unbranded imported goods in plain packaging (jars, boxes, bottles), with no readable text, no logos and no numbers on any label. A shopping cart in the foreground. No recognizable people, no faces in focus. Warm, realistic lighting, shallow depth of field",
+   "texto_da_fala": "Dólar mais caro é como reajuste no mercado: o que vem de fora pesa mais.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a brightly lit supermarket aisle, shelves full of generic unbranded imported goods in plain packaging (jars, boxes, bottles), with no readable text, no logos and no numbers on any label. A shopping cart in the foreground. No recognizable people, no faces in focus. Warm, realistic lighting, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Aerial drone shot slowly circling an offshore oil platform at golden hour, with calm ocean waves and a faint orange flare glowing on the horizon. Steel structures and pipes in detail, with no text, no logos and no people visible. Cinematic, realistic, smooth camera movement",
+   "texto_da_fala": "Olha só: o petróleo de referência lá fora, o Brent, caiu 4,23%, a US$ 94,16.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial drone shot slowly circling an offshore oil platform at golden hour, with calm ocean waves and a faint orange flare glowing on the horizon. Steel structures and pipes in detail, with no text, no logos and no people visible. Cinematic, realistic, smooth camera movement. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Cozy living room at night, slow push-in toward a TV screen showing an abstract colorful glow of blurred thumbnails with no readable text or logos. A hand holding a remote control in the foreground, with no face visible, and a smartphone lying on the sofa armrest with a softly lit blank screen. Warm ambient light, realistic, shallow depth of field",
+   "texto_da_fala": "Olhe quais assinaturas suas são em dólar, como streaming, e veja se alguma pode esperar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Cozy living room at night, slow push-in toward a TV screen showing an abstract colorful glow of blurred thumbnails with no readable text or logos. A hand holding a remote control in the foreground, with no face visible, and a smartphone lying on the sofa armrest with a softly lit blank screen. Warm ambient light, realistic, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Sua assinatura é em dólar? Então olha o dólar hoje: R$ 5,51.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo o Yahoo Finance, Europa e Nova York apontam para alta.\n\nAqui, o Ibovespa, nossa bolsa, abriu em alta de 0,49%.\n\nO dólar, o preço da moeda americana, está em R$ 5,51.\n\nDólar mais caro é como reajuste no mercado: o que vem de fora pesa mais.\n\nOlha só: o petróleo de referência lá fora, o Brent, caiu 4,23%, a US$ 94,16.\n\nNo site, tem a notícia da Nvidia investigando Jensen Huang.\n\nOlhe quais assinaturas suas são em dólar, como streaming, e veja se alguma pode esperar.\n\nNão vai comprar em dólar hoje? Não precisa fazer nada, só ficar de olho.\n\nIsso não é recomendação: é o termômetro.\n\nO grupo do WhatsApp está no link da bio.",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T10:33:58.835428-03:00",
+ "enviado_whatsapp": "2026-11-09T10:34:50.757334-03:00"
+}
