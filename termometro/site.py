@@ -702,7 +702,7 @@ def extras(saida: Path, caminhos: list[str]) -> None:
     for arq in MARCA.glob("*"):  # favicon, ícone do celular e a foto de perfil da marca
         if arq.is_file():
             shutil.copy(arq, saida / arq.name)
-    (saida / "robots.txt").write_text("User-agent: *\nAllow: /\nDisallow: /painel/\n" +
+    (saida / "robots.txt").write_text("User-agent: *\nAllow: /\nDisallow: /painel/\nDisallow: /metricas/\n" +
                                       (f"Sitemap: {config.SITE_URL}/sitemap.xml\n"
                                        f"Sitemap: {config.SITE_URL}/sitemap-noticias.xml\n" if config.SITE_URL else ""))
     if config.SITE_URL:

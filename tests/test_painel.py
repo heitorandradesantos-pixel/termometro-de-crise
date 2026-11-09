@@ -114,6 +114,12 @@ def test_pagina_do_painel_fora_do_google(tmp_path):
     assert "__FONTE__" not in pagina and f"const ITER = {painel.ITERACOES};" in pagina
     assert (tmp_path / "site" / "painel" / "dados.enc").exists()
     assert "X-Robots-Tag: noindex" in (tmp_path / "site" / "_headers").read_text()
+    produto = (tmp_path / "site" / "metricas" / "index.html").read_text()
+    assert "Descubra qual post seu vale impulsionar" in produto and "__" not in produto.replace("__proto__", "")
+    assert "sem ligação com a Meta" in produto
+    demo_produto = (tmp_path / "site" / "metricas" / "demo" / "index.html").read_text()
+    assert "TERMÔMETRO" not in demo_produto and "--fundo:#F5F8FC" in demo_produto and "__MARCA__" not in demo_produto
+    assert "/metricas/*" in (tmp_path / "site" / "_headers").read_text()
     vitrine = (tmp_path / "site" / "painel" / "demo" / "index.html").read_text()
     assert "/*__DEMO__*/null" not in vitrine and '"usuario": "seuperfil"' in vitrine and "__ITER__" not in vitrine
 

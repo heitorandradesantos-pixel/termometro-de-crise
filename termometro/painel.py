@@ -256,24 +256,67 @@ def ranking(dados: dict, dias: int = 7, agora: pd.Timestamp | None = None) -> st
 
 # ---------------------------------------------------------------- página do site
 
+# ---------------------------------------------------------------- marcas (a do Termômetro e a da ferramenta para criadores)
+
+PASTA = Path(__file__).resolve().parent
+PRODUTO = os.environ.get("PRODUTO_NOME") or "Métricas"  # nome provisório da ferramenta para criadores
+TEMA_CLARO = """:root{--fundo:#F5F8FC;--painel:#FFFFFF;--painel2:#EEF3FA;--linha:#DCE4EF;--grade:#C9D5E5;--texto:#0B1B33;
+  --suave:#4A5B73;--apagado:#5F6E84;--acento:#1D5FD6;--acento-lavado:rgba(29,95,214,.10);--sobre-acento:#FFFFFF;
+  --sobe:#157A4A;--desce:#B42318;--capa1:#DCE8FA;--capa2:#B9CFF2}
+.capa .reserva{color:#2B4A7A}"""
+
+
+def marca_produto(nome: str = "") -> str:
+    nome = html.escape(nome or PRODUTO)
+    return ('<div class="marca"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">'
+            '<rect x="3" y="13" width="4" height="8" rx="1.5" fill="#9DBBF0"/><rect x="10" y="8" width="4" height="13" rx="1.5" '
+            'fill="#5B8DE6"/><rect x="17" y="3" width="4" height="18" rx="1.5" fill="#1D5FD6"/></svg>'
+            f'<span style="letter-spacing:.01em;text-transform:none;font-size:18px">{nome}</span></div>')
+
+
+def pagina(fonte: str = "", dados_demo: dict | None = None, raiz: str = "../", produto: bool = False) -> str:
+    js = json.dumps(dados_demo, ensure_ascii=False).replace("</", "<\\/") if dados_demo else "null"
+    return (PAGINA.replace("__FONTE__", html.escape(fonte)).replace("__ITER__", str(ITERACOES))
+            .replace("/*__DEMO__*/null", js).replace('href="../favicon.svg"', f'href="{raiz}favicon.svg"')
+            .replace("__TITULO__", f"{PRODUTO}: painel de exemplo" if produto else "Painel do Termômetro")
+            .replace("__COR__", "#F5F8FC" if produto else "#0E141B")
+            .replace("/*__TEMA__*/", TEMA_CLARO if produto else "")
+            .replace("__MARCA__", marca_produto() if produto else MARCA_TERMOMETRO))
+
+
 def gerar(saida: Path, arq: Path | None = None) -> None:
-    """A página /painel/ (fechada com senha) e uma cópia do arquivo criptografado, caso o GitHub esteja fora."""
+    """/painel/ (fechada com senha), /painel/demo/ (vitrine do Termômetro) e, em rascunho, /metricas/ (a ferramenta
+    para criadores: apresentação e painel de exemplo em azul e branco)."""
     arq = arq or ARQ
     pasta = saida / "painel"
-    pasta.mkdir(parents=True, exist_ok=True)
+    (pasta / "demo").mkdir(parents=True, exist_ok=True)
     if arq.exists():
-        shutil.copy(arq, pasta / "dados.enc")
-    fonte = f"https://raw.githubusercontent.com/{REPO}/main/painel/dados.enc"
-    (pasta / "index.html").write_text(PAGINA.replace("__FONTE__", html.escape(fonte))
-                                      .replace("__ITER__", str(ITERACOES)))
-    (pasta / "demo").mkdir(exist_ok=True)  # vitrine pública com números fictícios (e o que o squad de design avalia)
-    js = json.dumps(demo(), ensure_ascii=False).replace("</", "<\\/")
-    (pasta / "demo" / "index.html").write_text(PAGINA.replace("__FONTE__", "").replace("__ITER__", str(ITERACOES))
-                                               .replace("/*__DEMO__*/null", js).replace('href="../favicon.svg"',
-                                                                                         'href="../../favicon.svg"'))
+        shutil.copy(arq, pasta / "dados.enc")  # cópia, caso o GitHub esteja fora
+    (pasta / "index.html").write_text(pagina(f"https://raw.githubusercontent.com/{REPO}/main/painel/dados.enc"))
+    exemplo = demo()
+    (pasta / "demo" / "index.html").write_text(pagina(dados_demo=exemplo, raiz="../../"))
+    produto = saida / "metricas"
+    (produto / "demo").mkdir(parents=True, exist_ok=True)
+    (produto / "demo" / "index.html").write_text(pagina(dados_demo=exemplo, raiz="../../", produto=True))
+    (produto / "index.html").write_text(vitrine(exemplo))
     cabecalhos = saida / "_headers"
-    regra = "/painel/*\n  X-Robots-Tag: noindex, nofollow\n  Cache-Control: no-store\n  Referrer-Policy: no-referrer\n"
+    regra = ("/painel/*\n  X-Robots-Tag: noindex, nofollow\n  Cache-Control: no-store\n  Referrer-Policy: no-referrer\n"
+             "/metricas/*\n  X-Robots-Tag: noindex, nofollow\n")  # rascunho: fora do Google até ter nome definitivo
     cabecalhos.write_text((cabecalhos.read_text() + "\n" if cabecalhos.exists() else "") + regra)
+
+
+def vitrine(exemplo: dict) -> str:
+    """A página de apresentação da ferramenta para criadores, com o cartão do melhor post da demo."""
+    posts = [p for p in exemplo["posts"] if p.get("forca") is not None]
+    melhor = max(posts, key=lambda p: p["forca"])
+    media = sum(p["forca"] for p in posts) / len(posts)
+    fmt = lambda n: f"{n:,}".replace(",", ".")
+    um = lambda x: f"{x:.1f}".replace(".", ",")
+    return (VITRINE.replace("__PRODUTO__", html.escape(PRODUTO)).replace("__MARCA__", marca_produto())
+            .replace("__TITULO_POST__", html.escape(melhor["legenda"])).replace("__FORCA__", um(melhor["forca"]))
+            .replace("__MEDIA__", um(media)).replace("__VEZES__", um(melhor["forca"] / media))
+            .replace("__COMPART__", fmt(melhor["compartilhamentos"])).replace("__SALVOS__", fmt(melhor["salvos"]))
+            .replace("__ALCANCE__", fmt(melhor["alcance"])))
 
 
 DEMO_TITULOS = ["3 erros que travam o alcance do seu Reel", "Como eu gravo 5 vídeos em 1 hora",
@@ -310,5 +353,11 @@ def demo(hoje: pd.Timestamp | None = None) -> dict:
             "seguidores": seguidores, "posts": posts, "minimo_alcance": MINIMO_ALCANCE}
 
 
-PAGINA = (Path(__file__).resolve().parent / "painel.html").read_text() if (
-    Path(__file__).resolve().parent / "painel.html").exists() else ""
+def _ler(nome: str) -> str:
+    arq = PASTA / nome
+    return arq.read_text() if arq.exists() else ""
+
+
+PAGINA = _ler("painel.html")
+MARCA_TERMOMETRO = _ler("painel_marca_termometro.html").strip()
+VITRINE = _ler("metricas.html")

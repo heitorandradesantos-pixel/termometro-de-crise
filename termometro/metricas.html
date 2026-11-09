@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>__PRODUTO__: descubra qual post seu vale impulsionar</title>
+<meta name="description" content="O painel que mostra, em 5 segundos, qual post seu o público compartilha e salva sozinho, e por isso vale impulsionar.">
+<meta name="theme-color" content="#F5F8FC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='3' y='13' width='4' height='8' rx='1.5' fill='%239DBBF0'/%3E%3Crect x='10' y='8' width='4' height='13' rx='1.5' fill='%235B8DE6'/%3E%3Crect x='17' y='3' width='4' height='18' rx='1.5' fill='%231D5FD6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--fundo:#F5F8FC;--branco:#FFFFFF;--suave2:#EEF3FA;--linha:#DCE4EF;--texto:#0B1B33;--suave:#4A5B73;--acento:#1D5FD6;--acento-escuro:#1549A8;--sobe:#157A4A}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--fundo);color:var(--texto);font:17px/1.55 'IBM Plex Sans',system-ui,sans-serif;-webkit-text-size-adjust:100%}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;line-height:1.15;margin:0}
+a{color:var(--acento)}
+.pular{position:absolute;left:-9999px;top:8px;background:var(--acento);color:#fff;padding:10px 14px;border-radius:10px;font-weight:700;z-index:10}
+.pular:focus{left:16px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.faixa{max-width:1080px;margin:0 auto;padding:0 16px}
+.topo{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0}
+.marca{display:flex;align-items:center;gap:10px;font-family:'Space Grotesk',sans-serif;font-weight:700}
+.topo a.link{font-weight:600;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.heroi{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:28px 0 56px}
+.etiqueta{display:inline-block;background:var(--suave2);color:var(--acento-escuro);border-radius:999px;padding:3px 12px;font-size:14px;font-weight:600;margin-bottom:14px}
+h1{font-size:clamp(34px,6vw,54px);letter-spacing:-.01em}
+.lead{font-size:19px;color:var(--suave);margin:16px 0 24px;max-width:34ch}
+.cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px}
+.botao{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;border-radius:14px;background:var(--acento);color:#fff;font-weight:700;font-size:17px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}
+.botao:hover{background:var(--acento-escuro)}
+.secundario{font-weight:600;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.miudo{color:var(--suave);font-size:14px;margin:14px 0 0}
+/* cartão do melhor post (a prova) */
+.prova{position:relative}
+.cartao{background:var(--branco);border:2px solid var(--acento);border-radius:22px;padding:20px;display:grid;grid-template-columns:118px 1fr;gap:18px;box-shadow:0 18px 40px rgba(29,95,214,.12)}
+.capa{aspect-ratio:9/16;border-radius:12px;background:linear-gradient(160deg,#DCE8FA,#B9CFF2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#2B4A7A;font-size:12px;text-align:center;padding:8px;position:relative}
+.capa .pos{position:absolute;top:8px;left:8px;background:rgba(11,27,51,.88);color:#fff;border-radius:999px;padding:1px 9px;font-weight:700;font-size:13px}
+.rotulo{margin:0 0 4px;color:var(--suave);font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase}
+.cartao h3{font-size:18px;line-height:1.3;margin:0 0 10px}
+.nota{display:flex;align-items:center;gap:10px;margin:0 0 8px}
+.nota b{font-family:'Space Grotesk',sans-serif;font-size:46px;line-height:1}
+.nota span{color:var(--suave);font-size:14px;line-height:1.35}
+.veredito{font-weight:600;margin:0 0 10px;font-size:15px}
+.mini{display:flex;flex-wrap:wrap;gap:2px 12px;color:var(--suave);font-size:14px;margin:0}
+.mini b{color:var(--texto)}
+.exemplo{position:absolute;right:14px;top:-12px;background:var(--texto);color:#fff;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:600}
+/* seções */
+section{padding:44px 0;border-top:1px solid var(--linha)}
+section h2{font-size:clamp(26px,4vw,34px);margin-bottom:22px;max-width:24ch}
+.passos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;list-style:none;margin:0;padding:0;counter-reset:passo}
+.passos li{background:var(--branco);border:1px solid var(--linha);border-radius:16px;padding:20px;counter-increment:passo}
+.passos li::before{content:counter(passo);display:inline-flex;width:34px;height:34px;border-radius:50%;background:var(--suave2);color:var(--acento-escuro);font-weight:700;align-items:center;justify-content:center;margin-bottom:10px;font-family:'Space Grotesk',sans-serif}
+.passos h3,.recursos h3{font-size:19px;margin-bottom:6px}
+.passos p,.recursos p{margin:0;color:var(--suave);font-size:16px}
+.recursos{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.recursos div{background:var(--branco);border:1px solid var(--linha);border-radius:16px;padding:20px}
+.porque{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.porque p{margin:0 0 12px;color:var(--suave)}
+.formula{background:var(--branco);border:1px solid var(--linha);border-radius:16px;padding:20px;font-size:16px}
+.formula b{font-family:'Space Grotesk',sans-serif;font-size:20px;color:var(--texto);display:block;margin-bottom:6px}
+details{background:var(--branco);border:1px solid var(--linha);border-radius:14px;padding:0 18px;margin-bottom:10px}
+summary{cursor:pointer;min-height:56px;display:flex;align-items:center;font-weight:600}
+details p{margin:0 0 16px;color:var(--suave)}
+.lista{background:var(--texto);color:#fff;border-radius:24px;padding:32px 24px;margin:44px 0;text-align:center}
+.lista h2{color:#fff;margin:0 auto 10px;max-width:22ch}
+.lista p{color:#C9D5E5;margin:0 auto 20px;max-width:46ch}
+.lista form{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:520px;margin:0 auto}
+.lista input[type=email]{flex:1 1 240px;min-height:52px;border-radius:14px;border:0;padding:0 16px;font-size:17px;font-family:inherit;color:var(--texto)}
+.lista .isca{position:absolute;left:-9999px;width:1px;height:1px}
+.lista .botao{background:#fff;color:var(--texto)}
+.lista .botao:hover{background:var(--suave2)}
+.msg{flex-basis:100%;min-height:1.4em;margin:6px 0 0;color:#fff}
+.rodape{color:var(--suave);font-size:14px;padding:8px 0 40px;line-height:1.6}
+@media (max-width:860px){.heroi{grid-template-columns:1fr;gap:30px;padding-top:10px}.passos,.recursos,.porque{grid-template-columns:1fr}}
+@media (max-width:420px){.cartao{grid-template-columns:92px 1fr;padding:16px;gap:14px}.nota b{font-size:38px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<div class="faixa">
+  <header class="topo">__MARCA__<a class="link" href="demo/">Ver exemplo</a></header>
+  <main id="conteudo">
+    <div class="heroi">
+      <div>
+        <span class="etiqueta">Para criadores de conteúdo</span>
+        <h1>Descubra qual post seu vale impulsionar</h1>
+        <p class="lead">O __PRODUTO__ lê os números dos seus Reels e mostra, em 5 segundos, o que o público compartilha e salva sozinho. Você só põe dinheiro no que já provou que funciona.</p>
+        <div class="cta">
+          <a class="botao" href="#lista">Quero testar primeiro</a>
+          <a class="secundario" href="demo/">Ver o painel de exemplo →</a>
+        </div>
+        <p class="miudo">Entrar na lista é grátis · só leitura: nunca posta por você</p>
+      </div>
+      <div class="prova" aria-label="Exemplo do cartão de melhor post da semana, com dados de exemplo">
+        <span class="exemplo">dados de exemplo</span>
+        <article class="cartao">
+          <div class="capa"><span class="pos">1º</span><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 8.5v7l6-3.5z" fill="currentColor"/></svg>Reel</div>
+          <div>
+            <p class="rotulo">Melhor post da semana</p>
+            <h3>__TITULO_POST__</h3>
+            <div class="nota"><b>__FORCA__</b><span>de força<br>sua média: __MEDIA__</span></div>
+            <p class="veredito">Vale impulsionar: o público agiu __VEZES__× mais que no seu post médio.</p>
+            <p class="mini"><span><b>__COMPART__</b> compart.</span><span><b>__SALVOS__</b> salvos</span><span><b>__ALCANCE__</b> alcançadas</span></p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <section>
+      <h2>Como funciona</h2>
+      <ol class="passos">
+        <li><h3>Conecte o seu perfil</h3><p>Pelo login oficial da Meta, só com permissão de leitura. Precisa ser conta profissional (criador ou empresa).</p></li>
+        <li><h3>Veja o painel</h3><p>O melhor post da semana, a força de cada vídeo e a comparação com a sua própria média.</p></li>
+        <li><h3>Escolha o que impulsionar</h3><p>Cada post vem com um veredito em português claro: vale, ainda é cedo ou está na sua média.</p></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>O que você vê no painel</h2>
+      <div class="recursos">
+        <div><h3>O melhor post da semana</h3><p>Em destaque, com o número que importa e o motivo em uma frase.</p></div>
+        <div><h3>Força × sua média</h3><p>Nada de comparar você com influenciador de 1 milhão: a régua é o seu próprio perfil.</p></div>
+        <div><h3>Os 3 que valem anúncio</h3><p>Só entram posts com alcance suficiente para não ser sorte.</p></div>
+        <div><h3>Seguidores e alcance no tempo</h3><p>Com a variação contra o período anterior, para saber se a semana foi boa.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="porque">
+        <div>
+          <h2>Por que "força" e não curtida?</h2>
+          <p>Curtida é barata. Quem compartilha leva o seu vídeo para gente nova, e quem salva quer ver de novo. Esses são os sinais de que o vídeo funciona sozinho, e é isso que segura o dinheiro do impulsionamento.</p>
+        </div>
+        <div class="formula"><b>Força = (compartilhamentos × 2 + salvamentos + comentários) a cada 100 pessoas alcançadas</b>Compartilhar vale o dobro porque traz público novo. Os números vêm da API oficial da Meta e são atualizados várias vezes por dia.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Perguntas rápidas</h2>
+      <details><summary>Preciso de conta profissional?</summary><p>Sim. A Meta só libera os números para contas de criador ou de empresa, e a troca é grátis nas configurações do app.</p></details>
+      <details><summary>Vocês veem a minha senha?</summary><p>Não. A conexão é feita pelo login oficial da Meta, só com permissão de leitura, e você pode remover o acesso quando quiser.</p></details>
+      <details><summary>Funciona para TikTok?</summary><p>Por enquanto, só Instagram.</p></details>
+      <details><summary>Quanto vai custar?</summary><p>O preço sai antes da abertura. Quem está na lista fica sabendo primeiro e entra antes.</p></details>
+    </section>
+
+    <div class="lista" id="lista">
+      <h2>Entre na lista e teste primeiro</h2>
+      <p>Avisamos por e-mail quando abrir. Sem cartão, sem compromisso.</p>
+      <form id="form-lista" action="/api/lista-espera" method="post">
+        <label class="sr" for="email">Seu e-mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
+        <input class="isca" type="text" name="site" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="botao" type="submit">Entrar na lista</button>
+        <p class="msg" id="msg" role="status"></p>
+      </form>
+    </div>
+  </main>
+  <footer class="rodape">__PRODUTO__ é uma ferramenta independente, sem ligação com a Meta ou o Instagram. Instagram é marca da Meta Platforms. · <a href="/privacidade.html">Privacidade</a></footer>
+</div>
+<script>
+document.getElementById("form-lista").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const f = ev.target, msg = document.getElementById("msg"), b = f.querySelector("button");
+  b.disabled = true; msg.textContent = "Enviando…";
+  try {
+    const r = await fetch(f.action, {method: "POST", body: new FormData(f), headers: {accept: "application/json"}});
+    const j = await r.json().catch(() => ({}));
+    msg.textContent = j.mensagem || (r.ok ? "Pronto! Confira o seu e-mail." : "Não deu certo agora. Tente de novo em alguns minutos.");
+    if (r.ok) f.reset();
+  } catch (e) { msg.textContent = "Não deu certo agora. Tente de novo em alguns minutos."; }
+  b.disabled = false;
+});
+</script>
+</body>
+</html>
