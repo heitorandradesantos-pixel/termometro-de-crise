@@ -1,0 +1,186 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "A Nvidia caiu 4,27% e o motivo não é um só.",
+  "na_tela": "Nvidia caiu 4,27%: por quê?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 0,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "A Nvidia caiu 4,27% e o motivo não é um só.",
+   "na_tela": "Nvidia caiu 4,27%: por quê?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu fundo pode ter Nvidia dentro, e a cota pode sentir a queda.",
+   "na_tela": "Seu fundo tem Nvidia?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Queda de 23% em 30 dias, e agora a Nvidia tem um caso de CEO.",
+   "na_tela": "23% em 30 dias",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "A Nvidia caiu 4,27% e o motivo não é um só.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "O conselho abriu investigação independente sobre o CEO, Jensen Huang.",
+  "O mercado já vendia IA há semanas, por medo de bolha.",
+  "Bolha é preço subindo demais, sem lucro que sustente.",
+  "A Nvidia já acumulava queda de 23% em 30 dias, segundo a ABC News.",
+  "Agora a parte sem resposta: não há consenso se é caso isolado ou bolha.",
+  "Se seu fundo ou app de ações dos EUA tem Nvidia, a cota pode sentir.",
+  "É como sal na comida: o efeito depende de quanto tem na carteira.",
+  "Calma: a queda só vira perda se você resgatar. Veja a lâmina do fundo.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "A Nvidia caiu 4,27% e o motivo não é um só. Fala, galera, aqui é o Heitor, do Termômetro de Crise. O conselho abriu investigação independente sobre o CEO, Jensen Huang. O mercado já vendia IA há semanas, por medo de bolha. Bolha é preço subindo demais, sem lucro que sustente. A Nvidia já acumulava queda de 23% em 30 dias, segundo a ABC News. Agora a parte sem resposta: não há consenso se é caso isolado ou bolha. Se seu fundo ou app de ações dos EUA tem Nvidia, a cota pode sentir. É como sal na comida: o efeito depende de quanto tem na carteira. Calma: a queda só vira perda se você resgatar. Veja a lâmina do fundo. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 145,
+ "segundos": 58,
+ "na_tela": [
+  {
+   "texto": "Nvidia caiu 4,27%: por quê?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Nvidia: -4,27% na segunda",
+   "fonte": "CNBC"
+  },
+  {
+   "fala": 3,
+   "texto": "Medo de bolha de IA",
+   "fonte": "ABC News"
+  },
+  {
+   "fala": 4,
+   "texto": "Bolha = preço alto, sem lucro",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "-23% em 30 dias",
+   "fonte": "ABC News"
+  },
+  {
+   "fala": 6,
+   "texto": "Sem consenso: caso isolado ou bolha?",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 8,
+   "texto": "O peso na carteira define o efeito",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Só vira perda se resgatar",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "Nvidia hoje: por que caiu e o que muda no meu fundo",
+ "legenda": "Nvidia hoje: por que caiu e o que muda no meu fundo?\n\nSegundo a CNBC, as ações da Nvidia fecharam em queda de 4,27% na segunda, depois que o conselho abriu uma investigação independente sobre o CEO, Jensen Huang. Antes disso, a ABC News já apontava queda de 23% em 30 dias, por medo de bolha de IA.\n\nO que ainda não se sabe: o resultado e o prazo da investigação, e se a queda é só da Nvidia ou começo de uma bolha. Não há consenso entre os analistas.\n\nPara o seu bolso: se você tem fundo de ações dos EUA, BDR ou app com ações americanas, o efeito depende do peso da Nvidia na carteira. Veja a lâmina do fundo. A queda aparece no extrato, mas só vira perda se você resgatar.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#nvidia #bolhadeia #termometrodecrise #educacaofinanceira",
+ "hashtags": [
+  "#nvidia",
+  "#bolhadeia",
+  "#termometrodecrise",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Nvidia caiu 4,27% na segunda. Isso pode chegar no seu fundo.",
+  "topicos": [
+   "Segundo a CNBC, a Nvidia fechou em queda de 4,27% na segunda.",
+   "O conselho da Nvidia abriu investigação sobre o CEO, sem prazo para acabar.",
+   "A ABC News diz: 23% de queda em 30 dias, por medo de bolha.",
+   "Fundo com ações dos EUA? Veja na lâmina quanto tem de Nvidia."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto, o que ainda não se sabe e o efeito no fundo, que pede calma e teleprompter.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 10,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [],
+  "veredito": "A peça vai direto ao ponto e responde \"isso mexe no meu fundo?\" com fonte, comparação do sal na comida, bolha traduzida, o que ainda não se sabe, um passo simples (ver a lâmina) e os bordões da casa, sem alarmismo nem recomendação; não falta nada relevante."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in along a long polished table in an empty corporate boardroom at dusk, leather chairs pushed back, a closed folder and a glass of water on the table, cold light through floor-to-ceiling windows over a city skyline. No people, no text, no logos, no numbers",
+   "texto_da_fala": "O conselho abriu investigação independente sobre o CEO, Jensen Huang.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a long polished table in an empty corporate boardroom at dusk, leather chairs pushed back, a closed folder and a glass of water on the table, cold light through floor-to-ceiling windows over a city skyline. No people, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro shot of a high-end graphics processing chip on a dark circuit board inside a data center, cool blue light flickering across its metal surface. Camera slowly pulls back along a row of server racks fading into darkness, with the lights dimming one after another. No people, no text, no numbers, no logos, no screens with charts",
+   "texto_da_fala": "A Nvidia já acumulava queda de 23% em 30 dias, segundo a ABC News.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of a high-end graphics processing chip on a dark circuit board inside a data center, cool blue light flickering across its metal surface. Camera slowly pulls back along a row of server racks fading into darkness, with the lights dimming one after another. No people, no text, no numbers, no logos, no screens with charts. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Close-up of a hand-less salt shaker tilted over a plate of steaming rice and beans, grains of salt falling in slow motion, camera slowly orbiting the plate with warm kitchen light and shallow depth of field. No people or faces, no text, no numbers, no logos",
+   "texto_da_fala": "É como sal na comida: o efeito depende de quanto tem na carteira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a hand-less salt shaker tilted over a plate of steaming rice and beans, grains of salt falling in slow motion, camera slowly orbiting the plate with warm kitchen light and shallow depth of field. No people or faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "A Nvidia caiu 4,27% e o motivo não é um só.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nO conselho abriu investigação independente sobre o CEO, Jensen Huang.\n\nO mercado já vendia IA há semanas, por medo de bolha.\n\nBolha é preço subindo demais, sem lucro que sustente.\n\nA Nvidia já acumulava queda de 23% em 30 dias, segundo a ABC News.\n\nAgora a parte sem resposta: não há consenso se é caso isolado ou bolha.\n\nSe seu fundo ou app de ações dos EUA tem Nvidia, a cota pode sentir.\n\nÉ como sal na comida: o efeito depende de quanto tem na carteira.\n\nCalma: a queda só vira perda se você resgatar. Veja a lâmina do fundo.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "destaque": "Em e-mail aos funcionários, Huang admitiu ter sido infiel à esposa e pediu desculpas."
+  },
+  {
+   "veiculo": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+   "destaque": "As ações da Nvidia fecharam em queda de 4,27% na segunda-feira (9/11)."
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T18:15:47.563844-03:00"
+}
