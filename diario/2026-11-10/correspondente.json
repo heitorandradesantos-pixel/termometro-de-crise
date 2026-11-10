@@ -1,0 +1,1087 @@
+{
+ "regioes": {
+  "América do Norte": {
+   "resumo": "A América do Norte está em 64, na faixa de Tensão, contra 44 no mês anterior. O que mais pesa é o sobe e desce das bolsas, que ficou mais forte que em quase todos os meses da história nos dois países.",
+   "paises": {
+    "EUA": "Os EUA estão em 78 (Tensão), contra 45 no mês anterior. O sinal mais forte é o sobe e desce: cerca de 2,2% por dia, mais tenso que em 97% dos meses da história do país. Isso bate com a semana de 3 a 10 de novembro: a bolsa caiu forte, subiu 2,35% em 9/11 e recuou de novo em 10/11 depois de uma inflação acima do esperado. A bolsa em si está 3,8% abaixo do topo de 12 meses, mais tensa que em 59% dos meses.",
+    "Canadá": "O Canadá está em 50 (Alerta), contra 42 no mês anterior. O sobe e desce é o sinal mais pesado: cerca de 1,5% por dia, mais tenso que em 93% dos meses. A bolsa de Toronto caiu 2% em 5/11 e subiu 1,8% em 9/11, seguindo os EUA e as ações de tecnologia e de mineração. A bolsa está só 2,1% abaixo do topo, e o dólar canadense perdeu 0,9% em 3 meses. O dólar canadense está estável, perto de 70,8 centavos de dólar americano, e sustenta o nível mais baixo do termômetro canadense."
+   },
+   "noticias": [
+    {
+     "titulo": "Inflação de outubro nos EUA vem acima do esperado e bolsa volta a cair",
+     "resumo": "Os preços ao consumidor subiram 0,4% em outubro, acima do esperado. O S&P 500 fechou em queda de 0,38%, a 7.520,93 pontos, e os juros dos títulos de 10 anos do Tesouro chegaram perto de 5%.",
+     "data": "2026-11-10",
+     "status": "fato confirmado",
+     "regiao": "América do Norte",
+     "paises": [
+      "EUA",
+      "Canadá"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "juros",
+      "sobe e desce"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+       "data": "2026-11-10",
+       "confiavel": true
+      },
+      {
+       "veiculo": "Kiplinger",
+       "url": "https://www.kiplinger.com/investing/stocks/stocks-drop-as-rate-hike-worries-rise-stock-market-today",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": true
+    },
+    {
+     "titulo": "Fed discute alta de juros em dezembro; diretor admite aumento maior",
+     "resumo": "O Fed, o banco central americano, subiu os juros em 0,25 ponto em setembro e manteve em outubro. O diretor Christopher Waller disse em 10/11 que uma alta de 0,25 é adequada em dezembro e que 0,50 deve ser considerada. Operadores veem cerca de 90% de chance de alta de 0,25.",
+     "data": "2026-11-10",
+     "status": "ameaça ou declaração",
+     "regiao": "América do Norte",
+     "paises": [
+      "EUA",
+      "Canadá"
+     ],
+     "mexe_em": [
+      "juros",
+      "bolsa"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "The National",
+       "url": "https://www.thenationalnews.com/business/economy/2026/11/10/federal-reserve-inflation-interest-rates-december/",
+       "data": "2026-11-10",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Kiplinger",
+       "url": "https://www.kiplinger.com/investing/stocks/stocks-drop-as-rate-hike-worries-rise-stock-market-today",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Ações da Nvidia e de chips caem de novo em meio a polêmica com o presidente da empresa",
+     "resumo": "A Nvidia caiu mais de 5% em Nova York em 10/11, depois de queda na sessão anterior. A CNBC liga a queda a um escândalo envolvendo o presidente da empresa, Jensen Huang. A bolsa de Toronto também viu a ação recuar.",
+     "data": "2026-11-10",
+     "status": "fato confirmado",
+     "regiao": "América do Norte",
+     "paises": [
+      "EUA",
+      "Canadá"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+       "data": "2026-11-10",
+       "confiavel": false
+      },
+      {
+       "veiculo": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+       "data": "2026-11-10",
+       "confiavel": true
+      },
+      {
+       "veiculo": "Baystreet (Yahoo Finance Canadá)",
+       "url": "https://ca.finance.yahoo.com/news/tsx-downward-first-hour-153800715.html",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": true
+    },
+    {
+     "titulo": "Wall Street sobe 2,35% em 9/11 com petróleo em queda e esperança de acordo no Oriente Médio",
+     "resumo": "O S&P 500 teve o melhor dia desde 8 de abril, segundo a CNBC. O petróleo recuou cerca de 5% e, segundo a Saxo, a esperança de paz no Oriente Médio trouxe de volta o apetite por risco.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "América do Norte",
+     "paises": [
+      "EUA",
+      "Canadá"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "energia",
+      "sobe e desce"
+     ],
+     "direcao": "alivia",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+       "data": "2026-11-10",
+       "confiavel": true
+      },
+      {
+       "veiculo": "Saxo Bank",
+       "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---wall-street-rebounds-and-brent-slides-below-usd-92---10-november-2026-10112026",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": true
+    },
+    {
+     "titulo": "Bolsa de Toronto cai 2% em 5/11 e sobe 1,8% em 9/11",
+     "resumo": "O S&P/TSX caiu 2% na quinta-feira, a maior queda em um dia em cinco meses, quando a tecnologia sofreu. Na segunda, subiu 657 pontos, a 36.446, o maior fechamento em mais de dois meses.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "América do Norte",
+     "paises": [
+      "Canadá"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce"
+     ],
+     "direcao": "incerto",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Investing.com Canadá",
+       "url": "https://ca.investing.com/news/stock-market-news/canadian-stock-futures-climb-on-techled-recovery-4942924",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "BNN Bloomberg",
+       "url": "https://www.bnnbloomberg.ca/markets/2026/11/09/sptsx-composite-up-more-than-500-points-us-stock-markets-also-head-higher/",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Dólar canadense fica estável, perto de 70,8 centavos de dólar americano",
+     "resumo": "A moeda canadense fechou em 9/11 a 70,81 centavos de dólar americano, contra 70,86 na sexta. Na abertura de 10/11 caiu para 70,59 centavos.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "América do Norte",
+     "paises": [
+      "Canadá"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "alivia",
+     "relevancia": 2,
+     "fontes": [
+      {
+       "veiculo": "BNN Bloomberg",
+       "url": "https://www.bnnbloomberg.ca/markets/2026/11/09/sptsx-composite-up-more-than-500-points-us-stock-markets-also-head-higher/",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Baystreet (Yahoo Finance Canadá)",
+       "url": "https://ca.finance.yahoo.com/news/tsx-downward-first-hour-153800715.html",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    }
+   ],
+   "observar": [
+    {
+     "data": "2026-12-09",
+     "evento": "Reunião do Fed (banco central dos EUA) sobre os juros",
+     "por_que_importa": "Operadores apostam em alta de 0,25 ponto. Um aumento de 0,50 seria o maior desde 2022 e pode mexer com bolsas e moedas.",
+     "url": "https://www.thenationalnews.com/business/economy/2026/11/10/federal-reserve-inflation-interest-rates-december/"
+    }
+   ],
+   "descartados": []
+  },
+  "América Latina": {
+   "resumo": "A América Latina está em 40, faixa de Atenção, abaixo dos 48 do mês anterior. O Brasil (65) e o Chile (75) seguem em Tensão, puxados pela moeda mais fraca e, no Brasil, pela bolsa 18,0% abaixo do topo. México e Paraguai caíram bastante. No México, a bolsa está no topo de 12 meses e a oscilação diária é baixa, mesmo com o peso mais fraco.",
+   "paises": {
+    "México": "O termômetro caiu de 44 para 33 (Atenção). A bolsa está no topo dos últimos 12 meses e oscila pouco, cerca de 0,3% por dia. O ponto fraco é o peso mexicano, que perdeu 9,5% contra o dólar em 3 meses, mais do que em 94% dos meses da história do país. Em 5/11, o Banco do México cortou os juros em 0,25 ponto, para 6,25%. O peso encerrou em 6/11 uma sequência de oito semanas de perdas, segundo o Milenio.",
+    "Brasil": "O termômetro subiu de 60 para 65 (Tensão). O Ibovespa está 18,0% abaixo do topo de 12 meses, pior que em 76% dos meses da história. O real perdeu 6,4% contra o dólar em 3 meses. A bolsa caiu 18,12% na semana da reeleição de Lula, segundo o Paranashop. O dólar fechou a R$ 5,5087 em 6/11, o maior valor desde 29/12/2025, com dados fortes de emprego nos EUA e cautela com as contas do governo. A oscilação diária (1,4%) está em nível comum.",
+    "Argentina": "O termômetro subiu de 36 para 39 (Atenção). Só o sinal da moeda entra no cálculo: o peso argentino perdeu 3,1% contra o dólar em 3 meses, nível comum para o país. As notícias da semana não mostram uma causa única para essa perda.",
+    "Chile": "O termômetro subiu de 67 para 75, o maior da região (Tensão). Só o sinal da moeda entra: o peso chileno perdeu 6,3% contra o dólar em 3 meses, mais do que em 75% dos meses da história. Os dados de câmbio da semana mostram o dólar entre cerca de 967 e 984 pesos chilenos, com forte oscilação. As notícias não mostram uma causa única para a queda.",
+    "Colômbia": "O termômetro caiu de 33 para 30 (Atenção). O peso colombiano perdeu 2,0% contra o dólar em 3 meses, perda pequena para o histórico do país. As notícias da semana não mostram um fato específico que explique esse nível.",
+    "Peru": "O termômetro subiu de 28 para 41 e entrou em Alerta, o único país a mudar de faixa para cima na região. O sol perdeu 1,3% contra o dólar em 3 meses, uma perda pequena, mas alta para o histórico peruano. As notícias da semana não mostram uma causa única para a mudança.",
+    "Paraguai": "O termômetro caiu de 84 para 11 e voltou à Calmaria. O guarani perdeu só 0,6% contra o dólar em 3 meses, uma variação pequena. Esse é o único sinal medido, e ele mostra uma moeda estável. As notícias da semana não mostram um fato que explique a queda forte em um mês.",
+    "Uruguai": "O termômetro caiu de 34 para 24 (Atenção). O peso uruguaio ganhou 1,3% contra o dólar em 3 meses, e isso alivia o sinal da moeda. As notícias da semana não mostram uma causa única para esse ganho."
+   },
+   "noticias": [
+    {
+     "titulo": "Dólar fecha a R$ 5,5087, maior valor desde 29/12/2025",
+     "resumo": "Em 6/11, o dólar subiu 1,18% na semana, após dados fortes de emprego nos EUA e com cautela sobre as contas do governo brasileiro.",
+     "data": "2026-11-06",
+     "status": "fato confirmado",
+     "regiao": "América Latina",
+     "paises": [
+      "Brasil"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "Paranashop",
+       "url": "https://www.paranashop.com.br/post/bolsa-da-semana-09-11-2026",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Diário do Sudoeste",
+       "url": "https://diariodosudoeste.com.br/ibovespa-sobe-139-e-tem-semana-de-alta-dolar-a-r-551/",
+       "data": "2026-11-06",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Ibovespa sobe 2,22% e fecha a 172.236 pontos; dólar fica em R$ 5,50",
+     "resumo": "Em 9/11, a bolsa brasileira avançou com alívio no exterior. O dólar recuou 0,06%, a R$ 5,5056, com as contas públicas ainda no radar.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "América Latina",
+     "paises": [
+      "Brasil"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "moeda"
+     ],
+     "direcao": "alivia",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Times Brasil",
+       "url": "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-dispara-22-e-fecha-na-maxima-apos-alivio-no-exterior-dolar-fica-estavel-a-r-550-com-fiscal-no-radar/",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "InfoMoney",
+       "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/",
+       "data": "2026-11-09",
+       "confiavel": true
+      }
+     ],
+     "fonte_de_primeira_linha": true
+    },
+    {
+     "titulo": "Banxico surpreende e corta juros em 0,25 ponto, para 6,25%",
+     "resumo": "O Banco do México reduziu a taxa de juros em 5/11. A presidente Claudia Sheinbaum apoiou a decisão.",
+     "data": "2026-11-05",
+     "status": "fato confirmado",
+     "regiao": "América Latina",
+     "paises": [
+      "México"
+     ],
+     "mexe_em": [
+      "juros",
+      "moeda"
+     ],
+     "direcao": "incerto",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Milenio",
+       "url": "https://www.milenio.com/negocios/cierre-del-dolar-cotizacion-peso-mexicano-hoy-6-noviembre-2026",
+       "data": "2026-11-06",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Peso mexicano sobe 0,42% em 9/11 com menos tensão no Oriente Médio",
+     "resumo": "O peso fechou a 18,52 por dólar, ajudado por sinais de menos tensão no Oriente Médio. Em 10/11, perdeu força após dados de inflação nos EUA.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "América Latina",
+     "paises": [
+      "México"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "alivia",
+     "relevancia": 3,
+     "fontes": [
+      {
+       "veiculo": "Milenio",
+       "url": "https://www.milenio.com/negocios/precio-del-dolar-hoy-9-noviembre-2026-a-cuanto-cotiza-en-vivo-atm",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Milenio",
+       "url": "https://www.milenio.com/negocios/precio-del-dolar-hoy-10-noviembre-2026-a-cuanto-cotiza-en-vivo-atm",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Peso mexicano fecha a 18,62 por dólar e encerra 8 semanas de perdas",
+     "resumo": "Em 6/11, o peso subiu 0,6% contra o dólar, segundo o Milenio. Outro veículo, La Razón, reportou queda do peso no mesmo dia, a 18,69 por dólar.",
+     "data": "2026-11-06",
+     "status": "fato confirmado",
+     "regiao": "América Latina",
+     "paises": [
+      "México"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "alivia",
+     "relevancia": 3,
+     "fontes": [
+      {
+       "veiculo": "Milenio",
+       "url": "https://www.milenio.com/negocios/cierre-del-dolar-cotizacion-peso-mexicano-hoy-6-noviembre-2026",
+       "data": "2026-11-06",
+       "confiavel": false
+      },
+      {
+       "veiculo": "La Razón (via Headtopics)",
+       "url": "https://mx.headtopics.com/news/el-peso-mexicano-se-depreci-el-6-de-noviembre-de-2026-tras-89613456",
+       "data": "2026-11-06",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    }
+   ],
+   "observar": [
+    {
+     "data": "2026-12-09",
+     "evento": "Decisão de juros do Federal Reserve, o banco central dos EUA",
+     "por_que_importa": "Juros mais altos nos EUA costumam fortalecer o dólar e podem pesar sobre as moedas da região, como o real e o peso mexicano. A data consta em análise de câmbio do J2T.",
+     "url": "https://j2t.com/es/solutions/blogview/pronostico-dolar-mexico/"
+    }
+   ],
+   "descartados": [
+    {
+     "onde": "Ibovespa cai 18,12% na semana da reeleição de Lula; dólar vai a R$ 5,44",
+     "motivo": "data fora da janela (2026-10-30)"
+    }
+   ]
+  },
+  "Europa": {
+   "resumo": "O termômetro da Europa está em 44 (Alerta), igual ao mês anterior. O euro perdeu 3,6% contra o dólar em 3 meses, e isso pesa em seis países. As bolsas oscilam bastante, mas o índice europeu está perto do recorde, ajudado pela queda do petróleo nesta semana. Juros mais altos no Reino Unido e o sinal de novas altas na zona do euro seguem como ponto de atenção.",
+   "paises": {
+    "Alemanha": "O termômetro subiu de 40 para 52. A bolsa não pesa: o DAX está só 0,8% abaixo do topo de 12 meses. O que pesa são as oscilações diárias (cerca de 1,4% por dia, mais tensas que em 75% dos meses) e o euro mais fraco (63). Em 5/11, as ações de chips caíram e a Rheinmetall cortou a previsão do ano; em 9/11 a bolsa se recuperou. As notícias não mostram uma causa única para a alta de 12 pontos no mês.",
+    "França": "O termômetro foi de 44 para 49. É o país em que a bolsa mais pesa: o CAC 40 está 5,1% abaixo do topo de 12 meses. O euro mais fraco (63) também pesa. Em 22/10, a diferença de juros que a França paga para se endividar chegou ao maior nível desde 2011, o que alimenta a desconfiança sobre as contas do país. As fontes ligam esse movimento ao euro, mas não à queda da bolsa.",
+    "Reino Unido": "O termômetro saltou de 26 para 41. O principal peso é a oscilação diária da bolsa (cerca de 1,1% por dia, mais tensa que em 76% dos meses). Em 5/11, o Banco da Inglaterra subiu os juros de 3,75% para 4%, por causa da energia cara e da inflação de 3,5%. A libra esterlina perdeu só 1,0% contra o dólar, e o FTSE 100 está 1,5% abaixo do topo, então esses dois sinais estão calmos.",
+    "Itália": "É o termômetro mais alto da região: 56, contra 50 no mês anterior. Pesam as oscilações (cerca de 1,4% por dia, mais tensas que em 69% dos meses) e o euro mais fraco (63). A bolsa, 3,7% abaixo do topo, pesa menos. Em 9/11, o FTSE MIB subiu 2,69%, ajudado por uma proposta de fusão entre bancos e pelos bons resultados do UniCredit. Dias de alta forte também elevam o sinal de oscilação.",
+    "Espanha": "O termômetro está em 52, um pouco acima dos 50 do mês anterior. Pesam as oscilações (cerca de 1,4% por dia, mais tensas que em 70% dos meses) e o euro mais fraco (63). A bolsa pesa pouco: o IBEX 35 está 1,4% abaixo do topo. Em 10/11, o IBEX liderou a alta europeia, com 1,3%. As notícias não mostram uma causa só da Espanha: o nível reflete fatores comuns à zona do euro.",
+    "Portugal": "O termômetro está em 42, quase igual aos 41 do mês anterior. O euro mais fraco (63) é o sinal mais pesado. A bolsa pesa pouco: o PSI está 1,7% abaixo do topo. As oscilações são menores que nos vizinhos (cerca de 0,8% por dia). As notícias não mostram uma causa só de Portugal: o nível vem sobretudo do euro.",
+    "Suíça": "O termômetro está em 35 (Atenção), contra 30 no mês anterior. A bolsa está calma: o SMI está no topo de 12 meses (0,0% abaixo). O que sustenta o nível é a oscilação diária, de cerca de 1,0% por dia. O franco suíço perdeu 1,5% contra o dólar em 3 meses, um sinal moderado. Em 5/11, Zurique foi uma das bolsas que puxaram a queda europeia, mas as notícias não mostram uma causa única para a alta de 5 pontos.",
+    "Rússia": "O termômetro caiu de 71 para 28 (Atenção). Nos dados do país, só o sinal da moeda está ativo: o rublo ganhou 1,6% contra o dólar em 3 meses, e isso fica em um nível calmo (28). As notícias não mostram uma causa única para a queda de 43 pontos em um mês. Por isso, a descida não deve ser lida como fim de risco no país."
+   },
+   "noticias": [
+    {
+     "titulo": "Banco da Inglaterra sobe juros para 4%, a primeira alta desde 2023",
+     "resumo": "Em 5/11, o comitê votou 8 a 1 por alta de 0,25 ponto, de 3,75% para 4%. O banco citou a energia cara, ligada ao conflito no Oriente Médio, e prevê inflação perto de 5% em meados de 2027.",
+     "data": "2026-11-05",
+     "status": "fato confirmado",
+     "regiao": "Europa",
+     "paises": [
+      "Reino Unido"
+     ],
+     "mexe_em": [
+      "juros",
+      "moeda"
+     ],
+     "direcao": "incerto",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "Banco da Inglaterra",
+       "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
+       "data": "2026-11-05",
+       "confiavel": true
+      },
+      {
+       "veiculo": "Forexuro",
+       "url": "https://forexuro.com/articles/boe-rate-decision-november-2026-result",
+       "data": "2026-11-05",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": true
+    },
+    {
+     "titulo": "Petróleo cai a US$ 89 e bolsa europeia chega perto do recorde",
+     "resumo": "Em 10/11, o petróleo de referência caiu 3%, para US$ 89,31, o menor nível desde o início de setembro, com a expectativa de conversas entre EUA e Irã. O índice Stoxx 600 subiu 0,3% e ficou a dois pontos da máxima de agosto.",
+     "data": "2026-11-10",
+     "status": "fato confirmado",
+     "regiao": "Europa",
+     "paises": [
+      "Alemanha",
+      "França",
+      "Itália",
+      "Espanha",
+      "Portugal",
+      "Reino Unido"
+     ],
+     "mexe_em": [
+      "energia",
+      "bolsa"
+     ],
+     "direcao": "alivia",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "Reuters (via Irish Times)",
+       "url": "https://www.irishtimes.com/business/2026/11/10/european-shares-near-record-high-as-lower-oil-prices-boost-sentiment/",
+       "data": "2026-11-10",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Investing.com",
+       "url": "https://au.investing.com/news/stock-market-news/european-shares-inch-toward-record-highs-as-sinking-oil-eases-inflation-anxiety-4757402",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Economista-chefe do BCE diz que seria prudente subir juros de novo em dezembro",
+     "resumo": "Em 10/11, Philip Lane, do Banco Central Europeu, afirmou que uma nova alta de juros em dezembro seria prudente. É uma declaração, não uma decisão. O BCE já tinha feito duas altas, segundo o Euronews em 15/10.",
+     "data": "2026-11-10",
+     "status": "ameaça ou declaração",
+     "regiao": "Europa",
+     "paises": [
+      "Alemanha",
+      "França",
+      "Itália",
+      "Espanha",
+      "Portugal"
+     ],
+     "mexe_em": [
+      "juros",
+      "moeda"
+     ],
+     "direcao": "incerto",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Reuters (via Irish Times)",
+       "url": "https://www.irishtimes.com/business/2026/11/10/european-shares-near-record-high-as-lower-oil-prices-boost-sentiment/",
+       "data": "2026-11-10",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Euronews",
+       "url": "https://www.euronews.com/2026/10/15/euro-slides-to-fresh-lows-against-us-dollar-and-british-pound-despite-ecb-rate-hikes",
+       "data": "2026-10-15",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Bolsas europeias caem em 5/11 após forte queda das ações de tecnologia nos EUA",
+     "resumo": "O Stoxx 600 fechou 0,5% menor, com perdas em Londres, Frankfurt, Zurique e Milão. A queda veio depois da vitória democrata nas eleições de meio de mandato dos EUA. A Rheinmetall, da Alemanha, cortou a previsão do ano.",
+     "data": "2026-11-05",
+     "status": "fato confirmado",
+     "regiao": "Europa",
+     "paises": [
+      "Alemanha",
+      "Reino Unido",
+      "Suíça",
+      "Itália"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Sharecast",
+       "url": "https://www.sharecast.com/amp/news/market-report-europe-close/europe-close-stocks-fall-as-markets-reassess-mid-term-elections--24050670.html",
+       "data": "2026-11-05",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Bolsas sobem em 9/11 com bancos e defesa; FTSE MIB da Itália avança 2,69%",
+     "resumo": "O Stoxx 600 subiu 1,26% e recuperou as perdas de dois dias. O setor bancário avançou depois que o Crédit Agricole propôs fundir sua unidade italiana com o Banco BPM, que subiu 10,7%.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "Europa",
+     "paises": [
+      "Itália",
+      "França",
+      "Alemanha",
+      "Espanha"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce"
+     ],
+     "direcao": "alivia",
+     "relevancia": 3,
+     "fontes": [
+      {
+       "veiculo": "Irish Times",
+       "url": "https://www.irishtimes.com/business/2026/11/09/european-shares-climb-as-banks-and-defence-stocks-lead-rally/",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "BigGo Finance",
+       "url": "https://finance.biggo.com/news/b2f86c7b-ebfe-4607-9773-74a4ac84a0e7",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    }
+   ],
+   "observar": [
+    {
+     "data": "2026-11-10",
+     "evento": "Conversas entre EUA e Irã e preço do petróleo",
+     "por_que_importa": "A queda do petróleo para US$ 89 ajudou as bolsas nesta semana. Se a expectativa de diálogo mudar, o preço da energia também pode mudar.",
+     "url": ""
+    },
+    {
+     "data": "2026-12-01",
+     "evento": "Reunião do Banco Central Europeu em dezembro (dia exato a confirmar)",
+     "por_que_importa": "O economista-chefe do banco disse que uma nova alta de juros seria prudente. A decisão afeta os seis países que usam o euro.",
+     "url": "https://www.irishtimes.com/business/2026/11/10/european-shares-near-record-high-as-lower-oil-prices-boost-sentiment/"
+    },
+    {
+     "data": "2026-12-17",
+     "evento": "Decisão de juros do Banco da Inglaterra",
+     "por_que_importa": "É a última reunião do ano. Mostra se o banco continua a subir os juros para conter a inflação ligada à energia.",
+     "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+    }
+   ],
+   "descartados": [
+    {
+     "onde": "Euro fica no menor nível em 17 meses diante de dúvidas sobre as contas da França",
+     "motivo": "data fora da janela (2026-10-22)"
+    }
+   ]
+  },
+  "Oriente Médio": {
+   "resumo": "O Oriente Médio está em 75, na faixa de Tensão, contra 71 no mês anterior. Israel (de 59 para 85) puxou a alta, com a bolsa e o shekel muito instáveis nesta semana. O Egito segue em Crise (91), por causa da libra egípcia. Turquia (65) e Arábia Saudita (58) ficaram menos tensas que no mês passado.",
+   "paises": {
+    "Turquia": "O termômetro está em 65 (Tensão), abaixo dos 69 do mês passado. A lira turca chegou perto de 50 por dólar e bateu nova mínima histórica, mas caiu devagar: perdeu 4,6% em 3 meses, e a oscilação da moeda é mediana. A bolsa (BIST 100) está 22,6% abaixo do topo de 12 meses, e as notícias não mostram uma causa única para essa queda; um economista citado pela imprensa russa fala em falta de dinheiro nas empresas.",
+    "Israel": "O termômetro subiu de 59 para 85 (Crise). A bolsa de Tel Aviv teve quatro dias seguidos de altas e baixas fortes, com queda de 3,38% em 5/11. A oscilação diária de cerca de 2,3% é maior que em 95% dos meses da história do país. O shekel, a moeda de Israel, perdeu 5,8% em 3 meses, e analistas ligaram a queda recente à incerteza política após a eleição sem resultado claro, às tensões na região, aos juros e às bolsas globais.",
+    "Egito": "O termômetro está em 91 (Crise), com 89 no mês anterior. Ele depende só da moeda: a libra egípcia perdeu 8,6% contra o dólar em 3 meses, mais do que em 91% dos meses da história do país. As notícias não mostram uma causa única para essa queda. Em novembro a libra se recuperou um pouco, de cerca de 55,8 para cerca de 53,9 por dólar.",
+    "Arábia Saudita": "O termômetro caiu de 67 para 58 (Alerta). A bolsa (MSCI Arábia Saudita) está 12,4% abaixo do topo de 12 meses, e as oscilações de cerca de 0,9% por dia são moderadas. As notícias não mostram uma causa única nem para o recuo do termômetro, nem para a distância do topo. O petróleo, principal produto do país, caiu cerca de 9% em 4/11, e esse pode ser um canal de influência, mas não há fonte ligando a queda à bolsa saudita."
+   },
+   "noticias": [
+    {
+     "titulo": "Bolsa de Tel Aviv cai 3,38% em 5/11 e sobe 2,81% no dia seguinte",
+     "resumo": "O índice TA-125 caiu 1,86% em 4/11 e 3,38% em 5/11. Subiu 2,81% em 6/11 e 1,97% em 9/11, segundo a bolsa de Tel Aviv.",
+     "data": "2026-11-05",
+     "status": "fato confirmado",
+     "regiao": "Oriente Médio",
+     "paises": [
+      "Israel"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "Bolsa de Tel Aviv (TASE)",
+       "url": "https://market.tase.co.il/en/market_data/index/137/major_data",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Shekel perde força, e o dólar chega ao nível mais alto frente à moeda israelense desde janeiro",
+     "resumo": "Em 4/11, o dólar chegou por pouco ao maior valor em shekels desde janeiro. Analistas citaram incerteza política após eleição sem resultado claro, tensões na região, diferença de juros e queda nas bolsas globais.",
+     "data": "2026-11-04",
+     "status": "fato confirmado",
+     "regiao": "Oriente Médio",
+     "paises": [
+      "Israel"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Ynetnews",
+       "url": "https://www.ynetnews.com/business/article/r10ydkk6ze",
+       "data": "2026-11-04",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Petróleo Brent cai cerca de 9% e vai a US$ 94 após eleição nos EUA",
+     "resumo": "O Brent caiu para US$ 94 o barril depois da eleição legislativa americana e de falas do vice-presidente JD Vance, que ligou a derrota republicana à guerra com o Irã. O efeito pode ser diferente para países que importam e que exportam petróleo.",
+     "data": "2026-11-04",
+     "status": "fato confirmado",
+     "regiao": "Oriente Médio",
+     "paises": [
+      "Israel",
+      "Turquia",
+      "Arábia Saudita"
+     ],
+     "mexe_em": [
+      "energia"
+     ],
+     "direcao": "incerto",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Ynetnews",
+       "url": "https://www.ynetnews.com/business/article/r10ydkk6ze",
+       "data": "2026-11-04",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Lira turca bate nova mínima e chega perto de 50 por dólar",
+     "resumo": "A lira passou de 50 por dólar em 3/11, segundo a Trading Economics, e a imprensa turca registrou a mínima histórica em 4/11. As autoridades mantêm queda controlada e vendem dólares no mercado para evitar uma queda mais brusca.",
+     "data": "2026-11-03",
+     "status": "fato confirmado",
+     "regiao": "Oriente Médio",
+     "paises": [
+      "Turquia"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Trading Economics",
+       "url": "https://tradingeconomics.com/turkey/currency",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Izvestia (cita o jornal Ekonomim)",
+       "url": "https://en.iz.ru/en/2196130/2026-11-04/turkish-lira-has-reached-new-historical-low-against-dollar",
+       "data": "2026-11-04",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Libra egípcia se recupera em novembro, de cerca de 55,8 para 53,9 por dólar",
+     "resumo": "Entre 1/11 e 9/11, o dólar passou de cerca de 55,78 para 53,88 libras egípcias. Mesmo assim, a libra segue 8,6% mais fraca que há 3 meses.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "Oriente Médio",
+     "paises": [
+      "Egito"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "alivia",
+     "relevancia": 3,
+     "fontes": [
+      {
+       "veiculo": "Investing.com",
+       "url": "https://www.investing.com/currencies/usd-egp-historical-data",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    }
+   ],
+   "observar": [
+    {
+     "data": "2026-11-10",
+     "evento": "Novo Parlamento de Israel (26º Knesset) começa os trabalhos",
+     "por_que_importa": "A bolsa de Tel Aviv subiu 1,24% no dia. A incerteza política após a eleição é um dos fatores citados para a fraqueza do shekel.",
+     "url": "https://businessupturn.com/asia/middle-east-asia/israel/israels-ta-125-rises-1-24-as-new-knesset-convenes/"
+    },
+    {
+     "data": "2026-11-12",
+     "evento": "Relatório de inflação do Banco Central da Turquia",
+     "por_que_importa": "Mostra como o banco vê os preços, o que pesa nas decisões de juros e na lira turca.",
+     "url": "https://tradingeconomics.com/turkey/interest-rate"
+    },
+    {
+     "data": "2026-12-10",
+     "evento": "Decisão de juros do Banco Central da Turquia",
+     "por_que_importa": "É a primeira reunião depois do corte para 36% e pode mexer com a lira.",
+     "url": "https://tradingeconomics.com/turkey/interest-rate"
+    }
+   ],
+   "descartados": [
+    {
+     "onde": "Banco Central da Turquia corta os juros de 37% para 36%",
+     "motivo": "data fora da janela (2026-10-22)"
+    }
+   ]
+  },
+  "África": {
+   "resumo": "A África está em 48 (Alerta), abaixo dos 55 do mês anterior. A queda vem da Nigéria, que saiu de 67 para 28 com o naira quase parado. A África do Sul subiu para 72 (Tensão) e Marrocos segue em 82 (Crise), os dois pontos mais tensos da região. O Quênia está calmo, em 9.",
+   "paises": {
+    "África do Sul": "O termômetro foi de 57 para 72 (Tensão). O maior peso é o sobe e desce: a bolsa oscila cerca de 1,7% por dia, mais do que em 96% dos meses da história do país. Essa medida conta altas e quedas. Na quinta-feira (5/11), a bolsa de Joanesburgo teve a maior alta em quase sete meses, e em 9/11 o índice geral subiu 2,04%. A bolsa segue 10,7% abaixo do topo de 12 meses (mais tenso que em 88% dos meses).",
+    "Nigéria": "O termômetro caiu de 67 para 28 (Atenção) porque o naira, a moeda da Nigéria, quase não se mexeu: ganhou 0,6% em 3 meses. No câmbio oficial, o dólar ficou perto de 1.350 nairas na semana até 6/11, com queda de 0,1% no valor do naira. O Banco Central da Nigéria vendeu US$ 50 milhões no mercado. Há sinais de cuidado: as reservas em dólar recuaram um pouco, para cerca de US$ 55,1 bilhões, e o dólar no mercado paralelo está mais caro que no oficial.",
+    "Quênia": "O termômetro está em 9 (Calmaria), contra 14 no mês anterior. O único sinal medido é o xelim queniano, que ganhou 0,1% contra o dólar em 3 meses, uma das variações mais calmas da história do país. Nesta semana, as notícias não trazem um fato com fonte que explique essa calma. O que se vê nos dados é uma moeda praticamente parada.",
+    "Marrocos": "O termômetro está em 82 (Crise), contra 83 no mês anterior. O dirham, a moeda de Marrocos, perdeu 4,7% contra o dólar em 3 meses, uma variação maior que em 82% dos meses da história do país. As notícias da semana não mostram uma causa única. O Banco Al-Maghrib, o banco central, fixa o preço do dirham dentro de uma faixa diária contra o dólar e usa uma cesta de moedas. Por isso, as variações do dólar frente às outras moedas podem mexer no dirham."
+   },
+   "noticias": [
+    {
+     "titulo": "Bolsa de Joanesburgo tem a maior alta em quase 7 meses após eleições locais",
+     "resumo": "Na quinta-feira (5/11), a bolsa subiu depois de um feriado de eleições locais. O petróleo Brent caiu de cerca de US$ 118 para US$ 96,71, e o rand subiu cerca de 0,5%, para R$ 16,34 por dólar (em rands).",
+     "data": "2026-11-05",
+     "status": "fato confirmado",
+     "regiao": "África",
+     "paises": [
+      "África do Sul"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce",
+      "moeda",
+      "energia"
+     ],
+     "direcao": "alivia",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "African Insider",
+       "url": "https://www.africaninsider.com/business/election-results-fuel-surge-on-south-africas-jse/",
+       "data": "2026-11-06",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Naira perde 0,1% na semana mesmo com US$ 50 milhões do Banco Central; volume cai 51%",
+     "resumo": "Na semana até 6/11, o naira fechou a 1.349 por dólar no câmbio oficial. O volume de dólares negociados caiu 51,29%, para US$ 1,81 bilhão, e o Banco Central da Nigéria vendeu US$ 50 milhões.",
+     "data": "2026-11-06",
+     "status": "fato confirmado",
+     "regiao": "África",
+     "paises": [
+      "Nigéria"
+     ],
+     "mexe_em": [
+      "moeda"
+     ],
+     "direcao": "incerto",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Nairametrics",
+       "url": "https://nairametrics.com/2026/11/09/nigerias-dollar-trading-plunges-to-1-81-billion-as-turnover-declines-51/",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Índice geral da bolsa sul-africana sobe 2,04% em 9/11",
+     "resumo": "O índice All Share, o principal da bolsa de Joanesburgo, fechou em alta de 2,04% na segunda-feira. O Top 40, que reúne as 40 maiores empresas, subiu 2,27%. Altas fortes também contam como oscilação no termômetro.",
+     "data": "2026-11-09",
+     "status": "fato confirmado",
+     "regiao": "África",
+     "paises": [
+      "África do Sul"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce"
+     ],
+     "direcao": "incerto",
+     "relevancia": 3,
+     "fontes": [
+      {
+       "veiculo": "Bolsa de Joanesburgo (JSE)",
+       "url": "https://www.jse.co.za/",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Petróleo nigeriano cai 10,45% em uma semana e reservas em dólar recuam um pouco",
+     "resumo": "O Bonny Light, petróleo da Nigéria, foi de US$ 119,37 para US$ 106,90 o barril. As reservas externas caíram 0,16%, para US$ 55,13 bilhões. No mercado paralelo, o naira perdeu 1,79% na semana.",
+     "data": "2026-11-06",
+     "status": "fato confirmado",
+     "regiao": "África",
+     "paises": [
+      "Nigéria"
+     ],
+     "mexe_em": [
+      "energia",
+      "moeda"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 3,
+     "fontes": [
+      {
+       "veiculo": "The Guardian Nigeria",
+       "url": "https://guardian.ng/business-services/naira-weakens-by-1-79-to-n1394-as-forex-demand-rises/",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    }
+   ],
+   "observar": [],
+   "descartados": []
+  },
+  "Ásia e Pacífico": {
+   "resumo": "A região está em Tensão (63, contra 58 no mês anterior) por causa da forte queda das ações de tecnologia. Ela começou depois da vitória dos democratas nas eleições legislativas dos EUA, em 3/11. Taiwan, Coreia do Sul e Japão sentiram mais. Em 9 e 10/11 as bolsas reagiram, com a queda do petróleo, mas os índices ainda estão bem abaixo dos topos de 12 meses.",
+   "paises": {
+    "Japão": "Está em 62 (Tensão), abaixo dos 69 do mês anterior. O ponto mais pesado é o sobe e desce: cerca de 3,1% por dia, mais que em 98% dos meses. O Nikkei 225 caiu 6% em 6/11 e subiu 2,6% em 10/11, para 60.279 pontos. Segue 18,8% abaixo do topo. A moeda é calma: o iene ganhou 0,5% em 3 meses, mais calmo que em 92% dos meses. A SoftBank, que investe na OpenAI, tocou a mínima de um ano em 9/11 e subiu 15% em 10/11.",
+    "China": "Está em 57 (Alerta), acima dos 51 do mês anterior. O Xangai Composto está 13,7% abaixo do topo. O sobe e desce (cerca de 1,2% por dia) e o yuan (alta de 1,0% em 3 meses) estão perto do normal. As notícias não mostram uma causa única para a alta. Fatos do período: as exportações de outubro subiram 35,2%, e reguladores chineses rejeitaram a compra da divisão de robótica da ABB pela SoftBank.",
+    "Hong Kong": "Está em 69 (Tensão), acima dos 62 do mês anterior. O Hang Seng está 12,6% abaixo do topo e oscila cerca de 1,7% por dia, mais que em 78% dos meses. As notícias não mostram uma causa local única. O período foi de forte venda de ações de tecnologia na Ásia, mas as fontes não detalham o movimento de Hong Kong.",
+    "Índia": "Está em 42 (Alerta), abaixo dos 52 do mês anterior. O Nifty 50 está 4,9% abaixo do topo, queda moderada. A bolsa oscila cerca de 0,9% por dia, e a rupia ganhou 0,9% em 3 meses. As notícias não mostram uma causa única para a queda do termômetro. A Índia ficou fora do centro da venda de tecnologia que atingiu Taiwan, Coreia do Sul e Japão.",
+    "Coreia do Sul": "Está em 88 (Crise), abaixo dos 95 do mês anterior, mas ainda muito alto. O Kospi está 44,9% abaixo do topo e oscila cerca de 3,4% por dia, mais que em 95% dos meses. Chips da Samsung e da SK Hynix pesam muito no índice. O Kospi caiu cerca de 6% em 6/11 e subiu 4,39% em 10/11, para 5.239 pontos, com compras de estrangeiros. O won ganhou 4,2% em 3 meses e fechou perto de 1.337 por dólar em 10/11.",
+    "Austrália": "Subiu de 31 para 52 (Alerta). A bolsa quase não pesa: o ASX 200 está só 1,5% abaixo do topo e subiu 1,1% em 10/11, para 9.131 pontos. A alta vem do sobe e desce (cerca de 1,2% por dia, mais que em 87% dos meses). O dólar australiano perdeu 2,1% em 3 meses. As notícias não mostram uma causa única para a alta do termômetro.",
+    "Indonésia": "Está em 65 (Tensão), pouco abaixo dos 66 do mês anterior. A bolsa pesa mais: o Jakarta Composite está 44,5% abaixo do topo, mais que em 96% dos meses, e oscila cerca de 2,0% por dia. A moeda está calma: a rupia indonésia ganhou 0,4% em 3 meses. As notícias não mostram uma causa única para a queda da bolsa indonésia.",
+    "Taiwan": "Saltou de 44 para 81 (Crise), a maior alta da região. A bolsa oscila cerca de 3,4% por dia, mais que em 99% dos meses. O Taiex caiu 4,5% em 6/11 e fechou na menor marca desde abril. A TSMC vale mais de 40% do índice, que segue as ações de tecnologia dos EUA. O dólar taiwanês perdeu 2,5% em 3 meses e bateu mínima de mais de 18 meses em 4/11. O Taiex subiu 5,6% em 9/11 e 3,4% em 10/11.",
+    "Singapura": "Está em 50 (Alerta), quase igual aos 49 do mês anterior. O Straits Times está 10,7% abaixo do topo e oscila cerca de 1,1% por dia. A moeda está calma: o dólar de Singapura perdeu 0,3% em 3 meses. As notícias não mostram causa específica para Singapura. O nível reflete o clima geral de queda nas bolsas da região."
+   },
+   "noticias": [
+    {
+     "titulo": "Taiex cai 4,5% e fecha na menor marca desde abril; Nikkei perde 6%",
+     "resumo": "Em 6/11, as ações de IA caíram e o Taiex fechou em 39.702 pontos, com perda de 12,2% na semana. O Nikkei 225 caiu 6%. Alta do petróleo e risco de conflito EUA–Irã também pesaram.",
+     "data": "2026-11-06",
+     "status": "fato confirmado",
+     "regiao": "Ásia e Pacífico",
+     "paises": [
+      "Taiwan",
+      "Japão"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce",
+      "energia"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "Trading Economics",
+       "url": "https://tradingeconomics.com/taiwan/stock-market/news/598961",
+       "data": "2026-11-06",
+       "confiavel": false
+      },
+      {
+       "veiculo": "NBC News",
+       "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
+       "data": "2026-11-06",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Vitória democrata nos EUA gera temor sobre data centers de IA e derruba chips",
+     "resumo": "Após a vitória dos democratas em 3/11, investidores passaram a temer regras de IA e atrasos em data centers. Chips de Taiwan e da Coreia do Sul caíram.",
+     "data": "2026-11-03",
+     "status": "fato confirmado",
+     "regiao": "Ásia e Pacífico",
+     "paises": [
+      "Taiwan",
+      "Coreia do Sul",
+      "Japão"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 5,
+     "fontes": [
+      {
+       "veiculo": "Korea Times",
+       "url": "https://www.koreatimes.co.kr/economy/20261109/kospi-barely-holds-5000-fails-to-regain-momentum",
+       "data": "2026-11-09",
+       "confiavel": false
+      },
+      {
+       "veiculo": "Focus Taiwan (CNA)",
+       "url": "https://focustaiwan.tw/business/202611050014",
+       "data": "2026-11-05",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Bolsas da Ásia reagem com a queda do petróleo: Kospi sobe 4,4% e Nikkei 2,6%",
+     "resumo": "Em 10/11, o Kospi fechou em 5.239 pontos, com estrangeiros comprando. O Nikkei subiu 2,6%, o Taiex 3,4% e o ASX 200 1,1%. Houve queda do petróleo e alta da tecnologia nos EUA.",
+     "data": "2026-11-10",
+     "status": "fato confirmado",
+     "regiao": "Ásia e Pacífico",
+     "paises": [
+      "Japão",
+      "Coreia do Sul",
+      "Taiwan",
+      "Austrália"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "sobe e desce",
+      "energia"
+     ],
+     "direcao": "alivia",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Associated Press",
+       "url": "https://www.actionnewsjax.com/news/business/asian-stocks-rise/O3AZTZLC7E47FHN7WU2S34EXKI/",
+       "data": "2026-11-10",
+       "confiavel": false
+      },
+      {
+       "veiculo": "DigitalToday",
+       "url": "https://www.digitaltoday.co.kr/en/view/123699/kospi-surges-4-39-percent-reclaims-5200-on-foreign-institutional-buying",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Dólar taiwanês chega à mínima de mais de 18 meses com saída de capital",
+     "resumo": "Em 4/11, a moeda de Taiwan caiu a menor nível em mais de 18 meses contra o dólar, com estrangeiros saindo do mercado. O Taiex fechou em queda de 3,59%.",
+     "data": "2026-11-04",
+     "status": "fato confirmado",
+     "regiao": "Ásia e Pacífico",
+     "paises": [
+      "Taiwan"
+     ],
+     "mexe_em": [
+      "moeda",
+      "bolsa"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 4,
+     "fontes": [
+      {
+       "veiculo": "Taipei Times",
+       "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/06/2003867229",
+       "data": "2026-11-06",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "Exportações da China sobem 35,2% em outubro e superávit passa de US$ 1 trilhão",
+     "resumo": "Dados da alfândega mostram que as importações cresceram 41,6%. O superávit comercial de 2026 já passou de US$ 1 trilhão, novo recorde para o ano.",
+     "data": "2026-11-10",
+     "status": "fato confirmado",
+     "regiao": "Ásia e Pacífico",
+     "paises": [
+      "China"
+     ],
+     "mexe_em": [
+      "comércio"
+     ],
+     "direcao": "incerto",
+     "relevancia": 3,
+     "fontes": [
+      {
+       "veiculo": "Associated Press",
+       "url": "https://www.actionnewsjax.com/news/business/asian-stocks-rise/O3AZTZLC7E47FHN7WU2S34EXKI/",
+       "data": "2026-11-10",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    },
+    {
+     "titulo": "China rejeita compra da divisão de robótica da ABB pela SoftBank",
+     "resumo": "Reguladores chineses rejeitaram o negócio de US$ 5,4 bilhões. A SoftBank tenta salvar o acordo. As ações da empresa caíram 2,9% em Tóquio em 9/11.",
+     "data": "2026-11-09",
+     "status": "operação em curso",
+     "regiao": "Ásia e Pacífico",
+     "paises": [
+      "Japão",
+      "China"
+     ],
+     "mexe_em": [
+      "bolsa",
+      "comércio"
+     ],
+     "direcao": "pressiona",
+     "relevancia": 2,
+     "fontes": [
+      {
+       "veiculo": "Associated Press",
+       "url": "https://www.abc27.com/news/us-world/business/ap-asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/amp/",
+       "data": "2026-11-09",
+       "confiavel": false
+      }
+     ],
+     "fonte_de_primeira_linha": false
+    }
+   ],
+   "observar": [
+    {
+     "data": "2026-11-08",
+     "evento": "Investigação independente do conselho da Nvidia sobre o presidente-executivo",
+     "por_que_importa": "A empresa é peça central da cadeia de chips ligada a Taiwan e à Coreia do Sul. As ações de chips subiram na Ásia em 9/11 mesmo com a investigação.",
+     "url": ""
+    },
+    {
+     "data": "2026-11-10",
+     "evento": "Balanço da SoftBank Group",
+     "por_que_importa": "A empresa investe na OpenAI. Suas ações subiram 15% em 10/11, antes do balanço.",
+     "url": ""
+    }
+   ],
+   "descartados": []
+  }
+ },
+ "modo": "claude (claude-sonnet-5-5)"
+}

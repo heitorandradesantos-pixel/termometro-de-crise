@@ -1,0 +1,62 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [],
+ "noticias": 31,
+ "descartes": [
+  {
+   "onde": "Ibovespa cai 18,12% na semana da reeleição de Lula; dólar vai a R$ 5,44",
+   "motivo": "data fora da janela (2026-10-30)"
+  },
+  {
+   "onde": "Euro fica no menor nível em 17 meses diante de dúvidas sobre as contas da França",
+   "motivo": "data fora da janela (2026-10-22)"
+  },
+  {
+   "onde": "Banco Central da Turquia corta os juros de 37% para 36%",
+   "motivo": "data fora da janela (2026-10-22)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 199.2,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 3.3,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 2.3,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 8.6,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 325.2,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+## Panorama de 10/11/2026
+
+✅ Conferido. 31 notícias com fonte, 3 descartadas na conferência.
+
+### Texto para o WhatsApp
+
+```
+*TERMÔMETRO DE CRISE · Panorama de ter, 10/11*
+_Fechamento de 10/11 · de 0 (calmo) a 100 (mais tenso da história)_
+
+🌍 Mundo em *56, Alerta* (estável desde 09/11). Mais tenso: Oriente Médio (75).
+📍 América Latina mudou de faixa: de Alerta para Atenção.
+
+*Regiões*
+🟠 Oriente Médio: 75 · Tensão (▼2)
+🟠 América do Norte: 64 · Tensão (▲3)
+🟠 Ásia e Pacífico: 63 · Tensão (estável)
+🟡 África: 48 · Alerta (▼1)
+🟡 Europa: 44 · Alerta (▼3)
+🟦 América Latina: 40 · Atenção (▼1)
+
+🇧🇷 *Brasil: 65 · Tensão* (estável desde 09/11)
+Bolsa 76 · Sobe e desce 47 · Dólar 71
+🏦 Banco Central: Selic 13,75% · Dólar PTAX R$ 5,5840 · Focus (06/11): inflação de 2027 em 4,90%, Selic no fim de 2027 em 12,50%
+
+*O que mexeu com o termômetro*
+• Inflação de outubro nos EUA vem acima do esperado e bolsa volta a cair (América do Norte)
+• Banco da Inglaterra sobe juros para 4%, a primeira alta desde 2023 (Europa)
+• Fed discute alta de juros em dezembro; diretor admite aumento maior (América do Norte)
+
+_Conteúdo educativo, com fonte em cada fato. Não é recomendação de investimento._
+```
+
+Toque em **Merge** para publicar no site.
