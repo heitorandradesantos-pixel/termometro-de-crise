@@ -46,6 +46,13 @@ jobs:
         id: guarda
         run: |
           HOJE=$(TZ=America/Sao_Paulo date +%F)
+          HORA=$(TZ=America/Sao_Paulo date +%-H)
+          # o agendamento do GitHub às vezes atrasa horas: fechamento fora das 17h-22h59 de Brasília não sai
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$HORA" -lt 17 ] || [ "$HORA" -gt 22 ]; }; then
+            echo "Agendamento atrasado ($HORA h em Brasília): fora do horário do fechamento, não faz nada."
+            echo "pular=sim" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           if [ "${{ inputs.forcar }}" != "sim" ] && { [ -f "diario/$HOJE/panorama.txt" ] || \
              git ls-remote --exit-code origin "panorama-$HOJE" >/dev/null 2>&1; }; then
             echo "O panorama de $HOJE já saiu ou espera aprovação: este horário de reserva não faz nada."
