@@ -1,0 +1,184 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "IPO pode prender seu dinheiro e entregar menos ações do que você pediu.",
+  "na_tela": "Seu dinheiro preso no IPO",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois / número",
+   "texto": "76% das empresas que estrearam na bolsa em 2021 estavam no vermelho.",
+   "na_tela": "76% no vermelho em 2021",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Em 11 de maio, a Compass estreou na B3, primeiro IPO em quase cinco anos.",
+   "na_tela": "Compass: primeiro IPO em anos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "IPO pode prender seu dinheiro e entregar menos ações do que você pediu.",
+   "na_tela": "Seu dinheiro preso no IPO",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "IPO pode prender seu dinheiro e entregar menos ações do que você pediu.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "IPO é a primeira vez que uma empresa vende ações na bolsa.",
+  "Pense num show lotado: você pede os ingressos e pode levar só parte.",
+  "E o dinheiro reservado fica parado até a compra ser concluída.",
+  "Olha só: em 2021, segundo a XP, 76% das estreantes tinham retorno negativo até então.",
+  "O preço pode cair logo depois da estreia, e ninguém sabe antes.",
+  "Antes de reservar, vale ler o prospecto, o documento da oferta, na CVM.",
+  "Sinal amarelo: se você pode precisar do dinheiro logo, pese esse risco.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "IPO pode prender seu dinheiro e entregar menos ações do que você pediu. Fala, galera, aqui é o Heitor, do Termômetro de Crise. IPO é a primeira vez que uma empresa vende ações na bolsa. Pense num show lotado: você pede os ingressos e pode levar só parte. E o dinheiro reservado fica parado até a compra ser concluída. Olha só: em 2021, segundo a XP, 76% das estreantes tinham retorno negativo até então. O preço pode cair logo depois da estreia, e ninguém sabe antes. Antes de reservar, vale ler o prospecto, o documento da oferta, na CVM. Sinal amarelo: se você pode precisar do dinheiro logo, pese esse risco. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 135,
+ "segundos": 54,
+ "na_tela": [
+  {
+   "texto": "Seu dinheiro preso no IPO",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "IPO = oferta pública inicial",
+   "fonte": "Ativa Investimentos"
+  },
+  {
+   "fala": 3,
+   "texto": "Rateio: menos ações do que o pedido",
+   "fonte": "Mais Retorno"
+  },
+  {
+   "fala": 5,
+   "texto": "76% das estreantes com retorno negativo (2021)",
+   "fonte": "Mais Retorno (relatório da XP)"
+  },
+  {
+   "fala": 6,
+   "texto": "Preço pode cair após a estreia",
+   "fonte": "Ativa Investimentos"
+  },
+  {
+   "fala": 7,
+   "texto": "Prospecto: leia na CVM",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Sinal amarelo: renda variável oscila",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "o que é IPO e como participar com pouco dinheiro",
+ "legenda": "O que é IPO e como participar com pouco dinheiro?\n\nIPO é a primeira vez que uma empresa vende ações ao público e passa a ser negociada na bolsa. No Brasil, a bolsa é a B3, e a CVM fiscaliza a oferta.\n\nQuem reserva pode receber menos ações do que pediu (o rateio), e o dinheiro fica comprometido até a compra ser concluída. Em 2021, segundo um relatório da XP, 76% das empresas que estrearam tinham retorno negativo até aquele momento.\n\nNão há garantia de ganho. Antes de qualquer reserva, vale ler o prospecto, o documento oficial da oferta, disponível na CVM.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ipo #b3 #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#ipo",
+  "#b3",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "IPO pode prender seu dinheiro e entregar menos ações do que pediu.",
+  "topicos": [
+   "IPO é a primeira venda de ações ao público, na B3.",
+   "Segundo a Mais Retorno, rateio: com muita procura, você recebe só parte.",
+   "Em 2021, segundo a XP, 76% das estreantes tinham retorno negativo até então.",
+   "Antes de reservar, leia o prospecto na CVM e pese se precisa do dinheiro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e risco, não uma notícia quente do dia, então pede a calma da bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"IPO pode prender seu dinheiro e entregar menos ações do que você pediu.\": a pergunta de bolso ainda fica meio implícita. Reescreva o gancho ligando a quem está do outro lado, por exemplo \"Se você pensa em reservar ações de IPO com o dinheiro do mês, olha isso antes\", sem acrescentar número ou fato novo.",
+   "Frase \"Sinal amarelo: se você pode precisar do dinheiro logo, pese esse risco.\": o passo final é um pouco vago para o fleumático. Troque por uma ação simples e concreta já presente na peça, como \"abra o prospecto na CVM antes de reservar e veja a data em que o dinheiro fica liberado\", para dar à pessoa um passo claro de proteção.",
+   "Frase \"IPO é a primeira vez que uma empresa vende ações na bolsa.\": está bem traduzida, mas o termo \"rateio\" aparece só na legenda. No vídeo, nomeie na mesma frase da comparação do show: \"isso se chama rateio: você pede ingressos e recebe só parte\", para a pessoa reconhecer o termo quando for reservar no app."
+  ],
+  "veredito": "Peça bem alinhada à marca: Sábio com jeito de Cara Comum, comparação do show lotado, número com fonte (XP), sinal amarelo, aviso de não recomendação e bordão final no lugar; falta só puxar mais a pergunta de bolso da pessoa no gancho e fechar com um passo prático mais concreto."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in toward the entrance of a packed concert arena at night, warm stage lights and colorful beams glowing through the doorway, a dense crowd seen only as dark silhouettes from behind, no faces visible, a turnstile gate in the foreground slightly out of focus. Cinematic, shallow depth of field, no text, no signs, no logos",
+   "texto_da_fala": "Pense num show lotado: você pede os ingressos e pode levar só parte.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in toward the entrance of a packed concert arena at night, warm stage lights and colorful beams glowing through the doorway, a dense crowd seen only as dark silhouettes from behind, no faces visible, a turnstile gate in the foreground slightly out of focus. Cinematic, shallow depth of field, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Macro shot slowly pushing in on a stack of gold coins resting inside a transparent glass box with a heavy steel padlock closed on it, soft dust floating in a beam of light, dark blurred background. Subtle camera orbit, calm and still mood, no text, no numbers, no logos, no people",
+   "texto_da_fala": "E o dinheiro reservado fica parado até a compra ser concluída.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot slowly pushing in on a stack of gold coins resting inside a transparent glass box with a heavy steel padlock closed on it, soft dust floating in a beam of light, dark blurred background. Subtle camera orbit, calm and still mood, no text, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Top-down camera slowly gliding across a wooden desk with a thick bound stack of printed pages, their content blurred and unreadable, a pair of reading glasses and a pen beside it, a hand with no face in view turning one page gently. Soft window light, shallow depth of field, no legible text, no letters, no numbers, no logos",
+   "texto_da_fala": "Antes de reservar, vale ler o prospecto, o documento da oferta, na CVM.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down camera slowly gliding across a wooden desk with a thick bound stack of printed pages, their content blurred and unreadable, a pair of reading glasses and a pen beside it, a hand with no face in view turning one page gently. Soft window light, shallow depth of field, no legible text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "IPO pode prender seu dinheiro e entregar menos ações do que você pediu.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nIPO é a primeira vez que uma empresa vende ações na bolsa.\n\nPense num show lotado: você pede os ingressos e pode levar só parte.\n\nE o dinheiro reservado fica parado até a compra ser concluída.\n\nOlha só: em 2021, segundo a XP, 76% das estreantes tinham retorno negativo até então.\n\nO preço pode cair logo depois da estreia, e ninguém sabe antes.\n\nAntes de reservar, vale ler o prospecto, o documento da oferta, na CVM.\n\nSinal amarelo: se você pode precisar do dinheiro logo, pese esse risco.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "B3 (Bora Investir)",
+   "url": "https://borainvestir.b3.com.br/tipos-de-investimentos/ipo-como-nascem-as-acoes-negociadas-na-b3/",
+   "destaque": "A pessoa física participa pelo período de reserva."
+  },
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/b3-ve-agro-e-infraestrutura-puxando-fila-de-50-ipos-apos-compass/",
+   "destaque": "Em 11 de maio de 2026, a Compass estreou na B3 no primeiro IPO no país em quase cinco anos."
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T18:50:10.928362-03:00"
+}
