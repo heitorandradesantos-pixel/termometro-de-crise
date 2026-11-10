@@ -1,0 +1,84 @@
+{
+ "titulo": "Investir no exterior pela B3 com ETF: o que se sabe",
+ "descricao": "Veja o que é ETF para investir no exterior pela B3, quanto custa a taxa de administração e o que isso pesa para quem aplica pouco.",
+ "palavra_chave": "investir no exterior pela b3 com etf",
+ "lead": "É possível investir no exterior pela B3, em reais e por uma corretora brasileira, com ETF, um fundo que copia um índice e é negociado como ação. A B3 explica o produto. Levantamentos de mercado de outubro de 2026 mostram taxas de administração, o custo anual cobrado sobre o valor investido, que vão de cerca de 0,20% a 0,83% ao ano nos ETFs internacionais listados. Veja o que é confirmado e o que varia.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A B3 diz que o investidor pode comprar ativos do exterior sem enviar dinheiro para fora. Basta ter conta em corretora brasileira credenciada. Há dois tipos de produto: o ETF Global, um certificado (também chamado BDR de ETF) que representa cotas de um ETF de fora, e o ETF Internacional, um fundo que compra ativos no exterior.",
+   "fonte_url": "https://www.b3.com.br/pt_br/noticias/internacionalizacao.htm",
+   "data": "2025-04-01",
+   "veiculo": "B3",
+   "confiavel": true
+  },
+  {
+   "texto": "ETF, sigla de fundo negociado em bolsa, é um fundo que busca copiar um índice, como o das 500 maiores empresas dos EUA. Segundo a B3 Educação, ele é negociado em reais, pelo home broker (a plataforma da corretora), como uma ação. O investidor não precisa de conta no exterior nem de operação de câmbio.",
+   "fonte_url": "https://edu.b3.com.br/w/etf-de-a%C3%A7%C3%B5es-internacionais",
+   "data": "2026-11-10",
+   "veiculo": "B3 Educação",
+   "confiavel": true
+  },
+  {
+   "texto": "A taxa de administração é cobrada só pelos dias em que o investidor fica com as cotas, como nos fundos tradicionais, segundo a B3.",
+   "fonte_url": "https://b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/etf-internacional.htm",
+   "data": "2026-11-10",
+   "veiculo": "B3",
+   "confiavel": true
+  },
+  {
+   "texto": "Um guia comparativo diz que os ETFs de índices americanos da B3 cobram de 0,21% a 0,30% ao ano. Os ETFs americanos comprados direto nos EUA ficam entre 0,03% e 0,15% ao ano.",
+   "fonte_url": "https://articles.arqfinance.com/etfs-acoes-americanas/",
+   "data": "2026-10-06",
+   "veiculo": "ArqFinance",
+   "confiavel": false
+  },
+  {
+   "texto": "Na tabela do Radar do Investidor, os ETFs internacionais da B3 cobram de 0,20% a 0,83% ao ano. Os de índice mundial e de estratégias específicas ficam na parte mais cara dessa faixa, como 0,62% e 0,83%.",
+   "fonte_url": "https://radardoinvestidor.com.br/etfs/",
+   "data": "2026-10-18",
+   "veiculo": "Radar do Investidor",
+   "confiavel": false
+  },
+  {
+   "texto": "Entre os 230 ETFs da B3 de todas as categorias, a taxa vai de 0,02% a 2,00% ao ano, segundo uma lista de outubro de 2026. A faixa inclui fundos que não são do exterior.",
+   "fonte_url": "https://marcelofayh.com.br/lista-de-etfs-da-b3/",
+   "data": "2026-11-06",
+   "veiculo": "Marcelo Fayh",
+   "confiavel": false
+  },
+  {
+   "texto": "No ETF Global (o certificado), o custo aparece no spread, a diferença entre o preço de compra e o de venda, e na taxa de administração. Segundo o ArqFinance, essa taxa tende a ser maior do que a do ETF original lá fora.",
+   "fonte_url": "https://www.arqfinance.com/articles/best-etfs-americanos-xp-brasileiros/",
+   "data": "2026-10-06",
+   "veiculo": "ArqFinance",
+   "confiavel": false
+  },
+  {
+   "texto": "Em regras em vigor em outubro de 2026, o lucro na venda de ETF internacional da B3 paga 15% de imposto de renda em operação comum, por DARF (guia paga pelo próprio investidor), sem a isenção de R$ 20.000. A B3 Educação informa que não há IOF nem come-cotas, o desconto antecipado de imposto que existe em alguns fundos.",
+   "fonte_url": "https://www.serasa.com.br/blog/tributacao-de-etfs/",
+   "data": "2026-10-22",
+   "veiculo": "Serasa",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [],
+ "o_que_nao_se_sabe": [
+  "Não há uma taxa única. Cada fundo define a sua, e as tabelas de sites podem ficar desatualizadas. O valor atual está no regulamento ou na lâmina do fundo, na página da gestora.",
+  "O custo total para quem investe pouco não foi calculado por fonte oficial. Corretagem, spread (a diferença entre compra e venda) e o preço da cota variam por corretora e por fundo. Isso não foi confirmado em uma fonte única.",
+  "Uma fonte contábil cita mudanças de imposto a partir de 2026, com alíquota de 17,5% para alguns investimentos. Isso não bate com o que a Serasa e a B3 Educação descrevem para ETFs na B3. Não foi confirmado como se aplica a esses ETFs.",
+  "Não há garantia de retorno. O valor da cota acompanha o índice no exterior e a variação do dólar. Os textos consultados não preveem resultado."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem pouco dinheiro pode acessar o exterior pela corretora que já usa, em reais, sem abrir conta fora e sem IOF de câmbio, segundo a B3 Educação.",
+  "A taxa de administração é um percentual por ano. Em R$ 1.000, uma taxa de 0,25% custa R$ 2,50 por ano e uma de 0,83% custa R$ 8,30. É conta simples, sem contar corretagem e spread.",
+  "Em valores pequenos, a diferença entre as taxas é de poucos reais por ano. Corretagem, spread e imposto podem pesar mais, por isso vale conferir as tarifas da sua corretora.",
+  "Comparar taxas ajuda a entender o custo. ETFs que acompanham o mesmo índice podem cobrar taxas diferentes, mas o custo de comprar e vender também conta.",
+  "No imposto, o lucro na venda paga 15% por DARF, sem a isenção de R$ 20.000 das ações, conforme a Serasa. Quem opera nos EUA, direto no exterior, segue outra regra, a Lei nº 14.754/2023."
+ ],
+ "como_se_proteger": [],
+ "slug": "investir-no-exterior-pela-b3-com-etf",
+ "publicado_em": "2026-11-10T18:52:47.997818",
+ "atualizado_em": "2026-11-10T18:52:47.997818",
+ "assunto": "Investir no exterior pela B3 com ETF: o que é e quanto custa a taxa de administração para quem tem pouco, sem citar nenhum código de ação ou de fundo",
+ "turno": "noite"
+}
