@@ -33,6 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       publicado: ${{ steps.publicar.outputs.publicado }}
+      envio: ${{ steps.guarda.outputs.envio }}
       data: ${{ steps.diario.outputs.data }}
     timeout-minutes: 30
     env:
@@ -47,10 +48,14 @@ jobs:
         run: |
           HOJE=$(TZ=America/Sao_Paulo date +%F)
           HORA=$(TZ=America/Sao_Paulo date +%-H)
-          # fechamento só sai das 17h às 19h59 de Brasília (depois disso ninguém lê, e o agendamento do GitHub às
-          # vezes atrasa horas); fora disso, só com forcar=sim
-          if [ "${{ inputs.forcar }}" != "sim" ] && { [ "$HORA" -lt 17 ] || [ "$HORA" -gt 19 ]; }; then
-            echo "Agendamento atrasado ($HORA h em Brasília): fora do horário do fechamento, não faz nada."
+          # fechamento no grupo só das 17h às 19h59 de Brasília (depois disso ninguém lê). Das 20h à meia-noite ele vai
+          # para a conversa do próprio número, e o Heitor repassa se quiser. Antes das 17h (ou de madrugada, quando o
+          # agendamento do GitHub atrasa horas) não faz nada; forcar=sim passa por cima.
+          ENVIO=fechamento
+          if [ "${{ inputs.forcar }}" != "sim" ] && [ "$HORA" -ge 20 ]; then ENVIO=teste; fi
+          echo "envio=$ENVIO" >> "$GITHUB_OUTPUT"
+          if [ "${{ inputs.forcar }}" != "sim" ] && [ "$HORA" -lt 17 ]; then
+            echo "Fora do horário do fechamento ($HORA h em Brasília): não faz nada."
             echo "pular=sim" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -122,6 +127,6 @@ jobs:
     if: needs.diario.outputs.publicado == 'sim'
     uses: ./.github/workflows/whatsapp.yml
     with:
-      acao: fechamento
+      acao: ${{ needs.diario.outputs.envio || 'fechamento' }}
       data: ${{ needs.diario.outputs.data }}
     secrets: inherit
