@@ -1,0 +1,180 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Poupança ou Tesouro Selic: onde R$ 200 por mês rendem mais?",
+  "na_tela": "Onde R$ 200 por mês rendem mais?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Seus R$ 200 por mês podem render R$ 8.452 a mais em 10 anos.",
+   "na_tela": "R$ 200 por mês: R$ 8.452 a mais?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A Selic ficou em 13,75%, e isso muda o que seus R$ 200 rendem.",
+   "na_tela": "Selic em 13,75%: e os seus R$ 200?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Poupança ou Tesouro Selic: onde R$ 200 por mês rendem mais?",
+   "na_tela": "Onde R$ 200 por mês rendem mais?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Poupança ou Tesouro Selic: onde R$ 200 por mês rendem mais?",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: o Copom manteve a Selic em 13,75% ao ano em 4 de novembro.",
+  "Em 10 anos, você guarda R$ 24.000. Poupança: R$ 36.495.",
+  "Tesouro Selic, já sem Imposto de Renda: cerca de R$ 44.947.",
+  "A diferença é de R$ 8.452, segundo a estimativa do Termômetro.",
+  "O IR do Tesouro é um pedágio que cai quanto mais você deixa.",
+  "Mas se a Selic cair, essa diferença diminui. O Copom decide de novo em 9/12.",
+  "Calma: é estimativa. Compare o prazo, as regras e a Selic antes de decidir.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Poupança ou Tesouro Selic: onde R$ 200 por mês rendem mais? Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: o Copom manteve a Selic em 13,75% ao ano em 4 de novembro. Em 10 anos, você guarda R$ 24.000. Poupança: R$ 36.495. Tesouro Selic, já sem Imposto de Renda: cerca de R$ 44.947. A diferença é de R$ 8.452, segundo a estimativa do Termômetro. O IR do Tesouro é um pedágio que cai quanto mais você deixa. Mas se a Selic cair, essa diferença diminui. O Copom decide de novo em 9/12. Calma: é estimativa. Compare o prazo, as regras e a Selic antes de decidir. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 135,
+ "segundos": 54,
+ "na_tela": [
+  {
+   "texto": "Onde R$ 200 por mês rendem mais?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Selic mantida em 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 3,
+   "texto": "Guardado: R$ 24.000 | Poupança: R$ 36.495",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Tesouro Selic: cerca de R$ 44.947 (após IR)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Diferença: R$ 8.452",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "IR do Tesouro: 22,5% → 15%",
+   "fonte": "Santander"
+  },
+  {
+   "fala": 7,
+   "texto": "Próximo Copom: 9/12",
+   "fonte": "Quenty"
+  }
+ ],
+ "retomada": 5,
+ "busca": "poupança ou Tesouro Selic: quanto rende R$ 200 por mês",
+ "legenda": "Poupança ou Tesouro Selic: quanto rende R$ 200 por mês?\n\nCom a Selic em 13,75% ao ano, o Termômetro estimou o que acontece se você guardar R$ 200 por mês por 10 anos: R$ 36.495 na poupança e cerca de R$ 44.947 no Tesouro Selic, já descontado o Imposto de Renda. A diferença estimada é de R$ 8.452.\n\nA conta supõe taxas fixas o tempo todo. Se a Selic cair, a diferença a favor do Tesouro Selic diminui. O Copom decide de novo em 9/12, e ninguém confirmou para onde a taxa vai.\n\nAntes de decidir, compare o prazo em que você vai precisar do dinheiro e as regras de cada opção. A conta é uma estimativa e o ganho real pode diferir um pouco.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#selic #tesouroselic #poupanca #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#selic",
+  "#tesouroselic",
+  "#poupanca",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Poupança ou Tesouro Selic: onde R$ 200 por mês rendem mais?",
+  "topicos": [
+   "O Copom manteve a Selic em 13,75% ao ano em 4 de novembro.",
+   "Em 10 anos, R$ 24.000 guardados viram R$ 36.495 na poupança, estima o Termômetro.",
+   "No Tesouro Selic, já sem IR, cerca de R$ 44.947: diferença de R$ 8.452.",
+   "Se a Selic cair, a diferença diminui; compare prazo e regras antes de decidir."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto, que pede calma e prova na tela, não uma notícia quente de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"O IR do Tesouro é um pedágio que cai quanto mais você deixa.\": a comparação é boa, mas fica solta e sem explicação. Reescreva traduzindo na mesma frase, por exemplo: \"O Imposto de Renda é como um pedágio: quanto mais tempo o dinheiro fica lá, menor a cobrança\". Assim o leitor entende o porquê sem precisar saber o termo.",
+   "Frase \"Tesouro Selic, já sem Imposto de Renda: cerca de R$ 44.947.\": o Tesouro Selic não é explicado a quem nunca ouviu falar. Adicione um trecho curto, como \"o Tesouro Selic é um empréstimo que você faz ao governo, e ele paga a taxa Selic\". Isso ajuda o leitor que sente a economia no bolso e fecha o que falta ao melancólico. Mantenha só o que a peça já afirma, sem acrescentar número novo.",
+   "Frase \"Calma: é estimativa. Compare o prazo, as regras e a Selic antes de decidir.\": o passo é genérico e pouco prático. Troque por um passo simples e concreto, como \"pergunte a si mesmo quando você vai precisar desse dinheiro e olhe as regras de cada opção\". Isso dá ao fleumático e ao colérico uma ação clara. Use também uma comparação do dia a dia, como R$ 200 por mês equivalendo a uma conta fixa do mês, para dar mais vida ao trecho (sanguíneo), sem criar número novo."
+  ],
+  "veredito": "A peça fala com quem tem pouco para guardar, traz números com fonte e ressalvas honestas, e usa os bordões da casa sem promessa nem alarde; falta traduzir o Tesouro Selic, dar vida à comparação e fechar com um passo mais concreto."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in along a long polished wooden boardroom table in an empty modern meeting room at dusk, leather chairs in a row, floor-to-ceiling windows showing a city skyline in warm orange light. No people, no screens, no text, no flags, no logos",
+   "texto_da_fala": "Olha só: o Copom manteve a Selic em 13,75% ao ano em 4 de novembro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a long polished wooden boardroom table in an empty modern meeting room at dusk, leather chairs in a row, floor-to-ceiling windows showing a city skyline in warm orange light. No people, no screens, no text, no flags, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Macro close-up of a large glass jar on a wooden table, plain unmarked golden coins dropping in one by one and slowly piling up. Time-lapse feel, camera slowly pulls back and tilts up as the jar fills. Soft warm window light, shallow depth of field. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Em 10 anos, você guarda R$ 24.000. Poupança: R$ 36.495.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up of a large glass jar on a wooden table, plain unmarked golden coins dropping in one by one and slowly piling up. Time-lapse feel, camera slowly pulls back and tilts up as the jar fills. Soft warm window light, shallow depth of field. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Aerial drone shot following an empty highway at golden hour toward a toll plaza with several blank unmarked booths and a raised barrier arm. Cars pass through as the camera glides forward and descends toward the barrier. No readable signs, no text, no numbers, no logos, no recognizable people",
+   "texto_da_fala": "O IR do Tesouro é um pedágio que cai quanto mais você deixa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial drone shot following an empty highway at golden hour toward a toll plaza with several blank unmarked booths and a raised barrier arm. Cars pass through as the camera glides forward and descends toward the barrier. No readable signs, no text, no numbers, no logos, no recognizable people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Poupança ou Tesouro Selic: onde R$ 200 por mês rendem mais?\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: o Copom manteve a Selic em 13,75% ao ano em 4 de novembro.\n\nEm 10 anos, você guarda R$ 24.000. Poupança: R$ 36.495.\n\nTesouro Selic, já sem Imposto de Renda: cerca de R$ 44.947.\n\nA diferença é de R$ 8.452, segundo a estimativa do Termômetro.\n\nO IR do Tesouro é um pedágio que cai quanto mais você deixa.\n\nMas se a Selic cair, essa diferença diminui. O Copom decide de novo em 9/12.\n\nCalma: é estimativa. Compare o prazo, as regras e a Selic antes de decidir.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Caixa Econômica Federal",
+   "url": "https://www.caixa.gov.br/voce/poupanca-e-investimentos/poupanca/Paginas/default.aspx",
+   "destaque": "Com a Selic acima de 8,5% ao ano, a poupança rende 0,5% ao mês mais a TR (Taxa Referencial, índice pequeno calculado pelo Banco Central)."
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T18:20:33.439385-03:00"
+}
