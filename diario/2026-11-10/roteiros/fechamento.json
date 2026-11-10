@@ -1,0 +1,181 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "O dólar subiu 1,44% hoje. Olha o que mexeu no termômetro.",
+  "na_tela": "Dólar +1,44%: o que mexeu?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar subiu 1,44% hoje. Olha o que mexeu no termômetro.",
+   "na_tela": "Dólar +1,44%: o que mexeu?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto custa um dólar hoje? R$ 5,58, e subiu 1,44%.",
+   "na_tela": "Quanto custa o dólar hoje?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Em 09/10, o recorde. Hoje, o Ibovespa está 18,0% abaixo.",
+   "na_tela": "Ibovespa 18,0% abaixo do recorde",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 0
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar subiu 1,44% hoje. Olha o que mexeu no termômetro.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Ele fechou a R$ 5,58, segundo o Yahoo Finance.",
+  "Dólar mais caro encarece produto importado e viagem.",
+  "O que mexeu no termômetro: inflação de outubro nos EUA acima do esperado.",
+  "Banco da Inglaterra subiu os juros para 4%, a primeira alta desde 2023.",
+  "Olha só: juro é o preço do dinheiro. Se sobe lá fora, o mercado repara.",
+  "No Termômetro, Brasil em 65, Tensão, e Mundo em 56, Alerta.",
+  "O Fed, o banco central dos EUA, discute alta de juros em dezembro.",
+  "Meu passo é simples: acompanhe com calma e não decida no susto.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O dólar subiu 1,44% hoje. Olha o que mexeu no termômetro. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Ele fechou a R$ 5,58, segundo o Yahoo Finance. Dólar mais caro encarece produto importado e viagem. O que mexeu no termômetro: inflação de outubro nos EUA acima do esperado. Banco da Inglaterra subiu os juros para 4%, a primeira alta desde 2023. Olha só: juro é o preço do dinheiro. Se sobe lá fora, o mercado repara. No Termômetro, Brasil em 65, Tensão, e Mundo em 56, Alerta. O Fed, o banco central dos EUA, discute alta de juros em dezembro. Meu passo é simples: acompanhe com calma e não decida no susto. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 139,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "Dólar +1,44%: o que mexeu?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar R$ 5,58 (▲1,44%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Inflação dos EUA acima do esperado",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Banco da Inglaterra: juros a 4%",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Brasil 65 · Mundo 56",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Fed discute alta em dezembro",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: fechou a R$ 5,58, alta de 1,44%, segundo o Yahoo Finance.\n\nNo termômetro do dia, a inflação de outubro nos EUA veio acima do esperado e o Banco da Inglaterra subiu os juros para 4%, a primeira alta desde 2023. O Fed, o banco central americano, discute alta de juros em dezembro.\n\nO Brasil fechou em 65 (Tensão) e o Mundo em 56 (Alerta). Dólar mais caro encarece importado e viagem. O passo é simples: acompanhar com calma, sem decidir no susto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #termometrodecrise #economia #financaspessoais",
+ "hashtags": [
+  "#dolarhoje",
+  "#termometrodecrise",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "O dólar subiu 1,44% hoje e fechou a R$ 5,58.",
+  "topicos": [
+   "Dólar fechou a R$ 5,58, alta de 1,44%, segundo o Yahoo Finance.",
+   "Inflação de outubro nos EUA veio acima do esperado, segundo o Termômetro.",
+   "Banco da Inglaterra subiu juros para 4%, a primeira alta desde 2023.",
+   "Termômetro: Brasil em 65, Mundo em 56. Acompanhe com calma, sem decidir no susto."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Fechamento do dia explica vários números e o contexto lá de fora, então pede a calma da bancada com teleprompter.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Dólar mais caro encarece produto importado e viagem.\": só diz o efeito de forma genérica. Reescreva com uma comparação do dia a dia que já esteja na peça, por exemplo ligar o dólar ao que a pessoa compra (eletrônico, passagem, compra internacional no cartão), numa cena curta: \"é o celular importado e a viagem que ficam mais pesados no cartão\". Isso dá o toque sanguíneo e responde \"isso mexe no meu bolso?\".",
+   "\"Meu passo é simples: acompanhe com calma e não decida no susto.\": o passo é calmo, mas vago. Deixe-o mais concreto sem recomendar ativo nem inventar fato, por exemplo: \"se você tem compra em dólar ou viagem planejada, olhe o preço com calma antes de fechar, sem correr\". Assim o colérico recebe uma ação clara e o fleumático mantém a calma.",
+   "\"Olha só: juro é o preço do dinheiro. Se sobe lá fora, o mercado repara.\": a tradução do juro está boa, mas a cadeia até o dólar subir ficou solta. Acrescente uma frase ligando os pontos, no tom \"por isso o dólar sobe\" (juro lá fora sobe, o dinheiro tende a ir para lá), sem prometer que vai continuar. Isso atende o melancólico e explica o porquê."
+  ],
+  "veredito": "A peça tem a voz certa, com bordões, fonte citada, termo traduzido e sem alarde, mas fala mais com o mercado do que com o bolso: falta uma comparação viva e um passo mais concreto para quem sente o dólar no cartão e na viagem."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "shot, : slow dolly-in along a busy port container terminal at golden hour, stacked colorful shipping containers and a gantry crane lifting a container, cut with a slow pan across a row of airport departure gates with suitcases on a trolley in the foreground. No people in focus, no text, no logos",
+   "texto_da_fala": "Dólar mais caro encarece produto importado e viagem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : slow dolly-in along a busy port container terminal at golden hour, stacked colorful shipping containers and a gantry crane lifting a container, cut with a slow pan across a row of airport departure gates with suitcases on a trolley in the foreground. No people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "shot, : slow upward tilt along the stone facade of a grand neoclassical bank building in London on an overcast morning, red double-decker bus blurred passing in the foreground, pigeons flying past. No recognizable people, no text, no signs, no logos, no flags",
+   "texto_da_fala": "Banco da Inglaterra subiu os juros para 4%, a primeira alta desde 2023.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : slow upward tilt along the stone facade of a grand neoclassical bank building in London on an overcast morning, red double-decker bus blurred passing in the foreground, pigeons flying past. No recognizable people, no text, no signs, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "shot, : slow push-in toward a columned white marble government-style financial building in Washington DC at dawn, soft light on the stone steps, wet pavement reflecting the sky, gentle drifting clouds. No people in focus, no text, no logos, no flags",
+   "texto_da_fala": "O Fed, o banco central dos EUA, discute alta de juros em dezembro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : slow push-in toward a columned white marble government-style financial building in Washington DC at dawn, soft light on the stone steps, wet pavement reflecting the sky, gentle drifting clouds. No people in focus, no text, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O dólar subiu 1,44% hoje. Olha o que mexeu no termômetro.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nEle fechou a R$ 5,58, segundo o Yahoo Finance.\n\nDólar mais caro encarece produto importado e viagem.\n\nO que mexeu no termômetro: inflação de outubro nos EUA acima do esperado.\n\nBanco da Inglaterra subiu os juros para 4%, a primeira alta desde 2023.\n\nOlha só: juro é o preço do dinheiro. Se sobe lá fora, o mercado repara.\n\nNo Termômetro, Brasil em 65, Tensão, e Mundo em 56, Alerta.\n\nO Fed, o banco central dos EUA, discute alta de juros em dezembro.\n\nMeu passo é simples: acompanhe com calma e não decida no susto.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T18:33:57.859464-03:00",
+ "enviado_whatsapp": "2026-11-10T18:34:44.130248-03:00"
+}
