@@ -1,0 +1,180 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Quanto rendem R$ 1.000 parados por um ano? Fui fazer a conta.",
+  "na_tela": "Quanto rendem R$ 1.000?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto rendem R$ 1.000 parados por um ano? Fui fazer a conta.",
+   "na_tela": "Quanto rendem R$ 1.000?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Poupança ou Tesouro Selic: nessa conta, a diferença é de cerca de R$ 32.",
+   "na_tela": "Diferença de R$ 32",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Em 4 de novembro, o Banco Central manteve a Selic em 13,75%, e isso mexe no seu dinheiro parado.",
+   "na_tela": "Selic mantida em 13,75%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Quanto rendem R$ 1.000 parados por um ano? Fui fazer a conta.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "O Banco Central manteve a Selic, o juro básico, em 13,75%.",
+  "A poupança é como salário fixo: com a Selic acima de 8,5%, não muda.",
+  "No ritmo do último ano, R$ 1.000 viram cerca de R$ 1.082,50 na poupança.",
+  "Mas olha o Tesouro Selic 2031: R$ 1.114,40, já descontado o Imposto de Renda.",
+  "Nessa conta, dá cerca de R$ 32 de diferença a favor do Tesouro Selic.",
+  "Calma: é estimativa do Termômetro, e a inflação de 4,58% é do passado.",
+  "Passo simples: confira no simulador do Tesouro Direto e na calculadora do Banco Central.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Quanto rendem R$ 1.000 parados por um ano? Fui fazer a conta. Fala, galera, aqui é o Heitor, do Termômetro de Crise. O Banco Central manteve a Selic, o juro básico, em 13,75%. A poupança é como salário fixo: com a Selic acima de 8,5%, não muda. No ritmo do último ano, R$ 1.000 viram cerca de R$ 1.082,50 na poupança. Mas olha o Tesouro Selic 2031: R$ 1.114,40, já descontado o Imposto de Renda. Nessa conta, dá cerca de R$ 32 de diferença a favor do Tesouro Selic. Calma: é estimativa do Termômetro, e a inflação de 4,58% é do passado. Passo simples: confira no simulador do Tesouro Direto e na calculadora do Banco Central. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 140,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "Quanto rendem R$ 1.000?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Selic mantida em 13,75% (4 de novembro)",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 3,
+   "texto": "Selic acima de 8,5%: poupança não muda",
+   "fonte": "Blog Santander"
+  },
+  {
+   "fala": 4,
+   "texto": "Poupança: R$ 1.082,50",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Tesouro Selic 2031: R$ 1.114,40",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Diferença: cerca de R$ 32",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "IPCA 12 meses: 4,58%",
+   "fonte": "IBGE"
+  }
+ ],
+ "retomada": 5,
+ "busca": "quanto rende R$ 1.000 na poupança e no Tesouro Selic",
+ "legenda": "Quanto rende R$ 1.000 na poupança e no Tesouro Selic?\n\nO Banco Central manteve a Selic em 13,75% em 4 de novembro. Nessa conta do Termômetro, R$ 1.000 deixados por um ano viram cerca de R$ 1.082,50 na poupança e R$ 1.114,40 no Tesouro Selic 2031, já com Imposto de Renda. A diferença é de cerca de R$ 32.\n\nÉ estimativa: os números vieram de portais que citam dados do Banco Central e do Tesouro Direto, e a inflação de 4,58% é do passado. Se a Selic cair, o Tesouro Selic passa a render menos. Confirme na calculadora do cidadão do Banco Central e no simulador do Tesouro Direto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#poupanca #tesouroselic #selic #educacaofinanceira",
+ "hashtags": [
+  "#poupanca",
+  "#tesouroselic",
+  "#selic",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Quanto rendem R$ 1.000 parados um ano? Fiz a conta.",
+  "topicos": [
+   "O Copom, do Banco Central, manteve a Selic em 13,75% em 4 de novembro.",
+   "Poupança: R$ 1.000 viram cerca de R$ 1.082,50, sem Imposto de Renda.",
+   "Tesouro Selic 2031: R$ 1.114,40 com Imposto de Renda, estimativa do Termômetro.",
+   "Confira no simulador do Tesouro Direto e na calculadora do Banco Central."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e comparação, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 10,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [],
+  "veredito": "A peça fala com quem tem pouco guardado, responde \"o que eu faço?\" com um passo simples (conferir nos simuladores), traz número, comparação e calma, usa gatilhos éticos e todos os bordões da casa, e não falta nada relevante."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow upward tilt along the facade of a modern Brazilian government office building made of concrete and glass, in Brasília-style modernist architecture, under a clear late-afternoon sky with warm golden light. Empty plaza in the foreground, no people in focus, no signs, no text, no logos, no flags. Smooth cinematic crane movement, realistic",
+   "texto_da_fala": "O Banco Central manteve a Selic, o juro básico, em 13,75%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the facade of a modern Brazilian government office building made of concrete and glass, in Brasília-style modernist architecture, under a clear late-afternoon sky with warm golden light. Empty plaza in the foreground, no people in focus, no signs, no text, no logos, no flags. Smooth cinematic crane movement, realistic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Close-up of a ceramic piggy bank on a worn wooden table beside a small stack of plain coins and a few blank paper bills with no visible numbers or writing, soft window light from the left. Slow dolly-in toward the piggy bank, shallow depth of field, a single coin slowly dropping in at the end. No people, no text, no logos",
+   "texto_da_fala": "No ritmo do último ano, R$ 1.000 viram cerca de R$ 1.082,50 na poupança.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a ceramic piggy bank on a worn wooden table beside a small stack of plain coins and a few blank paper bills with no visible numbers or writing, soft window light from the left. Slow dolly-in toward the piggy bank, shallow depth of field, a single coin slowly dropping in at the end. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Over-the-shoulder shot from behind of a person's hands holding a smartphone at a tidy desk with a laptop open beside it, both screens softly out of focus and glowing with abstract blurred shapes, no readable text or numbers. Face not visible. Gentle slow push-in and slight rack focus, warm lamp light, cozy home office, realistic",
+   "texto_da_fala": "Passo simples: confira no simulador do Tesouro Direto e na calculadora do Banco Central.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Over-the-shoulder shot from behind of a person's hands holding a smartphone at a tidy desk with a laptop open beside it, both screens softly out of focus and glowing with abstract blurred shapes, no readable text or numbers. Face not visible. Gentle slow push-in and slight rack focus, warm lamp light, cozy home office, realistic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Quanto rendem R$ 1.000 parados por um ano? Fui fazer a conta.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nO Banco Central manteve a Selic, o juro básico, em 13,75%.\n\nA poupança é como salário fixo: com a Selic acima de 8,5%, não muda.\n\nNo ritmo do último ano, R$ 1.000 viram cerca de R$ 1.082,50 na poupança.\n\nMas olha o Tesouro Selic 2031: R$ 1.114,40, já descontado o Imposto de Renda.\n\nNessa conta, dá cerca de R$ 32 de diferença a favor do Tesouro Selic.\n\nCalma: é estimativa do Termômetro, e a inflação de 4,58% é do passado.\n\nPasso simples: confira no simulador do Tesouro Direto e na calculadora do Banco Central.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+   "destaque": "O Copom, comitê do Banco Central, manteve a Selic em 13,75% ao ano em 4 de novembro."
+  },
+  {
+   "veiculo": "IBGE",
+   "url": "https://www.ibge.gov.br/indicadores.html",
+   "destaque": "O IPCA, a inflação oficial medida pelo IBGE, acumula 4,58% em 12 meses até setembro."
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T21:10:22.818651-03:00"
+}
