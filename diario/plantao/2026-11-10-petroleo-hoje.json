@@ -1,0 +1,120 @@
+{
+ "titulo": "Petróleo hoje: Brent cai abaixo de US$ 90: o que se sabe",
+ "descricao": "Petróleo hoje: Brent abaixo de US$ 90 pela 1ª vez desde agosto, após Trump descartar novos ataques ao Irã. Veja o que muda para você.",
+ "palavra_chave": "petróleo hoje",
+ "lead": "O petróleo Brent, referência mundial de preço, caiu abaixo de US$ 90 o barril na madrugada de terça (10/11), pela primeira vez desde 31 de agosto. A queda veio depois que o presidente dos EUA, Donald Trump, disse que não vê necessidade de novos ataques ao Irã \"neste momento\", segundo a Reuters. Isso não é um acordo de paz: o risco para navios no Estreito de Ormuz continua em debate.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Brent caiu abaixo de US$ 90 na terça (10/11), pela primeira vez desde 31 de agosto, segundo a RTE. O contrato tinha fechado a segunda (9/11) em queda de 5,85%.",
+   "fonte_url": "https://www.rte.ie/news/business/2026/1110/1598641-world-oil-prices/",
+   "data": "2026-11-10",
+   "veiculo": "RTE",
+   "confiavel": false
+  },
+  {
+   "texto": "Na manhã de terça, o Brent recuava 1,7%, a US$ 90,99 o barril (7h59 em Greenwich, 4h59 em Brasília). O WTI, referência dos EUA, caía 1,8%, a US$ 85,20.",
+   "fonte_url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-fall-as-trump-signals-pause-in-military-action-against-iran-126111000067_1.html",
+   "data": "2026-11-10",
+   "veiculo": "Business Standard (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent está cerca de 22% abaixo da máxima de seis meses, de US$ 118, atingida em 30/10, segundo a Reuters.",
+   "fonte_url": "https://www.theglobeandmail.com/investing/article-oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/",
+   "data": "2026-11-10",
+   "veiculo": "The Globe and Mail (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Trump disse na segunda (9/11) que pretende adiar, por ora, novos ataques ao Irã, depois de pedidos de países da região, entre eles o primeiro-ministro do Qatar. Ele também disse que vai manter o bloqueio naval no Estreito de Ormuz por enquanto.",
+   "fonte_url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-fall-as-trump-signals-pause-in-military-action-against-iran-126111000067_1.html",
+   "data": "2026-11-09",
+   "veiculo": "Business Standard (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Ainda há preocupação com possíveis problemas para navios na região. Gregory Brew, analista do Eurasia Group, disse que o preço dificilmente cairia abaixo de US$ 90 sem sinais mais duradouros de distensão e um acordo entre EUA e Irã.",
+   "fonte_url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-fall-as-trump-signals-pause-in-military-action-against-iran-126111000067_1.html",
+   "data": "2026-11-10",
+   "veiculo": "Business Standard (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na semana passada, o Brent perdeu 16%, a maior queda semanal desde o início da pandemia. Em relatório de sexta (6/11), o JPMorgan avaliou que o mercado caminha para um excedente de petróleo (mais oferta do que demanda), com demanda ainda fraca.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-09112026/",
+   "data": "2026-11-09",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A Petrobras divulga hoje (10/11) o balanço do 3º trimestre. A estimativa compilada pela Bloomberg é de lucro líquido de US$ 7,14 bilhões, 31,53% menor que no trimestre anterior, com o petróleo mais barato.",
+   "fonte_url": "https://www.moneytimes.com.br/petrobras-petr4-producao-recorde-deve-compensar-petroleo-mais-barato-e-sustentar-dividendos-no-3t26-bdap/",
+   "data": "2026-11-10",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Brent toca US$ 118, máxima de seis meses, com temor de que Trump aumente os ataques ao Irã depois das eleições de meio de mandato nos EUA.",
+   "fonte_url": "https://www.theglobeandmail.com/investing/article-oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/",
+   "data": "2026-10-30",
+   "veiculo": "The Globe and Mail (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na semana até 6/11, o Brent perde 16%, a maior queda semanal desde o início da pandemia.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-09112026/",
+   "data": "2026-11-06",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Trump diz que dificilmente ordenará novos ataques ao Irã enquanto as negociações continuarem.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-09112026/",
+   "data": "2026-11-08",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Trump recebe o primeiro-ministro do Qatar e diz que vai adiar novos ataques. O Brent fecha em queda de 5,85%.",
+   "fonte_url": "https://www.rte.ie/news/business/2026/1110/1598641-world-oil-prices/",
+   "data": "2026-11-09",
+   "veiculo": "RTE",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent cai abaixo de US$ 90 pela primeira vez desde 31 de agosto e oscila perto de US$ 91 pela manhã.",
+   "fonte_url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-fall-as-trump-signals-pause-in-military-action-against-iran-126111000067_1.html",
+   "data": "2026-11-10",
+   "veiculo": "Business Standard (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Petrobras divulga o balanço do 3º trimestre após o fechamento do mercado.",
+   "fonte_url": "https://www.moneytimes.com.br/petrobras-petr4-producao-recorde-deve-compensar-petroleo-mais-barato-e-sustentar-dividendos-no-3t26-bdap/",
+   "data": "2026-11-10",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não há acordo entre EUA e Irã confirmado. Trump falou em avanço para o fim do conflito, mas disse que a ação militar está pronta se houver motivo e que o Irã não pode ter arma nuclear, o que ele chamou de inegociável (Lusa).",
+  "Não está claro se existem negociações em curso. Um veículo (JournalArta) cita Mohsen Rezaei, chefe do conselho de segurança do Irã, negando conversas. Não encontramos essa declaração em outra fonte, então ela não está confirmada.",
+  "Não está claro como anda o trânsito de navios em Ormuz. A Reuters diz que ainda há preocupação com interrupções. Outro veículo (Plantão Brasil) diz que a saudita Bahri retomou o trânsito de petroleiros com escolta dos EUA. Não achamos essa informação em outra fonte.",
+  "Não se sabe se a Petrobras vai mudar o preço da gasolina ou do diesel. Nas fontes consultadas não há anúncio. O BTG Pactual avalia que a estatal ainda pode precisar reajustar o diesel para manter sua política de preços de 2026 (Investidor10).",
+  "Não se sabe se o Brent vai ficar abaixo de US$ 90. O preço depende de novas falas, de eventual acordo e do que acontecer em Ormuz."
+ ],
+ "o_que_muda_para_voce": [
+  "Na bomba: o petróleo mais barato alivia a pressão sobre os combustíveis no mundo. No Brasil, o repasse não é automático. Depende de decisões da Petrobras e do câmbio, já que o petróleo é cotado em dólar.",
+  "Nos preços em geral: combustível mais barato pode ajudar a segurar preços de fretes e alimentos. Isso só acontece se a queda se mantiver por um tempo.",
+  "Para quem tem ações ou fundos ligados à Petrobras: o balanço de hoje, após o fechamento, mostra lucro e dividendos (parte do lucro paga aos acionistas) do 3º trimestre. O petróleo mais barato pesa nas projeções.",
+  "Na inflação e nos juros: se o petróleo ficar mais barato por mais tempo, pode haver menos pressão sobre a inflação. O efeito depende de combustíveis, câmbio e decisões do governo e da Petrobras."
+ ],
+ "como_se_proteger": [],
+ "slug": "petroleo-hoje",
+ "publicado_em": "2026-11-10T11:44:35.839805",
+ "atualizado_em": "2026-11-10T11:44:35.839805",
+ "assunto": "O petróleo Brent caiu e chegou a furar os US$ 90 o barril na madrugada de 10/11, pela primeira vez desde agosto, depois que Trump disse que não pretende, por ora, novos ataques ao Irã. Na terça de manhã o Brent oscilava em torno de US$ 91. O contrato caiu 5,85% na segunda (9/11) e está cerca de 22% abaixo da máxima de US$ 118 de 30/10. Pausa em ataques não é acordo: analistas lembram que ainda há risco para navios no Estreito de Ormuz.",
+ "turno": "meio"
+}
