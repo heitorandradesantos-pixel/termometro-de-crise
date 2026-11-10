@@ -1,0 +1,106 @@
+{
+ "titulo": "Bloqueio de conta por 12 meses no Nubank e Itaú: o que se sabe",
+ "descricao": "Só com ordem judicial. A função de até 12 meses do Sisbajud ainda está em testes, segundo veículos que citam o CNJ. Veja o que muda.",
+ "palavra_chave": "bloqueio de conta por 12 meses",
+ "lead": "A Justiça só bloqueia dinheiro em conta no Nubank, Itaú, Caixa, Banco do Brasil ou XP com ordem de um juiz num processo de cobrança. Dívida comum, como fatura atrasada, não gera bloqueio automático. A função que mantém a ordem ativa por até 12 meses está no novo manual do Sisbajud, mas, segundo reportagens que citam o suporte do CNJ, ainda está em testes e não vale de forma geral. O piloto com os cinco bancos foi assinado em 11 de maio, e não é decisão nova de novembro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 11 de maio, o presidente do CNJ, ministro Edson Fachin, assinou acordo com cinco instituições financeiras para um projeto-piloto do novo manual do Sisbajud, o sistema que o Judiciário usa para mandar ordens de bloqueio aos bancos.",
+   "fonte_url": "https://www.cnj.jus.br/ministro-fachin-assina-acordo-com-instituicoes-financeiras-para-aperfeicoar-sisbajud/",
+   "data": "2026-05-11",
+   "veiculo": "Portal CNJ",
+   "confiavel": false
+  },
+  {
+   "texto": "O teste dura 18 meses e vale para Caixa, Banco do Brasil, Itaú Unibanco, Nubank e XP Investimentos. O CNJ quer ampliar a medida aos poucos para todo o sistema financeiro.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/novo-bloqueio-judicial-automatico-de-contas-exige-atencao-de-devedores",
+   "data": "2026-05-11",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O novo manual cria a chamada ordem de bloqueio permanente. Ela pode valer por até 12 meses, contados do recebimento pelo banco, ou por prazo menor definido pelo juiz. Termina quando o valor da dívida é atingido, quando a vigência acaba ou quando o juiz cancela.",
+   "fonte_url": "https://dnalaw.law/2026/06/17/cnj-altera-o-sisbajud-e-substitui-a-teimosinha-por-bloqueio-permanente-de-ate-um-ano/",
+   "data": "2026-06-17",
+   "veiculo": "DNA Law (escritório de advocacia)",
+   "confiavel": false
+  },
+  {
+   "texto": "Antes, a repetição automática da ordem, a chamada \"teimosinha\", podia ser registrada pelo juiz por até 30 dias, segundo o manual do Sisbajud de 2024.",
+   "fonte_url": "https://www.cnj.jus.br/wp-content/uploads/2024/05/manual-complet-sisbajud-2a-edicao.pdf",
+   "data": "2024-05-01",
+   "veiculo": "CNJ (manual do Sisbajud, 2ª edição)",
+   "confiavel": false
+  },
+  {
+   "texto": "A função de bloqueio permanente por até 12 meses ainda passa por homologação (fase de testes) e não tem disponibilidade geral no ambiente de produção, ou seja, no uso real do Sisbajud. A informação vem de reportagens que citam o suporte do CNJ.",
+   "fonte_url": "https://arede.info/cotidiano/691792/bloqueio-judicial-de-contas-veja-o-que-muda-para-clientes-de-nubank-itau-caixa-e-bb",
+   "data": "2026-11-09",
+   "veiculo": "A Rede",
+   "confiavel": false
+  },
+  {
+   "texto": "Atrasar fatura de cartão, boleto ou parcela de financiamento não aciona o bloqueio. O procedimento depende de decisão da Justiça no processo em que a dívida é cobrada, e os bancos do piloto não decidem bloquear por conta própria.",
+   "fonte_url": "https://gmconline.com.br/noticias/geral/justica-autoriza-nubank-itau-caixa-e-bb-a-bloquear-contas-de-clientes-com-dividas-entenda/",
+   "data": "2026-11-04",
+   "veiculo": "GMC Online",
+   "confiavel": false
+  },
+  {
+   "texto": "O prazo de até 12 meses não quer dizer que a conta fica congelada por um ano. Segundo o portal Seu Crédito Digital, a ordem pode continuar procurando dinheiro, e o bloqueio atinge valores até o limite da dívida na ordem.",
+   "fonte_url": "https://seucreditodigital.com.br/novo-sisbajud-acelera-bloqueio-dinheiro/",
+   "data": "2026-10-06",
+   "veiculo": "Seu Crédito Digital",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Manual do Sisbajud (2ª edição) prevê a \"teimosinha\", repetição automática da ordem por até 30 dias.",
+   "fonte_url": "https://www.cnj.jus.br/wp-content/uploads/2024/05/manual-complet-sisbajud-2a-edicao.pdf",
+   "data": "2024-05-01",
+   "veiculo": "CNJ",
+   "confiavel": false
+  },
+  {
+   "texto": "Fachin assina acordo com cinco instituições financeiras para o projeto-piloto do novo Sisbajud, com duração de 18 meses.",
+   "fonte_url": "https://www.cnj.jus.br/ministro-fachin-assina-acordo-com-instituicoes-financeiras-para-aperfeicoar-sisbajud/",
+   "data": "2026-05-11",
+   "veiculo": "Portal CNJ",
+   "confiavel": false
+  },
+  {
+   "texto": "Escritório de advocacia descreve o novo manual: ordem de bloqueio permanente de até 12 meses no lugar da teimosinha.",
+   "fonte_url": "https://dnalaw.law/2026/06/17/cnj-altera-o-sisbajud-e-substitui-a-teimosinha-por-bloqueio-permanente-de-ate-um-ano/",
+   "data": "2026-06-17",
+   "veiculo": "DNA Law",
+   "confiavel": false
+  },
+  {
+   "texto": "Reportagens repercutem o tema e dizem que a função de 12 meses ainda está em homologação, segundo o suporte do CNJ.",
+   "fonte_url": "https://arede.info/cotidiano/691792/bloqueio-judicial-de-contas-veja-o-que-muda-para-clientes-de-nubank-itau-caixa-e-bb",
+   "data": "2026-11-09",
+   "veiculo": "A Rede",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quando a função de 12 meses começa a valer no uso real do Sisbajud. Não achamos data divulgada; isso não está confirmado.",
+  "Se a função já vale ou não. O portal Acorda Cidade (5/11) diz que o bloqueio já fica ativo por 12 meses, mas outros veículos dizem que a função ainda está em testes. Não foi possível abrir a página de suporte do CNJ para tirar a dúvida; essa divergência não está resolvida.",
+  "Se há comunicado novo do CNJ em novembro. A busca só trouxe o acordo e o manual de maio e junho; a notícia de 9 de novembro parece ser repercussão desse material, o que não foi confirmado.",
+  "Quantas pessoas ou ordens já foram atingidas pelas regras do piloto. Esse número não foi divulgado nas fontes consultadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você não tem processo de cobrança na Justiça, nada muda. Dívida atrasada sozinha não leva a bloqueio de conta.",
+  "Se você é réu numa execução (cobrança judicial de dívida), a ordem do juiz pode chegar ao banco mais rápido. O novo modelo prevê envio duas vezes ao dia, segundo reportagens.",
+  "Quando a ordem de 12 meses estiver valendo, dinheiro que entrar na conta depois da decisão pode ser bloqueado, até o limite da dívida. Hoje, segundo o CNJ citado por veículos, essa função ainda está em testes.",
+  "O bloqueio vale até o valor da dívida na ordem. A ordem pode acabar antes se o juiz cancelar ou se a dívida for paga.",
+  "Se você recebeu aviso de bloqueio, procure o advogado do processo ou a Defensoria Pública. Eles podem checar se o valor bloqueado pode ser protegido, como salário."
+ ],
+ "como_se_proteger": [],
+ "slug": "bloqueio-de-conta-por-12-meses",
+ "publicado_em": "2026-11-10T13:17:27.009737",
+ "atualizado_em": "2026-11-10T13:17:27.009737",
+ "assunto": "Justiça atualiza o Sisbajud, sistema que bloqueia dinheiro de devedores em contas bancárias, com Nubank, Itaú, Caixa, Banco do Brasil e XP na implantação; nova função permite manter ordens de bloqueio ativas por até 12 meses (notícia de 09/11/2026).",
+ "turno": "tarde"
+}
