@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Sua parcela não deve ficar mais barata agora: a Selic parou em 13,75%.",
+  "na_tela": "Sua parcela não fica mais barata",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "Sua parcela não deve ficar mais barata agora: a Selic parou em 13,75%.",
+   "na_tela": "Sua parcela não fica mais barata",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Cinco cortes seguidos, e o Copom apertou o pause na Selic.",
+   "na_tela": "Cinco cortes. Depois, pausa.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Ata do Copom nesta terça, às 8h: o que ela muda no seu bolso?",
+   "na_tela": "Ata do Copom: o que muda?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Sua parcela não deve ficar mais barata agora: a Selic parou em 13,75%.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: em 4 de novembro, o Copom manteve a Selic em 13,75%.",
+  "Foi por unanimidade, e parou uma sequência de cinco cortes seguidos.",
+  "A Selic é o preço do dinheiro: em financiamento ligado a ela, o alívio atrasa.",
+  "A ata sai nesta terça, às 8h, e detalha os argumentos do comitê.",
+  "Mas calma: ata não é votação. A Selic segue em 13,75% até 9 de dezembro.",
+  "Eu fui atrás, mas o texto da ata ainda não aparecia nas fontes.",
+  "Passo simples: confira a ata no site do Banco Central.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Sua parcela não deve ficar mais barata agora: a Selic parou em 13,75%. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: em 4 de novembro, o Copom manteve a Selic em 13,75%. Foi por unanimidade, e parou uma sequência de cinco cortes seguidos. A Selic é o preço do dinheiro: em financiamento ligado a ela, o alívio atrasa. A ata sai nesta terça, às 8h, e detalha os argumentos do comitê. Mas calma: ata não é votação. A Selic segue em 13,75% até 9 de dezembro. Eu fui atrás, mas o texto da ata ainda não aparecia nas fontes. Passo simples: confira a ata no site do Banco Central. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 137,
+ "segundos": 55,
+ "na_tela": [
+  {
+   "texto": "Sua parcela não fica mais barata",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 3,
+   "texto": "Cinco cortes seguidos interrompidos",
+   "fonte": "Sou Brasília"
+  },
+  {
+   "fala": 5,
+   "texto": "Ata: terça, 10/11, às 8h",
+   "fonte": "Rankia"
+  },
+  {
+   "fala": 6,
+   "texto": "Próxima decisão: 9 de dezembro",
+   "fonte": "Rankia"
+  },
+  {
+   "fala": 7,
+   "texto": "Texto completo: não confirmado",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Confira no site do Banco Central",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 6,
+ "busca": "ata do Copom e Selic em 13,75%: o que muda no meu bolso",
+ "legenda": "Ata do Copom e Selic em 13,75%: o que muda no seu bolso?\n\nEm 4 de novembro, o Copom manteve a Selic em 13,75% ao ano, por unanimidade, e interrompeu uma sequência de cinco cortes seguidos. Quem tem financiamento ou empréstimo ligado à Selic não deve ver a parcela ficar mais barata agora.\n\nA ata sai nesta terça, às 8h. Ela detalha os argumentos do comitê e não é uma nova votação. A próxima decisão está marcada para 9 de dezembro.\n\nO que a ata diz sobre os próximos passos ainda não foi confirmado nas fontes que consultamos. Confira o texto no site do Banco Central.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#selic #copom #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#selic",
+  "#copom",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Selic parada em 13,75%: sua parcela não deve ficar mais barata.",
+  "topicos": [
+   "Copom manteve a Selic em 13,75% em 4 de novembro, por unanimidade.",
+   "A ata sai terça, às 8h, segundo a Rankia, e não é nova votação.",
+   "O texto da ata ainda não aparecia nas fontes; próxima decisão, 9 de dezembro.",
+   "Confira a ata no site do Banco Central, com calma."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e datas, e o texto da ata ainda não está confirmado, então pede calma de bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Na frase \"A Selic é o preço do dinheiro: em financiamento ligado a ela, o alívio atrasa.\": falta uma comparação viva do dia a dia (voz e temperamento sanguíneo). Reescreva com uma imagem de bolso, por exemplo ligando a Selic ao preço que o banco cobra para emprestar, como o preço de um produto no mercado, sem acrescentar número novo. Se der, diga em uma frase o que \"financiamento ligado à Selic\" quer dizer na prática.",
+   "Na frase \"Olha só: em 4 de novembro, o Copom manteve a Selic em 13,75%.\": \"Copom\" e \"unanimidade\" entram sem tradução. Traduza na mesma frase, por exemplo \"o Copom, o comitê do Banco Central que decide os juros\", para o público que acha notícia de economia outra língua.",
+   "Na frase \"Mas calma: ata não é votação.\": está certo e acolhedor, mas \"ata\" nunca é explicada. Reescreva como \"a ata é o resumo escrito de por que o comitê decidiu assim\", para o espectador entender o que está checando no site do Banco Central."
+  ],
+  "veredito": "A peça acerta ao responder \\\"isso mexe no meu bolso?\\\" logo no gancho, com fonte, data, o que ainda não se sabe e um passo simples; falta só traduzir \\\"Copom\\\" e \\\"ata\\\" e trazer uma comparação viva do dia a dia para deixar a voz mais popular."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in along a long polished wooden boardroom table in an empty modern meeting room, leather chairs lined up, glass water pitchers and blank notepads, soft daylight through tall windows, no people, no text, no logos, cinematic realism",
+   "texto_da_fala": "Olha só: em 4 de novembro, o Copom manteve a Selic em 13,75%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a long polished wooden boardroom table in an empty modern meeting room, leather chairs lined up, glass water pitchers and blank notepads, soft daylight through tall windows, no people, no text, no logos, cinematic realism. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Close-up macro shot on a wooden desk: a set of house keys and a small miniature model house next to a blank unmarked contract folder, a calculator out of focus. Camera slowly slides left to right with shallow depth of field, warm window light, no people, no text, no numbers, no logos",
+   "texto_da_fala": "A Selic é o preço do dinheiro: em financiamento ligado a ela, o alívio atrasa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up macro shot on a wooden desk: a set of house keys and a small miniature model house next to a blank unmarked contract folder, a calculator out of focus. Camera slowly slides left to right with shallow depth of field, warm window light, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Early-morning light over a tidy office desk, a stack of blank white pages sliding out of a printer in the foreground, a coffee cup steaming beside it. Camera slowly pushes in and tilts down toward the pages, no people, no readable text, no numbers, no logos",
+   "texto_da_fala": "A ata sai nesta terça, às 8h, e detalha os argumentos do comitê.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Early-morning light over a tidy office desk, a stack of blank white pages sliding out of a printer in the foreground, a coffee cup steaming beside it. Camera slowly pushes in and tilts down toward the pages, no people, no readable text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Sua parcela não deve ficar mais barata agora: a Selic parou em 13,75%.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: em 4 de novembro, o Copom manteve a Selic em 13,75%.\n\nFoi por unanimidade, e parou uma sequência de cinco cortes seguidos.\n\nA Selic é o preço do dinheiro: em financiamento ligado a ela, o alívio atrasa.\n\nA ata sai nesta terça, às 8h, e detalha os argumentos do comitê.\n\nMas calma: ata não é votação. A Selic segue em 13,75% até 9 de dezembro.\n\nEu fui atrás, mas o texto da ata ainda não aparecia nas fontes.\n\nPasso simples: confira a ata no site do Banco Central.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/copom-pode-encerrar-ciclo-de-cortes-na-selic-hoje-como-ficam-os-seus-investimentos/",
+   "destaque": "Antes da reunião, o mercado dividia-se entre corte e pausa."
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T08:01:47.887935-03:00"
+}
