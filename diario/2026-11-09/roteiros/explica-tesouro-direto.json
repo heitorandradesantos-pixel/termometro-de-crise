@@ -1,0 +1,175 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Quanto o governo te paga para pegar seu dinheiro emprestado?",
+  "na_tela": "Quanto o governo te paga?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 1
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto o governo te paga para pegar seu dinheiro emprestado?",
+   "na_tela": "Quanto o governo te paga?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois (contraste de números)",
+   "texto": "A Selic está em 13,75%. A poupança, perto de 6,17%.",
+   "na_tela": "Selic 13,75% x poupança 6,17%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu dinheiro na poupança rende menos da metade da Selic.",
+   "na_tela": "Poupança: menos da metade da Selic",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Quanto o governo te paga para pegar seu dinheiro emprestado?",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Comprar título do Tesouro Direto é emprestar dinheiro ao governo federal.",
+  "Ele devolve o valor com juros. Você virou o banco.",
+  "O Tesouro Selic paga a Selic, o juro básico do país, que está em 13,75%.",
+  "Segundo o Santander, a poupança rende cerca de 6,17% ao ano, sem a TR.",
+  "Mas calma: essa conta é bruta, antes de imposto e de taxa da corretora.",
+  "É como vender o carro: vale o preço do dia, nem sempre o que pagou.",
+  "Antes de comparar, veja a taxa do dia no site do Tesouro Direto.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Quanto o governo te paga para pegar seu dinheiro emprestado? Fala, galera, aqui é o Heitor, do Termômetro de Crise. Comprar título do Tesouro Direto é emprestar dinheiro ao governo federal. Ele devolve o valor com juros. Você virou o banco. O Tesouro Selic paga a Selic, o juro básico do país, que está em 13,75%. Segundo o Santander, a poupança rende cerca de 6,17% ao ano, sem a TR. Mas calma: essa conta é bruta, antes de imposto e de taxa da corretora. É como vender o carro: vale o preço do dia, nem sempre o que pagou. Antes de comparar, veja a taxa do dia no site do Tesouro Direto. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 136,
+ "segundos": 54,
+ "na_tela": [
+  {
+   "texto": "Quanto o governo te paga?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Tesouro Direto = emprestar ao governo",
+   "fonte": "Tesouro Nacional"
+  },
+  {
+   "fala": 4,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Poupança: cerca de 6,17% ao ano (sem a TR)",
+   "fonte": "Santander"
+  },
+  {
+   "fala": 6,
+   "texto": "Taxa BRUTA: antes de imposto",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 7,
+   "texto": "Resgate antes: preço de mercado do dia",
+   "fonte": "Tesouro Nacional"
+  }
+ ],
+ "retomada": 6,
+ "busca": "Tesouro Direto ou poupança: o que rende mais?",
+ "legenda": "Tesouro Direto ou poupança: o que rende mais?\n\nComprar título do Tesouro Direto é emprestar dinheiro ao governo federal, que devolve o valor com juros. Com a Selic em 13,75% ao ano, o Tesouro Selic paga a Selic. Segundo o Santander, a poupança rende cerca de 6,17% ao ano, sem contar a TR.\n\nAtenção: a comparação é de taxas brutas, antes de imposto e de taxa de corretora. E, se resgatar antes do vencimento, você recebe o preço de mercado do dia.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#tesourodireto #poupanca #selic #educacaofinanceira",
+ "hashtags": [
+  "#tesourodireto",
+  "#poupanca",
+  "#selic",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Quanto o governo te paga para pegar seu dinheiro emprestado?",
+  "topicos": [
+   "Tesouro Selic paga a Selic, que o Copom manteve em 13,75% ao ano.",
+   "Segundo o Santander, a poupança rende cerca de 6,17% ao ano, sem a TR.",
+   "Taxas brutas, antes de imposto; resgate antes do vencimento paga o preço do dia.",
+   "Antes de comparar, veja imposto, taxa de corretora e a taxa do dia."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com comparação de números e ressalvas, que pede calma e prova na tela, não notícia quente.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 10,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [],
+  "veredito": "A peça abre com a pergunta de bolso, traduz Selic e título com a imagem do \"você virou o banco\", dá o número com fonte e a ressalva de que é taxa bruta, usa a comparação do carro, fecha com um passo simples e traz o aviso e o bordão da casa; não falta nada relevante."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow upward tilt along the white curved concrete facade of a modern government building in Brasilia at golden hour, clear blue sky, no flags, no signs, no text, no people in focus. Smooth cinematic crane movement, soft warm light",
+   "texto_da_fala": "Comprar título do Tesouro Direto é emprestar dinheiro ao governo federal.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the white curved concrete facade of a modern government building in Brasilia at golden hour, clear blue sky, no flags, no signs, no text, no people in focus. Smooth cinematic crane movement, soft warm light. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Macro close-up of a neat stack of gold coins on a dark wooden table. The camera slowly dollies sideways while a few coins at the top slide off the stack one by one and disappear out of frame, leaving a smaller stack. Soft side lighting, shallow depth of field, no text, no numbers, no symbols, no people",
+   "texto_da_fala": "Mas calma: essa conta é bruta, antes de imposto e de taxa da corretora.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up of a neat stack of gold coins on a dark wooden table. The camera slowly dollies sideways while a few coins at the top slide off the stack one by one and disappear out of frame, leaving a smaller stack. Soft side lighting, shallow depth of field, no text, no numbers, no symbols, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "A silver used hatchback parked in a sunlit used car lot, no license plate, no logos, no badges, no signs. The camera slowly orbits around the car, with a row of other cars blurred in the background and warm late afternoon light. No people, no text",
+   "texto_da_fala": "É como vender o carro: vale o preço do dia, nem sempre o que pagou.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A silver used hatchback parked in a sunlit used car lot, no license plate, no logos, no badges, no signs. The camera slowly orbits around the car, with a row of other cars blurred in the background and warm late afternoon light. No people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Quanto o governo te paga para pegar seu dinheiro emprestado?\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nComprar título do Tesouro Direto é emprestar dinheiro ao governo federal.\n\nEle devolve o valor com juros. Você virou o banco.\n\nO Tesouro Selic paga a Selic, o juro básico do país, que está em 13,75%.\n\nSegundo o Santander, a poupança rende cerca de 6,17% ao ano, sem a TR.\n\nMas calma: essa conta é bruta, antes de imposto e de taxa da corretora.\n\nÉ como vender o carro: vale o preço do dia, nem sempre o que pagou.\n\nAntes de comparar, veja a taxa do dia no site do Tesouro Direto.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Tesouro Nacional (gov.br)",
+   "url": "https://www.gov.br/tesouronacional/pt-br/noticias/tesouro-direto-passa-a-ter-resgate-no-mesmo-dia",
+   "destaque": "O Tesouro Direto é o programa do Tesouro Nacional, feito com a B3 (a bolsa), que vende títulos públicos federais a pessoas físicas, 100%…"
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-09112026/",
+   "destaque": "Em 9/11, as taxas do Tesouro Direto abriram em queda em todos os vencimentos, no primeiro pregão depois do pronunciamento em rede nacional…"
+  }
+ ],
+ "data": "2026-11-09",
+ "gerado_em": "2026-11-09T21:04:46.323899-03:00"
+}
