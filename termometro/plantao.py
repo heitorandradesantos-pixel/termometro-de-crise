@@ -136,7 +136,7 @@ def ferramenta_pauta() -> dict:
 def ferramenta_artigo() -> dict:
     fato = {"type": "object", "required": ["texto", "fonte_url", "data"], "properties": {
         "texto": {"type": "string"}, "fonte_url": {"type": "string"}, "veiculo": {"type": "string"},
-        "data": {"type": "string", "description": "AAAA-MM-DD do acontecimento"}}}
+        "data": {"type": "string", "description": "AAAA-MM-DD em que o fato aconteceu ou foi noticiado (nunca no futuro; uma data futura, como a entrada em vigor de uma lei, vai no texto do fato)"}}}
     return {"name": "registrar_artigo_plantao", "description": "A notícia pronta, com cada fato ligado à fonte.",
             "input_schema": {"type": "object", "required": [
                 "titulo", "descricao", "palavra_chave", "lead", "o_que_se_sabe", "o_que_nao_se_sabe",
