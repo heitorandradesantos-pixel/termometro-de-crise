@@ -1,0 +1,106 @@
+{
+ "titulo": "Quanto rende de verdade R$ 1.000: poupança x Tesouro Selic",
+ "descricao": "Com inflação de 4,58%, R$ 1.000 na poupança rendem cerca de R$ 37 acima dos preços em 1 ano; no Tesouro Selic, cerca de R$ 69. Veja a conta.",
+ "palavra_chave": "quanto rende r$ 1.000 depois da inflação",
+ "lead": "Com a Selic (juro básico) em 13,75% e a inflação em 4,58% em 12 meses, R$ 1.000 deixados por um ano viram cerca de R$ 1.082,50 na poupança e R$ 1.114,40 no Tesouro Selic 2031, já com Imposto de Renda. Descontada a inflação, sobram cerca de R$ 36,70 na poupança e R$ 68,60 no Tesouro Selic. O Banco Central manteve a Selic em 4 de novembro. A conta é estimativa do Termômetro, serve como informação e não é recomendação.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Copom, comitê do Banco Central, manteve a Selic em 13,75% ao ano em 4 de novembro. A decisão foi unânime e interrompeu uma sequência de cinco cortes.",
+   "fonte_url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+   "data": "2026-11-04",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Com a Selic acima de 8,5% ao ano, como agora, a poupança rende 0,5% ao mês mais a TR (Taxa Referencial, índice que fica perto de zero).",
+   "fonte_url": "https://www.santander.com.br/blog/poupanca",
+   "data": "2026-11-09",
+   "veiculo": "Blog Santander",
+   "confiavel": false
+  },
+  {
+   "texto": "A poupança acumula cerca de 8,25% em 12 meses até o crédito de novembro, em página que usa dados do Banco Central. Em R$ 1.000, são cerca de R$ 82,50.",
+   "fonte_url": "https://brasilindicadores.com.br/poupanca/",
+   "data": "2026-11-01",
+   "veiculo": "Brasil Indicadores (dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "O rendimento da poupança é isento de Imposto de Renda, segundo material que cita a regra do Banco Central.",
+   "fonte_url": "https://www.patrimo.app/blog/copom-novembro-2026-o-que-esperar-selic",
+   "data": "2026-11-09",
+   "veiculo": "Patrimo",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro Selic 2031 rende a Selic mais 0,1064% ao ano. É um título do governo cujo ganho acompanha o juro básico.",
+   "fonte_url": "https://investnews.com.br/investimentos/tesouro-direto-taxas-rendimento-hoje-leve-alta-06112026/",
+   "data": "2026-11-06",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "A rentabilidade bruta estimada do Tesouro Selic 2031 é de 13,87% ao ano, antes do Imposto de Renda. Em R$ 1.000, são cerca de R$ 138,67 em um ano.",
+   "fonte_url": "https://investidor10.com.br/tesouro-direto/tesouro-selic-2031/",
+   "data": "2026-11-09",
+   "veiculo": "Investidor10",
+   "confiavel": false
+  },
+  {
+   "texto": "No Tesouro Direto, o Imposto de Renda cai com o tempo: 22,5% até 180 dias, 20% de 181 a 360 dias, 17,5% de 361 a 720 dias e 15% depois disso.",
+   "fonte_url": "https://www.analistas.com.br/tesouro-direto",
+   "data": "2026-10-26",
+   "veiculo": "Analistas.com.br",
+   "confiavel": false
+  },
+  {
+   "texto": "O IPCA, a inflação oficial medida pelo IBGE, acumula 4,58% em 12 meses até setembro.",
+   "fonte_url": "https://www.ibge.gov.br/indicadores.html",
+   "data": "2026-09-30",
+   "veiculo": "IBGE",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O IBGE divulgou o IPCA-15 de outubro: alta de 0,32% no mês e 4,62% em 12 meses.",
+   "fonte_url": "https://www.infomoney.com.br/economia/ipca-15-previa-inflacao-ibge-outubro-2026/",
+   "data": "2026-10-23",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom manteve a Selic em 13,75% ao ano.",
+   "fonte_url": "https://www.bcb.gov.br/en",
+   "data": "2026-11-04",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Tesouro Selic 2031 seguia com taxa de Selic mais 0,1064% ao ano.",
+   "fonte_url": "https://investnews.com.br/investimentos/tesouro-direto-taxas-rendimento-hoje-leve-alta-06112026/",
+   "data": "2026-11-06",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Qual será a inflação dos próximos 12 meses. Os 4,58% são do passado, até setembro. O IBGE tem previsão de divulgar o IPCA de outubro em 12 de novembro.",
+  "Se a Selic ficará em 13,75%. O Copom decidiu apenas manter a taxa em 4 de novembro. O Tesouro Selic muda junto com a Selic. A poupança não muda enquanto a Selic estiver acima de 8,5%.",
+  "O rendimento exato da poupança nos próximos meses. Ele depende da TR, e os portais divergem para novembro (0,62%, 0,63% e 0,67% ao mês). Isso daria entre cerca de R$ 77 e R$ 83 em um ano. O intervalo é cálculo do Termômetro, não confirmado pelo Banco Central.",
+  "Os números vieram de portais que citam dados do Banco Central e do Tesouro Direto. Não consultamos as páginas oficiais. Confirme na calculadora do cidadão do Banco Central e no simulador do Tesouro Direto.",
+  "A conta do Tesouro Selic não inclui a taxa de custódia da B3 (0,20% ao ano, segundo um simulador). Não foi possível confirmar em fonte oficial se ela vale para o seu valor."
+ ],
+ "o_que_muda_para_voce": [
+  "Poupança: R$ 1.000 no ritmo dos últimos 12 meses (8,25%) viram R$ 1.082,50, sem Imposto de Renda. Para só acompanhar a inflação de 4,58%, seriam necessários R$ 1.045,80. Sobram cerca de R$ 36,70 (3,5% acima dos preços).",
+  "Tesouro Selic 2031: o ganho bruto estimado é de R$ 138,67. Com resgate após 361 dias, o Imposto de Renda de 17,5% tira cerca de R$ 24,27. Ficam R$ 1.114,40, ou cerca de R$ 68,60 acima da inflação (6,6%).",
+  "Nessa conta, a diferença é de cerca de R$ 32 a favor do Tesouro Selic. Ela muda se a Selic, a inflação ou a TR mudarem, ou se houver taxas extras. É informação, não recomendação.",
+  "Se o Copom cortar a Selic, o Tesouro Selic passa a render menos. A poupança só muda se a Selic cair a 8,5% ao ano ou menos."
+ ],
+ "como_se_proteger": [],
+ "slug": "quanto-rende-r$-1.000-depois-da-inflacao",
+ "publicado_em": "2026-11-09T21:07:05.551780",
+ "atualizado_em": "2026-11-09T21:07:05.551780",
+ "assunto": "Quanto o seu dinheiro rende de verdade depois da inflação: poupança x título público do Tesouro, em reais, o que sobra de R$ 1.000 em um ano (fontes Banco Central e Tesouro, informação e não recomendação)",
+ "turno": "noite"
+}
