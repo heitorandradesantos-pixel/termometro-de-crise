@@ -1,0 +1,181 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?",
+  "na_tela": "R$ 6,49 bilhões numa MP",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?",
+   "na_tela": "R$ 6,49 bilhões numa MP",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio, com virada",
+   "texto": "A MP 1.397 já vale como lei, mas pode perder a validade.",
+   "na_tela": "MP vale já, mas pode caducar",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Bilhões em crédito extraordinário mexem no seu bolso por um caminho pouco visto.",
+   "na_tela": "Bilhões extras no seu bolso?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: a medida provisória já vale como lei desde que sai.",
+  "A mais recente, a 1.397, abriu R$ 6,49 bilhões em crédito extraordinário.",
+  "É verba extra para imprevisto, tipo pneu furado no meio do mês.",
+  "Esse dinheiro não cai na sua conta: ele libera verba para programas.",
+  "Mas olha o detalhe: toda MP tem prazo, de até 120 dias.",
+  "Se o Congresso não votar nesse tempo, ela perde a validade.",
+  "Ainda não se sabe se a 1.397 passa até 19 de dezembro.",
+  "Passo calmo: confira a MP do seu programa no site do Congresso.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta? Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: a medida provisória já vale como lei desde que sai. A mais recente, a 1.397, abriu R$ 6,49 bilhões em crédito extraordinário. É verba extra para imprevisto, tipo pneu furado no meio do mês. Esse dinheiro não cai na sua conta: ele libera verba para programas. Mas olha o detalhe: toda MP tem prazo, de até 120 dias. Se o Congresso não votar nesse tempo, ela perde a validade. Ainda não se sabe se a 1.397 passa até 19 de dezembro. Passo calmo: confira a MP do seu programa no site do Congresso. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 140,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "R$ 6,49 bilhões numa MP",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 6,49 bilhões numa MP",
+   "fonte": "Congresso Nacional"
+  },
+  {
+   "fala": 3,
+   "texto": "MP 1.397: R$ 6,49 bilhões",
+   "fonte": "Congresso Nacional"
+  },
+  {
+   "fala": 5,
+   "texto": "Libera verba, não deposita",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Prazo: até 120 dias",
+   "fonte": "Portal da Câmara dos Deputados"
+  },
+  {
+   "fala": 8,
+   "texto": "Prazo no Congresso: 19 de dezembro",
+   "fonte": "Congresso Nacional"
+  },
+  {
+   "fala": 9,
+   "texto": "Confira no site do Congresso",
+   "fonte": "Congresso Nacional"
+  }
+ ],
+ "retomada": 6,
+ "busca": "medida provisória o que é e o que muda no seu bolso",
+ "legenda": "Medida provisória: o que é e o que muda no seu bolso?\n\nSegundo o Congresso Nacional, a MP 1.397 abriu R$ 6,49 bilhões em crédito extraordinário, que é verba extra para despesas urgentes. Esse dinheiro não cai na sua conta: ele libera recursos para programas, como o apoio a exportadores.\n\nUma MP vale como lei desde a publicação, mas pode perder a validade se o Congresso não votar em até 120 dias. O prazo da 1.397 vai até 19 de dezembro, e ainda não se sabe se ela será votada.\n\nO passo calmo: confira a situação da MP do seu programa na página do Congresso Nacional.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#medidaprovisoria #orcamento #economiaparaleigos #termometrodecrise",
+ "hashtags": [
+  "#medidaprovisoria",
+  "#orcamento",
+  "#economiaparaleigos",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "MP nova abriu R$ 6,49 bilhões. Isso cai na sua conta?",
+  "topicos": [
+   "Segundo o Congresso Nacional, a MP 1.397 abriu R$ 6,49 bilhões em crédito extraordinário.",
+   "É verba para programas, como apoio a exportadores; não cai na sua conta.",
+   "Segundo a Câmara, a MP vale até 120 dias; sem votação, perde a validade.",
+   "Confira a situação da MP do seu programa na página do Congresso Nacional."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um explicador de conceito (MP, crédito extraordinário, prazo), não uma notícia quente do dia, então pede a calma da bancada com a prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 10,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [],
+  "veredito": "A peça responde direto à pergunta de bolso (\"cai na minha conta?\"), traduz crédito extraordinário com a comparação do pneu furado, cita o prazo e o que ainda não se sabe, dá um passo calmo e fecha com os bordões da casa, sem alarmismo; não falta nada relevante."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "A small hatchback parked on the shoulder of a quiet city avenue at golden hour, its rear tire visibly flat against the asphalt. Camera starts in a low close-up on the deflated tire and slowly dollies back and up to reveal the whole car with its hazard lights blinking. No people, no text, no license plate visible",
+   "texto_da_fala": "É verba extra para imprevisto, tipo pneu furado no meio do mês.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A small hatchback parked on the shoulder of a quiet city avenue at golden hour, its rear tire visibly flat against the asphalt. Camera starts in a low close-up on the deflated tire and slowly dollies back and up to reveal the whole car with its hazard lights blinking. No people, no text, no license plate visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Inside a bright public school kitchen, steel shelves being stocked with sacks of rice, beans and crates of fruit, all packaging plain and unbranded. Camera glides slowly sideways along the shelves in a smooth tracking shot, warm natural light from a window. No people in focus, no text, no logos",
+   "texto_da_fala": "Esse dinheiro não cai na sua conta: ele libera verba para programas.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Inside a bright public school kitchen, steel shelves being stocked with sacks of rice, beans and crates of fruit, all packaging plain and unbranded. Camera glides slowly sideways along the shelves in a smooth tracking shot, warm natural light from a window. No people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Macro shot on a wooden desk of an old hourglass with the last grains of sand running down, a stack of blank unmarked papers blurred behind it. Camera slowly pushes in toward the hourglass while the background softly shifts focus to the empty curved rows of a large legislative chamber. No people, no text, no flags, no logos",
+   "texto_da_fala": "Se o Congresso não votar nesse tempo, ela perde a validade.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot on a wooden desk of an old hourglass with the last grains of sand running down, a stack of blank unmarked papers blurred behind it. Camera slowly pushes in toward the hourglass while the background softly shifts focus to the empty curved rows of a large legislative chamber. No people, no text, no flags, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: a medida provisória já vale como lei desde que sai.\n\nA mais recente, a 1.397, abriu R$ 6,49 bilhões em crédito extraordinário.\n\nÉ verba extra para imprevisto, tipo pneu furado no meio do mês.\n\nEsse dinheiro não cai na sua conta: ele libera verba para programas.\n\nMas olha o detalhe: toda MP tem prazo, de até 120 dias.\n\nSe o Congresso não votar nesse tempo, ela perde a validade.\n\nAinda não se sabe se a 1.397 passa até 19 de dezembro.\n\nPasso calmo: confira a MP do seu programa no site do Congresso.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidades-transportes-e-fazenda-lideram-desbloqueio-do-orcamento",
+   "destaque": "Em 30 de julho, um decreto detalhou os limites de gasto por ministério e liberou R$ 5,7 bilhões."
+  },
+  {
+   "veiculo": "Ministério do Planejamento e Orçamento",
+   "url": "https://www.gov.br/planejamento/pt-br/assuntos/noticias-defeso-eleitoral-2026/governo-reduz-contencao-total-das-despesas-em-2026-para-r-16-1-bilhoes",
+   "destaque": "Em 24 de setembro, o governo reduziu a contenção total de despesas para R$ 16,1 bilhões: R$ 2,4 bilhões em bloqueio e R$ 13,6 bilhões em…"
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T18:43:59.835508-03:00"
+}
