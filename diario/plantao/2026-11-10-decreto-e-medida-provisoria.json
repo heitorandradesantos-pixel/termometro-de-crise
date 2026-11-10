@@ -1,0 +1,127 @@
+{
+ "titulo": "Decreto e medida provisória no seu bolso: o que se sabe",
+ "descricao": "Medida provisória abre crédito e decreto trava ou libera gastos. Veja como isso chega a benefícios, crédito e contas públicas, com dados de 2026.",
+ "palavra_chave": "decreto e medida provisória",
+ "lead": "O governo usa dois instrumentos para mexer no gasto: a medida provisória (MP), que já vale como lei, e o decreto, que define quanto cada ministério pode gastar. Em 2026, MPs abriram bilhões em crédito extraordinário, dinheiro extra para despesas urgentes. Já os decretos e relatórios bimestrais seguraram ou liberaram parte do Orçamento. A MP mais recente é a 1.397, publicada em 21 de outubro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A MP 1.397 abriu, em 21 de outubro, R$ 6,49 bilhões em crédito extraordinário (recursos para despesas urgentes e imprevisíveis) para o Fundo de Garantia à Exportação, que financia exportadores e seus fornecedores no Plano Brasil Soberano. O Senado a ligou a empresas afetadas por tarifas dos EUA. O prazo no Congresso vai até 19 de dezembro.",
+   "fonte_url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/176004",
+   "data": "2026-10-21",
+   "veiculo": "Congresso Nacional",
+   "confiavel": false
+  },
+  {
+   "texto": "A MP 1.389, de 9 de setembro, abriu R$ 6,605 bilhões em crédito extraordinário para o Ministério de Minas e Energia, para subsídios à produção e à importação de combustíveis derivados do petróleo. Ninguém apresentou emendas, segundo a página da MP no Congresso.",
+   "fonte_url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175758",
+   "data": "2026-09-09",
+   "veiculo": "Congresso Nacional",
+   "confiavel": false
+  },
+  {
+   "texto": "A MP 1.385, de 13 de agosto, abriu R$ 3,5 bilhões no Orçamento de 2026 para programas de crédito, inclusive habitacional, em condições melhores do que as do mercado, segundo a Agência Câmara.",
+   "fonte_url": "https://www.camara.leg.br/noticias/1297638-medida-provisoria-amplia-recursos-para-programas-federais-de-credito",
+   "data": "2026-08-13",
+   "veiculo": "Agência Câmara de Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "A MP 1.362, de 25 de maio, abriu R$ 30 bilhões em crédito extraordinário para operações oficiais de crédito. A página do Congresso a descreve como financiamento para compra de táxis e carros de aplicativo pelo programa Move Brasil.",
+   "fonte_url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/174301",
+   "data": "2026-05-25",
+   "veiculo": "Congresso Nacional",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 22 de maio, o relatório bimestral elevou o bloqueio do Orçamento de 2026 para R$ 23,7 bilhões. Bloqueio é a trava em gastos não obrigatórios para respeitar o limite do arcabouço fiscal. Segundo o relatório, a estimativa do BPC subiu R$ 14,1 bilhões e a de benefícios da Previdência subiu R$ 11,5 bilhões.",
+   "fonte_url": "https://www.diariodepernambuco.com.br/economia/2026/05/11714798-governo-bloqueia-rs-221-bilhoes-do-orcamento-de-2026.html",
+   "data": "2026-05-22",
+   "veiculo": "Diário de Pernambuco",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 30 de julho, um decreto detalhou os limites de gasto por ministério e liberou R$ 5,7 bilhões. O bloqueio caiu de R$ 23,679 bilhões para R$ 17,937 bilhões. Pela lei, o decreto sai oito dias depois do envio do relatório bimestral ao Congresso.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidades-transportes-e-fazenda-lideram-desbloqueio-do-orcamento",
+   "data": "2026-07-30",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 24 de setembro, o governo reduziu a contenção total de despesas para R$ 16,1 bilhões: R$ 2,4 bilhões em bloqueio e R$ 13,6 bilhões em contingenciamento (retenção para cumprir o limite inferior da meta de resultado primário, que é zero). Segundo o Ministério do Planejamento, os números incorporam o reajuste do Bolsa Família e subsídios ao diesel.",
+   "fonte_url": "https://www.gov.br/planejamento/pt-br/assuntos/noticias-defeso-eleitoral-2026/governo-reduz-contencao-total-das-despesas-em-2026-para-r-16-1-bilhoes",
+   "data": "2026-09-24",
+   "veiculo": "Ministério do Planejamento e Orçamento",
+   "confiavel": true
+  },
+  {
+   "texto": "Regra da MP: o presidente a publica em caso de relevância e urgência, e ela tem força de lei desde a edição. Vale por até 120 dias. Se a Câmara e o Senado não a aprovarem nesse prazo, ou se a rejeitarem, ela perde a validade. A data é a da consulta à página.",
+   "fonte_url": "https://www.camara.leg.br/entenda-o-processo-legislativo/",
+   "data": "2026-11-10",
+   "veiculo": "Portal da Câmara dos Deputados",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Relatório bimestral amplia o bloqueio do Orçamento para R$ 23,7 bilhões.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/governo-bloqueia-r-221-bi-do-orcamento-de-2026",
+   "data": "2026-05-22",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "MP 1.362 abre R$ 30 bilhões em crédito para o Move Brasil (táxis e carros de aplicativo).",
+   "fonte_url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/174301",
+   "data": "2026-05-25",
+   "veiculo": "Congresso Nacional",
+   "confiavel": false
+  },
+  {
+   "texto": "Decreto detalha os limites por ministério e libera R$ 5,7 bilhões; o bloqueio cai para R$ 17,937 bilhões.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidades-transportes-e-fazenda-lideram-desbloqueio-do-orcamento",
+   "data": "2026-07-30",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "MP 1.385 abre R$ 3,5 bilhões para programas de crédito, inclusive habitacional.",
+   "fonte_url": "https://www.camara.leg.br/noticias/1297638-medida-provisoria-amplia-recursos-para-programas-federais-de-credito",
+   "data": "2026-08-13",
+   "veiculo": "Agência Câmara de Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "MP 1.389 abre R$ 6,605 bilhões para subsídios a combustíveis; relatório de 24/09 reduz a contenção total a R$ 16,1 bilhões.",
+   "fonte_url": "https://www.gov.br/planejamento/pt-br/assuntos/noticias-defeso-eleitoral-2026/governo-reduz-contencao-total-das-despesas-em-2026-para-r-16-1-bilhoes",
+   "data": "2026-09-24",
+   "veiculo": "Ministério do Planejamento e Orçamento",
+   "confiavel": true
+  },
+  {
+   "texto": "MP 1.397 abre R$ 6,49 bilhões para o Fundo de Garantia à Exportação.",
+   "fonte_url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/176004",
+   "data": "2026-10-21",
+   "veiculo": "Congresso Nacional",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se a MP 1.397 será votada e aprovada até 19 de dezembro. A página do Congresso mostra só o calendário.",
+  "Não foi confirmado o desfecho da MP 1.389 (subsídio a combustíveis). A página consultada traz prazo de deliberação até 7 de novembro, sem o resultado.",
+  "As fontes consultadas não dizem quantas pessoas ou empresas vão de fato usar as linhas de crédito abertas pelas MPs, nem em quanto tempo.",
+  "Não foi confirmado, nas fontes consultadas, o efeito desses gastos extras sobre juros, dívida pública ou o resultado final das contas de 2026.",
+  "Não foi confirmado quando sairá o próximo relatório bimestral nem se mudará o bloqueio e o contingenciamento atuais."
+ ],
+ "o_que_muda_para_voce": [
+  "Benefícios: BPC, aposentadorias e Bolsa Família são despesas obrigatórias, previstas em lei. O bloqueio, segundo o governo, atinge gastos não obrigatórios, e não o pagamento desses benefícios. O relatório de setembro cita o reajuste do Bolsa Família.",
+  "Crédito: uma MP de crédito extraordinário não deposita dinheiro na sua conta. Ela libera verba para programas como o Move Brasil, o habitacional e o apoio a exportadores. Quem pode contratar e em quais condições depende das regras de cada programa e do banco que opera a linha.",
+  "Contas públicas: cada MP de crédito extraordinário soma bilhões ao gasto do ano. O governo compensa com bloqueio e contingenciamento em outras áreas para cumprir o arcabouço fiscal. Isso pode mudar o ritmo de obras e serviços de ministérios.",
+  "Prazo: uma MP vale desde a publicação, mas pode perder a validade se o Congresso não votar em até 120 dias. Confira a situação da MP do seu programa na página do Congresso Nacional."
+ ],
+ "como_se_proteger": [],
+ "slug": "decreto-e-medida-provisoria",
+ "publicado_em": "2026-11-10T18:42:18.397040",
+ "atualizado_em": "2026-11-10T18:42:18.397040",
+ "assunto": "Decreto e medida provisória: como um anúncio de gasto do governo chega ao seu bolso, nos benefícios, no crédito e nas contas públicas",
+ "turno": "noite"
+}
