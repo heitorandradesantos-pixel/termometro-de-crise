@@ -1,0 +1,31 @@
+# Raio-x do perfil no Instagram para o feedback do editor. Sai criptografado no log (a chave vem no disparo).
+name: Perfil (raio-x)
+on:
+  workflow_dispatch:
+    inputs:
+      chave:
+        description: "chave para criptografar o resultado"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  ler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Ler
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          CHAVE=$(jq -r '.inputs.chave' "$GITHUB_EVENT_PATH")
+          echo "::add-mask::$CHAVE"
+          export CHAVE
+          python -m termometro.perfil
