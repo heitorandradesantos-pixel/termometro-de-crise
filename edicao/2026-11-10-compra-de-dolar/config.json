@@ -1,0 +1,195 @@
+{
+ "saida": "compra-de-dolar-editado.mp4",
+ "fim": 58.2,
+ "bordao": [
+  55.74,
+  58.2
+ ],
+ "destaques": "\\d|%|lula|flávio|assimetria|feeling|whatsapp|susto|perder|preço|precificado",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "roteiro": [
+  "Comprei dólar a R$ 4,98 na sexta antes do segundo turno. Hoje ele tá em R$ 5,59.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "E não foi torcida por candidato. Foi leitura de preço.",
+  "Naquela sexta, o dólar fechou abaixo de R$ 5, com o mercado apostando na vitória do Flávio.",
+  "Ou seja: esse cenário já estava no preço.",
+  "A minha conta foi: se o Flávio ganhasse, o dólar ia cair pouco. Se o Lula ganhasse, podia subir muito.",
+  "Pouco a perder de um lado, muito a ganhar do outro. Isso tem nome: assimetria.",
+  "Deu Lula. E só na diferença do câmbio eu já acumulo mais de 12%.",
+  "Isso é o tal do feeling de mercado: não é adivinhar o futuro, é perceber o que todo mundo já colocou no preço.",
+  "Sem esse feeling, você compra no susto, depois que tudo já subiu.",
+  "E podia ter dado errado. Por isso, só entra com o que você aceita perder.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "de",
+    "alto",
+    "e",
+    "se",
+    "é"
+   ],
+   [
+    "de",
+    "alta.",
+    "Esse",
+    "é"
+   ]
+  ],
+  [
+   [
+    "se",
+    "esse",
+    "feeling"
+   ],
+   [
+    "Sem",
+    "esse",
+    "feeling"
+   ]
+  ],
+  [
+   [
+    "link",
+    "da",
+    "Bill"
+   ],
+   [
+    "link",
+    "da",
+    "bio"
+   ]
+  ],
+  [
+   [
+    "doze",
+    "porcento"
+   ],
+   [
+    "12%"
+   ]
+  ],
+  [
+   [
+    "ganhar",
+    "o",
+    "dólar"
+   ],
+   [
+    "ganhasse",
+    "o",
+    "dólar"
+   ]
+  ],
+  [
+   [
+    "R",
+    "$",
+    "5",
+    ",00"
+   ],
+   [
+    "R$ 5"
+   ]
+  ],
+  [
+   [
+    "R",
+    "$",
+    "4",
+    ",98"
+   ],
+   [
+    "R$ 4,98"
+   ]
+  ],
+  [
+   [
+    "R",
+    "$",
+    "5",
+    ",59"
+   ],
+   [
+    "R$ 5,59"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   4.38,
+   "Comprei dólar a *R$ 4,98* · hoje *R$ 5,59*",
+   ""
+  ],
+  [
+   7.04,
+   10.76,
+   "Não foi torcida: *leitura de preço*",
+   ""
+  ],
+  [
+   10.92,
+   15.42,
+   "Sexta, 23/10: dólar a *R$ 4,99*",
+   "Fonte: O Povo"
+  ],
+  [
+   15.54,
+   18.46,
+   "Mercado apostava em *vitória do Flávio*",
+   "Fonte: Jornal do Comércio"
+  ],
+  [
+   18.56,
+   26.04,
+   "Flávio: dólar cai *pouco* · Lula: sobe *muito*",
+   ""
+  ],
+  [
+   26.46,
+   30.6,
+   "*Assimetria*: pouco a perder, muito a ganhar",
+   ""
+  ],
+  [
+   30.6,
+   35.22,
+   "*+12%* só no câmbio",
+   ""
+  ],
+  [
+   35.22,
+   40.78,
+   "Feeling = ler o que *já está no preço*",
+   ""
+  ],
+  [
+   45.3,
+   49.54,
+   "Só o que você *aceita perder*",
+   ""
+  ],
+  [
+   49.54,
+   52.62,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   52.62,
+   55.74,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}
