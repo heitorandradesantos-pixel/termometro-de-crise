@@ -1,0 +1,113 @@
+{
+ "titulo": "O que é IPO para quem tem pouco para investir: o que se sabe",
+ "descricao": "IPO é a primeira venda de ações de uma empresa ao público. Veja quem sente o efeito e os riscos de entrar numa oferta recém-aberta com pouco dinheiro.",
+ "palavra_chave": "o que é ipo",
+ "lead": "IPO é a primeira vez que uma empresa vende ações ao público e passa a ser negociada na bolsa. No Brasil, a B3 é a bolsa e a CVM fiscaliza a oferta. Em 11 de maio de 2026, o país viu o primeiro IPO desde 2021, e não há garantia de ganho: o preço pode cair logo depois da estreia.",
+ "o_que_se_sabe": [
+  {
+   "texto": "IPO vem do inglês e quer dizer oferta pública inicial: a empresa oferece ações ao público pela primeira vez e passa a ser negociada na bolsa. No Brasil, a bolsa é a B3, e qualquer pessoa pode comprar essas ações por uma corretora depois da abertura.",
+   "fonte_url": "https://blog.ativainvestimentos.com.br/o-que-%C3%A9-ipo-entenda-como-funciona-a-abertura-de-capital-de-uma-empresa",
+   "data": "2026-11-10",
+   "veiculo": "Ativa Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "A oferta pode ser primária, quando o dinheiro vai para a empresa, ou secundária, quando vai para sócios que vendem suas ações. Também pode ser mista. Por isso, quem sente o efeito primeiro é a empresa e os sócios que vendem. O pequeno investidor passa a ser sócio de uma parte da companhia.",
+   "fonte_url": "https://blog.ativainvestimentos.com.br/o-que-%C3%A9-ipo-entenda-como-funciona-a-abertura-de-capital-de-uma-empresa",
+   "data": "2026-11-10",
+   "veiculo": "Ativa Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "A pessoa física participa pelo período de reserva. Ela diz à corretora quantas ações pretende comprar, e tem alguns dias para isso. A B3 explica que, ao mesmo tempo, ocorre o bookbuilding, a coleta de interesse que ajuda a definir o preço da estreia. O preço final e a quantidade para pessoas físicas só aparecem depois.",
+   "fonte_url": "https://borainvestir.b3.com.br/tipos-de-investimentos/ipo-como-nascem-as-acoes-negociadas-na-b3/",
+   "data": "2026-11-10",
+   "veiculo": "B3 (Bora Investir)",
+   "confiavel": true
+  },
+  {
+   "texto": "A faixa de preço divulgada antes da oferta é só uma referência inicial e não é necessariamente o preço final.",
+   "fonte_url": "https://financera.com.br/investimento/o-que-e-ipo/",
+   "data": "2026-11-10",
+   "veiculo": "Financera",
+   "confiavel": false
+  },
+  {
+   "texto": "Em oferta muito disputada, pode haver rateio: cada investidor compra só uma parte do que reservou, porque as ações não chegam para todos.",
+   "fonte_url": "https://maisretorno.com/portal/termos/r/rateio-da-oferta/amp",
+   "data": "2026-11-10",
+   "veiculo": "Mais Retorno",
+   "confiavel": false
+  },
+  {
+   "texto": "Não há garantia de valorização. O preço pode cair logo após a estreia, e o investidor pode perder parte do dinheiro. Ao pedir a reserva, o investidor pode estipular um preço máximo por ação.",
+   "fonte_url": "https://blog.ativainvestimentos.com.br/o-que-%C3%A9-ipo-entenda-como-funciona-a-abertura-de-capital-de-uma-empresa",
+   "data": "2026-11-10",
+   "veiculo": "Ativa Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "Um histórico mostra o risco. Em 2021, ano recorde de ofertas, um relatório da XP apontou que 35 das 46 empresas que estrearam (76%) tinham retorno negativo até aquele momento. As empresas novas tiveram desempenho médio de -26,1% no ano.",
+   "fonte_url": "https://maisretorno.com/portal/ipos-2021-recorde-desempenho-fraco",
+   "data": "2022-01-11",
+   "veiculo": "Mais Retorno (relatório da XP)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 11 de maio de 2026, a Compass estreou na B3 no primeiro IPO no país em quase cinco anos. A oferta levantou até R$ 3,2 bilhões e avaliou a empresa em cerca de R$ 20 bilhões.",
+   "fonte_url": "https://exame.com/invest/mercados/b3-ve-agro-e-infraestrutura-puxando-fila-de-50-ipos-apos-compass/",
+   "data": "2026-05-11",
+   "veiculo": "Exame",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Relatório da XP mostra que 35 das 46 empresas que fizeram IPO em 2021 tinham retorno negativo.",
+   "fonte_url": "https://maisretorno.com/portal/ipos-2021-recorde-desempenho-fraco",
+   "data": "2022-01-11",
+   "veiculo": "Mais Retorno",
+   "confiavel": false
+  },
+  {
+   "texto": "O presidente da B3 diz esperar a volta dos IPOs em 2026, mas cita eleição e juros altos (15% ao ano) como freios.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/acho-que-mercado-reabre-este-ano-diz-ceo-da-b3-sobre-ipos-em-2026/",
+   "data": "2026-02-05",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A Compass tinha precificação prevista para 7 de maio, com faixa indicativa de R$ 28 a R$ 35 por ação.",
+   "fonte_url": "https://www.seudinheiro.com/2026/bolsa-dolar/fim-do-jejum-o-que-esperar-da-estreia-da-compass-pass3-o-primeiro-grande-ipo-da-b3-em-cinco-anos-kaes/",
+   "data": "2026-05-07",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "A Compass estreia na B3 e encerra quase cinco anos sem IPOs no país.",
+   "fonte_url": "https://exame.com/invest/mercados/b3-ve-agro-e-infraestrutura-puxando-fila-de-50-ipos-apos-compass/",
+   "data": "2026-05-11",
+   "veiculo": "Exame",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se haverá nova oferta de ações aberta ao público no Brasil até o fim de 2026. As buscas não encontraram anúncio oficial.",
+  "Não foi confirmado como as ações da oferta de maio se comportaram depois da estreia, nem quanto as pessoas físicas conseguiram comprar. Essas informações não apareceram nas fontes consultadas.",
+  "Executivos da B3 disseram, segundo o site Verona Notícias, que citou entrevista à Folha de S.Paulo, que um ciclo mais forte de aberturas deve vir só em 2027. Não confirmamos a entrevista original.",
+  "Não dá para saber de antemão se uma oferta específica vai subir ou cair depois da estreia. Os relatórios de casas de análise são opiniões, não garantias."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem pouco dinheiro, o IPO não é uma conta nova nem um produto separado. É uma forma de comprar ações antes de elas começarem a ser negociadas, sempre por uma corretora em que você já é cliente.",
+  "Quem faz reserva pode receber menos ações do que pediu (rateio). O dinheiro reservado fica comprometido até a liquidação, então ele não estará livre para outro uso nesse período.",
+  "Ações são renda variável: o valor oscila, e o prejuízo é possível. Quem pode precisar do dinheiro em pouco tempo deve considerar esse risco antes de reservar.",
+  "Antes de qualquer reserva, vale ler o prospecto, o documento oficial da oferta, disponível na CVM, que traz dados da empresa, o uso do dinheiro e os riscos.",
+  "A concentração é outro risco: colocar boa parte de uma quantia pequena em uma única empresa recém-aberta aumenta o impacto de uma queda."
+ ],
+ "como_se_proteger": [],
+ "slug": "o-que-e-ipo",
+ "publicado_em": "2026-11-10T18:46:25.449063",
+ "atualizado_em": "2026-11-10T18:46:25.449063",
+ "assunto": "O que é IPO, explicado para quem tem pouco para investir: quem sente o efeito e o risco de entrar em oferta recém-aberta, sem citar nenhum código de ação ou de fundo",
+ "turno": "noite"
+}
