@@ -1,0 +1,91 @@
+{
+ "titulo": "Guardar R$ 200 por mês: quanto rende na Selic e na poupança",
+ "descricao": "Com a Selic em 13,75%, R$ 200 por mês viram cerca de R$ 2.517 em 1 ano no Tesouro Selic e R$ 2.489 na poupança. Veja 5 e 10 anos.",
+ "palavra_chave": "guardar r$ 200 por mês",
+ "lead": "Guardar R$ 200 por mês com a Selic em 13,75% ao ano rende, em 10 anos, cerca de R$ 20.947 no Tesouro Selic (já sem Imposto de Renda) e R$ 12.495 na poupança. O Copom manteve a Selic em 4 de novembro e a ata saiu em 10/11. Os valores são uma estimativa do Termômetro, que supõe taxas fixas por todo o período.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Copom, comitê do Banco Central que define os juros, manteve a Selic em 13,75% ao ano em 4 de novembro, por unanimidade, e interrompeu a sequência de cortes. A página oficial do BC não apareceu na apuração; a decisão foi confirmada por vários veículos.",
+   "fonte_url": "https://www.nomadglobal.com/portal/analises/analise-do-copom-novembro-de-2026",
+   "data": "2026-11-04",
+   "veiculo": "Nomad (análise do Copom)",
+   "confiavel": false
+  },
+  {
+   "texto": "A ata do Copom saiu em 10 de novembro. Segundo a Quenty, o comitê não indicou quando vai retomar os cortes. A próxima reunião é em 9 de dezembro.",
+   "fonte_url": "https://quenty.com.br/resumo/10-novembro-2026/copom-mantem-selic-em-1375-e-associa-inflacao-a-risco-fiscal-e-fim-da-6x1",
+   "data": "2026-11-10",
+   "veiculo": "Quenty",
+   "confiavel": false
+  },
+  {
+   "texto": "Com a Selic acima de 8,5% ao ano, a poupança rende 0,5% ao mês mais a TR (Taxa Referencial, índice pequeno calculado pelo Banco Central). Abaixo disso, a regra muda para 70% da Selic mais a TR.",
+   "fonte_url": "https://www.caixa.gov.br/voce/poupanca-e-investimentos/poupanca/Paginas/default.aspx",
+   "data": "2026-11-10",
+   "veiculo": "Caixa Econômica Federal",
+   "confiavel": true
+  },
+  {
+   "texto": "A poupança acumulou 8,25% em 12 meses (dez/2025 a nov/2026), segundo a série do Banco Central reproduzida pelo site Corrigir Valor. Usamos esse número nas contas. A poupança não paga Imposto de Renda.",
+   "fonte_url": "https://www.corrigirvalor.com.br/indice/poupanca",
+   "data": "2026-11-05",
+   "veiculo": "Corrigir Valor (série 196 do BC)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro Selic paga Imposto de Renda só sobre o ganho: 22,5% até 180 dias, 20% de 181 a 360, 17,5% de 361 a 720 e 15% acima de 720 dias. A taxa de custódia da B3 é de 0,2% ao ano e não vale para os primeiros R$ 10 mil.",
+   "fonte_url": "https://www.santander.com.br/blog/tesouro-selic",
+   "data": "2026-11-10",
+   "veiculo": "Santander",
+   "confiavel": false
+  },
+  {
+   "texto": "Estimativa do Termômetro (depósito no fim de cada mês; Selic fixa em 13,75% ao ano; poupança fixa em 8,25% ao ano). Em 1 ano, você guarda R$ 2.400: poupança R$ 2.489 (ganho de R$ 89) e Tesouro Selic cerca de R$ 2.517 (ganho de R$ 117, após IR). Em 5 anos, você guarda R$ 12.000: poupança R$ 14.678 e Tesouro Selic cerca de R$ 16.021. Em 10 anos, você guarda R$ 24.000: poupança R$ 36.495 e Tesouro Selic cerca de R$ 44.947. Cálculo próprio com base nas regras citadas; a custódia da B3 foi ignorada e tiraria perto de R$ 220 em 10 anos.",
+   "fonte_url": "https://www.santander.com.br/blog/tesouro-selic",
+   "data": "2026-11-10",
+   "veiculo": "Cálculo do Termômetro com regras do Santander e do BC",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Copom mantém a Selic em 13,75% ao ano e interrompe os cortes.",
+   "fonte_url": "https://www.nomadglobal.com/portal/analises/analise-do-copom-novembro-de-2026",
+   "data": "2026-11-04",
+   "veiculo": "Nomad",
+   "confiavel": false
+  },
+  {
+   "texto": "Poupança tem rendimento acumulado de 8,25% em 12 meses, segundo a série do BC.",
+   "fonte_url": "https://www.corrigirvalor.com.br/indice/poupanca",
+   "data": "2026-11-05",
+   "veiculo": "Corrigir Valor",
+   "confiavel": false
+  },
+  {
+   "texto": "Ata do Copom é divulgada e não indica quando os cortes voltam.",
+   "fonte_url": "https://quenty.com.br/resumo/10-novembro-2026/copom-mantem-selic-em-1375-e-associa-inflacao-a-risco-fiscal-e-fim-da-6x1",
+   "data": "2026-11-10",
+   "veiculo": "Quenty",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Para onde a Selic vai não foi confirmado. O Copom decide de novo em 9/12. O economista José Cláudio Securato, da Saint Paul, considera provável a Selic em 13,75% em todo 2027. Yihao Lin, da Genial, diz que o comitê parece inclinado a voltar a cortar. As duas são opiniões, não decisão.",
+  "Se a Selic cair, o Tesouro Selic rende menos. A poupança mantém 0,5% ao mês mais a TR enquanto a Selic ficar acima de 8,5%. Ninguém confirmou quando isso pode mudar.",
+  "A TR varia a cada mês, e os sites consultados mostram valores diferentes para novembro (de 0,12% a 0,17%). Por isso o rendimento real da poupança pode ficar um pouco acima ou abaixo do estimado.",
+  "A Selic efetiva (a taxa que de fato corrige o Tesouro Selic) fica próxima da meta de 13,75%, mas não é igual. O ganho real pode diferir um pouco da estimativa."
+ ],
+ "o_que_muda_para_voce": [
+  "Com a Selic em 13,75%, o Tesouro Selic rende mais que a poupança já descontado o IR. Em 1 ano a diferença estimada é de R$ 28; em 5 anos, de R$ 1.343; em 10 anos, de R$ 8.452.",
+  "A diferença cresce com o tempo, porque o IR do Tesouro Selic cai de 22,5% para 15% quanto mais o dinheiro fica.",
+  "Resgatar o Tesouro Selic antes de 30 dias tem IOF (imposto sobre operações financeiras). Na poupança, tirar o dinheiro antes do 'aniversário' do depósito faz perder o rendimento do mês.",
+  "Se a Selic cair, a diferença a favor do Tesouro Selic diminui. A conta acima só vale com as taxas de hoje."
+ ],
+ "como_se_proteger": [],
+ "slug": "guardar-r$-200-por-mes",
+ "publicado_em": "2026-11-10T18:17:52.037750",
+ "atualizado_em": "2026-11-10T18:17:52.037750",
+ "assunto": "Guardar R$ 200 por mês: quanto rende em 1, 5 e 10 anos na Selic e na poupança",
+ "turno": "noite"
+}
