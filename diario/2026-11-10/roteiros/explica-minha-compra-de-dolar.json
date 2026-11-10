@@ -1,0 +1,77 @@
+{
+ "tipo": "explica",
+ "titulo": "Minha compra de dólar antes do segundo turno (experiência própria)",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "formato": "bancada",
+ "por_que_formato": "História pessoal com números: fica melhor olhando pra câmera, no teleprompter.",
+ "gancho": {
+  "texto": "Comprei dólar a R$ 4,98 na sexta antes do segundo turno. Hoje ele tá em R$ 5,59."
+ },
+ "linhas": [
+  "Comprei dólar a R$ 4,98 na sexta antes do segundo turno. Hoje ele tá em R$ 5,59.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "E não foi torcida por candidato. Foi leitura de preço.",
+  "Naquela sexta, o dólar fechou abaixo de R$ 5, com o mercado apostando na vitória do Flávio.",
+  "Ou seja: esse cenário já estava no preço.",
+  "A minha conta foi: se o Flávio ganhasse, o dólar ia cair pouco. Se o Lula ganhasse, podia subir muito.",
+  "Pouco a perder de um lado, muito a ganhar do outro. Isso tem nome: assimetria.",
+  "Deu Lula. E só na diferença do câmbio eu já acumulo mais de 12%.",
+  "Isso é o tal do feeling de mercado: não é adivinhar o futuro, é perceber o que todo mundo já colocou no preço.",
+  "Sem esse feeling, você compra no susto, depois que tudo já subiu.",
+  "E podia ter dado errado. Por isso, só entra com o que você aceita perder.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "palavras": 185,
+ "segundos": 71,
+ "na_tela": [
+  {
+   "fala": 0,
+   "texto": "Comprei a *R$ 4,98* · hoje *R$ 5,59*"
+  },
+  {
+   "fala": 3,
+   "texto": "Sexta, 23/10: dólar a *R$ 4,99* · Fonte: O Povo"
+  },
+  {
+   "fala": 3,
+   "texto": "Mercado apostava em *vitória do Flávio* · Fonte: Jornal do Comércio"
+  },
+  {
+   "fala": 6,
+   "texto": "*Assimetria*: pouco a perder, muito a ganhar"
+  },
+  {
+   "fala": 7,
+   "texto": "*+12%* só no câmbio"
+  },
+  {
+   "fala": 8,
+   "texto": "Feeling = ler o que *já está no preço*"
+  },
+  {
+   "fala": 10,
+   "texto": "Só o que você *aceita perder*"
+  }
+ ],
+ "prints": [
+  {
+   "veiculo": "O Povo",
+   "destaque": "dólar cai no último pregão antes do segundo turno",
+   "url": "https://mais.opovo.com.br/jornal/economia/2026/10/24/bolsa-fecha-em-alta-de-047-e-dolar-cai-no-ultimo-pregao-antes-do-segundo-turno.html"
+  },
+  {
+   "veiculo": "Jornal do Comércio",
+   "destaque": "Dólar fura R$ 5,00 com aposta em vitória de Flávio",
+   "url": "https://www.jornaldocomercio.com/economia/2026/10/1268069-dolar-fura-rs-500-com-aposta-em-vitoria-de-flavio-e-recua-158-na-semana.html"
+  }
+ ],
+ "legenda": "Comprei dólar a R$ 4,98 na sexta antes do segundo turno. Hoje ele está em R$ 5,59: mais de 12% só no câmbio.\n\nNão foi torcida, foi leitura de preço. Naquela sexta (23/10), o dólar fechou em R$ 4,99, com o mercado apostando na vitória do Flávio. Se esse cenário se confirmasse, o espaço para o dólar cair era pequeno. Se não, o espaço para subir era grande. Isso se chama assimetria.\n\nFeeling de mercado não é adivinhar o futuro: é perceber o que já está no preço. E podia ter dado errado, por isso só entra com o que você aceita perder.\n\nExperiência pessoal, conteúdo educativo. Não é recomendação de investimento.\n\n#dolar #cambio #eleicoes2026 #educacaofinanceira #termometrodecrise",
+ "apoios": [],
+ "escrito_por": "Claude (editor), 10/11/2026, a pedido do Heitor",
+ "teleprompter": "Comprei dólar a R$ 4,98 na sexta antes do segundo turno. Hoje ele tá em R$ 5,59.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nE não foi torcida por candidato. Foi leitura de preço.\n\nNaquela sexta, o dólar fechou abaixo de R$ 5, com o mercado apostando na vitória do Flávio.\n\nOu seja: esse cenário já estava no preço.\n\nA minha conta foi: se o Flávio ganhasse, o dólar ia cair pouco. Se o Lula ganhasse, podia subir muito.\n\nPouco a perder de um lado, muito a ganhar do outro. Isso tem nome: assimetria.\n\nDeu Lula. E só na diferença do câmbio eu já acumulo mais de 12%.\n\nIsso é o tal do feeling de mercado: não é adivinhar o futuro, é perceber o que todo mundo já colocou no preço.\n\nSem esse feeling, você compra no susto, depois que tudo já subiu.\n\nE podia ter dado errado. Por isso, só entra com o que você aceita perder.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!"
+}
