@@ -47,8 +47,9 @@ jobs:
         run: |
           HOJE=$(TZ=America/Sao_Paulo date +%F)
           HORA=$(TZ=America/Sao_Paulo date +%-H)
-          # o agendamento do GitHub às vezes atrasa horas: fechamento fora das 17h-22h59 de Brasília não sai
-          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$HORA" -lt 17 ] || [ "$HORA" -gt 22 ]; }; then
+          # fechamento só sai das 17h às 19h59 de Brasília (depois disso ninguém lê, e o agendamento do GitHub às
+          # vezes atrasa horas); fora disso, só com forcar=sim
+          if [ "${{ inputs.forcar }}" != "sim" ] && { [ "$HORA" -lt 17 ] || [ "$HORA" -gt 19 ]; }; then
             echo "Agendamento atrasado ($HORA h em Brasília): fora do horário do fechamento, não faz nada."
             echo "pular=sim" >> "$GITHUB_OUTPUT"
             exit 0
