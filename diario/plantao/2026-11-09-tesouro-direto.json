@@ -1,0 +1,113 @@
+{
+ "titulo": "Emprestar dinheiro ao governo (Tesouro Direto): o que se sabe",
+ "descricao": "Tesouro Direto é emprestar ao governo. Veja quanto os títulos pagam hoje (9/11), o que rende a poupança e como funciona o resgate.",
+ "palavra_chave": "tesouro direto",
+ "lead": "Comprar um título do Tesouro Direto é emprestar dinheiro ao governo federal, que devolve o valor com juros. Em 9 de novembro, as taxas brutas, antes de imposto, iam de cerca de 14,7% a 15,1% ao ano nos prefixados, segundo o InfoMoney. A poupança nova rende 0,5% ao mês mais a TR, perto de 6,17% ao ano sem a TR, enquanto a Selic está em 13,75%.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Tesouro Direto é o programa do Tesouro Nacional, feito com a B3 (a bolsa), que vende títulos públicos federais a pessoas físicas, 100% online. Quem compra um título empresta dinheiro ao governo federal e recebe juros pelo tempo em que mantém o dinheiro aplicado. O Tesouro diz que o programa tem liquidez diária e a aplicação de menor risco de crédito do mercado.",
+   "fonte_url": "https://www.gov.br/tesouronacional/pt-br/noticias/tesouro-direto-passa-a-ter-resgate-no-mesmo-dia",
+   "data": "2026-11-09",
+   "veiculo": "Tesouro Nacional (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 9/11, as taxas do Tesouro Direto abriram em queda em todos os vencimentos, no primeiro pregão depois do pronunciamento em rede nacional do presidente Lula, na noite de domingo (8/11). O Prefixado 2032 abriu a 15,08% ao ano, o Prefixado 2029 estava em 14,71% e o IPCA+ 2032 passou a pagar IPCA + 7,75% ao ano. IPCA+ significa que o título paga a inflação do período mais uma taxa fixa. Cada taxa mostrada é bruta, antes de imposto, e muda ao longo do dia.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-09112026/",
+   "data": "2026-11-09",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Tesouro Selic 2031 pagava a Selic mais 0,1067% ao ano em 9/11. A Selic é a taxa básica de juros do país. O Copom, comitê do Banco Central que define a Selic, manteve a taxa em 13,75% ao ano na reunião de 3 e 4 de novembro, interrompendo o ciclo de cortes que vinha desde março.",
+   "fonte_url": "https://www.remessaonline.com.br/blog/rendimento-da-poupanca-saiba-quanto-rende-de-juros-hoje/",
+   "data": "2026-11-04",
+   "veiculo": "Remessa Online",
+   "confiavel": false
+  },
+  {
+   "texto": "A poupança tem regra fixa enquanto a Selic fica acima de 8,5% ao ano: rende 0,5% ao mês mais a TR (Taxa Referencial, um índice que hoje fica perto de zero, segundo o Santander). Em novembro de 2026, a Selic está em 13,75%, então vale essa regra. O Santander calcula cerca de 6,17% ao ano sem contar a TR.",
+   "fonte_url": "https://www.santander.com.br/blog/poupanca",
+   "data": "2026-11-09",
+   "veiculo": "Santander",
+   "confiavel": false
+  },
+  {
+   "texto": "Na comparação com a taxa bruta, a Selic (13,75%) é mais que o dobro dos cerca de 6,17% ao ano da poupança sem a TR. O Tesouro Selic paga a Selic mais um pequeno acréscimo, e a poupança não acompanha a Selic enquanto ela está acima de 8,5%. A comparação não considera imposto, taxas de corretoras nem o efeito da TR.",
+   "fonte_url": "https://www.santander.com.br/blog/poupanca",
+   "data": "2026-11-09",
+   "veiculo": "Santander / InfoMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro Nacional garante liquidez diária aos títulos comprados no Tesouro Direto. Liquidez é a facilidade de transformar o título em dinheiro. Pedidos de resgate feitos até as 13h, em condições normais de mercado, são liquidados no mesmo dia (D+0). Os pedidos feitos depois das 13h caem no dia útil seguinte (D+1).",
+   "fonte_url": "https://www.gov.br/tesouronacional/pt-br/noticias/tesouro-direto-passa-a-ter-resgate-no-mesmo-dia",
+   "data": "2026-11-09",
+   "veiculo": "Tesouro Nacional (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Quem resgata antes do vencimento recebe o valor de mercado do título naquele dia, não necessariamente o valor investido mais os juros combinados. Esse valor muda todos os dias. Em 5/11, depois da decisão do Copom, o preço do IPCA+ 2050 caiu 1,71%, porque a taxa do título subiu. Em 9/11, com a taxa em queda, o preço do mesmo título subiu de R$ 880,47 para R$ 890,52, segundo o Space Money.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/tesouro-direto-taxas-recua-fala-lula/",
+   "data": "2026-11-09",
+   "veiculo": "Space Money",
+   "confiavel": false
+  },
+  {
+   "texto": "No Tesouro Direto há Imposto de Renda sobre o ganho. Segundo o blog da Genial Investimentos, a alíquota é de 22,5% nos resgates feitos antes de 180 dias. A poupança tem regra de crédito própria: o rendimento cai na data de aniversário de cada depósito.",
+   "fonte_url": "https://blog.genialinvestimentos.com.br/liquidez-tesouro-direto/",
+   "data": "2026-11-09",
+   "veiculo": "Genial Investimentos",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Copom mantém a Selic em 13,75% ao ano e interrompe o ciclo de cortes que vinha desde março.",
+   "fonte_url": "https://www.remessaonline.com.br/blog/rendimento-da-poupanca-saiba-quanto-rende-de-juros-hoje/",
+   "data": "2026-11-04",
+   "veiculo": "Remessa Online",
+   "confiavel": false
+  },
+  {
+   "texto": "As taxas do Tesouro Direto sobem depois da decisão do Copom. O Prefixado 2032 vai de 15,23% a 15,34% e o IPCA+ 2032 chega a IPCA + 7,92%.",
+   "fonte_url": "https://www.moneytimes.com.br/selic-estacionou-mas-taxas-do-tesouro-direto-sobem-apos-copom-mlim/",
+   "data": "2026-11-05",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O presidente Lula faz pronunciamento em rede nacional, na noite de domingo.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-09112026/",
+   "data": "2026-11-08",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "As taxas do Tesouro recuam em todos os vencimentos no primeiro pregão depois do pronunciamento. O Prefixado 2032 abre a 15,08% e o IPCA+ 2032 a IPCA + 7,75%.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-09112026/",
+   "data": "2026-11-09",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não se sabe se as taxas do Tesouro Direto vão subir ou cair nos próximos dias. Elas mudam várias vezes ao dia, e a explicação sobre o motivo da queda de 9/11 vem de veículos de mercado, não de uma fonte oficial.",
+  "O valor exato da TR de novembro não foi confirmado numa fonte oficial nos resultados consultados. Sites de finanças divulgam rendimentos mensais diferentes para a poupança no mês (0,62% e 0,67%), então o rendimento final com a TR pode ficar acima dos 6,17% ao ano sem TR.",
+  "Não foi confirmado qual será o próximo passo do Copom nem quando o ciclo de cortes da Selic volta, se voltar. A Selic define o rendimento dos títulos pós-fixados.",
+  "Não há como saber quanto um título valerá se for resgatado antes do vencimento. O preço depende da taxa de mercado no dia do resgate."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem poupança, o rendimento continua em 0,5% ao mês mais a TR enquanto a Selic estiver acima de 8,5% ao ano. Essa regra só muda se a Selic cair para 8,5% ou menos.",
+  "Se você tem ou pensa em ter título do Tesouro Direto, a taxa que vale é a do dia em que a compra é feita. Ela aparece no site do Tesouro Direto e pode ser diferente no dia seguinte.",
+  "Resgatar antes do vencimento é possível, mas o valor recebido segue o preço de mercado do dia. Em títulos com taxa fixa ou ligados à inflação, esse preço oscila mais, e o resgate antecipado pode render menos do que o esperado.",
+  "Resgates feitos até as 13h, em dias úteis, caem na conta no mesmo dia, em condições normais. Pedidos depois desse horário caem no dia útil seguinte.",
+  "Antes de comparar poupança e Tesouro, olhe o Imposto de Renda e as taxas cobradas pela corretora ou pelo banco. A comparação de taxas brutas deste texto não inclui esses custos. O Termômetro de Crise não indica título nem onde investir."
+ ],
+ "como_se_proteger": [],
+ "slug": "tesouro-direto",
+ "publicado_em": "2026-11-09T21:02:56.786705",
+ "atualizado_em": "2026-11-09T21:02:56.786705",
+ "assunto": "O que significa emprestar dinheiro para o governo (Tesouro Direto): quanto um título paga hoje comparado à poupança, liquidez para resgatar, explicado sem indicar título nem dizer onde investir",
+ "turno": "noite"
+}
