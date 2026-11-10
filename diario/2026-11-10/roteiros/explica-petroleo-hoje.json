@@ -1,0 +1,175 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "O Brent caiu abaixo de US$ 90, e não foi por acordo de paz.",
+  "na_tela": "Brent abaixo de US$ 90",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 0,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O Brent caiu abaixo de US$ 90, e não foi por acordo de paz.",
+   "na_tela": "Brent abaixo de US$ 90",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois / número",
+   "texto": "Brent abaixo de US$ 90 pela primeira vez desde 31 de agosto.",
+   "na_tela": "Brent: primeira vez desde agosto",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "O petróleo caiu, mas isso não chega sozinho na sua bomba de gasolina.",
+   "na_tela": "Petróleo caiu. E a sua bomba?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "O Brent caiu abaixo de US$ 90, e não foi por acordo de paz.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Segundo a Reuters, Trump não vê necessidade de novos ataques ao Irã, por ora.",
+  "Mas não é acordo de paz: o risco para navios em Ormuz continua.",
+  "O Brent está cerca de 22% abaixo da máxima de seis meses.",
+  "Na bomba, o repasse não é automático: depende da Petrobras e do dólar.",
+  "É como a farinha do pão: a padaria nem sempre repassa a queda.",
+  "Ninguém sabe se segura abaixo de US$ 90: depende de novas falas e de Ormuz.",
+  "O passo é simples: não conte com gasolina mais barata antes de a Petrobras falar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O Brent caiu abaixo de US$ 90, e não foi por acordo de paz. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo a Reuters, Trump não vê necessidade de novos ataques ao Irã, por ora. Mas não é acordo de paz: o risco para navios em Ormuz continua. O Brent está cerca de 22% abaixo da máxima de seis meses. Na bomba, o repasse não é automático: depende da Petrobras e do dólar. É como a farinha do pão: a padaria nem sempre repassa a queda. Ninguém sabe se segura abaixo de US$ 90: depende de novas falas e de Ormuz. O passo é simples: não conte com gasolina mais barata antes de a Petrobras falar. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 143,
+ "segundos": 57,
+ "na_tela": [
+  {
+   "texto": "Brent abaixo de US$ 90",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Trump: sem novos ataques ao Irã, por ora",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 4,
+   "texto": "22% abaixo da máxima de seis meses",
+   "fonte": "The Globe and Mail (Reuters)"
+  },
+  {
+   "fala": 5,
+   "texto": "Repasse na bomba não é automático",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Brent abaixo de US$ 90?",
+   "fonte": "RTE"
+  }
+ ],
+ "retomada": 5,
+ "busca": "petróleo hoje: Brent cai abaixo de US$ 90",
+ "legenda": "Petróleo hoje: Brent cai abaixo de US$ 90, e isso muda alguma coisa na sua bomba?\n\nSegundo a RTE, o Brent caiu abaixo de US$ 90 pela primeira vez desde 31 de agosto. A queda veio depois que Trump disse, segundo a Reuters, que não vê necessidade de novos ataques ao Irã neste momento. Isso não é acordo de paz: o risco para navios em Ormuz continua em debate.\n\nNa bomba, o repasse não é automático. Depende de decisões da Petrobras e do câmbio, já que o petróleo é cotado em dólar. Nas fontes consultadas, não há anúncio de mudança no preço da gasolina ou do diesel.\n\nTambém não se sabe se o Brent segura abaixo de US$ 90: depende de novas falas, de um eventual acordo e do que acontecer em Ormuz.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#petroleo #brent #petrobras #gasolina #termometrodecrise",
+ "hashtags": [
+  "#petroleo",
+  "#brent",
+  "#petrobras",
+  "#gasolina",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Brent abaixo de US$ 90, e não foi por acordo de paz.",
+  "topicos": [
+   "Brent abaixo de US$ 90, primeira vez desde 31 de agosto, diz a RTE.",
+   "Reuters: Trump não vê necessidade de novos ataques ao Irã. Isso não é acordo.",
+   "Na bomba, o repasse não é automático: depende da Petrobras e do dólar.",
+   "Passo calmo: não conte com gasolina mais barata antes de a Petrobras falar."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente da madrugada de terça (10/11), que pede o tom de \"preciso te contar isso agora\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Na frase 'O Brent está cerca de 22% abaixo da máxima de seis meses', traduza na mesma frase: 'O Brent, o petróleo que serve de referência no mundo, está cerca de 22% abaixo do ponto mais alto dos últimos seis meses'.",
+   "Na frase 'o repasse não é automático', troque o jargão: 'a queda chegar ao preço que você paga não é automática: a Petrobras decide, e o petróleo é cotado em dólar'.",
+   "Na frase 'É como a farinha do pão', feche a comparação: 'o Brent é a farinha, a gasolina é o pão, e quem decide o preço é a padaria, que aqui é a Petrobras'. Use o 'Olha só' da casa na virada."
+  ],
+  "veredito": "A peça acerta o público, o arquétipo e os gatilhos éticos: gancho direto, fonte citada, o que ainda não se sabe, um passo simples e o bordão final. Falta traduzir 'Brent', 'máxima' e 'repasse' na mesma frase e dar mais ritmo à comparação da farinha."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow aerial drone shot moving forward over a narrow sea strait at dusk, large oil tanker ships and cargo vessels crossing the dark blue water, rocky arid coastline on both sides, hazy orange sky, cinematic, no people, no text, no logos, no flags",
+   "texto_da_fala": "Mas não é acordo de paz: o risco para navios em Ormuz continua.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone shot moving forward over a narrow sea strait at dusk, large oil tanker ships and cargo vessels crossing the dark blue water, rocky arid coastline on both sides, hazy orange sky, cinematic, no people, no text, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up of a gasoline pump nozzle at a gas station, slow dolly-in and subtle camera tilt, fuel display blurred and unreadable, warm morning light, shallow depth of field, no people visible, no text, no logos, no brand colors",
+   "texto_da_fala": "Na bomba, o repasse não é automático: depende da Petrobras e do dólar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a gasoline pump nozzle at a gas station, slow dolly-in and subtle camera tilt, fuel display blurred and unreadable, warm morning light, shallow depth of field, no people visible, no text, no logos, no brand colors. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Warm bakery interior, slow camera push-in on freshly baked bread rolls in a wicker basket on a wooden counter, a light dusting of flour floating in the air, steam rising, soft golden light, no faces, no text, no signs, no logos",
+   "texto_da_fala": "É como a farinha do pão: a padaria nem sempre repassa a queda.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Warm bakery interior, slow camera push-in on freshly baked bread rolls in a wicker basket on a wooden counter, a light dusting of flour floating in the air, steam rising, soft golden light, no faces, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O Brent caiu abaixo de US$ 90, e não foi por acordo de paz.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo a Reuters, Trump não vê necessidade de novos ataques ao Irã, por ora.\n\nMas não é acordo de paz: o risco para navios em Ormuz continua.\n\nO Brent está cerca de 22% abaixo da máxima de seis meses.\n\nNa bomba, o repasse não é automático: depende da Petrobras e do dólar.\n\nÉ como a farinha do pão: a padaria nem sempre repassa a queda.\n\nNinguém sabe se segura abaixo de US$ 90: depende de novas falas e de Ormuz.\n\nO passo é simples: não conte com gasolina mais barata antes de a Petrobras falar.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-09112026/",
+   "destaque": "Na semana passada, o Brent perdeu 16%, a maior queda semanal desde o início da pandemia."
+  },
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/petrobras-petr4-producao-recorde-deve-compensar-petroleo-mais-barato-e-sustentar-dividendos-no-3t26-bdap/",
+   "destaque": "A Petrobras divulga hoje (10/11) o balanço do 3º trimestre."
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T11:47:03.901131-03:00"
+}
