@@ -33,6 +33,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write # o WhatsApp chamado daqui também dispara workflows (pedidos de roteiro)
 
 concurrency:
   group: panorama-diario
