@@ -1,0 +1,184 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.",
+  "na_tela": "Investir lá fora: quanto custa?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.",
+   "na_tela": "Investir lá fora: quanto custa?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "R$ 1.000 em ETF lá fora: até R$ 8,30 de taxa por ano.",
+   "na_tela": "R$ 1.000 lá fora: R$ 8,30",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Você não precisa de conta no exterior para investir lá fora.",
+   "na_tela": "Sem conta no exterior",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Segundo a B3, dá para investir lá fora em reais, pela sua corretora.",
+  "O ETF é uma cesta pronta: um fundo que copia um índice.",
+  "Segundo o Radar do Investidor, o mais caro cobra 0,83% ao ano.",
+  "Faz a conta comigo: em R$ 1.000, são R$ 8,30 por ano.",
+  "É um lanche de padaria por ano, só pelos dias que você fica.",
+  "Mas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto.",
+  "Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo a B3, dá para investir lá fora em reais, pela sua corretora. O ETF é uma cesta pronta: um fundo que copia um índice. Segundo o Radar do Investidor, o mais caro cobra 0,83% ao ano. Faz a conta comigo: em R$ 1.000, são R$ 8,30 por ano. É um lanche de padaria por ano, só pelos dias que você fica. Mas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto. Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 137,
+ "segundos": 55,
+ "na_tela": [
+  {
+   "texto": "Investir lá fora: quanto custa?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Investir lá fora, em reais",
+   "fonte": "B3"
+  },
+  {
+   "fala": 4,
+   "texto": "0,83% ao ano",
+   "fonte": "Radar do Investidor"
+  },
+  {
+   "fala": 5,
+   "texto": "R$ 1.000 = R$ 8,30 por ano",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "15% de imposto sobre o lucro",
+   "fonte": "Serasa"
+  },
+  {
+   "fala": 8,
+   "texto": "Primeiro passo: ler a lâmina",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "como investir no exterior pela B3 com ETF",
+ "legenda": "Como investir no exterior pela B3 com ETF, e quanto custa?\n\nSegundo a B3, dá para investir lá fora em reais, pela corretora que você já usa, sem conta no exterior e sem operação de câmbio. O caminho é o ETF, um fundo que copia um índice e é negociado como ação.\n\nNa tabela do Radar do Investidor, o ETF internacional mais caro cobra 0,83% ao ano. Em R$ 1.000, são R$ 8,30 por ano. Corretagem, a diferença entre compra e venda e o imposto de 15% sobre o lucro podem pesar mais.\n\nO custo total para quem investe pouco não foi calculado por fonte oficial. Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#etf #b3 #investirnoexterior #educacaofinanceira",
+ "hashtags": [
+  "#etf",
+  "#b3",
+  "#investirnoexterior",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Investir lá fora pela sua corretora, sem câmbio: quanto custa?",
+  "topicos": [
+   "Segundo a B3, dá para investir lá fora em reais, com ETF.",
+   "Segundo o Radar do Investidor, o ETF mais caro cobra 0,83% ao ano.",
+   "Em R$ 1.000, são R$ 8,30 por ano; lucro paga 15%, diz a Serasa.",
+   "Primeiro passo: abrir a lâmina do fundo e ver a taxa."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um tema de explicação, com vários números e termos técnicos, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"É um lanche de padaria por ano, só pelos dias que você fica.\": a comparação é boa, mas \"só pelos dias que você fica\" confunde. Reescreva de forma direta, por exemplo: \"R$ 8,30 por ano: menos que um lanche de padaria.\" Assim a comparação (sanguíneo) fica clara sem inventar número novo.",
+   "Frase \"Mas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto.\": o aviso de perda não tem uma saída além da lâmina, e \"a diferença entre compra e venda\" é termo técnico sem tradução. Traduza na mesma frase (por exemplo, \"o spread, a diferença entre o preço de comprar e o de vender\") e diga que esses custos aparecem na corretora e na lâmina, para o fleumático ter calma e um caminho. Não invente valores.",
+   "Frase \"Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.\": o passo é bom, mas falta a parte melancólica de dizer o que ainda não se sabe. Inclua no vídeo, como na legenda, que o custo total para quem investe pouco não foi calculado por fonte oficial. Isso dá honestidade e fecha o porquê antes do passo simples."
+  ],
+  "veredito": "A peça fala a língua de quem tem pouco dinheiro, traz fonte (B3 e Radar do Investidor), uma conta simples, o passo prático e os bordões da casa; faltam traduzir \\\"diferença entre compra e venda\\\", deixar a comparação do lanche mais limpa e levar para o vídeo o que a fonte não calculou, que só aparece na legenda."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Overhead shot slowly pushing in on a wicker basket packed with a varied assortment of colorful items: fruits, small wrapped boxes, jars and bread, arranged neatly on a light wooden table, soft natural window light. No people, no text, no labels, no logos",
+   "texto_da_fala": "O ETF é uma cesta pronta: um fundo que copia um índice.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Overhead shot slowly pushing in on a wicker basket packed with a varied assortment of colorful items: fruits, small wrapped boxes, jars and bread, arranged neatly on a light wooden table, soft natural window light. No people, no text, no labels, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Warm Brazilian neighborhood bakery counter, a golden French bread roll and a small glass of coffee on a plate, steam rising, camera slowly dollying in from the side with shallow depth of field. Soft morning light. No people in focus, no text, no signs, no prices, no logos",
+   "texto_da_fala": "É um lanche de padaria por ano, só pelos dias que você fica.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Warm Brazilian neighborhood bakery counter, a golden French bread roll and a small glass of coffee on a plate, steam rising, camera slowly dollying in from the side with shallow depth of field. Soft morning light. No people in focus, no text, no signs, no prices, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Slow lateral slide over a tidy desk with a thin folder of paper sheets, the pages showing only abstract blurred gray lines with nothing legible, a magnifying glass moving over one sheet, a pen resting beside it. Soft daylight, calm mood. No faces, no readable text, no numbers, no logos",
+   "texto_da_fala": "Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow lateral slide over a tidy desk with a thin folder of paper sheets, the pages showing only abstract blurred gray lines with nothing legible, a magnifying glass moving over one sheet, a pen resting beside it. Soft daylight, calm mood. No faces, no readable text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo a B3, dá para investir lá fora em reais, pela sua corretora.\n\nO ETF é uma cesta pronta: um fundo que copia um índice.\n\nSegundo o Radar do Investidor, o mais caro cobra 0,83% ao ano.\n\nFaz a conta comigo: em R$ 1.000, são R$ 8,30 por ano.\n\nÉ um lanche de padaria por ano, só pelos dias que você fica.\n\nMas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto.\n\nSeu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "B3",
+   "url": "https://www.b3.com.br/pt_br/noticias/internacionalizacao.htm",
+   "destaque": "A B3 diz que o investidor pode comprar ativos do exterior sem enviar dinheiro para fora."
+  },
+  {
+   "veiculo": "B3 Educação",
+   "url": "https://edu.b3.com.br/w/etf-de-a%C3%A7%C3%B5es-internacionais",
+   "destaque": "ETF, sigla de fundo negociado em bolsa, é um fundo que busca copiar um índice, como o das 500 maiores empresas dos EUA."
+  },
+  {
+   "veiculo": "B3",
+   "url": "https://b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/etf-internacional.htm",
+   "destaque": "A taxa de administração é cobrada só pelos dias em que o investidor fica com as cotas, como nos fundos tradicionais, segundo a B3."
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T18:56:38.737455-03:00"
+}
