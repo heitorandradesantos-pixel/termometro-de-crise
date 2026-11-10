@@ -1,0 +1,176 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "O dólar subiu mais que a bolsa hoje, e isso chega no seu bolso.",
+  "na_tela": "Dólar subiu mais que a bolsa",
+  "nota": {
+   "especifico": 1,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O dólar subiu mais que a bolsa hoje, e isso chega no seu bolso.",
+   "na_tela": "Dólar subiu mais que a bolsa",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "R$ 5,55: é quanto o dólar custa agora, e seu cartão sente.",
+   "na_tela": "R$ 5,55: o dólar e o seu cartão",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Dez e doze da manhã, e o dólar já subiu 0,81%.",
+   "na_tela": "10h12: dólar já subiu 0,81%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar subiu mais que a bolsa hoje, e isso chega no seu bolso.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "O dólar abriu a R$ 5,55, alta de 0,81%, segundo o Yahoo Finance.",
+  "O Ibovespa subiu menos: 0,37%.",
+  "Olha só: dólar alto pode pesar em eletrônico importado, viagem e compra internacional no cartão.",
+  "Ontem, o termômetro do Brasil marcou febre de 65: sinal amarelo.",
+  "Agora o destaque: a Selic, a taxa básica de juros, está em 13,75%.",
+  "Ela é o preço do dinheiro: mexe no cartão e no financiamento.",
+  "A ata resume a reunião da Selic; o que vem depois, ainda não se sabe.",
+  "Antes de comprar em dólar, acompanhe o preço com calma.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O dólar subiu mais que a bolsa hoje, e isso chega no seu bolso. Fala, galera, aqui é o Heitor, do Termômetro de Crise. O dólar abriu a R$ 5,55, alta de 0,81%, segundo o Yahoo Finance. O Ibovespa subiu menos: 0,37%. Olha só: dólar alto pode pesar em eletrônico importado, viagem e compra internacional no cartão. Ontem, o termômetro do Brasil marcou febre de 65: sinal amarelo. Agora o destaque: a Selic, a taxa básica de juros, está em 13,75%. Ela é o preço do dinheiro: mexe no cartão e no financiamento. A ata resume a reunião da Selic; o que vem depois, ainda não se sabe. Antes de comprar em dólar, acompanhe o preço com calma. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 142,
+ "segundos": 57,
+ "na_tela": [
+  {
+   "texto": "Dólar subiu mais que a bolsa",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar R$ 5,55 (▲0,81%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Ibovespa ▲0,37%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 5,
+   "texto": "Brasil em 65 · Tensão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Selic: 13,75%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 8,
+   "texto": "Ata do Copom: o que se sabe",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "dólar hoje: por que subiu mais que a bolsa",
+ "legenda": "Dólar hoje: por que subiu mais que a bolsa?\n\nNa abertura, às 10h12, o dólar estava em R$ 5,55, com alta de 0,81%, e o Ibovespa subia 0,37%. Dólar mais alto pode pesar em eletrônico importado, viagem e compra internacional no cartão.\n\nO destaque da manhã é a ata do Copom, com a Selic, a taxa básica de juros, em 13,75%. A Selic mexe no cartão e no financiamento. O que vem depois da ata ainda não se sabe.\n\nO passo calmo: antes de comprar em dólar, acompanhe o preço. Cotações: Yahoo Finance.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #selic #copom #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#selic",
+  "#copom",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar subiu mais que a bolsa hoje: e o seu bolso?",
+  "topicos": [
+   "Dólar a R$ 5,55, alta de 0,81%; Ibovespa subiu 0,37%, segundo o Yahoo Finance.",
+   "Dólar alto pode pesar em importado, viagem e compra internacional no cartão.",
+   "Selic, a taxa básica de juros, está em 13,75%, segundo o Banco Central.",
+   "Antes de comprar em dólar, acompanhe o preço com calma."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma abertura de manhã, que explica o dólar, a Selic e o que ainda não se sabe, então pede a calma da bancada.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Olha só: dólar alto pode pesar em eletrônico importado, viagem e compra internacional no cartão.\": falta a comparação viva do sanguíneo. Reescreva ligando a um momento do dia a dia (ex.: o preço do celular ou da compra internacional no cartão na hora de pagar a fatura), sem inventar valor novo, para a pessoa se ver na cena.",
+   "Frase \"Ontem, o termômetro do Brasil marcou febre de 65: sinal amarelo.\" e \"Agora o destaque: a Selic...\": o termômetro e a Selic aparecem soltos, sem ligação com o dólar nem com o porquê. Acrescente uma frase conectando as duas coisas (a Selic é o preço do dinheiro e o dólar também mexe no que você paga) e diga o que o 65 significa em palavras simples, para o melancólico entender o porquê.",
+   "Frase \"Antes de comprar em dólar, acompanhe o preço com calma.\": o passo é vago e fica enterrado antes do link do grupo. Torne o passo simples e concreto (ex.: se a compra não é urgente, anote o preço hoje e compare nos próximos dias; se for dívida no cartão, olhe a taxa antes de parcelar) e mova-o para perto do fim, antes do aviso. Também explique \"ata\" na mesma frase como o resumo escrito do que o Banco Central decidiu e por quê."
+  ],
+  "veredito": "A peça fala com a pessoa certa, no tom e com os bordões da casa, traduz Selic e ata e entrega fonte e aviso; falta uma comparação viva do dia a dia, ligar o 65 e a Selic ao dólar e um passo final mais concreto."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Slow dolly-in over a wooden table with an open cardboard shipping box, a new unbranded smartphone and wireless earbuds, a passport-style blank booklet, a small carry-on suitcase and a plain blank credit card. Warm window light, shallow depth of field. No people, no text, no letters, no numbers, no logos",
+   "texto_da_fala": "Olha só: dólar alto pode pesar em eletrônico importado, viagem e compra internacional no cartão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in over a wooden table with an open cardboard shipping box, a new unbranded smartphone and wireless earbuds, a passport-style blank booklet, a small carry-on suitcase and a plain blank credit card. Warm window light, shallow depth of field. No people, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow upward tilt along a stately modern government building facade with tall concrete columns at golden hour, then a cut-free transition to a macro slow push-in on stacked gold coins beside a tiny model house on a polished desk. Calm, serious mood. No people, no text, no letters, no numbers, no digits, no signs, no logos",
+   "texto_da_fala": "Agora o destaque: a Selic, a taxa básica de juros, está em 13,75%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along a stately modern government building facade with tall concrete columns at golden hour, then a cut-free transition to a macro slow push-in on stacked gold coins beside a tiny model house on a polished desk. Calm, serious mood. No people, no text, no letters, no numbers, no digits, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O dólar subiu mais que a bolsa hoje, e isso chega no seu bolso.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nO dólar abriu a R$ 5,55, alta de 0,81%, segundo o Yahoo Finance.\n\nO Ibovespa subiu menos: 0,37%.\n\nOlha só: dólar alto pode pesar em eletrônico importado, viagem e compra internacional no cartão.\n\nOntem, o termômetro do Brasil marcou febre de 65: sinal amarelo.\n\nAgora o destaque: a Selic, a taxa básica de juros, está em 13,75%.\n\nEla é o preço do dinheiro: mexe no cartão e no financiamento.\n\nA ata resume a reunião da Selic; o que vem depois, ainda não se sabe.\n\nAntes de comprar em dólar, acompanhe o preço com calma.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T10:30:46.694281-03:00",
+ "enviado_whatsapp": "2026-11-10T10:31:37.194394-03:00"
+}
