@@ -1,0 +1,186 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "Bolsa subiu 2,22%, mas o termômetro do Brasil não esfriou.",
+  "na_tela": "Bolsa sobe, termômetro NÃO esfria",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "O Ibovespa subiu 2,22% hoje, mas ainda está 17,6% abaixo do recorde.",
+   "na_tela": "Bolsa sobe, mas está longe",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Bolsa subiu 2,22%, mas o termômetro do Brasil não esfriou.",
+   "na_tela": "Bolsa sobe, termômetro NÃO esfria",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Quatro dias úteis seguidos, o Brasil segue com o termômetro em Tensão.",
+   "na_tela": "4 dias em Tensão",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Bolsa subiu 2,22%, mas o termômetro do Brasil não esfriou.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Fechou em 172.236 pontos, ainda longe do recorde do mês passado.",
+  "Pensa numa escada: você subiu um degrau hoje, mas ainda faltam vários.",
+  "Aqui, o termômetro do Brasil marcou 66, Tensão, há 4 dias úteis seguidos.",
+  "O mundo está em 56, Alerta.",
+  "Olha só: lá fora, o S&P 500 teve a maior queda semanal desde junho.",
+  "Na Ásia, o Kospi caiu 6% e a bolsa de Seul parou por 20 minutos.",
+  "Para amanhã, é só olhar se o Brasil sai da Tensão.",
+  "Respira, confere suas contas e não decide nada por susto de um dia.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Bolsa subiu 2,22%, mas o termômetro do Brasil não esfriou. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Fechou em 172.236 pontos, ainda longe do recorde do mês passado. Pensa numa escada: você subiu um degrau hoje, mas ainda faltam vários. Aqui, o termômetro do Brasil marcou 66, Tensão, há 4 dias úteis seguidos. O mundo está em 56, Alerta. Olha só: lá fora, o S&P 500 teve a maior queda semanal desde junho. Na Ásia, o Kospi caiu 6% e a bolsa de Seul parou por 20 minutos. Para amanhã, é só olhar se o Brasil sai da Tensão. Respira, confere suas contas e não decide nada por susto de um dia. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 140,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "Bolsa sobe, termômetro NÃO esfria",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Ibovespa: 172.236 pontos (▲2,22%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "17,6% abaixo do recorde de 09/10",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Brasil: 66 · Tensão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Mundo: 56 · Alerta",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "S&P 500: maior queda semanal desde junho",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Kospi cai 6% · Seul para 20 min",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 6,
+ "busca": "Ibovespa hoje: bolsa sobe 2,22% e termômetro do Brasil segue em Tensão",
+ "legenda": "Ibovespa hoje: a bolsa subiu 2,22%, mas o termômetro do Brasil não esfriou.\n\nSegundo o Yahoo Finance, o Ibovespa fechou em 172.236 pontos, ainda 17,6% abaixo do recorde de 09/10. No Termômetro de Crise, o Brasil marcou 66 (Tensão) e o mundo, 56 (Alerta).\n\nLá fora, o S&P 500 teve a maior queda semanal desde junho, e o Kospi caiu 6%, com a bolsa de Seul parando por 20 minutos.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ibovespa #bolsadevalores #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#ibovespa",
+  "#bolsadevalores",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Ibovespa subiu 2,22% hoje, mas o termômetro do Brasil não esfriou.",
+  "topicos": [
+   "Segundo o Yahoo Finance, o Ibovespa fechou em 172.236 pontos, alta de 2,22%.",
+   "Ainda está 17,6% abaixo do recorde de 09/10.",
+   "Termômetro de Crise: Brasil em 66, Tensão, e mundo em 56, Alerta.",
+   "Respira, confere suas contas e não decide nada por susto de um dia."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É o fechamento do dia, notícia fresca com poucos números, que pede o tom de \"acabou de fechar e preciso te contar\".",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Fechou em 172.236 pontos, ainda longe do recorde do mês passado.\": falta dizer o que isso significa para quem não investe. Reescreva ligando ao bolso, por exemplo uma linha como \"Se você não tem ações, o efeito direto no seu dia é pequeno; o que importa é o sinal de tensão\". Use só o que a peça já sustenta, sem inventar número.",
+   "Frase \"Olha só: lá fora, o S&P 500 teve a maior queda semanal desde junho. Na Ásia, o Kospi caiu 6%...\": o bloco é só número, sem tradução nem porquê. Traduza o termo (\"S&P 500, o índice das maiores empresas dos EUA\"; \"Kospi, a bolsa de Seul\") e diga em uma frase por que isso importa para o Brasil, apenas se a fonte já apoiar essa ligação. Isso atende o melancólico (o porquê) e o iniciante.",
+   "Frase \"Respira, confere suas contas e não decide nada por susto de um dia.\": o passo é vago e o \"Tensão há 4 dias úteis\" fica sem a saída. Troque \"confere suas contas\" por um gesto simples e concreto (por exemplo, \"abre o app do banco e olha o que vence essa semana\"). Ele fecha o medo com uma saída clara, e o fleumático ganha um passo fácil de fazer. A comparação da escada pode ganhar um toque de vida real: \"é como o saldo que sobe um pouco, mas o mês ainda está no vermelho\"."
+  ],
+  "veredito": "A peça tem a voz certa (bordões, \\\"Olha só\\\", escada como comparação, aviso e fechamento da casa) e não faz alarde, mas fica no mercado: faltam ligar o assunto ao bolso de quem não investe, traduzir os termos lá de fora e dar um passo de ação mais concreto."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "A wide concrete staircase climbing upward toward a bright hazy sky, the top still out of sight. Camera starts low at the bottom step and slowly cranes upward along the steps. Soft morning light, one step near the camera catches a warm highlight. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Pensa numa escada: você subiu um degrau hoje, mas ainda faltam vários.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A wide concrete staircase climbing upward toward a bright hazy sky, the top still out of sight. Camera starts low at the bottom step and slowly cranes upward along the steps. Soft morning light, one step near the camera catches a warm highlight. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A canyon of glass skyscrapers in a big Western financial district under heavy grey storm clouds, wet streets, light rain. Camera starts looking up at the towers and slowly tilts and dollies downward toward the empty rain-slick street, a mood of sudden decline. Facades are blank glass, with no signage, no screens, no text, no numbers, no logos, no people in focus",
+   "texto_da_fala": "Olha só: lá fora, o S&P 500 teve a maior queda semanal desde junho.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A canyon of glass skyscrapers in a big Western financial district under heavy grey storm clouds, wet streets, light rain. Camera starts looking up at the towers and slowly tilts and dollies downward toward the empty rain-slick street, a mood of sudden decline. Facades are blank glass, with no signage, no screens, no text, no numbers, no logos, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "A modern East Asian capital skyline at dusk, tall glass towers and a river, seen from a slow aerial drone push-in. Lights in the office buildings flicker and dim one after another, and the city goes quiet and still. Cool blue tones. No people, no text, no numbers, no logos, no flags",
+   "texto_da_fala": "Na Ásia, o Kospi caiu 6% e a bolsa de Seul parou por 20 minutos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A modern East Asian capital skyline at dusk, tall glass towers and a river, seen from a slow aerial drone push-in. Lights in the office buildings flicker and dim one after another, and the city goes quiet and still. Cool blue tones. No people, no text, no numbers, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Bolsa subiu 2,22%, mas o termômetro do Brasil não esfriou.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nFechou em 172.236 pontos, ainda longe do recorde do mês passado.\n\nPensa numa escada: você subiu um degrau hoje, mas ainda faltam vários.\n\nAqui, o termômetro do Brasil marcou 66, Tensão, há 4 dias úteis seguidos.\n\nO mundo está em 56, Alerta.\n\nOlha só: lá fora, o S&P 500 teve a maior queda semanal desde junho.\n\nNa Ásia, o Kospi caiu 6% e a bolsa de Seul parou por 20 minutos.\n\nPara amanhã, é só olhar se o Brasil sai da Tensão.\n\nRespira, confere suas contas e não decide nada por susto de um dia.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T00:49:25.424023-03:00",
+ "enviado_whatsapp": "2026-11-10T00:50:16.518330-03:00"
+}
