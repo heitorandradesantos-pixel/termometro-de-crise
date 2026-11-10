@@ -1,0 +1,120 @@
+{
+ "titulo": "Calculadora transação tributária Receita Federal: o que se sabe",
+ "descricao": "A Receita lançou um simulador que compara entrada, desconto e parcelas dos editais 9 e 10/2026 e do 6/2026 da PGFN. Veja como usar e os limites.",
+ "palavra_chave": "calculadora transação tributária receita federal",
+ "lead": "A Receita Federal lançou a Calculadora da Transação Tributária, publicada na página oficial do órgão em 9 de novembro e repercutida em 10/11. O simulador compara condições de negociação de dívidas dos editais 9 e 10/2026 da Receita e do edital 6/2026 da PGFN. A própria Receita diz que a simulação é só orientativa: ela não faz a adesão.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Receita Federal publicou em 9/11, às 14h30, a Calculadora da Transação Tributária. A ferramenta ajuda pessoas físicas e jurídicas a entender como regularizar dívidas por transação tributária, que é um acordo com desconto e parcelamento.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-disponibiliza-calculadora-para-apoiar-contribuintes-na-analise-de-opcoes-de-transacao-tributaria",
+   "data": "2026-11-09",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Por enquanto, a calculadora compara só três editais: o 9 e o 10 de 2026 da Receita Federal e o 6 de 2026 da PGFN (Procuradoria-Geral da Fazenda Nacional). O Ministério da Fazenda replicou o aviso no mesmo dia.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/receita-federal-divulga-calculadora-para-apoiar-contribuintes-na-analise-de-opcoes-de-transacao-tributaria",
+   "data": "2026-11-09",
+   "veiculo": "Ministério da Fazenda (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "O quadro-resumo compara entrada, desconto estimado, saldo devedor, número e valor das parcelas, uso de prejuízo fiscal e base negativa da CSLL, e prazo de adesão.",
+   "fonte_url": "https://fenacon.org.br/noticias/receita-federal-disponibiliza-calculadora-para-apoiar-contribuintes-na-analise-de-opcoes-de-transacao-tributaria/",
+   "data": "2026-11-10",
+   "veiculo": "Fenacon (reproduz nota da Receita)",
+   "confiavel": false
+  },
+  {
+   "texto": "O usuário escolhe o tipo de contribuinte (pessoa natural, MEI, microempresa ou empresa de pequeno porte, entre outros) e informa a situação cadastral. Depois cadastra os débitos e informa a CAPAG, a capacidade de pagamento, consultada no portal Regularize.",
+   "fonte_url": "https://www.contadores.cnt.br/noticias/tecnicas/2026/11/10/receita-federal-disponibiliza-calculadora-para-apoiar-contribuintes-na-analise-de-opcoes-de-transacao-tributaria.html",
+   "data": "2026-11-10",
+   "veiculo": "Contadores.cnt.br (fonte: gov.br Receita Federal)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita recomenda lançar os débitos um a um, para a estimativa ficar mais perto da realidade. A simulação é orientativa e não formaliza a adesão.",
+   "fonte_url": "https://www.abrameq.com.br/post/receita-facilita-escolha-de-transa%C3%A7%C3%A3o-tribut%C3%A1ria",
+   "data": "2026-11-09",
+   "veiculo": "Abrameq",
+   "confiavel": false
+  },
+  {
+   "texto": "Edital 9/2026 da Receita: débitos em discussão administrativa de até R$ 50 milhões por processo. Edital 10/2026: débitos de pequeno valor, até 60 salários-mínimos por processo, para pessoa física, MEI, empresário individual, microempresa e empresa de pequeno porte.",
+   "fonte_url": "https://www.mattosfilho.com.br/unico/receita-editais-contencioso-administrativo/",
+   "data": "2026-07-13",
+   "veiculo": "Mattos Filho",
+   "confiavel": false
+  },
+  {
+   "texto": "O edital 6/2026 da PGFN trata de dívidas já inscritas na dívida ativa da União. A adesão é pelo portal Regularize da PGFN.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/77182/pgfn-abre-edital-de-transacao-tributaria-para-dividas-ate-r-45-mi/",
+   "data": "2026-06-01",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita diz que a ferramenta será atualizada conforme mudarem os editais, as modalidades e as condições da Receita e da PGFN.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-disponibiliza-calculadora-para-apoiar-contribuintes-na-analise-de-opcoes-de-transacao-tributaria",
+   "data": "2026-11-09",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A PGFN publica o Edital 6/2026, de transação para dívida ativa da União, com adesão pelo Regularize.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/77182/pgfn-abre-edital-de-transacao-tributaria-para-dividas-ate-r-45-mi/",
+   "data": "2026-06-01",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita publica os Editais 9 e 10/2026, para débitos em discussão administrativa.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/julho/transacao-tributaria-2026-receita-federal-publica-dois-novos-editais-de-negociacao-de-debitos-em-contencioso-administrativo",
+   "data": "2026-07-13",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Fim do prazo original de adesão ao Edital 6/2026 da PGFN, segundo as fontes consultadas. Não achei prorrogação.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/77182/pgfn-abre-edital-de-transacao-tributaria-para-dividas-ate-r-45-mi/",
+   "data": "2026-09-30",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "Prazo original de adesão aos Editais 9 e 10 da Receita, que um escritório de advocacia diz ter sido prorrogado para 30/12.",
+   "fonte_url": "https://mrsadvogados.com/portaria-rfb-no-742-2026-prorrogado-para-30-12-2026-o-prazo-de-adesao-as-transacoes-dos-editais-no-9-e-no-10-2026",
+   "data": "2026-10-30",
+   "veiculo": "MRS Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita publica a Calculadora da Transação Tributária.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-disponibiliza-calculadora-para-apoiar-contribuintes-na-analise-de-opcoes-de-transacao-tributaria",
+   "data": "2026-11-09",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Prazo do edital 6/2026 da PGFN: as fontes que encontrei dizem que a adesão ia até 30/09/2026 e não achei prorrogação. Não foi confirmado se ele ainda aceita adesões. Confira no portal Regularize.",
+  "Prazo dos editais 9 e 10 da Receita: eles previam adesão até 30/10/2026. Um escritório de advocacia (MRS Advogados) informa que a Portaria RFB 742/2026 levou o prazo a 30/12/2026. Não consegui conferir o texto oficial da portaria; confirme no site da Receita.",
+  "A Receita não detalhou, na nota, quais modalidades ficam fora da calculadora além dos três editais citados. Também não divulgou quantas pessoas já usaram a ferramenta.",
+  "O resultado da simulação não garante o desconto: segundo um simulador privado, os percentuais dos editais são tetos e o desconto real depende da CAPAG ou do rating do crédito. Isso não foi confirmado pela Receita e vale conferir no edital."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você deve à Receita ou à PGFN, pode simular entrada, desconto e parcelas antes de decidir, sem assumir compromisso.",
+  "O Edital 9 e o Edital 6 valem para tipos diferentes de dívida: o 9 é para quem discute o débito na esfera administrativa da Receita e o 6 é para dívida já inscrita na PGFN. Veja em qual dos dois está o seu débito.",
+  "Quem é MEI, microempresa ou pessoa física, com dívida em discussão de até 60 salários-mínimos por processo, entra no Edital 10.",
+  "O resultado é uma estimativa. Só vale como acordo se você formalizar a adesão no canal oficial e cumprir as regras, como o pagamento da entrada ou da primeira parcela.",
+  "Antes de contar com um edital, confira o prazo no site da Receita ou da PGFN, porque as datas podem ter mudado."
+ ],
+ "como_se_proteger": [],
+ "slug": "calculadora-transacao-tributaria-receita-federal",
+ "publicado_em": "2026-11-10T16:17:26.138242",
+ "atualizado_em": "2026-11-10T16:17:26.138242",
+ "assunto": "A Receita Federal lançou em 9/11 (divulgação oficial em 10/11) a Calculadora da Transação Tributária, que compara entrada, descontos e parcelas dos editais 9 e 10/2026 da Receita e do edital 6/2026 da PGFN.",
+ "turno": "viral"
+}
