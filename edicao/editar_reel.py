@@ -70,7 +70,7 @@ def trechos() -> list[tuple[float, float]]:
             juntos[-1] = (juntos[-1][0], max(b, juntos[-1][1]))
         else:
             juntos.append((a, b))
-    manter, t = [], 0.0
+    manter, t = [], max(0.0, ATRASO - 0.03)  # o vídeo começa antes do som: corta esse começo mudo
     for a, b in juntos:
         if a > t + 0.05:
             manter.append((round(t, 3), round(min(a, fim_video), 3)))
