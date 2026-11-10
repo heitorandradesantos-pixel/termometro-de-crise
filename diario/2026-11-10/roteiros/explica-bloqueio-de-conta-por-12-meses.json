@@ -1,0 +1,180 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "Fatura atrasada bloqueia sua conta por 12 meses? Não.",
+  "na_tela": "Bloqueio de 12 meses: verdade?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Fatura atrasada bloqueia sua conta por 12 meses? Não.",
+   "na_tela": "Bloqueio de 12 meses: verdade?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O bloqueio de 12 meses não é decisão nova de novembro.",
+   "na_tela": "Não é decisão de novembro",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Nubank, Itaú e outros bancos testam bloqueio de até 12 meses.",
+   "na_tela": "Bancos testam bloqueio de 12 meses",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Fatura atrasada bloqueia sua conta por 12 meses? Não.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: bloqueio de conta exige ordem de um juiz.",
+  "Segundo o GMC Online, fatura ou boleto atrasado não aciona bloqueio.",
+  "Em 11 de maio, o CNJ fechou teste com cinco bancos.",
+  "Nele, uma ordem de bloqueio pode valer por até 12 meses.",
+  "Mas calma: isso não é conta congelada por 12 meses.",
+  "É um fiscal de plantão: só segura até o valor da dívida.",
+  "Segundo reportagens que citam o CNJ, ainda está em testes, sem data.",
+  "Sem processo de cobrança, a temperatura segue normal.",
+  "Chegou aviso de bloqueio? Procure o advogado do processo ou a Defensoria.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Fatura atrasada bloqueia sua conta por 12 meses? Não. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: bloqueio de conta exige ordem de um juiz. Segundo o GMC Online, fatura ou boleto atrasado não aciona bloqueio. Em 11 de maio, o CNJ fechou teste com cinco bancos. Nele, uma ordem de bloqueio pode valer por até 12 meses. Mas calma: isso não é conta congelada por 12 meses. É um fiscal de plantão: só segura até o valor da dívida. Segundo reportagens que citam o CNJ, ainda está em testes, sem data. Sem processo de cobrança, a temperatura segue normal. Chegou aviso de bloqueio? Procure o advogado do processo ou a Defensoria. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 140,
+ "segundos": 56,
+ "na_tela": [
+  {
+   "texto": "Bloqueio de 12 meses: verdade?",
+   "fala": 0
+  },
+  {
+   "fala": 3,
+   "texto": "Fatura atrasada ≠ bloqueio",
+   "fonte": "GMC Online"
+  },
+  {
+   "fala": 4,
+   "texto": "11 de maio · cinco bancos",
+   "fonte": "Portal CNJ"
+  },
+  {
+   "fala": 5,
+   "texto": "Até 12 meses",
+   "fonte": "DNA Law"
+  },
+  {
+   "fala": 7,
+   "texto": "Só até o valor da dívida",
+   "fonte": "Seu Crédito Digital"
+  },
+  {
+   "fala": 8,
+   "texto": "Ainda em testes",
+   "fonte": "A Rede"
+  },
+  {
+   "fala": 10,
+   "texto": "Advogado ou Defensoria Pública"
+  }
+ ],
+ "retomada": 6,
+ "busca": "bloqueio de conta por 12 meses Nubank e Itaú",
+ "legenda": "Bloqueio de conta por 12 meses no Nubank e no Itaú: o que se sabe.\n\nSegundo o GMC Online, atrasar fatura ou boleto não aciona bloqueio. Ele depende de ordem de um juiz no processo de cobrança.\n\nO teste do CNJ com cinco bancos prevê ordem de até 12 meses, mas, segundo reportagens que citam o CNJ, ainda está em testes. Não achamos data para valer no uso real.\n\nSe chegar aviso de bloqueio, procure o advogado do processo ou a Defensoria Pública.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bloqueiodeconta #sisbajud #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#bloqueiodeconta",
+  "#sisbajud",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Fatura atrasada bloqueia sua conta por 12 meses? Não, olha só.",
+  "topicos": [
+   "Segundo o GMC Online, fatura ou boleto atrasado não aciona bloqueio de conta.",
+   "Teste do CNJ com cinco bancos prevê ordem de bloqueio de até 12 meses.",
+   "Segundo reportagens que citam o CNJ, a função ainda está em testes, sem data.",
+   "Chegou aviso de bloqueio? Procure o advogado do processo ou a Defensoria Pública."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e pontos em aberto, não notícia quente do dia, pois o teste é de maio.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Em 11 de maio, o CNJ fechou teste com cinco bancos.\": a data e o fato estão certos, mas é seca. Reescreva traduzindo na mesma frase o que é esse teste, por exemplo \"o CNJ fechou um teste com cinco bancos: é um ensaio de como o juiz manda travar a conta\". Assim o iniciante entende sem se sentir burro. Não acrescente número novo.",
+   "Frase \"É um fiscal de plantão: só segura até o valor da dívida.\": é a única comparação viva do roteiro e chega tarde. Leve a imagem para perto do gancho ou ligue-a a algo do dia a dia, como a conta de luz ou o cartão. Assim o lado sanguíneo aparece mais e o ritmo fica mais vivo. Não mude o fato, só a imagem.",
+   "Frase \"Sem processo de cobrança, a temperatura segue normal.\": isso acalma, mas não dá um passo simples para o fleumático. Acrescente uma ação concreta, por exemplo \"se a fatura atrasou, o passo é negociar com o banco e guardar o comprovante\". Só use isso se for coerente com a fonte. Se não for, mantenha o passo que já existe (advogado ou Defensoria)."
+  ],
+  "veredito": "A peça responde à pergunta de bolso logo no gancho, desfaz o medo com fonte, comparação e saída, e usa os bordões da casa sem alarde. Falta só traduzir melhor o teste do CNJ e dar mais um passo simples para quem está com fatura atrasada."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Close-up of a paper utility bill and an overdue payment slip lying on a wooden kitchen table beside a calculator and a coffee mug, soft morning window light. Slow dolly-in across the papers, shallow depth of field. No readable text, no numbers, no logos, no people",
+   "texto_da_fala": "Segundo o GMC Online, fatura ou boleto atrasado não aciona bloqueio.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a paper utility bill and an overdue payment slip lying on a wooden kitchen table beside a calculator and a coffee mug, soft morning window light. Slow dolly-in across the papers, shallow depth of field. No readable text, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Interior of a modern bank branch lobby with empty teller desks and glass partitions, seen from a slow gliding camera moving forward along a row of five identical desks. Cool daylight, clean corporate atmosphere. No people in focus, no text, no numbers, no logos",
+   "texto_da_fala": "Em 11 de maio, o CNJ fechou teste com cinco bancos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a modern bank branch lobby with empty teller desks and glass partitions, seen from a slow gliding camera moving forward along a row of five identical desks. Cool daylight, clean corporate atmosphere. No people in focus, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "A night security guard's flashlight beam sweeping slowly across a quiet empty office corridor with closed glass doors, then settling on a locked vault-style door. Smooth tracking shot, moody blue tones. Guard seen only as a silhouette from behind, no face, no text, no numbers, no logos",
+   "texto_da_fala": "É um fiscal de plantão: só segura até o valor da dívida.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A night security guard's flashlight beam sweeping slowly across a quiet empty office corridor with closed glass doors, then settling on a locked vault-style door. Smooth tracking shot, moody blue tones. Guard seen only as a silhouette from behind, no face, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Fatura atrasada bloqueia sua conta por 12 meses? Não.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: bloqueio de conta exige ordem de um juiz.\n\nSegundo o GMC Online, fatura ou boleto atrasado não aciona bloqueio.\n\nEm 11 de maio, o CNJ fechou teste com cinco bancos.\n\nNele, uma ordem de bloqueio pode valer por até 12 meses.\n\nMas calma: isso não é conta congelada por 12 meses.\n\nÉ um fiscal de plantão: só segura até o valor da dívida.\n\nSegundo reportagens que citam o CNJ, ainda está em testes, sem data.\n\nSem processo de cobrança, a temperatura segue normal.\n\nChegou aviso de bloqueio? Procure o advogado do processo ou a Defensoria.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/novo-bloqueio-judicial-automatico-de-contas-exige-atencao-de-devedores",
+   "destaque": "O teste dura 18 meses e vale para Caixa, Banco do Brasil, Itaú Unibanco, Nubank e XP Investimentos."
+  }
+ ],
+ "data": "2026-11-10",
+ "gerado_em": "2026-11-10T13:20:37.929440-03:00"
+}
