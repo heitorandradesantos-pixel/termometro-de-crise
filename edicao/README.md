@@ -19,3 +19,6 @@ Como o script funciona (vale para os próximos):
 4. Zoom alternado de 8% nos cortes, cartões com a fonte no terço de cima, selo da marca e legenda de 2 a 3
    palavras (Inter Display Black, números e nomes em amarelo).
 5. Áudio: passa-alta, redução de ruído leve, compressor e -14 LUFS, com os 25 ms de atraso dos filtros compensados.
+6. Tela final de 3 s (pedido do Heitor, a partir de 10/11): "Siga o @termometrodecrise para atualizações diárias
+   do mercado financeiro", com o logo e o botão "Seguir". Curta de propósito: tela parada longa faz a pessoa
+   passar o Reel antes do fim e derruba o alcance. Duração ajustável com `"final"` no config.json (ex.: 5).

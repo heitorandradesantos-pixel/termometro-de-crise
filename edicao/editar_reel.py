@@ -218,6 +218,30 @@ SIMBOLO = ('<svg width="46" height="46" viewBox="0 0 200 200"><g transform="tran
            '<line x1="100" y1="120" x2="120.44" y2="76.57" stroke="#EEF2F5" stroke-width="10" stroke-linecap="round"/></g></svg>')
 
 
+FINAL = 3.0  # segundos da tela final: curta, para não derrubar a retenção do Reel
+
+
+def tela_final() -> Path:
+    """Tela 1080x1920 com o logo e o convite para seguir o perfil."""
+    pasta = AQUI / "cartoes"
+    pasta.mkdir(exist_ok=True)
+    grande = SIMBOLO.replace('width="46" height="46"', 'width="260" height="260"')
+    corpo = (f'<div class="fim">{grande}<div class="f1">Siga o</div><div class="f2">@termometrodecrise</div>'
+             '<div class="f3">para atualizações diárias<br>do mercado financeiro</div><div class="bt">Seguir</div></div>')
+    estilo = """<style>.fim{width:1080px;height:1920px;background:radial-gradient(circle at 50% 38%,#1A2430 0%,#0E141B 62%);
+display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;font-family:'Inter Display','Inter',sans-serif;color:#EEF2F5;text-align:center}
+.f1{font-weight:700;font-size:64px;color:#A9B4C4;margin-top:30px}.f2{font-weight:900;font-size:86px;letter-spacing:-.01em}
+.f3{font-weight:600;font-size:50px;line-height:1.25;color:#C9D3DE;margin-top:6px}
+.bt{margin-top:46px;background:#F2C14E;color:#0B1220;font-weight:900;font-size:56px;border-radius:999px;padding:22px 84px}</style>"""
+    (pasta / "final.html").write_text(CARTAO_HTML.replace("</head>", estilo + "</head>").replace("__CORPO__", corpo))
+    js = """const { chromium } = require('playwright');
+(async () => { const b = await chromium.launch(); const p = await b.newPage({viewport: {width: 1080, height: 1920}});
+  await p.goto('file://' + process.argv[2]); await p.screenshot({path: process.argv[3]}); await b.close(); })();"""
+    (pasta / "final.js").write_text(js)
+    subprocess.run(["node", str(pasta / "final.js"), str(pasta / "final.html"), str(pasta / "final.png")], check=True, cwd=pasta)
+    return pasta / "final.png"
+
+
 def imagens() -> list[Path]:
     import html as h
     pasta = AQUI / "cartoes"
@@ -298,7 +322,8 @@ def montar():
                     "-map", "[v]", "-map", "[a]", "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
                     "-pix_fmt", "yuv420p", "-c:a", "pcm_s16le", "-ac", "2", str(junto)], check=True)
     # 2) cartões, selo, legenda e áudio por cima do vídeo já cortado
-    entradas, filtro, atual = ["-i", str(junto)], "", "0:v"
+    final = float(CFG.get("final", FINAL))  # tela final "siga o @termometrodecrise"
+    entradas, filtro, atual = ["-i", str(junto)], f"[0:v]tpad=stop_mode=add:stop_duration={final}:color=0x0E141B[base];", "base"
     for k, ((ini, fim, *_), png) in enumerate(zip(CARTOES, pngs[:-2]), start=1):
         a, b = novo(ini + ATRASO), min(novo(fim + ATRASO), total)
         dur = max(0.3, b - a)
@@ -316,16 +341,19 @@ def montar():
         atual = "ob"
     k = len(CARTOES) + 2
     entradas += ["-loop", "1", "-t", f"{total:.3f}", "-i", str(pngs[-2])]
+    entradas += ["-loop", "1", "-t", f"{final:.3f}", "-i", str(tela_final())]
     filtro += (f"[{k}:v]format=rgba,colorchannelmixer=aa=0.9[selo];[{atual}][selo]overlay=x=48:y=150:eof_action=pass[os];"
-               f"[os]ass={AQUI / 'legenda.ass'}:fontsdir=/usr/share/fonts/opentype/inter[vf];"
+               f"[os]ass={AQUI / 'legenda.ass'}:fontsdir=/usr/share/fonts/opentype/inter[vl];"
+               f"[{k + 1}:v]format=rgba,fade=t=in:st=0:d=0.25:alpha=1,setpts=PTS-STARTPTS+{total:.3f}/TB[cf];"
+               f"[vl][cf]overlay=0:0:eof_action=pass[vf];"
                "[0:a]highpass=f=80,afftdn=nr=8:nf=-42,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
                "loudnorm=I=-14:TP=-1.5:LRA=9,aresample=48000,"
-               "atrim=start=0.025,asetpts=PTS-STARTPTS,apad=pad_dur=0.025[af]")  # os filtros atrasam o som 25 ms: compensa
+               f"atrim=start=0.025,asetpts=PTS-STARTPTS,apad=pad_dur={0.025 + final:.3f}[af]")  # os filtros atrasam o som 25 ms: compensa
     (AQUI / "filtro.txt").write_text(filtro)
     cmd = ["ffmpeg", "-v", "error", "-y", *entradas, "-filter_complex_script", str(AQUI / "filtro.txt"),
            "-map", "[vf]", "-map", "[af]", "-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "18",
            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
-           "-t", f"{total:.3f}", str(AQUI / CFG["saida"])]
+           "-t", f"{total + final:.3f}", str(AQUI / CFG["saida"])]
     subprocess.run(cmd, check=True)
     print(f"{len(manter)} trechos, {FIM:.1f}s → {total:.1f}s")
 
