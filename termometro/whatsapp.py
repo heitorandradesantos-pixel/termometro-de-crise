@@ -180,7 +180,8 @@ def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
     if pasta_saida.exists():
         shutil.rmtree(pasta_saida)
     pasta_saida.mkdir(parents=True)
-    textos = [t for arq, r in novos for t in roteirista.pacote_whatsapp(r, _titulo_roteiro(pasta_diario, dia, arq))]
+    textos = [t for n, (arq, r) in enumerate(novos, 1)
+              for t in roteirista.pacote_whatsapp(r, _titulo_roteiro(pasta_diario, dia, arq), n, len(novos))]
     envio = {"modo": "teste", "dia": dia, "tipo": "roteiros", "textos": textos, "roteiros": [str(a) for a, _ in novos]}
     (pasta_saida / "envio.json").write_text(json.dumps(envio, ensure_ascii=False, indent=1))
     return f"{len(novos)} roteiro(s) de {dia} prontos para mandar (conversa do próprio número)."
