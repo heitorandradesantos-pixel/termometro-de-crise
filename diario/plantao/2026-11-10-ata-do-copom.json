@@ -1,0 +1,120 @@
+{
+ "titulo": "Ata do Copom e Selic em 13,75%: o que se sabe",
+ "descricao": "A Selic está em 13,75%, não 3,75%. Veja por que o Copom pausou os cortes, o que a ata deve explicar e o que se sabe sobre risco de alta dos juros.",
+ "palavra_chave": "ata do copom",
+ "lead": "A Selic, a taxa básica de juros, está em 13,75% ao ano, e não em 3,75%. O Copom manteve esse nível em 4 de novembro, por unanimidade, e pausou uma sequência de cinco cortes. A ata da reunião sai nesta terça (10/11), às 8h. Nas fontes que consultamos, o texto completo ainda não aparecia, então o que ela diz sobre uma eventual alta dos juros não está confirmado aqui.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 4 de novembro, o Copom manteve a Selic em 13,75% ao ano, por unanimidade. A decisão interrompeu cinco cortes seguidos de 0,25 ponto percentual, que haviam levado a taxa de 15% a 13,75%.",
+   "fonte_url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-4-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "Sou Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "No comunicado da decisão, o Copom afirmou que as incertezas aumentaram nas últimas semanas e que as expectativas de inflação seguem acima da meta. A reportagem também cita o dólar e o El Niño (fenômeno climático que pode afetar preços de alimentos) entre os fatores.",
+   "fonte_url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-4-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "Sou Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "A gestora Nomad leu o comunicado assim: o comitê tirou o trecho sobre o tamanho total do ciclo de cortes, o que pode indicar que as reduções acabaram, ao menos por ora. Também passou a chamar a Selic de \"substancialmente contracionista\", ou seja, juros altos que freiam a economia. A Nomad espera nova manutenção em dezembro. É uma análise, não uma sinalização oficial.",
+   "fonte_url": "https://www.nomadglobal.com/portal/analises/analise-do-copom-novembro-de-2026",
+   "data": "2026-11-05",
+   "veiculo": "Nomad",
+   "confiavel": false
+  },
+  {
+   "texto": "Antes da reunião, o mercado dividia-se entre corte e pausa. Segundo a Exame, a percepção de manutenção ganhou força depois do segundo turno das eleições, e contratos de opções de Copom na B3 passaram a indicar maioria para a pausa.",
+   "fonte_url": "https://exame.com/invest/mercados/copom-pode-encerrar-ciclo-de-cortes-na-selic-hoje-como-ficam-os-seus-investimentos/",
+   "data": "2026-11-04",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O Focus, pesquisa semanal do Banco Central com economistas, subiu a mediana da Selic para o fim de 2026 de 13,50% para 13,75%, segundo a Agência Brasil, citada pelo site O Cafezinho. Ou seja, o mercado deixou de apostar em novo corte neste ano.",
+   "fonte_url": "https://www.ocafezinho.com/2026-11-09/ata-do-copom-sai-na-terca-e-antecede-inflacao-de-outubro-na-quinta",
+   "data": "2026-11-09",
+   "veiculo": "O Cafezinho (cita Agência Brasil)",
+   "confiavel": false
+  },
+  {
+   "texto": "A ata não é uma nova votação. O documento detalha os argumentos do comitê e sai na terça, 10 de novembro, às 8h. Segundo a Rankia, o IPCA de outubro (a inflação oficial) e a próxima reunião do Copom, em 8 e 9 de dezembro, vêm depois.",
+   "fonte_url": "https://rankia.com.br/proxima-reuniao-copom/",
+   "data": "2026-11-10",
+   "veiculo": "Rankia",
+   "confiavel": false
+  },
+  {
+   "texto": "O IPCA de outubro sai na quinta, 12 de novembro, às 9h, segundo o O Cafezinho. Ele mostra como os preços se comportaram no mês passado.",
+   "fonte_url": "https://www.ocafezinho.com/2026-11-09/ata-do-copom-sai-na-terca-e-antecede-inflacao-de-outubro-na-quinta",
+   "data": "2026-11-09",
+   "veiculo": "O Cafezinho",
+   "confiavel": false
+  },
+  {
+   "texto": "Em análise publicada antes da decisão, a EBC calculou o juro real (a Selic menos a inflação esperada) em cerca de 8,6% ao ano, usando a inflação esperada de 4,76% para 2027. O número fica bem acima do juro neutro, em torno de 5%, estimativa usada pelo Banco Central. Esse é um dos argumentos de quem vê espaço para cortes.",
+   "fonte_url": "https://www.ebc.com/pt/forex/reuniao-do-copom-selic-vai-cair-ou-ficar-em-13-75",
+   "data": "2026-11-02",
+   "veiculo": "EBC",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Copom começa os cortes e leva a Selic de 15% para 14,75%.",
+   "fonte_url": "https://www.ebc.com/pt/forex/taxa-selic-2026-vai-cair-ou-o-corte-fica-para-2027",
+   "data": "2026-03-18",
+   "veiculo": "EBC",
+   "confiavel": false
+  },
+  {
+   "texto": "Quinto corte seguido de 0,25 ponto: a Selic chega a 13,75%.",
+   "fonte_url": "https://www.ebc.com/pt/forex/taxa-selic-2026-vai-cair-ou-o-corte-fica-para-2027",
+   "data": "2026-09-16",
+   "veiculo": "EBC",
+   "confiavel": false
+  },
+  {
+   "texto": "A ata de setembro atribui o corte à desaceleração da economia. Segundo a Agência Brasil, as expectativas de inflação seguiam acima da meta.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ata-do-copom-atribui-corte-da-selic-desaceleracao-da-economia",
+   "data": "2026-09-22",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom mantém a Selic em 13,75%, por unanimidade, e pausa os cortes.",
+   "fonte_url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-4-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "Sou Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central publica a ata da reunião de novembro, às 8h.",
+   "fonte_url": "https://rankia.com.br/proxima-reuniao-copom/",
+   "data": "2026-11-10",
+   "veiculo": "Rankia",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O que a ata de 10/11 diz sobre os próximos passos não foi confirmado nas fontes que consultamos, porque o texto completo ainda não aparecia nelas. Confira no site do Banco Central.",
+  "Se o Copom considera subir os juros não foi confirmado. Não encontramos sinalização oficial de alta. Antes da decisão, a EBC descrevia apostas em alta como residuais e improváveis. É uma leitura de analistas, não do Banco Central.",
+  "Quando os cortes voltam é incerto, e as previsões divergem. A Nomad espera manutenção em dezembro. A EBC diz que o mercado empurrou o próximo corte para março de 2027. Segundo a Exame, uma analista vê a Selic parada até o fim de 2027. Nenhuma dessas projeções é oficial.",
+  "Há leituras diferentes sobre o rumo dos juros. Segundo o Money Times, o mercado vê a manutenção como a decisão mais correta, enquanto integrantes do governo e economistas próximos a eles veem espaço para cortes mais fortes. O assunto não está resolvido.",
+  "O peso do IPCA de outubro (12/11) e do câmbio na decisão de dezembro ainda não é conhecido. Nenhuma fonte oficial indicou como o Copom vai reagir a esses dados."
+ ],
+ "o_que_muda_para_voce": [
+  "A ata não muda a taxa. A Selic continua em 13,75% ao ano, até a próxima decisão, marcada para 9 de dezembro.",
+  "Quem tem financiamento ou empréstimo com juros ligados à Selic não deve ver as parcelas ficarem mais baratas agora. O alívio esperado para o consumidor foi adiado, segundo o boletim Copom Pausa a Selic.",
+  "Aplicações que acompanham a Selic, como o Tesouro Selic, continuam rendendo perto dessa taxa. A pausa não reduz esse rendimento, mas também não o aumenta.",
+  "Se a ata ou o IPCA de quinta mudarem as apostas, as previsões para os juros podem mudar. Vale conferir o texto no site do Banco Central e acompanhar o Focus de segunda-feira."
+ ],
+ "como_se_proteger": [],
+ "slug": "ata-do-copom",
+ "publicado_em": "2026-11-10T07:59:41.772040",
+ "atualizado_em": "2026-11-10T07:59:41.772040",
+ "assunto": "O que se sabe sobre a ata do Copom: por que a Selic foi mantida em 3,75% e se os juros podem voltar a subir",
+ "turno": "manha"
+}
