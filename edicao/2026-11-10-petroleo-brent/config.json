@@ -1,0 +1,179 @@
+{
+ "saida": "petroleo-brent-editado.mp4",
+ "fim": 47.0,
+ "bordao": [
+  45.07,
+  47.0
+ ],
+ "remover": [
+  [
+   27.08,
+   30.6
+  ],
+  [
+   33.96,
+   34.38
+  ]
+ ],
+ "destaques": "\\d|%|brent|ormuz|petrobras|whatsapp|paz|reuters|irã|gasolina",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "roteiro": [
+  "O Brent caiu abaixo de US$ 90, e não foi por acordo de paz.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Segundo a Reuters, Trump não vê necessidade de novos ataques ao Irã, por ora.",
+  "Mas não é acordo de paz: o risco para navios em Ormuz continua.",
+  "O Brent está cerca de 22% abaixo da máxima de seis meses.",
+  "Na bomba, o repasse não é automático: depende da Petrobras e do dólar.",
+  "É como a farinha do pão: a padaria nem sempre repassa a queda.",
+  "Ninguém sabe se segura abaixo de US$ 90: depende de novas falas e de Ormuz.",
+  "O passo é simples: não conte com gasolina mais barata antes de a Petrobras falar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "O",
+    "dólar",
+    "caiu"
+   ],
+   [
+    "O",
+    "óleo",
+    "caiu"
+   ]
+  ],
+  [
+   [
+    "Iran"
+   ],
+   [
+    "Irã"
+   ]
+  ],
+  [
+   [
+    "por",
+    "hora"
+   ],
+   [
+    "por",
+    "ora"
+   ]
+  ],
+  [
+   [
+    "heitor"
+   ],
+   [
+    "Heitor"
+   ]
+  ],
+  [
+   [
+    "Mas",
+    "não",
+    "é"
+   ],
+   [
+    "não",
+    "é"
+   ]
+  ],
+  [
+   [
+    "90",
+    "dólares"
+   ],
+   [
+    "US$ 90"
+   ]
+  ],
+  [
+   [
+    "22",
+    "%"
+   ],
+   [
+    "22%"
+   ]
+  ],
+  [
+   [
+    "whatsapp"
+   ],
+   [
+    "WhatsApp"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   3.27,
+   "Brent *abaixo de US$ 90*",
+   ""
+  ],
+  [
+   6.27,
+   10.35,
+   "Trump: sem novos ataques ao Irã, *por ora*",
+   "Fonte: Reuters"
+  ],
+  [
+   10.65,
+   14.93,
+   "Risco em Ormuz *continua*",
+   ""
+  ],
+  [
+   15.17,
+   18.35,
+   "*22% abaixo* da máxima de seis meses",
+   "Fonte: The Globe and Mail (Reuters)"
+  ],
+  [
+   18.63,
+   22.97,
+   "Repasse na bomba *não é automático*",
+   ""
+  ],
+  [
+   23.29,
+   27.01,
+   "Como a farinha do pão: *nem sempre repassa*",
+   ""
+  ],
+  [
+   30.65,
+   35.55,
+   "Brent abaixo de US$ 90: *vai segurar?*",
+   "Fonte: RTE"
+  ],
+  [
+   35.95,
+   39.69,
+   "Gasolina mais barata? *Espere a Petrobras*",
+   ""
+  ],
+  [
+   39.69,
+   41.83,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   42.23,
+   44.59,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}

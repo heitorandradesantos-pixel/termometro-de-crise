@@ -1,0 +1,143 @@
+{
+ "saida": "bloqueio-de-conta-editado.mp4",
+ "fim": 50.85,
+ "bordao": [
+  48.68,
+  50.85
+ ],
+ "destaques": "\\d|%|cnj|juiz|bloqueio|whatsapp|testes|dívida|defensoria|advogado",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "GMC",
+   "Online"
+  ],
+  [
+   "Defensoria",
+   "Pública"
+  ]
+ ],
+ "roteiro": [
+  "Fatura atrasada bloqueia sua conta por 12 meses? Não.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "Olha só: bloqueio de conta exige ordem de um juiz.",
+  "Segundo o GMC Online, fatura ou boleto atrasado não aciona bloqueio.",
+  "Em 11 de maio, o CNJ fechou teste com cinco bancos.",
+  "Nele, uma ordem de bloqueio pode valer por até 12 meses.",
+  "Mas calma: isso não é conta congelada por 12 meses.",
+  "É um fiscal de plantão: só segura até o valor da dívida.",
+  "Segundo reportagens que citam o CNJ, ainda está em testes, sem data.",
+  "Sem processo de cobrança, a temperatura segue normal.",
+  "Chegou aviso de bloqueio? Procure o advogado do processo ou a Defensoria.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "existe",
+    "de",
+    "ordem"
+   ],
+   [
+    "exige",
+    "ordem"
+   ]
+  ],
+  [
+   [
+    "a",
+    "GMC"
+   ],
+   [
+    "o",
+    "GMC"
+   ]
+  ],
+  [
+   [
+    "a",
+    "CNJ"
+   ],
+   [
+    "o",
+    "CNJ"
+   ]
+  ],
+  [
+   [
+    "Defesoria"
+   ],
+   [
+    "Defensoria"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   3.84,
+   "Bloqueio de 12 meses: *verdade?*",
+   ""
+  ],
+  [
+   6.7,
+   9.84,
+   "Só com *ordem de juiz*",
+   ""
+  ],
+  [
+   10.04,
+   13.94,
+   "Fatura atrasada *não bloqueia*",
+   "Fonte: GMC Online"
+  ],
+  [
+   14.02,
+   17.26,
+   "*11 de maio* · cinco bancos",
+   "Fonte: Portal CNJ"
+  ],
+  [
+   17.44,
+   20.54,
+   "Até *12 meses*",
+   "Fonte: DNA Law"
+  ],
+  [
+   24.6,
+   28.06,
+   "Só até o *valor da dívida*",
+   "Fonte: Seu Crédito Digital"
+  ],
+  [
+   28.5,
+   32.62,
+   "Ainda *em testes*",
+   "Fonte: A Rede"
+  ],
+  [
+   36.1,
+   40.48,
+   "*Advogado* ou Defensoria Pública",
+   ""
+  ],
+  [
+   40.84,
+   45.24,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   45.52,
+   48.12,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}

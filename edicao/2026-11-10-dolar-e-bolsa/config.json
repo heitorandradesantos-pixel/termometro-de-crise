@@ -1,0 +1,204 @@
+{
+ "saida": "dolar-e-bolsa-1011-editado.mp4",
+ "fim": 46.6,
+ "bordao": [
+  44.55,
+  46.6
+ ],
+ "remover": [
+  [
+   11.681,
+   11.847
+  ]
+ ],
+ "destaques": "\\d|%|selic|dólar|bolsa|ibovespa|ata\\b|whatsapp|tensão|amarelo|calma",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Yahoo",
+   "Finance"
+  ]
+ ],
+ "roteiro": [
+  "O dólar subiu mais que a bolsa hoje, e isso chega no seu bolso.",
+  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
+  "O dólar abriu a R$ 5,55, alta de 0,81%, segundo o Yahoo Finance.",
+  "O Ibovespa subiu menos: 0,37%.",
+  "Olha só: dólar alto pode pesar em eletrônico importado, viagem e compra internacional no cartão.",
+  "Ontem, o termômetro do Brasil marcou febre de 65: sinal amarelo.",
+  "Agora o destaque: a Selic, a taxa básica de juros, está em 13,75%.",
+  "Ela é o preço do dinheiro: mexe no cartão e no financiamento.",
+  "A ata resume a reunião da Selic; o que vem depois, ainda não se sabe.",
+  "Antes de comprar em dólar, acompanhe o preço com calma.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Isso não é recomendação: quem decide é você.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "link",
+    "na",
+    "bill."
+   ],
+   [
+    "link",
+    "na",
+    "bio"
+   ]
+  ],
+  [
+   [
+    "Sem",
+    "a",
+    "large,"
+   ],
+   [
+    "Sem",
+    "alarde"
+   ]
+  ],
+  [
+   [
+    "5",
+    ",55,"
+   ],
+   [
+    "R$ 5,55"
+   ]
+  ],
+  [
+   [
+    "0",
+    ",81%,"
+   ],
+   [
+    "0,81%"
+   ]
+  ],
+  [
+   [
+    "0",
+    ",37%."
+   ],
+   [
+    "0,37%"
+   ]
+  ],
+  [
+   [
+    "13",
+    ",75%."
+   ],
+   [
+    "13,75%"
+   ]
+  ],
+  [
+   [
+    "A",
+    "Ibovespa"
+   ],
+   [
+    "O",
+    "Ibovespa"
+   ]
+  ],
+  [
+   [
+    "a",
+    "Yahoo"
+   ],
+   [
+    "o",
+    "Yahoo"
+   ]
+  ],
+  [
+   [
+    "heitor"
+   ],
+   [
+    "Heitor"
+   ]
+  ],
+  [
+   [
+    "menos",
+    "de",
+    "0,37%"
+   ],
+   [
+    "menos",
+    "0,37%"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.19,
+   3.01,
+   "Dólar subiu *mais que a bolsa*",
+   ""
+  ],
+  [
+   5.93,
+   10.45,
+   "Dólar: *R$ 5,55* (▲0,81%)",
+   "Fonte: Yahoo Finance"
+  ],
+  [
+   10.71,
+   13.55,
+   "Ibovespa: *▲0,37%*",
+   "Fonte: Yahoo Finance"
+  ],
+  [
+   13.55,
+   19.05,
+   "Pesa em *importado e viagem*",
+   ""
+  ],
+  [
+   19.27,
+   23.03,
+   "Brasil: *65 · Tensão*",
+   "Fonte: Termômetro de Crise",
+   "#EE8A3C"
+  ],
+  [
+   23.15,
+   27.97,
+   "Selic: *13,75%*",
+   "Fonte: Banco Central"
+  ],
+  [
+   31.25,
+   35.43,
+   "Ata do Copom: *o que se sabe*",
+   ""
+  ],
+  [
+   35.59,
+   38.47,
+   "Comprar em dólar? *Com calma*",
+   ""
+  ],
+  [
+   38.65,
+   40.89,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   41.11,
+   44.25,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}
