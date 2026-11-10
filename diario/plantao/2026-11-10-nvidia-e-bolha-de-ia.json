@@ -1,0 +1,120 @@
+{
+ "titulo": "Nvidia e bolha de IA: o que se sabe e o que muda para você",
+ "descricao": "Ações da Nvidia caem após investigação sobre o CEO e medo de bolha de IA. Veja o que se sabe e o que muda para fundos, previdência e apps.",
+ "palavra_chave": "nvidia e bolha de ia",
+ "lead": "As ações da Nvidia fecharam em queda de 4,27% na segunda-feira (9/11), depois que o conselho da empresa abriu uma investigação independente sobre o CEO, Jensen Huang. A queda soma-se a semanas de vendas de ações de inteligência artificial (IA) por medo de bolha, segundo a ABC News. Quem tem fundo, previdência ou app com ações de tecnologia dos EUA pode sentir isso na cota, dependendo do quanto a carteira tem de Nvidia.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em comunicado divulgado no domingo (8/11), o conselho da Nvidia disse que abriu uma investigação independente, depois de reportagens afirmarem que Jensen Huang foi alvo de um esforço de inteligência estrangeira. Um comitê de conselheiros independentes, com advogados externos, vai conduzir o caso. O conselho diz não ter motivo para crer que segredos da empresa ou a segurança nacional dos EUA tenham sido comprometidos.",
+   "fonte_url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+   "data": "2026-11-08",
+   "veiculo": "Nvidia (comunicado oficial)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em e-mail aos funcionários, Huang admitiu ter sido infiel à esposa e pediu desculpas. Disse apoiar a investigação e que vai cooperar. A empresa afirma que ele continuará como CEO sem interrupção. A ligação é com uma empresária que agências de inteligência dos EUA apontam como espiã chinesa.",
+   "fonte_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "data": "2026-11-08",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "As ações da Nvidia fecharam em queda de 4,27% na segunda-feira (9/11). Outros veículos relataram quedas maiores durante o pregão, de até 8%, mas o número de fechamento é o da CNBC.",
+   "fonte_url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+   "data": "2026-11-09",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "Antes do caso do CEO, as ações da Nvidia e de outras empresas de IA já vinham em venda desde o início de outubro, por medo de bolha no setor. A Nvidia acumulava queda de 23% em 30 dias, incluindo a segunda-feira. Bolha é quando os preços sobem rápido demais, sem respaldo nos lucros das empresas.",
+   "fonte_url": "https://abc.net.au/news/2026-11-10/nvidia-share-price-falls-ceo-jensen-huang-investigated/107366868",
+   "data": "2026-11-10",
+   "veiculo": "ABC News (Austrália)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Nvidia chegou a um recorde de fechamento perto de US$ 243 por ação (valor de mercado de US$ 5,78 trilhões) no início de outubro de 2026, segundo o Jerusalem Post. Antes da segunda-feira, a ação já havia recuado cerca de 20% desse pico.",
+   "fonte_url": "https://www.jpost.com/business-and-innovation/article-914519",
+   "data": "2026-11-10",
+   "veiculo": "The Jerusalem Post",
+   "confiavel": false
+  },
+  {
+   "texto": "Na quinta-feira (5/11), o Nasdaq 100, índice das maiores empresas de tecnologia dos EUA, caiu 6,3%, segundo a NBC News. A Nvidia recuou 9,2%, a maior queda em um dia desde abril de 2025. A NBC atribuiu o movimento ao medo sobre a durabilidade do boom de IA e a resultados de eleições americanas.",
+   "fonte_url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
+   "data": "2026-11-05",
+   "veiculo": "NBC News",
+   "confiavel": false
+  },
+  {
+   "texto": "Nvidia e Huang foram alvo de um pedido de ação coletiva (processo de acionistas) por suposta fraude contra investidores. O processo foi protocolado cinco minutos após o fechamento da Bolsa na segunda-feira.",
+   "fonte_url": "https://abc.net.au/news/2026-11-10/nvidia-share-price-falls-ceo-jensen-huang-investigated/107366868",
+   "data": "2026-11-09",
+   "veiculo": "ABC News (Austrália)",
+   "confiavel": false
+  },
+  {
+   "texto": "Nesta terça (10/11), os contratos futuros do Nasdaq 100 (apostas sobre onde o índice abrirá) recuaram. Investidores avaliavam o caso Huang e a oferta de ações da Anthropic. Os dados de inflação dos EUA, que saem no dia, podem pesar na recuperação recente das ações. A Nvidia chegou a apagar os ganhos do pré-mercado (negociação antes da abertura).",
+   "fonte_url": "https://www.kitco.com/news/off-the-wire/2026-11-10/nasdaq-futures-slip-nvidia-woes-anthropic-ipo-focus",
+   "data": "2026-11-10",
+   "veiculo": "Reuters (via Kitco)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Nasdaq 100 cai 6,3% e Nvidia recua 9,2% em meio a temores sobre o boom de IA.",
+   "fonte_url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
+   "data": "2026-11-05",
+   "veiculo": "NBC News",
+   "confiavel": false
+  },
+  {
+   "texto": "Conselho da Nvidia anuncia investigação independente; Huang pede desculpas aos funcionários.",
+   "fonte_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+   "data": "2026-11-08",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "Nvidia fecha em queda de 4,27%.",
+   "fonte_url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+   "data": "2026-11-09",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "Acionistas protocolam pedido de ação coletiva contra a Nvidia e Huang.",
+   "fonte_url": "https://abc.net.au/news/2026-11-10/nvidia-share-price-falls-ceo-jensen-huang-investigated/107366868",
+   "data": "2026-11-09",
+   "veiculo": "ABC News (Austrália)",
+   "confiavel": false
+  },
+  {
+   "texto": "Futuros do Nasdaq 100 recuam, com o caso Huang e a inflação dos EUA no radar.",
+   "fonte_url": "https://www.kitco.com/news/off-the-wire/2026-11-10/nasdaq-futures-slip-nvidia-woes-anthropic-ipo-focus",
+   "data": "2026-11-10",
+   "veiculo": "Reuters (via Kitco)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não se sabe o resultado nem o prazo da investigação. O conselho diz que dará novas informações quando couber, mas não divulgou data.",
+  "Não foi confirmado que a Nvidia tenha descumprido regras de exportação. O The Information, citado pela Reuters, reportou que a empresária ajudou a enviar ao menos US$ 7,5 bilhões em chips a empresas chinesas. A Nvidia não respondeu de imediato à Reuters, e a China chama a acusação de espionagem de infundada.",
+  "Não há consenso se a queda é um problema só da Nvidia ou o começo do fim de uma bolha de IA. Analistas do Bank of America dizem que o debate é se o caso fica restrito à empresa ou se gera restrições e prejuízos na cadeia de IA. Segundo o BM&C News, nenhum indicador oficial diz se um mercado está em bolha.",
+  "Não está claro se a queda se explica pelo caso do CEO, pelo medo de bolha ou pela mistura dos dois. Para Nigel Green, da deVere Group, a venda precifica um problema pessoal que não muda a venda de chips. Outros analistas citam o receio de excesso de investimento em IA.",
+  "Os números do dia variam entre os veículos (4,27% no fechamento, segundo a CNBC; 5% a 8% durante o pregão, segundo outros). A data do próximo balanço da Nvidia não aparece nas fontes consultadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Fundo de ações americanas, BDR (recibo de ações de fora negociado no Brasil) ou app com ações dos EUA: se a carteira tem Nvidia, a queda reduz o valor da cota ou da posição. O tamanho do efeito depende do peso da empresa na carteira. Veja a lâmina e a carteira do fundo, que o gestor divulga.",
+  "Previdência (PGBL ou VGBL): só é afetada se o fundo escolhido tiver ações de tecnologia dos EUA. Fundos mistos ou de renda fixa tendem a sentir pouco, porque a Nvidia é uma fatia pequena. O extrato mostra a composição do fundo.",
+  "Dólar: fundos sem proteção cambial (hedge, que reduz o efeito do câmbio) misturam dois movimentos. Dólar mais caro pode compensar parte da queda das ações. Dólar mais barato pode somar à perda.",
+  "A queda aparece no extrato, mas só vira perda definitiva se você resgatar. Preços de ações oscilam, e o que vem depois depende da investigação, da inflação e dos balanços de IA. Este texto não recomenda compra ou venda."
+ ],
+ "como_se_proteger": [],
+ "slug": "nvidia-e-bolha-de-ia",
+ "publicado_em": "2026-11-10T18:13:17.972514",
+ "atualizado_em": "2026-11-10T18:13:17.972514",
+ "assunto": "Nvidia e IA em bolha: o que muda para quem tem fundo, previdência ou app de investimento com ações americanas de tecnologia",
+ "turno": "noite"
+}
