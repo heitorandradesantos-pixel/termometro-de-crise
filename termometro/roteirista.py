@@ -1,4 +1,4 @@
-"""Roteirista: transforma o material conferido do dia em roteiro de Reel (Instagram, TikTok, Shorts) de 45 a 60 s.
+"""Roteirista: transforma o material conferido do dia em roteiro de Reel (Instagram, TikTok, Shorts) de 30 a 45 s.
 
 Três tipos: "abertura" (a mensagem da Abertura no WhatsApp), "fechamento" (o balanço e o panorama do dia) e
 "explica" (um artigo do Plantão). O vídeo não cria fato: cada número falado tem de estar no material. O programa
@@ -25,14 +25,14 @@ from . import config, estrategista, ia
 from .revisor import linguagem_proibida
 
 PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
-ASSINATURA = f"Fala, galera, aqui é o {PERSONA}, do Termômetro de Crise."
+ASSINATURA = f"Muito prazer, eu sou o {PERSONA}, do Termômetro de Crise."  # em teste: metade dos vídeos sai sem ela
 FECHO = "Isso não é recomendação: quem decide é você."
 BORDAO = os.environ.get("BORDAO") or "Sem alarde. Eu sou só o termômetro!"  # a última frase de todo vídeo
 CHAMADAS = {"grupo": "O grupo do WhatsApp está no link da bio.",
             "newsletter": "O Termômetro da Semana chega por e-mail: link na bio."}
 AVISO_LEGENDA = "Conteúdo educativo, não é recomendação de investimento."
 PALAVRAS_POR_MINUTO = 150
-PALAVRAS = (105, 145)  # 45 a 60 s de fala, contando apresentação, fecho e chamada
+PALAVRAS = (85, 115)  # 30 a 45 s de fala depois do corte das pausas, contando apresentação, fecho e chamada
 MAXIMO_FALA = 18  # palavras por fala (uma respiração)
 NOTA_MINIMA = 7
 
@@ -52,7 +52,7 @@ TIPOS = {
 
 SISTEMA = f"""Você é o Roteirista do "{config.NOME}", um portal financeiro brasileiro para leigos. Escreve o que o
 {PERSONA}, apresentador do {config.NOME} (uma pessoa de verdade, que grava no celular lendo um teleprompter), fala em
-vídeos verticais de 45 a 60 segundos.
+vídeos verticais de 30 a 45 segundos.
 
 O programa põe sozinho, depois do gancho, a apresentação "{ASSINATURA}" e, no fim, a chamada para o link da bio,
 o aviso "{FECHO}" e o bordão "{BORDAO}" (a última frase de todo vídeo). Não escreva nada disso, nem uma
@@ -79,8 +79,11 @@ Regras:
 8. Diga o formato que combina mais: "rua" para notícia quente do dia, que acabou de acontecer e pede urgência
    ("tô aqui e preciso te contar isso"); "bancada" para explicação, contexto ou assunto com muitos números.
 9. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
-   "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias."""
-SISTEMA += config.manual("roteiro", "redacao", "marca", "referencias")
+   "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias.
+10. O gancho segue o manual do especialista em viralização: lacuna ESPECÍFICA do bolso do espectador, paga nos
+   primeiros 10 segundos. No Explica, quando couber, a última fala do corpo diz para quem mandar o vídeo, com uma
+   situação concreta ("Manda para quem guarda dinheiro na poupança")."""
+SISTEMA += config.manual("roteiro", "viralizacao", "redacao", "marca", "referencias")
 
 
 def ferramenta() -> dict:

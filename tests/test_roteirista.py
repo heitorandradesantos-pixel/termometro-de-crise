@@ -1,4 +1,4 @@
-"""Roteirista: roteiro de Reel só com números do material, gancho forte, tamanho de 45 a 60 s."""
+"""Roteirista: roteiro de Reel só com números do material, gancho forte, tamanho de 30 a 45 s."""
 
 import json
 
@@ -14,17 +14,15 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
     falas = falas or [
         "A bolsa brasileira fechou em 168.501 pontos.",
         "Quem puxou foi o corte de juros nos Estados Unidos.",
-        "Juro mais baixo lá fora deixa o dinheiro mais disposto a correr risco aqui.",
         "Mas tem um detalhe que pouca gente viu: o dólar também subiu.",
         "Ele fechou em R$ 5,51, alta de 0,85%.",
         "O termômetro do Brasil está em 64, na faixa de Tensão.",
-        "O do mundo está em 58, em Alerta.",
     ]
     return {"ganchos": [{"formula": "número + porquê", "texto": gancho, "na_tela": "Ibovespa *+1,39%*",
                          "nota": nota or NOTA_BOA}] * 3,
-            "gancho_escolhido": 0, "falas": falas, "retomada": 3,
+            "gancho_escolhido": 0, "falas": falas, "retomada": 2,
             "na_tela": [{"fala": 0, "texto": "168.501 pontos", "fonte": "Yahoo Finance"},
-                        {"fala": 4, "texto": "R$ 5,51", "fonte": "Yahoo Finance"}],
+                        {"fala": 3, "texto": "R$ 5,51", "fonte": "Yahoo Finance"}],
             "rua": {"gancho": "O Ibovespa subiu 1,39% hoje.", "topicos": [
                 "Fechou em 168.501 pontos, segundo o Yahoo Finance.", "O dólar subiu 0,85%, para R$ 5,51.",
                 "Antes de mexer no dinheiro, olhe o seu prazo."]},
@@ -38,7 +36,7 @@ def test_roteiro_bom_passa_e_ganha_assinatura_fecho_e_aviso():
     assert r["linhas"][1] == roteirista.ASSINATURA and r["linhas"][-2] == roteirista.FECHO
     assert r["linhas"][-1] == roteirista.BORDAO == "Sem alarde. Eu sou só o termômetro!"
     assert roteirista.conferir(r, MATERIAL) == []
-    assert 42 <= r["segundos"] <= 64 and r["retomada"] == 5
+    assert 34 <= r["segundos"] <= 46 and r["retomada"] == 4
     assert roteirista.AVISO_LEGENDA in r["legenda"] and r["legenda"].endswith("#ibovespa #dolar #mercadofinanceiro")
     assert "1,39%.\n\nE o dólar" in r["legenda"]  # quebra de linha escrita como texto vira quebra de verdade
     assert r["na_tela"][0]["texto"] == "Ibovespa *+1,39%*" and r["na_tela"][1]["fala"] == 2
