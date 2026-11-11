@@ -1,0 +1,128 @@
+{
+ "titulo": "Pacote fiscal do governo: o que se sabe sobre dólar e juros",
+ "descricao": "Governo negocia projeto de ajuste fiscal de 0,5% do PIB para 2027. Veja o que está confirmado, o que falta saber e o efeito no dólar e nos juros.",
+ "palavra_chave": "pacote fiscal do governo",
+ "lead": "O governo Lula negocia com o Senado um projeto de ajuste fiscal de cerca de 0,5% do PIB (entre R$ 70 bilhões e R$ 80 bilhões) para 2027, segundo a Reuters e o Metrópoles. O texto ainda não foi apresentado: o presidente do Senado, Davi Alcolumbre, disse em 10/11 que ele deve chegar ao Congresso na próxima semana. O dólar fechou a R$ 5,5863 na terça (10/11), mas a alta foi atribuída a dados dos EUA e à ata do Copom, e não ao pacote.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 10/11, a Reuters informou, com base em uma fonte do governo, que o governo negociou um projeto de lei de ajuste fiscal de 0,5% do PIB para 2027, o que equivale a R$ 70 bilhões a R$ 80 bilhões. O texto deve ser apresentado nos próximos dias por um senador aliado. Como a informação vem de uma fonte, não é anúncio oficial.",
+   "fonte_url": "https://www.portaltela.com/economia/2026/11/10/governo-fecha-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-para-2027/",
+   "data": "2026-11-10",
+   "veiculo": "Reuters (via Portal Tela)",
+   "confiavel": false
+  },
+  {
+   "texto": "Alcolumbre disse em 10/11 que a proposta está em discussão entre o Executivo e parlamentares e deve ser apresentada na próxima semana. A equipe econômica sinalizou uma economia de cerca de R$ 70 bilhões em 2027, com foco na revisão de incentivos fiscais. Os valores dependem das medidas que entrarem na versão final.",
+   "fonte_url": "https://www.metropoles.com/brasil/governo-sinaliza-ao-congresso-ajuste-fiscal-de-05-do-pib-em-2027",
+   "data": "2026-11-10",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "O plano que o ministro da Fazenda, Dario Durigan, apresentou a parlamentares prevê ajuste de 0,5% do PIB em 2027, 1% em 2028, 1,25% em 2029 e 1,75% em 2030. Ele reuniu-se com Alcolumbre em 9/11. A expectativa é aprovar o projeto até o início de dezembro.",
+   "fonte_url": "https://cadernomercado.com.br/noticias/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-que-pode-chegar-a-r-80-bi-em-2027/",
+   "data": "2026-11-10",
+   "veiculo": "Caderno Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a fonte ouvida pela Reuters, o projeto tiraria receitas extraordinárias do cálculo dos pisos de saúde e educação, mesmo com superávit. Hoje a regra só vale em caso de déficit. Cortes de benefícios fiscais, isto é, de isenções e descontos de impostos, também estão na mesa, sem detalhes.",
+   "fonte_url": "https://www.infomoney.com.br/politica/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-em-2027-diz-fonte/",
+   "data": "2026-11-10",
+   "veiculo": "InfoMoney (Reuters)",
+   "confiavel": true
+  },
+  {
+   "texto": "Sobre benefícios fiscais, Durigan cita uma regra aprovada no fim de 2025 que prevê corte anual de 10% em incentivos não previstos pela Constituição. A Fazenda também fala em mudanças como a cobrança sobre offshores, fundos exclusivos e juros sobre capital próprio (JCP). Durigan e o presidente Lula descartam cortar programas sociais para reduzir despesas, segundo esse relato.",
+   "fonte_url": "https://www.diariodocentrodomundo.com.br/lula-ajuste-fiscal-descarta-cortes-sociais",
+   "data": "2026-11-09",
+   "veiculo": "Diário do Centro do Mundo",
+   "confiavel": false
+  },
+  {
+   "texto": "O bloqueio de gastos já em vigor em 2026 é de R$ 23,7 bilhões. O valor inclui R$ 22,1 bilhões anunciados em 22/05 pelos ministérios da Fazenda e do Planejamento, somados a R$ 1,6 bilhão de março. O bloqueio atinge gastos não obrigatórios e veio após a alta na previsão de despesas obrigatórias, como o BPC (+R$ 14,1 bilhões) e benefícios da Previdência (+R$ 11,5 bilhões).",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/governo-bloqueia-r-221-bi-do-orcamento-de-2026",
+   "data": "2026-05-22",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar à vista fechou a terça-feira (10/11) em alta de 1,46%, a R$ 5,5863, o maior valor em 15 meses. O InfoMoney atribuiu o movimento a dados de inflação dos EUA acima do esperado, que reforçaram apostas de alta de juros pelo Federal Reserve, e à ata do Copom, que reforçou a cautela no país. Os juros futuros subiram em toda a curva.",
+   "fonte_url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-10112026",
+   "data": "2026-11-10",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Na manhã de quarta-feira (11/11), às 9h11, o dólar caía 0,20%, a R$ 5,575. O InfoMoney diz que o mercado avaliava as notícias sobre o projeto de ajuste fiscal. A Selic, a taxa básica de juros, está em 13,75% ao ano, após o Copom mantê-la em 4/11.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-11112026/",
+   "data": "2026-11-11",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Governo anuncia bloqueio adicional de R$ 22,1 bilhões no Orçamento de 2026, elevando o total bloqueado a R$ 23,7 bilhões.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/governo-bloqueia-r-221-bi-do-orcamento-de-2026",
+   "data": "2026-05-22",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Copom mantém a Selic em 13,75% ao ano, o que aumenta a pressão por um ajuste fiscal.",
+   "fonte_url": "https://sgc.com.br/noticia/1/454233/pressionado-por-juros-e-mercado-governo-tenta-construir-ajuste-fiscal",
+   "data": "2026-11-04",
+   "veiculo": "Portal SGC / Metrópoles",
+   "confiavel": false
+  },
+  {
+   "texto": "Durigan diz que o governo precisa adotar medidas para que os juros caiam de forma sustentável e cita corte de privilégios e revisão de benefícios fiscais.",
+   "fonte_url": "https://www.metropoles.com/brasil/pressionado-por-juros-e-mercado-governo-tenta-construir-ajuste-fiscal",
+   "data": "2026-11-05",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "Durigan e Alcolumbre se reúnem para alinhar a estratégia do projeto de lei complementar de ajuste fiscal.",
+   "fonte_url": "https://cadernomercado.com.br/noticias/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-que-pode-chegar-a-r-80-bi-em-2027/",
+   "data": "2026-11-09",
+   "veiculo": "Caderno Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "Reuters revela o projeto de ajuste de 0,5% do PIB para 2027. No mesmo dia, o dólar fecha a R$ 5,5863 e os juros futuros sobem.",
+   "fonte_url": "https://infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-10112026",
+   "data": "2026-11-10",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Dólar abre em leve baixa, a R$ 5,575, com o mercado avaliando o plano fiscal.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-11112026/",
+   "data": "2026-11-11",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O texto do projeto ainda não existe publicamente. Quem vai apresentá-lo e quando (Jaques Wagner e Eduardo Braga são citados, sem confirmação oficial) ainda não está definido, e as medidas podem mudar no Congresso.",
+  "Não foi detalhado quais benefícios fiscais serão cortados nem quanto cada corte renderia. A fonte da Reuters não deu detalhes, e o Globo, segundo o Brasil 247, diz que o governo avalia um novo corte linear ou cortes em regimes específicos, sem decisão.",
+  "Uma reportagem da Folha de S.Paulo, relatada pelo site Diário Causa Operária, diz que a Fazenda estuda tornar permanentes os bloqueios de verbas e até atingir gastos protegidos por lei. Isso não foi confirmado pelo governo, e o próprio relato diz que nenhuma decisão foi tomada.",
+  "Não está claro se o pacote muda o rumo do dólar e dos juros. Em 10/11 o InfoMoney ligou a alta do dólar a fatores externos e ao Copom. Em 11/11 o mesmo veículo ligou a leve queda do dólar à notícia do plano fiscal, mas um dia de queda não mostra tendência.",
+  "Não se sabe se haverá novo bloqueio no próximo relatório bimestral de receitas e despesas do governo. Nenhuma fonte consultada confirmou isso."
+ ],
+ "o_que_muda_para_voce": [
+  "Nada muda hoje no seu bolso por causa do pacote: ele ainda é um projeto em negociação e precisa ser aprovado pelo Congresso.",
+  "Dólar: a R$ 5,58, o dólar mais caro encarece produtos importados, viagens e compras em lojas internacionais. O pacote fiscal é apenas um dos fatores que o mercado acompanha.",
+  "Juros: a Selic está em 13,75% ao ano. A Fazenda diz que o ajuste busca criar condições para os juros caírem, mas isso é uma meta, não uma garantia. Juros altos continuam valendo para financiamentos, cartão e crédito.",
+  "Benefícios sociais: segundo o relato sobre a posição de Durigan e Lula, não há plano de cortar programas sociais. Isso não vale para bolsas e benefícios de empresas: o corte de benefícios fiscais atinge isenções de impostos de companhias e setores.",
+  "Bloqueio de gastos: ele trava despesas não obrigatórias do governo, como investimentos e custeio da máquina. Aposentadorias e BPC são despesas obrigatórias e não entram nesse tipo de bloqueio."
+ ],
+ "como_se_proteger": [],
+ "slug": "pacote-fiscal-do-governo",
+ "publicado_em": "2026-11-11T09:52:43.402317",
+ "atualizado_em": "2026-11-11T09:52:43.402317",
+ "assunto": "Pacote fiscal do governo (bloqueio de gastos e corte de benefícios fiscais): o que se sabe e o efeito no dólar e nos juros",
+ "turno": "manha"
+}
