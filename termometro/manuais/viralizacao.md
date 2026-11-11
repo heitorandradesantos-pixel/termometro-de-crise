@@ -53,3 +53,11 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 - Finanças com cara de "segredo que ninguém te conta" lembra coach e golpe: o público leigo desconfia. Por isso
   a curiosidade sempre aponta para fato com fonte, nunca para ganho.
 - Viral sem confiança não vira seguidor nem grupo. Medir também seguidores ganhos e cliques no link, não só views.
+
+## O que é relevante para o nosso público (o Heitor, 11/11)
+- Ele gravou e escolheu: dólar disparando, a própria compra de dólar, nome sujo, El Niño na feira, MP de R$ 30 bilhões,
+  quanto rendem R$ 200 por mês, bloqueio de conta, petróleo na gasolina. Ele descartou: Nvidia e bolha de IA, IPO,
+  ETF no exterior, calculadora de transação tributária da Receita ("os conteúdos em si não achei relevantes").
+- O padrão: assunto que a pessoa comum já está comentando ou sente no bolso esta semana (câmbio, comida, conta,
+  dívida, salário, benefício). Assunto de investidor de nicho ou de contador só entra se virar dinheiro do dia a dia.
+- Pergunta antes de propor ou roteirizar: "minha mãe ou meu vizinho comentariam isso hoje?" Se não, não é pauta.
