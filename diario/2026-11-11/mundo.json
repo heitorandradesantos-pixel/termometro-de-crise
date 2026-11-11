@@ -160,9 +160,9 @@
      "brutos": {
       "bolsa_queda_pct": 0.0,
       "bolsa_ultimo_dia": "2026-11-11",
-      "bolsa_pico": 71990.87,
+      "bolsa_pico": 72041.58,
       "bolsa_pico_dia": "2026-11-11",
-      "oscilacao_diaria_pct": 0.29,
+      "oscilacao_diaria_pct": 0.28,
       "moeda_variacao_3m_pct": 9.4,
       "moeda_ultimo_dia": "2026-11-11",
       "desde": {
@@ -1040,7 +1040,7 @@
      "mes_anterior": 67,
      "sinais": {
       "bolsa": 69,
-      "volatilidade": 41
+      "volatilidade": 42
      },
      "brutos": {
       "bolsa_queda_pct": 11.3,
@@ -1742,18 +1742,18 @@
   },
   {
    "nome": "Dólar",
-   "ultimo": 5.5757,
+   "ultimo": 5.5782,
    "tipo": "brl",
    "serie": "extra_dolar",
-   "variacao_pct": 1.22,
+   "variacao_pct": 1.26,
    "data": "2026-11-11"
   },
   {
    "nome": "Euro",
-   "ultimo": 6.1758,
+   "ultimo": 6.1833,
    "tipo": "brl",
    "serie": "extra_euro",
-   "variacao_pct": -0.01,
+   "variacao_pct": 0.11,
    "data": "2026-11-11"
   },
   {
@@ -1782,26 +1782,26 @@
   },
   {
    "nome": "Bitcoin",
-   "ultimo": 74659.0703,
+   "ultimo": 74559.0938,
    "tipo": "usd",
    "serie": "extra_bitcoin",
-   "variacao_pct": 1.27,
-   "data": "2026-11-11"
-  },
-  {
-   "nome": "Petróleo Brent",
-   "ultimo": 92.53,
-   "tipo": "usd",
-   "serie": "extra_petroleo",
    "variacao_pct": 1.14,
    "data": "2026-11-11"
   },
   {
+   "nome": "Petróleo Brent",
+   "ultimo": 92.49,
+   "tipo": "usd",
+   "serie": "extra_petroleo",
+   "variacao_pct": 1.09,
+   "data": "2026-11-11"
+  },
+  {
    "nome": "Ouro",
-   "ultimo": 3991.2,
+   "ultimo": 3991.7,
    "tipo": "usd",
    "serie": "extra_ouro",
-   "variacao_pct": -0.97,
+   "variacao_pct": -0.96,
    "data": "2026-11-11"
   },
   {
@@ -1910,8 +1910,5 @@
    "maximo": 53,
    "mes": "2017-07"
   }
- ],
- "parcial": {
-  "hora": "18h12"
- }
+ ]
 }

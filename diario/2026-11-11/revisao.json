@@ -1,0 +1,62 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [],
+ "noticias": 32,
+ "descartes": [
+  {
+   "onde": "Banco do Canadá sobe juros para 2,50%, a primeira alta desde julho de 2023",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "Eleição em Israel sem resultado claro derruba a bolsa de Tel Aviv e o shekel",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "Bolsa de Joanesburgo cai 6,7% em setembro, com metais fracos e petróleo mais caro",
+   "motivo": "data fora da janela (2026-09-30)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 196.2,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 3.3,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 4.9,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 12.1,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 287.3,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}
