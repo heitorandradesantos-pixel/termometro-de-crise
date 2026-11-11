@@ -1,0 +1,175 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "Dia 23, dólar a R$ 4,993. Hoje, R$ 5,586.",
+  "na_tela": "R$ 4,993 → R$ 5,586",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "Dia 23, dólar a R$ 4,993. Hoje, R$ 5,586.",
+   "na_tela": "R$ 4,993 → R$ 5,586",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Erro de todo mundo",
+   "texto": "Se você corre para comprar dólar na disparada, olha essa conta.",
+   "na_tela": "Correu pro dólar? Olha a conta",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "26 de outubro: o dólar subiu 8,21% em um único dia.",
+   "na_tela": "+8,21% em um dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Dia 23, dólar a R$ 4,993. Hoje, R$ 5,586.",
+  "Hoje está cerca de 12% acima.",
+  "Dia 26, depois do 2º turno, o dólar subiu 8,21%.",
+  "Chegou perto de R$ 5,60 durante o dia.",
+  "Comprar tudo ali pode ser pagar perto da máxima.",
+  "Mas tem um detalhe: o dólar seguiu mais alto depois.",
+  "O preço muda rápido, e ninguém sabe a direção.",
+  "Pense em parcelar: decida em partes, em datas diferentes.",
+  "Manda para quem vai viajar e paga em dólar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dia 23, dólar a R$ 4,993. Hoje, R$ 5,586. Hoje está cerca de 12% acima. Dia 26, depois do 2º turno, o dólar subiu 8,21%. Chegou perto de R$ 5,60 durante o dia. Comprar tudo ali pode ser pagar perto da máxima. Mas tem um detalhe: o dólar seguiu mais alto depois. O preço muda rápido, e ninguém sabe a direção. Pense em parcelar: decida em partes, em datas diferentes. Manda para quem vai viajar e paga em dólar. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 4,993 → R$ 5,586",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 4,993 (23/10) → R$ 5,586 (10/11): cerca de 12%",
+   "fonte": "Notiserra SC e Imirante"
+  },
+  {
+   "fala": 2,
+   "texto": "26/10: +8,21% em um pregão",
+   "fonte": "Notiserra SC"
+  },
+  {
+   "fala": 3,
+   "texto": "Máxima perto de R$ 5,60",
+   "fonte": "Notiserra SC"
+  },
+  {
+   "fala": 5,
+   "texto": "Depois do dia 26, mais alto",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 7,
+   "texto": "Em partes, em datas diferentes",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje: vale correr para comprar depois da disparada?",
+ "legenda": "Dólar hoje: vale correr para comprar depois da disparada?\n\nEm 23 de outubro, o dólar fechou a R$ 4,993. Em 10 de novembro, fechou a R$ 5,586, cerca de 12% acima, segundo o Imirante. Em 26 de outubro, primeiro pregão depois do 2º turno, subiu 8,21% em um dia, segundo o Notiserra SC.\n\nOs números não provam que correr sempre sai caro. Eles mostram que o preço pode mudar muito em poucas horas, e a Avenue diz que não dá para apontar uma tendência clara.\n\nUm passo calmo: em vez de reagir à manchete do dia, dividir a decisão em partes, em datas diferentes.\n\nManda para quem vai viajar e paga em dólar.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #cambio #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#cambio",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 4,993 no dia 23. Hoje, R$ 5,586.",
+  "topicos": [
+   "Em 26/10, o dólar subiu 8,21%, segundo o Notiserra SC.",
+   "Chegou perto de R$ 5,60 no dia, diz o Notiserra SC.",
+   "Em 10/11, R$ 5,586 (Imirante), cerca de 12% acima de 23/10.",
+   "A Avenue não vê tendência clara. Divida a decisão em datas diferentes."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto, que pede calma e prova na tela, não uma notícia de última hora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho \"Dia 23, dólar a R$ 4,993. Hoje, R$ 5,586.\": abre só com datas e números, sem a pergunta de bolso. Reescreva a abertura para falar com quem paga em dólar, por exemplo \"Vai viajar ou compra em dólar? Olha o que aconteceu com o preço em duas semanas\", e deixe os números logo depois, ainda sem inventar dado novo.",
+   "Frases \"Chegou perto de R$ 5,60 durante o dia\" e \"Comprar tudo ali pode ser pagar perto da máxima\": a sequência de números está seca e falta uma comparação viva. Troque por uma imagem do dia a dia, como a de quem compra tudo de uma vez no cartão antes de ver o preço mudar, para dar ritmo e ligar ao bolso. Aproveite para traduzir \"máxima\" como \"o preço mais alto do dia\".",
+   "Frase \"O grupo do WhatsApp está no link da bio\" e a virada de tom: falta o \"Olha só\" ou o \"agora vem a parte que pouca gente viu\" antes de \"Mas tem um detalhe\", e a fonte (Imirante, Notiserra SC, Avenue) está só na legenda. Inclua a virada com o bordão da casa e cite a fonte falada, como \"segundo o Imirante\", perto do número, para dar o toque melancólico (fonte e porquê) no vídeo."
+  ],
+  "veredito": "A peça acerta o público de quem paga em dólar, usa gatilhos éticos (perda com a saída do parcelamento, sem promessa nem urgência falsa) e fecha com os bordões da casa, mas o roteiro fica seco, com muitos números seguidos, pouca comparação viva e sem a fonte dita no vídeo nem a virada \\\"Olha só\\\"."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Vertical shot, slow push-in on a currency exchange counter with a glass window and a blank digital display glowing red, stacks of generic banknotes in a tray, warm indoor light, shallow depth of field, no people visible, no text",
+   "texto_da_fala": "Comprar tudo ali pode ser pagar perto da máxima.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow push-in on a currency exchange counter with a glass window and a blank digital display glowing red, stacks of generic banknotes in a tray, warm indoor light, shallow depth of field, no people visible, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Vertical overhead shot, slow top-down dolly over a wooden table where hands-free coins and generic green banknotes are being arranged into three separate small piles, a paper calendar with blank pages beside them, soft daylight, no faces, no text or numbers",
+   "texto_da_fala": "Pense em parcelar: decida em partes, em datas diferentes.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical overhead shot, slow top-down dolly over a wooden table where hands-free coins and generic green banknotes are being arranged into three separate small piles, a paper calendar with blank pages beside them, soft daylight, no faces, no text or numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Vertical shot, slow tracking move along an airport departure hall with blurred travelers' silhouettes walking past, a suitcase in the foreground wheeling by, large windows showing a plane on the tarmac at golden hour, no recognizable faces, no signs or text",
+   "texto_da_fala": "Manda para quem vai viajar e paga em dólar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow tracking move along an airport departure hall with blurred travelers' silhouettes walking past, a suitcase in the foreground wheeling by, large windows showing a plane on the tarmac at golden hour, no recognizable faces, no signs or text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dia 23, dólar a R$ 4,993. Hoje, R$ 5,586.\n\nHoje está cerca de 12% acima.\n\nDia 26, depois do 2º turno, o dólar subiu 8,21%.\n\nChegou perto de R$ 5,60 durante o dia.\n\nComprar tudo ali pode ser pagar perto da máxima.\n\nMas tem um detalhe: o dólar seguiu mais alto depois.\n\nO preço muda rápido, e ninguém sabe a direção.\n\nPense em parcelar: decida em partes, em datas diferentes.\n\nManda para quem vai viajar e paga em dólar.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+   "destaque": "O Banco Central publicou a PTAX de fechamento de 10 de novembro: compra R$ 5,5834 e venda R$ 5,5840."
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T09:19:18.357396-03:00"
+}
