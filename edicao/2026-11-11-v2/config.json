@@ -1,0 +1,126 @@
+{
+ "saida": "mp-30-bilhoes-editado.mp4",
+ "fim": 37.2,
+ "bordao": [
+  35.23,
+  37.2
+ ],
+ "destaques": "\\d|%|bilh|bpc|aposentadoria|bolsa|congresso|whatsapp|move",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Move",
+   "Brasil"
+  ],
+  [
+   "Bolsa",
+   "Família"
+  ]
+ ],
+ "roteiro": [
+  "R$ 30 bilhões em MP, e nenhum centavo cai na sua conta.",
+  "Essa MP é do Move Brasil, para táxi e aplicativo.",
+  "Ela libera verba, como um limite de cartão. Não deposita na sua conta.",
+  "Segundo o governo, o bloqueio de gastos não atinge BPC, aposentadoria nem Bolsa Família.",
+  "Olha só: a MP de 21 de outubro abriu R$ 6,49 bilhões para exportadores.",
+  "Confira a MP do seu programa na página do Congresso.",
+  "Manda para quem dirige aplicativo.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "6",
+    ",49"
+   ],
+   [
+    "R$ 6,49"
+   ]
+  ],
+  [
+   [
+    "ela",
+    "libera"
+   ],
+   [
+    "Ela",
+    "libera"
+   ]
+  ],
+  [
+   [
+    "30",
+    "bilhões",
+    "de",
+    "reais"
+   ],
+   [
+    "R$ 30",
+    "bilhões"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   4.4,
+   "*R$ 30 bilhões*, zero na sua conta",
+   ""
+  ],
+  [
+   4.81,
+   7.4,
+   "Move Brasil: *R$ 30 bilhões*",
+   "Fonte: Congresso Nacional"
+  ],
+  [
+   7.67,
+   11.3,
+   "Crédito extraordinário = *verba liberada*",
+   ""
+  ],
+  [
+   11.49,
+   16.8,
+   "Bloqueio não atinge *BPC, aposentadoria e Bolsa Família*",
+   "Segundo o governo federal"
+  ],
+  [
+   16.99,
+   21.3,
+   "*R$ 6,49 bilhões* em 21 de outubro",
+   "Fonte: Congresso Nacional"
+  ],
+  [
+   21.59,
+   24.8,
+   "Confira a MP *no Congresso*",
+   ""
+  ],
+  [
+   24.91,
+   26.8,
+   "Manda pra quem *dirige aplicativo*",
+   ""
+  ],
+  [
+   26.95,
+   29.5,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   31.81,
+   35.0,
+   "*Não recomendamos*: só mostramos a temperatura",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "saida": "nvidia-editado.mp4",
+ "fim": 40.1,
+ "bordao": [
+  37.98,
+  40.1
+ ],
+ "destaques": "\\d|%|nvidia|ceo|bolha|whatsapp|perda",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ],
+  [
+   "ABC",
+   "News"
+  ]
+ ],
+ "roteiro": [
+  "A Nvidia caiu 4,27% na segunda, e pode estar no seu fundo.",
+  "O conselho da Nvidia abriu investigação independente sobre o CEO.",
+  "Segundo a ABC News, já eram 23% de queda em 30 dias.",
+  "Olha só: ninguém sabe se pesa mais o CEO ou a bolha.",
+  "Bolha é preço subindo sem lucro que sustente.",
+  "No fundo, depende do peso da Nvidia, como item caro no carrinho.",
+  "Calma: abra o extrato; a queda só vira perda se você resgatar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "4",
+    "7%"
+   ],
+   [
+    "4,27%"
+   ]
+  ],
+  [
+   [
+    "NVIDIA"
+   ],
+   [
+    "Nvidia"
+   ]
+  ],
+  [
+   [
+    "perca"
+   ],
+   [
+    "perda"
+   ]
+  ],
+  [
+   [
+    "build"
+   ],
+   [
+    "bio"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   3.4,
+   "Nvidia caiu *4,27%*. Está no seu fundo?",
+   ""
+  ],
+  [
+   3.46,
+   6.4,
+   "Queda de *4,27%* no fechamento (9/11)",
+   "Fonte: CNBC"
+  ],
+  [
+   6.5,
+   10.8,
+   "*23%* de queda em 30 dias",
+   "Fonte: ABC News (Austrália)"
+  ],
+  [
+   10.92,
+   15.9,
+   "CEO *ou bolha?*",
+   ""
+  ],
+  [
+   16.0,
+   18.4,
+   "Bolha = *preço sobe sem lucro*",
+   ""
+  ],
+  [
+   18.46,
+   23.4,
+   "Depende do *peso da Nvidia* no fundo",
+   ""
+  ],
+  [
+   23.44,
+   27.6,
+   "Só vira perda *se resgatar*",
+   ""
+  ],
+  [
+   27.72,
+   31.9,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   34.38,
+   37.9,
+   "*Não recomendamos*: só mostramos a temperatura",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "saida": "dolar-maior-patamar-editado.mp4",
+ "fim": 42.75,
+ "bordao": null,
+ "destaques": "\\d|%|dólar|iof|fatura|juros|whatsapp|metrópoles|fedwatch",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Estados",
+   "Unidos"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ]
+ ],
+ "roteiro": [
+  "Por que um dado de inflação americano mexe na sua fatura?",
+  "O dólar foi a R$ 5,58 com a inflação americana acima do esperado, segundo a Metrópoles.",
+  "Pelo FedWatch, o mercado dá 91,9% de chance de juros maiores lá.",
+  "É como o vizinho pagando melhor: aplicar aqui perde atrativo.",
+  "Mas tem um detalhe: ninguém confirma o rumo do dólar.",
+  "Se seguir alto, fatura do cartão e IOF pesam mais.",
+  "Calma: veja quando seu cartão converte a compra.",
+  "Manda para quem tem viagem marcada.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "Metropolis"
+   ],
+   [
+    "Metrópoles"
+   ]
+  ],
+  [
+   [
+    "OF"
+   ],
+   [
+    "IOF"
+   ]
+  ],
+  [
+   [
+    "bill"
+   ],
+   [
+    "bio"
+   ]
+  ],
+  [
+   [
+    "5",
+    ",58"
+   ],
+   [
+    "R$ 5,58"
+   ]
+  ],
+  [
+   [
+    "91",
+    "9"
+   ],
+   [
+    "91,9%"
+   ]
+  ],
+  [
+   [
+    "melhor",
+    "melhor"
+   ],
+   [
+    "melhor"
+   ]
+  ],
+  [
+   [
+    "o",
+    "Metropolis"
+   ],
+   [
+    "o",
+    "Metrópoles"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   3.3,
+   "Inflação dos EUA *na sua fatura*",
+   ""
+  ],
+  [
+   3.42,
+   8.0,
+   "Dólar: *R$ 5,58*",
+   "Fonte: Metrópoles"
+  ],
+  [
+   8.2,
+   12.9,
+   "*91,9%* de chance de juros maiores nos EUA",
+   "Fonte: CME FedWatch (via Reuters)"
+  ],
+  [
+   13.0,
+   16.7,
+   "Vizinho pagando melhor: *aplicar aqui perde atrativo*",
+   ""
+  ],
+  [
+   16.86,
+   19.5,
+   "Rumo do dólar: *ninguém confirma*",
+   ""
+  ],
+  [
+   19.62,
+   23.1,
+   "Fatura do cartão e *IOF pesam mais*",
+   ""
+  ],
+  [
+   23.44,
+   26.6,
+   "Veja *quando seu cartão converte*",
+   ""
+  ],
+  [
+   26.9,
+   28.9,
+   "Manda pra quem tem *viagem marcada*",
+   ""
+  ],
+  [
+   29.18,
+   32.1,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   35.0,
+   39.5,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}

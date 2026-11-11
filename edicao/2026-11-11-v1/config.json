@@ -1,0 +1,141 @@
+{
+ "saida": "comprar-dolar-no-panico-editado.mp4",
+ "fim": 44.95,
+ "bordao": [
+  42.5,
+  44.95
+ ],
+ "destaques": "\\d|%|dólar|máxima|partes|whatsapp|viajar",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ]
+ ],
+ "roteiro": [
+  "Dia 23, dólar a R$ 4,993. Hoje, R$ 5,586.",
+  "Hoje está cerca de 12% acima.",
+  "Dia 26, depois do 2º turno, o dólar subiu 8,21%.",
+  "Chegou perto de R$ 5,60 durante o dia.",
+  "Comprar tudo ali pode ser pagar perto da máxima.",
+  "Mas tem um detalhe: o dólar seguiu mais alto depois.",
+  "O preço muda rápido, e ninguém sabe a direção.",
+  "Pense em parcelar: decida em partes, em datas diferentes.",
+  "Manda para quem vai viajar e paga em dólar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "4",
+    "93"
+   ],
+   [
+    "R$ 4,99"
+   ]
+  ],
+  [
+   [
+    "5",
+    "58"
+   ],
+   [
+    "R$ 5,58"
+   ]
+  ],
+  [
+   [
+    "5",
+    "60"
+   ],
+   [
+    "R$ 5,60"
+   ]
+  ],
+  [
+   [
+    "8",
+    "21%"
+   ],
+   [
+    "8,21%"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.0,
+   4.0,
+   "Dólar: *R$ 4,99* → *R$ 5,58*",
+   "Fonte: Banco Central"
+  ],
+  [
+   4.1,
+   6.2,
+   "Cerca de *12%* acima",
+   "Fonte: Notiserra SC e Imirante"
+  ],
+  [
+   6.34,
+   9.3,
+   "26/10: *+8,21%* em um pregão",
+   "Fonte: Notiserra SC"
+  ],
+  [
+   9.54,
+   11.9,
+   "Máxima perto de *R$ 5,60*",
+   "Fonte: Notiserra SC"
+  ],
+  [
+   12.0,
+   15.1,
+   "Comprar tudo ali = *pagar perto da máxima*",
+   ""
+  ],
+  [
+   15.18,
+   18.1,
+   "Depois do dia 26, *mais alto*",
+   "Fonte: Banco Central"
+  ],
+  [
+   18.22,
+   21.2,
+   "Ninguém sabe *a direção*",
+   ""
+  ],
+  [
+   21.48,
+   25.3,
+   "*Em partes*, em datas diferentes",
+   ""
+  ],
+  [
+   25.82,
+   28.0,
+   "Manda pra quem *vai viajar*",
+   ""
+  ],
+  [
+   28.08,
+   32.0,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   32.48,
+   35.0,
+   "Isso *não é recomendação*",
+   ""
+  ]
+ ]
+}
