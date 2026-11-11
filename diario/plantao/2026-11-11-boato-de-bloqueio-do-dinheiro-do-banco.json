@@ -1,0 +1,127 @@
+{
+ "titulo": "Boato de bloqueio do dinheiro do banco: o que se sabe",
+ "descricao": "Circula a mensagem de que o governo vai bloquear o dinheiro do banco. Veja o que o FGC cobre, a regra da Constituição e o que checar antes de repassar.",
+ "palavra_chave": "boato de bloqueio do dinheiro do banco",
+ "lead": "Circula nas redes a mensagem de que o governo vai bloquear o dinheiro do banco em 2027. Checagens publicadas em 7 e 9 de novembro não acharam nenhuma medida do governo nesse sentido. A Secretaria de Comunicação da Presidência (Secom) mantém uma nota, atualizada em 29 de outubro, dizendo que não existe confisco de dinheiro depositado em conta.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Secom, órgão de comunicação da Presidência, tem uma nota oficial intitulada \"Não existe confisco de dinheiro depositado em contas bancárias\". Ela foi publicada em 13/09/2024 e atualizada em 29/10/2026. A nota trata de valores esquecidos por mais de 25 anos em bancos e diz que isso não é confisco.",
+   "fonte_url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/area-de-imprensa/notas-a-imprensa/nao-existe-confisco-de-dinheiro-depositado-em-contas-bancarias",
+   "data": "2026-10-29",
+   "veiculo": "Secom (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "O Boatos.org checou em 7 de novembro a mensagem sobre um novo confisco em 2027. Concluiu que não há evidência de que o governo prepare o bloqueio do dinheiro das contas. Também não há comprovação de que milhares de pessoas não consigam sacar a poupança.",
+   "fonte_url": "https://www.boatos.org/politica/governo-lula-prepara-confisco-do-dinheiro-da-poupanca-dos-brasileiros-em-2027.html",
+   "data": "2026-11-07",
+   "veiculo": "Boatos.org",
+   "confiavel": false
+  },
+  {
+   "texto": "A Gazeta do Paraná classificou o boato como falso em 9 de novembro. A imagem que circula não diz qual banco, qual agência ou qual comunicado confirmaria um bloqueio. A checagem também não encontrou medida federal que determine o confisco.",
+   "fonte_url": "https://gazetadoparana.com.br/publico/checagem-governo-lula-vai-confiscar-as-poupancas-dos-brasileiros-em-2027",
+   "data": "2026-11-09",
+   "veiculo": "Gazeta do Paraná",
+   "confiavel": false
+  },
+  {
+   "texto": "A regra que barra um novo confisco como o de 1990 está no artigo 62 da Constituição, parágrafo 1º, inciso II. Foi incluída pela Emenda Constitucional 32, de 2001. Ela proíbe o governo de usar medida provisória (decreto com força de lei, editado pelo presidente) para reter bens, poupança popular ou outro ativo financeiro.",
+   "fonte_url": "https://gazetadoparana.com.br/publico/checagem-governo-lula-vai-confiscar-as-poupancas-dos-brasileiros-em-2027",
+   "data": "2026-11-09",
+   "veiculo": "Gazeta do Paraná",
+   "confiavel": false
+  },
+  {
+   "texto": "A proteção tem limite. Para tirar a proibição das medidas provisórias, o Congresso teria de mudar a Constituição. Fontes que tratam do tema dizem que nenhuma regra jurídica é eterna. Até novembro de 2026, nenhuma proposta oficial para bloquear depósitos é conhecida.",
+   "fonte_url": "https://cooperativismodecredito.coop.br/2025/08/o-confisco-da-poupanca-poderia-acontecer-novamente/",
+   "data": "2026-11-05",
+   "veiculo": "Portal do Cooperativismo Financeiro",
+   "confiavel": false
+  },
+  {
+   "texto": "O FGC (Fundo Garantidor de Créditos) paga até R$ 250 mil por CPF ou CNPJ, em cada instituição financeira ou conglomerado (grupo de empresas do mesmo banco). Nos conglomerados, os valores são somados. Há ainda um teto de R$ 1 milhão por CPF ou CNPJ a cada 4 anos. É o que diz o Banco Central.",
+   "fonte_url": "https://www.bcb.gov.br/en/financialstability/FGC_and_FGCoop",
+   "data": "2026-11-11",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O FGC existe para reembolsar clientes quando o Banco Central decreta intervenção ou liquidação (encerramento) de uma instituição. Não é uma proteção contra bloqueio de contas pelo governo. O limite de R$ 250 mil vale desde 2013 e não mudou em 2026.",
+   "fonte_url": "https://banco.bradesco/html/classic/produtos-servicos/investimentos/FGC/",
+   "data": "2026-11-11",
+   "veiculo": "Bradesco (comunicado ao cliente)",
+   "confiavel": false
+  },
+  {
+   "texto": "O boato é antigo e volta de tempos em tempos. Um site que o desmentiu em julho de 2026 diz que a mensagem sempre pede para \"tirar o dinheiro do banco\" e serve de isca para golpistas. A mesma fonte lembra que bloqueios reais atingem devedores com decisão judicial.",
+   "fonte_url": "https://fdr.com.br/2026/07/03/clientes-da-caixa-entram-em-alerta-apos-rumores-de-confisco-veja-a-verdade/",
+   "data": "2026-07-03",
+   "veiculo": "FDR",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Secom publica a nota \"Não existe confisco de dinheiro depositado em contas bancárias\", sobre valores esquecidos por mais de 25 anos.",
+   "fonte_url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/area-de-imprensa/notas-a-imprensa/nao-existe-confisco-de-dinheiro-depositado-em-contas-bancarias",
+   "data": "2024-09-13",
+   "veiculo": "Secom (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Um site publica que o boato de confisco de contas na Caixa voltou a circular e é falso.",
+   "fonte_url": "https://fdr.com.br/2026/07/03/clientes-da-caixa-entram-em-alerta-apos-rumores-de-confisco-veja-a-verdade/",
+   "data": "2026-07-03",
+   "veiculo": "FDR",
+   "confiavel": false
+  },
+  {
+   "texto": "A Secom atualiza a nota oficial sobre confisco.",
+   "fonte_url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/area-de-imprensa/notas-a-imprensa/nao-existe-confisco-de-dinheiro-depositado-em-contas-bancarias",
+   "data": "2026-10-29",
+   "veiculo": "Secom (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "O Boatos.org publica a checagem sobre o suposto confisco da poupança em 2027.",
+   "fonte_url": "https://www.boatos.org/politica/governo-lula-prepara-confisco-do-dinheiro-da-poupanca-dos-brasileiros-em-2027.html",
+   "data": "2026-11-07",
+   "veiculo": "Boatos.org",
+   "confiavel": false
+  },
+  {
+   "texto": "A Gazeta do Paraná publica checagem e classifica a informação como falsa.",
+   "fonte_url": "https://gazetadoparana.com.br/publico/checagem-governo-lula-vai-confiscar-as-poupancas-dos-brasileiros-em-2027",
+   "data": "2026-11-09",
+   "veiculo": "Gazeta do Paraná",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quem criou a mensagem e onde ela começou a circular. Nenhuma das checagens consultadas informa isso.",
+  "Se há algum projeto de lei ou proposta de emenda que mude as regras sobre depósitos. Até 11/11, as fontes consultadas não apontam nenhum, mas isso não equivale a uma garantia para sempre.",
+  "Se a imagem que circula mostra um caso real em algum banco. Segundo a Gazeta do Paraná, ela não traz banco, agência ou comunicado que permita confirmar.",
+  "Se o governo vai fazer novos comunicados. Nenhuma fonte consultada traz essa informação."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda no acesso ao seu dinheiro. Nenhuma fonte consultada aponta bloqueio de contas, poupança ou investimentos.",
+  "Se o seu banco quebrar, o FGC cobre até R$ 250 mil por CPF em cada banco ou grupo financeiro. O que passar disso pode não ser pago. Isso é outra situação, que não tem relação com o boato.",
+  "O FGC não protege contra decisão do governo de bloquear contas. A regra da Constituição é que atua nesse caso, mas só vale para medida provisória.",
+  "Valores esquecidos em bancos há mais de 25 anos são outro assunto. A Secom diz que o dono pode reclamar o dinheiro, e o Banco Central tem um serviço de consulta (Sistema de Valores a Receber) em seu site.",
+  "Sacar tudo às pressas por causa de uma mensagem pode ser desnecessário. Pode também expor você a golpes, e dinheiro em espécie em casa não tem a cobertura do FGC."
+ ],
+ "como_se_proteger": [
+  "Antes de repassar, pare e procure quem assina a mensagem. Se não tiver autor, data, banco ou link oficial, não repasse.",
+  "Busque o assunto no site do órgão citado. Aqui, a nota da Secom está em gov.br/secom, e as regras do FGC estão em fgc.org.br.",
+  "Procure se agências de checagem, como Boatos.org e Lupa, já trataram do tema.",
+  "Desconfie de quem manda sacar, transferir ou \"proteger\" o dinheiro por link, WhatsApp ou ligação. Banco não pede senha nem transferência para uma \"conta segura\".",
+  "Em caso de dúvida sobre sua conta, ligue para o número que está no cartão ou no aplicativo oficial do banco.",
+  "Se já tiver recebido o boato, avise quem enviou com o link da nota oficial, sem alarme."
+ ],
+ "slug": "boato-de-bloqueio-do-dinheiro-do-banco",
+ "publicado_em": "2026-11-11T14:39:32.034598",
+ "atualizado_em": "2026-11-11T14:39:32.034598",
+ "assunto": "Boato de que vão bloquear o dinheiro do banco: o que o FGC cobre e a regra que impede um novo confisco, com fonte, e o passo calmo antes de repassar o boato",
+ "turno": "tarde"
+}
