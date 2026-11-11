@@ -31,8 +31,9 @@
 - Popular no jeito, sério no conteúdo: dinheiro explicado como para um amigo no bar. "Você", primeira pessoa,
   termo técnico traduzido na mesma frase, comparação com mercado, cartão, conta de luz, salário.
 - Metáfora da casa: o termômetro ("a temperatura subiu", "sinal amarelo", "o Brasil está com febre de 64").
-- Bordões: abertura "Fala, galera, aqui é o Heitor, do Termômetro de Crise."; virada "Olha só" ou "agora vem a
-  parte que pouca gente viu"; aviso "Isso não é recomendação: quem decide é você."
+- Bordões: nada de apresentação no começo (o vídeo abre no gancho); virada "Olha só" ou "agora vem a
+  parte que pouca gente viu"; no fim, como o Pablo Spyer, a apresentação e o aviso "Eu sou o Heitor, do Termômetro
+  de Crise. Não recomendamos: só mostramos a temperatura do mundo." (desde 11/11/2026)
 - Bordão de encerramento (a marca registrada, como o "Vai, tourinho!" do Pablo e o "Blinde sua mente" do Shimon):
   **"Sem alarde. Eu sou só o termômetro!"**. É a última frase de todo vídeo, dita olhando para a câmera, calma e
   firme. Resume a marca: a gente não faz alarde nem previsão, só mede a temperatura e mostra a fonte. Na edição, entra

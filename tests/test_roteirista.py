@@ -33,13 +33,13 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
 
 def test_roteiro_bom_passa_e_ganha_assinatura_fecho_e_aviso():
     r = roteirista.montar(_bruto())
-    assert r["linhas"][1] == roteirista.ASSINATURA and r["linhas"][-2] == roteirista.FECHO
+    assert r["linhas"][-3] == roteirista.ASSINATURA and r["linhas"][-2] == roteirista.FECHO
     assert r["linhas"][-1] == roteirista.BORDAO == "Sem alarde. Eu sou só o termômetro!"
     assert roteirista.conferir(r, MATERIAL) == []
-    assert 34 <= r["segundos"] <= 46 and r["retomada"] == 4
+    assert 34 <= r["segundos"] <= 46 and r["retomada"] == 3
     assert roteirista.AVISO_LEGENDA in r["legenda"] and r["legenda"].endswith("#ibovespa #dolar #mercadofinanceiro")
     assert "1,39%.\n\nE o dólar" in r["legenda"]  # quebra de linha escrita como texto vira quebra de verdade
-    assert r["na_tela"][0]["texto"] == "Ibovespa *+1,39%*" and r["na_tela"][1]["fala"] == 2
+    assert r["na_tela"][0]["texto"] == "Ibovespa *+1,39%*" and r["na_tela"][1]["fala"] == 1
 
 
 def test_numero_inventado_vicio_e_recomendacao_reprovam():
@@ -97,10 +97,10 @@ def test_explica_roteiriza_cada_artigo_do_dia_uma_vez(tmp_path, monkeypatch):
 def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     r = roteirista.montar(_bruto())
     bons = [{"fala": 3, "visual": "Vertical 9:16, 6 seconds. a trading floor with glowing screens"},
-            {"fala": 6, "visual": "a dollar bill on a desk, 6 seconds"}]
+            {"fala": 5, "visual": "a dollar bill on a desk, 6 seconds"}]
     monkeypatch.setattr(ia, "estruturado", lambda *a, **k: {"apoios": bons})
     d = roteirista.apoiar(object(), r)
-    assert d["apoios_ok"] and [a["fala"] for a in d["apoios"]] == [3, 6]
+    assert d["apoios_ok"] and [a["fala"] for a in d["apoios"]] == [3, 5]
     assert d["apoios"][0]["texto_da_fala"] == r["linhas"][3] and "No people in focus" in d["apoios"][0]["prompt_flow"]
     assert d["apoios"][0]["prompt_flow"].startswith("Vertical 9:16 video") and "A trading floor" in d["apoios"][0]["prompt_flow"]
     ruins = [{"fala": 0, "visual": "a screen showing 168.501"}]
@@ -108,7 +108,7 @@ def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     assert any("fora do corpo" in p for p in problemas) and any("número dentro" in p for p in problemas)
     assert any("de 2 a 3" in p for p in problemas)
     r = {**r, **d}
-    assert roteirista.teleprompter(r).split("\n\n") == r["linhas"] and r["linhas"][1] == roteirista.ASSINATURA
+    assert roteirista.teleprompter(r).split("\n\n") == r["linhas"] and r["linhas"][-3] == roteirista.ASSINATURA
     msgs = roteirista.pacote_whatsapp(r, "Ibovespa hoje")
     assert len(msgs) == 6 and msgs[1] == roteirista.teleprompter(r) and "🎬 ROTEIRO: Ibovespa hoje" in msgs[0]
     assert "Formato sugerido: RUA" in msgs[0] and "VERSÃO RUA" in msgs[2] and "• O dólar subiu 0,85%" in msgs[2]

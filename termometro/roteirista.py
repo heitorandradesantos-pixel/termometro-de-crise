@@ -25,8 +25,8 @@ from . import config, estrategista, ia
 from .revisor import linguagem_proibida
 
 PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
-ASSINATURA = f"Muito prazer, eu sou o {PERSONA}, do Termômetro de Crise."  # em teste: metade dos vídeos sai sem ela
-FECHO = "Isso não é recomendação: quem decide é você."
+ASSINATURA = f"Eu sou o {PERSONA}, do Termômetro de Crise."  # no fim, como o Pablo Spyer: o começo é só conteúdo
+FECHO = "Não recomendamos: só mostramos a temperatura do mundo."
 BORDAO = os.environ.get("BORDAO") or "Sem alarde. Eu sou só o termômetro!"  # a última frase de todo vídeo
 CHAMADAS = {"grupo": "O grupo do WhatsApp está no link da bio.",
             "newsletter": "O Termômetro da Semana chega por e-mail: link na bio."}
@@ -54,7 +54,7 @@ SISTEMA = f"""Você é o Roteirista do "{config.NOME}", um portal financeiro bra
 {PERSONA}, apresentador do {config.NOME} (uma pessoa de verdade, que grava no celular lendo um teleprompter), fala em
 vídeos verticais de 30 a 45 segundos.
 
-O programa põe sozinho, depois do gancho, a apresentação "{ASSINATURA}" e, no fim, a chamada para o link da bio,
+O programa põe sozinho, no fim, a chamada para o link da bio, a apresentação "{ASSINATURA}",
 o aviso "{FECHO}" e o bordão "{BORDAO}" (a última frase de todo vídeo). Não escreva nada disso, nem uma
 frase parecida com o bordão no fim do corpo. Você escreve só o gancho (3 opções, com nota) e o corpo, mais o texto da tela e a legenda.
 
@@ -157,12 +157,12 @@ def nota(gancho: dict) -> int:
 
 
 def montar(bruto: dict, chamada: str = "grupo") -> dict:
-    """O roteiro final: gancho, assinatura, corpo, chamada, aviso e o bordão por último."""
+    """O roteiro final: gancho, corpo, chamada, apresentação, aviso e o bordão por último."""
     ganchos = bruto.get("ganchos") or []
     i = bruto.get("gancho_escolhido", 0)
     gancho = ganchos[i] if 0 <= i < len(ganchos) else (ganchos[0] if ganchos else {"texto": "", "na_tela": ""})
     falas = [f.strip() for f in bruto.get("falas") or [] if f.strip()]
-    linhas = [gancho["texto"].strip(), ASSINATURA, *falas, CHAMADAS.get(chamada, CHAMADAS["grupo"]), FECHO, BORDAO]
+    linhas = [gancho["texto"].strip(), *falas, CHAMADAS.get(chamada, CHAMADAS["grupo"]), ASSINATURA, FECHO, BORDAO]
     texto = " ".join(linhas)
     hashtags = ["#" + _sem_acento(h.lstrip("#").replace(" ", "")).lower() for h in bruto.get("hashtags") or []][:5]
     legenda = (bruto.get("legenda") or "").replace("\\n", "\n").strip()  # \n escrito como texto vira quebra
@@ -171,8 +171,8 @@ def montar(bruto: dict, chamada: str = "grupo") -> dict:
     return {"gancho": gancho, "ganchos": ganchos, "linhas": linhas, "texto_falado": texto,
             "palavras": _palavras(texto), "segundos": round(_palavras(texto) / PALAVRAS_POR_MINUTO * 60),
             "na_tela": [{"texto": gancho.get("na_tela", ""), "fala": 0}]
-                       + [{**t, "fala": int(t.get("fala", 0)) + 2} for t in bruto.get("na_tela") or []],
-            "retomada": int(bruto.get("retomada", 0)) + 2, "busca": (bruto.get("busca") or "").strip(),
+                       + [{**t, "fala": int(t.get("fala", 0)) + 1} for t in bruto.get("na_tela") or []],
+            "retomada": int(bruto.get("retomada", 0)) + 1, "busca": (bruto.get("busca") or "").strip(),
             "legenda": legenda + ("\n\n" + " ".join(hashtags) if hashtags else ""), "hashtags": hashtags,
             "rua": {"gancho": ((bruto.get("rua") or {}).get("gancho") or "").strip(),
                     "topicos": [t.strip() for t in (bruto.get("rua") or {}).get("topicos") or [] if t.strip()]},
@@ -313,7 +313,7 @@ def prompt_apoio(visual: str) -> str:
 
 def conferir_apoios(apoios: list[dict], roteiro: dict) -> list[str]:
     problemas = []
-    corpo = range(2, len(roteiro["linhas"]) - 3)  # sem gancho, apresentação, chamada, aviso e bordão
+    corpo = range(1, len(roteiro["linhas"]) - 4)  # sem gancho, chamada, apresentação, aviso e bordão
     if not APOIOS[0] <= len(apoios) <= APOIOS[1]:
         problemas.append(f"são {len(apoios)} imagens de apoio; precisam ser de {APOIOS[0]} a {APOIOS[1]}")
     fora = [a.get("fala") for a in apoios if a.get("fala") not in corpo]

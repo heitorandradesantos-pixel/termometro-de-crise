@@ -11,7 +11,7 @@ import re
 from . import config
 
 PROIBIDAS = [
-    (r"\brecomend(o|amos)\b|\bnossa recomendação\b", "recomendação direta", re.I),
+    (r"(?<!não )\brecomend(o|amos)\b|\bnossa recomendação\b", "recomendação direta", re.I),
     (r"\bcomprem?\b(?! de)", "ordem de compra", re.I),
     (r"\bvendam?\s+(já|agora|tudo|suas?|seus?)\b", "ordem de venda", re.I),
     (r"\bhora de (comprar|vender)\b", "ordem de compra ou venda", re.I),

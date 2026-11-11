@@ -20,8 +20,7 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 1. Gancho falado, texto na tela e imagem dizem a mesma coisa no primeiro quadro. Nada de tela vazia.
 2. O gancho abre uma lacuna ESPECÍFICA (um objeto, um número, uma pessoa): curiosidade vaga ("o mundo descobriu
    uma coisa") é pulada porque serve para qualquer vídeo. A lacuna tem de ser do bolso do espectador.
-3. Depois do gancho, no máximo 1 segundo antes da primeira informação. A apresentação, quando houver, é curta
-   ("Muito prazer, eu sou o Heitor, do Termômetro de Crise") e está EM TESTE (veja abaixo).
+3. Depois do gancho, direto para a primeira informação. A apresentação fica no FIM (veja abaixo).
 4. O gancho é pago nos primeiros 10 segundos (a primeira resposta) e por completo até o fim. Gancho que o corpo
    não paga ensina a pessoa a não confiar no perfil: o próximo vídeo já nasce pulado.
 5. Uma retomada no meio ("mas tem um detalhe", o número mais forte) para segurar quem ia sair.
@@ -44,10 +43,11 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 ## Tamanho
 - 30 a 45 segundos. Com conta nova, vídeo curto inteiro vale mais que vídeo longo abandonado no meio.
 
-## Teste em andamento: apresentação depois do gancho (a partir de 11/11)
-- O roteiro traz "Muito prazer, eu sou o Heitor, do Termômetro de Crise." logo depois do gancho, e o Heitor grava sempre assim.
-- Na edição, metade dos vídeos sai COM a apresentação e metade SEM (o editor corta a frase). O painel compara o
-  tempo médio dos dois grupos no sábado e o squad decide com número, não com opinião.
+## Apresentação no fim (decidido em 11/11)
+- O Heitor propôs, a partir do Pablo Spyer (que só se apresenta no fim, com o "Vai, tourinho"): o vídeo abre no gancho
+  e a apresentação fica no fim, junto com o aviso: "Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só
+  mostramos a temperatura do mundo." e o bordão. O conselho aprovou: resolve a perda de atenção depois do gancho
+  sem perder a marca, e o aviso de não recomendação continua explícito. O painel acompanha o tempo médio.
 
 ## Riscos (o dissidente do conselho)
 - Finanças com cara de "segredo que ninguém te conta" lembra coach e golpe: o público leigo desconfia. Por isso

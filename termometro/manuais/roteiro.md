@@ -65,7 +65,7 @@ Técnicas, não frases para copiar:
 - **Bancada** (em casa, no fundo dos prédios, com teleprompter): para explicar com calma. Abertura, fechamento, temas com vários números ou que precisam de contexto.
 - **Rua** (andando, no carro com o carro parado, "tô aqui e preciso te dar essa notícia"): para notícia quente do dia. Sem teleprompter: o Heitor decora o gancho (até 12 palavras) e fala 3 ou 4 tópicos curtos (até 14 palavras cada) do jeito dele. Os números dos tópicos são os do material, os mesmos da versão bancada.
 - Todo roteiro traz as duas versões e uma sugestão de formato com o motivo; quem decide na hora é o Heitor.
-- Na rua vale ainda mais: frase curta, um número por fala, o fecho é o aviso "Isso não é recomendação: quem decide é você." e o bordão "Sem alarde. Eu sou só o termômetro!" Nunca gravar dirigindo.
+- Na rua vale ainda mais: frase curta, um número por fala, o fecho é a apresentação e o aviso "Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo." e o bordão "Sem alarde. Eu sou só o termômetro!" Nunca gravar dirigindo.
 
 ## Texto na tela
 - O gancho na tela em até 6 palavras, com uma palavra de destaque.
