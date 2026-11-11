@@ -46,7 +46,7 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
-        run: python -m termometro.publicar _post "${{ inputs.modo }}"
+        run: python -m termometro.reels _post "${{ inputs.modo }}"
       - name: Apagar o ramo temporário
         if: always() && inputs.modo == 'publicar'
         run: git push -q origin --delete "${{ inputs.ramo }}" || true
