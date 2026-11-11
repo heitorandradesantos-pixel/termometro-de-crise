@@ -1,0 +1,84 @@
+{
+ "titulo": "Correr para comprar dólar após disparada: o que se sabe",
+ "descricao": "Dólar subiu 8,2% em um dia após o 2º turno. Veja o que os números do Banco Central mostram sobre correr para comprar e o passo calmo.",
+ "palavra_chave": "correr para comprar dólar",
+ "lead": "No vídeo anterior, o Heitor contou que comprou dólar a R$ 4,98, com calma, antes da eleição. Fui olhar os números: em 26 de outubro, primeiro pregão após o 2º turno, o dólar subiu 8,21% em um dia e fechou a R$ 5,4029, segundo o Notiserra SC. Em 10 de novembro, a PTAX (cotação oficial do Banco Central) foi de R$ 5,5840. Quem entra com calma, antes, está numa situação diferente de quem corre depois que o preço disparou.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 5 de outubro, primeiro pregão após o 1º turno, a PTAX de venda (cotação oficial do dólar, calculada pelo Banco Central) foi de R$ 4,9859, queda de 4,55% no dia. Esse é o patamar em que o dólar estava perto dos R$ 4,98 citados pelo Heitor.",
+   "fonte_url": "https://convertermoeda.com.br/historico/dolar/",
+   "data": "2026-10-05",
+   "veiculo": "Converter Moeda (série PTAX do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na sexta, 23 de outubro, último dia útil antes do 2º turno, o dólar comercial fechou a R$ 4,993, queda de 0,92%.",
+   "fonte_url": "https://notiserrasc.com.br/dolar-dispara-apos-eleicoes-presidenciais-chega-a-r-560-e-fecha-com-alta-de-821-nesta-segunda-feira-26/",
+   "data": "2026-10-23",
+   "veiculo": "Notiserra SC",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 26 de outubro, o dólar fechou a R$ 5,4029, alta de 8,21% em um pregão, cerca de 41 centavos acima do fechamento anterior. Durante o dia, chegou perto de R$ 5,60, mais de 12% acima da sexta. A diferença entre a máxima e o fechamento foi de cerca de R$ 0,20 no mesmo dia.",
+   "fonte_url": "https://notiserrasc.com.br/dolar-dispara-apos-eleicoes-presidenciais-chega-a-r-560-e-fecha-com-alta-de-821-nesta-segunda-feira-26/",
+   "data": "2026-10-26",
+   "veiculo": "Notiserra SC",
+   "confiavel": false
+  },
+  {
+   "texto": "No mesmo dia, o mecanismo que pausa as negociações (circuit breaker) foi acionado, pela primeira vez desde março de 2020, e o dólar subiu 9,2% pela PTAX, segundo relatório da Genial Investimentos. A PTAX é uma média de quatro consultas feitas entre 10h e 13h, por isso pode diferir do fechamento do dia.",
+   "fonte_url": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/maiores-quedas-diarias-ibovespa-historia/",
+   "data": "2026-10-26",
+   "veiculo": "Genial Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo analistas ouvidos pela Tribuna PR, a alta refletiu uma reversão das apostas do mercado sobre a política fiscal (contas públicas) do próximo governo. O estrategista da Avenue, William Castro Alves, descreveu o movimento como a reversão do que o mercado tinha apostado após o 1º turno.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/dolar-dispara-865-apos-vitoria-de-lula-no-segundo-turno/",
+   "data": "2026-10-26",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "No dia seguinte, 27 de outubro, a PTAX caiu 3,02%, para R$ 5,3346. O dólar recuou depois do pico, mas voltou a subir nos pregões seguintes: R$ 5,5013 em 6 de novembro.",
+   "fonte_url": "https://convertermoeda.com.br/ptax/",
+   "data": "2026-10-27",
+   "veiculo": "Converter Moeda (série PTAX do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 10 de novembro, o dólar subiu 1,46% e fechou a R$ 5,5860, o maior valor desde 31 de julho de 2025. A moeda acumulava alta de 5,20% em outubro e de 2,60% nos seis primeiros pregões de novembro. Segundo o Imirante, a inflação acima do esperado nos EUA pressionou o câmbio.",
+   "fonte_url": "https://imirante.com/noticias/brasil/2026/11/10/dolar-sobe-146-fecha-maior-valor-15-meses",
+   "data": "2026-11-10",
+   "veiculo": "Imirante",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central publicou a PTAX de fechamento de 10 de novembro: compra R$ 5,5834 e venda R$ 5,5840. A série oficial de cotações diárias está disponível no Portal de Dados Abertos do BC desde 1984.",
+   "fonte_url": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+   "data": "2026-11-10",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [],
+ "o_que_nao_se_sabe": [
+  "Para onde o dólar vai daqui para frente. Não há confirmação de tendência: a Avenue, citada pelo portal O Seringal, disse que não dá para apontar uma tendência clara e que o cenário é de muita volatilidade (oscilação forte dos preços).",
+  "Se o Banco Central vai atuar no mercado de câmbio. Segundo o Portal Primeira Página, o BC não indicou até agora se vai intervir. Esse dado vem de um único veículo e não foi confirmado em nota oficial encontrada nesta apuração.",
+  "Se a alta vai continuar ou recuar. O Confidence Câmbio afirma que não é possível dizer se a alta após o 2º turno continuará nos próximos dias ou meses.",
+  "Qual foi o preço exato em que cada pessoa comprou. Os números aqui mostram o preço do mercado, não o resultado de quem comprou em cada data. A compra do Heitor a R$ 4,98 vem do vídeo anterior dele e não foi checada em documento."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem vai viajar ou pagar algo em dólar paga mais reais hoje: o fechamento de 10/11 (R$ 5,586) ficou cerca de 12% acima do de 23/10 (R$ 4,993). O dólar mais caro também encarece produtos importados.",
+  "Comprar tudo no dia da disparada pode significar pagar perto da máxima do dia. Em 26/10, a diferença entre a máxima (perto de R$ 5,60) e o fechamento (R$ 5,40) foi de cerca de R$ 0,20 por dólar.",
+  "Os números não provam que correr sempre sai caro. Neste episódio, o dólar seguiu mais alto depois do dia 26. O que eles mostram é que o preço pode mudar muito em poucas horas, nos dois sentidos, e ninguém sabe a direção.",
+  "O passo calmo, segundo a lógica de analistas citados pela B3, é a diversificação: não depender de uma só moeda ou de uma só data. Na prática, quem quer se proteger pode dividir a decisão em partes menores, em datas diferentes, em vez de reagir à manchete do dia. Isto não é recomendação de compra e não indica qual ativo usar.",
+  "Se o dólar fica acima de R$ 5,50 por muito tempo, o repasse aos preços pode acelerar a inflação, segundo o Mixvale. Isso pode afetar quem tem dívida, financiamento ou contas ligadas a preços."
+ ],
+ "como_se_proteger": [],
+ "slug": "correr-para-comprar-dolar",
+ "publicado_em": "2026-11-11T09:16:12.155060",
+ "atualizado_em": "2026-11-11T09:16:12.155060",
+ "assunto": "Correr para comprar dólar quando ele já disparou costuma sair caro: o que os números do Banco Central mostram sobre a oscilação do câmbio em momentos de estresse e o passo calmo de se proteger aos poucos, sem recomendar ativo. Gancho em primeira pessoa que amarra com o vídeo anterior do Heitor (ele comprou dólar a R$ 4,98 antes da eleição, com calma): quem entra com calma, antes, é diferente de quem corre depois que disparou",
+ "turno": "manha"
+}
