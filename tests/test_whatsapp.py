@@ -75,10 +75,10 @@ def test_roteiros_novos_vao_para_o_proprio_numero_uma_vez(tmp_path):
     whatsapp.ROTEIROS_DESDE = "2026-11-07"
     assert "1 roteiro" in whatsapp.preparar_roteiros(diario, "2026-11-07", saida)
     envio = json.loads((saida / "envio.json").read_text())
-    assert envio["modo"] == "teste" and envio["tipo"] == "roteiros" and len(envio["textos"]) == 3
+    assert envio["modo"] == "teste" and envio["tipo"] == "roteiros" and len(envio["textos"]) == 5
     assert "Pix caiu: o que se sabe" in envio["textos"][0] and envio["textos"][1] == "Linha 1.\n\nLinha 2."
-    assert "4) LEGENDA DO POST" in envio["textos"][0] and "FIM DO ROTEIRO" in envio["textos"][2]
-    (saida / "envio.json.resultado.json").write_text(json.dumps({"ok": True, "ids": ["a"] * 3}))
+    assert "FIM DO ROTEIRO" in envio["textos"][-1] and "Próxima mensagem: a legenda" in envio["textos"][2]
+    (saida / "envio.json.resultado.json").write_text(json.dumps({"ok": True, "ids": ["a"] * 5}))
     assert "1 enviado" in whatsapp.concluir(diario, saida)
     assert json.loads((diario / "2026-11-07" / "roteiros" / "explica-pix.json").read_text())["enviado_whatsapp"]
     assert "Nenhum roteiro novo" in whatsapp.preparar_roteiros(diario, "2026-11-07", saida)

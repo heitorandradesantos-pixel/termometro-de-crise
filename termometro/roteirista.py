@@ -381,36 +381,34 @@ LINHA = "━━━━━━━━━━━━━━━━━━"
 
 
 def pacote_whatsapp(roteiro: dict, titulo: str, numero: int = 1, total: int = 1) -> list[str]:
-    """Um roteiro por bloco na conversa do próprio número: (1) tudo junto (cenário, rua, edição e legenda),
-    (2) só o texto do teleprompter, para copiar e colar, e (3) a linha de fim, que separa do próximo roteiro."""
+    """Cada parte numa mensagem própria, para copiar sem cortar nada: abertura (formato e dicas), teleprompter
+    (só o texto), versão rua, edição, legenda (só o texto) e a linha de fim, que separa do próximo roteiro."""
     nome = f"ROTEIRO {numero} de {total}" if total > 1 else "ROTEIRO"
     tela = " · ".join(t["texto"] for t in roteiro.get("na_tela") or [] if t.get("texto"))
     apoios = "\n".join(f"- fala {a['fala'] + 1}: \"{a['texto_da_fala']}\"" for a in roteiro.get("apoios") or [])
     formato = roteiro.get("formato") or "bancada"
-    sugestao = ("Formato sugerido: RUA (notícia quente; grave de improviso com a parte 2)" if formato == "rua"
-                else "Formato sugerido: CENÁRIO (com o teleprompter, no fundo dos prédios)")
+    sugestao = ("🚶 Formato sugerido: RUA (notícia quente; grave de improviso com a versão rua)" if formato == "rua"
+                else "🏙️ Formato sugerido: CENÁRIO (com o teleprompter, no fundo dos prédios)")
     if roteiro.get("por_que_formato"):
         sugestao += f"\n{roteiro['por_que_formato']}"
+    abertura = (f"{LINHA}\n🎬 {nome}: {titulo} (cerca de {roteiro['segundos']} s)\n{LINHA}\n\n{sugestao}"
+                + (f"\n\n{DICAS}" if numero == 1 else "")
+                + "\n\n👇 Próxima mensagem: o texto do teleprompter, sozinho, para copiar e colar no app.")
+    msgs = [abertura, teleprompter(roteiro)]
     rua = roteiro.get("rua") or {}
     if rua.get("gancho") and rua.get("topicos"):
-        parte_rua = (f"Sem teleprompter: decore o gancho e fale os tópicos do seu jeito.\n\nGancho: {rua['gancho']}\n"
-                     + "\n".join(f"• {t}" for t in rua["topicos"]) + "\n\nFecho: " + " ".join(roteiro["linhas"][-3:]))
-    else:
-        parte_rua = "Este é melhor gravar no cenário."
+        msgs.append("🚶 VERSÃO RUA (sem teleprompter: decore o gancho e fale os tópicos do seu jeito)\n\n"
+                    f"Gancho: {rua['gancho']}\n" + "\n".join(f"• {t}" for t in rua["topicos"])
+                    + "\n\nFecho: " + " ".join(roteiro["linhas"][-3:]))
     prints = "\n".join(f"- {p['veiculo']}: \"{p['destaque']}\" ({p['url']})" for p in roteiro.get("prints") or [])
-    edicao = (f"Texto na tela: {tela or '-'}"
-              + f"\nNo fim: o bordão \"{BORDAO}\" em letra grande e a tela de \"siga\""
-              + (f"\nPrints da fonte no terço de cima (a prova, sem tapar o rosto):\n{prints}" if prints else "")
-              + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
-              + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()
-                 if (marca := roteiro.get("marca") or {}).get("nota") is not None else ""))
-    bloco = (f"{LINHA}\n🎬 {nome}: {titulo} (cerca de {roteiro['segundos']} s)\n{LINHA}\n{sugestao}\n\n"
-             f"🏙️ 1) GRAVAR NO CENÁRIO\nO texto do teleprompter vem na próxima mensagem, sozinho, "
-             f"para copiar e colar.{chr(10) + chr(10) + DICAS if numero == 1 else ''}\n\n"
-             f"🚶 2) GRAVAR NA RUA\n{parte_rua}\n\n"
-             f"✂️ 3) EDIÇÃO (eu faço)\n{edicao}\n\n"
-             f"📝 4) LEGENDA DO POST\n\n{roteiro['legenda']}")
-    return [bloco, teleprompter(roteiro), f"{LINHA}\n✅ FIM DO {nome}\n{LINHA}"]
+    msgs.append(f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
+                + f"\nNo fim: o bordão \"{BORDAO}\" em letra grande e a tela de \"siga\""
+                + (f"\nPrints da fonte no terço de cima (a prova, sem tapar o rosto):\n{prints}" if prints else "")
+                + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
+                + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()
+                   if (marca := roteiro.get("marca") or {}).get("nota") is not None else "")
+                + "\n\n👇 Próxima mensagem: a legenda do post, sozinha, para copiar e colar no Instagram.")
+    return [*msgs, roteiro["legenda"], f"{LINHA}\n✅ FIM DO {nome}\n{LINHA}"]
 
 
 # ---------------------------------------------------------------- material

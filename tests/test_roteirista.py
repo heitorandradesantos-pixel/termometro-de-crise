@@ -112,13 +112,12 @@ def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     r = {**r, **d}
     assert roteirista.teleprompter(r).split("\n\n") == r["linhas"] and r["linhas"][1] == roteirista.ASSINATURA
     msgs = roteirista.pacote_whatsapp(r, "Ibovespa hoje")
-    assert len(msgs) == 3 and msgs[1] == roteirista.teleprompter(r) and "🎬 ROTEIRO: Ibovespa hoje" in msgs[0]
-    assert "Formato sugerido: RUA" in msgs[0] and "2) GRAVAR NA RUA" in msgs[0] and "• O dólar subiu 0,85%" in msgs[0]
-    assert "fala 4" in msgs[0] and roteirista.AVISO_LEGENDA in msgs[0] and "FIM DO ROTEIRO" in msgs[2]
+    assert len(msgs) == 6 and msgs[1] == roteirista.teleprompter(r) and "🎬 ROTEIRO: Ibovespa hoje" in msgs[0]
+    assert "Formato sugerido: RUA" in msgs[0] and "VERSÃO RUA" in msgs[2] and "• O dólar subiu 0,85%" in msgs[2]
+    assert "fala 4" in msgs[3] and msgs[4] == r["legenda"] and roteirista.AVISO_LEGENDA in msgs[4]
+    assert "FIM DO ROTEIRO" in msgs[5]
     varios = roteirista.pacote_whatsapp(r, "Ibovespa hoje", 2, 3)
-    assert "ROTEIRO 2 de 3" in varios[0] and "FIM DO ROTEIRO 2 de 3" in varios[2] and "Dicas" not in varios[0]
-    assert msgs[0].index("1) GRAVAR NO CENÁRIO") < msgs[0].index("2) GRAVAR NA RUA") < msgs[0].index(
-        "3) EDIÇÃO") < msgs[0].index("4) LEGENDA")
+    assert "ROTEIRO 2 de 3" in varios[0] and "FIM DO ROTEIRO 2 de 3" in varios[-1] and "Dicas" not in varios[0]
     ruim = roteirista.montar({**_bruto(), "rua": {"gancho": "O dólar vai a R$ 7.", "topicos": ["Só um."]}})
     problemas = roteirista.conferir(ruim, MATERIAL)
     assert any("versão rua incompleta" in p for p in problemas)
@@ -158,5 +157,5 @@ def test_prints_da_fonte_para_a_edicao():
     assert [p["veiculo"] for p in prints] == ["InfoMoney", "Banco Central"]
     assert prints[0]["destaque"] == "O Focus trouxe 1,20% para o PIB de 2027."
     r = {**roteirista.montar(_bruto()), "prints": prints}
-    edicao = roteirista.pacote_whatsapp(r, "PIB")[0]
+    edicao = roteirista.pacote_whatsapp(r, "PIB")[-3]
     assert "Prints da fonte" in edicao and "https://bcb.gov.br/copom" in edicao
