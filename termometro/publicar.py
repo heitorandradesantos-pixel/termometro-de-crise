@@ -20,7 +20,7 @@ RUPLOAD = "https://rupload.facebook.com/ig-api-upload/" + GRAPH.rsplit("/", 1)[-
 def _erro(r: requests.Response) -> str:
     try:
         e = r.json().get("error") or {}
-        return f"{r.status_code} {e.get('message', '')[:200]} (código {e.get('code')})"
+        return f"{r.status_code} {e.get('message', '')[:200]} (código {e.get('code')}) {r.text[:300]}"
     except ValueError:
         return f"{r.status_code} {r.text[:200]}"
 
@@ -32,9 +32,9 @@ def subir(video: Path, legenda: str, token: str, ig: str) -> str:
         "access_token": token})
     if r.status_code != 200:
         raise RuntimeError(f"criar contêiner: {_erro(r)}")
-    cont = r.json()["id"]
+    cont, uri = r.json()["id"], r.json().get("uri") or f"{RUPLOAD}/{r.json()['id']}"
     dados = video.read_bytes()
-    r = requests.post(f"{RUPLOAD}/{cont}", data=dados, timeout=600, headers={
+    r = requests.post(uri, data=dados, timeout=600, headers={
         "Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(dados))})
     if r.status_code != 200:
         raise RuntimeError(f"enviar vídeo: {_erro(r)}")
