@@ -38,7 +38,13 @@
   **"Sem alarde. Eu sou só o termômetro!"**. É a última frase de todo vídeo, dita olhando para a câmera, calma e
   firme. Resume a marca: a gente não faz alarde nem previsão, só mede a temperatura e mostra a fonte. Na edição, entra
   em letra grande no fim. Nunca trocar por outra frase nem variar as palavras.
-- Gíria leve e pouca. Humor nunca sobre quem perdeu dinheiro.
+- Linguagem POPULAR, do jeito que o Heitor fala (pedido dele em 11/11/2026: "um jeitão mais populista, sabe?"):
+  frase curta, de conversa, como quem explica pro vizinho no portão. "A gente", "seu dinheiro", "tá", "pra",
+  "olha só", "sabe aquele...", "na prática", "o que muda pra você". Exemplos da realidade do povo: feira, gasolina,
+  boleto, parcela do celular, conta de luz, salário, viagem, 13º. Termo de mercado só se for traduzido na hora.
+- O que NÃO muda: número com fonte, nada de palavrão, nada de promessa de ganho, nada de "nós contra eles" nem lado
+  político. Popular é o jeito de falar, não o conteúdo: continua sem alarde e sem palpite.
+- Humor nunca sobre quem perdeu dinheiro.
 
 ## Referências que o Heitor consome e gosta
 Pablo Spyer (boletim diário, popular e animado) e Rian, do "Café com seu dinheiro" (selfie em casa, de noite, com prints

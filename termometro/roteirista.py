@@ -80,6 +80,8 @@ Regras:
    ("tô aqui e preciso te contar isso"); "bancada" para explicação, contexto ou assunto com muitos números.
 9. No texto da tela, a fonte é a original: "Yahoo Finance" para cotações, "Banco Central" para Selic, PTAX e Focus,
    "Termômetro de Crise" para as leituras do termômetro e o nome do veículo para as notícias.
+11. Linguagem popular, do jeito que o Heitor fala (manual de marca, "Voz"): frase curta de conversa, "a gente",
+   "tá", "pra", exemplos da feira, do boleto e da gasolina. Sem palavrão, sem lado político, sem promessa.
 10. O gancho segue o manual do especialista em viralização: lacuna ESPECÍFICA do bolso do espectador, paga nos
    primeiros 10 segundos. No Explica, quando couber, a última fala do corpo diz para quem mandar o vídeo, com uma
    situação concreta ("Manda para quem guarda dinheiro na poupança")."""
