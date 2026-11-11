@@ -1,0 +1,174 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / custo escondido",
+  "texto": "Dólar caiu a R$ 5,56, mas o que importa hoje é sua conta de luz.",
+  "na_tela": "Dólar R$ 5,56. E sua LUZ?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / custo escondido",
+   "texto": "Dólar caiu a R$ 5,56, mas o que importa hoje é sua conta de luz.",
+   "na_tela": "Dólar R$ 5,56. E sua LUZ?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "El Niño pode chegar na sua conta de luz. Eu fui atrás de como.",
+   "na_tela": "El Niño na sua conta de LUZ",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O Brasil fechou ontem em 65, Tensão, e hoje o aviso está no seu bolso.",
+   "na_tela": "Brasil em 65: TENSÃO",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Dólar caiu a R$ 5,56, mas o que importa hoje é sua conta de luz.",
+  "Lá fora, os futuros subiram; aqui, a bolsa abriu em alta.",
+  "O destaque é o El Niño, fenômeno do clima.",
+  "Segundo a nossa matéria, pode encarecer comida e luz.",
+  "Olha só: pode atrasar os juros. Mas não é certeza.",
+  "É carrinho do mercado e conta de luz pesando juntos no salário.",
+  "Abra sua última conta de luz e veja quanto pesa no mês.",
+  "Só isso, por enquanto.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dólar caiu a R$ 5,56, mas o que importa hoje é sua conta de luz. Lá fora, os futuros subiram; aqui, a bolsa abriu em alta. O destaque é o El Niño, fenômeno do clima. Segundo a nossa matéria, pode encarecer comida e luz. Olha só: pode atrasar os juros. Mas não é certeza. É carrinho do mercado e conta de luz pesando juntos no salário. Abra sua última conta de luz e veja quanto pesa no mês. Só isso, por enquanto. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dólar R$ 5,56. E sua LUZ?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,56",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "El Niño",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Possibilidade, não certeza",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Abra sua conta de luz"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje e El Niño na conta de luz",
+ "legenda": "Dólar hoje e El Niño na conta de luz: o que mudou nesta manhã.\n\nO dólar abriu a R$ 5,56, em queda, segundo o Yahoo Finance. Lá fora, os futuros de Nova York subiram, e a bolsa daqui abriu em alta.\n\nO destaque da manhã é o El Niño, um fenômeno do clima. Segundo a matéria do Termômetro de Crise, ele pode encarecer comida e luz e atrasar os juros. É possibilidade, não certeza.\n\nO passo de hoje é simples: abra sua última conta de luz e veja quanto ela pesa no seu mês. Só isso, por enquanto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #elnino #economia #financaspessoais",
+ "hashtags": [
+  "#dolarhoje",
+  "#elnino",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Dólar caiu a R$ 5,56. O assunto de hoje é sua luz.",
+  "topicos": [
+   "Dólar abriu a R$ 5,56, em queda, segundo o Yahoo Finance.",
+   "Segundo a matéria do Termômetro, o El Niño pode encarecer comida e luz.",
+   "Pode atrasar os juros também, mas é possibilidade, não certeza.",
+   "Abra sua última conta de luz e veja quanto pesa no mês."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma abertura de manhã com contexto e um assunto que precisa de explicação calma, então combina com a bancada.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Lá fora, os futuros subiram; aqui, a bolsa abriu em alta.\": \"futuros\" é jargão sem tradução e não ajuda quem sente o bolso. Reescreva traduzindo na mesma frase (por exemplo, \"os futuros, que são apostas sobre como a bolsa americana vai abrir, subiram\") ou corte a linha e deixe o roteiro focado no El Niño e na conta de luz.",
+   "Frase \"O destaque é o El Niño, fenômeno do clima.\": falta a comparação viva do sanguíneo e o porquê do melancólico. Explique em uma frase simples como o clima chega ao bolso, por exemplo com o chuveiro ou o mercado, sem inventar número: \"o El Niño muda a chuva, e isso pode deixar a comida e a luz mais caras\". Troque também \"Segundo a nossa matéria\" por uma fonte externa, se a matéria citar uma.",
+   "Frase \"Dólar caiu a R$ 5,56, mas o que importa hoje é sua conta de luz.\": o gancho é bom, mas o dólar entra sem fonte no vídeo, enquanto a legenda cita o Yahoo Finance. Diga a fonte também na fala (\"segundo o Yahoo Finance\"). O \"Olha só\" está no lugar errado, pois vem no meio da cadeia de causa e efeito. Use-o para abrir a virada \"pode atrasar os juros\" e traduza em uma frase que juro mais alto por mais tempo deixa o crédito e o cartão mais caros."
+  ],
+  "veredito": "A peça fala com quem sente a conta de luz pesar, tem tom de Sábio com jeito de Cara Comum, deixa claro que é possibilidade e não certeza, termina com um passo simples e traz os bordões da casa. Falta traduzir o jargão (\\\"futuros\\\"), dar uma comparação viva e o porquê do El Niño, e citar a fonte do dólar na fala."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Aerial drone shot slowly flying over a drought-stricken river basin with cracked dry earth and a low, shrinking reservoir under a hazy, intense sun, heat shimmer in the air. Slow forward camera push with gentle tilt up toward the glowing horizon. Realistic, cinematic, no people, no text",
+   "texto_da_fala": "O destaque é o El Niño, fenômeno do clima.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial drone shot slowly flying over a drought-stricken river basin with cracked dry earth and a low, shrinking reservoir under a hazy, intense sun, heat shimmer in the air. Slow forward camera push with gentle tilt up toward the glowing horizon. Realistic, cinematic, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Low-angle tracking shot gliding alongside an empty supermarket shopping cart rolling slowly down a bright grocery aisle lined with blurred colorful shelves of produce and packaged food. Camera follows the cart, then a slow rack focus to the cart's metal basket. Realistic, warm lighting, no people, no readable labels, no text",
+   "texto_da_fala": "É carrinho do mercado e conta de luz pesando juntos no salário.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Low-angle tracking shot gliding alongside an empty supermarket shopping cart rolling slowly down a bright grocery aisle lined with blurred colorful shelves of produce and packaged food. Camera follows the cart, then a slow rack focus to the cart's metal basket. Realistic, warm lighting, no people, no readable labels, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Close-up of an analog electricity meter mounted on the exterior wall of a modest Brazilian home at golden hour, its small disc spinning steadily behind glass, dial markings out of focus and unreadable. Slow dolly-in with shallow depth of field, a lit window softly glowing in the background. Realistic, no people, no text, no logos",
+   "texto_da_fala": "Abra sua última conta de luz e veja quanto pesa no mês.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of an analog electricity meter mounted on the exterior wall of a modest Brazilian home at golden hour, its small disc spinning steadily behind glass, dial markings out of focus and unreadable. Slow dolly-in with shallow depth of field, a lit window softly glowing in the background. Realistic, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dólar caiu a R$ 5,56, mas o que importa hoje é sua conta de luz.\n\nLá fora, os futuros subiram; aqui, a bolsa abriu em alta.\n\nO destaque é o El Niño, fenômeno do clima.\n\nSegundo a nossa matéria, pode encarecer comida e luz.\n\nOlha só: pode atrasar os juros. Mas não é certeza.\n\nÉ carrinho do mercado e conta de luz pesando juntos no salário.\n\nAbra sua última conta de luz e veja quanto pesa no mês.\n\nSó isso, por enquanto.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T10:28:20.125073-03:00",
+ "enviado_whatsapp": "2026-11-11T10:29:12.270501-03:00"
+}
