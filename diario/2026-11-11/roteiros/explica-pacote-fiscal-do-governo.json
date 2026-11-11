@@ -1,0 +1,178 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "O dólar a R$ 5,58 não subiu por causa do pacote fiscal.",
+  "na_tela": "Dólar a R$ 5,58: não foi o pacote",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O dólar a R$ 5,58 não subiu por causa do pacote fiscal.",
+   "na_tela": "Dólar a R$ 5,58: não foi o pacote",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Pacote fiscal de R$ 70 bilhões: o que muda no seu bolso hoje? Nada.",
+   "na_tela": "Pacote de R$ 70 bilhões: e o seu bolso?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Selic em 13,75%: a Fazenda quer juros menores, mas não garante.",
+   "na_tela": "Selic em 13,75%: sem garantia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 0
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar a R$ 5,58 não subiu por causa do pacote fiscal.",
+  "Segundo o InfoMoney, foi a inflação dos EUA e o Copom.",
+  "A Reuters diz que o governo negocia ajuste de 0,5% do PIB.",
+  "É como combinar de apertar o orçamento, sem planilha.",
+  "Mas olha só: quarta cedo, o dólar caía 0,20%, olhando o pacote.",
+  "Um dia de queda não é tendência. Hoje nada muda no seu bolso.",
+  "Juro alto pesa no cartão: antes de parcelar, compare.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O dólar a R$ 5,58 não subiu por causa do pacote fiscal. Segundo o InfoMoney, foi a inflação dos EUA e o Copom. A Reuters diz que o governo negocia ajuste de 0,5% do PIB. É como combinar de apertar o orçamento, sem planilha. Mas olha só: quarta cedo, o dólar caía 0,20%, olhando o pacote. Um dia de queda não é tendência. Hoje nada muda no seu bolso. Juro alto pesa no cartão: antes de parcelar, compare. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,58: não foi o pacote",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar: R$ 5,5863 (10/11)",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 2,
+   "texto": "Ajuste de 0,5% do PIB",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 4,
+   "texto": "Dólar caía 0,20% (11/11)",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 5,
+   "texto": "Nada muda hoje no seu bolso",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "pacote fiscal e dólar hoje: o que muda no meu bolso",
+ "legenda": "Pacote fiscal e dólar hoje: o que se sabe.\n\nO dólar fechou a R$ 5,5863 na terça (10/11). Segundo o InfoMoney, o motivo foi a inflação dos EUA e a ata do Copom, não o pacote fiscal.\n\nA Reuters diz que o governo negocia um ajuste de 0,5% do PIB para 2027. O texto ainda não foi apresentado e pode mudar no Congresso. Na quarta cedo, o dólar caía 0,20%, mas um dia de queda não mostra tendência.\n\nPor ora, nada muda no seu bolso por causa do pacote. Juro alto continua pesando no cartão: antes de parcelar, compare a taxa. Manda para quem vive parcelando no cartão.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #pacotefiscal #economia #educacaofinanceira",
+ "hashtags": [
+  "#dolar",
+  "#pacotefiscal",
+  "#economia",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "O dólar subiu, mas a culpa não é do pacote fiscal.",
+  "topicos": [
+   "Dólar fechou a R$ 5,5863 na terça; InfoMoney cita inflação dos EUA.",
+   "Reuters: governo negocia ajuste de 0,5% do PIB; o texto ainda não saiu.",
+   "InfoMoney: na quarta, o dólar caía 0,20%, mas um dia não é tendência.",
+   "Nada muda hoje no seu bolso: antes de parcelar no cartão, compare taxa."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e vários pontos (o que se sabe e o que não), melhor com calma na bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"É como combinar de apertar o orçamento, sem planilha.\": a comparação é fraca e abstrata, e ainda deixa o ajuste de 0,5% do PIB sem tradução. Reescreva com algo do dia a dia, por exemplo \"ajuste de 0,5% do PIB é o governo prometer gastar menos ou arrecadar mais, como a família que corta o delivery para fechar o mês\". Assim o sanguíneo ganha uma imagem viva e o termo técnico fica traduzido na mesma frase.",
+   "Frase \"Juro alto pesa no cartão: antes de parcelar, compare.\": o passo é bom, mas vago. Deixe-o simples e mensurável: \"antes de parcelar, olhe a taxa de juros por mês no app do banco e compare com a de outra opção\". Isso dá ao fleumático um passo único e fácil de fazer, sem inventar número.",
+   "Frase \"O grupo do WhatsApp está no link da bio.\": o convite entra seco, logo antes da assinatura, e disputa a atenção com o passo de bolso. Ligue-o ao benefício (\"quer a temperatura do dia no seu zap? O grupo está no link da bio\") ou tire do roteiro e deixe só na legenda, para o fim ficar limpo: passo, apresentação, aviso e bordão."
+  ],
+  "veredito": "A peça fala com quem sente o bolso, cita fonte (InfoMoney, Reuters), diz o que não se sabe, tem o passo do cartão e fecha com os bordões certos. Falta uma comparação viva que traduza o ajuste de 0,5% do PIB e um passo mais concreto no cartão, além de um tom um pouco mais de conversa."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Empty modern government meeting room at dawn, long polished table with blank unmarked papers and glass water pitchers, chairs pushed in, no people. Slow dolly-in along the table toward large windows with soft golden light over a flat Brasilia-style skyline. No text, no logos, no flags",
+   "texto_da_fala": "A Reuters diz que o governo negocia ajuste de 0,5% do PIB.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Empty modern government meeting room at dawn, long polished table with blank unmarked papers and glass water pitchers, chairs pushed in, no people. Slow dolly-in along the table toward large windows with soft golden light over a flat Brasilia-style skyline. No text, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Top-down view of a wooden kitchen table: a worn leather belt slowly tightens around a small stack of coins and a few folded blank bills, next to an empty blank notebook page. Slow camera push-in with slight tilt, warm natural window light. No people, no text, no numbers, no logos",
+   "texto_da_fala": "É como combinar de apertar o orçamento, sem planilha.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down view of a wooden kitchen table: a worn leather belt slowly tightens around a small stack of coins and a few folded blank bills, next to an empty blank notebook page. Slow camera push-in with slight tilt, warm natural window light. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Close-up of a plain blank unbranded plastic credit card being held out toward a generic card payment terminal on a shop counter, only a hand partially visible out of focus, no face. Camera slowly racks focus from the card to the terminal screen glowing with an abstract blur. No text, no numbers, no logos, no brand marks",
+   "texto_da_fala": "Juro alto pesa no cartão: antes de parcelar, compare.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a plain blank unbranded plastic credit card being held out toward a generic card payment terminal on a shop counter, only a hand partially visible out of focus, no face. Camera slowly racks focus from the card to the terminal screen glowing with an abstract blur. No text, no numbers, no logos, no brand marks. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O dólar a R$ 5,58 não subiu por causa do pacote fiscal.\n\nSegundo o InfoMoney, foi a inflação dos EUA e o Copom.\n\nA Reuters diz que o governo negocia ajuste de 0,5% do PIB.\n\nÉ como combinar de apertar o orçamento, sem planilha.\n\nMas olha só: quarta cedo, o dólar caía 0,20%, olhando o pacote.\n\nUm dia de queda não é tendência. Hoje nada muda no seu bolso.\n\nJuro alto pesa no cartão: antes de parcelar, compare.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/governo-sinaliza-ao-congresso-ajuste-fiscal-de-05-do-pib-em-2027",
+   "destaque": "Alcolumbre disse em 10/11 que a proposta está em discussão entre o Executivo e parlamentares e deve ser apresentada na próxima semana."
+  },
+  {
+   "veiculo": "InfoMoney (Reuters)",
+   "url": "https://www.infomoney.com.br/politica/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-em-2027-diz-fonte/",
+   "destaque": "Segundo a fonte ouvida pela Reuters, o projeto tiraria receitas extraordinárias do cálculo dos pisos de saúde e educação, mesmo com…"
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/governo-bloqueia-r-221-bi-do-orcamento-de-2026",
+   "destaque": "O bloqueio de gastos já em vigor em 2026 é de R$ 23,7 bilhões."
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T09:56:31.034138-03:00"
+}
