@@ -64,3 +64,9 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 
 ## Hashtags
 - Nunca usar #cambio: a Meta recusa o envio de Reel com ela pela API (11/11), sinal de hashtag restrita.
+
+## TikTok e a versão longa (decidido em 11/11)
+- Instagram segue com 30 a 45 s. Teste: quando o assunto render (história do Heitor ou explicativo com começo, meio e
+  fim), o roteiro ganha também uma versão de 1min05 a 1min15 só para o TikTok, onde só vídeo de 1 minuto ou mais conta
+  para o Programa de Recompensas (10 mil seguidores e 100 mil visualizações em 30 dias). O painel compara as duas.
+- Perto dos 10 mil seguidores no TikTok, todo vídeo de lá passa de 1 minuto.
