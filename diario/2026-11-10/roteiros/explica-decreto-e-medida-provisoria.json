@@ -1,169 +1,166 @@
 {
  "gancho": {
-  "formula": "Pergunta de bolso",
-  "texto": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?",
-  "na_tela": "R$ 6,49 bilhões numa MP",
+  "formula": "Custo escondido",
+  "texto": "R$ 30 bilhões em MP, e nenhum centavo cai na sua conta.",
+  "na_tela": "R$ 30 bilhões, zero na conta",
   "nota": {
    "especifico": 2,
    "tensao": 2,
    "espectador": 2,
    "rapido": 2,
-   "verdadeiro": 2
+   "verdadeiro": 1
   }
  },
  "ganchos": [
   {
-   "formula": "Pergunta de bolso",
-   "texto": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?",
-   "na_tela": "R$ 6,49 bilhões numa MP",
+   "formula": "Custo escondido",
+   "texto": "R$ 30 bilhões em MP, e nenhum centavo cai na sua conta.",
+   "na_tela": "R$ 30 bilhões, zero na conta",
    "nota": {
     "especifico": 2,
     "tensao": 2,
     "espectador": 2,
     "rapido": 2,
-    "verdadeiro": 2
+    "verdadeiro": 1
    }
   },
   {
-   "formula": "Cena no meio, com virada",
-   "texto": "A MP 1.397 já vale como lei, mas pode perder a validade.",
-   "na_tela": "MP vale já, mas pode caducar",
+   "formula": "Pergunta de bolso",
+   "texto": "Em 21 de outubro, o governo abriu R$ 6,49 bilhões. Para quem?",
+   "na_tela": "R$ 6,49 bilhões: para quem?",
    "nota": {
     "especifico": 2,
-    "tensao": 1,
+    "tensao": 2,
     "espectador": 1,
     "rapido": 2,
-    "verdadeiro": 2
+    "verdadeiro": 1
    }
   },
   {
-   "formula": "Custo escondido",
-   "texto": "Bilhões em crédito extraordinário mexem no seu bolso por um caminho pouco visto.",
-   "na_tela": "Bilhões extras no seu bolso?",
+   "formula": "Já descobriram, você ainda não",
+   "texto": "O governo já libera bilhões por MP. Você ainda não sabe onde conferir.",
+   "na_tela": "Onde conferir uma MP",
    "nota": {
     "especifico": 1,
     "tensao": 1,
     "espectador": 2,
-    "rapido": 1,
+    "rapido": 2,
     "verdadeiro": 1
    }
   }
  ],
  "linhas": [
-  "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?",
-  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
-  "Olha só: a medida provisória já vale como lei desde que sai.",
-  "A mais recente, a 1.397, abriu R$ 6,49 bilhões em crédito extraordinário.",
-  "É verba extra para imprevisto, tipo pneu furado no meio do mês.",
-  "Esse dinheiro não cai na sua conta: ele libera verba para programas.",
-  "Mas olha o detalhe: toda MP tem prazo, de até 120 dias.",
-  "Se o Congresso não votar nesse tempo, ela perde a validade.",
-  "Ainda não se sabe se a 1.397 passa até 19 de dezembro.",
-  "Passo calmo: confira a MP do seu programa no site do Congresso.",
+  "R$ 30 bilhões em MP, e nenhum centavo cai na sua conta.",
+  "Essa MP é do Move Brasil, para táxi e aplicativo.",
+  "Ela libera verba, como um limite de cartão. Não deposita na sua conta.",
+  "Segundo o governo, o bloqueio de gastos não atinge BPC, aposentadoria nem Bolsa Família.",
+  "Olha só: a MP de 21 de outubro abriu R$ 6,49 bilhões para exportadores.",
+  "Confira a MP do seu programa na página do Congresso.",
+  "Manda para quem dirige aplicativo.",
   "O grupo do WhatsApp está no link da bio.",
-  "Isso não é recomendação: quem decide é você.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta? Fala, galera, aqui é o Heitor, do Termômetro de Crise. Olha só: a medida provisória já vale como lei desde que sai. A mais recente, a 1.397, abriu R$ 6,49 bilhões em crédito extraordinário. É verba extra para imprevisto, tipo pneu furado no meio do mês. Esse dinheiro não cai na sua conta: ele libera verba para programas. Mas olha o detalhe: toda MP tem prazo, de até 120 dias. Se o Congresso não votar nesse tempo, ela perde a validade. Ainda não se sabe se a 1.397 passa até 19 de dezembro. Passo calmo: confira a MP do seu programa no site do Congresso. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
- "palavras": 140,
- "segundos": 56,
+ "texto_falado": "R$ 30 bilhões em MP, e nenhum centavo cai na sua conta. Essa MP é do Move Brasil, para táxi e aplicativo. Ela libera verba, como um limite de cartão. Não deposita na sua conta. Segundo o governo, o bloqueio de gastos não atinge BPC, aposentadoria nem Bolsa Família. Olha só: a MP de 21 de outubro abriu R$ 6,49 bilhões para exportadores. Confira a MP do seu programa na página do Congresso. Manda para quem dirige aplicativo. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
  "na_tela": [
   {
-   "texto": "R$ 6,49 bilhões numa MP",
+   "texto": "R$ 30 bilhões, zero na conta",
    "fala": 0
   },
   {
-   "fala": 2,
-   "texto": "R$ 6,49 bilhões numa MP",
+   "fala": 1,
+   "texto": "Move Brasil: R$ 30 bilhões",
    "fonte": "Congresso Nacional"
   },
   {
+   "fala": 2,
+   "texto": "Crédito extraordinário = verba liberada",
+   "fonte": "Termômetro de Crise"
+  },
+  {
    "fala": 3,
-   "texto": "MP 1.397: R$ 6,49 bilhões",
+   "texto": "Bloqueio não atinge BPC, aposentadoria e Bolsa Família",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 6,49 bilhões em 21 de outubro",
    "fonte": "Congresso Nacional"
   },
   {
    "fala": 5,
-   "texto": "Libera verba, não deposita",
-   "fonte": "Termômetro de Crise"
-  },
-  {
-   "fala": 6,
-   "texto": "Prazo: até 120 dias",
-   "fonte": "Portal da Câmara dos Deputados"
-  },
-  {
-   "fala": 8,
-   "texto": "Prazo no Congresso: 19 de dezembro",
-   "fonte": "Congresso Nacional"
-  },
-  {
-   "fala": 9,
-   "texto": "Confira no site do Congresso",
+   "texto": "Confira a MP no Congresso",
    "fonte": "Congresso Nacional"
   }
  ],
- "retomada": 6,
- "busca": "medida provisória o que é e o que muda no seu bolso",
- "legenda": "Medida provisória: o que é e o que muda no seu bolso?\n\nSegundo o Congresso Nacional, a MP 1.397 abriu R$ 6,49 bilhões em crédito extraordinário, que é verba extra para despesas urgentes. Esse dinheiro não cai na sua conta: ele libera recursos para programas, como o apoio a exportadores.\n\nUma MP vale como lei desde a publicação, mas pode perder a validade se o Congresso não votar em até 120 dias. O prazo da 1.397 vai até 19 de dezembro, e ainda não se sabe se ela será votada.\n\nO passo calmo: confira a situação da MP do seu programa na página do Congresso Nacional.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#medidaprovisoria #orcamento #economiaparaleigos #termometrodecrise",
+ "retomada": 4,
+ "busca": "medida provisória: o que muda no seu bolso",
+ "legenda": "Medida provisória: o que muda no seu bolso?\n\nA MP é publicada pelo governo e já vale como lei. A MP 1.362, por exemplo, abriu R$ 30 bilhões em crédito extraordinário para o Move Brasil, segundo o Congresso Nacional. Esse tipo de MP libera verba para programas. Ela não deposita dinheiro na sua conta.\n\nSegundo o governo, o bloqueio de gastos atinge despesas não obrigatórias, e não o pagamento de BPC, aposentadorias e Bolsa Família.\n\nPasso calmo: confira a situação da MP do seu programa na página do Congresso Nacional. Quem pode contratar uma linha de crédito depende das regras do programa e do banco.\n\nManda para quem dirige aplicativo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#medidaprovisoria #economia #financaspessoais #educacaofinanceira",
  "hashtags": [
   "#medidaprovisoria",
-  "#orcamento",
-  "#economiaparaleigos",
-  "#termometrodecrise"
+  "#economia",
+  "#financaspessoais",
+  "#educacaofinanceira"
  ],
  "rua": {
-  "gancho": "MP nova abriu R$ 6,49 bilhões. Isso cai na sua conta?",
+  "gancho": "R$ 30 bilhões em MP, e nenhum centavo cai na sua conta.",
   "topicos": [
-   "Segundo o Congresso Nacional, a MP 1.397 abriu R$ 6,49 bilhões em crédito extraordinário.",
-   "É verba para programas, como apoio a exportadores; não cai na sua conta.",
-   "Segundo a Câmara, a MP vale até 120 dias; sem votação, perde a validade.",
-   "Confira a situação da MP do seu programa na página do Congresso Nacional."
+   "MP 1.362: R$ 30 bilhões em crédito para táxi e aplicativo, segundo o Congresso.",
+   "Crédito extraordinário libera verba ao programa e não deposita na sua conta.",
+   "A MP 1.397, de 21 de outubro, abriu R$ 6,49 bilhões para exportadores.",
+   "Confira a MP do seu programa na página do Congresso Nacional."
   ]
  },
  "formato": "bancada",
- "por_que_formato": "É um explicador de conceito (MP, crédito extraordinário, prazo), não uma notícia quente do dia, então pede a calma da bancada com a prova na tela.",
+ "por_que_formato": "É uma explicação com conceitos novos (MP, crédito extraordinário, bloqueio), não uma notícia quente do dia.",
  "tipo": "explica",
  "persona": "Heitor",
  "aprovado": true,
  "problemas": [],
  "tentativas": 1,
  "marca": {
-  "nota": 10,
+  "nota": 9,
   "notas": {
    "persona": 2,
    "arquetipo": 2,
-   "temperamentos": 2,
+   "temperamentos": 1,
    "gatilhos": 2,
    "voz": 2
   },
   "aprovado": true,
-  "sugestoes": [],
-  "veredito": "A peça responde direto à pergunta de bolso (\"cai na minha conta?\"), traduz crédito extraordinário com a comparação do pneu furado, cita o prazo e o que ainda não se sabe, dá um passo calmo e fecha com os bordões da casa, sem alarmismo; não falta nada relevante."
+  "sugestoes": [
+   "Na frase \"Olha só: a MP de 21 de outubro abriu R$ 6,49 bilhões para exportadores.\": a virada fica solta, sem ligação com o motorista de aplicativo nem com o bolso de quem assiste. Reescreva em uma frase que explique por que isso aparece aqui, por exemplo \"outra MP, outro público: a verba vai para exportadores, não para você\". Assim vira contraste concreto, sem inventar número ou fato.",
+   "Na frase \"Ela libera verba, como um limite de cartão. Não deposita na sua conta.\": a comparação é boa, mas é a única imagem viva e o número de R$ 30 bilhões fica sem o porquê. Acrescente uma linha curta dizendo que o governo só pode gastar até esse valor, como o limite do cartão, e que quem decide quem recebe são as regras do programa. Assim o melancólico ganha o porquê e o sanguíneo ganha uma imagem mais completa.",
+   "Na frase \"Confira a MP do seu programa na página do Congresso.\": o passo é calmo, mas genérico. Diga onde clicar ou o que procurar, por exemplo \"busque pelo número da MP\", já que a legenda cita a MP 1.362. Isso deixa o passo simples e executável, o que ajuda o fleumático e o colérico."
+  ],
+  "veredito": "A peça fala com quem dirige aplicativo e com o bolso, tira o medo (\\\"não cai na sua conta\\\", o bloqueio não atinge BPC) e traz o passo calmo e os bordões da casa; falta ligar a virada dos R$ 6,49 bilhões ao espectador e dar mais um porquê e uma imagem para fechar os quatro temperamentos."
  },
  "apoios": [
   {
+   "fala": 1,
+   "visual": "Vertical shot, slow dolly-in from behind a yellow-and-black taxi parked on a busy city avenue at dusk, with a car-hailing driver's smartphone mounted on the dashboard glowing with a blank map screen, blurred traffic lights bokeh, no people visible, no text, no logos",
+   "texto_da_fala": "Essa MP é do Move Brasil, para táxi e aplicativo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly-in from behind a yellow-and-black taxi parked on a busy city avenue at dusk, with a car-hailing driver's smartphone mounted on the dashboard glowing with a blank map screen, blurred traffic lights bokeh, no people visible, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow upward tilt of a Brazilian government ministry building facade in Brasilia with modernist concrete architecture under clear blue sky, then a gentle push-in on a wooden desk with closed folders and a rubber stamp, no people, no text, no flags, no logos",
+   "texto_da_fala": "Segundo o governo, o bloqueio de gastos não atinge BPC, aposentadoria nem Bolsa Família.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow upward tilt of a Brazilian government ministry building facade in Brasilia with modernist concrete architecture under clear blue sky, then a gentle push-in on a wooden desk with closed folders and a rubber stamp, no people, no text, no flags, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
    "fala": 4,
-   "visual": "A small hatchback parked on the shoulder of a quiet city avenue at golden hour, its rear tire visibly flat against the asphalt. Camera starts in a low close-up on the deflated tire and slowly dollies back and up to reveal the whole car with its hazard lights blinking. No people, no text, no license plate visible",
-   "texto_da_fala": "É verba extra para imprevisto, tipo pneu furado no meio do mês.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A small hatchback parked on the shoulder of a quiet city avenue at golden hour, its rear tire visibly flat against the asphalt. Camera starts in a low close-up on the deflated tire and slowly dollies back and up to reveal the whole car with its hazard lights blinking. No people, no text, no license plate visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
-  },
-  {
-   "fala": 5,
-   "visual": "Inside a bright public school kitchen, steel shelves being stocked with sacks of rice, beans and crates of fruit, all packaging plain and unbranded. Camera glides slowly sideways along the shelves in a smooth tracking shot, warm natural light from a window. No people in focus, no text, no logos",
-   "texto_da_fala": "Esse dinheiro não cai na sua conta: ele libera verba para programas.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Inside a bright public school kitchen, steel shelves being stocked with sacks of rice, beans and crates of fruit, all packaging plain and unbranded. Camera glides slowly sideways along the shelves in a smooth tracking shot, warm natural light from a window. No people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
-  },
-  {
-   "fala": 7,
-   "visual": "Macro shot on a wooden desk of an old hourglass with the last grains of sand running down, a stack of blank unmarked papers blurred behind it. Camera slowly pushes in toward the hourglass while the background softly shifts focus to the empty curved rows of a large legislative chamber. No people, no text, no flags, no logos",
-   "texto_da_fala": "Se o Congresso não votar nesse tempo, ela perde a validade.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot on a wooden desk of an old hourglass with the last grains of sand running down, a stack of blank unmarked papers blurred behind it. Camera slowly pushes in toward the hourglass while the background softly shifts focus to the empty curved rows of a large legislative chamber. No people, no text, no flags, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "Vertical aerial shot, slow drone descent over a busy container port with stacked colorful shipping containers and a gantry crane lifting a container onto a cargo ship at golden hour, no people in focus, no text, no logos",
+   "texto_da_fala": "Olha só: a MP de 21 de outubro abriu R$ 6,49 bilhões para exportadores.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical aerial shot, slow drone descent over a busy container port with stacked colorful shipping containers and a gantry crane lifting a container onto a cargo ship at golden hour, no people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "R$ 6,49 bilhões numa MP: esse dinheiro cai na sua conta?\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nOlha só: a medida provisória já vale como lei desde que sai.\n\nA mais recente, a 1.397, abriu R$ 6,49 bilhões em crédito extraordinário.\n\nÉ verba extra para imprevisto, tipo pneu furado no meio do mês.\n\nEsse dinheiro não cai na sua conta: ele libera verba para programas.\n\nMas olha o detalhe: toda MP tem prazo, de até 120 dias.\n\nSe o Congresso não votar nesse tempo, ela perde a validade.\n\nAinda não se sabe se a 1.397 passa até 19 de dezembro.\n\nPasso calmo: confira a MP do seu programa no site do Congresso.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "R$ 30 bilhões em MP, e nenhum centavo cai na sua conta.\n\nEssa MP é do Move Brasil, para táxi e aplicativo.\n\nEla libera verba, como um limite de cartão. Não deposita na sua conta.\n\nSegundo o governo, o bloqueio de gastos não atinge BPC, aposentadoria nem Bolsa Família.\n\nOlha só: a MP de 21 de outubro abriu R$ 6,49 bilhões para exportadores.\n\nConfira a MP do seu programa na página do Congresso.\n\nManda para quem dirige aplicativo.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "Agência Brasil",
@@ -177,6 +174,5 @@
   }
  ],
  "data": "2026-11-10",
- "gerado_em": "2026-11-10T18:43:59.835508-03:00",
- "enviado_whatsapp": "2026-11-10T18:45:13.928819-03:00"
+ "gerado_em": "2026-11-11T08:54:49.534462-03:00"
 }

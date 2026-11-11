@@ -1,8 +1,8 @@
 {
  "gancho": {
-  "formula": "Pergunta de bolso",
-  "texto": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.",
-  "na_tela": "Investir lá fora: quanto custa?",
+  "formula": "Erro de todo mundo",
+  "texto": "Se você acha que precisa de conta lá fora, olha isso.",
+  "na_tela": "Conta lá fora? Não precisa",
   "nota": {
    "especifico": 1,
    "tensao": 2,
@@ -13,9 +13,9 @@
  },
  "ganchos": [
   {
-   "formula": "Pergunta de bolso",
-   "texto": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.",
-   "na_tela": "Investir lá fora: quanto custa?",
+   "formula": "Erro de todo mundo",
+   "texto": "Se você acha que precisa de conta lá fora, olha isso.",
+   "na_tela": "Conta lá fora? Não precisa",
    "nota": {
     "especifico": 1,
     "tensao": 2,
@@ -25,143 +25,142 @@
    }
   },
   {
-   "formula": "Número + porquê",
-   "texto": "R$ 1.000 em ETF lá fora: até R$ 8,30 de taxa por ano.",
-   "na_tela": "R$ 1.000 lá fora: R$ 8,30",
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto custa pôr R$ 1.000 no exterior pela sua corretora?",
+   "na_tela": "R$ 1.000 no exterior: quanto custa?",
    "nota": {
     "especifico": 2,
-    "tensao": 1,
-    "espectador": 1,
+    "tensao": 2,
+    "espectador": 2,
     "rapido": 2,
-    "verdadeiro": 2
+    "verdadeiro": 1
    }
   },
   {
-   "formula": "Não foi o que você pensa",
-   "texto": "Você não precisa de conta no exterior para investir lá fora.",
-   "na_tela": "Sem conta no exterior",
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "A B3 deixa você comprar o exterior em reais. Quanto custa?",
+   "na_tela": "Exterior em reais, pela B3",
    "nota": {
     "especifico": 1,
-    "tensao": 1,
+    "tensao": 2,
     "espectador": 2,
     "rapido": 2,
-    "verdadeiro": 2
+    "verdadeiro": 1
    }
   }
  ],
  "linhas": [
-  "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.",
-  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
-  "Segundo a B3, dá para investir lá fora em reais, pela sua corretora.",
-  "O ETF é uma cesta pronta: um fundo que copia um índice.",
-  "Segundo o Radar do Investidor, o mais caro cobra 0,83% ao ano.",
-  "Faz a conta comigo: em R$ 1.000, são R$ 8,30 por ano.",
-  "É um lanche de padaria por ano, só pelos dias que você fica.",
-  "Mas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto.",
-  "Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.",
+  "Se você acha que precisa de conta lá fora, olha isso.",
+  "Não precisa: segundo a B3, basta uma corretora brasileira, em reais.",
+  "É o ETF, fundo que copia um índice e negocia como ação.",
+  "Em R$ 1.000, a taxa custa de R$ 2,50 a R$ 8,30 por ano.",
+  "É de um cafezinho a um lanche. Cada fundo define a sua.",
+  "Antes de comprar, abra a lâmina, o resumo oficial do fundo.",
+  "Veja a taxa e a corretagem, a tarifa da corretora.",
   "O grupo do WhatsApp está no link da bio.",
-  "Isso não é recomendação: quem decide é você.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa. Fala, galera, aqui é o Heitor, do Termômetro de Crise. Segundo a B3, dá para investir lá fora em reais, pela sua corretora. O ETF é uma cesta pronta: um fundo que copia um índice. Segundo o Radar do Investidor, o mais caro cobra 0,83% ao ano. Faz a conta comigo: em R$ 1.000, são R$ 8,30 por ano. É um lanche de padaria por ano, só pelos dias que você fica. Mas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto. Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
- "palavras": 137,
- "segundos": 55,
+ "texto_falado": "Se você acha que precisa de conta lá fora, olha isso. Não precisa: segundo a B3, basta uma corretora brasileira, em reais. É o ETF, fundo que copia um índice e negocia como ação. Em R$ 1.000, a taxa custa de R$ 2,50 a R$ 8,30 por ano. É de um cafezinho a um lanche. Cada fundo define a sua. Antes de comprar, abra a lâmina, o resumo oficial do fundo. Veja a taxa e a corretagem, a tarifa da corretora. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
  "na_tela": [
   {
-   "texto": "Investir lá fora: quanto custa?",
+   "texto": "Conta lá fora? Não precisa",
    "fala": 0
   },
   {
-   "fala": 2,
-   "texto": "Investir lá fora, em reais",
+   "fala": 1,
+   "texto": "Sem conta lá fora, em reais",
    "fonte": "B3"
   },
   {
+   "fala": 2,
+   "texto": "ETF = fundo que copia um índice",
+   "fonte": "B3 Educação"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 1.000: de R$ 2,50 a R$ 8,30 por ano",
+   "fonte": "Termômetro de Crise"
+  },
+  {
    "fala": 4,
-   "texto": "0,83% ao ano",
-   "fonte": "Radar do Investidor"
+   "texto": "Não há taxa única",
+   "fonte": "Termômetro de Crise"
   },
   {
    "fala": 5,
-   "texto": "R$ 1.000 = R$ 8,30 por ano",
-   "fonte": "Termômetro de Crise"
+   "texto": "Lâmina = resumo oficial do fundo"
   },
   {
-   "fala": 7,
-   "texto": "15% de imposto sobre o lucro",
-   "fonte": "Serasa"
-  },
-  {
-   "fala": 8,
-   "texto": "Primeiro passo: ler a lâmina",
-   "fonte": "Termômetro de Crise"
+   "fala": 6,
+   "texto": "Corretagem = tarifa da corretora"
   }
  ],
- "retomada": 5,
- "busca": "como investir no exterior pela B3 com ETF",
- "legenda": "Como investir no exterior pela B3 com ETF, e quanto custa?\n\nSegundo a B3, dá para investir lá fora em reais, pela corretora que você já usa, sem conta no exterior e sem operação de câmbio. O caminho é o ETF, um fundo que copia um índice e é negociado como ação.\n\nNa tabela do Radar do Investidor, o ETF internacional mais caro cobra 0,83% ao ano. Em R$ 1.000, são R$ 8,30 por ano. Corretagem, a diferença entre compra e venda e o imposto de 15% sobre o lucro podem pesar mais.\n\nO custo total para quem investe pouco não foi calculado por fonte oficial. Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#etf #b3 #investirnoexterior #educacaofinanceira",
+ "retomada": 4,
+ "busca": "investir no exterior pela B3 com ETF",
+ "legenda": "Investir no exterior pela B3 com ETF: o que se sabe.\n\nSegundo a B3, dá para comprar ativos de fora em reais, por uma corretora brasileira, sem conta no exterior e sem enviar dinheiro para fora. O ETF é um fundo que copia um índice e é negociado como ação.\n\nLevantamentos de outubro de 2026 mostram taxas de administração de 0,20% a 0,83% ao ano nos ETFs internacionais da B3. Em R$ 1.000, isso dá de R$ 2,50 a R$ 8,30 por ano (a conta usa 0,25% e 0,83%). Não há taxa única: cada fundo define a sua, e o valor atual está na lâmina, o resumo oficial do fundo.\n\nCorretagem (a tarifa da corretora), spread e imposto também contam. Segundo a Serasa, o lucro na venda paga 15% de imposto, sem a isenção de R$ 20.000 das ações. Não há garantia de retorno.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#etf #b3 #investirnoexterior #educacaofinanceira #termometrodecrise",
  "hashtags": [
   "#etf",
   "#b3",
   "#investirnoexterior",
-  "#educacaofinanceira"
+  "#educacaofinanceira",
+  "#termometrodecrise"
  ],
  "rua": {
-  "gancho": "Investir lá fora pela sua corretora, sem câmbio: quanto custa?",
+  "gancho": "Investir fora sem conta lá fora? A B3 explica como.",
   "topicos": [
-   "Segundo a B3, dá para investir lá fora em reais, com ETF.",
-   "Segundo o Radar do Investidor, o ETF mais caro cobra 0,83% ao ano.",
-   "Em R$ 1.000, são R$ 8,30 por ano; lucro paga 15%, diz a Serasa.",
-   "Primeiro passo: abrir a lâmina do fundo e ver a taxa."
+   "Segundo a B3, basta uma corretora brasileira, em reais, sem mandar dinheiro para fora.",
+   "R$ 1.000 pagam de R$ 2,50 a R$ 8,30 de taxa por ano.",
+   "Não há taxa única: cada fundo define a sua, e corretagem e imposto pesam.",
+   "Antes de comprar, leia a lâmina, o resumo do fundo, e as tarifas."
   ]
  },
  "formato": "bancada",
- "por_que_formato": "É um tema de explicação, com vários números e termos técnicos, que pede calma e prova na tela.",
+ "por_que_formato": "É explicação com contas e termos técnicos (ETF, lâmina, corretagem), que pedem calma e prova na tela.",
  "tipo": "explica",
  "persona": "Heitor",
  "aprovado": true,
  "problemas": [],
  "tentativas": 3,
  "marca": {
-  "nota": 9,
+  "nota": 10,
   "notas": {
    "persona": 2,
    "arquetipo": 2,
-   "temperamentos": 1,
+   "temperamentos": 2,
    "gatilhos": 2,
    "voz": 2
   },
   "aprovado": true,
-  "sugestoes": [
-   "Frase \"É um lanche de padaria por ano, só pelos dias que você fica.\": a comparação é boa, mas \"só pelos dias que você fica\" confunde. Reescreva de forma direta, por exemplo: \"R$ 8,30 por ano: menos que um lanche de padaria.\" Assim a comparação (sanguíneo) fica clara sem inventar número novo.",
-   "Frase \"Mas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto.\": o aviso de perda não tem uma saída além da lâmina, e \"a diferença entre compra e venda\" é termo técnico sem tradução. Traduza na mesma frase (por exemplo, \"o spread, a diferença entre o preço de comprar e o de vender\") e diga que esses custos aparecem na corretora e na lâmina, para o fleumático ter calma e um caminho. Não invente valores.",
-   "Frase \"Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.\": o passo é bom, mas falta a parte melancólica de dizer o que ainda não se sabe. Inclua no vídeo, como na legenda, que o custo total para quem investe pouco não foi calculado por fonte oficial. Isso dá honestidade e fecha o porquê antes do passo simples."
-  ],
-  "veredito": "A peça fala a língua de quem tem pouco dinheiro, traz fonte (B3 e Radar do Investidor), uma conta simples, o passo prático e os bordões da casa; faltam traduzir \\\"diferença entre compra e venda\\\", deixar a comparação do lanche mais limpa e levar para o vídeo o que a fonte não calculou, que só aparece na legenda."
+  "sugestoes": [],
+  "veredito": "A peça abre direto no gancho, responde à pergunta de bolso com a comparação do cafezinho, cita a fonte, traduz ETF, lâmina e corretagem, termina com um passo simples (abrir a lâmina) e fecha com a apresentação, o aviso e o bordão exato; não falta nada de relevante."
  },
  "apoios": [
   {
-   "fala": 3,
-   "visual": "Overhead shot slowly pushing in on a wicker basket packed with a varied assortment of colorful items: fruits, small wrapped boxes, jars and bread, arranged neatly on a light wooden table, soft natural window light. No people, no text, no labels, no logos",
-   "texto_da_fala": "O ETF é uma cesta pronta: um fundo que copia um índice.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Overhead shot slowly pushing in on a wicker basket packed with a varied assortment of colorful items: fruits, small wrapped boxes, jars and bread, arranged neatly on a light wooden table, soft natural window light. No people, no text, no labels, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 1,
+   "visual": "Slow aerial drone push-forward over the glass office towers of a Brazilian financial district (Sao Paulo skyline) at golden hour, light traffic on the avenue below, soft warm light reflecting off the facades. No people in focus, no text, no signs, no logos",
+   "texto_da_fala": "Não precisa: segundo a B3, basta uma corretora brasileira, em reais.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone push-forward over the glass office towers of a Brazilian financial district (Sao Paulo skyline) at golden hour, light traffic on the avenue below, soft warm light reflecting off the facades. No people in focus, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "fala": 6,
-   "visual": "Warm Brazilian neighborhood bakery counter, a golden French bread roll and a small glass of coffee on a plate, steam rising, camera slowly dollying in from the side with shallow depth of field. Soft morning light. No people in focus, no text, no signs, no prices, no logos",
-   "texto_da_fala": "É um lanche de padaria por ano, só pelos dias que você fica.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Warm Brazilian neighborhood bakery counter, a golden French bread roll and a small glass of coffee on a plate, steam rising, camera slowly dollying in from the side with shallow depth of field. Soft morning light. No people in focus, no text, no signs, no prices, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 4,
+   "visual": "Close-up on a wooden cafe counter in Brazil: a small espresso cup with steam rising next to a toasted ham-and-cheese sandwich on a plate. Camera slowly dollies sideways from the coffee to the sandwich, shallow depth of field, warm morning light. No faces, no text, no logos, no branded packaging",
+   "texto_da_fala": "É de um cafezinho a um lanche. Cada fundo define a sua.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a wooden cafe counter in Brazil: a small espresso cup with steam rising next to a toasted ham-and-cheese sandwich on a plate. Camera slowly dollies sideways from the coffee to the sandwich, shallow depth of field, warm morning light. No faces, no text, no logos, no branded packaging. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "fala": 8,
-   "visual": "Slow lateral slide over a tidy desk with a thin folder of paper sheets, the pages showing only abstract blurred gray lines with nothing legible, a magnifying glass moving over one sheet, a pen resting beside it. Soft daylight, calm mood. No faces, no readable text, no numbers, no logos",
-   "texto_da_fala": "Seu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow lateral slide over a tidy desk with a thin folder of paper sheets, the pages showing only abstract blurred gray lines with nothing legible, a magnifying glass moving over one sheet, a pen resting beside it. Soft daylight, calm mood. No faces, no readable text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 5,
+   "visual": "Top-down shot slowly tilting and pushing in on a tidy desk where a pair of hands (cropped at the wrists, no face) turns the page of a printed multi-page document with only abstract blurred grey lines instead of writing, a pen resting beside it, soft window light. No legible text, no numbers, no logos",
+   "texto_da_fala": "Antes de comprar, abra a lâmina, o resumo oficial do fundo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot slowly tilting and pushing in on a tidy desk where a pair of hands (cropped at the wrists, no face) turns the page of a printed multi-page document with only abstract blurred grey lines instead of writing, a pen resting beside it, soft window light. No legible text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Investir lá fora sem abrir conta nem pagar câmbio? Olha quanto custa.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nSegundo a B3, dá para investir lá fora em reais, pela sua corretora.\n\nO ETF é uma cesta pronta: um fundo que copia um índice.\n\nSegundo o Radar do Investidor, o mais caro cobra 0,83% ao ano.\n\nFaz a conta comigo: em R$ 1.000, são R$ 8,30 por ano.\n\nÉ um lanche de padaria por ano, só pelos dias que você fica.\n\nMas podem pesar mais: corretagem, a diferença entre compra e venda, e 15% de imposto.\n\nSeu primeiro passo: abrir a lâmina, a ficha do fundo, e ver a taxa.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Se você acha que precisa de conta lá fora, olha isso.\n\nNão precisa: segundo a B3, basta uma corretora brasileira, em reais.\n\nÉ o ETF, fundo que copia um índice e negocia como ação.\n\nEm R$ 1.000, a taxa custa de R$ 2,50 a R$ 8,30 por ano.\n\nÉ de um cafezinho a um lanche. Cada fundo define a sua.\n\nAntes de comprar, abra a lâmina, o resumo oficial do fundo.\n\nVeja a taxa e a corretagem, a tarifa da corretora.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "B3",
@@ -180,6 +179,5 @@
   }
  ],
  "data": "2026-11-10",
- "gerado_em": "2026-11-10T18:56:38.737455-03:00",
- "enviado_whatsapp": "2026-11-10T18:57:59.920390-03:00"
+ "gerado_em": "2026-11-11T08:59:39.319125-03:00"
 }

@@ -1,11 +1,11 @@
 {
  "gancho": {
-  "formula": "Não foi o que você pensa",
-  "texto": "A calculadora da Receita simula seu acordo, mas não fecha nada.",
-  "na_tela": "Simula o acordo, mas NÃO fecha",
+  "formula": "Pergunta de bolso",
+  "texto": "Deve imposto? A Receita lançou uma calculadora para simular seu acordo.",
+  "na_tela": "Deve à Receita? Simule o acordo",
   "nota": {
-   "especifico": 1,
-   "tensao": 2,
+   "especifico": 2,
+   "tensao": 1,
    "espectador": 2,
    "rapido": 2,
    "verdadeiro": 2
@@ -14,10 +14,10 @@
  "ganchos": [
   {
    "formula": "Pergunta de bolso",
-   "texto": "Deve à Receita? Agora dá para simular o acordo sem compromisso.",
-   "na_tela": "Dívida com a Receita? SIMULE",
+   "texto": "Deve imposto? A Receita lançou uma calculadora para simular seu acordo.",
+   "na_tela": "Deve à Receita? Simule o acordo",
    "nota": {
-    "especifico": 1,
+    "especifico": 2,
     "tensao": 1,
     "espectador": 2,
     "rapido": 2,
@@ -26,118 +26,100 @@
   },
   {
    "formula": "Não foi o que você pensa",
-   "texto": "A calculadora da Receita simula seu acordo, mas não fecha nada.",
-   "na_tela": "Simula o acordo, mas NÃO fecha",
+   "texto": "A calculadora da Receita simula seu desconto, mas não fecha acordo nenhum.",
+   "na_tela": "Simula o desconto, não fecha acordo",
    "nota": {
-    "especifico": 1,
+    "especifico": 2,
     "tensao": 2,
     "espectador": 2,
     "rapido": 2,
-    "verdadeiro": 2
+    "verdadeiro": 1
    }
   },
   {
-   "formula": "Cena no meio",
-   "texto": "Três editais, uma calculadora, e a Receita avisa: é só simulação.",
-   "na_tela": "Três editais, uma SIMULAÇÃO",
+   "formula": "Número + porquê",
+   "texto": "Três editais, uma calculadora: dá para simular a dívida com a Receita.",
+   "na_tela": "Três editais, uma calculadora",
    "nota": {
     "especifico": 2,
     "tensao": 1,
-    "espectador": 0,
+    "espectador": 1,
     "rapido": 2,
     "verdadeiro": 2
    }
   }
  ],
  "linhas": [
-  "A calculadora da Receita simula seu acordo, mas não fecha nada.",
-  "Fala, galera, aqui é o Heitor, do Termômetro de Crise.",
-  "A Receita publicou em 9/11 a Calculadora da Transação Tributária.",
-  "Transação tributária é acordo para pagar dívida com desconto e parcelamento.",
-  "Funciona como simulador de financiamento: você testa antes de assinar.",
-  "Por enquanto, ela compara só três editais: dois da Receita e um da PGFN.",
-  "Mas sinal amarelo: a própria Receita diz que a simulação é orientativa.",
-  "Ela não faz a adesão: o acordo só vale no canal oficial.",
-  "O prazo pode ter mudado: confira no site da Receita ou da PGFN.",
-  "Se você deve, lance os débitos um a um, como a Receita recomenda.",
+  "Deve imposto? A Receita lançou uma calculadora para simular seu acordo.",
+  "Segundo a Receita, ela saiu em 9/11 e simula acordo.",
+  "É como simular financiamento: você vê a parcela antes de assinar.",
+  "Mas olha só: a Receita diz que a simulação é só orientativa.",
+  "Ela não faz a adesão: acordo só vale se você formalizar.",
+  "Confira o prazo no site da Receita: as datas podem ter mudado.",
+  "Manda para quem deve à Receita e não sabe por onde começar.",
   "O grupo do WhatsApp está no link da bio.",
-  "Isso não é recomendação: quem decide é você.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "A calculadora da Receita simula seu acordo, mas não fecha nada. Fala, galera, aqui é o Heitor, do Termômetro de Crise. A Receita publicou em 9/11 a Calculadora da Transação Tributária. Transação tributária é acordo para pagar dívida com desconto e parcelamento. Funciona como simulador de financiamento: você testa antes de assinar. Por enquanto, ela compara só três editais: dois da Receita e um da PGFN. Mas sinal amarelo: a própria Receita diz que a simulação é orientativa. Ela não faz a adesão: o acordo só vale no canal oficial. O prazo pode ter mudado: confira no site da Receita ou da PGFN. Se você deve, lance os débitos um a um, como a Receita recomenda. O grupo do WhatsApp está no link da bio. Isso não é recomendação: quem decide é você. Sem alarde. Eu sou só o termômetro!",
- "palavras": 141,
- "segundos": 56,
+ "texto_falado": "Deve imposto? A Receita lançou uma calculadora para simular seu acordo. Segundo a Receita, ela saiu em 9/11 e simula acordo. É como simular financiamento: você vê a parcela antes de assinar. Mas olha só: a Receita diz que a simulação é só orientativa. Ela não faz a adesão: acordo só vale se você formalizar. Confira o prazo no site da Receita: as datas podem ter mudado. Manda para quem deve à Receita e não sabe por onde começar. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
  "na_tela": [
   {
-   "texto": "Simula o acordo, mas NÃO fecha",
+   "texto": "Deve à Receita? Simule o acordo",
    "fala": 0
   },
   {
-   "fala": 2,
-   "texto": "9/11: Calculadora da Transação Tributária",
+   "fala": 1,
+   "texto": "Calculadora da Transação Tributária: 9/11",
    "fonte": "Receita Federal"
   },
   {
    "fala": 3,
-   "texto": "Acordo com DESCONTO e parcelamento",
+   "texto": "Simulação só orientativa",
    "fonte": "Receita Federal"
   },
   {
-   "fala": 5,
-   "texto": "3 editais: 9 e 10/2026 (Receita), 6/2026 (PGFN)",
-   "fonte": "Receita Federal"
-  },
-  {
-   "fala": 6,
-   "texto": "Simulação é só ORIENTATIVA",
-   "fonte": "Receita Federal"
-  },
-  {
-   "fala": 7,
+   "fala": 4,
    "texto": "Adesão só no canal oficial",
    "fonte": "Receita Federal"
   },
   {
-   "fala": 8,
-   "texto": "Confira o PRAZO no site oficial",
-   "fonte": "Receita Federal"
-  },
-  {
-   "fala": 9,
-   "texto": "Lance os débitos um a um",
+   "fala": 5,
+   "texto": "Confira o prazo no site oficial",
    "fonte": "Receita Federal"
   }
  ],
- "retomada": 6,
+ "retomada": 3,
  "busca": "calculadora transação tributária Receita Federal",
- "legenda": "Calculadora da transação tributária da Receita Federal: o que se sabe.\n\nSegundo a Receita Federal, a ferramenta saiu em 9/11 e deixa você simular um acordo de dívida, com desconto e parcelamento, antes de decidir. Por enquanto, ela compara só três editais: o 9 e o 10 de 2026 da Receita e o 6 de 2026 da PGFN.\n\nO detalhe: a própria Receita diz que a simulação é orientativa e não faz a adesão. O acordo só vale se você formalizar no canal oficial.\n\nO que ainda não está claro: os prazos dos editais. Confira no site da Receita ou da PGFN antes de contar com qualquer um.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#receitafederal #dividas #transacaotributaria #educacaofinanceira #termometrodecrise",
+ "legenda": "Calculadora da transação tributária da Receita Federal: o que se sabe.\n\nA Receita publicou a ferramenta em 9 de novembro. Ela simula um acordo para pagar dívida com desconto e parcelamento, comparando os editais 9 e 10/2026 da Receita e o 6/2026 da PGFN.\n\nA própria Receita diz que a simulação é só orientativa e não faz a adesão. O acordo só vale se você formalizar pelo canal oficial.\n\nAntes de contar com um edital, confira o prazo no site da Receita ou da PGFN, porque as datas podem ter mudado.\n\nManda para quem deve à Receita e não sabe por onde começar.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#receitafederal #transacaotributaria #dividas #educacaofinanceira",
  "hashtags": [
   "#receitafederal",
-  "#dividas",
   "#transacaotributaria",
-  "#educacaofinanceira",
-  "#termometrodecrise"
+  "#dividas",
+  "#educacaofinanceira"
  ],
  "rua": {
-  "gancho": "Deve à Receita? Saiu uma calculadora para simular o acordo.",
+  "gancho": "Deve imposto? A Receita lançou uma calculadora para simular o acordo.",
   "topicos": [
-   "Em 9/11, a Receita publicou a calculadora para simular acordo de dívida.",
-   "Ela compara só três editais: dois da Receita e um da PGFN.",
-   "A própria Receita diz que é só simulação e não faz a adesão.",
-   "Confira o prazo no site da Receita ou da PGFN; pode ter mudado."
+   "Segundo a Receita, a calculadora saiu em 9/11 e simula acordo da dívida.",
+   "A Receita diz que a simulação é só orientativa e não faz a adesão.",
+   "Hoje compara só três editais: dois da Receita e um da PGFN.",
+   "Confira o prazo no site oficial: as datas podem ter mudado."
   ]
  },
  "formato": "bancada",
- "por_que_formato": "É explicação com contexto (editais, limites e o que ainda não se sabe), que pede calma e prova na tela.",
+ "por_que_formato": "É explicação com contexto (editais, simulação, prazo), não notícia quente que pede urgência.",
  "tipo": "explica",
  "persona": "Heitor",
  "aprovado": true,
  "problemas": [],
- "tentativas": 2,
+ "tentativas": 1,
  "marca": {
-  "nota": 8,
+  "nota": 9,
   "notas": {
-   "persona": 1,
+   "persona": 2,
    "arquetipo": 2,
    "temperamentos": 1,
    "gatilhos": 2,
@@ -145,35 +127,35 @@
   },
   "aprovado": true,
   "sugestoes": [
-   "Frase \"A calculadora da Receita simula seu acordo, mas não fecha nada.\": o gancho é claro, mas fala da ferramenta e não da pessoa. Reescreva com a pergunta de bolso, por exemplo \"Deve imposto à Receita? Dá para simular um acordo antes de assinar, mas só simular.\" Assim o público que sente a economia no bolso se reconhece logo no começo.",
-   "Frase \"Se você deve, lance os débitos um a um, como a Receita recomenda.\": o passo é o único que a peça dá, e ele é técnico e solto. Diga em palavras simples o que fazer primeiro (por exemplo \"entre no site da Receita ou da PGFN e comece pela simulação\") e feche com calma, como \"sem pressa: simular não obriga a nada\". Isso dá o passo simples para o fleumático e o \"o que eu faço\" para o colérico. Não invente prazo nem valor.",
-   "Frase \"Funciona como simulador de financiamento: você testa antes de assinar.\": a comparação é boa, mas é a única, e falta uma imagem do dia a dia para quem tem dívida. Se quiser reforçar o lado sanguíneo, acrescente uma comparação curta e viva, como ver a parcela na maquininha antes de passar o cartão. Mantenha só o que a fonte diz: orientativo, sem adesão."
+   "Frase \"Deve imposto? A Receita lançou uma calculadora para simular seu acordo.\": o gancho fala com quem deve, mas não diz o que a pessoa ganha. Reescreva puxando a pergunta de bolso, por exemplo \"Deve imposto e não sabe quanto ia pagar por mês? A Receita lançou uma calculadora que mostra a parcela antes de você assinar\". Assim o ponto e o que fazer já aparecem no gancho (colérico), sem inventar fato novo.",
+   "Frase \"Confira o prazo no site da Receita: as datas podem ter mudado.\": o passo está certo, mas fica solto e de cobrança. Reescreva como um passo simples e calmo (fleumático), na ordem: \"Primeiro, confira o prazo no site da Receita. Depois, simule. Só vale se você formalizar.\" Isso dá ao leitor uma sequência de três passos fácil de seguir, com os mesmos fatos que já estão na peça.",
+   "Frase \"É como simular financiamento: você vê a parcela antes de assinar.\": a comparação é boa, mas é a única imagem viva e vem curta. Para o melancólico, diga com mais clareza o que a calculadora compara (os editais 9 e 10/2026 da Receita e o 6/2026 da PGFN, que já estão na legenda), traduzindo \"transação tributária\" e \"edital\" na mesma frase, sem criar número novo."
   ],
-  "veredito": "A peça acerta o arquétipo, a voz e os gatilhos: tem fonte, termo traduzido, comparação, bordões e o aviso do \\\"orientativo\\\", sem alarde. Falta falar mais direto com quem está endividado, com a pergunta de bolso no gancho e um passo simples e acolhedor no fim."
+  "veredito": "A peça acerta o público de quem deve à Receita, a voz de Cara Comum, o aviso de que a simulação é só orientativa e os bordões da casa; falta um gancho que entregue de cara o benefício e o passo, e um pouco mais de porquê (o que a calculadora compara) para fechar os quatro temperamentos."
  },
  "apoios": [
   {
+   "fala": 1,
+   "visual": "Close-up of a modern desktop calculator on a tidy wooden office desk beside a stack of blank paper folders and a laptop with a softly blurred, unreadable screen. Warm natural window light. Slow dolly-in toward the calculator while dust motes drift in the light. No people, no text, no numbers on the display, no logos",
+   "texto_da_fala": "Segundo a Receita, ela saiu em 9/11 e simula acordo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a modern desktop calculator on a tidy wooden office desk beside a stack of blank paper folders and a laptop with a softly blurred, unreadable screen. Warm natural window light. Slow dolly-in toward the calculator while dust motes drift in the light. No people, no text, no numbers on the display, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
    "fala": 2,
-   "visual": "Slow dolly-in on a modern desk in a bright government-style office: a simple desktop calculator with blank, unmarked keys and an out-of-focus display sits next to a closed laptop and a coffee cup. Soft window light, shallow depth of field. No people, no text, no letters, no numbers, no logos",
-   "texto_da_fala": "A Receita publicou em 9/11 a Calculadora da Transação Tributária.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in on a modern desk in a bright government-style office: a simple desktop calculator with blank, unmarked keys and an out-of-focus display sits next to a closed laptop and a coffee cup. Soft window light, shallow depth of field. No people, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "visual": "A small wooden house scale model and a toy car sitting on a table next to a calculator and a blank sheet with empty lines suggesting a payment plan. Soft daylight, shallow depth of field. Camera slowly slides left to right, then racks focus from the calculator to the miniature house. No people, no text, no numbers, no logos",
+   "texto_da_fala": "É como simular financiamento: você vê a parcela antes de assinar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A small wooden house scale model and a toy car sitting on a table next to a calculator and a blank sheet with empty lines suggesting a payment plan. Soft daylight, shallow depth of field. Camera slowly slides left to right, then racks focus from the calculator to the miniature house. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   },
   {
-   "fala": 5,
-   "visual": "Top-down camera slowly gliding over a wooden desk where three plain, blank manila folders are laid out side by side, two in one color and one in a different color. A hand-less, clean composition with soft daylight and gentle shadows. No people, no faces, no text, no letters, no numbers, no logos",
-   "texto_da_fala": "Por enquanto, ela compara só três editais: dois da Receita e um da PGFN.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down camera slowly gliding over a wooden desk where three plain, blank manila folders are laid out side by side, two in one color and one in a different color. A hand-less, clean composition with soft daylight and gentle shadows. No people, no faces, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
-  },
-  {
-   "fala": 9,
-   "visual": "Close-up tracking shot along a tidy desk as blank white paper bills are placed one by one into a row on a table by hands out of frame, only a blurred sleeve barely visible. Camera slides smoothly left to right, warm light, shallow focus. No recognizable people, no faces, no text, no letters, no numbers, no logos",
-   "texto_da_fala": "Se você deve, lance os débitos um a um, como a Receita recomenda.",
-   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up tracking shot along a tidy desk as blank white paper bills are placed one by one into a row on a table by hands out of frame, only a blurred sleeve barely visible. Camera slides smoothly left to right, warm light, shallow focus. No recognizable people, no faces, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+   "fala": 4,
+   "visual": "Overhead shot slowly tilting down to a hand holding a pen, hovering and then pressing it onto the signature line of a blank formal document on a clean desk; only the hand and wrist visible, no face. Wavy abstract lines instead of any writing. Soft warm light, gentle push-in. No text, no letters, no numbers, no logos",
+   "texto_da_fala": "Ela não faz a adesão: acordo só vale se você formalizar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Overhead shot slowly tilting down to a hand holding a pen, hovering and then pressing it onto the signature line of a blank formal document on a clean desk; only the hand and wrist visible, no face. Wavy abstract lines instead of any writing. Soft warm light, gentle push-in. No text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
   }
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "A calculadora da Receita simula seu acordo, mas não fecha nada.\n\nFala, galera, aqui é o Heitor, do Termômetro de Crise.\n\nA Receita publicou em 9/11 a Calculadora da Transação Tributária.\n\nTransação tributária é acordo para pagar dívida com desconto e parcelamento.\n\nFunciona como simulador de financiamento: você testa antes de assinar.\n\nPor enquanto, ela compara só três editais: dois da Receita e um da PGFN.\n\nMas sinal amarelo: a própria Receita diz que a simulação é orientativa.\n\nEla não faz a adesão: o acordo só vale no canal oficial.\n\nO prazo pode ter mudado: confira no site da Receita ou da PGFN.\n\nSe você deve, lance os débitos um a um, como a Receita recomenda.\n\nO grupo do WhatsApp está no link da bio.\n\nIsso não é recomendação: quem decide é você.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Deve imposto? A Receita lançou uma calculadora para simular seu acordo.\n\nSegundo a Receita, ela saiu em 9/11 e simula acordo.\n\nÉ como simular financiamento: você vê a parcela antes de assinar.\n\nMas olha só: a Receita diz que a simulação é só orientativa.\n\nEla não faz a adesão: acordo só vale se você formalizar.\n\nConfira o prazo no site da Receita: as datas podem ter mudado.\n\nManda para quem deve à Receita e não sabe por onde começar.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "Receita Federal (gov.br)",
@@ -187,6 +169,5 @@
   }
  ],
  "data": "2026-11-10",
- "gerado_em": "2026-11-10T16:21:09.301931-03:00",
- "enviado_whatsapp": "2026-11-10T16:22:38.177947-03:00"
+ "gerado_em": "2026-11-11T08:53:25.298987-03:00"
 }
