@@ -1,0 +1,174 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso: decisão que ainda não saiu, efeito que já chegou",
+  "texto": "O Fed ainda não decidiu nada, mas o seu dólar já reagiu.",
+  "na_tela": "Fed não decidiu. Dólar já reagiu.",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso: decisão que ainda não saiu, efeito que já chegou",
+   "texto": "O Fed ainda não decidiu nada, mas o seu dólar já reagiu.",
+   "na_tela": "Fed não decidiu. Dólar já reagiu.",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Dólar fechou a R$ 5,58, e um dos motivos está nos EUA.",
+   "na_tela": "Dólar a R$ 5,58: motivo nos EUA",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Esperavam 0,3%, saiu 0,4%: a inflação dos EUA mexeu no seu dólar.",
+   "na_tela": "Esperado 0,3%. Saiu 0,4%.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "O Fed ainda não decidiu nada, mas o seu dólar já reagiu.",
+  "Segundo o governo americano, a inflação subiu 0,4% em outubro; esperavam 0,3%.",
+  "Aí um diretor do Fed, o Banco Central deles, defende alta de juros em dezembro.",
+  "Juro maior lá é como banco que paga mais: atrai dinheiro.",
+  "Mas calma: ainda é aposta, não decisão do comitê.",
+  "Por ora, o dólar a R$ 5,58 encarece viagem e importado.",
+  "Manda para quem vai viajar: acompanhe o dólar com calma.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O Fed ainda não decidiu nada, mas o seu dólar já reagiu. Segundo o governo americano, a inflação subiu 0,4% em outubro; esperavam 0,3%. Aí um diretor do Fed, o Banco Central deles, defende alta de juros em dezembro. Juro maior lá é como banco que paga mais: atrai dinheiro. Mas calma: ainda é aposta, não decisão do comitê. Por ora, o dólar a R$ 5,58 encarece viagem e importado. Manda para quem vai viajar: acompanhe o dólar com calma. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Fed não decidiu. Dólar já reagiu.",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Inflação EUA: 0,4% (esperado: 0,3%)",
+   "fonte": "BPMoney"
+  },
+  {
+   "fala": 4,
+   "texto": "Aposta do mercado, não decisão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Dólar: R$ 5,58",
+   "fonte": "Jovem Pan"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Fed vai subir juros em dezembro? O que isso muda no dólar",
+ "legenda": "Fed vai subir juros em dezembro? O que isso muda no dólar.\n\nO Fed, o Banco Central dos EUA, ainda não decidiu. A reunião é em 8 e 9 de dezembro. O que existe hoje é a aposta do mercado e a posição de um diretor, Christopher Waller.\n\nMesmo assim, a expectativa já aparece no preço: o dólar fechou a R$ 5,58 em 10/11, segundo a Jovem Pan. Dólar mais caro encarece viagem, importado e compra em moeda estrangeira.\n\nA Selic segue em 13,75% ao ano, e a decisão do Fed não muda essa taxa automaticamente. Se você vai viajar, vale acompanhar o dólar com calma.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #fed #juros #economia #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#fed",
+  "#juros",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "O Fed não decidiu nada, mas o seu dólar já reagiu.",
+  "topicos": [
+   "Segundo o governo americano, a inflação subiu 0,4% em outubro; esperavam 0,3%.",
+   "Waller, diretor do Fed, defende alta de juros em dezembro; ainda não é decisão.",
+   "Dólar fechou a R$ 5,58, segundo a Jovem Pan: viagem e importado pesam mais.",
+   "Quem vai viajar: acompanhe o dólar com calma, sem pânico."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e vários números, não um plantão do dia, então pede a calma da bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Manda para quem vai viajar: acompanhe o dólar com calma.\": o passo simples serve só a quem viaja, e o público principal (CLT, autônomo, MEI) pode não se ver nele. Reescreva ampliando o bolso: \"Se você vai viajar, compra importado ou paga em dólar, o preço sente primeiro. Se não, só acompanhe com calma\". Não invente número novo.",
+   "Frase \"Juro maior lá é como banco que paga mais: atrai dinheiro.\": a comparação está correta, mas é abstrata e fica sem ligação com o dia a dia da pessoa. Reescreva com uma imagem viva, por exemplo: \"É como o banco que paga mais na poupança: o dinheiro vai para onde rende mais, e o dólar fica mais disputado\". Assim o porquê do dólar subir fica fácil de ver. Não acrescente taxa ou valor.",
+   "Frase \"Segundo o governo americano, a inflação subiu 0,4% em outubro; esperavam 0,3%.\": o número tem fonte, mas falta traduzir o termo. Acrescente uma explicação curta, como \"inflação é o preço das coisas subindo\". Falta também a virada de bordão da casa antes de \"Mas calma\", por exemplo \"Olha só\"."
+  ],
+  "veredito": "A peça abre direto no gancho, cita a fonte, diz que a decisão ainda é só aposta, traduz o juro com uma comparação e fecha com os bordões da casa sem alarde. Falta ligar o passo final a quem não viaja (o público principal) e deixar a comparação do juro mais viva e do dia a dia."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-forward down a bright supermarket aisle lined with fruit, vegetables and packaged goods, shallow depth of field. No readable labels, no price tags, no text, no people in focus. Cool, realistic lighting",
+   "texto_da_fala": "Segundo o governo americano, a inflação subiu 0,4% em outubro; esperavam 0,3%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-forward down a bright supermarket aisle lined with fruit, vegetables and packaged goods, shallow depth of field. No readable labels, no price tags, no text, no people in focus. Cool, realistic lighting. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Macro shot inside a vault-like bank room: shiny gold coins slide and stream across a polished surface toward a large open brass safe, as if attracted by a magnet. Camera slowly pushes in and tilts down. No text, no numbers, no logos, no people",
+   "texto_da_fala": "Juro maior lá é como banco que paga mais: atrai dinheiro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot inside a vault-like bank room: shiny gold coins slide and stream across a polished surface toward a large open brass safe, as if attracted by a magnet. Camera slowly pushes in and tilts down. No text, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Modern airport terminal at golden hour: a suitcase on a conveyor and cardboard import parcels stacked on a cart, camera gliding laterally past them, large windows with a distant airplane taxiing. No signs, no text, no logos, no people in focus",
+   "texto_da_fala": "Por ora, o dólar a R$ 5,58 encarece viagem e importado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Modern airport terminal at golden hour: a suitcase on a conveyor and cardboard import parcels stacked on a cart, camera gliding laterally past them, large windows with a distant airplane taxiing. No signs, no text, no logos, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O Fed ainda não decidiu nada, mas o seu dólar já reagiu.\n\nSegundo o governo americano, a inflação subiu 0,4% em outubro; esperavam 0,3%.\n\nAí um diretor do Fed, o Banco Central deles, defende alta de juros em dezembro.\n\nJuro maior lá é como banco que paga mais: atrai dinheiro.\n\nMas calma: ainda é aposta, não decisão do comitê.\n\nPor ora, o dólar a R$ 5,58 encarece viagem e importado.\n\nManda para quem vai viajar: acompanhe o dólar com calma.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/waller-do-fed-planeja-defender-alta-de-juros-em-dezembro/",
+   "destaque": "Em discurso em Londres, Waller disse que defenderá alta de 25 pontos-base (0,25 ponto percentual) nos juros em dezembro, mesmo que a…"
+  },
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/dolar-10-11-2026-davs/",
+   "destaque": "A Jovem Pan atribui a alta do dólar a fatores de fora e de dentro do país: dados de inflação e falas de dirigentes do Fed, de um lado, e…"
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-ata-do-copom-bc-diz-que-cenario-exige-selic-alta-por-mais-tempo/",
+   "destaque": "A Selic, taxa básica de juros do Brasil, está em 13,75% ao ano."
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T11:47:22.732870-03:00"
+}
