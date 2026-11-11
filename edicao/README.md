@@ -22,3 +22,8 @@ Como o script funciona (vale para os próximos):
 6. Tela final de 3 s (pedido do Heitor, a partir de 10/11): "Siga o @termometrodecrise para atualizações diárias
    do mercado financeiro", com o logo e o botão "Seguir". Curta de propósito: tela parada longa faz a pessoa
    passar o Reel antes do fim e derruba o alcance. Duração ajustável com `"final"` no config.json (ex.: 5).
+
+## Teste da apresentação (a partir de 11/11)
+O roteiro traz "Muito prazer, eu sou o Heitor, do Termômetro de Crise." depois do gancho. Na edição, alterne:
+um vídeo sai COM a frase, o seguinte SEM (corte com `"remover"` no config.json). Anote no config `"teste": "com"`
+ou `"teste": "sem"`. No sábado, o painel compara o tempo médio dos dois grupos.
