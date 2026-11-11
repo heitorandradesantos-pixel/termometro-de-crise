@@ -1,0 +1,128 @@
+{
+ "titulo": "El Niño pode encarecer comida e luz e atrasar juros: o que se sabe",
+ "descricao": "Copom citou El Niño ao manter a Selic em 13,75%. Veja o que Inmet, NOAA, Banco Central e Aneel dizem e o que muda para você.",
+ "palavra_chave": "el niño",
+ "lead": "O Banco Central citou o El Niño entre os riscos para a inflação na ata do Copom, publicada em 10/11. O Copom manteve a Selic, a taxa básica de juros, em 13,75% ao ano e disse que os juros precisam ficar altos por mais tempo. A NOAA, agência climática dos EUA, indica que o fenômeno segue em alta e pode ser o mais forte desde 1950. Ainda não há número oficial de quanto ele pode encarecer comida e energia.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A NOAA mantém o alerta oficial de El Niño. Em 8 de outubro, disse que o fenômeno segue ganhando força e que um El Niño de forte a muito forte é provável até jan-mar de 2027, com chance acima de 83%. A agência calcula 83% de chance de um evento histórico (acima de +2,5 °C no índice de três meses) em out-dez. A próxima atualização está marcada para 12/11.",
+   "fonte_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+   "data": "2026-10-08",
+   "veiculo": "NOAA – Climate Prediction Center",
+   "confiavel": false
+  },
+  {
+   "texto": "O Inmet, no 5º boletim do Painel El Niño, diz haver alta probabilidade de intensidade muito forte a partir de novembro. Para nov-jan, prevê mais chuva que o normal no Sul e em partes do Sudeste e do Centro-Oeste, e menos chuva em grande parte do Norte e em áreas do Nordeste e do Centro-Oeste. Calor acima do normal em quase todo o país.",
+   "fonte_url": "https://portal.inmet.gov.br/noticias/painel-el-ni%C3%B1o-boletim-de-outubro-%C3%A9-divulgado",
+   "data": "2026-10-30",
+   "veiculo": "Inmet",
+   "confiavel": true
+  },
+  {
+   "texto": "O Inmet também informa que outubro de 2026 teve desvio de +2,47 °C no índice do El Niño, o maior valor da série histórica para o mês.",
+   "fonte_url": "https://portal.inmet.gov.br/noticias/painel-el-ni%C3%B1o-boletim-de-outubro-%C3%A9-divulgado",
+   "data": "2026-10-30",
+   "veiculo": "Inmet",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o meteorologista do Inmet Mozar Salvador, o pico do El Niño deve vir entre novembro e dezembro. A influência no clima brasileiro deve durar até o outono de 2027. Ele lembrou que mais El Niño não significa, necessariamente, mais chuva em todo lugar.",
+   "fonte_url": "https://correiobraziliense.com.br/cidades-df/2026/11/7535964-el-nino-deve-persistir-no-df-ate-o-outono-de-2027-preve-inmet.html",
+   "data": "2026-11-10",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom manteve a Selic em 13,75% ao ano, por unanimidade, e não deu pistas sobre os próximos passos. A Agência Brasil informa que o comitê havia cortado os juros cinco vezes desde abril. As tensões com o câmbio e o El Niño pesaram na decisão, segundo a agência.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano",
+   "data": "2026-11-05",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A ata do Copom, divulgada em 10/11, lista quatro fatores de pressão sobre os preços: petróleo, El Niño (com efeitos sobre a produtividade agrícola e os custos de energia), o fim da escala 6x1 e a desvalorização do real. A estimativa do Copom para a inflação de 2026 subiu de 5,2% para 5,6%.",
+   "fonte_url": "https://spdiario.com.br/noticias/economia/copom-aponta-guerra-el-nino-fim-da-escala-6x1-e-dolar-como-ameacas-a-inflacao.html",
+   "data": "2026-11-10",
+   "veiculo": "SP Diário",
+   "confiavel": false
+  },
+  {
+   "texto": "O comitê reafirmou na ata que será preciso manter os juros elevados por mais tempo para levar a inflação à meta de 3%. Analistas citados pela imprensa, como os do Itaú Unibanco e da Warren, leem a ênfase em choques de oferta (como clima e petróleo) como sinal de juros estáveis, não de novas altas.",
+   "fonte_url": "https://www.tribunadosertao.com.br/geral/2026/11/10/1017956-copom-ve-inflacao-pressionada-por-dolar-el-nino-e-conflito-no-oriente-medio",
+   "data": "2026-11-10",
+   "veiculo": "Tribuna do Sertão",
+   "confiavel": false
+  },
+  {
+   "texto": "Na energia, a Aneel manteve a bandeira verde em novembro, sem cobrança extra na conta de luz, pelo segundo mês seguido. O motivo são as condições favoráveis de geração. Em novembro de 2025, a bandeira era vermelha patamar 1. A bandeira amarela, usada em cinco meses de 2026, custa R$ 1,885 a cada 100 kWh.",
+   "fonte_url": "https://www.jornaldocomercio.com/economia/2026/10/1268908-aneel-mes-de-novembro-tera-bandeira-tarifaria-verde.html",
+   "data": "2026-10-30",
+   "veiculo": "Jornal do Comércio",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A NOAA publica a discussão mensal que mantém o alerta de El Niño e eleva a chance de evento histórico.",
+   "fonte_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+   "data": "2026-10-08",
+   "veiculo": "NOAA",
+   "confiavel": false
+  },
+  {
+   "texto": "O Inmet divulga o 5º boletim do Painel El Niño, com previsão de El Niño muito forte e calor acima do normal.",
+   "fonte_url": "https://portal.inmet.gov.br/noticias/painel-el-ni%C3%B1o-boletim-de-outubro-%C3%A9-divulgado",
+   "data": "2026-10-30",
+   "veiculo": "Inmet",
+   "confiavel": true
+  },
+  {
+   "texto": "A Aneel mantém a bandeira verde em novembro.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+   "data": "2026-10-30",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom interrompe os cortes e mantém a Selic em 13,75%, citando incertezas com câmbio e El Niño.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano",
+   "data": "2026-11-05",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A NOAA divulga nova atualização do El Niño, mantendo as chances altas de um evento histórico. A próxima discussão oficial está marcada para 12/11.",
+   "fonte_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf",
+   "data": "2026-11-09",
+   "veiculo": "NOAA",
+   "confiavel": false
+  },
+  {
+   "texto": "A ata do Copom cita El Niño entre os riscos e eleva a estimativa de inflação de 2026 para 5,6%.",
+   "fonte_url": "https://spdiario.com.br/noticias/economia/copom-aponta-guerra-el-nino-fim-da-escala-6x1-e-dolar-como-ameacas-a-inflacao.html",
+   "data": "2026-11-10",
+   "veiculo": "SP Diário",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto o El Niño vai somar aos preços de comida e energia não foi confirmado. Nos textos consultados, o Copom trata o efeito como risco, sem dar uma estimativa só para o fenômeno.",
+  "Não há confirmação de que a bandeira tarifária da conta de luz vá mudar. A Aneel anuncia a de dezembro em 27/11 e decide com base nas condições de geração do momento.",
+  "A Selic não tem trajetória definida. O Copom não indicou quando voltará a cortar os juros, e a ata fala em juros altos por mais tempo.",
+  "A intensidade final do El Niño não é certa. A NOAA diz que impactos são mais prováveis com um evento desse porte, mas não garantidos, e a distribuição da chuva varia por região, segundo o Inmet.",
+  "Quanto cada fator pesa na inflação (El Niño, petróleo, dólar e fim da escala 6x1) não foi detalhado de forma comparável nas fontes consultadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Crédito: com a Selic em 13,75%, financiamentos, cartão e empréstimos seguem caros. A ata não dá data para a queda dos juros voltar.",
+  "Renda fixa: aplicações que acompanham a Selic, como o Tesouro Selic e muitos CDBs, continuam rendendo conforme a taxa atual. Isso não é recomendação de investimento.",
+  "Mercado: alimentos podem ficar mais caros se calor e chuva irregular reduzirem as safras. É um risco apontado pelo Banco Central, não um aumento confirmado.",
+  "Conta de luz: em novembro não há cobrança extra, por causa da bandeira verde. Fique de olho no anúncio de 27/11 para saber como será em dezembro.",
+  "Acompanhe o Copom, o IPCA (índice oficial de inflação) e a atualização da NOAA de 12/11. Eles mostram se o risco aumentou ou diminuiu."
+ ],
+ "como_se_proteger": [],
+ "slug": "el-nino",
+ "publicado_em": "2026-11-11T09:06:40.928169",
+ "atualizado_em": "2026-11-11T09:06:40.928169",
+ "assunto": "El Niño: como pode encarecer comida e energia e atrasar a queda dos juros, com números de clima e inflação de fontes oficiais (Inmet, NOAA, Banco Central, Aneel), e o que muda no seu mercado",
+ "turno": "manha"
+}
