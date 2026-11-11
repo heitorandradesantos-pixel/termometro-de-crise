@@ -1,47 +1,52 @@
-name: Publicar newsletter
-
-# O site é publicado pelo Cloudflare Pages, que reconstrói sozinho a cada mudança
-# no ramo principal (comando: python rodar.py --site). Aqui fica só a newsletter:
-# quando uma edição entra no ramo principal, ela vai para a newsletter (Kit) uma vez só.
+# Publica um Reel no Instagram, no horário escolhido pelo Heitor (o editor dispara na hora marcada).
+# O vídeo e a legenda vêm criptografados num ramo temporário, que é apagado no fim.
+name: Publicar Reel
 on:
-  push:
-    branches: [main]
-    paths: ["edicoes/**/edicao.md"]
   workflow_dispatch:
+    inputs:
+      ramo:
+        description: "ramo temporário com o post criptografado"
+        required: true
+      chave:
+        description: "chave para abrir o post"
+        required: true
+      modo:
+        description: "testar (sobe e confere, sem publicar) ou publicar"
+        required: true
+        default: testar
+
+permissions:
+  contents: write
 
 concurrency:
-  group: publicar
+  group: publicar-reel
   cancel-in-progress: false
 
 jobs:
-  newsletter:
+  publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      contents: write
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
       - run: pip install -q -r requirements.txt
-      - name: Agente Publicador (newsletter no Kit; beehiiv como alternativa)
-        env:
-          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
-          KIT_ENVIO: ${{ vars.KIT_ENVIO }}
-          WHATSAPP_URL: ${{ vars.WHATSAPP_URL }}
-          BEEHIIV_API_KEY: ${{ secrets.BEEHIIV_API_KEY }}
-          BEEHIIV_PUBLICATION_ID: ${{ secrets.BEEHIIV_PUBLICATION_ID }}
-          BEEHIIV_ENVIO: ${{ vars.BEEHIIV_ENVIO }}
-          SITE_URL: ${{ vars.SITE_URL }}
-        run: python rodar.py --newsletter
-      - name: Marcar como enviada
+      - name: Abrir o post
         run: |
-          if [ -n "$(git status --porcelain edicoes)" ]; then
-            git config user.name "termometro-bot"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add edicoes
-            git commit -m "Newsletter enviada"
-            git push
-          fi
+          CHAVE=$(jq -r '.inputs.chave' "$GITHUB_EVENT_PATH")
+          echo "::add-mask::$CHAVE"
+          RAMO=$(jq -r '.inputs.ramo' "$GITHUB_EVENT_PATH")
+          case "$RAMO" in tmp-publicar-*) ;; *) echo "ramo inválido"; exit 1 ;; esac
+          git fetch -q origin "$RAMO"
+          mkdir -p _post
+          git show "origin/$RAMO:post.tar.enc" > _post/post.tar.enc
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass "pass:$CHAVE" -in _post/post.tar.enc | tar -x -C _post
+      - name: Publicar
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python -m termometro.publicar _post "${{ inputs.modo }}"
+      - name: Apagar o ramo temporário
+        if: always() && inputs.modo == 'publicar'
+        run: git push -q origin --delete "${{ inputs.ramo }}" || true
