@@ -2,7 +2,7 @@
 
 Criadores que servem de régua para o tom e o formato: Pablo Spyer (@pablospyer, boletim diário, popular e animado),
 Rian (@falecomrian, "Café com seu dinheiro": selfie em casa, de noite, com prints da fonte real na tela), Shimon
-(@shimoncomunica) e Andrey Nousi (@andreynousi, que o Heitor gosta muito; o grupo de WhatsApp do Termômetro foi
+(@shimoncomunica), Rufino (@rufino, entrou em 11/11/2026 a pedido do Heitor) e Andrey Nousi (@andreynousi, que o Heitor gosta muito; o grupo de WhatsApp do Termômetro foi
 inspirado no dele). Aprendemos a técnica, nunca copiamos frase, roteiro ou ideia de vídeo. O que não pegamos deles: indicar título, ativo ou "onde
 investir".
 

@@ -14,6 +14,10 @@ on:
         description: "dia (AAAA-MM-DD); vazio = o último fechamento / hoje"
         required: false
         default: ""
+      slugs:
+        description: "explica: refaz só estes (slugs separados por vírgula); vazio = refaz todos do dia"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -29,6 +33,7 @@ jobs:
     env:
       TIPO: ${{ inputs.tipo }}
       DATA: ${{ inputs.data }}
+      SLUGS: ${{ inputs.slugs }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       PERSONA_NOME: ${{ vars.PERSONA_NOME }}
     steps:
@@ -43,7 +48,14 @@ jobs:
           case "$TIPO" in
             abertura) python rodar.py --whatsapp preparar --teste --tipo abertura && python rodar.py --roteiro abertura ;;
             fechamento) python rodar.py --whatsapp preparar --teste --data "$DATA" && python rodar.py --roteiro fechamento ;;
-            explica) rm -f diario/${DATA:-$(TZ=America/Sao_Paulo date +%F)}/roteiros/explica-*.json; python rodar.py --roteiro explica --data "$DATA" ;;
+            explica)
+              PASTA=diario/${DATA:-$(TZ=America/Sao_Paulo date +%F)}/roteiros
+              if [ -n "$SLUGS" ]; then
+                for s in ${SLUGS//,/ }; do rm -f "$PASTA/explica-$s.json"; done
+              else
+                rm -f "$PASTA"/explica-*.json
+              fi
+              python rodar.py --roteiro explica --data "$DATA" ;;
             *) echo "Tipo desconhecido: $TIPO"; exit 1 ;;
           esac
       - name: Guardar
