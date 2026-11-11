@@ -32,7 +32,7 @@ BLOQUEADAS = ("#cambio",)
 
 def limpar(legenda: str) -> str:
     for h in BLOQUEADAS:
-        legenda = re.sub(rf"(?<!\w){re.escape(h)}\b ?", "", legenda, flags=re.I)
+        legenda = re.sub(rf"(?<!\w){re.escape(h)}\b ?", "", legenda, flags=re.IGNORECASE)
     return legenda.strip()
 
 
@@ -76,7 +76,15 @@ if __name__ == "__main__":
     pasta, modo = Path(sys.argv[1]), (sys.argv[2] if len(sys.argv) > 2 else "testar")
     token, ig = os.environ["IG_TOKEN"], os.environ["IG_USER_ID"]
     info = json.loads((pasta / "post.json").read_text())
-    cont = subir(pasta / "video.mp4", info["legenda"], token, ig)
+    for tentativa in range(1, 5):  # a Meta às vezes recusa o envio sem motivo; tenta de novo com outro contêiner
+        try:
+            cont = subir(pasta / "video.mp4", info["legenda"], token, ig)
+            break
+        except RuntimeError as erro:
+            print(f"tentativa {tentativa}: {erro}")
+            if tentativa == 4:
+                raise
+            time.sleep(60 * tentativa)
     if modo == "publicar":
         print("PUBLICADO:", publicar(cont, token, ig))
     else:
