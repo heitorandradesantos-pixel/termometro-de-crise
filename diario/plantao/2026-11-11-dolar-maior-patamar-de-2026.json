@@ -1,0 +1,122 @@
+{
+ "titulo": "Dólar sobe 1,5% e vai a R$ 5,58, maior de 2026: o que se sabe",
+ "descricao": "Dólar fechou a R$ 5,58 em 10/11, maior valor de 2026, com medo de juros mais altos nos EUA. Veja a cotação do BC e o que muda em compras e viagens.",
+ "palavra_chave": "dólar maior patamar de 2026",
+ "lead": "O dólar comercial fechou a terça-feira (10/11) em alta de 1,48%, a R$ 5,58, o maior valor de 2026 e o mais alto desde 31 de julho de 2025, segundo Metrópoles e Jovem Pan. A inflação dos Estados Unidos veio acima do esperado e aumentou a aposta de que o Federal Reserve (Fed), o banco central americano, vai subir os juros em dezembro. O Banco Central registrou a PTAX, sua cotação de referência, em R$ 5,5840 para venda.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O dólar comercial fechou em alta de 1,48%, cotado a R$ 5,58, em 10/11. É o maior patamar de 2026 e a cotação mais alta desde 31 de julho de 2025. Outros veículos registram alta de 1,45% a 1,46%, por diferenças de arredondamento no fechamento (R$ 5,5860 segundo a Forbes Brasil).",
+   "fonte_url": "https://www.metropoles.com/brasil/dolar-nesta-terca-10",
+   "data": "2026-11-10",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "Fonte oficial: a PTAX, taxa de referência do Banco Central, fechou em R$ 5,5834 (compra) e R$ 5,5840 (venda) em 10/11. A PTAX é uma média de consultas feitas pela manhã, por isso difere do fechamento do mercado.",
+   "fonte_url": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+   "data": "2026-11-10",
+   "veiculo": "Banco Central do Brasil (PTAX)",
+   "confiavel": true
+  },
+  {
+   "texto": "O gatilho foi a inflação ao consumidor dos EUA (CPI): subiu 0,4% em outubro, acima dos 0,3% que o mercado esperava.",
+   "fonte_url": "https://www.metropoles.com/brasil/dolar-nesta-terca-10",
+   "data": "2026-11-10",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Reuters, o dado e falas mais duras de dirigentes do Fed reforçaram as apostas de alta de juros no mês que vem. Pela ferramenta FedWatch, do CME Group, a chance de alta de 0,25 ponto percentual em dezembro foi a 91,9%, ante 84% um dia antes. O índice DXY, que compara o dólar a seis moedas, subiu 0,5% na terça, a 102,22.",
+   "fonte_url": "https://www.cnbc.com/2026/11/11/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation.html",
+   "data": "2026-11-11",
+   "veiculo": "CNBC/Reuters",
+   "confiavel": true
+  },
+  {
+   "texto": "Por que juros lá fora mexem no câmbio: segundo Nicolas Borsoi, da Tullett Prebon, juros americanos mais altos e a taxa brasileira parada reduzem a diferença de retorno entre os dois países. Com isso, aplicar no Brasil fica relativamente menos atraente para quem investe em dólar. Marianna Costa, da Mirae Asset, citou ainda a queda do desemprego nos EUA, de 4,2% para 4,1%, como reforço à aposta de alta.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/dolar-fecha-nesta-terca-feira-no-maior-patamar-de-2026/",
+   "data": "2026-11-10",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "No Brasil, a ata do Copom saiu no mesmo dia. Segundo a Gazeta do Povo, ela reforçou preocupações com inflação e crescimento. A Jovem Pan cita ainda incertezas fiscais e queda das commodities (matérias-primas negociadas em bolsa). Há leituras diferentes: a Brasil em Folhas diz que o mercado viu a ata como branda.",
+   "fonte_url": "https://www.gazetadopovo.com.br/economia/dolar-sobe-148-e-fecha-a-r-558-maior-cotacao-desde-julho-de-2025/",
+   "data": "2026-11-10",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "A alta vem de antes. O dólar subiu 5,20% em outubro e 2,60% nos seis primeiros pregões de novembro. Na terça, chegou a R$ 5,6135 durante o dia. O Ibovespa, principal índice da bolsa, caiu 0,52%, a 171.336,99 pontos.",
+   "fonte_url": "https://www.agazetanews.com.br/2026/11/11/dolar-sobe-146-e-fecha-no-maior-valor-em-15-meses/",
+   "data": "2026-11-10",
+   "veiculo": "A Gazeta News",
+   "confiavel": false
+  },
+  {
+   "texto": "O petróleo também recuou e chegou à menor cotação em dois meses, segundo o SBT News, e isso contribuiu para a alta do câmbio.",
+   "fonte_url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-dispara-e-fecha-no-maior-patamar-em-1-ano",
+   "data": "2026-11-10",
+   "veiculo": "SBT News",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A PTAX de venda do Banco Central fecha em R$ 5,4935, após quatro altas seguidas.",
+   "fonte_url": "https://www.piranot.com.br/2026/11/04/noticias/economia/dolar-ptax-fecha-em-r-54778-nesta-quarta-feira-04-11-2026-veja-a/",
+   "data": "2026-11-03",
+   "veiculo": "Piranot",
+   "confiavel": false
+  },
+  {
+   "texto": "A PTAX sobe 0,72% e fecha em R$ 5,5013, após dados fortes de emprego nos EUA.",
+   "fonte_url": "https://boca.com.br/economia/dolar/cotacao-dolar-07-11",
+   "data": "2026-11-06",
+   "veiculo": "Boca",
+   "confiavel": false
+  },
+  {
+   "texto": "A PTAX de venda fecha em R$ 5,5146, alta de 0,24%.",
+   "fonte_url": "https://www.piranot.com.br/2026/11/09/noticias/economia/dolar-ptax-fecha-em-r-55146-nesta-segunda-feira-09-11-2026-veja-a/",
+   "data": "2026-11-09",
+   "veiculo": "Piranot",
+   "confiavel": false
+  },
+  {
+   "texto": "O CPI dos EUA vem acima do esperado e o Banco Central divulga a ata do Copom. O dólar fecha a R$ 5,58, o maior valor de 2026.",
+   "fonte_url": "https://jovempan.com.br/economia/dolar-fecha-a-r-558-e-bate-maior-cotacao-desde-julho-de-2025/",
+   "data": "2026-11-10",
+   "veiculo": "Jovem Pan",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar segue perto de máxima de duas semanas no exterior, com apostas de alta do Fed em dezembro.",
+   "fonte_url": "https://www.cnbc.com/2026/11/11/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation.html",
+   "data": "2026-11-11",
+   "veiculo": "CNBC/Reuters",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o Fed vai mesmo subir os juros em dezembro. Por enquanto é aposta do mercado (91,9% de chance pelo FedWatch), não decisão. Nada foi confirmado pelo Fed.",
+  "Quanto da alta vem de fatores externos (juros nos EUA) e quanto de fatores internos (ata do Copom, contas públicas). Os analistas citados dão pesos diferentes.",
+  "Se o dólar vai continuar subindo, ficar estável ou recuar. Ninguém confirma esse rumo.",
+  "Quanto e quando a alta chega aos preços de importados e eletrônicos. Não encontrei dado oficial sobre repasse.",
+  "A alíquota exata do IOF (imposto sobre operações de câmbio) nas compras no exterior. Os sites consultados divergem (3,5% ou 2,38%), e não localizei fonte oficial. Confira com seu banco ou na Receita Federal.",
+  "A cotação do dólar turismo (o das casas de câmbio e cartões pré-pagos) em 10/11. Ela costuma ser maior que a comercial, mas não apurei o valor."
+ ],
+ "o_que_muda_para_voce": [
+  "Compra internacional no cartão: a fatura em reais tende a subir se o dólar continuar alto. A data da conversão varia conforme o banco (dia da compra ou fechamento da fatura). Veja a regra do seu cartão. O IOF incide sobre o valor já convertido em reais, então também pesa mais.",
+  "Viagem marcada: gastos que você ainda vai pagar em dólar, como hotel, passeios e dinheiro para levar, ficam mais caros em reais do que no começo de novembro, quando o dólar abriu o mês a R$ 5,4385. Pacotes já pagos em reais não mudam.",
+  "Importados e eletrônicos: produtos feitos fora ou com peças importadas podem ficar mais caros com o tempo, se o dólar alto se mantiver. Lojas nem sempre repassam de imediato.",
+  "Compras em sites estrangeiros: o preço em dólar não mudou, mas o valor final em reais sobe com a cotação e com o IOF.",
+  "Se você tem investimento atrelado ao dólar ou ao exterior, o valor em reais dele sobe quando o dólar sobe. O contrário vale para quem tem dívida em dólar. Este texto não indica o que fazer."
+ ],
+ "como_se_proteger": [],
+ "slug": "dolar-maior-patamar-de-2026",
+ "publicado_em": "2026-11-11T09:12:07.680178",
+ "atualizado_em": "2026-11-11T09:12:07.680178",
+ "assunto": "Dólar subiu quase 1,5% em um dia e foi ao maior patamar de 2026: por que o medo de juros mais altos lá fora mexe no câmbio, e o que muda no seu bolso (importados, eletrônicos, compra internacional no cartão, viagem marcada), com fonte da cotação e do Banco Central",
+ "turno": "manha"
+}
