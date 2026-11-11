@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Por que um dado de inflação americano mexe na sua fatura?",
+  "na_tela": "Inflação dos EUA na sua fatura",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Dólar a R$ 5,58: a sua compra lá fora ficou mais cara.",
+   "na_tela": "Dólar a R$ 5,58",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Novembro abriu com dólar a R$ 5,4385. Terça fechou a R$ 5,58.",
+   "na_tela": "R$ 5,4385 → R$ 5,58",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Por que um dado de inflação americano mexe na sua fatura?",
+   "na_tela": "Inflação dos EUA na sua fatura",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Por que um dado de inflação americano mexe na sua fatura?",
+  "O dólar foi a R$ 5,58 com a inflação americana acima do esperado, segundo a Metrópoles.",
+  "Pelo FedWatch, o mercado dá 91,9% de chance de juros maiores lá.",
+  "É como o vizinho pagando melhor: aplicar aqui perde atrativo.",
+  "Mas tem um detalhe: ninguém confirma o rumo do dólar.",
+  "Se seguir alto, fatura do cartão e IOF pesam mais.",
+  "Calma: veja quando seu cartão converte a compra.",
+  "Manda para quem tem viagem marcada.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Por que um dado de inflação americano mexe na sua fatura? O dólar foi a R$ 5,58 com a inflação americana acima do esperado, segundo a Metrópoles. Pelo FedWatch, o mercado dá 91,9% de chance de juros maiores lá. É como o vizinho pagando melhor: aplicar aqui perde atrativo. Mas tem um detalhe: ninguém confirma o rumo do dólar. Se seguir alto, fatura do cartão e IOF pesam mais. Calma: veja quando seu cartão converte a compra. Manda para quem tem viagem marcada. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Inflação dos EUA na sua fatura",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar fecha a R$ 5,58",
+   "fonte": "Metrópoles"
+  },
+  {
+   "fala": 2,
+   "texto": "91,9% de chance de juros maiores nos EUA",
+   "fonte": "CME FedWatch (via Reuters)"
+  },
+  {
+   "fala": 4,
+   "texto": "Rumo do dólar: ninguém confirma",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Veja a regra do seu cartão",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje: por que subiu para R$ 5,58",
+ "legenda": "Dólar hoje: por que subiu para R$ 5,58?\n\nSegundo a Metrópoles, o dólar fechou a R$ 5,58, o maior valor de 2026. O gatilho foi a inflação dos Estados Unidos acima do esperado, que aumentou a aposta em juros maiores por lá (91,9% de chance pelo FedWatch, do CME Group). É aposta do mercado, não decisão do banco central americano.\n\nPara o seu bolso: compra no cartão em moeda estrangeira, viagem com gastos em dólar e sites de fora podem sair mais caros em reais se a cotação seguir alta. Ninguém confirma o rumo do dólar daqui para a frente.\n\nO passo calmo: veja em que dia o seu cartão converte a compra e confira o IOF com o seu banco. Manda para quem tem viagem marcada.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #educacaofinanceira #cambio #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#educacaofinanceira",
+  "#cambio",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 5,58: o que isso muda na sua fatura.",
+  "topicos": [
+   "Dólar fechou a R$ 5,58, segundo a Metrópoles, puxado pela inflação americana.",
+   "Pelo FedWatch, o mercado dá 91,9% de chance de juros maiores nos EUA.",
+   "Ninguém confirma o rumo do dólar: é aposta do mercado, não decisão.",
+   "Veja quando seu cartão converte a compra e confira o IOF no banco."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente do dia (fechamento de terça), que pede urgência e cabe em poucos tópicos.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Pelo FedWatch, o mercado dá 91,9% de chance de juros maiores lá.\": traduza FedWatch e 'juros maiores lá' na mesma frase, por exemplo dizendo que FedWatch é o painel que mede a aposta do mercado, e que 'lá' são os juros dos Estados Unidos, para quem acha economia outra língua.",
+   "\"É como o vizinho pagando melhor: aplicar aqui perde atrativo.\": a comparação é boa, mas fica abstrata e usa 'atrativo'. Reescreva em língua de dia a dia, como 'se o vizinho passa a pagar mais pelo mesmo serviço, o dinheiro tende a ir para lá, e o dólar sobe'. Isso liga a imagem ao dólar sem inventar fato.",
+   "\"Se seguir alto, fatura do cartão e IOF pesam mais.\": traduza o IOF ('o imposto que o governo cobra sobre compra em moeda estrangeira') e abra o vídeo com a pergunta de bolso direto no gancho. Assim, a abertura entrega logo o 'isso mexe no meu bolso?', e o 'Olha só' marca a virada para a parte do cartão."
+  ],
+  "veredito": "A peça fala com quem sente o dólar na fatura, traz fonte, uma comparação, a incerteza assumida e um passo calmo, tudo no tom Sábio/Cara Comum e sem alarmismo; falta só traduzir FedWatch e IOF e usar uma virada de bordão como 'Olha só' para soar mais popular."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Vertical shot, slow push-in on a glowing digital currency exchange board in a busy airport hall, blurred abstract shapes instead of readable symbols, travelers' silhouettes passing out of focus, cool blue and green light, shallow depth of field, no text, no faces in focus",
+   "texto_da_fala": "O dólar foi a R$ 5,58 com a inflação americana acima do esperado, segundo a Metrópoles.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow push-in on a glowing digital currency exchange board in a busy airport hall, blurred abstract shapes instead of readable symbols, travelers' silhouettes passing out of focus, cool blue and green light, shallow depth of field, no text, no faces in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow dolly along a suburban street between two neighboring houses with fences, one lawn lush and bright green with golden afternoon light, the other lawn dry and pale, gentle camera glide over the fence, no people, no text",
+   "texto_da_fala": "É como o vizinho pagando melhor: aplicar aqui perde atrativo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly along a suburban street between two neighboring houses with fences, one lawn lush and bright green with golden afternoon light, the other lawn dry and pale, gentle camera glide over the fence, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical close-up, slow tracking shot across a credit card lying on a wooden table next to a travel suitcase and a passport closed with plain cover, a hand-free scene, warm window light, shallow depth of field, card with no numbers or logos, no text, no faces",
+   "texto_da_fala": "Se seguir alto, fatura do cartão e IOF pesam mais.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up, slow tracking shot across a credit card lying on a wooden table next to a travel suitcase and a passport closed with plain cover, a hand-free scene, warm window light, shallow depth of field, card with no numbers or logos, no text, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Por que um dado de inflação americano mexe na sua fatura?\n\nO dólar foi a R$ 5,58 com a inflação americana acima do esperado, segundo a Metrópoles.\n\nPelo FedWatch, o mercado dá 91,9% de chance de juros maiores lá.\n\nÉ como o vizinho pagando melhor: aplicar aqui perde atrativo.\n\nMas tem um detalhe: ninguém confirma o rumo do dólar.\n\nSe seguir alto, fatura do cartão e IOF pesam mais.\n\nCalma: veja quando seu cartão converte a compra.\n\nManda para quem tem viagem marcada.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/dolar-nesta-terca-10",
+   "destaque": "O dólar comercial fechou em alta de 1,48%, cotado a R$ 5,58, em 10/11."
+  },
+  {
+   "veiculo": "Banco Central do Brasil (PTAX)",
+   "url": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+   "destaque": "Fonte oficial: a PTAX, taxa de referência do Banco Central, fechou em R$ 5,5834 (compra) e R$ 5,5840 (venda) em 10/11."
+  },
+  {
+   "veiculo": "CNBC/Reuters",
+   "url": "https://www.cnbc.com/2026/11/11/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation.html",
+   "destaque": "Segundo a Reuters, o dado e falas mais duras de dirigentes do Fed reforçaram as apostas de alta de juros no mês que vem."
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T09:14:13.445768-03:00"
+}
