@@ -1,0 +1,178 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso / boato",
+  "texto": "Boato diz que o governo vai bloquear seu dinheiro em 2027.",
+  "na_tela": "Bloqueio em 2027? Eu chequei",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso / boato",
+   "texto": "Boato diz que o governo vai bloquear seu dinheiro em 2027.",
+   "na_tela": "Bloqueio em 2027? Eu chequei",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "Esse boato do bloqueio já chegou no seu zap. Veja o que as checagens acharam.",
+   "na_tela": "O boato chegou no seu zap",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "A imagem do bloqueio não diz qual banco nem qual agência.",
+   "na_tela": "Qual banco? A imagem não diz",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Boato diz que o governo vai bloquear seu dinheiro em 2027.",
+  "O Boatos.org checou em 7 de novembro: sem evidência de bloqueio.",
+  "A Secom tem nota oficial: não existe confisco em conta.",
+  "Desde 2001, a Constituição barra medida provisória para reter poupança.",
+  "Mas olha só: nenhuma regra é eterna, e não há proposta oficial.",
+  "FGC é seguro de banco quebrado: até R$ 250 mil por CPF.",
+  "Sem autor ou banco, não repasse. Manda para quem quer sacar tudo.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Boato diz que o governo vai bloquear seu dinheiro em 2027. O Boatos.org checou em 7 de novembro: sem evidência de bloqueio. A Secom tem nota oficial: não existe confisco em conta. Desde 2001, a Constituição barra medida provisória para reter poupança. Mas olha só: nenhuma regra é eterna, e não há proposta oficial. FGC é seguro de banco quebrado: até R$ 250 mil por CPF. Sem autor ou banco, não repasse. Manda para quem quer sacar tudo. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Bloqueio em 2027? Eu chequei",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "7 de novembro: sem evidência",
+   "fonte": "Boatos.org"
+  },
+  {
+   "fala": 2,
+   "texto": "Não existe confisco",
+   "fonte": "Secom (gov.br)"
+  },
+  {
+   "fala": 3,
+   "texto": "2001",
+   "fonte": "Constituição, art. 62"
+  },
+  {
+   "fala": 5,
+   "texto": "R$ 250 mil por CPF",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 6,
+   "texto": "Sem autor, não repasse"
+  }
+ ],
+ "retomada": 4,
+ "busca": "boato bloqueio do dinheiro do banco 2027",
+ "legenda": "Boato de bloqueio do dinheiro do banco em 2027: é verdade?\n\nSegundo o Boatos.org (7 de novembro) e a Gazeta do Paraná (9 de novembro), não há evidência de medida do governo para bloquear contas. A Secom mantém nota oficial dizendo que não existe confisco de dinheiro depositado em conta.\n\nDesde 2001, a Constituição proíbe o uso de medida provisória para reter poupança. Mas nenhuma regra é eterna, e ainda não se sabe quem criou a mensagem.\n\nO FGC cobre até R$ 250 mil por CPF se o banco quebrar, o que é outro assunto. Antes de repassar, procure autor, data e banco. Em dúvida, ligue para o número do cartão.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#boato #poupanca #fgc #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#boato",
+  "#poupanca",
+  "#fgc",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Boato de bloqueio do dinheiro do banco em 2027: eu fui checar.",
+  "topicos": [
+   "Boatos.org checou em 7 de novembro: não há evidência de bloqueio do dinheiro.",
+   "Secom diz em nota oficial: não existe confisco de dinheiro em conta.",
+   "Desde 2001, a Constituição proíbe medida provisória de reter poupança.",
+   "Sem autor ou banco na mensagem, não repasse; ligue para o número do cartão."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um assunto de explicação, com contexto e várias fontes, que pede calma na bancada e não urgência de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Boato diz que o governo vai bloquear seu dinheiro em 2027.\": o gancho está bom, mas fica mais vivo se abrir com a mensagem que a pessoa já recebeu, tipo \"Chegou no grupo da família que vão bloquear seu dinheiro?\". Assim entra a identificação e a pergunta de bolso, sem mudar nenhum fato.",
+   "Frase \"Desde 2001, a Constituição barra medida provisória para reter poupança.\": o termo técnico \"medida provisória\" fica sem tradução. Reescreva na mesma frase, em língua de dia a dia, algo como \"medida provisória, aquele atalho do governo para mudar regra sem esperar o Congresso\". Falta também uma comparação viva (sanguíneo) para o texto não ficar só uma lista de checagens.",
+   "Frase \"FGC é seguro de banco quebrado: até R$ 250 mil por CPF.\": explique o FGC com uma imagem do cotidiano, como \"funciona como um seguro do carro, mas para o dinheiro no banco\". Depois, antes de \"Sem autor ou banco, não repasse\", acrescente uma frase calma de fechamento tipo \"respira: por enquanto, nada mudou na sua conta\". Isso dá o tom fleumático e acolhedor."
+  ],
+  "veredito": "A peça fala com o medo real de quem tem pouco no banco, com fonte datada, o \\\"olha só\\\" honesto sobre o que não se sabe e a saída clara (checar autor e banco), mas o roteiro está seco, com termo técnico sem tradução e sem comparação viva nem frase de calma."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow upward tilt along the curved white concrete domes and modernist towers of a large government legislative building in Brasília at golden hour, empty plaza in the foreground, soft clouds moving behind. No people, no flags, no signs, no text or lettering anywhere",
+   "texto_da_fala": "Desde 2001, a Constituição barra medida provisória para reter poupança.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the curved white concrete domes and modernist towers of a large government legislative building in Brasília at golden hour, empty plaza in the foreground, soft clouds moving behind. No people, no flags, no signs, no text or lettering anywhere. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow dolly-in toward a massive round steel bank vault door, slightly open, with cool light spilling out. In the foreground, a ceramic piggy bank sits on a polished stone counter with a few stacked coins that have no markings. No people, no text, no numbers, no logos",
+   "texto_da_fala": "FGC é seguro de banco quebrado: até R$ 250 mil por CPF.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in toward a massive round steel bank vault door, slightly open, with cool light spilling out. In the foreground, a ceramic piggy bank sits on a polished stone counter with a few stacked coins that have no markings. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Close-up over-the-shoulder shot of a hand holding a smartphone in a dim room, thumb hovering over the screen, which glows with blurry abstract green chat bubbles without any legible content. Slow push-in with shallow depth of field. No face visible, no text, no letters, no numbers, no logos",
+   "texto_da_fala": "Sem autor ou banco, não repasse. Manda para quem quer sacar tudo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up over-the-shoulder shot of a hand holding a smartphone in a dim room, thumb hovering over the screen, which glows with blurry abstract green chat bubbles without any legible content. Slow push-in with shallow depth of field. No face visible, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Boato diz que o governo vai bloquear seu dinheiro em 2027.\n\nO Boatos.org checou em 7 de novembro: sem evidência de bloqueio.\n\nA Secom tem nota oficial: não existe confisco em conta.\n\nDesde 2001, a Constituição barra medida provisória para reter poupança.\n\nMas olha só: nenhuma regra é eterna, e não há proposta oficial.\n\nFGC é seguro de banco quebrado: até R$ 250 mil por CPF.\n\nSem autor ou banco, não repasse. Manda para quem quer sacar tudo.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Secom (gov.br)",
+   "url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/area-de-imprensa/notas-a-imprensa/nao-existe-confisco-de-dinheiro-depositado-em-contas-bancarias",
+   "destaque": "A Secom, órgão de comunicação da Presidência, tem uma nota oficial intitulada \"Não existe confisco de dinheiro depositado em contas…"
+  },
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/en/financialstability/FGC_and_FGCoop",
+   "destaque": "O FGC (Fundo Garantidor de Créditos) paga até R$ 250 mil por CPF ou CNPJ, em cada instituição financeira ou conglomerado (grupo de empresas…"
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T14:42:23.840879-03:00"
+}
