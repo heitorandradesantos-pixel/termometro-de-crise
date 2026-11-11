@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Quanto o El Niño vai pesar na sua feira? Ainda não há número oficial.",
+  "na_tela": "El Niño na sua feira?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto o El Niño vai pesar na sua feira? Ainda não há número oficial.",
+   "na_tela": "El Niño na sua feira?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "O Banco Central citou o El Niño na ata. Sua feira entra nessa conta.",
+   "na_tela": "El Niño entrou na conta",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Os juros ficam em 13,75%, e o El Niño entrou nessa conta.",
+   "na_tela": "Juros em 13,75%: El Niño",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Quanto o El Niño vai pesar na sua feira? Ainda não há número oficial.",
+  "O Banco Central citou o El Niño como risco, na ata de 10/11.",
+  "É como a feira: safra ruim, preço pode subir.",
+  "Com a Selic em 13,75%, cartão e financiamento seguem caros.",
+  "Mas tem um detalhe: o Copom não estimou o efeito só dele.",
+  "Calma: acompanhe o IPCA, a inflação oficial, e a bandeira da luz.",
+  "Manda para quem vive no cartão e sente a feira pesar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Quanto o El Niño vai pesar na sua feira? Ainda não há número oficial. O Banco Central citou o El Niño como risco, na ata de 10/11. É como a feira: safra ruim, preço pode subir. Com a Selic em 13,75%, cartão e financiamento seguem caros. Mas tem um detalhe: o Copom não estimou o efeito só dele. Calma: acompanhe o IPCA, a inflação oficial, e a bandeira da luz. Manda para quem vive no cartão e sente a feira pesar. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "El Niño na sua feira?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "El Niño: risco na ata do Copom, 10/11",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 3,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 4,
+   "texto": "Sem estimativa só do El Niño",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Acompanhe: IPCA e bandeira da luz",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "El Niño vai deixar a comida mais cara?",
+ "legenda": "El Niño vai deixar a comida mais cara?\n\nNa ata de 10/11, o Banco Central citou o El Niño entre os riscos para a inflação. O Copom manteve a Selic em 13,75% ao ano e disse que os juros precisam ficar altos por mais tempo.\n\nO que ainda não se sabe: quanto o El Niño vai somar aos preços de comida e energia. Não há número oficial, é um risco apontado, não um aumento confirmado.\n\nO passo calmo: acompanhe o IPCA, o índice oficial de inflação, a bandeira da conta de luz e a atualização da NOAA, a agência climática dos EUA, marcada para 12/11.\n\nManda para quem vive no cartão e sente a feira pesar.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#elnino #selic #inflacao #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#elnino",
+  "#selic",
+  "#inflacao",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "El Niño no bolso: o Banco Central já citou como risco.",
+  "topicos": [
+   "O Banco Central citou o El Niño como risco, na ata de 10/11.",
+   "O Copom manteve a Selic em 13,75%: cartão e financiamento seguem caros.",
+   "Não há número oficial de quanto o El Niño encarece comida e energia.",
+   "Fazer: acompanhe o IPCA, a inflação oficial, e a bandeira da luz em dezembro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e muita incerteza, que pede calma na bancada, não urgência de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"É como a feira: safra ruim, preço pode subir.\": a comparação é correta, mas curta e genérica. Reescreva com uma cena que a pessoa reconhece, por exemplo \"é como o tomate na feira: quando a safra vem fraca, o preço sobe na sua sacola\". Use só o que já está na peça, sem inventar número nem produto com preço.",
+   "Frase \"Com a Selic em 13,75%, cartão e financiamento seguem caros.\": a Selic aparece sem tradução no roteiro (só a legenda fala em juros). Traduza na mesma frase: \"Selic, o juro básico do país, está em 13,75%, e isso pesa no juro do seu cartão\". Assim o melancólico entende o porquê e o termo técnico fica claro.",
+   "Frase \"Calma: acompanhe o IPCA, a inflação oficial, e a bandeira da luz.\": falta o passo simples e a virada de bordão. Antes dela, entre com \"Olha só\" no ponto de \"o Copom não estimou o efeito só dele\". Feche o passo com uma ação única, por exemplo \"o passo hoje é olhar o IPCA e a bandeira da luz\". A data da NOAA (12/11), que está na legenda, também pode entrar no vídeo, para dar o próximo marco."
+  ],
+  "veredito": "A peça abre direto no bolso, admite o que não se sabe, dá fonte (ata de 10/11) e um passo calmo, com o bordão de encerramento certo; falta uma comparação mais viva, traduzir a Selic no roteiro e marcar a virada \\\"Olha só\\\" para soar mais popular."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in along an open-air Brazilian street market stall in morning light: wooden crates holding sparse, small, slightly wilted tomatoes, green peppers and leafy greens, with several crates half empty. Shallow depth of field, no people in focus, no signs, no text, no price tags",
+   "texto_da_fala": "É como a feira: safra ruim, preço pode subir.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along an open-air Brazilian street market stall in morning light: wooden crates holding sparse, small, slightly wilted tomatoes, green peppers and leafy greens, with several crates half empty. Shallow depth of field, no people in focus, no signs, no text, no price tags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Close-up tabletop shot with a slow lateral camera slide: a plain blank plastic credit card with no numbers, logo or lettering lying on a worn wooden table beside a small stack of blank unmarked envelopes and a pocket calculator with a dark screen. Warm window light, dust motes floating, no people, no text",
+   "texto_da_fala": "Com a Selic em 13,75%, cartão e financiamento seguem caros.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up tabletop shot with a slow lateral camera slide: a plain blank plastic credit card with no numbers, logo or lettering lying on a worn wooden table beside a small stack of blank unmarked envelopes and a pocket calculator with a dark screen. Warm window light, dust motes floating, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow upward tilt from a quiet suburban Brazilian street at dusk to power lines and a glowing warm streetlamp, with house windows lighting up one by one. Light shifts gently from amber to deep blue. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Calma: acompanhe o IPCA, a inflação oficial, e a bandeira da luz.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt from a quiet suburban Brazilian street at dusk to power lines and a glowing warm streetlamp, with house windows lighting up one by one. Light shifts gently from amber to deep blue. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Quanto o El Niño vai pesar na sua feira? Ainda não há número oficial.\n\nO Banco Central citou o El Niño como risco, na ata de 10/11.\n\nÉ como a feira: safra ruim, preço pode subir.\n\nCom a Selic em 13,75%, cartão e financiamento seguem caros.\n\nMas tem um detalhe: o Copom não estimou o efeito só dele.\n\nCalma: acompanhe o IPCA, a inflação oficial, e a bandeira da luz.\n\nManda para quem vive no cartão e sente a feira pesar.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Inmet",
+   "url": "https://portal.inmet.gov.br/noticias/painel-el-ni%C3%B1o-boletim-de-outubro-%C3%A9-divulgado",
+   "destaque": "O Inmet, no 5º boletim do Painel El Niño, diz haver alta probabilidade de intensidade muito forte a partir de novembro."
+  },
+  {
+   "veiculo": "Correio Braziliense",
+   "url": "https://correiobraziliense.com.br/cidades-df/2026/11/7535964-el-nino-deve-persistir-no-df-ate-o-outono-de-2027-preve-inmet.html",
+   "destaque": "Segundo o meteorologista do Inmet Mozar Salvador, o pico do El Niño deve vir entre novembro e dezembro."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano",
+   "destaque": "O Copom manteve a Selic em 13,75% ao ano, por unanimidade, e não deu pistas sobre os próximos passos."
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T09:08:53.769215-03:00"
+}
