@@ -1,0 +1,129 @@
+{
+ "titulo": "Fed vai subir juros em dezembro? O que se sabe",
+ "descricao": "Inflação dos EUA subiu 0,4% em outubro e Waller cita alta de 0,5 ponto em dezembro. Veja o que é fato, o que é aposta e o efeito no dólar.",
+ "palavra_chave": "fed vai subir juros em dezembro",
+ "lead": "O Fed ainda não decidiu, mas o mercado dá como quase certa uma alta de juros em dezembro. Em 10/11, o governo dos EUA informou que a inflação ao consumidor subiu 0,4% em outubro, acima dos 0,3% esperados. No mesmo dia, o diretor do Fed Christopher Waller disse que defenderá alta de pelo menos 0,25 ponto percentual na reunião de 8 e 9 de dezembro e que 0,5 ponto deve ser considerado se a inflação piorar.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A inflação ao consumidor dos EUA (CPI) subiu 0,4% em outubro, depois de 0,6% em setembro, informou o Departamento de Estatísticas do Trabalho (BLS) em 10/11. A expectativa dos analistas era de 0,3%. O núcleo, que exclui alimentos e energia, subiu 0,3% pelo terceiro mês seguido.",
+   "fonte_url": "https://bpmoney.com.br/mercado/cpi-dos-eua-sobe-04-em-outubro-e-reforca-expectativa-de-alta-dos-juros/",
+   "data": "2026-11-10",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O BLS não divulgou a inflação acumulada em 12 meses de outubro. Em 2025, a paralisação do governo federal impediu a coleta de preços daquele mês e deixou o dado sem base de comparação. Em setembro, a inflação em 12 meses estava em 3,7%.",
+   "fonte_url": "https://forbes.com.br/forbes-money/2026/11/precos-ao-consumidor-nos-eua-sobem-mais-que-o-esperado-em-outubro/",
+   "data": "2026-11-10",
+   "veiculo": "Forbes Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Em discurso em Londres, Waller disse que defenderá alta de 25 pontos-base (0,25 ponto percentual) nos juros em dezembro, mesmo que a inflação de outubro tenha desacelerado. Disse que, se o núcleo do CPI subisse 0,3% ou mais, uma alta de 0,5 ponto deveria ser considerada.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/waller-do-fed-planeja-defender-alta-de-juros-em-dezembro/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O núcleo do CPI ficou em 0,3%, patamar que Waller citou como gatilho para discutir 0,5 ponto. Segundo a Forbes Brasil, as apostas em 0,5 ponto cresceram depois do dado, e a alta de 0,25 ponto é tratada como praticamente garantida. Waller também disse ter apoiado a manutenção dos juros no mês passado.",
+   "fonte_url": "https://forbes.com.br/forbes-money/2026/11/fed-alta-juros-inflacao-eua-dezembro-waller/",
+   "data": "2026-11-10",
+   "veiculo": "Forbes Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "As probabilidades de alta em dezembro variam conforme a fonte. Contratos futuros indicavam cerca de 85% de chance de alta na segunda-feira (9). Depois do CPI, a TV SIM Brasil citou chance de 88,2%, contra 84% antes do dado. Já o SpaceMoney, citando o Monitor do Mercado, relatou 100% de chance de alta.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/indicadores-economicos/cpi-eua-fed-dezembro",
+   "data": "2026-11-10",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar fechou a R$ 5,58 em 10/11, alta de 1,48%. É o maior valor desde 31 de julho de 2025, ou seja, em cerca de 15 meses. O Ibovespa, índice da bolsa brasileira, recuou 0,52% e fechou em 171,3 mil pontos.",
+   "fonte_url": "https://jovempan.com.br/economia/dolar-fecha-a-r-558-e-bate-maior-cotacao-desde-julho-de-2025/",
+   "data": "2026-11-10",
+   "veiculo": "Jovem Pan",
+   "confiavel": false
+  },
+  {
+   "texto": "A Jovem Pan atribui a alta do dólar a fatores de fora e de dentro do país: dados de inflação e falas de dirigentes do Fed, de um lado, e incertezas fiscais e queda das commodities, de outro. O Money Times informou que o índice DXY, que compara o dólar a seis moedas globais, subia 0,60% no fim da tarde.",
+   "fonte_url": "https://www.moneytimes.com.br/dolar-10-11-2026-davs/",
+   "data": "2026-11-10",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "A Selic, taxa básica de juros do Brasil, está em 13,75% ao ano. O Copom a manteve em 4/11 e interrompeu cinco cortes seguidos. A ata, divulgada em 10/11, diz que o cenário exige juros altos por mais tempo.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-ata-do-copom-bc-diz-que-cenario-exige-selic-alta-por-mais-tempo/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Copom mantém a Selic em 13,75% ao ano, por unanimidade, e interrompe uma sequência de cinco cortes de 0,25 ponto.",
+   "fonte_url": "https://investnews.com.br/investimentos/copom-mantem-selic-em-1375-ano/",
+   "data": "2026-11-04",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "Contratos futuros indicam cerca de 85% de chance de alta dos juros do Fed na reunião de 8 e 9 de dezembro.",
+   "fonte_url": "https://istoedinheiro.com.br/juros-fed-waller-alta-dezembro",
+   "data": "2026-11-09",
+   "veiculo": "Istoé Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "Waller diz em Londres que defenderá alta de ao menos 0,25 ponto em dezembro e que 0,5 ponto deve ser considerado se o núcleo do CPI subir 0,3% ou mais.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/waller-do-fed-planeja-defender-alta-de-juros-em-dezembro/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O BLS informa que o CPI de outubro subiu 0,4%, acima dos 0,3% esperados. O núcleo sobe 0,3%.",
+   "fonte_url": "https://exame.com/economia/cpi-inflacao-dos-eua-sobe-04-em-outubro-acima-do-esperado/",
+   "data": "2026-11-10",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "A ata do Copom diz que o cenário de expectativas de inflação desancoradas exige juros restritivos por mais tempo.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-ata-do-copom-bc-diz-que-cenario-exige-selic-alta-por-mais-tempo/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar fecha a R$ 5,58, maior valor desde 31/07/2025, e o Ibovespa cai 0,52%.",
+   "fonte_url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/10/dolar-fecha-maior-valor-15-meses-ibovespa-queda",
+   "data": "2026-11-10",
+   "veiculo": "TV SIM Brasil",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O que o Fed vai decidir em 8 e 9 de dezembro. A alta de juros é aposta do mercado e posição de um dirigente, não decisão do comitê.",
+  "Se a alta será de 0,25 ou de 0,5 ponto. Antes do dado, o CME FedWatch, segundo a CNBC, via chance zero de 0,5 ponto; depois, as apostas nessa alta cresceram, segundo a Forbes Brasil. Não encontrei um número oficial para essa chance.",
+  "Se Waller manterá a defesa de 0,5 ponto depois do dado. O núcleo bateu o patamar que ele citou, mas as fontes consultadas não trazem nova fala dele após o CPI. Isso não foi confirmado.",
+  "Quanto da alta do dólar vem do Fed e quanto vem de fatores internos. As fontes citam as duas causas, mas nenhuma mede o peso de cada uma.",
+  "O nível atual da taxa de juros dos EUA e a posição dos outros diretores do Fed. As fontes consultadas não trazem esses dados.",
+  "Se o Banco Central do Brasil vai agir no câmbio ou mudar a Selic por causa disso. Não encontrei anúncio nesse sentido."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda por decisão do Fed. A alta de dezembro ainda não foi decidida. O que mudou foi a expectativa, e ela já aparece no preço do dólar.",
+  "Dólar mais caro encarece produtos importados, viagens e compras em moeda estrangeira. O InvestNews lembra que o câmbio pressiona os preços de importados e leva o mercado a esperar mais inflação.",
+  "Juros mais altos nos EUA tendem a atrair dinheiro para o dólar, o que pode pressionar o real. A imprensa citou esse canal na alta de 10/11. A Jovem Pan aponta também fatores internos.",
+  "A Selic continua em 13,75% ao ano, e a decisão do Fed não muda essa taxa automaticamente. Quem tem investimento ou dívida ligados à Selic ou ao CDI não teve mudança de taxa na reunião de 4/11.",
+  "O Copom diz que o cenário pede juros altos por mais tempo. Se o dólar seguir alto, isso pode pesar nos preços e na trajetória da Selic."
+ ],
+ "como_se_proteger": [],
+ "slug": "fed-vai-subir-juros-em-dezembro-1111",
+ "publicado_em": "2026-11-11T11:44:36.403947",
+ "atualizado_em": "2026-11-11T11:44:36.403947",
+ "assunto": "Inflação ao consumidor dos EUA subiu 0,4% em outubro (esperado: 0,3%) em 10/11, e o dirigente do Fed Christopher Waller defendeu considerar alta de 0,5 ponto nos juros americanos na reunião de dezembro; o mercado já vê alta de pelo menos 0,25 ponto como praticamente certa.",
+ "turno": "meio"
+}
