@@ -3,6 +3,7 @@
 selo da marca e trata o áudio. Cada vídeo tem uma pasta com original.mov, transcricao.json e config.json.
 Uso: python editar_reel.py <pasta>"""
 import json
+import os
 import re
 import subprocess
 from pathlib import Path
@@ -135,7 +136,8 @@ def corrigir(palavras: list) -> list:
     return palavras
 
 
-def legenda(manter, novo) -> str:
+def blocos_legenda(manter, novo) -> list:
+    """Blocos de 2 a 3 palavras: [(início, fim, [[ini, fim, palavra, quebra], ...]), ...] no tempo do vídeo editado."""
     segs = json.loads((AQUI / TRANSCRICAO).read_text())
     palavras = []
     for s in segs:
@@ -169,11 +171,17 @@ def legenda(manter, novo) -> str:
             atual = []
     if atual:
         blocos.append(atual)
-    linhas = []
+    saida = []
     for i, b in enumerate(blocos):
         ini = b[0][0]
         fim = blocos[i + 1][0][0] if i + 1 < len(blocos) else b[-1][1] + 0.3
-        fim = min(fim, b[-1][1] + 0.45)
+        saida.append((ini, min(fim, b[-1][1] + 0.45), b))
+    return saida
+
+
+def legenda(manter, novo) -> str:
+    linhas = []
+    for ini, fim, b in blocos_legenda(manter, novo):
         texto = " ".join((f"{{\\c{AMARELO}}}{w}{{\\c&HFFFFFF&}}" if DESTAQUES.search(w) else w) for _, _, w, _ in b)
         linhas.append(f"Dialogue: 0,{ts(ini)},{ts(fim)},Fala,,0,0,0,,{texto}")
     cab = """[Script Info]
@@ -294,6 +302,42 @@ def audio_cortado(manter) -> str:
     return ";".join(partes) + ";" + "".join(f"[p{i}]" for i in range(len(manter))) + f"concat=n={len(manter)}:v=0:a=1[a]"
 
 
+REMOTION = Path(__file__).resolve().parent / "remotion"  # a camada gráfica animada (skill oficial da Remotion)
+MOTOR = CFG.get("motor") or os.environ.get("MOTOR") or "remotion"
+NAVEGADOR = os.environ.get("REMOTION_NAVEGADOR") or next(
+    (str(x) for x in Path("/opt/pw-browsers").glob("chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell")), "")
+FILTRO_AUDIO = ("highpass=f=80,afftdn=nr=8:nf=-42,acompressor=threshold=-20dB:ratio=3:attack=5:release=120,"
+                "loudnorm=I=-14:TP=-1.5:LRA=9,aresample=48000,atrim=start=0.025,asetpts=PTS-STARTPTS")  # 25 ms de atraso dos filtros
+
+
+def montar_remotion(junto: Path, manter, novo, total: float) -> None:
+    """Vídeo cortado + som tratado (ffmpeg) e, por cima, legendas, cartões, bordão e tela final animados (Remotion)."""
+    publico = AQUI / "remotion-publico"
+    publico.mkdir(exist_ok=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(junto), "-af", FILTRO_AUDIO, "-c:v", "copy", "-c:a", "aac",
+                    "-b:a", "320k", "-ar", "48000", "-movflags", "+faststart", "-t", f"{total:.3f}", str(publico / "base.mp4")],
+                   check=True)
+    camadas = {
+        "video": "base.mp4", "total": round(total, 3), "final": float(CFG.get("final", FINAL)),
+        "legendas": [{"ini": round(a, 3), "fim": round(b, 3),
+                      "palavras": [{"ini": round(w[0], 3), "fim": round(w[1], 3), "texto": w[2],
+                                    "destaque": bool(DESTAQUES.search(w[2]))} for w in bloco]}
+                     for a, b, bloco in blocos_legenda(manter, novo)],
+        "cartoes": [{"ini": round(novo(ini + ATRASO), 3), "fim": round(min(novo(fim + ATRASO), total), 3), "texto": texto,
+                     "fonte": fonte, "cor": (cor[0] if cor else None)} for ini, fim, texto, fonte, *cor in CARTOES],
+        "bordao": ({"ini": round(novo(BORDAO[0] + ATRASO), 3), "fim": round(min(novo(BORDAO[1] + ATRASO), total), 3)}
+                   if BORDAO else None),
+    }
+    (AQUI / "camadas.json").write_text(json.dumps(camadas, ensure_ascii=False, indent=1))
+    if not (REMOTION / "node_modules").exists():
+        subprocess.run(["npm", "ci", "--silent"], check=True, cwd=REMOTION)
+    cmd = ["npx", "remotion", "render", "Reel", str(AQUI / CFG["saida"]), f"--props={AQUI / 'camadas.json'}",
+           f"--public-dir={publico}", "--codec=h264", "--crf=18", "--audio-bitrate=192k", "--log=error"]
+    if NAVEGADOR:
+        cmd.append(f"--browser-executable={NAVEGADOR}")
+    subprocess.run(cmd, check=True, cwd=REMOTION)
+
+
 def montar():
     manter = trechos()
     novo = mapa(manter)
@@ -321,7 +365,11 @@ def montar():
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ORIGINAL), "-filter_complex_script", str(AQUI / "filtro1.txt"),
                     "-map", "[v]", "-map", "[a]", "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
                     "-pix_fmt", "yuv420p", "-c:a", "pcm_s16le", "-ac", "2", str(junto)], check=True)
-    # 2) cartões, selo, legenda e áudio por cima do vídeo já cortado
+    if MOTOR == "remotion":
+        montar_remotion(junto, manter, novo, total)
+        print(f"{len(manter)} trechos, {FIM:.1f}s → {total:.1f}s (Remotion)")
+        return
+    # 2) cartões, selo, legenda e áudio por cima do vídeo já cortado (motor antigo, só ffmpeg)
     final = float(CFG.get("final", FINAL))  # tela final "siga o @termometrodecrise"
     entradas, filtro, atual = ["-i", str(junto)], f"[0:v]tpad=stop_mode=add:stop_duration={final}:color=0x0E141B[base];", "base"
     for k, ((ini, fim, *_), png) in enumerate(zip(CARTOES, pngs[:-2]), start=1):

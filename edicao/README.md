@@ -26,3 +26,13 @@ Como o script funciona (vale para os próximos):
 ## Apresentação no fim (a partir de 11/11)
 O vídeo abre no gancho. "Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do
 mundo." vem no fim, antes do bordão. Não há mais teste com e sem apresentação.
+
+## Motor gráfico: Remotion (a partir de 11/11)
+- O corte, o zoom e o som continuam no ffmpeg. Legendas, cartões, selo, bordão e tela final agora são animados em
+  React com a Remotion (pasta `edicao/remotion`), seguindo as skills oficiais (`npx skills add remotion-dev/skills`).
+- O que ganhou animação: a legenda entra com um "pop" e a palavra falada sobe um pouco; o cartão desce, o destaque
+  ganha marca-texto e o número conta como placar (menos no cartão do gancho, que já nasce pronto para a capa); o
+  ponteiro do medidor varre no bordão e na tela final; o botão "Seguir" pulsa.
+- `python editar_reel.py <pasta>` usa a Remotion por padrão; `"motor": "ffmpeg"` no config.json volta ao jeito antigo.
+- Licença: a Remotion é grátis para pessoa física e empresa com até 3 pessoas (nosso caso). Acima disso, licença de empresa.
+- Aqui, a Remotion usa o Chromium que já vem instalado (a rede bloqueia o download do navegador dela).
