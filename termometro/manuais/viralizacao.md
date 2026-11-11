@@ -67,6 +67,8 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 
 ## TikTok e a versão longa (decidido em 11/11)
 - Instagram segue com 30 a 45 s. Teste: quando o assunto render (história do Heitor ou explicativo com começo, meio e
-  fim), o roteiro ganha também uma versão de 1min05 a 1min15 só para o TikTok, onde só vídeo de 1 minuto ou mais conta
-  para o Programa de Recompensas (10 mil seguidores e 100 mil visualizações em 30 dias). O painel compara as duas.
+  fim), o roteiro vem na versão longa (1min05 a 1min15), com 2 ou 3 falas marcadas "[só no TikTok]". O Heitor grava UMA
+  vez, a longa; o editor tira dois vídeos da mesma gravação: o longo para o TikTok (só vídeo de 1 minuto ou mais conta
+  para o Programa de Recompensas: 10 mil seguidores e 100 mil visualizações em 30 dias) e o curto para o Instagram,
+  cortando as falas marcadas. O painel compara os dois.
 - Perto dos 10 mil seguidores no TikTok, todo vídeo de lá passa de 1 minuto.
