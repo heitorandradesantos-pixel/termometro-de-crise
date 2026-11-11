@@ -5,6 +5,7 @@ Modo "testar": sobe o vídeo e confere que a Meta aceitou, mas NÃO publica (o c
 Cada publicação é pedida e confirmada pelo Heitor; o horário é dele."""
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -25,8 +26,19 @@ def _erro(r: requests.Response) -> str:
         return f"{r.status_code} {r.text[:200]}"
 
 
+# Hashtags que a Meta recusa no envio pela API (descoberto em 11/11: "#cambio" derruba o upload)
+BLOQUEADAS = ("#cambio",)
+
+
+def limpar(legenda: str) -> str:
+    for h in BLOQUEADAS:
+        legenda = re.sub(rf"(?<!\w){re.escape(h)}\b ?", "", legenda, flags=re.I)
+    return legenda.strip()
+
+
 def subir(video: Path, legenda: str, token: str, ig: str) -> str:
     """Cria o contêiner do Reel, manda o arquivo e espera a Meta processar. Devolve o id do contêiner."""
+    legenda = limpar(legenda)
     r = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
         "media_type": "REELS", "upload_type": "resumable", "caption": legenda, "share_to_feed": "true",
         "access_token": token})

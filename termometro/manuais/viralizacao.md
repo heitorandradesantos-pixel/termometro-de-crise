@@ -61,3 +61,6 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 - O padrão: assunto que a pessoa comum já está comentando ou sente no bolso esta semana (câmbio, comida, conta,
   dívida, salário, benefício). Assunto de investidor de nicho ou de contador só entra se virar dinheiro do dia a dia.
 - Pergunta antes de propor ou roteirizar: "minha mãe ou meu vizinho comentariam isso hoje?" Se não, não é pauta.
+
+## Hashtags
+- Nunca usar #cambio: a Meta recusa o envio de Reel com ela pela API (11/11), sinal de hashtag restrita.
