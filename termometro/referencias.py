@@ -50,7 +50,7 @@ Regras:
 7. "ideia_reel": um assunto que renderia um Reel nosso, com o ângulo do Termômetro (o que muda no bolso, com fonte),
    em 1 ou 2 frases. Vale para assunto educativo e atemporal também. Nunca o mesmo roteiro do criador. Se o vídeo
    é política, opinião ou não tem efeito no bolso, deixe vazio (não escreva "não serve" nem explique)."""
-SISTEMA += config.manual("marca")
+SISTEMA += config.manual("marca", "viralizacao")
 
 
 def ferramenta() -> dict:
