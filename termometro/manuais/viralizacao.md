@@ -72,3 +72,8 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
   para o Programa de Recompensas: 10 mil seguidores e 100 mil visualizações em 30 dias) e o curto para o Instagram,
   cortando as falas marcadas. O painel compara os dois.
 - Perto dos 10 mil seguidores no TikTok, todo vídeo de lá passa de 1 minuto.
+
+## Teste: API x app (12/11)
+- 11/11: El Niño, comprar dólar no pânico e Nvidia saíram pela API (16h, 18h30, 20h30). 12/11: o Heitor posta no app,
+  nos mesmos horários. Comparar visualizações e tempo médio com a mesma idade de post (24 h), pelo painel. Lembrar que
+  assunto e horário também mudam o resultado: um dia só é sinal, não prova.
