@@ -1,0 +1,182 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "O dólar fechou a R$ 5,58, e o motivo veio dos EUA.",
+  "na_tela": "Dólar R$ 5,58: veio dos EUA",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar fechou a R$ 5,58, e o motivo veio dos EUA.",
+   "na_tela": "Dólar R$ 5,58: veio dos EUA",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O dólar subiu 1,26% hoje, e não foi por causa daqui.",
+   "na_tela": "Dólar subiu 1,26%: não foi aqui",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "Juro lá nos EUA chegou no preço do seu celular importado.",
+   "na_tela": "Juro dos EUA no seu celular",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar fechou a R$ 5,58, e o motivo veio dos EUA.",
+  "Inflação alta nos EUA pode levar o Fed, banco central deles, a subir juros.",
+  "Olha só: com juro maior lá, o dinheiro de fora pode voltar.",
+  "Pouco dólar é como pouco tomate na feira: encarece.",
+  "Brasil: 62, Tensão, 3 abaixo de ontem. Mundo: 54, Alerta. Sem pânico.",
+  "Vai viajar ou comprar celular importado? Veja o preço do dia, sem susto.",
+  "Amanhã eu volto com o que mudou pro seu bolso.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O dólar fechou a R$ 5,58, e o motivo veio dos EUA. Inflação alta nos EUA pode levar o Fed, banco central deles, a subir juros. Olha só: com juro maior lá, o dinheiro de fora pode voltar. Pouco dólar é como pouco tomate na feira: encarece. Brasil: 62, Tensão, 3 abaixo de ontem. Mundo: 54, Alerta. Sem pânico. Vai viajar ou comprar celular importado? Veja o preço do dia, sem susto. Amanhã eu volto com o que mudou pro seu bolso. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dólar R$ 5,58: veio dos EUA",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,58",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 1,
+   "texto": "Inflação dos EUA acima do esperado",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Pouco dólar = preço sobe"
+  },
+  {
+   "fala": 4,
+   "texto": "Brasil 62 · Tensão (▼3 desde ontem)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Mundo 54 · Alerta",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Veja o preço do dia"
+  }
+ ],
+ "retomada": 4,
+ "busca": "por que o dólar subiu hoje",
+ "legenda": "Por que o dólar subiu hoje?\n\nO dólar fechou a R$ 5,58, segundo o Yahoo Finance. Segundo o Termômetro de Crise, a inflação dos EUA veio acima do esperado, e o Fed, o banco central de lá, pode subir juros. Com juro maior lá, o dinheiro de fora pode voltar.\n\nO Brasil está em 62, Tensão, e o mundo em 54, Alerta. É sinal de atenção, não de pânico.\n\nVai viajar ou comprar de fora? Veja o preço do dia e não decida no susto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #economia #financaspessoais #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#economia",
+  "#financaspessoais",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar fechou a R$ 5,58 hoje, e o motivo veio dos EUA.",
+  "topicos": [
+   "Dólar fechou a R$ 5,58, segundo o Yahoo Finance.",
+   "Inflação dos EUA veio alta; o Fed pode subir juros, segundo o Termômetro.",
+   "Brasil em 62, Tensão; mundo em 54, Alerta, segundo o Termômetro de Crise.",
+   "Vai viajar ou comprar de fora? Veja o preço do dia, sem susto."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um fechamento com contexto e comparação, que pede explicação calma e prova na tela.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Na frase \"O dólar fechou a R$ 5,58, e o motivo veio dos EUA\": a fonte só aparece na legenda (Yahoo Finance). Diga no vídeo, \"R$ 5,58, segundo o Yahoo Finance\", ou ponha o print na tela. Assim o melancólico vê o número com fonte.",
+   "Na frase \"com juro maior lá, o dinheiro de fora pode voltar\": não fica claro voltar para onde. Reescreva como \"o dinheiro de fora pode voltar pros EUA\" e ligue com a linha seguinte: \"sobra menos dólar aqui\". Aí a comparação do tomate fecha o raciocínio.",
+   "Na frase \"Veja o preço do dia, sem susto\": o passo é vago. Troque por uma ação simples, como \"se vai viajar ou comprar importado, compare o preço de hoje antes de fechar e não decida no susto\". Fica mais fácil de fazer e continua sem recomendação."
+  ],
+  "veredito": "A peça fala com quem sente o dólar no bolso (viagem, celular importado), usa a comparação do tomate, traduz o Fed, mantém a calma e fecha com os bordões na ordem certa; falta citar a fonte do número dentro do vídeo, deixar claro para onde o dinheiro \\\"volta\\\" e dar um passo mais concreto no fim."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow upward tilt along the tall stone columns of a grand neoclassical government building facade at golden hour, no flags, no signs, no visible text, no people in focus, soft clouds moving behind the roof, cinematic and serious mood",
+   "texto_da_fala": "Inflação alta nos EUA pode levar o Fed, banco central deles, a subir juros.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the tall stone columns of a grand neoclassical government building facade at golden hour, no flags, no signs, no visible text, no people in focus, soft clouds moving behind the roof, cinematic and serious mood. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in along an outdoor Brazilian street market stall where wooden crates are almost empty, with just a few ripe red tomatoes left at the bottom, while neighboring crates are full of other vegetables. Warm morning light, no price tags, no signs, no text, no recognizable faces, shallow depth of field",
+   "texto_da_fala": "Pouco dólar é como pouco tomate na feira: encarece.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along an outdoor Brazilian street market stall where wooden crates are almost empty, with just a few ripe red tomatoes left at the bottom, while neighboring crates are full of other vegetables. Warm morning light, no price tags, no signs, no text, no recognizable faces, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Smooth tracking shot across a table with a passport, a small suitcase and a plain unbranded smartphone in a plain white box, then the camera glides up to a blurred airport window where a plane taxis in the background. Bright natural light, no logos, no text, no numbers, no faces in focus",
+   "texto_da_fala": "Vai viajar ou comprar celular importado? Veja o preço do dia, sem susto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth tracking shot across a table with a passport, a small suitcase and a plain unbranded smartphone in a plain white box, then the camera glides up to a blurred airport window where a plane taxis in the background. Bright natural light, no logos, no text, no numbers, no faces in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O dólar fechou a R$ 5,58, e o motivo veio dos EUA.\n\nInflação alta nos EUA pode levar o Fed, banco central deles, a subir juros.\n\nOlha só: com juro maior lá, o dinheiro de fora pode voltar.\n\nPouco dólar é como pouco tomate na feira: encarece.\n\nBrasil: 62, Tensão, 3 abaixo de ontem. Mundo: 54, Alerta. Sem pânico.\n\nVai viajar ou comprar celular importado? Veja o preço do dia, sem susto.\n\nAmanhã eu volto com o que mudou pro seu bolso.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-11",
+ "gerado_em": "2026-11-11T18:32:14.822919-03:00",
+ "enviado_whatsapp": "2026-11-11T18:33:08.701356-03:00"
+}
