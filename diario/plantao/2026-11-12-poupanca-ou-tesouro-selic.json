@@ -1,0 +1,106 @@
+{
+ "titulo": "R$ 200 por mês: poupança ou Tesouro Selic, quanto rende em 1 ano",
+ "descricao": "R$ 200 por mês por 1 ano: poupança rende cerca de R$ 105 e o Tesouro Selic, R$ 140 após o IR. Qual você escolheria? Conte nos comentários.",
+ "palavra_chave": "poupança ou tesouro selic",
+ "lead": "Quem guarda R$ 200 por mês por 12 meses põe R$ 2.400 de seu bolso. Na simulação do Termômetro, a poupança ou o Tesouro Selic dão resultados diferentes: cerca de R$ 105 de rendimento na poupança e cerca de R$ 140 no Tesouro Selic, já sem o Imposto de Renda. A conta usa a Selic de 13,75%, mantida pelo Copom em 4 de novembro, e a regra atual da poupança. Não indicamos qual aplicação escolher: a pergunta fica para os comentários.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Copom, comitê do Banco Central que define os juros, manteve a Selic em 13,75% ao ano em 4 de novembro, por unanimidade. Foi a pausa depois de cinco cortes de 0,25 ponto percentual.",
+   "fonte_url": "https://ncnews.com.br/2026/11/04/copom-mantem-selic-1375-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "NC News",
+   "confiavel": false
+  },
+  {
+   "texto": "A ata do Copom, o documento oficial da reunião, está no site do Banco Central. O registro confirmado é a manutenção da Selic em 13,75% ao ano.",
+   "fonte_url": "https://revistaempreende.com.br/copom-mantem-selic-1375-ata-novembro-2026/",
+   "data": "2026-11-11",
+   "veiculo": "Revista Empreende",
+   "confiavel": false
+  },
+  {
+   "texto": "Com a Selic acima de 8,5% ao ano, a poupança rende 0,5% ao mês mais a TR (Taxa Referencial, índice calculado pelo Banco Central). A regra vem da Lei 12.703/2012. O rendimento da poupança de pessoa física é isento de Imposto de Renda.",
+   "fonte_url": "https://calculo.com.br/investimentos/poupanca",
+   "data": "2026-11-12",
+   "veiculo": "Calculo.com.br",
+   "confiavel": false
+  },
+  {
+   "texto": "Em outubro de 2026, a poupança rendeu 0,66% no mês: 0,5% fixo mais TR de cerca de 0,16%. Nos 12 meses até 1º de novembro, acumulou 8,29%, segundo dados do Banco Central citados pela Creditas.",
+   "fonte_url": "https://www.creditas.com/exponencial/qual-o-rendimento-da-poupanca-hoje/",
+   "data": "2026-11-01",
+   "veiculo": "Creditas",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro Selic é um título público que acompanha a Selic. Tem liquidez diária, ou seja, dá para resgatar em qualquer dia útil. O Imposto de Renda é regressivo: 22,5% para até 180 dias, caindo para 15% acima de 720 dias.",
+   "fonte_url": "https://edu.b3.com.br/w/tesouro-selic",
+   "data": "2026-01-11",
+   "veiculo": "B3 Educação",
+   "confiavel": true
+  },
+  {
+   "texto": "Resgates feitos antes de 30 dias pagam IOF, imposto que reduz o ganho líquido. A B3 cobra custódia de 0,20% ao ano, mas não cobra sobre os primeiros R$ 10.000 aplicados em Tesouro Selic por CPF.",
+   "fonte_url": "https://www.serasa.com.br/blog/como-investir-no-tesouro-selic-passo-a-passo/",
+   "data": "2026-08-14",
+   "veiculo": "Serasa",
+   "confiavel": false
+  },
+  {
+   "texto": "A poupança só credita o rendimento no aniversário de cada depósito, uma vez por mês. Sacar antes do aniversário faz perder o rendimento daquele período.",
+   "fonte_url": "https://99economia.com.br/indicadores/poupanca",
+   "data": "2026-10-08",
+   "veiculo": "99economia",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Copom corta a Selic para 14,75% ao ano, o primeiro corte depois de 10 meses.",
+   "fonte_url": "https://blog.nubank.com.br/rendimento-poupanca/",
+   "data": "2026-03-18",
+   "veiculo": "Nubank",
+   "confiavel": false
+  },
+  {
+   "texto": "Um novo corte leva a Selic a 13,75% ao ano, nível em que ela está desde 16 de setembro.",
+   "fonte_url": "https://www.fabramoney.com.br/guias/quanto-rende-poupanca-por-mes",
+   "data": "2026-09-16",
+   "veiculo": "Fabra Money",
+   "confiavel": false
+  },
+  {
+   "texto": "A poupança rende 0,66% em outubro, com 8,29% acumulados em 12 meses até 1º de novembro.",
+   "fonte_url": "https://www.creditas.com/exponencial/qual-o-rendimento-da-poupanca-hoje/",
+   "data": "2026-11-01",
+   "veiculo": "Creditas",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom mantém a Selic em 13,75% e interrompe cinco cortes seguidos.",
+   "fonte_url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-4-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "Sou Brasília",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Qual será a Selic nos próximos meses. O Focus (pesquisa do Banco Central com economistas) indicava Selic de 13,50% no fim de 2026, segundo a Gazeta Mercantil. É uma projeção, não uma decisão do Copom.",
+  "Qual será a TR nos próximos meses. A conta usa 0,66% ao mês na poupança, como em outubro. A TR muda todo mês e não há garantia de que siga nesse nível.",
+  "Quanto cada pessoa realmente receberia. O resultado depende do dia dos depósitos, da data do resgate e de eventual taxa da corretora. A simulação não inclui essas variáveis.",
+  "Qual aplicação é melhor para você. Não há resposta única, e este texto não indica o que comprar. O resultado da enquete ainda não existe: ela depende das respostas dos leitores nos comentários."
+ ],
+ "o_que_muda_para_voce": [
+  "Poupança, na simulação do Termômetro: R$ 200 depositados no início de cada mês, por 12 meses, somam R$ 2.400. Com rendimento de 0,66% ao mês, o saldo chega a cerca de R$ 2.505. O ganho é de cerca de R$ 105, sem Imposto de Renda.",
+  "Tesouro Selic, na mesma simulação: com a Selic parada em 13,75% ao ano, o rendimento bruto é de cerca de R$ 175. O Imposto de Renda por faixa de prazo tira cerca de R$ 35. Sobram cerca de R$ 140 líquidos, e o saldo chega a cerca de R$ 2.540. Não há IOF nem custódia nesse caso, porque cada aporte fica ao menos 30 dias e o total é menor que R$ 10 mil.",
+  "A diferença nesse cenário é de cerca de R$ 34 em um ano. Ela muda com a Selic. Se a Selic cair, o Tesouro Selic rende menos. A poupança segue 0,5% ao mês mais TR enquanto a Selic ficar acima de 8,5%. É um cálculo do Termômetro com hipóteses simples, não uma promessa de ganho.",
+  "Os dois têm regras diferentes de uso. A poupança é isenta de IR e rende no aniversário de cada depósito. O Tesouro Selic tem IR que cai com o prazo e liquidez diária.",
+  "Qual você escolheria? Conte nos comentários e diga o motivo: prazo, facilidade ou tranquilidade. O Termômetro não indica qual comprar."
+ ],
+ "como_se_proteger": [],
+ "slug": "poupanca-ou-tesouro-selic",
+ "publicado_em": "2026-11-12T00:05:17.675219",
+ "atualizado_em": "2026-11-12T00:05:17.675219",
+ "assunto": "Enquete: R$ 200 por mês na poupança ou no Tesouro Selic, quanto cada um rende em um ano com a fonte, e a pergunta \"qual você escolheria?\" nos comentários, sem indicar qual comprar",
+ "turno": "manha"
+}
