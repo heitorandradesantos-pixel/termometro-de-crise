@@ -1,0 +1,113 @@
+{
+ "titulo": "Banco do Brasil: lucro cai e calote no cartão sobe: o que se sabe",
+ "descricao": "Lucro do Banco do Brasil caiu 66,5% no 3º tri e o atraso no cartão de pessoa física chegou a 16,35%. Veja os números e o que eles mostram.",
+ "palavra_chave": "banco do brasil lucro 3º trimestre",
+ "lead": "O Banco do Brasil lucrou R$ 1,3 bilhão no 3º trimestre de 2026, 66,5% menos que um ano antes, segundo o balanço divulgado na noite de quarta (11/11). O atraso acima de 90 dias no cartão de crédito de pessoa física chegou a 16,35% em setembro, ante 8,89% um ano antes. O banco atribui a queda do lucro principalmente ao agronegócio, e não ao cartão.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O lucro líquido ajustado (resultado sem itens pontuais) foi de R$ 1,3 bilhão no 3º trimestre de 2026, queda de 66,5% na comparação anual. O banco divulgou o balanço na noite de quarta-feira, 11 de novembro.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/",
+   "data": "2026-11-11",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O lucro veio bem abaixo dos cerca de R$ 3 bilhões esperados pelo consenso (média das previsões) da Bloomberg. O lucro contábil, sem ajustes, foi de R$ 1,216 bilhão. A rentabilidade sobre o patrimônio (ROE) caiu de 8,4% para 2,8%.",
+   "fonte_url": "https://exame.com/invest/mercados/banco-do-brasil-ve-lucro-cair-66-no-3o-tri-e-corta-pela-metade-a-previsao-para-2026/",
+   "data": "2026-11-11",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Os cartões de crédito atingiram 16,35% de inadimplência acima de 90 dias (parcelas atrasadas há mais de três meses) em setembro. Em setembro de 2025, o índice era de 8,89%.",
+   "fonte_url": "https://www.spacemoney.com.br/credito/bb-inadimplencia-terceiro-trimestre",
+   "data": "2026-11-11",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Na pessoa física como um todo, o atraso acima de 90 dias passou de 6,01% para 9,14% em um ano. Na carteira total do banco, incluindo agro e empresas, foi de 6,08%, ante 4,51%.",
+   "fonte_url": "https://exame.com/invest/mercados/banco-do-brasil-ve-lucro-cair-66-no-3o-tri-e-corta-pela-metade-a-previsao-para-2026/",
+   "data": "2026-11-11",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O cartão destoa das outras linhas de pessoa física. Em setembro, o atraso foi de 3,17% no financiamento de veículos, 2,75% no imobiliário e 2,39% no consignado. O cartão estava em 7,12% em março e 14,58% em junho.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/inadimplencia-de-cartao-do-banco-do-brasil-sobe-para-16-35/",
+   "data": "2026-11-11",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "A carteira de cartões do banco somou R$ 68,46 bilhões em setembro. Compras à vista e parceladas sem juros são 76,8% do saldo, o parcelado com juros é 19,5% e o rotativo é 3,8%. Os dados constam do relatório de desempenho do banco.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/inadimplencia-de-cartao-do-banco-do-brasil-sobe-para-16-35/",
+   "data": "2026-11-11",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "O custo do crédito (dinheiro reservado para cobrir calotes) chegou a R$ 21,2 bilhões, alta de 18,4% em um ano. Segundo o banco, o aumento veio principalmente da inadimplência em parte do agronegócio e de reforços pontuais no atacado (grandes empresas).",
+   "fonte_url": "https://revistaempreende.com.br/lucro-banco-do-brasil-terceiro-trimestre-2026/",
+   "data": "2026-11-11",
+   "veiculo": "Revista Empreende",
+   "confiavel": false
+  },
+  {
+   "texto": "O banco cortou a previsão de lucro de 2026 de R$ 18 a R$ 22 bilhões para R$ 9 a R$ 11 bilhões. Também reduziu para 25% a parte do lucro destinada aos acionistas em 2026 e 2027.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ipca-pacote-fiscal-e-balanco-do-banco-do-brasil-2124760",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Banco Central informou que o juro médio do rotativo do cartão subiu de 444,9% ao ano em agosto para 451,7% em setembro. O parcelado foi a 193,0% ao ano.",
+   "fonte_url": "https://mais.opovo.com.br/jornal/economia/2026/10/30/juro-medio-do-rotativo-do-cartao-de-credito-sobe-a-4517-ao-ano-em-setembro-diz-bc.html",
+   "data": "2026-10-29",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco do Brasil divulgou o balanço do 3º trimestre, com lucro ajustado de R$ 1,3 bilhão (queda de 66,5% em um ano) e inadimplência de 16,35% no cartão.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/",
+   "data": "2026-11-11",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "No mesmo balanço, o banco cortou a previsão de lucro de 2026 para R$ 9 a R$ 11 bilhões e elevou a estimativa de custo do crédito para R$ 80 a R$ 83 bilhões.",
+   "fonte_url": "https://exame.com/invest/mercados/ipca-tombo-do-lucro-do-banco-do-brasil-e-nvidia-o-que-move-os-mercados-hoje/",
+   "data": "2026-11-11",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Na B3 (a bolsa), a ação ON do Banco do Brasil aparecia em queda de 1,23%, a R$ 16,89, segundo a página de cotações do Investing.com. O Ibovespa havia subido 0,42% na quarta, aos 172.060 pontos.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ipca-pacote-fiscal-e-balanco-do-banco-do-brasil-2124760",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Por que o atraso no cartão de pessoa física subiu tanto. Os resultados do 3º trimestre divulgados não trazem uma explicação detalhada nas fontes consultadas; qualquer causa apontada por terceiros não está confirmada pelo banco.",
+  "Se o atraso no cartão vai continuar subindo ou se estabiliza no 4º trimestre. Nenhuma das fontes consultadas traz projeção do banco para esse indicador.",
+  "Se o aumento é um problema só do Banco do Brasil ou do setor. Os dados de outros bancos para o 3º trimestre não foram verificados nesta apuração, então não há comparação confirmada.",
+  "Se haverá mudança em limite, anuidade ou regras do cartão para clientes. Isso não foi anunciado, e o aumento do atraso, sozinho, não permite concluir que haverá mudança (leitura do blog Alta Renda, não confirmada pelo banco)."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você é cliente do BB, o balanço não anunciou nenhuma mudança no seu cartão, no limite ou na anuidade. Os números mostram o comportamento da carteira do banco como um todo, não a sua situação.",
+  "O número de 16,35% mostra a parcela do saldo do cartão com atraso acima de 90 dias nesse banco. Ele não diz que 16,35% dos clientes estão em atraso.",
+  "Quem deixa parte da fatura para o mês seguinte entra no rotativo, que custa muito mais que outras dívidas. Em setembro, o Banco Central apontou média de 451,7% ao ano (cerca de 15,3% ao mês). O parcelado da fatura ficou em 193,0% ao ano.",
+  "Na prática, o rotativo de R$ 1.000 vira cerca de R$ 1.153 em 30 dias, sem contar IOF (imposto sobre operações financeiras) e encargos de atraso. É uma conta de conversão a partir da taxa média, e cada banco cobra uma taxa diferente.",
+  "Há um teto em lei, em vigor desde janeiro de 2024: juros e encargos acumulados não podem passar de 100% do valor original da dívida. Com fatura apertada, um passo calmo é ver no app ou no atendimento do banco quanto custa cada opção (rotativo, parcelado, renegociação) antes de decidir. Esta reportagem não indica qual escolher."
+ ],
+ "como_se_proteger": [],
+ "slug": "banco-do-brasil-lucro-3o-trimestre",
+ "publicado_em": "2026-11-12T08:39:16.857334",
+ "atualizado_em": "2026-11-12T08:39:16.857334",
+ "assunto": "Banco do Brasil: lucro do 3º trimestre caiu forte e a inadimplência no cartão de crédito de pessoa física subiu, segundo o balanço divulgado ontem; o que isso mostra sobre o bolso do brasileiro (calote no cartão, juro alto) e o passo calmo para quem está com a fatura apertada, sem recomendar ação",
+ "turno": "manha"
+}
