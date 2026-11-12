@@ -1,0 +1,188 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso / conta com número",
+  "texto": "Seu aluguel de R$ 2.000 pode virar R$ 2.091,60 com o IPCA.",
+  "na_tela": "Aluguel de R$ 2.000: R$ 2.091,60?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso / conta com número",
+   "texto": "Seu aluguel de R$ 2.000 pode virar R$ 2.091,60 com o IPCA.",
+   "na_tela": "Aluguel de R$ 2.000: R$ 2.091,60?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Hoje, às 9h, sai o IPCA que mexe no reajuste do seu aluguel.",
+   "na_tela": "Hoje, 9h: sai o IPCA",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Em agosto, 4,22%. Em setembro, 4,58%. E o de outubro sai hoje.",
+   "na_tela": "4,22% … 4,58% … e outubro?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Seu aluguel de R$ 2.000 pode virar R$ 2.091,60 com o IPCA.",
+  "O IBGE divulga hoje, às 9h, o IPCA de outubro.",
+  "Até setembro, o IPCA em 12 meses era 4,58%.",
+  "Num aluguel de R$ 2.000, isso dá R$ 2.091,60.",
+  "Olha só: o resultado de outubro ainda não foi confirmado.",
+  "Na prévia do IBGE, a febre baixou, mas comida de casa subiu 1,01%.",
+  "Veja no contrato qual índice e qual mês valem.",
+  "Manda pra quem tem reajuste de aluguel chegando.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu aluguel de R$ 2.000 pode virar R$ 2.091,60 com o IPCA. O IBGE divulga hoje, às 9h, o IPCA de outubro. Até setembro, o IPCA em 12 meses era 4,58%. Num aluguel de R$ 2.000, isso dá R$ 2.091,60. Olha só: o resultado de outubro ainda não foi confirmado. Na prévia do IBGE, a febre baixou, mas comida de casa subiu 1,01%. Veja no contrato qual índice e qual mês valem. Manda pra quem tem reajuste de aluguel chegando. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Aluguel de R$ 2.000: R$ 2.091,60?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "IPCA de outubro: hoje, 9h",
+   "fonte": "Brasil em Folhas"
+  },
+  {
+   "fala": 2,
+   "texto": "4,58% em 12 meses",
+   "fonte": "IBGE (via SindusconPR)"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 2.000 → R$ 2.091,60",
+   "fonte": "Imobibrasil"
+  },
+  {
+   "fala": 4,
+   "texto": "Resultado: não confirmado",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Comida de casa: +1,01%",
+   "fonte": "IBGE"
+  },
+  {
+   "fala": 6,
+   "texto": "Contrato: índice e mês"
+  }
+ ],
+ "retomada": 4,
+ "busca": "IPCA de outubro hoje: quanto meu aluguel vai subir?",
+ "legenda": "IPCA de outubro hoje: quanto meu aluguel vai subir?\n\nO IBGE divulga hoje, às 9h, o IPCA de outubro. Até setembro, o acumulado em 12 meses era de 4,58%. Num aluguel de R$ 2.000, isso dá R$ 2.091,60.\n\nO número oficial de outubro ainda não foi confirmado na nossa apuração. Na prévia, segundo o IBGE, a comida de casa subiu 1,01%.\n\nO reajuste depende do contrato: confira qual índice e qual mês de referência valem.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ipca #inflacao #aluguel #educacaofinanceira",
+ "hashtags": [
+  "#ipca",
+  "#inflacao",
+  "#aluguel",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "O IPCA sai hoje, às 9h, e mexe no seu aluguel.",
+  "topicos": [
+   "O IBGE divulga o IPCA de outubro hoje, às 9h.",
+   "Até setembro, o IPCA em 12 meses era 4,58%, segundo o IBGE.",
+   "Num aluguel de R$ 2.000, isso dá R$ 2.091,60; o contrato define o índice.",
+   "Confira no contrato qual índice e qual mês de referência valem."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia do dia, com divulgação marcada para hoje às 9h, e pede urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Na prévia do IBGE, a febre baixou, mas comida de casa subiu 1,01%\": falta traduzir \"prévia\" (o IPCA-15) e dizer o que isso muda no bolso. Reescreva em conversa, por exemplo: \"Olha só: na prévia, que é uma espécie de ensaio do IPCA, a febre baixou, mas a comida de casa subiu 1,01%. Ou seja, o mercado e a feira ainda pesam.\" Use só o que já está na peça.",
+   "Frase \"Até setembro, o IPCA em 12 meses era 4,58%. Num aluguel de R$ 2.000, isso dá R$ 2.091,60\": é a parte mais fria do roteiro, e falta a comparação viva. Traduza IPCA na primeira vez (\"o índice que mede quanto os preços subiram\") e mostre a conta em passo simples (\"R$ 2.000 mais 4,58% = R$ 2.091,60\"). Assim o melancólico vê o porquê e o sanguíneo pega uma imagem do dia a dia.",
+   "Frase \"Veja no contrato qual índice e qual mês valem. Manda pra quem tem reajuste de aluguel chegando\": o passo está certo, mas fica seco e em tom de ordem. Acrescente um fecho calmo e acolhedor antes do envio, como \"Calma: é só abrir o contrato e conferir duas coisas, o índice e o mês\". Isso dá ao fleumático a segurança de um passo simples e deixa a sequência de chamadas (contrato, enviar, WhatsApp) menos corrida."
+  ],
+  "veredito": "A peça fala direto com quem paga aluguel, com número, fonte, aviso honesto de que outubro não foi confirmado, um passo prático e os bordões da casa; falta traduzir \\\"prévia\\\" e IPCA e trazer mais conversa e calma para a parte do número."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow push-in over a wooden desk by a window in soft morning light: a closed rental contract folder, a pen, a small calculator with a blank screen, and a set of apartment keys. Shallow depth of field, no people, no readable text or numbers",
+   "texto_da_fala": "Num aluguel de R$ 2.000, isso dá R$ 2.091,60.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in over a wooden desk by a window in soft morning light: a closed rental contract folder, a pen, a small calculator with a blank screen, and a set of apartment keys. Shallow depth of field, no people, no readable text or numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Smooth lateral tracking shot along a supermarket produce aisle, with fresh vegetables, fruit, rice and beans in bags neatly stacked on shelves. Warm lighting, a shopping basket in the foreground, no people in focus, no readable labels, text, logos or brands",
+   "texto_da_fala": "Na prévia do IBGE, a febre baixou, mas comida de casa subiu 1,01%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth lateral tracking shot along a supermarket produce aisle, with fresh vegetables, fruit, rice and beans in bags neatly stacked on shelves. Warm lighting, a shopping basket in the foreground, no people in focus, no readable labels, text, logos or brands. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Overhead camera slowly gliding down over a kitchen table with a rental contract on it, blank pages with abstract lines instead of words, a hand-less highlighter pen resting on the paper, a coffee cup and a wall calendar in the background. No people, no readable text, no numbers, no logos",
+   "texto_da_fala": "Veja no contrato qual índice e qual mês valem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Overhead camera slowly gliding down over a kitchen table with a rental contract on it, blank pages with abstract lines instead of words, a hand-less highlighter pen resting on the paper, a coffee cup and a wall calendar in the background. No people, no readable text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu aluguel de R$ 2.000 pode virar R$ 2.091,60 com o IPCA.\n\nO IBGE divulga hoje, às 9h, o IPCA de outubro.\n\nAté setembro, o IPCA em 12 meses era 4,58%.\n\nNum aluguel de R$ 2.000, isso dá R$ 2.091,60.\n\nOlha só: o resultado de outubro ainda não foi confirmado.\n\nNa prévia do IBGE, a febre baixou, mas comida de casa subiu 1,01%.\n\nVeja no contrato qual índice e qual mês valem.\n\nManda pra quem tem reajuste de aluguel chegando.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "IBGE (Agência de Notícias)",
+   "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro",
+   "destaque": "A prévia da inflação (IPCA-15) de outubro foi de 0,32%, contra 0,70% em setembro."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/economia/ipca-15-previa-inflacao-ibge-outubro-2026/",
+   "destaque": "Na prévia, comida foi o que mais pesou: o grupo Alimentação e Bebidas subiu 0,88%."
+  },
+  {
+   "veiculo": "IBGE (publicação IPCA-15)",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2376/ipca_15_2026_out.pdf",
+   "destaque": "Ainda na prévia, o etanol subiu 2,73% e a gasolina, 0,92%."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T08:46:49.012186-03:00"
+}
