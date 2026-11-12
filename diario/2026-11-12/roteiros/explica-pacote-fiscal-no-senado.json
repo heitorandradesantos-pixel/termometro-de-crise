@@ -1,0 +1,169 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "R$ 43 bilhões a R$ 54 bilhões: o que esse pacote muda no seu bolso?",
+  "na_tela": "Pacote fiscal: muda seu bolso?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "R$ 43 bilhões a R$ 54 bilhões: o que esse pacote muda no seu bolso?",
+   "na_tela": "Pacote fiscal: muda seu bolso?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O dólar caiu na quarta, e não foi só por causa do pacote fiscal.",
+   "na_tela": "Dólar caiu: não foi só o pacote",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Esse pacote do Senado mexe na sua conta? Hoje, não.",
+   "na_tela": "Pacote do Senado mexe na sua conta?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 43 bilhões a R$ 54 bilhões: o que esse pacote muda no seu bolso?",
+  "Segundo o relator, é quanto as contas de 2027 podem melhorar.",
+  "É como a família combinando de segurar o cartão.",
+  "Hoje, nada muda no seu bolso: o projeto nem foi votado.",
+  "Olha só: o dólar caiu na quarta, mas petróleo também ajudou.",
+  "A votação é quinta, às 16h, ou na semana seguinte.",
+  "Confira o texto final e manda pra quem acompanha o dólar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 43 bilhões a R$ 54 bilhões: o que esse pacote muda no seu bolso? Segundo o relator, é quanto as contas de 2027 podem melhorar. É como a família combinando de segurar o cartão. Hoje, nada muda no seu bolso: o projeto nem foi votado. Olha só: o dólar caiu na quarta, mas petróleo também ajudou. A votação é quinta, às 16h, ou na semana seguinte. Confira o texto final e manda pra quem acompanha o dólar. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Pacote fiscal: muda seu bolso?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 43 bilhões a R$ 54 bilhões",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 3,
+   "texto": "Hoje: nada muda no seu bolso",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Dólar caiu na quarta: petróleo também ajudou",
+   "fonte": "InvestNews"
+  },
+  {
+   "fala": 5,
+   "texto": "Votação: quinta, 16h",
+   "fonte": "Agência Senado"
+  }
+ ],
+ "retomada": 4,
+ "busca": "pacote fiscal Senado o que muda no meu bolso",
+ "legenda": "Pacote fiscal no Senado: o que muda no seu bolso?\n\nSegundo o parecer do relator, o pacote pode melhorar as contas de 2027 em R$ 43 bilhões a R$ 54 bilhões. A votação está marcada para quinta, às 16h, mas pode ficar para a semana seguinte, disse o presidente do Senado, Davi Alcolumbre.\n\nO dólar caiu na quarta, mas as reportagens citam também o petróleo e as ações em Nova York. Hoje, nada muda no seu bolso: o projeto ainda não foi votado.\n\nManda para quem acompanha o dólar de perto. O grupo do WhatsApp está no link da bio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pacotefiscal #senado #dolar #economia #financaspessoais",
+ "hashtags": [
+  "#pacotefiscal",
+  "#senado",
+  "#dolar",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "O pacote fiscal do Senado muda algo no seu bolso? Hoje, não.",
+  "topicos": [
+   "Segundo o relator, 2027 pode melhorar R$ 43 bilhões a R$ 54 bilhões.",
+   "Votação quinta, às 16h; Alcolumbre diz que pode ir para a semana seguinte.",
+   "O dólar caiu na quarta, mas petróleo também ajudou, segundo as reportagens.",
+   "Hoje nada muda no seu bolso: confira o texto final depois da votação."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e vários pontos (valor, votação, dólar), que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Hoje, nada muda no seu bolso: o projeto nem foi votado.\": ela responde só metade da pergunta de bolso e termina sem saída. Reescreva dando um passo simples e calmo, sem inventar fato, por exemplo: \"Hoje, nada muda no seu bolso. Não precisa fazer nada agora; é só ficar de olho no resultado da votação e no que muda de verdade pra você.\"",
+   "Frase \"É como a família combinando de segurar o cartão.\": a comparação é boa, mas fica solta e curta. Amarre ao número na mesma frase: \"R$ 43 a 54 bilhões é a conta de 2027 melhorando, como a família que combina de segurar o cartão pra fechar o mês no azul.\" Traduza \"pacote fiscal\" ou \"contas melhorarem\" em uma frase de dia a dia (menos gasto ou mais receita do governo, conforme o parecer).",
+   "Frase \"Olha só: o dólar caiu na quarta, mas petróleo também ajudou.\" e \"manda pra quem acompanha o dólar\": o \"Olha só\" promete uma virada que a peça não paga, e o dólar se afasta do bolso de quem não investe. Reescreva a virada ligando o dólar à vida real (o que o dólar costuma mexer no dia a dia, só se a fonte da peça sustentar) e troque o pedido final por algo mais amplo: \"manda pra quem pergunta se isso pesa no bolso\". Diga também que o texto pode mudar até a votação."
+  ],
+  "veredito": "A peça tem o tom certo (Sábio com jeito de Cara Comum, bordões, número com fonte do relator, sem alarde nem promessa) e é honesta ao dizer que hoje nada muda, mas falta o \\\"o que eu faço?\\\", a comparação ganhar vida e a virada \\\"Olha só\\\" pagar o que promete para quem sente o bolso apertado."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Vertical shot, : a warm family kitchen table in soft morning light, a plain blank unbranded credit card with no numbers or text lying next to a coffee cup and a bowl of fruit; a hand with no face in frame slides the card into a small ceramic jar and sets the lid on it. Slow push-in camera movement, shallow depth of field, cozy tone",
+   "texto_da_fala": "É como a família combinando de segurar o cartão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, : a warm family kitchen table in soft morning light, a plain blank unbranded credit card with no numbers or text lying next to a coffee cup and a bowl of fruit; a hand with no face in frame slides the card into a small ceramic jar and sets the lid on it. Slow push-in camera movement, shallow depth of field, cozy tone. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Vertical shot, : an offshore oil platform standing in a calm sea at sunrise, orange light reflecting on the water, flame of the flare tower flickering in the distance, small supply boat crossing the foreground. Smooth aerial drone orbit around the platform, cinematic, no text, no logos",
+   "texto_da_fala": "Olha só: o dólar caiu na quarta, mas petróleo também ajudou.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, : an offshore oil platform standing in a calm sea at sunrise, orange light reflecting on the water, flame of the flare tower flickering in the distance, small supply boat crossing the foreground. Smooth aerial drone orbit around the platform, cinematic, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot, : the empty plenary chamber of a modern legislative building, rows of empty seats and a large empty podium, afternoon sunlight streaming through tall windows and dust floating in the air, no flags, no people, no text or screens. Slow dolly forward down the central aisle, then a gentle tilt up toward the high ceiling",
+   "texto_da_fala": "A votação é quinta, às 16h, ou na semana seguinte.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, : the empty plenary chamber of a modern legislative building, rows of empty seats and a large empty podium, afternoon sunlight streaming through tall windows and dust floating in the air, no flags, no people, no text or screens. Slow dolly forward down the central aisle, then a gentle tilt up toward the high ceiling. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 43 bilhões a R$ 54 bilhões: o que esse pacote muda no seu bolso?\n\nSegundo o relator, é quanto as contas de 2027 podem melhorar.\n\nÉ como a família combinando de segurar o cartão.\n\nHoje, nada muda no seu bolso: o projeto nem foi votado.\n\nOlha só: o dólar caiu na quarta, mas petróleo também ajudou.\n\nA votação é quinta, às 16h, ou na semana seguinte.\n\nConfira o texto final e manda pra quem acompanha o dólar.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/entenda-o-ajuste-fiscal-de-lula-de-ate-r-60-bi-que-o-senado-pode-votar-hoje/",
+   "destaque": "O projeto prevê melhora de R$ 43 bilhões a R$ 54 bilhões no resultado primário de 2027."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T08:53:35.424208-03:00"
+}
