@@ -24,7 +24,7 @@ import requests
 
 from . import config, ia
 
-PERFIS = tuple(p.strip().lstrip("@") for p in (os.environ.get("REFERENCIAS_PERFIS") or "pablospyer,falecomrian,shimoncomunica,andreynousi,rufino").split(",")
+PERFIS = tuple(p.strip().lstrip("@") for p in (os.environ.get("REFERENCIAS_PERFIS") or "pablospyer,falecomrian,shimoncomunica,andreynousi,rufino,thiago.nigro,icarode.carvalho").split(",")
                if p.strip())
 GRAPH = "https://graph.facebook.com/v21.0"
 DIAS = int(os.environ.get("REFERENCIAS_DIAS") or "3")  # só o que saiu nos últimos dias
