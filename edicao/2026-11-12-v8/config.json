@@ -1,0 +1,134 @@
+{
+ "saida": "ipca-outubro-aluguel-editado.mp4",
+ "fim": 40.4,
+ "bordao": [
+  38.4,
+  40.4
+ ],
+ "remover": [],
+ "destaques": "\\d|%|ipca|ibge|aluguel|inflação|whatsapp|atualização",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "roteiro": [
+  "Seu aluguel de R$ 2.000 pode virar R$ 2.091,60 com o IPCA.",
+  "O IBGE divulga hoje, às 9h, o IPCA de outubro.",
+  "Até setembro, o IPCA em 12 meses era 4,58%.",
+  "Num aluguel de R$ 2.000, isso dá R$ 2.091,60.",
+  "Olha só: o resultado de outubro ainda não foi confirmado.",
+  "Na prévia do IBGE, a febre baixou, mas comida de casa subiu 1,01%.",
+  "Veja no contrato qual índice e qual mês valem.",
+  "Manda pra quem tem reajuste de aluguel chegando.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "4",
+    "58%"
+   ],
+   [
+    "4,58%"
+   ]
+  ],
+  [
+   [
+    "2",
+    "mil",
+    "reais"
+   ],
+   [
+    "R$",
+    "2.000"
+   ]
+  ],
+  [
+   [
+    "2",
+    "mil",
+    "e",
+    "91",
+    "reais"
+   ],
+   [
+    "R$",
+    "2.091"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   2.4,
+   "Aluguel de R$ 2.000: *R$ 2.091,60?*",
+   ""
+  ],
+  [
+   2.5,
+   6.2,
+   "IPCA de outubro: *hoje, 9h*",
+   "Fonte: IBGE"
+  ],
+  [
+   6.5,
+   9.2,
+   "*4,58%* em 12 meses (até setembro)",
+   "Fonte: IBGE"
+  ],
+  [
+   9.8,
+   12.1,
+   "IPCA = *inflação oficial*",
+   ""
+  ],
+  [
+   12.4,
+   15.9,
+   "R$ 2.000 → *R$ 2.091,60*",
+   "Fonte: cálculo com o IPCA de 12 meses"
+  ],
+  [
+   16.1,
+   19.0,
+   "ATUALIZAÇÃO: saiu! Outubro *+0,14%*, 12 meses *4,63%*",
+   "Fonte: IBGE, 12/11"
+  ],
+  [
+   19.2,
+   23.1,
+   "Prévia: comida de casa *+1,01%*",
+   "Fonte: IBGE (IPCA-15)"
+  ],
+  [
+   23.4,
+   26.8,
+   "Contrato: *índice e mês*",
+   ""
+  ],
+  [
+   27.1,
+   29.0,
+   "Manda pra quem tem *reajuste chegando*",
+   ""
+  ],
+  [
+   29.2,
+   32.0,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   34.7,
+   38.2,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "saida": "pacote-fiscal-editado.mp4",
+ "fim": 38.3,
+ "bordao": [
+  35.9,
+  38.3
+ ],
+ "remover": [
+  [
+   30.25,
+   33.85
+  ]
+ ],
+ "destaques": "\\d|%|bilh|pacote|dólar|petróleo|votação|whatsapp|nada muda",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "roteiro": [
+  "R$ 43 bilhões a R$ 54 bilhões: o que esse pacote muda no seu bolso?",
+  "Segundo o relator, é quanto as contas de 2027 podem melhorar.",
+  "É como a família combinando de segurar o cartão.",
+  "Hoje, nada muda no seu bolso: o projeto nem foi votado.",
+  "Olha só: o dólar caiu na quarta, mas petróleo também ajudou.",
+  "A votação é quinta, às 16h, ou na semana seguinte.",
+  "Confira o texto final e manda pra quem acompanha o dólar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "R",
+    "33",
+    "a",
+    "R",
+    "54",
+    "bilhões"
+   ],
+   [
+    "R$ 43",
+    "a",
+    "R$ 54",
+    "bilhões"
+   ]
+  ],
+  [
+   [
+    "quantas",
+    "contas"
+   ],
+   [
+    "quanto",
+    "as",
+    "contas"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   3.6,
+   "Pacote fiscal: *muda seu bolso?*",
+   ""
+  ],
+  [
+   3.9,
+   7.4,
+   "*R$ 43 a 54 bi* nas contas de 2027",
+   "Fonte: InfoMoney (parecer do relator)"
+  ],
+  [
+   7.7,
+   9.9,
+   "Família *segurando o cartão*",
+   ""
+  ],
+  [
+   10.0,
+   13.2,
+   "Hoje: *nada muda* no seu bolso",
+   ""
+  ],
+  [
+   13.5,
+   16.7,
+   "Dólar caiu na quarta: *petróleo também ajudou*",
+   "Fonte: InvestNews"
+  ],
+  [
+   17.1,
+   20.5,
+   "Votação: *quinta, 16h*",
+   "Fonte: Agência Senado"
+  ],
+  [
+   24.0,
+   26.4,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   28.7,
+   35.8,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ]
+}
