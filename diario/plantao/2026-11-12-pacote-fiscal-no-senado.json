@@ -1,0 +1,128 @@
+{
+ "titulo": "Pacote fiscal no Senado: impacto de R$ 43 a 54 bi: o que se sabe",
+ "descricao": "O governo estima que o pacote fiscal no Senado melhore as contas de 2027 em R$ 43 a 54 bi. Veja o que se sabe, o que não se sabe e o que muda para você.",
+ "palavra_chave": "pacote fiscal no senado",
+ "lead": "O pacote fiscal do governo (PLP 299/2026) pode melhorar o resultado das contas públicas de 2027 em R$ 43 bilhões a R$ 54 bilhões, segundo o parecer do relator, que usa dados do Executivo. O Senado deve votar o texto nesta quinta-feira (12), às 16h, mas o presidente da Casa, Davi Alcolumbre, disse que a votação pode ficar para a semana seguinte. Na quarta (11), o dólar caiu e a bolsa subiu com o assunto no radar, mas outros fatores também pesaram.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O projeto prevê melhora de R$ 43 bilhões a R$ 54 bilhões no resultado primário de 2027. O resultado primário é a diferença entre receitas e despesas do governo, sem contar os juros da dívida. A estimativa está no parecer do relator, Eduardo Braga (MDB-AM), com base em informações do Executivo.",
+   "fonte_url": "https://www.infomoney.com.br/politica/entenda-o-ajuste-fiscal-de-lula-de-ate-r-60-bi-que-o-senado-pode-votar-hoje/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Há outra conta, mais alta. Na quarta (11), o ministro do Planejamento, Bruno Moretti, estimou efeito de R$ 50 bilhões a R$ 60 bilhões em 2027, somando receitas e despesas. Os dois números aparecem juntos nas reportagens e não são o mesmo cálculo.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ipca-pacote-fiscal-e-balanco-do-banco-do-brasil-2124760",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "O texto limita a 2% ao ano o crescimento real das despesas (acima da inflação) nos anos de contenção fiscal, contra 2,5% hoje no arcabouço fiscal. Também reduz benefícios tributários e restringe compensações de créditos e débitos de impostos.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/ajuste-fiscal-pode-ser-votado-nesta-quinta-feira",
+   "data": "2026-11-11",
+   "veiculo": "Agência Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "O projeto autoriza excluir da meta fiscal de 2026 até R$ 10,5 bilhões em subsídios ao diesel. Isso muda a forma de medir o cumprimento da meta, mas não elimina a despesa.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ipca-pacote-fiscal-e-balanco-do-banco-do-brasil-2124760",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "A sessão de quarta (11) foi suspensa depois que senadores da oposição reclamaram do prazo curto para analisar o parecer. A votação foi remarcada para quinta (12), às 16h. Alcolumbre disse que ela pode ficar para a próxima semana se líderes pedirem mais tempo.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/ajuste-fiscal-pode-ser-votado-nesta-quinta-feira",
+   "data": "2026-11-11",
+   "veiculo": "Agência Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "Na quarta (11), o dólar fechou em queda de 0,43%, a R$ 5,56, e o Ibovespa subiu 0,42%, aos 172.060 pontos. Um dia antes, o dólar tinha subido 1,47%, a R$ 5,586, o maior valor desde julho de 2025. A bolsa tinha caído 0,52%.",
+   "fonte_url": "https://investnews.com.br/investimentos/petrobras-cai-ibovespa-hoje-sobe/",
+   "data": "2026-11-11",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "A queda do dólar teve mais de uma causa. As reportagens citam o pacote fiscal, a recuperação das ações de tecnologia em Nova York e o petróleo em alta. O Ibovespa também foi contido pela queda da Petrobras após o balanço.",
+   "fonte_url": "https://arede.info/cotidiano/692539/dolar-cai-042-e-fecha-a-r-556-com-foco-em-pacote-fiscal",
+   "data": "2026-11-11",
+   "veiculo": "A Rede",
+   "confiavel": false
+  },
+  {
+   "texto": "Antes do projeto ser protocolado, relatos de mercado trabalhavam com valores maiores: R$ 50 bilhões a R$ 80 bilhões, segundo o InvestNews. Parte da imprensa econômica falava em R$ 70 bilhões a R$ 80 bilhões, segundo o Diário do Sudoeste. Por isso, o R$ 43 bilhões a R$ 54 bilhões aparece abaixo dessas projeções.",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-sobe-042-e-dolar-cai-a-r-556-com-pacote-fiscal/",
+   "data": "2026-11-11",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O dólar sobe 1,47%, a R$ 5,586, o maior valor desde julho de 2025. O Ibovespa cai 0,52%.",
+   "fonte_url": "https://investnews.com.br/investimentos/petrobras-cai-ibovespa-hoje-sobe/",
+   "data": "2026-11-10",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "Moretti fala em R$ 50 bilhões a R$ 60 bilhões na Comissão Mista de Orçamento. O projeto é protocolado no Senado à noite, por Jaques Wagner (PT-BA).",
+   "fonte_url": "https://www.gazetadopovo.com.br/economia/governo-lula-envia-ao-senado-projeto-de-ajuste-fiscal-com-corte-de-beneficios-tributarios/",
+   "data": "2026-11-11",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "A sessão do Senado é suspensa depois de pedidos da oposição por mais prazo.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/ajuste-fiscal-pode-ser-votado-nesta-quinta-feira",
+   "data": "2026-11-11",
+   "veiculo": "Agência Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar fecha em queda de 0,43%, a R$ 5,56, e o Ibovespa sobe 0,42%, aos 172.060 pontos.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-cai-a-r-5-56-com-expectativa-de-ajuste-nas-contas-do-governo",
+   "data": "2026-11-11",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "O relator Eduardo Braga apresenta o parecer de plenário, com melhora estimada de R$ 43 bilhões a R$ 54 bilhões no resultado primário de 2027.",
+   "fonte_url": "https://www.infomoney.com.br/politica/entenda-o-ajuste-fiscal-de-lula-de-ate-r-60-bi-que-o-senado-pode-votar-hoje/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A votação do PLP 299/2026 está marcada para as 16h, mas pode ser adiada para a semana seguinte.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/11/11/ajuste-fiscal-pode-ser-votado-nesta-quinta-feira",
+   "data": "2026-11-12",
+   "veiculo": "Agência Senado",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o Senado vai votar nesta quinta (12) ou na semana seguinte. Alcolumbre disse que depende das lideranças. Até o fechamento desta apuração, não havia resultado de votação.",
+  "Se o mercado considera o número \"menor do que o esperado\". Isso não foi confirmado por fonte oficial. A reportagem achou projeções anteriores mais altas (R$ 50 bilhões a R$ 80 bilhões), mas não achou análise que ligue a queda do dólar a esse ponto. A Nomad disse que o mercado seguia cauteloso, à espera de detalhes.",
+  "Quanto cada medida vai render. Segundo o Jornal Taguacei e o Correio do Estado, o projeto não traz memória de cálculo detalhada por medida. Isso não foi confirmado por outra fonte oficial.",
+  "Se o texto muda no plenário do Senado. O governo diz que a economia depende da aprovação. O Seu Dinheiro escreve que a estimativa vale se o texto passar sem alterações.",
+  "Como o mercado reagiu em 12/11. Não havia dados de fechamento de hoje nas fontes consultadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda no seu bolso. O projeto ainda não foi votado, e precisaria passar também por outras etapas antes de valer.",
+  "Dólar: o câmbio reage a dúvidas sobre as contas do governo. O dólar mais caro encarece produtos importados e viagens. A queda de 11/11 teve também causas externas, como petróleo e bolsas americanas.",
+  "Quem tem investimentos: a bolsa e os juros futuros costumam oscilar com notícias fiscais. A XP Macro avalia que o pacote reforça o controle no curto prazo, mas não muda de forma relevante o rumo da dívida pública. Essa é a leitura da XP, não um consenso.",
+  "Quem depende de benefícios ou serviços públicos: o texto mexe no limite de gastos e em benefícios tributários de empresas. A fonte consultada não detalha efeito direto sobre benefícios pagos a pessoas.",
+  "Empresas: a proposta prevê corte de benefícios tributários e limite no uso de créditos para pagar impostos federais. O percentual do corte (10% ou 20%) aparece de forma diferente entre as reportagens. Confira o texto final aprovado."
+ ],
+ "como_se_proteger": [],
+ "slug": "pacote-fiscal-no-senado",
+ "publicado_em": "2026-11-12T08:49:47.685089",
+ "atualizado_em": "2026-11-12T08:49:47.685089",
+ "assunto": "Pacote fiscal no Senado: impacto de R$ 43 a 54 bilhões nas contas públicas, segundo o governo, menor do que o mercado esperava; por que a bolsa e o dólar reagem a isso e o que muda para quem investe e para o bolso, sem opinião política",
+ "turno": "manha"
+}
