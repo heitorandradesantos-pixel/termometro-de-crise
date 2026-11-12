@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Meio a meio, ela paga 40% do salário, ele cerca de 67%.",
+  "na_tela": "Meio a meio pesa 67%",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Meio a meio, ela paga 40% do salário, ele cerca de 67%.",
+   "na_tela": "Meio a meio pesa 67%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Já descobriram, você ainda não",
+   "texto": "Bancos e colunistas já indicam outro jeito de dividir a conta. Seu casal ainda não.",
+   "na_tela": "Seu casal ainda não",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem paga mais a conta da casa no seu casal?",
+   "na_tela": "Quem paga mais?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Meio a meio, ela paga 40% do salário, ele cerca de 67%.",
+  "Exemplo: ela ganha R$ 5.000 e ele R$ 3.000.",
+  "Contas da casa: R$ 4.000. Meio a meio, R$ 2.000 cada.",
+  "Salário é o tamanho do prato: rachar igual pesa mais pra ele.",
+  "Mas bancos indicam outro jeito: pela renda de cada um.",
+  "Pela renda, ele paga R$ 1.500 e ela R$ 2.500.",
+  "Combinem antes, paguem a casa primeiro, depois separem a reserva.",
+  "Manda para quem divide as contas com alguém.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Meio a meio, ela paga 40% do salário, ele cerca de 67%. Exemplo: ela ganha R$ 5.000 e ele R$ 3.000. Contas da casa: R$ 4.000. Meio a meio, R$ 2.000 cada. Salário é o tamanho do prato: rachar igual pesa mais pra ele. Mas bancos indicam outro jeito: pela renda de cada um. Pela renda, ele paga R$ 1.500 e ela R$ 2.500. Combinem antes, paguem a casa primeiro, depois separem a reserva. Manda para quem divide as contas com alguém. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Meio a meio pesa 67%",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Ela R$ 5.000 | Ele R$ 3.000",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 2,
+   "texto": "Contas R$ 4.000 | Meio a meio R$ 2.000",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Divisão pela renda",
+   "fonte": "Blog PagBank"
+  },
+  {
+   "fala": 5,
+   "texto": "Ele R$ 1.500 | Ela R$ 2.500",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Manda para quem divide as contas",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "como dividir as contas do casal",
+ "legenda": "Como dividir as contas do casal quando um ganha mais que o outro?\n\nNa conta ilustrativa do Termômetro, ela ganha R$ 5.000, ele ganha R$ 3.000 e as contas da casa somam R$ 4.000. Meio a meio, cada um paga R$ 2.000. Isso pesa 40% da renda dela e cerca de 67% da renda dele.\n\nSegundo o Blog PagBank, dividir pela renda de cada um tende a ser mais justo quando as rendas são diferentes. O passo a passo, segundo o C6 Bank: somar as rendas, achar a fatia de cada um e aplicar a mesma fatia ao total das despesas.\n\nOs números são só um exemplo, não uma recomendação. Combine o percentual antes, pague a casa primeiro e depois separe a reserva. Manda para quem divide as contas com alguém.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dinheirodecasal #financaspessoais #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dinheirodecasal",
+  "#financaspessoais",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Meio a meio: 40% do salário dela, cerca de 67% do dele.",
+  "topicos": [
+   "Exemplo do Termômetro: ela ganha R$ 5.000, ele R$ 3.000, contas de R$ 4.000.",
+   "Meio a meio, cada um paga R$ 2.000; pela renda, ele paga R$ 1.500.",
+   "Segundo o Blog PagBank, pela renda tende a ser mais justo quando ganham diferente.",
+   "Combinem o percentual antes, paguem a casa primeiro e depois separem a reserva."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com exemplo e vários números, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Mas bancos indicam outro jeito: pela renda de cada um.\" Troque por uma virada da casa e traduza: \"Olha só: tem um jeito que os bancos indicam, dividir de forma proporcional, ou seja, cada um paga conforme o que ganha.\" Assim entra o bordão e o termo fica traduzido.",
+   "\"Meio a meio, ela paga 40% do salário, ele cerca de 67%.\" O gancho começa sem dizer pra quem é. Puxe a identificação pro começo: \"Você divide as contas de casa meio a meio? Olha o que acontece quando um ganha mais que o outro: ela paga 40% do salário, ele cerca de 67%.\"",
+   "\"Mas bancos indicam...\" Fale a fonte que já está na legenda: \"segundo o Blog PagBank\". Fica mais próximo do \"número com fonte\" e a prova aparece também no vídeo, não só na legenda."
+  ],
+  "veredito": "A peça acerta no bolso do casal, na comparação do prato, nos números com conta aberta e no passo simples, mas a abertura não chama quem ouve, a fonte fica vaga no vídeo e falta a virada \\\"Olha só\\\" com o termo traduzido."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow overhead dolly-in over a wooden kitchen table in warm morning light, covered with plain blank unmarked envelopes, a ceramic mug and a small stack of unmarked paper bills. Two identical stacks of coins sit side by side at the edge of the table. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Contas da casa: R$ 4.000. Meio a meio, R$ 2.000 cada.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow overhead dolly-in over a wooden kitchen table in warm morning light, covered with plain blank unmarked envelopes, a ceramic mug and a small stack of unmarked paper bills. Two identical stacks of coins sit side by side at the edge of the table. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Close-up on a rustic dining table: one very large white dinner plate next to one small plate, both with the same amount of simple food on them. Camera slowly slides sideways and tilts down to reveal the contrast in size. Soft natural window light, shallow depth of field. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Salário é o tamanho do prato: rachar igual pesa mais pra ele.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a rustic dining table: one very large white dinner plate next to one small plate, both with the same amount of simple food on them. Camera slowly slides sideways and tilts down to reveal the contrast in size. Soft natural window light, shallow depth of field. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow push-in on a tidy kitchen counter where a hand-less scene shows two glass jars: a larger jar filling up with coins first, then a smaller jar beside it with a few coins and a small green plant. Warm daylight, gentle focus pull from the big jar to the small one. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Combinem antes, paguem a casa primeiro, depois separem a reserva.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in on a tidy kitchen counter where a hand-less scene shows two glass jars: a larger jar filling up with coins first, then a smaller jar beside it with a few coins and a small green plant. Warm daylight, gentle focus pull from the big jar to the small one. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Meio a meio, ela paga 40% do salário, ele cerca de 67%.\n\nExemplo: ela ganha R$ 5.000 e ele R$ 3.000.\n\nContas da casa: R$ 4.000. Meio a meio, R$ 2.000 cada.\n\nSalário é o tamanho do prato: rachar igual pesa mais pra ele.\n\nMas bancos indicam outro jeito: pela renda de cada um.\n\nPela renda, ele paga R$ 1.500 e ela R$ 2.500.\n\nCombinem antes, paguem a casa primeiro, depois separem a reserva.\n\nManda para quem divide as contas com alguém.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/en",
+   "destaque": "A Selic, a taxa básica de juros do país, está em 13,75% ao ano."
+  },
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/pec/poupanca/poupanca.asp?frame=1",
+   "destaque": "A regra da poupança está na página oficial do Banco Central (consultada em 12/11)."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T00:32:04.435178-03:00"
+}
