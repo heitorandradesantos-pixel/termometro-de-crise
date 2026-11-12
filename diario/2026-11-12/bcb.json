@@ -1,0 +1,22 @@
+{
+ "fonte": "Banco Central do Brasil (SGS e Focus)",
+ "falhas": {},
+ "selic": {
+  "data": "2026-11-12",
+  "valor": 13.75
+ },
+ "ptax": {
+  "data": "2026-11-12",
+  "valor": 5.6143
+ },
+ "focus_ipca": {
+  "valor": 4.9005,
+  "data": "2026-11-06",
+  "ano": 2027
+ },
+ "focus_selic": {
+  "valor": 12.5,
+  "data": "2026-11-06",
+  "ano": 2027
+ }
+}
