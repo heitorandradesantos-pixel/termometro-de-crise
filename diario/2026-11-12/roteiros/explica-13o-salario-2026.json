@@ -1,0 +1,168 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Seu 13º vem em duas parcelas, e a segunda encolhe.",
+  "na_tela": "Seu 13º: a 2ª parcela encolhe",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Seu 13º vem em duas parcelas, e a segunda encolhe.",
+   "na_tela": "Seu 13º: a 2ª parcela encolhe",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto do seu 13º some antes de chegar na conta?",
+   "na_tela": "Quanto do seu 13º some?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Até 30 de novembro, cai a 1ª parcela do seu 13º, sem desconto.",
+   "na_tela": "13º: 1ª parcela sem desconto",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seu 13º vem em duas parcelas, e a segunda encolhe.",
+  "A primeira é metade do 13º, sem desconto, até 30 de novembro.",
+  "INSS e Imposto de Renda saem todos na segunda parcela.",
+  "É como o cartão: a conta dos descontos só chega depois.",
+  "Olha só: o INSS pesa no 13º inteiro, então a segunda costuma ser menor.",
+  "Rotativo do cartão: 15,18% ao mês em agosto, diz o Banco Central.",
+  "Antes de gastar, liste suas dívidas e veja qual cobra mais.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu 13º vem em duas parcelas, e a segunda encolhe. A primeira é metade do 13º, sem desconto, até 30 de novembro. INSS e Imposto de Renda saem todos na segunda parcela. É como o cartão: a conta dos descontos só chega depois. Olha só: o INSS pesa no 13º inteiro, então a segunda costuma ser menor. Rotativo do cartão: 15,18% ao mês em agosto, diz o Banco Central. Antes de gastar, liste suas dívidas e veja qual cobra mais. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Seu 13º: a 2ª parcela encolhe",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Até 30 de novembro",
+   "fonte": "Ministério do Trabalho e Emprego"
+  },
+  {
+   "fala": 2,
+   "texto": "INSS e IR só na 2ª parcela",
+   "fonte": "Ministério do Trabalho e Emprego"
+  },
+  {
+   "fala": 5,
+   "texto": "Rotativo: 15,18% ao mês",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 4,
+ "busca": "quando cai o 13º salário 2026",
+ "legenda": "Quando cai o 13º salário 2026 e quanto desconta?\n\nA primeira parcela é metade do 13º, vem sem desconto e deve ser paga até 30 de novembro. Os descontos de INSS e Imposto de Renda saem só na segunda parcela, segundo o Ministério do Trabalho e Emprego. Por isso ela costuma ser menor. O Contábeis aponta 18 de dezembro como prazo da segunda, porque 20 de dezembro cai num domingo.\n\nO valor exato depende do seu salário, das horas extras e dos meses trabalhados. O holerite da empresa é a conta que vale.\n\nAntes de gastar, liste suas dívidas e veja qual cobra mais juros. O rotativo do cartão foi a 15,18% ao mês em agosto, segundo o Banco Central. Manda para quem tem fatura do cartão em aberto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#13salario #educacaofinanceira #dinheiro #financaspessoais",
+ "hashtags": [
+  "#13salario",
+  "#educacaofinanceira",
+  "#dinheiro",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Seu 13º vem em duas parcelas, e a segunda encolhe.",
+  "topicos": [
+   "1ª parcela: metade do 13º, sem desconto, até 30 de novembro, segundo o Ministério.",
+   "Descontos de INSS e IR vêm só na 2ª parcela, que costuma ser menor.",
+   "Rotativo do cartão: 15,18% ao mês em agosto, segundo o Banco Central.",
+   "Antes de gastar, liste suas dívidas e veja qual cobra mais juros."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com datas, descontos e contexto, então pede a calma da bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"INSS e Imposto de Renda saem todos na segunda parcela.\": sai o termo seco e entra a tradução na mesma frase, em conversa de portão. Exemplo: \"O desconto do INSS e do Imposto de Renda vem todo na segunda parcela, ou seja, o que cai na sua conta é menos do que você imagina.\" Não acrescente número novo.",
+   "\"Rotativo do cartão: 15,18% ao mês em agosto, diz o Banco Central.\": \"rotativo\" não está traduzido. Reescreva assim: \"Rotativo é o juro do cartão quando você não paga a fatura inteira: 15,18% ao mês em agosto, diz o Banco Central.\" Em seguida, o passo fica mais ligado ao bolso.",
+   "\"Antes de gastar, liste suas dívidas e veja qual cobra mais.\": o passo é bom, mas dá para acolher e dar o tom de calma antes dele. Exemplo: \"Calma, dá pra se organizar: antes de gastar, anote suas dívidas e veja qual cobra mais juros.\" Assim a peça fala com o fleumático e fecha com menos tom de ordem."
+  ],
+  "veredito": "A peça fala direto com quem sente o 13º encolher no bolso, usa a comparação do cartão, dá o número com fonte e fecha com um passo simples e o bordão da casa; falta só traduzir \\\"INSS e Imposto de Renda\\\" e \\\"rotativo\\\" na mesma frase e deixar o tom um pouco mais de conversa."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Interior of a modest Brazilian apartment hallway in the morning light. A plain blank white envelope slides under the front door and lands on a wooden floor. Slow push-in camera from low angle toward the envelope. No people, no text, no logos, no numbers, realistic style",
+   "texto_da_fala": "É como o cartão: a conta dos descontos só chega depois.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a modest Brazilian apartment hallway in the morning light. A plain blank white envelope slides under the front door and lands on a wooden floor. Slow push-in camera from low angle toward the envelope. No people, no text, no logos, no numbers, realistic style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up on a kitchen table: a plain blank dark plastic card with no logo or markings, lying next to a small scattered pile of coins. Warm window light, shallow depth of field. Slow dolly slide from left to right across the table, ending on the card. No people, no text, no numbers, no brands, realistic style",
+   "texto_da_fala": "Rotativo do cartão: 15,18% ao mês em agosto, diz o Banco Central.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a kitchen table: a plain blank dark plastic card with no logo or markings, lying next to a small scattered pile of coins. Warm window light, shallow depth of field. Slow dolly slide from left to right across the table, ending on the card. No people, no text, no numbers, no brands, realistic style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Top-down view of a home table with a stack of unmarked paper envelopes, a plain notebook with blank pages, a pen and a cup of coffee. Camera slowly tilts and glides over the table as an unidentifiable hand, out of focus and cropped at the wrist, sorts the envelopes into piles. No faces, no text, no letters, no numbers, no logos, realistic style",
+   "texto_da_fala": "Antes de gastar, liste suas dívidas e veja qual cobra mais.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down view of a home table with a stack of unmarked paper envelopes, a plain notebook with blank pages, a pen and a cup of coffee. Camera slowly tilts and glides over the table as an unidentifiable hand, out of focus and cropped at the wrist, sorts the envelopes into piles. No faces, no text, no letters, no numbers, no logos, realistic style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu 13º vem em duas parcelas, e a segunda encolhe.\n\nA primeira é metade do 13º, sem desconto, até 30 de novembro.\n\nINSS e Imposto de Renda saem todos na segunda parcela.\n\nÉ como o cartão: a conta dos descontos só chega depois.\n\nOlha só: o INSS pesa no 13º inteiro, então a segunda costuma ser menor.\n\nRotativo do cartão: 15,18% ao mês em agosto, diz o Banco Central.\n\nAntes de gastar, liste suas dívidas e veja qual cobra mais.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Ministério do Trabalho e Emprego (gov.br)",
+   "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/novembro/decimo-terceiro-salario-entenda-o-direito-regras-e-prazos-de-pagamento",
+   "destaque": "Pela regra do Ministério do Trabalho e Emprego (texto de novembro de 2025, ainda válido): a 1ª parcela pode ser paga entre fevereiro e…"
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/minhas-financas/13o-salario-pagar-dividas-ou-aproveitar-a-black-friday-veja-o-que-compensa/",
+   "destaque": "Para dívidas de rotativo e parcelamento de fatura feitas a partir de 3 de janeiro de 2024, juros e encargos somados não podem passar de…"
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T07:47:39.481174-03:00"
+}
