@@ -1,0 +1,118 @@
+{
+ "titulo": "Assessor de investimentos e comissão: o que perguntar e onde checar",
+ "descricao": "Assessor ganha parte das taxas dos produtos que oferece. Veja o que perguntar antes de aplicar e como checar o registro na CVM e na ANBIMA.",
+ "palavra_chave": "assessor de investimentos comissão",
+ "lead": "Assessores de investimento podem ganhar parte das taxas dos produtos que oferecem, e a regra da CVM obriga a dizer isso por escrito ao cliente. Antes de aplicar, vale pedir o termo de ciência, perguntar como o assessor é pago e conferir o registro dele e o da corretora. A CVM é quem registra os profissionais; a ANBIMA mantém um cadastro de empresas que seguem seus códigos, mas não é ela quem autoriza.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Resolução CVM 178, publicada em 14 de fevereiro de 2023, regula a atividade do assessor de investimento (antigo agente autônomo) e obriga a entrega de um \"termo de ciência\" ao cliente. O documento descreve o regime de atuação, os limites, as proibições e os potenciais conflitos de interesse.",
+   "fonte_url": "https://tozzinifreire.com.br/boletins/cvm-divulga-as-novas-resolucoes-que-dispoem-sobre-a-atividade-de-assessor-de-investimento",
+   "data": "2023-02-14",
+   "veiculo": "TozziniFreire",
+   "confiavel": false
+  },
+  {
+   "texto": "O modelo de termo de ciência da própria CVM traz avisos diretos ao cliente: o assessor recebe parte das taxas cobradas pelos intermediários (as corretoras). A remuneração dele não depende do retorno que você terá. Ele pode estar ligado a várias corretoras e receber valores diferentes de cada uma.",
+   "fonte_url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol178.pdf",
+   "data": "2023-02-14",
+   "veiculo": "CVM (Resolução 178, Anexo A)",
+   "confiavel": true
+  },
+  {
+   "texto": "O termo de ciência também diz que a decisão final de investir é do cliente, e que os interesses do assessor podem entrar em conflito com os seus por causa da forma como ele é pago.",
+   "fonte_url": "https://iaasbr.com/wp-content/uploads/2024/06/BR-GOV-NOVA-NORMA-DE-ASSESSORES-DE-INVESTIMENTO-RCVM-178-e-179.pdf",
+   "data": "2023-02-14",
+   "veiculo": "IAAS Brasil (texto da RCVM 178)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Resolução 178 e partes da Resolução 179, que trata da transparência na remuneração, entraram em vigor em 2023. Segundo a ANBIMA, o assessor deve entregar o termo de ciência com atividades, estrutura de remuneração e conflitos de interesse.",
+   "fonte_url": "https://www.anbima.com.br/pt_br/noticias/resolucoes-da-cvm-sobre-atividade-de-assessor-de-investimento-e-transparencia-na-remuneracao-passam-a-valer-hoje.htm",
+   "data": "2023-06-01",
+   "veiculo": "ANBIMA",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo análise do Consultor Jurídico, assessores e intermediários devem informar ao cliente os conflitos de interesse e todas as formas de remuneração, com dados qualitativos e quantitativos, incluindo valores e percentuais efetivamente praticados.",
+   "fonte_url": "https://conjur.com.br/2024-ago-23/resolucoes-cvm-178-e-179-inovacoes-regulatorias-nas-assessorias-de-investimento/",
+   "data": "2024-08-23",
+   "veiculo": "Consultor Jurídico",
+   "confiavel": false
+  },
+  {
+   "texto": "O registro do assessor é comprovado pela inscrição do nome dele na relação de assessores de investimento na página da CVM. O credenciamento é obrigatório. Quem atua sem ele está em situação irregular.",
+   "fonte_url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol178.pdf",
+   "data": "2023-02-14",
+   "veiculo": "CVM (Resolução 178)",
+   "confiavel": true
+  },
+  {
+   "texto": "Na consulta pública da CVM (cadastro de participantes regulados), dá para buscar por nome, CPF ou CNPJ. Segundo guias de mercado, o status deve aparecer como \"em funcionamento normal\" e a categoria deve bater com o que o profissional diz ser (assessor ou consultor). A consulta também mostra se o registro está cancelado ou suspenso.",
+   "fonte_url": "https://euqueroinvestir.com/educacao-financeira/o-que-cvm",
+   "data": "2026-11-12",
+   "veiculo": "Eu Quero Investir",
+   "confiavel": false
+  },
+  {
+   "texto": "A ANBIMA mantém o Cadastro de Instituições e Profissionais de Investimento. Nele aparecem os dados da empresa, os códigos de conduta que ela segue e o número de profissionais certificados. A adesão aos códigos é voluntária, e eles não têm força de lei.",
+   "fonte_url": "https://www.anbima.com.br/pt_br/imprensa/anbima-lanca-ferramenta-de-consulta-a-empresas-de-investimento-fiscalizadas.htm",
+   "data": "2026-11-12",
+   "veiculo": "ANBIMA",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A CVM publica as Resoluções 178 (assessor de investimento) e 179 (transparência na remuneração).",
+   "fonte_url": "https://tozzinifreire.com.br/boletins/cvm-divulga-as-novas-resolucoes-que-dispoem-sobre-a-atividade-de-assessor-de-investimento",
+   "data": "2023-02-14",
+   "veiculo": "TozziniFreire",
+   "confiavel": false
+  },
+  {
+   "texto": "A Resolução 178 e partes da 179 passam a valer, com termo de ciência sobre remuneração e conflitos de interesse.",
+   "fonte_url": "https://www.anbima.com.br/pt_br/noticias/resolucoes-da-cvm-sobre-atividade-de-assessor-de-investimento-e-transparencia-na-remuneracao-passam-a-valer-hoje.htm",
+   "data": "2023-06-01",
+   "veiculo": "ANBIMA",
+   "confiavel": true
+  },
+  {
+   "texto": "O Conselho de Ética da ANBIMA divulga o Parecer de Orientação nº 01/2024, sobre conflitos de interesse em instituições com vínculos, por exemplo, com assessores de investimento.",
+   "fonte_url": "https://www.anbima.com.br/data/files/73/13/8F/77/FA251910D8F7E419B82BA2A8/Orientacao-Conflito-Interesse.pdf",
+   "data": "2024-08-14",
+   "veiculo": "ANBIMA",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o blog Jota, o demonstrativo trimestral de remuneração passa a ser obrigatório em janeiro de 2025 (não confirmado em texto oficial).",
+   "fonte_url": "https://jota.ai/blog/arquivo/como-escolher-assessor-financeiro/",
+   "data": "2025-01-01",
+   "veiculo": "Blog do Jota",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado, nas fontes consultadas, quanto o assessor ou a corretora do leitor ganha em cada produto. Esse número só aparece nos documentos de remuneração e no termo de ciência da própria instituição.",
+  "Não foi confirmado o prazo exato em que a corretora precisa mandar o extrato trimestral de remuneração. O blog Jota cita o demonstrativo trimestral como obrigatório desde jan/2025, mas isso não foi checado em texto oficial da CVM. Vale pedir o documento à corretora.",
+  "Não foi possível conferir o passo a passo atual das telas de consulta no site da CVM nem no da ANBIMA. Os caminhos acima vêm de guias de mercado e de comunicados da ANBIMA. Confirme nos sites oficiais."
+ ],
+ "o_que_muda_para_voce": [
+  "Receber comissão não é proibido. A CVM não impõe um modelo de remuneração, segundo análise do portal AAWZ, mas a regra exige que o conflito seja informado. O que importa é se você foi avisado e entendeu.",
+  "Pergunte ao assessor, antes de aplicar: 1) Você recebe parte da taxa deste produto? Quanto? 2) Existe produto parecido que paga menos comissão ou não paga? 3) A que corretora você está ligado? Atua com mais de uma? 4) Quais são todos os custos (taxa de administração, de performance, de saída)? 5) Posso resgatar quando quiser, e o dinheiro fica preso? 6) Pode me dar a resposta por escrito?",
+  "Peça o termo de ciência e leia o trecho sobre remuneração e conflitos. Se o assessor não souber explicar, ou fugir da pergunta, isso é um sinal para pensar mais antes de aplicar.",
+  "Confira duas coisas na CVM: o nome do assessor (ou do escritório) e a corretora a que ele está ligado. Veja se o registro está ativo e na categoria certa. Assessor não faz recomendação personalizada: isso cabe ao consultor de valores mobiliários, que tem outro registro.",
+  "Use a ANBIMA como informação extra, não como autorização. Estar no Cadastro ANBIMA mostra que a empresa segue códigos de boas práticas, mas não substitui o registro na CVM e a autorização do Banco Central, quando exigida."
+ ],
+ "como_se_proteger": [
+  "Desconfie de quem se apresenta como \"especialista em investimentos\" e não aparece no cadastro da CVM. O título, sozinho, não é categoria regulada.",
+  "Pesquise sempre pelo CPF ou CNPJ, não só pelo nome, e veja se o status está ativo, sem cancelamento ou suspensão.",
+  "Segundo a ANBIMA, as fraudes de pirâmide que vão parar no noticiário costumam ocorrer em empresas que não estão listadas na CVM.",
+  "Não transfira dinheiro para conta de pessoa física nem de empresa que não seja a corretora registrada. Confirme o CNPJ da corretora no cadastro antes de qualquer pagamento.",
+  "Guarde por escrito o que o assessor prometeu. Retorno garantido em investimento de risco é sinal de alerta."
+ ],
+ "slug": "assessor-de-investimentos-comissao",
+ "publicado_em": "2026-11-12T00:18:05.915807",
+ "atualizado_em": "2026-11-12T00:18:05.915807",
+ "assunto": "Como saber se o assessor ou a corretora está te empurrando produto que paga comissão: o que perguntar antes de aplicar e onde conferir na CVM e na ANBIMA se a empresa é autorizada",
+ "turno": "manha"
+}
