@@ -1,0 +1,178 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "O atraso no cartão do Banco do Brasil foi de 8,89% para 16,35%.",
+  "na_tela": "Cartão do BB: 8,89% → 16,35%",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "O atraso no cartão do Banco do Brasil foi de 8,89% para 16,35%.",
+   "na_tela": "Cartão do BB: 8,89% → 16,35%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Fatura apertada? O rotativo de R$ 1.000 vira cerca de R$ 1.153 em 30 dias.",
+   "na_tela": "R$ 1.000 vira R$ 1.153",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O lucro do BB caiu 66,5%. O banco aponta o agro, não o cartão.",
+   "na_tela": "Lucro do BB caiu 66,5%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "O atraso no cartão do Banco do Brasil foi de 8,89% para 16,35%.",
+  "Isso é o saldo do cartão atrasado há mais de 90 dias, não os clientes.",
+  "Mas o banco diz que o lucro caiu principalmente pelo agro.",
+  "Deixou parte da fatura pro mês seguinte? Caiu no rotativo.",
+  "Pela média do Banco Central, R$ 1.000 viram cerca de R$ 1.153 em 30 dias.",
+  "Antes de decidir, vê no app quanto custa cada opção.",
+  "Manda pra quem tá com a fatura apertada.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O atraso no cartão do Banco do Brasil foi de 8,89% para 16,35%. Isso é o saldo do cartão atrasado há mais de 90 dias, não os clientes. Mas o banco diz que o lucro caiu principalmente pelo agro. Deixou parte da fatura pro mês seguinte? Caiu no rotativo. Pela média do Banco Central, R$ 1.000 viram cerca de R$ 1.153 em 30 dias. Antes de decidir, vê no app quanto custa cada opção. Manda pra quem tá com a fatura apertada. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Cartão do BB: 8,89% → 16,35%",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "16,35% do saldo atrasado há mais de 90 dias",
+   "fonte": "SpaceMoney"
+  },
+  {
+   "fala": 2,
+   "texto": "Lucro caiu: agro",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 3,
+   "texto": "Rotativo",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 1.000 → R$ 1.153 em 30 dias",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Compare cada opção no app",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "atraso no cartão de crédito do Banco do Brasil",
+ "legenda": "Atraso no cartão de crédito do Banco do Brasil: o que se sabe.\n\nSegundo o balanço, o atraso acima de 90 dias no cartão passou de 8,89% para 16,35%. É a parte do saldo do cartão atrasada, não a parte dos clientes. O banco diz que a queda do lucro veio principalmente do agro.\n\nO rotativo é a dívida mais cara do cartão. Pela média do Banco Central, R$ 1.000 viram cerca de R$ 1.153 em 30 dias, fora imposto. Cada banco cobra uma taxa.\n\nCom a fatura apertada, veja no app ou no atendimento quanto custa cada opção antes de decidir.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancodobrasil #cartaodecredito #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#bancodobrasil",
+  "#cartaodecredito",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Atraso no cartão do BB foi de 8,89% para 16,35%.",
+  "topicos": [
+   "Segundo a SpaceMoney, atraso no cartão do BB foi de 8,89% para 16,35%.",
+   "É o saldo atrasado há mais de 90 dias, não os clientes.",
+   "Banco Central: R$ 1.000 no rotativo viram cerca de R$ 1.153 em 30 dias.",
+   "Fatura apertada? Veja no app quanto custa cada opção antes de decidir."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Tem vários números e uma ressalva importante (saldo, não clientes), que pedem explicação calma.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"O atraso no cartão do Banco do Brasil foi de 8,89% para 16,35%.\": o gancho é só número e não diz o que muda para quem ouve. Reescreva abrindo com identificação e pergunta de bolso, por exemplo \"Se você deixa a fatura do cartão pra depois, olha só o que o balanço do Banco do Brasil mostra\", e deixe o número logo em seguida.",
+   "Frase \"Pela média do Banco Central, R$ 1.000 viram cerca de R$ 1.153 em 30 dias.\" e \"Caiu no rotativo.\": \"rotativo\" aparece sem tradução no roteiro e a conta fica fria. Traduza na mesma frase (\"rotativo é a dívida que sobra quando você paga só uma parte da fatura\") e dê uma comparação do dia a dia, sem inventar número novo, como \"é uma dívida que cresce mais rápido que o boleto parado\".",
+   "Frase \"Mas o banco diz que o lucro caiu principalmente pelo agro.\" e \"Antes de decidir, vê no app quanto custa cada opção.\": o texto é seco, com frases de relatório, e falta a virada de bordão e o tom de conversa. Use \"Olha só, agora vem a parte que pouca gente viu:\" antes da ressalva do agro, e feche o passo simples com calma e \"na prática\", ex.: \"Na prática: abre o app, compara as opções e escolhe a que pesa menos no seu bolso.\""
+  ],
+  "veredito": "A peça acerta o público, o tom de Sábio de Cara Comum e os gatilhos éticos (perda com saída, fonte citada, ressalva sobre o agro e o que o número mede), mas o gancho abre frio com número e o rotativo não é traduzido nem comparado a algo do dia a dia, o que enfraquece o jeito popular e o temperamento sanguíneo."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow aerial drone shot gliding forward over a vast soybean field at golden hour, with a combine harvester working in the distance and dust rising in the warm light. Realistic, cinematic, no people in focus, no text, no logos",
+   "texto_da_fala": "Mas o banco diz que o lucro caiu principalmente pelo agro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone shot gliding forward over a vast soybean field at golden hour, with a combine harvester working in the distance and dust rising in the warm light. Realistic, cinematic, no people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in on a wooden kitchen table in soft evening light: a plain blank credit card with no markings lies next to a half-opened plain envelope and a cup of coffee. A hand-held lamp casts a slightly tense mood. No faces, no text, no logos, no numbers",
+   "texto_da_fala": "Deixou parte da fatura pro mês seguinte? Caiu no rotativo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in on a wooden kitchen table in soft evening light: a plain blank credit card with no markings lies next to a half-opened plain envelope and a cup of coffee. A hand-held lamp casts a slightly tense mood. No faces, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Macro shot with a slow upward camera tilt: gold coins steadily pile up inside a glass jar next to an hourglass whose sand runs down, shallow depth of field, warm dark background. Time-lapse feel, no people, no text, no numbers, no logos",
+   "texto_da_fala": "Pela média do Banco Central, R$ 1.000 viram cerca de R$ 1.153 em 30 dias.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot with a slow upward camera tilt: gold coins steadily pile up inside a glass jar next to an hourglass whose sand runs down, shallow depth of field, warm dark background. Time-lapse feel, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O atraso no cartão do Banco do Brasil foi de 8,89% para 16,35%.\n\nIsso é o saldo do cartão atrasado há mais de 90 dias, não os clientes.\n\nMas o banco diz que o lucro caiu principalmente pelo agro.\n\nDeixou parte da fatura pro mês seguinte? Caiu no rotativo.\n\nPela média do Banco Central, R$ 1.000 viram cerca de R$ 1.153 em 30 dias.\n\nAntes de decidir, vê no app quanto custa cada opção.\n\nManda pra quem tá com a fatura apertada.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/",
+   "destaque": "O lucro líquido ajustado (resultado sem itens pontuais) foi de R$ 1,3 bilhão no 3º trimestre de 2026, queda de 66,5% na comparação anual."
+  },
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/banco-do-brasil-ve-lucro-cair-66-no-3o-tri-e-corta-pela-metade-a-previsao-para-2026/",
+   "destaque": "O lucro veio bem abaixo dos cerca de R$ 3 bilhões esperados pelo consenso (média das previsões) da Bloomberg."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T08:42:19.026847-03:00"
+}
