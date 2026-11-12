@@ -1,0 +1,184 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Você guarda na poupança? R$ 1.000 rendem cerca de R$ 61,70 em um ano.",
+  "na_tela": "Sua poupança rende R$ 61,70",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Você guarda na poupança? R$ 1.000 rendem cerca de R$ 61,70 em um ano.",
+   "na_tela": "Sua poupança rende R$ 61,70",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Mesmos R$ 1.000, um ano: poupança, cerca de R$ 61,70. Tesouro Selic, cerca de R$ 113,40.",
+   "na_tela": "Poupança x Tesouro Selic",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Poupança ou Tesouro Selic: qual rende mais na sua reserva de emergência?",
+   "na_tela": "Poupança ou Tesouro Selic?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Você guarda na poupança? R$ 1.000 rendem cerca de R$ 61,70 em um ano.",
+  "A TR, taxinha que muda como conta de luz, ficou fora.",
+  "Olha só: no Tesouro Selic, R$ 1.000 rendem cerca de R$ 113,40.",
+  "Já descontado o imposto, como o salário que cai na conta.",
+  "É simulação, não promessa: depende da Selic.",
+  "Mas tem um detalhe: menor prazo, maior imposto no Tesouro.",
+  "Por isso, antes de escolher, compare prazo, imposto e custos.",
+  "Manda para quem guarda reserva na poupança.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Você guarda na poupança? R$ 1.000 rendem cerca de R$ 61,70 em um ano. A TR, taxinha que muda como conta de luz, ficou fora. Olha só: no Tesouro Selic, R$ 1.000 rendem cerca de R$ 113,40. Já descontado o imposto, como o salário que cai na conta. É simulação, não promessa: depende da Selic. Mas tem um detalhe: menor prazo, maior imposto no Tesouro. Por isso, antes de escolher, compare prazo, imposto e custos. Manda para quem guarda reserva na poupança. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Sua poupança rende R$ 61,70",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 1.000 na poupança: cerca de R$ 61,70 (sem a TR)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 2,
+   "texto": "Tesouro Selic: cerca de R$ 113,40",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Líquido = depois do imposto",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Menor prazo, maior imposto",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 6,
+   "texto": "Prazo · Imposto · Custos",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "quanto rende reserva de emergência: poupança ou Tesouro Selic",
+ "legenda": "Quanto rende reserva de emergência: poupança ou Tesouro Selic?\n\nNuma conta simples de R$ 1.000 por 12 meses, a poupança rende cerca de R$ 61,70, sem a TR, que muda e ficou fora. O Tesouro Selic rende cerca de R$ 113,40 já sem Imposto de Renda, se a Selic não mudar. É simulação, não promessa.\n\nNo Tesouro, quanto menor o prazo, maior o imposto, segundo a Agência Brasil. Por isso, antes de escolher, compare prazo para sacar, imposto e custos.\n\nManda para quem guarda reserva na poupança.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#reservadeemergencia #poupanca #tesouroselic #educacaofinanceira",
+ "hashtags": [
+  "#reservadeemergencia",
+  "#poupanca",
+  "#tesouroselic",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Poupança ou Tesouro Selic? Eu fiz a conta de R$ 1.000.",
+  "topicos": [
+   "Conta nossa: R$ 1.000 na poupança rendem cerca de R$ 61,70 em um ano.",
+   "Tesouro Selic: cerca de R$ 113,40 já sem imposto, se a Selic não mudar.",
+   "Segundo a Agência Brasil, quanto menor o prazo, maior o imposto no Tesouro.",
+   "Antes de escolher, compare prazo para sacar, imposto e custos."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com comparação de dois valores e uma tabela de imposto, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Menor prazo, maior imposto no Tesouro\": o texto avisa, mas não dá o passo simples que o fleumático pede. Reescreva com a saída na mesma frase, por exemplo: \"Se você pode precisar do dinheiro logo, o imposto come mais. Então olhe o prazo antes de escolher\". Assim a perda vem com a saída e a pessoa sai com um passo claro.",
+   "Frase \"Por isso, antes de escolher, compare prazo, imposto e custos\": são três coisas de uma vez, e o iniciante pode travar. Reduza para um passo simples, por exemplo: \"Pergunte primeiro: em quanto tempo eu posso precisar desse dinheiro?\". Os outros dois itens podem ficar na legenda.",
+   "Frase \"R$ 1.000 rendem cerca de R$ 61,70 em um ano\": falta uma comparação viva do dia a dia para o sanguíneo, sem inventar número. Depois do segundo valor, mostre a diferença com algo conhecido, como \"a diferença dá para [item do cotidiano]\". Só use um item cujo preço esteja confirmado, ou diga só \"quase o dobro\" se a conta fechar com os valores da peça. Em \"taxinha que muda como conta de luz\", a analogia está boa."
+  ],
+  "veredito": "A peça fala com quem guarda reserva na poupança, em linguagem de conversa e com fonte, termo traduzido, aviso de simulação e todos os bordões da casa. Falta fechar com um passo único e simples para o fleumático e dar mais vida à comparação para o sanguíneo."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Vertical shot, close-up of an old analog household electricity meter mounted on a concrete wall, its metal disc spinning steadily behind scratched glass, dials blurred and unreadable, no text or numbers visible. Warm evening light, slow dolly-in toward the spinning disc, shallow depth of field",
+   "texto_da_fala": "A TR, taxinha que muda como conta de luz, ficou fora.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, close-up of an old analog household electricity meter mounted on a concrete wall, its metal disc spinning steadily behind scratched glass, dials blurred and unreadable, no text or numbers visible. Warm evening light, slow dolly-in toward the spinning disc, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Vertical time-lapse of a small green sapling growing from a glass jar filled with plain blank golden discs, soil and tiny leaves unfurling, soft morning window light, camera slowly pushing in and tilting up to follow the stem as it grows taller. No text, no numbers, no people",
+   "texto_da_fala": "Olha só: no Tesouro Selic, R$ 1.000 rendem cerca de R$ 113,40.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical time-lapse of a small green sapling growing from a glass jar filled with plain blank golden discs, soil and tiny leaves unfurling, soft morning window light, camera slowly pushing in and tilting up to follow the stem as it grows taller. No text, no numbers, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical macro shot of a wooden-framed hourglass on a desk, fine sand falling steadily, soft side light with dust particles floating in the air, camera slowly orbiting around the hourglass then racking focus from the falling sand to the full lower chamber. No text, no numbers, no people",
+   "texto_da_fala": "Mas tem um detalhe: menor prazo, maior imposto no Tesouro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical macro shot of a wooden-framed hourglass on a desk, fine sand falling steadily, soft side light with dust particles floating in the air, camera slowly orbiting around the hourglass then racking focus from the falling sand to the full lower chamber. No text, no numbers, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Você guarda na poupança? R$ 1.000 rendem cerca de R$ 61,70 em um ano.\n\nA TR, taxinha que muda como conta de luz, ficou fora.\n\nOlha só: no Tesouro Selic, R$ 1.000 rendem cerca de R$ 113,40.\n\nJá descontado o imposto, como o salário que cai na conta.\n\nÉ simulação, não promessa: depende da Selic.\n\nMas tem um detalhe: menor prazo, maior imposto no Tesouro.\n\nPor isso, antes de escolher, compare prazo, imposto e custos.\n\nManda para quem guarda reserva na poupança.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/en",
+   "destaque": "A Selic, a taxa básica de juros, está em 13,75% ao ano."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/entenda-como-funciona-investir-no-tesouro-reserva",
+   "destaque": "O Imposto de Renda do Tesouro Direto incide só sobre o rendimento: 22,5% até 180 dias, 20% de 181 a 360 dias, 17,5% de 1 a 2 anos e 15%…"
+  },
+  {
+   "veiculo": "B3",
+   "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/tesouro-direto/tesouro-direto/perguntas-frequentes/",
+   "destaque": "A B3 cobra 0,20% ao ano de custódia (guarda do título) no Tesouro Direto."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T00:38:29.994497-03:00"
+}
