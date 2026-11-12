@@ -166,7 +166,8 @@ def montar(bruto: dict, chamada: str = "grupo") -> dict:
     falas = [f.strip() for f in bruto.get("falas") or [] if f.strip()]
     linhas = [gancho["texto"].strip(), *falas, CHAMADAS.get(chamada, CHAMADAS["grupo"]), ASSINATURA, FECHO, BORDAO]
     texto = " ".join(linhas)
-    hashtags = ["#" + _sem_acento(h.lstrip("#").replace(" ", "")).lower() for h in bruto.get("hashtags") or []][:5]
+    hashtags = ["#" + _sem_acento(h.lstrip("#").replace(" ", "")).lower() for h in bruto.get("hashtags") or []]
+    hashtags = [h for h in hashtags if h not in HASHTAGS_PROIBIDAS][:5]
     legenda = (bruto.get("legenda") or "").replace("\\n", "\n").strip()  # \n escrito como texto vira quebra
     if AVISO_LEGENDA not in legenda:
         legenda = f"{legenda}\n\n{AVISO_LEGENDA}"
@@ -380,6 +381,11 @@ DICAS = ("Dicas: celular na vertical, na altura dos olhos, luz de frente (janela
          "se errar, pare, respire e repita só a frase. Na rua, microfone na roupa e nunca grave dirigindo. "
          f"O bordão \"{BORDAO}\" é a última frase: olho na câmera, calmo e firme. "
          "Me mande o vídeo aqui que eu edito.")
+
+
+# Hashtags que as redes barram: #cambio derruba o envio do Reel pela API da Meta (11/11);
+# #cvm foi removida pelo TikTok por "Diretrizes da Comunidade" (12/11).
+HASHTAGS_PROIBIDAS = {"#cambio", "#cvm"}
 
 
 LINHA = "━━━━━━━━━━━━━━━━━━"

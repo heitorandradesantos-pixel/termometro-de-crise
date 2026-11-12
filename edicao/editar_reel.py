@@ -132,6 +132,8 @@ def corrigir(palavras: list) -> list:
                 palavras[i:i + n] = [[ini + k * passo, ini + (k + 1) * passo, w.rstrip("|"),
                                       w.endswith("|") or (quebra and k == len(novo_) - 1)]  # "|" força quebra
                                      for k, w in enumerate(novo_)]
+                i += len(novo_)  # pula a troca: se o novo contém o velho ("21 bilhões" → "R$ 21 bilhões"), não entra em laço
+                continue
             i += 1
     return palavras
 

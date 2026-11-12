@@ -66,6 +66,7 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 
 ## Hashtags
 - Nunca usar #cambio: a Meta recusa o envio de Reel com ela pela API (11/11), sinal de hashtag restrita.
+- Nunca usar #cvm: o TikTok removeu a hashtag por "Diretrizes da Comunidade" (12/11). O roteirista filtra as duas.
 
 ## TikTok e a versão longa (decidido em 11/11)
 - Instagram segue com 30 a 45 s. Teste: quando o assunto render (história do Heitor ou explicativo com começo, meio e
