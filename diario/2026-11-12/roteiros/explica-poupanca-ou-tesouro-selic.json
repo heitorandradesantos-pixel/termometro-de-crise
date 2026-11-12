@@ -1,7 +1,7 @@
 {
  "gancho": {
   "formula": "Número + porquê",
-  "texto": "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro?",
+  "texto": "Guardando R$ 200 por mês, em um ano você junta R$ 2.400. Mas quanto esse dinheiro rende?",
   "na_tela": "R$ 200 por mês rendem quanto?",
   "nota": {
    "especifico": 2,
@@ -50,55 +50,61 @@
   }
  ],
  "linhas": [
-  "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro?",
-  "No Tesouro Selic, já sem imposto, sobram cerca de R$ 140.",
-  "São cerca de R$ 34 de diferença no ano.",
+  "Guardando R$ 200 por mês, em um ano você junta R$ 2.400. Mas quanto esse dinheiro rende?",
+  "Na poupança, o rendimento do ano fica perto de R$ 105, sem imposto.",
+  "No Tesouro Selic, já descontado o imposto, fica perto de R$ 140.",
+  "Ou seja: uns R$ 34 a mais no ano, com o mesmo dinheiro guardado.",
   "É como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa.",
-  "Olha só: a Selic, juro básico, está em 13,75%, diz o Copom.",
-  "Na prática: o rendimento pode mudar, mas o Tesouro libera todo dia útil.",
-  "Antes de escolher, anote quando você vai precisar desse dinheiro.",
+  "Olha só: a Selic, o juro básico, está em 13,75%, segundo o Copom. É ela que puxa o Tesouro Selic.",
+  "Na prática: se a Selic cair, o Tesouro rende menos. E dá pra resgatar em qualquer dia útil.",
+  "Antes de escolher, anota quando você vai precisar desse dinheiro.",
+  "E aí, poupança ou Tesouro Selic? Comenta aí qual você escolheria.",
   "O grupo do WhatsApp está no link da bio.",
   "Eu sou o Heitor, do Termômetro de Crise.",
   "Não recomendamos: só mostramos a temperatura do mundo.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
  "texto_falado": "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro? No Tesouro Selic, já sem imposto, sobram cerca de R$ 140. São cerca de R$ 34 de diferença no ano. É como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa. Olha só: a Selic, juro básico, está em 13,75%, diz o Copom. Na prática: o rendimento pode mudar, mas o Tesouro libera todo dia útil. Antes de escolher, anote quando você vai precisar desse dinheiro. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
- "palavras": 114,
- "segundos": 46,
+ "palavras": 161,
+ "segundos": 62,
  "na_tela": [
   {
-   "texto": "R$ 200 por mês rendem quanto?",
-   "fala": 0
+   "fala": 0,
+   "texto": "R$ 200 por mês = *R$ 2.400* no ano. Rende quanto?"
   },
   {
    "fala": 1,
-   "texto": "Poupança: R$ 105 | Tesouro Selic: R$ 140",
-   "fonte": "Termômetro de Crise"
+   "texto": "Poupança: *+R$ 105* no ano",
+   "fonte": "Simulação do Termômetro"
   },
   {
    "fala": 2,
-   "texto": "Diferença: cerca de R$ 34 no ano",
-   "fonte": "Termômetro de Crise"
+   "texto": "Tesouro Selic: *+R$ 140* no ano (já sem imposto)",
+   "fonte": "Simulação do Termômetro"
   },
   {
-   "fala": 4,
-   "texto": "Selic: 13,75% ao ano",
-   "fonte": "Banco Central"
+   "fala": 3,
+   "texto": "Diferença: *uns R$ 34* no ano",
+   "fonte": "Simulação do Termômetro"
   },
   {
    "fala": 5,
-   "texto": "Tesouro: resgate em qualquer dia útil",
-   "fonte": "B3 Educação"
+   "texto": "Selic: *13,75%* ao ano",
+   "fonte": "Banco Central"
   },
   {
    "fala": 6,
-   "texto": "Quando você vai precisar do dinheiro?",
-   "fonte": "Termômetro de Crise"
+   "texto": "Tesouro Selic: resgate *em qualquer dia útil*",
+   "fonte": "B3 Educação"
+  },
+  {
+   "fala": 8,
+   "texto": "Poupança ou Tesouro? *Comenta aí*"
   }
  ],
  "retomada": 4,
  "busca": "poupança ou Tesouro Selic: quanto rendem R$ 200 por mês em 1 ano",
- "legenda": "Poupança ou Tesouro Selic: quanto rendem R$ 200 por mês em 1 ano?\n\nNa simulação do Termômetro, quem guarda R$ 200 por mês põe R$ 2.400 do bolso. A poupança rende cerca de R$ 105, sem Imposto de Renda. O Tesouro Selic rende cerca de R$ 140, já descontado o imposto. A diferença é de cerca de R$ 34 no ano.\n\nA conta usa a Selic em 13,75%, mantida pelo Copom em 4 de novembro. Se a Selic mudar, o resultado muda. A poupança segue a regra atual e a TR varia todo mês. É uma conta com hipóteses simples, não uma promessa de ganho.\n\nAntes de escolher, anote quando você vai precisar desse dinheiro. Conta nos comentários: prazo, facilidade ou tranquilidade, o que pesa mais pra você?\n\nConteúdo educativo, não é recomendação de investimento.\n\n#poupanca #tesouroselic #educacaofinanceira #selic #dinheiro",
+ "legenda": "Poupança ou Tesouro Selic: quanto rendem R$ 200 por mês em 1 ano?\n\nNa simulação do Termômetro, quem guarda R$ 200 por mês põe R$ 2.400 do bolso. Em um ano, a poupança rende cerca de R$ 105 em cima disso, sem Imposto de Renda. O Tesouro Selic rende cerca de R$ 140, já descontado o imposto. A diferença é de cerca de R$ 34 no ano.\n\nA conta usa a Selic em 13,75%, mantida pelo Copom em 4 de novembro. Se a Selic mudar, o resultado muda. A poupança segue a regra atual e a TR varia todo mês. É uma conta com hipóteses simples, não uma promessa de ganho.\n\nAntes de escolher, anote quando você vai precisar desse dinheiro. Conta nos comentários: prazo, facilidade ou tranquilidade, o que pesa mais pra você?\n\nConteúdo educativo, não é recomendação de investimento.\n\n#poupanca #tesouroselic #educacaofinanceira #selic #dinheiro",
  "hashtags": [
   "#poupanca",
   "#tesouroselic",
@@ -107,12 +113,12 @@
   "#dinheiro"
  ],
  "rua": {
-  "gancho": "R$ 200 por mês: poupança rende R$ 105, Tesouro Selic, R$ 140.",
+  "gancho": "Guardando R$ 200 por mês, você junta R$ 2.400 no ano. Quanto isso rende?",
   "topicos": [
-   "Simulação do Termômetro: poupança rende cerca de R$ 105 em um ano, sem imposto.",
-   "Tesouro Selic, já sem imposto, rende cerca de R$ 140: R$ 34 a mais.",
-   "Segundo o Copom, a Selic está em 13,75%; se cair, o Tesouro rende menos.",
-   "Antes de escolher, anote quando você vai precisar desse dinheiro."
+   "Poupança: o rendimento do ano fica perto de R$ 105, sem imposto.",
+   "Tesouro Selic, já sem imposto: perto de R$ 140, uns R$ 34 a mais.",
+   "A Selic está em 13,75% (Copom); se cair, o Tesouro rende menos.",
+   "Antes de escolher, anota quando você vai precisar do dinheiro. E pergunta nos comentários qual eles escolheriam."
   ]
  },
  "formato": "bancada",
@@ -160,7 +166,7 @@
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro?\n\nNo Tesouro Selic, já sem imposto, sobram cerca de R$ 140.\n\nSão cerca de R$ 34 de diferença no ano.\n\nÉ como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa.\n\nOlha só: a Selic, juro básico, está em 13,75%, diz o Copom.\n\nNa prática: o rendimento pode mudar, mas o Tesouro libera todo dia útil.\n\nAntes de escolher, anote quando você vai precisar desse dinheiro.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Guardando R$ 200 por mês, em um ano você junta R$ 2.400. Mas quanto esse dinheiro rende?\n\nNa poupança, o rendimento do ano fica perto de R$ 105, sem imposto.\n\nNo Tesouro Selic, já descontado o imposto, fica perto de R$ 140.\n\nOu seja: uns R$ 34 a mais no ano, com o mesmo dinheiro guardado.\n\nÉ como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa.\n\nOlha só: a Selic, o juro básico, está em 13,75%, segundo o Copom. É ela que puxa o Tesouro Selic.\n\nNa prática: se a Selic cair, o Tesouro rende menos. E dá pra resgatar em qualquer dia útil.\n\nAntes de escolher, anota quando você vai precisar desse dinheiro.\n\nE aí, poupança ou Tesouro Selic? Comenta aí qual você escolheria.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "B3 Educação",
@@ -170,5 +176,6 @@
  ],
  "data": "2026-11-12",
  "gerado_em": "2026-11-12T00:10:03.623501-03:00",
- "enviado_whatsapp": "2026-11-12T00:11:40.154900-03:00"
+ "enviado_whatsapp": null,
+ "revisado_por": "editor, a pedido do Heitor (12/11): conta mais clara"
 }
