@@ -1,0 +1,113 @@
+{
+ "titulo": "Quanto rende reserva de emergência: poupança x Tesouro Selic",
+ "descricao": "Com a Selic em 13,75% (4/11), veja quanto rendem R$ 1.000 na poupança e no Tesouro Selic, com IR e custos, e o primeiro passo de quem nunca guardou.",
+ "palavra_chave": "quanto rende reserva de emergência",
+ "lead": "Com a Selic em 13,75% ao ano, mantida pelo Banco Central em 4 de novembro, a poupança rende 0,5% ao mês mais a TR. O Tesouro Selic acompanha a Selic e paga Imposto de Renda sobre o ganho. Num exemplo de R$ 1.000 por 12 meses, a conta simples dá cerca de R$ 61,70 na poupança (sem a TR) e cerca de R$ 113,40 no Tesouro Selic (já sem IR), se a Selic não mudar. É simulação, não promessa.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Selic, a taxa básica de juros, está em 13,75% ao ano. O Copom, comitê do Banco Central que decide os juros, manteve a taxa na reunião de 4 de novembro de 2026. Esse é o número de referência deste texto.",
+   "fonte_url": "https://www.bcb.gov.br/en",
+   "data": "2026-11-04",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A regra da poupança vale desde 4 de maio de 2012 para depósitos novos. Com a Selic acima de 8,5% ao ano, como agora, rende 0,5% ao mês mais a TR (Taxa Referencial, índice do Banco Central). Com a Selic em 8,5% ou menos, rende 70% da Selic mais a TR.",
+   "fonte_url": "https://www.mercadopago.com.br/blog/quanto-rende-a-poupanca",
+   "data": "2012-05-04",
+   "veiculo": "Mercado Pago",
+   "confiavel": false
+  },
+  {
+   "texto": "Os 0,5% ao mês da poupança equivalem a cerca de 6,17% ao ano, antes de somar a TR. O rendimento é isento de Imposto de Renda. Página consultada em 12/11; a data de publicação não aparece na busca.",
+   "fonte_url": "https://oespecialista.safra.com.br/selic-afeta-rendimentos-poupanca-investimentos/",
+   "data": "2026-11-12",
+   "veiculo": "Safra (O Especialista)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro Selic é um título público que acompanha a Selic e pode ser resgatado em qualquer dia útil, com o rendimento do período. Página consultada em 12/11; a data de publicação não aparece na busca.",
+   "fonte_url": "https://www.santander.com.br/blog/tesouro-selic",
+   "data": "2026-11-12",
+   "veiculo": "Santander",
+   "confiavel": false
+  },
+  {
+   "texto": "O Imposto de Renda do Tesouro Direto incide só sobre o rendimento: 22,5% até 180 dias, 20% de 181 a 360 dias, 17,5% de 1 a 2 anos e 15% acima de 2 anos. Tabela em reportagem de 11 de maio de 2026.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/entenda-como-funciona-investir-no-tesouro-reserva",
+   "data": "2026-05-11",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A B3 cobra 0,20% ao ano de custódia (guarda do título) no Tesouro Direto. No Tesouro Selic, o estoque de até R$ 10.000 por pessoa é isento desde 1º de agosto de 2020.",
+   "fonte_url": "https://www.b3.com.br/pt_br/produtos-e-servicos/tesouro-direto/tesouro-direto/perguntas-frequentes/",
+   "data": "2020-08-01",
+   "veiculo": "B3",
+   "confiavel": true
+  },
+  {
+   "texto": "Em simulador atualizado em 14 de outubro, o mínimo para comprar Tesouro Selic ficava em cerca de R$ 200, perto de 1% do preço do título. O valor muda com o preço do dia.",
+   "fonte_url": "https://valorfinal.com.br/simulador-tesouro-direto",
+   "data": "2026-10-14",
+   "veiculo": "ValorFinal",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro Reserva, lançado em 11 de maio de 2026, começa em R$ 1, rende diariamente conforme a Selic e pode ser movimentado 24 horas por dia. Também paga Imposto de Renda sobre o rendimento.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/entenda-como-funciona-investir-no-tesouro-reserva",
+   "data": "2026-05-11",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Entra em vigor a regra atual da poupança: 0,5% ao mês mais TR quando a Selic está acima de 8,5% ao ano.",
+   "fonte_url": "https://www.mercadopago.com.br/blog/quanto-rende-a-poupanca",
+   "data": "2012-05-04",
+   "veiculo": "Mercado Pago",
+   "confiavel": false
+  },
+  {
+   "texto": "O governo lança o Tesouro Reserva, com aplicação a partir de R$ 1.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/entenda-como-funciona-investir-no-tesouro-reserva",
+   "data": "2026-05-11",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom mantém a Selic em 13,75% ao ano, em decisão unânime, e pausa a série de cortes.",
+   "fonte_url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+   "data": "2026-11-04",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Banco Central divulga a ata da 282ª reunião do Copom, com os motivos da decisão.",
+   "fonte_url": "https://www.bcb.gov.br/en",
+   "data": "2026-11-10",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto a TR vai somar à poupança: ela muda e não entrou na conta. O valor oficial é divulgado pelo Banco Central.",
+  "Para onde vai a Selic: a ata do Copom, de 10/11, indica cautela, mas o Banco Central diz que não há calendário fechado para novos cortes. Se a Selic mudar, o rendimento do Tesouro Selic muda junto.",
+  "O mínimo exato do Tesouro Selic: fontes divergem (cerca de R$ 30 em uma, cerca de R$ 200 em outra). Confira no aplicativo da instituição antes de aplicar.",
+  "O Tesouro Selic rende quase igual à Selic, mas pode haver pequena diferença no preço de compra. A página oficial do Tesouro Direto não apareceu na busca; use o simulador oficial para conferir."
+ ],
+ "o_que_muda_para_voce": [
+  "Exemplo de R$ 1.000 por 12 meses, se a Selic ficasse em 13,75% (conta nossa, simplificada): poupança, cerca de R$ 61,70 de ganho sem a TR e sem IR; Tesouro Selic, R$ 137,50 de ganho bruto, R$ 24,06 de IR (17,5%) e cerca de R$ 113,40 líquidos, sem custódia por estar abaixo de R$ 10 mil.",
+  "Em 6 meses, na mesma conta: poupança, cerca de R$ 30,40; Tesouro Selic, cerca de R$ 51,60 líquidos (IR de 22,5%). Quanto menor o prazo, maior a alíquota do IR no Tesouro. Os valores não são promessa e mudam com a Selic.",
+  "Primeiro passo para quem nunca guardou: escolha um valor pequeno que caiba todo mês, mesmo R$ 30 ou R$ 50, e separe esse dinheiro da conta do dia a dia.",
+  "Programe a transferência para o dia em que o salário ou benefício cair. Uma meta inicial comum é cobrir um mês de gastos essenciais; depois, você amplia aos poucos.",
+  "Antes de escolher onde guardar, compare o prazo para sacar, o IR e os custos de cada opção. A próxima decisão do Copom sobre a Selic sai em dezembro e pode mudar os números."
+ ],
+ "como_se_proteger": [],
+ "slug": "quanto-rende-reserva-de-emergencia",
+ "publicado_em": "2026-11-12T00:34:55.219813",
+ "atualizado_em": "2026-11-12T00:34:55.219813",
+ "assunto": "Explicativo: quanto rende uma reserva de emergência pequena na poupança e no Tesouro Selic, com a Selic e a regra da poupança pelo Banco Central e o Tesouro Direto como fonte, e o passo para quem nunca guardou, sem promessa de ganho e sem indicar produto",
+ "turno": "manha"
+}
