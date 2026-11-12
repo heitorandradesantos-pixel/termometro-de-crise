@@ -1,0 +1,99 @@
+{
+ "titulo": "Dinheiro de casal: como dividir as contas e quanto guardar",
+ "descricao": "Dinheiro de casal: veja como dividir as contas, um exemplo em reais e quanto rendem a poupança e a Selic, segundo o Banco Central (dados de 12/11/2026).",
+ "palavra_chave": "dinheiro de casal",
+ "lead": "Casais podem dividir as contas meio a meio ou na proporção da renda de cada um. Com renda diferente, o segundo jeito costuma ser indicado por bancos e colunistas. Em 4 de novembro de 2026, o Banco Central manteve a Selic em 13,75% ao ano. Com a Selic acima de 8,5%, a poupança rende 0,5% ao mês mais a TR (Taxa Referencial, um índice que muda todo dia e costuma ser baixo).",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Selic, a taxa básica de juros do país, está em 13,75% ao ano. O Copom, comitê do Banco Central que decide os juros, manteve a taxa na reunião de 4 de novembro de 2026. A ata (resumo da reunião) saiu em 10 de novembro. Este é o dado mais recente do Banco Central.",
+   "fonte_url": "https://www.bcb.gov.br/en",
+   "data": "2026-11-04",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A regra da poupança está na página oficial do Banco Central (consultada em 12/11). O rendimento tem duas partes: a TR e um adicional. O adicional é de 0,5% ao mês enquanto a Selic estiver acima de 8,5% ao ano. Se a Selic ficar em 8,5% ou menos, o adicional passa a ser 70% da Selic.",
+   "fonte_url": "https://www.bcb.gov.br/pec/poupanca/poupanca.asp?frame=1",
+   "data": "2026-11-12",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Banco Central calcula o rendimento da poupança sobre o menor saldo de cada mês, contado a partir do dia em que a conta foi aberta (o 'aniversário'). Dinheiro tirado antes desse dia não rende naquele mês.",
+   "fonte_url": "https://www.bcb.gov.br/pec/poupanca/poupanca.asp?frame=1",
+   "data": "2026-11-12",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Com a Selic em 13,75%, a poupança rende 0,5% ao mês mais a TR, segundo o banco C6. O banco calcula cerca de 8,31% ao ano, com a TR em 2,02% nos 12 meses anteriores. Sem a TR, 0,5% ao mês dá cerca de 6,17% ao ano. A data exata do texto não aparece na busca; ele tem cerca de um mês.",
+   "fonte_url": "https://www.c6bank.com.br/blog/quanto-rende-a-poupanca",
+   "data": "2026-10-10",
+   "veiculo": "C6 Bank (blog)",
+   "confiavel": false
+  },
+  {
+   "texto": "Há dois jeitos comuns de dividir as contas do casal. Na divisão 50/50, cada um paga metade, o que funciona melhor com rendas parecidas. Na divisão proporcional, cada um paga conforme o que ganha, o que tende a ser mais justo quando as rendas são diferentes.",
+   "fonte_url": "https://blog.pagbank.com.br/como-dividir-as-contas-do-casal",
+   "data": "2026-10-30",
+   "veiculo": "Blog PagBank",
+   "confiavel": false
+  },
+  {
+   "texto": "O cálculo proporcional tem três passos: somar as rendas dos dois, achar a fatia de cada um na renda total e aplicar a mesma fatia ao total das despesas do mês.",
+   "fonte_url": "https://www.c6bank.com.br/blog/como-dividir-as-contas-do-casal",
+   "data": "2026-09-15",
+   "veiculo": "C6 Bank (blog)",
+   "confiavel": false
+  },
+  {
+   "texto": "Uma coluna do jornal Estado de Minas diz que não existe jeito certo de dividir as contas. Ela sugere começar pelo levantamento de quanto cada um ganha de verdade, incluindo a renda variável. Segundo a coluna, uma conta da casa ajuda quando o casal escolhe a divisão proporcional.",
+   "fonte_url": "https://www.em.com.br/colunistas/educando-seu-bolso/2026/10/7515615-financas-do-casal-5-dicas-para-organizar-o-dinheiro-a-dois-e-construir-patrimonio.html",
+   "data": "2026-10-06",
+   "veiculo": "Estado de Minas",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o site Meia Ficha, a poupança fica presa em 0,5% ao mês enquanto a Selic está acima de 8,5%. Já o Tesouro Selic, título do governo ligado à Selic, e outras aplicações atreladas à taxa sobem e descem com ela. A data exata do texto não aparece na busca; ele tem cerca de 2,5 meses.",
+   "fonte_url": "https://meiaficha.com.br/poupanca-vs-tesouro-selic/",
+   "data": "2026-08-28",
+   "veiculo": "Meia Ficha",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Copom manteve a Selic em 13,75% ao ano, por unanimidade, na 282ª reunião. A pausa interrompeu cinco cortes seguidos que começaram em março, quando a taxa estava em 15%.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Banco Central publicou a ata da reunião do Copom, com os motivos da decisão.",
+   "fonte_url": "https://www.bcb.gov.br/en",
+   "data": "2026-11-10",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto o casal deve guardar por mês: não há regra oficial. O valor depende de renda, dívidas e metas. O percentual do exemplo abaixo é só uma ilustração, não uma recomendação.",
+  "Quanto a TR vai render nos próximos meses: ela muda todo dia e o Banco Central não divulga previsão. O rendimento da poupança pode ficar um pouco acima de 0,5% ao mês.",
+  "Se a Selic vai mudar na próxima reunião do Copom: não foi confirmado. O comunicado do Copom diz que o comitê seguirá acompanhando o cenário, sem se comprometer com os próximos passos, segundo a CNN Brasil.",
+  "Quanto cada casal vai pagar de imposto ou tarifa em outras aplicações ligadas à Selic: depende do produto e da instituição. Isso não entra na conta do exemplo."
+ ],
+ "o_que_muda_para_voce": [
+  "Exemplo em reais (conta ilustrativa do Termômetro, com números inventados): ela ganha R$ 5.000 líquidos e ele ganha R$ 3.000, num total de R$ 8.000. As contas da casa somam R$ 4.000, ou 50% da renda do casal. Na divisão proporcional, ela paga 62,5% (R$ 2.500) e ele paga 37,5% (R$ 1.500). Sobram R$ 2.500 para ela e R$ 1.500 para ele. No meio a meio, cada um pagaria R$ 2.000. Isso pesaria 40% da renda dela e cerca de 67% da renda dele.",
+  "Quanto guardar (ilustração, não recomendação): se o casal combinar guardar 10% da renda de cada um, são R$ 500 dela e R$ 300 dele. Isso dá R$ 800 por mês e R$ 9.600 em 12 meses. O ponto principal é combinar o percentual antes, pagar as contas da casa primeiro e depois separar a reserva.",
+  "Se esses R$ 800 forem depositados todo mês na poupança, com 0,5% ao mês e sem contar a TR, o total em 12 meses chega a cerca de R$ 9.918. O rendimento seria de cerca de R$ 318. É conta aproximada do Termômetro, com depósito no início de cada mês e sem tarifas. Com a TR, o valor seria um pouco maior.",
+  "Selic e poupança não são a mesma coisa: 13,75% ao ano é a taxa básica, e a poupança rende 0,5% ao mês mais a TR, ou cerca de 6,17% ao ano sem a TR. Aplicações ligadas à Selic, como o Tesouro Selic, tendem a acompanhar a taxa, mas têm regras próprias de imposto e tarifa. Vale ler as regras de cada produto antes de escolher. O Banco Central tem a Calculadora do Cidadão para simular a poupança.",
+  "Manda para quem divide as contas com alguém."
+ ],
+ "como_se_proteger": [],
+ "slug": "dinheiro-de-casal",
+ "publicado_em": "2026-11-12T00:28:49.917291",
+ "atualizado_em": "2026-11-12T00:28:49.917291",
+ "assunto": "Explicativo: dinheiro de casal, como combinar quem paga o quê e quanto guardar por mês, com um exemplo em reais e o rendimento da poupança e da Selic com fonte oficial (Banco Central), fechando com \"manda para quem divide as contas com alguém\"",
+ "turno": "manha"
+}
