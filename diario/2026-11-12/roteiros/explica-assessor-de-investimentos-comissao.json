@@ -1,0 +1,178 @@
+{
+ "gancho": {
+  "formula": "Já descobriram, você ainda não",
+  "texto": "Seu assessor já sabe como ele é pago. Você ainda não.",
+  "na_tela": "Seu assessor sabe. E você?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Já descobriram, você ainda não",
+   "texto": "Seu assessor já sabe como ele é pago. Você ainda não.",
+   "na_tela": "Seu assessor sabe. E você?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu assessor de investimentos pode ganhar parte da taxa do que oferece.",
+   "na_tela": "Assessor ganha parte da taxa",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem paga o seu assessor de investimentos? A regra manda ele te contar.",
+   "na_tela": "Quem paga seu assessor?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seu assessor já sabe como ele é pago. Você ainda não.",
+  "Assessor pode ganhar parte da taxa, igual vendedor com comissão.",
+  "Não é proibido, mas a CVM manda avisar por escrito.",
+  "Esse aviso se chama termo de ciência. Peça o seu.",
+  "Olha só: segundo a CVM, o ganho dele não depende do seu retorno.",
+  "Pergunte quanto ele recebe e confira o registro dele na CVM.",
+  "Manda para quem vai aplicar com ajuda de assessor.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu assessor já sabe como ele é pago. Você ainda não. Assessor pode ganhar parte da taxa, igual vendedor com comissão. Não é proibido, mas a CVM manda avisar por escrito. Esse aviso se chama termo de ciência. Peça o seu. Olha só: segundo a CVM, o ganho dele não depende do seu retorno. Pergunte quanto ele recebe e confira o registro dele na CVM. Manda para quem vai aplicar com ajuda de assessor. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 106,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "Seu assessor sabe. E você?",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Comissão pode, com aviso por escrito",
+   "fonte": "CVM (Resolução 178)"
+  },
+  {
+   "fala": 3,
+   "texto": "Termo de ciência",
+   "fonte": "CVM (Resolução 178, Anexo A)"
+  },
+  {
+   "fala": 4,
+   "texto": "Ganho dele não depende do seu retorno",
+   "fonte": "CVM (Resolução 178, Anexo A)"
+  },
+  {
+   "fala": 5,
+   "texto": "Registro na CVM: ativo?",
+   "fonte": "CVM"
+  }
+ ],
+ "retomada": 4,
+ "busca": "assessor de investimentos comissão, como saber quanto ele ganha",
+ "legenda": "Assessor de investimentos ganha comissão? Pode ganhar parte das taxas dos produtos que oferece. Não é proibido, mas a regra da CVM obriga a avisar o cliente por escrito, no chamado termo de ciência.\n\nSegundo o modelo da CVM, a remuneração do assessor não depende do retorno que você terá. Por isso vale perguntar quanto ele recebe em cada produto e pedir a resposta por escrito.\n\nConfira também o registro dele e o da corretora no cadastro da CVM. Pesquise pelo CPF ou CNPJ e veja se o status está ativo. A ANBIMA é informação extra, não autorização.\n\nManda para quem vai aplicar com ajuda de assessor.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#educacaofinanceira #investimentos #cvm #assessordeinvestimentos",
+ "hashtags": [
+  "#educacaofinanceira",
+  "#investimentos",
+  "#cvm",
+  "#assessordeinvestimentos"
+ ],
+ "rua": {
+  "gancho": "Seu assessor já sabe como ele é pago. Você ainda não.",
+  "topicos": [
+   "Assessor pode ganhar parte da taxa do produto, segundo o termo da CVM.",
+   "Não é proibido, mas a CVM manda ele avisar você por escrito.",
+   "Segundo a CVM, o ganho dele não depende do retorno que você terá.",
+   "Peça o termo, pergunte quanto ele recebe e confira o registro dele na CVM."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um assunto de explicação, com regra e passo a passo, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Olha só: segundo a CVM, o ganho dele não depende do seu retorno.\": falta uma comparação viva para o lado sanguíneo, e a frase fica abstrata. Reescreva com uma imagem do dia a dia: o assessor é como o vendedor de loja que ganha comissão por produto vendido e não pelo quanto o produto vai te servir. A frase de abertura já usa a comissão, então amarre as duas e explique o que significa \"não depende do retorno\".",
+   "Frase \"Esse aviso se chama termo de ciência. Peça o seu.\": o termo técnico está traduzido pela metade, e o fleumático fica sem um passo calmo e simples. Reescreva como um passo único e fácil: \"Antes de aplicar, pergunte: 'quanto você ganha nisso?' e peça o aviso por escrito\". Isso troca a sequência de ordens por uma ação só, e o aviso por escrito vira o passo principal.",
+   "Frase \"Seu assessor já sabe como ele é pago. Você ainda não.\": o gancho funciona, mas fala só com quem já tem assessor. Reescreva para abrir também ao iniciante e para acolher, sem tom de desconfiança, por exemplo: \"Vai aplicar com ajuda de um assessor? Pergunte primeiro como ele é pago\". Assim a peça acalma e não sugere que todo assessor esconde algo."
+  ],
+  "veredito": "A peça fala com quem vai aplicar com ajuda, traz fonte (CVM), dá passos concretos e fecha com os bordões certos, sem medo sem saída; falta uma comparação viva e um passo único e calmo, e o linguajar ainda soa um pouco de manual, com pouco jeito de conversa de portão."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-in along a bright modern clothing store counter: a cash register, neatly folded garments, and a small stack of banknotes without visible numbers being slid across the counter by a hand, shot from the side at waist level. Shallow depth of field, warm light, no faces visible, no text, no logos, no readable labels",
+   "texto_da_fala": "Assessor pode ganhar parte da taxa, igual vendedor com comissão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a bright modern clothing store counter: a cash register, neatly folded garments, and a small stack of banknotes without visible numbers being slid across the counter by a hand, shot from the side at waist level. Shallow depth of field, warm light, no faces visible, no text, no logos, no readable labels. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Top-down shot slowly pushing in on a wooden office desk: a printed two-page form with abstract blurred gray lines instead of readable writing, and a hand (no face, no identifying features) placing a pen on it and sliding it toward the camera. Soft natural window light, no legible text, no letters, no numbers, no logos",
+   "texto_da_fala": "Esse aviso se chama termo de ciência. Peça o seu.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot slowly pushing in on a wooden office desk: a printed two-page form with abstract blurred gray lines instead of readable writing, and a hand (no face, no identifying features) placing a pen on it and sliding it toward the camera. Soft natural window light, no legible text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Smooth lateral tracking shot along a row of metal filing cabinets in a quiet office; one drawer is open and a hand pulls out a plain manila folder, then a magnifying glass glides over its blank cover. Cool neutral lighting, shallow depth of field, no faces, no text, no letters, no numbers, no logos",
+   "texto_da_fala": "Pergunte quanto ele recebe e confira o registro dele na CVM.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth lateral tracking shot along a row of metal filing cabinets in a quiet office; one drawer is open and a hand pulls out a plain manila folder, then a magnifying glass glides over its blank cover. Cool neutral lighting, shallow depth of field, no faces, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu assessor já sabe como ele é pago. Você ainda não.\n\nAssessor pode ganhar parte da taxa, igual vendedor com comissão.\n\nNão é proibido, mas a CVM manda avisar por escrito.\n\nEsse aviso se chama termo de ciência. Peça o seu.\n\nOlha só: segundo a CVM, o ganho dele não depende do seu retorno.\n\nPergunte quanto ele recebe e confira o registro dele na CVM.\n\nManda para quem vai aplicar com ajuda de assessor.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CVM (Resolução 178, Anexo A)",
+   "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol178.pdf",
+   "destaque": "O modelo de termo de ciência da própria CVM traz avisos diretos ao cliente: o assessor recebe parte das taxas cobradas pelos intermediários…"
+  },
+  {
+   "veiculo": "ANBIMA",
+   "url": "https://www.anbima.com.br/pt_br/noticias/resolucoes-da-cvm-sobre-atividade-de-assessor-de-investimento-e-transparencia-na-remuneracao-passam-a-valer-hoje.htm",
+   "destaque": "A Resolução 178 e partes da Resolução 179, que trata da transparência na remuneração, entraram em vigor em 2023."
+  },
+  {
+   "veiculo": "ANBIMA",
+   "url": "https://www.anbima.com.br/pt_br/imprensa/anbima-lanca-ferramenta-de-consulta-a-empresas-de-investimento-fiscalizadas.htm",
+   "destaque": "A ANBIMA mantém o Cadastro de Instituições e Profissionais de Investimento."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T00:19:54.280070-03:00"
+}
