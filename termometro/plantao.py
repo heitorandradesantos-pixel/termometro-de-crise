@@ -35,6 +35,7 @@ from .revisor import linguagem_proibida
 BUSCAS_PAUTA = 4
 BUSCAS_ARTIGO = 4
 JANELA_DIAS = 3          # fato com data mais antiga que isso não sustenta "notícia"
+JANELA_EXPLICATIVO = 365  # "Explicativo: ...": assunto do dia a dia, com o dado oficial mais recente
 MINIMO_FATOS = 3         # menos que isso, não há o que publicar
 REPETIDO_DIAS = 3        # o mesmo assunto não vira dois artigos em 3 dias
 MAXIMO_POR_RODADA = int(os.environ.get("PLANTAO_MAXIMO") or "1")
@@ -182,7 +183,7 @@ def repetido(assunto: str, anteriores: list[dict], agora: pd.Timestamp) -> bool:
 
 # ---------------------------------------------------------------- conferência (programa, não IA)
 
-def conferir(bruto: dict, buscados: set | None, hoje: str) -> dict:
+def conferir(bruto: dict, buscados: set | None, hoje: str, janela: int = JANELA_DIAS) -> dict:
     """Devolve {"aprovado", "artigo", "problemas"}. Fato sem link devolvido pela busca, ou velho demais, sai."""
     problemas, dia = [], pd.Timestamp(hoje)
     permitidos = None if buscados is None else {_limpo(u) for u in buscados}
@@ -203,7 +204,7 @@ def conferir(bruto: dict, buscados: set | None, hoje: str) -> dict:
 
     fatos = [x for x in (fato_ok(f) for f in bruto.get("o_que_se_sabe", [])) if x]
     tempo = [x for x in (fato_ok(f) for f in bruto.get("linha_do_tempo", [])) if x]
-    recentes = [f for f in fatos if pd.Timestamp(f["data"]) >= dia - pd.Timedelta(days=JANELA_DIAS)]
+    recentes = [f for f in fatos if pd.Timestamp(f["data"]) >= dia - pd.Timedelta(days=janela)]
     artigo = {
         "titulo": datas_br(str(bruto.get("titulo", "")).strip())[:90],
         "descricao": datas_br(str(bruto.get("descricao", "")).strip())[:160],
@@ -217,7 +218,7 @@ def conferir(bruto: dict, buscados: set | None, hoje: str) -> dict:
     if len(fatos) < MINIMO_FATOS:
         problemas.append(f"só {len(fatos)} fatos com fonte conferida (mínimo {MINIMO_FATOS})")
     if not recentes:
-        problemas.append(f"nenhum fato dos últimos {JANELA_DIAS} dias: não é notícia")
+        problemas.append(f"nenhum fato dos últimos {janela} dias: não é notícia")
     if not any(f["confiavel"] for f in fatos):
         problemas.append("nenhuma fonte de primeira linha ou oficial")
     if not artigo["titulo"] or len(artigo["titulo"]) > 90:
@@ -255,9 +256,14 @@ def escrever(cliente, assunto: dict, hoje: str, anterior: dict | None = None) ->
         pedido += (f"\n\nISTO É UMA ATUALIZAÇÃO do nosso artigo '{anterior['titulo']}'. Comece o lead pelo que mudou "
                    f"hoje, mantenha os fatos antigos que continuam valendo (confira os links de novo na busca) e "
                    f"registre o desdobramento na linha do tempo. Fatos do texto anterior:\n{velhos}")
+    # "Explicativo: ..." (pedido do editor) é assunto do dia a dia, sem notícia do dia: vale dado oficial de até 12 meses
+    janela = JANELA_EXPLICATIVO if str(assunto["assunto"]).lower().startswith("explicativo:") else JANELA_DIAS
+    if janela != JANELA_DIAS:
+        pedido += ("\n\nÉ um EXPLICATIVO do dia a dia, não notícia: use o dado oficial ou de veículo de primeira linha "
+                   "mais recente (até 12 meses), com a data dele, e deixe claro de quando é o número.")
     bruto = ia.estruturado(cliente, REPORTER, pedido, ferramenta_artigo(), buscas=BUSCAS_ARTIGO, max_tokens=8000,
                            links=buscados)
-    return conferir(bruto, buscados, hoje)
+    return conferir(bruto, buscados, hoje, janela)
 
 
 def rodar(diario: Path, agora: pd.Timestamp | None = None, cliente=None, tema: str = "",
