@@ -161,7 +161,12 @@ async function mandar (sock, jid, envio) {
   }
   for (const texto of envio.textos || []) {
     await delay(2000)
-    ids.push((await sock.sendMessage(jid, { text: texto })).key.id)
+    if (texto && typeof texto === 'object' && texto.imagem) { // ex.: a capa sugerida, no meio do pacote do roteiro
+      if (!fs.existsSync(texto.imagem)) continue
+      ids.push((await sock.sendMessage(jid, { image: fs.readFileSync(texto.imagem), caption: texto.legenda || undefined })).key.id)
+    } else {
+      ids.push((await sock.sendMessage(jid, { text: texto })).key.id)
+    }
   }
   for (let i = 0; i < 30 && !ids.every((id) => confirmados.has(id)); i++) await delay(1000)
   if (!ids.every((id) => confirmados.has(id))) diga('Aviso: o servidor não confirmou todas as mensagens em 30 s.')
@@ -204,6 +209,9 @@ async function principal () {
     } else if (acao === 'teste' || acao === 'enviar') {
       const envio = JSON.parse(fs.readFileSync(arquivo, 'utf8'))
       if (envio.imagem && !path.isAbsolute(envio.imagem)) envio.imagem = path.join(path.dirname(arquivo), envio.imagem)
+      for (const t of envio.textos || []) {
+        if (t && typeof t === 'object' && t.imagem && !path.isAbsolute(t.imagem)) t.imagem = path.join(path.dirname(arquivo), t.imagem)
+      }
       sock = await conectar()
       await delay(4000)
       let jid

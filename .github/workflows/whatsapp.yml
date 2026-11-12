@@ -113,11 +113,18 @@ jobs:
         working-directory: whatsapp
         run: node enviar.mjs parear
 
+      - name: Instalar a Remotion (capas dos roteiros)
+        if: inputs.acao == 'roteiros'
+        continue-on-error: true
+        run: |
+          sudo apt-get install -y -qq fonts-inter > /dev/null 2>&1 || true
+          cd edicao/remotion && npm ci --silent && npx remotion browser ensure > /dev/null 2>&1 || true
       - name: Preparar o envio
         if: inputs.acao != 'parear'
         env:
           PAINEL_SENHA: ${{ secrets.PAINEL_SENHA }}
           AVISO_ROTEIROS: ${{ inputs.aviso }}
+          CAPAS: "1"
         run: |
           HORA=$(TZ=America/Sao_Paulo date +%-H)
           # o agendamento do GitHub às vezes atrasa horas: a abertura automática só sai entre 9h e 12h59

@@ -15,7 +15,9 @@ tipo de conexão; envio em massa para desconhecidos é o que leva a bloqueio).
 
 import json
 import os
+import re
 import shutil
+import subprocess
 from pathlib import Path
 
 import pandas as pd
@@ -163,6 +165,43 @@ def _titulo_roteiro(pasta_diario: Path, dia: str, arq: Path) -> str:
     return f"{tipo.capitalize()} de {dia[8:10]}/{dia[5:7]}"
 
 
+RAIZ = Path(__file__).resolve().parent.parent
+FOTOS_CAPA = RAIZ / "edicao" / "capa" / "fotos"
+REMOTION = RAIZ / "edicao" / "remotion"
+
+
+def texto_capa(roteiro: dict) -> str:
+    """O texto da capa: o cartão do gancho (até 6 palavras), com o primeiro número em amarelo."""
+    tela = next((t["texto"] for t in roteiro.get("na_tela") or [] if t.get("fala") == 0 and t.get("texto")), "")
+    tela = tela or roteiro["linhas"][0]
+    if "*" not in tela:
+        tela = re.sub(r"((?:R\$|US\$)\s?[\d.,]+(?:\s(?:mil|milhões|bilhões))?|[\d.,]*\d%?)", r"*\1*", tela, count=1)
+    return tela
+
+
+def capa_roteiro(roteiro: dict, nome: str, saida: Path) -> Path | None:
+    """Capa com texto gigante (Remotion). Só roda onde a Remotion está instalada (CAPAS=1 no robô); se falhar, segue sem."""
+    if os.environ.get("CAPAS") != "1" or not (REMOTION / "node_modules").exists():
+        return None
+    fotos = sorted(FOTOS_CAPA.glob("*.jpg"))
+    if not fotos:
+        return None
+    foto = fotos[sum(map(ord, nome)) % len(fotos)].name
+    props = json.dumps({"foto": foto, "texto": texto_capa(roteiro)}, ensure_ascii=False)
+    try:
+        cmd = ["npx", "remotion", "still", "Capa", str(saida.resolve()), f"--props={props}",
+               f"--public-dir={FOTOS_CAPA}", "--log=error"]
+        navegador = os.environ.get("REMOTION_NAVEGADOR") or next((str(x) for x in Path("/opt/pw-browsers").glob(
+            "chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell")), "")
+        if navegador:  # onde a rede não deixa a Remotion baixar o navegador dela
+            cmd.append(f"--browser-executable={navegador}")
+        subprocess.run(cmd, check=True, cwd=REMOTION, timeout=300)
+        return saida if saida.exists() else None
+    except (subprocess.SubprocessError, OSError) as erro:
+        print(f"  capa não saiu ({erro}); segue sem")
+        return None
+
+
 def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
     """Os roteiros aprovados do dia que ainda não foram para a conversa do próprio número (para o Heitor gravar)."""
     from . import roteirista
@@ -180,8 +219,13 @@ def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
     if pasta_saida.exists():
         shutil.rmtree(pasta_saida)
     pasta_saida.mkdir(parents=True)
-    textos = [t for n, (arq, r) in enumerate(novos, 1)
-              for t in roteirista.pacote_whatsapp(r, _titulo_roteiro(pasta_diario, dia, arq), n, len(novos))]
+    textos = []
+    for n, (arq, r) in enumerate(novos, 1):
+        pacote = roteirista.pacote_whatsapp(r, _titulo_roteiro(pasta_diario, dia, arq), n, len(novos))
+        if capa := capa_roteiro(r, arq.stem, pasta_saida / f"capa-{n}.png"):
+            pacote.insert(1, {"imagem": capa.name, "legenda": "🖼️ Capa sugerida: na hora de postar, Editar capa > "
+                                                          "Adicionar da galeria (Instagram e TikTok)."})
+        textos += pacote
     if aviso := (os.environ.get("AVISO_ROTEIROS") or "").strip():  # ex.: "GRAVAR A PARTIR DAQUI", antes de tudo
         textos.insert(0, aviso)
     envio = {"modo": "teste", "dia": dia, "tipo": "roteiros", "textos": textos, "roteiros": [str(a) for a, _ in novos]}

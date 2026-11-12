@@ -9,10 +9,10 @@ export type DadosCapa = { foto: string; texto: string };
 export const Capa: React.FC<DadosCapa> = ({ foto, texto }) => {
   const partes = texto.split(/(\*[^*]+\*)/g).filter(Boolean);
   return (
-    <AbsoluteFill style={{ backgroundColor: CORES.fundo }}>
-      <Img src={staticFile(foto)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+    <AbsoluteFill style={{ backgroundColor: "#000" }}>
+      <Img src={staticFile(foto)} style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.7 }} />
       <AbsoluteFill
-        style={{ background: "linear-gradient(180deg, rgba(14,20,27,0) 38%, rgba(14,20,27,.55) 62%, rgba(14,20,27,.92) 100%)" }}
+        style={{ background: "linear-gradient(180deg, rgba(8,12,17,0) 0%, rgba(8,12,17,0) 45%, rgba(8,12,17,.6) 65%, rgba(8,12,17,.9) 100%)" }}
       />
       <div
         style={{
