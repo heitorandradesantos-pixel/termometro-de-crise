@@ -1,0 +1,204 @@
+{
+ "saida": "banco-do-brasil-editado.mp4",
+ "fim": 79.95,
+ "bordao": [
+  77.82,
+  79.95
+ ],
+ "remover": [
+  [
+   10.05,
+   11.95
+  ],
+  [
+   22.85,
+   31.35
+  ]
+ ],
+ "destaques": "\\d|%|calote|fiado|dividendo|agro|fgc|cpf|xp|whatsapp",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Banco",
+   "do",
+   "Brasil"
+  ]
+ ],
+ "roteiro": [
+  "A ação do Banco do Brasil chegou a cair mais de 10% hoje. O motivo: calote.",
+  "O lucro do trimestre foi de R$ 1,27 bilhão, 66,5% menor que um ano atrás. E o mercado esperava quase o triplo.",
+  "No agro, a dívida atrasada há mais de 90 dias foi de 4,84% pra 6,92%.",
+  "Na pessoa física, segundo a XP, foi de 6% pra 9,14%.",
+  "É a loja que vendeu fiado demais: o cliente não paga, e a loja separa dinheiro pra cobrir o buraco. No BB, foram R$ 21,2 bilhões só no trimestre.",
+  "Mas o que derrubou a ação foi outra coisa: o banco cortou pela metade a previsão de lucro do ano.",
+  "E quem tem a ação pelos dividendos levou a segunda pancada: a fatia do lucro repassada caiu de 30% pra 25%.",
+  "E os dividendos intermediários de novembro foram cancelados.",
+  "Calma: não é banco quebrando. O capital segue acima do mínimo exigido.",
+  "E conta e poupança têm garantia do FGC, até R$ 250 mil por CPF em cada banco.",
+  "Manda pra quem tem ação do Banco do Brasil.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "1",
+    "27"
+   ],
+   [
+    "R$",
+    "1,27"
+   ]
+  ],
+  [
+   [
+    "66%"
+   ],
+   [
+    "66,5%"
+   ]
+  ],
+  [
+   [
+    "4",
+    "84%"
+   ],
+   [
+    "4,84%"
+   ]
+  ],
+  [
+   [
+    "6",
+    "92%"
+   ],
+   [
+    "6,92%"
+   ]
+  ],
+  [
+   [
+    "9%"
+   ],
+   [
+    "9,14%"
+   ]
+  ],
+  [
+   [
+    "fiar"
+   ],
+   [
+    "fiado"
+   ]
+  ],
+  [
+   [
+    "21",
+    "bilhões"
+   ],
+   [
+    "R$ 21",
+    "bilhões"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   4.5,
+   "Ação do BB: *−10%* hoje",
+   "Fonte: InfoMoney"
+  ],
+  [
+   4.6,
+   9.6,
+   "Lucro: *R$ 1,27 bi* (−66,5%)",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   12.0,
+   13.9,
+   "Esperado: *R$ 3,47 bi*",
+   "Fonte: LSEG"
+  ],
+  [
+   14.2,
+   19.8,
+   "Atraso no agro: *4,84% → 6,92%*",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   20.2,
+   22.8,
+   "Pessoa física: *6% → 9,14%*",
+   "Fonte: XP"
+  ],
+  [
+   31.4,
+   36.2,
+   "Loja que vendeu *fiado demais*",
+   ""
+  ],
+  [
+   36.4,
+   39.2,
+   "*R$ 21,2 bi* para cobrir calote",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   41.9,
+   44.7,
+   "Lucro de 2026: *R$ 18–22 bi → R$ 9–11 bi*",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   48.4,
+   50.9,
+   "Dividendos: *30% → 25%* do lucro",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   51.2,
+   53.7,
+   "Dividendo de novembro: *cancelado*",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   54.9,
+   59.6,
+   "Não é banco quebrando: *capital acima do mínimo*",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   59.9,
+   65.8,
+   "FGC: até *R$ 250 mil* por CPF",
+   "Fonte: FGC"
+  ],
+  [
+   66.3,
+   68.2,
+   "Manda pra quem tem *ação do BB*",
+   ""
+  ],
+  [
+   68.4,
+   70.7,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   73.7,
+   77.6,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ]
+}
