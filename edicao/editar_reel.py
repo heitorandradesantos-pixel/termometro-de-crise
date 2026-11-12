@@ -5,6 +5,7 @@ Uso: python editar_reel.py <pasta>"""
 import json
 import os
 import re
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -316,11 +317,13 @@ def montar_remotion(junto: Path, manter, novo, total: float) -> None:
     """Vídeo cortado + som tratado (ffmpeg) e, por cima, legendas, cartões, bordão e tela final animados (Remotion)."""
     publico = AQUI / "remotion-publico"
     publico.mkdir(exist_ok=True)
+    if CFG.get("sons", True):  # efeitos sonoros (edicao/remotion/sfx): "sons": false no config.json desliga
+        shutil.copytree(REMOTION / "sfx", publico / "sfx", dirs_exist_ok=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(junto), "-af", FILTRO_AUDIO, "-c:v", "copy", "-c:a", "aac",
                     "-b:a", "320k", "-ar", "48000", "-movflags", "+faststart", "-t", f"{total:.3f}", str(publico / "base.mp4")],
                    check=True)
     camadas = {
-        "video": "base.mp4", "total": round(total, 3), "final": float(CFG.get("final", FINAL)),
+        "video": "base.mp4", "total": round(total, 3), "sons": bool(CFG.get("sons", True)), "final": float(CFG.get("final", FINAL)),
         "legendas": [{"ini": round(a, 3), "fim": round(b, 3),
                       "palavras": [{"ini": round(w[0], 3), "fim": round(w[1], 3), "texto": w[2],
                                     "destaque": bool(DESTAQUES.search(w[2]))} for w in bloco]}

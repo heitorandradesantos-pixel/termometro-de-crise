@@ -1,3 +1,4 @@
+import { Som } from "./Som";
 import { Easing, interpolate, Sequence, useCurrentFrame, useVideoConfig } from "remotion";
 import { Cartao, CORES, FONTE } from "./tipos";
 
@@ -106,7 +107,7 @@ const CartaoAnimado: React.FC<{ cartao: Cartao; duracao: number }> = ({ cartao, 
   );
 };
 
-export const Cartoes: React.FC<{ cartoes: Cartao[]; total: number }> = ({ cartoes, total }) => {
+export const Cartoes: React.FC<{ cartoes: Cartao[]; total: number; sons?: boolean }> = ({ cartoes, total, sons = true }) => {
   const { fps } = useVideoConfig();
   return (
     <>
@@ -117,6 +118,7 @@ export const Cartoes: React.FC<{ cartoes: Cartao[]; total: number }> = ({ cartoe
         return (
           <Sequence key={i} name={`Cartão ${i + 1}`} from={ini} durationInFrames={dur} layout="none">
             <CartaoAnimado cartao={c} duracao={dur} />
+            {sons && ini > 0 ? <Som som="cartao" /> : null}
           </Sequence>
         );
       })}

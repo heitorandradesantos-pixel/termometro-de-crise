@@ -4,6 +4,7 @@ import { Cartoes } from "./Cartoes";
 import { Bordao, TelaFinal } from "./Fim";
 import { Legendas } from "./Legendas";
 import { Simbolo } from "./Simbolo";
+import { Som } from "./Som";
 import { Camadas, CORES, FONTE } from "./tipos";
 
 const Selo: React.FC = () => {
@@ -33,7 +34,7 @@ const Selo: React.FC = () => {
   );
 };
 
-export const Reel: React.FC<Camadas> = ({ video, total, legendas, cartoes, bordao }) => {
+export const Reel: React.FC<Camadas> = ({ video, total, legendas, cartoes, bordao, sons = true }) => {
   const { fps } = useVideoConfig();
   const fimVideo = Math.round(total * fps);
   return (
@@ -41,7 +42,7 @@ export const Reel: React.FC<Camadas> = ({ video, total, legendas, cartoes, borda
       <Sequence name="Vídeo" durationInFrames={fimVideo}>
         <Video src={staticFile(video)} objectFit="cover" style={{ width: "100%", height: "100%" }} />
         <Selo />
-        <Cartoes cartoes={cartoes} total={total} />
+        <Cartoes cartoes={cartoes} total={total} sons={sons} />
         <Legendas blocos={legendas} total={total} />
         {bordao ? (
           <Sequence
@@ -51,11 +52,22 @@ export const Reel: React.FC<Camadas> = ({ video, total, legendas, cartoes, borda
             layout="none"
           >
             <Bordao />
+            {sons ? <Som som="bordaoWhoosh" /> : null}
+            {sons ? (
+              <Sequence from={Math.round(0.45 * fps)} layout="none">
+                <Som som="bordaoHit" />
+              </Sequence>
+            ) : null}
           </Sequence>
         ) : null}
       </Sequence>
       <Sequence name="Tela final" from={fimVideo}>
         <TelaFinal />
+        {sons ? (
+          <Sequence from={Math.round(0.5 * fps)} layout="none">
+            <Som som="seguir" />
+          </Sequence>
+        ) : null}
       </Sequence>
     </AbsoluteFill>
   );

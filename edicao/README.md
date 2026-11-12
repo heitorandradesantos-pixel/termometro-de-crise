@@ -37,6 +37,11 @@ mundo." vem no fim, antes do bordão. Não há mais teste com e sem apresentaç�
 - Licença: a Remotion é grátis para pessoa física e empresa com até 3 pessoas (nosso caso). Acima disso, licença de empresa.
 - Aqui, a Remotion usa o Chromium que já vem instalado (a rede bloqueia o download do navegador dela).
 
+## Efeitos sonoros (a partir de 12/11)
+- Pasta `edicao/remotion/sfx`: pop na entrada de cada cartão, whoosh + impacto no bordão e ding no "Seguir" da tela final.
+  Feitos em código com o earshot (github.com/Leonxlnx/earshot, MIT): `earshot sfx render pro_pop_in/round -o cartao.wav --peak -3`.
+- Volume baixo (0,28 a 0,32) para não brigar com a voz. `"sons": false` no config.json desliga.
+
 ## Fluxo completo (revisado na retrospectiva de 12/11)
 1. **Chegam os vídeos** → copie cada um para `pasta/vN/original.mov`.
 2. **Transcrever todos de uma vez:** `edicao/ferramentas/transcrever.sh -p "nomes próprios" pasta/v1 pasta/v2 ...`

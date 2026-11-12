@@ -10,6 +10,7 @@ export type Camadas = {
   legendas: Bloco[];
   cartoes: Cartao[];
   bordao: { ini: number; fim: number } | null;
+  sons?: boolean; // efeitos sonoros (pasta sfx, feitos com o earshot): padrão ligado
 };
 
 export const CORES = {
