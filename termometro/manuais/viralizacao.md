@@ -60,7 +60,9 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
   ETF no exterior, calculadora de transação tributária da Receita ("os conteúdos em si não achei relevantes").
 - O padrão: assunto que a pessoa comum já está comentando ou sente no bolso esta semana (câmbio, comida, conta,
   dívida, salário, benefício). Assunto de investidor de nicho ou de contador só entra se virar dinheiro do dia a dia.
-- Pergunta antes de propor ou roteirizar: "minha mãe ou meu vizinho comentariam isso hoje?" Se não, não é pauta.
+- Correção do Heitor (12/11): MESCLAR. A maior parte é assunto do dia a dia (o vizinho comentaria), mas assunto
+  de investidor (balanço de empresa, bolsa, Nvidia, IPO, ETF, pacote fiscal) também entra, explicado em linguagem
+  popular e puxando para o bolso. Uma boa proporção: de cada 3 vídeos, 2 do dia a dia e 1 de investidor.
 
 ## Hashtags
 - Nunca usar #cambio: a Meta recusa o envio de Reel com ela pela API (11/11), sinal de hashtag restrita.
