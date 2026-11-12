@@ -1,0 +1,173 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro?",
+  "na_tela": "R$ 200 por mês rendem quanto?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro?",
+   "na_tela": "R$ 200 por mês rendem quanto?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto rendem R$ 200 por mês em um ano? Fui fazer a conta.",
+   "na_tela": "Quanto rendem R$ 200 por mês?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Entre poupança e Tesouro Selic, R$ 200 por mês deixam R$ 34 de diferença.",
+   "na_tela": "Poupança ou Tesouro: R$ 34",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro?",
+  "No Tesouro Selic, já sem imposto, sobram cerca de R$ 140.",
+  "São cerca de R$ 34 de diferença no ano.",
+  "É como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa.",
+  "Olha só: a Selic, juro básico, está em 13,75%, diz o Copom.",
+  "Na prática: o rendimento pode mudar, mas o Tesouro libera todo dia útil.",
+  "Antes de escolher, anote quando você vai precisar desse dinheiro.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro? No Tesouro Selic, já sem imposto, sobram cerca de R$ 140. São cerca de R$ 34 de diferença no ano. É como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa. Olha só: a Selic, juro básico, está em 13,75%, diz o Copom. Na prática: o rendimento pode mudar, mas o Tesouro libera todo dia útil. Antes de escolher, anote quando você vai precisar desse dinheiro. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "R$ 200 por mês rendem quanto?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Poupança: R$ 105 | Tesouro Selic: R$ 140",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 2,
+   "texto": "Diferença: cerca de R$ 34 no ano",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Tesouro: resgate em qualquer dia útil",
+   "fonte": "B3 Educação"
+  },
+  {
+   "fala": 6,
+   "texto": "Quando você vai precisar do dinheiro?",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "poupança ou Tesouro Selic: quanto rendem R$ 200 por mês em 1 ano",
+ "legenda": "Poupança ou Tesouro Selic: quanto rendem R$ 200 por mês em 1 ano?\n\nNa simulação do Termômetro, quem guarda R$ 200 por mês põe R$ 2.400 do bolso. A poupança rende cerca de R$ 105, sem Imposto de Renda. O Tesouro Selic rende cerca de R$ 140, já descontado o imposto. A diferença é de cerca de R$ 34 no ano.\n\nA conta usa a Selic em 13,75%, mantida pelo Copom em 4 de novembro. Se a Selic mudar, o resultado muda. A poupança segue a regra atual e a TR varia todo mês. É uma conta com hipóteses simples, não uma promessa de ganho.\n\nAntes de escolher, anote quando você vai precisar desse dinheiro. Conta nos comentários: prazo, facilidade ou tranquilidade, o que pesa mais pra você?\n\nConteúdo educativo, não é recomendação de investimento.\n\n#poupanca #tesouroselic #educacaofinanceira #selic #dinheiro",
+ "hashtags": [
+  "#poupanca",
+  "#tesouroselic",
+  "#educacaofinanceira",
+  "#selic",
+  "#dinheiro"
+ ],
+ "rua": {
+  "gancho": "R$ 200 por mês: poupança rende R$ 105, Tesouro Selic, R$ 140.",
+  "topicos": [
+   "Simulação do Termômetro: poupança rende cerca de R$ 105 em um ano, sem imposto.",
+   "Tesouro Selic, já sem imposto, rende cerca de R$ 140: R$ 34 a mais.",
+   "Segundo o Copom, a Selic está em 13,75%; se cair, o Tesouro rende menos.",
+   "Antes de escolher, anote quando você vai precisar desse dinheiro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto, que pede calma e prova na tela, não uma notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Na prática: o rendimento pode mudar, mas o Tesouro libera todo dia útil.\" → \"libera\" é jargão solto. Reescreva em frase de conversa: \"Na prática: se a Selic mudar, o rendimento muda. E dá pra resgatar o dinheiro em qualquer dia útil.\" Assim o fleumático ganha calma e o melancólico ganha o que ainda não se sabe.\"",
+   "\"É como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa.\" → a comparação é boa, mas fica solta. Ancore no bolso do espectador, só com números que já estão na peça: \"Você põe os mesmos R$ 2.400 nas duas bancas. Numa volta R$ 105 de rendimento, na outra R$ 140.\""
+  ],
+  "veredito": "Peça fala com quem tem R$ 200 na poupança, abre direto no número, traz fonte (Copom), ressalva e um passo simples, e fecha com todos os bordões da casa; falta o porquê da diferença ficar vivo para o melancólico e traduzir \\\"libera todo dia útil\\\"."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Macro close-up of two clear glass jars side by side on a wooden table in warm morning light, both filled with gold and silver coins, one jar noticeably fuller than the other. Slow dolly-in from the shorter jar toward the fuller one, shallow depth of field. No people, no text, no numbers, no logos",
+   "texto_da_fala": "No Tesouro Selic, já sem imposto, sobram cerca de R$ 140.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up of two clear glass jars side by side on a wooden table in warm morning light, both filled with gold and silver coins, one jar noticeably fuller than the other. Slow dolly-in from the shorter jar toward the fuller one, shallow depth of field. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Busy open-air street market (feira) in the morning, wooden stalls piled with colorful fresh fruit and vegetables, a canvas awning overhead. Slow lateral tracking shot along the stalls, ending on a full paper bag of produce on a counter. Background shoppers only as blurred silhouettes with no faces in focus. No text, no signs, no numbers, no logos",
+   "texto_da_fala": "É como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Busy open-air street market (feira) in the morning, wooden stalls piled with colorful fresh fruit and vegetables, a canvas awning overhead. Slow lateral tracking shot along the stalls, ending on a full paper bag of produce on a counter. Background shoppers only as blurred silhouettes with no faces in focus. No text, no signs, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Exterior of a modern government institutional building with tall concrete columns and large glass windows, under a clear blue sky. Slow upward tilt with a gentle push-in from the base of the steps to the top of the facade. Empty plaza, no recognizable people, no flags, no text, no numbers, no logos",
+   "texto_da_fala": "Olha só: a Selic, juro básico, está em 13,75%, diz o Copom.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Exterior of a modern government institutional building with tall concrete columns and large glass windows, under a clear blue sky. Slow upward tilt with a gentle push-in from the base of the steps to the top of the facade. Empty plaza, no recognizable people, no flags, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 200 por mês na poupança rendem cerca de R$ 105. No Tesouro?\n\nNo Tesouro Selic, já sem imposto, sobram cerca de R$ 140.\n\nSão cerca de R$ 34 de diferença no ano.\n\nÉ como a feira: mesmo dinheiro, mas numa banca você leva mais pra casa.\n\nOlha só: a Selic, juro básico, está em 13,75%, diz o Copom.\n\nNa prática: o rendimento pode mudar, mas o Tesouro libera todo dia útil.\n\nAntes de escolher, anote quando você vai precisar desse dinheiro.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "B3 Educação",
+   "url": "https://edu.b3.com.br/w/tesouro-selic",
+   "destaque": "O Tesouro Selic é um título público que acompanha a Selic."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T00:10:03.623501-03:00"
+}
