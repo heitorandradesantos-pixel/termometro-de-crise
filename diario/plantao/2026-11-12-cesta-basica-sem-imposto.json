@@ -1,0 +1,126 @@
+{
+ "titulo": "Cesta básica sem imposto, Desenrola e MEI: o que se sabe",
+ "descricao": "Veja o que já vale e o que ainda é proposta na cesta básica sem imposto, no Desenrola e nas regras do MEI. Dados até 12/11/2026, com fontes.",
+ "palavra_chave": "cesta básica sem imposto",
+ "lead": "Em 12 de novembro de 2026, três temas aparecem misturados: cesta básica sem imposto, renegociação de dívidas e regras do MEI. A cesta básica nacional tem imposto zero definido em lei. O Novo Desenrola para famílias já fechou o prazo, e o Desenrola 3.0 ainda não começou. Para o MEI, a Lei Complementar 238/2026 foi sancionada em 21 de outubro, mas o novo teto de faturamento só vale a partir de 2027.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Cesta básica: a Lei Complementar 214/2025 criou a Cesta Básica Nacional de Alimentos, com alíquota zero da CBS e do IBS, os dois novos tributos sobre consumo. Eles substituem PIS, Cofins, IPI, ICMS e ISS. A lista inclui arroz, feijão, leite, ovos, pão, café, açúcar, frutas, legumes e verduras, entre outros. Segundo o Correio Braziliense, a desoneração já está em vigor.",
+   "fonte_url": "https://www.correiobraziliense.com.br/aqui/2026/05/21/cesta-basica-com-menos-imposto-o-que-muda-com-nova-reforma/",
+   "data": "2026-05-21",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "Cesta básica: a reforma também prevê uma segunda lista de produtos com redução de 60% na alíquota padrão (não é imposto zero). O Governo Federal já havia apresentado essa lista estendida em 2024, com carnes, peixes, queijos e mel, segundo a Secom (gov.br).",
+   "fonte_url": "https://www.gov.br/secom/pt-br/fatos/brasil-contra-fake/noticias/2024/06/reforma-tributaria-reduz-a-tributacao-sobre-a-cesta-basica",
+   "data": "2026-05-21",
+   "veiculo": "Secom / gov.br",
+   "confiavel": true
+  },
+  {
+   "texto": "Renegociação de famílias: o Novo Desenrola Brasil foi lançado em 4 de maio de 2026. Pelo Ministério da Fazenda (gov.br), o prazo para famílias renegociarem terminou em 31 de agosto de 2026. As regras eram: renda de até 5 salários mínimos (R$ 8.105), dívidas de cartão, cheque especial e crédito pessoal contratadas até 31/01/2026, com atraso de 91 dias a 2 anos.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/novo-desenrola-brasil",
+   "data": "2026-08-31",
+   "veiculo": "Ministério da Fazenda / gov.br",
+   "confiavel": true
+  },
+  {
+   "texto": "Desenrola 3.0: a Medida Provisória 1.393/26 criou a terceira fase do programa. A União poderá fazer leilões para comprar carteiras de dívidas não pagas, com valor original de até R$ 10 mil, e repassar o desconto aos devedores. O governo estima até R$ 150 bilhões em dívidas. Segundo a Agência Câmara, o cronograma prevê edital em novembro de 2026 e propostas dos credores em dezembro.",
+   "fonte_url": "https://www.camara.leg.br/noticias/1306974-medida-provisoria-cria-programa-desenrola-3-0-para-renegociar-r-150-bilhoes-em-dividas",
+   "data": "2026-09-28",
+   "veiculo": "Agência Câmara",
+   "confiavel": false
+  },
+  {
+   "texto": "MEI: o presidente sancionou em 21 de outubro de 2026 a Lei Complementar 238/2026, segundo a Fenacon e o CRC-MA. O Senado aprovou o texto por 78 votos a 0, e a Câmara por 461 a 4.",
+   "fonte_url": "https://crcma.org.br/noticias/sancionada-lei-que-amplia-limite-de-faturamento-do-mei",
+   "data": "2026-10-21",
+   "veiculo": "CRC-MA",
+   "confiavel": false
+  },
+  {
+   "texto": "MEI: o teto de faturamento anual é de R$ 81 mil em 2026. Pela lei, sobe para R$ 110 mil a partir de 1º de janeiro de 2027 e para R$ 140 mil a partir de 1º de janeiro de 2028. Até lá, vale o limite atual.",
+   "fonte_url": "https://maracajuonline.com.br/economia/nova-lei-regras-mei-perdao-dividas-teto/",
+   "data": "2026-10-21",
+   "veiculo": "Maracaju Online",
+   "confiavel": false
+  },
+  {
+   "texto": "MEI: a lei perdoa débitos tributários federais constituídos até 13 de outubro de 2026, incluindo contribuições previdenciárias, multas e juros. A extinção das dívidas está prevista para 1º de janeiro de 2027, e o MEI precisa manter o DAS (guia mensal) em dia nos seis primeiros meses de vigência.",
+   "fonte_url": "https://riopress.com.br/lula-sanciona-lei-que-amplia-limites-e-concede-perdao-de-dividas-ao-microempreendedor-individual/",
+   "data": "2026-10-21",
+   "veiculo": "Riopress",
+   "confiavel": false
+  },
+  {
+   "texto": "MEI: a lei permite até dois empregados com carteira, desde que cada um receba um salário mínimo ou o piso da categoria. Hoje o MEI pode ter um só. Além disso, um decreto assinado junto dispensa o MEI de emitir nota fiscal em vendas e serviços para pessoas físicas, dentro das condições da norma.",
+   "fonte_url": "https://clickpetroleoegas.com.br/mei-ganha-lei-sancionada-nesta-quarta-feira-que-perdoa-as-dividas-com-a-uniao-deixa-contratar-dois-funcionarios-e-sobe-o-teto-de-faturamento-de-r-81-mil-para-r-140-mil-mas-o-btl96/",
+   "data": "2026-10-21",
+   "veiculo": "CPG Click Petróleo e Gás",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Governo lança o Novo Desenrola Brasil (MP 1.355).",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/novo-desenrola-brasil",
+   "data": "2026-05-04",
+   "veiculo": "Ministério da Fazenda / gov.br",
+   "confiavel": true
+  },
+  {
+   "texto": "Correio Braziliense informa que a desoneração da cesta básica nacional já está em vigor.",
+   "fonte_url": "https://www.correiobraziliense.com.br/aqui/2026/05/21/cesta-basica-com-menos-imposto-o-que-muda-com-nova-reforma/",
+   "data": "2026-05-21",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "Termina o prazo de renegociação do Novo Desenrola Brasil para famílias.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/novo-desenrola-brasil",
+   "data": "2026-08-31",
+   "veiculo": "Ministério da Fazenda / gov.br",
+   "confiavel": true
+  },
+  {
+   "texto": "Agência Câmara divulga a MP 1.393/26, que cria o Desenrola 3.0.",
+   "fonte_url": "https://www.camara.leg.br/noticias/1306974-medida-provisoria-cria-programa-desenrola-3-0-para-renegociar-r-150-bilhoes-em-dividas",
+   "data": "2026-09-28",
+   "veiculo": "Agência Câmara",
+   "confiavel": false
+  },
+  {
+   "texto": "Sanção da Lei Complementar 238/2026, do MEI.",
+   "fonte_url": "https://crcma.org.br/noticias/sancionada-lei-que-amplia-limite-de-faturamento-do-mei",
+   "data": "2026-10-21",
+   "veiculo": "CRC-MA",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Desde quando o preço da cesta cai de fato no mercado: os veículos consultados dizem que a isenção vale desde janeiro de 2026, mas a Contábeis informa que a reforma tem transição gradual de 2026 a 2033. Não encontrei página da Receita Federal que confirme a data exata de cada etapa. Não foi confirmado.",
+  "Quanto os preços dos alimentos caíram por causa da lei. Nenhuma fonte oficial consultada traz esse número.",
+  "Se o edital do Desenrola 3.0 já foi publicado. O cronograma da Agência Câmara prevê novembro de 2026, mas não achei confirmação de publicação.",
+  "Quando o consumidor poderá negociar no Desenrola 3.0. Segundo a Rádio Caiçara, as dívidas devem ter de 2 a 4,5 anos de atraso e o primeiro lote deve ser de cartão rotativo e crédito pessoal. Esses detalhes vieram de veículo regional e ainda dependem de regra oficial.",
+  "Se a medida provisória 1.393/26 será aprovada pelo Congresso e se o texto vai mudar. Não foi confirmado.",
+  "Quais medidas do pacote Prospera MEI anunciado em 13 de outubro ficaram fora da lei. O CPG Click Petróleo e Gás diz que parte ficou de fora. A renegociação bancária com desconto de 90% e o Pix MEI de até R$ 5 mil foram citados pela Riopress, mas não confirmei a data de início. Não encontrei página do gov.br ou do Congresso sobre a LC 238/2026 nas buscas."
+ ],
+ "o_que_muda_para_voce": [
+  "Cesta básica: se o item está na lista nacional, não deve haver CBS nem IBS no preço. Estados podem manter listas próprias de ICMS, segundo a BSSP Consulting. O efeito no preço final pode variar.",
+  "Dívidas das famílias: o Novo Desenrola Brasil (de 2026) não aceita mais pedidos desde 31 de agosto. Quem não renegociou por ele precisa esperar a regra oficial do Desenrola 3.0 ou negociar direto com o credor.",
+  "MEI: em 2026 o teto continua em R$ 81 mil. Quem passa desse valor continua sujeito às regras atuais. O limite de R$ 110 mil só vale a partir de 1º de janeiro de 2027.",
+  "MEI com dívida federal: o perdão vale para débitos até 13/10/2026 e só começa em 1º de janeiro de 2027. O DAS dos seis primeiros meses precisa estar em dia para manter o benefício, segundo a Riopress.",
+  "MEI que vende para pessoa física: o decreto dispensa a nota fiscal nesses casos, dentro das condições da norma. Confira o texto do decreto antes de mudar sua rotina."
+ ],
+ "como_se_proteger": [
+  "Negocie só direto com o banco ou a financeira onde está a dívida. O gov.br orienta procurar as instituições participantes.",
+  "Desconfie de quem cobra taxa para 'liberar' desconto ou perdão de dívida. O Desenrola 3.0 ainda nem abriu para o consumidor.",
+  "Confira em gov.br e no Diário Oficial da União antes de acreditar em mensagem sobre o MEI ou o Desenrola."
+ ],
+ "slug": "cesta-basica-sem-imposto",
+ "publicado_em": "2026-11-12T00:41:56.792918",
+ "atualizado_em": "2026-11-12T00:41:56.792918",
+ "assunto": "Explicativo: cesta básica sem imposto, renegociação de dívidas das famílias e regras do MEI, o que já está valendo e o que ainda é proposta, com fonte oficial (gov.br, Receita Federal, Congresso), sem opinião política",
+ "turno": "manha"
+}
