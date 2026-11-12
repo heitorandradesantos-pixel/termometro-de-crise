@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Conta que assusta",
+  "texto": "Aluguel de R$ 2.000 com IGP-M pode virar R$ 2.104,80 em novembro.",
+  "na_tela": "Aluguel de R$ 2.000 pode virar R$ 2.104,80",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Conta que assusta",
+   "texto": "Aluguel de R$ 2.000 com IGP-M pode virar R$ 2.104,80 em novembro.",
+   "na_tela": "Aluguel de R$ 2.000 pode virar R$ 2.104,80",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "O aluguel subiu mais que a inflação? Depende do índice do seu contrato.",
+   "na_tela": "Aluguel subiu mais que a inflação?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O IGP-M fechou em 5,24%, e o IPCA, em 4,58%.",
+   "na_tela": "IGP-M 5,24% x IPCA 4,58%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Aluguel de R$ 2.000 com IGP-M pode virar R$ 2.104,80 em novembro.",
+  "O IGP-M subiu 5,24% até outubro, segundo a FGV.",
+  "A inflação, o IPCA, ficou em 4,58% até setembro, segundo o IBGE.",
+  "O IGP-M pesa mais o atacado que o seu mercadinho.",
+  "Olha só: o IVAR, do aluguel de mercado, subiu 4,47%, abaixo da inflação.",
+  "Calma: falta o IPCA de outubro, que pode mudar a diferença.",
+  "Abra o contrato e veja qual índice vale.",
+  "Manda para quem aluga imóvel.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Aluguel de R$ 2.000 com IGP-M pode virar R$ 2.104,80 em novembro. O IGP-M subiu 5,24% até outubro, segundo a FGV. A inflação, o IPCA, ficou em 4,58% até setembro, segundo o IBGE. O IGP-M pesa mais o atacado que o seu mercadinho. Olha só: o IVAR, do aluguel de mercado, subiu 4,47%, abaixo da inflação. Calma: falta o IPCA de outubro, que pode mudar a diferença. Abra o contrato e veja qual índice vale. Manda para quem aluga imóvel. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Aluguel de R$ 2.000 pode virar R$ 2.104,80",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "IGP-M: 5,24% em 12 meses",
+   "fonte": "FGV Ibre"
+  },
+  {
+   "fala": 2,
+   "texto": "IPCA: 4,58% em 12 meses",
+   "fonte": "IBGE"
+  },
+  {
+   "fala": 4,
+   "texto": "IVAR: 4,47%",
+   "fonte": "FGV Ibre"
+  },
+  {
+   "fala": 5,
+   "texto": "IPCA de outubro ainda falta",
+   "fonte": "IBGE"
+  },
+  {
+   "fala": 6,
+   "texto": "Veja o índice no contrato",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "aluguel subiu mais que a inflação? IGP-M, IVAR e IPCA",
+ "legenda": "Aluguel subiu mais que a inflação? Depende do índice.\n\nSegundo a FGV, o IGP-M subiu 5,24% em 12 meses até outubro. O IPCA, a inflação oficial, acumulou 4,58% até setembro, segundo o IBGE. Já o IVAR, que mede aluguel de mercado em quatro capitais, subiu 4,47%.\n\nOs meses de referência são diferentes, e o IPCA de outubro ainda não entrou na conta. O que vale para você é o índice escrito no seu contrato.\n\nAbra o contrato, veja a cláusula de reajuste e faça a conta. Se o valor pedido for maior, peça a memória de cálculo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#aluguel #igpm #inflacao #educacaofinanceira",
+ "hashtags": [
+  "#aluguel",
+  "#igpm",
+  "#inflacao",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Seu aluguel pode subir mais que a inflação. Depende do índice.",
+  "topicos": [
+   "IGP-M subiu 5,24% em 12 meses até outubro, segundo a FGV.",
+   "IPCA, a inflação, ficou em 4,58% até setembro, segundo o IBGE.",
+   "IVAR, aluguel de mercado em quatro capitais, subiu 4,47%, segundo a FGV.",
+   "Abra o contrato, veja qual índice vale e faça a conta antes de pagar."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários índices e contexto, que pede calma e prints na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"O IGP-M pesa mais o atacado que o seu mercadinho.\": está truncada e o IGP-M continua sem tradução. Reescreva como comparação viva, por exemplo: \"O IGP-M mede mais os preços de atacado, o que as fábricas e os fornecedores cobram, do que o que você paga no mercadinho.\" Isso dá o toque sanguíneo e traduz o termo na mesma frase, sem número novo.",
+   "Frase \"Aluguel de R$ 2.000 com IGP-M pode virar R$ 2.104,80 em novembro.\": o gancho é bom, mas abre com o termo técnico. Troque por algo na língua do dia a dia, como \"Seu aluguel de R$ 2.000 pode ir pra R$ 2.104,80 em novembro. Depende de um índice no seu contrato.\" Assim o ponto e a pergunta de bolso aparecem juntos. Mantenha a conta já verificada.",
+   "Frase \"Olha só: o IVAR, do aluguel de mercado, subiu 4,47%, abaixo da inflação.\": o IVAR é sigla nova e o ritmo fica de lista de números. Traduza na hora (\"o IVAR, que mede quanto os aluguéis novos custam nas ruas\") e use o \"na prática\" para fechar: \"na prática, o aluguel de mercado subiu menos que a inflação\". Também cabe um passo simples e calmo (fleumático), como \"é só abrir o contrato e achar a palavra reajuste\"."
+  ],
+  "veredito": "A peça fala com quem paga aluguel, traz número com fonte, avisa o que ainda não se sabe e dá uma saída prática (abrir o contrato), além de usar os bordões da casa; falta traduzir melhor IGP-M e IVAR, com uma comparação viva no lugar da frase truncada do mercadinho, e abrir o gancho em linguagem mais popular."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in down the aisle of a huge wholesale warehouse, towering pallets stacked with plain unbranded cardboard boxes and sacks, forklift in the distance, cool industrial lighting. No people in focus, no text, no logos, no signs. Smooth cut-style push toward a small neighborhood grocery corner with crates of fruit and vegetables, warm light, for contrast",
+   "texto_da_fala": "O IGP-M pesa mais o atacado que o seu mercadinho.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in down the aisle of a huge wholesale warehouse, towering pallets stacked with plain unbranded cardboard boxes and sacks, forklift in the distance, cool industrial lighting. No people in focus, no text, no logos, no signs. Smooth cut-style push toward a small neighborhood grocery corner with crates of fruit and vegetables, warm light, for contrast. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Slow upward tilt along the facade of a mid-rise Brazilian residential apartment building at golden hour, balconies with potted plants and drying laundry, a few windows with lights on. Gentle parallax, soft clouds moving behind. No people in focus, no text, no numbers, no logos",
+   "texto_da_fala": "Olha só: o IVAR, do aluguel de mercado, subiu 4,47%, abaixo da inflação.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the facade of a mid-rise Brazilian residential apartment building at golden hour, balconies with potted plants and drying laundry, a few windows with lights on. Gentle parallax, soft clouds moving behind. No people in focus, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Close overhead shot slowly pushing in on a wooden table by a window: a closed beige document folder, a ballpoint pen, a set of house keys and a coffee mug. A hand without a visible face gently opens the folder cover, revealing only blurred, out-of-focus pages with no readable text. Warm morning light, shallow depth of field. No text, no numbers, no logos",
+   "texto_da_fala": "Abra o contrato e veja qual índice vale.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close overhead shot slowly pushing in on a wooden table by a window: a closed beige document folder, a ballpoint pen, a set of house keys and a coffee mug. A hand without a visible face gently opens the folder cover, revealing only blurred, out-of-focus pages with no readable text. Warm morning light, shallow depth of field. No text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Aluguel de R$ 2.000 com IGP-M pode virar R$ 2.104,80 em novembro.\n\nO IGP-M subiu 5,24% até outubro, segundo a FGV.\n\nA inflação, o IPCA, ficou em 4,58% até setembro, segundo o IBGE.\n\nO IGP-M pesa mais o atacado que o seu mercadinho.\n\nOlha só: o IVAR, do aluguel de mercado, subiu 4,47%, abaixo da inflação.\n\nCalma: falta o IPCA de outubro, que pode mudar a diferença.\n\nAbra o contrato e veja qual índice vale.\n\nManda para quem aluga imóvel.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "IBGE",
+   "url": "https://www.ibge.gov.br/indicadores/inflacao-e-precos/ipca.html",
+   "destaque": "O IPCA, a inflação oficial, subiu 0,82% em setembro e acumula 4,58% em 12 meses, segundo o IBGE."
+  },
+  {
+   "veiculo": "IBGE",
+   "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro",
+   "destaque": "Como referência mais próxima de outubro, o IPCA-15 (prévia da inflação) subiu 0,32% no mês e acumula 4,62% em 12 meses, segundo o IBGE…"
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T00:26:21.725956-03:00"
+}
