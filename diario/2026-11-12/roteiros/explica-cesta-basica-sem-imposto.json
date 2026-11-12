@@ -1,0 +1,179 @@
+{
+ "gancho": {
+  "formula": "Antes e depois / Número + porquê",
+  "texto": "O Desenrola fechou em 31 de agosto. O novo ainda nem abriu.",
+  "na_tela": "Desenrola fechou. O novo?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois / Número + porquê",
+   "texto": "O Desenrola fechou em 31 de agosto. O novo ainda nem abriu.",
+   "na_tela": "Desenrola fechou. O novo?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Desenrola de 2026: acabou em 31 de agosto. O 3.0 começa quando?",
+   "na_tela": "Desenrola 3.0 começa quando?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Perdeu o prazo do Desenrola? Tem outro vindo, mas ainda não abriu.",
+   "na_tela": "Perdeu o prazo do Desenrola?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "O Desenrola fechou em 31 de agosto. O novo ainda nem abriu.",
+  "O Desenrola 3.0 saiu em medida provisória, mas não começou.",
+  "Ideia de atacado: o governo pode comprar lotes de dívida com desconto.",
+  "Olha só: a Agência Câmara previa edital em novembro. Não achei confirmação.",
+  "Sinal amarelo: tem plano, mas ainda não tem balcão aberto.",
+  "Desconfie de quem cobra taxa pra liberar desconto.",
+  "Negocie direto com o banco onde está a dívida.",
+  "Manda pra quem espera o Desenrola com cartão atrasado.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O Desenrola fechou em 31 de agosto. O novo ainda nem abriu. O Desenrola 3.0 saiu em medida provisória, mas não começou. Ideia de atacado: o governo pode comprar lotes de dívida com desconto. Olha só: a Agência Câmara previa edital em novembro. Não achei confirmação. Sinal amarelo: tem plano, mas ainda não tem balcão aberto. Desconfie de quem cobra taxa pra liberar desconto. Negocie direto com o banco onde está a dívida. Manda pra quem espera o Desenrola com cartão atrasado. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Desenrola fechou. O novo?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Desenrola 3.0: MP 1.393/26",
+   "fonte": "Agência Câmara"
+  },
+  {
+   "fala": 3,
+   "texto": "Edital previsto: novembro de 2026",
+   "fonte": "Agência Câmara"
+  },
+  {
+   "fala": 4,
+   "texto": "Sinal amarelo: ainda não abriu",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Cobrou taxa? Desconfie",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 3,
+ "busca": "Desenrola 3.0: quando começa?",
+ "legenda": "Desenrola 3.0: quando começa?\n\nO Novo Desenrola das famílias fechou em 31 de agosto, segundo o Ministério da Fazenda. O Desenrola 3.0 saiu em medida provisória, mas ainda não começou.\n\nA Agência Câmara previa o edital para novembro. Não achei confirmação de que foi publicado. Então o termômetro tá em sinal amarelo.\n\nPor enquanto, negocie só direto com o banco onde está a dívida e desconfie de quem cobra taxa pra liberar desconto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#desenrola #dividas #educacaofinanceira #nomesujo",
+ "hashtags": [
+  "#desenrola",
+  "#dividas",
+  "#educacaofinanceira",
+  "#nomesujo"
+ ],
+ "rua": {
+  "gancho": "Desenrola fechou em 31 de agosto, e o novo ainda não abriu.",
+  "topicos": [
+   "Ministério da Fazenda: o Novo Desenrola das famílias fechou em 31 de agosto.",
+   "A MP 1.393/26 deixa o governo comprar dívidas de até R$ 10 mil.",
+   "Agência Câmara previa edital em novembro; não achei confirmação de que saiu.",
+   "Desconfie de quem cobra taxa; negocie direto com o banco da dívida."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente e com risco de golpe, que pede urgência de quem tá na rua; o assunto tem poucos números.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Ideia de atacado: o governo pode comprar lotes de dívida com desconto.\" — \"atacado\" e \"lotes de dívida\" soam como linguagem de mercado. Traduza na mesma frase, com uma comparação do dia a dia (ex.: como o mercadão que compra caixa fechada pra vender mais barato): \"o governo compra um monte de dívidas de uma vez, por menos, e aí dá pra você pagar com desconto\". Não acrescente número nem prazo que não estão na peça.\n",
+   "\"O Desenrola fechou em 31 de agosto. O novo ainda nem abriu.\" — O gancho dá o fato, mas não fala direto com quem está devendo. Reescreva com identificação e a pergunta de bolso: \"Tá com cartão atrasado esperando o Desenrola? Ele fechou em 31 de agosto e o novo ainda nem abriu.\" Assim a pessoa se vê já na primeira frase.\n",
+   "\"Sinal amarelo: tem plano, mas ainda não tem balcão aberto.\" até \"Negocie direto com o banco onde está a dívida.\" — O fim é de instrução seca, e falta o tom acolhedor e o passo simples pra quem está ansioso. Entre o sinal amarelo e o conselho, acrescente uma frase calma, como \"Calma: enquanto não abre, o passo é um só\", e feche com \"Negocie direto com o banco onde está a dívida\". Isso dá o fleumático e deixa o conselho como uma saída única e clara."
+  ],
+  "veredito": "A peça acerta o público, o arquétipo e os gatilhos (sinal amarelo, fonte citada, o que ainda não se sabe, a saída clara contra golpe), mas falta traduzir \\\"atacado\\\" e \\\"lotes\\\", abrir falando direto com quem tem dívida e dar um tom mais caloroso e calmo ao fim."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Inside a large quiet warehouse, rows of identical cardboard archive boxes stacked on wooden pallets, being wrapped in clear plastic film. Slow dolly-in along the aisle, cool fluorescent light, shallow depth of field. No people in focus, no text, no labels, no logos",
+   "texto_da_fala": "Ideia de atacado: o governo pode comprar lotes de dívida com desconto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Inside a large quiet warehouse, rows of identical cardboard archive boxes stacked on wooden pallets, being wrapped in clear plastic film. Slow dolly-in along the aisle, cool fluorescent light, shallow depth of field. No people in focus, no text, no labels, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "An empty public service counter with a glass window and a closed metal roller shutter half pulled down, a yellow warning light blinking softly above it, empty chairs in the waiting area. Slow push-in camera move, soft overhead light, quiet atmosphere. No people, no text, no signs, no numbers, no logos",
+   "texto_da_fala": "Sinal amarelo: tem plano, mas ainda não tem balcão aberto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. An empty public service counter with a glass window and a closed metal roller shutter half pulled down, a yellow warning light blinking softly above it, empty chairs in the waiting area. Slow push-in camera move, soft overhead light, quiet atmosphere. No people, no text, no signs, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Interior of a generic bank branch in daylight: a clean teller counter with a glass partition, a desk with a pen and a blank folder, and a calm sense of a one-on-one conversation. Slow lateral tracking shot, warm natural light. No recognizable faces, only blurred silhouettes in the background, no text, no logos, no brand colors",
+   "texto_da_fala": "Negocie direto com o banco onde está a dívida.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a generic bank branch in daylight: a clean teller counter with a glass partition, a desk with a pen and a blank folder, and a calm sense of a one-on-one conversation. Slow lateral tracking shot, warm natural light. No recognizable faces, only blurred silhouettes in the background, no text, no logos, no brand colors. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O Desenrola fechou em 31 de agosto. O novo ainda nem abriu.\n\nO Desenrola 3.0 saiu em medida provisória, mas não começou.\n\nIdeia de atacado: o governo pode comprar lotes de dívida com desconto.\n\nOlha só: a Agência Câmara previa edital em novembro. Não achei confirmação.\n\nSinal amarelo: tem plano, mas ainda não tem balcão aberto.\n\nDesconfie de quem cobra taxa pra liberar desconto.\n\nNegocie direto com o banco onde está a dívida.\n\nManda pra quem espera o Desenrola com cartão atrasado.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/aqui/2026/05/21/cesta-basica-com-menos-imposto-o-que-muda-com-nova-reforma/",
+   "destaque": "Cesta básica: a Lei Complementar 214/2025 criou a Cesta Básica Nacional de Alimentos, com alíquota zero da CBS e do IBS, os dois novos…"
+  },
+  {
+   "veiculo": "Secom / gov.br",
+   "url": "https://www.gov.br/secom/pt-br/fatos/brasil-contra-fake/noticias/2024/06/reforma-tributaria-reduz-a-tributacao-sobre-a-cesta-basica",
+   "destaque": "Cesta básica: a reforma também prevê uma segunda lista de produtos com redução de 60% na alíquota padrão (não é imposto zero)."
+  },
+  {
+   "veiculo": "Ministério da Fazenda / gov.br",
+   "url": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/novo-desenrola-brasil",
+   "destaque": "Renegociação de famílias: o Novo Desenrola Brasil foi lançado em 4 de maio de 2026."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T00:44:08.962731-03:00"
+}
