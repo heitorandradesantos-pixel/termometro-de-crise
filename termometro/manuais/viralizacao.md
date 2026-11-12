@@ -77,3 +77,6 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 - 11/11: El Niño, comprar dólar no pânico e Nvidia saíram pela API (16h, 18h30, 20h30). 12/11: o Heitor posta no app,
   nos mesmos horários. Comparar visualizações e tempo médio com a mesma idade de post (24 h), pelo painel. Lembrar que
   assunto e horário também mudam o resultado: um dia só é sinal, não prova.
+- Resultado já na noite de 11/11: o Heitor repostou pelo app o mesmo vídeo que flopou pela API, num horário "ruim", e
+  ele entregou. Decisão: Reels saem pelo APP, postados pelo Heitor. A publicação pela API (reels.py) fica guardada
+  e só é usada se ele pedir. O editor entrega o vídeo e a legenda prontos para postar.
