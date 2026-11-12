@@ -1,0 +1,107 @@
+{
+ "titulo": "Quando cai o 13º salário 2026 e quanto desconta: o que se sabe",
+ "descricao": "A 1ª parcela do 13º sai até 30/11 e a 2ª até 18/12. Veja os descontos de INSS e IR e por que quitar dívida cara vem antes de gastar.",
+ "palavra_chave": "13º salário 2026",
+ "lead": "A primeira parcela do 13º salário de 2026 deve ser paga até segunda-feira, 30 de novembro. A segunda vence em 18 de dezembro, porque o limite legal, 20 de dezembro, cai num domingo. Os descontos de INSS e Imposto de Renda saem só na segunda parcela, segundo o Ministério do Trabalho e Emprego. Quem tem dívida de juros altos, como o rotativo do cartão, pode olhar essa conta antes de gastar.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Pela regra do Ministério do Trabalho e Emprego (texto de novembro de 2025, ainda válido): a 1ª parcela pode ser paga entre fevereiro e novembro, com prazo máximo em 30 de novembro. Ela corresponde à metade da remuneração do mês anterior. A 2ª parcela, que completa o valor devido, vai até 20 de dezembro.",
+   "fonte_url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/novembro/decimo-terceiro-salario-entenda-o-direito-regras-e-prazos-de-pagamento",
+   "data": "2025-11-19",
+   "veiculo": "Ministério do Trabalho e Emprego (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 2026, o prazo da 1ª parcela é segunda-feira, 30 de novembro. O da 2ª é sexta-feira, 18 de dezembro, porque 20 de dezembro é domingo. Segundo o Contábeis, quem paga tudo de uma vez também precisa fazê-lo até 30 de novembro.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/80794/13o-salario-2026-veja-prazos-e-regras-de-pagamento/",
+   "data": "2026-11-12",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "A 1ª parcela é 50% do 13º, sem desconto de INSS nem de Imposto de Renda. A 2ª traz o saldo com os descontos. O INSS incide sobre o valor total do 13º, não só sobre o saldo. Por isso a 2ª parcela costuma ser menor que a 1ª.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/04/quem-ganha-salario-minimo-tem-13o-de-r-1-621-com-inss-de-r-12158/",
+   "data": "2026-11-04",
+   "veiculo": "Mix Vale",
+   "confiavel": false
+  },
+  {
+   "texto": "Tabela do INSS em 2026 para o 13º, por faixa: 7,5% até R$ 1.621,00; 9% de R$ 1.621,01 a R$ 2.902,84; 12% de R$ 2.902,85 a R$ 4.354,27; 14% de R$ 4.354,28 a R$ 8.475,55. A alíquota vale só para a parte do valor dentro de cada faixa. Exemplo do InvestNews: quem ganha R$ 3.000 e trabalhou o ano todo tem R$ 248,60 de INSS.",
+   "fonte_url": "https://investnews.com.br/economia/desconto-do-inss-no-13o-salario/",
+   "data": "2026-10-23",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "Imposto de Renda: pela Lei 15.270/2025, o 13º de até R$ 5.000,00 não sofre retenção, em regra. Entre R$ 5.000,01 e R$ 7.350,00 há redução parcial do imposto. Acima de R$ 7.350,00 não há redução. O imposto é cobrado só na fonte, em separado do salário do mês.",
+   "fonte_url": "https://www.barbieriadvogados.com/decimo-terceiro-salario-2026-guia-completo-sobre-prazos-calculos-e-direitos/",
+   "data": "2026-11-09",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "Exemplos de 13º bruto, com INSS e IR: R$ 1.621 tem INSS de R$ 121,58 e líquido de R$ 1.499,42. R$ 5.000 tem INSS de R$ 501,51 e nenhum IR. R$ 8.000 tem INSS de R$ 921,51 e IR de R$ 1.037,85, com líquido de R$ 6.040,64. São simulações de um site de contabilidade, não números oficiais.",
+   "fonte_url": "https://contaja.com.br/blog/decimo-terceiro/",
+   "data": "2026-10-10",
+   "veiculo": "ContaJá",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o Banco Central, a taxa média do rotativo do cartão (juros cobrados quando se paga menos que o total da fatura) foi de 15,18% ao mês em agosto de 2026, cerca de 444,9% ao ano. Os dados saíram em 29 de setembro. O parcelado da fatura ficou em 9,34% ao mês, ou 192,1% ao ano.",
+   "fonte_url": "https://www.barbieriadvogados.com/juros-do-cartao-de-credito/",
+   "data": "2026-09-29",
+   "veiculo": "Barbieri Advogados (dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "Para dívidas de rotativo e parcelamento de fatura feitas a partir de 3 de janeiro de 2024, juros e encargos somados não podem passar de 100% do valor original. O InfoMoney e especialistas citados afirmam que quitar dívida de juros muito altos tende a compensar mais do que aproveitar a Black Friday. Em junho, segundo o Banco Central, o cheque especial estava em 139,8% ao ano.",
+   "fonte_url": "https://www.infomoney.com.br/minhas-financas/13o-salario-pagar-dividas-ou-aproveitar-a-black-friday-veja-o-que-compensa/",
+   "data": "2026-10-28",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Banco Central divulga as taxas de agosto: rotativo do cartão a 15,18% ao mês (444,9% ao ano).",
+   "fonte_url": "https://www.barbieriadvogados.com/juros-do-cartao-de-credito/",
+   "data": "2026-09-29",
+   "veiculo": "Barbieri Advogados (dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "Veículos explicam que a 2ª parcela do 13º será antecipada para 18/12, porque 20/12 cai num domingo.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/04/13o-de-2026-tem-1a-parcela-ate-30-de-novembro-e-2a-ate-18-de-dezembro/",
+   "data": "2026-11-04",
+   "veiculo": "Mix Vale",
+   "confiavel": false
+  },
+  {
+   "texto": "Prazos do 13º de 2026 seguem: 1ª parcela até 30/11 e 2ª até 18/12.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/80794/13o-salario-2026-veja-prazos-e-regras-de-pagamento/",
+   "data": "2026-11-12",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não encontrei, nesta apuração, página do Ministério do Trabalho de 2026 que confirme o dia 18 de dezembro. As datas de 18/12 vêm de veículos como Contábeis e Mix Vale, que explicam a antecipação por 20/12 cair num domingo. O Ministério ainda cita 20 de dezembro como prazo legal.",
+  "O valor exato da sua 2ª parcela depende do seu salário, de horas extras e comissões, de faltas e dos meses trabalhados. O holerite da empresa é a conta que vale. As tabelas e simulações deste texto servem só de referência.",
+  "A taxa do rotativo em setembro (cerca de 451,7% ao ano) aparece em dois sites que citam o Banco Central. Não a confirmei na página do Banco Central. Por isso o texto usa agosto, com divulgação de 29/09.",
+  "Não se sabe qual é a dívida mais cara de cada leitor. Isso depende do contrato de cada um: taxa, prazo e multa por atraso."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem carteira assinada: a 1ª parcela chega inteira, sem desconto, até 30/11. O desconto de INSS e IR vem todo na 2ª parcela, até 18/12. A 2ª parcela pode ser bem menor que a 1ª.",
+  "Quem ganha o salário mínimo (R$ 1.621): de acordo com as simulações citadas, o 13º líquido fica perto de R$ 1.499,42, só com INSS. Se a 1ª parcela for R$ 810,50, a 2ª fica perto de R$ 688,92. É uma conta de referência.",
+  "Quem recebe até R$ 5.000 de 13º: pela Lei 15.270/2025, em regra não há retenção de IR. O INSS continua. Acima disso, o IR pode aparecer.",
+  "Passo calmo antes de gastar: (1) liste as dívidas e a taxa de cada uma; (2) veja quais cobram mais, como rotativo do cartão e cheque especial; (3) separe o dinheiro das contas de janeiro. Em geral, as dívidas de juros mais altos vão primeiro na lista, segundo especialistas citados pelo InfoMoney e pela AmdJus. A decisão é sua.",
+  "Aposentados e pensionistas do INSS: o 13º já foi pago nas parcelas de abril a junho. Quem teve benefício concedido a partir de maio recebe entre 24 de novembro e 7 de dezembro, segundo o Mix Vale.",
+  "Se a empresa atrasar o pagamento, ela fica sujeita a multa. O trabalhador pode procurar a Superintendência Regional do Trabalho e Emprego mais próxima ou os canais de denúncia do Ministério, segundo o próprio Ministério."
+ ],
+ "como_se_proteger": [],
+ "slug": "13o-salario-2026",
+ "publicado_em": "2026-11-12T07:44:41.357225",
+ "atualizado_em": "2026-11-12T07:44:41.357225",
+ "assunto": "Explicativo: 13º salário, quando cai a primeira parcela (até 30 de novembro) e a segunda, quanto vem de desconto de INSS e IR, e o passo calmo de decidir antes de gastar: dívida cara primeiro, com fonte oficial (gov.br, Ministério do Trabalho)",
+ "turno": "manha"
+}
