@@ -71,7 +71,8 @@ def ferramenta() -> dict:
 # ---------------------------------------------------------------- Instagram (API oficial)
 
 def posts(perfil: str, token: str, conta: str, buscar=requests.get) -> list[dict]:
-    campos = (f"business_discovery.username({perfil}){{media.limit(8){{id,caption,media_type,media_product_type,permalink,"
+    quantos = 8 if DIAS <= 3 else 40  # no dia a dia, os 8 últimos; para mapear um perfil novo, bem mais
+    campos = (f"business_discovery.username({perfil}){{media.limit({quantos}){{id,caption,media_type,media_product_type,permalink,"
               "timestamp,media_url}}")
     r = buscar(f"{GRAPH}/{conta}", params={"fields": campos, "access_token": token}, timeout=60)
     _conferir(r)
