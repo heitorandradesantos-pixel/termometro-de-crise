@@ -80,3 +80,28 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
 - Resultado já na noite de 11/11: o Heitor repostou pelo app o mesmo vídeo que flopou pela API, num horário "ruim", e
   ele entregou. Decisão: Reels saem pelo APP, postados pelo Heitor. A publicação pela API (reels.py) fica guardada
   e só é usada se ele pedir. O editor entrega o vídeo e a legenda prontos para postar.
+
+## O que aprender com o Ícaro de Carvalho e o Thiago Nigro (12/11)
+Dados limitados: a API só trouxe 5 Reels do Ícaro em 30 dias, quase todos sem áudio transcrito, então a leitura
+vem das legendas e dos poucos falados, somados ao estilo conhecido dele. Vale como direção, não como regra fechada.
+
+**A psicologia do Ícaro (o que funciona):**
+1. Identidade antes do assunto: "você que está cansado", "você perdeu o sono?". A pessoa se reconhece no
+   primeiro segundo e só depois descobre o tema.
+2. Quebra de crença: "a resposta vai parecer estranha", "não é esforço, é outra coisa". Contradizer o senso comum
+   abre curiosidade e puxa comentário.
+3. Emoção primeiro, informação depois: ansiedade, cansaço, coragem. O vídeo promete alívio de um sentimento.
+4. Uma tese por vídeo, dita com calma e firmeza, e uma frase de impacto que dá para repetir (refrão).
+5. Bastidor e prova social ("recebi uma enxurrada de mensagens") e carona no assunto da semana.
+
+**Como fica no Termômetro:** abrir pela emoção do bolso ("Você perdeu o sono com a fatura do cartão?"),
+desmontar uma crença popular com um número que tem fonte ("não é falta de controle: é o juro do rotativo"),
+uma tese só e uma frase final que dá para repetir. A diferença dele para nós: depois da emoção vem SEMPRE a
+prova com fonte. Nada de inimigo vago ("o sistema", "o país"), nada de lado político, nada de promessa de mudar de vida.
+
+**Do Thiago Nigro, o que aproveitar:** expectativa contra realidade com número ("esperavam X, veio Y");
+comparação de escala que qualquer um entende; analogia do orçamento de casa para explicar o governo; autoridade
+emprestada de um órgão oficial em vez de opinião; notícia fresca ("você viu ontem?"); chamar um grupo específico
+("se você tem ação de banco..."); "não é X, é Y".
+**Do Nigro, o que NÃO usar:** promessa de "chocar a sociedade" sem entregar, escândalo pessoal como isca, medo de
+prazo ("vai ficar 10 anos parado"), lista que vende curso. É o sensacionalismo que o Heitor pediu para deixar de fora.
