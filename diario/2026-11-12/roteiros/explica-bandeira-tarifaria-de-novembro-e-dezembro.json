@@ -1,0 +1,177 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Quem gasta 150 kWh paga R$ 0 de bandeira em novembro.",
+  "na_tela": "150 kWh = R$ 0 de bandeira",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Sua conta de luz vem sem bandeira em novembro. E dezembro?",
+   "na_tela": "Luz sem bandeira. E dezembro?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Quem gasta 150 kWh paga R$ 0 de bandeira em novembro.",
+   "na_tela": "150 kWh = R$ 0 de bandeira",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A conta de luz veio sem extra, e o motivo está nas hidrelétricas.",
+   "na_tela": "Sem extra na luz: o motivo",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Quem gasta 150 kWh paga R$ 0 de bandeira em novembro.",
+  "A Aneel manteve a bandeira verde, anunciou em 30/10.",
+  "Segundo a Aneel, choveu mais e os reservatórios se recuperaram.",
+  "Pensa na bandeira como o termômetro da conta: verde é sem febre.",
+  "Mas olha só: dezembro ainda não tem cor. Sai em 27 de novembro.",
+  "Passo calmo: anota o consumo em kWh da sua fatura.",
+  "Comece pelo chuveiro: segundo a Procel, pode ser até 30% do consumo.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Quem gasta 150 kWh paga R$ 0 de bandeira em novembro. A Aneel manteve a bandeira verde, anunciou em 30/10. Segundo a Aneel, choveu mais e os reservatórios se recuperaram. Pensa na bandeira como o termômetro da conta: verde é sem febre. Mas olha só: dezembro ainda não tem cor. Sai em 27 de novembro. Passo calmo: anota o consumo em kWh da sua fatura. Comece pelo chuveiro: segundo a Procel, pode ser até 30% do consumo. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "150 kWh = R$ 0 de bandeira",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Bandeira verde: 150 kWh = R$ 0 de extra",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 1,
+   "texto": "Anúncio em 30/10",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "Verde = sem febre",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Dezembro: decisão em 27 de novembro",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 6,
+   "texto": "Chuveiro: até 30% do consumo",
+   "fonte": "Eletrobras/Procel"
+  }
+ ],
+ "retomada": 4,
+ "busca": "bandeira tarifária de dezembro conta de luz",
+ "legenda": "bandeira tarifária de dezembro conta de luz\n\nA Aneel manteve a bandeira verde em novembro, anunciou em 30/10. Para quem gasta 150 kWh por mês, o extra de bandeira é R$ 0. Esse cálculo é do Termômetro de Crise e considera só a bandeira, não o total da fatura.\n\nA bandeira de dezembro ainda não foi divulgada. A Aneel marcou a decisão para 27 de novembro, e qualquer previsão antes disso não está confirmada.\n\nPasso calmo: veja o consumo em kWh na sua fatura. Depois, comece pelo chuveiro elétrico, que segundo a Eletrobras/Procel pode ser até 30% do consumo da casa.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#contadeluz #bandeiratarifaria #aneel #economia",
+ "hashtags": [
+  "#contadeluz",
+  "#bandeiratarifaria",
+  "#aneel",
+  "#economia"
+ ],
+ "rua": {
+  "gancho": "Sua conta de luz está sem bandeira. E dezembro?",
+  "topicos": [
+   "A Aneel manteve a bandeira verde em 30/10: sem extra em novembro.",
+   "Quem gasta 150 kWh por mês paga R$ 0 de bandeira, cálculo do Termômetro.",
+   "Dezembro ainda não tem cor: a Aneel anuncia em 27 de novembro.",
+   "Anota o consumo em kWh da sua fatura e começa pelo chuveiro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e datas, não uma notícia quente que pede urgência na rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Quem gasta 150 kWh paga R$ 0 de bandeira em novembro\": pode soar como conta zerada e \"kWh\" fica sem tradução. Reescreva: \"Quem gasta 150 kWh (a medida de energia que aparece na sua fatura) não paga nenhum extra de bandeira em novembro\".",
+   "Frase \"Passo calmo: anota o consumo em kWh da sua fatura\": soa como lista, não como conversa. Reescreva em fala de portão, por exemplo \"Passo calmo: pega a fatura e olha quantos kWh você gastou\", e use \"na prática\" na ponte para o chuveiro."
+  ],
+  "veredito": "A peça fala com quem sente a conta de luz no bolso, tem fonte, a metáfora do termômetro, a virada \\\"olha só\\\", um passo calmo e o fecho da casa; falta traduzir \\\"kWh\\\" e deixar o texto mais de conversa."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow aerial drone shot gliding forward over a hydroelectric dam reservoir, full and calm after heavy rains, lush green hills around, water flowing through open spillway gates, soft overcast light, mist rising. No people, no text, no logos",
+   "texto_da_fala": "Segundo a Aneel, choveu mais e os reservatórios se recuperaram.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone shot gliding forward over a hydroelectric dam reservoir, full and calm after heavy rains, lush green hills around, water flowing through open spillway gates, soft overcast light, mist rising. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up macro dolly shot sliding across an analog household electricity meter mounted on a wall, its dials and small spinning disc turning steadily, warm indoor light, shallow depth of field. No people, no readable text, no numbers, no logos",
+   "texto_da_fala": "Passo calmo: anota o consumo em kWh da sua fatura.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up macro dolly shot sliding across an analog household electricity meter mounted on a wall, its dials and small spinning disc turning steadily, warm indoor light, shallow depth of field. No people, no readable text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow push-in on an electric shower head in a modest tiled bathroom, hot water streaming out with rising steam filling the frame, warm light, droplets glistening. No people, no faces, no text, no logos",
+   "texto_da_fala": "Comece pelo chuveiro: segundo a Procel, pode ser até 30% do consumo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in on an electric shower head in a modest tiled bathroom, hot water streaming out with rising steam filling the frame, warm light, droplets glistening. No people, no faces, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Quem gasta 150 kWh paga R$ 0 de bandeira em novembro.\n\nA Aneel manteve a bandeira verde, anunciou em 30/10.\n\nSegundo a Aneel, choveu mais e os reservatórios se recuperaram.\n\nPensa na bandeira como o termômetro da conta: verde é sem febre.\n\nMas olha só: dezembro ainda não tem cor. Sai em 27 de novembro.\n\nPasso calmo: anota o consumo em kWh da sua fatura.\n\nComece pelo chuveiro: segundo a Procel, pode ser até 30% do consumo.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+   "destaque": "Bandeira de novembro: verde."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/aneel-divulga-calendario-para-anuncio-de-bandeiras-tarifarias-em-2026",
+   "destaque": "Bandeira de dezembro: ainda não definida."
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T07:54:49.095973-03:00"
+}
