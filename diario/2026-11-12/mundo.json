@@ -1,0 +1,1917 @@
+{
+ "regioes": [
+  {
+   "nome": "América do Norte",
+   "slug": "america-do-norte",
+   "valor": 60,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
+   "referencia": "2026-11",
+   "mes_anterior": 44,
+   "picos": [
+    {
+     "mes": "2008-10",
+     "valor": 99,
+     "epoca": "crise financeira global de 2008"
+    },
+    {
+     "mes": "2001-09",
+     "valor": 98,
+     "epoca": null
+    },
+    {
+     "mes": "1987-10",
+     "valor": 98,
+     "epoca": null
+    }
+   ],
+   "paises": [
+    {
+     "nome": "EUA",
+     "slug": "eua",
+     "valor": 71,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 45,
+     "sinais": {
+      "bolsa": 46,
+      "volatilidade": 96
+     },
+     "brutos": {
+      "bolsa_queda_pct": 2.6,
+      "bolsa_ultimo_dia": "2026-11-11",
+      "bolsa_pico": 7818.93,
+      "bolsa_pico_dia": "2026-10-06",
+      "oscilacao_diaria_pct": 2.07,
+      "desde": {
+       "bolsa": 1980,
+       "volatilidade": 1980
+      }
+     },
+     "bolsa_nome": "S&P 500",
+     "moeda_nome": null,
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "1987-10",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2001-09",
+       "valor": 99,
+       "epoca": "11 de setembro e fim da bolha da internet"
+      }
+     ]
+    },
+    {
+     "nome": "Canadá",
+     "slug": "canada",
+     "valor": 49,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 42,
+     "sinais": {
+      "bolsa": 27,
+      "volatilidade": 92,
+      "moeda": 27
+     },
+     "brutos": {
+      "bolsa_queda_pct": 1.5,
+      "bolsa_ultimo_dia": "2026-11-11",
+      "bolsa_pico": 36957.6,
+      "bolsa_pico_dia": "2026-08-25",
+      "oscilacao_diaria_pct": 1.42,
+      "moeda_variacao_3m_pct": 1.1,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1980,
+       "volatilidade": 1980,
+       "moeda": 2003
+      }
+     },
+     "bolsa_nome": "S&P/TSX",
+     "moeda_nome": "dólar canadense",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 99,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "1998-08",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2001-09",
+       "valor": 97,
+       "epoca": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "América Latina",
+   "slug": "america-latina",
+   "valor": 42,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
+   "referencia": "2026-11",
+   "mes_anterior": 48,
+   "picos": [
+    {
+     "mes": "1998-09",
+     "valor": 98,
+     "epoca": null
+    },
+    {
+     "mes": "2008-10",
+     "valor": 97,
+     "epoca": "crise financeira global de 2008"
+    },
+    {
+     "mes": "2001-09",
+     "valor": 85,
+     "epoca": null
+    }
+   ],
+   "paises": [
+    {
+     "nome": "México",
+     "slug": "mexico",
+     "valor": 32,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 44,
+     "sinais": {
+      "bolsa": 4,
+      "volatilidade": 0,
+      "moeda": 93
+     },
+     "brutos": {
+      "bolsa_queda_pct": 0.0,
+      "bolsa_ultimo_dia": "2026-11-11",
+      "bolsa_pico": 72006.05,
+      "bolsa_pico_dia": "2026-11-11",
+      "oscilacao_diaria_pct": 0.29,
+      "moeda_variacao_3m_pct": 9.3,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1991,
+       "volatilidade": 1991,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "IPC",
+     "moeda_nome": "peso mexicano",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 99,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "1998-09",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2020-03",
+       "valor": 97,
+       "epoca": "pandemia de Covid"
+      }
+     ]
+    },
+    {
+     "nome": "Brasil",
+     "slug": "brasil",
+     "valor": 62,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 60,
+     "sinais": {
+      "bolsa": 77,
+      "volatilidade": 36,
+      "moeda": 72
+     },
+     "brutos": {
+      "bolsa_queda_pct": 18.2,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 209067.0,
+      "bolsa_pico_dia": "2026-10-09",
+      "oscilacao_diaria_pct": 1.28,
+      "moeda_variacao_3m_pct": 6.7,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1993,
+       "volatilidade": 1993,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "Ibovespa",
+     "moeda_nome": "real",
+     "picos": [
+      {
+       "mes": "1998-09",
+       "valor": 98,
+       "epoca": "crise russa e desvalorização do real"
+      },
+      {
+       "mes": "2008-10",
+       "valor": 98,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2020-03",
+       "valor": 97,
+       "epoca": "pandemia de Covid"
+      }
+     ]
+    },
+    {
+     "nome": "Argentina",
+     "slug": "argentina",
+     "valor": 39,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 36,
+     "sinais": {
+      "bolsa": null,
+      "volatilidade": null,
+      "moeda": 39
+     },
+     "brutos": {
+      "bolsa_queda_pct": 15.7,
+      "bolsa_ultimo_dia": "2026-10-16",
+      "bolsa_pico": 3379772.0,
+      "bolsa_pico_dia": "2026-07-22",
+      "oscilacao_diaria_pct": 1.72,
+      "moeda_variacao_3m_pct": 3.1,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 2026,
+       "volatilidade": 2026,
+       "moeda": 2002
+      }
+     },
+     "bolsa_nome": "Merval",
+     "moeda_nome": "peso argentino",
+     "picos": [
+      {
+       "mes": "2023-12",
+       "valor": 100,
+       "epoca": "desvalorizações de 2023"
+      },
+      {
+       "mes": "2016-01",
+       "valor": 100,
+       "epoca": "turbulência na China e queda das commodities"
+      },
+      {
+       "mes": "2014-02",
+       "valor": 100,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Chile",
+     "slug": "chile",
+     "valor": 75,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 67,
+     "sinais": {
+      "moeda": 75
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": 6.4,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "peso chileno",
+     "picos": [
+      {
+       "mes": "2022-07",
+       "valor": 98,
+       "epoca": "alta global de juros e inflação"
+      },
+      {
+       "mes": "2023-10",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2015-08",
+       "valor": 98,
+       "epoca": "turbulência na China e queda das commodities"
+      }
+     ]
+    },
+    {
+     "nome": "Colômbia",
+     "slug": "colombia",
+     "valor": 37,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 33,
+     "sinais": {
+      "moeda": 37
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": 2.7,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2003
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "peso colombiano",
+     "picos": [
+      {
+       "mes": "2015-09",
+       "valor": 98,
+       "epoca": "turbulência na China e queda das commodities"
+      },
+      {
+       "mes": "2020-04",
+       "valor": 97,
+       "epoca": "pandemia de Covid"
+      },
+      {
+       "mes": "2022-07",
+       "valor": 96,
+       "epoca": "alta global de juros e inflação"
+      }
+     ]
+    },
+    {
+     "nome": "Peru",
+     "slug": "peru",
+     "valor": 49,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 28,
+     "sinais": {
+      "moeda": 49
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": 1.6,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2001
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "sol",
+     "picos": [
+      {
+       "mes": "2022-03",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2009-05",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2008-04",
+       "valor": 99,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Paraguai",
+     "slug": "paraguai",
+     "valor": 20,
+     "nivel": "Calmaria",
+     "cor": "#3B82C4",
+     "referencia": "2026-11",
+     "mes_anterior": 84,
+     "sinais": {
+      "moeda": 20
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": 1.1,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "guarani",
+     "picos": [
+      {
+       "mes": "2025-09",
+       "valor": 96,
+       "epoca": null
+      },
+      {
+       "mes": "2011-05",
+       "valor": 95,
+       "epoca": null
+      },
+      {
+       "mes": "2013-07",
+       "valor": 90,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Uruguai",
+     "slug": "uruguai",
+     "valor": 24,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 34,
+     "sinais": {
+      "moeda": 24
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": -1.3,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2003
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "peso uruguaio",
+     "picos": [
+      {
+       "mes": "2020-04",
+       "valor": 99,
+       "epoca": "pandemia de Covid"
+      },
+      {
+       "mes": "2013-08",
+       "valor": 97,
+       "epoca": null
+      },
+      {
+       "mes": "2012-07",
+       "valor": 96,
+       "epoca": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "Europa",
+   "slug": "europa",
+   "valor": 40,
+   "nivel": "Atenção",
+   "cor": "#7CC3E0",
+   "referencia": "2026-11",
+   "mes_anterior": 44,
+   "picos": [
+    {
+     "mes": "2008-10",
+     "valor": 99,
+     "epoca": "crise financeira global de 2008"
+    },
+    {
+     "mes": "2001-09",
+     "valor": 99,
+     "epoca": null
+    },
+    {
+     "mes": "1998-09",
+     "valor": 98,
+     "epoca": null
+    }
+   ],
+   "paises": [
+    {
+     "nome": "Alemanha",
+     "slug": "alemanha",
+     "valor": 44,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 40,
+     "sinais": {
+      "bolsa": 3,
+      "volatilidade": 65,
+      "moeda": 64
+     },
+     "brutos": {
+      "bolsa_queda_pct": 0.0,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 26754.32,
+      "bolsa_pico_dia": "2026-11-12",
+      "oscilacao_diaria_pct": 1.25,
+      "moeda_variacao_3m_pct": 3.6,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1987,
+       "volatilidade": 1988,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "DAX",
+     "moeda_nome": "euro",
+     "picos": [
+      {
+       "mes": "2001-09",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2002-10",
+       "valor": 99,
+       "epoca": null
+      },
+      {
+       "mes": "1998-09",
+       "valor": 98,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "França",
+     "slug": "franca",
+     "valor": 44,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 44,
+     "sinais": {
+      "bolsa": 41,
+      "volatilidade": 26,
+      "moeda": 64
+     },
+     "brutos": {
+      "bolsa_queda_pct": 4.1,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 8726.03,
+      "bolsa_pico_dia": "2026-08-10",
+      "oscilacao_diaria_pct": 0.81,
+      "moeda_variacao_3m_pct": 3.6,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1990,
+       "volatilidade": 1990,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "CAC 40",
+     "moeda_nome": "euro",
+     "picos": [
+      {
+       "mes": "2001-09",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2003-03",
+       "valor": 99,
+       "epoca": null
+      },
+      {
+       "mes": "2008-11",
+       "valor": 99,
+       "epoca": "crise financeira global de 2008"
+      }
+     ]
+    },
+    {
+     "nome": "Reino Unido",
+     "slug": "reino-unido",
+     "valor": 35,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 26,
+     "sinais": {
+      "bolsa": 14,
+      "volatilidade": 67,
+      "moeda": 25
+     },
+     "brutos": {
+      "bolsa_queda_pct": 0.6,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 10910.6,
+      "bolsa_pico_dia": "2026-02-27",
+      "oscilacao_diaria_pct": 0.96,
+      "moeda_variacao_3m_pct": 1.1,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1984,
+       "volatilidade": 1984,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "FTSE 100",
+     "moeda_nome": "libra esterlina",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2003-03",
+       "valor": 99,
+       "epoca": null
+      },
+      {
+       "mes": "2001-09",
+       "valor": 97,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Itália",
+     "slug": "italia",
+     "valor": 52,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 50,
+     "sinais": {
+      "bolsa": 33,
+      "volatilidade": 58,
+      "moeda": 64
+     },
+     "brutos": {
+      "bolsa_queda_pct": 3.5,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 53717.0,
+      "bolsa_pico_dia": "2026-08-07",
+      "oscilacao_diaria_pct": 1.26,
+      "moeda_variacao_3m_pct": 3.6,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1997,
+       "volatilidade": 1998,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "FTSE MIB",
+     "moeda_nome": "euro",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2003-03",
+       "valor": 89,
+       "epoca": null
+      },
+      {
+       "mes": "2010-05",
+       "valor": 88,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Espanha",
+     "slug": "espanha",
+     "valor": 48,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 50,
+     "sinais": {
+      "bolsa": 19,
+      "volatilidade": 62,
+      "moeda": 64
+     },
+     "brutos": {
+      "bolsa_queda_pct": 1.1,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 20213.6,
+      "bolsa_pico_dia": "2026-08-11",
+      "oscilacao_diaria_pct": 1.23,
+      "moeda_variacao_3m_pct": 3.6,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1993,
+       "volatilidade": 1993,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "IBEX 35",
+     "moeda_nome": "euro",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "1998-09",
+       "valor": 99,
+       "epoca": null
+      },
+      {
+       "mes": "2002-07",
+       "valor": 98,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Portugal",
+     "slug": "portugal",
+     "valor": 37,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 41,
+     "sinais": {
+      "bolsa": 17,
+      "volatilidade": 29,
+      "moeda": 64
+     },
+     "brutos": {
+      "bolsa_queda_pct": 1.3,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 9712.35,
+      "bolsa_pico_dia": "2026-09-28",
+      "oscilacao_diaria_pct": 0.72,
+      "moeda_variacao_3m_pct": 3.6,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 2013,
+       "volatilidade": 2013,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "PSI",
+     "moeda_nome": "euro",
+     "picos": [
+      {
+       "mes": "2015-03",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2010-05",
+       "valor": 97,
+       "epoca": null
+      },
+      {
+       "mes": "2017-07",
+       "valor": 88,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Suíça",
+     "slug": "suica",
+     "valor": 32,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 30,
+     "sinais": {
+      "bolsa": 4,
+      "volatilidade": 57,
+      "moeda": 36
+     },
+     "brutos": {
+      "bolsa_queda_pct": 0.0,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 15132.7,
+      "bolsa_pico_dia": "2026-11-12",
+      "oscilacao_diaria_pct": 0.89,
+      "moeda_variacao_3m_pct": 1.7,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1990,
+       "volatilidade": 1990,
+       "moeda": 2003
+      }
+     },
+     "bolsa_nome": "SMI",
+     "moeda_nome": "franco suíço",
+     "picos": [
+      {
+       "mes": "1998-09",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2001-09",
+       "valor": 99,
+       "epoca": null
+      },
+      {
+       "mes": "2008-10",
+       "valor": 98,
+       "epoca": "crise financeira global de 2008"
+      }
+     ]
+    },
+    {
+     "nome": "Rússia",
+     "slug": "russia",
+     "valor": 23,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 71,
+     "sinais": {
+      "moeda": 23
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": -1.3,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "rublo",
+     "picos": [
+      {
+       "mes": "2015-01",
+       "valor": 100,
+       "epoca": "queda do rublo de 2014"
+      },
+      {
+       "mes": "2022-03",
+       "valor": 99,
+       "epoca": "invasão da Ucrânia e sanções"
+      },
+      {
+       "mes": "2020-04",
+       "valor": 95,
+       "epoca": "pandemia de Covid"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "Oriente Médio",
+   "slug": "oriente-medio",
+   "valor": 72,
+   "nivel": "Tensão",
+   "cor": "#EE8A3C",
+   "referencia": "2026-11",
+   "mes_anterior": 71,
+   "picos": [
+    {
+     "mes": "2008-10",
+     "valor": 92,
+     "epoca": "crise financeira global de 2008"
+    },
+    {
+     "mes": "2020-03",
+     "valor": 80,
+     "epoca": "pandemia de Covid"
+    },
+    {
+     "mes": "2022-06",
+     "valor": 80,
+     "epoca": "alta global de juros e inflação"
+    }
+   ],
+   "paises": [
+    {
+     "nome": "Turquia",
+     "slug": "turquia",
+     "valor": 61,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 69,
+     "sinais": {
+      "bolsa": 81,
+      "volatilidade": 50,
+      "moeda": 52
+     },
+     "brutos": {
+      "bolsa_queda_pct": 21.9,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 15133.5,
+      "bolsa_pico_dia": "2026-05-11",
+      "oscilacao_diaria_pct": 1.56,
+      "moeda_variacao_3m_pct": 4.7,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1997,
+       "volatilidade": 1997,
+       "moeda": 2005
+      }
+     },
+     "bolsa_nome": "BIST 100",
+     "moeda_nome": "lira turca",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 93,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2021-12",
+       "valor": 87,
+       "epoca": "queda da lira de 2021"
+      },
+      {
+       "mes": "2020-03",
+       "valor": 84,
+       "epoca": "pandemia de Covid"
+      }
+     ]
+    },
+    {
+     "nome": "Israel",
+     "slug": "israel",
+     "valor": 84,
+     "nivel": "Crise",
+     "cor": "#E5554A",
+     "referencia": "2026-11",
+     "mes_anterior": 59,
+     "sinais": {
+      "bolsa": 72,
+      "volatilidade": 91,
+      "moeda": 90
+     },
+     "brutos": {
+      "bolsa_queda_pct": 11.8,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 4481.04,
+      "bolsa_pico_dia": "2026-05-05",
+      "oscilacao_diaria_pct": 1.98,
+      "moeda_variacao_3m_pct": 5.9,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1992,
+       "volatilidade": 1992,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "TA-125",
+     "moeda_nome": "shekel israelense",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2011-09",
+       "valor": 92,
+       "epoca": "crise da dívida europeia"
+      },
+      {
+       "mes": "2000-10",
+       "valor": 91,
+       "epoca": "início da segunda intifada"
+      }
+     ]
+    },
+    {
+     "nome": "Egito",
+     "slug": "egito",
+     "valor": 90,
+     "nivel": "Crise",
+     "cor": "#E5554A",
+     "referencia": "2026-11",
+     "mes_anterior": 89,
+     "sinais": {
+      "moeda": 90
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": 8.2,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2001
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "libra egípcia",
+     "picos": [
+      {
+       "mes": "2017-01",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2024-03",
+       "valor": 99,
+       "epoca": "desvalorização e acordo com o FMI"
+      },
+      {
+       "mes": "2022-11",
+       "valor": 99,
+       "epoca": "desvalorizações de 2022"
+      }
+     ]
+    },
+    {
+     "nome": "Arábia Saudita",
+     "slug": "arabia-saudita",
+     "valor": 55,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 67,
+     "sinais": {
+      "bolsa": 69,
+      "volatilidade": 42
+     },
+     "brutos": {
+      "bolsa_queda_pct": 11.3,
+      "bolsa_ultimo_dia": "2026-11-11",
+      "bolsa_pico": 40.63,
+      "bolsa_pico_dia": "2026-04-15",
+      "oscilacao_diaria_pct": 0.89,
+      "desde": {
+       "bolsa": 2015,
+       "volatilidade": 2015
+      }
+     },
+     "bolsa_nome": "MSCI Arábia Saudita",
+     "moeda_nome": null,
+     "picos": [
+      {
+       "mes": "2022-12",
+       "valor": 89,
+       "epoca": null
+      },
+      {
+       "mes": "2021-11",
+       "valor": 77,
+       "epoca": null
+      },
+      {
+       "mes": "2025-04",
+       "valor": 72,
+       "epoca": "tarifaço dos EUA"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "África",
+   "slug": "africa",
+   "valor": 47,
+   "nivel": "Alerta",
+   "cor": "#F2C14E",
+   "referencia": "2026-11",
+   "mes_anterior": 55,
+   "picos": [
+    {
+     "mes": "2020-04",
+     "valor": 90,
+     "epoca": "pandemia de Covid"
+    },
+    {
+     "mes": "2022-09",
+     "valor": 84,
+     "epoca": "alta global de juros e inflação"
+    },
+    {
+     "mes": "2011-10",
+     "valor": 83,
+     "epoca": "crise da dívida europeia"
+    }
+   ],
+   "paises": [
+    {
+     "nome": "África do Sul",
+     "slug": "africa-do-sul",
+     "valor": 73,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 57,
+     "sinais": {
+      "bolsa": 90,
+      "volatilidade": 96,
+      "moeda": 33
+     },
+     "brutos": {
+      "bolsa_queda_pct": 12.3,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 128455.7,
+      "bolsa_pico_dia": "2026-02-27",
+      "oscilacao_diaria_pct": 1.67,
+      "moeda_variacao_3m_pct": 2.3,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 2012,
+       "volatilidade": 2012,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "JSE All Share",
+     "moeda_nome": "rand",
+     "picos": [
+      {
+       "mes": "2020-04",
+       "valor": 98,
+       "epoca": "pandemia de Covid"
+      },
+      {
+       "mes": "2016-01",
+       "valor": 98,
+       "epoca": "troca do ministro das Finanças"
+      },
+      {
+       "mes": "2011-10",
+       "valor": 95,
+       "epoca": "crise da dívida europeia"
+      }
+     ]
+    },
+    {
+     "nome": "Nigéria",
+     "slug": "nigeria",
+     "valor": 29,
+     "nivel": "Atenção",
+     "cor": "#7CC3E0",
+     "referencia": "2026-11",
+     "mes_anterior": 67,
+     "sinais": {
+      "moeda": 29
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": -0.7,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "naira",
+     "picos": [
+      {
+       "mes": "2024-02",
+       "valor": 100,
+       "epoca": "unificação do câmbio e queda da naira"
+      },
+      {
+       "mes": "2016-08",
+       "valor": 100,
+       "epoca": "flexibilização do câmbio"
+      },
+      {
+       "mes": "2009-02",
+       "valor": 99,
+       "epoca": "crise financeira global de 2008"
+      }
+     ]
+    },
+    {
+     "nome": "Quênia",
+     "slug": "quenia",
+     "valor": 0,
+     "nivel": "Calmaria",
+     "cor": "#3B82C4",
+     "referencia": "2026-11",
+     "mes_anterior": 14,
+     "sinais": {
+      "moeda": 0
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": -0.0,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "xelim queniano",
+     "picos": [
+      {
+       "mes": "2024-04",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2012-01",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2023-04",
+       "valor": 95,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Marrocos",
+     "slug": "marrocos",
+     "valor": 85,
+     "nivel": "Crise",
+     "cor": "#E5554A",
+     "referencia": "2026-11",
+     "mes_anterior": 83,
+     "sinais": {
+      "moeda": 85
+     },
+     "brutos": {
+      "moeda_variacao_3m_pct": 5.2,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": null,
+     "moeda_nome": "dirham",
+     "picos": [
+      {
+       "mes": "2022-10",
+       "valor": 98,
+       "epoca": "alta global de juros e inflação"
+      },
+      {
+       "mes": "2015-03",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2025-05",
+       "valor": 98,
+       "epoca": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "Ásia e Pacífico",
+   "slug": "asia-e-pacifico",
+   "valor": 61,
+   "nivel": "Tensão",
+   "cor": "#EE8A3C",
+   "referencia": "2026-11",
+   "mes_anterior": 58,
+   "picos": [
+    {
+     "mes": "2008-11",
+     "valor": 95,
+     "epoca": "crise financeira global de 2008"
+    },
+    {
+     "mes": "1998-09",
+     "valor": 95,
+     "epoca": null
+    },
+    {
+     "mes": "2001-09",
+     "valor": 89,
+     "epoca": null
+    }
+   ],
+   "paises": [
+    {
+     "nome": "Japão",
+     "slug": "japao",
+     "valor": 60,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 69,
+     "sinais": {
+      "bolsa": 75,
+      "volatilidade": 98,
+      "moeda": 7
+     },
+     "brutos": {
+      "bolsa_queda_pct": 16.0,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 72366.34,
+      "bolsa_pico_dia": "2026-06-25",
+      "oscilacao_diaria_pct": 2.85,
+      "moeda_variacao_3m_pct": -0.4,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1980,
+       "volatilidade": 1980,
+       "moeda": 1997
+      }
+     },
+     "bolsa_nome": "Nikkei 225",
+     "moeda_nome": "iene",
+     "picos": [
+      {
+       "mes": "1987-10",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "1990-03",
+       "valor": 99,
+       "epoca": null
+      },
+      {
+       "mes": "2008-11",
+       "valor": 99,
+       "epoca": "crise financeira global de 2008"
+      }
+     ]
+    },
+    {
+     "nome": "China",
+     "slug": "china",
+     "valor": 52,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 51,
+     "sinais": {
+      "bolsa": 63,
+      "volatilidade": 42,
+      "moeda": 52
+     },
+     "brutos": {
+      "bolsa_queda_pct": 13.8,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 4242.57,
+      "bolsa_pico_dia": "2026-05-13",
+      "oscilacao_diaria_pct": 1.01,
+      "moeda_variacao_3m_pct": -1.0,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1997,
+       "volatilidade": 1997,
+       "moeda": 2001
+      }
+     },
+     "bolsa_nome": "Xangai Composto",
+     "moeda_nome": "yuan",
+     "picos": [
+      {
+       "mes": "2008-04",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2016-01",
+       "valor": 97,
+       "epoca": "estouro da bolsa chinesa"
+      },
+      {
+       "mes": "2005-06",
+       "valor": 90,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Hong Kong",
+     "slug": "hong-kong",
+     "valor": 69,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 62,
+     "sinais": {
+      "bolsa": 63,
+      "volatilidade": 75
+     },
+     "brutos": {
+      "bolsa_queda_pct": 14.2,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 27968.09,
+      "bolsa_pico_dia": "2026-01-29",
+      "oscilacao_diaria_pct": 1.57,
+      "desde": {
+       "bolsa": 1986,
+       "volatilidade": 1987
+      }
+     },
+     "bolsa_nome": "Hang Seng",
+     "moeda_nome": null,
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "1998-01",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2022-10",
+       "valor": 94,
+       "epoca": "alta global de juros e inflação"
+      }
+     ]
+    },
+    {
+     "nome": "Índia",
+     "slug": "india",
+     "valor": 41,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 52,
+     "sinais": {
+      "bolsa": 44,
+      "volatilidade": 46,
+      "moeda": 34
+     },
+     "brutos": {
+      "bolsa_queda_pct": 3.9,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 26328.55,
+      "bolsa_pico_dia": "2026-01-02",
+      "oscilacao_diaria_pct": 0.86,
+      "moeda_variacao_3m_pct": -1.0,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 2007,
+       "volatilidade": 2007,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "Nifty 50",
+     "moeda_nome": "rupia",
+     "picos": [
+      {
+       "mes": "2011-10",
+       "valor": 97,
+       "epoca": "crise da dívida europeia"
+      },
+      {
+       "mes": "2020-03",
+       "valor": 92,
+       "epoca": "pandemia de Covid"
+      },
+      {
+       "mes": "2009-06",
+       "valor": 90,
+       "epoca": "crise financeira global de 2008"
+      }
+     ]
+    },
+    {
+     "nome": "Coreia do Sul",
+     "slug": "coreia-do-sul",
+     "valor": 88,
+     "nivel": "Crise",
+     "cor": "#E5554A",
+     "referencia": "2026-11",
+     "mes_anterior": 95,
+     "sinais": {
+      "bolsa": 95,
+      "volatilidade": 97,
+      "moeda": 72
+     },
+     "brutos": {
+      "bolsa_queda_pct": 41.4,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 9114.55,
+      "bolsa_pico_dia": "2026-06-22",
+      "oscilacao_diaria_pct": 3.66,
+      "moeda_variacao_3m_pct": -4.3,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1996,
+       "volatilidade": 1996,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "Kospi",
+     "moeda_nome": "won",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 96,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2020-03",
+       "valor": 83,
+       "epoca": "pandemia de Covid"
+      },
+      {
+       "mes": "2022-09",
+       "valor": 81,
+       "epoca": "alta global de juros e inflação"
+      }
+     ]
+    },
+    {
+     "nome": "Austrália",
+     "slug": "australia",
+     "valor": 50,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 31,
+     "sinais": {
+      "bolsa": 29,
+      "volatilidade": 78,
+      "moeda": 42
+     },
+     "brutos": {
+      "bolsa_queda_pct": 1.3,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 9271.6,
+      "bolsa_pico_dia": "2026-08-06",
+      "oscilacao_diaria_pct": 1.01,
+      "moeda_variacao_3m_pct": 2.4,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1992,
+       "volatilidade": 1992,
+       "moeda": 2006
+      }
+     },
+     "bolsa_nome": "ASX 200",
+     "moeda_nome": "dólar australiano",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 100,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2020-03",
+       "valor": 97,
+       "epoca": "pandemia de Covid"
+      },
+      {
+       "mes": "1998-08",
+       "valor": 96,
+       "epoca": null
+      }
+     ]
+    },
+    {
+     "nome": "Indonésia",
+     "slug": "indonesia",
+     "valor": 61,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 66,
+     "sinais": {
+      "bolsa": 96,
+      "volatilidade": 86,
+      "moeda": 2
+     },
+     "brutos": {
+      "bolsa_queda_pct": 42.5,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 9134.7,
+      "bolsa_pico_dia": "2026-01-20",
+      "oscilacao_diaria_pct": 1.84,
+      "moeda_variacao_3m_pct": 0.1,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1990,
+       "volatilidade": 1990,
+       "moeda": 2001
+      }
+     },
+     "bolsa_nome": "Jakarta Composite",
+     "moeda_nome": "rupia indonésia",
+     "picos": [
+      {
+       "mes": "1998-09",
+       "valor": 98,
+       "epoca": null
+      },
+      {
+       "mes": "2008-11",
+       "valor": 97,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2020-03",
+       "valor": 92,
+       "epoca": "pandemia de Covid"
+      }
+     ]
+    },
+    {
+     "nome": "Taiwan",
+     "slug": "taiwan",
+     "valor": 80,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
+     "referencia": "2026-11",
+     "mes_anterior": 44,
+     "sinais": {
+      "bolsa": 71,
+      "volatilidade": 99,
+      "moeda": 70
+     },
+     "brutos": {
+      "bolsa_queda_pct": 13.5,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 49822.55,
+      "bolsa_pico_dia": "2026-10-06",
+      "oscilacao_diaria_pct": 3.41,
+      "moeda_variacao_3m_pct": 2.5,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1997,
+       "volatilidade": 1997,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "Taiex",
+     "moeda_nome": "dólar taiwanês",
+     "picos": [
+      {
+       "mes": "2008-10",
+       "valor": 98,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2022-10",
+       "valor": 89,
+       "epoca": "alta global de juros e inflação"
+      },
+      {
+       "mes": "2015-08",
+       "valor": 81,
+       "epoca": "turbulência na China e queda das commodities"
+      }
+     ]
+    },
+    {
+     "nome": "Singapura",
+     "slug": "singapura",
+     "valor": 50,
+     "nivel": "Alerta",
+     "cor": "#F2C14E",
+     "referencia": "2026-11",
+     "mes_anterior": 49,
+     "sinais": {
+      "bolsa": 62,
+      "volatilidade": 77,
+      "moeda": 10
+     },
+     "brutos": {
+      "bolsa_queda_pct": 8.9,
+      "bolsa_ultimo_dia": "2026-11-12",
+      "bolsa_pico": 5801.96,
+      "bolsa_pico_dia": "2026-09-04",
+      "oscilacao_diaria_pct": 1.19,
+      "moeda_variacao_3m_pct": 0.3,
+      "moeda_ultimo_dia": "2026-11-12",
+      "desde": {
+       "bolsa": 1987,
+       "volatilidade": 1987,
+       "moeda": 2004
+      }
+     },
+     "bolsa_nome": "Straits Times",
+     "moeda_nome": "dólar de Singapura",
+     "picos": [
+      {
+       "mes": "1998-01",
+       "valor": 100,
+       "epoca": null
+      },
+      {
+       "mes": "2008-10",
+       "valor": 99,
+       "epoca": "crise financeira global de 2008"
+      },
+      {
+       "mes": "2001-09",
+       "valor": 96,
+       "epoca": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "brasil": {
+  "valor": 62,
+  "nivel": "Tensão",
+  "cor": "#EE8A3C",
+  "referencia": "2026-11",
+  "mes_anterior": 60,
+  "sinais": {
+   "bolsa": 77,
+   "volatilidade": 36,
+   "moeda": 72
+  }
+ },
+ "mundo": {
+  "valor": 54,
+  "nivel": "Alerta",
+  "cor": "#F2C14E",
+  "referencia": "2026-11",
+  "mes_anterior": 53
+ },
+ "cotacoes": [
+  {
+   "nome": "Ibovespa",
+   "ultimo": 170920.38,
+   "tipo": "pontos",
+   "serie": "brasil_bolsa",
+   "variacao_pct": -0.66,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "Dólar",
+   "ultimo": 5.6012,
+   "tipo": "brl",
+   "serie": "extra_dolar",
+   "variacao_pct": 0.33,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "Euro",
+   "ultimo": 6.2146,
+   "tipo": "brl",
+   "serie": "extra_euro",
+   "variacao_pct": -0.26,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "Dow Jones",
+   "ultimo": 52486.49,
+   "tipo": "pontos",
+   "serie": "extra_dow_jones",
+   "variacao_pct": 0.49,
+   "data": "2026-11-11"
+  },
+  {
+   "nome": "S&P 500",
+   "ultimo": 7619.38,
+   "tipo": "pontos",
+   "serie": "eua_bolsa",
+   "variacao_pct": 1.31,
+   "data": "2026-11-11"
+  },
+  {
+   "nome": "Nasdaq",
+   "ultimo": 25466.19,
+   "tipo": "pontos",
+   "serie": "extra_nasdaq",
+   "variacao_pct": 1.6,
+   "data": "2026-11-11"
+  },
+  {
+   "nome": "Bitcoin",
+   "ultimo": 72269.7969,
+   "tipo": "usd",
+   "serie": "extra_bitcoin",
+   "variacao_pct": -2.29,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "Petróleo Brent",
+   "ultimo": 93.27,
+   "tipo": "usd",
+   "serie": "extra_petroleo",
+   "variacao_pct": 0.55,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "Ouro",
+   "ultimo": 3897.3,
+   "tipo": "usd",
+   "serie": "extra_ouro",
+   "variacao_pct": -2.58,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "DAX",
+   "ultimo": 26754.32,
+   "tipo": "pontos",
+   "serie": "alemanha_bolsa",
+   "variacao_pct": 0.34,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "Nikkei",
+   "ultimo": 60819.36,
+   "tipo": "pontos",
+   "serie": "japao_bolsa",
+   "variacao_pct": -0.7,
+   "data": "2026-11-12"
+  },
+  {
+   "nome": "Merval",
+   "ultimo": 2848945.0,
+   "tipo": "pontos",
+   "serie": "argentina_bolsa",
+   "variacao_pct": -0.35,
+   "data": "2026-10-16"
+  }
+ ],
+ "teste_historico": [
+  {
+   "episodio": "Brasil, eleição de 2002",
+   "maximo": 80,
+   "mes": "2002-10"
+  },
+  {
+   "episodio": "Brasil, 2008",
+   "maximo": 98,
+   "mes": "2008-10"
+  },
+  {
+   "episodio": "Brasil, recessão de 2015",
+   "maximo": 76,
+   "mes": "2015-08"
+  },
+  {
+   "episodio": "Brasil, Covid",
+   "maximo": 97,
+   "mes": "2020-03"
+  },
+  {
+   "episodio": "Argentina, 2001",
+   "maximo": null,
+   "mes": null
+  },
+  {
+   "episodio": "Argentina, 2018",
+   "maximo": 99,
+   "mes": "2018-09"
+  },
+  {
+   "episodio": "Turquia, 2018",
+   "maximo": 79,
+   "mes": "2018-08"
+  },
+  {
+   "episodio": "Turquia, 2021",
+   "maximo": 87,
+   "mes": "2021-12"
+  },
+  {
+   "episodio": "China, 2015",
+   "maximo": 97,
+   "mes": "2016-01"
+  },
+  {
+   "episodio": "Europa, 2011",
+   "maximo": 81,
+   "mes": "2011-11"
+  },
+  {
+   "episodio": "América Latina, 2008",
+   "maximo": 97,
+   "mes": "2008-10"
+  },
+  {
+   "episodio": "Ásia e Pacífico, 2008",
+   "maximo": 95,
+   "mes": "2008-11"
+  },
+  {
+   "episodio": "Oriente Médio, 2008",
+   "maximo": 92,
+   "mes": "2008-10"
+  },
+  {
+   "episodio": "África, Covid",
+   "maximo": 90,
+   "mes": "2020-04"
+  },
+  {
+   "episodio": "Brasil, ano calmo de 2019",
+   "maximo": 42,
+   "mes": "2019-05"
+  },
+  {
+   "episodio": "Europa, ano calmo de 2017",
+   "maximo": 53,
+   "mes": "2017-07"
+  }
+ ],
+ "parcial": {
+  "hora": "11h11"
+ }
+}
