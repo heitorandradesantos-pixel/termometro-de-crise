@@ -1,0 +1,152 @@
+{
+ "saida": "aluguel-igpm-editado.mp4",
+ "fim": 42.2,
+ "bordao": [
+  40.03,
+  42.2
+ ],
+ "destaques": "\\d|%|igp|ipca|ivar|aluguel|contrato|whatsapp",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ]
+ ],
+ "roteiro": [
+  "Aluguel de R$ 2.000 com IGP-M pode virar R$ 2.104,80 em novembro.",
+  "O IGP-M subiu 5,24% até outubro, segundo a FGV.",
+  "A inflação, o IPCA, ficou em 4,58% até setembro, segundo o IBGE.",
+  "O IGP-M pesa mais o atacado que o seu mercadinho.",
+  "Olha só: o IVAR, do aluguel de mercado, subiu 4,47%, abaixo da inflação.",
+  "Calma: falta o IPCA de outubro, que pode mudar a diferença.",
+  "Abra o contrato e veja qual índice vale.",
+  "Manda para quem aluga imóvel.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "IGP",
+    "-M"
+   ],
+   [
+    "IGP-M"
+   ]
+  ],
+  [
+   [
+    "IGPM"
+   ],
+   [
+    "IGP-M"
+   ]
+  ],
+  [
+   [
+    "5",
+    ",24%"
+   ],
+   [
+    "5,24%"
+   ]
+  ],
+  [
+   [
+    "4",
+    ",58%"
+   ],
+   [
+    "4,58%"
+   ]
+  ],
+  [
+   [
+    "4",
+    ",47%,"
+   ],
+   [
+    "4,47%,"
+   ]
+  ],
+  [
+   [
+    "o",
+    "FGV."
+   ],
+   [
+    "a",
+    "FGV."
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   3.9,
+   "Mora de aluguel? *IGP-M no seu bolso*",
+   ""
+  ],
+  [
+   4.15,
+   7.7,
+   "IGP-M: *5,24%* em 12 meses",
+   "Fonte: FGV Ibre"
+  ],
+  [
+   7.83,
+   12.6,
+   "IPCA: *4,58%* em 12 meses",
+   "Fonte: IBGE"
+  ],
+  [
+   12.79,
+   15.5,
+   "IGP-M pesa *mais o atacado*",
+   ""
+  ],
+  [
+   15.69,
+   20.7,
+   "IVAR: *4,47%*",
+   "Fonte: FGV Ibre"
+  ],
+  [
+   20.85,
+   24.7,
+   "Falta o *IPCA de outubro*",
+   "Fonte: IBGE"
+  ],
+  [
+   24.91,
+   27.6,
+   "Veja *o índice no contrato*",
+   ""
+  ],
+  [
+   27.79,
+   30.0,
+   "Manda pra quem *mora de aluguel*",
+   ""
+  ],
+  [
+   31.23,
+   34.2,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   36.67,
+   39.9,
+   "*Não recomendamos*: só mostramos a temperatura",
+   ""
+  ]
+ ]
+}

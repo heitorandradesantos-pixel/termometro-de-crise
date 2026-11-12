@@ -1,0 +1,152 @@
+{
+ "saida": "fechamento-1111-editado.mp4",
+ "fim": 49.9,
+ "bordao": [
+  47.6,
+  49.9
+ ],
+ "remover": [
+  [
+   16.9,
+   25.58
+  ]
+ ],
+ "destaques": "\\d|%|dólar|fed|juros|tensão|alerta|whatsapp|pânico",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ],
+  [
+   "Estados",
+   "Unidos"
+  ]
+ ],
+ "roteiro": [
+  "O dólar fechou a R$ 5,58, e o motivo veio dos EUA.",
+  "Inflação alta nos EUA pode levar o Fed, banco central deles, a subir juros.",
+  "Olha só: com juro maior lá, o dinheiro de fora pode voltar.",
+  "Pouco dólar é como pouco tomate na feira: encarece.",
+  "Brasil: 62, Tensão, 3 abaixo de ontem. Mundo: 54, Alerta. Sem pânico.",
+  "Vai viajar ou comprar celular importado? Veja o preço do dia, sem susto.",
+  "Amanhã eu volto com o que mudou pro seu bolso.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "5",
+    ",58"
+   ],
+   [
+    "R$ 5,58"
+   ]
+  ],
+  [
+   [
+    "FED,"
+   ],
+   [
+    "Fed,"
+   ]
+  ],
+  [
+   [
+    "62%."
+   ],
+   [
+    "62."
+   ]
+  ],
+  [
+   [
+    "3",
+    "%"
+   ],
+   [
+    "3"
+   ]
+  ],
+  [
+   [
+    "3%"
+   ],
+   [
+    "3"
+   ]
+  ],
+  [
+   [
+    "54%."
+   ],
+   [
+    "54."
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   3.5,
+   "Dólar *R$ 5,58*: veio dos EUA",
+   "Fonte: Yahoo Finance"
+  ],
+  [
+   3.62,
+   7.9,
+   "Inflação dos EUA *acima do esperado*",
+   ""
+  ],
+  [
+   7.98,
+   12.9,
+   "Juro maior lá = *dólar mais caro aqui*",
+   ""
+  ],
+  [
+   13.1,
+   16.4,
+   "Pouco dólar = *preço sobe*",
+   ""
+  ],
+  [
+   25.6,
+   30.4,
+   "Brasil *62* · Tensão (▼3 desde ontem)",
+   "Fonte: Termômetro de Crise",
+   "#EE8A3C"
+  ],
+  [
+   30.46,
+   31.4,
+   "Mundo *54* · Alerta",
+   "Fonte: Termômetro de Crise"
+  ],
+  [
+   33.1,
+   36.8,
+   "Veja *o preço do dia*",
+   ""
+  ],
+  [
+   39.64,
+   42.4,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   44.54,
+   47.5,
+   "*Não recomendamos*: só mostramos a temperatura",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "saida": "boato-confisco-editado.mp4",
+ "fim": 44.2,
+ "bordao": [
+  41.84,
+  44.2
+ ],
+ "remover": [
+  [
+   11.08,
+   12.06
+  ]
+ ],
+ "destaques": "\\d|%|confisco|boato|fgc|cpf|constituição|whatsapp|evidência",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ],
+  [
+   "Boatos.org"
+  ]
+ ],
+ "roteiro": [
+  "Boato diz que o governo vai bloquear seu dinheiro em 2027.",
+  "O Boatos.org checou em 7 de novembro: sem evidência de bloqueio.",
+  "A Secom tem nota oficial: não existe confisco em conta.",
+  "Desde 2001, a Constituição barra medida provisória para reter poupança.",
+  "Mas olha só: nenhuma regra é eterna, e não há proposta oficial.",
+  "FGC é seguro de banco quebrado: até R$ 250 mil por CPF.",
+  "Sem autor ou banco, não repasse. Manda para quem quer sacar tudo.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "Boatos",
+    ".org"
+   ],
+   [
+    "Boatos.org"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   3.3,
+   "Bloqueio em 2027? *Eu chequei*",
+   ""
+  ],
+  [
+   6.46,
+   11.0,
+   "7 de novembro: *sem evidência*",
+   "Fonte: Boatos.org"
+  ],
+  [
+   12.1,
+   15.8,
+   "Não existe *confisco*",
+   "Fonte: Secom (gov.br)"
+  ],
+  [
+   15.84,
+   19.9,
+   "Desde *2001*, MP não retém poupança",
+   "Fonte: Constituição, art. 62"
+  ],
+  [
+   24.42,
+   29.3,
+   "FGC: até *R$ 250 mil* por CPF",
+   "Fonte: Banco Central"
+  ],
+  [
+   29.4,
+   31.7,
+   "Sem autor, *não repasse*",
+   ""
+  ],
+  [
+   31.78,
+   33.4,
+   "Manda pra quem *quer sacar tudo*",
+   ""
+  ],
+  [
+   33.46,
+   36.1,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   38.16,
+   41.7,
+   "*Não recomendamos*: só mostramos a temperatura",
+   ""
+  ]
+ ]
+}

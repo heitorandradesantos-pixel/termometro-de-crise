@@ -1,0 +1,146 @@
+{
+ "saida": "reserva-poupanca-editado.mp4",
+ "fim": 41.9,
+ "bordao": [
+  39.9,
+  41.9
+ ],
+ "destaques": "\\d|%|selic|poupança|tesouro|imposto|whatsapp|promessa",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ],
+  [
+   "Tesouro",
+   "Selic"
+  ]
+ ],
+ "roteiro": [
+  "Você guarda na poupança? R$ 1.000 rendem cerca de R$ 61,70 em um ano.",
+  "A TR, taxinha que muda como conta de luz, ficou fora.",
+  "Olha só: no Tesouro Selic, R$ 1.000 rendem cerca de R$ 113,40.",
+  "Já descontado o imposto, como o salário que cai na conta.",
+  "É simulação, não promessa: depende da Selic.",
+  "Mas tem um detalhe: menor prazo, maior imposto no Tesouro.",
+  "Por isso, antes de escolher, compare prazo, imposto e custos.",
+  "Manda para quem guarda reserva na poupança.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [
+  [
+   [
+    "Mil",
+    "reais"
+   ],
+   [
+    "R$ 1.000"
+   ]
+  ],
+  [
+   [
+    "mil",
+    "reais"
+   ],
+   [
+    "R$ 1.000"
+   ]
+  ],
+  [
+   [
+    "61",
+    ",70"
+   ],
+   [
+    "R$ 61,70"
+   ]
+  ],
+  [
+   [
+    "113",
+    ",40"
+   ],
+   [
+    "R$ 113,40"
+   ]
+  ],
+  [
+   [
+    "taxia"
+   ],
+   [
+    "taxa"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   2.3,
+   "Seu dinheiro *na poupança*?",
+   ""
+  ],
+  [
+   2.32,
+   5.0,
+   "R$ 1.000 na poupança: *R$ 61,70* no ano",
+   "Simulação do Termômetro (sem a TR)"
+  ],
+  [
+   5.06,
+   8.2,
+   "A TR *fica de fora*",
+   ""
+  ],
+  [
+   8.26,
+   15.5,
+   "Tesouro Selic: *R$ 113,40* no ano (já sem imposto)",
+   "Simulação do Termômetro"
+  ],
+  [
+   15.6,
+   18.3,
+   "Simulação, *não promessa*",
+   ""
+  ],
+  [
+   18.36,
+   21.7,
+   "Menor prazo, *maior imposto*",
+   "Fonte: Agência Brasil"
+  ],
+  [
+   21.76,
+   25.9,
+   "Compare *prazo, imposto e custo*",
+   ""
+  ],
+  [
+   26.12,
+   29.0,
+   "Manda pra quem tem *reserva na poupança*",
+   ""
+  ],
+  [
+   29.16,
+   33.2,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   36.06,
+   39.5,
+   "*Não recomendamos*: só mostramos a temperatura",
+   ""
+  ]
+ ]
+}

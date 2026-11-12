@@ -1,0 +1,95 @@
+{
+ "saida": "assessor-comissao-editado.mp4",
+ "fim": 37.8,
+ "bordao": [
+  35.67,
+  37.8
+ ],
+ "destaques": "\\d|%|cvm|comissão|taxa|termo|whatsapp|registro",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Heitor",
+   "Andrade"
+  ],
+  [
+   "termo",
+   "de",
+   "ciência"
+  ]
+ ],
+ "roteiro": [
+  "Seu assessor já sabe como ele é pago. Você ainda não.",
+  "Assessor pode ganhar parte da taxa, igual vendedor com comissão.",
+  "Não é proibido, mas a CVM manda avisar por escrito.",
+  "Esse aviso se chama termo de ciência. Peça o seu.",
+  "Olha só: segundo a CVM, o ganho dele não depende do seu retorno.",
+  "Pergunte quanto ele recebe e confira o registro dele na CVM.",
+  "Manda para quem vai aplicar com ajuda de assessor.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "corrigir": [],
+ "cartoes": [
+  [
+   0,
+   3.9,
+   "Seu assessor sabe. *E você?*",
+   ""
+  ],
+  [
+   3.95,
+   7.2,
+   "Pode ganhar *parte da taxa*",
+   ""
+  ],
+  [
+   7.25,
+   10.3,
+   "Comissão pode, *com aviso por escrito*",
+   "Fonte: CVM (Resolução 178)"
+  ],
+  [
+   10.35,
+   15.1,
+   "*Termo de ciência*: peça o seu",
+   "Fonte: CVM"
+  ],
+  [
+   15.21,
+   19.3,
+   "Ganho dele *não depende* do seu retorno",
+   "Fonte: CVM"
+  ],
+  [
+   19.43,
+   22.9,
+   "Confira o *registro na CVM*",
+   "Fonte: CVM"
+  ],
+  [
+   23.23,
+   26.2,
+   "Manda pra quem *aplica com assessor*",
+   ""
+  ],
+  [
+   26.51,
+   29.3,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   32.23,
+   35.5,
+   "*Não recomendamos*: só mostramos a temperatura",
+   ""
+  ]
+ ]
+}
