@@ -117,8 +117,8 @@ jobs:
         if: inputs.acao == 'roteiros'
         continue-on-error: true
         run: |
-          sudo apt-get install -y -qq fonts-inter > /dev/null 2>&1 || true
-          cd edicao/remotion && npm ci --silent && npx remotion browser ensure > /dev/null 2>&1 || true
+          sudo apt-get install -y -qq fonts-inter > /dev/null 2>&1 || echo "sem fonts-inter"
+          cd edicao/remotion && npm ci --no-audit --no-fund && npx remotion browser ensure || echo "Remotion não instalou"
       - name: Preparar o envio
         if: inputs.acao != 'parear'
         env:

@@ -1,0 +1,43 @@
+# Gera a capa sugerida de um roteiro (teste da instalação da Remotion no robô). Não manda nada.
+name: Capa (teste)
+on:
+  workflow_dispatch:
+    inputs:
+      roteiro:
+        description: "caminho do roteiro (diario/AAAA-MM-DD/roteiros/....json)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  capa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Instalar a Remotion
+        run: |
+          sudo apt-get install -y -qq fonts-inter > /dev/null 2>&1 || echo "sem fonts-inter"
+          cd edicao/remotion && npm ci --no-audit --no-fund && npx remotion browser ensure
+      - name: Gerar a capa
+        env:
+          CAPAS: "1"
+          ROTEIRO: ${{ inputs.roteiro }}
+        run: |
+          python -c "
+          import json, os
+          from pathlib import Path
+          from termometro.whatsapp import capa_roteiro, texto_capa
+          r = json.loads(Path(os.environ['ROTEIRO']).read_text())
+          print('texto:', texto_capa(r))
+          print('capa:', capa_roteiro(r, Path(os.environ['ROTEIRO']).stem, Path('capa.png')))
+          "
+          ls -la capa.png

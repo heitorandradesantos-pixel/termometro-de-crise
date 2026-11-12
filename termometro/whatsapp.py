@@ -181,10 +181,14 @@ def texto_capa(roteiro: dict) -> str:
 
 def capa_roteiro(roteiro: dict, nome: str, saida: Path) -> Path | None:
     """Capa com texto gigante (Remotion). Só roda onde a Remotion está instalada (CAPAS=1 no robô); se falhar, segue sem."""
-    if os.environ.get("CAPAS") != "1" or not (REMOTION / "node_modules").exists():
+    if os.environ.get("CAPAS") != "1":
+        return None
+    if not (REMOTION / "node_modules").exists():
+        print("  capa: a Remotion não está instalada; segue sem")
         return None
     fotos = sorted(FOTOS_CAPA.glob("*.jpg"))
     if not fotos:
+        print("  capa: sem fotos em edicao/capa/fotos; segue sem")
         return None
     foto = fotos[sum(map(ord, nome)) % len(fotos)].name
     props = json.dumps({"foto": foto, "texto": texto_capa(roteiro)}, ensure_ascii=False)
