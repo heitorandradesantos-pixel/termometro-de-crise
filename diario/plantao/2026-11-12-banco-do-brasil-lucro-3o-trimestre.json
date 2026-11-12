@@ -1,9 +1,37 @@
 {
- "titulo": "Banco do Brasil: lucro cai e calote no cartão sobe: o que se sabe",
- "descricao": "Lucro do Banco do Brasil caiu 66,5% no 3º tri e o atraso no cartão de pessoa física chegou a 16,35%. Veja os números e o que eles mostram.",
- "palavra_chave": "banco do brasil lucro 3º trimestre",
- "lead": "O Banco do Brasil lucrou R$ 1,3 bilhão no 3º trimestre de 2026, 66,5% menos que um ano antes, segundo o balanço divulgado na noite de quarta (11/11). O atraso acima de 90 dias no cartão de crédito de pessoa física chegou a 16,35% em setembro, ante 8,89% um ano antes. O banco atribui a queda do lucro principalmente ao agronegócio, e não ao cartão.",
+ "titulo": "Ação do Banco do Brasil cai mais de 10%: lucro, calote e dividendos",
+ "descricao": "A ação do BB chegou a cair mais de 10% após o lucro cair 66,5% no 3º tri. Veja o motivo, o corte nos dividendos e o que muda para cliente e acionista.",
+ "palavra_chave": "ação do banco do brasil cai",
+ "lead": "A ação do Banco do Brasil chegou a cair mais de 10% nesta quinta-feira (12/11), depois de um balanço abaixo do esperado. O lucro ajustado do 3º trimestre foi de R$ 1,27 bilhão, 66,5% menos que um ano antes, puxado pelo aumento do calote, principalmente no agronegócio. O banco cortou pela metade a previsão de lucro de 2026 e reduziu os dividendos.",
  "o_que_se_sabe": [
+  {
+   "texto": "A ação do Banco do Brasil chegou a cair mais de 10% na manhã de quinta-feira, 12 de novembro, no primeiro pregão depois do balanço, e foi negociada perto de R$ 15.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/bbas3-acoes-do-banco-do-brasil-desabam-10-com-resultado-abaixo-em-todas-as-frentes/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O lucro ajustado de R$ 1,27 bilhão ficou muito abaixo dos R$ 3,47 bilhões esperados pelos analistas, segundo o consenso da LSEG. No agronegócio, o atraso acima de 90 dias foi de 4,84% para 6,92% em um ano.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/bbas3-acoes-do-banco-do-brasil-desabam-10-com-resultado-abaixo-em-todas-as-frentes/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O banco cancelou os dividendos intermediários (pagamentos antecipados aos acionistas) que seriam declarados em novembro de 2026 e informou que não haverá pagamentos intermediários em 2027. Chamou as medidas de prudenciais e temporárias.",
+   "fonte_url": "https://ncnews.com.br/2026/11/12/acoes-do-banco-do-brasil-despencam-mais-de-10-apos-corte-de-lucro-e-dividendos/",
+   "data": "2026-11-12",
+   "veiculo": "NC News",
+   "confiavel": false
+  },
+  {
+   "texto": "O capital principal do banco ficou em 10,80% em setembro, e o índice de Basileia em 13,45%, acima dos mínimos exigidos pela regulação.",
+   "fonte_url": "https://ncnews.com.br/2026/11/12/acoes-do-banco-do-brasil-despencam-mais-de-10-apos-corte-de-lucro-e-dividendos/",
+   "data": "2026-11-12",
+   "veiculo": "NC News",
+   "confiavel": false
+  },
   {
    "texto": "O lucro líquido ajustado (resultado sem itens pontuais) foi de R$ 1,3 bilhão no 3º trimestre de 2026, queda de 66,5% na comparação anual. O banco divulgou o balanço na noite de quarta-feira, 11 de novembro.",
    "fonte_url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/",
@@ -89,15 +117,25 @@
    "data": "2026-11-12",
    "veiculo": "Investing.com",
    "confiavel": false
+  },
+  {
+   "texto": "A ação do Banco do Brasil chegou a cair mais de 10% no pregão seguinte ao balanço.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/bbas3-acoes-do-banco-do-brasil-desabam-10-com-resultado-abaixo-em-todas-as-frentes/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
   }
  ],
  "o_que_nao_se_sabe": [
+  "Se a queda da ação vai continuar ou se recupera nos próximos pregões. O preço citado é do meio da manhã de 12/11, não do fechamento.",
   "Por que o atraso no cartão de pessoa física subiu tanto. Os resultados do 3º trimestre divulgados não trazem uma explicação detalhada nas fontes consultadas; qualquer causa apontada por terceiros não está confirmada pelo banco.",
   "Se o atraso no cartão vai continuar subindo ou se estabiliza no 4º trimestre. Nenhuma das fontes consultadas traz projeção do banco para esse indicador.",
   "Se o aumento é um problema só do Banco do Brasil ou do setor. Os dados de outros bancos para o 3º trimestre não foram verificados nesta apuração, então não há comparação confirmada.",
   "Se haverá mudança em limite, anuidade ou regras do cartão para clientes. Isso não foi anunciado, e o aumento do atraso, sozinho, não permite concluir que haverá mudança (leitura do blog Alta Renda, não confirmada pelo banco)."
  ],
  "o_que_muda_para_voce": [
+  "Quem tem ação do BB pelos dividendos deve receber menos: o lucro esperado para 2026 caiu pela metade e a fatia repassada aos acionistas passou de 30% para 25%. Os pagamentos intermediários de novembro foram cancelados.",
+  "Para quem é cliente, o balanço não anunciou mudança em conta, poupança, cartão ou limite. O capital do banco segue acima do mínimo exigido. Depósitos em conta e poupança também têm a garantia do FGC (Fundo Garantidor de Créditos), até R$ 250 mil por CPF em cada instituição.",
   "Se você é cliente do BB, o balanço não anunciou nenhuma mudança no seu cartão, no limite ou na anuidade. Os números mostram o comportamento da carteira do banco como um todo, não a sua situação.",
   "O número de 16,35% mostra a parcela do saldo do cartão com atraso acima de 90 dias nesse banco. Ele não diz que 16,35% dos clientes estão em atraso.",
   "Quem deixa parte da fatura para o mês seguinte entra no rotativo, que custa muito mais que outras dívidas. Em setembro, o Banco Central apontou média de 451,7% ao ano (cerca de 15,3% ao mês). O parcelado da fatura ficou em 193,0% ao ano.",
@@ -107,7 +145,7 @@
  "como_se_proteger": [],
  "slug": "banco-do-brasil-lucro-3o-trimestre",
  "publicado_em": "2026-11-12T08:39:16.857334",
- "atualizado_em": "2026-11-12T08:39:16.857334",
  "assunto": "Banco do Brasil: lucro do 3º trimestre caiu forte e a inadimplência no cartão de crédito de pessoa física subiu, segundo o balanço divulgado ontem; o que isso mostra sobre o bolso do brasileiro (calote no cartão, juro alto) e o passo calmo para quem está com a fatura apertada, sem recomendar ação",
- "turno": "manha"
+ "turno": "manha",
+ "atualizado_em": "2026-11-12T13:40:21.907732"
 }
