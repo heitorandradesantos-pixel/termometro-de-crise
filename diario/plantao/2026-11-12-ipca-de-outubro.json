@@ -1,0 +1,113 @@
+{
+ "titulo": "IPCA de outubro, divulgado hoje: o que se sabe",
+ "descricao": "IBGE divulga hoje (12/11) o IPCA de outubro. Veja as projeções, o que a prévia mostrou e como o índice pode afetar o reajuste do aluguel.",
+ "palavra_chave": "ipca de outubro",
+ "lead": "O IBGE divulga nesta quinta-feira (12/11), às 9h, o IPCA de outubro, a inflação oficial do país. Na apuração desta matéria, não foi possível confirmar em fonte oficial o número final do mês nem o acumulado em 12 meses. Por isso, o texto traz o que já está confirmado (prévia, setembro e projeções) e será atualizado quando o resultado do IBGE estiver disponível.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O IBGE marcou a divulgação do IPCA e do INPC de outubro para esta quinta-feira (12/11), às 9h, no horário de Brasília.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/ibge-divulga-indices-de-inflacao-nesta-quinta-feira/",
+   "data": "2026-11-12",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Em setembro, o IPCA subiu 0,82% e acumulou 4,58% em 12 meses, segundo dados do IBGE reproduzidos pelo SindusconPR. A meta do governo é 3%, com tolerância de até 4,5% no acumulado de 12 meses.",
+   "fonte_url": "https://sindusconpr.com.br/economia/indices-economicos/ipca-ibge/",
+   "data": "2026-10-09",
+   "veiculo": "SindusconPR (dados do IBGE)",
+   "confiavel": false
+  },
+  {
+   "texto": "A prévia da inflação (IPCA-15) de outubro foi de 0,32%, contra 0,70% em setembro. O acumulado em 12 meses ficou em 4,62%, acima dos 4,47% do mês anterior. A prévia usa a mesma metodologia do IPCA, mas com outro período de coleta de preços.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro",
+   "data": "2026-10-23",
+   "veiculo": "IBGE (Agência de Notícias)",
+   "confiavel": true
+  },
+  {
+   "texto": "Na prévia, comida foi o que mais pesou: o grupo Alimentação e Bebidas subiu 0,88%. A comida comprada para comer em casa subiu 1,01%, segundo o IBGE.",
+   "fonte_url": "https://www.infomoney.com.br/economia/ipca-15-previa-inflacao-ibge-outubro-2026/",
+   "data": "2026-10-23",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Ainda na prévia, o etanol subiu 2,73% e a gasolina, 0,92%. O gás veicular, com queda de 0,18%, foi a exceção entre os combustíveis, segundo o IBGE.",
+   "fonte_url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2376/ipca_15_2026_out.pdf",
+   "data": "2026-10-23",
+   "veiculo": "IBGE (publicação IPCA-15)",
+   "confiavel": true
+  },
+  {
+   "texto": "A prévia teve queda de preços em energia elétrica residencial, água, passagens aéreas e frutas, segundo a Agência Gov, com dados do IBGE.",
+   "fonte_url": "https://agenciagov.ebc.com.br/noticias/202610/previa-da-inflacao-de-outubro-e-menor-com-queda-de-precos-de-agua-e-luz",
+   "data": "2026-10-23",
+   "veiculo": "Agência Gov (via IBGE)",
+   "confiavel": false
+  },
+  {
+   "texto": "A mediana das Projeções Broadcast (consulta a analistas) indicava alta de 0,25% do IPCA em outubro. A XP esperava 0,23%. A expectativa era de que o acumulado em 12 meses subisse de 4,58% para 4,74%. Isso seria um número projetado, não o resultado.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ipca-pacote-fiscal-e-balanco-do-banco-do-brasil-2124760",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo economistas ouvidos pelo InfoMoney, a queda da tarifa de energia e das passagens aéreas alivia o índice. A alta das carnes mantém o acumulado em 12 meses acima do teto da meta, em faixa projetada de 4,58% a 4,76%.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ipca-outubro-projecao-inflacao-desaceleracao/",
+   "data": "2026-11-11",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "IBGE divulga o IPCA de setembro: alta de 0,82% no mês e 4,58% em 12 meses.",
+   "fonte_url": "https://sindusconpr.com.br/economia/indices-economicos/ipca-ibge/",
+   "data": "2026-10-09",
+   "veiculo": "SindusconPR (dados do IBGE)",
+   "confiavel": false
+  },
+  {
+   "texto": "IBGE divulga o IPCA-15 de outubro: 0,32% no mês e 4,62% em 12 meses.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro",
+   "data": "2026-10-23",
+   "veiculo": "IBGE (Agência de Notícias)",
+   "confiavel": true
+  },
+  {
+   "texto": "Economistas projetam IPCA de outubro perto de 0,25%, com alívio da conta de luz e das passagens aéreas.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ipca-outubro-projecao-inflacao-desaceleracao/",
+   "data": "2026-11-11",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "IBGE tem a divulgação do IPCA de outubro marcada para as 9h.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ipca-pacote-fiscal-e-balanco-do-banco-do-brasil-2124760",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O número oficial do IPCA de outubro no mês e em 12 meses não foi confirmado em fonte oficial na apuração. Os números de projeção acima não são o resultado.",
+  "Não foi confirmado quais itens mais subiram e mais caíram no IPCA de outubro (comida, luz, gasolina). A prévia (IPCA-15) é só uma indicação e pode diferir do índice final.",
+  "Não foi confirmado se o IPCA de outubro ficou acima ou abaixo do que o mercado esperava.",
+  "Não foi confirmado qual percentual cada contrato de aluguel vai usar. Isso depende do mês de aniversário e da cláusula do contrato."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem aluguel reajustado pelo IPCA normalmente aplica o acumulado de 12 meses do índice. A conta é: valor do aluguel x (1 + percentual). O contrato define qual mês de referência vale: pode ser o último IPCA divulgado ou o de dois meses antes.",
+  "Até setembro, o IPCA acumulado em 12 meses era de 4,58% (fator 1,0458). Num aluguel de R$ 2.000, isso dá R$ 2.091,60, conforme o exemplo da Imobibrasil. Até agosto, o acumulado era de 4,22%, segundo o QuintoAndar.",
+  "Se o IPCA de outubro ficar na faixa projetada de 4,58% a 4,76%, o mesmo aluguel de R$ 2.000 iria a cerca de R$ 2.091,60 a R$ 2.095,20. É uma simulação com projeções, não o resultado oficial.",
+  "Confira no contrato qual índice e qual mês de referência valem. Se o contrato usa IGP-M, outro índice, o acumulado até outubro foi de 5,24%, segundo a Imobibrasil.",
+  "Comida mais cara pesa no orçamento mesmo quando a inflação do mês desacelera. Na prévia de outubro, os alimentos para casa subiram 1,01%, segundo o IBGE."
+ ],
+ "como_se_proteger": [],
+ "slug": "ipca-de-outubro",
+ "publicado_em": "2026-11-12T08:45:10.667132",
+ "atualizado_em": "2026-11-12T08:45:10.667132",
+ "assunto": "IPCA de outubro divulgado hoje (12/11) pelo IBGE: quanto foi a inflação do mês e em 12 meses, o que mais subiu e caiu no bolso (comida, luz, gasolina), e o que isso muda para quem tem aluguel reajustado pelo IPCA",
+ "turno": "manha"
+}
