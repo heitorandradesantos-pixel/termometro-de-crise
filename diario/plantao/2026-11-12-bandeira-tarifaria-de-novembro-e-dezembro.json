@@ -1,0 +1,105 @@
+{
+ "titulo": "Bandeira tarifária de novembro e dezembro: o que se sabe",
+ "descricao": "Novembro tem bandeira verde, sem custo extra. A de dezembro sai em 27/11. Veja quanto cada cor soma em 150 kWh e como economizar.",
+ "palavra_chave": "bandeira tarifária de novembro e dezembro",
+ "lead": "A Aneel manteve a bandeira verde em novembro, anunciou em 30/10. Não há cobrança extra na conta de luz pelo segundo mês seguido. A bandeira de dezembro ainda não foi divulgada: a agência marcou a decisão para 27 de novembro. Quem gasta 150 kWh por mês paga R$ 0 de bandeira em novembro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Bandeira de novembro: verde. A Aneel anunciou em 30/10 que mantém a bandeira verde, em razão das condições favoráveis de geração de energia. É o segundo mês seguido sem cobrança adicional.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+   "data": "2026-10-30",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Por que está verde: segundo a Aneel, as chuvas aumentaram nas regiões das principais hidrelétricas e os reservatórios se recuperaram. Assim, não é preciso ligar mais usinas termelétricas, que custam mais para gerar energia.",
+   "fonte_url": "https://paraibaonline.com.br/economia/2026/10/30/aneel-informa-sobre-bandeira-tarifaria-de-novembro/",
+   "data": "2026-10-30",
+   "veiculo": "Paraíba Online",
+   "confiavel": false
+  },
+  {
+   "texto": "Bandeira de dezembro: ainda não definida. Pelo calendário de 2026 da Aneel, a cor de dezembro será anunciada em 27 de novembro. A de janeiro de 2027 sai em 23 de dezembro.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/aneel-divulga-calendario-para-anuncio-de-bandeiras-tarifarias-em-2026",
+   "data": "2026-01-07",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Valores extras por 100 kWh, segundo a Aneel: amarela, R$ 1,88; vermelha patamar 1, R$ 4,46; vermelha patamar 2, R$ 7,87. Na verde, o extra é zero. Os valores completos são R$ 1,885, R$ 4,463 e R$ 7,877.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/10/30/bandeira-tarifaria-continuara-mais-barata-em-novembro-determina-a-aneel",
+   "data": "2026-10-30",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "Conta para 150 kWh por mês (150 kWh = 1,5 bloco de 100 kWh; cálculo do Termômetro com os valores da Aneel): verde, R$ 0; amarela, cerca de R$ 2,83; vermelha patamar 1, cerca de R$ 6,69; vermelha patamar 2, cerca de R$ 11,82. Só o extra da bandeira entra nessa conta, não o total da fatura.",
+   "fonte_url": "https://www.ctpnews.com.br/2026/08/aneel-mantem-bandeira-amarela-setembro.html",
+   "data": "2026-10-30",
+   "veiculo": "CTP News",
+   "confiavel": false
+  },
+  {
+   "texto": "Comparação com 2026 e 2025: a verde voltou em outubro, após cinco meses de amarela. Em novembro de 2025, a bandeira foi vermelha patamar 1. Naquele mês, 150 kWh somavam cerca de R$ 6,69 de extra.",
+   "fonte_url": "https://www.jornaldocomercio.com/economia/2026/10/1268908-aneel-mes-de-novembro-tera-bandeira-tarifaria-verde.html",
+   "data": "2026-10-30",
+   "veiculo": "Jornal do Comércio",
+   "confiavel": false
+  },
+  {
+   "texto": "A bandeira vale para consumidores ligados ao Sistema Interligado Nacional (SIN), a rede que atende a maior parte do país. O sistema de bandeiras existe desde 2015 e mostra o custo variável de gerar energia.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+   "data": "2026-10-30",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Aneel divulga o calendário de 2026: novembro em 30/10, dezembro em 27/11 e janeiro de 2027 em 23/12.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/aneel-divulga-calendario-para-anuncio-de-bandeiras-tarifarias-em-2026",
+   "data": "2026-01-07",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Aneel mantém a bandeira amarela em setembro, o quinto mês seguido, com R$ 1,885 a cada 100 kWh.",
+   "fonte_url": "https://www.ctpnews.com.br/2026/08/aneel-mantem-bandeira-amarela-setembro.html",
+   "data": "2026-08-28",
+   "veiculo": "CTP News",
+   "confiavel": false
+  },
+  {
+   "texto": "A bandeira verde volta em outubro, após cinco meses de amarela, segundo a cobertura da decisão de novembro.",
+   "fonte_url": "https://paraibaonline.com.br/economia/2026/10/30/aneel-informa-sobre-bandeira-tarifaria-de-novembro/",
+   "data": "2026-09-25",
+   "veiculo": "Paraíba Online",
+   "confiavel": false
+  },
+  {
+   "texto": "A Aneel anuncia a bandeira verde para novembro, sem cobrança extra.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+   "data": "2026-10-30",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Qual será a bandeira de dezembro. A Aneel só anuncia em 27/11. Qualquer previsão antes disso não é confirmada.",
+  "Quanto de luz você gasta de fato. O cálculo usa 150 kWh como exemplo. Veja o consumo real na sua fatura.",
+  "O valor total da sua conta. A bandeira é só um extra por kWh. A tarifa da sua distribuidora e os impostos mudam por região e não entram nos números acima."
+ ],
+ "o_que_muda_para_voce": [
+  "Em novembro, a bandeira verde não soma nada à conta de quem gasta 150 kWh. Se a de dezembro for amarela, o extra seria cerca de R$ 2,83 (só se a Aneel decidir assim).",
+  "O pior cenário seria a vermelha patamar 2, com cerca de R$ 11,82 de extra em 150 kWh. Não há anúncio de que isso vá ocorrer.",
+  "Passo calmo 1: anote o consumo em kWh na sua fatura. Sem esse número, não dá para saber o efeito de nenhuma bandeira.",
+  "Passo calmo 2: comece pelo chuveiro elétrico. Segundo a Eletrobras/Procel, citada pelo BV, ele pode chegar a até 30% do consumo mensal de uma casa. A chave na posição verão e banhos mais curtos ajudam.",
+  "Passo calmo 3: teste a borracha da geladeira com uma folha de papel entre a porta e o corpo. Se a folha sair fácil, a vedação pode estar ruim. Em compras futuras, o selo Procel A indica modelos mais econômicos."
+ ],
+ "como_se_proteger": [],
+ "slug": "bandeira-tarifaria-de-novembro-e-dezembro",
+ "publicado_em": "2026-11-12T07:52:03.506092",
+ "atualizado_em": "2026-11-12T07:52:03.506092",
+ "assunto": "Explicativo: conta de luz, qual é a bandeira tarifária de novembro e de dezembro segundo a Aneel, quanto ela soma na conta de quem gasta 150 kWh por mês, e o passo calmo para economizar",
+ "turno": "manha"
+}
