@@ -36,3 +36,26 @@ mundo." vem no fim, antes do bordão. Não há mais teste com e sem apresentaç�
 - `python editar_reel.py <pasta>` usa a Remotion por padrão; `"motor": "ffmpeg"` no config.json volta ao jeito antigo.
 - Licença: a Remotion é grátis para pessoa física e empresa com até 3 pessoas (nosso caso). Acima disso, licença de empresa.
 - Aqui, a Remotion usa o Chromium que já vem instalado (a rede bloqueia o download do navegador dela).
+
+## Fluxo completo (revisado na retrospectiva de 12/11)
+1. **Chegam os vídeos** → copie cada um para `pasta/vN/original.mov`.
+2. **Transcrever todos de uma vez:** `edicao/ferramentas/transcrever.sh -p "nomes próprios" pasta/v1 pasta/v2 ...`
+   (um disparo só no robô, large-v3, tempo por palavra).
+3. **Ler a transcrição procurando:** frase repetida ou recomeçada (corte com `remover`), número errado (não dá para
+   consertar o áudio: avise o Heitor e corrija na legenda e no cartão), palavrão, gancho improvisado (os cartões seguem
+   a fala, não o roteiro). Palavra com "?" baixo: confira na energia do áudio antes de cortar. Duplicata na virada de
+   dois trechos da transcrição costuma ser alucinação, não repetição: confira no áudio.
+4. **config.json** por vídeo (roteiro de `diario/.../roteiros/*.json`, cartões com fonte, `corrigir` para erros da
+   transcrição, `bordao` só se ele falou o bordão padrão) → `python editar_reel.py pasta/vN` (Remotion, ~6 min cada
+   com 2 núcleos: rode em fila, em segundo plano).
+5. **Conferência:** `transcrever.sh -e pasta/v1 ...` (transcreve o editado) e uma folha de quadros. Nada pode sumir.
+6. **Entrega:** vídeo + legenda do roteiro (sem #cambio) + capa (`ferramentas/capa.sh quadro.jpg "texto *destaque*"`).
+   Notícia do dia: avisar que posta no mesmo dia. O Heitor posta pelo app (a API entregou menos, teste de 11/11).
+7. Guardar `config.json` e `transcricao.json` em `edicao/AAAA-MM-DD-vN/`.
+
+## Lições (retrospectiva de 12/11)
+- Nunca gravar arquivo novo com nome de um que já existe sem conferir (o `publicar.py` da newsletter foi
+  sobrescrito por engano e quebrou os testes do Plantão por 2 h). Antes de criar: `ls` e `git log` do caminho.
+- Pedidos ao Plantão: um de cada vez (`ferramentas/pedir_roteiros.sh`); dois juntos, a fila cancela um.
+- Mudou o fluxo de um robô? O disparo que já estava na fila roda a versão antiga: confira o próximo, não aquele.
+- A Remotion daqui usa o Chromium do Playwright (a rede bloqueia o download dela); no robô do GitHub ela baixa sozinha.
