@@ -1,4 +1,5 @@
 import { Composition } from "remotion";
+import { Capa } from "./Capa";
 import { calcularReel, Reel } from "./Reel";
 import { Camadas } from "./tipos";
 
@@ -24,6 +25,7 @@ const EXEMPLO: Camadas = {
 
 export const RemotionRoot: React.FC = () => {
   return (
+    <>
     <Composition
       id="Reel"
       component={Reel}
@@ -34,5 +36,15 @@ export const RemotionRoot: React.FC = () => {
       defaultProps={EXEMPLO}
       calculateMetadata={calcularReel}
     />
+    <Composition
+      id="Capa"
+      component={Capa}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={1}
+      defaultProps={{ foto: "foto.jpg", texto: "Dólar a *R$ 5,58*" }}
+    />
+    </>
   );
 };
