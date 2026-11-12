@@ -56,7 +56,7 @@ export const Capa: React.FC<DadosCapa> = ({ foto, texto }) => {
         {partes.map((p, i) =>
           p.startsWith("*") ? (
             <span key={i} style={{ color: CORES.amarelo }}>
-              {p.slice(1, -1).replace(/ /g, "\u00a0")}
+              {p.slice(1, -1).replace(/ /g, "\u00a0").replace(/-/g, "\u2011")}
             </span>
           ) : (
             <span key={i}>{p}</span>
