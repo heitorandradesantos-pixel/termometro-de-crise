@@ -1,0 +1,99 @@
+{
+ "titulo": "Aluguel subiu mais que a inflação? IGP-M, IVAR e IPCA: o que se sabe",
+ "descricao": "IGP-M subiu 5,24% em 12 meses, o IVAR 4,47% e o IPCA 4,58%. Veja o que isso muda no reajuste e como conferir o índice do contrato.",
+ "palavra_chave": "aluguel subiu mais que a inflação",
+ "lead": "Depende do índice. O IGP-M, usado em muitos contratos, subiu 5,24% em 12 meses até outubro, segundo a FGV, acima dos 4,58% do IPCA até setembro, segundo o IBGE. O IVAR, que mede o aluguel de mercado em quatro capitais, subiu 4,47% até outubro, um pouco abaixo da inflação. Os números têm meses de referência diferentes, e o IBGE divulga o IPCA de outubro nesta quinta, 12/11.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O IGP-M subiu 1,47% em outubro de 2026. Em 12 meses, acumula alta de 5,24%, segundo a FGV (divulgado em 29/10). É o índice mais usado para reajustar aluguel.",
+   "fonte_url": "https://portalibre.fgv.br/press-releases/igp-m-de-outubro-de-2026",
+   "data": "2026-10-29",
+   "veiculo": "FGV Ibre",
+   "confiavel": false
+  },
+  {
+   "texto": "O IPCA, a inflação oficial, subiu 0,82% em setembro e acumula 4,58% em 12 meses, segundo o IBGE. É o dado fechado mais recente do IPCA que consegui confirmar. O IPCA de outubro estava previsto para 12/11 e não entrou neste texto.",
+   "fonte_url": "https://www.ibge.gov.br/indicadores/inflacao-e-precos/ipca.html",
+   "data": "2026-10-09",
+   "veiculo": "IBGE",
+   "confiavel": true
+  },
+  {
+   "texto": "Como referência mais próxima de outubro, o IPCA-15 (prévia da inflação) subiu 0,32% no mês e acumula 4,62% em 12 meses, segundo o IBGE (divulgado em 23/10).",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro",
+   "data": "2026-10-23",
+   "veiculo": "IBGE",
+   "confiavel": true
+  },
+  {
+   "texto": "O IVAR, índice de aluguéis residenciais da FGV, recuou 0,01% em outubro. Em 12 meses, subiu 4,47%, abaixo dos 5,08% de setembro (divulgado em 6/11). É o menor nível desde junho.",
+   "fonte_url": "https://www.brasil247.com/economia/indice-de-variacao-de-alugueis-registra-001-em-outubro-acumulado-em-12-meses-cai-para-447/",
+   "data": "2026-11-06",
+   "veiculo": "Brasil 247 (dados da FGV Ibre)",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o economista Matheus Dias, do FGV Ibre, parte da desaceleração do IVAR vem do efeito de base: outubro de 2025 teve alta forte. Ele cita crédito imobiliário restritivo e pouca oferta de imóveis para alugar como fatores que sustentam os preços.",
+   "fonte_url": "https://viva.com.br/dinheiro/alugueis-ficam-estaveis-em-outubro-apos-alta-em-setembro-aponta-fgv.html",
+   "data": "2026-11-06",
+   "veiculo": "Viva",
+   "confiavel": false
+  },
+  {
+   "texto": "Nas capitais, o IVAR de 12 meses ficou em 6,68% em Belo Horizonte, 5,45% no Rio de Janeiro, 4,09% em São Paulo e 3,31% em Porto Alegre.",
+   "fonte_url": "https://viva.com.br/dinheiro/alugueis-ficam-estaveis-em-outubro-apos-alta-em-setembro-aponta-fgv.html",
+   "data": "2026-11-06",
+   "veiculo": "Viva",
+   "confiavel": false
+  },
+  {
+   "texto": "O IGP-M é calculado com três partes: preços no atacado (60%), ao consumidor (30%) e da construção (10%). Por isso ele costuma se afastar do IPCA, segundo o site Cotação do Dia. Já o IVAR usa contratos de aluguel assinados em Belo Horizonte, Porto Alegre, Rio de Janeiro e São Paulo, segundo o site Debit.",
+   "fonte_url": "https://cotacaododia.com/igp-m/",
+   "data": "2026-10-29",
+   "veiculo": "Cotação do Dia",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O IBGE divulga o IPCA-15 de outubro: 0,32% no mês e 4,62% em 12 meses.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro",
+   "data": "2026-10-23",
+   "veiculo": "IBGE",
+   "confiavel": true
+  },
+  {
+   "texto": "A FGV divulga o IGP-M de outubro: alta de 1,47% no mês e 5,24% em 12 meses.",
+   "fonte_url": "https://portalibre.fgv.br/press-releases/igp-m-de-outubro-de-2026",
+   "data": "2026-10-29",
+   "veiculo": "FGV Ibre",
+   "confiavel": false
+  },
+  {
+   "texto": "A FGV divulga o IVAR de outubro: queda de 0,01% no mês e alta de 4,47% em 12 meses.",
+   "fonte_url": "https://gazetamercantil.com/alugueis-ivar-outubro-2026-menor-variacao-17-meses",
+   "data": "2026-11-06",
+   "veiculo": "Gazeta Mercantil (dados da FGV Ibre)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O IPCA de outubro, previsto para 12/11, não entrou neste texto. A comparação usa o IPCA de setembro (4,58%) e a prévia de outubro (4,62%). O resultado final pode mudar a diferença.",
+  "Qual índice vale para o seu contrato. Isso depende da cláusula que você assinou. Não dá para saber pelos números gerais.",
+  "Se o IGP-M seguirá acima do IPCA nos próximos meses. Nenhuma fonte consultada traz essa projeção, e não foi confirmada nenhuma previsão.",
+  "Quanto aluguéis novos subiram na sua cidade. O IVAR cobre só quatro capitais e não mede o reajuste de contratos antigos."
+ ],
+ "o_que_muda_para_voce": [
+  "Se o contrato usa IGP-M, o reajuste de quem faz aniversário em novembro pode ficar perto de 5,24%, se a cláusula pedir o acumulado até outubro. Em um aluguel de R$ 2.000, isso dá R$ 2.104,80.",
+  "Com o IPCA de setembro (4,58%), o mesmo aluguel iria a R$ 2.091,60. Com o IVAR (4,47%), a R$ 2.089,40. A diferença do IGP-M para o IPCA seria de cerca de R$ 13,20 por mês. São contas de exemplo, não valem para todos os casos.",
+  "Passo 1: abra o contrato e veja a cláusula de reajuste. Confira o nome do índice (IGP-M, IPCA, IVAR ou outro), o mês de aniversário e a janela de 12 meses que ela manda usar.",
+  "Passo 2: faça a conta com o índice que está escrito. Multiplique o aluguel atual por 1 mais o índice (por exemplo, 1,0524). Compare com o valor que o proprietário ou a imobiliária pediu.",
+  "Passo 3: se o valor pedido for maior que o do contrato, peça a memória de cálculo. Se estiver certo, você pode propor uma conversa. Leve os dados da FGV e do IBGE e o preço de imóveis parecidos na sua região. Combine qualquer mudança por escrito, em aditivo ao contrato."
+ ],
+ "como_se_proteger": [],
+ "slug": "aluguel-subiu-mais-que-a-inflacao",
+ "publicado_em": "2026-11-12T00:22:56.718700",
+ "atualizado_em": "2026-11-12T00:22:56.718700",
+ "assunto": "Explicativo: aluguel subiu mais que a inflação? O reajuste do aluguel pelo IGP-M e pelo IVAR comparado ao IPCA nos últimos 12 meses, com fonte (FGV, IBGE), e o passo calmo para o inquilino que vai renovar: conferir o índice do contrato e negociar",
+ "turno": "manha"
+}
