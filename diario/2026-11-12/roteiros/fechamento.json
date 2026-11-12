@@ -1,0 +1,185 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Dólar a R$ 5,64, alta de 1,06%: seu celular importado sente.",
+  "na_tela": "Dólar a R$ 5,64: seu celular sente",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "Dólar a R$ 5,64, alta de 1,06%: seu celular importado sente.",
+   "na_tela": "Dólar a R$ 5,64: seu celular sente",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Dólar sobe 1,06% e bolsa cai: o culpado não é um só.",
+   "na_tela": "Dólar sobe, bolsa cai: não é um só",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem sente o dólar a R$ 5,64 primeiro? Quem compra importado.",
+   "na_tela": "Quem sente o dólar primeiro?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Dólar a R$ 5,64, alta de 1,06%: seu celular importado sente.",
+  "Sabe aquele celular ou eletrônico importado?",
+  "Com o dólar alto, a tendência é ficar mais caro na loja.",
+  "Segundo o Termômetro, pesou o balanço do Banco do Brasil.",
+  "Pesou o IPCA, que é a inflação oficial.",
+  "Mas tem mais: a dúvida fiscal, ou seja, sobre as contas do governo.",
+  "Olha só: Brasil em 62, Tensão; mundo em 54, Alerta.",
+  "Calma, não precisa correr. Se ia comprar importado, compare preços antes de fechar.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dólar a R$ 5,64, alta de 1,06%: seu celular importado sente. Sabe aquele celular ou eletrônico importado? Com o dólar alto, a tendência é ficar mais caro na loja. Segundo o Termômetro, pesou o balanço do Banco do Brasil. Pesou o IPCA, que é a inflação oficial. Mas tem mais: a dúvida fiscal, ou seja, sobre as contas do governo. Olha só: Brasil em 62, Tensão; mundo em 54, Alerta. Calma, não precisa correr. Se ia comprar importado, compare preços antes de fechar. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,64: seu celular sente",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar R$ 5,64 (▲1,06%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Balanço do Banco do Brasil",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "IPCA = inflação oficial",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Dúvida fiscal = contas do governo",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Brasil 62 · Mundo 54",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Compare preços antes de fechar"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje R$ 5,64",
+ "legenda": "Dólar hoje: fechou a R$ 5,64, alta de 1,06%, segundo o Yahoo Finance.\n\nSegundo o Termômetro de Crise, pesaram o balanço do Banco do Brasil, o IPCA (a inflação oficial) e a dúvida fiscal, ou seja, a dúvida sobre as contas do governo.\n\nO termômetro fechou assim: Brasil em 62, Tensão; mundo em 54, Alerta. Com o dólar mais alto, a tendência é o importado ficar mais caro na loja. Calma: se você ia comprar algo importado, compare preços antes de fechar.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #dolarhoje #ibovespa #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#dolarhoje",
+  "#ibovespa",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 5,64 hoje: seu celular importado sente.",
+  "topicos": [
+   "Dólar fechou a R$ 5,64, alta de 1,06%, segundo o Yahoo Finance.",
+   "Pesaram balanço do Banco do Brasil, IPCA e dúvida fiscal, segundo o Termômetro.",
+   "Termômetro: Brasil em 62, Tensão; mundo em 54, Alerta.",
+   "Calma: antes de comprar importado, compare preços em mais de uma loja."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um fechamento de dia com vários números e termos para traduzir, então pede explicação calma na bancada.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Sabe aquele celular ou eletrônico importado?\": o dólar subir e o celular ficar mais caro é só um 'a tendência' abstrato. Troque por uma comparação do dia a dia, tipo a parcela do celular ou o fone importado no carrinho, dita como conversa (\"sabe aquele celular que você tá namorando na loja? Pode pesar mais no preço\"), sem inventar valor, pra dar a imagem viva que falta ao sanguíneo.",
+   "Frase \"Pesou o balanço do Banco do Brasil. Pesou o IPCA...\": a sequência de três motivos soa como lista de boletim e deixa o porquê corrido. Escolha o motivo principal e traduza na hora o que 'balanço' significa (\"o resultado do banco\"), mantendo a frase curta, pra dar o 'porquê' ao melancólico sem virar jargão. Mantenha o que a fonte diz, sem acrescentar causa.",
+   "Frase \"Olha só: Brasil em 62, Tensão; mundo em 54, Alerta.\": o 'olha só' foi gasto num número seco, sem tradução. Use a virada pra explicar o termômetro em uma frase (\"é a nossa temperatura: 62 é tensão, 54 é alerta\") e só depois entregar o passo de comparar preços, para o fleumático entender o que o número significa."
+  ],
+  "veredito": "A peça fala com o público certo, cita a fonte, tem o passo simples (comparar preços) e fecha com os bordões da casa; falta uma comparação viva do dia a dia e mais tradução do porquê e do número do termômetro, para soar menos boletim e mais conversa no portão."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-in along a busy port terminal at golden hour: stacked shipping containers and a crane lowering a sealed container, with cardboard boxes of electronics on pallets in the foreground. Cinematic, shallow depth of field, no people in focus, no text or logos",
+   "texto_da_fala": "Sabe aquele celular ou eletrônico importado?",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a busy port terminal at golden hour: stacked shipping containers and a crane lowering a sealed container, with cardboard boxes of electronics on pallets in the foreground. Cinematic, shallow depth of field, no people in focus, no text or logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Slow lateral tracking shot along a modern electronics store shelf lined with generic unbranded smartphones, tablets and headphones under bright display lights. Blank, unmarked price tags, no readable text, numbers or logos, no faces, shallow depth of field, subtle push-in at the end",
+   "texto_da_fala": "Com o dólar alto, a tendência é ficar mais caro na loja.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow lateral tracking shot along a modern electronics store shelf lined with generic unbranded smartphones, tablets and headphones under bright display lights. Blank, unmarked price tags, no readable text, numbers or logos, no faces, shallow depth of field, subtle push-in at the end. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Overhead shot slowly gliding over a wooden table where two generic unbranded smartphones sit side by side next to a blank notepad and a pen, while a pair of hands (cropped, no face) slides one phone closer to compare. Warm natural light, no text, numbers or logos",
+   "texto_da_fala": "Calma, não precisa correr. Se ia comprar importado, compare preços antes de fechar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Overhead shot slowly gliding over a wooden table where two generic unbranded smartphones sit side by side next to a blank notepad and a pen, while a pair of hands (cropped, no face) slides one phone closer to compare. Warm natural light, no text, numbers or logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dólar a R$ 5,64, alta de 1,06%: seu celular importado sente.\n\nSabe aquele celular ou eletrônico importado?\n\nCom o dólar alto, a tendência é ficar mais caro na loja.\n\nSegundo o Termômetro, pesou o balanço do Banco do Brasil.\n\nPesou o IPCA, que é a inflação oficial.\n\nMas tem mais: a dúvida fiscal, ou seja, sobre as contas do governo.\n\nOlha só: Brasil em 62, Tensão; mundo em 54, Alerta.\n\nCalma, não precisa correr. Se ia comprar importado, compare preços antes de fechar.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T18:32:24.806349-03:00",
+ "enviado_whatsapp": "2026-11-12T18:33:18.760404-03:00"
+}
