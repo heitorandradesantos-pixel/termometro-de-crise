@@ -1,0 +1,180 @@
+{
+ "gancho": {
+  "formula": "Número + cena",
+  "texto": "O dólar abriu a R$ 5,61, com Nova York no vermelho.",
+  "na_tela": "DÓLAR A R$ 5,61",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + cena",
+   "texto": "O dólar abriu a R$ 5,61, com Nova York no vermelho.",
+   "na_tela": "DÓLAR A R$ 5,61",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Dez e nove da manhã, e o Ibovespa já abriu perdendo 0,81%.",
+   "na_tela": "IBOVESPA ABRIU EM QUEDA",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto rendem R$ 200 por mês em 1 ano? É o destaque de hoje.",
+   "na_tela": "R$ 200 POR MÊS: QUANTO RENDE?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar abriu a R$ 5,61, com Nova York no vermelho.",
+  "A prévia do Nasdaq, em Nova York, aponta queda de 1,52%.",
+  "Na Ásia, Hong Kong fechou perdendo 2,23%.",
+  "Aqui, às 10h09, o Ibovespa abriu em queda de 0,81%.",
+  "O que pega no seu bolso: o dólar subiu 0,43%.",
+  "Dólar mais caro encarece importado e viagem: sinal amarelo.",
+  "Destaque de hoje: R$ 200 por mês, poupança ou Tesouro Selic, em 1 ano.",
+  "Manda para quem guarda dinheiro na poupança.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O dólar abriu a R$ 5,61, com Nova York no vermelho. A prévia do Nasdaq, em Nova York, aponta queda de 1,52%. Na Ásia, Hong Kong fechou perdendo 2,23%. Aqui, às 10h09, o Ibovespa abriu em queda de 0,81%. O que pega no seu bolso: o dólar subiu 0,43%. Dólar mais caro encarece importado e viagem: sinal amarelo. Destaque de hoje: R$ 200 por mês, poupança ou Tesouro Selic, em 1 ano. Manda para quem guarda dinheiro na poupança. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "DÓLAR A R$ 5,61",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nasdaq futuro ▼1,52%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Hang Seng ▼2,23%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Ibovespa ▼0,81% · 10h09",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Dólar R$ 5,61 ▲0,43%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "R$ 200 por mês: 1 ano",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje e Ibovespa na abertura",
+ "legenda": "Dólar hoje e Ibovespa na abertura: como o mundo amanheceu e como o Brasil abriu nesta quinta, 12/11.\n\nÀs 10h09, o Ibovespa estava em 170.673 pontos (▼0,81%) e o dólar em R$ 5,61 (▲0,43%). Lá fora, o Nasdaq futuro apontava queda de 1,52% e Hong Kong fechou em queda de 2,23%.\n\nNo último fechamento (11/11), o Termômetro marcou Brasil em 62 (Tensão) e mundo em 54 (Alerta).\n\nO destaque da manhã: R$ 200 por mês, poupança ou Tesouro Selic, quanto rende em 1 ano. O link está no site.\n\nConteúdo educativo, não é recomendação de investimento. Cotações: Yahoo Finance.\n\n#dolarhoje #ibovespa #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 5,61 e Nova York no vermelho agora cedo.",
+  "topicos": [
+   "Segundo o Yahoo Finance, o Nasdaq futuro aponta queda de 1,52%.",
+   "Ibovespa abriu às 10h09 em queda de 0,81%; dólar subiu 0,43%, a R$ 5,61.",
+   "Termômetro de Crise: Brasil em 62 e mundo em 54 no último fechamento.",
+   "Compare com calma R$ 200 por mês na poupança ou no Tesouro Selic."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É a abertura do dia, notícia quente da manhã que pede o tom de quem tá contando na hora.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 5,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 1,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "\"Aqui, às 10h09, o Ibovespa abriu em queda de 0,81%.\" e \"A prévia do Nasdaq... aponta queda de 1,52%.\": a peça é uma sequência de números sem tradução. Traduza o Ibovespa na mesma frase (\"o Ibovespa, que é a nota das maiores empresas da bolsa daqui\") e o Nasdaq (\"a bolsa de tecnologia de Nova York\"). Corte um dos itens para o roteiro ficar mais curto e mais claro.",
+   "\"Dólar mais caro encarece importado e viagem: sinal amarelo.\": a frase dá o impacto, mas falta uma comparação do dia a dia e um passo simples. Reescreva com um exemplo do povo (\"aquele celular importado, a parcela da viagem\") e termine com uma calma e um passo, sem prometer nada. Por exemplo: \"se você não tem viagem nem compra lá de fora marcada, o impacto direto é pequeno; vale só acompanhar\".",
+   "\"Destaque de hoje: R$ 200 por mês, poupança ou Tesouro Selic, em 1 ano.\" e \"Manda para quem guarda dinheiro na poupança.\": o destaque abre uma curiosidade que o roteiro não paga, porque o resultado não aparece. Diga em uma frase o que o link mostra, usando só o número que a fonte já tem, e deixe claro que é comparação de quanto rende, não indicação de onde aplicar. Troque o envio por algo com identificação e a pergunta de bolso: \"Se você guarda na poupança, olha só o que a conta mostra\". Depois, use a virada da casa (\"Olha só\") para ligar o dólar ao destaque."
+  ],
+  "veredito": "A peça acerta o formato (abre direto nos números, sinal amarelo, assinatura e bordão finais), mas é um boletim seco de cotações: falta traduzir os termos, trazer uma comparação viva e um passo simples, e pagar a curiosidade do destaque da poupança com o Tesouro Selic."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow aerial drone shot descending over Hong Kong's Victoria Harbour at dawn, dense glass skyscrapers in cool grey-blue haze, ferries crossing the water, low clouds drifting between towers. Moody, muted colors, smooth forward camera movement. No people in focus, no visible text, signs, logos or numbers",
+   "texto_da_fala": "Na Ásia, Hong Kong fechou perdendo 2,23%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone shot descending over Hong Kong's Victoria Harbour at dawn, dense glass skyscrapers in cool grey-blue haze, ferries crossing the water, low clouds drifting between towers. Moody, muted colors, smooth forward camera movement. No people in focus, no visible text, signs, logos or numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Smooth tracking shot along a busy port terminal at golden hour: stacked unmarked shipping containers and cranes, then a dolly cut to a suitcase and cardboard boxes on an airport conveyor belt. Warm amber light hinting at a yellow warning mood. No recognizable people, no text, labels, logos or numbers",
+   "texto_da_fala": "Dólar mais caro encarece importado e viagem: sinal amarelo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth tracking shot along a busy port terminal at golden hour: stacked unmarked shipping containers and cranes, then a dolly cut to a suitcase and cardboard boxes on an airport conveyor belt. Warm amber light hinting at a yellow warning mood. No recognizable people, no text, labels, logos or numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Macro tabletop shot of coins falling one by one into a glass jar beside a small green seedling growing in soil, soft morning window light, shallow depth of field. Camera slowly pushes in and tilts up. Plain coins with no visible markings, no hands or faces, no text, logos or numbers",
+   "texto_da_fala": "Destaque de hoje: R$ 200 por mês, poupança ou Tesouro Selic, em 1 ano.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro tabletop shot of coins falling one by one into a glass jar beside a small green seedling growing in soil, soft morning window light, shallow depth of field. Camera slowly pushes in and tilts up. Plain coins with no visible markings, no hands or faces, no text, logos or numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O dólar abriu a R$ 5,61, com Nova York no vermelho.\n\nA prévia do Nasdaq, em Nova York, aponta queda de 1,52%.\n\nNa Ásia, Hong Kong fechou perdendo 2,23%.\n\nAqui, às 10h09, o Ibovespa abriu em queda de 0,81%.\n\nO que pega no seu bolso: o dólar subiu 0,43%.\n\nDólar mais caro encarece importado e viagem: sinal amarelo.\n\nDestaque de hoje: R$ 200 por mês, poupança ou Tesouro Selic, em 1 ano.\n\nManda para quem guarda dinheiro na poupança.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-12",
+ "gerado_em": "2026-11-12T10:29:05.424283-03:00",
+ "enviado_whatsapp": "2026-11-12T10:29:59.363079-03:00"
+}
