@@ -218,7 +218,9 @@ def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
         if arq.stem.split("-")[0] in ROTEIROS_TIPOS and r.get("aprovado") and r.get("teleprompter") \
                 and not r.get("enviado_whatsapp"):
             novos.append((arq, r))
-    if not novos:
+    aviso = (os.environ.get("AVISO_ROTEIROS") or "").strip()  # ex.: "GRAVAR A PARTIR DAQUI", antes de tudo
+    avisos = [x.strip() for x in aviso.split("\n---\n") if x.strip()]  # "---" sozinho na linha separa mensagens
+    if not novos and not avisos:
         return f"Nenhum roteiro novo de {dia} para mandar."
     if pasta_saida.exists():
         shutil.rmtree(pasta_saida)
@@ -230,11 +232,10 @@ def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
             pacote.insert(1, {"imagem": capa.name, "legenda": "🖼️ Capa sugerida: na hora de postar, Editar capa > "
                                                           "Adicionar da galeria (Instagram e TikTok)."})
         textos += pacote
-    if aviso := (os.environ.get("AVISO_ROTEIROS") or "").strip():  # ex.: "GRAVAR A PARTIR DAQUI", antes de tudo
-        textos.insert(0, aviso)
+    textos = avisos + textos  # sem roteiro novo, manda só os avisos (ex.: legendas dos vídeos de motion)
     envio = {"modo": "teste", "dia": dia, "tipo": "roteiros", "textos": textos, "roteiros": [str(a) for a, _ in novos]}
     (pasta_saida / "envio.json").write_text(json.dumps(envio, ensure_ascii=False, indent=1))
-    return f"{len(novos)} roteiro(s) de {dia} prontos para mandar (conversa do próprio número)."
+    return f"{len(novos)} roteiro(s) e {len(avisos)} aviso(s) de {dia} prontos para mandar (conversa do próprio número)."
 
 
 def concluir_roteiros(envio: dict, resultado: dict) -> str:
