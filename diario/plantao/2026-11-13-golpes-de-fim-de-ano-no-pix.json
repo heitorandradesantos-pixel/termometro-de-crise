@@ -1,0 +1,127 @@
+{
+ "titulo": "Golpes de fim de ano no Pix e como pedir o MED: o que se sabe",
+ "descricao": "Falsa central, falso funcionário e Pix agendado: o que Febraban e Banco Central orientam e como pedir o dinheiro de volta pelo MED, em até 80 dias.",
+ "palavra_chave": "golpes de fim de ano no pix",
+ "lead": "Os golpes da falsa central, do falso funcionário e do Pix agendado seguem ativos, e a Febraban reforçou os alertas em 1º de julho de 2026. Quem cai pode pedir a devolução pelo MED, o Mecanismo Especial de Devolução do Banco Central, direto no app do banco. A regra permite rastrear o dinheiro por várias contas desde 2 de fevereiro de 2026, mas a devolução não é garantida.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Febraban alertou em 1º de julho de 2026 para a falsa central. Os golpistas ligam, mandam mensagens e usam o spoofing, que disfarça o número para parecer o do banco. Alguns enviam boletim de ocorrência falso. A entidade diz que bancos nunca pedem senha, token ou códigos.",
+   "fonte_url": "https://jornalpequeno.com.br/2026/07/01/golpe-da-falsa-central-telefonica-cresce-e-febraban-faz-alerta/",
+   "data": "2026-07-01",
+   "veiculo": "Jornal Pequeno",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Febraban, funcionários de banco não ligam para clientes para fazer testes com o Pix, pagamentos ou estornos. A entidade diz que bancos não usam urgência e pressão. Se houver suspeita, a orientação é avisar o banco na hora e registrar boletim de ocorrência.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/7/1/golpe-da-falsa-central-febraban-alerta-para-as-varias-versoes-do-mesmo-crime-veja-video",
+   "data": "2026-07-01",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "O dado mais recente da Febraban que encontramos é do 1º semestre de 2025. O golpe da falsa central ou do falso funcionário teve 139 mil relatos de clientes aos bancos, alta de 195,7% sobre o mesmo período de 2024. A entidade orienta desconfiar de ligações que pedem senhas ou transferências, desligar e ligar para o canal oficial do banco.",
+   "fonte_url": "https://febrabantech.febraban.org.br/temas/seguranca/golpe-da-falsa-venda-lidera-ranking-de-fraudes-contra-clientes",
+   "data": "2025-11-12",
+   "veiculo": "Febraban",
+   "confiavel": true
+  },
+  {
+   "texto": "No golpe do Pix agendado, o criminoso mostra o comprovante de um Pix marcado para depois, que pode ser cancelado a qualquer momento, e pressiona o vendedor ou a vítima. Em 11 de novembro, um homem foi preso em Porto Velho (RO) por tentar repetir o golpe em uma loja. Segundo a reportagem, ele já tinha comprado antes com um agendamento cancelado.",
+   "fonte_url": "https://www.diarioro.com.br/2026/11/12/golpe-do-pix-agendado-homem-e-preso-apos-tentar-enganar-novamente-loja-de-roupas-em-porto-velho/",
+   "data": "2026-11-12",
+   "veiculo": "Diário RO",
+   "confiavel": false
+  },
+  {
+   "texto": "O Mercado Pago, em guia de 3 de novembro, diz que o Pix agendado pode ser cancelado a qualquer momento. A empresa orienta conferir a origem de um Pix inesperado no extrato e não devolver por conta própria. A pessoa deve pedir o estorno ao banco dela.",
+   "fonte_url": "https://www.mercadopago.com.br/blog/golpes-do-pix",
+   "data": "2026-11-03",
+   "veiculo": "Mercado Pago",
+   "confiavel": false
+  },
+  {
+   "texto": "O MED 2.0 virou obrigatório em 2 de fevereiro de 2026. Antes, o BC só rastreava a primeira conta que recebeu o dinheiro desviado. Agora os bancos devem localizar valores que passaram por outras contas. Segundo o BC, a devolução pode sair em até 11 dias após a contestação. A contestação é 100% digital.",
+   "fonte_url": "https://sinfrerj.com.br/conteudo/10504/regra-do-pix-para-rastrear-dinheiro-que-foi-desviado-em-golpe-entra-em-vigor-veja-o-que-muda",
+   "data": "2026-02-03",
+   "veiculo": "SINFRERJ (reproduz reportagem sobre as regras do BC)",
+   "confiavel": false
+  },
+  {
+   "texto": "Para pedir pelo MED, procure no app do banco que fez o Pix a opção de contestar ou denunciar fraude e peça a abertura do MED. Guarde comprovante, capturas de tela e conversas. A devolução depende da confirmação da fraude e de haver dinheiro disponível nas contas.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/10/28/caiu-num-golpe-do-pix-como-pedir-o-dinheiro-de-volta-com-o-med-2-0",
+   "data": "2026-10-28",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "O MED não serve para cancelar qualquer Pix. Segundo a Agência Brasil, um dos casos fora da regra é o erro na escolha da chave Pix. Em 1º de setembro de 2026, o BC ampliou de 30 para 80 dias o prazo para contestar uma devolução feita pelo MED, em defesa de comerciantes. Outras fontes citam 80 dias, contados do Pix, como prazo da vítima para pedir a devolução.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
+   "data": "2026-09-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Regras do MED 2.0 passam a ser obrigatórias, com rastreamento do dinheiro além da primeira conta.",
+   "fonte_url": "https://sinfrerj.com.br/conteudo/10504/regra-do-pix-para-rastrear-dinheiro-que-foi-desviado-em-golpe-entra-em-vigor-veja-o-que-muda",
+   "data": "2026-02-02",
+   "veiculo": "SINFRERJ",
+   "confiavel": false
+  },
+  {
+   "texto": "Febraban reforça alerta sobre as várias versões do golpe da falsa central.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/7/1/golpe-da-falsa-central-febraban-alerta-para-as-varias-versoes-do-mesmo-crime-veja-video",
+   "data": "2026-07-01",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "Entra em vigor a ampliação de 30 para 80 dias do prazo para contestar uma devolução feita pelo MED.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
+   "data": "2026-09-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Tempo publica passo a passo para pedir o dinheiro de volta pelo MED 2.0.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/10/28/caiu-num-golpe-do-pix-como-pedir-o-dinheiro-de-volta-com-o-med-2-0",
+   "data": "2026-10-28",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "Homem é preso em Porto Velho (RO) ao tentar repetir o golpe do Pix agendado em uma loja.",
+   "fonte_url": "https://www.diarioro.com.br/2026/11/12/golpe-do-pix-agendado-homem-e-preso-apos-tentar-enganar-novamente-loja-de-roupas-em-porto-velho/",
+   "data": "2026-11-11",
+   "veiculo": "Diário RO",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não achamos dado oficial que mostre alta específica desses golpes no fim de ano. O alerta vale para o período de compras, como a Black Friday de 27 de novembro, mas isso não foi medido pelo BC nem pela Febraban.",
+  "Há divergência entre as fontes sobre o que mudou em 1º de setembro. A Agência Brasil fala em prazo de 80 dias para contestar uma devolução feita pelo MED. Outros veículos e sites jurídicos citam 80 dias para a vítima pedir o MED. Confirme o prazo na página do Pix em bcb.gov.br.",
+  "Não foi confirmado se o banco pode exigir boletim de ocorrência para abrir o MED. Alguns sites dizem que não pode na abertura. Outros recomendam registrar o boletim logo. Registrar ajuda nas investigações, segundo a Febraban.",
+  "Não há garantia de devolução. Ela depende de a fraude ser confirmada e de haver saldo nas contas rastreadas, e pode ser parcial. O BC não divulgou, nas fontes que consultamos, a taxa de sucesso do MED 2.0.",
+  "Não conseguimos abrir a página oficial do MED no bcb.gov.br nesta apuração. As regras acima vêm de reportagens sobre o BC e de entidades do setor. Vale conferir o texto oficial."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem conta e fez um Pix para um golpista, o pedido de devolução é feito ao seu próprio banco, pelo app, na opção de contestar o Pix. Quanto antes, maior a chance de ainda haver dinheiro nas contas.",
+  "Se você vende produtos ou serviços, um comprovante não é pagamento. O Pix agendado tem data futura e pode ser cancelado. Só entregue o produto depois de ver o valor no extrato do banco.",
+  "Se alguém ligar dizendo ser do banco e pedir senha, token, instalação de app ou Pix, a Febraban diz que o banco não faz isso. Desligue e ligue para o número oficial, de outro telefone.",
+  "O MED vale para golpe, fraude ou crime. Ele não serve para Pix enviado por engano, como erro ao digitar a chave. Nesse caso, peça a devolução ao recebedor, por meio do seu banco."
+ ],
+ "como_se_proteger": [
+  "Desligue se alguém se passar pelo banco e pedir senha, token, código ou Pix. Ligue depois para o número do verso do cartão, de outro telefone.",
+  "Não instale aplicativos nem clique em links enviados por quem diz ser do banco.",
+  "Desconfie de pressa. A Febraban diz que bancos não usam urgência para fazer o cliente agir.",
+  "Ao vender, confirme o dinheiro no extrato antes de entregar. Comprovante de Pix agendado traz data futura.",
+  "Se receber um Pix inesperado com pedido de devolução, não devolva por conta própria. Peça à pessoa que contate o banco dela.",
+  "Caiu no golpe? Avise o banco na hora, peça a contestação pelo MED, guarde as provas e registre boletim de ocorrência."
+ ],
+ "slug": "golpes-de-fim-de-ano-no-pix",
+ "publicado_em": "2026-11-13T07:49:56.456444",
+ "atualizado_em": "2026-11-13T07:49:56.456444",
+ "assunto": "Explicativo: Golpes de fim de ano no Pix: a falsa central do banco, o falso funcionário e o Pix agendado. O que o Banco Central e a Febraban orientam e como pedir o dinheiro de volta pelo MED (bcb.gov.br)",
+ "turno": "manha"
+}
