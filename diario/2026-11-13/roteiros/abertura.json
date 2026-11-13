@@ -1,0 +1,198 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Dólar a R$ 5,65: o que muda no seu bolso?",
+  "na_tela": "Dólar a R$ 5,65: e o seu bolso?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Dólar a R$ 5,65: o que muda no seu bolso?",
+   "na_tela": "Dólar a R$ 5,65: e o seu bolso?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Hong Kong caiu hoje cedo, mas o seu dólar quase não mexeu.",
+   "na_tela": "Hong Kong caiu. Seu dólar, não.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "O 13º é o destaque da manhã, e o dólar está parado.",
+   "na_tela": "13º em destaque, dólar parado",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Dólar a R$ 5,65: o que muda no seu bolso?",
+  "Hong Kong caiu, mas a prévia de Nova York sobe.",
+  "Aqui, a Bolsa abriu um pouquinho em alta.",
+  "Na prática, preço de importado e de viagem não tomou susto.",
+  "Olha só: o termômetro do Brasil fechou ontem em 62, sinal amarelo.",
+  "O destaque da manhã é o 13º: datas, descontos e valores.",
+  "Hoje tá calmo: confere a data do 13º.",
+  "Manda pra quem conta com o 13º pra fechar o ano.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dólar a R$ 5,65: o que muda no seu bolso? Hong Kong caiu, mas a prévia de Nova York sobe. Aqui, a Bolsa abriu um pouquinho em alta. Na prática, preço de importado e de viagem não tomou susto. Olha só: o termômetro do Brasil fechou ontem em 62, sinal amarelo. O destaque da manhã é o 13º: datas, descontos e valores. Hoje tá calmo: confere a data do 13º. Manda pra quem conta com o 13º pra fechar o ano. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,65: e o seu bolso?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Hong Kong ▼2,79% · Nova York (futuros) em alta",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Ibovespa: 171.769 pontos (▲0,26%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Dólar: R$ 5,65 (▲0,05%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Brasil em 62 (Tensão) · Mundo em 54 (Alerta)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "13º salário 2026: datas, descontos e valores",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje e 13º salário 2026",
+ "legenda": "Dólar hoje: abriu a R$ 5,65, quase parado, segundo o Yahoo Finance.\n\nA Bolsa brasileira abriu em alta, com o Ibovespa em 171.769 pontos (▲0,26%) às 10h26. Na Ásia, Hong Kong caiu 2,79% e Xangai caiu 1,26%, enquanto o Japão subiu 0,53%. Os futuros de Nova York, a prévia da bolsa, estão em alta.\n\nNo último fechamento (12/11), o termômetro do Brasil estava em 62 (Tensão) e o do mundo em 54 (Alerta).\n\nO destaque da manhã é o 13º salário 2026, com datas, descontos e valores no site do Termômetro de Crise.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #13salario #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#13salario",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 5,65 e Bolsa em alta: e o seu bolso?",
+  "topicos": [
+   "Segundo o Yahoo Finance, o dólar abriu a R$ 5,65, quase parado.",
+   "A Bolsa brasileira abriu em alta de 0,26%, às 10h26, segundo o Yahoo Finance.",
+   "Hong Kong caiu 2,79% hoje cedo, mas a prévia de Nova York sobe.",
+   "Destaque: o 13º, com datas, descontos e valores no site. Confere a sua data."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma abertura de manhã, de explicação com vários números, que pede calma e prova na tela.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Hong Kong caiu, mas a prévia de Nova York sobe.\": passa no Teste do CLT só em parte, porque \"prévia de Nova York\" é jargão e a notícia da Ásia não mexe no bolso de quem ouve. Reescreva trocando pelo efeito, por exemplo \"lá fora o dia começou misto, e aqui o dólar quase não mexeu\". Se quiser manter Hong Kong, traduza em uma frase só, sem juntar três mercados.",
+   "Frase \"Olha só: o termômetro do Brasil fechou ontem em 62, sinal amarelo.\": o \"Olha só\" está no lugar errado, porque vira só um dado solto e não a virada \"agora vem a parte que pouca gente viu\". Falta dizer o que o 62 quer dizer para o bolso e dar uma comparação do dia a dia, por exemplo comparar com febre. Isso é o que dá o toque sanguíneo e melancólico, o porquê do número. A legenda diz \"Tensão\" e o vídeo diz \"sinal amarelo\". Escolha um só para não confundir.",
+   "Frases \"O destaque da manhã é o 13º: datas, descontos e valores.\" e \"Hoje tá calmo: confere a data do 13º.\": o gancho do 13º promete datas, descontos e valores, mas o vídeo não entrega nenhum e manda a pessoa conferir. A curiosidade fica sem pagamento. Dê pelo menos um passo simples e concreto que já esteja confirmado na fonte, como a data da 1ª parcela, e troque \"descontos\" por \"o que sai do salário\". Diga também onde ver o resto, \"tá no nosso site\", sem citar nome de site na fala. Em \"Manda pra quem conta com o 13º\", o pedido de compartilhar vem sem ligação com o que veio antes. Ligue com a identificação logo na abertura, por exemplo \"se você conta com o 13º...\"."
+  ],
+  "veredito": "A peça tem o arquétipo certo (Sábio com jeito de Cara Comum), calma, bordões da casa e sem alarde, mas a fala ainda tem jargão de mercado (\\\"prévia de Nova York\\\"), o 13º é prometido no gancho e não é explicado, e falta uma comparação viva que ligue o termômetro ao bolso."
+ },
+ "viral": {
+  "nota": 4,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 0
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Dólar a R$ 5,65: o que muda no seu bolso?\" é uma pergunta de bolso, mas o número é o mesmo de qualquer boletim e a resposta vem fraca (\"não tomou susto\"). Reescrita, abrindo pela lacuna que o corpo já paga (o 13º): \"O seu 13º tem data pra cair e desconto pra sair. Hoje o dólar está a R$ 5,65 e não mexe nisso.\" Assim o gancho aponta pro objeto do bolso (13º) e o dólar vira a primeira resposta, calma e rápida.",
+   "Retenção e pagamento: o corpo vira lista de notícias (Hong Kong, Nova York, Bolsa), e o destaque \"o 13º: datas, descontos e valores\" só promete e não entrega nada. Troque a frase por um dado dito de fato, sem número novo: \"O 13º tem duas parcelas e vem com desconto. Confere a data no site do Termômetro.\" Corte Hong Kong e prévia de Nova York da fala, deixe só no cartão e na legenda. Mantenha a virada \"Olha só\" colada nisso, não antes: \"Olha só: o termômetro do Brasil fechou ontem em 62, sinal amarelo. Mas o destaque de hoje é o 13º.\"",
+   "Envio e conversa: \"Manda pra quem conta com o 13º pra fechar o ano\" já é situação concreta, bom. Falta ligar à pessoa, com identificação e pergunta simples: \"Se você conta com o 13º pra fechar o ano, manda pra quem também conta. E você, já sabe a data que o seu cai?\" Isso dá motivo pra mandar e vontade de comentar."
+  ],
+  "veredito": "Roteiro correto e calmo, mas sem a lacuna específica no gancho, com o destaque (13º) prometido e não entregue, e pouco motivo para comentar; falta abrir pelo 13º, que é o que a pessoa quer saber, e entregar um dado de verdade sobre ele."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Early morning golden sunlight over a cluster of glass office towers in a big Brazilian financial district, no signage or logos visible. Slow upward tilt along the facades as the light grows, with a few small clouds drifting by. Cinematic, realistic",
+   "texto_da_fala": "Aqui, a Bolsa abriu um pouquinho em alta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Early morning golden sunlight over a cluster of glass office towers in a big Brazilian financial district, no signage or logos visible. Slow upward tilt along the facades as the light grows, with a few small clouds drifting by. Cinematic, realistic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Interior of a bright, calm electronics and imported goods store: neutral unbranded cardboard boxes and plain gadgets on shelves, with a travel suitcase and a passport-sized plain booklet on a counter in the foreground. Slow smooth dolly forward along the shelves, shallow depth of field, no people, no text, no logos",
+   "texto_da_fala": "Na prática, preço de importado e de viagem não tomou susto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a bright, calm electronics and imported goods store: neutral unbranded cardboard boxes and plain gadgets on shelves, with a travel suitcase and a passport-sized plain booklet on a counter in the foreground. Slow smooth dolly forward along the shelves, shallow depth of field, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Warm end-of-year atmosphere: a shop window decorated with blurred string lights and plain wrapped gift boxes with ribbons, with a small plain leather wallet and a blank paper envelope on a wooden table in the foreground. Slow push-in with a slight parallax, soft bokeh, no people, no text, no numbers, no logos",
+   "texto_da_fala": "O destaque da manhã é o 13º: datas, descontos e valores.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Warm end-of-year atmosphere: a shop window decorated with blurred string lights and plain wrapped gift boxes with ribbons, with a small plain leather wallet and a blank paper envelope on a wooden table in the foreground. Slow push-in with a slight parallax, soft bokeh, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dólar a R$ 5,65: o que muda no seu bolso?\n\nHong Kong caiu, mas a prévia de Nova York sobe.\n\nAqui, a Bolsa abriu um pouquinho em alta.\n\nNa prática, preço de importado e de viagem não tomou susto.\n\nOlha só: o termômetro do Brasil fechou ontem em 62, sinal amarelo.\n\nO destaque da manhã é o 13º: datas, descontos e valores.\n\nHoje tá calmo: confere a data do 13º.\n\nManda pra quem conta com o 13º pra fechar o ano.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-13",
+ "gerado_em": "2026-11-13T10:44:53.835247-03:00",
+ "enviado_whatsapp": "2026-11-13T10:45:46.647482-03:00"
+}
