@@ -133,5 +133,7 @@ opinião de gestor sobre a ação (ele é gestor; nós não recomendamos).
 - O fim falado de ~15 s (grupo, apresentação, aviso, bordão) derrubava o tempo assistido no final. Agora: UMA frase de
   engajamento + o bordão (~5 s). Apresentação e aviso na tela final e na legenda.
 - A frase faz comentar: pergunta de duas saídas ligada ao gancho ("pechincha ou armadilha? comenta aí"; "você já caiu
-  nessa? SIM ou NÃO") ou "Comenta GRUPO que eu te mando o link do nosso WhatsApp" (comentário + lead do grupo).
-- O Heitor responde os comentários na primeira hora (mandando o link a quem comentou GRUPO): é o que mais pesa.
+  nessa? SIM ou NÃO"). Sem o link do grupo (o Heitor, 13/11: mandar o grupo para todo mundo só para ver abertura e
+  fechamento não é estratégico). Quando o produto da bio existir (ideia de 13/11: "Manual do Investidor" a R$ 19,90),
+  a palavra de comentar passa a levar a ele.
+- O Heitor responde os comentários na primeira hora: é o que mais pesa.

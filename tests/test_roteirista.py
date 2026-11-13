@@ -188,7 +188,7 @@ def test_especialista_em_viralizacao_pede_nova_versao_quando_a_nota_e_baixa(monk
     assert any("🔥 Especialista em viralização: 10/10" in m for m in roteirista.pacote_whatsapp(r, "Teste"))
 
 
-def test_sem_frase_de_engajamento_entra_o_convite_do_grupo():
+def test_sem_frase_de_engajamento_entra_a_pergunta_padrao_e_nao_o_grupo():
     b = _bruto(); b.pop("engajamento")
     r = roteirista.montar(b)
-    assert r["linhas"][-2] == roteirista.CHAMADAS["grupo"] and "Comenta GRUPO" in r["linhas"][-2]
+    assert r["linhas"][-2] == roteirista.ENGAJAMENTO_PADRAO and "GRUPO" not in r["linhas"][-2]

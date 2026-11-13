@@ -34,6 +34,7 @@ CHAMADAS = {"grupo": "Comenta GRUPO que eu te mando o link do nosso WhatsApp.",
 # engajamento"). Falado: UMA frase de engajamento escrita pelo Roteirista + o bordão. A apresentação e o aviso de
 # não recomendação saem da fala e ficam na tela final do vídeo e na legenda.
 TELA_FINAL = f"{ASSINATURA} {FECHO}"
+ENGAJAMENTO_PADRAO = "E você, já sabia disso? Comenta SIM ou NÃO."
 AVISO_LEGENDA = "Conteúdo educativo, não é recomendação de investimento."
 PALAVRAS_POR_MINUTO = 150
 PALAVRAS = (85, 115)  # 30 a 45 s de fala depois do corte das pausas, contando o engajamento e o bordão
@@ -65,7 +66,7 @@ engajamento (campo "engajamento", logo antes do bordão), o texto da tela e a le
 A frase de engajamento (até 14 palavras) faz a pessoa COMENTAR. Escolha a que combina com o vídeo:
 - pergunta de duas saídas ligada ao gancho, que se responde com uma palavra: "E aí: pechincha ou armadilha? Comenta aí."
   "Você já caiu nessa? Comenta SIM ou NÃO."; nunca pergunta sobre comprar, vender ou investir em algo;
-- ou o convite do grupo: "{CHAMADAS['grupo']}" (use quando o assunto continua no grupo: notícia que muda amanhã).
+Não mande para o grupo do WhatsApp (decisão do Heitor em 13/11: link do grupo para todo mundo não é estratégico).
 Nada de "deixa seu like", "me segue", "assiste até o final", nem venda.
 
 Regras:
@@ -175,7 +176,7 @@ def montar(bruto: dict, chamada: str = "grupo") -> dict:
     i = bruto.get("gancho_escolhido", 0)
     gancho = ganchos[i] if 0 <= i < len(ganchos) else (ganchos[0] if ganchos else {"texto": "", "na_tela": ""})
     falas = [f.strip() for f in bruto.get("falas") or [] if f.strip()]
-    engajamento = (bruto.get("engajamento") or "").strip() or CHAMADAS.get(chamada, CHAMADAS["grupo"])
+    engajamento = (bruto.get("engajamento") or "").strip() or ENGAJAMENTO_PADRAO
     linhas = [gancho["texto"].strip(), *falas, engajamento, BORDAO]
     texto = " ".join(linhas)
     hashtags = ["#" + _sem_acento(h.lstrip("#").replace(" ", "")).lower() for h in bruto.get("hashtags") or []]
@@ -243,7 +244,7 @@ def conferir(r: dict, material: str) -> list[str]:
 def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
     """Pede o roteiro; se a conferência reprovar, pede outra versão (até 3) com a lista do que corrigir."""
     fixo = _palavras(BORDAO)
-    pedido = (f"Tipo de vídeo: {TIPOS[tipo]}\nConvite do grupo, se a frase de engajamento for ele: {CHAMADAS.get(chamada)}\n"
+    pedido = (f"Tipo de vídeo: {TIPOS[tipo]}\n"
               f"Tamanho: o gancho, o corpo e a frase de engajamento, juntos, têm de {PALAVRAS[0] - fixo} a {PALAVRAS[1] - fixo} "
               f"palavras (mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} do bordão.\n\n"
               f"MATERIAL CONFERIDO (a única fonte de números e fatos):\n{material}")

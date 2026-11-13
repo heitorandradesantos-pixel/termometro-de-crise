@@ -1,5 +1,6 @@
 import { Composition } from "remotion";
 import { Capa } from "./Capa";
+import { calcularInflacao, MotionInflacao } from "./MotionInflacao";
 import { calcularReel, Reel } from "./Reel";
 import { Camadas } from "./tipos";
 
@@ -44,6 +45,27 @@ export const RemotionRoot: React.FC = () => {
       fps={30}
       durationInFrames={1}
       defaultProps={{ foto: "foto.jpg", texto: "Dólar a *R$ 5,58*" }}
+    />
+    <Composition
+      id="MotionInflacao"
+      component={MotionInflacao}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={900}
+      calculateMetadata={calcularInflacao}
+      defaultProps={{
+        anoBase: 2017,
+        anos: [
+          { ano: 2017, taxa: 2.95 }, { ano: 2018, taxa: 3.75 }, { ano: 2019, taxa: 4.31 }, { ano: 2020, taxa: 4.52 },
+          { ano: 2021, taxa: 10.06 }, { ano: 2022, taxa: 5.78 }, { ano: 2023, taxa: 4.62 }, { ano: 2024, taxa: 4.83 },
+          { ano: 2025, taxa: 4.26 }, { ano: 2026, taxa: 4.1 },
+        ],
+        ultimoRotulo: "2026 (até outubro)",
+        itens: ["🍚", "🫘", "🥛", "☕", "🍞", "🥚", "🧈", "🍌", "🍅", "🧻"],
+        fonte: "IPCA/IBGE",
+        pergunta: "Seu dinheiro cresceu mais que isso?",
+      }}
     />
     </>
   );
