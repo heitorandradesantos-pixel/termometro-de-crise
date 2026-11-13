@@ -1,0 +1,62 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [],
+ "noticias": 33,
+ "descartes": [
+  {
+   "onde": "Fed mantém juros em 3,75% a 4% e mercado discute nova alta em dezembro",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "Análise cita orçamento da França como peso sobre o euro",
+   "motivo": "data fora da janela (2026-11-02)"
+  },
+  {
+   "onde": "Eleição em Israel derruba bolsa de Tel Aviv e shekel em 28/10",
+   "motivo": "data fora da janela (2026-10-28)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 193.1,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 6.8,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 2.1,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 7.2,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 355.8,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}
