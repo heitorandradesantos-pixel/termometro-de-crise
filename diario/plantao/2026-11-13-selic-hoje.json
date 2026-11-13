@@ -1,0 +1,107 @@
+{
+ "titulo": "Selic hoje: quanto rendem R$ 10 mil em 1 ano com IR: o que se sabe",
+ "descricao": "Com a Selic em 13,75%, R$ 10 mil rendem cerca de R$ 1.134 no Tesouro Selic e R$ 1.126 no CDB de 100% do CDI em 1 ano, após o IR.",
+ "palavra_chave": "selic hoje",
+ "lead": "A Selic está em 13,75% ao ano desde 4 de novembro, quando o Copom, do Banco Central, manteve a taxa por unanimidade. Com esse número, R$ 10 mil aplicados por 12 meses rendem, já sem imposto, cerca de R$ 1.134 no Tesouro Selic e R$ 1.126 num CDB de 100% do CDI. Na poupança, o ganho fica entre R$ 617 e R$ 831, sem imposto, conforme a TR. São contas de simulação, que supõem a Selic parada por um ano.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Selic está em 13,75% ao ano. O Copom, do Banco Central, manteve a taxa em 4 de novembro, por unanimidade, e interrompeu cinco cortes seguidos de 0,25 ponto. Este é o número usado nas contas abaixo, com data de 4/11/2026.",
+   "fonte_url": "https://www.suno.com.br/noticias/copom-mantem-selic-1375-novembro-2026-go/",
+   "data": "2026-11-04",
+   "veiculo": "Suno",
+   "confiavel": false
+  },
+  {
+   "texto": "A decisão de 4/11 foi a 282ª reunião do Copom. A próxima está marcada para dezembro. Por isso, a Selic pode mudar antes de completar 12 meses.",
+   "fonte_url": "https://gazetamercantil.com/copom-mantem-selic-1375-novembro-2026",
+   "data": "2026-11-04",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  },
+  {
+   "texto": "O Imposto de Renda na renda fixa (Tesouro Direto e CDB) é cobrado só sobre o rendimento, não sobre o valor aplicado. A alíquota cai com o prazo: 22,5% até 180 dias, 20% de 181 a 360, 17,5% de 361 a 720 e 15% acima de 720 dias. Em 12 meses (365 dias), vale 17,5%.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/imposto-de-renda/renda-fixa-imposto-de-renda/como-declarar-investimentos-do-tesouro-direto-no-imposto-de-renda-2026/",
+   "data": "2026-11-13",
+   "veiculo": "B3 Bora Investir",
+   "confiavel": true
+  },
+  {
+   "texto": "Tesouro Selic: o título rende a Selic mais um pequeno acréscimo (o Tesouro Selic 2031 paga Selic + 0,1072% ao ano, segundo o Investidor10). Estimativa de cálculo: cerca de 13,75% ao ano, ou R$ 1.375 em R$ 10 mil. Descontado o IR de 17,5% (R$ 240,63), sobram cerca de R$ 1.134, ou 11,34% líquidos.",
+   "fonte_url": "https://investidor10.com.br/tesouro-direto/investir/",
+   "data": "2026-11-13",
+   "veiculo": "Investidor10",
+   "confiavel": false
+  },
+  {
+   "texto": "CDB de 100% do CDI: o CDI é a taxa dos empréstimos entre bancos e anda quase colada na Selic, cerca de 0,10 ponto abaixo (estimativa do Termômetro: 13,65% ao ano). Em R$ 10 mil, o ganho bruto é de cerca de R$ 1.365. Com IR de 17,5% (R$ 238,88), sobram cerca de R$ 1.126, ou 11,26% líquidos.",
+   "fonte_url": "https://investidor10.com.br/indices/selic/",
+   "data": "2026-11-13",
+   "veiculo": "Investidor10",
+   "confiavel": false
+  },
+  {
+   "texto": "Poupança: com a Selic acima de 8,5% ao ano, a regra é render 0,5% ao mês mais a TR (Taxa Referencial, índice divulgado pelo Banco Central). Em novembro de 2026 a regra vale. Com a TR perto de zero, R$ 100 mil rendem R$ 6.167,78 em um ano, ou seja, R$ 616,78 em R$ 10 mil.",
+   "fonte_url": "https://www.santander.com.br/blog/poupanca",
+   "data": "2026-11-13",
+   "veiculo": "Santander",
+   "confiavel": false
+  },
+  {
+   "texto": "Se a TR estiver mais alta, a poupança rende mais. O C6 Bank cita TR de 2,02% em 12 meses e ganho de cerca de 8,31% ao ano, o que daria cerca de R$ 831 em R$ 10 mil. As fontes divergem sobre a TR atual, por isso a conta traz esse intervalo.",
+   "fonte_url": "https://www.c6bank.com.br/blog/quanto-rende-a-poupanca",
+   "data": "2026-10-10",
+   "veiculo": "C6 Bank",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Selic caiu de 15% para 14,75%, o primeiro corte do ciclo, depois de ficar em 15% de junho de 2025 a março de 2026.",
+   "fonte_url": "https://blog.nubank.com.br/taxa-selic/",
+   "data": "2026-03-18",
+   "veiculo": "Nubank",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom cortou a Selic para 13,75%, o quinto corte seguido.",
+   "fonte_url": "https://blog.nubank.com.br/taxa-selic/",
+   "data": "2026-09-15",
+   "veiculo": "Nubank",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom manteve a Selic em 13,75%, por unanimidade, e interrompeu os cortes.",
+   "fonte_url": "https://www.suno.com.br/noticias/copom-mantem-selic-1375-novembro-2026-go/",
+   "data": "2026-11-04",
+   "veiculo": "Suno",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o relato de 11/11, a ata da reunião de 4/11 já estava disponível no site do Banco Central.",
+   "fonte_url": "https://revistaempreende.com.br/copom-mantem-selic-1375-ata-novembro-2026/",
+   "data": "2026-11-11",
+   "veiculo": "Revista Empreende",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Para onde vai a Selic nos próximos 12 meses. O Copom não deu pistas sobre os próximos passos, segundo a Nomad. As contas aqui supõem a taxa parada em 13,75%, o que não está garantido.",
+  "Quanto o seu CDB paga de fato. A conta usa 100% do CDI. Cada banco define o percentual, e ele pode ser menor ou maior. Este texto não traz taxas de nenhum banco.",
+  "Qual é a TR exata nos próximos meses. As fontes consultadas divergem (perto de zero em uma, 2,02% em 12 meses em outra), e o rendimento da poupança depende dela.",
+  "Se haverá taxa de custódia no seu caso. Há fontes que citam uma taxa da B3 de 0,20% ao ano no Tesouro Direto, que reduziria um pouco o ganho. Confira as regras da sua corretora. Esse valor não entrou nas contas.",
+  "Os valores aqui são estimativas do Termômetro, feitas com juros compostos simples e a Selic de 4/11/2026. Não são os números exatos de uma simulação oficial. O Tesouro Nacional e o Banco Central têm calculadoras e dados próprios no tesourodireto.com.br e no bcb.gov.br."
+ ],
+ "o_que_muda_para_voce": [
+  "Com a Selic em 13,75%, o Tesouro Selic e o CDB de 100% do CDI rendem quase o mesmo em 12 meses, na faixa de R$ 1.126 a R$ 1.134 em R$ 10 mil. A diferença de cerca de R$ 8 vem do pequeno acréscimo do título e do percentual do CDB.",
+  "A poupança rende menos nessa conta: de R$ 617 a R$ 831 em R$ 10 mil, conforme a TR. Ela não tem Imposto de Renda para pessoa física, mas mesmo assim fica abaixo dos outros dois, já descontado o imposto.",
+  "Resgatar antes dos 12 meses muda o imposto. Até 180 dias, a alíquota é de 22,5%. No Tesouro Direto, resgates antes de 30 dias também pagam IOF, imposto sobre operações financeiras, que reduz o ganho.",
+  "Quem tem dinheiro aplicado em Tesouro Selic ou em CDB atrelado ao CDI vê o rendimento acompanhar a Selic. Se o Copom cortar ou subir a taxa, o ganho muda junto. A poupança, com a Selic acima de 8,5%, não acompanha essas variações.",
+  "O Termômetro não indica onde aplicar. A conta serve só para entender quanto cada opção rende hoje, com o IR já descontado."
+ ],
+ "como_se_proteger": [],
+ "slug": "selic-hoje",
+ "publicado_em": "2026-11-13T08:06:52.736303",
+ "atualizado_em": "2026-11-13T08:06:52.736303",
+ "assunto": "Explicativo: Selic hoje: quanto rendem R$ 10 mil em 1 ano no Tesouro Selic, num CDB de 100% do CDI e na poupança, já descontado o imposto de renda (Banco Central, Tesouro Nacional, bcb.gov.br)",
+ "turno": "manha"
+}
