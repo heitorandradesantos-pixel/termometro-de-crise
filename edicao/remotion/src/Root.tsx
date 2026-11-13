@@ -58,7 +58,7 @@ export const RemotionRoot: React.FC = () => {
         anoBase: 2017,
         anos: [
           { ano: 2017, taxa: 2.95 }, { ano: 2018, taxa: 3.75 }, { ano: 2019, taxa: 4.31 }, { ano: 2020, taxa: 4.52 },
-          { ano: 2021, taxa: 10.06 }, { ano: 2022, taxa: 5.78 }, { ano: 2023, taxa: 4.62 }, { ano: 2024, taxa: 4.83 },
+          { ano: 2021, taxa: 10.06, nota: "pandemia" }, { ano: 2022, taxa: 5.78 }, { ano: 2023, taxa: 4.62 }, { ano: 2024, taxa: 4.83 },
           { ano: 2025, taxa: 4.26 }, { ano: 2026, taxa: 4.1 },
         ],
         ultimoRotulo: "2026 (até outubro)",
