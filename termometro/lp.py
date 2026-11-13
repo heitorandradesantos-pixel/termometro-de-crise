@@ -128,11 +128,11 @@ body{padding-bottom:84px}
 .ext-fonte{display:block;font-size:11px;color:#6B6458;margin-top:6px;line-height:1.35}
 .sub2{font-size:18px;color:#C9D3DE;max-width:620px;margin:6px auto 18px}.sub2 b{color:#fff}
 .compra{display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:center;max-width:620px;margin:0 auto;text-align:left}
-.compra img{width:100%;border-radius:12px;margin:0;box-shadow:0 14px 34px rgba(0,0,0,.45)}
+.capa3d{position:relative}.capa3d:before{content:"";position:absolute;inset:8% 6%;border-radius:50%;background:radial-gradient(closest-side,rgba(242,193,78,.38),rgba(242,193,78,0));filter:blur(18px)}.capa3d img{position:relative;width:100%;height:auto;display:block;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55))}
 .compra .preco{justify-content:flex-start;margin-bottom:10px}
 .selos{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.selos span{font-size:13px;color:#C9D3DE;background:rgba(255,255,255,.06);
  border-radius:99px;padding:5px 10px}
-@media (max-width:560px){.compra{grid-template-columns:1fr;text-align:center}.compra img{max-width:260px;margin:0 auto}
+@media (max-width:560px){.compra{grid-template-columns:1fr;text-align:center}.capa3d{max-width:230px;margin:0 auto}
  .compra .preco{justify-content:center}.selos{justify-content:center}}
 @media (max-width:560px){.paginas{grid-template-columns:1fr 1fr}.paginas img:nth-child(3){display:none}}
 """
@@ -163,7 +163,7 @@ def pagina_manual() -> str:
  <p class="sub2">O <b>Manual do Investidor</b> te ensina em uma tarde o que o gerente e o assessor não explicam: onde o seu
  dinheiro está, quanto rende de verdade e <b>quem ganha em cima dele</b>. Pra você nunca mais assinar nada no escuro.</p>
  <div class="compra">
-  <img src="produto.webp" alt="E-book Manual do Investidor" width="600" height="500">
+  <div class="capa3d"><img src="mockup.webp" alt="E-book Manual do Investidor" width="705" height="719"></div>
   <div>
    <div class="preco"><b>R$ {PRECO_MANUAL}</b><span>pagamento único</span></div>
    {_botao()}
