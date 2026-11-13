@@ -11,7 +11,9 @@ from . import config, ia
 NOTA_MINIMA = 8  # abaixo disso, o Roteirista reescreve (decisão do Heitor, 07/11/2026)
 CRITERIOS = {
     "persona": "Fala com quem sente a economia no bolso (ou com o iniciante curioso): responde 'isso mexe no meu "
-               "bolso? o que eu faço?'",
+               "bolso? o que eu faço?' e passa no Teste do CLT do manual de marca (quem trabalha em loja, obra ou "
+               "aplicativo entende cada fala de primeira: uma ideia e no máximo um número por fala, sem palavra de RH, "
+               "contador ou banco sem tradução, sem nome de site na fala)",
     "arquetipo": "Sábio com jeito de Cara Comum: verdade com fonte, na língua do dia a dia; nada de Fora da lei, "
                  "Mago ou Governante",
     "temperamentos": "Fala com os quatro: o ponto e o que fazer (colérico), uma comparação viva (sanguíneo), o número "

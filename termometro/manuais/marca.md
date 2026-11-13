@@ -42,6 +42,16 @@
   frase curta, de conversa, como quem explica pro vizinho no portão. "A gente", "seu dinheiro", "tá", "pra",
   "olha só", "sabe aquele...", "na prática", "o que muda pra você". Exemplos da realidade do povo: feira, gasolina,
   boleto, parcela do celular, conta de luz, salário, viagem, 13º. Termo de mercado só se for traduzido na hora.
+- **Teste do CLT** (pedido do Heitor em 13/11/2026, depois do roteiro do 13º: "ficou um pouco difícil pra quem é
+  CLT"). Cada fala tem de ser entendida de primeira por quem trabalha em loja, obra, fábrica ou aplicativo, ouvindo uma
+  vez só, sem voltar o vídeo:
+  - uma ideia e no máximo UM número por fala; número redondo na fala ("uns R$ 1.250"), o exato fica no cartão da tela;
+  - palavra de RH, contador ou banco sempre trocada pela do dia a dia: "valor líquido" → "o que cai na conta";
+    "desconto em folha" → "o que sai do salário"; "dependentes" → "filhos no Imposto de Renda"; "rentabilidade" →
+    "quanto rende"; "CDI", "IPCA", "MED" → explicados na mesma frase ou trocados pelo efeito no bolso;
+  - nome de site ou fonte técnica (iDinheiro, LSEG, consenso) não vai na fala: fica no cartão e na legenda. Na fala,
+    no máximo "segundo o governo", "segundo o Banco Central";
+  - frase na ordem direta, sem parênteses nem ponto e vírgula; se precisa ler duas vezes, reescreva.
 - O que NÃO muda: número com fonte, nada de palavrão, nada de promessa de ganho, nada de "nós contra eles" nem lado
   político. Popular é o jeito de falar, não o conteúdo: continua sem alarde e sem palpite.
 - Humor nunca sobre quem perdeu dinheiro.

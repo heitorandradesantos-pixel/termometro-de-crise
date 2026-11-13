@@ -15,7 +15,8 @@ CRITERIOS = {
     "pagamento": "O gancho é pago rápido (primeira resposta até uns 10 s) e por completo até o fim; nada de isca que o "
                  "corpo não entrega",
     "retencao": "Ritmo: frases curtas, uma ideia por fala, uma virada no meio ('mas tem um detalhe', o número mais "
-                "forte guardado) para segurar quem ia sair; nada de parágrafo explicativo comprido",
+                "forte guardado) para segurar quem ia sair; nada de parágrafo explicativo comprido. Fala difícil de entender de "
+                "primeira (número demais, termo técnico, nome de site) faz a pessoa sair: Teste do CLT do manual de marca",
     "envio": "Motivo para mandar para alguém: um número que a pessoa quer mostrar, uma comparação que vira conversa, "
              "e o pedido de envio para uma situação concreta ('manda pra quem tem...'), não 'manda pro amigo'",
     "conversa": "Puxa comentário ou identificação: a pessoa se reconhece ('se você...'), uma crença comum desmontada "
