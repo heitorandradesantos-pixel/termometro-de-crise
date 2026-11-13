@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { Capa } from "./Capa";
 import { calcularInflacao, MotionInflacao } from "./MotionInflacao";
+import { calcularRotativo, MotionRotativo } from "./MotionRotativo";
 import { calcularCesta, calcularGasolina, MotionCesta, MotionGasolina } from "./MotionComparar";
 import { calcularReel, Reel } from "./Reel";
 import { Camadas } from "./tipos";
@@ -101,6 +102,25 @@ export const RemotionRoot: React.FC = () => {
         fonte: "DIEESE",
         pergunta: "Seu salário acompanhou o mercado?",
         opcoes: ["SIM", "NÃO"] as [string, string],
+      }}
+    />
+    <Composition
+      id="MotionRotativo"
+      component={MotionRotativo}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={1230}
+      calculateMetadata={calcularRotativo}
+      defaultProps={{
+        divida: 1000,
+        jurosAno: 451.7,
+        mesRef: "set/2026",
+        meses: 12,
+        fonte: "Banco Central",
+        pergunta: "Você sabia dessa regra?",
+        opcoes: ["SIM", "NÃO"] as [string, string],
+        rodape: "📘 Passo a passo pra sair do vermelho: link na bio",
       }}
     />
     </>

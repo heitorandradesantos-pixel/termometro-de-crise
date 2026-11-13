@@ -18,13 +18,13 @@ import { CORES, FONTE } from "./tipos";
 // Reels só de motion, sem o Heitor gravar (13/11): "antes x hoje" com dado oficial.
 // Dois moldes: GASOLINA (o tanque/bomba) e CESTA (corrida cesta x salário + relógio de horas de trabalho).
 // Todo número vem dos props, conferido na fonte oficial (ANP, DIEESE); exemplo com hipótese (km/l) é rotulado.
-const EMOJI = "'Noto Color Emoji', sans-serif";
-const clamp = { extrapolateLeft: "clamp" as const, extrapolateRight: "clamp" as const };
-const num = (v: number, c = 0) => v.toLocaleString("pt-BR", { minimumFractionDigits: c, maximumFractionDigits: c });
-const brl = (v: number, c = 0) => "R$ " + num(v, c);
-const VERMELHO = "#FF6B5E";
+export const EMOJI = "'Noto Color Emoji', sans-serif";
+export const clamp = { extrapolateLeft: "clamp" as const, extrapolateRight: "clamp" as const };
+export const num = (v: number, c = 0) => v.toLocaleString("pt-BR", { minimumFractionDigits: c, maximumFractionDigits: c });
+export const brl = (v: number, c = 0) => "R$ " + num(v, c);
+export const VERMELHO = "#FF6B5E";
 
-const Sfx: React.FC<{ arq: string; vol: number; em: number }> = ({ arq, vol, em }) => {
+export const Sfx: React.FC<{ arq: string; vol: number; em: number }> = ({ arq, vol, em }) => {
   const { fps } = useVideoConfig();
   return (
     <Sequence from={Math.max(0, Math.round(em * fps))} layout="none">
@@ -33,7 +33,7 @@ const Sfx: React.FC<{ arq: string; vol: number; em: number }> = ({ arq, vol, em 
   );
 };
 
-const Selo: React.FC = () => (
+export const Selo: React.FC = () => (
   <div style={{ position: "absolute", top: 110, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
     <div style={{ display: "flex", alignItems: "center", gap: 14, background: "rgba(10,14,19,.75)", borderRadius: 999,
       padding: "10px 24px 10px 14px", fontWeight: 800, fontSize: 28, letterSpacing: ".06em", fontFamily: FONTE, color: CORES.texto }}>
@@ -43,7 +43,7 @@ const Selo: React.FC = () => (
   </div>
 );
 
-const Pergunta: React.FC<{ texto: string; opcoes: [string, string] }> = ({ texto, opcoes }) => {
+export const Pergunta: React.FC<{ texto: string; opcoes: [string, string]; rodape?: string }> = ({ texto, opcoes, rodape }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s = spring({ frame, fps, config: { damping: 12 } });
@@ -62,11 +62,15 @@ const Pergunta: React.FC<{ texto: string; opcoes: [string, string] }> = ({ texto
       <div style={{ marginTop: 54, fontWeight: 800, fontSize: 50, color: CORES.apagado }}>
         Comenta aí <span style={{ fontFamily: EMOJI }}>👇</span>
       </div>
+      {rodape ? (
+        <div style={{ marginTop: 70, fontWeight: 800, fontSize: 40, color: CORES.amarelo, border: `3px solid ${CORES.amarelo}`,
+          borderRadius: 24, padding: "16px 30px" }}>{rodape}</div>
+      ) : null}
     </AbsoluteFill>
   );
 };
 
-const Fecho: React.FC = () => (
+export const Fecho: React.FC = () => (
   <>
     <Bordao topo={700} />
     <div style={{ position: "absolute", top: 1250, left: 60, right: 60, textAlign: "center", fontFamily: FONTE, color: CORES.texto }}>
@@ -78,7 +82,7 @@ const Fecho: React.FC = () => (
   </>
 );
 
-const Gancho: React.FC<{ l1: React.ReactNode; l2: string }> = ({ l1, l2 }) => {
+export const Gancho: React.FC<{ l1: React.ReactNode; l2: string }> = ({ l1, l2 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const a = spring({ frame, fps, config: { damping: 13, stiffness: 190 } });
