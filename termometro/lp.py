@@ -1,6 +1,6 @@
 """Funil de venda do "Manual do Investidor", servido pelo próprio site.
 
-/quiz/   : quiz de 7 perguntas contraintuitivas ("o que o gerente não te conta") que termina na página de venda.
+/quiz/   : quiz de 8 perguntas (mais 1 de perfil) contraintuitivas ("o que o gerente não te conta") que termina na página de venda.
 /manual/ : página de venda longa, SEM fugas (sem menu, rodapé ou links pro resto do site): o único caminho é o
            botão de compra (checkout na Kiwify). Pedido do Heitor (13/11/2026) para rodar anúncios.
 
@@ -75,7 +75,6 @@ CSS_LP = """
 .heroi{text-align:center;padding:26px 0 8px}
 .heroi h1{font-size:clamp(34px,7.4vw,56px);font-weight:700}
 .heroi .sub{font-size:20px;color:#C9D3DE;margin:18px auto 22px;max-width:640px}
-.heroi img{width:100%;max-width:520px;border-radius:18px;margin:6px auto 22px;display:block;box-shadow:0 24px 60px rgba(0,0,0,.45)}
 .preco{display:flex;align-items:baseline;justify-content:center;gap:10px;margin:0 0 14px}
 .preco b{font-size:44px;font-family:'Space Grotesk',sans-serif}.preco span{color:#AEBAC7;font-weight:600}
 .miudo{font-size:14px;color:#9AA7B4;text-align:center;margin-top:10px}
@@ -112,6 +111,29 @@ summary{font-weight:700;cursor:pointer}details p{margin:8px 0 0;color:#C9D3DE}
  backdrop-filter:blur(8px);border-top:1px solid rgba(255,255,255,.08);transform:translateY(110%);transition:transform .25s}
 .fixo.on{transform:none}.fixo .botao{font-size:18px;padding:15px}
 body{padding-bottom:84px}
+
+.kicker{display:inline-block;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;letter-spacing:.14em;
+ color:#F2C14E;border:1px solid rgba(242,193,78,.45);border-radius:99px;padding:6px 14px;margin:6px 0 16px}
+.heroi .sub b{color:#fff}
+.extrato{max-width:560px;margin:4px auto 20px;text-align:left;background:#F4F1EA;color:#14181D;border-radius:16px;
+ padding:16px 18px 12px;box-shadow:0 24px 60px rgba(0,0,0,.45);font-size:16px;transform:rotate(-1deg)}
+.ext-topo{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-family:'Space Grotesk',sans-serif;
+ border-bottom:2px solid #14181D;padding-bottom:8px;margin-bottom:4px}
+.ext-topo .tag{font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:#14181D;color:#F4F1EA;border-radius:6px;padding:3px 7px}
+.ext-linha{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed #BFB8A8}
+.ext-linha b{white-space:nowrap;font-family:'Space Grotesk',sans-serif;font-size:19px}
+.extrato .amarelo{color:#B07A00}.extrato .vermelho{color:#C0392B}
+.ext-linha small{color:#6B6458}
+.ext-linha.perda{border:0;font-weight:700}
+.ext-fonte{display:block;font-size:11px;color:#6B6458;margin-top:6px;line-height:1.35}
+.sub2{font-size:18px;color:#C9D3DE;max-width:620px;margin:6px auto 18px}.sub2 b{color:#fff}
+.compra{display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:center;max-width:620px;margin:0 auto;text-align:left}
+.compra img{width:100%;border-radius:12px;margin:0;box-shadow:0 14px 34px rgba(0,0,0,.45)}
+.compra .preco{justify-content:flex-start;margin-bottom:10px}
+.selos{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.selos span{font-size:13px;color:#C9D3DE;background:rgba(255,255,255,.06);
+ border-radius:99px;padding:5px 10px}
+@media (max-width:560px){.compra{grid-template-columns:1fr;text-align:center}.compra img{max-width:260px;margin:0 auto}
+ .compra .preco{justify-content:center}.selos{justify-content:center}}
 @media (max-width:560px){.paginas{grid-template-columns:1fr 1fr}.paginas img:nth-child(3){display:none}}
 """
 
@@ -122,17 +144,32 @@ def _botao(texto: str = f"Quero o Manual por R$ {PRECO_MANUAL}") -> str:
 
 def pagina_manual() -> str:
     corpo = f"""<body>
-<div class="topo-alerta">Conteúdo educativo. Ninguém aqui vai te dizer onde investir.</div>
+<div class="topo-alerta">⚠️ Se você já assinou alguma coisa no banco sem entender direito, leia até o fim.</div>
 <div class="marca">{SIMBOLO}TERMÔMETRO DE CRISE</div>
 <main class="lp">
 <section class="heroi">
- <h1>O sistema <span class="vermelho">ganha</span> quando você não entende.<br><span class="amarelo">Por isso ninguém te explica.</span></h1>
- <p class="sub">Em 20 páginas, você aprende o que o gerente não tem tempo (nem interesse) de te contar: onde o seu dinheiro está,
- quanto ele rende de verdade e quem ganha em cima dele.</p>
- <img src="produto.webp" alt="E-book Manual do Investidor" width="600" height="500">
- <div class="preco"><b>R$ {PRECO_MANUAL}</b><span>pagamento único</span></div>
- {_botao()}
- <p class="miudo">Pix, cartão ou boleto · acesso imediato · 7 dias de garantia</p>
+ <div class="kicker" id="kicker">CARTA ABERTA A QUEM GUARDA DINHEIRO NO BANCO</div>
+ <h1>Já saiu do banco achando que fez um bom negócio… <span class="amarelo">e depois descobriu que não?</span></h1>
+ <p class="sub">Não foi burrice. Foi falta de informação. E do outro lado do balcão tem gente que <b>ganha</b> com ela:
+ o mesmo banco que te paga <b>8% ao ano</b> na poupança cobra até <b class="vermelho">451% ao ano</b> no rotativo do cartão.</p>
+ <div class="extrato" aria-label="Comparação de rendimento">
+  <div class="ext-topo"><span>R$ 10 mil guardados por 1 ano</span><span class="tag">simulação</span></div>
+  <div class="ext-linha"><span>🏦 Na poupança</span><b>+ R$ 834</b></div>
+  <div class="ext-linha"><span>📄 Num CDB a 100% do CDI <small>(já sem o IR)</small></span><b class="amarelo">+ R$ 1.126</b></div>
+  <div class="ext-linha perda"><span>Deixou na mesa, só por não saber</span><b class="vermelho">− R$ 292</b></div>
+  <small class="ext-fonte">Selic 13,75% (Copom, 04/11/2026). Rotativo: média de 451,7% ao ano em set/2026 (Banco Central).
+  Não é promessa de rendimento.</small>
+ </div>
+ <p class="sub2">O <b>Manual do Investidor</b> te ensina em uma tarde o que o gerente e o assessor não explicam: onde o seu
+ dinheiro está, quanto rende de verdade e <b>quem ganha em cima dele</b>. Pra você nunca mais assinar nada no escuro.</p>
+ <div class="compra">
+  <img src="produto.webp" alt="E-book Manual do Investidor" width="600" height="500">
+  <div>
+   <div class="preco"><b>R$ {PRECO_MANUAL}</b><span>pagamento único</span></div>
+   {_botao()}
+   <div class="selos"><span>📘 20 páginas</span><span>⏱ 1 tarde de leitura</span><span>🛡 7 dias de garantia</span></div>
+  </div>
+ </div>
 </section>
 
 <section class="carta">
@@ -142,14 +179,15 @@ pessoa na mesa que você não vê: <b>a meta do mês</b>.</p>
 <p>Gerente de banco é vendedor. Na maioria das vezes, um vendedor honesto, mas que tem metas de produto pra bater. E os produtos
 que mais aparecem na sua frente nem sempre são os que mais rendem pra você. Muitas vezes são os que mais rendem <b>pra quem
 vende</b>.</p>
-<p>O mesmo vale pro "especialista" do Instagram que promete 5% ao mês, pro aplicativo que te empurra o cartão com limite novo
+<p>O mesmo vale pro assessor que liga com "uma oportunidade exclusiva", pro "especialista" do Instagram que promete 5% ao mês, pro aplicativo que te empurra o cartão com limite novo
 e pro contrato de 14 páginas que ninguém lê.</p>
 <p><b>O inimigo não é uma pessoa.</b> É um sistema inteiro que lucra com a sua confusão. E ele tem três caras:</p>
 <div class="inimigos">
  <div class="inimigo"><h3>1. O produto com letra miúda</h3><p>Título de capitalização vendido como "investimento". Previdência com
  taxa que come o rendimento. CDB pagando bem menos que o CDI quando existe opção melhor no mesmo banco.</p></div>
- <div class="inimigo"><h3>2. A meta que não é sua</h3><p>"Esse aqui é o melhor pra você." Será? Quem te ofereceu ganha comissão ou
- bate meta com isso? Você nunca pergunta, porque não sabe que pode.</p></div>
+ <div class="inimigo"><h3>2. A comissão que você não vê</h3><p>"Esse aqui é o melhor pra você." Será? Gerente tem meta. Assessor
+ pode ganhar por produto vendido. A regra da CVM obriga quem distribui investimento a mostrar quanto ganha com ele. Você já
+ perguntou? Quase ninguém pergunta, porque não sabe que pode.</p></div>
  <div class="inimigo"><h3>3. A promessa boa demais</h3><p>Rendimento "garantido" de 3%, 5%, 10% ao mês. Robô de trader. "Chama mais
  gente e ganha bônus." É assim que o golpe começa, e ele pega gente esperta.</p></div>
 </div>
@@ -224,6 +262,9 @@ Planilha do Investidor, o Kit Anti-Golpe e o Guia Sair do Vermelho. O Manual fun
 {_legal()}
 <div class="fixo" id="fixo">{_botao(f"Quero o Manual · R$ {PRECO_MANUAL}")}</div>
 <script>
+(function(){{try{{var q=new URLSearchParams(location.search),e=parseInt(q.get('erros'),10);
+ if(q.get('origem')==='quiz'&&e>=0){{var k=document.getElementById('kicker');
+ var tt=parseInt(q.get('total'),10)||8;k.textContent=e>0?('VOCÊ CAIU EM '+e+' DE '+tt+' NO TESTE. É EXATAMENTE AÍ QUE O SISTEMA GANHA.'):'VOCÊ GABARITOU O TESTE. AGORA AJUDE QUEM ESTÁ PERTO.';}}}}catch(x){{}}}})();
 (function(){{var f=document.getElementById('fixo'),h=document.querySelector('.heroi');
  function v(){{try{{f.classList.toggle('on',h.getBoundingClientRect().bottom<0)}}catch(e){{}}}}
  window.addEventListener('scroll',v,{{passive:true}});v();}})();
@@ -236,110 +277,168 @@ Planilha do Investidor, o Kit Anti-Golpe e o Guia Sair do Vermelho. O Manual fun
 
 # ===================================================================================== QUIZ
 PERGUNTAS = [
-    {"p": "A poupança é o investimento mais seguro do Brasil.", "certa": False,
-     "e": "Não. O Tesouro Direto é garantido pelo Tesouro Nacional, considerado o menor risco do país. A poupança tem a "
+    {"p": "A poupança é o investimento mais seguro do Brasil.", "certa": False, "tema": "Poupança × Tesouro",
+     "e": "Mito. O Tesouro Direto é garantido pelo Tesouro Nacional, considerado o menor risco do país. A poupança tem a "
           "garantia do FGC (até R$ 250 mil por banco). E hoje ela rende bem menos que o Tesouro Selic."},
-    {"p": "Se o gerente ofereceu, é porque é o melhor pra você.", "certa": False,
-     "e": "Gerente de banco é vendedor e costuma ter metas de produtos. Pode ser um ótimo produto, ou só o que ajuda a bater "
-          "a meta. Quem decide é quem entende."},
-    {"p": "Título de capitalização é um tipo de investimento.", "certa": False,
-     "e": "Não é. A própria Susep, que fiscaliza o setor, diz que capitalização não é investimento. É um sorteio com "
+    {"p": "Se o gerente ofereceu, é porque é o melhor pra você.", "certa": False, "tema": "Metas do banco",
+     "e": "Mito. Gerente de banco é vendedor e costuma ter metas de produtos. Pode ser um ótimo produto, ou só o que ajuda a "
+          "bater a meta do mês. Quem decide bem é quem entende."},
+    {"p": "Se o assessor diz que o produto não tem taxa, ele não ganha nada com isso.", "certa": False, "tema": "Comissões",
+     "e": "Mito. Em muitos produtos, quem distribui é remunerado pelo emissor ou pela diferença de taxa, mesmo sem cobrar "
+          "nada direto de você. Por isso a CVM obriga a mostrar essa remuneração. Pergunte sempre."},
+    {"p": "Título de capitalização é um tipo de investimento.", "certa": False, "tema": "Capitalização",
+     "e": "Mito. A própria Susep, que fiscaliza o setor, diz que capitalização não é investimento. É um sorteio com "
           "devolução, e você pode receber menos do que pagou se resgatar antes."},
     {"p": "Hoje, um CDB que paga 100% do CDI rende mais que a poupança, mesmo pagando Imposto de Renda.", "certa": True,
+     "tema": "CDB e CDI",
      "e": "Verdade. Com a Selic em 13,75%, R$ 10 mil por 1 ano rendem cerca de R$ 1.126 líquidos no CDB contra R$ 834 na "
-          "poupança. Com o FGC protegendo os dois."},
-    {"p": "O FGC protege qualquer dinheiro que você coloca no banco.", "certa": False,
-     "e": "Não. Ele cobre poupança, CDB, LCI e LCA até R$ 250 mil por CPF em cada instituição. Não cobre ações, fundos, "
+          "poupança. E o FGC protege os dois."},
+    {"p": "O FGC protege qualquer dinheiro que você coloca no banco.", "certa": False, "tema": "FGC",
+     "e": "Mito. Ele cobre poupança, CDB, LCI e LCA até R$ 250 mil por CPF em cada instituição. Não cobre ações, fundos, "
           "previdência nem capitalização."},
-    {"p": "Previdência privada sempre vale a pena pra quem é CLT.", "certa": False,
-     "e": "Depende. Taxa de administração alta pode comer o rendimento, e o benefício do PGBL no Imposto de Renda só vale "
-          "pra quem faz a declaração completa."},
-    {"p": "Existe investimento sério com rendimento garantido de 5% ao mês.", "certa": False,
-     "e": "Não existe. 5% ao mês dá quase 80% ao ano, mais de 5 vezes a Selic. Promessa assim é o sinal número 1 de golpe "
-          "ou pirâmide."},
+    {"p": "Previdência privada sempre vale a pena pra quem é CLT.", "certa": False, "tema": "Previdência",
+     "e": "Mito. Depende. Taxa de administração alta pode comer o rendimento, e o benefício do PGBL no Imposto de Renda só "
+          "vale pra quem faz a declaração completa."},
+    {"p": "Existe investimento sério com rendimento garantido de 5% ao mês.", "certa": False, "tema": "Golpes",
+     "e": "Mito. 5% ao mês dá quase 80% ao ano, mais de 5 vezes a Selic. Promessa assim é o sinal número 1 de golpe ou "
+          "pirâmide."},
+]
+
+PERFIS = [
+    {"r": "Na poupança", "m": "Seu dinheiro está no lugar que a maioria escolhe por costume, não por conta. Com R$ 20 mil, a "
+     "diferença pra um CDB a 100% do CDI passa de R$ 580 por ano."},
+    {"r": "Parado na conta corrente", "m": "Dinheiro parado na conta corrente não rende nada e a inflação come um pedaço todo mês. "
+     "É o cenário que mais custa."},
+    {"r": "Em CDB, Tesouro ou outros", "m": "Você já saiu do básico. O risco agora é a taxa escondida, a comissão que você não vê "
+     "e o produto que parece bom mas não é pra você."},
+    {"r": "Não tenho nada guardado", "m": "O primeiro passo não é investir: é sair da dívida cara e montar uma reserva. O Manual "
+     "começa exatamente por aí."},
 ]
 
 CSS_QUIZ = """
-.q{max-width:640px;margin:0 auto;padding:0 18px 30px;min-height:calc(100vh - 60px);display:flex;flex-direction:column}
-.abre{text-align:center;padding:30px 0 10px}
+.q{max-width:640px;margin:0 auto;padding:0 18px 30px}
+.abre{text-align:center;padding:24px 0 10px}
+.abre .kicker{display:inline-block;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:12px;letter-spacing:.14em;color:#FF6B5E;
+ border:1px solid rgba(255,107,94,.5);border-radius:99px;padding:6px 12px;margin-bottom:14px}
 .abre h1{font-size:clamp(32px,7.6vw,50px)}
-.abre p{font-size:19px;color:#C9D3DE;margin:16px 0 26px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 26px}
+.abre p{font-size:19px;color:#C9D3DE;margin:16px 0 22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 24px}
 .chips span{background:rgba(255,255,255,.07);border-radius:99px;padding:6px 12px;font-size:14px;color:#C9D3DE}
-.barra{height:8px;border-radius:99px;background:rgba(255,255,255,.08);overflow:hidden;margin:18px 0 22px}
+.topo-jogo{display:flex;align-items:center;gap:14px;margin:14px 0 18px}
+.barra{flex:1;height:8px;border-radius:99px;background:rgba(255,255,255,.08);overflow:hidden}
 .barra i{display:block;height:100%;width:0;background:#F2C14E;transition:width .35s}
+.termo{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#C9D3DE;white-space:nowrap}
+.termo .bulbo{width:74px;height:12px;border-radius:99px;background:linear-gradient(90deg,#3B82C4,#7CC3E0,#F2C14E,#EE8A3C,#E5554A);
+ position:relative;overflow:hidden}
+.termo .bulbo i{position:absolute;right:0;top:0;bottom:0;background:#1A222C;transition:width .4s}
 .num{font-size:14px;color:#9AA7B4;font-weight:600;letter-spacing:.08em}
-.pergunta{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,6vw,34px);line-height:1.15;margin:10px 0 26px}
+.pergunta{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,6vw,34px);line-height:1.15;margin:10px 0 24px}
 .opcoes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.op{font:inherit;font-weight:800;font-size:20px;padding:22px 10px;border-radius:16px;border:2px solid rgba(255,255,255,.14);
- background:rgba(255,255,255,.05);color:#EEF2F5;cursor:pointer;font-family:'Space Grotesk',sans-serif}
+.opcoes.lista{grid-template-columns:1fr}
+.op{font:inherit;font-weight:800;font-size:20px;padding:20px 12px;border-radius:16px;border:2px solid rgba(255,255,255,.14);
+ background:rgba(255,255,255,.05);color:#EEF2F5;cursor:pointer;font-family:'Space Grotesk',sans-serif;transition:transform .1s}
+.op:active{transform:scale(.98)}
 .op:hover{border-color:#F2C14E}
-.op.certo{background:#173A2A;border-color:#4CC38A}.op.errado{background:#3A1414;border-color:#FF6B5E}
-.resp{margin-top:18px;border-radius:16px;padding:16px 18px;background:#121A22;display:none}
+.op.certo{background:#173A2A;border-color:#4CC38A}.op.errado{background:#3A1414;border-color:#FF6B5E;animation:treme .35s}
+@keyframes treme{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.resp{margin-top:16px;border-radius:16px;padding:16px 18px;background:#121A22;display:none}
 .resp b{display:block;font-family:'Space Grotesk',sans-serif;font-size:20px;margin-bottom:6px}
-.resp.on{display:block}
+.resp.on{display:block;animation:sobe .3s}
+@keyframes sobe{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .prox{margin-top:16px;display:none}.prox.on{display:block}
-.fim{text-align:center;display:none;padding-top:16px}.fim.on{display:block}
-.nota{font-family:'Space Grotesk',sans-serif;font-size:96px;font-weight:700;line-height:1;margin:10px 0}
-.fim h2{font-size:clamp(26px,6vw,36px);margin:8px 0 14px}
-.fim p{color:#C9D3DE;margin:0 0 22px}
+.fim{text-align:center;display:none;padding-top:10px}.fim.on{display:block;animation:sobe .4s}
+.nota{font-family:'Space Grotesk',sans-serif;font-size:92px;font-weight:700;line-height:1;margin:6px 0}
+.fim h2{font-size:clamp(26px,6vw,36px);margin:8px 0 12px}
+.fim p{color:#C9D3DE;margin:0 0 16px}
+.temp{height:16px;border-radius:99px;background:linear-gradient(90deg,#3B82C4,#7CC3E0,#F2C14E,#EE8A3C,#E5554A);position:relative;margin:14px 0 6px}
+.temp i{position:absolute;top:-6px;width:6px;height:28px;border-radius:4px;background:#fff;box-shadow:0 0 0 3px #0B0F14;transform:translateX(-50%)}
+.temp-rot{display:flex;justify-content:space-between;font-size:12px;color:#8796A5;margin-bottom:18px}
+.furos{text-align:left;background:#121A22;border-radius:16px;padding:16px 18px;margin:0 0 16px}
+.furos b{font-family:'Space Grotesk',sans-serif}
+.furos ul{margin:8px 0 0;padding-left:20px}.furos li{margin:4px 0;color:#FFD9D4}
+.perfil{text-align:left;border-left:4px solid #F2C14E;background:rgba(242,193,78,.08);border-radius:10px;padding:12px 14px;margin:0 0 20px;
+ color:#EEF2F5;font-size:17px}
+.refazer{background:none;border:0;color:#8796A5;text-decoration:underline;font:inherit;font-size:14px;margin-top:14px;cursor:pointer}
 """
 
 
 def pagina_quiz() -> str:
     dados = json.dumps(PERGUNTAS, ensure_ascii=False)
+    perfis = json.dumps(PERFIS, ensure_ascii=False)
+    n = len(PERGUNTAS)
     corpo = f"""<body>
 <div class="marca">{SIMBOLO}TERMÔMETRO DE CRISE</div>
 <main class="q">
 <section class="abre" id="abre">
- <h1>Cansado de assinar coisa no banco <span class="amarelo">sem entender?</span></h1>
- <p>7 perguntas rápidas que o gerente não faz questão de te explicar. Veja quanto do seu dinheiro está no escuro.</p>
+ <div class="kicker">TESTE DE 1 MINUTO</div>
+ <h1>Seu gerente torce pra você <span class="vermelho">errar</span> estas {n} perguntas.</h1>
+ <p>Gerente tem meta. Assessor tem comissão. E quem não entende, paga. Descubra quanto do seu dinheiro está no escuro.</p>
  <div class="chips"><span>⏱ 1 minuto</span><span>🔒 sem cadastro</span><span>✅ resposta na hora</span></div>
- <button class="botao" id="comecar">Começar o teste</button>
+ <button class="botao" id="comecar">Fazer o teste agora</button>
 </section>
 <section id="jogo" style="display:none">
- <div class="barra"><i id="progresso"></i></div>
+ <div class="topo-jogo"><div class="barra"><i id="progresso"></i></div>
+  <div class="termo">🌡️ seu bolso <span class="bulbo"><i id="calor" style="width:100%"></i></span></div></div>
  <div class="num" id="num"></div>
  <div class="pergunta" id="pergunta"></div>
- <div class="opcoes"><button class="op" data-v="1">VERDADE</button><button class="op" data-v="0">MITO</button></div>
+ <div class="opcoes" id="opcoes"></div>
  <div class="resp" id="resp"><b id="veredito"></b><span id="explica"></span></div>
  <div class="prox" id="prox"><button class="botao" id="seguir">Próxima</button></div>
 </section>
 <section class="fim" id="fim">
  <div class="num">SEU RESULTADO</div>
- <div class="nota"><span id="acertos"></span><span style="font-size:44px;color:#9AA7B4">/7</span></div>
+ <div class="nota"><span id="acertos"></span><span style="font-size:42px;color:#9AA7B4">/{n}</span></div>
+ <div class="temp"><i id="ponteiro"></i></div>
+ <div class="temp-rot"><span>bolso protegido</span><span>bolso pegando fogo</span></div>
  <h2 id="titulo-fim"></h2>
  <p id="texto-fim"></p>
- <a class="botao" href="../manual/?origem=quiz">Quero entender o meu dinheiro</a>
- <p style="font-size:13px;color:#8796A5;margin-top:12px">Conteúdo educativo. Não é recomendação de investimento.</p>
+ <div class="furos" id="furos"><b>Os furos no seu bolso:</b><ul id="lista-furos"></ul></div>
+ <div class="perfil" id="perfil"></div>
+ <a class="botao" id="cta" href="../manual/?origem=quiz">Quero tapar esses furos</a>
+ <p style="font-size:13px;color:#8796A5;margin-top:12px">Manual do Investidor · R$ {PRECO_MANUAL} · 7 dias de garantia</p>
+ <button class="refazer" id="refazer">Refazer o teste</button>
 </section>
 </main>
 {_legal()}
 <script>
 (function(){{
-var P={dados},i=0,ok=0,respondeu=false,$=function(x){{return document.getElementById(x)}};
-function mostra(){{respondeu=false;$('num').textContent='PERGUNTA '+(i+1)+' DE '+P.length;$('pergunta').textContent=P[i].p;
- $('progresso').style.width=(i/P.length*100)+'%';$('resp').className='resp';$('prox').className='prox';
- document.querySelectorAll('.op').forEach(function(b){{b.className='op';b.disabled=false}});}}
-$('comecar').onclick=function(){{$('abre').style.display='none';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
-document.querySelectorAll('.op').forEach(function(b){{b.onclick=function(){{if(respondeu)return;respondeu=true;
- var v=b.getAttribute('data-v')==='1',certo=v===P[i].certa;if(certo)ok++;
- document.querySelectorAll('.op').forEach(function(o){{o.disabled=true;if((o.getAttribute('data-v')==='1')===P[i].certa)o.classList.add('certo')}});
- if(!certo)b.classList.add('errado');
- $('veredito').textContent=certo?'Acertou.':'Muita gente erra essa.';$('veredito').style.color=certo?'#4CC38A':'#FF6B5E';
+var P={dados},PF={perfis},i=-1,ok=0,perfil=null,respondeu=false,erros=[],$=function(x){{return document.getElementById(x)}};
+function calor(){{var e=erros.length;$('calor').style.width=Math.max(0,100-(e/P.length)*100-8)+'%';}}
+function botoes(lista,cls){{var o=$('opcoes');o.className='opcoes'+(cls?' '+cls:'');o.innerHTML='';
+ lista.forEach(function(t,k){{var b=document.createElement('button');b.className='op';b.textContent=t;b.onclick=function(){{clique(k,b)}};o.appendChild(b)}});}}
+function mostra(){{respondeu=false;$('resp').className='resp';$('prox').className='prox';
+ if(i<0){{$('num').textContent='ANTES DE COMEÇAR';$('pergunta').textContent='Onde está a maior parte do seu dinheiro hoje?';
+  botoes(PF.map(function(x){{return x.r}}),'lista');$('progresso').style.width='0%';return}}
+ $('num').textContent='PERGUNTA '+(i+1)+' DE '+P.length;$('pergunta').textContent=P[i].p;
+ $('progresso').style.width=(i/P.length*100)+'%';botoes(['VERDADE','MITO']);}}
+function clique(k,b){{if(respondeu)return;
+ if(i<0){{perfil=PF[k];i=0;mostra();return}}
+ respondeu=true;var v=k===0,certo=v===P[i].certa;if(certo)ok++;else erros.push(P[i].tema);calor();
+ var bs=document.querySelectorAll('.op');bs.forEach(function(o,n){{o.disabled=true;if((n===0)===P[i].certa)o.classList.add('certo')}});
+ if(!certo){{b.classList.add('errado');try{{navigator.vibrate&&navigator.vibrate(60)}}catch(x){{}}}}
+ $('veredito').textContent=certo?'Acertou. ✅':'Caiu nessa. 🔥';$('veredito').style.color=certo?'#4CC38A':'#FF6B5E';
  $('explica').textContent=P[i].e;$('resp').className='resp on';$('prox').className='prox on';
- $('seguir').textContent=i<P.length-1?'Próxima':'Ver meu resultado';}}}});
-$('seguir').onclick=function(){{i++;if(i<P.length){{mostra();window.scrollTo(0,0);return}}
- $('progresso').style.width='100%';$('jogo').style.display='none';$('fim').className='fim on';$('acertos').textContent=ok;
- var t,x;if(ok<=3){{t='Seu dinheiro está no escuro.';x='Você errou '+(7-ok)+' de 7. São exatamente os pontos onde o sistema ganha em cima de quem não sabe. Dá pra virar isso em uma tarde.'}}
- else if(ok<=5){{t='Você sabe mais que a média, mas ainda tem buraco.';x='Errou '+(7-ok)+' de 7. Um desses erros pode estar custando dinheiro todo mês sem você perceber.'}}
- else{{t='Mandou bem.';x='Você está à frente da maioria. O Manual organiza o resto e serve pra você ajudar quem está perto.'}}
- $('titulo-fim').textContent=t;$('texto-fim').textContent=x;window.scrollTo(0,0);}};
+ $('seguir').textContent=i<P.length-1?'Próxima':'Ver meu resultado';}}
+$('comecar').onclick=function(){{$('abre').style.display='none';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
+$('seguir').onclick=function(){{i++;if(i<P.length){{mostra();window.scrollTo(0,0);return}}fim()}};
+function fim(){{$('progresso').style.width='100%';$('jogo').style.display='none';$('fim').className='fim on';
+ var e=P.length-ok;$('acertos').textContent=ok;$('ponteiro').style.left=Math.min(96,Math.max(4,e/P.length*100))+'%';
+ var t,x;if(e>=4){{t='Seu bolso está pegando fogo.';x='Você caiu em '+e+' de '+P.length+'. São exatamente os pontos onde o sistema ganha em cima de quem não sabe.'}}
+ else if(e>=2){{t='Você sabe mais que a média. Mas tem furo.';x='Caiu em '+e+' de '+P.length+'. Um furo desses pode estar custando dinheiro todo mês sem você perceber.'}}
+ else if(e===1){{t='Quase lá.';x='Só 1 furo. Mas é justamente o que alguém do outro lado do balcão adoraria que você não soubesse.'}}
+ else{{t='Gabaritou. 🏆';x='Você está à frente da maioria. Agora use isso pra proteger quem está perto: pais, avós, parceiro.'}}
+ $('titulo-fim').textContent=t;$('texto-fim').textContent=x;
+ var l=$('lista-furos');l.innerHTML='';erros.forEach(function(z){{var li=document.createElement('li');li.textContent=z;l.appendChild(li)}});
+ $('furos').style.display=erros.length?'block':'none';
+ $('perfil').textContent=perfil?perfil.m:'';$('perfil').style.display=perfil?'block':'none';
+ $('cta').textContent=e?'Quero tapar esses furos':'Quero o Manual pra ajudar minha família';
+ $('cta').href='../manual/?origem=quiz&erros='+e+'&total='+P.length;window.scrollTo(0,0);}}
+$('refazer').onclick=function(){{i=-1;ok=0;erros=[];perfil=null;calor();$('fim').className='fim';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
 }})();
 </script>
 </body></html>"""
     return _cabeca(f"Teste: o que o gerente não te conta · {config.NOME}",
-                   "7 perguntas rápidas sobre poupança, CDB, FGC, previdência e golpes. Descubra quanto do seu dinheiro está "
+                   f"{n} perguntas rápidas sobre poupança, CDB, FGC, comissões e golpes. Descubra quanto do seu dinheiro está "
                    "no escuro.", "quiz/", CSS_QUIZ) + corpo
 
 
