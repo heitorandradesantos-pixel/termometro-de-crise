@@ -31,8 +31,8 @@ export type DadosInflacao = {
 };
 
 const EMOJI = "'Noto Color Emoji', sans-serif";
-const POR_ANO = 0.95;
-const INICIO_ANOS = 3.1;
+const POR_ANO = 1.9;
+const INICIO_ANOS = 4.0;
 const brl = (v: number, casas = 0) =>
   "R$ " + v.toLocaleString("pt-BR", { minimumFractionDigits: casas, maximumFractionDigits: casas });
 const pct = (v: number) => v.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
@@ -40,10 +40,10 @@ const clamp = { extrapolateLeft: "clamp" as const, extrapolateRight: "clamp" as 
 
 export const tempos = (d: DadosInflacao) => {
   const fimAnos = INICIO_ANOS + d.anos.length * POR_ANO;
-  const revela = fimAnos + 0.35;
-  const pergunta = revela + 4.4;
-  const bordao = pergunta + 3.0;
-  const total = bordao + 3.2;
+  const revela = fimAnos + 0.6;
+  const pergunta = revela + 7.5;
+  const bordao = pergunta + 4.5;
+  const total = bordao + 3.8;
   return { fimAnos, revela, pergunta, bordao, total };
 };
 
@@ -152,7 +152,7 @@ export const MotionInflacao: React.FC<DadosInflacao> = (d) => {
 
   // fator contínuo: dentro de cada ano, a inflação daquele ano entra aos poucos (a nota queima sem saltos)
   const k = Math.floor((t - INICIO_ANOS) / POR_ANO);
-  const progresso = interpolate((t - INICIO_ANOS) % POR_ANO, [0, POR_ANO * 0.7], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const progresso = interpolate((t - INICIO_ANOS) % POR_ANO, [0, POR_ANO * 0.6], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const fator =
     t < INICIO_ANOS ? 1 : k >= d.anos.length ? fatorFinal : (k ? fatores[k - 1] : 1) * Math.pow(1 + d.anos[k].taxa / 100, progresso);
   const anoIdx = t < INICIO_ANOS ? -1 : Math.min(k, d.anos.length - 1);
@@ -174,7 +174,7 @@ export const MotionInflacao: React.FC<DadosInflacao> = (d) => {
   const fundo = interpolateColors(calor, [0, 0.5, 1], ["#132230", "#2A2232", "#3A1414"]);
   const principal = t < T.revela;
   const g1 = spring({ frame, fps, config: { damping: 13, stiffness: 190 } });
-  const g2 = spring({ frame: frame - 14, fps, config: { damping: 13, stiffness: 190 } });
+  const g2 = spring({ frame: frame - 30, fps, config: { damping: 13, stiffness: 190 } });
 
   return (
     <AbsoluteFill style={{ fontFamily: FONTE, color: CORES.texto, overflow: "hidden" }}>
@@ -356,9 +356,9 @@ const Revela: React.FC<{ fator: number; anoBase: number; fonte: string; ultimo: 
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const a = spring({ frame, fps, config: { damping: 14 } });
-  const conta = interpolate(frame, [10, 34], [100, 100 * fator], { ...clamp, easing: Easing.out(Easing.cubic) });
-  const b = spring({ frame: frame - 16, fps, config: { damping: 9, stiffness: 160 } });
-  const c = spring({ frame: frame - 40, fps, config: { damping: 14 } });
+  const conta = interpolate(frame, [20, 80], [100, 100 * fator], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const b = spring({ frame: frame - 30, fps, config: { damping: 9, stiffness: 160 } });
+  const c = spring({ frame: frame - 100, fps, config: { damping: 14 } });
   const ate = ultimo.replace(/^(\d{4}) \(até (\w+)\)$/, "$2 de $1");
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", textAlign: "center", padding: "0 60px",
