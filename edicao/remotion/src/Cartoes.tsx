@@ -1,5 +1,6 @@
 import { Som } from "./Som";
 import { Easing, interpolate, Sequence, useCurrentFrame, useVideoConfig } from "remotion";
+import { GraficoNoCartao, Manchete } from "./Graficos";
 import { Cartao, CORES, FONTE } from "./tipos";
 
 // Número em formato brasileiro (1.234,56) dentro do destaque: conta de zero até o valor, como um placar.
@@ -99,6 +100,7 @@ const CartaoAnimado: React.FC<{ cartao: Cartao; duracao: number }> = ({ cartao, 
             ),
           )}
         </div>
+        {cartao.grafico ? <GraficoNoCartao g={cartao.grafico} /> : null}
         {cartao.fonte ? (
           <div style={{ marginTop: 12, fontWeight: 600, fontSize: 30, color: CORES.apagado }}>{cartao.fonte}</div>
         ) : null}
@@ -117,7 +119,11 @@ export const Cartoes: React.FC<{ cartoes: Cartao[]; total: number; sons?: boolea
         const dur = Math.max(fim - ini, Math.round(0.3 * fps));
         return (
           <Sequence key={i} name={`Cartão ${i + 1}`} from={ini} durationInFrames={dur} layout="none">
-            <CartaoAnimado cartao={c} duracao={dur} />
+            {c.grafico?.tipo === "manchete" ? (
+              <Manchete g={c.grafico} duracao={dur} />
+            ) : (
+              <CartaoAnimado cartao={c} duracao={dur} />
+            )}
             {sons && ini > 0 ? <Som som="cartao" /> : null}
           </Sequence>
         );

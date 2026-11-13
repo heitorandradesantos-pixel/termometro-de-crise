@@ -258,7 +258,8 @@ def imagens() -> list[Path]:
     pasta = AQUI / "cartoes"
     pasta.mkdir(exist_ok=True)
     paginas = []
-    for i, (_, _, texto, fonte, *cor) in enumerate(CARTOES):
+    for i, (_, _, texto, fonte, *resto) in enumerate(CARTOES):
+        cor = [x for x in resto if isinstance(x, str)]  # o gráfico (dict) só existe no motor da Remotion
         estilo = f' style="color:{cor[0]}"' if cor else ""
         t = re.sub(r"\*(.+?)\*", rf"<em{estilo}>\1</em>", h.escape(texto))
         corpo = f'<div class="c"><div class="t">{t}</div>' + (f'<div class="f">{h.escape(fonte)}</div>' if fonte else "") + "</div>"
@@ -329,7 +330,8 @@ def montar_remotion(junto: Path, manter, novo, total: float) -> None:
                                     "destaque": bool(DESTAQUES.search(w[2]))} for w in bloco]}
                      for a, b, bloco in blocos_legenda(manter, novo)],
         "cartoes": [{"ini": round(novo(ini + ATRASO), 3), "fim": round(min(novo(fim + ATRASO), total), 3), "texto": texto,
-                     "fonte": fonte, "cor": (cor[0] if cor else None)} for ini, fim, texto, fonte, *cor in CARTOES],
+                     "fonte": fonte, "cor": next((x for x in resto if isinstance(x, str)), None),
+                     "grafico": next((x for x in resto if isinstance(x, dict)), None)} for ini, fim, texto, fonte, *resto in CARTOES],
         "bordao": ({"ini": round(novo(BORDAO[0] + ATRASO), 3), "fim": round(min(novo(BORDAO[1] + ATRASO), total), 3)}
                    if BORDAO else None),
     }

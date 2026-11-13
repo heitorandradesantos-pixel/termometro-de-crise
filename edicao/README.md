@@ -42,6 +42,16 @@ mundo." vem no fim, antes do bordão. Não há mais teste com e sem apresentaç�
   Feitos em código com o earshot (github.com/Leonxlnx/earshot, MIT): `earshot sfx render pro_pop_in/round -o cartao.wav --peak -3`.
 - Volume baixo (0,28 a 0,32) para não brigar com a voz. `"sons": false` no config.json desliga.
 
+## Gráficos e recortes nos cartões (a partir de 13/11)
+Pedido do Heitor: "mostrar em gráficos essas alterações de um para o outro, em dados reais". Um cartão pode levar um
+objeto a mais no fim: `[ini, fim, "texto *destaque*", "Fonte: ...", {gráfico}]`. Tipos (edicao/remotion/src/Graficos.tsx):
+- `{"tipo":"barras","itens":[{"rotulo":"Antes","valor":30,"texto":"30%"}, ...]}`: antes x depois, a última em amarelo;
+- `{"tipo":"variacao","de":"R$ 1.500","para":"R$ 1.251","delta":"R$ 249","sobe":false}`: o número riscado e o novo;
+- `{"tipo":"linha","pontos":[{"rotulo":"Antes","valor":1000,"texto":"R$ 1.000"}, ...]}`: a trajetória;
+- `{"tipo":"manchete","veiculo":"Agência Brasil","titulo":"...","data":"set/2026"}`: recorte de jornal no lugar do
+  cartão. Só com o TÍTULO REAL da matéria (conferido), com o veículo escrito: é citação, não imitação.
+Só números do roteiro conferido: gráfico nunca usa número que não está na fonte.
+
 ## Fluxo completo (revisado na retrospectiva de 12/11)
 1. **Chegam os vídeos** → copie cada um para `pasta/vN/original.mov`.
 2. **Transcrever todos de uma vez:** `edicao/ferramentas/transcrever.sh -p "nomes próprios" pasta/v1 pasta/v2 ...`

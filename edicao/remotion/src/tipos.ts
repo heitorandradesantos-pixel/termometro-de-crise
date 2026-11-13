@@ -1,7 +1,8 @@
 // O que o editar_reel.py entrega para a Remotion (camadas.json). Tempos em segundos, já na linha do tempo do vídeo editado.
 export type Palavra = { ini: number; fim: number; texto: string; destaque: boolean };
 export type Bloco = { ini: number; fim: number; palavras: Palavra[] };
-export type Cartao = { ini: number; fim: number; texto: string; fonte: string; cor?: string | null };
+import type { Grafico } from "./Graficos";
+export type Cartao = { ini: number; fim: number; texto: string; fonte: string; cor?: string | null; grafico?: Grafico | null };
 
 export type Camadas = {
   video: string; // arquivo dentro da pasta pública (o vídeo cortado, com o som tratado)
