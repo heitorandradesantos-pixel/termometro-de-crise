@@ -303,8 +303,8 @@ export const MotionInflacao: React.FC<DadosInflacao> = (d) => {
       ) : null}
       {t >= T.bordao ? (
         <Sequence from={Math.round(T.bordao * fps)} layout="none">
-          <Bordao />
-          <div style={{ position: "absolute", top: 1560, left: 60, right: 60, textAlign: "center" }}>
+          <Bordao topo={700} />
+          <div style={{ position: "absolute", top: 1250, left: 60, right: 60, textAlign: "center" }}>
             <div style={{ fontWeight: 900, fontSize: 56 }}>@termometrodecrise</div>
             <div style={{ fontWeight: 600, fontSize: 32, color: CORES.apagado, marginTop: 14, lineHeight: 1.3 }}>
               Não recomendamos: só mostramos a temperatura do mundo.

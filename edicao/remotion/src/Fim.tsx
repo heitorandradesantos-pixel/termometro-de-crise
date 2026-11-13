@@ -12,10 +12,10 @@ const entrar = (frame: number, atraso: number) => ({
 });
 
 // O bordão em letra grande, no meio da tela, enquanto o Heitor fala "Sem alarde. Eu sou só o termômetro!"
-export const Bordao: React.FC = () => {
+export const Bordao: React.FC<{ topo?: number }> = ({ topo = 1130 }) => {
   const frame = useCurrentFrame();
   return (
-    <div style={{ position: "absolute", top: 1130, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+    <div style={{ position: "absolute", top: topo, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
       <div
         style={{
           display: "flex",
