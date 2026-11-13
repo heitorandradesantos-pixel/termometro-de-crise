@@ -58,9 +58,9 @@ const Variacao: React.FC<{ g: Extract<Grafico, { tipo: "variacao" }> }> = ({ g }
   const cor = g.sobe ? VERDE : VERMELHO;
   return (
     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 24, marginTop: 16, fontWeight: 900 }}>
-      <span style={{ fontSize: 64, color: CORES.apagado, textDecoration: para > 0.5 ? "line-through" : "none" }}>{g.de}</span>
+      <span style={{ fontSize: 64, color: CORES.apagado, whiteSpace: "nowrap", textDecoration: para > 0.5 ? "line-through" : "none" }}>{g.de}</span>
       <span style={{ fontSize: 70, color: cor, opacity: seta, transform: `translateX(${(1 - seta) * -30}px)` }}>➜</span>
-      <span style={{ fontSize: 76, color: CORES.amarelo, opacity: para, transform: `scale(${0.7 + 0.3 * para})` }}>{g.para}</span>
+      <span style={{ fontSize: 76, color: CORES.amarelo, whiteSpace: "nowrap", opacity: para, transform: `scale(${0.7 + 0.3 * para})` }}>{g.para}</span>
       {g.delta ? (
         <span
           style={{
@@ -69,6 +69,7 @@ const Variacao: React.FC<{ g: Extract<Grafico, { tipo: "variacao" }> }> = ({ g }
             background: cor,
             borderRadius: 999,
             padding: "6px 18px",
+            whiteSpace: "nowrap",
             opacity: interpolate(frame, [26, 34], [0, 1], ease),
           }}
         >

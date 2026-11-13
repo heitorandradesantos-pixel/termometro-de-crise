@@ -136,7 +136,14 @@ def corrigir(palavras: list) -> list:
                 i += len(novo_)  # pula a troca: se o novo contém o velho ("21 bilhões" → "R$ 21 bilhões"), não entra em laço
                 continue
             i += 1
-    return palavras
+    # "R" "$" da transcrição viram "R$" "$" no alinhamento com o roteiro: o "$" sobrando sai (13/11, "R$ $ 3.000")
+    limpas = []
+    for p in palavras:
+        if p[2] in ("$", "R$") and limpas and limpas[-1][2].endswith("$"):
+            limpas[-1][1] = p[1]
+            continue
+        limpas.append(p)
+    return limpas
 
 
 def blocos_legenda(manter, novo) -> list:
