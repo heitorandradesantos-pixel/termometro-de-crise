@@ -136,5 +136,5 @@ def gerar(saida: Path, pagina) -> list[str]:
         f"Manual do Investidor · {config.NOME}",
         "E-book de R$ 19,90: entenda Selic, CDI, poupança, Tesouro, CDB, LCI/LCA, FGC, IR, ações e FIIs em uma tarde. "
         "Linguagem simples, sem recomendação de investimento.",
-        corpo_manual(), raiz="../", imagem="manual/produto.webp", caminho="manual/", extra_css=CSS))
+        corpo_manual(), raiz="../", imagem="manual/produto.webp", caminho="manual/", extra_css=CSS, sem_anuncio=True))  # página de venda nunca mostra anúncio
     return ["manual/"]

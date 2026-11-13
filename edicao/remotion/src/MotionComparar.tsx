@@ -82,7 +82,7 @@ const Gancho: React.FC<{ l1: React.ReactNode; l2: string }> = ({ l1, l2 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const a = spring({ frame, fps, config: { damping: 13, stiffness: 190 } });
-  const b = spring({ frame: frame - 14, fps, config: { damping: 13, stiffness: 190 } });
+  const b = spring({ frame: frame - 30, fps, config: { damping: 13, stiffness: 190 } });
   return (
     <div style={{ position: "absolute", top: 230, left: 50, right: 50, textAlign: "center", fontFamily: FONTE, color: CORES.texto }}>
       <div style={{ fontWeight: 900, fontSize: 88, lineHeight: 1.03, letterSpacing: "-.025em", opacity: a,
@@ -103,7 +103,7 @@ export type DadosGasolina = {
   opcoes: [string, string];
 };
 
-export const temposGasolina = { gancho: 2.8, anima: 9.5, revela: 4.2, pergunta: 3.0, bordao: 3.2 };
+export const temposGasolina = { gancho: 4.0, anima: 17.0, revela: 7.5, pergunta: 4.5, bordao: 3.8 };
 const totalG = () => Object.values(temposGasolina).reduce((a, b) => a + b, 0);
 export const calcularGasolina: CalculateMetadataFunction<DadosGasolina> = () => ({ durationInFrames: Math.round(totalG() * 30) });
 
@@ -148,12 +148,12 @@ export const MotionGasolina: React.FC<DadosGasolina> = (d) => {
   const t4 = t3 + T.pergunta;
   const litrosA = 100 / d.antes.preco;
   const litrosH = 100 / d.hoje.preco;
-  const p = interpolate(t, [t1 + 1.6, t2 - 1.4], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
+  const p = interpolate(t, [t1 + 2.0, t2 - 2.2], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
   const preco = d.antes.preco + (d.hoje.preco - d.antes.preco) * p;
   const litros = 100 / preco;
   const km = litros * d.kmPorLitro;
   const ano = p < 0.5 ? d.antes.rotulo : d.hoje.rotulo;
-  const tremor = interpolate(t, [t2 - 1.4, t2 - 1.0], [12, 0], clamp) * (t > t2 - 1.4 ? 1 : 0);
+  const tremor = interpolate(t, [t2 - 2.2, t2 - 1.6], [12, 0], clamp) * (t > t2 - 2.2 ? 1 : 0);
   const fundo = interpolateColors(p, [0, 1], ["#132230", "#3A1414"]);
   const perdidos = litrosA - litrosH;
   return (
@@ -207,12 +207,12 @@ export const MotionGasolina: React.FC<DadosGasolina> = (d) => {
         </Sequence>
       ) : null}
       <Sfx arq="cartao" vol={0.4} em={0.05} />
-      {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((i) => (
-        <Sfx key={i} arq="tick" vol={0.45} em={t1 + 1.6 + i * 0.5} />
+      {Array.from({ length: Math.floor((T.anima - 4.2) / 0.8) + 1 }, (_, i) => (
+        <Sfx key={i} arq="tick" vol={0.4} em={t1 + 2.0 + i * 0.8} />
       ))}
-      <Sfx arq="choque" vol={0.5} em={t2 - 1.4} />
-      <Sfx arq="subida" vol={0.3} em={t2 - 1.6} />
-      <Sfx arq="impacto" vol={0.45} em={t2 + 0.5} />
+      <Sfx arq="choque" vol={0.5} em={t2 - 2.2} />
+      <Sfx arq="subida" vol={0.3} em={t2 - 2.4} />
+      <Sfx arq="impacto" vol={0.45} em={t2 + 1.4} />
       <Sfx arq="seguir" vol={0.35} em={t3} />
       <Sfx arq="bordao-whoosh" vol={0.35} em={t4} />
     </AbsoluteFill>
@@ -223,9 +223,9 @@ const RevelaGasolina: React.FC<{ d: DadosGasolina }> = ({ d }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const a = spring({ frame, fps, config: { damping: 14 } });
-  const conta = interpolate(frame, [10, 34], [d.tanque * d.antes.preco, d.tanque * d.hoje.preco], { ...clamp, easing: Easing.out(Easing.cubic) });
-  const b = spring({ frame: frame - 16, fps, config: { damping: 9, stiffness: 160 } });
-  const c = spring({ frame: frame - 40, fps, config: { damping: 14 } });
+  const conta = interpolate(frame, [20, 80], [d.tanque * d.antes.preco, d.tanque * d.hoje.preco], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const b = spring({ frame: frame - 30, fps, config: { damping: 9, stiffness: 160 } });
+  const c = spring({ frame: frame - 100, fps, config: { damping: 14 } });
   const alta = (d.hoje.preco / d.antes.preco - 1) * 100;
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", textAlign: "center", padding: "0 60px", fontFamily: FONTE,
@@ -256,7 +256,7 @@ export type DadosCesta = {
   opcoes: [string, string];
 };
 
-export const temposCesta = { gancho: 2.8, corrida: 6.0, relogio: 4.0, revela: 4.2, pergunta: 3.0, bordao: 3.2 };
+export const temposCesta = { gancho: 4.0, corrida: 12.0, relogio: 8.0, revela: 7.5, pergunta: 4.5, bordao: 3.8 };
 const totalC = () => Object.values(temposCesta).reduce((a, b) => a + b, 0);
 export const calcularCesta: CalculateMetadataFunction<DadosCesta> = () => ({ durationInFrames: Math.round(totalC() * 30) });
 
@@ -277,7 +277,7 @@ export const MotionCesta: React.FC<DadosCesta> = (d) => {
   const t5 = t4 + T.pergunta;
   const altaCesta = (d.hoje.cesta / d.antes.cesta - 1) * 100;
   const altaSal = (d.hoje.salario / d.antes.salario - 1) * 100;
-  const p = interpolate(t, [t1 + 0.6, t2 - 0.8], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
+  const p = interpolate(t, [t1 + 1.2, t2 - 2.0], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
   const g = spring({ frame, fps, config: { damping: 13 } });
   const barra = (rotulo: string, emoji: string, alta: number, de: number, para: number, cor: string, i: number) => {
     const v = de + (para - de) * p;
@@ -300,7 +300,7 @@ export const MotionCesta: React.FC<DadosCesta> = (d) => {
   };
   const hA = horasEmNumero(d.antes.horas);
   const hH = horasEmNumero(d.hoje.horas);
-  const q = interpolate(t, [t2 + 0.3, t3 - 0.6], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
+  const q = interpolate(t, [t2 + 1.2, t3 - 1.8], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
   const horasAgora = hA + (hH - hA) * q;
   const fundo = interpolateColors(Math.max(p, q), [0, 1], ["#132230", "#3A1414"]);
   return (
@@ -358,12 +358,12 @@ export const MotionCesta: React.FC<DadosCesta> = (d) => {
         </Sequence>
       ) : null}
       <Sfx arq="cartao" vol={0.4} em={0.05} />
-      <Sfx arq="subida" vol={0.3} em={t1 + 0.4} />
-      <Sfx arq="choque" vol={0.45} em={t2 - 0.8} />
-      {[0, 1, 2, 3, 4, 5, 6].map((i) => (
-        <Sfx key={i} arq="tick" vol={0.5} em={t2 + 0.3 + i * 0.45} />
+      <Sfx arq="subida" vol={0.3} em={t1 + 1.0} />
+      <Sfx arq="choque" vol={0.45} em={t2 - 2.0} />
+      {Array.from({ length: 7 }, (_, i) => (
+        <Sfx key={i} arq="tick" vol={0.45} em={t2 + 1.2 + i * 0.75} />
       ))}
-      <Sfx arq="impacto" vol={0.45} em={t3 + 0.5} />
+      <Sfx arq="impacto" vol={0.45} em={t3 + 1.4} />
       <Sfx arq="seguir" vol={0.35} em={t4} />
       <Sfx arq="bordao-whoosh" vol={0.35} em={t5} />
     </AbsoluteFill>
@@ -374,9 +374,9 @@ const RevelaCesta: React.FC<{ d: DadosCesta }> = ({ d }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const a = spring({ frame, fps, config: { damping: 14 } });
-  const b = spring({ frame: frame - 16, fps, config: { damping: 9, stiffness: 160 } });
-  const c = spring({ frame: frame - 40, fps, config: { damping: 14 } });
-  const conta = interpolate(frame, [10, 34], [d.antes.pct, d.hoje.pct], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const b = spring({ frame: frame - 30, fps, config: { damping: 9, stiffness: 160 } });
+  const c = spring({ frame: frame - 100, fps, config: { damping: 14 } });
+  const conta = interpolate(frame, [20, 80], [d.antes.pct, d.hoje.pct], { ...clamp, easing: Easing.out(Easing.cubic) });
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", textAlign: "center", padding: "0 60px", fontFamily: FONTE,
       color: CORES.texto, background: "radial-gradient(ellipse at 50% 45%, #3A1414 0%, #0B0F14 75%)" }}>

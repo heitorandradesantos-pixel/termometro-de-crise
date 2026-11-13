@@ -323,11 +323,11 @@ def nova_aba(html_corpo: str) -> str:
 
 
 def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "",
-           extra_css: str = "", sem_faixa: bool = False) -> str:
+           extra_css: str = "", sem_faixa: bool = False, sem_anuncio: bool = False) -> str:
     url = config.url_publica(caminho) if config.SITE_URL else ""
     og_img = f"{config.SITE_URL}/{imagem}" if config.SITE_URL and imagem else ""
     adsense = (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={config.ADSENSE_CLIENT}" '
-               f'crossorigin="anonymous"></script>') if config.ADSENSE_CLIENT else ""
+               f'crossorigin="anonymous"></script>') if config.ADSENSE_CLIENT and not sem_anuncio else ""
     t, d = html.escape(titulo), html.escape(descricao)
     return f"""<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
