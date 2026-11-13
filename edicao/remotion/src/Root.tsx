@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { Capa } from "./Capa";
 import { calcularInflacao, MotionInflacao } from "./MotionInflacao";
+import { calcularNome, calcularPix, MotionNomeLimpo, MotionPixGolpe } from "./MotionDireitos";
 import { calcularRotativo, MotionRotativo } from "./MotionRotativo";
 import { calcularCesta, calcularGasolina, MotionCesta, MotionGasolina } from "./MotionComparar";
 import { calcularReel, Reel } from "./Reel";
@@ -123,6 +124,14 @@ export const RemotionRoot: React.FC = () => {
         rodape: "📘 Passo a passo pra sair do vermelho: link na bio",
       }}
     />
+    <Composition id="MotionNomeLimpo" component={MotionNomeLimpo} width={1080} height={1920} fps={30} durationInFrames={1300}
+      calculateMetadata={calcularNome}
+      defaultProps={{ pergunta: "Já te aconteceu isso?", opcoes: ["SIM", "NÃO"] as [string, string],
+        rodape: "📘 Passo a passo pra sair do vermelho: link na bio" }} />
+    <Composition id="MotionPixGolpe" component={MotionPixGolpe} width={1080} height={1920} fps={30} durationInFrames={1300}
+      calculateMetadata={calcularPix}
+      defaultProps={{ valor: 2000, pergunta: "Você conhecia o MED?", opcoes: ["SIM", "NÃO"] as [string, string],
+        rodape: "🛡️ Kit Anti-Golpe completo: link na bio" }} />
     </>
   );
 };
