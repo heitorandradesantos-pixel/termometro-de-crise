@@ -1,0 +1,191 @@
+{
+ "gancho": {
+  "formula": "Número + porquê / bolso",
+  "texto": "O dólar subiu 1,53% num dia. Quem viaja ou compra importado sente.",
+  "na_tela": "Dólar subiu 1,53% num dia",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê / bolso",
+   "texto": "O dólar subiu 1,53% num dia. Quem viaja ou compra importado sente.",
+   "na_tela": "Dólar subiu 1,53% num dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu carrinho de importado ficou mais caro: o dólar fechou a R$ 5,67.",
+   "na_tela": "Importado mais caro: dólar R$ 5,67",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto o dólar a R$ 5,67 pesa na sua viagem?",
+   "na_tela": "Dólar a R$ 5,67 e sua viagem",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar subiu 1,53% num dia. Quem viaja ou compra importado sente.",
+  "Ele fechou a R$ 5,67, segundo o Yahoo Finance.",
+  "É o que você paga a mais num importado ou viagem.",
+  "No termômetro, o Brasil marcou 60: sinal amarelo.",
+  "Tem mais: o mundo também está no sinal amarelo.",
+  "A Selic, a taxa básica de juros, está em 13,75%, segundo o Banco Central.",
+  "Ela pesa no juro do financiamento e do cartão.",
+  "Se não é urgente, compare o preço em mais de uma loja.",
+  "Manda pra quem vai viajar ou tem importado no carrinho.",
+  "Já pagou caro num importado sem comparar? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O dólar subiu 1,53% num dia. Quem viaja ou compra importado sente. Ele fechou a R$ 5,67, segundo o Yahoo Finance. É o que você paga a mais num importado ou viagem. No termômetro, o Brasil marcou 60: sinal amarelo. Tem mais: o mundo também está no sinal amarelo. A Selic, a taxa básica de juros, está em 13,75%, segundo o Banco Central. Ela pesa no juro do financiamento e do cartão. Se não é urgente, compare o preço em mais de uma loja. Manda pra quem vai viajar ou tem importado no carrinho. Já pagou caro num importado sem comparar? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Dólar subiu 1,53% num dia",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,67 (▲1,53%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Brasil 60 · Mundo 54: Alerta",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Selic 13,75%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 7,
+   "texto": "Compare em mais de uma loja"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: fechou a R$ 5,67, alta de 1,53%, segundo o Yahoo Finance.\n\nNa prática, dólar mais caro deixa importado e viagem mais caros pra você. Se não é urgente, compare o preço em mais de uma loja antes de fechar.\n\nNo Termômetro de Crise, o Brasil marcou 60 e o mundo 54, os dois em Alerta. A Selic, a taxa básica de juros, está em 13,75%, segundo o Banco Central, e pesa no juro do financiamento e do cartão.\n\nManda pra quem vai viajar ou tem compra de fora no carrinho.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #dolar #economia #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#dolar",
+  "#economia",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar subiu 1,53% hoje e isso chega no seu bolso.",
+  "topicos": [
+   "O dólar fechou a R$ 5,67, alta de 1,53%, segundo o Yahoo Finance.",
+   "Termômetro de Crise: Brasil em 60, sinal amarelo; o mundo também em alerta.",
+   "A Selic, taxa básica de juros, está em 13,75%, segundo o Banco Central.",
+   "Se não é urgente, compare o preço em mais de uma loja."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um fechamento com vários números e contexto, que pede explicação calma na bancada.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Ele fechou a R$ 5,67, segundo o Yahoo Finance\": nome de site não vai na fala (Teste do CLT). Reescreva como \"Ele fechou em uns R$ 5,67\" e deixe o Yahoo Finance só no cartão da tela e na legenda.",
+   "Frase \"É o que você paga a mais num importado ou viagem\": falta uma comparação viva para o lado sanguíneo. Troque por uma cena do dia a dia, por exemplo o importado no carrinho ficando mais caro na hora de pagar sem você ter feito nada. Não invente número. Abra a parte da Selic com \"Olha só\" para marcar a virada.",
+   "Antes do \"Sem alarde. Eu sou só o termômetro!\": o roteiro não traz o aviso da casa. Inclua \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" e mantenha o bordão como última frase."
+  ],
+  "veredito": "A peça tem tema de bolso, um passo simples (comparar preço), gatilhos éticos e o bordão final, mas leva nome de site na fala, não tem comparação viva nem o porquê da alta, e deixa de fora o \\\"Olha só\\\" e o aviso do Heitor."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"O dólar subiu 1,53% num dia. Quem viaja ou compra importado sente.\" só dá a notícia e não abre lacuna. Reescrita: \"Se você tem um importado no carrinho, ele ficou mais caro hoje. O dólar subiu 1,53% num dia.\" Assim a pessoa se reconhece na primeira frase e o número vem logo depois.",
+   "Fala: \"Ele fechou a R$ 5,67, segundo o Yahoo Finance.\" O nome do site não vai na fala (Teste do CLT). Reescrita: \"Ele fechou a R$ 5,67.\" A fonte fica no cartão e na legenda. Corte também \"É o que você paga a mais num importado ou viagem.\", que repete o gancho.",
+   "Virada: \"Tem mais: o mundo também está no sinal amarelo.\" é fraca e a Selic aparece sem ligação com o dólar. Reescrita: \"Mas tem um detalhe: o juro também pesa. A Selic, a taxa básica, está em 13,75%, segundo o Banco Central.\" O número da Selic fica guardado para depois do termômetro, e a virada passa a ter motivo."
+  ],
+  "veredito": "O fim está forte, com envio para uma situação concreta e pergunta de SIM ou NÃO. O começo só dá a notícia sem abrir lacuna, e a fala tem nome de site e uma virada fraca. Falta um gancho que fale com quem tem importado no carrinho."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in over an open suitcase on a made bed, filled with neatly folded clothes, sunglasses and a small mirrorless camera, soft morning light from a window, a small imported cardboard parcel with blank unmarked packaging beside it. No people, no text, no logos",
+   "texto_da_fala": "É o que você paga a mais num importado ou viagem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in over an open suitcase on a made bed, filled with neatly folded clothes, sunglasses and a small mirrorless camera, soft morning light from a window, a small imported cardboard parcel with blank unmarked packaging beside it. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Macro slow push-in on a plain blank dark plastic payment card with no markings, lying on a wooden table next to a set of car keys and a small toy house model, shallow depth of field, warm indoor light. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Ela pesa no juro do financiamento e do cartão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro slow push-in on a plain blank dark plastic payment card with no markings, lying on a wooden table next to a set of car keys and a small toy house model, shallow depth of field, warm indoor light. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Smooth sideways tracking shot along bright store shelves lined with plain unlabeled gadget boxes and small appliances, a hand (no face visible) picking up one box and then another as if comparing them, clean retail lighting, shallow depth of field. No readable text, no numbers, no logos, no brands",
+   "texto_da_fala": "Se não é urgente, compare o preço em mais de uma loja.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth sideways tracking shot along bright store shelves lined with plain unlabeled gadget boxes and small appliances, a hand (no face visible) picking up one box and then another as if comparing them, clean retail lighting, shallow depth of field. No readable text, no numbers, no logos, no brands. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O dólar subiu 1,53% num dia. Quem viaja ou compra importado sente.\n\nEle fechou a R$ 5,67, segundo o Yahoo Finance.\n\nÉ o que você paga a mais num importado ou viagem.\n\nNo termômetro, o Brasil marcou 60: sinal amarelo.\n\nTem mais: o mundo também está no sinal amarelo.\n\nA Selic, a taxa básica de juros, está em 13,75%, segundo o Banco Central.\n\nEla pesa no juro do financiamento e do cartão.\n\nSe não é urgente, compare o preço em mais de uma loja.\n\nManda pra quem vai viajar ou tem importado no carrinho.\n\nJá pagou caro num importado sem comparar? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-13",
+ "gerado_em": "2026-11-13T18:34:50.031028-03:00",
+ "enviado_whatsapp": "2026-11-13T18:35:42.309195-03:00"
+}
