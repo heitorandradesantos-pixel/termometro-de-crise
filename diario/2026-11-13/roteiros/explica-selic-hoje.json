@@ -1,0 +1,186 @@
+{
+ "gancho": {
+  "formula": "Conta que assusta",
+  "texto": "Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos.",
+  "na_tela": "R$ 10 mil: Tesouro x poupança",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 1
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Conta que assusta",
+   "texto": "Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos.",
+   "na_tela": "R$ 10 mil: Tesouro x poupança",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto rendem R$ 10 mil em um ano, já com Imposto de Renda?",
+   "na_tela": "R$ 10 mil rendem quanto?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A poupança rende menos que o Tesouro, mesmo sem Imposto de Renda.",
+   "na_tela": "Poupança sem imposto, e perde",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos.",
+  "Com Selic de 13,75%, segundo o Banco Central, já sem imposto.",
+  "O CDB de 100% do CDI rende cerca de R$ 1.126.",
+  "A Selic é o preço do dinheiro; o CDI anda colado nela.",
+  "Mas a poupança, mesmo sem imposto, rende de R$ 617 a R$ 831.",
+  "Tudo supõe a Selic parada, e o Copom volta em dezembro.",
+  "Calma: confira quanto seu CDB paga de fato.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos. Com Selic de 13,75%, segundo o Banco Central, já sem imposto. O CDB de 100% do CDI rende cerca de R$ 1.126. A Selic é o preço do dinheiro; o CDI anda colado nela. Mas a poupança, mesmo sem imposto, rende de R$ 617 a R$ 831. Tudo supõe a Selic parada, e o Copom volta em dezembro. Calma: confira quanto seu CDB paga de fato. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 10 mil: Tesouro x poupança",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 2,
+   "texto": "CDB 100% do CDI: R$ 1.126",
+   "fonte": "Investidor10"
+  },
+  {
+   "fala": 4,
+   "texto": "Poupança: R$ 617 a R$ 831",
+   "fonte": "Santander e C6 Bank"
+  },
+  {
+   "fala": 5,
+   "texto": "Próximo Copom: dezembro",
+   "fonte": "Gazeta Mercantil"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Selic hoje: quanto rendem R$ 10 mil em 1 ano",
+ "legenda": "Selic hoje: quanto rendem R$ 10 mil em 1 ano, já com Imposto de Renda?\n\nCom a Selic em 13,75% ao ano desde 4 de novembro, segundo o Banco Central, o Tesouro Selic rende cerca de R$ 1.134 e um CDB de 100% do CDI, cerca de R$ 1.126. Já sem imposto.\n\nA poupança fica entre R$ 617 e R$ 831, conforme a TR, e não paga Imposto de Renda.\n\nAs contas são estimativas do Termômetro e supõem a Selic parada. O Copom se reúne de novo em dezembro, e cada banco define quanto o CDB paga. Confira as regras da sua corretora.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#selic #rendafixa #tesourodireto #poupanca #educacaofinanceira",
+ "hashtags": [
+  "#selic",
+  "#rendafixa",
+  "#tesourodireto",
+  "#poupanca",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "R$ 10 mil rendem R$ 1.134 no Tesouro Selic em um ano.",
+  "topicos": [
+   "Banco Central: a Selic está em 13,75% ao ano desde 4 de novembro.",
+   "Tesouro Selic: cerca de R$ 1.134 em R$ 10 mil, já sem imposto.",
+   "Poupança, mesmo sem imposto, rende de R$ 617 a R$ 831, conforme a TR.",
+   "Confira quanto seu CDB paga de fato; a Selic pode mudar em dezembro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 1,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos.\": o gancho é bom, mas \"Na poupança, menos\" soa vago e é repetido depois com número. Reescreva para abrir com a pergunta de bolso, por exemplo \"Você tem R$ 10 mil parados? Veja quanto rendem em 1 ano\", e deixe o contraste Tesouro x poupança para a virada, com um \"Olha só\".",
+   "Frase \"A Selic é o preço do dinheiro; o CDI anda colado nela.\": a tradução ainda é abstrata, e CDI e CDB ficam sem explicação para o iniciante. Use uma comparação do dia a dia, por exemplo \"CDB é emprestar seu dinheiro pro banco e receber juros, como alugar algo seu\" e \"CDI é a taxa que os bancos cobram entre si\". Não acrescente número novo.",
+   "Frase \"Calma: confira quanto seu CDB paga de fato.\": o passo final é bom, mas o \"Calma\" vem depois de uma sequência seca de números. Dê o passo simples e acolhedor, em linguagem de conversa: \"Abra o app do seu banco, veja o que seu CDB paga e compare com esses números\". Dá para tirar o \"rende de R$ 617 a R$ 831\" da fala e deixar a faixa só na legenda, ou explicar em uma frase por que há uma faixa (a TR varia). Assim a peça fica mais leve e menos parecida com uma lista de dados."
+  ],
+  "veredito": "A peça fala com quem tem dinheiro parado, traz fonte (Banco Central), avisa o que não se sabe (Selic parada, Copom em dezembro) e fecha com o bordão certo, mas fica seca: faltam uma comparação viva da vida real, tradução mais popular de CDB e CDI e um passo final mais acolhedor."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Pagamento: o \"Na poupança, menos\" só é pago na 5ª fala, depois de Selic e CDB. Reescrita: \"Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos: de R$ 617 a R$ 831.\" Depois vêm Selic e CDB. Assim a lacuna fecha em uns 8 s e o \"Mas a poupança...\" (que hoje não faz sentido como virada) sai.",
+   "Retenção: a virada está no lugar errado. Troque \"Tudo supõe a Selic parada, e o Copom volta em dezembro.\" por \"Mas tem um detalhe: tudo isso supõe a Selic parada, e o Copom volta em dezembro.\" Assim o meio segura quem ia sair, e a explicação \"A Selic é o preço do dinheiro\" vira só uma frase de passagem.",
+   "Envio e conversa: \"O grupo do WhatsApp está no link da bio.\" não dá motivo para mandar. Reescrita: \"Se você deixa dinheiro na poupança, confira quanto rende. Manda pra quem guarda dinheiro na poupança. O grupo do WhatsApp está no link da bio.\" Mantém \"confira quanto seu CDB paga de fato\" e pede o envio para uma situação concreta."
+  ],
+  "veredito": "O gancho com R$ 10 mil e R$ 1.134 já para o dedo, mas o vídeo atrasa a resposta sobre a poupança, não tem uma virada clara e não pede o envio para quem guarda dinheiro na poupança."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Macro shot of a brass old-fashioned balance scale on a dark wooden desk, one pan holding a small pile of gold coins and the other empty, slowly swinging toward balance. Slow push-in dolly with shallow depth of field, warm side lighting. No people, no text, no numbers, no logos",
+   "texto_da_fala": "A Selic é o preço do dinheiro; o CDI anda colado nela.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of a brass old-fashioned balance scale on a dark wooden desk, one pan holding a small pile of gold coins and the other empty, slowly swinging toward balance. Slow push-in dolly with shallow depth of field, warm side lighting. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "A worn ceramic piggy bank sitting on a kitchen table in soft morning light, a few coins resting beside it. Slow orbiting camera move around the piggy bank, shallow depth of field, a single coin dropping into the slot at the end. No people, no faces, no text, no numbers, no logos",
+   "texto_da_fala": "Mas a poupança, mesmo sem imposto, rende de R$ 617 a R$ 831.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A worn ceramic piggy bank sitting on a kitchen table in soft morning light, a few coins resting beside it. Slow orbiting camera move around the piggy bank, shallow depth of field, a single coin dropping into the slot at the end. No people, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "An empty modern boardroom with a long polished table and leather chairs, large windows showing a hazy city skyline at dusk. Slow tracking shot gliding along the length of the table toward the window, cinematic lighting. No people, no text, no numbers, no logos, no flags",
+   "texto_da_fala": "Tudo supõe a Selic parada, e o Copom volta em dezembro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. An empty modern boardroom with a long polished table and leather chairs, large windows showing a hazy city skyline at dusk. Slow tracking shot gliding along the length of the table toward the window, cinematic lighting. No people, no text, no numbers, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos.\n\nCom Selic de 13,75%, segundo o Banco Central, já sem imposto.\n\nO CDB de 100% do CDI rende cerca de R$ 1.126.\n\nA Selic é o preço do dinheiro; o CDI anda colado nela.\n\nMas a poupança, mesmo sem imposto, rende de R$ 617 a R$ 831.\n\nTudo supõe a Selic parada, e o Copom volta em dezembro.\n\nCalma: confira quanto seu CDB paga de fato.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "B3 Bora Investir",
+   "url": "https://borainvestir.b3.com.br/noticias/imposto-de-renda/renda-fixa-imposto-de-renda/como-declarar-investimentos-do-tesouro-direto-no-imposto-de-renda-2026/",
+   "destaque": "O Imposto de Renda na renda fixa (Tesouro Direto e CDB) é cobrado só sobre o rendimento, não sobre o valor aplicado."
+  }
+ ],
+ "data": "2026-11-13",
+ "gerado_em": "2026-11-13T08:11:16.972595-03:00"
+}
