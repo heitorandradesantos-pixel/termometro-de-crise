@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { Capa } from "./Capa";
 import { calcularInflacao, MotionInflacao } from "./MotionInflacao";
+import { calcularCesta, calcularGasolina, MotionCesta, MotionGasolina } from "./MotionComparar";
 import { calcularReel, Reel } from "./Reel";
 import { Camadas } from "./tipos";
 
@@ -65,6 +66,41 @@ export const RemotionRoot: React.FC = () => {
         itens: ["🍚", "🫘", "🥛", "☕", "🍞", "🥚", "🧈", "🍌", "🍅", "🧻"],
         fonte: "IPCA/IBGE",
         pergunta: "Seu dinheiro cresceu mais que isso?",
+      }}
+    />
+    <Composition
+      id="MotionGasolina"
+      component={MotionGasolina}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={680}
+      calculateMetadata={calcularGasolina}
+      defaultProps={{
+        antes: { rotulo: "fim de 2016", preco: 3.755 },
+        hoje: { rotulo: "nov/2026", preco: 6.47 },
+        kmPorLitro: 12,
+        tanque: 50,
+        fonte: "ANP",
+        pergunta: "Você abastece por valor ou enche o tanque?",
+        opcoes: ["VALOR", "TANQUE"] as [string, string],
+      }}
+    />
+    <Composition
+      id="MotionCesta"
+      component={MotionCesta}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={700}
+      calculateMetadata={calcularCesta}
+      defaultProps={{
+        cidade: "São Paulo",
+        antes: { rotulo: "dez/2016", cesta: 438.89, salario: 880, horas: "109h43", pct: 54.21 },
+        hoje: { rotulo: "out/2026", cesta: 951.37, salario: 1621, horas: "129h07", pct: 63.45 },
+        fonte: "DIEESE",
+        pergunta: "Seu salário acompanhou o mercado?",
+        opcoes: ["SIM", "NÃO"] as [string, string],
       }}
     />
     </>
