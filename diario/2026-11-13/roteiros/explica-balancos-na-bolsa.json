@@ -1,0 +1,188 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Tem ação do Banco do Brasil, ou fundo de ações? Seu dividendo encolheu.",
+  "na_tela": "Seu dividendo encolheu",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Tem ação do Banco do Brasil, ou fundo de ações? Seu dividendo encolheu.",
+   "na_tela": "Seu dividendo encolheu",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Já descobriram, você ainda não",
+   "texto": "O Banco do Brasil já cortou o repasse do lucro. Você ainda não viu.",
+   "na_tela": "Banco do Brasil cortou o repasse",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O lucro do Banco do Brasil caiu 66,5%, e o motivo está no campo.",
+   "na_tela": "Lucro caiu 66,5%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Tem ação do Banco do Brasil, ou fundo de ações? Seu dividendo encolheu.",
+  "Dividendo é a parte do lucro que o banco repassa.",
+  "Caiu de 30% para 25%: igual participação nos lucros, a fatia encolheu.",
+  "Olha só: o lucro caiu 66,5%, segundo o Metrópoles.",
+  "O banco aponta dívidas atrasadas do agronegócio. A ação caiu mais de 8%.",
+  "Já viu esse corte? Veja no app da corretora quanto você tem nela.",
+  "Manda pra quem tem ação do Banco do Brasil, ou fundo com ela.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Tem ação do Banco do Brasil, ou fundo de ações? Seu dividendo encolheu. Dividendo é a parte do lucro que o banco repassa. Caiu de 30% para 25%: igual participação nos lucros, a fatia encolheu. Olha só: o lucro caiu 66,5%, segundo o Metrópoles. O banco aponta dívidas atrasadas do agronegócio. A ação caiu mais de 8%. Já viu esse corte? Veja no app da corretora quanto você tem nela. Manda pra quem tem ação do Banco do Brasil, ou fundo com ela. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Seu dividendo encolheu",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Repasse do lucro: 30% → 25%",
+   "fonte": "Business Moment"
+  },
+  {
+   "fala": 3,
+   "texto": "Lucro: -66,5%",
+   "fonte": "Metrópoles"
+  },
+  {
+   "fala": 4,
+   "texto": "Ação: queda de mais de 8%",
+   "fonte": "InfoMoney"
+  }
+ ],
+ "retomada": 3,
+ "busca": "Banco do Brasil ações hoje",
+ "legenda": "Banco do Brasil ações hoje: o que se sabe.\n\nSegundo o Metrópoles, o lucro líquido ajustado do banco no terceiro trimestre caiu 66,5%, para R$ 1,27 bilhão. Segundo o Business Moment, o payout (a parte do lucro repassada aos acionistas) caiu de 30% para 25% em 2026 e 2027.\n\nSegundo o InfoMoney, a ação fechou a quinta (12/11) com queda de mais de 8%. O banco aponta a alta da inadimplência no agronegócio como causa principal.\n\nAinda não se sabe se o banco conseguirá pagar o mínimo de dividendos em 2027: ele diz que depende da situação de capital.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancodobrasil #dividendos #bolsadevalores #educacaofinanceira",
+ "hashtags": [
+  "#bancodobrasil",
+  "#dividendos",
+  "#bolsadevalores",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Banco do Brasil cortou o repasse do lucro. Sua carteira sente.",
+  "topicos": [
+   "Segundo o Metrópoles, o lucro do Banco do Brasil caiu 66,5% no terceiro trimestre.",
+   "Dividendo, parte do lucro repassada, caiu de 30% para 25%, segundo o banco.",
+   "Segundo o InfoMoney, a ação fechou a quinta com queda de mais de 8%.",
+   "Abra o app da corretora e veja quanto da carteira está nela."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "Notícia quente de quinta (12/11), que pede urgência e cabe em poucos tópicos.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Já viu esse corte? Veja no app da corretora quanto você tem nela.\": o passo serve a quem já tem a ação, mas o fleumático fica sem calma e sem um passo claro. Reescreva acrescentando uma frase de calma e de limite do que se sabe, por exemplo: \"Calma: um trimestre não diz tudo, e o banco ainda não sabe se paga o mínimo em 2027. Hoje o passo é só olhar quanto você tem e o que a corretora informa.\"",
+   "Frase \"Seu dividendo encolheu.\" (gancho): a perda aparece forte e a saída só vem no fim. Aproxime a saída da perda, sem prometer nada: \"Seu dividendo encolheu. Entenda em 30 segundos o que mudou e onde conferir.\" Assim a perda já chega com o caminho.",
+   "Frase \"Caiu de 30% para 25%: igual participação nos lucros, a fatia encolheu.\": a comparação existe, mas é abstrata para quem não tem ação. Troque por uma imagem do dia a dia, sem inventar número: \"É como combinar de dividir a sobra do caixa e a parte que sobra pra você ficar menor.\" Cite também o porquê (inadimplência do agro) mais perto do número e a fonte do payout (Business Moment) no roteiro, não só na legenda."
+  ],
+  "veredito": "Peça bem alinhada: fala direto com quem tem ação ou fundo, traduz \\\"dividendo\\\", cita fonte e fecha com os bordões da casa; falta calma e um passo mais acolhedor para o fleumático, uma comparação mais viva e juntar a perda à saída logo no gancho."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase: \"Já viu esse corte? Veja no app da corretora quanto você tem nela.\" É uma pergunta que se responde só com a cabeça e não puxa comentário. Reescrita: \"Você tem ação do Banco do Brasil? Conta aqui nos comentários. E veja no app da corretora quanto você tem nela.\" Os fatos e o passo calmo continuam os mesmos."
+  ],
+  "veredito": "Roteiro forte: o gancho fala de um objeto específico (ação do BB) e da perda no bolso, é pago logo em seguida (30% para 25%), tem virada com o 66,5% e um envio para uma situação concreta; só falta um convite claro para comentar."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Macro close-up of a hand-less mechanical chute inside a dim vault-like room, stacks of golden coins sliding down a polished brass tray and dropping into several small empty glass jars lined up on a wooden table. Slow dolly-in along the jars, warm soft light, shallow depth of field. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Dividendo é a parte do lucro que o banco repassa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up of a hand-less mechanical chute inside a dim vault-like room, stacks of golden coins sliding down a polished brass tray and dropping into several small empty glass jars lined up on a wooden table. Slow dolly-in along the jars, warm soft light, shallow depth of field. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Top-down shot of a whole round golden pie on a marble table, a clean knife slices out a thin wedge and the wedge slides away, leaving a visibly smaller slice on a plate beside it. Slow overhead camera push-in and slight rotation. Soft studio light. No people, no faces, no text, no numbers, no logos",
+   "texto_da_fala": "Caiu de 30% para 25%: igual participação nos lucros, a fatia encolheu.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot of a whole round golden pie on a marble table, a clean knife slices out a thin wedge and the wedge slides away, leaving a visibly smaller slice on a plate beside it. Slow overhead camera push-in and slight rotation. Soft studio light. No people, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Dry cracked soil in a vast Brazilian soybean farm at golden hour, withered crop rows stretching to the horizon, a rusty tractor parked in the distance and grain silos beyond. Slow low-angle drone fly-forward over the parched rows, dust drifting in the air. No people, no text, no numbers, no logos, no flags",
+   "texto_da_fala": "O banco aponta dívidas atrasadas do agronegócio. A ação caiu mais de 8%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Dry cracked soil in a vast Brazilian soybean farm at golden hour, withered crop rows stretching to the horizon, a rusty tractor parked in the distance and grain silos beyond. Slow low-angle drone fly-forward over the parched rows, dust drifting in the air. No people, no text, no numbers, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Tem ação do Banco do Brasil, ou fundo de ações? Seu dividendo encolheu.\n\nDividendo é a parte do lucro que o banco repassa.\n\nCaiu de 30% para 25%: igual participação nos lucros, a fatia encolheu.\n\nOlha só: o lucro caiu 66,5%, segundo o Metrópoles.\n\nO banco aponta dívidas atrasadas do agronegócio. A ação caiu mais de 8%.\n\nJá viu esse corte? Veja no app da corretora quanto você tem nela.\n\nManda pra quem tem ação do Banco do Brasil, ou fundo com ela.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/acoes-do-banco-do-brasil-desabam-835-apos-balanco-do-3o-trimestre-de-2026",
+   "destaque": "O Banco do Brasil teve lucro líquido ajustado de R$ 1,27 bilhão no terceiro trimestre, 66,5% abaixo do mesmo período de 2025, quando foi de…"
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-traz-decepcao-generalizada-alertas-e-coloca-recuperacao-em-xeque-como-mercado-leu-o-3t/",
+   "destaque": "O banco aponta como causa principal a alta da inadimplência (atraso nos pagamentos) no agronegócio, que elevou o custo do crédito."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-fiscal-cautela-com-juros-nos-eua-e-balanco-do-bb-pesam-no-indice/",
+   "destaque": "A ação do Banco do Brasil chegou a cair 10,66% de manhã, a R$ 15,04, e fechou o dia com tombo de mais de 8%."
+  }
+ ],
+ "data": "2026-11-13",
+ "gerado_em": "2026-11-13T08:04:00.834652-03:00"
+}
