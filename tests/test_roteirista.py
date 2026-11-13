@@ -135,6 +135,8 @@ def test_estrategista_de_marca_pede_nova_versao_quando_a_nota_e_baixa(monkeypatc
                     "sugestoes": [], "veredito": "fala com o público"}
         if saida["name"] == "registrar_apoios":
             return {"apoios": []}
+        if saida["name"] == "registrar_avaliacao_viral":
+            return {"notas": {}, "sugestoes": [], "veredito": "para o dedo"}
         if chamadas.count("registrar_roteiro") == 2:
             assert "estrategista de marca, nota 5/10" in pedido and "bolso de quem assiste" in pedido
         return _bruto()
@@ -157,3 +159,26 @@ def test_prints_da_fonte_para_a_edicao():
     r = {**roteirista.montar(_bruto()), "prints": prints}
     edicao = roteirista.pacote_whatsapp(r, "PIB")[-3]
     assert "Prints da fonte" in edicao and "https://bcb.gov.br/copom" in edicao
+
+
+def test_especialista_em_viralizacao_pede_nova_versao_quando_a_nota_e_baixa(monkeypatch):
+    chamadas = []
+
+    def falso(cliente, sistema, pedido, saida, **k):
+        chamadas.append(saida["name"])
+        if saida["name"] == "registrar_avaliacao":
+            return {"notas": {}, "sugestoes": [], "veredito": "fala com o público"}
+        if saida["name"] == "registrar_avaliacao_viral":
+            if chamadas.count("registrar_avaliacao_viral") == 1:
+                return {"notas": {"gancho": 0, "pagamento": 1, "retencao": 1, "envio": 1, "conversa": 1},
+                        "sugestoes": ["O gancho não abre lacuna no bolso de quem assiste."], "veredito": "morno"}
+            return {"notas": {}, "sugestoes": [], "veredito": "para o dedo"}
+        if saida["name"] == "registrar_apoios":
+            return {"apoios": []}
+        if chamadas.count("registrar_roteiro") == 2:
+            assert "especialista em viralização, nota 4/10" in pedido and "lacuna" in pedido
+        return _bruto()
+    monkeypatch.setattr(ia, "estruturado", falso)
+    r = roteirista.escrever(object(), "fechamento", MATERIAL)
+    assert r["aprovado"] and r["tentativas"] == 2 and r["viral"]["nota"] == 10
+    assert any("🔥 Especialista em viralização: 10/10" in m for m in roteirista.pacote_whatsapp(r, "Teste"))

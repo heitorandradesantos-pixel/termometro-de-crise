@@ -21,7 +21,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from . import config, estrategista, ia
+from . import config, estrategista, ia, viral
 from .revisor import linguagem_proibida
 
 PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
@@ -235,28 +235,31 @@ def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
               f"Tamanho: o gancho e o corpo, juntos, têm de {PALAVRAS[0] - fixo} a {PALAVRAS[1] - fixo} palavras "
               f"(mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} da assinatura, da chamada, do aviso e do bordão.\n\n"
               f"MATERIAL CONFERIDO (a única fonte de números e fatos):\n{material}")
-    problemas, marca, melhor = [], None, None
+    problemas, marca, vir, melhor = [], None, None, None
     for tentativa in range(3):
         texto = pedido if not problemas else (
-            pedido + "\n\nA VERSÃO ANTERIOR FOI REPROVADA NA CONFERÊNCIA. Corrija exatamente isto:\n- "
-            + "\n- ".join(problemas))
+            pedido + "\n\nA VERSÃO ANTERIOR FOI REPROVADA. Corrija exatamente isto:\n- " + "\n- ".join(problemas))
         r = montar(ia.estruturado(cliente, SISTEMA, texto, ferramenta(), max_tokens=6000), chamada)
         problemas = conferir(r, material)
         if problemas:
             continue
-        marca = avaliar_marca(cliente, r)  # fatos conferidos: agora o Estrategista vê se fala com o público certo
-        if melhor is None or (marca["nota"] or 0) > (melhor[1]["nota"] or 0):
-            melhor = (r, marca, tentativa)
-        if marca["aprovado"] or tentativa == 2:
+        marca = avaliar_marca(cliente, r)  # fatos conferidos: o Estrategista vê se fala com o público certo
+        vir = avaliar_viral(cliente, r, tipo)  # e o Especialista em viralização, se para o dedo e é enviado
+        soma = sum(10 if x["nota"] is None else x["nota"] for x in (marca, vir))  # quem falhou não pesa contra
+        if melhor is None or soma > melhor[3]:
+            melhor = (r, marca, vir, soma)
+        if (marca["aprovado"] and vir["aprovado"]) or tentativa == 2:
             break
-        problemas = [f"(estrategista de marca, nota {marca['nota']}/10) {s}" for s in marca["sugestoes"]] or \
-            [f"(estrategista de marca, nota {marca['nota']}/10) {marca['veredito']}"]
-    if problemas and melhor:  # a última versão errou um fato: fica a melhor versão já conferida
+        problemas = ([f"(especialista em viralização, nota {vir['nota']}/10) {x}" for x in vir["sugestoes"]
+                      or [vir["veredito"]]] if not vir["aprovado"] else []) + \
+                    ([f"(estrategista de marca, nota {marca['nota']}/10) {x}" for x in marca["sugestoes"]
+                      or [marca["veredito"]]] if not marca["aprovado"] else [])
+    if problemas and melhor:  # a última versão errou um fato ou não passou: fica a melhor versão já conferida
         problemas = []
     if melhor and not problemas:
-        r, marca, _ = melhor
+        r, marca, vir, _ = melhor
     saida = {**r, "tipo": tipo, "persona": PERSONA, "aprovado": not problemas, "problemas": problemas,
-             "tentativas": tentativa + 1, "marca": marca}
+             "tentativas": tentativa + 1, "marca": marca, "viral": vir}
     if not problemas:  # só roteiro aprovado ganha imagens de apoio
         try:
             saida.update(apoiar(cliente, r))
@@ -264,6 +267,14 @@ def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
             saida.update(apoios=[], apoios_ok=False, apoios_problemas=[f"imagens de apoio falharam: {erro}"])
     saida["teleprompter"] = teleprompter(r)
     return saida
+
+
+def avaliar_viral(cliente, r: dict, tipo: str = "") -> dict:
+    """A nota do Especialista em viralização (etapa obrigatória desde 13/11). Se ele falhar, o roteiro segue."""
+    try:
+        return viral.avaliar(cliente, "\n".join(r["linhas"]) + "\n\nLEGENDA DO POST:\n" + r["legenda"], TIPOS.get(tipo, tipo))
+    except Exception as erro:  # noqa: BLE001
+        return {"nota": None, "aprovado": True, "notas": {}, "sugestoes": [], "veredito": f"especialista falhou: {erro}"}
 
 
 def avaliar_marca(cliente, r: dict) -> dict:
@@ -418,6 +429,8 @@ def pacote_whatsapp(roteiro: dict, titulo: str, numero: int = 1, total: int = 1)
                 + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
                 + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()
                    if (marca := roteiro.get("marca") or {}).get("nota") is not None else "")
+                + (f"\n🔥 Especialista em viralização: {vir['nota']}/10. {vir.get('veredito', '')}".rstrip()
+                   if (vir := roteiro.get("viral") or {}).get("nota") is not None else "")
                 + "\n\n👇 Próxima mensagem: a legenda do post, sozinha, para copiar e colar no Instagram.")
     return [*msgs, roteiro["legenda"], f"{LINHA}\n✅ FIM DO {nome}\n{LINHA}"]
 

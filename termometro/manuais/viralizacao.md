@@ -3,6 +3,10 @@
 Assento novo no squad (11/11/2026, pedido do Heitor). Olha cada roteiro com uma pergunta só: a pessoa que nunca
 ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para alguém?
 
+Desde 13/11 é etapa obrigatória do robô (termometro/viral.py): todo roteiro aprovado nos fatos e na marca passa
+por ele (nota de 0 a 10 em gancho, pagamento, retenção, envio e conversa). Abaixo de 8, o Roteirista reescreve com
+as sugestões dele. A nota sai na mensagem de edição do WhatsApp ("🔥 Especialista em viralização").
+
 ## O que o Instagram mede (segundo o próprio Adam Mosseri, chefe do Instagram)
 - Os sinais que mais pesam para chegar em quem não segue: tempo assistido, curtidas por alcance e envios
   (compartilhamentos) por alcance. Envio é o sinal mais forte de "isso vale mostrar para mais gente".
@@ -62,7 +66,8 @@ ouviu falar do Termômetro para de rolar, fica até o fim e manda o vídeo para 
   dívida, salário, benefício). Assunto de investidor de nicho ou de contador só entra se virar dinheiro do dia a dia.
 - Correção do Heitor (12/11): MESCLAR. A maior parte é assunto do dia a dia (o vizinho comentaria), mas assunto
   de investidor (balanço de empresa, bolsa, Nvidia, IPO, ETF, pacote fiscal) também entra, explicado em linguagem
-  popular e puxando para o bolso. Uma boa proporção: de cada 3 vídeos, 2 do dia a dia e 1 de investidor.
+  popular e puxando para o bolso. Uma boa proporção: de cada 3 vídeos, 2 do dia a dia e 1 de investidor. Em 13/11 o Heitor pediu lotes de 5: 3
+  virais (bolso, assunto que o vizinho comenta) e 2 técnicos (investidor).
 
 ## Hashtags
 - Nunca usar #cambio: a Meta recusa o envio de Reel com ela pela API (11/11), sinal de hashtag restrita.
