@@ -28,11 +28,15 @@ PERSONA = os.environ.get("PERSONA_NOME") or "Heitor"
 ASSINATURA = f"Eu sou o {PERSONA}, do Termômetro de Crise."  # no fim, como o Pablo Spyer: o começo é só conteúdo
 FECHO = "Não recomendamos: só mostramos a temperatura do mundo."
 BORDAO = os.environ.get("BORDAO") or "Sem alarde. Eu sou só o termômetro!"  # a última frase de todo vídeo
-CHAMADAS = {"grupo": "O grupo do WhatsApp está no link da bio.",
-            "newsletter": "O Termômetro da Semana chega por e-mail: link na bio."}
+CHAMADAS = {"grupo": "Comenta GRUPO que eu te mando o link do nosso WhatsApp.",
+            "newsletter": "Comenta SEMANA que eu te mando o Termômetro da Semana por e-mail."}
+# Fim curto (13/11, pedido do Heitor: "parar de falar aquele final de quase 15 segundos e bolar algo que gere
+# engajamento"). Falado: UMA frase de engajamento escrita pelo Roteirista + o bordão. A apresentação e o aviso de
+# não recomendação saem da fala e ficam na tela final do vídeo e na legenda.
+TELA_FINAL = f"{ASSINATURA} {FECHO}"
 AVISO_LEGENDA = "Conteúdo educativo, não é recomendação de investimento."
 PALAVRAS_POR_MINUTO = 150
-PALAVRAS = (85, 115)  # 30 a 45 s de fala depois do corte das pausas, contando apresentação, fecho e chamada
+PALAVRAS = (85, 115)  # 30 a 45 s de fala depois do corte das pausas, contando o engajamento e o bordão
 MAXIMO_FALA = 18  # palavras por fala (uma respiração)
 NOTA_MINIMA = 7
 
@@ -54,9 +58,15 @@ SISTEMA = f"""Você é o Roteirista do "{config.NOME}", um portal financeiro bra
 {PERSONA}, apresentador do {config.NOME} (uma pessoa de verdade, que grava no celular lendo um teleprompter), fala em
 vídeos verticais de 30 a 45 segundos.
 
-O programa põe sozinho, no fim, a chamada para o link da bio, a apresentação "{ASSINATURA}",
-o aviso "{FECHO}" e o bordão "{BORDAO}" (a última frase de todo vídeo). Não escreva nada disso, nem uma
-frase parecida com o bordão no fim do corpo. Você escreve só o gancho (3 opções, com nota) e o corpo, mais o texto da tela e a legenda.
+O programa põe sozinho o bordão "{BORDAO}" como última frase (a apresentação e o aviso de não recomendação
+ficam só na tela final e na legenda: não escreva). Você escreve o gancho (3 opções, com nota), o corpo, UMA frase de
+engajamento (campo "engajamento", logo antes do bordão), o texto da tela e a legenda.
+
+A frase de engajamento (até 14 palavras) faz a pessoa COMENTAR. Escolha a que combina com o vídeo:
+- pergunta de duas saídas ligada ao gancho, que se responde com uma palavra: "E aí: pechincha ou armadilha? Comenta aí."
+  "Você já caiu nessa? Comenta SIM ou NÃO."; nunca pergunta sobre comprar, vender ou investir em algo;
+- ou o convite do grupo: "{CHAMADAS['grupo']}" (use quando o assunto continua no grupo: notícia que muda amanhã).
+Nada de "deixa seu like", "me segue", "assiste até o final", nem venda.
 
 Regras:
 1. Todo número que você escrever tem de estar no material, escrito do mesmo jeito (vírgula decimal, ponto de milhar).
@@ -105,6 +115,7 @@ def ferramenta() -> dict:
                                             "properties": {k: nota for k in ("especifico", "tensao", "espectador",
                                                                              "rapido", "verdadeiro")}}}}},
                 "gancho_escolhido": {"type": "integer", "minimum": 0, "maximum": 2},
+                "engajamento": {"type": "string", "description": "UMA frase (até 14 palavras) que faz a pessoa comentar."},
                 "falas": {"type": "array", "minItems": 5, "maxItems": 10, "items": {"type": "string"},
                           "description": "O corpo, uma frase por fala, sem o gancho, sem assinatura e sem fecho."},
                 "retomada": {"type": "integer", "description": "Índice (a partir de 0) da fala que reacende a atenção."},
@@ -164,7 +175,8 @@ def montar(bruto: dict, chamada: str = "grupo") -> dict:
     i = bruto.get("gancho_escolhido", 0)
     gancho = ganchos[i] if 0 <= i < len(ganchos) else (ganchos[0] if ganchos else {"texto": "", "na_tela": ""})
     falas = [f.strip() for f in bruto.get("falas") or [] if f.strip()]
-    linhas = [gancho["texto"].strip(), *falas, CHAMADAS.get(chamada, CHAMADAS["grupo"]), ASSINATURA, FECHO, BORDAO]
+    engajamento = (bruto.get("engajamento") or "").strip() or CHAMADAS.get(chamada, CHAMADAS["grupo"])
+    linhas = [gancho["texto"].strip(), *falas, engajamento, BORDAO]
     texto = " ".join(linhas)
     hashtags = ["#" + _sem_acento(h.lstrip("#").replace(" ", "")).lower() for h in bruto.get("hashtags") or []]
     hashtags = [h for h in hashtags if h not in HASHTAGS_PROIBIDAS][:5]
@@ -230,10 +242,10 @@ def conferir(r: dict, material: str) -> list[str]:
 
 def escrever(cliente, tipo: str, material: str, chamada: str = "grupo") -> dict:
     """Pede o roteiro; se a conferência reprovar, pede outra versão (até 3) com a lista do que corrigir."""
-    fixo = _palavras(" ".join([ASSINATURA, FECHO, BORDAO, CHAMADAS.get(chamada, CHAMADAS["grupo"])]))
-    pedido = (f"Tipo de vídeo: {TIPOS[tipo]}\nChamada do fim (o programa põe): {CHAMADAS.get(chamada)}\n"
-              f"Tamanho: o gancho e o corpo, juntos, têm de {PALAVRAS[0] - fixo} a {PALAVRAS[1] - fixo} palavras "
-              f"(mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} da assinatura, da chamada, do aviso e do bordão.\n\n"
+    fixo = _palavras(BORDAO)
+    pedido = (f"Tipo de vídeo: {TIPOS[tipo]}\nConvite do grupo, se a frase de engajamento for ele: {CHAMADAS.get(chamada)}\n"
+              f"Tamanho: o gancho, o corpo e a frase de engajamento, juntos, têm de {PALAVRAS[0] - fixo} a {PALAVRAS[1] - fixo} "
+              f"palavras (mire em {PALAVRAS[1] - fixo - 8}); o programa soma mais {fixo} do bordão.\n\n"
               f"MATERIAL CONFERIDO (a única fonte de números e fatos):\n{material}")
     problemas, marca, vir, melhor = [], None, None, None
     for tentativa in range(3):
@@ -327,7 +339,7 @@ def prompt_apoio(visual: str) -> str:
 
 def conferir_apoios(apoios: list[dict], roteiro: dict) -> list[str]:
     problemas = []
-    corpo = range(1, len(roteiro["linhas"]) - 4)  # sem gancho, chamada, apresentação, aviso e bordão
+    corpo = range(1, len(roteiro["linhas"]) - 2)  # sem gancho, engajamento e bordão
     if not APOIOS[0] <= len(apoios) <= APOIOS[1]:
         problemas.append(f"são {len(apoios)} imagens de apoio; precisam ser de {APOIOS[0]} a {APOIOS[1]}")
     fora = [a.get("fala") for a in apoios if a.get("fala") not in corpo]
@@ -390,7 +402,8 @@ def teleprompter(roteiro: dict) -> str:
 
 DICAS = ("Dicas: celular na vertical, na altura dos olhos, luz de frente (janela ou ring light). Grave tudo de uma vez; "
          "se errar, pare, respire e repita só a frase. Na rua, microfone na roupa e nunca grave dirigindo. "
-         f"O bordão \"{BORDAO}\" é a última frase: olho na câmera, calmo e firme. "
+         "O fim agora é curto: a pergunta de comentar (falada com vontade de ouvir a resposta) e o bordão "
+         f"\"{BORDAO}\", olho na câmera, calmo e firme. A apresentação e o aviso eu ponho na tela. "
          "Me mande o vídeo aqui que eu edito.")
 
 
@@ -421,10 +434,10 @@ def pacote_whatsapp(roteiro: dict, titulo: str, numero: int = 1, total: int = 1)
     if rua.get("gancho") and rua.get("topicos"):
         msgs.append("🚶 VERSÃO RUA (sem teleprompter: decore o gancho e fale os tópicos do seu jeito)\n\n"
                     f"Gancho: {rua['gancho']}\n" + "\n".join(f"• {t}" for t in rua["topicos"])
-                    + "\n\nFecho: " + " ".join(roteiro["linhas"][-3:]))
+                    + "\n\nFecho: " + " ".join(roteiro["linhas"][-2:]))
     prints = "\n".join(f"- {p['veiculo']}: \"{p['destaque']}\" ({p['url']})" for p in roteiro.get("prints") or [])
     msgs.append(f"✂️ NA EDIÇÃO (eu faço)\nTexto na tela: {tela or '-'}"
-                + f"\nNo fim: o bordão \"{BORDAO}\" em letra grande e a tela de \"siga\""
+                + f"\nNo fim: o bordão \"{BORDAO}\" em letra grande e a tela final com \"{TELA_FINAL}\" e o \"siga\""
                 + (f"\nPrints da fonte no terço de cima (a prova, sem tapar o rosto):\n{prints}" if prints else "")
                 + (f"\nImagens de apoio do Flow por cima das falas:\n{apoios}" if apoios else "")
                 + (f"\n\n🧠 Estrategista de marca: {marca['nota']}/10. {marca.get('veredito', '')}".rstrip()

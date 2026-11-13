@@ -17,10 +17,13 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
         "Mas tem um detalhe que pouca gente viu: o dólar também subiu.",
         "Ele fechou em R$ 5,51, alta de 0,85%.",
         "O termômetro do Brasil está em 64, na faixa de Tensão.",
+        "Antes de mexer no dinheiro, olhe com calma o seu prazo e a sua reserva.",
+        "Quem tem dívida em dólar sente primeiro, então vale conferir a fatura.",
     ]
     return {"ganchos": [{"formula": "número + porquê", "texto": gancho, "na_tela": "Ibovespa *+1,39%*",
                          "nota": nota or NOTA_BOA}] * 3,
             "gancho_escolhido": 0, "falas": falas, "retomada": 2,
+            "engajamento": "E aí, o dólar ainda sobe mais? Comenta SIM ou NÃO.",
             "na_tela": [{"fala": 0, "texto": "168.501 pontos", "fonte": "Yahoo Finance"},
                         {"fala": 3, "texto": "R$ 5,51", "fonte": "Yahoo Finance"}],
             "rua": {"gancho": "O Ibovespa subiu 1,39% hoje.", "topicos": [
@@ -31,9 +34,10 @@ def _bruto(falas=None, gancho="O Ibovespa subiu 1,39% hoje, e o motivo está nos
             "hashtags": ["ibovespa", "#dólar", "mercadofinanceiro"]}
 
 
-def test_roteiro_bom_passa_e_ganha_assinatura_fecho_e_aviso():
+def test_roteiro_bom_passa_e_termina_com_engajamento_e_bordao():
     r = roteirista.montar(_bruto())
-    assert r["linhas"][-3] == roteirista.ASSINATURA and r["linhas"][-2] == roteirista.FECHO
+    assert r["linhas"][-2] == "E aí, o dólar ainda sobe mais? Comenta SIM ou NÃO."
+    assert roteirista.ASSINATURA not in r["linhas"] and roteirista.FECHO not in r["linhas"]  # vão para a tela final
     assert r["linhas"][-1] == roteirista.BORDAO == "Sem alarde. Eu sou só o termômetro!"
     assert roteirista.conferir(r, MATERIAL) == []
     assert 34 <= r["segundos"] <= 46 and r["retomada"] == 3
@@ -108,7 +112,7 @@ def test_imagens_de_apoio_teleprompter_e_pacote_do_whatsapp(monkeypatch):
     assert any("fora do corpo" in p for p in problemas) and any("número dentro" in p for p in problemas)
     assert any("de 2 a 3" in p for p in problemas)
     r = {**r, **d}
-    assert roteirista.teleprompter(r).split("\n\n") == r["linhas"] and r["linhas"][-3] == roteirista.ASSINATURA
+    assert roteirista.teleprompter(r).split("\n\n") == r["linhas"] and r["linhas"][-1] == roteirista.BORDAO
     msgs = roteirista.pacote_whatsapp(r, "Ibovespa hoje")
     assert len(msgs) == 6 and msgs[1] == roteirista.teleprompter(r) and "🎬 ROTEIRO: Ibovespa hoje" in msgs[0]
     assert "Formato sugerido: RUA" in msgs[0] and "VERSÃO RUA" in msgs[2] and "• O dólar subiu 0,85%" in msgs[2]
@@ -182,3 +186,9 @@ def test_especialista_em_viralizacao_pede_nova_versao_quando_a_nota_e_baixa(monk
     r = roteirista.escrever(object(), "fechamento", MATERIAL)
     assert r["aprovado"] and r["tentativas"] == 2 and r["viral"]["nota"] == 10
     assert any("🔥 Especialista em viralização: 10/10" in m for m in roteirista.pacote_whatsapp(r, "Teste"))
+
+
+def test_sem_frase_de_engajamento_entra_o_convite_do_grupo():
+    b = _bruto(); b.pop("engajamento")
+    r = roteirista.montar(b)
+    assert r["linhas"][-2] == roteirista.CHAMADAS["grupo"] and "Comenta GRUPO" in r["linhas"][-2]

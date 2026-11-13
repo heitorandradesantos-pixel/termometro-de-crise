@@ -23,7 +23,13 @@ Como o script funciona (vale para os próximos):
    do mercado financeiro", com o logo e o botão "Seguir". Curta de propósito: tela parada longa faz a pessoa
    passar o Reel antes do fim e derruba o alcance. Duração ajustável com `"final"` no config.json (ex.: 5).
 
-## Apresentação no fim (a partir de 11/11)
+## Fim curto com engajamento (a partir de 13/11)
+O Heitor pediu para parar com o fim de ~15 s. Falado agora: uma frase que faz comentar (pergunta de duas saídas ou
+"Comenta GRUPO que eu te mando o link do nosso WhatsApp") + o bordão. "Eu sou o Heitor, do Termômetro de Crise. Não
+recomendamos: só mostramos a temperatura do mundo." fica escrito na tela final (Fim.tsx) e o aviso segue na legenda.
+Vídeo gravado no formato antigo: não precisa de cartão de aviso extra, a tela final já mostra.
+
+## Apresentação no fim (11/11 a 12/11, substituído pelo fim curto)
 O vídeo abre no gancho. "Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do
 mundo." vem no fim, antes do bordão. Não há mais teste com e sem apresentação.
 

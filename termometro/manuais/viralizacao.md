@@ -128,3 +128,10 @@ Brasil). O que funciona e vale para nós:
    mando o link do WhatsApp". Precisa de automação de resposta no direct; até lá, ele responde à mão.
 O que NÃO usar: venda de curso no fim, "assiste até o final" vazio, termo técnico sem tradução ("pontos-base"), e a
 opinião de gestor sobre a ação (ele é gestor; nós não recomendamos).
+
+## Fim curto que puxa comentário (13/11, decidido pelo Heitor)
+- O fim falado de ~15 s (grupo, apresentação, aviso, bordão) derrubava o tempo assistido no final. Agora: UMA frase de
+  engajamento + o bordão (~5 s). Apresentação e aviso na tela final e na legenda.
+- A frase faz comentar: pergunta de duas saídas ligada ao gancho ("pechincha ou armadilha? comenta aí"; "você já caiu
+  nessa? SIM ou NÃO") ou "Comenta GRUPO que eu te mando o link do nosso WhatsApp" (comentário + lead do grupo).
+- O Heitor responde os comentários na primeira hora (mandando o link a quem comentou GRUPO): é o que mais pesa.

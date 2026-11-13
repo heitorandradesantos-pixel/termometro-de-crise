@@ -91,6 +91,12 @@ export const TelaFinal: React.FC = () => {
       >
         Seguir
       </div>
+      {/* Desde 13/11 a apresentação e o aviso não são mais falados: ficam aqui, na tela final. */}
+      <div style={{ fontWeight: 600, fontSize: 34, lineHeight: 1.3, color: CORES.apagado, marginTop: 40, ...entrar(frame, 22) }}>
+        Eu sou o Heitor, do Termômetro de Crise.
+        <br />
+        Não recomendamos: só mostramos a temperatura do mundo.
+      </div>
     </AbsoluteFill>
   );
 };
