@@ -1,0 +1,186 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \"desconto\".",
+  "na_tela": "R$ 1,5 mil vira \"desconto\"",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \"desconto\".",
+   "na_tela": "R$ 1,5 mil vira \"desconto\"",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu desconto da Black Friday é real? Dá para conferir antes de pagar.",
+   "na_tela": "Seu desconto é real?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Comprou online na Black Friday? Você tem 7 dias para desistir.",
+   "na_tela": "7 dias para desistir",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \"desconto\".",
+  "Segundo o Procon-ES, a loja eleva o preço semanas antes.",
+  "Depois o \"desconto\" só devolve o valor de sempre.",
+  "É como a feira: sem anotar o preço, você não percebe.",
+  "Por isso, a Senacon pede: confira o histórico de preço.",
+  "Anote o de hoje e compare com 27 de novembro.",
+  "Comprou online? Tem 7 dias para desistir, frete incluído.",
+  "Manda para quem vai comprar na Black Friday.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \"desconto\". Segundo o Procon-ES, a loja eleva o preço semanas antes. Depois o \"desconto\" só devolve o valor de sempre. É como a feira: sem anotar o preço, você não percebe. Por isso, a Senacon pede: confira o histórico de preço. Anote o de hoje e compare com 27 de novembro. Comprou online? Tem 7 dias para desistir, frete incluído. Manda para quem vai comprar na Black Friday. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "R$ 1,5 mil vira \"desconto\"",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 1 mil → R$ 1,5 mil → R$ 1 mil",
+   "fonte": "Gazeta Mercantil"
+  },
+  {
+   "fala": 4,
+   "texto": "Confira o histórico de preço",
+   "fonte": "Senacon"
+  },
+  {
+   "fala": 5,
+   "texto": "Black Friday: 27 de novembro",
+   "fonte": "Folha Vitória"
+  },
+  {
+   "fala": 6,
+   "texto": "7 dias para desistir",
+   "fonte": "gov.br / Ministério da Justiça e Segurança Pública"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Black Friday 2026: como saber se o desconto é real",
+ "legenda": "Black Friday 2026: como saber se o desconto é real\n\nA Black Friday é na sexta-feira, 27 de novembro. Segundo o Procon-ES, um truque comum é a loja elevar o preço semanas antes e depois anunciar um \\\"desconto\\\" que só volta ao valor de sempre. O exemplo citado: um produto de R$ 1 mil vai a R$ 1,5 mil e depois é oferecido por R$ 1 mil.\n\nA Senacon pede que você confira o histórico de preço antes de acreditar no percentual do anúncio. Anote o preço de hoje e compare com o do dia 27.\n\nNa compra online, segundo o Ministério da Justiça, você tem 7 dias para desistir, e a devolução inclui o frete. Na loja física, a troca depende da política da loja.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#blackfriday #direitodoconsumidor #procon #educacaofinanceira",
+ "hashtags": [
+  "#blackfriday",
+  "#direitodoconsumidor",
+  "#procon",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Black Friday: o \"desconto\" pode ser o mesmo preço de sempre.",
+  "topicos": [
+   "Procon-ES: preço vai de R$ 1 mil a R$ 1,5 mil e volta.",
+   "A Senacon pede para conferir o histórico de preço antes de acreditar no percentual.",
+   "Online, são 7 dias para desistir, segundo o Ministério da Justiça.",
+   "Anote o preço hoje, compare com 27 de novembro e guarde prints."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e passo a passo, que rende mais com calma na bancada do que como notícia quente na rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Segundo o Procon-ES, a loja eleva o preço semanas antes.\": falta a virada da casa. Abra essa linha com \"Olha só\" e use \"a gente\" e \"pra\", para soar conversa de portão e menos boletim.",
+   "Frase \"É como a feira: sem anotar o preço, você não percebe.\": a comparação ficou curta. Desenvolva com o mesmo R$ 1 mil e R$ 1,5 mil: se você não lembra quanto custava, qualquer \"promoção\" parece boa. Assim ela vira imagem viva sem inventar número.",
+   "Frase \"Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \\\"desconto\\\".\": o gancho é bom, mas a identificação só chega no fim (\"Manda para quem vai comprar\"). Acrescente \"Vai comprar na Black Friday?\" logo depois do gancho, para a pessoa se reconhecer cedo."
+  ],
+  "veredito": "Peça sólida: gancho direto, fontes citadas (Procon-ES, Senacon), um passo simples (anotar o preço), saída de proteção (7 dias para desistir) e fecho correto; falta o tom mais popular, com a virada \\\"Olha só\\\" e uma comparação com a feira mais viva."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho (frase 1: \"Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \\\"desconto\\\".\"): tem número, mas fala de um produto genérico e não aponta para o bolso de quem assiste. Reescrita com os mesmos números, falando com a pessoa: \"Na Black Friday, um produto de R$ 1 mil pode subir para R$ 1,5 mil e voltar a R$ 1 mil como \\\"desconto\\\". Você pode estar pagando o preço de sempre.\" Assim a pessoa se reconhece como quem vai comprar, e a lacuna fica do bolso dela.",
+   "Retenção (entre a frase 2 e a 5): falta uma virada no meio para segurar quem ia sair, e o número mais forte (os 7 dias de desistência) fica só no final, em fala corrida. Reescrita: antes de \"Comprou online?\", entre com \"Olha só: tem um detalhe que pouca gente sabe.\" Depois: \"Comprou online? Você tem 7 dias para desistir, e a devolução inclui o frete.\" Assim o número guardado vira o segundo respiro do vídeo.",
+   "Conversa (frase 8: \"Manda para quem vai comprar na Black Friday.\"): o envio já é bom, mas falta uma pergunta simples para puxar comentário. Reescrita para o fim do corpo, antes da apresentação: \"Você já caiu num desconto que era o preço de sempre? Conta aqui.\" Mantém o tom sem polêmica e dá vontade de responder, sem culpar a loja além do que o Procon-ES diz."
+  ],
+  "veredito": "Roteiro bem pago e com bom motivo de envio (\\\"manda para quem vai comprar na Black Friday\\\"), mas o gancho fala de um produto qualquer em vez de falar com quem assiste, e faltam uma virada no meio e uma pergunta para puxar comentário."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Vertical shot, slow dolly along a brightly lit electronics store shelf with plain unbranded boxes and small blank white shelf tags, no text or numbers anywhere, shallow depth of field, empty aisle with no people",
+   "texto_da_fala": "Segundo o Procon-ES, a loja eleva o preço semanas antes.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly along a brightly lit electronics store shelf with plain unbranded boxes and small blank white shelf tags, no text or numbers anywhere, shallow depth of field, empty aisle with no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot of a busy open-air street market stall at morning, crates of colorful tomatoes, oranges and leafy greens with blank cardboard signs, no text, slow push-in then gentle pan across the produce, warm natural light, no people in focus",
+   "texto_da_fala": "É como a feira: sem anotar o preço, você não percebe.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of a busy open-air street market stall at morning, crates of colorful tomatoes, oranges and leafy greens with blank cardboard signs, no text, slow push-in then gentle pan across the produce, warm natural light, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Vertical close-up of a plain unbranded cardboard parcel on a wooden table by a window, an open box being re-sealed with brown packing tape by hands out of focus, no logos or text, slow orbiting camera move, soft daylight",
+   "texto_da_fala": "Comprou online? Tem 7 dias para desistir, frete incluído.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up of a plain unbranded cardboard parcel on a wooden table by a window, an open box being re-sealed with brown packing tape by hands out of focus, no logos or text, slow orbiting camera move, soft daylight. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \"desconto\".\n\nSegundo o Procon-ES, a loja eleva o preço semanas antes.\n\nDepois o \"desconto\" só devolve o valor de sempre.\n\nÉ como a feira: sem anotar o preço, você não percebe.\n\nPor isso, a Senacon pede: confira o histórico de preço.\n\nAnote o de hoje e compare com 27 de novembro.\n\nComprou online? Tem 7 dias para desistir, frete incluído.\n\nManda para quem vai comprar na Black Friday.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "gov.br / Ministério da Justiça e Segurança Pública",
+   "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/consumidor-tem-direito-ao-arrependimento-em-compras-on-line",
+   "destaque": "O artigo 49 do Código de Defesa do Consumidor garante que o consumidor pode desistir de compra feita fora da loja, como internet ou…"
+  }
+ ],
+ "data": "2026-11-13",
+ "gerado_em": "2026-11-13T07:47:34.152909-03:00"
+}
