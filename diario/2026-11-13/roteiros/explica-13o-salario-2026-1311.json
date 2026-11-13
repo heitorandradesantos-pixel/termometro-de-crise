@@ -1,0 +1,178 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "13º de R$ 3.000: primeira parcela R$ 1.500, segunda vem menor.",
+  "na_tela": "13º: a 2ª parcela vem MENOR",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "13º de R$ 3.000: primeira parcela R$ 1.500, segunda vem menor.",
+   "na_tela": "13º: a 2ª parcela vem MENOR",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Erro de todo mundo",
+   "texto": "Se você conta com duas parcelas iguais no 13º, a conta não fecha.",
+   "na_tela": "Duas parcelas iguais? NÃO",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto do seu 13º cai de verdade na segunda parcela?",
+   "na_tela": "Quanto cai na 2ª parcela?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "13º de R$ 3.000: primeira parcela R$ 1.500, segunda vem menor.",
+  "Segundo o Ministério do Trabalho, INSS e Imposto de Renda saem só na segunda parcela.",
+  "É como fatura de cartão: o desconto chega tudo de uma vez.",
+  "Olha só: na conta do iDinheiro, a segunda cai R$ 1.251,40.",
+  "Não gaste a primeira: faça a conta com o valor líquido.",
+  "O valor exato depende de comissão e dependentes; confirme com o RH.",
+  "Manda para quem já gastou o 13º inteiro na cabeça.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "13º de R$ 3.000: primeira parcela R$ 1.500, segunda vem menor. Segundo o Ministério do Trabalho, INSS e Imposto de Renda saem só na segunda parcela. É como fatura de cartão: o desconto chega tudo de uma vez. Olha só: na conta do iDinheiro, a segunda cai R$ 1.251,40. Não gaste a primeira: faça a conta com o valor líquido. O valor exato depende de comissão e dependentes; confirme com o RH. Manda para quem já gastou o 13º inteiro na cabeça. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "13º: a 2ª parcela vem MENOR",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "INSS e Imposto de Renda: só na 2ª parcela",
+   "fonte": "Ministério do Trabalho e Emprego"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 1.500 → R$ 1.251,40",
+   "fonte": "iDinheiro"
+  },
+  {
+   "fala": 4,
+   "texto": "Conta com o valor LÍQUIDO",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 3,
+ "busca": "13º salário 2026: quanto cai na segunda parcela",
+ "legenda": "13º salário 2026: quanto cai na segunda parcela?\n\nSegundo o Ministério do Trabalho e Emprego, a primeira parcela vem sem desconto de INSS e Imposto de Renda. Os descontos saem só na segunda, e por isso ela costuma ser a menor das duas.\n\nNo exemplo do iDinheiro, um 13º de R$ 3.000 rende R$ 1.500 na primeira parcela e R$ 1.251,40 na segunda.\n\nO valor exato de cada pessoa depende de meses trabalhados, comissões, horas extras e dependentes. Confirme com o RH da sua empresa se o pagamento será em parcela única ou em duas.\n\nManda para quem já gastou o 13º inteiro na cabeça.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#13salario #educacaofinanceira #financaspessoais #dinheiro",
+ "hashtags": [
+  "#13salario",
+  "#educacaofinanceira",
+  "#financaspessoais",
+  "#dinheiro"
+ ],
+ "rua": {
+  "gancho": "Seu 13º de R$ 3.000 não cai igual nas duas parcelas.",
+  "topicos": [
+   "Segundo o Ministério do Trabalho, a primeira parcela é metade e vem sem desconto.",
+   "INSS e Imposto de Renda saem só na segunda parcela, segundo o MTE.",
+   "Exemplo do iDinheiro: 13º de R$ 3.000, primeira R$ 1.500, segunda R$ 1.251,40.",
+   "Faça a conta com o valor líquido e confirme o pagamento com o RH."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e vários números, então pede a calma da bancada e o teleprompter.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Não gaste a primeira: faça a conta com o valor líquido.\": \"líquido\" é termo de RH e não está traduzido. Reescreva na mesma frase, por exemplo: \"faça a conta com o que realmente cai na sua conta, já sem os descontos\".",
+   "Frase \"É como fatura de cartão: o desconto chega tudo de uma vez.\": a comparação é boa, mas fica meio solta. Deixe o paralelo mais claro, dizendo que, como a fatura que vem depois da compra, o desconto aparece só no fim e pode surpreender quem já gastou. Assim ela vira cena do dia a dia e não só uma frase de efeito."
+  ],
+  "veredito": "A peça fala com quem tem 13º na mão, traz fonte e exemplo concreto, dá um passo simples e fecha com os bordões certos; o que falta é traduzir \\\"valor líquido\\\" e deixar a comparação com a fatura do cartão mais viva."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"13º de R$ 3.000: primeira parcela R$ 1.500, segunda vem menor.\" soa como lista. Reescrita: \"Se o seu 13º é de R$ 3.000, a segunda parcela não cai R$ 1.500. Cai menos.\" Mesmos números, fala com a pessoa e deixa a lacuna (quanto cai?) para o \"Olha só\" pagar.",
+   "Conversa: antes do \"Manda para quem...\", entre com uma pergunta: \"Você já tinha contado com R$ 1.500 na segunda parcela? Conta aqui nos comentários.\""
+  ],
+  "veredito": "Roteiro bem pago e com envio concreto; falta um gancho que fale direto com quem vai receber o 13º e uma pergunta que puxe comentário."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow upward tilt along the facade of a plain modern government office building in Brasília-style architecture, concrete and glass, clear blue sky, soft morning light. No signs, no text, no flags, no people in focus. Subtle handheld feel",
+   "texto_da_fala": "Segundo o Ministério do Trabalho, INSS e Imposto de Renda saem só na segunda parcela.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the facade of a plain modern government office building in Brasília-style architecture, concrete and glass, clear blue sky, soft morning light. No signs, no text, no flags, no people in focus. Subtle handheld feel. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Close-up macro shot on a wooden desk: a thick stack of blank paper bills and envelopes next to a plain unbranded dark credit card, with no printing or logos. Slow dolly-in from the card to the stack as a pile of loose banknotes is swept across the desk and onto the stack by an out-of-focus hand. Warm indoor light, shallow depth of field",
+   "texto_da_fala": "É como fatura de cartão: o desconto chega tudo de uma vez.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up macro shot on a wooden desk: a thick stack of blank paper bills and envelopes next to a plain unbranded dark credit card, with no printing or logos. Slow dolly-in from the card to the stack as a pile of loose banknotes is swept across the desk and onto the stack by an out-of-focus hand. Warm indoor light, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Top-down shot of a tidy desk with a neat pile of Brazilian banknotes, a small portion of them slowly slid away by a blurred hand, leaving a visibly smaller pile. Slow overhead push-in, soft natural window light, blank notepad and pen beside it, no text and no readable numbers anywhere",
+   "texto_da_fala": "Olha só: na conta do iDinheiro, a segunda cai R$ 1.251,40.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot of a tidy desk with a neat pile of Brazilian banknotes, a small portion of them slowly slid away by a blurred hand, leaving a visibly smaller pile. Slow overhead push-in, soft natural window light, blank notepad and pen beside it, no text and no readable numbers anywhere. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "13º de R$ 3.000: primeira parcela R$ 1.500, segunda vem menor.\n\nSegundo o Ministério do Trabalho, INSS e Imposto de Renda saem só na segunda parcela.\n\nÉ como fatura de cartão: o desconto chega tudo de uma vez.\n\nOlha só: na conta do iDinheiro, a segunda cai R$ 1.251,40.\n\nNão gaste a primeira: faça a conta com o valor líquido.\n\nO valor exato depende de comissão e dependentes; confirme com o RH.\n\nManda para quem já gastou o 13º inteiro na cabeça.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Ministério do Trabalho e Emprego (gov.br)",
+   "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/novembro/decimo-terceiro-salario-entenda-o-direito-regras-e-prazos-de-pagamento",
+   "destaque": "Pelas orientações do MTE, o 13º pode ser pago de uma vez até 30 de novembro ou em duas parcelas: a primeira até 30 de novembro e a segunda…"
+  }
+ ],
+ "data": "2026-11-13",
+ "gerado_em": "2026-11-13T07:41:09.237201-03:00"
+}
