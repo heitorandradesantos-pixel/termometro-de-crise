@@ -1,0 +1,190 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Fez Pix pra golpista? O MED pode devolver em até 11 dias.",
+  "na_tela": "Golpe no Pix: o MED devolve?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Fez Pix pra golpista? O MED pode devolver em até 11 dias.",
+   "na_tela": "Golpe no Pix: o MED devolve?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Seu banco não liga pra testar Pix. Quem liga é golpista.",
+   "na_tela": "Banco não liga pra testar Pix",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Antes, o MED olhava só a primeira conta. Agora, várias.",
+   "na_tela": "MED: antes, 1 conta. Agora, várias",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Fez Pix pra golpista? O MED pode devolver em até 11 dias.",
+  "Segundo o Banco Central, a devolução pode sair em até 11 dias.",
+  "Desde 2 de fevereiro, o MED rastreia o dinheiro por várias contas.",
+  "Pensa numa encomenda: agora rastreiam todas as paradas, não só a primeira.",
+  "Mas calma: não é garantido, e pode vir só uma parte.",
+  "Caiu no golpe? Avise o banco e peça o MED no app.",
+  "Manda pra quem recebe ligação de falso banco pedindo senha.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Fez Pix pra golpista? O MED pode devolver em até 11 dias. Segundo o Banco Central, a devolução pode sair em até 11 dias. Desde 2 de fevereiro, o MED rastreia o dinheiro por várias contas. Pensa numa encomenda: agora rastreiam todas as paradas, não só a primeira. Mas calma: não é garantido, e pode vir só uma parte. Caiu no golpe? Avise o banco e peça o MED no app. Manda pra quem recebe ligação de falso banco pedindo senha. O grupo do WhatsApp está no link da bio. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Golpe no Pix: o MED devolve?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Até 11 dias",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 2,
+   "texto": "MED desde 2 de fevereiro",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 4,
+   "texto": "Sem garantia de devolução",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Peça o MED no app do banco",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "golpe no Pix como pedir o MED",
+ "legenda": "Golpe no Pix: como pedir o MED e o que ainda não se sabe.\n\nSegundo o Banco Central, a devolução pelo MED pode sair em até 11 dias depois da contestação, feita no app do banco. Desde 2 de fevereiro, o MED rastreia o dinheiro por várias contas.\n\nMas não há garantia: a devolução depende de a fraude ser confirmada e de haver saldo, e pode ser parcial. Vale conferir as regras na página do Pix em bcb.gov.br.\n\nCaiu no golpe? Avise o banco na hora, peça o MED no app, guarde comprovantes e conversas e registre boletim de ocorrência.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pix #golpe #med #bancocentral #educacaofinanceira",
+ "hashtags": [
+  "#pix",
+  "#golpe",
+  "#med",
+  "#bancocentral",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Caiu em golpe no Pix? Tô aqui pra te falar do MED.",
+  "topicos": [
+   "Segundo o Banco Central, a devolução pelo MED pode sair em até 11 dias.",
+   "Desde 2 de fevereiro, o MED rastreia o dinheiro por várias contas.",
+   "Não há garantia, e a devolução pode ser parcial.",
+   "Caiu no golpe? Avise o banco, peça o MED no app, guarde provas."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com regra nova e passo a passo, que pede calma e prova na tela, não uma notícia de última hora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Desde 2 de fevereiro, o MED rastreia o dinheiro por várias contas.\": a sigla MED não é traduzida e aparece já no gancho. Reescreva logo na primeira frase, por exemplo \"O MED, o mecanismo de devolução do Pix, pode devolver...\". Assim quem não é do meio entende de cara.",
+   "\"Segundo o Banco Central, a devolução pode sair em até 11 dias.\": a frase repete o gancho e deixa o texto seco, sem a virada da casa. Troque por \"Olha só: segundo o Banco Central, ...\" ou \"Agora vem a parte que pouca gente viu: ...\", e aproveite a linha para dar o porquê do rastreio. Isso dá ritmo e o jeito de conversa.",
+   "\"Caiu no golpe? Avise o banco e peça o MED no app.\": está ótimo como passo simples, mas o tom é de comando. Abra com uma frase acolhedora, por exemplo \"Se aconteceu com você, respira: dá pra agir\", antes do passo. Quem acabou de perder dinheiro precisa de acolhimento (sem piada nem pressa)."
+  ],
+  "veredito": "A peça acerta o público, o fôlego e a ética (fonte, comparação com encomenda, aviso de que não há garantia, passo simples e bordões de fechamento), mas a sigla MED fica sem tradução no gancho e falta a virada \\\"Olha só\\\" e um toque mais acolhedor e popular na fala."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Conversa: o roteiro tem a crença comum (Pix não volta), mas não a diz em voz alta. Frase: \"Fez Pix pra golpista? O MED pode devolver em até 11 dias.\" Reescrita: \"Fez Pix pra golpista? Muita gente acha que não tem volta. Segundo o Banco Central, o MED pode devolver em até 11 dias.\" O gancho segue igual, e a pessoa se reconhece e quer comentar.",
+   "Conversa: antes do bordão, feche com uma pergunta simples. Frase: \"O grupo do WhatsApp está no link da bio.\" Reescrita: \"Você sabia que o MED existe? Conta aqui nos comentários. O grupo do WhatsApp está no link da bio.\""
+  ],
+  "veredito": "Roteiro forte: o gancho tem o número de 11 dias, é pago na hora e tem comparação com encomenda, virada com \\\"mas calma\\\" e envio para situação concreta (quem recebe ligação de falso banco). Para viralizar, falta puxar comentário, dizendo a crença de que Pix não volta e fazendo uma pergunta no fim."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Abstract macro scene of a network of thin glowing threads linking several small frosted-glass nodes in a dark blue space. A single golden pulse of light travels from node to node, hopping through each one in turn. The camera glides smoothly alongside the pulse in a slow tracking shot. No text, no letters, no numbers, no logos, no people",
+   "texto_da_fala": "Desde 2 de fevereiro, o MED rastreia o dinheiro por várias contas.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Abstract macro scene of a network of thin glowing threads linking several small frosted-glass nodes in a dark blue space. A single golden pulse of light travels from node to node, hopping through each one in turn. The camera glides smoothly alongside the pulse in a slow tracking shot. No text, no letters, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "A plain brown cardboard parcel with no markings rides a conveyor belt through a bright modern sorting warehouse. It passes under several red laser scanning stations, one after another, and each scan lights up briefly. The camera follows the parcel in a smooth lateral tracking shot at low angle. No text, no labels, no letters, no numbers, no logos, no people",
+   "texto_da_fala": "Pensa numa encomenda: agora rastreiam todas as paradas, não só a primeira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A plain brown cardboard parcel with no markings rides a conveyor belt through a bright modern sorting warehouse. It passes under several red laser scanning stations, one after another, and each scan lights up briefly. The camera follows the parcel in a smooth lateral tracking shot at low angle. No text, no labels, no letters, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A smartphone lies on a wooden table in a dim living room at dusk, vibrating and lighting up with an incoming call. The screen shows only an abstract glowing green and white pulse, with no text. The camera makes a slow push-in toward the phone with a shallow depth of field. No people, no hands, no text, no letters, no numbers, no logos",
+   "texto_da_fala": "Manda pra quem recebe ligação de falso banco pedindo senha.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A smartphone lies on a wooden table in a dim living room at dusk, vibrating and lighting up with an incoming call. The screen shows only an abstract glowing green and white pulse, with no text. The camera makes a slow push-in toward the phone with a shallow depth of field. No people, no hands, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Fez Pix pra golpista? O MED pode devolver em até 11 dias.\n\nSegundo o Banco Central, a devolução pode sair em até 11 dias.\n\nDesde 2 de fevereiro, o MED rastreia o dinheiro por várias contas.\n\nPensa numa encomenda: agora rastreiam todas as paradas, não só a primeira.\n\nMas calma: não é garantido, e pode vir só uma parte.\n\nCaiu no golpe? Avise o banco e peça o MED no app.\n\nManda pra quem recebe ligação de falso banco pedindo senha.\n\nO grupo do WhatsApp está no link da bio.\n\nEu sou o Heitor, do Termômetro de Crise.\n\nNão recomendamos: só mostramos a temperatura do mundo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Febraban",
+   "url": "https://febrabantech.febraban.org.br/temas/seguranca/golpe-da-falsa-venda-lidera-ranking-de-fraudes-contra-clientes",
+   "destaque": "O dado mais recente da Febraban que encontramos é do 1º semestre de 2025."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
+   "destaque": "O MED não serve para cancelar qualquer Pix."
+  }
+ ],
+ "data": "2026-11-13",
+ "gerado_em": "2026-11-13T07:52:25.815105-03:00"
+}
