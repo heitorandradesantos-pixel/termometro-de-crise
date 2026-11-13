@@ -1,0 +1,129 @@
+{
+ "saida": "black-friday-editado.mp4",
+ "fim": 42.6,
+ "bordao": [
+  40.3,
+  42.6
+ ],
+ "roteiro": [
+  "Preço sobe de R$ 1 mil para R$ 1,5 mil e vira \"desconto\".",
+  "Segundo o Procon-ES, a loja eleva o preço semanas antes.",
+  "Depois o \"desconto\" só devolve o valor de sempre.",
+  "É como a feira: sem anotar o preço, você não percebe.",
+  "Por isso, a Senacon pede: confira o histórico de preço.",
+  "Anote o de hoje e compare com 27 de novembro.",
+  "Comprou online? Tem 7 dias para desistir, frete incluído.",
+  "Manda para quem vai comprar na Black Friday.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "destaques": "\\d|%|black|fraude|procon|senacon|desconto|preço|whatsapp",
+ "corrigir": [
+  [
+   [
+    "Senacom"
+   ],
+   [
+    "Senacon"
+   ]
+  ],
+  [
+   [
+    "1",
+    "000"
+   ],
+   [
+    "1.000"
+   ]
+  ],
+  [
+   [
+    "1",
+    "500"
+   ],
+   [
+    "1.500"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   4.5,
+   "Cuidado com a *Black Fraude*",
+   ""
+  ],
+  [
+   4.6,
+   13.9,
+   "O truque da *Black Fraude*",
+   "Fonte: Procon-ES / Gazeta Mercantil",
+   {
+    "tipo": "linha",
+    "pontos": [
+     {
+      "rotulo": "Antes",
+      "valor": 1000,
+      "texto": "R$ 1.000"
+     },
+     {
+      "rotulo": "Semanas antes",
+      "valor": 1500,
+      "texto": "R$ 1.500"
+     },
+     {
+      "rotulo": "Na Black",
+      "valor": 1000,
+      "texto": "R$ 1.000"
+     }
+    ]
+   }
+  ],
+  [
+   14.1,
+   17.3,
+   "Como na feira: *anote o preço*",
+   ""
+  ],
+  [
+   17.6,
+   25.3,
+   "Anote hoje, compare *dia 27/11*",
+   "Fonte: Senacon"
+  ],
+  [
+   25.4,
+   30.0,
+   "Online: *7 dias pra desistir*",
+   "Fonte: Código de Defesa do Consumidor"
+  ],
+  [
+   30.1,
+   32.6,
+   "Manda pra quem vai *comprar na Black*",
+   ""
+  ],
+  [
+   32.7,
+   35.2,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   35.4,
+   40.2,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ],
+ "remover": [],
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "saida": "selic-10-mil-editado.mp4",
+ "fim": 46.6,
+ "bordao": [
+  44.85,
+  46.6
+ ],
+ "roteiro": [
+  "Seus R$ 10 mil rendem R$ 1.134 no Tesouro. Na poupança, menos.",
+  "Com Selic de 13,75%, segundo o Banco Central, já sem imposto.",
+  "O CDB de 100% do CDI rende cerca de R$ 1.126.",
+  "A Selic é o preço do dinheiro; o CDI anda colado nela.",
+  "Mas a poupança, mesmo sem imposto, rende de R$ 617 a R$ 831.",
+  "Tudo supõe a Selic parada, e o Copom volta em dezembro.",
+  "Calma: confira quanto seu CDB paga de fato.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "destaques": "\\d|%|selic|cdb|cdi|poupança|tesouro|copom|governo|whatsapp",
+ "corrigir": [
+  [
+   [
+    "10",
+    "mil",
+    "reais"
+   ],
+   [
+    "R$ 10",
+    "mil"
+   ]
+  ],
+  [
+   [
+    "1",
+    "134",
+    "reais"
+   ],
+   [
+    "R$ 1.134"
+   ]
+  ],
+  [
+   [
+    "13",
+    "75%"
+   ],
+   [
+    "13,75%"
+   ]
+  ],
+  [
+   [
+    "1",
+    "126",
+    "reais"
+   ],
+   [
+    "R$ 1.126"
+   ]
+  ],
+  [
+   [
+    "Se",
+    "é",
+    "larde"
+   ],
+   [
+    "Sem",
+    "alarde"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   4.3,
+   "R$ 10 mil emprestados *pro governo*",
+   ""
+  ],
+  [
+   4.5,
+   7.6,
+   "Tesouro Selic: *R$ 1.134 no ano*",
+   "Fonte: cálculo com a Selic de 13,75%, já sem IR"
+  ],
+  [
+   7.7,
+   10.0,
+   "Poupança: *bem menos*",
+   ""
+  ],
+  [
+   10.4,
+   14.6,
+   "Selic: *13,75% ao ano*",
+   "Fonte: Banco Central"
+  ],
+  [
+   14.9,
+   18.5,
+   "CDB 100% do CDI: *R$ 1.126*",
+   "Fonte: Investidor10"
+  ],
+  [
+   18.6,
+   22.2,
+   "Selic = *preço do dinheiro*",
+   ""
+  ],
+  [
+   22.3,
+   27.0,
+   "R$ 10 mil em 1 ano, *já sem IR*",
+   "Fonte: Banco Central, Investidor10, Santander e C6",
+   {
+    "tipo": "barras",
+    "itens": [
+     {
+      "rotulo": "Tesouro",
+      "valor": 1134,
+      "texto": "R$ 1.134"
+     },
+     {
+      "rotulo": "CDB",
+      "valor": 1126,
+      "texto": "R$ 1.126"
+     },
+     {
+      "rotulo": "Poupança",
+      "valor": 831,
+      "texto": "até R$ 831"
+     }
+    ]
+   }
+  ],
+  [
+   27.4,
+   30.4,
+   "Próximo Copom: *dezembro*",
+   "Fonte: Banco Central"
+  ],
+  [
+   30.6,
+   33.2,
+   "Confira *quanto seu CDB paga*",
+   ""
+  ],
+  [
+   33.4,
+   38.8,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   39.3,
+   44.7,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ],
+ "remover": [],
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Banco",
+   "do",
+   "Brasil"
+  ]
+ ]
+}

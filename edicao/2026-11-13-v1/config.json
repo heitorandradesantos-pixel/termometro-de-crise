@@ -1,0 +1,158 @@
+{
+ "saida": "13-salario-editado.mp4",
+ "fim": 41.35,
+ "roteiro": [
+  "13º de R$ 3.000: primeira parcela R$ 1.500, segunda vem menor.",
+  "Segundo o Ministério do Trabalho, INSS e Imposto de Renda saem só na segunda parcela.",
+  "É como fatura de cartão: o desconto chega tudo de uma vez.",
+  "Olha só: na conta do iDinheiro, a segunda cai R$ 1.251,40.",
+  "Não gaste a primeira: faça a conta com o valor líquido.",
+  "O valor exato depende de comissão e dependentes; confirme com o RH.",
+  "Manda para quem já gastou o 13º inteiro na cabeça.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "destaques": "\\d|%|13º|inss|imposto|rh|whatsapp|parcela",
+ "corrigir": [
+  [
+   [
+    "3",
+    "000",
+    "00"
+   ],
+   [
+    "3.000"
+   ]
+  ],
+  [
+   [
+    "1",
+    "500",
+    "00"
+   ],
+   [
+    "1.500"
+   ]
+  ],
+  [
+   [
+    "1",
+    "251",
+    "40"
+   ],
+   [
+    "1.251,40"
+   ]
+  ],
+  [
+   [
+    "e",
+    "dinheiro"
+   ],
+   [
+    "iDinheiro"
+   ]
+  ],
+  [
+   [
+    "dependente"
+   ],
+   [
+    "dependentes"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   3.0,
+   "Como o *IR* entra no seu 13º?",
+   ""
+  ],
+  [
+   3.1,
+   7.9,
+   "13º de R$ 3.000: *2ª parcela vem menor*",
+   "",
+   {
+    "tipo": "barras",
+    "itens": [
+     {
+      "rotulo": "1ª parcela",
+      "valor": 1500,
+      "texto": "R$ 1.500"
+     },
+     {
+      "rotulo": "2ª parcela",
+      "valor": 1251.4,
+      "texto": "R$ 1.251"
+     }
+    ]
+   }
+  ],
+  [
+   8.3,
+   12.9,
+   "INSS e IR: *só na 2ª parcela*",
+   "Fonte: Ministério do Trabalho"
+  ],
+  [
+   13.4,
+   16.9,
+   "Desconto chega *de uma vez*",
+   ""
+  ],
+  [
+   17.0,
+   21.4,
+   "2ª parcela *com os descontos*",
+   "Fonte: simulação iDinheiro",
+   {
+    "tipo": "variacao",
+    "de": "R$ 1.500",
+    "para": "R$ 1.251",
+    "delta": "R$ 249"
+   }
+  ],
+  [
+   21.6,
+   24.8,
+   "Conte só *o que cai na conta*",
+   ""
+  ],
+  [
+   24.9,
+   28.3,
+   "Valor exato: *confirme com o RH*",
+   ""
+  ],
+  [
+   28.4,
+   32.2,
+   "Manda pra quem já *gastou o 13º*",
+   ""
+  ],
+  [
+   32.3,
+   35.6,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   35.9,
+   41.3,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ],
+ "remover": [],
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ]
+}

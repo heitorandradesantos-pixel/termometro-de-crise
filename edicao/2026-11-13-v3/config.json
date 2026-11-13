@@ -1,0 +1,92 @@
+{
+ "saida": "golpe-pix-med-editado.mp4",
+ "fim": 38.4,
+ "bordao": [
+  36.3,
+  38.4
+ ],
+ "roteiro": [
+  "Fez Pix pra golpista? O MED pode devolver em até 11 dias.",
+  "Segundo o Banco Central, a devolução pode sair em até 11 dias.",
+  "Desde 2 de fevereiro, o MED rastreia o dinheiro por várias contas.",
+  "Pensa numa encomenda: agora rastreiam todas as paradas, não só a primeira.",
+  "Mas calma: não é garantido, e pode vir só uma parte.",
+  "Caiu no golpe? Avise o banco e peça o MED no app.",
+  "Manda pra quem recebe ligação de falso banco pedindo senha.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "destaques": "\\d|%|pix|golpe|med|banco central|garantido|whatsapp",
+ "cartoes": [
+  [
+   0,
+   4.7,
+   "Pix pro golpista? *Até 11 dias*",
+   ""
+  ],
+  [
+   5.0,
+   7.8,
+   "Devolução em *até 11 dias*",
+   "Fonte: Banco Central"
+  ],
+  [
+   8.2,
+   11.4,
+   "MED rastreia *várias contas*",
+   "Fonte: Banco Central"
+  ],
+  [
+   11.9,
+   15.9,
+   "Como uma *encomenda rastreada*",
+   ""
+  ],
+  [
+   16.2,
+   19.7,
+   "*Não é garantido*: pode vir só uma parte",
+   "Fonte: Banco Central"
+  ],
+  [
+   20.2,
+   23.1,
+   "Nova regra do Pix",
+   "Agência Brasil",
+   {
+    "tipo": "manchete",
+    "veiculo": "Agência Brasil",
+    "titulo": "Nova regra do Pix amplia prazo para contestar golpe",
+    "data": "set/2026"
+   }
+  ],
+  [
+   23.5,
+   26.3,
+   "Manda pra quem recebe *ligação de falso banco*",
+   ""
+  ],
+  [
+   26.6,
+   29.2,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   29.3,
+   35.9,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ],
+ "remover": [],
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ]
+}

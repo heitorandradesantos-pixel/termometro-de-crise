@@ -1,0 +1,152 @@
+{
+ "saida": "dividendo-banco-do-brasil-editado.mp4",
+ "fim": 42.65,
+ "bordao": [
+  40.95,
+  42.65
+ ],
+ "roteiro": [
+  "Tem ação do Banco do Brasil, ou fundo de ações? Seu dividendo encolheu.",
+  "Dividendo é a parte do lucro que o banco repassa.",
+  "Caiu de 30% para 25%: igual participação nos lucros, a fatia encolheu.",
+  "Olha só: o lucro caiu 66,5%, segundo o Metrópoles.",
+  "O banco aponta dívidas atrasadas do agronegócio. A ação caiu mais de 8%.",
+  "Já viu esse corte? Veja no app da corretora quanto você tem nela.",
+  "Manda pra quem tem ação do Banco do Brasil, ou fundo com ela.",
+  "O grupo do WhatsApp está no link da bio.",
+  "Eu sou o Heitor, do Termômetro de Crise.",
+  "Não recomendamos: só mostramos a temperatura do mundo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "destaques": "\\d|%|dividendo|lucro|agro|corretora|whatsapp",
+ "corrigir": [
+  [
+   [
+    "Metrópolis"
+   ],
+   [
+    "Metrópoles"
+   ]
+  ],
+  [
+   [
+    "66",
+    "5"
+   ],
+   [
+    "66,5%"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0,
+   4.5,
+   "Ação do BB? *Seu dividendo encolheu*",
+   ""
+  ],
+  [
+   4.6,
+   7.3,
+   "Dividendo = *parte do lucro* que vai pro acionista",
+   ""
+  ],
+  [
+   7.4,
+   12.2,
+   "Repasse do lucro: *30% → 25%*",
+   "Fonte: Banco do Brasil",
+   {
+    "tipo": "barras",
+    "itens": [
+     {
+      "rotulo": "Antes",
+      "valor": 30,
+      "texto": "30%"
+     },
+     {
+      "rotulo": "Agora",
+      "valor": 25,
+      "texto": "25%"
+     }
+    ]
+   }
+  ],
+  [
+   12.7,
+   16.2,
+   "Lucro do trimestre: *−66,5%*",
+   "Fonte: Banco do Brasil",
+   {
+    "tipo": "barras",
+    "itens": [
+     {
+      "rotulo": "3º tri 2025",
+      "valor": 3.785,
+      "texto": "R$ 3,8 bi"
+     },
+     {
+      "rotulo": "3º tri 2026",
+      "valor": 1.27,
+      "texto": "R$ 1,27 bi"
+     }
+    ]
+   }
+  ],
+  [
+   17.3,
+   19.9,
+   "Motivo: *dívidas atrasadas do agro*",
+   "Fonte: Banco do Brasil"
+  ],
+  [
+   20.1,
+   21.9,
+   "Ação: *queda de mais de 8%*",
+   "Fonte: InfoMoney"
+  ],
+  [
+   22.1,
+   26.3,
+   "Corte nos dividendos",
+   "NC News",
+   {
+    "tipo": "manchete",
+    "veiculo": "NC News",
+    "titulo": "Ações do Banco do Brasil despencam mais de 10% após corte de lucro e dividendos",
+    "data": "12/11/2026"
+   }
+  ],
+  [
+   26.4,
+   29.9,
+   "Manda pra quem tem *ação do BB*",
+   ""
+  ],
+  [
+   30.0,
+   35.1,
+   "Grupo no WhatsApp: *link na bio*",
+   ""
+  ],
+  [
+   35.3,
+   40.8,
+   "*Não recomendamos*: só mostramos a temperatura do mundo",
+   ""
+  ]
+ ],
+ "remover": [],
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ],
+  [
+   "Banco",
+   "do",
+   "Brasil"
+  ]
+ ]
+}
