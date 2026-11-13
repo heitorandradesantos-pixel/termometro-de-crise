@@ -113,3 +113,18 @@ emprestada de um órgão oficial em vez de opinião; notícia fresca ("você viu
 ("se você tem ação de banco..."); "não é X, é Y".
 **Do Nigro, o que NÃO usar:** promessa de "chocar a sociedade" sem entregar, escândalo pessoal como isca, medo de
 prazo ("vai ficar 10 anos parado"), lista que vende curso. É o sensacionalismo que o Heitor pediu para deixar de fora.
+
+## O que aprender com o Ramiro Gomes Ferreira (13/11, indicado pelo Heitor como padrão a alcançar)
+Gestor (Clube do Valor). Leitura de 15 posts em 2 dias pela API (legenda, números e o áudio do Reel do Banco do
+Brasil). O que funciona e vale para nós:
+1. Volume: 6 a 8 posts por dia, misturando Reel e carrossel. Carrossel com roteiro em blocos ("o que foi dito, o que
+   ficou de fora, o que fazer") reaproveita o mesmo assunto do Reel.
+2. Gancho de duas saídas: "barganha ou armadilha?", "alívio ou mais um rombo?". A pessoa fica para saber qual vale.
+3. Expectativa contra realidade com número: "a previsão mais baixa era R$ 2 bi e veio pouco mais de 1".
+4. Identificação por tamanho do grupo: "mais de 1,6 milhão de pessoas têm essa ação". O espectador pensa "sou eu".
+5. Camada dupla de curiosidade: "o mais impressionante não é a queda" adia a resposta e segura até o fim.
+6. Uma tese só no fim, que dá para repetir ("não é prever, é não depender de prever").
+7. Comenta uma PALAVRA e recebe no direct. Gera comentário (sinal forte) e lead. Para nós: "comenta GRUPO que eu te
+   mando o link do WhatsApp". Precisa de automação de resposta no direct; até lá, ele responde à mão.
+O que NÃO usar: venda de curso no fim, "assiste até o final" vazio, termo técnico sem tradução ("pontos-base"), e a
+opinião de gestor sobre a ação (ele é gestor; nós não recomendamos).
