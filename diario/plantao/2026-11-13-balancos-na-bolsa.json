@@ -1,0 +1,120 @@
+{
+ "titulo": "Balanços na bolsa: Banco do Brasil cai e Hapvida sobe: o que se sabe",
+ "descricao": "Banco do Brasil caiu mais de 8% após lucro cair 66,5% e dividendos serem cortados. Hapvida e Santander subiram. Veja o que se sabe.",
+ "palavra_chave": "balanços na bolsa",
+ "lead": "As ações do Banco do Brasil caíram mais de 8% na quinta-feira (12/11), um dia depois de o banco divulgar lucro 66,5% menor no terceiro trimestre e cortar a fatia do lucro paga aos acionistas. No mesmo pregão, Hapvida e Santander subiram após seus resultados, e a Petrobras tinha caído na quarta (11/11). O Ibovespa, índice que reúne as ações mais negociadas, fechou o dia em queda de 0,43%.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Banco do Brasil teve lucro líquido ajustado de R$ 1,27 bilhão no terceiro trimestre, 66,5% abaixo do mesmo período de 2025, quando foi de R$ 3,78 bilhões. O balanço saiu na quarta-feira (11/11), à noite.",
+   "fonte_url": "https://www.metropoles.com/brasil/acoes-do-banco-do-brasil-desabam-835-apos-balanco-do-3o-trimestre-de-2026",
+   "data": "2026-11-11",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "O mercado esperava lucro bem maior: R$ 3,474 bilhões, segundo analistas consultados pela LSEG, empresa de dados financeiros. O banco também cortou a previsão de lucro de 2026 para entre R$ 9 bilhões e R$ 11 bilhões, ante R$ 18 bilhões a R$ 22 bilhões antes.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/bbas3-desaba-balanco-fraco-payout-menor",
+   "data": "2026-11-12",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Sobre dividendos, o payout (a parte do lucro repassada aos acionistas) caiu de 30% para 25%, o mínimo previsto em lei, em 2026 e 2027. O banco suspendeu os pagamentos antecipados de 2027 e cancelou os anúncios previstos para 11 e 19 de novembro. O pagamento do mínimo em 2027 depende da situação de capital do banco.",
+   "fonte_url": "https://businessmoment.com.br/banco-do-brasil-3t26-lucro-dividendos/",
+   "data": "2026-11-12",
+   "veiculo": "Business Moment",
+   "confiavel": false
+  },
+  {
+   "texto": "O banco aponta como causa principal a alta da inadimplência (atraso nos pagamentos) no agronegócio, que elevou o custo do crédito. Analistas ouvidos pelo InfoMoney dizem que o balanço decepcionou e pesa sobre a recuperação do banco.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-traz-decepcao-generalizada-alertas-e-coloca-recuperacao-em-xeque-como-mercado-leu-o-3t/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A ação do Banco do Brasil chegou a cair 10,66% de manhã, a R$ 15,04, e fechou o dia com tombo de mais de 8%. O Ibovespa fechou em queda de 0,43%, aos 171.324,31 pontos, pressionado principalmente pelo banco.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-cai-fiscal-cautela-com-juros-nos-eua-e-balanco-do-bb-pesam-no-indice/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A Hapvida, de planos de saúde, foi a maior alta do Ibovespa na quinta-feira, com ganho de 14,90% em um momento do pregão. O lucro da empresa caiu quase 70% no trimestre, para R$ 107 milhões. Analistas ouvidos pelo InfoMoney dizem que o resultado veio um pouco melhor do que o mercado temia. Mesmo com a alta, a ação acumula queda de mais de 60% em 2026.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/hapvida-hapv3-analise-3t26-sinais-iniciais-de-melhora-mas-pressao-sobre-margens-e-caixa-persiste-acoes/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Santander subiu 3,61% em um momento do pregão de quinta. O Bradesco (-0,07%) e o Itaú Unibanco (-0,10%) ficaram praticamente estáveis, apesar da queda do Banco do Brasil.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A Petrobras caiu na quarta (11/11) após seu balanço e a revisão de investimentos: 2,08% nas ações ordinárias e 3,11% nas preferenciais. Na quinta, a empresa subia cerca de 1% durante a manhã.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-sobe-ajuste-fiscal-alivio-externo",
+   "data": "2026-11-11",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Banco do Brasil divulga o balanço do terceiro trimestre, com lucro de R$ 1,27 bilhão, corte de previsões e do payout.",
+   "fonte_url": "https://fatopaulista.com.br/lucro-banco-do-brasil-despenca-dividendos/",
+   "data": "2026-11-11",
+   "veiculo": "Fato Paulista",
+   "confiavel": false
+  },
+  {
+   "texto": "Petrobras cai 2,08% (ordinárias) e 3,11% (preferenciais) após balanço e revisão de investimentos. O Ibovespa fecha em alta de 0,42%.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-sobe-ajuste-fiscal-alivio-externo",
+   "data": "2026-11-11",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Hapvida divulga resultado do terceiro trimestre, com prejuízo de R$ 118,8 milhões e receita de R$ 8,1 bilhões.",
+   "fonte_url": "https://visnoinvest.com.br/news/16475/bbas3-cai-75-e-hapv3-sobe-132-na-b3-ibovespa-recua-064",
+   "data": "2026-11-11",
+   "veiculo": "Visno Invest",
+   "confiavel": false
+  },
+  {
+   "texto": "Ação do Banco do Brasil chega a cair mais de 10% na abertura e fecha com tombo de mais de 8%.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-cai-fiscal-cautela-com-juros-nos-eua-e-balanco-do-bb-pesam-no-indice/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Hapvida lidera as altas do Ibovespa, com ganho de mais de 13%, e o Santander sobe mais de 3%.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-12112026/",
+   "data": "2026-11-12",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o Banco do Brasil conseguirá pagar o mínimo de dividendos em 2027. O banco diz que isso depende da situação de capital no fim do ano; não há confirmação.",
+  "Por que o Santander subiu na quinta. As fontes consultadas não explicam o motivo, e ele não foi confirmado.",
+  "Qual número vale para o lucro da Hapvida. O InfoMoney fala em lucro de R$ 107 milhões, e outros veículos citam prejuízo de R$ 118,8 milhões. As fontes consultadas não explicam a diferença, que pode vir de critérios contábeis distintos (não confirmado).",
+  "Como a Petrobras fechou na quinta (12/11). Só há o dado da manhã, com alta de cerca de 1%.",
+  "Como reagiram outras grandes empresas que divulgaram balanço na semana, como Vale, Itaú e Bradesco. As buscas não trouxeram dados confiáveis sobre isso."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem ação do Banco do Brasil deve receber menos dividendos: a empresa vai repassar 25% do lucro, e o lucro previsto para 2026 caiu pela metade.",
+  "Não haverá pagamento antecipado de dividendos do Banco do Brasil em novembro. Os anúncios previstos para 11 e 19 de novembro foram cancelados.",
+  "A queda das ações reduz o valor de quem tem papéis do banco na carteira. Fundos de ações que investem na empresa também podem sentir o efeito.",
+  "A alta de um dia, como a da Hapvida, não apaga as perdas do ano: a ação ainda acumula queda de mais de 60% em 2026."
+ ],
+ "como_se_proteger": [],
+ "slug": "balancos-na-bolsa",
+ "publicado_em": "2026-11-13T08:00:17.609304",
+ "atualizado_em": "2026-11-13T08:00:17.609304",
+ "assunto": "Balanços do terceiro trimestre na bolsa nesta semana: o Banco do Brasil decepcionou e cortou dividendos; quais outras grandes empresas caíram ou subiram depois do balanço. Citar as empresas só pelo nome, sem código de ação, em linguagem popular para quem tem ação",
+ "turno": "manha"
+}
