@@ -1,6 +1,6 @@
 """Funil de venda do "Manual do Investidor", servido pelo próprio site.
 
-/quiz/   : quiz de 8 perguntas (mais 1 de perfil) contraintuitivas ("o que o gerente não te conta") que termina na página de venda.
+/quiz/   : quiz de 8 perguntas (mais 1 de perfil) contraintuitivas ("o que o gerente do banco não te conta") que termina na página de venda.
 /manual/ : página de venda longa, SEM fugas (sem menu, rodapé ou links pro resto do site): o único caminho é o
            botão de compra (checkout na Kiwify). Pedido do Heitor (13/11/2026) para rodar anúncios.
 
@@ -160,7 +160,7 @@ def pagina_manual() -> str:
   <small class="ext-fonte">Selic 13,75% (Copom, 04/11/2026). Rotativo: média de 451,7% ao ano em set/2026 (Banco Central).
   Não é promessa de rendimento.</small>
  </div>
- <p class="sub2">O <b>Manual do Investidor</b> te ensina em uma tarde o que o gerente e o assessor não explicam: onde o seu
+ <p class="sub2">O <b>Manual do Investidor</b> te ensina em uma tarde o que o gerente do banco e o assessor de investimentos não explicam: onde o seu
  dinheiro está, quanto rende de verdade e <b>quem ganha em cima dele</b>. Pra você nunca mais assinar nada no escuro.</p>
  <div class="compra">
   <div class="capa3d"><img src="mockup.webp" alt="E-book Manual do Investidor" width="705" height="719"></div>
@@ -174,7 +174,7 @@ def pagina_manual() -> str:
 
 <section class="carta">
 <h2>Deixa eu te contar como funciona do outro lado do balcão.</h2>
-<p>Quando você senta na frente de um gerente, parece uma conversa entre você e alguém que quer te ajudar. Mas tem uma terceira
+<p>Quando você senta na frente do gerente do banco, parece uma conversa entre você e alguém que quer te ajudar. Mas tem uma terceira
 pessoa na mesa que você não vê: <b>a meta do mês</b>.</p>
 <p>Gerente de banco é vendedor. Na maioria das vezes, um vendedor honesto, mas que tem metas de produto pra bater. E os produtos
 que mais aparecem na sua frente nem sempre são os que mais rendem pra você. Muitas vezes são os que mais rendem <b>pra quem
@@ -185,7 +185,7 @@ e pro contrato de 14 páginas que ninguém lê.</p>
 <div class="inimigos">
  <div class="inimigo"><h3>1. O produto com letra miúda</h3><p>Título de capitalização vendido como "investimento". Previdência com
  taxa que come o rendimento. CDB pagando bem menos que o CDI quando existe opção melhor no mesmo banco.</p></div>
- <div class="inimigo"><h3>2. A comissão que você não vê</h3><p>"Esse aqui é o melhor pra você." Será? Gerente tem meta. Assessor
+ <div class="inimigo"><h3>2. A comissão que você não vê</h3><p>"Esse aqui é o melhor pra você." Será? Gerente de banco tem meta. Assessor de investimentos
  pode ganhar por produto vendido. A regra da CVM obriga quem distribui investimento a mostrar quanto ganha com ele. Você já
  perguntou? Quase ninguém pergunta, porque não sabe que pode.</p></div>
  <div class="inimigo"><h3>3. A promessa boa demais</h3><p>Rendimento "garantido" de 3%, 5%, 10% ao mês. Robô de trader. "Chama mais
@@ -280,7 +280,7 @@ PERGUNTAS = [
     {"p": "A poupança é o investimento mais seguro do Brasil.", "certa": False, "tema": "Poupança × Tesouro",
      "e": "Mito. O Tesouro Direto é garantido pelo Tesouro Nacional, considerado o menor risco do país. A poupança tem a "
           "garantia do FGC (até R$ 250 mil por banco). E hoje ela rende bem menos que o Tesouro Selic."},
-    {"p": "Se o gerente ofereceu, é porque é o melhor pra você.", "certa": False, "tema": "Metas do banco",
+    {"p": "Se o gerente do banco ofereceu, é porque é o melhor pra você.", "certa": False, "tema": "Metas do banco",
      "e": "Mito. Gerente de banco é vendedor e costuma ter metas de produtos. Pode ser um ótimo produto, ou só o que ajuda a "
           "bater a meta do mês. Quem decide bem é quem entende."},
     {"p": "Se o assessor diz que o produto não tem taxa, ele não ganha nada com isso.", "certa": False, "tema": "Comissões",
@@ -371,8 +371,8 @@ def pagina_quiz() -> str:
 <main class="q">
 <section class="abre" id="abre">
  <div class="kicker">TESTE DE 1 MINUTO</div>
- <h1>Seu gerente torce pra você <span class="vermelho">errar</span> estas {n} perguntas.</h1>
- <p>Gerente tem meta. Assessor tem comissão. E quem não entende, paga. Descubra quanto do seu dinheiro está no escuro.</p>
+ <h1>Seu gerente de banco torce pra você <span class="vermelho">errar</span> estas {n} perguntas.</h1>
+ <p>Gerente de banco tem meta. Assessor de investimentos tem comissão. E quem não entende, paga. Descubra quanto do seu dinheiro está no escuro.</p>
  <div class="chips"><span>⏱ 1 minuto</span><span>🔒 sem cadastro</span><span>✅ resposta na hora</span></div>
  <button class="botao" id="comecar">Fazer o teste agora</button>
 </section>
@@ -437,7 +437,7 @@ $('refazer').onclick=function(){{i=-1;ok=0;erros=[];perfil=null;calor();$('fim')
 }})();
 </script>
 </body></html>"""
-    return _cabeca(f"Teste: o que o gerente não te conta · {config.NOME}",
+    return _cabeca(f"Teste: o que o gerente do banco não te conta · {config.NOME}",
                    f"{n} perguntas rápidas sobre poupança, CDB, FGC, comissões e golpes. Descubra quanto do seu dinheiro está "
                    "no escuro.", "quiz/", CSS_QUIZ) + corpo
 
