@@ -1,0 +1,96 @@
+{
+ "titulo": "Mutirão INSS fim de semana: o que se sabe",
+ "descricao": "INSS e Previdência abrem 7.959 vagas de perícia e avaliação social neste sábado e domingo (14 e 15/11). Só com agendamento. Veja estados e agências.",
+ "palavra_chave": "mutirão inss fim de semana",
+ "lead": "O INSS e o Ministério da Previdência Social fazem neste sábado (14/11) e domingo (15/11) um mutirão com 7.959 vagas de perícia médica e avaliação social. A nota oficial do INSS, de 13/11, fala em oito estados. Para ser atendido, é preciso agendar antes pelo Meu INSS ou pela Central 135.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em nota no site oficial, o INSS e o Ministério da Previdência Social dizem oferecer 7.959 vagas de atendimento nos dias 14 e 15 de novembro. Os horários são para perícia médica e avaliação social, em agências de 8 estados e 4 regiões do país.",
+   "fonte_url": "https://www.gov.br/inss/pt-br/assuntos/noticias/mutirao-de-atendimentos-do-inss-oferece-quase-8-mil-vagas-neste-fim-de-semana-14-e-15",
+   "data": "2026-11-13",
+   "veiculo": "gov.br/inss (nota oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "Para ser atendido, o cidadão precisa agendar pelo site ou aplicativo Meu INSS, ou ligar para a Central 135. Nas agências que oferecem só perícia médica, haverá assistentes sociais para dar suporte.",
+   "fonte_url": "https://www.gov.br/inss/pt-br/assuntos/noticias/mutirao-de-atendimentos-do-inss-oferece-quase-8-mil-vagas-neste-fim-de-semana-14-e-15",
+   "data": "2026-11-13",
+   "veiculo": "gov.br/inss (nota oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "São 6.578 vagas de perícia médica e 1.381 de avaliação social. A soma fecha as 7.959 vagas anunciadas.",
+   "fonte_url": "https://vitorianews.com.br/inss-abre-7959-vagas-em-mutirao-neste-fim-de-semana",
+   "data": "2026-11-14",
+   "veiculo": "Vitória News",
+   "confiavel": false
+  },
+  {
+   "texto": "Na perícia médica, o Rio de Janeiro tem 1.735 vagas: Duque de Caxias (640), Nova Iguaçu (484), São João de Meriti (432) e Nilópolis (179). O Paraná tem 1.320: Paranaguá (528), Colombo (396) e São José dos Pinhais (396).",
+   "fonte_url": "https://gazetadoparana.com.br/publico/inss-oferece-quase-8-mil-vagas-em-mutirao-neste-fim-de-semana-parana-tem-1326",
+   "data": "2026-11-14",
+   "veiculo": "Gazeta do Paraná",
+   "confiavel": false
+  },
+  {
+   "texto": "Ainda na perícia médica: Pernambuco (1.370 vagas, 700 delas em Caruaru), Pará (960, todas em Santarém), Maranhão (653), Alagoas (480) e Bahia (60, em Irecê e Brumado).",
+   "fonte_url": "https://portaldeprefeitura.com.br/cotidiano/inss-realiza-mutirao-com-quase-8-mil-vagas-de-atendimento/635986/",
+   "data": "2026-11-14",
+   "veiculo": "Portal de Prefeitura",
+   "confiavel": false
+  },
+  {
+   "texto": "Na avaliação social, o Ceará tem 409 vagas (Sobral, Crateús e Itapipoca). Pernambuco tem 300, com agências no Recife. A Bahia tem 176 (Feira de Santana, Salvador-Brotas e Itabuna). Sergipe tem 134 e o Paraná, 6, na agência Shangri-lá.",
+   "fonte_url": "https://vitorianews.com.br/inss-abre-7959-vagas-em-mutirao-neste-fim-de-semana",
+   "data": "2026-11-14",
+   "veiculo": "Vitória News",
+   "confiavel": false
+  },
+  {
+   "texto": "Em Alagoas, são 681 vagas, sendo 480 de perícia médica e 201 de avaliação social, em Maceió e Arapiraca. O INSS orienta conferir local e horário do agendamento antes de ir à agência.",
+   "fonte_url": "https://www.tribunadosertao.com.br/alagoas/2026/11/14/1021722-inss-realiza-mutirao-com-681-atendimentos-em-alagoas-neste-fim-de-semana",
+   "data": "2026-11-14",
+   "veiculo": "Tribuna do Sertão",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O INSS e o Ministério da Previdência divulgam a nota oficial do mutirão de 14 e 15/11, com 7.959 vagas.",
+   "fonte_url": "https://www.gov.br/inss/pt-br/assuntos/noticias/mutirao-de-atendimentos-do-inss-oferece-quase-8-mil-vagas-neste-fim-de-semana-14-e-15",
+   "data": "2026-11-13",
+   "veiculo": "gov.br/inss",
+   "confiavel": true
+  },
+  {
+   "texto": "O mutirão começa neste sábado. Veículos regionais publicam a lista de agências e de vagas por estado.",
+   "fonte_url": "https://gazetadoparana.com.br/publico/inss-oferece-quase-8-mil-vagas-em-mutirao-neste-fim-de-semana-parana-tem-1326",
+   "data": "2026-11-14",
+   "veiculo": "Gazeta do Paraná",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quantos estados participam. A nota oficial fala em 8, mas a lista de agências divulgada traz 9: PE, MA, AL, BA, CE, SE, RJ, PA e PR. O Vitória News também conta nove. O INSS não explicou a diferença nas fontes consultadas, e o motivo não foi confirmado.",
+  "Se ainda há horários livres neste sábado e domingo. Não encontramos dado oficial sobre vagas restantes.",
+  "Se o mutirão vale só para quem já tem perícia ou avaliação marcada ou também para novos pedidos. A nota oficial não detalha isso, e não há confirmação.",
+  "Quantas pessoas foram atendidas. O INSS ainda não divulgou balanço do mutirão."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você espera perícia médica ou avaliação social e mora em um dos estados da lista, vale conferir no Meu INSS se há horário nas agências do mutirão.",
+  "Segundo a nota oficial, só é atendido quem agenda antes. O Meu INSS e a Central 135 são os canais indicados.",
+  "Agências de outros estados não fazem parte da lista. Veículos locais apontam que Minas Gerais e Espírito Santo ficaram de fora.",
+  "Quem já tem agendamento deve conferir local e horário no comprovante antes de sair de casa, como orienta o INSS."
+ ],
+ "como_se_proteger": [
+  "Use só o Meu INSS (site ou aplicativo) e a Central 135 para agendar. São os canais indicados na nota oficial.",
+  "Desconfie de ligação ou mensagem que peça CPF, dados bancários ou senha para \"marcar\" a perícia. A Serasa descreve esse golpe entre os mais comuns contra segurados.",
+  "Confirme qualquer convocação dentro do Meu INSS. Segundo a Serasa, o INSS registra pedidos e convocações no perfil do segurado.",
+  "Não pague a ninguém para conseguir vaga. O agendamento pelo Meu INSS e pela Central 135 é gratuito."
+ ],
+ "slug": "mutirao-inss-fim-de-semana",
+ "publicado_em": "2026-11-14T13:14:21.162857",
+ "atualizado_em": "2026-11-14T13:14:21.162857",
+ "assunto": "O Ministério da Previdência Social e o INSS fazem mutirão neste fim de semana (14 e 15/11) com 7.959 vagas de perícia médica e avaliação social em agências de oito estados.",
+ "turno": "tarde"
+}
