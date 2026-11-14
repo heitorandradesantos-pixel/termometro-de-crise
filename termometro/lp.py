@@ -18,6 +18,7 @@ from . import config
 
 PASTA = Path(__file__).resolve().parent.parent / "lp"
 CHECKOUT_MANUAL = "https://pay.kiwify.com.br/0k8fopI"
+PIXEL_META = "2185080159064896"  # ID público do Pixel do Meta (não é segredo). O token da API de Conversões NUNCA entra aqui.
 PRECO_MANUAL = "19,90"
 
 SIMBOLO = ('<svg width="26" height="26" viewBox="0 0 200 200" aria-hidden="true"><g transform="translate(0,6)">'
@@ -45,6 +46,22 @@ a{color:inherit}
 .legal{max-width:760px;margin:40px auto 0;padding:0 18px 40px;font-size:12px;color:#7D8B99;text-align:center;line-height:1.5}
 """
 
+PIXEL_JS = ("<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments)"
+            ":n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);"
+            "t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script',"
+            "'https://connect.facebook.net/en_US/fbevents.js');"
+            f"fbq('init','{PIXEL_META}');"
+            # evento com ID único: quando a API de Conversões entrar, o Meta usa o mesmo ID para não contar duas vezes
+            "window.tc_evento=function(n,d,custom){try{var id=n+'-'+Date.now()+'-'+Math.random().toString(36).slice(2,8);"
+            "fbq(custom?'trackCustom':'track',n,d||{},{eventID:id});return id}catch(x){}};"
+            "tc_evento('PageView');"
+            # repassa UTMs e fbclid do anúncio para os links internos e para o checkout da Kiwify (atribuição da venda)
+            "document.addEventListener('DOMContentLoaded',function(){try{var q=location.search.slice(1).split('&').filter(function(x){"
+            "return /^(utm_|fbclid|src|sck)/.test(x)}).join('&');if(!q)return;document.querySelectorAll('a[data-rastro]').forEach("
+            "function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+q})}catch(x){}});</script>"
+            f'<noscript><img height="1" width="1" style="display:none" alt="" '
+            f'src="https://www.facebook.com/tr?id={PIXEL_META}&ev=PageView&noscript=1"></noscript>')
+
 
 def _cabeca(titulo: str, descricao: str, caminho: str, css: str, imagem: str = "manual/produto.webp") -> str:
     url = config.url_publica(caminho) if config.SITE_URL else ""
@@ -59,7 +76,7 @@ def _cabeca(titulo: str, descricao: str, caminho: str, css: str, imagem: str = "
 <link rel="icon" href="../favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#0B0F14">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
-<style>{BASE_CSS}{css}</style></head>"""
+<style>{BASE_CSS}{css}</style>{PIXEL_JS}</head>"""
 
 
 def _legal() -> str:
@@ -139,7 +156,8 @@ body{padding-bottom:84px}
 
 
 def _botao(texto: str = f"Quero o Manual por R$ {PRECO_MANUAL}") -> str:
-    return f'<a class="botao" href="{CHECKOUT_MANUAL}" rel="nofollow">{texto}</a>'
+    return (f'<a class="botao" href="{CHECKOUT_MANUAL}" rel="nofollow" data-rastro '
+            f'onclick="tc_evento&&tc_evento(\'CliqueCheckout\',{{value:19.9,currency:\'BRL\'}},1)">{texto}</a>')
 
 
 def pagina_manual() -> str:
@@ -262,6 +280,7 @@ Planilha do Investidor, o Kit Anti-Golpe e o Guia Sair do Vermelho. O Manual fun
 {_legal()}
 <div class="fixo" id="fixo">{_botao(f"Quero o Manual · R$ {PRECO_MANUAL}")}</div>
 <script>
+try{{tc_evento('ViewContent',{{content_name:'Manual do Investidor',value:19.9,currency:'BRL'}})}}catch(x){{}}
 (function(){{try{{var q=new URLSearchParams(location.search),e=parseInt(q.get('erros'),10);
  if(q.get('origem')==='quiz'&&e>=0){{var k=document.getElementById('kicker');
  var tt=parseInt(q.get('total'),10)||8;k.textContent=e>0?('VOCÊ CAIU EM '+e+' DE '+tt+' NO TESTE. É EXATAMENTE AÍ QUE O SISTEMA GANHA.'):'VOCÊ GABARITOU O TESTE. AGORA AJUDE QUEM ESTÁ PERTO.';}}}}catch(x){{}}}})();
@@ -394,7 +413,7 @@ def pagina_quiz() -> str:
  <p id="texto-fim"></p>
  <div class="furos" id="furos"><b>Os furos no seu bolso:</b><ul id="lista-furos"></ul></div>
  <div class="perfil" id="perfil"></div>
- <a class="botao" id="cta" href="../manual/?origem=quiz">Quero tapar esses furos</a>
+ <a class="botao" id="cta" data-rastro href="../manual/?origem=quiz">Quero tapar esses furos</a>
  <p style="font-size:13px;color:#8796A5;margin-top:12px">Manual do Investidor · R$ {PRECO_MANUAL} · 7 dias de garantia</p>
  <button class="refazer" id="refazer">Refazer o teste</button>
 </section>
@@ -419,9 +438,9 @@ function clique(k,b){{if(respondeu)return;
  $('veredito').textContent=certo?'Acertou. ✅':'Caiu nessa. 🔥';$('veredito').style.color=certo?'#4CC38A':'#FF6B5E';
  $('explica').textContent=P[i].e;$('resp').className='resp on';$('prox').className='prox on';
  $('seguir').textContent=i<P.length-1?'Próxima':'Ver meu resultado';}}
-$('comecar').onclick=function(){{$('abre').style.display='none';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
+$('comecar').onclick=function(){{tc_evento&&tc_evento('QuizIniciado',{{}},1);$('abre').style.display='none';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
 $('seguir').onclick=function(){{i++;if(i<P.length){{mostra();window.scrollTo(0,0);return}}fim()}};
-function fim(){{$('progresso').style.width='100%';$('jogo').style.display='none';$('fim').className='fim on';
+function fim(){{tc_evento&&tc_evento('Lead',{{content_name:'quiz',value:0,currency:'BRL'}});$('progresso').style.width='100%';$('jogo').style.display='none';$('fim').className='fim on';
  var e=P.length-ok;$('acertos').textContent=ok;$('ponteiro').style.left=Math.min(96,Math.max(4,e/P.length*100))+'%';
  var t,x;if(e>=4){{t='Seu bolso está pegando fogo.';x='Você caiu em '+e+' de '+P.length+'. São exatamente os pontos onde o sistema ganha em cima de quem não sabe.'}}
  else if(e>=2){{t='Você sabe mais que a média. Mas tem furo.';x='Caiu em '+e+' de '+P.length+'. Um furo desses pode estar custando dinheiro todo mês sem você perceber.'}}
@@ -432,7 +451,7 @@ function fim(){{$('progresso').style.width='100%';$('jogo').style.display='none'
  $('furos').style.display=erros.length?'block':'none';
  $('perfil').textContent=perfil?perfil.m:'';$('perfil').style.display=perfil?'block':'none';
  $('cta').textContent=e?'Quero tapar esses furos':'Quero o Manual pra ajudar minha família';
- $('cta').href='../manual/?origem=quiz&erros='+e+'&total='+P.length;window.scrollTo(0,0);}}
+ var rq=location.search.slice(1).split('&').filter(function(x){{return /^(utm_|fbclid|src|sck)/.test(x)}}).join('&');$('cta').href='../manual/?origem=quiz&erros='+e+'&total='+P.length+(rq?'&'+rq:'');window.scrollTo(0,0);}}
 $('refazer').onclick=function(){{i=-1;ok=0;erros=[];perfil=null;calor();$('fim').className='fim';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
 }})();
 </script>

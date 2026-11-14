@@ -9,14 +9,25 @@ def _paises() -> int:
     from .mundo import PAISES
     return len(PAISES)
 
-ATUALIZADO = "5 de novembro de 2026"
+ATUALIZADO = "14 de novembro de 2026"
 
 
 def _navegacao() -> str:
     if config.ADSENSE_CLIENT:
         return ("O site não usa cookies próprios, mas exibe anúncios do Google AdSense, que usa cookies e tecnologias "
-                "parecidas para mostrar e medir anúncios (veja a seção 9).")
-    return "Hoje o site não usa cookies próprios nem ferramentas de rastreamento para publicidade."
+                "parecidas para mostrar e medir anúncios. As páginas do teste (/quiz/) e de venda do Manual (/manual/) usam o "
+                "Pixel do Meta para medir os anúncios (veja a seção 9).")
+    return ("O site não usa cookies próprios. Só as páginas do teste (/quiz/) e de venda do Manual (/manual/) usam o Pixel "
+            "do Meta para medir os anúncios (veja a seção 9).")
+
+
+PIXEL_META = """<p><b>Pixel do Meta.</b> As páginas do teste (/quiz/) e de venda do Manual do Investidor (/manual/) usam o Pixel
+do Meta (Facebook e Instagram), uma ferramenta que registra visitas e ações nessas páginas (abrir a página, começar e
+terminar o teste, clicar no botão de compra) para medir e melhorar os nossos anúncios. O Meta pode usar cookies e dados do
+seu navegador para isso. Não enviamos as suas respostas do teste. A compra é feita na Kiwify, que tem a política de
+privacidade dela. Você pode controlar os anúncios que vê nas
+<a href="https://www.facebook.com/adpreferences" target="_blank" rel="noopener">Preferências de anúncios do Meta</a> e
+bloquear cookies no seu navegador.</p>"""
 
 
 def _anuncios() -> str:
@@ -24,7 +35,7 @@ def _anuncios() -> str:
     if not config.ADSENSE_CLIENT:
         return ("<p>Hoje não usamos cookies de publicidade. Se passarmos a exibir anúncios (por exemplo, do Google AdSense, "
                 "que usa cookies para personalizar e medir anúncios) ou ferramentas de medição com cookies, esta política "
-                "será atualizada antes, e você poderá escolher, quando a lei exigir.</p>")
+                "será atualizada antes, e você poderá escolher, quando a lei exigir.</p>" + PIXEL_META)
     return """<p>O site exibe anúncios do Google AdSense, que ajudam a manter o conteúdo gratuito. Fornecedores terceiros,
 incluindo o Google, usam cookies para exibir anúncios com base nas suas visitas anteriores a este site ou a outros sites.
 Com os cookies de publicidade, o Google e os parceiros dele podem exibir anúncios com base nas suas visitas a este e a
@@ -38,7 +49,7 @@ outros sites na internet.</p>
 <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.</li>
 </ul>
 <p>Você também pode bloquear ou apagar cookies nas configurações do seu navegador. Os anúncios são do Google e não são
-recomendação do Termômetro de Crise; eles aparecem separados do conteúdo e identificados como publicidade.</p>"""
+recomendação do Termômetro de Crise; eles aparecem separados do conteúdo e identificados como publicidade.</p>""" + PIXEL_META
 
 
 def _contato() -> str:
