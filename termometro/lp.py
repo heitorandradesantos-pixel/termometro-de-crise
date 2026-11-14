@@ -440,7 +440,7 @@ function clique(k,b){{if(respondeu)return;
  $('seguir').textContent=i<P.length-1?'Próxima':'Ver meu resultado';}}
 $('comecar').onclick=function(){{tc_evento&&tc_evento('QuizIniciado',{{}},1);$('abre').style.display='none';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
 $('seguir').onclick=function(){{i++;if(i<P.length){{mostra();window.scrollTo(0,0);return}}fim()}};
-function fim(){{tc_evento&&tc_evento('Lead',{{content_name:'quiz',value:0,currency:'BRL'}});$('progresso').style.width='100%';$('jogo').style.display='none';$('fim').className='fim on';
+function fim(){{tc_evento&&tc_evento('QuizConcluido',{{}},1);$('progresso').style.width='100%';$('jogo').style.display='none';$('fim').className='fim on';
  var e=P.length-ok;$('acertos').textContent=ok;$('ponteiro').style.left=Math.min(96,Math.max(4,e/P.length*100))+'%';
  var t,x;if(e>=4){{t='Seu bolso está pegando fogo.';x='Você caiu em '+e+' de '+P.length+'. São exatamente os pontos onde o sistema ganha em cima de quem não sabe.'}}
  else if(e>=2){{t='Você sabe mais que a média. Mas tem furo.';x='Caiu em '+e+' de '+P.length+'. Um furo desses pode estar custando dinheiro todo mês sem você perceber.'}}
@@ -452,6 +452,7 @@ function fim(){{tc_evento&&tc_evento('Lead',{{content_name:'quiz',value:0,curren
  $('perfil').textContent=perfil?perfil.m:'';$('perfil').style.display=perfil?'block':'none';
  $('cta').textContent=e?'Quero tapar esses furos':'Quero o Manual pra ajudar minha família';
  var rq=location.search.slice(1).split('&').filter(function(x){{return /^(utm_|fbclid|src|sck)/.test(x)}}).join('&');$('cta').href='../manual/?origem=quiz&erros='+e+'&total='+P.length+(rq?'&'+rq:'');window.scrollTo(0,0);}}
+$('cta').onclick=function(ev){{try{{tc_evento&&tc_evento('Lead',{{content_name:'quiz_para_pagina_de_venda',value:0,currency:'BRL'}});var h=this.href;ev.preventDefault();setTimeout(function(){{location.href=h}},350)}}catch(x){{}}}};
 $('refazer').onclick=function(){{i=-1;ok=0;erros=[];perfil=null;calor();$('fim').className='fim';$('jogo').style.display='block';mostra();window.scrollTo(0,0)}};
 }})();
 </script>

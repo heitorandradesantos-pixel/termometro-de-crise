@@ -25,14 +25,16 @@ sem vazar dado pessoal e sem expor segredo no repositório (que é público).
 |---|---|---|
 | /quiz/ | PageView | abriu a página |
 | /quiz/ | QuizIniciado (personalizado) | clicou em "Fazer o teste agora" |
-| /quiz/ | Lead | viu o resultado do teste |
+| /quiz/ | QuizConcluido (personalizado) | viu o resultado do teste |
+| /quiz/ | Lead | clicou no botão do resultado e foi para a página de venda |
 | /manual/ | PageView, ViewContent (R$ 19,90) | abriu a página de venda |
 | /manual/ | CliqueCheckout (personalizado) | clicou em qualquer botão de compra |
 | Kiwify | InitiateCheckout, Purchase | checkout aberto / pagamento aprovado (Pix e boleto só quando pagos) |
 
 ## Otimização da campanha
-- Começar otimizando para **Lead** (quiz terminado): tem volume rápido para o algoritmo aprender.
-- Com ~50 compras por semana, trocar a otimização para **Purchase**.
+- Decisão do Heitor (14/11): campanha de **Vendas otimizada para Purchase** desde o início. Lead (clique do quiz para a
+  página de venda) é métrica de acompanhamento e plano B: se o conjunto ficar dias sem sair do aprendizado por falta de
+  compra, testar um conjunto otimizado para Lead em paralelo, nunca no lugar.
 - Nome de campanha padrão: `manual_quiz_{publico}_{criativo}` e `utm_content` = nome do criativo
   (ex.: `anuncio-1-teste-do-gerente`, `rosto-2-8-vs-451`), para saber qual criativo vende.
 
