@@ -14,7 +14,9 @@ for p in "$@"; do
   if [ $EDITADO = 1 ]; then f=$(ls "$p"/*-editado.mp4 | head -1); else f="$p/original.mov"; fi
   ffmpeg -v error -y -i "$f" -vn -ac 1 -ar 16000 "$TMP/a$i.wav"
   DURS+=("$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$TMP/a$i.wav")")
-  ENTRADAS+=(-i "$TMP/a$i.wav"); [ $i -gt 0 ] && { ENTRADAS+=(-i "$TMP/s.wav"); }
+  # 2 s de silêncio ANTES de cada vídeo a partir do segundo (o Python abaixo soma dur + 2 por vídeo; com o silêncio
+  # depois, do 2º vídeo em diante as palavras saíam ~2 s adiantadas e a 1ª frase caía no vídeo anterior)
+  [ $i -gt 0 ] && { ENTRADAS+=(-i "$TMP/s.wav"); }; ENTRADAS+=(-i "$TMP/a$i.wav")
   i=$((i+1))
 done
 n=$(( ${#ENTRADAS[@]} / 2 )); FILTRO=""; for k in $(seq 0 $((n-1))); do FILTRO+="[$k]"; done
