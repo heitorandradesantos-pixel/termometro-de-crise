@@ -1,0 +1,121 @@
+{
+ "titulo": "Saída de Jensen Huang da Nvidia: o que se sabe",
+ "descricao": "Jensen Huang deixou o comando da Nvidia em 12/11. A ação caiu 4,3% e mais 2% na sexta. O balanço sai na terça (17/11). Veja o que se sabe.",
+ "palavra_chave": "nvidia jensen huang saída",
+ "lead": "Jensen Huang deixou o comando da Nvidia na quinta (12/11), e a empresa confirmou a saída. As fontes consultadas falam em renúncia, não em destituição. A ação caiu 4,3% na quinta e mais 2,01% na sexta (13/11), e o balanço do 3º trimestre sai na terça (17/11).",
+ "o_que_se_sabe": [
+  {
+   "texto": "Jensen Huang renunciou na quinta (12/11) aos cargos de diretor executivo (CEO) e de membro do conselho da Nvidia. A Nvidia confirmou a saída, que vale a partir daquele dia.",
+   "fonte_url": "https://www.bloomberglinea.com.br/mercados/as-acoes-da-nvidia-despencam-em-wall-street-apos-a-renuncia-de-jensen-huang/",
+   "data": "2026-11-12",
+   "veiculo": "Bloomberg Línea",
+   "confiavel": true
+  },
+  {
+   "texto": "A diretora financeira, Colette Kress, assumiu como CEO interina. A empresa anunciou o nome na quinta (12/11) e o conselho procura um substituto definitivo, dentro e fora da empresa.",
+   "fonte_url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+   "data": "2026-11-12",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "No domingo (8/11), Huang admitiu em e-mail aos funcionários, publicado pela Nvidia, que foi infiel à esposa. No mesmo e-mail, disse que o conselho abriu uma investigação independente sobre as preocupações de segurança nacional citadas na imprensa.",
+   "fonte_url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+   "data": "2026-11-08",
+   "veiculo": "Nvidia (nota oficial)",
+   "confiavel": false
+  },
+  {
+   "texto": "A saída veio depois de reportagem do New York Times sobre um relacionamento com uma executiva que respondia a ele. Antes, o Financial Times havia noticiado um relacionamento com uma empresária. Em 12/11, a Reuters disse que houve um terceiro caso, com outra funcionária não identificada.",
+   "fonte_url": "https://www.nbcnews.com/business/markets/nvidia-stock-huang-resigns-rcna608958",
+   "data": "2026-11-12",
+   "veiculo": "NBC News",
+   "confiavel": false
+  },
+  {
+   "texto": "A ação da Nvidia caiu até 16% durante a quinta (12/11), mas fechou em queda de 4,3%. Na sexta (13/11), caiu mais 2,01% e o valor de mercado da empresa ficou abaixo de US$ 4 trilhões pela primeira vez desde julho de 2025. Foi a sexta semana seguida de queda, a maior sequência desde 2012.",
+   "fonte_url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+   "data": "2026-11-13",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "As bolsas asiáticas fecharam em maioria no vermelho na sexta (13/11). Os contratos futuros dos EUA, que indicam como a bolsa deve abrir, operavam em leve baixa.",
+   "fonte_url": "https://br.tradingview.com/news/moodys:7ada444c1aecb:0/",
+   "data": "2026-11-13",
+   "veiculo": "TradingView News",
+   "confiavel": false
+  },
+  {
+   "texto": "O HSBC rebaixou a recomendação da ação para 'manter' na sexta (13/11). O banco acredita que o papel deve sofrer até a Nvidia definir um plano claro de sucessão.",
+   "fonte_url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
+   "data": "2026-11-13",
+   "veiculo": "Forbes",
+   "confiavel": false
+  },
+  {
+   "texto": "A Nvidia marcou para terça (17/11) a divulgação do balanço do 3º trimestre do ano fiscal de 2027, encerrado em 25 de outubro. Os números saem por volta de 13h20 no horário da Costa Oeste dos EUA (18h20 em Brasília), com teleconferência às 14h (19h em Brasília). Os comentários da diretora financeira serão publicados por escrito antes da teleconferência.",
+   "fonte_url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html",
+   "data": "2026-10-28",
+   "veiculo": "GlobeNewswire (comunicado da Nvidia)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Nvidia anuncia que divulgará o balanço do 3º trimestre em 17/11.",
+   "fonte_url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html",
+   "data": "2026-10-28",
+   "veiculo": "GlobeNewswire (comunicado da Nvidia)",
+   "confiavel": false
+  },
+  {
+   "texto": "Huang admite infidelidade em e-mail aos funcionários, e a Nvidia diz que o conselho abriu investigação independente.",
+   "fonte_url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+   "data": "2026-11-08",
+   "veiculo": "Nvidia (nota oficial)",
+   "confiavel": false
+  },
+  {
+   "texto": "Huang renuncia como CEO e conselheiro. Colette Kress assume de forma interina. A ação cai até 14% durante o dia e fecha em queda de 4,3%.",
+   "fonte_url": "https://www.bloomberglinea.com.br/mercados/as-acoes-da-nvidia-despencam-em-wall-street-apos-a-renuncia-de-jensen-huang/",
+   "data": "2026-11-12",
+   "veiculo": "Bloomberg Línea",
+   "confiavel": true
+  },
+  {
+   "texto": "A ação cai mais 2,01% e o valor de mercado fica abaixo de US$ 4 trilhões. O HSBC rebaixa a recomendação da ação.",
+   "fonte_url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+   "data": "2026-11-13",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "As bolsas asiáticas fecham majoritariamente em queda e os futuros dos EUA operam em leve baixa.",
+   "fonte_url": "https://br.tradingview.com/news/moodys:7ada444c1aecb:0/",
+   "data": "2026-11-13",
+   "veiculo": "TradingView News",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado que as ações caíram mais de 8% no after market (negociação depois do fechamento) na sexta (13/11). As fontes consultadas trazem queda de 4,3% na quinta e de 2,01% na sexta, no fechamento regular.",
+  "Não foi confirmado que Huang foi destituído. A Nvidia e os veículos consultados falam em renúncia, e não achei fonte que diga que o conselho o afastou à força.",
+  "Não foi confirmado se a suspeita de ligação com a inteligência chinesa é verdadeira. A NBC News ouviu uma fonte que chamou uma das mulheres de espiã chinesa. Segundo o El Tiempo, os EUA ainda não concluíram quem ela é. A investigação do conselho continua.",
+  "Ninguém explicou quem será o CEO definitivo da Nvidia nem quando ele será escolhido. Kress é interina.",
+  "Ainda não se sabe como as bolsas e o dólar vão reagir na segunda (16/11), nem como o balanço de terça será recebido. Não achei fonte com projeção sobre o efeito no dólar ou na Bolsa brasileira.",
+  "A Nvidia não incluiu declaração do próprio Huang no comunicado da saída, segundo a CNN em Espanhol. Ele também foi convocado por três comissões da Câmara dos EUA para uma entrevista a portas fechadas em 1º de dezembro."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem ações da Nvidia, BDRs (recibos de ações estrangeiras negociados na B3) ou fundos que investem em tecnologia americana pode ver o valor oscilar mais nos próximos dias. Há dois motivos: a incerteza sobre a liderança e o balanço de terça (17/11).",
+  "A Nvidia pesa nos índices dos EUA. Quando a ação cai, o Nasdaq e outros índices tendem a sentir. Na quinta (12/11), os principais índices fecharam em leve baixa, segundo a NBC News.",
+  "Se o mau humor lá fora continuar, ele pode chegar ao dólar e à Bolsa no Brasil. Isso depende de como os mercados abrirem na segunda e do que o balanço mostrar. Hoje não há fonte confirmando esse efeito.",
+  "Quem não tem ações da Nvidia não é afetado de forma direta. Poupança, Tesouro Direto e CDBs não dependem da empresa."
+ ],
+ "como_se_proteger": [],
+ "slug": "nvidia-jensen-huang-saida",
+ "publicado_em": "2026-11-14T09:14:24.577280",
+ "atualizado_em": "2026-11-14T09:14:24.577280",
+ "assunto": "Reserva, com status a confirmar: notícias sobre a saída ou possível destituição de Jensen Huang da Nvidia derrubaram as ações da empresa no after market (mais de 8%) e travaram os futuros de Nova York e as bolsas asiáticas na sexta (13/11). A Nvidia divulga o balanço do 3º trimestre na terça (17/11).",
+ "turno": "manha"
+}
