@@ -1,0 +1,127 @@
+{
+ "titulo": "Petróleo hoje: Brent perto de US$ 96 após Trump: o que se sabe",
+ "descricao": "Brent fechou a US$ 95,84 em 13/11, segunda queda semanal seguida, após Trump dizer que os EUA não precisam de acordo com o Irã. Veja o que se sabe.",
+ "palavra_chave": "petróleo hoje",
+ "lead": "O Brent, petróleo de referência no mundo, fechou a US$ 95,84 o barril na sexta-feira (13/11), alta de 2 centavos, segundo a CNBC e a Bloomberg. A alta forte veio um dia antes, em 12/11: o Brent subiu 3,3%, a US$ 95,82, depois que Donald Trump disse que os EUA \"não precisam de um acordo com o Irã\". Na semana, o Brent caiu cerca de 2,5%, a segunda queda semanal seguida.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Brent para janeiro fechou a US$ 95,84 o barril em 13/11, alta de 2 centavos (0,02%). O WTI, o petróleo de referência dos EUA, fechou a US$ 88,56, queda de 0,20%.",
+   "fonte_url": "https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html",
+   "data": "2026-11-13",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "A Bloomberg também registrou o Brent a US$ 95,84 em 13/11, depois de oscilar numa faixa de cerca de US$ 2 durante o dia.",
+   "fonte_url": "https://www.rigzone.com/news/crude_fluctuates_as_iran_tensions_persist-13-nov-2026-185085-article",
+   "data": "2026-11-13",
+   "veiculo": "Rigzone (Bloomberg)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 12/11, o Brent subiu 3,3%, a US$ 95,82, e o WTI subiu 2,6%, a US$ 88,74. A alta veio depois de Trump dizer que os EUA não precisam de um acordo com o Irã e controlam o Estreito de Ormuz, por onde passa boa parte do petróleo do mundo.",
+   "fonte_url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+   "data": "2026-11-12",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "Na semana de 9 a 13/11, Brent e WTI caíram cerca de 2,5% cada um. Na semana anterior, tinham caído 16% e 13%. A CNBC diz que o mercado pesou sinais de excesso de oferta de petróleo no mundo e o foco dos EUA em bloquear o Irã.",
+   "fonte_url": "https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html",
+   "data": "2026-11-13",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Bloomberg, Trump pediu ao vice JD Vance que se concentre em temas internos, e não nas negociações com Teerã, o que esfriou as conversas por canais discretos. A agência diz que Benjamin Netanyahu, primeiro-ministro de Israel, pressiona Trump a retomar os ataques ao Irã.",
+   "fonte_url": "https://www.rigzone.com/news/crude_fluctuates_as_iran_tensions_persist-13-nov-2026-185085-article",
+   "data": "2026-11-13",
+   "veiculo": "Rigzone (Bloomberg)",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Bloomberg, a queda semanal do Brent veio do aumento do fluxo de petróleo do Oriente Médio e da aposta de parte do mercado de que a vitória dos democratas nas eleições de meio de mandato dos EUA aceleraria o fim do conflito. Essa é a leitura da agência, não um fato confirmado.",
+   "fonte_url": "https://www.rigzone.com/news/crude_fluctuates_as_iran_tensions_persist-13-nov-2026-185085-article",
+   "data": "2026-11-13",
+   "veiculo": "Rigzone (Bloomberg)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent chegou a US$ 118 em 30/10, a máxima em seis meses. Em 10/11, caiu abaixo de US$ 90 durante o dia, pela primeira vez desde 31/08, segundo a Reuters. Fechou aquele dia a US$ 91,49, cerca de 23% abaixo da máxima.",
+   "fonte_url": "https://www.biodieselbr.com/noticias/biocombustivel/negocio/petroleo-cai-apos-trump-indicar-possivel-tregua-em-conflito-com-ira",
+   "data": "2026-11-10",
+   "veiculo": "Reuters (via BiodieselBR)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em outubro, com o Brent perto de US$ 111, a Abicom (associação dos importadores de combustíveis) calculou que o diesel da Petrobras estava R$ 3,50 por litro abaixo do preço de importação. Na gasolina, a diferença era de 20%, ou R$ 0,43 por litro.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/abicom-diesel-da-petrobras-se-aproxima-ao-subsidio-com-alta-do-brent/",
+   "data": "2026-10-20",
+   "veiculo": "CNN Brasil (Estadão Conteúdo)",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Brent chega a US$ 118, a máxima em seis meses.",
+   "fonte_url": "https://www.biodieselbr.com/noticias/biocombustivel/negocio/petroleo-cai-apos-trump-indicar-possivel-tregua-em-conflito-com-ira",
+   "data": "2026-10-30",
+   "veiculo": "Reuters (via BiodieselBR)",
+   "confiavel": false
+  },
+  {
+   "texto": "Trump diz que um acordo com o Irã \"pode acontecer\". O Brent cai 7,63%, a US$ 104,77.",
+   "fonte_url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/02/petroleo-cai-apos-trump-dizer-acordo-eua-ira",
+   "data": "2026-11-02",
+   "veiculo": "TV Sim",
+   "confiavel": false
+  },
+  {
+   "texto": "Trump minimiza novos ataques ao Irã. O Brent cai 5,85%, a US$ 92,57.",
+   "fonte_url": "https://eixos.com.br/petroleo-e-gas/petroleo-fecha-em-queda-de-mais-de-5-apos-falas-trump-e-proposta-para-enriquecimento-de-uranio/",
+   "data": "2026-11-09",
+   "veiculo": "Eixos",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent fecha a US$ 91,49 e, durante o dia, cai abaixo de US$ 90 pela primeira vez desde 31/08.",
+   "fonte_url": "https://www.biodieselbr.com/noticias/biocombustivel/negocio/petroleo-cai-apos-trump-indicar-possivel-tregua-em-conflito-com-ira",
+   "data": "2026-11-10",
+   "veiculo": "Reuters (via BiodieselBR)",
+   "confiavel": false
+  },
+  {
+   "texto": "Trump diz que os EUA não precisam de acordo com o Irã. O Brent sobe 3,3%, a US$ 95,82.",
+   "fonte_url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+   "data": "2026-11-12",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "O Brent fecha a US$ 95,84, quase estável, e termina a segunda semana seguida em queda.",
+   "fonte_url": "https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html",
+   "data": "2026-11-13",
+   "veiculo": "CNBC",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se o Brent de hoje está acima do nível de antes da guerra. As buscas não trouxeram o preço de referência anterior ao conflito em fonte de primeira linha, então a comparação não entra como fato.",
+  "Não se sabe se EUA e Irã vão voltar a negociar. Segundo Andrew Lipow, da Lipow Oil Associates, ouvido pela CNBC, não houve mudança nas posições dos dois lados. O Irã, diz ele, recusa a entrada de inspetores nucleares.",
+  "Os ataques citados no mercado são relatos e alegações, não fatos confirmados de forma independente nas fontes consultadas. Os houthis, do Iêmen, disseram ter atacado instalações sauditas, e o Irã disse ter havido explosões em petroleiros no Estreito de Ormuz.",
+  "Não está confirmado que o petróleo de hoje mude o preço da gasolina ou do diesel nas bombas. A Petrobras decide o preço nas refinarias e o governo paga uma subvenção ao diesel importado. Nas fontes consultadas, não apareceu anúncio de reajuste da Petrobras. O efeito sobre energia elétrica e frete também não foi apurado.",
+  "Ninguém sabe para onde o Brent vai. Um economista da Valor Investimentos, citado pela TV Sim, diz que o preço pode cair a US$ 70 se houver acordo de paz. É um cenário condicional de uma única fonte, não uma previsão confirmada."
+ ],
+ "o_que_muda_para_voce": [
+  "O Brent é cotado em dólar e serve de base para o preço internacional do petróleo. Ele não define sozinho o preço do litro no posto. Há também a política de preços da Petrobras, os impostos e a subvenção do governo ao diesel importado.",
+  "Segundo a Abicom, quando o Brent chegou perto de US$ 111, o diesel da Petrobras ficou R$ 3,50 por litro abaixo do preço de importar. Com o Brent perto de US$ 96, essa distância tende a ser menor, mas o número atualizado não foi confirmado.",
+  "Quem acompanha ações da Petrobras vê o petróleo como um dos fatores do preço. Em 15/06, quando o petróleo caiu após o anúncio de um acordo EUA-Irã, o Ibovespa fechou em queda pressionado pela Petrobras, segundo a Reuters. Isso não prevê o que vai acontecer agora.",
+  "Quem tem poupança, CDB ou Tesouro Selic não sofre efeito direto do preço do Brent."
+ ],
+ "como_se_proteger": [],
+ "slug": "petroleo-hoje-1411",
+ "publicado_em": "2026-11-14T11:44:31.998539",
+ "atualizado_em": "2026-11-14T11:44:31.998539",
+ "assunto": "O petróleo voltou a subir após Trump dizer que os EUA não precisam de um acordo com o Irã. O Brent fechou perto de US$ 96 em 13/11 e caminha para a segunda queda semanal seguida, ainda acima dos níveis anteriores à guerra.",
+ "turno": "meio"
+}
