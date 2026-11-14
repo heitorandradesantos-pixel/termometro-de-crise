@@ -1,0 +1,184 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Mutirão do INSS: 7.959 vagas neste fim de semana, mas só entra quem agendou.",
+  "na_tela": "7.959 vagas, só com agendamento",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Mutirão do INSS: 7.959 vagas neste fim de semana, mas só entra quem agendou.",
+   "na_tela": "7.959 vagas, só com agendamento",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Se você espera perícia do INSS, este fim de semana tem 7.959 vagas.",
+   "na_tela": "Espera perícia do INSS?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Erro de todo mundo",
+   "texto": "Se você chegar na agência do INSS sem agendar, não é atendido.",
+   "na_tela": "Sem agendar, sem atendimento",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Mutirão do INSS: 7.959 vagas neste fim de semana, mas só entra quem agendou.",
+  "Funciona como consulta marcada: sem horário agendado, não adianta aparecer.",
+  "Agende pelo Meu INSS, site ou aplicativo, ou ligue na Central 135.",
+  "Espera perícia? Confere no Meu INSS se tem horário na sua agência.",
+  "Mas tem um detalhe: a nota fala em 8 estados, e a lista traz 9.",
+  "O INSS ainda não explicou essa diferença.",
+  "Desconfie de quem pedir CPF, senha ou dinheiro pra marcar perícia.",
+  "Manda pra quem espera perícia do INSS.",
+  "Você já foi na agência sem agendar? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Mutirão do INSS: 7.959 vagas neste fim de semana, mas só entra quem agendou. Funciona como consulta marcada: sem horário agendado, não adianta aparecer. Agende pelo Meu INSS, site ou aplicativo, ou ligue na Central 135. Espera perícia? Confere no Meu INSS se tem horário na sua agência. Mas tem um detalhe: a nota fala em 8 estados, e a lista traz 9. O INSS ainda não explicou essa diferença. Desconfie de quem pedir CPF, senha ou dinheiro pra marcar perícia. Manda pra quem espera perícia do INSS. Você já foi na agência sem agendar? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 106,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "7.959 vagas, só com agendamento",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "7.959 vagas · 14 e 15/11",
+   "fonte": "gov.br/inss (nota oficial)"
+  },
+  {
+   "fala": 2,
+   "texto": "Meu INSS ou Central 135",
+   "fonte": "gov.br/inss (nota oficial)"
+  },
+  {
+   "fala": 4,
+   "texto": "Nota: 8 estados. Lista: 9",
+   "fonte": "gov.br/inss (nota oficial)"
+  },
+  {
+   "fala": 6,
+   "texto": "Golpe: pedir CPF, senha ou dinheiro",
+   "fonte": "Serasa"
+  }
+ ],
+ "retomada": 4,
+ "busca": "mutirão INSS fim de semana",
+ "legenda": "Mutirão INSS fim de semana: o que se sabe.\n\nSegundo a nota oficial do INSS e do Ministério da Previdência Social, são 7.959 vagas de perícia médica e avaliação social nos dias 14 e 15 de novembro. Só é atendido quem agendou antes, pelo Meu INSS (site ou aplicativo) ou pela Central 135.\n\nO que ainda não se sabe: a nota fala em 8 estados, mas a lista de agências traz 9, e o INSS não explicou a diferença. Também não há dado oficial sobre vagas restantes nem balanço de atendimentos.\n\nPra se proteger, use só os canais oficiais. Desconfie de ligação ou mensagem que peça CPF, dados bancários ou senha, e não pague a ninguém por vaga. O agendamento é gratuito.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inss #meuinss #previdencia #dinheironobolso",
+ "hashtags": [
+  "#inss",
+  "#meuinss",
+  "#previdencia",
+  "#dinheironobolso"
+ ],
+ "rua": {
+  "gancho": "Mutirão do INSS neste fim de semana: só entra quem agendou.",
+  "topicos": [
+   "Segundo a nota oficial do INSS, são 7.959 vagas nos dias 14 e 15.",
+   "Só é atendido quem agenda pelo Meu INSS ou pela Central 135.",
+   "A nota diz 8 estados, a lista traz 9, e o INSS não explicou.",
+   "Desconfie de quem pedir CPF, senha ou dinheiro pra marcar; confira no Meu INSS."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "O mutirão é neste sábado e domingo, então é notícia quente que pede urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Mutirão do INSS: 7.959 vagas...\": número exato e \"mutirão\" sem tradução. Fale \"quase 8 mil vagas de perícia, a consulta com o médico do INSS\" e deixe o 7.959 no cartão da tela.",
+   "\"a nota fala em 8 estados, e a lista traz 9\": dois números e a palavra \"nota\" numa fala só. Reescreva: \"O INSS falou um número de estados, mas a lista tem um a mais, e ele ainda não explicou por quê\". Os números 8 e 9 ficam no cartão. Troque \"Mas tem um detalhe\" por \"Olha só\".",
+   "Antes do bordão final falta o aviso da casa. Acrescente: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" O \"Sem alarde. Eu sou só o termômetro!\" segue como última frase."
+  ],
+  "veredito": "Peça útil, com o passo a passo, o aviso de golpe e a ressalva honesta do que o INSS não explicou, mas as falas têm número demais e termo sem tradução, e falta o aviso do Heitor antes do bordão."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Mutirão do INSS: 7.959 vagas neste fim de semana, mas só entra quem agendou.\" soa como manchete e não chama ninguém pelo nome. Reescrita, com os mesmos fatos e a pessoa já no primeiro segundo: \"Quem espera perícia do INSS tem 7.959 vagas neste fim de semana. Mas só entra quem agendou.\" O resto do roteiro fica igual.",
+   "Retenção: \"Mas tem um detalhe: a nota fala em 8 estados, e a lista traz 9.\" põe dois números na mesma fala, o que o Teste do CLT não aceita. Reescrita: \"Mas tem um detalhe. A nota fala em 8 estados. A lista de agências traz 9.\" Depois: \"O INSS ainda não explicou essa diferença.\" Assim cada fala tem um número só e a virada fica mais clara.",
+   "Clareza: \"Agende pelo Meu INSS, site ou aplicativo, ou ligue na Central 135.\" tem muitas opções numa frase. Reescrita: \"Agende no Meu INSS, pelo site ou pelo aplicativo. Ou ligue 135.\""
+  ],
+  "veredito": "O vídeo paga o que promete, tem envio para uma situação concreta (quem espera perícia) e uma pergunta fácil de responder; para viralizar, falta o gancho chamar quem espera perícia logo na primeira frase e a virada do meio ter um número por fala."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-in down the entrance of a modern Brazilian public service office on a quiet morning: closed glass doors, a row of empty waiting chairs inside, soft daylight reflecting on the floor. No people, no signs, no text, no logos",
+   "texto_da_fala": "Funciona como consulta marcada: sem horário agendado, não adianta aparecer.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in down the entrance of a modern Brazilian public service office on a quiet morning: closed glass doors, a row of empty waiting chairs inside, soft daylight reflecting on the floor. No people, no signs, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Close-up over-the-shoulder shot of a hand holding a smartphone on a wooden table next to a corded landline phone, the screen showing only abstract blurred colored shapes with no readable text. Slow push-in with shallow depth of field, warm indoor light. No face visible, no logos, no letters, no numbers",
+   "texto_da_fala": "Agende pelo Meu INSS, site ou aplicativo, ou ligue na Central 135.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up over-the-shoulder shot of a hand holding a smartphone on a wooden table next to a corded landline phone, the screen showing only abstract blurred colored shapes with no readable text. Slow push-in with shallow depth of field, warm indoor light. No face visible, no logos, no letters, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Slow lateral tracking shot inside an empty medical examination room of a public office: a plain desk, two chairs, an examination table with white paper, a stethoscope resting on the desk, cool natural light from a window. No people, no text, no logos, no numbers",
+   "texto_da_fala": "Espera perícia? Confere no Meu INSS se tem horário na sua agência.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow lateral tracking shot inside an empty medical examination room of a public office: a plain desk, two chairs, an examination table with white paper, a stethoscope resting on the desk, cool natural light from a window. No people, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Mutirão do INSS: 7.959 vagas neste fim de semana, mas só entra quem agendou.\n\nFunciona como consulta marcada: sem horário agendado, não adianta aparecer.\n\nAgende pelo Meu INSS, site ou aplicativo, ou ligue na Central 135.\n\nEspera perícia? Confere no Meu INSS se tem horário na sua agência.\n\nMas tem um detalhe: a nota fala em 8 estados, e a lista traz 9.\n\nO INSS ainda não explicou essa diferença.\n\nDesconfie de quem pedir CPF, senha ou dinheiro pra marcar perícia.\n\nManda pra quem espera perícia do INSS.\n\nVocê já foi na agência sem agendar? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "gov.br/inss (nota oficial)",
+   "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/mutirao-de-atendimentos-do-inss-oferece-quase-8-mil-vagas-neste-fim-de-semana-14-e-15",
+   "destaque": "Em nota no site oficial, o INSS e o Ministério da Previdência Social dizem oferecer 7.959 vagas de atendimento nos dias 14 e 15 de novembro."
+  }
+ ],
+ "data": "2026-11-14",
+ "gerado_em": "2026-11-14T13:18:54.552355-03:00"
+}
