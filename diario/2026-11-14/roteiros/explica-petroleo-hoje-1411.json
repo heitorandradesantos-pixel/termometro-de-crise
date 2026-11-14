@@ -1,0 +1,195 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Petróleo a US$ 95,84: o que isso faz na sua gasolina?",
+  "na_tela": "Petróleo a US$ 95,84 e a gasolina?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 1
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Petróleo a US$ 95,84: o que isso faz na sua gasolina?",
+   "na_tela": "Petróleo a US$ 95,84 e a gasolina?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O petróleo subiu 3,3% num dia, depois de uma frase de Trump.",
+   "na_tela": "Petróleo +3,3% em um dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Em outubro, o diesel estava R$ 3,50 por litro abaixo do importado.",
+   "na_tela": "Diesel R$ 3,50 abaixo",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Petróleo a US$ 95,84: o que isso faz na sua gasolina?",
+  "O Brent, petróleo de referência do mundo, fechou assim na sexta, segundo a CNBC.",
+  "Um dia antes, subiu 3,3% depois de uma fala de Trump sobre o Irã.",
+  "Mas olha só: esse preço sozinho não define o litro no posto.",
+  "É que nem conta de luz: tem a política da Petrobras e o imposto.",
+  "Nas fontes que eu olhei, não apareceu reajuste da Petrobras.",
+  "O passo é calmo: ver se vem reajuste antes de mexer no orçamento.",
+  "Manda pra quem enche o tanque.",
+  "Achava que o petróleo mexia direto na bomba? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Petróleo a US$ 95,84: o que isso faz na sua gasolina? O Brent, petróleo de referência do mundo, fechou assim na sexta, segundo a CNBC. Um dia antes, subiu 3,3% depois de uma fala de Trump sobre o Irã. Mas olha só: esse preço sozinho não define o litro no posto. É que nem conta de luz: tem a política da Petrobras e o imposto. Nas fontes que eu olhei, não apareceu reajuste da Petrobras. O passo é calmo: ver se vem reajuste antes de mexer no orçamento. Manda pra quem enche o tanque. Achava que o petróleo mexia direto na bomba? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Petróleo a US$ 95,84 e a gasolina?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Brent: US$ 95,84",
+   "fonte": "CNBC"
+  },
+  {
+   "fala": 2,
+   "texto": "+3,3% em 12/11",
+   "fonte": "CNBC"
+  },
+  {
+   "fala": 3,
+   "texto": "Brent ≠ preço do posto",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Sem reajuste anunciado",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 3,
+ "busca": "petróleo hoje: o que muda na gasolina",
+ "legenda": "Petróleo hoje: o Brent, petróleo de referência do mundo, fechou a US$ 95,84 o barril na sexta (13/11), segundo a CNBC.\n\nUm dia antes, em 12/11, tinha subido 3,3% depois de Donald Trump dizer que os EUA não precisam de um acordo com o Irã.\n\nO petróleo não define sozinho o preço do litro no posto: entram também a política de preços da Petrobras e os impostos. Nas fontes consultadas, não apareceu anúncio de reajuste da Petrobras. Ninguém sabe para onde o preço vai.\n\nManda para quem enche o tanque toda semana.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#petroleo #gasolina #brent #economia #financaspessoais",
+ "hashtags": [
+  "#petroleo",
+  "#gasolina",
+  "#brent",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Petróleo a US$ 95,84: será que a gasolina muda?",
+  "topicos": [
+   "O Brent fechou a US$ 95,84 na sexta, segundo a CNBC.",
+   "Um dia antes, subiu 3,3% depois de uma fala de Trump sobre o Irã.",
+   "Só o petróleo não define o posto: tem Petrobras e imposto. Reajuste não apareceu.",
+   "Calma: espere um reajuste anunciado antes de mexer no orçamento."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente da sexta, com a fala de Trump ainda fresca, e tem só dois números.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"O Brent, petróleo de referência do mundo, fechou assim na sexta, segundo a CNBC.\": o nome de fonte (CNBC) não vai na fala pelo Teste do CLT. Reescreva como \"fechou assim na sexta, segundo a imprensa internacional\" (ou \"segundo agências de notícias\") e deixe CNBC no cartão da tela e na legenda.",
+   "Frase \"Um dia antes, subiu 3,3% depois de uma fala de Trump sobre o Irã.\": a fala já tem um número no título (US$ 95,84) e este é o segundo número em sequência, além de ser exato. Arredonde na fala (\"subiu mais de 3%\") e deixe o 3,3% exato no cartão. Em \"Brent\", a tradução ficou boa, mas dá para dizer \"o petróleo que serve de preço pro mundo\" para soar mais de conversa.",
+   "Frase \"É que nem conta de luz: tem a política da Petrobras e o imposto.\": a comparação é boa, mas \"política da Petrobras\" ainda soa de economista. Traduza na hora: \"tem o preço que a Petrobras cobra das distribuidoras e os impostos\" ou \"o que a Petrobras decide cobrar\". Isso também deixa a comparação mais viva, por exemplo \"na conta de luz tem a tarifa e o imposto, no posto é igual\"."
+  ],
+  "veredito": "A peça fala direto com quem enche o tanque, responde \\\"isso mexe no meu bolso?\\\" com calma e um passo simples, e usa o bordão e o aviso da casa. Falta passar no Teste do CLT: tirar a CNBC da fala, deixar um número por fala e traduzir \\\"política da Petrobras\\\"."
+ },
+ "viral": {
+  "nota": 5,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Petróleo a US$ 95,84: o que isso faz na sua gasolina?\" tem número, mas o número é de barril, longe do bolso de quem assiste, e a pergunta é genérica. Reescrita: \"O petróleo está a US$ 95,84 o barril. Vai pesar na sua gasolina? Calma, não é direto.\" Ou, com a crença desmontada logo de cara: \"O petróleo a US$ 95,84 não decide sozinho o preço da sua gasolina. Olha só por quê.\" Assim a lacuna é a bomba do posto, e a resposta (\"não é direto\") vem nos primeiros segundos.",
+   "Pagamento e retenção: \"Mas olha só: esse preço sozinho não define o litro no posto. É que nem conta de luz: tem a política da Petrobras e o imposto.\" A resposta aparece só no meio, a comparação fica solta e \"política da Petrobras\" é termo difícil de primeira. Reescrita: \"Mas olha só: o preço lá fora não vira o preço no posto de um dia pro outro. Entra o que a Petrobras cobra e entra o imposto. É que nem a conta de luz: tem o preço da energia e tem o que vem em cima.\" Dá para tirar \"Brent, petróleo de referência do mundo, segundo a CNBC\" da fala e deixar \"segundo a CNBC\" só no cartão e na legenda. Mantenha só um número por fala (a fala do 3,3% pode virar \"subiu uns 3% num dia\", com o exato no cartão).",
+   "Envio e conversa: \"Manda pra quem enche o tanque.\" e \"Achava que o petróleo mexia direto na bomba? Comenta SIM ou NÃO.\" O envio já tem situação concreta, mas falta o motivo de mandar. Reescrita: \"Manda pra quem enche o tanque e acha que o petróleo muda o preço da bomba no mesmo dia.\" Para a pergunta, ligue com o gancho e com a identificação: \"Você achava que o petróleo mexia direto na bomba? SIM ou NÃO, comenta aí.\" Dá para guardar a frase \"o passo é calmo\" como fecho, com a mesma fonte e sem promessa."
+  ],
+  "veredito": "Roteiro limpo, curto e honesto, com envio concreto e pergunta de duas saídas, mas o gancho gira em torno de um número de barril que não é do bolso do espectador e a resposta (\\\"não é direto\\\") chega tarde, no meio do vídeo; trazendo a bomba do posto e a crença para a primeira frase, ele ganha força para parar o dedo e circular."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow aerial dolly shot over an offshore oil platform at dusk in the open sea, orange glow on the horizon, waves rolling below, flare burning softly, vertical framing, no people, no text, no logos",
+   "texto_da_fala": "O Brent, petróleo de referência do mundo, fechou assim na sexta, segundo a CNBC.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial dolly shot over an offshore oil platform at dusk in the open sea, orange glow on the horizon, waves rolling below, flare burning softly, vertical framing, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Close-up tracking shot of a gas pump nozzle resting in its holder at a Brazilian roadside fuel station at golden hour, camera slowly pulls back to reveal rows of pumps and a canopy with blank unmarked signage, no people, no text, no numbers, no logos",
+   "texto_da_fala": "É que nem conta de luz: tem a política da Petrobras e o imposto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up tracking shot of a gas pump nozzle resting in its holder at a Brazilian roadside fuel station at golden hour, camera slowly pulls back to reveal rows of pumps and a canopy with blank unmarked signage, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow push-in on a large oil refinery at twilight, tall distillation towers and pipes lit by warm industrial lights, thin steam rising, calm and quiet atmosphere, vertical framing, no people, no text, no logos",
+   "texto_da_fala": "Nas fontes que eu olhei, não apareceu reajuste da Petrobras.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in on a large oil refinery at twilight, tall distillation towers and pipes lit by warm industrial lights, thin steam rising, calm and quiet atmosphere, vertical framing, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Petróleo a US$ 95,84: o que isso faz na sua gasolina?\n\nO Brent, petróleo de referência do mundo, fechou assim na sexta, segundo a CNBC.\n\nUm dia antes, subiu 3,3% depois de uma fala de Trump sobre o Irã.\n\nMas olha só: esse preço sozinho não define o litro no posto.\n\nÉ que nem conta de luz: tem a política da Petrobras e o imposto.\n\nNas fontes que eu olhei, não apareceu reajuste da Petrobras.\n\nO passo é calmo: ver se vem reajuste antes de mexer no orçamento.\n\nManda pra quem enche o tanque.\n\nAchava que o petróleo mexia direto na bomba? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html",
+   "destaque": "O Brent para janeiro fechou a US$ 95,84 o barril em 13/11, alta de 2 centavos (0,02%)."
+  },
+  {
+   "veiculo": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+   "destaque": "Em 12/11, o Brent subiu 3,3%, a US$ 95,82, e o WTI subiu 2,6%, a US$ 88,74."
+  },
+  {
+   "veiculo": "CNN Brasil (Estadão Conteúdo)",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/abicom-diesel-da-petrobras-se-aproxima-ao-subsidio-com-alta-do-brent/",
+   "destaque": "Em outubro, com o Brent perto de US$ 111, a Abicom (associação dos importadores de combustíveis) calculou que o diesel da Petrobras estava…"
+  }
+ ],
+ "data": "2026-11-14",
+ "gerado_em": "2026-11-14T11:50:17.234656-03:00"
+}
