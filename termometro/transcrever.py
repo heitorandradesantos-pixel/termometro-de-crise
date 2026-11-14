@@ -85,6 +85,7 @@ def alinhar(audio, saida: list[dict]) -> None:
 
 
 if __name__ == "__main__":
+    resultado = rodar(sys.argv[1])  # antes do marcador: avisos e barras de download não podem cair no meio do JSON
     print("TRANSCRICAO_INICIO")
-    print(json.dumps(rodar(sys.argv[1]), ensure_ascii=False))
+    print(json.dumps(resultado, ensure_ascii=False))
     print("TRANSCRICAO_FIM")
