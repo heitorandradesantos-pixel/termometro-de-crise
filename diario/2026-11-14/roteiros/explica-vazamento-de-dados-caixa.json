@@ -1,0 +1,185 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "7,6 milhões de clientes da Caixa tiveram dados copiados. Você está nessa?",
+  "na_tela": "Seus dados vazaram da Caixa?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "7,6 milhões de clientes da Caixa tiveram dados copiados. Você está nessa?",
+   "na_tela": "Seus dados vazaram da Caixa?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu nome e seu CPF na mão errada deixam o golpe mais convincente.",
+   "na_tela": "Nome e CPF na mão errada",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Meus dados vazaram da Caixa? Depende de qual produto você tem.",
+   "na_tela": "Vazou da Caixa? Depende",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "7,6 milhões de clientes da Caixa tiveram dados copiados. Você está nessa?",
+  "Foi na parte de previdência e seguros, não em toda conta da Caixa.",
+  "Quem tem ou já teve seguro ou previdência lá pode estar na base.",
+  "Copiaram nomes e CPFs. A Caixa diz que senhas e dados bancários ficaram de fora.",
+  "Sinal amarelo: com seu nome e CPF, golpista chega parecendo a central de verdade.",
+  "Se ligarem dizendo ser da Caixa, desligue e ligue você no número oficial.",
+  "Manda pra quem tem seguro ou previdência da Caixa.",
+  "Você já recebeu ligação falsa de banco? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "7,6 milhões de clientes da Caixa tiveram dados copiados. Você está nessa? Foi na parte de previdência e seguros, não em toda conta da Caixa. Quem tem ou já teve seguro ou previdência lá pode estar na base. Copiaram nomes e CPFs. A Caixa diz que senhas e dados bancários ficaram de fora. Sinal amarelo: com seu nome e CPF, golpista chega parecendo a central de verdade. Se ligarem dizendo ser da Caixa, desligue e ligue você no número oficial. Manda pra quem tem seguro ou previdência da Caixa. Você já recebeu ligação falsa de banco? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 107,
+ "segundos": 43,
+ "na_tela": [
+  {
+   "texto": "Seus dados vazaram da Caixa?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "7,6 milhões de clientes da CVP",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "Nomes e CPFs copiados",
+   "fonte": "Gazeta do Povo"
+  },
+  {
+   "fala": 4,
+   "texto": "Sinal amarelo: golpe",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Desligue e ligue no número oficial",
+   "fonte": "Caixa"
+  }
+ ],
+ "retomada": 4,
+ "busca": "meus dados vazaram da Caixa?",
+ "legenda": "Meus dados vazaram da Caixa? Calma, o caso tem um recorte importante.\n\nSegundo a Caixa Seguridade, um ataque hacker à Caixa Vida e Previdência, identificado em 6/11, expôs dados de 7,6 milhões de clientes ativos e de ex-clientes. Foi comunicado ao mercado em 12/11.\n\nQuem tem ou já teve previdência ou seguro lá pode estar na base. Quem só tem conta ou cartão da Caixa: nenhuma fonte consultada diz que foi atingido. A empresa diz que senhas e dados bancários não foram expostos, mas a perícia ainda pode mudar essa análise.\n\nO risco é o golpe: nome e CPF deixam a falsa central mais convincente. Se alguém ligar dizendo ser da Caixa, desligue e ligue você mesmo para o número oficial. Ative a verificação em duas etapas e não clique em links sobre o vazamento.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#vazamentodedados #caixa #golpe #segurancadigital #educacaofinanceira",
+ "hashtags": [
+  "#vazamentodedados",
+  "#caixa",
+  "#golpe",
+  "#segurancadigital",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Vazou dado de 7,6 milhões de clientes da Caixa. Calma, olha só.",
+  "topicos": [
+   "Caixa Seguridade: 7,6 milhões de clientes de previdência e seguros tiveram dados copiados.",
+   "São nomes e CPFs. Senhas e dados bancários, diz a Caixa, ficaram de fora.",
+   "Só conta ou cartão da Caixa? Nenhuma fonte diz que você foi atingido.",
+   "Se ligarem dizendo ser da Caixa, desligue e ligue no número oficial."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e ressalvas (quem foi atingido e quem não foi), que pede calma de bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Na frase \"Sinal amarelo: com seu nome e CPF, golpista chega parecendo a central de verdade\", acrescente uma comparação do dia a dia. Exemplo: \"é como o estranho que te chama pelo nome completo e já ganha sua confiança\". Antes dela, coloque a virada \"Olha só\". Isso dá o toque sanguíneo que falta e usa um bordão da casa.",
+   "Na frase \"Quem tem ou já teve seguro ou previdência lá pode estar na base\", troque \"base\" por \"na lista dos copiados\". É linguagem de TI, e o Teste do CLT pede a palavra do dia a dia. Depois de \"A Caixa diz que senhas e dados bancários ficaram de fora\", inclua o que ainda não se sabe, por exemplo \"a investigação ainda não terminou\". A legenda já traz isso, e a fala também precisa, para cobrir o lado melancólico.",
+   "Antes de \"Sem alarde. Eu sou só o termômetro!\", inclua a fala \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\". Hoje ela só aparece na legenda. O bordão continua como última frase, sem alteração."
+  ],
+  "veredito": "A peça acerta no recorte (previdência e seguros, não toda conta), na identificação e na saída (desligue e ligue no número oficial), e não faz alarde. Faltam uma comparação viva, o que ainda não se sabe na fala, a virada \\\"Olha só\\\" e o aviso do Heitor antes do bordão final."
+ },
+ "viral": {
+  "nota": 10,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [],
+  "veredito": "Roteiro forte: abre com número e pergunta direta (\"7,6 milhões... Você está nessa?\"), responde logo em seguida com o recorte (previdência e seguros), mantém frases curtas com virada no \"Sinal amarelo\", pede envio para uma situação concreta (quem tem seguro ou previdência da Caixa) e fecha com pergunta SIM ou NÃO que dá vontade de comentar. Não falta nada para viralizar que o texto possa resolver."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Close-up of a stack of paper forms and a generic ID-style document on a desk, with out-of-focus blurry text that is illegible. A hand-less slow dolly-in on a computer monitor in a dim office showing abstract blurred rows of data being copied, glowing cool blue light. No readable text, no letters, no numbers, no logos, no faces",
+   "texto_da_fala": "Copiaram nomes e CPFs. A Caixa diz que senhas e dados bancários ficaram de fora.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a stack of paper forms and a generic ID-style document on a desk, with out-of-focus blurry text that is illegible. A hand-less slow dolly-in on a computer monitor in a dim office showing abstract blurred rows of data being copied, glowing cool blue light. No readable text, no letters, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "A smartphone lying on a wooden table in a dim room, its screen lighting up with an abstract incoming-call glow in amber and yellow tones, vibrating slightly on the surface. Slow camera push-in from above at an angle. No readable text, no letters, no numbers, no logos, no faces, no people",
+   "texto_da_fala": "Sinal amarelo: com seu nome e CPF, golpista chega parecendo a central de verdade.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A smartphone lying on a wooden table in a dim room, its screen lighting up with an abstract incoming-call glow in amber and yellow tones, vibrating slightly on the surface. Slow camera push-in from above at an angle. No readable text, no letters, no numbers, no logos, no faces, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "A hand-less shot of an old landline telephone handset being placed down onto its cradle on a tidy home desk, warm daylight from a window, then the camera slowly pans to a modern smartphone resting next to it. No readable text, no letters, no numbers, no logos, no faces, no recognizable people",
+   "texto_da_fala": "Se ligarem dizendo ser da Caixa, desligue e ligue você no número oficial.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A hand-less shot of an old landline telephone handset being placed down onto its cradle on a tidy home desk, warm daylight from a window, then the camera slowly pans to a modern smartphone resting next to it. No readable text, no letters, no numbers, no logos, no faces, no recognizable people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "7,6 milhões de clientes da Caixa tiveram dados copiados. Você está nessa?\n\nFoi na parte de previdência e seguros, não em toda conta da Caixa.\n\nQuem tem ou já teve seguro ou previdência lá pode estar na base.\n\nCopiaram nomes e CPFs. A Caixa diz que senhas e dados bancários ficaram de fora.\n\nSinal amarelo: com seu nome e CPF, golpista chega parecendo a central de verdade.\n\nSe ligarem dizendo ser da Caixa, desligue e ligue você no número oficial.\n\nManda pra quem tem seguro ou previdência da Caixa.\n\nVocê já recebeu ligação falsa de banco? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-seguridade-informa-ataque-cibernetico-e-vazamento-de-dados",
+   "destaque": "A Caixa Seguridade comunicou o ataque ao mercado na quinta-feira (12/11)."
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/negocios/caixa-sofre-ataque-hacker-que-afeta-76-milhoes-de-clientes/",
+   "destaque": "Segundo o comunicado à CVM, a CVP identificou em 6/11 um acesso não autorizado aos seus sistemas."
+  }
+ ],
+ "data": "2026-11-14",
+ "gerado_em": "2026-11-14T16:32:04.140296-03:00"
+}
