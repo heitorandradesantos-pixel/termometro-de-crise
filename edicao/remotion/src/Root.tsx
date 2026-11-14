@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { Capa } from "./Capa";
 import { calcularInflacao, MotionInflacao } from "./MotionInflacao";
+import { AnuncioExtrato, AnuncioJuros, AnuncioTeste } from "./MotionAnuncios";
 import { calcularNome, calcularPix, MotionNomeLimpo, MotionPixGolpe } from "./MotionDireitos";
 import { calcularRotativo, MotionRotativo } from "./MotionRotativo";
 import { calcularCesta, calcularGasolina, MotionCesta, MotionGasolina } from "./MotionComparar";
@@ -132,6 +133,9 @@ export const RemotionRoot: React.FC = () => {
       calculateMetadata={calcularPix}
       defaultProps={{ valor: 2000, pergunta: "Você conhecia o MED?", opcoes: ["SIM", "NÃO"] as [string, string],
         rodape: "🛡️ Kit Anti-Golpe completo: link na bio" }} />
+    <Composition id="AnuncioTeste" component={AnuncioTeste} width={1080} height={1920} fps={30} durationInFrames={666} />
+    <Composition id="AnuncioExtrato" component={AnuncioExtrato} width={1080} height={1920} fps={30} durationInFrames={690} />
+    <Composition id="AnuncioJuros" component={AnuncioJuros} width={1080} height={1920} fps={30} durationInFrames={672} />
     </>
   );
 };
