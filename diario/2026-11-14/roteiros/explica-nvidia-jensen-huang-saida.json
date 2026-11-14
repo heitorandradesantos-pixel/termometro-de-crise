@@ -1,0 +1,200 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Seu fundo que investe em empresa de tecnologia dos EUA pode ter Nvidia.",
+  "na_tela": "Seu fundo pode ter Nvidia",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu fundo que investe em empresa de tecnologia dos EUA pode ter Nvidia.",
+   "na_tela": "Seu fundo pode ter Nvidia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O CEO da Nvidia pediu para sair, e ninguém disse que foi mandado embora.",
+   "na_tela": "CEO pediu para sair",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "A Nvidia caiu 4,3% num dia, e o motivo é a saída do CEO.",
+   "na_tela": "Nvidia cai 4,3% num dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seu fundo que investe em empresa de tecnologia dos EUA pode ter Nvidia.",
+  "O CEO dela renunciou na quinta, e a ação caiu 4,3% num dia.",
+  "Ele pediu para sair. Ninguém disse que foi mandado embora.",
+  "Índice é a nota média da bolsa americana, e a Nvidia pesa nela.",
+  "Quando ela cai, puxa a nota pra baixo, e isso mexe no seu fundo.",
+  "Olha só: na sexta caiu mais uns 2%. Sinal amarelo.",
+  "O balanço, resultado da empresa, sai na terça.",
+  "Calma: quem não tem Nvidia não sente direto.",
+  "Olha no app do banco se seu fundo tem Nvidia.",
+  "Susto passageiro ou sinal amarelo? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu fundo que investe em empresa de tecnologia dos EUA pode ter Nvidia. O CEO dela renunciou na quinta, e a ação caiu 4,3% num dia. Ele pediu para sair. Ninguém disse que foi mandado embora. Índice é a nota média da bolsa americana, e a Nvidia pesa nela. Quando ela cai, puxa a nota pra baixo, e isso mexe no seu fundo. Olha só: na sexta caiu mais uns 2%. Sinal amarelo. O balanço, resultado da empresa, sai na terça. Calma: quem não tem Nvidia não sente direto. Olha no app do banco se seu fundo tem Nvidia. Susto passageiro ou sinal amarelo? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Seu fundo pode ter Nvidia",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Ação da Nvidia: -4,3% na quinta (12/11)",
+   "fonte": "CNBC"
+  },
+  {
+   "fala": 2,
+   "texto": "Renúncia, não destituição",
+   "fonte": "Bloomberg Línea"
+  },
+  {
+   "fala": 3,
+   "texto": "Índice = nota média da bolsa",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Sexta (13/11): -2,01%",
+   "fonte": "CNBC"
+  },
+  {
+   "fala": 6,
+   "texto": "Balanço: terça (17/11), 18h20 em Brasília",
+   "fonte": "GlobeNewswire (comunicado da Nvidia)"
+  },
+  {
+   "fala": 8,
+   "texto": "Veja se seu fundo tem Nvidia",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "Nvidia hoje: CEO renunciou e ação cai",
+ "legenda": "Nvidia hoje: CEO renunciou e ação cai. O que isso muda para você?\n\nSegundo a Nvidia, Jensen Huang renunciou na quinta (12/11). A ação caiu 4,3% naquele dia e mais 2,01% na sexta (13/11), segundo a CNBC. Os veículos falam em renúncia, e não em afastamento.\n\nQuem tem ações da Nvidia, BDRs ou fundos que investem em empresas de tecnologia dos EUA pode ver o valor oscilar mais nos próximos dias. O balanço da empresa sai na terça (17/11). Ainda não se sabe como as bolsas vão reagir, nem quem será o CEO definitivo.\n\nQuem não tem Nvidia não é afetado de forma direta. O passo calmo: olhe no app do banco se o seu fundo tem Nvidia.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#nvidia #investimentos #bolsadevalores #educacaofinanceira",
+ "hashtags": [
+  "#nvidia",
+  "#investimentos",
+  "#bolsadevalores",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "O CEO da Nvidia renunciou, e seu fundo pode ter a empresa.",
+  "topicos": [
+   "Segundo a Nvidia, Jensen Huang renunciou na quinta (12/11); a ação caiu 4,3%.",
+   "Segundo a CNBC, na sexta (13/11) a ação caiu mais 2,01%.",
+   "Segundo a Nvidia, o balanço sai na terça (17/11).",
+   "Olha no app do banco se seu fundo tem Nvidia."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "Notícia quente de quinta e sexta, com balanço na terça, pede urgência de quem acabou de saber.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Seu fundo que investe em empresa de tecnologia dos EUA pode ter Nvidia.\": o gancho está longo e abre com o fundo, mas quem sente a economia no bolso e não investe fica de fora. Reescreva em frase curta e direta, tipo \"O chefe da Nvidia saiu e a ação caiu. Se você tem fundo, isso pode mexer no seu dinheiro.\" Assim você entra no fato e na pergunta de bolso logo de cara, sem inventar dado.",
+   "Frase \"Índice é a nota média da bolsa americana, e a Nvidia pesa nela.\": a tradução ajudou, mas a fala junta duas ideias e usa \"índice\" e \"pesa\". Divida em duas falas, uma com a ideia de \"nota média da bolsa dos EUA\" e outra com \"a Nvidia é uma das grandes e puxa essa nota\". Troque \"balanço, resultado da empresa\" por \"o resultado da empresa no trimestre, que sai na terça\" (a data exata fica no cartão da tela).",
+   "Frase \"Ele pediu para sair. Ninguém disse que foi mandado embora.\": soa um pouco de bastidor e pode deixar dúvida, porque não diz quem afirma o quê. Troque por \"Segundo a Nvidia, ele renunciou\", que dá a autoridade emprestada na fala. Na fala \"4,3%\" e \"mais uns 2%\" são dois números na mesma fala ou em falas coladas, então separe cada um em sua fala e arredonde, com o exato no cartão."
+  ],
+  "veredito": "A peça traz os quatro temperamentos, a saída calma (olhar o app do banco) e o bordão certo, sem alarme nem palpite, mas o gancho abre para quem já investe e algumas falas juntam termo técnico e número demais para passar no Teste do CLT."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: a frase 'Seu fundo que investe em empresa de tecnologia dos EUA pode ter Nvidia.' é longa, condicional e fala só com quem já investe. Reescrita: 'O chefe da Nvidia pediu para sair, e a ação caiu 4,3% num dia. Seu fundo pode ter essa ação.' Ponha o mesmo texto na tela no primeiro quadro.",
+   "Envio: não há pedido de envio. Depois de 'Olha no app do banco se seu fundo tem Nvidia.', acrescente: 'Manda pra quem tem fundo de tecnologia dos EUA.'",
+   "Retenção: 'Índice é a nota média da bolsa americana, e a Nvidia pesa nela.' traz um termo novo numa frase só. Reescrita em duas falas: 'A bolsa americana tem uma nota média: o índice.' e 'A Nvidia pesa nela.'"
+  ],
+  "veredito": "O roteiro é claro, honesto e paga o que promete, e o fim pergunta bem; mas o gancho é longo e fala só com quem investe, e falta um pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow upward tilt along a modern glass tech-company headquarters at dusk, with the windows reflecting an orange sky. Cut to a slow push-in on an empty executive office. A leather chair sits turned slightly away from a clean desk, and the city lights glow behind it. No people, no signs, no logos, no text",
+   "texto_da_fala": "O CEO dela renunciou na quinta, e a ação caiu 4,3% num dia.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along a modern glass tech-company headquarters at dusk, with the windows reflecting an orange sky. Cut to a slow push-in on an empty executive office. A leather chair sits turned slightly away from a clean desk, and the city lights glow behind it. No people, no signs, no logos, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow dolly-in down the center aisle of an empty corporate auditorium. Stage lights come on one by one over a plain podium. A large blank screen glows soft blue behind it. Cool, tense mood. No people, no text, no logos, no numbers",
+   "texto_da_fala": "O balanço, resultado da empresa, sai na terça.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in down the center aisle of an empty corporate auditorium. Stage lights come on one by one over a plain podium. A large blank screen glows soft blue behind it. Cool, tense mood. No people, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Close-up over-the-shoulder shot of a hand holding a smartphone in a bright living room. The thumb scrolls slowly through an abstract banking app. The screen shows only soft blurred color blocks and a smooth wavy line chart, with no readable text. The camera pushes in slowly toward the screen. No face, no text, no logos, no numbers",
+   "texto_da_fala": "Olha no app do banco se seu fundo tem Nvidia.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up over-the-shoulder shot of a hand holding a smartphone in a bright living room. The thumb scrolls slowly through an abstract banking app. The screen shows only soft blurred color blocks and a smooth wavy line chart, with no readable text. The camera pushes in slowly toward the screen. No face, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu fundo que investe em empresa de tecnologia dos EUA pode ter Nvidia.\n\nO CEO dela renunciou na quinta, e a ação caiu 4,3% num dia.\n\nEle pediu para sair. Ninguém disse que foi mandado embora.\n\nÍndice é a nota média da bolsa americana, e a Nvidia pesa nela.\n\nQuando ela cai, puxa a nota pra baixo, e isso mexe no seu fundo.\n\nOlha só: na sexta caiu mais uns 2%. Sinal amarelo.\n\nO balanço, resultado da empresa, sai na terça.\n\nCalma: quem não tem Nvidia não sente direto.\n\nOlha no app do banco se seu fundo tem Nvidia.\n\nSusto passageiro ou sinal amarelo? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Bloomberg Línea",
+   "url": "https://www.bloomberglinea.com.br/mercados/as-acoes-da-nvidia-despencam-em-wall-street-apos-a-renuncia-de-jensen-huang/",
+   "destaque": "Jensen Huang renunciou na quinta (12/11) aos cargos de diretor executivo (CEO) e de membro do conselho da Nvidia."
+  },
+  {
+   "veiculo": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+   "destaque": "A diretora financeira, Colette Kress, assumiu como CEO interina."
+  }
+ ],
+ "data": "2026-11-14",
+ "gerado_em": "2026-11-14T09:21:16.554367-03:00"
+}
