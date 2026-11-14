@@ -33,7 +33,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q faster-whisper numpy
+      - run: pip install -q faster-whisper numpy torch torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
       - run: which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - name: Abrir o audio
         env:
