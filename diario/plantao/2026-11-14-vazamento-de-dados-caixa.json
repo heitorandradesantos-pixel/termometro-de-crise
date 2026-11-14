@@ -1,0 +1,127 @@
+{
+ "titulo": "Vazamento de dados da Caixa: meus dados vazaram? O que se sabe",
+ "descricao": "Ataque à Caixa Vida e Previdência expôs dados de 7,6 milhões de clientes. Senhas e saldos não foram atingidos, diz a empresa. Veja o que é fato.",
+ "palavra_chave": "vazamento de dados caixa",
+ "lead": "A Caixa Seguridade informou à CVM, na quinta-feira (12/11), que um ataque hacker à Caixa Vida e Previdência expôs dados pessoais de 7,6 milhões de clientes ativos e de ex-clientes. O ataque foi identificado em 6/11. A empresa diz que não há indício de vazamento de senhas, dados bancários, saldos de previdência ou valores de apólices. O caso é da subsidiária de previdência e seguros, não de todos os correntistas da Caixa. Até a apuração deste texto (14/11), não encontramos lista de afetados, nova nota da ANPD nem onda de golpes confirmada.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Caixa Seguridade comunicou o ataque ao mercado na quinta-feira (12/11). Disse que a subsidiária Caixa Vida e Previdência (CVP) teve dados de 7,6 milhões de clientes ativos copiados, além de dados de ex-clientes.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-seguridade-informa-ataque-cibernetico-e-vazamento-de-dados",
+   "data": "2026-11-12",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o comunicado à CVM, a CVP identificou em 6/11 um acesso não autorizado aos seus sistemas. Depois disso, dados pessoais e cadastrais foram copiados para fora do ambiente da empresa.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/negocios/caixa-sofre-ataque-hacker-que-afeta-76-milhoes-de-clientes/",
+   "data": "2026-11-12",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Os dados expostos são nomes e CPFs. Em parte dos registros, os invasores também tiveram acesso a endereços, telefones, e-mails e datas de nascimento.",
+   "fonte_url": "https://www.gazetadopovo.com.br/republica/ataque-hacker-expoe-dados-de-76-milhoes-de-clientes-da-caixa/",
+   "data": "2026-11-13",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "A empresa afirma, com base na apuração inicial, que não há indício de vazamento de informações financeiras nem de senhas.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-seguridade-informa-ataque-cibernetico-e-vazamento-de-dados",
+   "data": "2026-11-12",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O ataque atingiu a base cadastral da Caixa Vida e Previdência, que tem clientes próprios de previdência e seguros. Não foi um vazamento de todos os correntistas da Caixa Econômica Federal.",
+   "fonte_url": "https://istoe.com.br/ataque-hacker-caixa-vida-previdencia-vazamento-dados",
+   "data": "2026-11-13",
+   "veiculo": "ISTOÉ",
+   "confiavel": false
+  },
+  {
+   "texto": "A CVP avisou a ANPD (Autoridade Nacional de Proteção de Dados) na quarta-feira (11/11). Disse ter bloqueado os mecanismos do ataque e contratado perícia externa.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/negocios/caixa-sofre-ataque-hacker-que-afeta-76-milhoes-de-clientes/",
+   "data": "2026-11-12",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A ANPD analisa as medidas da empresa, em especial as de transparência e de redução de danos aos titulares dos dados.",
+   "fonte_url": "https://www.baguete.com.br/noticias/ataque-a-caixa-expoe-dados-pessoais-de-7-6-milhoes-de-clientes",
+   "data": "2026-11-13",
+   "veiculo": "Baguete",
+   "confiavel": false
+  },
+  {
+   "texto": "Clientes da CVP começaram a receber e-mails sobre o caso em 12/11. A Caixa diz que, até agora, não identificou evidência de que os dados tenham sido divulgados ou usados de forma indevida.",
+   "fonte_url": "https://tecnoblog.net/noticias/alerta-vazamento-na-caixa-expoe-dados-de-76-milhoes-de-clientes/",
+   "data": "2026-11-12",
+   "veiculo": "Tecnoblog",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Caixa Vida e Previdência identifica acesso não autorizado e cópia de dados cadastrais para fora de seus sistemas.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/negocios/caixa-sofre-ataque-hacker-que-afeta-76-milhoes-de-clientes/",
+   "data": "2026-11-06",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A CVP comunica o incidente à ANPD e a outras autoridades, como prevê a LGPD (Lei Geral de Proteção de Dados).",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/negocios/caixa-sofre-ataque-hacker-que-afeta-76-milhoes-de-clientes/",
+   "data": "2026-11-11",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Caixa Seguridade publica comunicado à CVM e a CVP começa a avisar clientes por e-mail.",
+   "fonte_url": "https://tecnoblog.net/noticias/alerta-vazamento-na-caixa-expoe-dados-de-76-milhoes-de-clientes/",
+   "data": "2026-11-12",
+   "veiculo": "Tecnoblog",
+   "confiavel": false
+  },
+  {
+   "texto": "Clientes relatam falhas no Pix e no app da Caixa, com mais de mil reclamações. Não há relação confirmada com o ataque.",
+   "fonte_url": "https://www.baguete.com.br/noticias/ataque-a-caixa-expoe-dados-pessoais-de-7-6-milhoes-de-clientes",
+   "data": "2026-11-12",
+   "veiculo": "Baguete",
+   "confiavel": false
+  },
+  {
+   "texto": "A ANPD diz que acompanha o caso e pode pedir esclarecimentos adicionais à Caixa, segundo o G1 citado por outro site.",
+   "fonte_url": "https://meutudo.com.br/blog/noticias/2026/11/13/hackearam-a-caixa-veja-ataque-que-vazou-dados-de-76-milhoes-e-relacao-com-pix-fora-do-ar/",
+   "data": "2026-11-13",
+   "veiculo": "Meu Tudo (cita G1)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quantas pessoas tiveram dados copiados de fato. Alguns veículos dizem que toda a base de 7,6 milhões foi atingida. Outros afirmam que o número exato de afetados não consta no comunicado. A empresa também não informou quantos ex-clientes entram na conta.",
+  "Quem fez o ataque. Os veículos consultados não trazem autoria confirmada.",
+  "Se há relação entre as falhas no Pix da Caixa em 12/11 e o ataque. Houve mais de mil reclamações, mas nenhuma fonte oficial confirmou ligação técnica.",
+  "Se os dados já circulam na internet ou estão à venda. A Caixa diz que monitora a rede, mas não confirmou isso até agora.",
+  "Se haverá decisão ou sanção da ANPD. A agência diz que pode pedir mais esclarecimentos à Caixa, caso necessário. Não encontramos novidade de 14/11, nem lista oficial de afetados ou onda de golpes confirmada ligada ao caso."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem ou já teve previdência ou seguro (vida, acidentes pessoais, Dívida Zero, viagem) com a Caixa Vida e Previdência, seus dados cadastrais podem estar na base atingida. A Caixa diz que quem teve telefone ou e-mail exposto está sendo avisado.",
+  "Se você só tem conta ou cartão da Caixa, nenhuma fonte consultada diz que esses clientes foram atingidos. O ataque foi à subsidiária de previdência e seguros.",
+  "A empresa diz que senhas, dados bancários, saldos de previdência e valores de apólices não foram atingidos, segundo a apuração inicial. Essa análise pode mudar com a perícia.",
+  "Nome, CPF, telefone e e-mail reais podem deixar golpes mais convincentes, como falsa central, phishing (mensagem falsa para roubar dados) e abordagem por WhatsApp. A própria Caixa alertou para esse risco.",
+  "Dúvidas sobre o caso podem ser enviadas ao canal que a empresa criou: comunicado.DPO@caixavidaeprevidencia.com.br."
+ ],
+ "como_se_proteger": [
+  "Desconfie de ligação, SMS, e-mail ou WhatsApp que cite seus dados e peça senha, código ou pagamento. A Caixa diz que não pede senha por WhatsApp nem por telefone.",
+  "Não clique em links de mensagens sobre o vazamento. Se quiser confirmar um aviso, use o site ou o app oficial, ou o e-mail de atendimento divulgado pela empresa.",
+  "Se alguém ligar dizendo ser da Caixa, desligue e ligue você mesmo para o número oficial do banco.",
+  "Ative a verificação em duas etapas nos aplicativos de banco, no WhatsApp e no e-mail.",
+  "Confira com frequência o extrato e o app do banco. Se notar algo estranho, avise o banco na hora."
+ ],
+ "slug": "vazamento-de-dados-caixa",
+ "publicado_em": "2026-11-14T16:28:22.020589",
+ "atualizado_em": "2026-11-14T16:28:22.020589",
+ "assunto": "A Caixa Seguridade informou, em comunicado à CVM na quinta-feira (12/11), que um ataque hacker à Caixa Vida e Previdência expôs dados pessoais de 7,6 milhões de clientes ativos, além de ex-clientes. Os dados são nome, CPF, endereço, telefone, e-mail e data de nascimento. A empresa diz não haver indício de vazamento de senhas, dados bancários, saldos de previdência ou valores de apólices. Segundo os veículos, o ataque foi em 6/11 e a ANPD foi notificada em 11/11 (um veículo cita 12/11). Clientes do Pix da Caixa relataram falhas no mesmo dia, mas não há relação técnica confirmada. Ressalva de data: o comunicado é de anteontem e a cobertura segue hoje. Só entra se houver novidade hoje (14/11), como lista de afetados, nota da ANPD ou onda de golpes. O foco é o que é verdade e o que é exagero: o vazamento é da subsidiária de previdência, não de todos os correntistas do banco.",
+ "turno": "viral"
+}
