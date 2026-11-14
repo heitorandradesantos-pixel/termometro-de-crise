@@ -1,0 +1,206 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "Um banco lucrou US$ 1,091 bilhão. Outro viu o lucro cair 66,5%.",
+  "na_tela": "Um lucrou recorde. O outro caiu 66,5%",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "Um banco lucrou US$ 1,091 bilhão. Outro viu o lucro cair 66,5%.",
+   "na_tela": "Um lucrou recorde. O outro caiu 66,5%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu dinheiro está no Nubank ou no Banco do Brasil? Eu fui olhar o balanço.",
+   "na_tela": "Seu dinheiro está em qual banco?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Banco do Brasil lucrou 66,5% menos. Isso mexe no seu dinheiro?",
+   "na_tela": "BB lucrou 66,5% menos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Um banco lucrou US$ 1,091 bilhão. Outro viu o lucro cair 66,5%.",
+  "O Nubank bateu recorde de lucro, segundo o InfoMoney.",
+  "O Banco do Brasil cortou a previsão de lucro do ano.",
+  "O banco culpa o calote, principalmente no agronegócio.",
+  "Olha só: antes de pagar imposto, ele teve prejuízo, segundo o g1.",
+  "Calma: as fontes não apontam risco de quebra de nenhum dos dois.",
+  "O FGC é um seguro: paga até R$ 250 mil por CPF, em cada banco.",
+  "Confere no app ou no contrato se o seu produto tem FGC.",
+  "Manda para quem guarda dinheiro em CDB.",
+  "Banco digital ou tradicional? Comenta DIGITAL ou TRADICIONAL.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Um banco lucrou US$ 1,091 bilhão. Outro viu o lucro cair 66,5%. O Nubank bateu recorde de lucro, segundo o InfoMoney. O Banco do Brasil cortou a previsão de lucro do ano. O banco culpa o calote, principalmente no agronegócio. Olha só: antes de pagar imposto, ele teve prejuízo, segundo o g1. Calma: as fontes não apontam risco de quebra de nenhum dos dois. O FGC é um seguro: paga até R$ 250 mil por CPF, em cada banco. Confere no app ou no contrato se o seu produto tem FGC. Manda para quem guarda dinheiro em CDB. Banco digital ou tradicional? Comenta DIGITAL ou TRADICIONAL. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Um lucrou recorde. O outro caiu 66,5%",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nubank: US$ 1,091 bilhão, recorde",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 2,
+   "texto": "Banco do Brasil: lucro 66,5% menor",
+   "fonte": "CNN Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "Antes do imposto: prejuízo",
+   "fonte": "SpaceMoney (com informações do g1)"
+  },
+  {
+   "fala": 5,
+   "texto": "Nenhuma fonte aponta risco de quebra",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "FGC: até R$ 250 mil por CPF",
+   "fonte": "Barbieri Advogados"
+  },
+  {
+   "fala": 7,
+   "texto": "Confira se o produto tem FGC",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Nubank x Banco do Brasil: o que o balanço do 3º trimestre muda no seu dinheiro",
+ "legenda": "Nubank x Banco do Brasil: o que o balanço do 3º trimestre muda no seu dinheiro?\n\nSegundo o InfoMoney, o Nubank lucrou US$ 1,091 bilhão, o maior da história. Já o Banco do Brasil teve lucro ajustado de R$ 1,27 bilhão, 66,5% menor que um ano antes, segundo a CNN Brasil. O banco atribuiu a queda ao avanço dos calotes, sobretudo no agronegócio.\n\nAs fontes consultadas não apontam risco de quebra de nenhum dos dois. O FGC protege depósitos e aplicações cobertas até R$ 250 mil por CPF, em cada instituição ou conglomerado. Confira no contrato ou no app se o seu produto tem cobertura.\n\nO que ainda não se sabe: os números do Nubank vêm dos veículos e não foram conferidos no relatório original da empresa, e não há data para o lucro do Banco do Brasil voltar ao nível anterior.\n\nVocê está mais para banco digital ou tradicional? Comenta DIGITAL ou TRADICIONAL.\n\nSem alarde. Eu sou só o termômetro! Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#nubank #bancodobrasil #fgc #educacaofinanceira #economia",
+ "hashtags": [
+  "#nubank",
+  "#bancodobrasil",
+  "#fgc",
+  "#educacaofinanceira",
+  "#economia"
+ ],
+ "rua": {
+  "gancho": "Nubank lucrou recorde, o Banco do Brasil caiu 66,5%. Calma.",
+  "topicos": [
+   "Nubank lucrou US$ 1,091 bilhão, o maior da história, segundo o InfoMoney.",
+   "Lucro do Banco do Brasil caiu 66,5%, segundo a CNN Brasil.",
+   "Nenhuma fonte que consultei aponta risco de quebra de nenhum dos dois bancos.",
+   "FGC protege até R$ 250 mil por CPF, em cada banco. Confira no app."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com dois balanços e a regra do FGC, que pede calma e contexto.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Um banco lucrou US$ 1,091 bilhão. Outro viu o lucro cair 66,5%.\": são dois números na mesma fala e o exato vai para a tela. Reescreva com uma ideia e um número redondo, por exemplo \"Um banco bateu recorde de lucro. O outro viu o lucro despencar\", e deixe US$ 1,091 bilhão e 66,5% no cartão. Abra também com a pergunta de bolso (\"seu dinheiro está seguro no banco?\").",
+   "Frases \"O Nubank bateu recorde de lucro, segundo o InfoMoney\" e \"antes de pagar imposto, ele teve prejuízo, segundo o g1\": nome de site não vai na fala. Troque por \"segundo a imprensa\" ou só \"segundo o noticiário\", e deixe InfoMoney e g1 no cartão e na legenda. \"Antes de pagar imposto\" também fica melhor como \"no resultado antes do imposto, deu prejuízo\", em frase direta.",
+   "Frases \"O FGC é um seguro: paga até R$ 250 mil por CPF, em cada banco\" e \"Manda para quem guarda dinheiro em CDB\": FGC e CDB aparecem sem tradução e faltam uma comparação do dia a dia e o tom calmo. Reescreva: \"O FGC é um fundo que devolve seu dinheiro se o banco quebrar, até uns R$ 250 mil\". Compare com o seguro do celular ou da moto. Troque \"CDB\" por \"aplicação no banco que rende mais que a poupança\". Inclua também o que ainda não se sabe, que hoje só está na legenda, em uma frase curta na fala."
+  ],
+  "veredito": "A peça tem fonte, calma na hora certa (\\\"não apontam risco de quebra\\\"), o passo prático de conferir o FGC e o bordão de encerramento, mas falha no Teste do CLT: dois números na abertura, nomes de site na fala e FGC e CDB sem tradução, sem uma comparação viva do dia a dia."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Um banco lucrou US$ 1,091 bilhão. Outro viu o lucro cair 66,5%.\" tem número forte, mas a lacuna é dos bancos, não do bolso de quem assiste, e traz número exato demais. Reescrita: \"Tem dinheiro em banco? Um lucrou mais de US$ 1 bilhão. Outro viu o lucro cair 66,5%.\" (o exato fica no cartão da tela).",
+   "Virada: \"Olha só: antes de pagar imposto, ele teve prejuízo, segundo o g1.\" tem \"ele\" ambíguo e nome de site na fala. Reescrita, confirmando que é o Banco do Brasil: \"Olha só: no Banco do Brasil, antes do imposto, deu prejuízo.\" A fonte fica no cartão e na legenda.",
+   "Fala: \"O Nubank bateu recorde de lucro, segundo o InfoMoney.\" Nome de site na fala quebra o Teste do CLT. Reescrita: \"O Nubank bateu recorde de lucro.\" com a fonte no cartão. Em \"O banco culpa o calote\", troque por \"O banco culpa quem deixou de pagar, principalmente no agronegócio\"."
+  ],
+  "veredito": "Roteiro com fim forte (envio concreto para quem tem CDB e pergunta de duas saídas), mas o gancho fala dos bancos e não do bolso de quem assiste, e a virada do meio fica confusa por causa do \\\"ele\\\" e dos nomes de site na fala."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in through a quiet, generic bank branch hall at dusk, polished floor reflecting warm ceiling lights, empty teller counters and rows of empty chairs, no signage, no logos, no text, no people, cinematic",
+   "texto_da_fala": "O Banco do Brasil cortou a previsão de lucro do ano.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in through a quiet, generic bank branch hall at dusk, polished floor reflecting warm ceiling lights, empty teller counters and rows of empty chairs, no signage, no logos, no text, no people, cinematic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Low aerial drone shot flying slowly over a vast Brazilian soybean field with patches of dry, yellowed, withered crops, cracked red soil visible between rows, harsh afternoon sun, dust drifting in the air, no people, no text, no signs",
+   "texto_da_fala": "O banco culpa o calote, principalmente no agronegócio.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Low aerial drone shot flying slowly over a vast Brazilian soybean field with patches of dry, yellowed, withered crops, cracked red soil visible between rows, harsh afternoon sun, dust drifting in the air, no people, no text, no signs. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow push-in on a heavy steel safe-deposit vault door slightly open, warm light spilling out over neat stacks of generic banknotes with no readable numbers or symbols, shallow depth of field, subtle dust particles, no people, no text, no logos",
+   "texto_da_fala": "O FGC é um seguro: paga até R$ 250 mil por CPF, em cada banco.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in on a heavy steel safe-deposit vault door slightly open, warm light spilling out over neat stacks of generic banknotes with no readable numbers or symbols, shallow depth of field, subtle dust particles, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Um banco lucrou US$ 1,091 bilhão. Outro viu o lucro cair 66,5%.\n\nO Nubank bateu recorde de lucro, segundo o InfoMoney.\n\nO Banco do Brasil cortou a previsão de lucro do ano.\n\nO banco culpa o calote, principalmente no agronegócio.\n\nOlha só: antes de pagar imposto, ele teve prejuízo, segundo o g1.\n\nCalma: as fontes não apontam risco de quebra de nenhum dos dois.\n\nO FGC é um seguro: paga até R$ 250 mil por CPF, em cada banco.\n\nConfere no app ou no contrato se o seu produto tem FGC.\n\nManda para quem guarda dinheiro em CDB.\n\nBanco digital ou tradicional? Comenta DIGITAL ou TRADICIONAL.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/nubank-roxo34-resultado-terceiro-trimestre-2026/",
+   "destaque": "O Nubank lucrou US$ 1,091 bilhão no 3º trimestre de 2026, o maior da sua história."
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/negocios/banco-do-brasil-encerrou-o-3o-trimestre-de-2026-com-lucro-liquido-ajustado-de-r-127-bilhao/",
+   "destaque": "O Banco do Brasil teve lucro líquido ajustado de R$ 1,27 bilhão no 3º trimestre."
+  },
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/acoes-do-banco-do-brasil-sexta-13-11",
+   "destaque": "Na manhã de 13/11, as ações do Banco do Brasil ainda caíam 2,52%, a R$ 15,09, às 11h36."
+  }
+ ],
+ "data": "2026-11-14",
+ "gerado_em": "2026-11-14T10:50:27.704488-03:00"
+}
