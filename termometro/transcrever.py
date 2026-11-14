@@ -30,9 +30,27 @@ def rodar(arquivo: str) -> list[dict]:
     return saida
 
 
+def _falado(palavra: str) -> str:
+    """Como a palavra soa: números e símbolos por extenso ("451%" → "quatrocentos e cinquenta e um por cento"),
+    senão o alinhamento não tem letra para encaixar no som do número e empurra as palavras vizinhas."""
+    import re
+    t = palavra.replace("%", " por cento ").replace("R$", " ").replace("US$", " ")
+    def numero(m):
+        bruto = m.group(0)
+        try:
+            from num2words import num2words
+            if re.fullmatch(r"\d{1,3}(\.\d{3})+", bruto):
+                return " " + num2words(int(bruto.replace(".", "")), lang="pt_BR") + " "
+            return " " + num2words(float(bruto.replace(".", "").replace(",", ".")) if "," in bruto else int(bruto.replace(".", "")),
+                                   lang="pt_BR") + " "
+        except Exception:
+            return " "
+    return re.sub(r"\d+(?:[.,]\d+)*", numero, t)
+
+
 def _letras(palavra: str) -> str:
     import unicodedata
-    t = unicodedata.normalize("NFD", palavra.lower()).encode("ascii", "ignore").decode()
+    t = unicodedata.normalize("NFD", _falado(palavra).lower()).encode("ascii", "ignore").decode()
     return "".join(c for c in t if "a" <= c <= "z")
 
 
