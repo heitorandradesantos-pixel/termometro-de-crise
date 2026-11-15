@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Lacuna do bolso",
+  "texto": "Dívida atrasada do MEI será perdoada em janeiro, mas só uma parte dela.",
+  "na_tela": "Perdão do MEI: só uma parte",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Lacuna do bolso",
+   "texto": "Dívida atrasada do MEI será perdoada em janeiro, mas só uma parte dela.",
+   "na_tela": "Perdão do MEI: só uma parte",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Expectativa contra realidade",
+   "texto": "O governo diz que 3,6 milhões de MEIs podem ter dívida perdoada. Mas tem pegadinha.",
+   "na_tela": "3,6 milhões de MEIs, mas...",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O perdão do MEI existe, e não é perdão total.",
+   "na_tela": "Perdão do MEI não é total",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Dívida atrasada do MEI será perdoada em janeiro, mas só uma parte dela.",
+  "O governo vai cancelar o INSS atrasado do boleto do MEI.",
+  "Vale para o que venceu até 13 de outubro de 2026.",
+  "Começa em 1º de janeiro de 2027, e é automático.",
+  "Olha só: não é perdão total.",
+  "Os impostos do estado e da prefeitura continuam sendo cobrados.",
+  "É como perdoarem a conta de luz, mas a de água continuar vencida.",
+  "E tem condição: boleto em dia por seis meses.",
+  "Calma: confere suas dívidas nos sites da Receita, os nomes estão na legenda.",
+  "Você achava que era perdão total? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dívida atrasada do MEI será perdoada em janeiro, mas só uma parte dela. O governo vai cancelar o INSS atrasado do boleto do MEI. Vale para o que venceu até 13 de outubro de 2026. Começa em 1º de janeiro de 2027, e é automático. Olha só: não é perdão total. Os impostos do estado e da prefeitura continuam sendo cobrados. É como perdoarem a conta de luz, mas a de água continuar vencida. E tem condição: boleto em dia por seis meses. Calma: confere suas dívidas nos sites da Receita, os nomes estão na legenda. Você achava que era perdão total? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Perdão do MEI: só uma parte",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "Dívidas vencidas até 13 de outubro de 2026",
+   "fonte": "PGFN"
+  },
+  {
+   "fala": 3,
+   "texto": "Começa em 1º de janeiro de 2027",
+   "fonte": "PGFN"
+  },
+  {
+   "fala": 5,
+   "texto": "ICMS e ISS não são perdoados",
+   "fonte": "Brasil de Fato"
+  },
+  {
+   "fala": 7,
+   "texto": "Boleto em dia por 6 meses",
+   "fonte": "LegisWeb"
+  }
+ ],
+ "retomada": 4,
+ "busca": "perdão de dívidas MEI 2027",
+ "legenda": "Perdão de dívidas MEI 2027: o que se sabe.\n\nSegundo a PGFN (Procuradoria-Geral da Fazenda Nacional), a parte do INSS do boleto mensal do MEI (o DAS) vencida até 13 de outubro de 2026 será cancelada de forma automática a partir de 1º de janeiro de 2027. A base é a Lei Complementar 238/2026, publicada em 21 de outubro. Quem tem ação na Justiça sobre essas dívidas precisa pedir a baixa. Valores já pagos não voltam.\n\nNão é perdão total: o ICMS (imposto do estado) e o ISS (imposto da prefeitura) continuam sendo cobrados. E a lei exige o boleto em dia por seis meses. Ainda há leituras diferentes de como contar esses seis meses: quem paga tudo em dia desde já fica coberto nas duas contagens, segundo um escritório de direito previdenciário.\n\nPara conferir suas dívidas, use o Portal de Serviços da Receita (dívidas não inscritas) e o Regularize (inscritas em dívida ativa). A declaração anual do MEI (DASN-Simei) continua obrigatória.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#mei #perdaodedividas #dinheiro #educacaofinanceira",
+ "hashtags": [
+  "#mei",
+  "#perdaodedividas",
+  "#dinheiro",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Perdão de dívida do MEI sai em janeiro, mas é parcial.",
+  "topicos": [
+   "Segundo o governo, vale para o INSS vencido até 13 de outubro de 2026.",
+   "Começa em 1º de janeiro de 2027. Impostos do estado e da prefeitura continuam.",
+   "Condição: pagar o boleto em dia por seis meses, segundo a lei.",
+   "Confere suas dívidas nos sites da Receita, nomes na legenda. Sem pânico."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com datas, condição e pegadinha, que pede calma e prova na tela, não urgência de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"O governo vai cancelar o INSS atrasado do boleto do MEI\": o MEI pode não ligar \"INSS\" ao que paga todo mês. Reescreva traduzindo na hora: \"a parte da aposentadoria que vem no seu boleto mensal\", mantendo o INSS entre parênteses ou só na legenda.",
+   "Frase \"Vale para o que venceu até 13 de outubro de 2026. Começa em 1º de janeiro de 2027, e é automático\": são duas datas em uma só fala, o que pesa no Teste do CLT. Divida em falas separadas e deixe só uma data por fala, por exemplo: \"Vale pra dívida que venceu até meados de outubro\" e, em outra fala, \"E começa em janeiro, sozinho, sem você pedir nada\". A data exata fica no cartão da tela.",
+   "Frase \"Os impostos do estado e da prefeitura continuam sendo cobrados\" e \"Calma: confere suas dívidas nos sites da Receita\": o gancho abre com o perdão e a ressalva só vem no meio. Considere abrir com a pergunta de bolso (\"Seu MEI tá com dívida atrasada?\"). Na fala \"E tem condição: boleto em dia por seis meses\", acrescente \"o boleto que você paga todo mês\" para quem não liga \"DAS\" ao boleto. Assim a fala do passo prático \"confere suas dívidas\" ganha mais clareza sobre o que fazer."
+  ],
+  "veredito": "A peça fala direto com o MEI, usa a comparação da conta de luz e da água, mostra a condição e dá um passo simples, tudo sem alarde nem promessa; falta só deixar cada fala mais leve, com uma data por vez e o INSS traduzido."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Dívida atrasada do MEI será perdoada em janeiro, mas só uma parte dela.\" abre com o assunto, e o MEI só se reconhece depois. Reescreva: \"Se você é MEI com boleto atrasado, o governo vai cancelar o INSS dele em janeiro. Só o INSS.\" Assim a identificação vem na primeira frase e \"só o INSS\" deixa a lacuna aberta.",
+   "Envio: falta o pedido para uma situação concreta. Troque \"Calma: confere suas dívidas nos sites da Receita, os nomes estão na legenda.\" por \"Calma: confere suas dívidas nos sites da Receita, os nomes estão na legenda. E manda pra quem é MEI e tem boleto atrasado.\" A pergunta SIM ou NÃO continua como última frase antes do bordão."
+  ],
+  "veredito": "Roteiro forte: paga o gancho rápido, tem virada clara, a comparação luz/água é fácil de entender e a pergunta SIM ou NÃO puxa comentário. Falta o gancho abrir com \\\"Se você é MEI\\\" e um pedido de envio para quem tem boleto atrasado."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Close-up of a stack of blank paper payment slips with no text or numbers, lying on a small business owner's wooden counter in a tiny shop. A red pen mark slowly crosses out the top slip as the camera slowly dolly-pushes in. Warm natural light, shallow depth of field, no faces",
+   "texto_da_fala": "O governo vai cancelar o INSS atrasado do boleto do MEI.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a stack of blank paper payment slips with no text or numbers, lying on a small business owner's wooden counter in a tiny shop. A red pen mark slowly crosses out the top slip as the camera slowly dolly-pushes in. Warm natural light, shallow depth of field, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow upward tilt along the facade of a modest city hall building with columns and a flagless flagpole, then a slow pan to a small state tax office building across the street. Overcast sky, clean documentary look, no people in focus, no signs, no text, no logos",
+   "texto_da_fala": "Os impostos do estado e da prefeitura continuam sendo cobrados.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the facade of a modest city hall building with columns and a flagless flagpole, then a slow pan to a small state tax office building across the street. Overcast sky, clean documentary look, no people in focus, no signs, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Split scene on a kitchen wall: on the left a light switch is on and a lamp glows warmly, on the right a dripping faucet over a sink with an unpaid blank envelope beside it. Camera slowly slides left to right across the two. Soft realistic lighting, no people, no text, no numbers, no logos",
+   "texto_da_fala": "É como perdoarem a conta de luz, mas a de água continuar vencida.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Split scene on a kitchen wall: on the left a light switch is on and a lamp glows warmly, on the right a dripping faucet over a sink with an unpaid blank envelope beside it. Camera slowly slides left to right across the two. Soft realistic lighting, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dívida atrasada do MEI será perdoada em janeiro, mas só uma parte dela.\n\nO governo vai cancelar o INSS atrasado do boleto do MEI.\n\nVale para o que venceu até 13 de outubro de 2026.\n\nComeça em 1º de janeiro de 2027, e é automático.\n\nOlha só: não é perdão total.\n\nOs impostos do estado e da prefeitura continuam sendo cobrados.\n\nÉ como perdoarem a conta de luz, mas a de água continuar vencida.\n\nE tem condição: boleto em dia por seis meses.\n\nCalma: confere suas dívidas nos sites da Receita, os nomes estão na legenda.\n\nVocê achava que era perdão total? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "PGFN (perguntas frequentes)",
+   "url": "https://www.gov.br/pgfn/pt-br/servicos/perguntas-frequentes/perguntas-frequentes-perdao-do-mei",
+   "destaque": "Segundo a PGFN, o perdão cobre a contribuição previdenciária do DAS-MEI vencida até 13 de outubro de 2026, com principal, juros, multas e…"
+  },
+  {
+   "veiculo": "PGFN (notícia oficial)",
+   "url": "https://www.gov.br/pgfn/pt-br/assuntos/noticias/2026/pgfn-esclarece-regras-sobre-perdao-de-dividas-tributarias-para-meis",
+   "destaque": "Quem tinha ação na Justiça sobre essas dívidas precisa pedir a baixa e comprovar a desistência da ação."
+  }
+ ],
+ "data": "2026-11-15",
+ "gerado_em": "2026-11-15T17:03:38.025528-03:00"
+}
