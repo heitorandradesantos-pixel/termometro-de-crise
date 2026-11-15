@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Seu dinheiro estava no Master? O FGC paga até R$ 250 mil.",
+  "na_tela": "FGC paga até R$ 250 mil",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu dinheiro estava no Master? O FGC paga até R$ 250 mil.",
+   "na_tela": "FGC paga até R$ 250 mil",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Lacuna do bolso",
+   "texto": "Quem tinha dinheiro no Master precisa saber duas coisas, e só uma já aconteceu.",
+   "na_tela": "Duas coisas sobre o Master",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "15 pessoas indiciadas no caso Master. Denunciada, nenhuma.",
+   "na_tela": "15 indiciadas, 0 denunciadas",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Seu dinheiro estava no Master? O FGC paga até R$ 250 mil.",
+  "O FGC, fundo que garante seu dinheiro, já começou a pagar.",
+  "Segundo a imprensa, a Procuradoria-Geral, a PGR, prepara denúncias. Nenhuma saiu.",
+  "Denúncia é pedir pro Supremo julgar alguém. Não é condenação.",
+  "Sinal amarelo: o Supremo deu 15 dias à PGR, sem obrigar a denunciar.",
+  "Mas tem um detalhe que mexe no seu bolso.",
+  "O processo contra o Vorcaro é uma coisa. O pagamento do FGC é outra.",
+  "Conta no BRB? Confira os comunicados do banco.",
+  "Manda pra quem tinha dinheiro no Master ou conta no BRB.",
+  "Você conhecia esse limite? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu dinheiro estava no Master? O FGC paga até R$ 250 mil. O FGC, fundo que garante seu dinheiro, já começou a pagar. Segundo a imprensa, a Procuradoria-Geral, a PGR, prepara denúncias. Nenhuma saiu. Denúncia é pedir pro Supremo julgar alguém. Não é condenação. Sinal amarelo: o Supremo deu 15 dias à PGR, sem obrigar a denunciar. Mas tem um detalhe que mexe no seu bolso. O processo contra o Vorcaro é uma coisa. O pagamento do FGC é outra. Conta no BRB? Confira os comunicados do banco. Manda pra quem tinha dinheiro no Master ou conta no BRB. Você conhecia esse limite? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "FGC paga até R$ 250 mil",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "FGC: até R$ 250 mil por cliente"
+  },
+  {
+   "fala": 2,
+   "texto": "PGR: nenhuma denúncia ainda",
+   "fonte": "CNN Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "Denúncia não é condenação",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Prazo: 15 dias",
+   "fonte": "Fato Amazônico"
+  },
+  {
+   "fala": 6,
+   "texto": "Processo criminal ≠ pagamento do FGC",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "denúncia PGR caso Master",
+ "legenda": "Denúncia da PGR no caso Master: o que se sabe e o que muda pro seu bolso.\n\nSegundo a CNN Brasil, a PGR prepara as primeiras denúncias, mas nenhuma foi apresentada. Denúncia é a acusação formal. Não é condenação, e só vira ação penal se o STF aceitar.\n\nSe você tinha dinheiro no Master, o FGC paga a garantia de até R$ 250 mil por cliente. O processo criminal é separado do pagamento. Quem tem conta no BRB deve conferir os comunicados do banco e do Banco Central.\n\nAinda não há data confirmada pela PGR ou pelo STF.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancomaster #fgc #economia #educacaofinanceira",
+ "hashtags": [
+  "#bancomaster",
+  "#fgc",
+  "#economia",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Seu dinheiro estava no Master? O FGC paga até R$ 250 mil.",
+  "topicos": [
+   "Segundo a CNN Brasil, a PGR prepara denúncias do caso Master, mas nenhuma saiu.",
+   "Segundo a Polícia Federal, 15 pessoas foram indiciadas. Indiciar não é condenar.",
+   "Fachin deu 15 dias à PGR, mas sem obrigar a denunciar.",
+   "O FGC paga até R$ 250 mil; pro BRB, confira os comunicados oficiais."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e vários cuidados, não notícia de urgência que pede improviso na rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Na frase \"Mas tem um detalhe que mexe no seu bolso.\": troque por \"Olha só, tem um detalhe que mexe no seu bolso.\" e, antes do bordão final, inclua \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\"",
+   "Em \"O processo contra o Vorcaro é uma coisa. O pagamento do FGC é outra.\": falta uma comparação do dia a dia. Acrescente uma imagem simples, como a briga do dono da loja na Justiça não cancelar o vale que você já tem. Assim a ideia fica viva pro sanguíneo.",
+   "Em \"O processo contra o Vorcaro\": quem não acompanha o caso não sabe quem ele é. Diga quem é na mesma frase, só com o que a fonte já traz. Em \"Conta no BRB? Confira os comunicados do banco\", diga em palavras simples onde o ouvinte vai olhar (app ou site do banco), sem inventar fato."
+  ],
+  "veredito": "Fala direto com quem teve dinheiro no Master, explica FGC e denúncia em palavras simples, separa processo de pagamento e fecha com o bordão; faltam o \\\"Olha só\\\", o aviso do Heitor, uma comparação do dia a dia e a tradução de quem é o Vorcaro."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase 'Segundo a imprensa, a Procuradoria-Geral, a PGR, prepara denúncias. Nenhuma saiu.' tem sigla e cargo demais para o Teste do CLT. Reescrita: 'Segundo a imprensa, a Procuradoria, que acusa na Justiça, prepara denúncias. Nenhuma saiu.'",
+   "Frase 'O processo contra o Vorcaro é uma coisa. O pagamento do FGC é outra.' é a virada mais forte e chega tarde, depois do bloco de PGR e Supremo. Suba-a para logo depois de 'já começou a pagar'. Quem ia sair fica até o fim. Reescrita: 'Mas tem um detalhe que mexe no seu bolso. O processo contra o Vorcaro, do Master, é uma coisa. O pagamento do FGC é outra.' Depois, em poucas falas, vêm a denúncia e o prazo.",
+   "Frase 'Sinal amarelo: o Supremo deu 15 dias à PGR, sem obrigar a denunciar.' junta número, sigla e uma negação na mesma fala. Reescrita: 'Sinal amarelo: o Supremo deu 15 dias pra ela decidir. Não é obrigada a denunciar.'"
+  ],
+  "veredito": "Gancho, pedido de envio e pergunta final são fortes, mas o miolo com PGR, Supremo e denúncia é pesado para quem é CLT. A virada chega tarde, e falta puxá-la para perto do bolso para o vídeo segurar até o fim."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a dark wooden desk in a quiet government office at night. A tall stack of closed manila folders with blank covers sits under a warm desk lamp. The camera slowly dollies sideways along the stack, shallow depth of field, dust floating in the lamp light. No people, no text, no logos",
+   "texto_da_fala": "Segundo a imprensa, a Procuradoria-Geral, a PGR, prepara denúncias. Nenhuma saiu.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a dark wooden desk in a quiet government office at night. A tall stack of closed manila folders with blank covers sits under a warm desk lamp. The camera slowly dollies sideways along the stack, shallow depth of field, dust floating in the lamp light. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "A modernist white marble court building with tall curved columns at dusk, seen from a low angle. The camera does a slow upward tilt along the columns while amber-yellow light glows through the glass and a large hourglass stands out of focus in the foreground. Empty plaza, no people, no flags, no text, no logos",
+   "texto_da_fala": "Sinal amarelo: o Supremo deu 15 dias à PGR, sem obrigar a denunciar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A modernist white marble court building with tall curved columns at dusk, seen from a low angle. The camera does a slow upward tilt along the columns while amber-yellow light glows through the glass and a large hourglass stands out of focus in the foreground. Empty plaza, no people, no flags, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Interior of a quiet bank branch in daylight: empty teller counters and a row of ATMs with blank glowing screens. The camera slowly pushes forward down the aisle, soft reflections on the polished floor. No people, no visible text, no signage, no logos",
+   "texto_da_fala": "Conta no BRB? Confira os comunicados do banco.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a quiet bank branch in daylight: empty teller counters and a row of ATMs with blank glowing screens. The camera slowly pushes forward down the aisle, soft reflections on the polished floor. No people, no visible text, no signage, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu dinheiro estava no Master? O FGC paga até R$ 250 mil.\n\nO FGC, fundo que garante seu dinheiro, já começou a pagar.\n\nSegundo a imprensa, a Procuradoria-Geral, a PGR, prepara denúncias. Nenhuma saiu.\n\nDenúncia é pedir pro Supremo julgar alguém. Não é condenação.\n\nSinal amarelo: o Supremo deu 15 dias à PGR, sem obrigar a denunciar.\n\nMas tem um detalhe que mexe no seu bolso.\n\nO processo contra o Vorcaro é uma coisa. O pagamento do FGC é outra.\n\nConta no BRB? Confira os comunicados do banco.\n\nManda pra quem tinha dinheiro no Master ou conta no BRB.\n\nVocê conhecia esse limite? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://cnnbrasil.com.br/politica/pgr-prepara-primeiras-denuncias-no-caso-master-um-ano-apos-operacao",
+   "destaque": "A PGR prepara as primeiras denúncias do caso Master, quase um ano após a primeira prisão de Daniel Vorcaro."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/pf-indicia-vorcaro-ex-presidente-do-brb-e-mais-13-por-fraude-de-r-122-bilhoes/",
+   "destaque": "A PF indiciou 15 pessoas em 28/10, entre elas Vorcaro, ex-controlador do Master, e Paulo Henrique Costa, ex-presidente do BRB."
+  }
+ ],
+ "data": "2026-11-15",
+ "gerado_em": "2026-11-15T18:10:32.218224-03:00"
+}
