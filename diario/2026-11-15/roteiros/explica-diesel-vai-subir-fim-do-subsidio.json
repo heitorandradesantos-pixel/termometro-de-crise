@@ -1,0 +1,143 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "O diesel vai subir? A Fazenda não renovou R$ 1,40 por litro.",
+  "na_tela": "Diesel vai subir?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "O diesel vai subir? A Fazenda não renovou R$ 1,40 por litro.",
+   "na_tela": "Diesel vai subir?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O adicional do diesel acabou, e o posto ainda cobra R$ 7,29.",
+   "na_tela": "Acabou, mas o posto não mexeu",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Ajuda ao diesel importado: de R$ 3,52 para R$ 2,12 por litro.",
+   "na_tela": "De R$ 3,52 para R$ 2,12",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "O diesel vai subir? A Fazenda não renovou R$ 1,40 por litro.",
+  "Esse adicional venceu na quinta e não será renovado, diz a Fazenda.",
+  "Subvenção é dinheiro do governo pro combustível sair mais barato.",
+  "Calma: a outra ajuda, de R$ 2,12 por litro, vale até 26 de novembro.",
+  "Olha só: nenhum reajuste foi anunciado nos postos até agora.",
+  "Segundo a ANP, o diesel S-10 fechou a semana a R$ 7,29.",
+  "É cupom vencido: ainda não se sabe quem banca a diferença.",
+  "Passo calmo: acompanhe a ANP, que atualiza toda sexta.",
+  "Manda pra quem abastece frota ou paga frete.",
+  "Você já sentiu o combustível pesar no bolso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O diesel vai subir? A Fazenda não renovou R$ 1,40 por litro. Esse adicional venceu na quinta e não será renovado, diz a Fazenda. Subvenção é dinheiro do governo pro combustível sair mais barato. Calma: a outra ajuda, de R$ 2,12 por litro, vale até 26 de novembro. Olha só: nenhum reajuste foi anunciado nos postos até agora. Segundo a ANP, o diesel S-10 fechou a semana a R$ 7,29. É cupom vencido: ainda não se sabe quem banca a diferença. Passo calmo: acompanhe a ANP, que atualiza toda sexta. Manda pra quem abastece frota ou paga frete. Você já sentiu o combustível pesar no bolso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 118,
+ "segundos": 47,
+ "na_tela": [
+  {
+   "texto": "Diesel vai subir?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Adicional de R$ 1,40: vencido, sem renovação",
+   "fonte": "Metrópoles"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 2,12 por litro, até 26 de novembro",
+   "fonte": "Metrópoles"
+  },
+  {
+   "fala": 4,
+   "texto": "Nenhum reajuste anunciado",
+   "fonte": "Brasil Postos"
+  },
+  {
+   "fala": 5,
+   "texto": "Diesel S-10: R$ 7,29 por litro",
+   "fonte": "Canal Rural"
+  },
+  {
+   "fala": 7,
+   "texto": "ANP: levantamento toda sexta",
+   "fonte": "Canal Rural"
+  }
+ ],
+ "retomada": 4,
+ "busca": "diesel vai subir com fim do subsídio?",
+ "legenda": "Diesel vai subir com fim do subsídio? O que se sabe até agora.\n\nSegundo a Fazenda, o adicional de R$ 1,40 por litro de diesel importado não será renovado. Ele venceu em 12/11. A outra ajuda, de R$ 2,12 por litro, continua até 26 de novembro.\n\nNos postos, a ANP mostrou o diesel S-10 a R$ 7,29 por litro, e nenhum reajuste foi anunciado. Ainda não se sabe se o preço vai mexer, nem se a Petrobras vai repassar a diferença.\n\nO passo calmo: acompanhe o levantamento semanal da ANP, que sai às sextas.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#diesel #combustivel #economia #financaspessoais",
+ "hashtags": [
+  "#diesel",
+  "#combustivel",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Diesel pode subir? Fazenda não renovou R$ 1,40 por litro.",
+  "topicos": [
+   "A Fazenda não vai renovar o adicional de R$ 1,40 por litro de diesel.",
+   "Outra ajuda, de R$ 2,12 por litro, segue até 26 de novembro.",
+   "Segundo a ANP, o diesel S-10 está a R$ 7,29, sem reajuste anunciado.",
+   "O que fazer: acompanhar o levantamento semanal da ANP, que sai às sextas."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente, anunciada em 13/11, e pede o tom de \"preciso te contar isso\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "tamanho: 118 palavras faladas, o máximo é 115: corte pelo menos 8 palavras do gancho e do corpo (tire uma fala inteira)"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "viral": null,
+ "teleprompter": "O diesel vai subir? A Fazenda não renovou R$ 1,40 por litro.\n\nEsse adicional venceu na quinta e não será renovado, diz a Fazenda.\n\nSubvenção é dinheiro do governo pro combustível sair mais barato.\n\nCalma: a outra ajuda, de R$ 2,12 por litro, vale até 26 de novembro.\n\nOlha só: nenhum reajuste foi anunciado nos postos até agora.\n\nSegundo a ANP, o diesel S-10 fechou a semana a R$ 7,29.\n\nÉ cupom vencido: ainda não se sabe quem banca a diferença.\n\nPasso calmo: acompanhe a ANP, que atualiza toda sexta.\n\nManda pra quem abastece frota ou paga frete.\n\nVocê já sentiu o combustível pesar no bolso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/governo-lula-anuncia-fim-de-subsidio-de-r-140-ao-diesel-importado",
+   "destaque": "A Fazenda anunciou em 13/11 que não vai renovar a subvenção adicional de R$ 1,40 por litro de diesel importado."
+  },
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://metropoles.com/brasil/governo-lula-anuncia-fim-de-subsidio-de-r-140-ao-diesel-importado",
+   "destaque": "A subvenção de R$ 2,12 por litro de diesel A rodoviário (o diesel puro, antes da mistura com biodiesel) continua em vigor, com validade até…"
+  }
+ ],
+ "data": "2026-11-15",
+ "gerado_em": "2026-11-15T13:18:11.999564-03:00"
+}
