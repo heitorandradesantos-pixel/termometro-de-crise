@@ -1,0 +1,107 @@
+{
+ "titulo": "Dólar hoje fecha a R$ 5,65 na sexta (13/11): o que se sabe",
+ "descricao": "Dólar fechou a R$ 5,6567 na sexta (13/11) e subiu 2,63% na semana, com pacote fiscal e juros nos EUA. Veja o que se sabe e o que muda para você.",
+ "palavra_chave": "dólar hoje",
+ "lead": "O dólar à vista fechou a sexta-feira (13/11) a R$ 5,6567, alta de 0,11% no dia e de 2,63% na semana, segundo a Reuters. A taxa oficial do Banco Central (PTAX) ficou em R$ 5,6518. Hoje é domingo (15/11) e não há negociação: o mercado reabre na segunda (16/11), e esta é a última cotação disponível.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O dólar à vista fechou a sexta (13/11) a R$ 5,6567, alta de 0,11%. Segundo a Reuters, a moeda ficou praticamente estável no dia, mas somou ganho de mais de 2% na semana.",
+   "fonte_url": "https://diariodocomercio.com.br/financas/dolar-fecha-estavel-ante-o-real/",
+   "data": "2026-11-13",
+   "veiculo": "Diário do Comércio (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "A PTAX, taxa de referência do Banco Central, fechou em R$ 5,6518 para venda e R$ 5,6512 para compra em 13/11. A PTAX é uma média apurada ao longo do dia e difere do último preço negociado no mercado à vista, por isso os dois números não coincidem.",
+   "fonte_url": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+   "data": "2026-11-13",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Na semana, o dólar subiu 2,63% ante o real, segundo a Reuters. A agência diz que o pacote fiscal do governo para o próximo ano foi bem recebido de início, mas o tamanho das medidas desagradou investidores, que as consideraram insuficientes. A tendência de alta perdeu força na sexta.",
+   "fonte_url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/431380-dolar-fecha-estavel-ante-o-real-mas-sobe-mais-de-2-na-semana-de-olho-em-pacote-fiscal-do-governo.html",
+   "data": "2026-11-13",
+   "veiculo": "Notícias Agrícolas (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na quinta (12), o dólar subiu 1,62% e fechou a R$ 5,6519, o maior valor de fechamento desde junho de 2025, segundo O Povo. O jornal liga a alta ao temor de juros maiores nos EUA, após falas de dirigentes do Federal Reserve (o banco central americano). Na sexta, a moeda ficou no mesmo patamar, o mais alto do ano, segundo a série acompanhada pela Folha, citada pela Tribuna do Sertão.",
+   "fonte_url": "https://mais.opovo.com.br/jornal/economia/2026/11/13/dolar-vai-a-rs-565-e-atinge-maior-nivel-desde-junho-de-2025.html",
+   "data": "2026-11-12",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O Senado aprovou o texto-base do pacote fiscal na quinta (12), com impacto de até R$ 60 bilhões nas contas públicas em 2027. A votação dos destaques (propostas de mudança ao texto) está marcada para terça (17), antes de o texto seguir para a Câmara.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/dolar-acumula-alta-de-263-na-semana-com-pacote-fiscal-em-pauta/",
+   "data": "2026-11-13",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "Nos EUA, o índice de preços ao produtor subiu 0,3% em outubro, abaixo dos 0,4% esperados. O dado trouxe algum alívio sobre os juros americanos. Mesmo assim, o índice do dólar, que compara a moeda com seis divisas fortes, avançou 0,19%, para 103,420 pontos.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/dolar-acumula-alta-de-263-na-semana-com-pacote-fiscal-em-pauta/",
+   "data": "2026-11-13",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Reuters, o mercado também avaliou os dados de inflação dos EUA e as perspectivas de alta de juros pelo Fed. Juros mais altos nos EUA tendem a atrair dinheiro para o dólar e a pressionar moedas como o real.",
+   "fonte_url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/431380-dolar-fecha-estavel-ante-o-real-mas-sobe-mais-de-2-na-semana-de-olho-em-pacote-fiscal-do-governo.html",
+   "data": "2026-11-13",
+   "veiculo": "Notícias Agrícolas (Reuters)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O dólar fechou a R$ 5,5619, queda de 0,43%, na quarta-feira.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-dispara-a-r-5-65-e-atinge-maior-valor-desde-2025",
+   "data": "2026-11-11",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "O Senado aprova o texto-base do pacote fiscal. O dólar sobe 1,62%, a R$ 5,6519, o maior fechamento desde junho de 2025.",
+   "fonte_url": "https://mais.opovo.com.br/jornal/economia/2026/11/13/dolar-vai-a-rs-565-e-atinge-maior-nivel-desde-junho-de-2025.html",
+   "data": "2026-11-12",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar à vista fecha a R$ 5,6567 (+0,11%) e acumula alta de 2,63% na semana.",
+   "fonte_url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/431380-dolar-fecha-estavel-ante-o-real-mas-sobe-mais-de-2-na-semana-de-olho-em-pacote-fiscal-do-governo.html",
+   "data": "2026-11-13",
+   "veiculo": "Notícias Agrícolas (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central divulga a PTAX de fechamento: R$ 5,6512 (compra) e R$ 5,6518 (venda).",
+   "fonte_url": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+   "data": "2026-11-13",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Como o dólar abre e fecha na segunda (16/11). Não há cotação nem projeção confirmada por fonte oficial para esse dia.",
+  "Se a votação dos destaques do pacote fiscal na terça (17) e a análise na Câmara vão mudar a leitura do mercado. Isso depende de fatos que ainda não ocorreram.",
+  "Valores exatos divergem entre veículos. O fechamento de sexta aparece como R$ 5,6567 (Reuters) e R$ 5,6549 (outro site). A alta semanal aparece como 2,63% (Reuters) e 2,66% (outros veículos). Adotamos os números da Reuters e do Banco Central.",
+  "A comparação 'maior valor desde junho de 2025' vem de veículos que deram valores de quinta (12) entre R$ 5,6504 e R$ 5,6519. Não localizamos uma série oficial que confirme com precisão o recorde para a sexta.",
+  "As causas da alta são leituras de analistas e da imprensa (pacote fiscal considerado insuficiente, juros nos EUA, dólar forte no mundo). Nenhuma delas foi confirmada como causa única, e o peso de cada uma não está estabelecido."
+ ],
+ "o_que_muda_para_voce": [
+  "Viagem: com o dólar a R$ 5,6567, US$ 1.000 custam cerca de R$ 5.656,70 no câmbio comercial. O dólar turismo e o cartão costumam ter preço maior, por incluírem margem da casa de câmbio e impostos.",
+  "Importados e eletrônicos: produtos cotados em dólar tendem a ficar mais caros se o câmbio continuar nesse patamar. O repasse ao preço final depende de cada loja e de estoques antigos. Vale comparar preços na Black Friday.",
+  "Contratos: a PTAX, que o Banco Central divulga todo dia útil, é usada como referência em contratos e operações de câmbio. A de 13/11 foi R$ 5,6518.",
+  "Investimentos: quem tem ativos em dólar ou fundos cambiais vê o valor em reais variar com a moeda. Esta notícia não indica o que comprar ou vender.",
+  "Próximos dias: a PTAX de segunda (16/11) e a votação dos destaques do pacote fiscal na terça (17) são os dados a acompanhar. Se o fechamento de segunda mudar o quadro, esta nota será atualizada."
+ ],
+ "como_se_proteger": [],
+ "slug": "dolar-hoje",
+ "publicado_em": "2026-11-15T11:44:20.730437",
+ "atualizado_em": "2026-11-15T11:44:20.730437",
+ "assunto": "Dólar fechou a R$ 5,6567 na sexta (13/11), alta de 2,63% na semana e maior valor desde junho de 2025, com pacote fiscal e juros nos EUA; mercado reabre na segunda (16/11).",
+ "turno": "meio"
+}
