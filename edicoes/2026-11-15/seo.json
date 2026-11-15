@@ -1,0 +1,40 @@
+{
+  "palavra_chave": "por que o dólar subiu",
+  "secundarias": [
+    "dólar em alta",
+    "dólar hoje",
+    "juros dos eua",
+    "juro de 10 anos dos eua",
+    "preço do petróleo",
+    "estreito de ormuz",
+    "risco de crise no mundo",
+    "iene e câmbio no japão"
+  ],
+  "perguntas": [
+    "Por que o dólar subiu esta semana?",
+    "O que significa o juro de 10 anos dos EUA passar de 5%?",
+    "O que a tensão no Estreito de Ormuz tem a ver com o dólar e o petróleo?",
+    "O dólar alto aumenta o risco de crise no Brasil?",
+    "O Brasil está em risco de crise agora? (termômetro do Brasil: 59, Alerta)"
+  ],
+  "titulo_seo": "Por que o dólar subiu? Juros dos EUA e petróleo",
+  "descricao_seo": "Por que o dólar subiu: juros de 10 anos dos EUA acima de 5%, tensão em Ormuz e efeito no Brasil. Termômetro global em 59 (Alerta).",
+  "links_internos": [
+    "paises/brasil.html",
+    "paises/eua.html",
+    "regioes/oriente-medio.html",
+    "paises/japao.html",
+    "mundo.html",
+    "metodologia.html"
+  ],
+  "evitar": [
+    "Títulos de caça-clique como 'dólar vai disparar' ou 'o que",
+    "Alarmismo: 'colapso', 'quebradeira', 'guerra mundial'",
+    "Promessa ou previsão de câmbio, ou dica de quando comprar",
+    "Jargão sem tradução: Treasuries, JGB, yield, DXY, prêmio de",
+    "Confundir o juro de 10 anos dos EUA (acima de 5%) com a",
+    "Dar como fato o que Irã, EUA ou Houthis alegam, como minas,"
+  ],
+  "por_que": "A semana junta dólar forte no mundo, juros longos dos EUA acima de 5% e tensão em Ormuz, e o leitor quer saber o motivo da alta e o efeito no Brasil. A busca por dólar hoje é grande demais para disputar, então a pauta",
+  "modo": "claude (claude-sonnet-5-5)"
+}
