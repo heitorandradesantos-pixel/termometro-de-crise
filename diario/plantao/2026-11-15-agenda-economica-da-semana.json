@@ -1,0 +1,123 @@
+{
+ "titulo": "Agenda econômica da semana (16 a 20/11): o que se sabe",
+ "descricao": "Focus, IGP-10, ata do Fed, vendas no varejo dos EUA e balanços de Nvidia, Target e Walmart. Veja o que está confirmado e o que ainda falta checar.",
+ "palavra_chave": "agenda econômica da semana",
+ "lead": "A semana de 16 a 20 de novembro tem o Boletim Focus e o IGP-10 na segunda (16), vendas no varejo dos EUA e o balanço da Nvidia na terça (17) e a ata do Fed na quarta (18). A sexta (20) é feriado nacional no Brasil. Os horários dos dados brasileiros vêm da agenda do SAFRAS & Mercado de 13/11 e devem ser conferidos nos calendários oficiais do BC, do IBGE e da FGV.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Segunda (16), às 8h, a FGV divulga o IGP-10 de novembro, com os componentes IPA-10, IPC-10 e INCC-10. O IGP-10 mede a variação de preços e costuma servir de referência para reajustes de contratos.",
+   "fonte_url": "https://safras.com.br/confira-a-agenda-do-agronegocio-de-16-a-20-de-novembro",
+   "data": "2026-11-13",
+   "veiculo": "SAFRAS & Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "O Boletim Focus sai toda segunda-feira útil, por volta das 8h30, no site do Banco Central. A edição anterior (9/11) trouxe a projeção do mercado para a Selic no fim de 2026 em 13,75%, acima dos 13,50% da semana anterior. A inflação de 2026 ficou em 5,22% e o PIB, em 1,75%.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/boletim-focus-preve-taxa-selic-de-1375-em-2026",
+   "data": "2026-11-09",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Quarta (18), o Fed (banco central dos EUA) divulga a ata da reunião de 27 e 28 de outubro, às 14h no horário de Nova York, o que equivale a 16h em Brasília pela diferença de fuso. A ata é o registro do que os dirigentes discutiram sobre juros e inflação.",
+   "fonte_url": "https://tradingkey.com/pt/analysis/stocks/us-stocks/262305830-week-ahead-nvidia-q3-earnings-us-october-retail-sales-fomc-minutes-walmart-tradingkey",
+   "data": "2026-11-15",
+   "veiculo": "TradingKey",
+   "confiavel": false
+  },
+  {
+   "texto": "O Fed manteve os juros inalterados em outubro. Analistas da Investec, citados pelo KuCoin, perguntam se o Fed quer compensar essa decisão. Outra reportagem diz que os preços ao consumidor nos EUA subiram mais do que o esperado em outubro, e que o mercado passou a considerar novas altas de juros. Isso é leitura de analistas, não decisão do Fed.",
+   "fonte_url": "https://kucoin.com/pt/news/flash/next-week-s-global-market-focus-nvidia-s-first-post-lee-earnings-and-anthropic-s-potential-mega-ipo",
+   "data": "2026-11-15",
+   "veiculo": "KuCoin",
+   "confiavel": false
+  },
+  {
+   "texto": "Terça (17) estão previstas as vendas no varejo dos EUA, que mostram quanto os americanos gastaram em outubro. O dado foi listado na agenda de MixVale e de TradingKey.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/13/bitcoin-cai-para-perto-de-us-71-mil-e-chega-ao-menor-nivel-desde-agosto/",
+   "data": "2026-11-13",
+   "veiculo": "MixVale",
+   "confiavel": false
+  },
+  {
+   "texto": "A Nvidia divulga o balanço do trimestre na terça (17), segundo MixVale e Jurua24horas. Segundo TradingKey, é o primeiro resultado após a mudança na liderança da empresa. O MixVale informa que Jensen Huang deixou o cargo de presidente-executivo em 12/11 e que Colette Kress assumiu de forma interina.",
+   "fonte_url": "https://tradingkey.com/pt/analysis/stocks/us-stocks/262305830-week-ahead-nvidia-q3-earnings-us-october-retail-sales-fomc-minutes-walmart-tradingkey",
+   "data": "2026-11-15",
+   "veiculo": "TradingKey",
+   "confiavel": false
+  },
+  {
+   "texto": "A Target divulga resultados na quarta (18) e o Walmart, na quinta (19). Os dois funcionam como termômetro do consumo americano na reta final do ano.",
+   "fonte_url": "https://invezz.com/pt/noticias/2026/11/14/o-proximo-grande-teste-de-wall-street-esta-escondido-no-carrinho-de-compras-americano",
+   "data": "2026-11-14",
+   "veiculo": "Invezz",
+   "confiavel": false
+  },
+  {
+   "texto": "Sexta (20) é feriado nacional no Brasil, o Dia da Consciência Negra. Nesse dia, a agenda do SAFRAS traz a taxa de juros de referência da China (LPR) e o índice de preços ao produtor da Alemanha.",
+   "fonte_url": "https://safras.com.br/confira-a-agenda-do-agronegocio-de-16-a-20-de-novembro",
+   "data": "2026-11-13",
+   "veiculo": "SAFRAS & Mercado",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Boletim Focus de 9/11 é o primeiro depois de o Copom parar a sequência de cortes na Selic. A projeção para o fim de 2026 subiu para 13,75%.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/boletim-focus-preve-taxa-selic-de-1375-em-2026",
+   "data": "2026-11-09",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Jensen Huang deixa o comando da Nvidia em 12/11, segundo o MixVale. As ações chegaram a cair 14% no dia e fecharam em queda de 4,34%.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/13/bitcoin-cai-para-perto-de-us-71-mil-e-chega-ao-menor-nivel-desde-agosto/",
+   "data": "2026-11-13",
+   "veiculo": "MixVale",
+   "confiavel": false
+  },
+  {
+   "texto": "O SAFRAS publica a agenda de 16 a 20/11, com IGP-10 na segunda e feriado nacional na sexta.",
+   "fonte_url": "https://safras.com.br/confira-a-agenda-do-agronegocio-de-16-a-20-de-novembro",
+   "data": "2026-11-13",
+   "veiculo": "SAFRAS & Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "A Invezz informa que Target (18/11) e Walmart (19/11) divulgam resultados na semana.",
+   "fonte_url": "https://invezz.com/pt/noticias/2026/11/14/o-proximo-grande-teste-de-wall-street-esta-escondido-no-carrinho-de-compras-americano",
+   "data": "2026-11-14",
+   "veiculo": "Invezz",
+   "confiavel": false
+  },
+  {
+   "texto": "A TradingKey confirma a ata do Fed para quarta (18), às 14h em Nova York, e destaca vendas no varejo e balanços como os eventos da semana.",
+   "fonte_url": "https://tradingkey.com/pt/analysis/stocks/us-stocks/262305830-week-ahead-nvidia-q3-earnings-us-october-retail-sales-fomc-minutes-walmart-tradingkey",
+   "data": "2026-11-15",
+   "veiculo": "TradingKey",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi possível confirmar em fonte oficial o IBC-Br de setembro (a prévia do PIB, índice do Banco Central), a prévia do PIB às 9h, a reunião do CMN na terça, os pedidos de seguro-desemprego na quinta e a confiança do consumidor da Universidade de Michigan na sexta. Esses itens vêm só da pauta que orientou esta reportagem e precisam ser checados nos calendários do BC, do IBGE, da FGV e dos EUA.",
+  "O horário do Focus (8h25 na pauta) não foi confirmado. As fontes consultadas indicam divulgação por volta das 8h30.",
+  "As buscas não localizaram o relatório de emprego dos EUA (payroll), a inflação da China nem decisão do Copom ou do Fed nesta semana. Isso não foi confirmado no calendário oficial.",
+  "O SAFRAS lista a produção industrial dos EUA às 11h15, mas o trecho consultado não deixa claro o dia. A pauta indica terça (17), sem confirmação.",
+  "Não apareceram datas confirmadas para os balanços de Home Depot e Lowe's nesta semana. Os resultados de agosto que as buscas devolveram são de outro trimestre.",
+  "O motivo da saída de Jensen Huang da Nvidia não foi esclarecido em fonte oficial nas buscas. Há relatos não confirmados, que não são repetidos aqui.",
+  "Ninguém sabe o que a ata do Fed vai mostrar. Qualquer leitura sobre juros americanos é projeção de analistas."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem acompanha juros e investimentos pós-fixados pode ver, no Focus de segunda, se o mercado mudou a projeção para a Selic. A última edição apontava 13,75% no fim de 2026.",
+  "O IGP-10 pode servir de referência para reajustes de contratos, como alguns aluguéis. O que vale para o seu contrato é o índice escrito nele.",
+  "A ata do Fed ajuda a entender para onde podem ir os juros americanos. Juros altos nos EUA costumam pesar sobre o dólar, que influencia o preço de importados e de viagens.",
+  "Vendas no varejo dos EUA e balanços de Walmart e Target mostram se o consumo americano segue forte. Esses números podem mexer com bolsas e com o dólar no dia.",
+  "Na sexta (20) há feriado nacional no Brasil. Confira no calendário da B3 e do seu banco como ficam os horários de pregão, pagamentos e boletos."
+ ],
+ "como_se_proteger": [],
+ "slug": "agenda-economica-da-semana",
+ "publicado_em": "2026-11-15T09:14:16.600354",
+ "atualizado_em": "2026-11-15T09:14:16.600354",
+ "assunto": "Agenda da semana de 16 a 20 de novembro de 2026: na segunda (16) saem o Boletim Focus (8h25), o IGP-10 (8h) e o IBC-Br de setembro, a prévia do PIB (9h), todos do Banco Central ou da FGV. Na terça (17) tem reunião do CMN, produção industrial dos EUA e vendas no varejo dos EUA. Na quarta (18) sai a ata do Fed. Na quinta (19) há pedidos de seguro-desemprego nos EUA. Na sexta (20) sai a confiança do consumidor da Universidade de Michigan. Nvidia e grandes varejistas americanos (Walmart, Target, Home Depot, Lowe's) divulgam balanços na semana. Não achei nas agendas consultadas payroll, inflação da China nem decisão do Copom ou do Fed nesta semana. A redação deve confirmar isso no calendário oficial antes de publicar, porque não consegui verificar.",
+ "turno": "manha"
+}
