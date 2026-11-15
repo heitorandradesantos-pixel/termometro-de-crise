@@ -1,0 +1,127 @@
+{
+ "titulo": "Diesel vai subir com fim do subsídio? O que se sabe",
+ "descricao": "Fazenda não renovou o adicional de R$ 1,40 por litro ao diesel importado. O de R$ 2,12 segue até 26/11. Não há reajuste anunciado nos postos.",
+ "palavra_chave": "diesel vai subir fim do subsídio",
+ "lead": "O Ministério da Fazenda informou na sexta-feira (13/11) que não vai renovar o adicional de R$ 1,40 por litro pago ao diesel importado. O adicional já tinha vencido na quinta (12/11), e não \"no fim de novembro\". A outra ajuda, de R$ 2,12 por litro, continua até 26 de novembro. Ainda não há reajuste anunciado para o diesel nos postos.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Fazenda anunciou em 13/11 que não vai renovar a subvenção adicional de R$ 1,40 por litro de diesel importado. Subvenção é o dinheiro que o governo paga a produtores e importadores para o combustível ser vendido mais barato. O adicional foi criado pela Portaria nº 3.082, de 13/10, e perdeu a validade em 12/11.",
+   "fonte_url": "https://www.metropoles.com/brasil/governo-lula-anuncia-fim-de-subsidio-de-r-140-ao-diesel-importado",
+   "data": "2026-11-13",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "A subvenção de R$ 2,12 por litro de diesel A rodoviário (o diesel puro, antes da mistura com biodiesel) continua em vigor, com validade até 26 de novembro. Para os importadores, o valor total volta de R$ 3,52 para R$ 2,12 por litro.",
+   "fonte_url": "https://metropoles.com/brasil/governo-lula-anuncia-fim-de-subsidio-de-r-140-ao-diesel-importado",
+   "data": "2026-11-13",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "A Fazenda disse que a decisão não impede novas avaliações no futuro, conforme a evolução dos preços do petróleo, segundo a reportagem do eixos, que ouviu o ministério em mensagem a jornalistas.",
+   "fonte_url": "https://eixos.com.br/combustiveis-e-bioenergia/fazenda-nao-vai-renovar-subsidio-de-r-140-ao-diesel-importado/",
+   "data": "2026-11-13",
+   "veiculo": "eixos",
+   "confiavel": false
+  },
+  {
+   "texto": "No boletim da Abicom (associação dos importadores) de 12/11, com dados de 11/11, o diesel da Petrobras estava R$ 2,91 por litro abaixo do custo de importar, na média dos polos da estatal. O número vem do eixos. Não encontramos o boletim da Abicom nem uma nota da Petrobras sobre ele.",
+   "fonte_url": "https://eixos.com.br/combustiveis-e-bioenergia/fazenda-nao-vai-renovar-subsidio-de-r-140-ao-diesel-importado/",
+   "data": "2026-11-12",
+   "veiculo": "eixos",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o eixos, os R$ 2,12 cobrem cerca de três quartos dessa diferença, e R$ 0,79 por litro ficam sem cobertura. Esse resultado é o cálculo da reportagem (R$ 2,91 menos R$ 2,12), não um número divulgado pela Fazenda, pela ANP ou pela Petrobras. Com os R$ 3,52 de antes, a diferença daquele dia estaria coberta.",
+   "fonte_url": "https://eixos.com.br/combustiveis-e-bioenergia/fazenda-nao-vai-renovar-subsidio-de-r-140-ao-diesel-importado/",
+   "data": "2026-11-13",
+   "veiculo": "eixos",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o eixos, a parte sem subsídio pode ir para o preço no mercado interno ou, se a Petrobras seguir importando sem reajuste, ficar no balanço da estatal. É uma avaliação da reportagem, não uma decisão anunciada.",
+   "fonte_url": "https://eixos.com.br/combustiveis-e-bioenergia/fazenda-nao-vai-renovar-subsidio-de-r-140-ao-diesel-importado/",
+   "data": "2026-11-13",
+   "veiculo": "eixos",
+   "confiavel": false
+  },
+  {
+   "texto": "Nos postos, o diesel S-10 fechou a semana a R$ 7,29 por litro, queda de 0,13% sobre a semana anterior, segundo a ANP. Esse levantamento é da semana encerrada em 14/11, e a ANP não mostrou, nele, efeito do fim do adicional.",
+   "fonte_url": "https://www.canalrural.com.br/economia/precos-de-combustiveis-fecham-a-semana-perto-da-estabilidade-diz-anp/",
+   "data": "2026-11-13",
+   "veiculo": "Canal Rural",
+   "confiavel": false
+  },
+  {
+   "texto": "A reportagem do Brasil Postos diz que não há reajuste anunciado. Segundo o mesmo texto, o fim do adicional não altera de imediato o preço que o posto paga, mas aumenta a pressão sobre quem traz diesel de fora.",
+   "fonte_url": "https://www.brasilpostos.com.br/noticias/mercado/subsidio-diesel-importado-r-1-40-fim-novembro-2026/",
+   "data": "2026-11-14",
+   "veiculo": "Brasil Postos",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Portaria nº 3.082 cria o adicional de R$ 1,40 por litro ao diesel importado, com validade inicial de 30 dias.",
+   "fonte_url": "https://www.metropoles.com/brasil/governo-lula-anuncia-fim-de-subsidio-de-r-140-ao-diesel-importado",
+   "data": "2026-10-13",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "Portaria 3.181 prorroga por 30 dias a subvenção de R$ 2,12 por litro de diesel A rodoviário, segundo o Brasil Postos.",
+   "fonte_url": "https://www.brasilpostos.com.br/noticias/mercado/subsidio-diesel-importado-r-1-40-fim-novembro-2026/",
+   "data": "2026-10-27",
+   "veiculo": "Brasil Postos",
+   "confiavel": false
+  },
+  {
+   "texto": "Fechamento usado no boletim da Abicom: diesel da Petrobras R$ 2,91 por litro abaixo do custo de importação (boletim divulgado em 12/11).",
+   "fonte_url": "https://eixos.com.br/combustiveis-e-bioenergia/fazenda-nao-vai-renovar-subsidio-de-r-140-ao-diesel-importado/",
+   "data": "2026-11-11",
+   "veiculo": "eixos",
+   "confiavel": false
+  },
+  {
+   "texto": "O adicional de R$ 1,40 perde a validade.",
+   "fonte_url": "https://www.metropoles.com/brasil/governo-lula-anuncia-fim-de-subsidio-de-r-140-ao-diesel-importado",
+   "data": "2026-11-12",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "A Fazenda informa que não vai renovar o adicional e mantém os R$ 2,12 por litro, com validade até 26/11.",
+   "fonte_url": "https://eixos.com.br/combustiveis-e-bioenergia/fazenda-nao-vai-renovar-subsidio-de-r-140-ao-diesel-importado/",
+   "data": "2026-11-13",
+   "veiculo": "eixos",
+   "confiavel": false
+  },
+  {
+   "texto": "ANP mostra diesel S-10 a R$ 7,29 por litro nos postos, quase estável.",
+   "fonte_url": "https://www.canalrural.com.br/economia/precos-de-combustiveis-fecham-a-semana-perto-da-estabilidade-diz-anp/",
+   "data": "2026-11-13",
+   "veiculo": "Canal Rural",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o preço do diesel nos postos vai subir. Não foi confirmado por Fazenda, ANP ou Petrobras. Até agora, nenhum reajuste foi anunciado.",
+  "Se a Petrobras vai reajustar o diesel nas refinarias ou absorver a diferença. Não encontramos declaração da empresa sobre isso depois de 13/11.",
+  "Se haverá efeito sobre frete, preço dos alimentos e inflação. Nenhuma fonte oficial estimou esse impacto. A reportagem da Agência Brasil, citada pelo Sou Brasília, não traz estimativa de efeito sobre o preço nos postos.",
+  "O que acontece com a subvenção de R$ 2,12 depois de 26/11. Não há decisão oficial nos resultados. Um texto da Abicom, reproduzido pelo BiodieselBR, indica que ela deve ser mantida até o fim do ano, mas isso não foi confirmado pelo governo.",
+  "Se o valor de R$ 0,79 por litro sem cobertura vale para todos os importadores. O número é cálculo do eixos com base na média dos polos da Petrobras em um único dia, 11/11."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem abastece no posto: até agora nada mudou no preço. A ANP mostrou diesel S-10 a R$ 7,29 por litro, quase estável na semana. O efeito do fim do adicional, se houver, só aparece nos próximos levantamentos da ANP, que saem às sextas.",
+  "Quem tem frota ou paga frete: o preço do diesel nas distribuidoras e nos postos é o que vale. Acompanhe o levantamento semanal da ANP. Ainda não há estimativa oficial de aumento.",
+  "Quem compra alimentos: o diesel pesa no transporte, mas nenhuma fonte consultada calculou efeito nos preços de mercado ou na inflação por causa dessa decisão.",
+  "A subvenção de R$ 2,12 por litro continua até 26/11. O que vem depois depende de nova decisão do governo, e a Fazenda diz que pode reavaliar conforme o petróleo."
+ ],
+ "como_se_proteger": [],
+ "slug": "diesel-vai-subir-fim-do-subsidio",
+ "publicado_em": "2026-11-15T13:14:13.266234",
+ "atualizado_em": "2026-11-15T13:14:13.266234",
+ "assunto": "Fazenda encerra o adicional de R$ 1,40 por litro ao diesel importado no fim de novembro. Pelo boletim da Abicom de 12/11, o diesel da Petrobras estava R$ 2,91/litro abaixo do custo de importação. Segundo a reportagem, R$ 0,79/litro ficariam sem cobertura. A fonte é um site setorial que cita outra reportagem, então é preciso confirmar com Fazenda, ANP ou Petrobras antes de publicar.",
+ "turno": "tarde"
+}
