@@ -1,0 +1,199 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "US$ 1.000 custam cerca de R$ 5.656,70, e na sua viagem custam mais.",
+  "na_tela": "US$ 1.000 = R$ 5.656,70",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "US$ 1.000 custam cerca de R$ 5.656,70, e na sua viagem custam mais.",
+   "na_tela": "US$ 1.000 = R$ 5.656,70",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar subiu 2,63% na semana. Isso chega na sua viagem e nas suas compras.",
+   "na_tela": "Dólar +2,63% na semana",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto custa mesmo o dólar na sua viagem?",
+   "na_tela": "Quanto custa o dólar?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "US$ 1.000 custam cerca de R$ 5.656,70, e na sua viagem custam mais.",
+  "O dólar fechou a sexta em R$ 5,6567, segundo a Reuters.",
+  "Na sexta mal mexeu, mas na semana subiu 2,63%.",
+  "Hoje é domingo: sem negociação até segunda.",
+  "Olha só o detalhe: esse preço é de atacado, igual na feira.",
+  "Dólar turismo e cartão costumam custar mais: entram margem e impostos.",
+  "Como o dólar abre na segunda, ninguém sabe ainda.",
+  "Vai viajar ou comprar importado? Compare preço antes, principalmente na Black Friday.",
+  "Manda pra quem tá planejando viagem pra fora.",
+  "Já levou susto no câmbio de viagem? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "US$ 1.000 custam cerca de R$ 5.656,70, e na sua viagem custam mais. O dólar fechou a sexta em R$ 5,6567, segundo a Reuters. Na sexta mal mexeu, mas na semana subiu 2,63%. Hoje é domingo: sem negociação até segunda. Olha só o detalhe: esse preço é de atacado, igual na feira. Dólar turismo e cartão costumam custar mais: entram margem e impostos. Como o dólar abre na segunda, ninguém sabe ainda. Vai viajar ou comprar importado? Compare preço antes, principalmente na Black Friday. Manda pra quem tá planejando viagem pra fora. Já levou susto no câmbio de viagem? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "US$ 1.000 = R$ 5.656,70",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "US$ 1.000 = R$ 5.656,70",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,6567",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 2,
+   "texto": "+2,63% na semana",
+   "fonte": "Reuters"
+  },
+  {
+   "fala": 3,
+   "texto": "Mercado reabre segunda"
+  },
+  {
+   "fala": 4,
+   "texto": "Preço de atacado",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Turismo e cartão: mais caro",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Compare preços"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: o que se sabe antes de o mercado reabrir na segunda (16/11).\n\nO dólar à vista fechou a sexta (13/11) a R$ 5,6567, alta de 0,11% no dia e de 2,63% na semana, segundo a Reuters. A PTAX, taxa de referência do Banco Central, ficou em R$ 5,6518.\n\nNa conta da viagem, US$ 1.000 custam cerca de R$ 5.656,70 no câmbio comercial. Dólar turismo e cartão costumam custar mais, por causa da margem da casa de câmbio e dos impostos.\n\nComo o dólar abre na segunda ainda não dá para saber. Na terça (17) tem votação dos destaques do pacote fiscal.\n\nConteúdo educativo, não é recomendação de investimento.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\n#dolar #economia #financaspessoais #viagem #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#economia",
+  "#financaspessoais",
+  "#viagem",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar fechou a sexta em R$ 5,6567, e sua viagem custa mais.",
+  "topicos": [
+   "Segundo a Reuters, o dólar fechou a sexta em R$ 5,6567.",
+   "Na semana, subiu 2,63%; hoje é domingo e o mercado reabre segunda.",
+   "Dólar turismo e cartão costumam custar mais que o comercial, por margem e impostos.",
+   "Vai viajar ou comprar importado? Compare preços antes, principalmente na Black Friday."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Notícia de domingo, sem urgência, com número e contexto: pede explicação calma na bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Na fala \"US$ 1.000 custam cerca de R$ 5.656,70\" e \"fechou a sexta em R$ 5,6567\": são números demais e exatos. Fale \"uns R$ 5.700\" e deixe o valor exato no cartão da tela e na legenda.",
+   "Na fala \"segundo a Reuters\" e \"Na sexta mal mexeu, mas na semana subiu 2,63%\": nome de fonte não vai na fala e há duas ideias na mesma frase. Troque por \"segundo as agências de notícias\", ou deixe a fonte só no cartão. Fale só da semana: \"Na semana, o dólar subiu uns 2,6%\".",
+   "Na fala \"entram margem e impostos\" e \"sem negociação até segunda\": são palavras de banco sem tradução. Reescreva como \"a casa de câmbio põe o lucro dela e ainda entra imposto\" e \"o mercado tá fechado até segunda\"."
+  ],
+  "veredito": "A peça tem gancho direto, a comparação com a feira, a incerteza assumida e um passo simples (comparar preço). Falta passar no Teste do CLT: há número exato demais, a Reuters aparece na fala e restam termos de câmbio sem tradução."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"US$ 1.000 custam cerca de R$ 5.656,70, e na sua viagem custam mais.\" O número exato é difícil de ouvir de primeira. Reescrita: \"Mil dólares custam uns R$ 5.650. Na sua viagem, custam mais.\" O exato fica no cartão da tela.",
+   "Pagamento: o \"custam mais\" só é explicado na 5ª fala, depois de duas falas de números. Suba o \"Olha só\" para logo depois do gancho: \"Olha só: esse preço é de atacado, igual na feira. Dólar turismo e cartão custam mais: entram margem e impostos.\" Depois vem a semana.\"",
+   "Retenção: as falas 2 e 3 têm três números e citam a Reuters, o que quebra o Teste do CLT. Reescrita: \"Na sexta, o dólar quase não mexeu. Mas na semana subiu uns 2,6%.\" A fonte e o 5,6567 ficam no cartão e na legenda."
+  ],
+  "veredito": "Boa estrutura, com virada, pedido de envio concreto e fim que puxa comentário, mas o gancho tem número difícil de ouvir e o \\\"custam mais\\\" demora a ser pago e vem depois de uma fileira de números."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Vertical shot of a busy open-air street market (feira) in the morning, wooden crates piled with fresh fruit and vegetables, vendors' hands arranging produce, no faces in focus, no signs or text. Slow dolly-in along the stalls, warm natural light, shallow depth of field",
+   "texto_da_fala": "Olha só o detalhe: esse preço é de atacado, igual na feira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of a busy open-air street market (feira) in the morning, wooden crates piled with fresh fruit and vegetables, vendors' hands arranging produce, no faces in focus, no signs or text. Slow dolly-in along the stalls, warm natural light, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical close-up of a hand tapping a blank, generic credit card on a payment terminal at a currency exchange counter, with blurred foreign banknotes in the background, no text, no logos, no numbers on screen, no face visible. Slow push-in with a slight rack focus from the card to the banknotes",
+   "texto_da_fala": "Dólar turismo e cartão costumam custar mais: entram margem e impostos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up of a hand tapping a blank, generic credit card on a payment terminal at a currency exchange counter, with blurred foreign banknotes in the background, no text, no logos, no numbers on screen, no face visible. Slow push-in with a slight rack focus from the card to the banknotes. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Vertical shot of an open suitcase on a bed filled with clothes, a passport with a plain blank cover, and shopping bags with no logos, next to a laptop showing only a blurred abstract shopping page without readable text. Smooth overhead camera move that slowly tilts down, bright indoor light",
+   "texto_da_fala": "Vai viajar ou comprar importado? Compare preço antes, principalmente na Black Friday.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of an open suitcase on a bed filled with clothes, a passport with a plain blank cover, and shopping bags with no logos, next to a laptop showing only a blurred abstract shopping page without readable text. Smooth overhead camera move that slowly tilts down, bright indoor light. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "US$ 1.000 custam cerca de R$ 5.656,70, e na sua viagem custam mais.\n\nO dólar fechou a sexta em R$ 5,6567, segundo a Reuters.\n\nNa sexta mal mexeu, mas na semana subiu 2,63%.\n\nHoje é domingo: sem negociação até segunda.\n\nOlha só o detalhe: esse preço é de atacado, igual na feira.\n\nDólar turismo e cartão costumam custar mais: entram margem e impostos.\n\nComo o dólar abre na segunda, ninguém sabe ainda.\n\nVai viajar ou comprar importado? Compare preço antes, principalmente na Black Friday.\n\nManda pra quem tá planejando viagem pra fora.\n\nJá levou susto no câmbio de viagem? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do",
+   "destaque": "A PTAX, taxa de referência do Banco Central, fechou em R$ 5,6518 para venda e R$ 5,6512 para compra em 13/11."
+  }
+ ],
+ "data": "2026-11-15",
+ "gerado_em": "2026-11-15T11:49:30.215497-03:00"
+}
