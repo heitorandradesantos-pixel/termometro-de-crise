@@ -629,8 +629,6 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas += paginas_newsletter(saida, lista[0][0] if lista else "")
     from . import lp
     novas += lp.gerar(saida, pagina)  # /manual/: a página de venda do e-book (13/11)
-    from . import verificador
-    novas += verificador.gerar(saida)  # /verificar/: piloto do verificador de boleto e Pix (15/11), fora do Google
     (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
     # endereço que não existe responde 404 de verdade (sem isso, o Cloudflare devolve a home com 200)
     (saida / "404.html").write_text(pagina(f"Página não encontrada · {config.NOME}", "Esta página não existe.",
