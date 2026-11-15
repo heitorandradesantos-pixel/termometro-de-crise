@@ -1,0 +1,19 @@
+{
+ "saida": "fazendas-fantasmas-editado.mp4",
+ "fim": 64.1,
+ "remover": [[3.85, 5.5]],
+ "destaques": "\\d|bilh|fazenda|fantasma|cnpj|banco|fiscal|documento|brasil|comenta",
+ "nomes": [["Banco", "do", "Brasil"], ["Termômetro", "de", "Crise"]],
+ "corrigir": [
+  [["252", "bilhões"], ["R$ 256", "bilhões"]],
+  [["102", "fazendas"], ["112", "fazendas"]]
+ ],
+ "cartoes": [
+  [6.6, 10.2, "Fazendas fantasmas: *em investigação*", "Fonte: Money Times, BPMoney (out/2026)"],
+  [14.6, 18.6, "Imóvel rural que *só existe no papel*", "Fonte: Money Times"],
+  [18.8, 24.8, "Agro: *R$ 256 bi* em dívidas atrasadas ou renegociadas", "Fonte: Frente Parlamentar da Agropecuária (abr/2026). Valor do setor todo"],
+  [25.3, 31.9, "Caso no Pará: CPF inexistente ligado a *112 imóveis*", "Fonte: Money Times"],
+  [44.5, 47.5, "Comenta: *aonde o Brasil vai parar?*", ""],
+  [53.1, 56.8, "Comenta aqui *embaixo*", ""]
+ ]
+}
