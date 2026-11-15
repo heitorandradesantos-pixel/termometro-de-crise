@@ -56,6 +56,14 @@ mas quanto mais você preenche, mais a conferência pega.</p>
 
 <div id="saida"></div>
 
+<div class="cx" id="fech"><h2>Fechamento do mês</h2>
+<p>Tudo que você confere fica somado aqui (só neste aparelho). No fim do mês, copie o resumo e guarde ou mande no WhatsApp.</p>
+<p><label>Nome da empresa: <input id="nomeEmp" style="background:#0B0F14;color:#EEF2F5;border:1px solid #33465A;border-radius:8px;padding:8px;font-size:16px;width:100%;max-width:320px"></label></p>
+<div id="mes"></div>
+<button class="bt" id="copiar">Copiar resumo pro WhatsApp</button><button class="bt cz" id="zerar">Apagar histórico</button>
+<pre id="previa" style="white-space:pre-wrap;background:#0B0F14;border-radius:10px;padding:12px;font-size:15px;color:#D6DEE6"></pre>
+</div>
+
 <div class="cx"><h2>O que a gente confere</h2><ul>
 <li>Se os dígitos de segurança do código batem (boleto adulterado não bate).</li>
 <li>O banco, o valor e o vencimento que ficam escondidos no código, comparados com o que você espera.</li>
@@ -91,8 +99,40 @@ async function cnpj(c) {
   const d = await cacheCnpj[c]; return d && d.encontrado ? d : null;
 }
 const ICONE = { verde: "🟢", amarelo: "🟡", vermelho: "🔴" };
+const MESES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+const ler = (k, d) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } };
+const gravar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+function registrar(res) {
+  const h = ler("tc_hist", []), agora = new Date().toISOString();
+  res.forEach(({ codigo, empresa, r }) => {
+    const id = so(codigo) || codigo;  // o mesmo código conferido duas vezes conta uma vez só
+    const i = h.findIndex((x) => x.id === id && x.data.slice(0, 7) === agora.slice(0, 7));
+    const item = { id, data: agora, empresa: empresa || "", nivel: r.nivel, valor: r.dados.valor || 0,
+      motivo: (r.motivos.find((m) => m.nivel === r.nivel) || {}).texto || "" };
+    if (i >= 0) h[i] = item; else h.push(item);
+  });
+  gravar("tc_hist", h.slice(-2000));
+  fechamento();
+}
+function fechamento() {
+  const h = ler("tc_hist", []), mes = new Date().toISOString().slice(0, 7);
+  const doMes = h.filter((x) => x.data.slice(0, 7) === mes);
+  const n = { verde: 0, amarelo: 0, vermelho: 0 }; let total = 0;
+  doMes.forEach((x) => { n[x.nivel]++; total += x.valor; });
+  const nome = $("#nomeEmp").value.trim(), m = MESES[Number(mes.slice(5)) - 1];
+  let t = `📊 *Fechamento de ${m}${nome ? " – " + nome : ""}*\\n${doMes.length} pagamento(s) conferido(s) · ${brl(total)}\\n` +
+    `🟢 ${n.verde} ok · 🟡 ${n.amarelo} atenção · 🔴 ${n.vermelho} barrado(s)`;
+  const verm = doMes.filter((x) => x.nivel === "vermelho");
+  if (verm.length) t += `\\n\\n🔴 Pediram confirmação antes de pagar (${brl(verm.reduce((a, x) => a + x.valor, 0))}):\\n` +
+    verm.slice(0, 5).map((x) => `• ${x.empresa || "Sem nome"} ${x.valor ? brl(x.valor) : ""}: ${x.motivo}`).join("\\n");
+  t += "\\n\\nConferido pelo Verificador do Termômetro de Crise. Triagem de risco, não garantia.";
+  $("#mes").innerHTML = doMes.length ? "" : "<p>Nada conferido neste mês ainda.</p>";
+  $("#previa").textContent = doMes.length ? t : "";
+  return doMes.length ? t : "";
+}
 const TITULO = { verde: "Sem sinal de problema", amarelo: "Pede atenção", vermelho: "Não pague antes de confirmar" };
 
+let exemploAtivo = false;
 async function conferir() {
   const linhas = $("#entrada").value.split(/\\n+/).map((l) => l.trim()).filter(Boolean);
   if (!linhas.length) { $("#saida").innerHTML = '<div class="cx"><p>Cole pelo menos um código.</p></div>'; return; }
@@ -113,6 +153,8 @@ async function conferir() {
     res.push({ codigo, empresa, r, info });
   }
   mostrar(res);
+  if (!exemploAtivo) registrar(res);
+  exemploAtivo = false;
 }
 
 function mostrar(res) {
@@ -144,11 +186,20 @@ function mostrar(res) {
 }
 
 $("#conferir").onclick = conferir;
+try { $("#nomeEmp").value = localStorage.getItem("tc_nome") || ""; } catch (e) {}
+$("#nomeEmp").oninput = () => { try { localStorage.setItem("tc_nome", $("#nomeEmp").value); } catch (e) {} fechamento(); };
+$("#copiar").onclick = async () => { const t = fechamento(); if (!t) return;
+  try { await navigator.clipboard.writeText(t); $("#copiar").textContent = "Copiado ✓"; }
+  catch (e) { $("#copiar").textContent = "Selecione o texto abaixo e copie"; }
+  setTimeout(() => $("#copiar").textContent = "Copiar resumo pro WhatsApp", 2500); };
+$("#zerar").onclick = () => { gravar("tc_hist", []); fechamento(); };
+fechamento();
 $("#exemplo").onclick = () => {
   // códigos fictícios, montados só para demonstração
   $("#entrada").value = "34191112282333444555066677788896116610000370000 ; Distribuidora Exemplo ; 3.700,00 ; ; 15/12/2026\\n" +
     "34191112282333444555066677788896116610000370000 ; Gráfica Exemplo ; 2.900,00\\n" +
     "00020126440014br.gov.bcb.pix0122joao.exemplo@email.com5204000053039865406480.005802BR5913JOAO DA SILVA6009SAO PAULO62070503***6304D721 ; Contabilidade Souza ; 480,00";
+  exemploAtivo = true;
   conferir();
 };
 </script></body></html>"""
