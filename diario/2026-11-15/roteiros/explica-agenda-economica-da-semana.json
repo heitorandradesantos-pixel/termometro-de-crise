@@ -1,0 +1,188 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Segunda, às 8h, sai um índice que pode reajustar o seu aluguel.",
+  "na_tela": "Índice do seu aluguel sai segunda",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "Segunda, às 8h, sai um índice que pode reajustar o seu aluguel.",
+   "na_tela": "Índice do seu aluguel sai segunda",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Sexta, dia 20, é feriado. E o seu boleto, como fica?",
+   "na_tela": "Feriado na sexta: e seu boleto?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Já descobriram, você ainda não",
+   "texto": "Quem paga aluguel por índice já tem data: segunda, às 8h.",
+   "na_tela": "Aluguel por índice: data marcada",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Segunda, às 8h, sai um índice que pode reajustar o seu aluguel.",
+  "É o IGP-10, da FGV: costuma ser referência pra reajuste de contrato.",
+  "Igual conta de luz: vale o índice escrito no seu contrato.",
+  "Quarta, às 16h, o Fed, banco central dos EUA, divulga a ata.",
+  "A ata registra a conversa sobre juros, e juro alto lá fora pesa no dólar.",
+  "Ninguém sabe o que vem nela: qualquer palpite é só projeção.",
+  "Sexta, dia 20, é feriado: confere com seu banco como ficam os boletos.",
+  "Manda pra quem paga aluguel e não lembra qual índice reajusta.",
+  "Sabe o índice do seu aluguel? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Segunda, às 8h, sai um índice que pode reajustar o seu aluguel. É o IGP-10, da FGV: costuma ser referência pra reajuste de contrato. Igual conta de luz: vale o índice escrito no seu contrato. Quarta, às 16h, o Fed, banco central dos EUA, divulga a ata. A ata registra a conversa sobre juros, e juro alto lá fora pesa no dólar. Ninguém sabe o que vem nela: qualquer palpite é só projeção. Sexta, dia 20, é feriado: confere com seu banco como ficam os boletos. Manda pra quem paga aluguel e não lembra qual índice reajusta. Sabe o índice do seu aluguel? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Índice do seu aluguel sai segunda",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "IGP-10: segunda, 8h",
+   "fonte": "SAFRAS & Mercado"
+  },
+  {
+   "fala": 2,
+   "texto": "Vale o índice do contrato"
+  },
+  {
+   "fala": 3,
+   "texto": "Ata do Fed: quarta, 16h",
+   "fonte": "TradingKey"
+  },
+  {
+   "fala": 5,
+   "texto": "Ninguém sabe o que vem"
+  },
+  {
+   "fala": 6,
+   "texto": "Sexta, dia 20: feriado",
+   "fonte": "SAFRAS & Mercado"
+  }
+ ],
+ "retomada": 4,
+ "busca": "IGP-10 reajuste de aluguel: agenda da semana",
+ "legenda": "IGP-10 reajuste de aluguel: o que sai nesta semana e o que muda no seu bolso.\n\nSegunda (16), às 8h, a FGV divulga o IGP-10, que costuma servir de referência pra reajuste de contratos. O que vale pro seu aluguel é o índice escrito no contrato.\n\nQuarta (18), às 16h em Brasília, o Fed, banco central dos EUA, divulga a ata da reunião de 27 e 28 de outubro. Ninguém sabe o que ela vai mostrar. Juros altos nos EUA costumam pesar sobre o dólar.\n\nSexta (20) é feriado nacional. Confira com seu banco como ficam boletos e pagamentos.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#igp10 #aluguel #dolar #economia #termometrodecrise",
+ "hashtags": [
+  "#igp10",
+  "#aluguel",
+  "#dolar",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Segunda, às 8h, sai um índice que pode reajustar seu aluguel.",
+  "topicos": [
+   "Segunda, às 8h, a FGV divulga o IGP-10, referência pra reajuste de contratos.",
+   "Quarta, às 16h, o Fed, banco central dos EUA, divulga a ata dos juros.",
+   "Sexta, dia 20, é feriado nacional, segundo a agenda do SAFRAS.",
+   "Fazer: confira o índice no seu contrato e os boletos no seu banco."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação de agenda com várias datas e contexto, não uma notícia quente que pede urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"É o IGP-10, da FGV: costuma ser referência pra reajuste de contrato.\": o Teste do CLT pede uma ideia por fala, e \"IGP-10\" e \"FGV\" aparecem sem tradução. Reescreva em duas falas: \"É o IGP-10, um índice que muita gente usa pra reajustar o aluguel.\" Deixe o nome FGV só no cartão da tela e na legenda, ou diga \"uma fundação de pesquisa\".",
+   "Frase \"A ata registra a conversa sobre juros, e juro alto lá fora pesa no dólar.\": são duas ideias numa fala só, e falta dizer o que muda pra pessoa. Separe em duas falas: \"A ata é o resumo da conversa deles sobre juros.\" e \"Juro alto lá fora costuma deixar o dólar mais forte. E dólar forte pode encarecer o que vem de fora.\" Isso dá um passo claro e traz a ligação com o bolso. Antes de usar a segunda frase, confira se ela está nos fatos já checados.",
+   "Frase \"Segunda, às 8h, sai um índice que pode reajustar o seu aluguel.\": o gancho é bom, mas o roteiro não tem uma comparação viva além da conta de luz, e o fim da peça fica sem o passo calmo do fleumático. Troque a abertura por algo como \"Olha só: segunda, às 8h, sai o número que pode mexer no seu aluguel.\" Antes do fechamento, diga o passo simples: \"Abre o contrato, vê qual índice está escrito e pronto.\" Assim a ordem de ação fica no começo e no fim."
+  ],
+  "veredito": "A peça acerta ao ligar a agenda da semana ao bolso (aluguel, boleto) e ao admitir que ninguém sabe o que vem na ata. Mas falta traduzir IGP-10, FGV e ata para o Teste do CLT, e falta um passo calmo e simples antes do bordão final."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "GANCHO: \"Segunda, às 8h, sai um índice que pode reajustar o seu aluguel.\" abre como agenda da semana. Reescrita: \"Você sabe qual índice reajusta o seu aluguel? Um deles sai segunda, às 8h.\" O aluguel e a pergunta vêm na primeira frase, e a pergunta já prepara o SIM ou NÃO do fim.",
+   "RETENÇÃO: o vídeo passa do aluguel para o Fed sem nenhuma virada, e \"ata\" soa técnico. Reescrita: \"Mas tem um detalhe: na quarta tem uma notícia lá de fora que pesa no dólar. Às 16h, o banco central dos EUA divulga a ata, o resumo da conversa sobre juros.\"",
+   "CLAREZA: \"Igual conta de luz: vale o índice escrito no seu contrato.\" confunde, porque conta de luz não tem índice no contrato. Reescrita: \"Mas o que vale é o índice escrito no seu contrato. Vai lá e confere.\""
+  ],
+  "veredito": "Roteiro claro, com pergunta final boa e pedido de envio concreto, mas o gancho parece agenda e falta uma virada antes do Fed; com essas duas trocas passa de 8."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Extreme close-up of an analog electricity meter on a building wall, its metal disc slowly spinning behind glass, dials out of focus so no digits or text are legible. Slow dolly-in, then a soft rack focus to a stack of blank, unmarked paper sheets on a wooden table in warm window light. Realistic, shallow depth of field",
+   "texto_da_fala": "Igual conta de luz: vale o índice escrito no seu contrato.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Extreme close-up of an analog electricity meter on a building wall, its metal disc slowly spinning behind glass, dials out of focus so no digits or text are legible. Slow dolly-in, then a soft rack focus to a stack of blank, unmarked paper sheets on a wooden table in warm window light. Realistic, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "A grand neoclassical white marble government building with tall columns, seen from a low angle in late-afternoon golden light, no flags, no signs, no text and no people. Slow upward crane move along the columns, drifting clouds behind, calm and solemn mood. Realistic cinematic look",
+   "texto_da_fala": "Quarta, às 16h, o Fed, banco central dos EUA, divulga a ata.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A grand neoclassical white marble government building with tall columns, seen from a low angle in late-afternoon golden light, no flags, no signs, no text and no people. Slow upward crane move along the columns, drifting clouds behind, calm and solemn mood. Realistic cinematic look. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A bank branch storefront on a quiet empty city street on a holiday morning, metal roll-down shutter fully closed, no signs, no logos, no text, no people. Slow lateral tracking shot along the sidewalk with soft sunlight and long shadows, a few leaves drifting on the pavement. Realistic cinematic look",
+   "texto_da_fala": "Sexta, dia 20, é feriado: confere com seu banco como ficam os boletos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A bank branch storefront on a quiet empty city street on a holiday morning, metal roll-down shutter fully closed, no signs, no logos, no text, no people. Slow lateral tracking shot along the sidewalk with soft sunlight and long shadows, a few leaves drifting on the pavement. Realistic cinematic look. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Segunda, às 8h, sai um índice que pode reajustar o seu aluguel.\n\nÉ o IGP-10, da FGV: costuma ser referência pra reajuste de contrato.\n\nIgual conta de luz: vale o índice escrito no seu contrato.\n\nQuarta, às 16h, o Fed, banco central dos EUA, divulga a ata.\n\nA ata registra a conversa sobre juros, e juro alto lá fora pesa no dólar.\n\nNinguém sabe o que vem nela: qualquer palpite é só projeção.\n\nSexta, dia 20, é feriado: confere com seu banco como ficam os boletos.\n\nManda pra quem paga aluguel e não lembra qual índice reajusta.\n\nSabe o índice do seu aluguel? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/boletim-focus-preve-taxa-selic-de-1375-em-2026",
+   "destaque": "O Boletim Focus sai toda segunda-feira útil, por volta das 8h30, no site do Banco Central."
+  }
+ ],
+ "data": "2026-11-15",
+ "gerado_em": "2026-11-15T09:19:59.949094-03:00"
+}
