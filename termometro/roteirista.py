@@ -96,7 +96,7 @@ Regras:
 10. O gancho segue o manual do especialista em viralização: lacuna ESPECÍFICA do bolso do espectador, paga nos
    primeiros 10 segundos. No Explica, quando couber, a última fala do corpo diz para quem mandar o vídeo, com uma
    situação concreta ("Manda para quem guarda dinheiro na poupança")."""
-SISTEMA += config.manual("roteiro", "viralizacao", "redacao", "marca", "referencias")
+SISTEMA += config.manual("roteiro", "voz_do_heitor", "viralizacao", "redacao", "marca", "referencias")
 
 
 def ferramenta() -> dict:

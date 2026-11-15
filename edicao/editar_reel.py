@@ -370,7 +370,7 @@ def montar():
         t += b - a
     cw, ch = round(1080 / ZOOM / 2) * 2, round(1920 / ZOOM / 2) * 2
     quando = "+".join(f"between(t,{a:.4f},{b - 0.0005:.4f})" for a, b in zooms) or "0"
-    f1 = (f"[0:v]select='{sel}',setpts=N/30/TB,setsar=1,split[base][z];"
+    f1 = (f"[0:v]select='{sel}',setpts=N/30/TB,scale=1080:1920:flags=lanczos,setsar=1,split[base][z];"  # vídeo 4K do iPhone vira 1080x1920
           f"[z]crop={cw}:{ch}:{(1080 - cw) // 2}:{int((1920 - ch) * 0.35)},scale=1080:1920,setsar=1[zz];"
           f"[base][zz]overlay=0:0:enable='{quando}'[v];"
           + audio_cortado(manter))

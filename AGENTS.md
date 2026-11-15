@@ -22,7 +22,7 @@ funil de venda do e-book "Manual do Investidor". Contexto completo: `termometro/
 | Edição de Reel (vídeo do Heitor) | `edicao/editar_reel.py` + `edicao/remotion/src/*`; guia `edicao/README.md` |
 | Vídeos só de motion e anúncios | `edicao/remotion/src/Motion*.tsx`, `MotionAnuncios.tsx`; composições em `Root.tsx` |
 | Transcrição (Whisper + alinhamento) | `edicao/ferramentas/transcrever.sh` → workflow `transcrever.yml` → `termometro/transcrever.py` |
-| Manuais dos especialistas | `termometro/manuais/*.md` (marca, viralização, roteiro, compliance, trackeamento, vendas, SEO, UX/UI) |
+| Manuais dos especialistas | `termometro/manuais/*.md` (marca, voz do Heitor, viralização, roteiro, compliance, trackeamento, vendas, SEO, UX/UI) |
 
 ## Comandos
 - Testes: `python3 -m pytest -q`

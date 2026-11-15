@@ -32,7 +32,7 @@ Dê nota de 0 a 2 em cada critério (0 = falha, 1 = em parte, 2 = acerta):
 
 Depois, até 3 sugestões concretas, cada uma citando a frase e mostrando a reescrita (com os mesmos números e fatos
 da peça, sem inventar nada, sem promessa de ganho, sem medo sem saída, sem sensacionalismo). Priorize o gancho.
-Se o roteiro já está forte, não invente problema: sugestões vazias.""" + config.manual("viralizacao", "marca")
+Se o roteiro já está forte, não invente problema: sugestões vazias.""" + config.manual("viralizacao", "voz_do_heitor", "marca")
 
 
 def ferramenta() -> dict:
