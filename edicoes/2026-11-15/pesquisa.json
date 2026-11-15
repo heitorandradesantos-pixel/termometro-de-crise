@@ -1,0 +1,368 @@
+{
+  "eventos": [
+    {
+      "titulo": "Dólar na máxima em 19 meses; juro de 10 anos dos EUA passa de 5%",
+      "regiao": "Global",
+      "status": "fato confirmado",
+      "data": "2026-11-12",
+      "resumo": "O índice do dólar chegou a cerca de 103,16, o maior nível desde abril de 2025. O Treasury de 10 anos ficou perto de 5,07%–5,11% e o de 2 anos perto de 4,84%–4,87%. Dirigentes do Fed alertaram que a inflação segue alta, alguns admitindo alta de 0,50 ponto, e o CPI de outubro (10/11) veio forte. O CME FedWatch precificava cerca de 91% de chance de alta em dezembro; é precificação de mercado, não decisão.",
+      "canal_brasil": "Canal possível: dólar forte e juros longos dos EUA em alta pressionam o real e os juros longos brasileiros. O Copom manteve a Selic em 13,75% em 4/11 (fora da janela), com dólar a R$ 5,45 em 5/11.",
+      "relevancia": 5,
+      "fontes": [
+        {
+          "veiculo": "CNBC (Reuters)",
+          "url": "https://www.cnbc.com/2026/11/12/dollar-near-one-month-high-as-yen-edges-toward-160-.html",
+          "data": "2026-11-12",
+          "confiavel": true
+        },
+        {
+          "veiculo": "Business Recorder (Reuters)",
+          "url": "https://www.brecorder.com/news/40448673/dollar-reaches-19-month-high",
+          "data": "2026-11-12",
+          "confiavel": false
+        },
+        {
+          "veiculo": "EBC",
+          "url": "https://www.ebc.com/pt/forex/copom-mantem-selic-1375-curva-di-dolar-ibovespa",
+          "data": "2026-11-05",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "Irã reporta petroleiros atingidos por minas em Ormuz; EUA contestam",
+      "regiao": "Oriente Médio",
+      "status": "operação em curso",
+      "data": "2026-11-15",
+      "resumo": "A Guarda Revolucionária (IRGC) disse que um superpetroleiro com mais de 2 milhões de barris afundou após atingir uma mina em rota que Teerã chama de não autorizada. Houve outros relatos iranianos de petroleiros atingidos desde sábado, sem confirmação independente. O bloqueio naval dos EUA aos portos iranianos segue e os EUA afirmam ter limpado as rotas principais. Um alto funcionário da ONU pediu passagem de fertilizantes por Ormuz, alertando para 45 milhões de pessoas em insegurança alimentar grave.",
+      "canal_brasil": "Canal possível: Ormuz leva cerca de um quinto do petróleo mundial; risco sobre Brent pode chegar a combustíveis e IPCA. Fertilizantes retidos podem elevar custos do agro. Elos não verificados nas fontes.",
+      "relevancia": 5,
+      "fontes": [
+        {
+          "veiculo": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-3012053",
+          "data": "2026-11-15",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Investing.com (via Yahoo)",
+          "url": "https://www.yahoo.com/news/world/articles/iran-claims-fresh-strike-u-065931906.html",
+          "data": "2026-11-15",
+          "confiavel": false
+        },
+        {
+          "veiculo": "CBS News (ao vivo)",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
+          "data": "2026-11-13",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Conselho comercial EUA–China discute cortes de tarifas; pacote de US$ 60 bi segue sem fecho",
+      "regiao": "Ásia e Pacífico",
+      "status": "negociação",
+      "data": "2026-11-13",
+      "resumo": "Segundo o Ministério do Comércio da China, a primeira reunião do conselho comercial tratou de tarifas, do arranjo de cortes recíprocos de US$ 30 bi e de comércio agrícola. O pacote de US$ 60 bi proposto após a cúpula de setembro ainda não foi finalizado. Análise da Reuters mostra compras chinesas de produtos agrícolas dos EUA, exceto soja, a caminho da menor marca em sete anos. A trégua comercial vai até janeiro de 2027.",
+      "canal_brasil": "Canal possível: compras chinesas de grãos dos EUA e tarifas afetam exportações do agro brasileiro e preços de soja. Sem elos verificados.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "CNBC (Reuters)",
+          "url": "https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html",
+          "data": "2026-11-14",
+          "confiavel": true
+        },
+        {
+          "veiculo": "Business Recorder",
+          "url": "https://www.brecorder.com/news/40448985/china-us-discuss-tariffs-farm-trade-ahead-of-xi-trump-meeting",
+          "data": "2026-11-14",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Brookings",
+          "url": "https://www.brookings.edu/articles/trump-xi-and-putin-what-to-expect-from-the-apec-summit/",
+          "data": "2026-09-30",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "EUA–Irã: Teerã mantém sete exigências; Trump diz que não precisa de acordo",
+      "regiao": "Oriente Médio",
+      "status": "negociação",
+      "data": "2026-11-12",
+      "resumo": "Segundo a Al Jazeera (9/11), Washington parece não aceitar as sete exigências do Irã, entre elas levantar o bloqueio e as sanções; mediadores tentam evitar ataques americanos em larga escala. Trump disse que os EUA não precisam de acordo com o Irã (manchete da CBS). Relatos de fonte única: o Comando Central pediu a aliados que se preparem para possível retomada de operações; mídia iraniana citou saída do TNP como demanda nacional.",
+      "canal_brasil": "Canal possível: impasse mantém prêmio de risco no petróleo, com efeito em inflação de combustíveis, câmbio e juros. Sem elos verificados.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure",
+          "data": "2026-11-09",
+          "confiavel": false
+        },
+        {
+          "veiculo": "CBS News (ao vivo)",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
+          "data": "2026-11-13",
+          "confiavel": false
+        },
+        {
+          "veiculo": "FXStreet",
+          "url": "https://www.fxstreet.com/analysis/mixed-trading-seen-ahead-of-next-weeks-potential-event-risks-202611130723",
+          "data": "2026-11-13",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "IRGC diz ter atingido radar dos EUA no Bahrein; Houthis alegam ataques à Arábia Saudita",
+      "regiao": "Oriente Médio",
+      "status": "ameaça ou declaração",
+      "data": "2026-11-15",
+      "resumo": "A IRGC afirmou ter atingido um radar em base americana de helicópteros no Bahrein; o comando dos EUA não comentou de imediato. Sirenes soaram no Bahrein e houve relatos de interceptações de mísseis na Arábia Saudita. Na quinta (12/11), Houthis alegaram ataques a instalações petrolíferas sauditas, sem confirmação, e o Brent subiu 3,3% no dia.",
+      "canal_brasil": "Canal possível via energia: ataques a infraestrutura do Golfo afetam prêmio de risco do petróleo e, daí, combustíveis e inflação.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "AP (via WSLS)",
+          "url": "https://www.wsls.com/news/world/2026/11/15/israel-says-it-killed-a-top-hamas-commander-and-other-mideast-news/",
+          "data": "2026-11-15",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Gulf News",
+          "url": "https://gulfnews.com/uae/uae-residents-update-bahrain-alert-saudi-intercepts-missiles-as-middle-east-tensions-rise-1.500747890",
+          "data": "2026-11-15",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Gate (dados Reuters)",
+          "url": "https://gate.com/news/detail/brent-crude-settles-9584-after-second-weekly-loss-on-supply-surplus-25618627",
+          "data": "2026-11-14",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Brent fecha a US$ 95,84, segunda queda semanal; IEA vê primeiro excedente desde a guerra",
+      "regiao": "Global",
+      "status": "fato confirmado",
+      "data": "2026-11-13",
+      "resumo": "O Brent fechou a US$ 95,84 em 13/11, cerca de 2,5% abaixo do fechamento de 6/11. A IEA disse que a oferta superou a demanda pela primeira vez desde o início da guerra, com estoques observados +52 milhões de barris em outubro. A Opep informou que a produção da Opep+ subiu mais de 2 milhões de b/d em outubro. O petróleo segue cerca de 57% acima do início do ano.",
+      "canal_brasil": "Canal possível: Brent alto pressiona combustíveis e IPCA; também afeta receita de exportação de petróleo e o câmbio. Componente Energia em percentil 91 é coerente com o nível.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Invezz",
+          "url": "https://invezz.com/sg/news/2026/11/13/oil-price-today-brent-falls-below-dollar96-as-iea-sees-first-surplus-since-iran-war/",
+          "data": "2026-11-13",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Gate (dados Reuters)",
+          "url": "https://gate.com/news/detail/brent-crude-settles-9584-after-second-weekly-loss-on-supply-surplus-25618627",
+          "data": "2026-11-13",
+          "confiavel": false
+        },
+        {
+          "veiculo": "World Oil Monitor",
+          "url": "https://worldoilmonitor.com/brent",
+          "data": "2026-11-13",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Kremlin confirma encontro Trump–Xi–Putin em Shenzhen em 19/11, à margem da APEC",
+      "regiao": "Global",
+      "status": "negociação",
+      "data": "2026-11-14",
+      "resumo": "O porta-voz Peskov disse que há acordo para a reunião trilateral em 19/11; a cúpula da APEC é 18–19/11. Seria a primeira reunião a três, segundo a imprensa. Moscou e Washington não acertaram encontro bilateral separado. Uma fonte diz que Pequim ainda não anunciou oficialmente; a Casa Branca teria dito que ocorrerá.",
+      "canal_brasil": "Canal possível: temas reportados (Irã, controle de armas, trégua comercial) podem mexer em petróleo, comércio e câmbio. Sem elos verificados.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Anadolu",
+          "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290",
+          "data": "2026-11-14",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Türkiye Today",
+          "url": "https://www.turkiyetoday.com/world/russia-confirms-historic-trump-putin-xi-summit-in-china-on-nov-19-3232425",
+          "data": "2026-11-14",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Deccan Herald",
+          "url": "https://www.deccanherald.com/amp/story/world/china/china-to-host-apec-summit-in-shenzhen-with-historic-trump-xi-putin-trilateral-meet-4218435",
+          "data": "2026-11-14",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Ucrânia: EUA perguntaram se Kiev deixaria o Donbas por vaga na Otan; Zelenskyy recusa",
+      "regiao": "Europa e Eurásia",
+      "status": "negociação",
+      "data": "2026-11-13",
+      "resumo": "Zelenskyy disse que negociadores dos EUA perguntaram, na rodada de Abu Dhabi, se a Ucrânia retiraria tropas do Donbas em troca da Otan. Ele disse que não retirará, mas poderia submeter o tema a referendo com garantias firmes, financiamento e reconstrução; também rejeitou neutralidade constitucional. Moscou exige retirada e se opõe à adesão. Kushner disse que ele e Witkoff se reuniram separadamente com Putin e Zelenskyy; autoridades russas relataram três mortos em Belgorod por drone ucraniano.",
+      "canal_brasil": "Canal possível: avanço ou fracasso de um acordo pode mexer em energia, grãos e fertilizantes, e em sanções. Sem elos verificados.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option",
+          "data": "2026-11-14",
+          "confiavel": false
+        },
+        {
+          "veiculo": "CBS News",
+          "url": "https://www.cbsnews.com/news/us-europe-russia-engagement-ukraine-war/",
+          "data": "2026-11-14",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "RDC: mais de 320 mil deslocados em Kivu do Sul em uma semana; ADF mata 22 em Ituri",
+      "regiao": "África",
+      "status": "operação em curso",
+      "data": "2026-11-11",
+      "resumo": "A ONU informou que mais de 320 mil pessoas fugiram de Kivu do Sul na última semana, segundo estimativas preliminares de fontes locais. A AP reportou ataques do ADF em Mambasa (Ituri) com ao menos 22 mortos e 10 sequestrados. Em 12/11, a MSF disse que a resposta ao Ebola na RDC tem equipes sem pagamento e sem material.",
+      "canal_brasil": "Sem canal direto identificado nas fontes; possível efeito apenas via minerais críticos e agenda humanitária.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "OCHA (ONU)",
+          "url": "https://www.unocha.org/news/todays-top-news-occupied-palestinian-territory-mali-somalia-democratic-republic-congo-sudan",
+          "data": "2026-11-12",
+          "confiavel": false
+        },
+        {
+          "veiculo": "CFR Global Conflict Tracker",
+          "url": "https://www.cfr.org/global-conflict-tracker/conflict/violence-democratic-republic-congo",
+          "data": "2026-11-13",
+          "confiavel": true
+        },
+        {
+          "veiculo": "OkayAfrica",
+          "url": "https://www.okayafrica.com/today-in-africa-nov-12-2026-un-peacekeepers-and-south-sudan-accused-of-ignoring-warnings-before-deadly-attack-africas-early-disaster-warning-systems-now-match-the-americas/1441876",
+          "data": "2026-11-12",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "Iene perto de 160 por dólar; JGB de 10 anos sobe a 2,87% e Japão alerta sobre câmbio",
+      "regiao": "Ásia e Pacífico",
+      "status": "fato confirmado",
+      "data": "2026-11-13",
+      "resumo": "A ministra das Finanças Katayama alertou contra movimentos unilaterais do iene e disse que manterá contato com o Tesouro dos EUA. O NY Fed confirmou que o Tesouro americano comprou ienes em julho, primeira intervenção desde 1998. O juro do JGB de 10 anos subiu cerca de 7 pontos-base, a ~2,87%. Preços de bens corporativos no Japão subiram 7,1% em outubro; analistas da Reuters esperam alta do BoJ já em dezembro.",
+      "canal_brasil": "Canal possível: alta de juros longos globais e movimentos do iene podem afetar fluxo para emergentes e o câmbio do real. Sem elos verificados.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "investingLive",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia",
+          "data": "2026-11-13",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Business Recorder (Reuters)",
+          "url": "https://www.brecorder.com/news/40448673/dollar-reaches-19-month-high",
+          "data": "2026-11-12",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Israel diz ter matado comandante do Hamas em Gaza; ambos acusam violações da trégua",
+      "regiao": "Oriente Médio",
+      "status": "operação em curso",
+      "data": "2026-11-15",
+      "resumo": "Israel disse ter matado um comandante de alto escalão do Hamas em ataque aéreo noturno no sul de Gaza; o i24 o identifica como comandante da Brigada de Rafah. Israel e Hamas se acusam de violar o acordo, e ataques israelenses continuam. Os Emirados condenaram ataque ao complexo médico Nasser, em Khan Younis, e Israel criticou declaração da UE sobre ajuda a Gaza.",
+      "canal_brasil": "Canal direto limitado nas fontes; efeito possível via risco regional e petróleo.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "AP (via WSLS)",
+          "url": "https://www.wsls.com/news/world/2026/11/15/israel-says-it-killed-a-top-hamas-commander-and-other-mideast-news/",
+          "data": "2026-11-15",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Gulf News",
+          "url": "https://gulfnews.com/uae/uae-residents-update-bahrain-alert-saudi-intercepts-missiles-as-middle-east-tensions-rise-1.500747890",
+          "data": "2026-11-15",
+          "confiavel": false
+        },
+        {
+          "veiculo": "i24NEWS",
+          "url": "https://www.i24news.tv/en",
+          "data": "2026-11-15",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Venezuela anuncia operação em Apure, na fronteira; 65 investidores viajam a Caracas",
+      "regiao": "Américas",
+      "status": "operação em curso",
+      "data": "2026-11-12",
+      "resumo": "As Forças Armadas da Venezuela anunciaram em 12/11 uma operação em Apure, na fronteira com a Colômbia. O Rio Times, fonte secundária, também cita drone que matou quatro soldados colombianos; sem segunda fonte. Em 15/11, uma delegação de 65 investidores organizada pela Signum seguiu a Caracas para ver oportunidades em petróleo e infraestrutura, segundo a Reuters via CiberCuba.",
+      "canal_brasil": "Canal possível: retomada da produção venezuelana pode afetar a oferta regional de petróleo; instabilidade na fronteira é risco regional. Sem elos verificados.",
+      "relevancia": 2,
+      "fontes": [
+        {
+          "veiculo": "Rio Times",
+          "url": "https://riotimesonline.com/latin-america-defense-monitor-november-8-14-2026",
+          "data": "2026-11-14",
+          "confiavel": false
+        },
+        {
+          "veiculo": "CiberCuba (cita Reuters)",
+          "url": "https://en.cibercuba.com/noticias/2026-11-14-u1-e208512-s27061-nid345747-grupo-inversionistas-viaja-venezuela-alentado-nueva",
+          "data": "2026-11-14",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    }
+  ],
+  "agenda": [
+    {
+      "data": "2026-11-18",
+      "evento": "BCE: Relatório de Estabilidade Financeira (data de agregador; confirmar no BCE)",
+      "por_que_importa": "Avalia riscos financeiros na zona do euro com inflação de 3,8% em setembro e aposta de alta em dezembro.",
+      "url": "https://www.ecb.europa.eu/press/calendars/html/index.en.html"
+    },
+    {
+      "data": "2026-11-18/19",
+      "evento": "Cúpula da APEC em Shenzhen",
+      "por_que_importa": "Pauta inclui trégua comercial EUA–China, que vai até janeiro de 2027.",
+      "url": "https://www.apec2026.cn"
+    },
+    {
+      "data": "2026-11-19",
+      "evento": "Reunião trilateral Trump–Xi–Putin em Shenzhen (confirmada pelo Kremlin)",
+      "por_que_importa": "Pode tratar de Irã, Ucrânia, controle de armas e comércio, com efeito possível em petróleo e câmbio."
+    }
+  ],
+  "observacoes": "Janela: 8–15/11/2026. Divergências e incertezas: (1) Ormuz: todos os relatos de minas e petroleiros atingidos vêm do Irã (IRGC/exército) e não têm confirmação independente; os EUA contestam e dizem ter limpado as rotas principais. A data do superpetroleiro afundado (domingo, 15/11) e dos outros três (sábado, 14/11) vem de fontes distintas e pode não coincidir. (2) Chance de alta do Fed em dezembro: 91% (CME via Reuters) em uma fonte e cerca de 85% em outra; é precificação, não decisão. O voto 10 a 2 do Fed em 28/10 vem de agregador único (forexuro). (3) Brent: fechamento de terça (10/11) de US$ 91,49 (Reuters via Gate) ou US$ 91,27 (oilpriceapi); a máxima de 52 semanas varia entre US$ 118,35 e US$ 126,41 conforme a série. (4) Trilateral de 19/11: confirmada pelo Kremlin; uma fonte diz que Pequim não anunciou oficialmente. (5) Venezuela/Apure: soldados colombianos mortos só no Rio Times. (6) Agenda do BCE (18/11) vem de agregador; Fed e Japão têm data estimada. Brasil: Copom (4/11, Selic 13,75%, unânime, após cinco cortes) e dólar a R$ 5,45 (máxima do ano R$ 5,487 em 3/11) estão fora da janela; não achei dados brasileiros de 9–13/11. Sinais do Termômetro: Energia (91) é coerente com Brent perto de US$ 96; Juros longos (76) é coerente com Treasury de 10 anos acima de 5% e JGB em 2,87%. Não achei dados do VIX nem notícia que explique a leitura de Sobe e desce (36). Para Porto seguro (27), houve só um título de que o ouro caiu 1,6% abaixo de US$ 4.000 com o dólar forte (Invezz), sem confirmação. Na semana anterior, ações de tecnologia asiáticas caíram forte (Taiex com a maior queda semanal em duas décadas) e rebotaram em 9/11. Sem cobertura nesta rodada: Sahel, Sudão (OCHA, cerca de 10 dias atrás, citou drones contra energia em 11 estados), Europa (gás, Alemanha/França), Índia, Coreia, Taiwan além do mercado, e América Latina fora da Venezuela. Ausência de notícia nessas frentes não significa calmaria.",
+  "descartados": [],
+  "modo": "claude (claude-sonnet-5-5)"
+}
