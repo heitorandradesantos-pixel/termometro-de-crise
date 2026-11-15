@@ -291,7 +291,7 @@ def imagens() -> list[Path]:
 def duracao() -> float:
     saida = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=duration",
                             "-of", "csv=p=0", str(ORIGINAL)], check=True, capture_output=True, text=True).stdout
-    return float(saida.strip())
+    return float(saida.strip().split(",")[0].split()[0])  # alguns .mov do iPhone devolvem "64.24,"
 
 
 def atraso_audio() -> float:
