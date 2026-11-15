@@ -1,0 +1,127 @@
+{
+ "titulo": "Denúncia da PGR no caso Master contra Vorcaro: o que se sabe",
+ "descricao": "A PGR prepara as primeiras denúncias do caso Master, mas ainda não apresentou nenhuma. Veja o prazo dado por Fachin e o que muda para investidores.",
+ "palavra_chave": "caso master denúncia pgr vorcaro",
+ "lead": "A PGR (Procuradoria-Geral da República) se aproxima de apresentar as primeiras denúncias do caso Banco Master, mas ainda não apresentou nenhuma, segundo a CNN Brasil em 15/11. A Polícia Federal indiciou Daniel Vorcaro, o ex-presidente do BRB Paulo Henrique Costa e outras 13 pessoas em 28/10. Em 4/11, o presidente do STF, Edson Fachin, deu 15 dias à PGR para se manifestar, prazo que termina por volta de 19/11.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A PGR prepara as primeiras denúncias do caso Master, quase um ano após a primeira prisão de Daniel Vorcaro. A CNN Brasil publicou isso em 15/11. A denúncia é a acusação formal da PGR ao STF. Até agora, nenhuma foi apresentada.",
+   "fonte_url": "https://cnnbrasil.com.br/politica/pgr-prepara-primeiras-denuncias-no-caso-master-um-ano-apos-operacao",
+   "data": "2026-11-15",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A PF indiciou 15 pessoas em 28/10, entre elas Vorcaro, ex-controlador do Master, e Paulo Henrique Costa, ex-presidente do BRB. Indiciar é a PF concluir que há indícios de crime. Não é condenação. A PF atribui a Vorcaro suspeitas de gestão fraudulenta, fraude em fiscalização, lavagem de dinheiro e participação em organização criminosa. Costa foi indiciado por gestão fraudulenta e organização criminosa.",
+   "fonte_url": "https://www.infomoney.com.br/politica/pf-indicia-vorcaro-ex-presidente-do-brb-e-mais-13-por-fraude-de-r-122-bilhoes/",
+   "data": "2026-10-28",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O relatório parcial da PF tem mais de 700 páginas. Segundo a PF, ao menos R$ 12,2 bilhões dos créditos vendidos pelo Master ao BRB não tiveram a existência comprovada. O relatório examina R$ 17,5 bilhões em créditos negociados entre julho de 2024 e outubro de 2025.",
+   "fonte_url": "https://agendadopoder.com.br/caso-master-fachin-da-15-dias-a-pgr-para-analisar-indiciamento-de-vorcaro/",
+   "data": "2026-11-04",
+   "veiculo": "Agenda do Poder",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a PF, o prejuízo já identificado para o BRB chega a cerca de R$ 2,7 bilhões. A PF também pediu mais 60 dias para continuar a investigação.",
+   "fonte_url": "https://claudiodantas.com.br/fachin-da-15-dias-para-pgr-avaliar-indiciamento-de-vorcaro-e-outros-14-no-caso-master/",
+   "data": "2026-11-04",
+   "veiculo": "Claudio Dantas",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 4/11, Fachin mandou abrir vista à PGR, ou seja, enviar o caso para ela opinar, em 15 dias. A PGR deve se manifestar sobre o relatório e sobre os pedidos dos investigados.",
+   "fonte_url": "https://fatoamazonico.com.br/fachin-da-prazo-de-15-dias-para-pgr-analisar-relatorio-da-pf-sobre-fraudes-no-banco-master-e-brb/",
+   "data": "2026-11-04",
+   "veiculo": "Fato Amazônico",
+   "confiavel": false
+  },
+  {
+   "texto": "O prazo de 15 dias não obriga a PGR a denunciar nesse período. A manifestação pode ser uma denúncia ou um pedido de novas diligências, isto é, de novas investigações.",
+   "fonte_url": "https://gazetamercantil.com/fachin-pgr-15-dias-indiciamento-vorcaro-banco-master",
+   "data": "2026-11-04",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  },
+  {
+   "texto": "A PF sugeriu dividir os investigados em cinco núcleos: estratégico, executivo-financeiro, técnico-operacional, jurídico-contratual e de interposição empresarial. A expectativa é que a PGR apresente as acusações em etapas, seguindo essa divisão.",
+   "fonte_url": "https://bncamazonas.com.br/ta_na_midia/caso-master-pgr-prepara-primeiras-denuncias-apos-fraude-bilionaria/",
+   "data": "2026-11-15",
+   "veiculo": "BNC Amazonas",
+   "confiavel": false
+  },
+  {
+   "texto": "A defesa de Vorcaro chamou o relatório de indiciamento de \"açodado e afoito\", em nota citada pela imprensa.",
+   "fonte_url": "https://40graus.com.br/pgr-primeira-denuncia-daniel-vorcaro-caso-master/",
+   "data": "2026-11-14",
+   "veiculo": "40graus",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Banco Central decreta a liquidação extrajudicial do Banco Master e de outras empresas do grupo. Na mesma data, Vorcaro é preso na primeira fase da Operação Compliance Zero.",
+   "fonte_url": "https://www.gazetadopovo.com.br/economia/liquidacao-banco-master-fgc-riscos/",
+   "data": "2025-11-18",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O FGC anuncia o início do pagamento da garantia aos credores do Banco Master.",
+   "fonte_url": "https://www.barbieriadvogados.com/fundo-garantidor-creditos-fgc-limite-liquidacao/",
+   "data": "2026-01-17",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "Vorcaro é preso de novo, na 3ª fase da Operação Compliance Zero, em março de 2026. A data exata do dia não consta no trecho consultado.",
+   "fonte_url": "https://www.gazetadopovo.com.br/republica/pf-indicia-vorcaro-ex-presidente-do-brb-e-mais-13-no-caso-master/",
+   "data": "2026-03-01",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "A PF indicia Vorcaro, Paulo Henrique Costa e outras 13 pessoas e envia relatório parcial ao STF.",
+   "fonte_url": "https://www.gazetadopovo.com.br/republica/pf-indicia-vorcaro-ex-presidente-do-brb-e-mais-13-no-caso-master/",
+   "data": "2026-10-28",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "Fachin dá 15 dias para a PGR se manifestar sobre o relatório da PF e sobre os pedidos dos investigados.",
+   "fonte_url": "https://www.metropoles.com/colunas/manoela-alcantara/fachin-relatorio-vorcaro-brb",
+   "data": "2026-11-04",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "A CNN Brasil informa que a PGR se aproxima de apresentar as primeiras denúncias. Nenhuma foi apresentada até a publicação.",
+   "fonte_url": "https://cnnbrasil.com.br/politica/pgr-prepara-primeiras-denuncias-no-caso-master-um-ano-apos-operacao",
+   "data": "2026-11-15",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se e quando a PGR vai apresentar a denúncia. Não encontrei nota oficial da PGR ou do STF confirmando data. A informação vem de reportagens da CNN e de veículos que a replicam. Não foi confirmado.",
+  "Quem será denunciado primeiro e por quais crimes. Sites que citam a Folha dizem que a primeira denúncia trataria de crimes contra o sistema financeiro nas carteiras de crédito vendidas ao BRB. A PGR não confirmou.",
+  "Se o STF aceitaria a denúncia. Só nesse caso Vorcaro viraria réu e passaria a responder a uma ação penal. A defesa contesta o relatório da PF.",
+  "Quem será o relator do caso no STF. Segundo a CNN, a relatoria ainda está indefinida. Também está pendente um relatório da PF com as menções a ministros do STF nas investigações.",
+  "Se o prazo será prorrogado e como ele é contado. Pela conta simples, os 15 dias contados de 4/11 terminam por volta de 19/11. Não localizei esclarecimento oficial sobre a contagem."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tinha dinheiro no Master: o FGC (Fundo Garantidor de Créditos) começou a pagar a garantia em 17/01/2026. O limite é de R$ 250 mil por cliente. As reportagens consultadas não ligam a denúncia da PGR a esse pagamento. A denúncia é uma ação criminal, separada.",
+  "Se o valor investido passava do limite do FGC, o que excede entra como crédito na liquidação do banco, processo conduzido por um liquidante nomeado pelo Banco Central. Esse processo tem ritmo próprio e é separado do processo criminal.",
+  "A denúncia não é condenação. Ela só vira ação penal se o STF aceitar. Até lá, Vorcaro e os demais seguem como investigados, e a defesa contesta o relatório da PF.",
+  "Se você tem conta no BRB: as reportagens falam em prejuízo do banco na compra de carteiras do Master, segundo a PF. Elas não informam mudança nas contas de clientes. Para saber de algo oficial, confira os comunicados do próprio BRB e do Banco Central."
+ ],
+ "como_se_proteger": [],
+ "slug": "caso-master-denuncia-pgr-vorcaro",
+ "publicado_em": "2026-11-15T18:03:40.486020",
+ "atualizado_em": "2026-11-15T18:03:40.486020",
+ "assunto": "A PGR está perto de apresentar as primeiras denúncias do caso Banco Master, um ano após a primeira prisão de Daniel Vorcaro. A CNN noticiou isso em 15/11/2026. No fim de outubro, a PF indiciou Vorcaro, o ex-presidente do BRB Paulo Henrique Costa e outras 13 pessoas. Em 4/11, o presidente do STF, Edson Fachin, deu 15 dias para a PGR se manifestar sobre o relatório da PF.",
+ "turno": "noite"
+}
