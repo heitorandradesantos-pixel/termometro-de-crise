@@ -1,0 +1,119 @@
+{
+ "titulo": "Pix faz 6 anos com 1 bilhão de chaves e golpes: o que se sabe",
+ "descricao": "Pix completa 6 anos em 16/11 com mais de 1 bilhão de chaves. Veja o que se sabe sobre golpes, o MED (devolução em até 11 dias) e o que ainda não foi confirmado.",
+ "palavra_chave": "pix 6 anos golpes",
+ "lead": "O Pix completou seis anos nesta segunda-feira (16/11) com mais de 1 bilhão de chaves cadastradas, segundo dados do Banco Central. Os golpes cresceram junto: a TV Sim Brasil cita R$ 6,5 bilhões perdidos em fraudes em 2025, número atribuído ao TI Inside, e nós não confirmamos o ano desse valor. Quem cai em golpe pode pedir a devolução pelo MED, que o BC diz poder devolver o dinheiro em até 11 dias após a contestação, se ainda houver saldo.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Pix foi lançado pelo Banco Central em 16/11/2020 e completa seis anos em 2026 com mais de 1 bilhão de chaves cadastradas. Chave é o dado (CPF, e-mail, telefone ou código aleatório) que identifica a conta de quem recebe.",
+   "fonte_url": "https://olhardigital.com.br/2026/11/16/pro/pix-completa-6-anos-com-mais-de-1-bilhao-de-chaves-cadastradas",
+   "data": "2026-11-16",
+   "veiculo": "Olhar Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o Banco Central, a marca de 1 bilhão de chaves foi atingida em setembro de 2026, cerca de 80 milhões acima do registrado no fim de 2025.",
+   "fonte_url": "https://olhardigital.com.br/2026/11/16/pro/pix-completa-6-anos-com-mais-de-1-bilhao-de-chaves-cadastradas",
+   "data": "2026-11-16",
+   "veiculo": "Olhar Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "O Pix movimentou mais de R$ 35 trilhões em 12 meses, quase três vezes o PIB brasileiro, estimado em R$ 12,7 trilhões, e tem mais de 150 milhões de usuários.",
+   "fonte_url": "https://olhardigital.com.br/2026/11/16/pro/resumo-do-od-a-nave-humana-mais-longe-de-nos-starship-faz-historia-pix-faz-aniversario-crise-na-nvidia",
+   "data": "2026-11-16",
+   "veiculo": "Olhar Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "A TV Sim Brasil informa que o país perdeu R$ 6,5 bilhões em transações fraudulentas pelo Pix em 2025 e que um em cada cinco usuários já sofreu algum golpe, segundo levantamento do TI Inside. Veja em \"o que ainda não se sabe\" os limites desses números.",
+   "fonte_url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/11/16/pix-completa-6-anos-1-bilhao-chaves-fraude-cresce",
+   "data": "2026-11-16",
+   "veiculo": "TV Sim Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central diz que as informações do MED (Mecanismo Especial de Devolução) são compartilhadas entre os bancos envolvidos. Isso permite devolver o dinheiro em até 11 dias após a contestação. Desde 1º/10/2025 a contestação é 100% digital, dentro do aplicativo do banco.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-08/pix-novas-regras-vao-facilitar-devolucao-de-valores-em-casos-de-golpe",
+   "data": "2025-08-28",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O prazo para pedir a devolução pelo MED é de até 80 dias corridos após o Pix. A devolução pode ser total ou parcial, conforme o saldo encontrado na conta rastreada. A informação vem de um dirigente do Banco Central, segundo o Mixvale.",
+   "fonte_url": "https://www.mixvale.com.br/2026/10/17/devolucao-de-pix-por-engano-ou-golpe-tem-prazo-de-80-dias-e-novas/",
+   "data": "2026-10-17",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "O MED não garante a devolução em todos os casos. O prazo existe, mas o estorno depende de haver saldo nas contas e do resultado da análise. O Banco Central define as regras; bancos e instituições financeiras analisam e devolvem.",
+   "fonte_url": "https://contaazul.com/blog/o-que-e-med-no-pix-e-quando-a-devolucao-e-possivel/",
+   "data": "2026-08-04",
+   "veiculo": "ContaAzul",
+   "confiavel": false
+  },
+  {
+   "texto": "Desde outubro de 2025, o botão de contestação nos aplicativos é obrigatório. Também desde então, o BC bloqueia chaves que as instituições identificam como usadas em golpes e fraudes.",
+   "fonte_url": "https://www.fincatch.com.br/post/1-bilhao-de-chaves-cadastradas-6-beneficios-que-explicam-o-sucesso-do-pix-no-brasil",
+   "data": "2026-10-29",
+   "veiculo": "Fincatch",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Banco Central lança o Pix.",
+   "fonte_url": "https://olhardigital.com.br/2026/11/16/pro/pix-completa-6-anos-com-mais-de-1-bilhao-de-chaves-cadastradas",
+   "data": "2020-11-16",
+   "veiculo": "Olhar Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC publica resolução que melhora o MED. Pela regra, a devolução pode sair em até 11 dias após a contestação, que passa a ser 100% digital a partir de 1º/10/2025.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-08/pix-novas-regras-vao-facilitar-devolucao-de-valores-em-casos-de-golpe",
+   "data": "2025-08-28",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Reportagem registra que o Pix fechou setembro de 2026 com 1,008 bilhão de chaves, segundo o BC, e lembra o botão de contestação obrigatório e o bloqueio de chaves ligadas a golpes desde outubro de 2025.",
+   "fonte_url": "https://www.fincatch.com.br/post/1-bilhao-de-chaves-cadastradas-6-beneficios-que-explicam-o-sucesso-do-pix-no-brasil",
+   "data": "2026-10-29",
+   "veiculo": "Fincatch",
+   "confiavel": false
+  },
+  {
+   "texto": "O Pix faz seis anos. A TV Sim Brasil publica o balanço com o número de R$ 6,5 bilhões em fraudes, atribuído ao TI Inside.",
+   "fonte_url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/11/16/pix-completa-6-anos-1-bilhao-chaves-fraude-cresce",
+   "data": "2026-11-16",
+   "veiculo": "TV Sim Brasil",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Qual é o ano do valor de R$ 6,5 bilhões. A TV Sim Brasil o atribui a 2025, citando o TI Inside. Mas uma reportagem de abril de 2025, com dados do BC obtidos pelo Estadão, já trazia esse mesmo valor (via Estado de Minas), então ele pode se referir a 2024. Não encontramos um total oficial do BC para 2025.",
+  "De onde vem o dado de que 1 em cada 5 usuários já sofreu golpe. Pesquisa de setembro de 2025 da Data Rudder com a Opinion Box, com 1.039 pessoas e margem de erro de 3 pontos, trouxe o mesmo número. Não achamos o levantamento do TI Inside. É uma estimativa de pesquisa, não um dado oficial do BC.",
+  "Se as novas regras de segurança vão reduzir golpes em até 40%, como diz a TV Sim Brasil citando o TI Inside. Não encontramos confirmação do Banco Central para esse percentual.",
+  "Quanto dinheiro o MED devolve na prática. O prazo de 11 dias é o máximo previsto, não uma garantia. Um fornecedor de tecnologia cita que o MED original recuperou 9,3% do valor contestado em 2025 e atribui o dado ao BC (Topaz). Não confirmamos esse número na fonte oficial, e não achamos dado oficial do MED 2.0.",
+  "Quanto das perdas veio de golpes contra pessoas e quanto de ataques a instituições. O Olhar Digital cita um especialista que diz que os episódios envolveram instituições e empresas de tecnologia, não o núcleo do Pix nem o BC. Isso não explica a origem do valor de R$ 6,5 bilhões."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você caiu em golpe, abra a contestação do MED no aplicativo do seu banco, na área Pix. O prazo máximo é de 80 dias corridos, mas quanto antes você pedir, maiores as chances de ainda haver dinheiro na conta do golpista.",
+  "A devolução em até 11 dias não é garantida. Ela pode ser parcial ou nula se o dinheiro já tiver saído da conta rastreada.",
+  "Se o banco não cumprir os prazos de análise (7 dias) ou de devolução (11 dias), você pode reclamar na ouvidoria do banco ou no Banco Central, pelo telefone 145 ou pelo portal Fale Conosco.",
+  "Para ver onde estão suas chaves Pix, use o Registrato, serviço gratuito do Banco Central. Você também pode ver, alterar ou excluir chaves no app do seu banco, em Minhas chaves."
+ ],
+ "como_se_proteger": [
+  "Antes de pagar, confirme a identidade de quem pede dinheiro. De preferência, ligue ou peça um áudio, conforme orienta a cientista de dados Beatriz Lima, da Data Rudder, ao InvesTalk (BB).",
+  "Desconfie de ofertas muito abaixo do preço de mercado e de anúncios chamativos demais. É um dos sinais de golpe apontados pela mesma especialista.",
+  "Suspeitou de golpe? Conteste a transação pelo botão do aplicativo do seu banco o quanto antes e dentro dos 80 dias.",
+  "Cuidado com o 'golpe do MED', em que criminosos usam o pedido de devolução para tentar um estorno indevido. Quem vende e recebe Pix pode contestar um estorno fraudulento em até 80 dias, segundo o Mixvale.",
+  "Confira suas chaves Pix no Registrato e exclua as que você não usa mais."
+ ],
+ "slug": "pix-6-anos-golpes",
+ "publicado_em": "2026-11-16T07:22:42.945780",
+ "atualizado_em": "2026-11-16T07:22:42.945780",
+ "assunto": "Modo polêmica, voz do Heitor: Pix faz 6 anos em 16/11/2026 com mais de 1 bilhão de chaves (Banco Central) e o golpe cresce junto: R$ 6,5 bilhões perdidos em transações fraudulentas em 2025 e 1 em cada 5 usuários já sofreu golpe (levantamento TI Inside, citado por TV Sim Brasil em 16/11/2026). MED devolve em até 11 dias (Banco Central).",
+ "turno": "manha"
+}
