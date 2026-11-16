@@ -1,0 +1,188 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / reação",
+  "texto": "Cara, o lucro do Banco do Brasil caiu quase dois terços.",
+  "na_tela": "Lucro do BB caiu 66,5%",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / reação",
+   "texto": "Cara, o lucro do Banco do Brasil caiu quase dois terços.",
+   "na_tela": "Lucro do BB caiu 66,5%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Sua conta no BB muda por causa do calote no agro?",
+   "na_tela": "Sua conta no BB muda?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Em setembro de 2025, 4,84%. Hoje, 6,92% de atraso no agro.",
+   "na_tela": "4,84% para 6,92%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o lucro do Banco do Brasil caiu quase dois terços.",
+  "O motivo está no campo: quem não está conseguindo pagar o empréstimo.",
+  "Mas calma: até agora, nenhuma fonte fala em juro maior pra você.",
+  "Segundo o banco, o atraso no agro subiu pra 6,92%.",
+  "É como o fiado na feira: cliente sem pagar, caixa apertado.",
+  "A parte que pouca gente viu: R$ 12 bilhões guardados pra possível calote.",
+  "Quanto vira perda de verdade, ninguém sabe ainda.",
+  "Manda pra quem vive do campo ou tem conta no BB.",
+  "Passo calmo: confira suas taxas e espere aviso oficial.",
+  "Você tem conta no BB? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o lucro do Banco do Brasil caiu quase dois terços. O motivo está no campo: quem não está conseguindo pagar o empréstimo. Mas calma: até agora, nenhuma fonte fala em juro maior pra você. Segundo o banco, o atraso no agro subiu pra 6,92%. É como o fiado na feira: cliente sem pagar, caixa apertado. A parte que pouca gente viu: R$ 12 bilhões guardados pra possível calote. Quanto vira perda de verdade, ninguém sabe ainda. Manda pra quem vive do campo ou tem conta no BB. Passo calmo: confira suas taxas e espere aviso oficial. Você tem conta no BB? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Lucro do BB caiu 66,5%",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Lucro ajustado: -66,5%",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 3,
+   "texto": "Atraso no agro: 4,84% → 6,92%",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 5,
+   "texto": "R$ 12 bilhões em provisões ligadas ao agro",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 6,
+   "texto": "Quanto vira perda: ainda não se sabe",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "Banco do Brasil lucro caiu: o que o calote no agro muda pra você",
+ "legenda": "Banco do Brasil lucro caiu: o que o calote no agro muda pra você?\n\nSegundo o balanço do 3º trimestre, divulgado em 11/11, o lucro ajustado do BB caiu 66,5%, para R$ 1,27 bilhão. O próprio banco liga a queda ao atraso no agro: de 4,84% para 6,92% em 12 meses, segundo a Agência Brasil.\n\nO banco separou R$ 12 bilhões ligados ao agro. Provisão é o dinheiro que o banco reserva, tirando do lucro, para cobrir possível calote.\n\nO que ainda não se sabe: quanto desse atraso vira perda de verdade e se haverá juro maior ou menos crédito para quem não é produtor. Nenhuma fonte consultada traz esse anúncio.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancodobrasil #creditorural #agro #economia #educacaofinanceira",
+ "hashtags": [
+  "#bancodobrasil",
+  "#creditorural",
+  "#agro",
+  "#economia",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, o lucro do Banco do Brasil caiu quase dois terços.",
+  "topicos": [
+   "Segundo o InfoMoney, o lucro ajustado do BB caiu 66,5% no 3º trimestre.",
+   "Segundo o banco, o atraso no agro subiu pra 6,92% em um ano.",
+   "Até agora, nenhuma fonte fala em juro maior pra quem não é produtor.",
+   "O que fazer: confira suas taxas no app e espere aviso oficial."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários números e pontos ainda em aberto, então pede a calma da bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Antes do bordão final, falta a linha padrão da casa: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Inclua essa fala e mantenha \"Sem alarde. Eu sou só o termômetro!\" como última frase.",
+   "\"Passo calmo: confira suas taxas e espere aviso oficial\": \"suas taxas\" é vago. Diga quais, por exemplo \"olhe no app do BB as taxas do seu cartão e do seu empréstimo\", sem citar número novo."
+  ],
+  "veredito": "A peça fala com o cliente do BB com tom calmo, comparação da feira, número com fonte e o que ainda não se sabe; falta a apresentação do Heitor com o aviso \\\"Não recomendamos\\\" antes do bordão final."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Cara, o lucro do Banco do Brasil caiu quase dois terços.\" fala do banco, não do bolso de quem assiste. Reescrita: \"Cara, o Banco do Brasil lucrou quase dois terços a menos. Se você tem conta lá, presta atenção.\" Mesmo fato, mas a pessoa já se reconhece na primeira frase.\", \"Teste do CLT: \"o atraso no agro subiu pra 6,92%\" é número quebrado e sem contexto. Reescrita: \"o atraso no agro subiu pra quase 7%\", com o 6,92% exato no cartão da tela."
+  ],
+  "veredito": "Roteiro bem pago, com virada no meio, envio concreto e pergunta de SIM ou NÃO; falta só um gancho que ponha o espectador na primeira frase (\\\"se você tem conta no BB\\\") em vez de abrir pelo balanço do banco."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow aerial drone shot gliding forward over a vast Brazilian farm at golden hour, rows of parched soybean plants and cracked dry red soil, an idle tractor parked at the edge of the field, no people, no text, no signs, no logos",
+   "texto_da_fala": "O motivo está no campo: quem não está conseguindo pagar o empréstimo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone shot gliding forward over a vast Brazilian farm at golden hour, rows of parched soybean plants and cracked dry red soil, an idle tractor parked at the edge of the field, no people, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Slow dolly-in on an open-air street market stall in the morning, wooden crates of fruit and vegetables, a small metal cash box open and nearly empty on the counter, no customers or faces visible, soft natural light, no text, no signs, no logos, no numbers",
+   "texto_da_fala": "É como o fiado na feira: cliente sem pagar, caixa apertado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in on an open-air street market stall in the morning, wooden crates of fruit and vegetables, a small metal cash box open and nearly empty on the counter, no customers or faces visible, soft natural light, no text, no signs, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow push-in toward a massive steel bank vault door as it swings open, revealing neatly stacked sealed canvas money sacks in dim cool light, dust floating in the beams, no people, no text, no numbers, no logos",
+   "texto_da_fala": "A parte que pouca gente viu: R$ 12 bilhões guardados pra possível calote.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in toward a massive steel bank vault door as it swings open, revealing neatly stacked sealed canvas money sacks in dim cool light, dust floating in the beams, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o lucro do Banco do Brasil caiu quase dois terços.\n\nO motivo está no campo: quem não está conseguindo pagar o empréstimo.\n\nMas calma: até agora, nenhuma fonte fala em juro maior pra você.\n\nSegundo o banco, o atraso no agro subiu pra 6,92%.\n\nÉ como o fiado na feira: cliente sem pagar, caixa apertado.\n\nA parte que pouca gente viu: R$ 12 bilhões guardados pra possível calote.\n\nQuanto vira perda de verdade, ninguém sabe ainda.\n\nManda pra quem vive do campo ou tem conta no BB.\n\nPasso calmo: confira suas taxas e espere aviso oficial.\n\nVocê tem conta no BB? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/",
+   "destaque": "O BB teve lucro líquido ajustado de R$ 1,3 bilhão no 3º trimestre de 2026, queda de 66,5% sobre o mesmo período de 2025."
+  },
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/cfo-do-bb-diz-que-grandes-produtores-do-agro-atrasam-dividas-a-espera-de-milagre/",
+   "destaque": "O BB separou mais de R$ 21 bilhões em provisões no trimestre, e R$ 12 bilhões ligados ao agro."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T07:44:34.418339-03:00"
+}
