@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / reação do Heitor",
+  "texto": "Cara, imposto zero no arroz e o preço pode não cair.",
+  "na_tela": "Imposto zero, preço não",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / reação do Heitor",
+   "texto": "Cara, imposto zero no arroz e o preço pode não cair.",
+   "na_tela": "Imposto zero, preço não",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Identidade antes do assunto",
+   "texto": "Quem faz a compra do mês: o imposto do arroz vai a zero em 2027.",
+   "na_tela": "Arroz com imposto zero",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O imposto do arroz vai a zero, e o preço não é obrigado a cair.",
+   "na_tela": "Imposto zero ≠ preço menor",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, imposto zero no arroz e o preço pode não cair.",
+  "Arroz, feijão, café, leite e carnes ficam sem a CBS, imposto federal novo.",
+  "A lei não obriga o preço a cair.",
+  "A CBS troca PIS e Cofins, que já vêm escondidos no preço.",
+  "Imposto é uma parcela da conta do mercado: frete e margem continuam lá.",
+  "Deputados falam em rever o imposto zero se a soma passar de 26,5%.",
+  "Ainda não é decisão.",
+  "Anota o preço do que mais compra e compara em janeiro.",
+  "Quem faz a compra do mês aí? Manda pra ele, sério.",
+  "Já viu imposto cair e preço não? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, imposto zero no arroz e o preço pode não cair. Arroz, feijão, café, leite e carnes ficam sem a CBS, imposto federal novo. A lei não obriga o preço a cair. A CBS troca PIS e Cofins, que já vêm escondidos no preço. Imposto é uma parcela da conta do mercado: frete e margem continuam lá. Deputados falam em rever o imposto zero se a soma passar de 26,5%. Ainda não é decisão. Anota o preço do que mais compra e compara em janeiro. Quem faz a compra do mês aí? Manda pra ele, sério. Já viu imposto cair e preço não? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Imposto zero, preço não",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Cesta básica: CBS zero em 2027",
+   "fonte": "Portal Cambé"
+  },
+  {
+   "fala": 3,
+   "texto": "CBS substitui PIS e Cofins em 1º/01/2027",
+   "fonte": "HLB"
+  },
+  {
+   "fala": 4,
+   "texto": "TCU: alíquota de referência 11,3% (11,3468%)",
+   "fonte": "Conjur"
+  },
+  {
+   "fala": 5,
+   "texto": "Trava CBS + IBS: 26,5%",
+   "fonte": "Money Times (Agência Brasil)"
+  },
+  {
+   "fala": 6,
+   "texto": "Ainda não é decisão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Anote o preço, compare em janeiro",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "reforma tributária preço do arroz",
+ "legenda": "Reforma tributária: o arroz fica sem imposto federal em 2027, mas o preço não é obrigado a cair.\n\nSegundo o Tribunal de Contas da União, a CBS, novo imposto federal sobre o consumo, parte de 11,3% em 2027 e começa a valer em 1º de janeiro. Ela troca o PIS e a Cofins. Itens da cesta básica nacional terão alíquota zero, mas frete, safra e margem do vendedor também pesam no preço.\n\nDeputados dizem que podem rever benefícios se a soma de CBS e IBS passar de 26,5%. Ainda é possibilidade, não decisão. O Senado tem até 15 de dezembro para fixar a alíquota.\n\nPasso calmo: anote o preço do que você mais compra e compare em janeiro.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#reformatributaria #impostos #cestabasica #economia",
+ "hashtags": [
+  "#reformatributaria",
+  "#impostos",
+  "#cestabasica",
+  "#economia"
+ ],
+ "rua": {
+  "gancho": "Cara, imposto zero no arroz e o preço pode não cair.",
+  "topicos": [
+   "Segundo o Tribunal de Contas da União, a CBS parte de 11,3% em 2027.",
+   "Cesta básica tem CBS zero, mas a lei não obriga o preço a cair.",
+   "Deputados falam em rever benefícios se a soma passar de 26,5%. Não é decisão.",
+   "Anota o preço do que mais compra e compara em janeiro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e vários pontos, melhor com calma na bancada do que como notícia quente de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "\"Deputados falam em rever o imposto zero se a soma passar de 26,5%\": o \"soma\" fica solto e não passa no Teste do CLT. Reescreva dizendo a soma de quê, por exemplo \"se os dois impostos novos, juntos, passarem de 26,5%\". Troque também \"margem\" por \"o lucro do mercado\".",
+   "\"Imposto é uma parcela da conta do mercado: frete e margem continuam lá\": a comparação é abstrata e usa dois-pontos. Troque por uma imagem do dia a dia, em duas frases diretas. Por exemplo, o imposto é só um dos itens da nota, e o frete e o lucro do mercado seguem na conta. Isso dá o toque sanguíneo sem inventar número.",
+   "A fala não diz de onde vem a informação, e o fim padrão não está no roteiro. Depois de \"A lei não obriga o preço a cair\", acrescente \"segundo o Tribunal de Contas da União\", ou diga na fala que é a fonte falando. Antes do bordão, inclua \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\""
+  ],
+  "veredito": "A peça abre bem no gancho do Heitor, entrega o passo simples (anotar o preço e comparar em janeiro) e não faz alarde, mas falta traduzir a \\\"soma de 26,5%\\\", dar uma comparação viva, citar a fonte na fala e incluir o aviso padrão antes do bordão."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase: \"Deputados falam em rever o imposto zero se a soma passar de 26,5%.\" Não diz soma de quê e é a virada, mas passa sem marca. Reescrita: \"E aí vem a parte que pouca gente viu: deputados falam em rever o imposto zero se a soma dos impostos novos passar de 26,5%.\"",
+   "Frase: \"A CBS troca PIS e Cofins, que já vêm escondidos no preço.\" Siglas de contador falham no Teste do CLT. Reescrita: \"A CBS entra no lugar de dois impostos federais que já estão escondidos no preço.\" PIS e Cofins ficam no cartão e na legenda."
+  ],
+  "veredito": "Gancho específico, bem pago e com envio e comentário concretos; falta deixar a virada dos 26,5% e a fala sobre PIS e Cofins entenderem de primeira."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-in along a supermarket shelf lined with plain unbranded bags of rice and beans, a carton of milk, coffee packages with blank labels and cuts of meat in a refrigerated display. Warm natural lighting, no people in frame, no text or logos, gentle camera glide from left to right",
+   "texto_da_fala": "Arroz, feijão, café, leite e carnes ficam sem a CBS, imposto federal novo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a supermarket shelf lined with plain unbranded bags of rice and beans, a carton of milk, coffee packages with blank labels and cuts of meat in a refrigerated display. Warm natural lighting, no people in frame, no text or logos, gentle camera glide from left to right. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Slow tracking shot following a delivery truck driving along a highway at golden hour, cut to a worker's gloved hands stacking cardboard boxes in a supermarket stockroom. No faces in focus, no text, no logos, blank unmarked boxes and truck, smooth camera movement",
+   "texto_da_fala": "Imposto é uma parcela da conta do mercado: frete e margem continuam lá.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow tracking shot following a delivery truck driving along a highway at golden hour, cut to a worker's gloved hands stacking cardboard boxes in a supermarket stockroom. No faces in focus, no text, no logos, blank unmarked boxes and truck, smooth camera movement. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Overhead shot slowly pushing in on a kitchen table with a blank paper notepad and a pen, a hand writing unreadable scribbles beside a grocery bag with rice, beans and coffee. Hand only, no face, no readable text or numbers, soft morning light from a window",
+   "texto_da_fala": "Anota o preço do que mais compra e compara em janeiro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Overhead shot slowly pushing in on a kitchen table with a blank paper notepad and a pen, a hand writing unreadable scribbles beside a grocery bag with rice, beans and coffee. Hand only, no face, no readable text or numbers, soft morning light from a window. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, imposto zero no arroz e o preço pode não cair.\n\nArroz, feijão, café, leite e carnes ficam sem a CBS, imposto federal novo.\n\nA lei não obriga o preço a cair.\n\nA CBS troca PIS e Cofins, que já vêm escondidos no preço.\n\nImposto é uma parcela da conta do mercado: frete e margem continuam lá.\n\nDeputados falam em rever o imposto zero se a soma passar de 26,5%.\n\nAinda não é decisão.\n\nAnota o preço do que mais compra e compara em janeiro.\n\nQuem faz a compra do mês aí? Manda pra ele, sério.\n\nJá viu imposto cair e preço não? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Money Times (Agência Brasil)",
+   "url": "https://www.moneytimes.com.br/deputados-admitem-rever-isencoes-se-iva-superar-265-fets/",
+   "destaque": "A trava de 26,5% vale para a soma da CBS (federal) com o IBS (estados e municípios)."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T07:35:54.859932-03:00"
+}
