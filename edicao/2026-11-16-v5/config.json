@@ -1,0 +1,85 @@
+{
+ "saida": "imposto-lci-lca-editado.mp4",
+ "fim": 71.6,
+ "remover": [],
+ "destaques": "\\d|imposto|dividendo|jcp|fortuna|lci|lca|cri|cra|isento|recupera|fiscal|gasto",
+ "nomes": [
+  [
+   "Termômetro",
+   "de",
+   "Crise"
+  ]
+ ],
+ "corrigir": [
+  [
+   [
+    "a",
+    "7,"
+   ],
+   [
+    "de",
+    "0,7"
+   ]
+  ],
+  [
+   [
+    "10",
+    "mil"
+   ],
+   [
+    "8,4",
+    "mil"
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   0.5,
+   12.0,
+   "4 projetos protocolados",
+   "Gazeta do Povo",
+   {
+    "tipo": "manchete",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "Bancada do PT protocola projetos para aumentar impostos sobre renda e patrimônio",
+    "data": "14/11/2026"
+   }
+  ],
+  [
+   12.5,
+   18.0,
+   "Dividendos: hoje 10% acima de R$ 50 mil/mês. Proposta: *15% desde o 1º real*",
+   "Fonte: Lei 15.270/2025 e Gazeta do Povo (14/11/2026)"
+  ],
+  [
+   19.5,
+   22.5,
+   "JCP: *17,5% → 20%*",
+   "Fonte: Gazeta do Povo"
+  ],
+  [
+   22.6,
+   29.9,
+   "Fortunas acima de R$ 15 mi: *0,7% a 3% ao ano*",
+   "Fonte: Gazeta do Povo"
+  ],
+  [
+   34.7,
+   40.0,
+   "LCI, LCA, CRI, CRA: *isentas → 7,5%*",
+   "Fonte: Gazeta do Povo"
+  ],
+  [
+   44.3,
+   49.8,
+   "*São só projetos*: ainda precisam passar no Congresso",
+   "Fonte: Guia do Investidor (14/11/2026)"
+  ],
+  [
+   52.8,
+   56.2,
+   "*8.478 empresas* em recuperação judicial em set/2026, recorde",
+   "Fonte: Monitor RGF-BIZDOC (set/2026)"
+  ]
+ ]
+}

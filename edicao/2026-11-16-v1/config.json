@@ -1,0 +1,16 @@
+{
+ "saida": "bb-vs-nubank-editado.mp4",
+ "fim": 78.2,
+ "remover": [[43.10, 45.60]],
+ "destaques": "\\d|lucro|prejuízo|banco|nubank|brasil|oportunidade|ação|ações|comenta",
+ "nomes": [["Banco", "do", "Brasil"], ["Termômetro", "de", "Crise"]],
+ "cartoes": [
+  [3.0, 6.4, "Nubank: lucro de *US$ 1,1 bi* no 2º tri (+49%)", "Fonte: American Banker (ago/2026)"],
+  [12.6, 16.3, "BB no 3º tri: *prejuízo de R$ 832 mi* antes do IR", "Fonte: Exame (11/11/2026). Lucro final: R$ 1,27 bi"],
+  [36.4, 41.6, "Lucro do BB despenca", "Exame", {"tipo": "manchete", "veiculo": "Exame", "titulo": "Banco do Brasil vê lucro cair 66% no 3º tri e corta pela metade a previsão para 2026", "data": "11/11/2026"}],
+  [45.7, 48.7, "Lucro do BB no 3º tri: *-66,5%*", "Fonte: Exame", {"tipo": "variacao", "de": "R$ 3,79 bi", "para": "R$ 1,27 bi", "delta": "-66,5%", "sobe": false}],
+  [49.6, 54.0, "Ação despenca", "Exame", {"tipo": "manchete", "veiculo": "Exame", "titulo": "Banco do Brasil tem pior reação a um balanço em 18 meses perde R$ 8 bi na bolsa", "data": "12/11/2026"}],
+  [55.2, 61.9, "Ação barata *não é* oportunidade", ""],
+  [66.1, 72.9, "Comenta: você tem *BB ou Nubank*?", ""]
+ ]
+}

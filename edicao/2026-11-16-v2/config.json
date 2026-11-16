@@ -1,0 +1,15 @@
+{
+ "saida": "imposto-zero-cesta-editado.mp4",
+ "fim": 76.3,
+ "remover": [],
+ "destaques": "\\d|imposto|cbs|arroz|feijão|café|preço|frete|diesel|agro|zer|comenta",
+ "nomes": [["Termômetro", "de", "Crise"]],
+ "cartoes": [
+  [10.7, 15.2, "CBS: o novo imposto federal começa em *1º/01/2027*", "Fonte: Agência Brasil via Money Times (11/11/2026)"],
+  [15.7, 19.8, "Cesta básica nacional: *alíquota zero* de CBS e IBS", "Fonte: Lei Complementar 214/2025"],
+  [20.4, 27.2, "Preço pode não cair", "InfoMoney", {"tipo": "manchete", "veiculo": "InfoMoney", "titulo": "Isenções da cesta básica não devem reduzir os preços com reforma, dizem especialistas", "data": "jul/2024"}],
+  [30.7, 39.5, "Frete, diesel, colheita: *a cadeia toda* tem custo", ""],
+  [63.4, 65.3, "Você *concorda* comigo?", ""],
+  [73.8, 76.2, "Comenta aqui *embaixo*", ""]
+ ]
+}

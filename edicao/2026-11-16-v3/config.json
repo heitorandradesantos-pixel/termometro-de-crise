@@ -1,0 +1,17 @@
+{
+ "saida": "qual-investimento-editado.mp4",
+ "fim": 92.3,
+ "remover": [],
+ "destaques": "\\d|tesouro|selic|poupança|cdi|cdb|prefixado|ipca|inflação|diversifica|planejamento|rotativo|estuda",
+ "nomes": [["Heitor", "Andrade"]],
+ "corrigir": [[["poça"], ["poupança"]]],
+ "cartoes": [
+  [0.3, 7.2, "Tesouro, Selic, poupança, CDB: *qual é melhor?*", ""],
+  [17.5, 28.8, "Prefixado: você *trava a taxa* até o vencimento", "Exemplo hipotético"],
+  [33.0, 38.6, "Tesouro IPCA+: *inflação + taxa fixa*", "Fonte: Tesouro Direto"],
+  [47.7, 51.5, "Não tem melhor ou pior: *tem diversificação*", ""],
+  [59.7, 70.8, "Antes de investir: *por quanto tempo* e *pra quê*?", ""],
+  [78.9, 81.0, "Poupança: *0,5% ao mês + TR*", "Fonte: Banco Central (regra com Selic acima de 8,5%)"],
+  [81.0, 84.5, "Rotativo do cartão: *451,7% ao ano*", "Fonte: Banco Central (set/2026)"]
+ ]
+}
