@@ -1,0 +1,114 @@
+{
+ "titulo": "Ataque hacker ao Tesouro Nacional: o que se sabe",
+ "descricao": "Invasão expôs cerca de 30 mil cadastros do e-Serviços e 4 mil chaves Pix. Veja o que o Tesouro confirmou, o que falta explicar e como evitar golpes.",
+ "palavra_chave": "ataque hacker ao tesouro nacional",
+ "lead": "O Tesouro Nacional confirmou, em nota divulgada na noite de 12/11, um ataque hacker que expôs nome, CPF e e-mail de cerca de 30 mil cadastros do portal e-Serviços e cerca de 4 mil chaves Pix de quem recebe pagamentos do governo federal. O acesso foi detectado em 4/11. O órgão diz que não houve prejuízo financeiro, comunicou o caso à ANPD (a autoridade de proteção de dados) e previu normalizar os serviços suspensos até a manhã de 16/11.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Tesouro identificou um acesso não autorizado às suas bases de dados em 4 de novembro e só divulgou o caso na quinta-feira, 12/11.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/tesouro-nacional-derruba-sistemas-apos-ataque-que-roubou-dados-de-beneficiarios-do-governo/",
+   "data": "2026-11-13",
+   "veiculo": "Jornal de Brasília (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "Foram expostos nomes, CPFs e e-mails de cerca de 30 mil usuários do e-Serviços, portal usado para pedir e acompanhar serviços do Tesouro.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/tesouro-suspende-servicos-apos-ataque-exponer-chaves-pix/",
+   "data": "2026-11-13",
+   "veiculo": "Jornal de Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "Uma base de consultas internas também foi atingida. Ela tinha cerca de 4 mil chaves Pix de beneficiários de pagamentos do governo federal e informações sobre os pagamentos feitos a eles.",
+   "fonte_url": "https://iclnoticias.com.br/economia/tesouro-nacional-sofre-ataque-hacker/",
+   "data": "2026-11-12",
+   "veiculo": "ICL Notícias (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "O e-Serviços é usado principalmente por servidores públicos federais, representantes de estados ou municípios e profissionais de contabilidade. Ou seja: os 30 mil cadastros não são, em sua maioria, de quem recebe benefícios. Os 4 mil Pix são outra base.",
+   "fonte_url": "https://tecnoblog.net/noticias/tesouro-nacional-alerta-para-vazamento-de-dados-pessoais-e-chaves-pix/",
+   "data": "2026-11-13",
+   "veiculo": "Tecnoblog",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro diz que não houve prejuízo financeiro nem comprometimento dos sistemas responsáveis pelas operações centrais do órgão. A gestão da dívida pública e os leilões de títulos seguem sem alteração.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-suspende-sistemas-e-tira-dados-fiscais-do-ar-apos-ataque/",
+   "data": "2026-11-13",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 13/11, o Tesouro manteve fora do ar ferramentas de consulta a documentos e séries de dados no site do órgão e no Tesouro Transparente. A previsão era normalizar até a manhã de segunda-feira, 16/11. O órgão diz que isso não significa que todos esses sistemas foram invadidos.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/tesouro-nacional-derruba-sistemas-apos-ataque-que-roubou-dados-de-beneficiarios-do-governo/",
+   "data": "2026-11-13",
+   "veiculo": "Jornal de Brasília (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "O caso foi comunicado à ANPD e ao CTIR Gov, o centro do governo que responde a incidentes cibernéticos. O Tesouro afirma que o acesso indevido foi contido e que adotou medidas extras de proteção.",
+   "fonte_url": "https://www.bra1.com.br/economia/id-726064/tesouro_nacional_promete_voltar_ao_normal_em_poucos_dias_apos_ataque_hacker_roubar_dados_de_30_mil_usuarios",
+   "data": "2026-11-13",
+   "veiculo": "BRA 1",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro alertou que os dados expostos podem ser usados para deixar golpes mais convincentes. Recomendou atenção a contatos ou mensagens que peçam dados pessoais, senhas ou pagamentos.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-suspende-sistemas-e-tira-dados-fiscais-do-ar-apos-ataque/",
+   "data": "2026-11-13",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Tesouro identifica um acesso não autorizado às suas bases de dados.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/tesouro-nacional-derruba-sistemas-apos-ataque-que-roubou-dados-de-beneficiarios-do-governo/",
+   "data": "2026-11-04",
+   "veiculo": "Jornal de Brasília (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro divulga o incidente à noite: cerca de 30 mil cadastros e 4 mil chaves Pix expostos. O caso é comunicado à ANPD e ao CTIR Gov.",
+   "fonte_url": "https://iclnoticias.com.br/economia/tesouro-nacional-sofre-ataque-hacker/",
+   "data": "2026-11-12",
+   "veiculo": "ICL Notícias (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Tesouro mantém sistemas fora do ar e prevê normalizar até a manhã de segunda-feira, 16/11. Nota alerta para risco de golpes.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-suspende-sistemas-e-tira-dados-fiscais-do-ar-apos-ataque/",
+   "data": "2026-11-13",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quem fez o ataque e como entrou nos sistemas: o Tesouro não detalhou a autoria nem a extensão do acesso, segundo o Plantão Brasil.",
+  "Se os serviços voltaram mesmo na manhã de 16/11: a data é previsão do Tesouro, e não encontrei confirmação de que tenha se cumprido.",
+  "Como cada pessoa pode saber se foi atingida: reportagem do ISTOÉ diz que, até aquela publicação, o Tesouro não tinha apresentado ferramenta pública de consulta individual.",
+  "Por que o caso levou oito dias para ser divulgado (de 4/11 a 12/11): o Tesouro disse ter precisado de tempo para investigar. Não há outra explicação confirmada.",
+  "Se há uso dos dados em golpes: nenhuma fonte consultada confirmou fraude ligada ao vazamento até agora."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você recebe pagamentos do governo federal, sua chave Pix e dados do pagamento podem estar entre os cerca de 4 mil expostos. O Tesouro não publicou lista de atingidos, então ninguém consegue confirmar isso sozinho.",
+  "Se você tem cadastro no e-Serviços, nome, CPF e e-mail podem ter sido expostos. Com esses dados, um golpista consegue falar com você como se soubesse quem você é.",
+  "Não houve prejuízo financeiro, segundo o Tesouro, e o dinheiro de benefícios e pagamentos não foi afetado. O risco apontado pelo órgão é o de golpes por mensagem ou ligação.",
+  "Quem investe em títulos do Tesouro: o órgão diz que a gestão da dívida e a venda de títulos seguem normais. Só a consulta interativa aos leilões ficou suspensa, e os resultados estavam no site do Banco Central.",
+  "Quem usa o site do Tesouro para consultar séries de dados e documentos pode ter encontrado páginas fora do ar de 13/11 até 16/11."
+ ],
+ "como_se_proteger": [
+  "Desconfie de qualquer contato, por telefone, mensagem ou e-mail, que cite o Tesouro ou o governo e peça dados pessoais, senhas ou pagamento. Foi o que o próprio Tesouro recomendou.",
+  "Não faça Pix nem pague taxa para \"liberar\", \"regularizar\" ou \"confirmar\" um pagamento do governo.",
+  "Não clique em links recebidos nessas mensagens. Se quiser checar, digite você mesmo o endereço do órgão ou ligue pelo número que está no site oficial.",
+  "Nunca informe senhas, códigos de verificação ou dados do cartão. Nenhum órgão sério pede isso por mensagem.",
+  "Se você já passou dados ou fez algum pagamento, avise seu banco o quanto antes e registre um boletim de ocorrência.",
+  "Considere trocar a senha do e-mail usado no e-Serviços se ela for repetida em outros sites."
+ ],
+ "slug": "ataque-hacker-ao-tesouro-nacional",
+ "publicado_em": "2026-11-16T07:14:11.757261",
+ "atualizado_em": "2026-11-16T07:14:11.757261",
+ "assunto": "Modo polêmica, voz do Heitor: ataque hacker ao Tesouro Nacional expôs cerca de 30 mil cadastros (nome, CPF e e-mail) do portal e-Serviços e cerca de 4 mil chaves Pix de quem recebe pagamentos do governo federal; serviços suspensos de 13/11 até 16/11, caso comunicado à ANPD (fonte: nota do Tesouro Nacional, Jornal de Brasília 13/11/2026). O que fazer se você recebe do governo: desconfiar de contato pedindo dados ou Pix.",
+ "turno": "manha"
+}
