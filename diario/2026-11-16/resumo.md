@@ -1,0 +1,36 @@
+## Panorama de 16/11/2026
+
+✅ Conferido. 28 notícias com fonte, 6 descartadas na conferência.
+
+Séries que falharam: Japão moeda
+
+### Texto para o WhatsApp
+
+```
+*TERMÔMETRO DE CRISE · Panorama de seg, 16/11*
+_Fechamento de 16/11 · de 0 (calmo) a 100 (mais tenso da história)_
+
+🌍 Mundo em *56, Alerta* (▲2 desde 13/11). Mais tenso: Oriente Médio (72).
+📍 O Brasil mudou de faixa: de Alerta para Tensão.
+
+*Regiões*
+🟠 Oriente Médio: 72 · Tensão (estável)
+🟠 América do Norte: 69 · Tensão (▲6)
+🟠 Ásia e Pacífico: 66 · Tensão (▲4)
+🟡 África: 49 · Alerta (▲1)
+🟡 América Latina: 44 · Alerta (▲1)
+🟦 Europa: 38 · Atenção (estável)
+
+🇧🇷 *Brasil: 64 · Tensão* (▲4 desde 13/11)
+Bolsa 78 · Sobe e desce 39 · Dólar 76
+🏦 Banco Central: Selic 13,75% · Dólar PTAX R$ 5,7324 · Focus (13/11): inflação de 2027 em 5,00%, Selic no fim de 2027 em 12,75%
+
+*O que mexeu com o termômetro*
+• Dólar fecha a R$ 5,78, maior nível desde abril de 2025, e Ibovespa cai 1,83% (América Latina)
+• Rand chega perto de 17 por dólar, o nível mais fraco desde abril (África)
+• S&P 500 cai 0,4% na sexta, mas fecha semana com alta de 2,5% (América do Norte)
+
+_Conteúdo educativo, com fonte em cada fato. Não é recomendação de investimento._
+```
+
+Toque em **Merge** para publicar no site.

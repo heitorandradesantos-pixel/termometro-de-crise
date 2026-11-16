@@ -1,0 +1,76 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [
+  "Japão moeda"
+ ],
+ "noticias": 28,
+ "descartes": [
+  {
+   "onde": "Fed mantém juros em 3,75% a 4% e diz que a inflação segue alta",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "Juro de 10 anos dos EUA chegou a 5,31% e terminou outubro perto de 4,94%",
+   "motivo": "data fora da janela (2026-10-30)"
+  },
+  {
+   "onde": "Banxico corta juros em 0,25 ponto, para 6,25%, e surpreende o mercado",
+   "motivo": "data fora da janela (2026-11-05)"
+  },
+  {
+   "onde": "Banco da Inglaterra sobe os juros para 4%, a primeira alta desde 2023",
+   "motivo": "data fora da janela (2026-11-05)"
+  },
+  {
+   "onde": "Bolsa de Istambul sobe com bancos e recompra de ações após queda longa",
+   "motivo": "data fora da janela (2026-11-04)"
+  },
+  {
+   "onde": "Diretor-geral da Borsa Istanbul é detido em investigação sobre fundos",
+   "motivo": "data fora da janela (2026-10-31)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 199.5,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 6.8,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 3.5,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 9.7,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 319.7,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}
