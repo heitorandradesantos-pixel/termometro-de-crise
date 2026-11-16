@@ -1,0 +1,104 @@
+{
+ "titulo": "FGC: quanto cobre e o que fica de fora: o que se sabe",
+ "descricao": "O FGC devolve até R$ 250 mil por CPF em cada banco se ele quebrar, com teto de R$ 1 milhão em 4 anos. Veja o que vale e o que não vale.",
+ "palavra_chave": "fgc",
+ "lead": "O FGC (Fundo Garantidor de Créditos) funciona como um seguro: se um banco quebrar, ele devolve até R$ 250 mil por CPF em cada instituição ou grupo financeiro. Há um teto de R$ 1 milhão a cada 4 anos. Os valores aparecem em reportagens e guias de 2026; o limite não mudou neste ano, segundo escritório e blog citados abaixo. Vale para poupança, CDB, LCI e LCA. Não vale para ações e fundos.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O limite é de R$ 250 mil por CPF ou CNPJ em cada conglomerado financeiro. Conglomerado é o grupo de empresas do mesmo dono. Há também um teto de R$ 1 milhão por CPF ou CNPJ a cada 4 anos, em vigor desde 2017, segundo o InfoMoney (dado de fev/2026).",
+   "fonte_url": "https://www.infomoney.com.br/minhas-financas/qual-e-o-valor-maximo-garantido-pelo-fgc-veja-as-regras/",
+   "data": "2026-02-18",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O limite vale para o grupo, não para cada marca. Segundo o InvestNews, clientes do Banco Master e do Will Bank, do mesmo conglomerado, dividiram um único limite de R$ 250 mil na liquidação de 2025.",
+   "fonte_url": "https://investnews.com.br/guias/o-que-e-fgc/",
+   "data": "2026-07-31",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "Os 4 anos do teto de R$ 1 milhão começam a contar no primeiro pagamento de garantia. Depois disso, o limite total volta ao valor cheio. O limite de R$ 250 mil soma todos os produtos cobertos que você tem naquele grupo.",
+   "fonte_url": "https://www.santander.com.br/blog/o-que-e-fgc",
+   "data": "2025-12-01",
+   "veiculo": "Santander (blog)",
+   "confiavel": false
+  },
+  {
+   "texto": "O FGC informou em post oficial (fev/2025) que cobre conta-corrente, CDB, RDB, poupança, LC, LH, LCI, LCA, LCD e operações compromissadas. O mesmo post diz que ações e outros ativos de renda variável não são cobertos.",
+   "fonte_url": "https://x.com/fgc_br/status/1894719070051946828",
+   "data": "2025-02-26",
+   "veiculo": "FGC (perfil oficial no X)",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o guia Valor Final (nov/2026), que cita o FAQ do FGC, o fundo não garante aplicações em fundos de investimento de nenhum tipo. O Tesouro Direto também fica de fora, porque quem garante é o Tesouro Nacional.",
+   "fonte_url": "https://valorfinal.com.br/guia/fgc-fundo-garantidor-de-creditos",
+   "data": "2026-11-11",
+   "veiculo": "Valor Final",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 2026, as mudanças de regras alcançaram os bancos, não os limites de cobertura, segundo o escritório Barbieri Advogados. As novas regras para os bancos valem desde 1º de junho de 2026.",
+   "fonte_url": "https://www.barbieriadvogados.com/fundo-garantidor-creditos-fgc-limite-liquidacao/",
+   "data": "2026-10-19",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "A Meelion diz que a Resolução CMN nº 5.295, de 23/04/2026, apertou o uso da garantia pelos bancos e não mudou a cobertura de R$ 250 mil por CPF e R$ 1 milhão em 4 anos.",
+   "fonte_url": "https://www.meelion.com/blog/mercado-financeiro/noticias/fgc-apos-o-banco-master/",
+   "data": "2026-06-03",
+   "veiculo": "Meelion",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O FGC anuncia o início do pagamento da garantia aos credores do Banco Master, do Banco Master de Investimento e do Letsbank, segundo a cronologia do escritório Barbieri Advogados.",
+   "fonte_url": "https://www.barbieriadvogados.com/fundo-garantidor-creditos-fgc-limite-liquidacao/",
+   "data": "2026-01-17",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "O CMN aprova a Resolução 5.279, que muda a governança, a transparência e o rito de pagamento do FGC, segundo a Meelion.",
+   "fonte_url": "https://www.meelion.com/blog/mercado-financeiro/noticias/fgc-apos-o-banco-master/",
+   "data": "2026-01-22",
+   "veiculo": "Meelion",
+   "confiavel": false
+  },
+  {
+   "texto": "O CMN publica a Resolução 5.295, que endurece as regras para os bancos captarem dinheiro com garantia do FGC.",
+   "fonte_url": "https://www.meelion.com/blog/mercado-financeiro/noticias/fgc-apos-o-banco-master/",
+   "data": "2026-04-23",
+   "veiculo": "Meelion",
+   "confiavel": false
+  },
+  {
+   "texto": "As novas regras para os bancos associados entram em vigor. Os limites de cobertura dos clientes seguem os mesmos, segundo o escritório Barbieri Advogados.",
+   "fonte_url": "https://www.barbieriadvogados.com/fundo-garantidor-creditos-fgc-limite-liquidacao/",
+   "data": "2026-06-01",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Nesta apuração, não foi possível abrir a página fgc.org.br. Os valores de R$ 250 mil e R$ 1 milhão vêm de InfoMoney, Santander, InvestNews e de outros guias. O post oficial do FGC citado confirma a lista de produtos, mas não traz esses valores. Confira os números no site do FGC.",
+  "O prazo de pagamento não está claro. Uma coluna no site da B3 (Bora Investir) fala em até 30 dias, e um blog fala em 3 dias úteis. Nenhum dos dois foi confirmado em fonte oficial nesta apuração.",
+  "A lista de produtos cobertos e os limites podem mudar por resolução do Conselho Monetário Nacional, segundo o Valor Final. Vale o que estiver em vigor na data em que o banco quebrar. Não há mudança anunciada nos limites."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem mais de um produto no mesmo banco ou grupo, o FGC soma tudo. Exemplo: R$ 200 mil em CDB e R$ 100 mil em poupança somam R$ 300 mil, e só R$ 250 mil ficam dentro do limite.",
+  "Em conta conjunta, o limite é dividido entre os titulares. Segundo o Nubank, com dois titulares e saldo de R$ 250 mil ou mais, cada um tem R$ 125 mil de cobertura.",
+  "O FGC cobre a quebra do banco, não perdas de mercado. Se suas ações ou cotas de fundos caírem de valor, o FGC não paga nada, segundo o SpaceMoney.",
+  "Antes de aplicar, confira o nome do produto e quem o emitiu. Um produto vendido por um banco não é coberto só por isso. Veja a lista de associados no fgc.org.br."
+ ],
+ "como_se_proteger": [],
+ "slug": "fgc",
+ "publicado_em": "2026-11-16T08:23:04.475500",
+ "atualizado_em": "2026-11-16T08:23:04.475500",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto) FGC, o seguro do seu dinheiro no banco: cobre até R$ 250 mil por CPF por instituição, com teto de R$ 1 milhão a cada 4 anos; vale para poupança, CDB, LCI e LCA, não vale para ações e fundos (fonte: fgc.org.br).",
+ "turno": "manha"
+}
