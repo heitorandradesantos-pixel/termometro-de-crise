@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Número + porquê / Não foi o que você pensa",
+  "texto": "O dólar subiu 2,61% hoje. E o motivo não foi aqui dentro.",
+  "na_tela": "Dólar +2,61%: o motivo veio de fora",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê / Não foi o que você pensa",
+   "texto": "O dólar subiu 2,61% hoje. E o motivo não foi aqui dentro.",
+   "na_tela": "Dólar +2,61%: o motivo veio de fora",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Cara, o dólar fechou hoje a R$ 5,79, e isso chega na sua viagem.",
+   "na_tela": "Dólar R$ 5,79 na sua viagem",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Cena no meio / Antes e depois",
+   "texto": "O termômetro do Brasil mudou de cor hoje, e você ainda nem viu.",
+   "na_tela": "Brasil mudou de cor hoje",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "O dólar subiu 2,61% hoje. E o motivo não foi aqui dentro.",
+  "O dólar tá forte lá fora, o mais forte em quase 20 meses.",
+  "O mercado olha os juros nos EUA: quanto rende o dinheiro lá.",
+  "Ninguém sabe até onde vai.",
+  "Agora vem a parte que pouca gente viu: o Brasil mudou de cor.",
+  "Foi de Alerta pra Tensão: o termômetro do Brasil tá em 64.",
+  "Antes de pagar em dólar, confere a cotação, como na feira.",
+  "Tem alguém viajando aí? Manda pra ele, sério.",
+  "Dólar a R$ 5,79: pesa no seu mês ou nem sentiu? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O dólar subiu 2,61% hoje. E o motivo não foi aqui dentro. O dólar tá forte lá fora, o mais forte em quase 20 meses. O mercado olha os juros nos EUA: quanto rende o dinheiro lá. Ninguém sabe até onde vai. Agora vem a parte que pouca gente viu: o Brasil mudou de cor. Foi de Alerta pra Tensão: o termômetro do Brasil tá em 64. Antes de pagar em dólar, confere a cotação, como na feira. Tem alguém viajando aí? Manda pra ele, sério. Dólar a R$ 5,79: pesa no seu mês ou nem sentiu? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 106,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "Dólar +2,61%: o motivo veio de fora",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,79 (▲2,61%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar forte: máxima em quase 20 meses",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Brasil: de Alerta pra Tensão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "64",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Dólar R$ 5,79",
+   "fonte": "Yahoo Finance"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: por que subiu e o que isso muda pra você.\n\nO dólar fechou a R$ 5,79 (▲2,61%) e o Ibovespa caiu 1,91%, para 169.168 pontos. O dólar está forte lá fora, no nível mais forte em quase 20 meses, com o mercado atento aos juros nos EUA (quanto rende o dinheiro lá). Ninguém sabe ainda até onde vai.\n\nO termômetro do Brasil mudou de faixa: foi de Alerta pra Tensão, em 64. Antes de pagar algo em dólar, vale conferir a cotação do dia.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #ibovespa #economia #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#ibovespa",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "O dólar subiu 2,61% hoje, e o motivo não foi aqui.",
+  "topicos": [
+   "O dólar fechou a R$ 5,79, alta de 2,61% hoje, segundo o Yahoo Finance.",
+   "O dólar tá forte lá fora, o mais forte em quase 20 meses.",
+   "O termômetro do Brasil foi de Alerta pra Tensão, e tá em 64.",
+   "Antes de pagar algo em dólar, confere a cotação do dia."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um fechamento com contexto e vários números, que pede explicação calma, não notícia de rua.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"O mercado olha os juros nos EUA: quanto rende o dinheiro lá.\": a tradução ficou solta e não liga com o bolso. Reescreva dizendo o efeito na prática, por exemplo \"Lá fora o dinheiro rende mais, então todo mundo quer dólar e ele sobe aqui também\". Assim a pessoa entende por que o dólar subiu, sem sair do que a peça já diz.",
+   "Frase \"Antes de pagar em dólar, confere a cotação, como na feira.\": o passo é fraco e a comparação serve só de enfeite. A peça nunca diz o que o dólar a R$ 5,79 muda pra quem não viaja (celular, compra lá de fora, preço das coisas). Troque por um passo simples ligado ao bolso, como \"se você vai comprar em dólar, olha a cotação do dia antes de fechar\". Mostre também a comparação viva, pois a feira hoje só empresta o nome. Não invente número ou fato novo.",
+   "Frases \"O dólar subiu 2,61% hoje\" e \"Foi de Alerta pra Tensão: o termômetro do Brasil tá em 64\": o gancho abre com a manchete lida e o Teste do CLT pede um número por fala. Abra com a reação do Heitor, por exemplo \"Cara, o dólar subiu hoje. E o motivo não foi aqui dentro\", e deixe o 2,61% e o 5,79 para o cartão da tela. Diga também \"quase 20 meses\" já com a fonte (\"isso é o que o mercado mostra, não sou eu\"). O que ainda não se sabe (\"ninguém sabe até onde vai\") fica bom, mantenha."
+  ],
+  "veredito": "A peça tem o arquétipo certo (verdade com fonte, sem alarde nem palpite), o bordão de encerramento e uma pergunta que puxa comentário, mas falta responder de verdade \\\"isso mexe no meu bolso? o que eu faço?\\\": o passo é genérico, o juro nos EUA não vira efeito no dia a dia e o gancho soa como manchete lida."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"O dólar subiu 2,61% hoje. E o motivo não foi aqui dentro.\" é um número, mas é manchete de telejornal e não toca o bolso de quem assiste. Reescrita: \"Cara, o dólar fechou a R$ 5,79 hoje. E o motivo não foi aqui dentro.\" O R$ 5,79 é o preço que a pessoa já viu na vida real, e o \"não foi aqui dentro\" mantém a lacuna. Deixe o 2,61% para o cartão na tela.",
+   "Pagamento e retenção: \"O dólar tá forte lá fora, o mais forte em quase 20 meses\" e \"O mercado olha os juros nos EUA\" entregam o motivo em duas falas técnicas, e o \"Ninguém sabe até onde vai\" fecha sem nenhuma pista do que fazer. A virada \"o Brasil mudou de cor\" guarda o número 64, mas o corpo não tem nenhum exemplo do bolso antes dela. Reescrita: \"Lá nos EUA, guardar dinheiro está rendendo mais. Aí todo mundo quer dólar, e ele sobe aqui também. Olha que loucura.\" Depois: \"E agora vem a parte que pouca gente viu: o Brasil mudou de cor. Saiu de Alerta pra Tensão. O termômetro tá em 64.\"",
+   "Envio: \"Tem alguém viajando aí? Manda pra ele, sério.\" já aponta uma situação, mas não tem um número para a pessoa mostrar. Reescrita: \"Tem alguém viajando aí? Manda pra ele ver que o dólar tá a R$ 5,79.\" Assim o envio leva o número que o gancho abriu. Antes, troque \"como na feira\" por uma frase direta: \"Antes de pagar em dólar, confere a cotação do dia.\""
+  ],
+  "veredito": "Tem uma boa pergunta final de comentário e um envio com situação concreta, mas o gancho abre com a manchete do telejornal (2,61%) em vez do preço que a pessoa já viu, e o porquê vem em jargão (juros nos EUA, 20 meses) que não passa no Teste do CLT, então falta um gancho de bolso e um motivo mais fácil de entender para segurar e fazer compartilhar."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Vertical shot, slow dolly-in across a glossy trading floor of empty desks with several monitors glowing with abstract green and red rising and falling line charts (no text, no numbers), city skyline of New York skyscrapers visible through tall windows at dusk, soft cinematic lighting, no people in focus",
+   "texto_da_fala": "O mercado olha os juros nos EUA: quanto rende o dinheiro lá.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly-in across a glossy trading floor of empty desks with several monitors glowing with abstract green and red rising and falling line charts (no text, no numbers), city skyline of New York skyscrapers visible through tall windows at dusk, soft cinematic lighting, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot, slow push-in on a large analog thermometer-style gauge with a color scale from green to yellow to orange to red, the needle slowly moving from yellow into orange, no text or numbers on the dial, set against a simplified abstract map silhouette of a country glowing softly in the background, clean graphic motion style",
+   "texto_da_fala": "Foi de Alerta pra Tensão: o termômetro do Brasil tá em 64.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow push-in on a large analog thermometer-style gauge with a color scale from green to yellow to orange to red, the needle slowly moving from yellow into orange, no text or numbers on the dial, set against a simplified abstract map silhouette of a country glowing softly in the background, clean graphic motion style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Vertical shot, handheld slow pan across a colorful Brazilian open-air street market (feira) stall at morning: crates of fresh fruits and vegetables, a hand-held old-fashioned balance scale, hands exchanging paper bills over the counter, only hands visible with no faces, warm natural sunlight, shallow depth of field",
+   "texto_da_fala": "Antes de pagar em dólar, confere a cotação, como na feira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, handheld slow pan across a colorful Brazilian open-air street market (feira) stall at morning: crates of fresh fruits and vegetables, a hand-held old-fashioned balance scale, hands exchanging paper bills over the counter, only hands visible with no faces, warm natural sunlight, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O dólar subiu 2,61% hoje. E o motivo não foi aqui dentro.\n\nO dólar tá forte lá fora, o mais forte em quase 20 meses.\n\nO mercado olha os juros nos EUA: quanto rende o dinheiro lá.\n\nNinguém sabe até onde vai.\n\nAgora vem a parte que pouca gente viu: o Brasil mudou de cor.\n\nFoi de Alerta pra Tensão: o termômetro do Brasil tá em 64.\n\nAntes de pagar em dólar, confere a cotação, como na feira.\n\nTem alguém viajando aí? Manda pra ele, sério.\n\nDólar a R$ 5,79: pesa no seu mês ou nem sentiu? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T18:34:44.613132-03:00"
+}
