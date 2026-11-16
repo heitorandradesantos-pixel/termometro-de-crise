@@ -1,0 +1,121 @@
+{
+ "titulo": "Reforma tributária e o preço das compras: o que se sabe",
+ "descricao": "CBS de 11,3% em 2027, trava de 26,5% e estimativas de até 30%. Veja o que está confirmado e o que a reforma tributária muda no preço do que você compra.",
+ "palavra_chave": "reforma tributária preço",
+ "lead": "O TCU calculou em 28 de outubro de 2026 que a CBS, novo imposto federal sobre o consumo, terá alíquota de referência de 11,3% em 2027 (11,3468% no cálculo exato, citado como 11,35% por alguns veículos). Em 10 de novembro, deputados disseram que podem rever isenções se o imposto total (CBS + IBS) passar de 26,5%, e há estimativas de que ele chegue a 30%. A CBS começa a ser cobrada em 1º de janeiro de 2027, mas o efeito no preço das compras deve vir aos poucos.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O TCU aprovou em 28/10/2026 a alíquota de referência da CBS para 2027: 11,3468%, arredondada para 11,3%. O número segue para o Senado, que tem até 15 de dezembro para fixá-lo por resolução. A alíquota de referência é o ponto de partida: quem paga mais ou menos depende do produto.",
+   "fonte_url": "https://conjur.com.br/2026-nov-12/a-aliquota-da-cbs-e-a-conta-que-sempre-existiu/",
+   "data": "2026-10-28",
+   "veiculo": "Conjur",
+   "confiavel": false
+  },
+  {
+   "texto": "O percentual ficou acima dos 9,21% que circulavam antes como estimativa do governo. Segundo o Conjur e o Mattos Filho, o TCU segue a regra de manter a carga tributária atual: quanto mais exceções e isenções, maior a alíquota necessária para arrecadar o mesmo valor.",
+   "fonte_url": "https://www.mattosfilho.com.br/unico/tcu-aliquota-cbs-2027/",
+   "data": "2026-10-28",
+   "veiculo": "Mattos Filho",
+   "confiavel": false
+  },
+  {
+   "texto": "A CBS vai substituir o PIS e a Cofins, tributos federais sobre o consumo. Segundo um levantamento do escritório HLB, o PIS/Cofins do regime mais comparável tem hoje alíquota de 9,25%. Em 2027 e 2028, a CBS cobrada será 0,1 ponto menor (11,2%, se o Senado mantiver o cálculo do TCU), porque o IBS de teste, de 0,1%, entra no lugar.",
+   "fonte_url": "https://www.hlb.com.br/tcu-propoe-cbs-de-113-para-2027/",
+   "data": "2026-10-28",
+   "veiculo": "HLB",
+   "confiavel": false
+  },
+  {
+   "texto": "A trava de 26,5% vale para a soma da CBS (federal) com o IBS (estados e municípios). Em 10/11, deputados que participam da regulamentação disseram que podem tirar isenções se a soma passar desse limite. A reportagem da Agência Brasil, republicada pelo Money Times, também diz que há estimativas de até 30%.",
+   "fonte_url": "https://www.moneytimes.com.br/deputados-admitem-rever-isencoes-se-iva-superar-265-fets/",
+   "data": "2026-11-11",
+   "veiculo": "Money Times (Agência Brasil)",
+   "confiavel": true
+  },
+  {
+   "texto": "Um deputado disse que, se a soma passar de 26,5%, o governo manda ao Congresso um projeto para rever benefícios. Segundo o deputado, \"a lei assim manda\". O mecanismo de gatilho foi descrito em 2024, na aprovação da lei: ultrapassou 26,5%, o governo envia um novo projeto.",
+   "fonte_url": "https://www.opovo.com.br/noticias/economia/2026/11/10/deputados-admitem-rever-isencoes-se-iva-superar-265.html",
+   "data": "2026-11-10",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "Os deputados disseram que não há negociação com o governo para adiar a reforma. Segundo eles, o ministro da Fazenda, Dario Durigan, afirmou que o governo vai avançar. A CBS segue prevista para 1º/01/2027.",
+   "fonte_url": "https://sb24horas.com.br/deputados-admitem-rever-isencoes-fiscais-se-iva-ultrapassar-265/",
+   "data": "2026-11-10",
+   "veiculo": "SB24Horas (Agência Brasil)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 2027, os itens da cesta básica nacional passam a ter alíquota zero de CBS e IBS, e outros alimentos terão redução de 60%, ou seja, pagam 40% da alíquota padrão. A lei não obriga o preço na prateleira a cair. Outros impostos ainda podem incidir durante a transição.",
+   "fonte_url": "https://portalcambe.com.br/cesta-basica-tera-imposto-zero-em-2027-veja-a-lista/",
+   "data": "2026-11-12",
+   "veiculo": "Portal Cambé",
+   "confiavel": false
+  },
+  {
+   "texto": "O ICMS e o ISS (impostos de estados e municípios) seguem em 2027 e 2028. O IBS os substitui aos poucos de 2029 a 2032, e eles acabam em 2033. Por isso, um pesquisador do FGV Ibre disse que o abatimento no preço da cesta básica não deve ser grande no começo.",
+   "fonte_url": "https://meutudo.com.br/blog/noticias/2026/06/15/especialista-aponta-que-cesta-basica-pode-encarecer-apos-a-reforma-tributaria/",
+   "data": "2026-06-15",
+   "veiculo": "Meutudo (cita FGV Ibre)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Em 2024, ao aprovar a lei que regulamenta a reforma, a Câmara incluiu a trava de 26,5% para a alíquota de referência.",
+   "fonte_url": "https://tagteam.harvard.edu/hub_feeds/3885/feed_items/11958176",
+   "data": "2024-07-11",
+   "veiculo": "Consultor Jurídico",
+   "confiavel": false
+  },
+  {
+   "texto": "O TCU aprova a alíquota de referência da CBS para 2027: 11,3468% (11,3% arredondado), e um redutor de 44,2% nas compras do governo.",
+   "fonte_url": "https://www.mattosfilho.com.br/unico/tcu-aliquota-cbs-2027/",
+   "data": "2026-10-28",
+   "veiculo": "Mattos Filho",
+   "confiavel": false
+  },
+  {
+   "texto": "Deputados dizem, após reunião com o ministro da Fazenda, que podem rever isenções se o IVA passar de 26,5%, e descartam adiar a reforma.",
+   "fonte_url": "https://www.opovo.com.br/noticias/economia/2026/11/10/deputados-admitem-rever-isencoes-se-iva-superar-265.html",
+   "data": "2026-11-10",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "A Agência Brasil, via Money Times, noticia a fala dos deputados e as estimativas de até 30%.",
+   "fonte_url": "https://www.moneytimes.com.br/deputados-admitem-rever-isencoes-se-iva-superar-265-fets/",
+   "data": "2026-11-11",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Data-limite para o Senado fixar, por resolução, a alíquota de referência da CBS (15 de dezembro de 2026). A data é futura e ainda não aconteceu.",
+   "fonte_url": "https://conjur.com.br/2026-nov-12/a-aliquota-da-cbs-e-a-conta-que-sempre-existiu/",
+   "data": "2026-11-12",
+   "veiculo": "Conjur",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Qual alíquota o Senado vai fixar. A resolução pode sair até 15 de dezembro; se o Senado não votar, o texto de um veículo diz que os 11,3% valem automaticamente (não confirmado em fonte oficial nesta apuração).",
+  "Se o imposto total vai chegar a 30%. Essa soma é uma projeção, não um número oficial: a alíquota do IBS ainda não foi definida. Um veículo cita IBS de cerca de 18,7% como estimativa, e isso não foi confirmado por fonte oficial.",
+  "Se o Congresso vai, de fato, tirar isenções. Os deputados falaram em condição (\"se passar de 26,5%\"). Nenhum projeto foi apresentado, segundo as fontes consultadas.",
+  "Quanto cada produto vai mudar de preço. O preço final depende de repasse pelas empresas, margens, frete, ICMS e ISS. Isso não foi calculado de forma oficial para o consumidor.",
+  "Se a cobrança da CBS será adiada para 2028. Entidades empresariais e o ex-secretário Bernard Appy defendem mais tempo de testes, segundo a Agência Brasil. O governo e a Câmara dizem que não há adiamento."
+ ],
+ "o_que_muda_para_voce": [
+  "Em 1º/01/2027, a CBS entra no lugar do PIS e da Cofins. Você não vê a mudança no caixa do mercado de uma vez: o imposto vem embutido no preço, e o efeito tende a ser gradual até 2033.",
+  "Quem compra itens da cesta básica nacional (arroz, feijão, café, leite, carnes) passa a ter CBS zero. Isso reduz o imposto, mas não garante preço menor, porque frete, safra e margem do vendedor também pesam.",
+  "Outros alimentos, remédios e serviços podem ter alíquotas reduzidas. Produtos e serviços sem benefício ficam na alíquota cheia, que hoje se estima em 11,3% de CBS (11,2% cobrada em 2027).",
+  "Se a soma de CBS e IBS passar de 26,5% no futuro, os deputados dizem que podem rever isenções. Isso pode mexer em quais itens têm imposto menor, mas ainda é uma possibilidade, não uma decisão.",
+  "Famílias de baixa renda inscritas no CadÚnico terão cashback, a devolução de parte dos tributos. Para a cesta básica, com alíquota zero, não há imposto a devolver."
+ ],
+ "como_se_proteger": [],
+ "slug": "reforma-tributaria-preco",
+ "publicado_em": "2026-11-16T07:31:05.959232",
+ "atualizado_em": "2026-11-16T07:31:05.959232",
+ "assunto": "Explicativo: reforma tributária, o imposto sobre o consumo (CBS + IBS) tem trava de 26,5%, mas estimativas falam em até 30%; o TCU estimou a CBS em 11,35% em 28/10/2026; deputados admitem rever isenções se passar de 26,5%; a CBS começa em 1º de janeiro de 2027 (fonte: Agência Brasil via Money Times, 11/11/2026). O que isso muda no preço do que você compra.",
+ "turno": "manha"
+}
