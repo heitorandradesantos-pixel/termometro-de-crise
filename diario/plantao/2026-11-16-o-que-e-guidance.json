@@ -1,0 +1,107 @@
+{
+ "titulo": "O que é guidance e por que a ação cai com o corte: o que se sabe",
+ "descricao": "Guidance é a previsão de lucro que a empresa dá ao mercado. Veja por que a ação do Banco do Brasil caiu 8,35% em 12/11 após o corte da previsão.",
+ "palavra_chave": "o que é guidance",
+ "lead": "Guidance é a previsão de lucro que a própria empresa divulga para o ano, e o mercado usa essa faixa como régua. Em 11 de novembro, o Banco do Brasil cortou a sua de R$ 18 bi a R$ 22 bi para R$ 9 bi a R$ 11 bi. Em 12 de novembro, a ação do Banco do Brasil fechou em queda de 8,35%, a R$ 15,48, segundo a Exame.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Banco do Brasil revisou a previsão de lucro líquido ajustado de 2026 em 11 de novembro, junto com o balanço do 3º trimestre. A faixa caiu de R$ 18 bilhões a R$ 22 bilhões para R$ 9 bilhões a R$ 11 bilhões. O lucro ajustado é o lucro sem itens que não se repetem.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/banco-do-brasil-ceifa-previsao-de-lucro-para-2026-apos-tombo-no-3o-tri-2124420",
+   "data": "2026-11-11",
+   "veiculo": "Reuters (via Investing.com)",
+   "confiavel": false
+  },
+  {
+   "texto": "De janeiro a setembro, o banco acumulou lucro ajustado de R$ 8,6 bilhões. Pela conta da Exame, a nova faixa indica um 4º trimestre com lucro entre R$ 0,4 bilhão e R$ 2,4 bilhões. Ou seja, a previsão diz quanto o banco espera ganhar até dezembro.",
+   "fonte_url": "https://exame.com/invest/mercados/banco-do-brasil-ve-lucro-cair-66-no-3o-tri-e-corta-pela-metade-a-previsao-para-2026/",
+   "data": "2026-11-11",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O motivo apontado pelo banco foi a inadimplência (clientes que atrasam o pagamento de dívidas), principalmente no agronegócio, além de reforços em empresas grandes. O custo do crédito, o valor que o banco separa para possíveis calotes, passou de uma previsão de R$ 65 bi a R$ 70 bi para R$ 80 bi a R$ 83 bi.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/lucro-do-bb-cai-665-no-3o-trimestre-com-inadimplencia-do-agro",
+   "data": "2026-11-11",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O lucro ajustado do 3º trimestre foi de R$ 1,27 bilhão, queda de 66,5% sobre um ano antes. Analistas ouvidos pela LSEG esperavam R$ 3,474 bilhões. O mercado já tinha um número em mente e o resultado ficou bem abaixo dele.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/banco-do-brasil-ceifa-previsao-de-lucro-para-2026-apos-tombo-no-3o-tri-2124420",
+   "data": "2026-11-11",
+   "veiculo": "Reuters (via Investing.com)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 12 de novembro, a ação do Banco do Brasil fechou em queda de 8,35%, a R$ 15,48, a maior baixa entre os grandes bancos no dia. O banco valia cerca de R$ 96,4 bilhões no fechamento de 11/11 e passou a valer perto de R$ 88,4 bilhões, segundo a Exame. Foi a pior reação a um balanço do banco em 18 meses.",
+   "fonte_url": "https://exame.com/invest/mercados/banco-do-brasil-tem-maior-queda-diaria-em-18-meses-perde-r-8-bi-na-bolsa/",
+   "data": "2026-11-12",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Durante o pregão, a ação chegou a cair mais de 12%, a R$ 14,85, antes de recuperar parte da perda. O número de 8,35% é o do fechamento.",
+   "fonte_url": "https://timesbrasil.com.br/empresas-e-negocios/banco-do-brasil-perde-r-8-bilhoes-na-bolsa-apos-balanco-acao-tem-pior-reacao-em-18-meses/",
+   "data": "2026-11-12",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o Bradesco BBI, o ponto médio da nova faixa de lucro fica cerca de 38% abaixo do que o mercado esperava antes (o consenso). O banco de investimento também disse que a revisão foi possivelmente o ponto mais negativo do balanço.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/banco-do-brasil-lucro-3t26-guidance-cortado-payout",
+   "data": "2026-11-12",
+   "veiculo": "Space Money",
+   "confiavel": false
+  },
+  {
+   "texto": "Outras projeções também mudaram. O conselho reduziu a parcela do lucro paga aos acionistas (payout) de 30% para 25% em 2026 e fixou 25% para 2027, sem dividendos intermediários em 2027. A previsão da carteira de crédito passou a ser de estabilidade a queda de 2%, ante alta de 0,5% a 4,5%.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/banco-do-brasil-ceifa-previsao-de-lucro-para-2026-apos-tombo-no-3o-tri-2124420",
+   "data": "2026-11-11",
+   "veiculo": "Reuters (via Investing.com)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A ação do Banco do Brasil caiu 12,69% no pregão seguinte ao balanço do 1º trimestre de 2025. Era a pior reação a um balanço do banco até a de 12/11/2026.",
+   "fonte_url": "https://exame.com/invest/mercados/banco-do-brasil-tem-maior-queda-diaria-em-18-meses-perde-r-8-bi-na-bolsa/",
+   "data": "2025-05-16",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O banco divulga o balanço do 3º trimestre e corta a previsão de lucro de 2026 para R$ 9 bi a R$ 11 bi.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/banco-do-brasil-ceifa-previsao-de-lucro-para-2026-apos-tombo-no-3o-tri-2124420",
+   "data": "2026-11-11",
+   "veiculo": "Reuters (via Investing.com)",
+   "confiavel": false
+  },
+  {
+   "texto": "A ação fecha em queda de 8,35%, a R$ 15,48, e o banco perde cerca de R$ 8 bi em valor de mercado.",
+   "fonte_url": "https://exame.com/invest/mercados/banco-do-brasil-tem-maior-queda-diaria-em-18-meses-perde-r-8-bi-na-bolsa/",
+   "data": "2026-11-12",
+   "veiculo": "Exame",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o banco vai ficar dentro da nova faixa de R$ 9 bi a R$ 11 bi. Isso depende do 4º trimestre e ainda não foi confirmado por nenhum número.",
+  "Quando a inadimplência no agronegócio deixa de subir. O banco disse que as renegociações feitas sob a Medida Provisória nº 1.376/2026 tiveram resultado abaixo do esperado, segundo o Brasil em Folhas. Não há prazo confirmado para a melhora.",
+  "Para onde a ação vai a partir daqui. Ninguém sabe, e o preço também reage a outros fatores, como os juros nos Estados Unidos.",
+  "Se haverá pagamento de dividendos (parte do lucro repassada aos acionistas) em 2027. Segundo o InfoMoney, o pagamento do mínimo obrigatório já está condicionado às projeções de capital ao fim de 2026.",
+  "Não foi possível abrir o documento original no site de relações com investidores (ri.bb.com.br) durante a apuração. Os números vêm de Reuters, Exame e Agência Brasil, que citam o balanço."
+ ],
+ "o_que_muda_para_voce": [
+  "Guidance é a previsão de lucro, de vendas ou de custos que a empresa dá ao mercado. Ela não é promessa. Quando a empresa a revisa, avisa que o ano será diferente do que dizia antes.",
+  "A ação reflete, em geral, quanto os investidores esperam que a empresa ganhe nos próximos anos. Se a previsão de lucro cai, muita gente passa a aceitar pagar menos pela ação. Foi o que analistas e a imprensa descreveram em 12/11 para o Banco do Brasil.",
+  "Cortar o guidance é uma forma de a empresa avisar o mercado durante o ano, em vez de esperar o fim dele. Neste caso, o banco apontou a inadimplência no agro como causa. A queda de 8,35% vale para um dia e pode mudar nos seguintes.",
+  "Quem tem a ação do Banco do Brasil e recebe dividendos deve ver parcelas menores. O banco não fará anúncios intermediários em 11 e 19 de novembro. O complemento de 2026 será anunciado em 17/02/2027, com pagamento em 10/03/2027, segundo a Times Brasil.",
+  "O guidance trata do lucro do banco, não do saldo de quem tem conta. Nenhuma das fontes consultadas fala em problema para depositantes."
+ ],
+ "como_se_proteger": [],
+ "slug": "o-que-e-guidance",
+ "publicado_em": "2026-11-16T09:08:08.809900",
+ "atualizado_em": "2026-11-16T09:08:08.809900",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, mercado financeiro) o que é a previsão de lucro (guidance) e por que a ação cai quando a empresa corta: o Banco do Brasil cortou a previsão de lucro ajustado de 2026 de R$ 18 a 22 bilhões para R$ 9 a 11 bilhões, e a ação caiu 8,35% em 12/11 (fontes: relações com investidores do Banco do Brasil ri.bb.com.br, Exame 11/11/2026). Não escreva código de ação (ticker) em nenhum lugar, diga só \"a ação do Banco do Brasil\". Sem tratar o banco como vilão e sem recomendação de compra ou venda.",
+ "turno": "manha"
+}
