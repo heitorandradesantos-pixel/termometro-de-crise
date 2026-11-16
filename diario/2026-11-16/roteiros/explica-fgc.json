@@ -1,0 +1,184 @@
+{
+ "gancho": {
+  "formula": "Custo escondido / espanto",
+  "texto": "Cara, seu dinheiro no banco tem seguro, mas só até R$ 250 mil.",
+  "na_tela": "Seguro só até R$ 250 mil",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido / espanto",
+   "texto": "Cara, seu dinheiro no banco tem seguro, mas só até R$ 250 mil.",
+   "na_tela": "Seguro só até R$ 250 mil",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Banco Master e Will Bank, dois nomes e um limite só de R$ 250 mil.",
+   "na_tela": "Dois bancos, um limite só",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Você tem R$ 300 mil no mesmo banco? O seguro não cobre tudo.",
+   "na_tela": "R$ 300 mil no mesmo banco?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, seu dinheiro no banco tem seguro, mas só até R$ 250 mil.",
+  "É o FGC. Se o banco quebrar, ele devolve até esse valor por CPF.",
+  "Mas vale por grupo do mesmo dono, não por marca.",
+  "Segundo o InvestNews, Banco Master e Will Bank dividiram um limite só.",
+  "Olha: é uma comanda só, tudo que você tem no grupo soma.",
+  "R$ 300 mil entre CDB e poupança? Só R$ 250 mil ficam cobertos.",
+  "Ações ficam de fora, diz o FGC. Fundos e Tesouro Direto também.",
+  "Os valores vêm de reportagens: antes de aplicar, confere no site do FGC.",
+  "Você já checou isso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, seu dinheiro no banco tem seguro, mas só até R$ 250 mil. É o FGC. Se o banco quebrar, ele devolve até esse valor por CPF. Mas vale por grupo do mesmo dono, não por marca. Segundo o InvestNews, Banco Master e Will Bank dividiram um limite só. Olha: é uma comanda só, tudo que você tem no grupo soma. R$ 300 mil entre CDB e poupança? Só R$ 250 mil ficam cobertos. Ações ficam de fora, diz o FGC. Fundos e Tesouro Direto também. Os valores vêm de reportagens: antes de aplicar, confere no site do FGC. Você já checou isso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Seguro só até R$ 250 mil",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Até R$ 250 mil por CPF",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 3,
+   "texto": "Mesmo grupo, um limite só",
+   "fonte": "InvestNews"
+  },
+  {
+   "fala": 5,
+   "texto": "R$ 300 mil → só R$ 250 mil cobertos",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Fora: ações, fundos, Tesouro Direto",
+   "fonte": "Valor Final"
+  }
+ ],
+ "retomada": 4,
+ "busca": "FGC: quanto cobre e o que fica de fora",
+ "legenda": "FGC: quanto cobre e o que fica de fora?\n\nO FGC funciona como um seguro: se o banco quebrar, devolve até R$ 250 mil por CPF em cada grupo financeiro, segundo o InfoMoney. O limite vale para o grupo do mesmo dono, não para cada marca.\n\nO FGC soma tudo que você tem no grupo. Ações, fundos e Tesouro Direto ficam de fora.\n\nOs valores vêm de reportagens e guias, porque não foi possível abrir o site do FGC nesta apuração. Confira no fgc.org.br.\n\nSem alarde. Eu sou só o termômetro! Eu sou o Heitor, do Termômetro de Crise.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#fgc #educacaofinanceira #poupanca #cdb",
+ "hashtags": [
+  "#fgc",
+  "#educacaofinanceira",
+  "#poupanca",
+  "#cdb"
+ ],
+ "rua": {
+  "gancho": "Cara, seu dinheiro no banco tem seguro, mas com limite.",
+  "topicos": [
+   "O FGC devolve até R$ 250 mil por CPF em cada grupo.",
+   "Banco Master e Will Bank dividiram um limite só, segundo o InvestNews.",
+   "Ações, fundos e Tesouro Direto ficam de fora, segundo o Valor Final.",
+   "Antes de aplicar, confere o limite e o emissor no site do FGC."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com limites, exemplo e o que fica de fora, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"É o FGC. Se o banco quebrar, ele devolve...\": traduza na hora, tipo \"É o FGC, o fundo que devolve seu dinheiro se o banco quebrar\". Troque \"CDB\" por \"aplicação do banco\" e tire \"por CPF\" da fala, deixando no cartão da tela.",
+   "Frase \"Segundo o InvestNews, Banco Master e Will Bank dividiram um limite só\": nome de site não vai na fala. Diga \"segundo reportagens\" e deixe o InvestNews no cartão e na legenda. Na fala \"R$ 300 mil entre CDB e poupança? Só R$ 250 mil...\" tem dois números: use \"Tem R$ 300 mil no mesmo grupo? Só 250 ficam cobertos\".",
+   "Frase \"Os valores vêm de reportagens: antes de aplicar, confere no site do FGC\": o perdido ficou sem saída clara e soa como aviso burocrático. Reescreva como um passo simples e calmo, tipo \"Tem mais que isso num grupo só? Confere no site do FGC como fica o que passa do limite\". Depois feche com \"Eu sou o Heitor... Não recomendamos: só mostramos a temperatura do mundo\" antes do bordão."
+  ],
+  "veredito": "A peça acerta na comparação da comanda, no gancho direto e no bordão final, mas deixa FGC, CDB e o nome do site na fala sem tradução, e mostra a perda de R$ 50 mil sem uma saída prática."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: 'Cara, seu dinheiro no banco tem seguro, mas só até R$ 250 mil.' já entrega a resposta e não abre lacuna. Reescrita: 'Cara, você tem dinheiro em dois bancos do mesmo dono? O seguro é um só: R$ 250 mil no total.'",
+   "Retenção (Teste do CLT): 'Segundo o InvestNews, Banco Master e Will Bank dividiram um limite só.' põe nome de site na fala. Reescrita: 'Teve caso de dois bancos, Master e Will Bank, que dividiram um limite só.' A fonte fica no cartão da tela e na legenda.",
+   "Envio: falta o pedido para uma situação concreta. Depois de 'Só R$ 250 mil ficam cobertos', inclua: 'Manda pra quem guarda dinheiro em mais de um banco.' Depois vem a pergunta SIM ou NÃO."
+  ],
+  "veredito": "Roteiro claro, pago por completo e com fim que puxa comentário, mas o gancho entrega a resposta em vez de abrir lacuna, há nome de site na fala e falta o pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Exterior of a generic bank branch with a plain glass facade at dusk, metal security shutter slowly rolling down halfway over the entrance, with no signs, no logos and no text anywhere. Empty sidewalk, no people. Slow dolly-in toward the entrance, soft cinematic light, realistic style",
+   "texto_da_fala": "É o FGC. Se o banco quebrar, ele devolve até esse valor por CPF.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Exterior of a generic bank branch with a plain glass facade at dusk, metal security shutter slowly rolling down halfway over the entrance, with no signs, no logos and no text anywhere. Empty sidewalk, no people. Slow dolly-in toward the entrance, soft cinematic light, realistic style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Close-up of a restaurant table with a single small metal tab holder where several blank paper slips are stacked up and a hand without a visible face or identifying features slides one more slip into the pile. Warm bar lighting, shallow depth of field, no writing, no numbers and no logos on the slips. Slow push-in camera move, realistic style",
+   "texto_da_fala": "Olha: é uma comanda só, tudo que você tem no grupo soma.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a restaurant table with a single small metal tab holder where several blank paper slips are stacked up and a hand without a visible face or identifying features slides one more slip into the pile. Warm bar lighting, shallow depth of field, no writing, no numbers and no logos on the slips. Slow push-in camera move, realistic style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro tabletop shot of plain unmarked gold coins in two piles on a dark wooden surface: a tall neat pile sits protected under a clear glass cloche dome, while a smaller pile of extra coins sits outside the dome, unprotected. Coins have no symbols, numbers or text. Smooth camera slide from left to right, then a slight rise, soft studio light, realistic style",
+   "texto_da_fala": "R$ 300 mil entre CDB e poupança? Só R$ 250 mil ficam cobertos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro tabletop shot of plain unmarked gold coins in two piles on a dark wooden surface: a tall neat pile sits protected under a clear glass cloche dome, while a smaller pile of extra coins sits outside the dome, unprotected. Coins have no symbols, numbers or text. Smooth camera slide from left to right, then a slight rise, soft studio light, realistic style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, seu dinheiro no banco tem seguro, mas só até R$ 250 mil.\n\nÉ o FGC. Se o banco quebrar, ele devolve até esse valor por CPF.\n\nMas vale por grupo do mesmo dono, não por marca.\n\nSegundo o InvestNews, Banco Master e Will Bank dividiram um limite só.\n\nOlha: é uma comanda só, tudo que você tem no grupo soma.\n\nR$ 300 mil entre CDB e poupança? Só R$ 250 mil ficam cobertos.\n\nAções ficam de fora, diz o FGC. Fundos e Tesouro Direto também.\n\nOs valores vêm de reportagens: antes de aplicar, confere no site do FGC.\n\nVocê já checou isso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/minhas-financas/qual-e-o-valor-maximo-garantido-pelo-fgc-veja-as-regras/",
+   "destaque": "O limite é de R$ 250 mil por CPF ou CNPJ em cada conglomerado financeiro."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T08:27:10.081697-03:00"
+}
