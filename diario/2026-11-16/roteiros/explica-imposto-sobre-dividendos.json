@@ -1,0 +1,205 @@
+{
+ "gancho": {
+  "formula": "Reação do Heitor + número",
+  "texto": "Cara, olha isso: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.",
+  "na_tela": "R$ 6 mil ficam pelo caminho",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Reação do Heitor + número",
+   "texto": "Cara, olha isso: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.",
+   "na_tela": "R$ 6 mil ficam pelo caminho",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Sócio de empresa? De R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.",
+   "na_tela": "Sócio de empresa? Olha isso",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O imposto sobre dividendo voltou, mas só pega quem recebe mais de R$ 50 mil.",
+   "na_tela": "Imposto voltou, mas não pega todo mundo",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, olha isso: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.",
+  "Se você é sócio de empresa, isso é com você.",
+  "Dividendo é a parte do lucro que a empresa reparte.",
+  "Segundo a Receita, o limite é R$ 50 mil por mês.",
+  "Passou disso, a empresa desconta 10% do valor todo antes de pagar você.",
+  "Mas tem volta, e isso é a Receita falando.",
+  "Se você recebeu menos de R$ 600 mil no ano, pode voltar.",
+  "Calma: na dúvida, confere com um contador.",
+  "Manda pra quem é sócio ou recebe lucro de empresa.",
+  "Você já viu esse desconto cair? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, olha isso: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho. Se você é sócio de empresa, isso é com você. Dividendo é a parte do lucro que a empresa reparte. Segundo a Receita, o limite é R$ 50 mil por mês. Passou disso, a empresa desconta 10% do valor todo antes de pagar você. Mas tem volta, e isso é a Receita falando. Se você recebeu menos de R$ 600 mil no ano, pode voltar. Calma: na dúvida, confere com um contador. Manda pra quem é sócio ou recebe lucro de empresa. Você já viu esse desconto cair? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "R$ 6 mil ficam pelo caminho",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Desde 1º de janeiro de 2026",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 3,
+   "texto": "Limite: R$ 50 mil por mês",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "10% do valor todo",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 60 mil pagos = R$ 6 mil de imposto",
+   "fonte": "Altera Capital"
+  },
+  {
+   "fala": 6,
+   "texto": "Menos de R$ 600 mil no ano: pode voltar",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 8,
+   "texto": "Manda pra um sócio",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "imposto sobre dividendos 2026: quem paga",
+ "legenda": "Imposto sobre dividendos em 2026: quem paga e o que muda?\n\nDesde 1º de janeiro de 2026, o imposto sobre dividendos voltou, mas só para valores altos. Dividendo é a parte do lucro que a empresa reparte com quem é sócio ou tem ações. Segundo a Receita Federal e a Lei 15.270/2025, se uma mesma empresa paga mais de R$ 50 mil no mês à mesma pessoa, ela desconta 10% do valor total. Exemplo: R$ 60 mil pagos geram R$ 6 mil de imposto.\n\nQuem recebe até R$ 50 mil por mês de cada empresa não tem desconto na fonte. E tem volta: segundo a Receita, se os rendimentos do ano somarem menos de R$ 600 mil, o imposto retido pode ser devolvido.\n\nO que ainda não se sabe: se a regra vale para empresas do Simples Nacional (o Supremo ainda não julgou) e como funcionará o imposto mínimo para quem recebe mais de R$ 600 mil no ano. Na dúvida, confira com um contador.\n\nManda pra quem é sócio ou recebe lucro de empresa.\n\nConteúdo educativo, não é recomendação de investimento. Eu sou o Heitor, do Termômetro de Crise: só mostramos a temperatura do mundo.\n\n#dividendos #impostoderenda #receitafederal #educacaofinanceira",
+ "hashtags": [
+  "#dividendos",
+  "#impostoderenda",
+  "#receitafederal",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, de R$ 60 mil, R$ 6 mil ficam pelo caminho.",
+  "topicos": [
+   "Segundo a Receita, passou de R$ 50 mil no mês, a empresa desconta 10%.",
+   "É do valor todo: em R$ 60 mil, o desconto é R$ 6 mil.",
+   "Segundo a Receita, abaixo de R$ 600 mil no ano, o imposto pode voltar.",
+   "Na dúvida, confere com um contador. Manda pra quem é sócio."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Não é notícia do minuto: é explicação com regra, limite e exemplo de conta, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Na fala \"de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho\" há dois números. Deixe um só na fala, por exemplo \"Cara, olha isso: tem sócio que perde R$ 6 mil na fonte\", e ponha o R$ 60 mil no cartão da tela. Assim passa no Teste do CLT.",
+   "Falta a comparação viva (sanguíneo) e o que ainda não se sabe (melancólico). Acrescente uma fala simples, como \"é como o que sai do salário antes de cair na conta\". Acrescente também \"e ainda não se sabe se vale pra quem é do Simples\", que já está na legenda.",
+   "Em \"Se você recebeu menos de R$ 600 mil no ano, pode voltar\", o \"voltar\" fica solto. Reescreva como \"o imposto que descontaram pode ser devolvido\". Antes do \"Sem alarde. Eu sou só o termômetro!\", inclua a fala \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\"."
+  ],
+  "veredito": "A peça tem gancho de espanto, fonte dita, saída clara (\\\"tem volta\\\") e bordão certo, mas pesa em números na primeira fala e não traz comparação do dia a dia, o que ainda não se sabe nem a apresentação padrão do Heitor."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Cara, olha isso: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.\" O \"Cara, olha isso\" gasta tempo, e quem não é sócio só descobre na 2ª frase que não é com ele. Reescrita: \"Sócio de empresa: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.\" Quem é sócio se reconhece no primeiro segundo e o número chega junto. Se quiser manter a voz do Heitor, \"Sócio de empresa, presta atenção: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.\"",
+   "Conversa: \"Você já viu esse desconto cair? Comenta SIM ou NÃO.\" Só sócio sabe responder, e o público geral é CLT. Reescrita com os mesmos fatos, para mais gente comentar: \"Passou de R$ 50 mil, o desconto de 10% vem sobre o valor todo. Você achava que era só sobre o que passou? Comenta SIM ou NÃO.\"",
+   "Retenção: \"Se você recebeu menos de R$ 600 mil no ano, pode voltar.\" Não fica claro o que volta. Reescrita: \"Se você recebeu menos de R$ 600 mil no ano, esse desconto pode voltar pra você.\""
+  ],
+  "veredito": "Roteiro limpo, com número concreto, resposta rápida, virada \\\"mas tem volta\\\" e envio para uma situação específica; para viralizar falta abrir já pela identificação do sócio e fazer uma pergunta final que quem não é sócio também queira responder."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Top-down shot of a wooden meeting table in a small, bright office. A round golden pie made of stacked coins is being divided into equal slices that slide outward toward empty chairs around the table. Slow overhead dolly-in, soft warm daylight, no people, no text, no numbers, no logos",
+   "texto_da_fala": "Dividendo é a parte do lucro que a empresa reparte.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot of a wooden meeting table in a small, bright office. A round golden pie made of stacked coins is being divided into equal slices that slide outward toward empty chairs around the table. Slow overhead dolly-in, soft warm daylight, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Close-up of a neat stack of gold coins on a clean desk. A mechanical metal arm slides in from the side and pushes a small portion of the coins off the edge into a dark slot, while the larger remaining stack stays. Slow push-in camera with shallow depth of field, cool office lighting, no people, no text, no numbers, no logos",
+   "texto_da_fala": "Passou disso, a empresa desconta 10% do valor todo antes de pagar você.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a neat stack of gold coins on a clean desk. A mechanical metal arm slides in from the side and pushes a small portion of the coins off the edge into a dark slot, while the larger remaining stack stays. Slow push-in camera with shallow depth of field, cool office lighting, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A glass jar on a wooden table; gold coins float upward in a gentle arc and drop back into the jar one by one, as if returning home. Slow orbiting camera around the jar, soft morning light through a window, blurred home-office background, no people, no text, no numbers, no logos",
+   "texto_da_fala": "Se você recebeu menos de R$ 600 mil no ano, pode voltar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A glass jar on a wooden table; gold coins float upward in a gentle arc and drop back into the jar one by one, as if returning home. Slow orbiting camera around the jar, soft morning light through a window, blurred home-office background, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, olha isso: de R$ 60 mil de lucro, R$ 6 mil ficam pelo caminho.\n\nSe você é sócio de empresa, isso é com você.\n\nDividendo é a parte do lucro que a empresa reparte.\n\nSegundo a Receita, o limite é R$ 50 mil por mês.\n\nPassou disso, a empresa desconta 10% do valor todo antes de pagar você.\n\nMas tem volta, e isso é a Receita falando.\n\nSe você recebeu menos de R$ 600 mil no ano, pode voltar.\n\nCalma: na dúvida, confere com um contador.\n\nManda pra quem é sócio ou recebe lucro de empresa.\n\nVocê já viu esse desconto cair? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Receita Federal (gov.br)",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-orienta-sobre-os-procedimentos-para-o-recolhimento-do-imposto-de-renda-retido-na-fonte-sobre-lucros-e-dividendos",
+   "destaque": "A Lei 15.270, de 26 de novembro de 2025, criou a retenção de Imposto de Renda na fonte sobre lucros e dividendos pagos por empresas a…"
+  },
+  {
+   "veiculo": "Receita Federal (gov.br)",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos/manual_padrao_rfb_per_tributacao_sutri_v2.pdf",
+   "destaque": "Segundo o documento de perguntas e respostas da Receita (versão de dezembro de 2025), a retenção vale desde janeiro de 2026."
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-arrecada-r-53-bi-com-ir-sobre-lucros-e-dividendos-em-2026/",
+   "destaque": "Dado mais recente que encontramos, de 22/10/2026: de janeiro a setembro, a Receita arrecadou R$ 5,26 bilhões com o IR sobre lucros e…"
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T09:05:08.828137-03:00"
+}
