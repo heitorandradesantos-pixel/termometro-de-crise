@@ -1,0 +1,195 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / reação",
+  "texto": "Cara, o Tesouro foi hackeado. Cerca de 30 mil CPFs ficaram expostos.",
+  "na_tela": "Tesouro hackeado: 30 mil CPFs",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / reação",
+   "texto": "Cara, o Tesouro foi hackeado. Cerca de 30 mil CPFs ficaram expostos.",
+   "na_tela": "Tesouro hackeado: 30 mil CPFs",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Recebe do governo? Sua chave Pix pode estar entre cerca de 4 mil expostas.",
+   "na_tela": "Sua chave Pix pode estar lá",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Sem prejuízo financeiro, diz o Tesouro. O perigo é a mensagem no seu celular.",
+   "na_tela": "O perigo é a mensagem",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o Tesouro foi hackeado. Cerca de 30 mil CPFs ficaram expostos.",
+  "Descoberto em 4 de novembro, divulgado só oito dias depois.",
+  "Os 30 mil são do e-Serviços: servidor, contador, gente de prefeitura.",
+  "As chaves Pix, cerca de 4 mil, são de quem recebe do governo.",
+  "Calma: segundo o Tesouro, não houve prejuízo financeiro.",
+  "O risco é o golpe: com seu CPF, o golpista parece te conhecer.",
+  "É como um estranho que sabe seu nome: não prova que é do governo.",
+  "Pediu dado, senha ou Pix em nome do governo? Não clique e não pague.",
+  "Você já recebeu mensagem assim? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o Tesouro foi hackeado. Cerca de 30 mil CPFs ficaram expostos. Descoberto em 4 de novembro, divulgado só oito dias depois. Os 30 mil são do e-Serviços: servidor, contador, gente de prefeitura. As chaves Pix, cerca de 4 mil, são de quem recebe do governo. Calma: segundo o Tesouro, não houve prejuízo financeiro. O risco é o golpe: com seu CPF, o golpista parece te conhecer. É como um estranho que sabe seu nome: não prova que é do governo. Pediu dado, senha ou Pix em nome do governo? Não clique e não pague. Você já recebeu mensagem assim? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Tesouro hackeado: 30 mil CPFs",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Oito dias para divulgar",
+   "fonte": "Jornal de Brasília"
+  },
+  {
+   "fala": 2,
+   "texto": "30 mil cadastros",
+   "fonte": "Jornal de Brasília"
+  },
+  {
+   "fala": 3,
+   "texto": "4 mil chaves Pix",
+   "fonte": "ICL Notícias"
+  },
+  {
+   "fala": 4,
+   "texto": "Sem prejuízo financeiro",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 5,
+   "texto": "Risco: golpe",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 7,
+   "texto": "Não clique. Não pague.",
+   "fonte": "InfoMoney"
+  }
+ ],
+ "retomada": 5,
+ "busca": "ataque hacker ao Tesouro Nacional: o que se sabe",
+ "legenda": "Ataque hacker ao Tesouro Nacional: o que se sabe e como se proteger.\n\nSegundo o Tesouro, o acesso foi detectado em 4 de novembro e só divulgado em 12/11. Foram expostos nome, CPF e e-mail de cerca de 30 mil cadastros do e-Serviços e cerca de 4 mil chaves Pix de quem recebe pagamentos do governo federal. O Tesouro diz que não houve prejuízo financeiro.\n\nO risco apontado pelo próprio órgão é o golpe por mensagem ou ligação, com dados que deixam a conversa mais convincente. Ainda não se sabe quem atacou nem como cada pessoa pode saber se foi atingida.\n\nO passo calmo: desconfie de quem cita o governo e pede dado, senha ou pagamento. Não clique em link, não faça Pix para \"liberar\" nada e, se quiser checar, digite você mesmo o endereço do órgão. Se já passou dados ou pagou, avise seu banco e registre um boletim de ocorrência.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#tesouronacional #golpe #pix #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#tesouronacional",
+  "#golpe",
+  "#pix",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Hackearam o Tesouro: cerca de 30 mil CPFs expostos. Presta atenção.",
+  "topicos": [
+   "Segundo o Tesouro, descobriram em 4 de novembro e divulgaram oito dias depois.",
+   "Expostos: cerca de 30 mil cadastros e cerca de 4 mil chaves Pix.",
+   "Sem prejuízo financeiro, segundo o Tesouro, mas o risco é golpe por mensagem.",
+   "Pediu dado, senha ou Pix em nome do governo? Não clique e não pague."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários fatos e o que fazer, e pede calma e contexto, não urgência de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Falas \"Descoberto em 4 de novembro, divulgado só oito dias depois\" e \"Os 30 mil são do e-Serviços: servidor, contador, gente de prefeitura\": cada uma tem dois números ou um nome de sistema. Divida em falas com uma ideia só e troque \"e-Serviços\" por algo como \"o sistema do Tesouro usado por servidor, contador e gente de prefeitura\". O nome fica no cartão da tela.",
+   "Fala \"divulgado só oito dias depois\": o \"só\" sugere culpa que a fonte não diz. Diga o fato sem o juízo, por exemplo \"o Tesouro divulgou oito dias depois\". Assim a peça fica sem alarde.",
+   "Antes do bordão, falta a assinatura da casa: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Falta também dizer, em uma frase, o que ainda não se sabe (a legenda diz que não se sabe quem atacou nem como saber se você foi atingido). Isso responde ao \"foi comigo?\" sem inventar fato."
+  ],
+  "veredito": "A peça fala com quem pode cair no golpe: tem gancho direto, \\\"Calma\\\", a comparação do estranho que sabe seu nome e um passo simples. Falta passar no Teste do CLT, porque tem jargão de sistema e falas com dois números. Falta também a assinatura do Heitor no fim e o \\\"ainda não se sabe\\\" na fala."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o Tesouro foi hackeado. Cerca de 30 mil CPFs ficaram expostos.\" parece manchete e não fala do bolso de quem assiste. Reescrita: \"Cara, 30 mil CPFs vazaram do Tesouro. O perigo pra você é a mensagem que pode chegar depois.\"",
+   "Retenção: \"Os 30 mil são do e-Serviços: servidor, contador, gente de prefeitura.\" traz nome de sistema na fala, o que o Teste do CLT não aceita. Reescrita: \"Os 30 mil usam um sistema do Tesouro: servidor, contador, gente de prefeitura.\" Em \"Descoberto em 4 de novembro, divulgado só oito dias depois\", deixe só \"divulgado só oito dias depois\" e a data fica na tela.\", ",
+   "Envio: antes do SIM ou NÃO, falta um pedido para uma situação concreta. Reescrita: \"Manda pra quem trabalha em prefeitura ou recebe do governo. Você já recebeu mensagem assim? Comenta SIM ou NÃO.\""
+  ],
+  "veredito": "Roteiro claro, com a metáfora do estranho que sabe seu nome e um fim que puxa comentário. Falta um gancho que fale do bolso de quem assiste, uma fala mais leve (sem nome de sistema nem datas) e um pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in down the aisle of an empty municipal government office in soft morning light: rows of tidy desks, desktop monitors showing only blurry abstract glowing light, stacked paper folders and a rubber stamp in the foreground. Shallow depth of field, no people, no readable text, no logos",
+   "texto_da_fala": "Os 30 mil são do e-Serviços: servidor, contador, gente de prefeitura.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in down the aisle of an empty municipal government office in soft morning light: rows of tidy desks, desktop monitors showing only blurry abstract glowing light, stacked paper folders and a rubber stamp in the foreground. Shallow depth of field, no people, no readable text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Macro slow orbit around a smartphone lying on a wooden table, its screen showing only a soft, blank blue glow with no symbols or text, next to a small stack of plain unmarked envelopes. Warm window light, shallow depth of field, no people, no logos",
+   "texto_da_fala": "As chaves Pix, cerca de 4 mil, são de quem recebe do governo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro slow orbit around a smartphone lying on a wooden table, its screen showing only a soft, blank blue glow with no symbols or text, next to a small stack of plain unmarked envelopes. Warm window light, shallow depth of field, no people, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "A smartphone on a dim living-room table vibrates and lights up with a blank bright glow (no readable content), casting light on the surface. Slow push-in toward the phone while a hand briefly enters the frame, hesitates above the screen, then pulls back. Only the hand is visible, no face, no text, no logos",
+   "texto_da_fala": "Pediu dado, senha ou Pix em nome do governo? Não clique e não pague.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A smartphone on a dim living-room table vibrates and lights up with a blank bright glow (no readable content), casting light on the surface. Slow push-in toward the phone while a hand briefly enters the frame, hesitates above the screen, then pulls back. Only the hand is visible, no face, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o Tesouro foi hackeado. Cerca de 30 mil CPFs ficaram expostos.\n\nDescoberto em 4 de novembro, divulgado só oito dias depois.\n\nOs 30 mil são do e-Serviços: servidor, contador, gente de prefeitura.\n\nAs chaves Pix, cerca de 4 mil, são de quem recebe do governo.\n\nCalma: segundo o Tesouro, não houve prejuízo financeiro.\n\nO risco é o golpe: com seu CPF, o golpista parece te conhecer.\n\nÉ como um estranho que sabe seu nome: não prova que é do governo.\n\nPediu dado, senha ou Pix em nome do governo? Não clique e não pague.\n\nVocê já recebeu mensagem assim? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/onde-investir/tesouro-suspende-sistemas-e-tira-dados-fiscais-do-ar-apos-ataque/",
+   "destaque": "O Tesouro diz que não houve prejuízo financeiro nem comprometimento dos sistemas responsáveis pelas operações centrais do órgão."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T07:18:42.947608-03:00"
+}
