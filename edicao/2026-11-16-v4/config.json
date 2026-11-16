@@ -1,15 +1,88 @@
 {
  "saida": "educar-ou-ser-educado-editado.mp4",
  "fim": 92.6,
- "remover": [[46.10, 47.95], [69.60, 71.20]],
+ "remover": [
+  [
+   1.05,
+   1.55
+  ],
+  [
+   46.1,
+   47.95
+  ],
+  [
+   69.6,
+   71.2
+  ]
+ ],
  "destaques": "\\d|educa|dólar|inflação|diesel|oportunidade|estudar|inteligência|financeira|comenta",
- "nomes": [["Heitor", "Andrade"]],
- "corrigir": [[["dois", "meses"], ["três", "semanas"]]],
+ "nomes": [
+  [
+   "Heitor",
+   "Andrade"
+  ]
+ ],
+ "corrigir": [
+  [
+   [
+    "dois",
+    "meses"
+   ],
+   [
+    "três",
+    "semanas"
+   ]
+  ]
+ ],
  "cartoes": [
-  [15.9, 18.5, "*Educar* ou *ser educado*?", ""],
-  [48.0, 53.4, "Dólar hoje", "CNN Brasil", {"tipo": "manchete", "veiculo": "CNN Brasil", "titulo": "Dólar supera R$ 5,70 e Ibovespa cai com pauta fiscal em foco", "data": "16/11/2026"}],
-  [62.0, 69.5, "Véspera do 2º turno", "CNN Brasil", {"tipo": "manchete", "veiculo": "CNN Brasil", "titulo": "Bolsa fecha em alta na última sessão antes do 2º turno; dólar cai a R$ 4,98", "data": "23/10/2026"}],
-  [71.3, 78.3, "Dólar em 3 semanas: *+14,5%*", "Fonte: CNN Brasil (23/10 e 16/11/2026)", {"tipo": "variacao", "de": "R$ 4,98", "para": "R$ 5,70", "delta": "+14,5%", "sobe": true}],
-  [83.9, 89.7, "Estude: *inteligência financeira*", ""]
+  [
+   15.9,
+   18.5,
+   "*Educar* ou *ser educado*?",
+   ""
+  ],
+  [
+   48.0,
+   53.4,
+   "Dólar hoje",
+   "CNN Brasil",
+   {
+    "tipo": "manchete",
+    "veiculo": "CNN Brasil",
+    "titulo": "Dólar supera R$ 5,70 e Ibovespa cai com pauta fiscal em foco",
+    "data": "16/11/2026"
+   }
+  ],
+  [
+   62.0,
+   69.5,
+   "Véspera do 2º turno",
+   "CNN Brasil",
+   {
+    "tipo": "manchete",
+    "veiculo": "CNN Brasil",
+    "titulo": "Bolsa fecha em alta na última sessão antes do 2º turno; dólar cai a R$ 4,98",
+    "data": "23/10/2026"
+   }
+  ],
+  [
+   71.3,
+   78.3,
+   "Dólar em 3 semanas: *+14,5%*",
+   "Fonte: CNN Brasil (23/10 e 16/11/2026)",
+   {
+    "tipo": "variacao",
+    "de": "R$ 4,98",
+    "para": "R$ 5,70",
+    "delta": "+14,5%",
+    "sobe": true
+   }
+  ],
+  [
+   83.9,
+   89.7,
+   "Estude: *inteligência financeira*",
+   ""
+  ]
  ]
 }
