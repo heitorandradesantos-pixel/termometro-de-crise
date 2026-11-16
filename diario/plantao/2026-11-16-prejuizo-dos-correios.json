@@ -1,0 +1,126 @@
+{
+ "titulo": "Prejuízo dos Correios e empréstimos com aval da União: o que se sabe",
+ "descricao": "Correios perderam R$ 8,5 bi em 2025 e R$ 1,9 bi no 3º tri de 2026. A União garantiu dois empréstimos, de R$ 12 bi e R$ 7 bi. Veja o que está confirmado.",
+ "palavra_chave": "prejuízo dos correios",
+ "lead": "Os Correios tiveram prejuízo de R$ 1,9 bilhão no terceiro trimestre de 2026, segundo o balanço divulgado em novembro. Em 28/10, o Ministério da Fazenda publicou no Diário Oficial a garantia da União a um novo empréstimo de R$ 7 bilhões. Em dezembro de 2025, a estatal já havia tomado R$ 12 bilhões, também com aval do Tesouro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Os Correios tiveram prejuízo de R$ 1,9 bilhão no terceiro trimestre de 2026, 19% a mais que os R$ 1,6 bilhão de julho a setembro de 2025. A estatal chega ao fim do ano com prejuízo acumulado perto de R$ 7,5 bilhões. A empresa diz que o resultado ficou dentro das projeções e R$ 272 milhões abaixo do previsto.",
+   "fonte_url": "https://www.brasil247.com/economia/correios-tem-prejuizo-de-r-19-bilhao-no-terceiro-trimestre/",
+   "data": "2026-11-16",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  },
+  {
+   "texto": "A estatal registra prejuízo anual desde 2022. Em 2025, a perda foi de R$ 8,5 bilhões. Segundo o TCU, o patrimônio líquido (o que sobra depois de pagar todas as dívidas) ficou negativo em R$ 13,16 bilhões no fim de 2025.",
+   "fonte_url": "https://paraibabusiness.com.br/tesouro-garante-emprestimo-de-r-7-bilhoes-aos-correios-em-meio-a-crise-financeira/",
+   "data": "2026-10-28",
+   "veiculo": "Paraíba Business",
+   "confiavel": false
+  },
+  {
+   "texto": "No primeiro semestre de 2026, o prejuízo líquido foi de R$ 5,55 bilhões, alta de 30,36% sobre o mesmo período de 2025. Em nota, a empresa citou queda de receitas, despesas financeiras e contingências judiciais (possíveis perdas em processos).",
+   "fonte_url": "https://www.brasilemfolhas.com.br/2026/09/correios-pedem-emprestimo-de-r-7-bilhoes-a-bancos-privados/",
+   "data": "2026-09-10",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Em dezembro de 2025, os Correios tomaram R$ 12 bilhões com Itaú Unibanco, Bradesco, Santander, Banco do Brasil e Caixa, com aval do Tesouro. A taxa foi de 115,13% do CDI, a taxa básica de juros entre bancos.",
+   "fonte_url": "https://www.infomoney.com.br/brasil/correios-formalizam-proposta-para-novo-emprestimo-de-r-7-bi-com-bancos-privados/",
+   "data": "2026-09-10",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 3 de setembro, os Correios pediram a garantia da União para um novo empréstimo de R$ 7 bilhões. Os bancos são ABC Brasil, Citibank, Deutsche Bank e J.P. Morgan. O custo é de 114,26% do CDI, com prazo de 15 anos e 3 anos de carência (período sem pagar o principal).",
+   "fonte_url": "https://revistaoeste.com/economia/correios-pedem-aval-da-uniao-para-novo-emprestimo-de-r-7-bilhoes/",
+   "data": "2026-09-03",
+   "veiculo": "Revista Oeste",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ministério da Fazenda aprovou a garantia em 27/10. O despacho do ministro Dario Durigan saiu no Diário Oficial em 28/10. A garantia significa que o governo federal paga as parcelas se os Correios não pagarem.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/correios-obtem-garantia-da-uniao-para-emprestimo-de-r-7-bilhoes",
+   "data": "2026-10-28",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Folha, a previsão era liberar R$ 5 bilhões na assinatura e R$ 2 bilhões até dezembro. Os recursos vão para o Plano de Reestruturação 2025-2027, que inclui plano de demissão voluntária, fechamento de unidades deficitárias e quitação de dívidas com fornecedores.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/10/28/correios-obtem-garantia-do-tesouro-nacional-para-novo-emprestimo-de-r-7-bilhoes",
+   "data": "2026-10-28",
+   "veiculo": "O Tempo/Folhapress",
+   "confiavel": false
+  },
+  {
+   "texto": "O governo reservou R$ 6 bilhões no Orçamento de 2027 para apoiar a estatal, segundo a imprensa.",
+   "fonte_url": "https://www.brasilemfolhas.com.br/2026/09/correios-pedem-emprestimo-de-r-7-bilhoes-a-bancos-privados/",
+   "data": "2026-09-10",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Dezembro de 2025: Correios contratam R$ 12 bilhões com cinco bancos, com aval do Tesouro.",
+   "fonte_url": "https://www.infomoney.com.br/brasil/correios-formalizam-proposta-para-novo-emprestimo-de-r-7-bi-com-bancos-privados/",
+   "data": "2025-12-01",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "3/09: Correios pedem garantia da União para novo empréstimo de R$ 7 bilhões.",
+   "fonte_url": "https://revistaoeste.com/economia/correios-pedem-aval-da-uniao-para-novo-emprestimo-de-r-7-bilhoes/",
+   "data": "2026-09-03",
+   "veiculo": "Revista Oeste",
+   "confiavel": false
+  },
+  {
+   "texto": "10/09: Imprensa mostra que o pedido foi formalizado e que o custo seria de 114,26% do CDI. Os Correios confirmam negociações.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/9/10/correios-formalizam-pedido-de-novo-emprestimo-de-r-7-bilhoes-com-quatro-bancos",
+   "data": "2026-09-10",
+   "veiculo": "O Tempo/Folhapress",
+   "confiavel": false
+  },
+  {
+   "texto": "27/10: Fazenda aprova a garantia da União ao empréstimo de R$ 7 bilhões.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/10/28/correios-obtem-garantia-do-tesouro-nacional-para-novo-emprestimo-de-r-7-bilhoes",
+   "data": "2026-10-27",
+   "veiculo": "O Tempo/Folhapress",
+   "confiavel": false
+  },
+  {
+   "texto": "28/10: Despacho de Dario Durigan é publicado no Diário Oficial da União.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/correios-obtem-garantia-da-uniao-para-emprestimo-de-r-7-bilhoes",
+   "data": "2026-10-28",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Novembro: Correios divulgam prejuízo de R$ 1,9 bilhão no 3º trimestre.",
+   "fonte_url": "https://www.brasil247.com/economia/correios-tem-prejuizo-de-r-19-bilhao-no-terceiro-trimestre/",
+   "data": "2026-11-16",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado, nas fontes consultadas, se os R$ 5 bilhões da primeira parcela já foram liberados. A previsão era de liberação na assinatura e de R$ 2 bilhões até dezembro.",
+  "Os Correios dizem que o plano busca voltar ao lucro a partir de 2027. Não há confirmação de que isso vai acontecer. O TCU apontou fragilidades no plano e riscos fiscais, segundo o Paraíba Business.",
+  "A Revista Oeste informa que o TCU abriu processo para apurar a atuação de gestores na primeira operação e apontou possível insuficiência na avaliação de riscos. Não há conclusão sobre responsabilidade de ninguém.",
+  "Não está claro se serão necessários novos recursos públicos além do aporte previsto no Orçamento de 2027 e das garantias. Nenhuma fonte oficial detalhou isso."
+ ],
+ "o_que_muda_para_voce": [
+  "O serviço postal segue funcionando. O objetivo declarado do empréstimo é pagar dívidas em atraso e sustentar a reestruturação da estatal.",
+  "A garantia da União não é perdão de dívida e não significa que o Tesouro já pagou algo. Os Correios continuam responsáveis pelas parcelas. Se não pagarem, a conta vai para o Tesouro, que é dinheiro público.",
+  "Quem não tem relação direta com os Correios não vê mudança imediata em conta, investimento ou benefício por causa desse aval.",
+  "Se os prejuízos continuarem, o governo pode ter de colocar mais dinheiro na empresa. Esse dinheiro sai do Orçamento, que é pago pelos impostos."
+ ],
+ "como_se_proteger": [],
+ "slug": "prejuizo-dos-correios",
+ "publicado_em": "2026-11-16T12:52:23.172034",
+ "atualizado_em": "2026-11-16T12:52:23.172034",
+ "assunto": "O que se sabe sobre o prejuízo dos Correios e os empréstimos com garantia do governo federal",
+ "turno": "meio"
+}
