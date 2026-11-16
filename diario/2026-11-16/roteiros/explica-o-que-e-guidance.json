@@ -1,0 +1,200 @@
+{
+ "gancho": {
+  "formula": "Identidade primeiro + espanto",
+  "texto": "Cliente do Banco do Brasil, olha que loucura: a ação caiu 8,35% por uma palavra.",
+  "na_tela": "Ação caiu 8,35% por uma palavra",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Identidade primeiro + espanto",
+   "texto": "Cliente do Banco do Brasil, olha que loucura: a ação caiu 8,35% por uma palavra.",
+   "na_tela": "Ação caiu 8,35% por uma palavra",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Ação do Banco do Brasil cai 8,35%, e o motivo não é o seu saldo.",
+   "na_tela": "Ação cai 8,35%: não é seu saldo",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "O Banco do Brasil cortou a previsão de lucro pela metade. A ação caiu 8,35%.",
+   "na_tela": "Previsão de lucro cortada pela metade",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cliente do Banco do Brasil, olha que loucura: a ação caiu 8,35% por uma palavra.",
+  "Guidance é a previsão de lucro que a empresa divulga.",
+  "Se você só tem conta lá, isso não mexe no seu saldo.",
+  "Antes: R$ 18 bi a R$ 22 bi.",
+  "Agora: R$ 9 bi a R$ 11 bi. Caiu pela metade.",
+  "E aí vem a parte que pouca gente viu.",
+  "O banco diz: clientes atrasando dívidas, principalmente no agro.",
+  "A ação fechou em queda de 8,35%.",
+  "Calma, é lucro do banco. É só acompanhar.",
+  "Manda pra quem tem conta no Banco do Brasil.",
+  "Já sabia o que é guidance? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cliente do Banco do Brasil, olha que loucura: a ação caiu 8,35% por uma palavra. Guidance é a previsão de lucro que a empresa divulga. Se você só tem conta lá, isso não mexe no seu saldo. Antes: R$ 18 bi a R$ 22 bi. Agora: R$ 9 bi a R$ 11 bi. Caiu pela metade. E aí vem a parte que pouca gente viu. O banco diz: clientes atrasando dívidas, principalmente no agro. A ação fechou em queda de 8,35%. Calma, é lucro do banco. É só acompanhar. Manda pra quem tem conta no Banco do Brasil. Já sabia o que é guidance? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Ação caiu 8,35% por uma palavra",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Guidance = previsão de lucro da empresa",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Antes: R$ 18 bi a R$ 22 bi",
+   "fonte": "Reuters (via Investing.com)"
+  },
+  {
+   "fala": 4,
+   "texto": "Agora: R$ 9 bi a R$ 11 bi",
+   "fonte": "Reuters (via Investing.com)"
+  },
+  {
+   "fala": 6,
+   "texto": "Inadimplência no agro",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 7,
+   "texto": "Ação: -8,35% (R$ 15,48)",
+   "fonte": "Exame"
+  }
+ ],
+ "retomada": 5,
+ "busca": "por que a ação do Banco do Brasil caiu",
+ "legenda": "Por que a ação do Banco do Brasil caiu 8,35%? Por causa de uma palavra: guidance.\n\nGuidance é a previsão de lucro que a própria empresa divulga para o ano. Em 11 de novembro, o Banco do Brasil cortou a sua de R$ 18 bi a R$ 22 bi para R$ 9 bi a R$ 11 bi, segundo a Reuters. O banco aponta a inadimplência, principalmente no agro (Agência Brasil). Em 12 de novembro, a ação fechou em queda de 8,35%, a R$ 15,48, segundo a Exame.\n\nE a sua conta? O guidance trata do lucro do banco, não do saldo de quem tem conta. Nenhuma das fontes consultadas fala em problema para depositantes. A queda vale para um dia e pode mudar nos seguintes. O passo calmo é só acompanhar.\n\nManda pra quem tem conta no Banco do Brasil.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancodobrasil #guidance #economia #financaspessoais",
+ "hashtags": [
+  "#bancodobrasil",
+  "#guidance",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Cara, olha que loucura: 8,35% de queda no Banco do Brasil.",
+  "topicos": [
+   "Reuters: previsão de lucro caiu para R$ 9 bi a R$ 11 bi.",
+   "Segundo a Agência Brasil, o banco aponta inadimplência no agro.",
+   "A ação fechou em queda de 8,35%, segundo a Exame.",
+   "Segundo as fontes, é lucro do banco, não saldo: só acompanhe."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação de um conceito (guidance) com vários números, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Nas falas \"Antes: R$ 18 bi a R$ 22 bi.\" e \"Agora: R$ 9 bi a R$ 11 bi. Caiu pela metade.\", há dois números por fala e \"bi\" abreviado. Separe em frases de conversa, uma ideia por fala: \"O banco previa lucrar entre 18 e 22 bilhões no ano.\" Depois: \"Agora diz que são só uns 9 a 11 bilhões. Metade.\" Deixe o valor exato no cartão da tela.",
+   "\"A ação caiu 8,35%\" aparece duas vezes, com número exato e sem explicar o que é ação. Na primeira vez, traduza: \"a ação, que é um pedacinho do banco vendido na bolsa, caiu uns 8%\". Na segunda, corte ou troque por \"caiu de novo?\". Falta também uma comparação do dia a dia, como o dono da padaria que lucra menos que o previsto: é problema do dono, não muda o pão que você compra. E falta o que ainda não se sabe, que está na legenda: a queda vale para um dia.",
+   "O fecho vai direto para \"Sem alarde. Eu sou só o termômetro!\" e deixa de fora a apresentação padrão. Antes do bordão, coloque: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" No gancho, \"caiu por uma palavra\" simplifica demais. Diga que a queda veio do corte da previsão de lucro."
+  ],
+  "veredito": "A peça fala com o cliente do banco, responde que o saldo não muda e fecha com calma e o bordão certo. Falta simplificar os números, traduzir \\\"ação\\\", incluir uma comparação do dia a dia e a apresentação padrão do Heitor."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Antes: R$ 18 bi a R$ 22 bi. Agora: R$ 9 bi a R$ 11 bi. Caiu pela metade.\" tem quatro números de primeira e não passa no Teste do CLT. Reescrita: \"O banco previa lucro de uns 20 bilhões. Agora prevê uns 10. Caiu pela metade.\" (as faixas exatas ficam no cartão da tela).",
+   "Frase \"A ação fechou em queda de 8,35%.\" repete o gancho depois da virada e quebra o ritmo no ponto em que a pessoa decide se fica. Corte a linha e ligue a virada direto ao motivo: \"E aí vem a parte que pouca gente viu. O banco diz: clientes atrasando dívidas, principalmente no agro.\" O 8,35% fica só no gancho e na legenda."
+  ],
+  "veredito": "Gancho forte (cliente, número e \\\"uma palavra\\\") e fim com envio e comentário bem direcionados; falta enxugar os números do meio e cortar a repetição do 8,35% para segurar quem não é do assunto até o fim."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow upward tilt along a tall modern glass bank office tower in a Brazilian city under clear blue sky, reflections of clouds sliding across the glass, steady and optimistic mood, no people, no text, no logos",
+   "texto_da_fala": "Antes: R$ 18 bi a R$ 22 bi.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow upward tilt along a tall modern glass bank office tower in a Brazilian city under clear blue sky, reflections of clouds sliding across the glass, steady and optimistic mood, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Vertical shot, slow push-in on the same glass office tower under heavy gray clouds, moody overcast light, a half-empty stack of coins and paper folders on a desk in the foreground out of focus, somber mood, no faces, no text, no logos",
+   "texto_da_fala": "Agora: R$ 9 bi a R$ 11 bi. Caiu pela metade.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow push-in on the same glass office tower under heavy gray clouds, moody overcast light, a half-empty stack of coins and paper folders on a desk in the foreground out of focus, somber mood, no faces, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Vertical shot, slow dolly forward across a vast Brazilian farm field at golden hour, rows of soy crops with a dry, cracked patch of soil in the foreground, a tractor parked in the distance, subtle dust in the air, cinematic, no people, no text",
+   "texto_da_fala": "O banco diz: clientes atrasando dívidas, principalmente no agro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly forward across a vast Brazilian farm field at golden hour, rows of soy crops with a dry, cracked patch of soil in the foreground, a tractor parked in the distance, subtle dust in the air, cinematic, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cliente do Banco do Brasil, olha que loucura: a ação caiu 8,35% por uma palavra.\n\nGuidance é a previsão de lucro que a empresa divulga.\n\nSe você só tem conta lá, isso não mexe no seu saldo.\n\nAntes: R$ 18 bi a R$ 22 bi.\n\nAgora: R$ 9 bi a R$ 11 bi. Caiu pela metade.\n\nE aí vem a parte que pouca gente viu.\n\nO banco diz: clientes atrasando dívidas, principalmente no agro.\n\nA ação fechou em queda de 8,35%.\n\nCalma, é lucro do banco. É só acompanhar.\n\nManda pra quem tem conta no Banco do Brasil.\n\nJá sabia o que é guidance? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/banco-do-brasil-ve-lucro-cair-66-no-3o-tri-e-corta-pela-metade-a-previsao-para-2026/",
+   "destaque": "De janeiro a setembro, o banco acumulou lucro ajustado de R$ 8,6 bilhões."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/lucro-do-bb-cai-665-no-3o-trimestre-com-inadimplencia-do-agro",
+   "destaque": "O motivo apontado pelo banco foi a inadimplência (clientes que atrasam o pagamento de dívidas), principalmente no agronegócio, além de…"
+  },
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/banco-do-brasil-tem-maior-queda-diaria-em-18-meses-perde-r-8-bi-na-bolsa/",
+   "destaque": "Em 12 de novembro, a ação do Banco do Brasil fechou em queda de 8,35%, a R$ 15,48, a maior baixa entre os grandes bancos no dia."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T09:14:28.581996-03:00"
+}
