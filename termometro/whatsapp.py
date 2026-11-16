@@ -206,18 +206,29 @@ def capa_roteiro(roteiro: dict, nome: str, saida: Path) -> Path | None:
         return None
 
 
+ROTEIROS_POR_DIA = int(os.environ.get("ROTEIROS_POR_DIA") or "6")
+
+
 def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
     """Os roteiros aprovados do dia que ainda não foram para a conversa do próprio número (para o Heitor gravar)."""
     from . import roteirista
     if dia < ROTEIROS_DESDE:
         return f"Os roteiros para gravar começam em {ROTEIROS_DESDE}; nada enviado."
     pasta = pasta_diario / dia / "roteiros"
-    novos = []
-    for arq in sorted(pasta.glob("*.json")) if pasta.is_dir() else []:
+    novos, ja_foram = [], 0
+    for arq in sorted(pasta.glob("*.json"), key=lambda a: a.stat().st_mtime) if pasta.is_dir() else []:
         r = json.loads(arq.read_text())
-        if arq.stem.split("-")[0] in ROTEIROS_TIPOS and r.get("aprovado") and r.get("teleprompter") \
-                and not r.get("enviado_whatsapp"):
+        if arq.stem.split("-")[0] not in ROTEIROS_TIPOS:
+            continue
+        if r.get("enviado_whatsapp"):
+            ja_foram += 1
+        elif r.get("aprovado") and r.get("teleprompter"):
             novos.append((arq, r))
+    # No máximo ROTEIROS_POR_DIA no WhatsApp (pedido do Heitor, 16/11/2026: 2 polêmicos + 4 informativos).
+    # Só um roteiro marcado "urgente" (algo bombástico) passa do limite. O que sobra fica no diário, sem ir.
+    vagas = max(0, ROTEIROS_POR_DIA - ja_foram)
+    urgentes = [x for x in novos if x[1].get("urgente")]
+    novos = urgentes + [x for x in novos if not x[1].get("urgente")][:max(0, vagas - len(urgentes))]
     aviso = (os.environ.get("AVISO_ROTEIROS") or "").strip()  # ex.: "GRAVAR A PARTIR DAQUI", antes de tudo
     avisos = [x.strip() for x in aviso.split("\n---\n") if x.strip()]  # "---" sozinho na linha separa mensagens
     if not novos and not avisos:

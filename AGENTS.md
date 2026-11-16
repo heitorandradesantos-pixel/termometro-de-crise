@@ -37,6 +37,7 @@ funil de venda do e-book "Manual do Investidor". Contexto completo: `termometro/
 - Conteúdo educativo: sem recomendação de investimento (CVM), sem promessa de ganho, sem lado político, sempre com fonte.
 - Sem escassez ou contagem regressiva falsa (CDC). Nunca citar banco ou corretora como vilão pelo nome.
 - Hashtags proibidas: `#cambio`, `#cvm`. Nada de bingo neste projeto.
+- No máximo 6 roteiros por dia no WhatsApp (2 polêmicos + 4 informativos, mesclando bolso e mercado financeiro). Só passa do limite algo bombástico, com `"urgente": true` no roteiro. Referências: manhã, tarde e noite.
 - Commit só de conteúdo/ferramenta que não muda o site: adicionar `[CF-Pages-Skip]` na mensagem.
 - Vídeo que veio do app Fotos (`copy_*.mov`): transcrever cada arquivo do jeito que veio; conferir a sincronia com `-e`.
 
