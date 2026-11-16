@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso + número",
+  "texto": "Caiu em golpe no Pix? Você tem 80 dias pra pedir de volta.",
+  "na_tela": "80 DIAS pra pedir de volta",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso + número",
+   "texto": "Caiu em golpe no Pix? Você tem 80 dias pra pedir de volta.",
+   "na_tela": "80 DIAS pra pedir de volta",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Pix faz seis anos com 1 bilhão de chaves, e os golpes cresceram junto.",
+   "na_tela": "Pix: 6 anos, 1 bilhão",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu Pix caiu na conta de golpista? O banco ainda pode segurar.",
+   "na_tela": "Pix de golpe: dá pra segurar?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Caiu em golpe no Pix? Você tem 80 dias pra pedir de volta.",
+  "Olha que loucura: o Pix fez seis anos, e os golpes cresceram junto.",
+  "O botão de contestação fica no app do seu banco.",
+  "Esse pedido de devolução tem nome: MED.",
+  "Na prática, é o banco tentando segurar o dinheiro na conta do golpista.",
+  "Quanto antes, melhor: o banco do golpista pode bloquear o que ainda estiver lá.",
+  "Mas não é garantia: pode voltar só uma parte, ou nada.",
+  "Manda pra quem usa Pix todo dia. Melhor saber antes de precisar.",
+  "Já viu alguém cair nessa? Conta aqui embaixo.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Caiu em golpe no Pix? Você tem 80 dias pra pedir de volta. Olha que loucura: o Pix fez seis anos, e os golpes cresceram junto. O botão de contestação fica no app do seu banco. Esse pedido de devolução tem nome: MED. Na prática, é o banco tentando segurar o dinheiro na conta do golpista. Quanto antes, melhor: o banco do golpista pode bloquear o que ainda estiver lá. Mas não é garantia: pode voltar só uma parte, ou nada. Manda pra quem usa Pix todo dia. Melhor saber antes de precisar. Já viu alguém cair nessa? Conta aqui embaixo. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 108,
+ "segundos": 43,
+ "na_tela": [
+  {
+   "texto": "80 DIAS pra pedir de volta",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Pix: 6 anos",
+   "fonte": "Olhar Digital"
+  },
+  {
+   "fala": 2,
+   "texto": "Contestação 100% digital, no app do banco",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "MED = Mecanismo Especial de Devolução",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 5,
+   "texto": "Prazo: até 80 dias corridos",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 6,
+   "texto": "Sem garantia: depende de haver saldo",
+   "fonte": "ContaAzul"
+  }
+ ],
+ "retomada": 5,
+ "busca": "como pedir o Pix de volta depois de um golpe",
+ "legenda": "Como pedir o Pix de volta depois de um golpe? O Pix fez seis anos nesta segunda-feira (16/11), com mais de 1 bilhão de chaves cadastradas, segundo o Banco Central. Os golpes cresceram junto.\n\nSe você caiu, abra a contestação do MED (Mecanismo Especial de Devolução) no app do seu banco, na área Pix. O prazo é de até 80 dias corridos, mas quanto antes você pedir, maior a chance de ainda haver dinheiro na conta do golpista.\n\nO Banco Central fala em devolução em até 11 dias, mas isso é o máximo previsto, não garantia. Pode voltar só uma parte, ou nada. Se o banco não cumprir os prazos, dá pra reclamar na ouvidoria ou no Banco Central, pelo 145.\n\nManda pra quem usa Pix todo dia. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pix #golpe #bancocentral #educacaofinanceira",
+ "hashtags": [
+  "#pix",
+  "#golpe",
+  "#bancocentral",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Caiu em golpe no Pix? Tem 80 dias pra pedir de volta.",
+  "topicos": [
+   "O Pix fez seis anos, segundo o Olhar Digital, e os golpes cresceram junto.",
+   "Segundo o Mixvale, o MED aceita pedido até 80 dias depois do Pix.",
+   "O Banco Central fala em até 11 dias, mas depende de ter saldo.",
+   "Conteste no app do banco o quanto antes e mande pra quem usa Pix."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia do dia (o Pix fez seis anos nesta segunda, 16/11) e o passo prático é curto, bom para falar na hora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Falta o fecho padrão: antes de \"Sem alarde. Eu sou só o termômetro!\", inclua na fala \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Hoje ele só aparece na legenda.",
+   "Falta uma comparação viva (sanguíneo). Em \"Quanto antes, melhor: o banco do golpista pode bloquear o que ainda estiver lá\", use uma imagem do dia a dia, como avisar o porteiro antes de o ladrão sair do prédio. É só imagem, não é fato novo.",
+   "Em \"Olha que loucura: o Pix fez seis anos, e os golpes cresceram junto\", o tom é leve para um assunto de golpe, que pede tom sério e acolhedor. Troque por algo como \"Cara, presta atenção\". Diga também a fonte na fala, por exemplo \"80 dias, isso é o Banco Central falando, não sou eu\"."
+  ],
+  "veredito": "Roteiro útil e direto, com o que fazer, o prazo e o aviso de que não há garantia. Falta uma comparação do dia a dia, a fonte dita na fala e o fecho padrão do Heitor, além de um tom mais acolhedor no gancho."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Retenção: logo depois do gancho, a fala 'Olha que loucura: o Pix fez seis anos, e os golpes cresceram junto.' atrasa a resposta, e 'olha que loucura' não combina com um aniversário. Reescrita: 'O botão de contestação fica no app do seu banco, na área Pix.' vem primeiro, e a frase do aniversário vira 'O Pix fez seis anos. E os golpes cresceram junto.' mais adiante, ou sai do vídeo.",
+   "Envio: 'Manda pra quem usa Pix todo dia.' serve para quase todo mundo. Reescrita: 'Manda pra quem usa Pix todo dia e não sabe que tem 80 dias pra pedir de volta.' Assim o número vira o motivo de mostrar o vídeo.",
+   "Virada: 'Mas não é garantia' é fraca como retomada no meio. Reescrita: 'E aí vem a parte que pouca gente viu: não é garantia. Pode voltar só uma parte, ou nada.'"
+  ],
+  "veredito": "Gancho específico, pago rápido e com fim que puxa comentário; para viralizar, falta cortar a frase de aniversário logo depois do gancho, reforçar a virada do meio e dar ao 'manda pra quem' uma situação mais concreta."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up over-the-shoulder of a hand holding a modern smartphone with a generic banking interface made only of blank rounded cards and one softly glowing red button, no text, no letters, no numbers, no logos. A thumb taps the glowing button and the screen pulses with a gentle ripple. Slow push-in toward the screen, shallow depth of field, soft indoor daylight, no face visible",
+   "texto_da_fala": "O botão de contestação fica no app do seu banco.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up over-the-shoulder of a hand holding a modern smartphone with a generic banking interface made only of blank rounded cards and one softly glowing red button, no text, no letters, no numbers, no logos. A thumb taps the glowing button and the screen pulses with a gentle ripple. Slow push-in toward the screen, shallow depth of field, soft indoor daylight, no face visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Stylized macro scene of shiny gold coins sliding down a dark metal chute toward a small open vault slot, then a heavy steel barrier slams down and stops the coins, which pile up against it. Camera tracks sideways along the chute, then settles on the barrier. Cool blue dramatic lighting, no people, no text, no numbers, no logos",
+   "texto_da_fala": "Na prática, é o banco tentando segurar o dinheiro na conta do golpista.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Stylized macro scene of shiny gold coins sliding down a dark metal chute toward a small open vault slot, then a heavy steel barrier slams down and stops the coins, which pile up against it. Camera tracks sideways along the chute, then settles on the barrier. Cool blue dramatic lighting, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "An hourglass with sand almost run out sits in sharp focus in the foreground while, behind it, a heavy steel safe door swings shut and a padlock clicks closed with a few coins left inside. Rack focus from the hourglass to the safe, slow dolly-in, moody warm side lighting, no people, no text, no numbers, no logos",
+   "texto_da_fala": "Quanto antes, melhor: o banco do golpista pode bloquear o que ainda estiver lá.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. An hourglass with sand almost run out sits in sharp focus in the foreground while, behind it, a heavy steel safe door swings shut and a padlock clicks closed with a few coins left inside. Rack focus from the hourglass to the safe, slow dolly-in, moody warm side lighting, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Caiu em golpe no Pix? Você tem 80 dias pra pedir de volta.\n\nOlha que loucura: o Pix fez seis anos, e os golpes cresceram junto.\n\nO botão de contestação fica no app do seu banco.\n\nEsse pedido de devolução tem nome: MED.\n\nNa prática, é o banco tentando segurar o dinheiro na conta do golpista.\n\nQuanto antes, melhor: o banco do golpista pode bloquear o que ainda estiver lá.\n\nMas não é garantia: pode voltar só uma parte, ou nada.\n\nManda pra quem usa Pix todo dia. Melhor saber antes de precisar.\n\nJá viu alguém cair nessa? Conta aqui embaixo.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-08/pix-novas-regras-vao-facilitar-devolucao-de-valores-em-casos-de-golpe",
+   "destaque": "O Banco Central diz que as informações do MED (Mecanismo Especial de Devolução) são compartilhadas entre os bancos envolvidos."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T07:28:09.837286-03:00"
+}
