@@ -1,0 +1,127 @@
+{
+ "titulo": "Imposto sobre dividendos em 2026: o que se sabe",
+ "descricao": "Desde 2026, dividendos acima de R$ 50 mil por mês de uma mesma empresa têm 10% retidos na fonte. Para a maioria dos pequenos investidores, nada muda.",
+ "palavra_chave": "imposto sobre dividendos",
+ "lead": "Desde 1º de janeiro de 2026, o imposto sobre dividendos voltou no Brasil, mas só para valores altos. Se uma mesma empresa paga mais de R$ 50 mil em um mês à mesma pessoa física, ela retém 10% do total, conforme a Lei 15.270/2025 e a Receita Federal. Quem recebe até R$ 50 mil por mês de cada empresa não tem desconto na fonte. Dividendos são a parte do lucro que a empresa distribui a quem tem ações ou é sócio.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Lei 15.270, de 26 de novembro de 2025, criou a retenção de Imposto de Renda na fonte sobre lucros e dividendos pagos por empresas a pessoas físicas. A Receita Federal explicou os procedimentos de recolhimento em orientação de 6 de agosto de 2026.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-orienta-sobre-os-procedimentos-para-o-recolhimento-do-imposto-de-renda-retido-na-fonte-sobre-lucros-e-dividendos",
+   "data": "2026-08-06",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o documento de perguntas e respostas da Receita (versão de dezembro de 2025), a retenção vale desde janeiro de 2026. A alíquota é de 10% sobre a totalidade dos dividendos pagos por uma mesma pessoa jurídica a uma mesma pessoa física, quando passam de R$ 50 mil no mês.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos/manual_padrao_rfb_per_tributacao_sutri_v2.pdf",
+   "data": "2025-12-19",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "O limite é de R$ 50 mil por mês e por empresa pagadora. Quem recebe até esse valor de uma mesma empresa não sofre retenção. Exatamente R$ 50 mil também não é retido, porque a lei fala em valor superior.",
+   "fonte_url": "https://afonsocontabil.com.br/imposto-sobre-dividendos-2026/",
+   "data": "2026-10-20",
+   "veiculo": "Afonso Contábil",
+   "confiavel": false
+  },
+  {
+   "texto": "Os 10% incidem sobre o valor total do mês, não só sobre o que passa de R$ 50 mil. Exemplo de conta: R$ 60 mil pagos no mês geram R$ 6 mil de imposto retido.",
+   "fonte_url": "https://alteracapital.com.br/blog/tributacao-alta-renda-dividendos/",
+   "data": "2026-10-04",
+   "veiculo": "Altera Capital",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo as perguntas e respostas da Receita de 19/12/2025, se a soma dos rendimentos do sócio no ano ficar abaixo de R$ 600 mil, o imposto retido pode ser restituído (devolvido).",
+   "fonte_url": "https://www.e-auditoria.com.br/blog/tributacao-de-dividendos/",
+   "data": "2025-12-19",
+   "veiculo": "e-Auditoria (cita a Receita Federal)",
+   "confiavel": false
+  },
+  {
+   "texto": "Lucros apurados até 2025 têm regra de transição. Para escapar da retenção, a distribuição precisava ter sido aprovada até 31 de dezembro de 2025, segundo as perguntas e respostas da Receita.",
+   "fonte_url": "https://www.ozai.com.br/perguntas-e-respostas-sobre-a-lei-15270/",
+   "data": "2025-12-16",
+   "veiculo": "Ozai Advogados (cita a Receita Federal)",
+   "confiavel": false
+  },
+  {
+   "texto": "Dado mais recente que encontramos, de 22/10/2026: de janeiro a setembro, a Receita arrecadou R$ 5,26 bilhões com o IR sobre lucros e dividendos. A estimativa do governo para o ano caiu para R$ 10,5 bilhões. No início do ano, a previsão era de cerca de R$ 29 bilhões.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-arrecada-r-53-bi-com-ir-sobre-lucros-e-dividendos-em-2026/",
+   "data": "2026-10-22",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo reportagem de setembro, Claudemir Malaquias, chefe do Centro de Estudos Tributários e Aduaneiros da Receita, disse que o resultado foi menor por causa da versão final da regra. Ela atinge apenas lucros posteriores a 31 de dezembro de 2025.",
+   "fonte_url": "https://www.brasilemfolhas.com.br/2026/09/receita-federal-reduz-projecao-de-arrecadacao-de-ir-sobre-dividendos/",
+   "data": "2026-09-23",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Lei 15.270 é sancionada em 26/11/2025 e publicada no Diário Oficial em 27/11, com efeitos a partir de 1º de janeiro de 2026.",
+   "fonte_url": "https://www.e-auditoria.com.br/blog/tributacao-de-dividendos/",
+   "data": "2025-11-27",
+   "veiculo": "e-Auditoria",
+   "confiavel": false
+  },
+  {
+   "texto": "Receita Federal publica perguntas e respostas sobre a nova tributação de lucros e dividendos.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/dezembro/receita-federal-lanca-perguntas-e-respostas-sobre-tributacao-de-altas-rendas-consideracoes-sobre-lucros-e-dividendos/manual_padrao_rfb_per_tributacao_sutri_v2.pdf",
+   "data": "2025-12-19",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 1º de janeiro de 2026, a retenção de 10% passa a valer para pagamentos acima de R$ 50 mil por mês.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-orienta-sobre-os-procedimentos-para-o-recolhimento-do-imposto-de-renda-retido-na-fonte-sobre-lucros-e-dividendos",
+   "data": "2026-01-01",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 6 de agosto, a Receita publica orientação sobre o recolhimento do imposto retido sobre lucros e dividendos.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-orienta-sobre-os-procedimentos-para-o-recolhimento-do-imposto-de-renda-retido-na-fonte-sobre-lucros-e-dividendos",
+   "data": "2026-08-06",
+   "veiculo": "Receita Federal (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 23 de setembro, a Receita reduz a projeção do IR sobre lucros e dividendos em 2026 de R$ 17,2 bilhões para R$ 10,5 bilhões.",
+   "fonte_url": "https://www.brasilemfolhas.com.br/2026/09/receita-federal-reduz-projecao-de-arrecadacao-de-ir-sobre-dividendos/",
+   "data": "2026-09-23",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 22 de outubro, dados mostram R$ 5,26 bilhões arrecadados de janeiro a setembro com o IR sobre lucros e dividendos.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-arrecada-r-53-bi-com-ir-sobre-lucros-e-dividendos-em-2026/",
+   "data": "2026-10-22",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se a retenção vale para empresas do Simples Nacional (regime simplificado de pequenas empresas) segue em disputa. A Receita entende que vale. Contribuintes questionam, e o Supremo Tribunal Federal ainda não julgou a ADI 7.917, segundo o escritório Barbieri Advogados. Não há decisão final.",
+  "Quanto o governo vai arrecadar até dezembro. R$ 10,5 bilhões é projeção da Receita, não resultado. Não encontramos dados oficiais de outubro.",
+  "Quantas pessoas já tiveram dividendos retidos. Não encontramos um número oficial divulgado pela Receita sobre isso.",
+  "Como o imposto mínimo anual para quem recebe mais de R$ 600 mil por ano vai funcionar na prática. Ele só será apurado na declaração de 2027, e ainda não há resultados."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você recebe até R$ 50 mil por mês de dividendos de cada empresa, nada muda: não há retenção na fonte. Para chegar a R$ 50 mil por mês de uma só empresa, é preciso receber R$ 600 mil por ano dela.",
+  "O limite vale por empresa. Dividendos de empresas diferentes não se somam para a retenção de 10% na fonte.",
+  "Se uma empresa pagar mais de R$ 50 mil no mês a você, ela retém 10% do valor total antes de o dinheiro chegar à sua conta.",
+  "O imposto retido entra no ajuste da declaração de Imposto de Renda. Segundo a Receita, ele pode ser devolvido se seus rendimentos do ano somarem menos de R$ 600 mil.",
+  "Quem soma mais de R$ 600 mil por ano em rendimentos pode ter imposto mínimo de até 10% na declaração de 2027, referente a 2026. Vale conferir com um contador. Este texto não é recomendação de investimento."
+ ],
+ "como_se_proteger": [],
+ "slug": "imposto-sobre-dividendos",
+ "publicado_em": "2026-11-16T08:59:40.764063",
+ "atualizado_em": "2026-11-16T08:59:40.764063",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, mercado financeiro) dividendos agora têm imposto: desde 2026, quem recebe mais de R$ 50 mil por mês em dividendos de uma mesma empresa tem 10% retido na fonte (Lei 15.270/2025, gov.br/receitafederal). Para a maioria dos pequenos investidores nada muda. Sem recomendação.",
+ "turno": "manha"
+}
