@@ -1,0 +1,152 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Seu imóvel rural pode aparecer num contrato que você nunca assinou.",
+  "na_tela": "Contrato que você nunca assinou",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois / cena no meio",
+   "texto": "Um financiamento de R$ 8,5 milhões, e o dono do imóvel contestou o contrato.",
+   "na_tela": "R$ 8,5 milhões que o dono contestou",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu imóvel rural pode aparecer num contrato que você nunca assinou.",
+   "na_tela": "Contrato que você nunca assinou",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A suspeita no crédito rural veio do próprio banco, não da polícia.",
+   "na_tela": "A suspeita veio do banco",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seu imóvel rural pode aparecer num contrato que você nunca assinou.",
+  "Em 12/11, a Polícia Federal fez a Operação Agroghost II.",
+  "A Caixa achou indício de fraude num financiamento rural de cerca de R$ 8,5 milhões.",
+  "Segundo a PF, o dono do imóvel contestou o contrato.",
+  "Mas calma: ninguém foi condenado, eles só 'poderão responder', diz a PF.",
+  "A PF não acusa os bancos, e não aparece efeito nos depósitos.",
+  "Matrícula é o RG do imóvel. Peça a certidão atualizada no cartório.",
+  "Apareceu contrato que você não fez? Conteste por escrito, guarde o protocolo.",
+  "Você já conferiu o que está no seu nome? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu imóvel rural pode aparecer num contrato que você nunca assinou. Em 12/11, a Polícia Federal fez a Operação Agroghost II. A Caixa achou indício de fraude num financiamento rural de cerca de R$ 8,5 milhões. Segundo a PF, o dono do imóvel contestou o contrato. Mas calma: ninguém foi condenado, eles só 'poderão responder', diz a PF. A PF não acusa os bancos, e não aparece efeito nos depósitos. Matrícula é o RG do imóvel. Peça a certidão atualizada no cartório. Apareceu contrato que você não fez? Conteste por escrito, guarde o protocolo. Você já conferiu o que está no seu nome? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Contrato que você nunca assinou",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "12/11: Operação Agroghost II",
+   "fonte": "Polícia Federal"
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 8,5 milhões",
+   "fonte": "Polícia Federal"
+  },
+  {
+   "fala": 3,
+   "texto": "Dono contestou o contrato",
+   "fonte": "Polícia Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "Ninguém condenado",
+   "fonte": "Polícia Federal"
+  },
+  {
+   "fala": 6,
+   "texto": "Certidão da matrícula",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Conteste por escrito",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Operação Agroghost II: o que são fazendas fantasmas no crédito rural",
+ "legenda": "Operação Agroghost II: o que são fazendas fantasmas no crédito rural?\n\nEm 12/11, a Polícia Federal fez a operação para apurar possíveis fraudes em financiamento rural de cerca de R$ 8,5 milhões. Segundo a PF, a Caixa identificou os indícios e o dono do imóvel contestou o contrato.\n\nNinguém foi condenado: os investigados \"poderão responder\" por crimes, segundo a PF. A PF não acusa os bancos, e as fontes consultadas não mostram efeito direto em depósitos.\n\nSe você tem terra, peça a certidão atualizada da matrícula no cartório e confira o cadastro no CAR. Se aparecer contrato que você não fez, conteste por escrito no canal oficial do banco, guarde o protocolo e registre boletim de ocorrência.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#creditorural #agro #fraude #educacaofinanceira",
+ "hashtags": [
+  "#creditorural",
+  "#agro",
+  "#fraude",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, o dono contestou um financiamento rural de R$ 8,5 milhões.",
+  "topicos": [
+   "Em 12/11, a Polícia Federal fez a Operação Agroghost II, no DF e Goiás.",
+   "Segundo a PF, a Caixa viu indício de fraude em R$ 8,5 milhões.",
+   "O dono contestou o contrato, e ninguém foi condenado: eles 'poderão responder'.",
+   "Fazer: peça no cartório a certidão da matrícula e confira o que não reconhece."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Tem contexto e muita ressalva (ninguém condenado, bancos não acusados), então pede explicação calma na bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "versão rua: gancho até 12 palavras e tópicos até 14"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "viral": null,
+ "teleprompter": "Seu imóvel rural pode aparecer num contrato que você nunca assinou.\n\nEm 12/11, a Polícia Federal fez a Operação Agroghost II.\n\nA Caixa achou indício de fraude num financiamento rural de cerca de R$ 8,5 milhões.\n\nSegundo a PF, o dono do imóvel contestou o contrato.\n\nMas calma: ninguém foi condenado, eles só 'poderão responder', diz a PF.\n\nA PF não acusa os bancos, e não aparece efeito nos depósitos.\n\nMatrícula é o RG do imóvel. Peça a certidão atualizada no cartório.\n\nApareceu contrato que você não fez? Conteste por escrito, guarde o protocolo.\n\nVocê já conferiu o que está no seu nome? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Polícia Federal (gov.br/pf)",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-investiga-fraudes-em-operacoes-de-credito-rural-no-df-e-em-goias",
+   "destaque": "A PF deflagrou a Operação Agroghost II em 12/11 para investigar possíveis fraudes em crédito rural (financiamento para produtor) envolvendo…"
+  },
+  {
+   "veiculo": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/05/7430016-operacao-da-pf-mira-quadrilha-que-fraudava-contratos-de-credito-rural.html",
+   "destaque": "A primeira fase, a Operação Agroghost, foi em 28/5."
+  },
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/fazendas-fantasmas-acendem-alerta-em-meio-a-r-256-bilhoes-em-operacoes-problematicas-pads/",
+   "destaque": "O Money Times define fazendas fantasmas como imóveis rurais que não existem na prática ou têm registros irregulares."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T07:53:00.076667-03:00"
+}
