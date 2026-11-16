@@ -1,7 +1,7 @@
 #!/bin/bash
 # Pede roteiros ao Plantão, um de cada vez (o Plantão divide a fila com o Panorama: dois juntos cancelam um).
 # Uso: pedir_roteiros.sh temas.txt   (um tema por linha)
-#   Notícia: o robô exige fato dos últimos 3 dias.  Assunto do dia a dia sem notícia: comece com "Explicativo: ".
+#   Notícia: o robô exige fato dos últimos 7 dias.  Assunto do dia a dia sem notícia: comece com "Explicativo: ".
 #   Cite a fonte oficial no tema (gov.br, bcb.gov.br, IBGE, FGV...) quando souber: sem fonte de primeira linha, não passa.
 #   Cada roteiro aprovado vai sozinho para o WhatsApp do Heitor, com capa. No fim, mostra o motivo de quem não passou.
 source "$(dirname "$0")/_comum.sh"

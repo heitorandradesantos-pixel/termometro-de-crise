@@ -34,10 +34,10 @@ from .revisor import linguagem_proibida
 
 BUSCAS_PAUTA = 4
 BUSCAS_ARTIGO = 4
-JANELA_DIAS = 3          # fato com data mais antiga que isso não sustenta "notícia"
+JANELA_DIAS = 7          # assunto quente ainda vale até 7 dias (pedido do Heitor, 16/11/2026)
 JANELA_EXPLICATIVO = 365  # "Explicativo: ...": assunto do dia a dia, com o dado oficial mais recente
 MINIMO_FATOS = 3         # menos que isso, não há o que publicar
-REPETIDO_DIAS = 3        # o mesmo assunto não vira dois artigos em 3 dias
+REPETIDO_DIAS = 10       # o mesmo assunto não volta em 10 dias (16/11: o MED do Pix se repetiu)
 MAXIMO_POR_RODADA = int(os.environ.get("PLANTAO_MAXIMO") or "1")
 MAXIMO_POR_DIA = int(os.environ.get("PLANTAO_POR_DIA") or "5")  # um por turno (pedido do Heitor, 07/11/2026)
 
