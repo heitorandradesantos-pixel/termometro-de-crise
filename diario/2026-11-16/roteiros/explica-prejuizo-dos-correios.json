@@ -1,0 +1,197 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Se os Correios não pagarem R$ 7 bilhões, quem paga a conta?",
+  "na_tela": "Se os Correios não pagarem, quem paga?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Os Correios perderam R$ 1,9 bilhão no terceiro trimestre. Quem garante o empréstimo?",
+   "na_tela": "Correios: prejuízo de R$ 1,9 bilhão",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Se os Correios não pagarem R$ 7 bilhões, quem paga a conta?",
+   "na_tela": "Se os Correios não pagarem, quem paga?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Em 28/10, a Fazenda publicou um aval de R$ 7 bilhões pros Correios.",
+   "na_tela": "28/10: aval de R$ 7 bilhões",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Se os Correios não pagarem R$ 7 bilhões, quem paga a conta?",
+  "Em 28/10, a Fazenda publicou o aval da União pra esse empréstimo.",
+  "Aval é tipo fiador de aluguel: não pagou, quem garantiu paga.",
+  "Aqui, quem garante é o Tesouro, que é dinheiro público.",
+  "Mas calma: o Tesouro ainda não pagou nada, e aval não é perdão.",
+  "Os Correios dizem buscar lucro a partir de 2027, mas não há confirmação.",
+  "Pra você, nada muda de imediato: o serviço postal segue funcionando.",
+  "Passo calmo: acompanhar o que o governo e o TCU divulgam.",
+  "Você já foi fiador de alguém? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Se os Correios não pagarem R$ 7 bilhões, quem paga a conta? Em 28/10, a Fazenda publicou o aval da União pra esse empréstimo. Aval é tipo fiador de aluguel: não pagou, quem garantiu paga. Aqui, quem garante é o Tesouro, que é dinheiro público. Mas calma: o Tesouro ainda não pagou nada, e aval não é perdão. Os Correios dizem buscar lucro a partir de 2027, mas não há confirmação. Pra você, nada muda de imediato: o serviço postal segue funcionando. Passo calmo: acompanhar o que o governo e o TCU divulgam. Você já foi fiador de alguém? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Se os Correios não pagarem, quem paga?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Aval publicado em 28/10",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 1,
+   "texto": "Empréstimo: R$ 7 bilhões",
+   "fonte": "Revista Oeste"
+  },
+  {
+   "fala": 2,
+   "texto": "Aval = fiador",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Quem garante: Tesouro",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "Aval ≠ perdão de dívida",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Lucro a partir de 2027?"
+  },
+  {
+   "fala": 6,
+   "texto": "Nada muda de imediato",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "aval da União empréstimo dos Correios",
+ "legenda": "Aval da União para os Correios: quem paga se a conta não fechar?\n\nSegundo a Agência Brasil, a Fazenda aprovou a garantia da União para um novo empréstimo de R$ 7 bilhões. Aval funciona como fiador de aluguel: se os Correios não pagarem, o Tesouro paga.\n\nO Tesouro ainda não pagou nada, e aval não é perdão de dívida. Os Correios dizem buscar lucro a partir de 2027, mas não há confirmação.\n\nPra você, nada muda de imediato: o serviço postal segue funcionando. O passo calmo é acompanhar o que o governo e o TCU divulgam.\n\nEu sou o Heitor, do Termômetro de Crise. Conteúdo educativo, não é recomendação de investimento.\n\n#correios #economia #financaspessoais #dinheiro",
+ "hashtags": [
+  "#correios",
+  "#economia",
+  "#financaspessoais",
+  "#dinheiro"
+ ],
+ "rua": {
+  "gancho": "Correios: aval de R$ 7 bilhões. Se não pagarem, quem paga?",
+  "topicos": [
+   "Segundo a Agência Brasil, a Fazenda aprovou o aval de R$ 7 bilhões.",
+   "Aval é como fiador de aluguel: se os Correios não pagarem, o Tesouro paga.",
+   "O Tesouro não pagou nada; os Correios dizem buscar lucro a partir de 2027.",
+   "Pra você nada muda agora: acompanhe o que o governo e o TCU divulgam."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e comparação (aval como fiador), mais calma que notícia de urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"acompanhar o que o governo e o TCU divulgam\": a sigla TCU não passa no Teste do CLT e o passo é vago. Troque por \"o órgão que fiscaliza as contas do governo\" ou deixe só \"o que o governo divulga\", com a sigla no cartão da tela.",
+   "Frase \"Aqui, quem garante é o Tesouro, que é dinheiro público\": ligue ao bolso de quem ouve, dizendo \"é o dinheiro dos impostos, o nosso\". Assim a peça responde \"isso mexe no meu bolso?\" sem aumentar o fato. Em \"nada muda de imediato\", diga claramente que, por enquanto, não há nada para você fazer além de acompanhar.",
+   "Abertura e fecho: o gancho \"Se os Correios não pagarem R$ 7 bilhões, quem paga a conta?\" soa como manchete lida. Fale como o Heitor, por exemplo \"Cara, os Correios pediram R$ 7 bilhões emprestados. E se não pagarem, quem paga?\". Antes do bordão, acrescente \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\", que hoje só aparece na legenda."
+  ],
+  "veredito": "A peça traduz bem o aval com a comparação do fiador de aluguel, separa o que já aconteceu do que não se sabe e fecha com calma e o bordão. Falta uma ponte direta com o bolso, trocar a sigla TCU, e uma voz mais de conversa do Heitor, com a apresentação e o aviso antes do bordão."
+ },
+ "viral": {
+  "nota": 4,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Se os Correios não pagarem R$ 7 bilhões, quem paga a conta?\" tem número, mas a lacuna não é do bolso de quem assiste, e a resposta só aparece na 4ª frase. Reescrita: \"Cara, os Correios pegaram R$ 7 bilhões emprestados. Se não pagarem, quem paga é o Tesouro. Ou seja, dinheiro público.\" A resposta vem logo na abertura e o bolso entra junto.",
+   "Envio: não há pedido de envio. Frase sugerida, antes da pergunta final: \"Tem alguém aí que já foi fiador de alguém? Manda esse vídeo pra ele, sério.\" Isso cria uma situação concreta e usa a analogia do fiador de aluguel, que é o trecho mais compartilhável do vídeo.",
+   "Retenção: falta uma virada no meio e a fala \"Os Correios dizem buscar lucro a partir de 2027, mas não há confirmação\" é seca. Reescrita: \"E aí vem a parte que pouca gente viu: o Tesouro ainda não pagou nada, e aval não é perdão. Os Correios dizem que querem dar lucro a partir de 2027, mas isso ainda não está confirmado.\" Troque também \"Fazenda publicou o aval da União\" por \"o governo garantiu o empréstimo\", para passar no Teste do CLT."
+  ],
+  "veredito": "Roteiro claro e com boa analogia (fiador de aluguel) e uma pergunta final fácil de responder, mas o gancho abre com pergunta que não é do bolso de quem assiste, não há uma virada forte nem pedido de envio, então tende a ser informativo sem ser compartilhado."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a set of apartment keys on a simple metal ring resting on a wooden table in warm window light, beside a blank unmarked sheet of paper and a pen. A hand with no face in frame slides the keys across the table toward a second hand waiting at the edge. Slow dolly-in with shallow depth of field. No text, no letters, no numbers, no logos",
+   "texto_da_fala": "Aval é tipo fiador de aluguel: não pagou, quem garantiu paga.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a set of apartment keys on a simple metal ring resting on a wooden table in warm window light, beside a blank unmarked sheet of paper and a pen. A hand with no face in frame slides the keys across the table toward a second hand waiting at the edge. Slow dolly-in with shallow depth of field. No text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Interior of a busy mail sorting warehouse: plain brown cardboard parcels and white envelopes move along conveyor belts under bright overhead lights. Smooth forward tracking shot along the belt, with a few blurred distant workers in the background, no faces in focus. All packaging is blank. No text, no letters, no numbers, no logos",
+   "texto_da_fala": "Pra você, nada muda de imediato: o serviço postal segue funcionando.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a busy mail sorting warehouse: plain brown cardboard parcels and white envelopes move along conveyor belts under bright overhead lights. Smooth forward tracking shot along the belt, with a few blurred distant workers in the background, no faces in focus. All packaging is blank. No text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Se os Correios não pagarem R$ 7 bilhões, quem paga a conta?\n\nEm 28/10, a Fazenda publicou o aval da União pra esse empréstimo.\n\nAval é tipo fiador de aluguel: não pagou, quem garantiu paga.\n\nAqui, quem garante é o Tesouro, que é dinheiro público.\n\nMas calma: o Tesouro ainda não pagou nada, e aval não é perdão.\n\nOs Correios dizem buscar lucro a partir de 2027, mas não há confirmação.\n\nPra você, nada muda de imediato: o serviço postal segue funcionando.\n\nPasso calmo: acompanhar o que o governo e o TCU divulgam.\n\nVocê já foi fiador de alguém? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/brasil/correios-formalizam-proposta-para-novo-emprestimo-de-r-7-bi-com-bancos-privados/",
+   "destaque": "Em dezembro de 2025, os Correios tomaram R$ 12 bilhões com Itaú Unibanco, Bradesco, Santander, Banco do Brasil e Caixa, com aval do Tesouro."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/correios-obtem-garantia-da-uniao-para-emprestimo-de-r-7-bilhoes",
+   "destaque": "O Ministério da Fazenda aprovou a garantia em 27/10."
+  }
+ ],
+ "data": "2026-11-16",
+ "gerado_em": "2026-11-16T12:56:25.523504-03:00"
+}
