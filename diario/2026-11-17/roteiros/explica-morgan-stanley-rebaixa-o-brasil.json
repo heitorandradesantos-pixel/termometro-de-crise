@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / dois fatos",
+  "texto": "Cara, o Brasil levou dois avisos no mesmo dia. Só um é rebaixamento.",
+  "na_tela": "Dois avisos. Só um rebaixa.",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / dois fatos",
+   "texto": "Cara, o Brasil levou dois avisos no mesmo dia. Só um é rebaixamento.",
+   "na_tela": "Dois avisos. Só um rebaixa.",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar fechou a R$ 5,78, e o motivo não é um só.",
+   "na_tela": "Dólar a R$ 5,78: por quê?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu celular fica mais caro com a regra dos chips dos EUA?",
+   "na_tela": "Seu celular e os chips dos EUA",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o Brasil levou dois avisos no mesmo dia. Só um é rebaixamento.",
+  "Em 16 de novembro, o Morgan Stanley rebaixou as ações do Brasil.",
+  "O banco projeta o Ibovespa em 160 mil pontos no fim de 2027.",
+  "É opinião de um banco, não previsão certa.",
+  "E aí vem o segundo: os EUA exigiram licença pra chips de IA.",
+  "Vale pra quem opera data center, não pra quem compra celular.",
+  "Quanto cada aviso pesou na bolsa e no dólar? Ninguém confirmou.",
+  "Tem fundo de ações? Respira: sinal amarelo não é febre, não decide no susto.",
+  "Rebaixamento ou regra dos chips: qual pesou mais? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o Brasil levou dois avisos no mesmo dia. Só um é rebaixamento. Em 16 de novembro, o Morgan Stanley rebaixou as ações do Brasil. O banco projeta o Ibovespa em 160 mil pontos no fim de 2027. É opinião de um banco, não previsão certa. E aí vem o segundo: os EUA exigiram licença pra chips de IA. Vale pra quem opera data center, não pra quem compra celular. Quanto cada aviso pesou na bolsa e no dólar? Ninguém confirmou. Tem fundo de ações? Respira: sinal amarelo não é febre, não decide no susto. Rebaixamento ou regra dos chips: qual pesou mais? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Dois avisos. Só um rebaixa.",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Morgan Stanley: de neutro para underweight",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 2,
+   "texto": "Ibovespa: 160 mil pontos no fim de 2027",
+   "fonte": "Times Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "Brasil entre 5 países com licença para chips",
+   "fonte": "InvestNews"
+  },
+  {
+   "fala": 6,
+   "texto": "Ibovespa -1,83% · dólar R$ 5,7777",
+   "fonte": "Investing.com"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Morgan Stanley rebaixa o Brasil: o que muda pro seu bolso",
+ "legenda": "Morgan Stanley rebaixa o Brasil: o que muda pro seu bolso?\n\nEm 16 de novembro, o Morgan Stanley rebaixou as ações do Brasil e projetou o Ibovespa em 160 mil pontos no fim de 2027. É a opinião de um banco, não uma previsão certa.\n\nNo mesmo dia, os EUA passaram a exigir licença para chips avançados de IA em data centers de cinco países, entre eles o Brasil. Segundo as fontes, a regra atinge operadores de data center, não quem compra celular ou computador.\n\nAinda não se sabe quanto cada fato pesou na queda da bolsa e na alta do dólar. Sem pânico: é sinal amarelo, não febre.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#morganstanley #ibovespa #dolar #economia",
+ "hashtags": [
+  "#morganstanley",
+  "#ibovespa",
+  "#dolar",
+  "#economia"
+ ],
+ "rua": {
+  "gancho": "Cara, o Brasil levou dois avisos hoje. Só um é rebaixamento.",
+  "topicos": [
+   "Morgan Stanley rebaixou as ações do Brasil em 16 de novembro, segundo a Exame.",
+   "O banco projeta o Ibovespa em 160 mil pontos no fim de 2027.",
+   "No mesmo dia, os EUA exigiram licença de chips de IA para cinco países.",
+   "O que fazer: respira, é opinião de um banco, não decide no susto."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente, de 16 de novembro, com dois fatos no mesmo dia, e pede o tom de quem acabou de saber.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"O banco projeta o Ibovespa em 160 mil pontos no fim de 2027\": o Ibovespa e o número não dizem nada pro bolso de quem não investe. Traduza na mesma frase (\"Ibovespa, que é o índice da bolsa\") e diga o que isso muda pra quem não tem ação, ou deixe o número só no cartão da tela. Assim a fala segue com uma ideia e um número.",
+   "Frase \"Tem fundo de ações? Respira: sinal amarelo não é febre, não decide no susto.\": o público principal, que mal investe, fica sem passo. Fale também com quem não tem fundo, por exemplo \"Se você não investe, nada muda hoje na sua conta\", só se a fonte sustentar isso. Troque \"não decide no susto\" por um passo simples, como \"espere e confira o que o Banco Central e a fonte dizem antes de mexer em qualquer coisa\".",
+   "Frases \"Vale pra quem opera data center, não pra quem compra celular\" e \"Em 16 de novembro, o Morgan Stanley...\": falta uma comparação viva pro lado sanguíneo, e \"data center\" e \"licença pra chips de IA\" ficam sem tradução. Use uma imagem do dia a dia, como uma regra de importação que vale pra atacadista e não pro cliente da loja, e explique \"data center\" como \"os galpões de computador que guardam a internet\". Ponha o nome do banco com a fonte na tela, não só na fala."
+  ],
+  "veredito": "A peça tem o tom certo de Sábio com jeito de Cara Comum: separa o que é opinião do que é fato, admite o que ninguém sabe e fecha com o bordão e um gatilho de comentário. Falta traduzir \\\"Ibovespa\\\" e \\\"data center\\\", dar uma comparação do dia a dia e um passo simples também pra quem não tem fundo de ações."
+ },
+ "viral": {
+  "nota": 5,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: a frase 'Cara, o Brasil levou dois avisos no mesmo dia' não fala do bolso de quem assiste. Reescrita: 'Tem fundo de ações? O Brasil levou dois avisos no mesmo dia. Só um é rebaixamento.'",
+   "Envio: não há pedido de envio. Depois de 'Respira: sinal amarelo não é febre, não decide no susto', acrescente: 'Manda pra quem tem fundo de ações.'",
+   "Retenção: 'O banco projeta o Ibovespa em 160 mil pontos' e 'quem opera data center' travam quem é CLT. Reescrita: 'O banco projeta o Ibovespa, o índice da bolsa, em 160 mil pontos.' e 'Vale pra quem opera data center, as centrais de computadores da IA, não pra quem compra celular.'"
+  ],
+  "veredito": "O roteiro paga o que promete e fecha com duas saídas, mas o gancho não fala do bolso, não há pedido de envio e termos como Ibovespa e data center travam quem é CLT."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-in along a glass skyscraper financial district at dusk, with warm lights turning on in office windows and a blurry downward-sloping orange glow reflected on the glass. No people in focus, no text, no logos, no numbers",
+   "texto_da_fala": "Em 16 de novembro, o Morgan Stanley rebaixou as ações do Brasil.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a glass skyscraper financial district at dusk, with warm lights turning on in office windows and a blurry downward-sloping orange glow reflected on the glass. No people in focus, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Macro shot with a slow lateral tracking move across a glossy computer processor chip on a dark circuit board, cool blue light glinting on its gold contacts, shallow depth of field. No text, no letters, no logos, no numbers, no people",
+   "texto_da_fala": "E aí vem o segundo: os EUA exigiram licença pra chips de IA.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot with a slow lateral tracking move across a glossy computer processor chip on a dark circuit board, cool blue light glinting on its gold contacts, shallow depth of field. No text, no letters, no logos, no numbers, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Smooth forward dolly down a long dim data center aisle lined with server racks, blinking green and blue indicator lights and cold mist near the floor, symmetrical perspective. No people, no text, no logos, no numbers",
+   "texto_da_fala": "Vale pra quem opera data center, não pra quem compra celular.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth forward dolly down a long dim data center aisle lined with server racks, blinking green and blue indicator lights and cold mist near the floor, symmetrical perspective. No people, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o Brasil levou dois avisos no mesmo dia. Só um é rebaixamento.\n\nEm 16 de novembro, o Morgan Stanley rebaixou as ações do Brasil.\n\nO banco projeta o Ibovespa em 160 mil pontos no fim de 2027.\n\nÉ opinião de um banco, não previsão certa.\n\nE aí vem o segundo: os EUA exigiram licença pra chips de IA.\n\nVale pra quem opera data center, não pra quem compra celular.\n\nQuanto cada aviso pesou na bolsa e no dólar? Ninguém confirmou.\n\nTem fundo de ações? Respira: sinal amarelo não é febre, não decide no susto.\n\nRebaixamento ou regra dos chips: qual pesou mais? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/morgan-stanley-rebaixa-brasil-e-ve-ibovespa-em-160-mil-pontos-no-fim-de-2027/",
+   "destaque": "O Morgan Stanley tirou o Brasil de equal weight (neutro) e passou a recomendar underweight, ou seja, menos ações brasileiras do que o…"
+  },
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/inteligencia-artificial/eua-brasil-regra-chips-ia-acesso-remoto-china/",
+   "destaque": "A regra é uma exigência adicional de licença, não um veto geral à compra de chips."
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T09:32:56.587698-03:00"
+}
