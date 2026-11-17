@@ -1,0 +1,188 @@
+{
+ "gancho": {
+  "formula": "Número + custo escondido",
+  "texto": "Cara, dólar a R$ 5,778. Sua viagem e sua compra de fora sentem.",
+  "na_tela": "Dólar a R$ 5,778: sua viagem",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + custo escondido",
+   "texto": "Cara, dólar a R$ 5,778. Sua viagem e sua compra de fora sentem.",
+   "na_tela": "Dólar a R$ 5,778: sua viagem",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Dólar perto de R$ 5,80: o que muda na sua viagem?",
+   "na_tela": "O que muda na sua viagem?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Já circulou, eu fui atrás",
+   "texto": "Circulou que o Banco Central entrou pra segurar o dólar. Eu fui atrás.",
+   "na_tela": "Banco Central segurou o dólar?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, dólar a R$ 5,778. Sua viagem e sua compra de fora sentem.",
+  "Dólar alto costuma encarecer importado, viagem e compra em site de fora.",
+  "Maior valor desde abril de 2025, segundo a Agência Brasil.",
+  "Circulou que o Banco Central teria entrado pra segurar o dólar. Não achamos comunicado.",
+  "Agora vem a parte que pouca gente viu.",
+  "Achamos só rotina: o Banco Central renovou operação antiga de US$ 2,5 bilhões.",
+  "Vai viajar ou comprar de fora? Vê o preço hoje, com calma.",
+  "Tem alguém viajando aí? Manda pra ele: o dólar tá a R$ 5,778.",
+  "Dólar alto já pesou no seu bolso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, dólar a R$ 5,778. Sua viagem e sua compra de fora sentem. Dólar alto costuma encarecer importado, viagem e compra em site de fora. Maior valor desde abril de 2025, segundo a Agência Brasil. Circulou que o Banco Central teria entrado pra segurar o dólar. Não achamos comunicado. Agora vem a parte que pouca gente viu. Achamos só rotina: o Banco Central renovou operação antiga de US$ 2,5 bilhões. Vai viajar ou comprar de fora? Vê o preço hoje, com calma. Tem alguém viajando aí? Manda pra ele: o dólar tá a R$ 5,778. Dólar alto já pesou no seu bolso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,778: sua viagem",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar alto: importado e viagem",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 5,778: maior valor desde abril de 2025",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 2,75 bi: sem comunicado do BC",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "US$ 2,5 bilhões: renovação de rotina",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 7,
+   "texto": "Dólar fechou a R$ 5,778",
+   "fonte": "Agência Brasil"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje: por que está perto de R$ 5,80",
+ "legenda": "Dólar hoje: por que está perto de R$ 5,80?\n\nSegundo a Agência Brasil, o dólar fechou a segunda-feira (16/11) a R$ 5,778, alta de 2,17%. É o maior valor desde abril de 2025. Em novembro, a alta acumulada é de 6,12%.\n\nDólar alto costuma encarecer importado, viagem e compra em site de fora. Se você vai viajar ou comprar lá fora, vale ver o preço do dia com calma.\n\nCirculou a história de um swap cambial de cerca de R$ 2,75 bi. Procuramos e não achamos comunicado do Banco Central nem reportagem com esse valor. Os leilões que encontramos são de US$ 2,5 bilhões e são renovação de rotina. Se o BC anunciar algo, o comunicado sai no site dele.\n\nConteúdo educativo, não é recomendação de investimento. Eu sou o Heitor, do Termômetro de Crise: só mostramos a temperatura do mundo.\n\n#dolar #economia #financaspessoais #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#economia",
+  "#financaspessoais",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar fechou a R$ 5,778. Olha o que isso muda.",
+  "topicos": [
+   "Agência Brasil: dólar a R$ 5,778, o maior desde abril de 2025.",
+   "Dólar alto costuma encarecer importado, viagem e compra em site de fora.",
+   "Não achamos comunicado do Banco Central sobre intervenção. Só renovação de US$ 2,5 bilhões.",
+   "Vai viajar ou comprar de fora? Vê o preço hoje, com calma."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "O assunto mistura número, um boato sem confirmação e uma explicação, e pede calma para separar o que se sabe do que não se sabe.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Circulou que o Banco Central teria entrado pra segurar o dólar\" e \"Achamos só rotina: o Banco Central renovou operação antiga de US$ 2,5 bilhões\": a fala não explica o que é essa operação, e há dois números e dois assuntos (boato e renovação). Reescreva em ideia única e traduza: \"o Banco Central só renovou uma operação antiga, dessas de rotina, pra dar conta da procura por dólar\". Deixe o valor exato no cartão da tela. Não invente explicação além do que a fonte diz.",
+   "Frase \"Maior valor desde abril de 2025, segundo a Agência Brasil\": são nome de fonte e data na mesma fala, e a peça vai direto pro boato sem dizer o porquê da alta (só aparece \"o dólar está subindo\"). Tire \"Agência Brasil\" da fala e deixe no cartão, trocando por \"segundo a imprensa\" ou \"segundo o governo\" só se a fonte disser. Use algo mais cotidiano: \"o mais alto em mais de um ano\". Falta também uma comparação viva do dia a dia, para o sanguíneo. Se não inventar fato, use a própria que já está na peça: \"é a mala e a compra do site de fora ficando mais cara\".",
+   "Frase \"Cara, dólar a R$ 5,778. Sua viagem e sua compra de fora sentem.\" e o fecho: o gancho está bom, mas a fala fica com cara de texto lido, com as viradas \"Agora vem a parte que pouca gente viu\" e \"Vê o preço hoje, com calma\". Solte a fala como o Heitor: repita a frase forte uma vez (\"Cinco e setenta e oito! Cinco e setenta e oito!\"), diga o número redondo (\"quase R$ 5,80\") e use \"tá\", \"né\". A frase \"Vê o preço hoje, com calma\" cumpre o passo simples, mas diga o que fazer: \"Vai comprar de fora? Compara o preço hoje antes de fechar\"."
+  ],
+  "veredito": "A peça acerta ao tratar o boato com fonte, sem alarde nem conspiração, e fecha com um passo simples e o bordão, mas peca no Teste do CLT, com número exato demais e uma operação do Banco Central sem tradução, e no tom, ainda de teleprompter, sem uma comparação viva."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Cara, dólar a R$ 5,778. Sua viagem e sua compra de fora sentem.\" só informa, não abre lacuna. A tensão (o boato do Banco Central) está escondida no meio. Reescrita: \"Cara, dólar a R$ 5,778, o maior desde abril de 2025. Circulou que o Banco Central entrou pra segurar. Eu fui atrás.\"",
+   "Retenção: \"Maior valor desde abril de 2025, segundo a Agência Brasil.\" Nome de fonte na fala quebra o Teste do CLT. Reescrita: \"Maior valor desde abril de 2025.\" A Agência Brasil fica no cartão e na legenda.",
+   "Retenção: \"o Banco Central renovou operação antiga de US$ 2,5 bilhões.\" é jargão e tem número em dólar. Reescrita: \"Achamos só rotina: o Banco Central renovou uma operação que já existia, de 2,5 bilhões de dólares.\""
+  ],
+  "veredito": "Roteiro limpo, que paga o que promete e tem bom pedido de envio e pergunta SIM ou NÃO, mas o gancho só informa o número e esconde o boato do Banco Central, que é a lacuna que prenderia quem não conhece o perfil."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow overhead push-in over a wooden table with an open suitcase, a stack of unmarked cardboard shipping boxes, a pair of plain sneakers and a small unbranded gadget, warm natural window light, shallow depth of field. No people, no text, no logos, no numbers",
+   "texto_da_fala": "Dólar alto costuma encarecer importado, viagem e compra em site de fora.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow overhead push-in over a wooden table with an open suitcase, a stack of unmarked cardboard shipping boxes, a pair of plain sneakers and a small unbranded gadget, warm natural window light, shallow depth of field. No people, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow tilt-up along the facade of a large modernist government building made of concrete and glass with rows of tall columns, soft early-morning light, a few clouds drifting. No people, no flags, no signs, no text, no logos",
+   "texto_da_fala": "Achamos só rotina: o Banco Central renovou operação antiga de US$ 2,5 bilhões.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow tilt-up along the facade of a large modernist government building made of concrete and glass with rows of tall columns, soft early-morning light, a few clouds drifting. No people, no flags, no signs, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, dólar a R$ 5,778. Sua viagem e sua compra de fora sentem.\n\nDólar alto costuma encarecer importado, viagem e compra em site de fora.\n\nMaior valor desde abril de 2025, segundo a Agência Brasil.\n\nCirculou que o Banco Central teria entrado pra segurar o dólar. Não achamos comunicado.\n\nAgora vem a parte que pouca gente viu.\n\nAchamos só rotina: o Banco Central renovou operação antiga de US$ 2,5 bilhões.\n\nVai viajar ou comprar de fora? Vê o preço hoje, com calma.\n\nTem alguém viajando aí? Manda pra ele: o dólar tá a R$ 5,778.\n\nDólar alto já pesou no seu bolso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney/Reuters",
+   "url": "https://www.infomoney.com.br/mercados/banco-central-inicia-em-novembro-leiloes-para-rolagem-de-contratos-de-swap-cambial/",
+   "destaque": "O swap cambial tradicional é um contrato em que o BC paga a variação do dólar e recebe a taxa Selic."
+  },
+  {
+   "veiculo": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-03-05/bc-recalibra-atuacao-com-swap-cambial-apos-excesso-de-oferta",
+   "destaque": "Em março, o diretor do BC Nilton David disse que a instituição reduziu os leilões de rolagem porque o mercado mostrou excesso de oferta."
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T07:56:03.366161-03:00"
+}
