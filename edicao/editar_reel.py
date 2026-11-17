@@ -161,8 +161,8 @@ def blocos_legenda(manter, novo) -> list:
                 palavras[-1][1], palavras[-1][3] = novo(fim + ATRASO), quebra
                 continue
             w = TROCAS.get(w.strip(",."), w.strip(",."))
-            if w == "%" and palavras:
-                palavras[-1][2] += "%"
+            if re.fullmatch(r"%[?!.,]*", w) and palavras:
+                palavras[-1][2] += w
                 continue
             palavras.append([novo(max(0, ini) + ATRASO), novo(fim + ATRASO), w, quebra])
     palavras = alinhar(palavras)
