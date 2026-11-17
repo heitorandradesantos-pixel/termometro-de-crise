@@ -1,0 +1,195 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "Selic a 13,75%, juros dos EUA menores, e o dólar subiu forte mesmo assim.",
+  "na_tela": "Juro alto, dólar subiu mesmo assim",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar subiu 2,15% num dia e fechou a R$ 5,77.",
+   "na_tela": "Dólar a R$ 5,77",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto custa a sua viagem com o dólar a R$ 5,77?",
+   "na_tela": "Sua viagem com dólar a R$ 5,77",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Selic a 13,75%, juros dos EUA menores, e o dólar subiu forte mesmo assim.",
+   "na_tela": "Juro alto, dólar subiu mesmo assim",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Selic a 13,75%, juros dos EUA menores, e o dólar subiu forte mesmo assim.",
+  "Cara, o dólar fechou a R$ 5,77 em 16/11.",
+  "Subiu 2,15% num dia só: sinal amarelo.",
+  "Segundo o Banco Central, a Selic, o juro daqui, está em 13,75%.",
+  "Só que juro é apenas parte da conta de quem guarda dólar.",
+  "Olhar só o juro é ver a passagem e esquecer a bagagem.",
+  "Se o dólar sobe, o ganho em reais cresce. Se cai, encolhe.",
+  "Pra onde ele vai, ninguém sabe.",
+  "Passo calmo: defina objetivo e prazo. Manda pra quem vai viajar.",
+  "Já adiou viagem por causa do dólar? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Selic a 13,75%, juros dos EUA menores, e o dólar subiu forte mesmo assim. Cara, o dólar fechou a R$ 5,77 em 16/11. Subiu 2,15% num dia só: sinal amarelo. Segundo o Banco Central, a Selic, o juro daqui, está em 13,75%. Só que juro é apenas parte da conta de quem guarda dólar. Olhar só o juro é ver a passagem e esquecer a bagagem. Se o dólar sobe, o ganho em reais cresce. Se cai, encolhe. Pra onde ele vai, ninguém sabe. Passo calmo: defina objetivo e prazo. Manda pra quem vai viajar. Já adiou viagem por causa do dólar? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Juro alto, dólar subiu mesmo assim",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 5,77 em 16/11",
+   "fonte": "O Tempo"
+  },
+  {
+   "fala": 2,
+   "texto": "+2,15% no dia",
+   "fonte": "O Tempo"
+  },
+  {
+   "fala": 3,
+   "texto": "Selic: 13,75%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Juro é só parte da conta",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Ninguém sabe pra onde vai",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje e Selic a 13,75%: o que muda pra você",
+ "legenda": "Dólar hoje e Selic a 13,75%: o que se sabe.\n\nSegundo O Tempo, o dólar fechou a R$ 5,77 em 16/11, alta de 2,15% no dia. Segundo o Banco Central, a Selic está em 13,75%, bem acima dos juros dos EUA.\n\nMas juro é só parte da conta de quem guarda dólar: se o dólar sobe, o ganho em reais cresce; se cai, ele encolhe ou vira perda. Pra onde o dólar vai, ninguém sabe.\n\nO passo calmo: defina seu objetivo e seu prazo, e compare sempre o rendimento já descontado de inflação, imposto e custos.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #selic #economia #financaspessoais",
+ "hashtags": [
+  "#dolar",
+  "#selic",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 5,77 com a Selic a 13,75%. Cara, olha isso.",
+  "topicos": [
+   "O dólar fechou a R$ 5,77 em 16/11, segundo O Tempo.",
+   "O Banco Central manteve a Selic, o juro daqui, em 13,75%.",
+   "Juro é só parte da conta: se o dólar cai, o ganho encolhe.",
+   "Fique calmo: defina objetivo e prazo e compare descontando inflação e custos."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com juros, dólar e prazo, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Selic a 13,75%, juros dos EUA menores, e o dólar subiu forte mesmo assim.\" (gancho): tem três ideias e um número, e \"Selic\" e \"juros dos EUA\" não estão traduzidos. Abra com a reação e o efeito no bolso: \"Cara, o dólar subiu forte num dia só. Olha que loucura.\" Deixe a Selic para depois, já explicada como \"o juro daqui\".",
+   "Frase \"Subiu 2,15% num dia só: sinal amarelo.\" (e a fala de R$ 5,77): fica um número a mais na mesma ideia, e 2,15% é exato demais para a fala. Diga \"subiu mais de 2% num dia\" e deixe o 2,15% exato no cartão da tela. Ligue ao bolso do ouvinte: \"quem vai viajar ou compra importado sente isso\".",
+   "Frase \"Só que juro é apenas parte da conta de quem guarda dólar. Olhar só o juro é ver a passagem e esquecer a bagagem.\": a comparação da passagem e da bagagem é confusa e não explica nada. Troque por algo do dia a dia, como \"é como olhar só o preço da parcela e esquecer o preço final\". Explique também \"ganho em reais\" com um exemplo simples, que fale de quem guarda dólar. Fica melhor se o público entender por que isso importa: a maioria dos ouvintes não guarda dólar."
+  ],
+  "veredito": "Roteiro limpo e honesto, com fonte, bordão de encerramento e passo calmo (arquétipo Sábio com jeito de Cara Comum), mas o gancho junta Selic, juros dos EUA e dólar sem tradução e sem ligar ao bolso. Falta uma comparação viva que funcione, um número por fala e o \\\"o que muda pra você\\\" para quem não guarda dólar."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "GANCHO. A frase \"Selic a 13,75%, juros dos EUA menores, e o dólar subiu forte mesmo assim\" tem jargão e três ideias. Quem nunca ouviu falar do Termômetro não entende de primeira. A \"Cara, o dólar fechou a R$ 5,77\" já abre melhor a lacuna. Reescreva a abertura: \"Cara, o dólar subiu 2,15% num dia só e fechou a R$ 5,77. Se você vai viajar, presta atenção.\" A Selic vem depois, na primeira explicação.",
+   "PAGAMENTO E RETENÇÃO. O gancho promete o porquê, e o corpo só diz \"juro é apenas parte da conta\". A metáfora \"ver a passagem e esquecer a bagagem\" confunde. Reescreva: \"O juro daqui, a Selic, está em 13,75%. O dos EUA está menor. Mesmo assim o dólar subiu. Só que tem um detalhe: juro é só uma parte da conta de quem guarda dólar.\" Dessa forma a virada vem logo depois da primeira resposta, com uma ideia por fala.",
+   "ENVIO. O corpo fala de quem guarda dólar e o pedido fala de quem vai viajar, então a situação não bate. Reescreva: \"Passo calmo: defina objetivo e prazo. Manda pra quem guarda dólar pra viagem.\" Assim o pedido vira uma situação concreta que combina com o gancho e com a pergunta final do SIM ou NÃO."
+  ],
+  "veredito": "O fim puxa comentário bem (SIM ou NÃO sobre adiar viagem) e o número R$ 5,77 é forte, mas o gancho abre com jargão e três ideias, o porquê prometido não é explicado e o pedido de envio não combina com o corpo do vídeo."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow upward tilt along the facade of a imposing modernist government building with tall stone columns and glass, soft overcast morning light, a few blurry silhouettes far away walking on the plaza, no signs, no text, no logos, no flags, no recognizable faces",
+   "texto_da_fala": "Segundo o Banco Central, a Selic, o juro daqui, está em 13,75%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the facade of a imposing modernist government building with tall stone columns and glass, soft overcast morning light, a few blurry silhouettes far away walking on the plaza, no signs, no text, no logos, no flags, no recognizable faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Slow dolly-in on a wooden desk drawer being left half open, revealing a plain sealed envelope and a small stack of green banknotes with blurred, unreadable details, warm lamp light, shallow depth of field, no hands in focus, no faces, no text, no numbers, no logos",
+   "texto_da_fala": "Só que juro é apenas parte da conta de quem guarda dólar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in on a wooden desk drawer being left half open, revealing a plain sealed envelope and a small stack of green banknotes with blurred, unreadable details, warm lamp light, shallow depth of field, no hands in focus, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Tracking shot following a single worn suitcase rolling across a bright airport terminal floor, large windows in the background showing a plane on the runway at golden hour, travelers only as soft out-of-focus shapes, no signs, no screens, no text, no logos, no recognizable faces",
+   "texto_da_fala": "Olhar só o juro é ver a passagem e esquecer a bagagem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Tracking shot following a single worn suitcase rolling across a bright airport terminal floor, large windows in the background showing a plane on the runway at golden hour, travelers only as soft out-of-focus shapes, no signs, no screens, no text, no logos, no recognizable faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Selic a 13,75%, juros dos EUA menores, e o dólar subiu forte mesmo assim.\n\nCara, o dólar fechou a R$ 5,77 em 16/11.\n\nSubiu 2,15% num dia só: sinal amarelo.\n\nSegundo o Banco Central, a Selic, o juro daqui, está em 13,75%.\n\nSó que juro é apenas parte da conta de quem guarda dólar.\n\nOlhar só o juro é ver a passagem e esquecer a bagagem.\n\nSe o dólar sobe, o ganho em reais cresce. Se cai, encolhe.\n\nPra onde ele vai, ninguém sabe.\n\nPasso calmo: defina objetivo e prazo. Manda pra quem vai viajar.\n\nJá adiou viagem por causa do dólar? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/economia/juros-fed-eua-outubro-2026/",
+   "destaque": "O Fed, banco central dos EUA, manteve os juros entre 3,75% e 4% ao ano em 28 de outubro."
+  },
+  {
+   "veiculo": "IBGE",
+   "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "destaque": "O IPCA, a inflação oficial, ficou em 0,14% em outubro."
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T09:25:55.627733-03:00"
+}
