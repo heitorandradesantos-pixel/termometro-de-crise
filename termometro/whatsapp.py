@@ -221,7 +221,7 @@ def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
         if arq.stem.split("-")[0] not in ROTEIROS_TIPOS:
             continue
         if r.get("enviado_whatsapp"):
-            ja_foram += 1
+            ja_foram += 0 if r.get("descartado") else 1  # descartado pelo Heitor não conta no limite
         elif r.get("aprovado") and r.get("teleprompter"):
             novos.append((arq, r))
     # No máximo ROTEIROS_POR_DIA no WhatsApp (pedido do Heitor, 16/11/2026: 2 polêmicos + 4 informativos).
