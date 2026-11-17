@@ -37,3 +37,17 @@ vídeos de 09 a 13/11, lidos no teleprompter, que saíram certinhos demais ("Olh
 | "Segundo o Banco Central, a Selic está em 13,75%." | "13,75%. Isso é o Banco Central falando, não sou eu." |
 
 Use "É como a feira" e outras comparações só quando ajudarem de verdade, e no máximo uma vez por vídeo.
+
+## Gatilhos de comentário (pedido do Heitor, 17/11/2026)
+Todo roteiro termina com UM gatilho que obriga a pessoa a responder, e de preferência solta outro no meio.
+O comentário tem que ser fácil: um número, uma palavra ou um lado.
+- **Escolha de lado:** "Time dólar ou time Selic? Comenta 1 ou 2." Duas opções claras, nenhuma errada.
+- **Palpite com número:** "Quanto você acha que rende R$ 10 mil em 1 ano? Chuta aí nos comentários." A resposta vem no próximo vídeo.
+- **Sim ou não:** "Você acha que isso passa no Congresso? SIM ou NÃO."
+- **Confissão leve:** "Quem aqui já pagou rotativo sem saber? Comenta EU." (nunca pedir valor de salário, dívida ou dado pessoal)
+- **Marcar alguém:** "Marca aquele amigo que ainda deixa dinheiro na poupança."
+- **Loop aberto:** "Fica até o fim que o número do final é o que ninguém te conta." Só quando o final cumpre a promessa.
+- **Discordância convidada:** "Eu acho que não compensa. Se você discorda, me prova nos comentários."
+
+Limites: o gatilho é sobre dinheiro e escolhas do dia a dia, nunca sobre partido ou político. Nada de pergunta
+enganosa, promessa de resposta que não vem, "só os inteligentes acertam" ou escassez falsa.
