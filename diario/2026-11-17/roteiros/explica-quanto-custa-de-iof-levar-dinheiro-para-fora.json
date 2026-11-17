@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Mandar R$ 10 mil pra fora custa R$ 350 de imposto. Ou R$ 110.",
+  "na_tela": "R$ 350 ou R$ 110?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Mandar R$ 10 mil pra fora custa R$ 350 de imposto. Ou R$ 110.",
+   "na_tela": "R$ 350 ou R$ 110?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Cartão lá fora: cada R$ 1.000 gasto já leva R$ 35 de imposto.",
+   "na_tela": "Cartão lá fora: R$ 35",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Mesmos R$ 10 mil: R$ 350 de IOF ou R$ 110. Só muda uma coisa.",
+   "na_tela": "Mesmo valor, outro imposto",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Mandar R$ 10 mil pra fora custa R$ 350 de imposto. Ou R$ 110.",
+  "IOF é o imposto cobrado quando você troca real por dólar.",
+  "Cartão lá fora, no crédito ou no débito, paga 3,5%.",
+  "Agora olha a virada: remessa pra investimento paga só 1,1%.",
+  "Em R$ 10 mil: R$ 350 de um lado, R$ 110 do outro.",
+  "É como o pacote no correio: o preço depende do que você declara.",
+  "E calma: o STF deu decisão provisória, e o julgamento ainda não saiu.",
+  "Antes de mandar, pergunta ao banco como a operação vai ser classificada.",
+  "Você já pagou IOF sem perceber? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Mandar R$ 10 mil pra fora custa R$ 350 de imposto. Ou R$ 110. IOF é o imposto cobrado quando você troca real por dólar. Cartão lá fora, no crédito ou no débito, paga 3,5%. Agora olha a virada: remessa pra investimento paga só 1,1%. Em R$ 10 mil: R$ 350 de um lado, R$ 110 do outro. É como o pacote no correio: o preço depende do que você declara. E calma: o STF deu decisão provisória, e o julgamento ainda não saiu. Antes de mandar, pergunta ao banco como a operação vai ser classificada. Você já pagou IOF sem perceber? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "R$ 350 ou R$ 110?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "IOF = imposto do câmbio",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 2,
+   "texto": "3,5% de IOF no cartão",
+   "fonte": "Barbieri Advogados"
+  },
+  {
+   "fala": 3,
+   "texto": "Remessa para investimento: 1,1%",
+   "fonte": "Barbieri Advogados"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 350 x R$ 110",
+   "fonte": "Sky Câmbio"
+  },
+  {
+   "fala": 6,
+   "texto": "Liminar: sem julgamento final",
+   "fonte": "Barbieri Advogados"
+  }
+ ],
+ "retomada": 4,
+ "busca": "IOF para levar dinheiro para fora em 2026",
+ "legenda": "IOF para levar dinheiro para fora em 2026: quanto custa?\n\nSegundo o escritório Barbieri Advogados, em novembro de 2026 o IOF é de 3,5% nas compras com cartão no exterior e na maioria das remessas. Na remessa para investimento, é de 1,1%. Com R$ 10 mil, são R$ 350 contra R$ 110.\n\nAs alíquotas vêm do Decreto 12.499/2025. Em 16 de julho de 2025, o ministro Alexandre de Moraes, do STF, manteve o decreto em decisão provisória. Até 1º de novembro de 2026, o Plenário ainda não tinha confirmado.\n\nAinda não se sabe: as alíquotas não foram conferidas na página da Receita Federal, e o IOF não é o custo total, porque tarifa e taxa de câmbio mudam em cada banco.\n\nPasso calmo: antes de mandar dinheiro, pergunte ao banco como a operação será classificada e compare o valor final cobrado.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#iof #educacaofinanceira #dinheiro #termometrodecrise",
+ "hashtags": [
+  "#iof",
+  "#educacaofinanceira",
+  "#dinheiro",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cartão lá fora paga 3,5% de IOF. Remessa pra investir, 1,1%.",
+  "topicos": [
+   "Cartão no exterior paga 3,5% de IOF, segundo advogados: R$ 35 em R$ 1.000.",
+   "Remessa pra investimento paga 1,1%; em R$ 10 mil, R$ 110 contra R$ 350.",
+   "O STF deu decisão provisória em 16 de julho de 2025; falta o julgamento.",
+   "Antes de mandar, pergunta ao banco como a operação será classificada."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto, não uma notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Abertura \"Mandar R$ 10 mil pra fora custa R$ 350 de imposto. Ou R$ 110.\" tem três números numa fala e soa como manchete. Reescreva como reação do Heitor, com uma ideia e um número: \"Cara, mandar dinheiro pra fora pode pagar 3,5% de imposto. Ou só 1,1%. Depende do motivo.\" Deixe os R$ 350 e R$ 110 para a fala da conta e o cartão na tela.",
+   "\"É como o pacote no correio: o preço depende do que você declara\" pode soar como se a pessoa escolhesse o que declarar para pagar menos. Troque por algo como \"é como o frete: o preço depende do tipo de envio, e o banco classifica pelo motivo real\". Assim a comparação continua viva, mas não sugere declarar errado.",
+   "Traduza \"decisão provisória\" e \"como a operação vai ser classificada\": \"o STF deixou valendo por enquanto, mas ainda não decidiu de vez\" e \"pergunta ao banco qual imposto vai cobrar nessa remessa\". Antes do bordão, inclua na fala \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\", que hoje só aparece na legenda."
+  ],
+  "veredito": "A peça acerta o arquétipo, a virada e a saída calma (perguntar ao banco), mas a fala tem número demais, termos de banco e de tribunal sem tradução, uma comparação que pode sugerir declarar errado e falta o fecho padrão do Heitor antes do bordão."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Mandar R$ 10 mil pra fora custa R$ 350 de imposto. Ou R$ 110.\" fala de remessa, que parece coisa de rico, e o \"ou R$ 110\" fica solto. Reescrita: \"Passou o cartão lá fora? A cada R$ 10 mil, são R$ 350 de imposto. Mandando pra investir, R$ 110.\" O espectador se vê na cena e o contraste já vem na primeira frase.\"",
+   "Retenção: \"Em R$ 10 mil: R$ 350 de um lado, R$ 110 do outro.\" repete os números do gancho. Corte essa frase. Troque \"remessa pra investimento paga só 1,1%\" por \"mandar dinheiro pra investir lá fora paga só 1,1%\". Troque \"o STF deu decisão provisória, e o julgamento ainda não saiu\" por \"o STF deixou valendo por enquanto, mas ainda não decidiu de vez\".",
+   "Envio: antes do SIM ou NÃO, acrescente um pedido para uma situação concreta: \"Manda pra quem vai viajar e vai passar o cartão lá fora.\""
+  ],
+  "veredito": "Tem número forte, virada e pergunta de SIM ou NÃO, mas o gancho de remessa soa distante do bolso e o vídeo não pede o envio para ninguém; com o gancho no cartão lá fora e o \\\"manda pra quem vai viajar\\\", ele passa de 8."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a hand tapping a plain blank dark card on a contactless payment terminal at the counter of a small European-style cafe, terminal screen glowing but blurred and without any readable characters, warm shallow depth of field, espresso cups in the background. Slow dolly-in toward the terminal. No faces, no text, no numbers, no logos",
+   "texto_da_fala": "Cartão lá fora, no crédito ou no débito, paga 3,5%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a hand tapping a plain blank dark card on a contactless payment terminal at the counter of a small European-style cafe, terminal screen glowing but blurred and without any readable characters, warm shallow depth of field, espresso cups in the background. Slow dolly-in toward the terminal. No faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "A plain brown cardboard package sealed with tape sliding along a post office counter, then being weighed on a small metal scale, soft indoor light, blank unmarked labels. Smooth lateral tracking shot following the box, then slight push-in. No faces, no text, no numbers, no logos",
+   "texto_da_fala": "É como o pacote no correio: o preço depende do que você declara.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A plain brown cardboard package sealed with tape sliding along a post office counter, then being weighed on a small metal scale, soft indoor light, blank unmarked labels. Smooth lateral tracking shot following the box, then slight push-in. No faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Modern monumental courthouse building with a long row of tall minimalist columns and wide steps at golden hour, a clear sky behind it, no flags and no signage. Slow upward crane tilt from the steps to the top of the columns, ending with a gentle drone-style pull-back. No people in focus, no text, no numbers, no logos",
+   "texto_da_fala": "E calma: o STF deu decisão provisória, e o julgamento ainda não saiu.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Modern monumental courthouse building with a long row of tall minimalist columns and wide steps at golden hour, a clear sky behind it, no flags and no signage. Slow upward crane tilt from the steps to the top of the columns, ending with a gentle drone-style pull-back. No people in focus, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Mandar R$ 10 mil pra fora custa R$ 350 de imposto. Ou R$ 110.\n\nIOF é o imposto cobrado quando você troca real por dólar.\n\nCartão lá fora, no crédito ou no débito, paga 3,5%.\n\nAgora olha a virada: remessa pra investimento paga só 1,1%.\n\nEm R$ 10 mil: R$ 350 de um lado, R$ 110 do outro.\n\nÉ como o pacote no correio: o preço depende do que você declara.\n\nE calma: o STF deu decisão provisória, e o julgamento ainda não saiu.\n\nAntes de mandar, pergunta ao banco como a operação vai ser classificada.\n\nVocê já pagou IOF sem perceber? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-alexandre-de-moraes-decide-validar-decreto-do-iof",
+   "destaque": "Em 16 de julho de 2025, o ministro Alexandre de Moraes, do STF, decidiu manter a validade do decreto do IOF."
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T10:06:37.542689-03:00"
+}
