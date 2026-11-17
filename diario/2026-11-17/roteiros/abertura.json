@@ -1,0 +1,206 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa (contraste mundo x Brasil)",
+  "texto": "Ásia e Europa no vermelho, mas o Ibovespa abriu em alta.",
+  "na_tela": "Mundo no VERMELHO, Brasil em alta",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa (contraste mundo x Brasil)",
+   "texto": "Ásia e Europa no vermelho, mas o Ibovespa abriu em alta.",
+   "na_tela": "Mundo no VERMELHO, Brasil em alta",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "10h11 da manhã: Ibovespa em alta de 0,49%, dólar a R$ 5,80.",
+   "na_tela": "10h11: Ibovespa ▲0,49%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Como o mundo amanheceu e o que isso muda no seu dólar?",
+   "na_tela": "O que muda no seu DÓLAR?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Ásia e Europa no vermelho, mas o Ibovespa abriu em alta.",
+  "Lá fora, a Ásia fechou no vermelho: o Nikkei, do Japão, caiu 1,34%.",
+  "A Europa também tá no vermelho agora de manhã.",
+  "Em Nova York, os sinais antes da abertura tão divididos.",
+  "Mas aqui o Ibovespa abriu na contramão: alta de 0,49%.",
+  "O dólar abriu a R$ 5,80, e dólar alto encarece viagem e importado.",
+  "O termômetro do Brasil marcou 64 no último fechamento: Tensão.",
+  "É tipo sinal amarelo no trânsito: você não para, mas presta atenção.",
+  "Pra hoje, leia no site o que se sabe após a queda.",
+  "Susto ou calma pra você hoje? Comenta.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Ásia e Europa no vermelho, mas o Ibovespa abriu em alta. Lá fora, a Ásia fechou no vermelho: o Nikkei, do Japão, caiu 1,34%. A Europa também tá no vermelho agora de manhã. Em Nova York, os sinais antes da abertura tão divididos. Mas aqui o Ibovespa abriu na contramão: alta de 0,49%. O dólar abriu a R$ 5,80, e dólar alto encarece viagem e importado. O termômetro do Brasil marcou 64 no último fechamento: Tensão. É tipo sinal amarelo no trânsito: você não para, mas presta atenção. Pra hoje, leia no site o que se sabe após a queda. Susto ou calma pra você hoje? Comenta. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Mundo no VERMELHO, Brasil em alta",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nikkei ▼1,34%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Europa no vermelho",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Dow Jones ▼0,57% · Nasdaq ▲0,41%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Ibovespa ▲0,49%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 5,
+   "texto": "Dólar R$ 5,80",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Brasil 64 · Tensão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Ibovespa hoje (17/11)",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Ibovespa hoje",
+ "legenda": "Ibovespa hoje (17/11): como o mundo amanheceu e como o Brasil abriu.\n\nA Ásia fechou em queda, com o Nikkei em ▼1,34%, e a Europa também estava no vermelho de manhã. Em Nova York, os futuros estavam divididos.\n\nAqui, às 10h11, o Ibovespa abriu em alta de 0,49% e o dólar estava a R$ 5,80. No último fechamento, o termômetro do Brasil marcou 64 (Tensão).\n\nO destaque da manhã no site explica o que se sabe após a queda do Ibovespa. Cotações: Yahoo Finance.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ibovespa #dolar #bolsadevalores #economia",
+ "hashtags": [
+  "#ibovespa",
+  "#dolar",
+  "#bolsadevalores",
+  "#economia"
+ ],
+ "rua": {
+  "gancho": "Ásia e Europa no vermelho, e o Ibovespa abriu em alta.",
+  "topicos": [
+   "Ásia fechou em queda: Nikkei ▼1,34%, segundo o Yahoo Finance. Europa também no vermelho.",
+   "Ibovespa abriu às 10h11 em alta de 0,49%, e o dólar a R$ 5,80.",
+   "Termômetro do Brasil no último fechamento: 64, Tensão. Atenção, sem pânico.",
+   "O que fazer: calma, leia no site o que se sabe após a queda."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "A abertura junta vários mercados e pede explicação calma, com prova na tela.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 5,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 1,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Os sinais antes da abertura tão divididos\" (Nova York): é jargão de mercado sem tradução e não muda nada no bolso. Reescreva em uma ideia de dia a dia, tipo \"Nova York ainda não se decidiu: ninguém sabe se abre subindo ou caindo\", ou corte a fala e deixe isso só na legenda. Isso também reduz as fala com número e com assunto lá de fora, que é o que o Teste do CLT pede.",
+   "Frase \"O dólar abriu a R$ 5,80, e dólar alto encarece viagem e importado\" e a de abertura: o que a pessoa deve fazer fica faltando. Junte a consequência com um passo simples e calmo, sem recomendar investimento, por exemplo \"se você vai comprar algo importado ou viajar, dá uma olhada no preço antes de fechar\". Abra com a reação do Heitor (\"Cara, o dólar abriu a R$ 5,80\") em vez de uma manchete com Ásia, Europa e Ibovespa juntos, e traduza Ibovespa como \"a Bolsa\" na primeira vez.",
+   "Frase \"Pra hoje, leia no site o que se sabe após a queda\": é um gatilho de curiosidade que o vídeo não paga, e a fala manda para um site (o Teste do CLT pede nome de site fora da fala). Entregue na própria fala o que se sabe, com a fonte dita como \"segundo o Banco Central\", ou tire a promessa. Também troque \"Susto ou calma? Comenta\" por uma escolha mais fácil, como \"Comenta 1 para susto ou 2 para calma\", e explique rapidinho o que é \"64: Tensão\", pois a comparação do sinal amarelo é boa, mas o número chega sem contexto."
+  ],
+  "veredito": "A peça tem boa comparação (sinal amarelo), fonte nas cotações e o bordão no fim, mas soa como boletim de mercado: tem muito número e jargão (Nova York, \\\"sinais antes da abertura\\\"), manda a pessoa ao site para saber o principal e quase não diz o que fazer no bolso."
+ },
+ "viral": {
+  "nota": 4,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Ásia e Europa no vermelho, mas o Ibovespa abriu em alta.\" É uma manchete lida, sem objeto do bolso e sem voz do Heitor. Reescrita com os mesmos fatos: \"Cara, o mundo amanheceu no vermelho e o dólar abriu a R$ 5,80. Mas a bolsa daqui foi na contramão.\" O dólar é o número que pesa no bolso de quem vai viajar ou comprar importado. A contramão vira a lacuna que o resto do vídeo paga.",
+   "Envio e retenção: \"Pra hoje, leia no site o que se sabe após a queda.\" Essa fala manda a pessoa sair do vídeo e não dá motivo para mandar para ninguém. Reescrita: \"Dólar a R$ 5,80 encarece viagem e importado. Tem alguém viajando aí? Manda pra ele, sério.\" Na fala, o site vira só um aviso curto no cartão da tela e na legenda. A virada do meio também ajuda: \"E aí vem a parte que pouca gente viu: aqui o Ibovespa abriu em alta de 0,49%.\"",
+   "Conversa: \"Susto ou calma pra você hoje? Comenta.\" A pergunta é boa, mas fica vaga. Reescrita: \"Susto ou calma com o dólar a R$ 5,80? Comenta 1 pra susto, 2 pra calma.\" Assim a resposta é um número e fica fácil de dar. A fala \"O termômetro do Brasil marcou 64: Tensão\" também ganha com um complemento curto: \"64. Tensão. Sinal amarelo: você não para, mas presta atenção.\""
+  ],
+  "veredito": "O roteiro é claro, curto e tem a marca no lugar certo, mas abre como manchete lida, não dá motivo concreto para enviar e termina mandando a pessoa para o site. Para viralizar, falta abrir pelo dólar de R$ 5,80, que é o número do bolso, e fechar com um pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Vertical shot of the Tokyo skyline at early morning, cool grey-blue light, thin mist between glass towers, slow aerial drone descent toward a busy elevated highway with streaming car lights. No readable signs, no text, no people in focus",
+   "texto_da_fala": "Lá fora, a Ásia fechou no vermelho: o Nikkei, do Japão, caiu 1,34%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of the Tokyo skyline at early morning, cool grey-blue light, thin mist between glass towers, slow aerial drone descent toward a busy elevated highway with streaming car lights. No readable signs, no text, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot of a port terminal at golden hour: stacked colorful shipping containers with blank unmarked sides and a gantry crane lifting one, then a cut-free camera tilt to a packed suitcase on a rolling airport luggage cart. Smooth slow tracking movement. No text, no logos, no faces",
+   "texto_da_fala": "O dólar abriu a R$ 5,80, e dólar alto encarece viagem e importado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of a port terminal at golden hour: stacked colorful shipping containers with blank unmarked sides and a gantry crane lifting one, then a cut-free camera tilt to a packed suitcase on a rolling airport luggage cart. Smooth slow tracking movement. No text, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Vertical close-up of a traffic light glowing yellow above a city avenue in late afternoon, slow push-in with shallow depth of field, blurred cars slowing and passing below, warm light and soft reflections on wet asphalt. No text, no signs, no people in focus",
+   "texto_da_fala": "É tipo sinal amarelo no trânsito: você não para, mas presta atenção.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up of a traffic light glowing yellow above a city avenue in late afternoon, slow push-in with shallow depth of field, blurred cars slowing and passing below, warm light and soft reflections on wet asphalt. No text, no signs, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Ásia e Europa no vermelho, mas o Ibovespa abriu em alta.\n\nLá fora, a Ásia fechou no vermelho: o Nikkei, do Japão, caiu 1,34%.\n\nA Europa também tá no vermelho agora de manhã.\n\nEm Nova York, os sinais antes da abertura tão divididos.\n\nMas aqui o Ibovespa abriu na contramão: alta de 0,49%.\n\nO dólar abriu a R$ 5,80, e dólar alto encarece viagem e importado.\n\nO termômetro do Brasil marcou 64 no último fechamento: Tensão.\n\nÉ tipo sinal amarelo no trânsito: você não para, mas presta atenção.\n\nPra hoje, leia no site o que se sabe após a queda.\n\nSusto ou calma pra você hoje? Comenta.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T10:30:52.954207-03:00",
+ "enviado_whatsapp": "2026-11-17T10:31:16.855479-03:00"
+}
