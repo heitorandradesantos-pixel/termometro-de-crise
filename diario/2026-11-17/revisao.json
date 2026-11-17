@@ -1,0 +1,70 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [],
+ "noticias": 31,
+ "descartes": [
+  {
+   "onde": "Fed mantém juros em 3,75% a 4% e diz que inflação segue alta",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "Banxico corta juros em surpresa para 6,25% e peso mexicano perde terreno",
+   "motivo": "data fora da janela (2026-11-05)"
+  },
+  {
+   "onde": "Eleição em Israel derruba bolsa de Tel Aviv e shekel; dólar sobe 4,5% em uma semana",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "MSCI avisa que pode rebaixar a Turquia; BIST 100 está 23% abaixo do recorde de maio",
+   "motivo": "data fora da janela (2026-10-19)"
+  },
+  {
+   "onde": "Eleição local na África do Sul não dá vitória clara em Joanesburgo; partidos negociam coalizões",
+   "motivo": "data fora da janela (2026-11-04)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 190.3,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 6.6,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 2.3,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 5.1,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 366.9,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}
