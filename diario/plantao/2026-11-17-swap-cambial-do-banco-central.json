@@ -1,0 +1,105 @@
+{
+ "titulo": "Swap cambial do BC e dólar perto de R$ 5,80: o que se sabe",
+ "descricao": "Dólar fechou a R$ 5,778 em 16/11, o maior valor desde abril de 2025. Veja o que é o swap cambial do BC e o que não foi confirmado sobre R$ 2,75 bi.",
+ "palavra_chave": "swap cambial do banco central",
+ "lead": "O dólar fechou a segunda-feira (16/11) a R$ 5,778, em alta de 2,17%. É o maior valor desde abril de 2025, segundo a Agência Brasil. Não encontramos fonte oficial nem de imprensa que confirme um swap cambial de cerca de R$ 2,75 bi nesta semana.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O dólar comercial subiu 2,17% em 16 de novembro e fechou a R$ 5,778. Pouco antes das 16h, chegou a R$ 5,794, perto da marca de R$ 5,80.",
+   "fonte_url": "https://imirante.com/noticias/brasil/2026/11/16/dolar-sobe-fecha-maior-valor-desde-abril-2025",
+   "data": "2026-11-16",
+   "veiculo": "Agência Brasil (via Imirante)",
+   "confiavel": false
+  },
+  {
+   "texto": "É o maior nível desde abril de 2025. Em novembro, o dólar acumula alta de 6,12%. Em 2026, a valorização é de 5,26%.",
+   "fonte_url": "https://www.aonca.com.br/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025/",
+   "data": "2026-11-16",
+   "veiculo": "Agência Brasil (via A Onça)",
+   "confiavel": false
+  },
+  {
+   "texto": "No mesmo dia, o Ibovespa, principal índice da bolsa, recuou quase 2%, para cerca de 169 mil pontos. O petróleo caiu mais de 3% no mercado internacional.",
+   "fonte_url": "https://agoracomvoce.com.br/noticia/dolar-sobe-para-r-5-77-e-fecha-no-maior-valor-desde-abril-de-2025",
+   "data": "2026-11-16",
+   "veiculo": "Agência Brasil (via Agora com Você)",
+   "confiavel": false
+  },
+  {
+   "texto": "O swap cambial tradicional é um contrato em que o BC paga a variação do dólar e recebe a taxa Selic. Segundo a Reuters, o efeito é o de uma injeção de dólares no mercado futuro, sem entrega de moeda à vista.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/banco-central-inicia-em-novembro-leiloes-para-rolagem-de-contratos-de-swap-cambial/",
+   "data": "2025-10-06",
+   "veiculo": "InfoMoney/Reuters",
+   "confiavel": true
+  },
+  {
+   "texto": "O BC fez em 5 de outubro um leilão de swap tradicional de até 50 mil contratos, equivalentes a US$ 2,5 bilhões. Os contratos começam em 3/11 e vencem em 1º/02/2027. É a rolagem de rotina, que renova contratos que estão vencendo.",
+   "fonte_url": "https://okai.com.br/documento/2026-10-05/comunicado-n-46-064",
+   "data": "2026-10-05",
+   "veiculo": "Comunicado BC 46.064 (via Okai)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 14 de setembro, o BC vendeu todos os 50 mil contratos de uma rolagem, ou US$ 2,5 bilhões. O volume foi dividido entre vencimentos em dezembro de 2026 e janeiro de 2027.",
+   "fonte_url": "https://www.brasil247.com/economia/banco-central-vende-50-mil-swaps-por-us-25-bilhoes-em-leilao-integral-de-rolagem-cambial/",
+   "data": "2026-09-14",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  },
+  {
+   "texto": "Em março, o diretor do BC Nilton David disse que a instituição reduziu os leilões de rolagem porque o mercado mostrou excesso de oferta. Segundo ele, os leilões vinham gerando distorções.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-03-05/bc-recalibra-atuacao-com-swap-cambial-apos-excesso-de-oferta",
+   "data": "2026-03-05",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O diretor do BC Nilton David diz que o banco reduziu os leilões de rolagem de swap por excesso de oferta.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-03-05/bc-recalibra-atuacao-com-swap-cambial-apos-excesso-de-oferta",
+   "data": "2026-03-05",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "O BC vende os 50 mil contratos de swap de uma rolagem, ou US$ 2,5 bilhões.",
+   "fonte_url": "https://www.brasil247.com/economia/banco-central-vende-50-mil-swaps-por-us-25-bilhoes-em-leilao-integral-de-rolagem-cambial/",
+   "data": "2026-09-14",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC faz leilão de swap tradicional de até 50 mil contratos (US$ 2,5 bilhões), com vencimento em 1º/02/2027.",
+   "fonte_url": "https://okai.com.br/documento/2026-10-05/comunicado-n-46-064",
+   "data": "2026-10-05",
+   "veiculo": "Comunicado BC 46.064 (via Okai)",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar fecha a R$ 5,778 (+2,17%), o maior valor desde abril de 2025. Chegou a R$ 5,794 durante o dia.",
+   "fonte_url": "https://imirante.com/noticias/brasil/2026/11/16/dolar-sobe-fecha-maior-valor-desde-abril-2025",
+   "data": "2026-11-16",
+   "veiculo": "Agência Brasil (via Imirante)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado nenhum swap cambial de cerca de R$ 2,75 bi. Não achamos comunicado do Banco Central nem reportagem que traga esse valor. Os leilões que encontramos são em dólares: US$ 2,5 bilhões por rolagem.",
+  "Não está confirmado se o BC fez ou fará leilão extra de swap por causa da alta do dólar em 16/11. Não há comunicado do BC sobre isso nas fontes consultadas.",
+  "A busca não trouxe o fechamento do dólar de 17/11. Confira a cotação do dia em fontes de mercado.",
+  "As explicações para a alta do dólar em 16/11 não apareceram nas fontes consultadas. Quem as der deve ser citado. Não atribuímos a alta a nenhum fator."
+ ],
+ "o_que_muda_para_voce": [
+  "O swap cambial é um contrato entre o BC e instituições financeiras. Ele não mexe direto na sua conta, no Pix ou na poupança.",
+  "Dólar mais caro costuma encarecer produtos importados, viagens ao exterior e compras em lojas internacionais. Isso vale se a cotação se mantiver em nível alto.",
+  "Quem tem investimento em dólar ou fundos cambiais vê o valor em reais variar com a cotação. Este texto não indica o que fazer com seu dinheiro.",
+  "Se o BC anunciar novo leilão, o comunicado aparece no site do Banco Central. É a fonte oficial para conferir valores e datas."
+ ],
+ "como_se_proteger": [],
+ "slug": "swap-cambial-do-banco-central",
+ "publicado_em": "2026-11-17T07:51:23.730035",
+ "atualizado_em": "2026-11-17T07:51:23.730035",
+ "assunto": "Swap cambial do Banco Central de cerca de R$ 2,75 bi e dólar perto de R$ 5,80: o que se sabe",
+ "turno": "manha"
+}
