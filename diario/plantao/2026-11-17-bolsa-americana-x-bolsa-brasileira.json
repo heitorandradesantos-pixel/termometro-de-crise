@@ -1,0 +1,106 @@
+{
+ "titulo": "Bolsa americana x bolsa brasileira: o que se sabe",
+ "descricao": "S&P 500 sobe 8,34% em 2026, em dólar, até o fechamento de 16/11. Ibovespa caiu 1,83% no dia. Entenda o papel do dólar e como investir pela B3.",
+ "palavra_chave": "bolsa americana x bolsa brasileira",
+ "lead": "O S&P 500, índice das 500 maiores empresas dos EUA, acumula alta de 8,34% em 2026, em dólar, até o fechamento de 16/11, segundo o MarketScreener. No mesmo dia, o Ibovespa caiu 1,83%, aos 169.295 pontos, com cautela fiscal e queda em Nova York, informou a B3. Quem investe no S&P 500 pelo Brasil ganha ou perde também com o dólar, e dá para fazer isso pela própria B3.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou a segunda-feira (16/11) em queda de 1,83%, aos 169.295,41 pontos. O dólar subiu 2,15%, a R$ 5,7767, o maior valor desde abril de 2025, segundo a Exame.",
+   "fonte_url": "https://exame.com/invest/mercados/ibovespa-cai-18-com-desconfianca-sobre-ajuste-fiscal-de-lula-ny-recua-com-temor-sobre-ia/",
+   "data": "2026-11-16",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o Bora Investir, da B3, parte do mercado acha o pacote fiscal apresentado pelo governo insuficiente para melhorar as contas públicas. O texto também cita dúvidas sobre a formação da equipe econômica e o rebaixamento das ações brasileiras pelo Morgan Stanley.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-183-com-pressao-do-exterior-e-cautela-fiscal-dolar-sobe/",
+   "data": "2026-11-16",
+   "veiculo": "Bora Investir (B3)",
+   "confiavel": true
+  },
+  {
+   "texto": "O S&P 500 acumula alta de 8,34% no ano até o fechamento de 16/11, quando terminou em 7.416,59 pontos. O dado é do MarketScreener e se refere ao dia 16, não ao dia 17, cujo pregão ainda não fechou.",
+   "fonte_url": "https://www.marketscreener.com/quote/index/S-P-500-4985/",
+   "data": "2026-11-16",
+   "veiculo": "MarketScreener",
+   "confiavel": false
+  },
+  {
+   "texto": "O S&P 500 também caiu em 16/11: perdeu 1,92% em um dia de vendas ligadas ao setor de tecnologia e a novas restrições dos EUA a chips de inteligência artificial. Ou seja, Nova York e São Paulo recuaram juntas naquela segunda-feira.",
+   "fonte_url": "https://br.advfn.com/jornal/2026/11/mercados-estados-unidos-fechamento-dow-jones-wall-street-hoje-16-11-2026",
+   "data": "2026-11-16",
+   "veiculo": "ADVFN",
+   "confiavel": false
+  },
+  {
+   "texto": "O S&P 500 é calculado em dólar. Para quem investe do Brasil sem proteção contra o câmbio, o resultado em reais junta a variação do índice com a variação do dólar, o que pode aumentar ou reduzir o ganho.",
+   "fonte_url": "https://oinvestimentocerto.com/sp-500-mensal-e-acumulado/",
+   "data": "2026-10-20",
+   "veiculo": "O Investimento Certo",
+   "confiavel": false
+  },
+  {
+   "texto": "A B3 explica que dá para acompanhar o S&P 500 sem sair da bolsa brasileira. Uma via é o ETF (fundo negociado em bolsa que copia um índice) do S&P 500. Outra é o BDR (recibo, negociado na B3, que representa ativos do exterior), inclusive o BDR de ETF. Página consultada em 17/11.",
+   "fonte_url": "https://borainvestir.b3.com.br/objetivos-financeiros/investir-melhor/como-investir-no-exterior-sem-sair-da-b3-bora-investir/",
+   "data": "2026-11-17",
+   "veiculo": "Bora Investir (B3)",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Clear, a tributação de BDRs de ETFs negociados na B3 segue as regras da Receita Federal para ativos de bolsa. Investir direto nos EUA tem regras diferentes.",
+   "fonte_url": "https://master.clear.com.br/melhores-etfs-americanos/",
+   "data": "2026-10-02",
+   "veiculo": "Clear",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O S&P 500 fechou a sexta-feira em 7.561,67 pontos, queda de 0,4% no dia, segundo o Yahoo Finance.",
+   "fonte_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-16-132700717.html",
+   "data": "2026-11-13",
+   "veiculo": "Yahoo Finance",
+   "confiavel": false
+  },
+  {
+   "texto": "O S&P 500 cai 1,92% e fecha em 7.416,59 pontos, com a acumulada do ano em 8,34%.",
+   "fonte_url": "https://www.marketscreener.com/quote/index/S-P-500-4985/",
+   "data": "2026-11-16",
+   "veiculo": "MarketScreener",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa cai 1,83% e fecha aos 169.295 pontos. O dólar sobe 2,15%, a R$ 5,77.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-183-com-pressao-do-exterior-e-cautela-fiscal-dolar-sobe/",
+   "data": "2026-11-16",
+   "veiculo": "Bora Investir (B3)",
+   "confiavel": true
+  },
+  {
+   "texto": "Investidores aguardam a votação dos últimos destaques do pacote fiscal, prevista para 17/11. A votação na Câmara está prevista para 18/11.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/ibovespa-cai-1-83-com-temor-fiscal-e-aversao-ao-risco/",
+   "data": "2026-11-16",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado o número exato do S&P 500 no fechamento de 17/11. O pregão do dia ainda estava em andamento na apuração, e o dado de 8,34% vale até 16/11.",
+  "Não é uma comparação igual: o S&P 500 aparece no acumulado do ano, em dólar, e o Ibovespa, só na queda de um dia. Não apuramos o acumulado do Ibovespa em 2026 nesta matéria.",
+  "Ninguém garante como Nova York, a bolsa daqui e o dólar vão reagir nos próximos dias. Analistas citam como pontos de atenção os resultados da Nvidia e a votação do ajuste fiscal, prevista para a Câmara em 18/11, segundo a Brasil em Folhas. Isso não foi confirmado como causa de novas oscilações.",
+  "Um veículo (CNN Brasil) mostrou um fechamento ligeiramente diferente do S&P 500 em 16/11. Usamos os dados de Yahoo Finance, ADVFN e MarketScreener, que coincidem entre si."
+ ],
+ "o_que_muda_para_voce": [
+  "Dólar e bolsa americana andam separados. Em 16/11, o S&P 500 caiu 1,92%, mas o dólar subiu 2,15%. Numa conta simples nossa, que ignora custos e diferença de horário, quem tem investimento em dólar ficou perto de zero em reais naquele dia.",
+  "Se você investe só no Brasil, sua carteira depende da bolsa daqui, dos juros e da percepção sobre as contas públicas. Se tem parte lá fora, depende também do dólar e dos EUA. São riscos diferentes, e nenhum garante ganho.",
+  "Para investir no S&P 500 sem abrir conta no exterior, a B3 lista ETFs e BDRs negociados em reais pela corretora brasileira. Antes, veja custos, impostos e o risco de o dólar cair.",
+  "Este texto explica como o mercado funciona. Não recomenda comprar, vender ou escolher ativo.",
+  "Sua vez: você investe só no Brasil ou já tem um pé lá fora? Comenta BR ou GRINGA."
+ ],
+ "como_se_proteger": [],
+ "slug": "bolsa-americana-x-bolsa-brasileira",
+ "publicado_em": "2026-11-17T10:15:49.628065",
+ "atualizado_em": "2026-11-17T10:15:49.628065",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, investimentos no exterior, com gatilho de comentário) bolsa americana x bolsa brasileira: o S&P 500 acumula alta de 8,34% em 2026, em dólar, até 17/11 (O Investimento Certo), enquanto o Ibovespa caiu 1,83% só em 16/11 com a preocupação fiscal (InfoMoney 16/11/2026). Quem investe no S&P 500 do Brasil ganha ou perde também com o dólar; dá para investir pela própria B3 com BDR ou ETF (fonte: b3.com.br). Gatilho: \"Você investe só no Brasil ou já tem um pé lá fora? Comenta BR ou GRINGA.\" Sem recomendar ativo e sem código de ação.",
+ "turno": "manha"
+}
