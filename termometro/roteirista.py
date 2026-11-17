@@ -17,6 +17,7 @@ Grava diario/AAAA-MM-DD/roteiros/<tipo>[-slug].json.
 import json
 import os
 import re
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
@@ -97,6 +98,37 @@ Regras:
    primeiros 10 segundos. No Explica, quando couber, a última fala do corpo diz para quem mandar o vídeo, com uma
    situação concreta ("Manda para quem guarda dinheiro na poupança")."""
 SISTEMA += config.manual("roteiro", "voz_do_heitor", "viralizacao", "redacao", "marca", "referencias")
+
+
+
+# Reels não podem virar "dólar todo dia" (pedido do Heitor, 17/11/2026). Os turnos da manhã (mercado do dia) e do
+# meio (internacional) seguem no site, mas só viram roteiro quando o editor pediu o tema. E um assunto de mercado
+# (dólar, bolsa, juros, petróleo) não volta em roteiro antes de 3 dias.
+TEMAS_MERCADO = ("dolar", "cambi", "swap", "ibovespa", "bolsa", "selic", "juros", "copom", "petroleo", "mercado")
+
+
+def _chaves_mercado(texto: str) -> set:
+    t = unicodedata.normalize("NFD", str(texto).lower()).encode("ascii", "ignore").decode()
+    return {k for k in TEMAS_MERCADO if k in t}
+
+
+def vira_reel(artigo: dict, diario: Path, dia: str) -> bool:
+    assunto = str(artigo.get("assunto", "")).strip().lower()
+    pedido_do_editor = assunto.startswith(("explicativo", "modo polêmica", "modo polemica"))
+    if pedido_do_editor:
+        return True
+    if artigo.get("turno") in ("manha", "meio"):
+        return False
+    chaves = _chaves_mercado(f"{artigo.get('slug', '')} {artigo.get('titulo', '')}")
+    if not chaves:
+        return True
+    hoje = pd.Timestamp(dia)
+    for d in range(0, 3):
+        pasta = diario / (hoje - pd.Timedelta(days=d)).strftime("%Y-%m-%d") / "roteiros"
+        for r in pasta.glob("explica-*.json") if pasta.is_dir() else []:
+            if chaves & _chaves_mercado(r.stem):
+                return False
+    return True
 
 
 def ferramenta() -> dict:
@@ -496,6 +528,9 @@ def rodar(diario: Path, tipo: str, pasta_envio: Path | None = None, dia: str = "
             if (diario / dia / "roteiros" / f"explica-{a.stem[11:]}.json").exists():
                 continue  # já tem roteiro
             artigo = json.loads(a.read_text())
+            if not vira_reel(artigo, diario, dia):
+                print(f"Roteirista: {artigo['slug']} fica só no site (mercado do dia ou assunto repetido).")
+                continue
             trabalhos.append((dia, f"explica-{artigo['slug']}", material_artigo(artigo), prints_artigo(artigo)))
     if not trabalhos:
         print("Roteirista: nada novo para roteirizar.")
