@@ -1,0 +1,196 @@
+{
+ "gancho": {
+  "formula": "Reação + número",
+  "texto": "Cara, o dólar subiu 2,00% num dia só e fechou a R$ 5,78.",
+  "na_tela": "Dólar +2,00% em um dia",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Reação + número",
+   "texto": "Cara, o dólar subiu 2,00% num dia só e fechou a R$ 5,78.",
+   "na_tela": "Dólar +2,00% em um dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "O dólar de R$ 5,78 acabou de chegar na sua viagem e no seu importado.",
+   "na_tela": "Dólar chegou na sua viagem",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "O dólar não fechava tão alto desde abril de 2025. Sua viagem já sabe?",
+   "na_tela": "Maior desde abril de 2025",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar subiu 2,00% num dia só e fechou a R$ 5,78.",
+  "É o maior valor desde abril de 2025.",
+  "O importado que você ia parcelar e a viagem planejada podem pesar mais.",
+  "No Brasil, o termômetro marca 62, Tensão.",
+  "Lá fora, a bolsa americana caiu 1,64%.",
+  "E aí vem a parte que pouca gente viu.",
+  "O termômetro do mundo está em 58, Alerta.",
+  "A Europa passou de Atenção para Alerta no termômetro.",
+  "Calma: compare o preço do dia antes de fechar.",
+  "Tem alguém planejando viagem ou parcelando importado? Manda esse vídeo pra ele.",
+  "Esse dólar foi susto ou já esperava? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar subiu 2,00% num dia só e fechou a R$ 5,78. É o maior valor desde abril de 2025. O importado que você ia parcelar e a viagem planejada podem pesar mais. No Brasil, o termômetro marca 62, Tensão. Lá fora, a bolsa americana caiu 1,64%. E aí vem a parte que pouca gente viu. O termômetro do mundo está em 58, Alerta. A Europa passou de Atenção para Alerta no termômetro. Calma: compare o preço do dia antes de fechar. Tem alguém planejando viagem ou parcelando importado? Manda esse vídeo pra ele. Esse dólar foi susto ou já esperava? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Dólar +2,00% em um dia",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar +2,00% · R$ 5,78 · maior desde abril de 2025",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Brasil: 62 · Tensão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Bolsa americana: -1,64%",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Mundo: 58 · Alerta",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Europa: Atenção → Alerta",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje: por que subiu 2,00% e fechou a R$ 5,78",
+ "legenda": "Dólar hoje: subiu 2,00% e fechou a R$ 5,78, o maior valor desde abril de 2025.\n\nO dólar é a etiqueta de tudo que vem de fora. O importado que você ia parcelar e a viagem planejada podem pesar mais.\n\nNo termômetro de hoje, o Brasil está em 62 (Tensão) e o mundo em 58 (Alerta). A Europa passou de Atenção para Alerta.\n\nSem pressa: compare o preço do dia antes de fechar. Manda pra quem está planejando viagem ou parcelando importado.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #termometrodecrise #economia #financaspessoais",
+ "hashtags": [
+  "#dolarhoje",
+  "#termometrodecrise",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar subiu 2,00% num dia só: R$ 5,78.",
+  "topicos": [
+   "Dólar fechou a R$ 5,78, alta de 2,00%, o maior desde abril de 2025.",
+   "Pode pesar no importado parcelado e na viagem planejada.",
+   "Nosso termômetro: Brasil em 62, Tensão; mundo em 58, Alerta.",
+   "Compare o preço do dia antes de fechar viagem ou compra."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Fechamento com vários números do termômetro pede explicação calma, não notícia de rua.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"No Brasil, o termômetro marca 62, Tensão. Lá fora, a bolsa americana caiu 1,64%.\": são dois números e duas ideias na mesma fala, o que quebra o Teste do CLT. Separe em falas distintas, com um número cada. Deixe o 1,64% para depois, ou diga o efeito sem o número (\"lá fora a bolsa americana também caiu\") e mantenha o número exato no cartão da tela.",
+   "Frase \"O termômetro do mundo está em 58, Alerta. A Europa passou de Atenção para Alerta no termômetro.\": a virada \"parte que pouca gente viu\" não paga muito, porque só repete a escala sem dizer o que muda no bolso. Traduza o efeito: diga em uma frase simples o que a Europa em Alerta quer dizer para quem compra importado ou viaja, sem acrescentar fato novo. Se a peça não tiver esse efeito, diga com calma que ainda não dá para saber. Assim o melancólico recebe o porquê e o que falta saber.",
+   "Frase \"Calma: compare o preço do dia antes de fechar.\": o passo é bom, mas está curto e solto, e a comparação com a vida real é fraca. Dê uma imagem do dia a dia, como pesquisar o preço em duas lojas antes de passar o cartão, e diga o passo em fala corrida (\"antes de parcelar, olha o preço em mais de um lugar\"). Isso atende o sanguíneo e o fleumático. Se quiser, troque \"2,00%\" por \"2%\" na fala, que é um número redondo."
+  ],
+  "veredito": "A peça fala com o bolso (importado parcelado, viagem), tem passo simples, gatilhos de comentário éticos e o bordão certo, mas falta separar os números por fala, traduzir o que o alerta da Europa muda para a pessoa e dar uma comparação viva ao passo final."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o dólar subiu 2,00% num dia só e fechou a R$ 5,78.\" parece manchete e deixa o bolso para a terceira frase. Reescrita: \"Cara, o importado que você ia parcelar pode pesar mais: o dólar fechou a R$ 5,78, o maior valor desde abril de 2025.\" O 2,00% fica no cartão da tela.",
+   "Pagamento da virada: \"E aí vem a parte que pouca gente viu.\" vem antes de um dado fraco (a mudança de faixa da Europa), e a promessa fica maior que a entrega. Reescrita: \"E aí vem a parte que pouca gente viu: a Europa passou de Atenção para Alerta no nosso termômetro.\" Assim a virada paga na hora e vem depois do número do mundo.",
+   "Retenção (Teste do CLT): \"No Brasil, o termômetro marca 62, Tensão. Lá fora, a bolsa americana caiu 1,64%.\" e \"O termômetro do mundo está em 58, Alerta.\" juntam número demais, e quem nunca viu o Termômetro não sabe o que é 62. Reescrita: \"No nosso termômetro, o Brasil está em Tensão. Lá fora, a bolsa americana caiu 1,64%.\" Os números 62 e 58 ficam na tela, e a fala cita só o nome da faixa."
+  ],
+  "veredito": "Fecha bem, com envio para uma situação concreta (viagem ou importado parcelado) e uma pergunta fácil de responder, mas o gancho é manchete e a parte do termômetro tem número demais para quem nunca viu o Termômetro."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up on a wooden desk by a window: a sealed cardboard package from an online order with a small unbranded gadget box beside it, a passport-less open suitcase half packed with folded clothes and a pair of sunglasses, soft warm morning light. Slow dolly-in from the package to the suitcase. No people, no text, no logos, no labels",
+   "texto_da_fala": "O importado que você ia parcelar e a viagem planejada podem pesar mais.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a wooden desk by a window: a sealed cardboard package from an online order with a small unbranded gadget box beside it, a passport-less open suitcase half packed with folded clothes and a pair of sunglasses, soft warm morning light. Slow dolly-in from the package to the suitcase. No people, no text, no logos, no labels. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Empty modern stock trading floor seen from above, rows of desks with many glowing monitors showing abstract red downward-sloping line charts with no numbers, no letters, cool blue-and-red light, a slow crane shot descending toward the desks. No people, no text, no logos",
+   "texto_da_fala": "Lá fora, a bolsa americana caiu 1,64%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Empty modern stock trading floor seen from above, rows of desks with many glowing monitors showing abstract red downward-sloping line charts with no numbers, no letters, cool blue-and-red light, a slow crane shot descending toward the desks. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Old European city rooftops and a cobblestone square at dusk under heavy gray-orange clouds, street lamps just turning on, a slow aerial drone push-forward over the roofs with a slightly tense, moody atmosphere. Tiny distant figures only, no faces, no flags, no text, no signs, no logos",
+   "texto_da_fala": "A Europa passou de Atenção para Alerta no termômetro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Old European city rooftops and a cobblestone square at dusk under heavy gray-orange clouds, street lamps just turning on, a slow aerial drone push-forward over the roofs with a slightly tense, moody atmosphere. Tiny distant figures only, no faces, no flags, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar subiu 2,00% num dia só e fechou a R$ 5,78.\n\nÉ o maior valor desde abril de 2025.\n\nO importado que você ia parcelar e a viagem planejada podem pesar mais.\n\nNo Brasil, o termômetro marca 62, Tensão.\n\nLá fora, a bolsa americana caiu 1,64%.\n\nE aí vem a parte que pouca gente viu.\n\nO termômetro do mundo está em 58, Alerta.\n\nA Europa passou de Atenção para Alerta no termômetro.\n\nCalma: compare o preço do dia antes de fechar.\n\nTem alguém planejando viagem ou parcelando importado? Manda esse vídeo pra ele.\n\nEsse dólar foi susto ou já esperava? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T18:34:32.949013-03:00"
+}
