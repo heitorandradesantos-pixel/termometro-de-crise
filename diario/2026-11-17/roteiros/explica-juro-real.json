@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Quanto sobra de verdade quando seu dinheiro rende 13,75%?",
+  "na_tela": "Quanto SOBRA dos 13,75%?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Cara, a Selic é 13,75%, mas no seu bolso é bem menos.",
+   "na_tela": "Selic 13,75%: bolso, bem MENOS",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto sobra de verdade quando seu dinheiro rende 13,75%?",
+   "na_tela": "Quanto SOBRA dos 13,75%?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Erro de todo mundo",
+   "texto": "Rende menos que 4,63% ao ano? Seu dinheiro encolhe, mesmo sem você gastar.",
+   "na_tela": "Menos de 4,63%? Encolhe",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Quanto sobra de verdade quando seu dinheiro rende 13,75%?",
+  "O Copom manteve a Selic, a taxa básica de juros.",
+  "Só que a inflação em 12 meses, diz o IBGE, é 4,63%.",
+  "Inflação é a feira ficando cara: ela come parte do rendimento.",
+  "Fiz a conta: sobram cerca de 8,7% ao ano, antes do imposto.",
+  "Mas o Imposto de Renda ainda pesa: no mais baixo, sobram cerca de 6,7%.",
+  "Compare: se sua aplicação rende menos que 4,63%, perde poder de compra.",
+  "Manda pra quem deixa dinheiro rendendo e nunca fez essa conta.",
+  "Sua aplicação rende mais ou menos que a inflação? Comenta MAIS ou MENOS.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Quanto sobra de verdade quando seu dinheiro rende 13,75%? O Copom manteve a Selic, a taxa básica de juros. Só que a inflação em 12 meses, diz o IBGE, é 4,63%. Inflação é a feira ficando cara: ela come parte do rendimento. Fiz a conta: sobram cerca de 8,7% ao ano, antes do imposto. Mas o Imposto de Renda ainda pesa: no mais baixo, sobram cerca de 6,7%. Compare: se sua aplicação rende menos que 4,63%, perde poder de compra. Manda pra quem deixa dinheiro rendendo e nunca fez essa conta. Sua aplicação rende mais ou menos que a inflação? Comenta MAIS ou MENOS. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Quanto SOBRA dos 13,75%?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 2,
+   "texto": "Inflação em 12 meses: 4,63%",
+   "fonte": "IBGE"
+  },
+  {
+   "fala": 4,
+   "texto": "Juro real: cerca de 8,7%",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Depois do IR: cerca de 6,7%",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Abaixo de 4,63% = perde poder de compra",
+   "fonte": "IBGE"
+  }
+ ],
+ "retomada": 5,
+ "busca": "juro real: quanto sobra da Selic de 13,75%",
+ "legenda": "Juro real: quanto sobra da Selic de 13,75%?\n\nSegundo o Copom, a Selic ficou em 13,75% ao ano em 4 de novembro. Só que o IBGE informou, em 12 de novembro, que a inflação em 12 meses é 4,63%.\n\nPela conta do Termômetro de Crise, o juro real é de cerca de 8,7% ao ano, antes do Imposto de Renda. Com o imposto mais baixo da tabela regressiva, o ganho real fica em cerca de 6,7%. É conta com a inflação que já passou: a futura ainda não se sabe.\n\nSe sua aplicação rende menos que 4,63%, o dinheiro perde poder de compra pelo IPCA. Compare e veja de que lado você está.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#juroreal #selic #inflacao #educacaofinanceira",
+ "hashtags": [
+  "#juroreal",
+  "#selic",
+  "#inflacao",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, a Selic é 13,75%, mas no seu bolso é bem menos.",
+  "topicos": [
+   "O Copom manteve a Selic em 13,75% ao ano, em novembro.",
+   "O IBGE diz que a inflação em 12 meses chegou a 4,63%.",
+   "Pela conta do Termômetro, sobram cerca de 8,7% ao ano, antes do imposto.",
+   "Compare: se sua aplicação rende menos que 4,63%, perde poder de compra."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e uma conta, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"O Copom manteve a Selic, a taxa básica de juros.\" e \"Só que a inflação em 12 meses, diz o IBGE, é 4,63%.\": tem sigla e nome de órgão, e número exato na fala. Reescreva na ordem direta: \"Cara, o Banco Central manteve os juros em 13,75%. Mas os preços subiram uns 4,6% em um ano, segundo o IBGE.\" O exato (4,63%) fica no cartão da tela.",
+   "Frase \"Mas o Imposto de Renda ainda pesa: no mais baixo, sobram cerca de 6,7%.\": tem dois pontos e \"no mais baixo\" não é entendido de primeira. Divida em duas falas curtas e traduza: \"E o Imposto de Renda também come uma parte. No caso em que ele cobra menos, sobram uns 6,7%.\" Se a fala ficar cheia de número, deixe o 8,7% só no cartão.",
+   "Frases \"Compare: se sua aplicação rende menos que 4,63%, perde poder de compra.\" e \"Manda pra quem deixa dinheiro rendendo...\": falta o passo simples e a voz solta do Heitor, e a apresentação com o aviso só aparece na legenda. Reescreva o passo: \"Abre o app do banco, olha quanto rendeu em um ano e compara com a inflação.\" Troque \"perde poder de compra\" por \"a feira pesa mais que o rendimento\". Antes do bordão final, acrescente \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Para o lado melancólico, diga em voz alta \"isso é a inflação que já passou, a de amanhã ninguém sabe\"."
+  ],
+  "veredito": "A peça tem fonte, comparação da feira, saída clara e gatilho de comentário ético, mas a fala soa como teleprompter, com termos de banco e vários números exatos, e falta o passo prático e a apresentação do Heitor na fala."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Quanto sobra de verdade quando seu dinheiro rende 13,75%?\" é pergunta que serve para qualquer vídeo de juros e não fala com o bolso de quem assiste. Reescrita: \"Cara, o juro está em 13,75% ao ano. Mas depois da inflação, quanto sobra no seu bolso?\"",
+   "Pagamento: a resposta (8,7%) só chega na quinta fala, depois de Copom, Selic e IBGE. Coloque logo depois do gancho: \"Sobram uns 8,7% ao ano, antes do imposto. É o juro de 13,75% menos a inflação de 4,63%.\" Depois explique a inflação e o imposto.",
+   "Retenção: \"no mais baixo, sobram cerca de 6,7%\" não é entendido de primeira, e \"Copom\", \"taxa básica\" e \"poder de compra\" pesam no Teste do CLT. Reescrita: \"E aí vem a parte que pouca gente conta: o Imposto de Renda ainda tira um pedaço. No menor desconto, sobram uns 6,7%.\" Troque \"perde poder de compra\" por \"a feira fica mais cara do que o seu dinheiro cresceu\"."
+  ],
+  "veredito": "O vídeo tem uma conta clara, um pedido de envio concreto e um gatilho de comentário fácil (MAIS ou MENOS), mas o gancho é genérico e a resposta demora a chegar. Para viralizar, abra com o bolso de quem assiste, entregue o 8,7% logo no começo e simplifique as falas."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Vertical shot of an open-air street market (feira) stall at morning, crates of fresh tomatoes, bananas, lettuce and oranges neatly stacked, hand-written blank cardboard price signs with no text, slow dolly-in along the stall with soft natural light, shallow depth of field, no faces visible",
+   "texto_da_fala": "Inflação é a feira ficando cara: ela come parte do rendimento.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of an open-air street market (feira) stall at morning, crates of fresh tomatoes, bananas, lettuce and oranges neatly stacked, hand-written blank cardboard price signs with no text, slow dolly-in along the stall with soft natural light, shallow depth of field, no faces visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical macro shot of a pile of golden coins on a wooden table while a pair of hands without visible faces slowly slides a few coins away to the side, as if taken as a deduction, slow top-down camera push-in, warm light, no text or numbers",
+   "texto_da_fala": "Mas o Imposto de Renda ainda pesa: no mais baixo, sobram cerca de 6,7%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical macro shot of a pile of golden coins on a wooden table while a pair of hands without visible faces slowly slides a few coins away to the side, as if taken as a deduction, slow top-down camera push-in, warm light, no text or numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Vertical close-up of a hand holding a smartphone by a window, thumb swiping through a blank colorful screen without any readable text, a piggy bank blurred in the background on a shelf, slow orbiting camera movement, soft daylight, no face in frame",
+   "texto_da_fala": "Manda pra quem deixa dinheiro rendendo e nunca fez essa conta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up of a hand holding a smartphone by a window, thumb swiping through a blank colorful screen without any readable text, a piggy bank blurred in the background on a shelf, slow orbiting camera movement, soft daylight, no face in frame. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Quanto sobra de verdade quando seu dinheiro rende 13,75%?\n\nO Copom manteve a Selic, a taxa básica de juros.\n\nSó que a inflação em 12 meses, diz o IBGE, é 4,63%.\n\nInflação é a feira ficando cara: ela come parte do rendimento.\n\nFiz a conta: sobram cerca de 8,7% ao ano, antes do imposto.\n\nMas o Imposto de Renda ainda pesa: no mais baixo, sobram cerca de 6,7%.\n\nCompare: se sua aplicação rende menos que 4,63%, perde poder de compra.\n\nManda pra quem deixa dinheiro rendendo e nunca fez essa conta.\n\nSua aplicação rende mais ou menos que a inflação? Comenta MAIS ou MENOS.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "IBGE",
+   "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "destaque": "O IPCA, a inflação oficial, subiu 0,14% em outubro."
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T10:13:32.261318-03:00"
+}
