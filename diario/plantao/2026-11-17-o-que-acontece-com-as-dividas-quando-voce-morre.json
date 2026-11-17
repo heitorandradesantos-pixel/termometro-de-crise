@@ -1,0 +1,120 @@
+{
+ "titulo": "O que acontece com as dívidas quando você morre: o que se sabe",
+ "descricao": "Dívida de quem morre não vira dívida pessoal dos filhos. A herança paga, e os herdeiros só respondem até o valor que receberam. Veja a regra.",
+ "palavra_chave": "o que acontece com as dívidas quando você morre",
+ "lead": "Quando alguém morre com dívidas, a conta é paga com os bens que a pessoa deixou. Os herdeiros só respondem até o valor que receberam, segundo os artigos 1.792 e 1.997 do Código Civil. A Agência Brasil explicou a regra em outubro de 2026, com a professora de Direito Civil Rose Meireles, da Uerj. Se a dívida for maior que a herança, o que sobra não pode ser cobrado da família.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O artigo 1.997 do Código Civil diz que a herança responde pelo pagamento das dívidas do falecido. Depois da partilha (a divisão dos bens), os herdeiros respondem cada um na proporção da parte que recebeu. A lei é de 10/01/2002.",
+   "fonte_url": "https://normas.leg.br/?10406%21prt2_liv5=&urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2002-01-10",
+   "data": "2002-01-10",
+   "veiculo": "Normas.leg.br (Congresso Nacional) – Lei 10.406/2002",
+   "confiavel": false
+  },
+  {
+   "texto": "O artigo 1.792 diz que o herdeiro não responde por encargos (dívidas) maiores que as forças da herança. Cabe a ele provar o excesso, salvo se houver inventário mostrando o valor dos bens herdados. O Tribunal de Justiça do DF explica que, se as dívidas passarem do valor dos bens, os herdeiros não recebem nada, mas também não podem ser responsabilizados.",
+   "fonte_url": "https://www.tjdft.jus.br/institucional/imprensa/campanhas-e-produtos/direito-facil/edicao-semanal/divida-de-falecido",
+   "data": "2002-01-10",
+   "veiculo": "Tribunal de Justiça do DF e Territórios (TJDFT)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em outubro de 2026, a Agência Brasil publicou que a herança responde pelas dívidas e que os bens pessoais dos herdeiros não entram na conta. Segundo a professora Rose Meireles, da Uerj, as dívidas são pagas com dinheiro em conta, imóveis, veículos e outros bens deixados. A data exata da publicação não foi confirmada; o endereço da página indica outubro de 2026.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/falecido-deixou-dividas-saiba-quem-deve-pagar",
+   "data": "2026-10-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Exemplo dado na mesma reportagem: se o espólio (o conjunto de bens do falecido) vale R$ 300 mil e as dívidas somam R$ 500 mil, os credores recebem até R$ 300 mil. Os R$ 200 mil restantes não podem ser cobrados dos herdeiros.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/falecido-deixou-dividas-saiba-quem-deve-pagar",
+   "data": "2026-10-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "As dívidas vêm antes da divisão dos bens. O credor pode pedir o pagamento ao juiz durante o inventário. Se os herdeiros já tiverem dividido os bens, cada um responde na proporção do que recebeu, segundo a professora Rose Meireles.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/falecido-deixou-dividas-saiba-quem-deve-pagar",
+   "data": "2026-10-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Um texto de escritório de advocacia, atualizado em 2/7/2026, afirma que o STJ decidiu que o herdeiro responde só pelo que efetivamente recebeu, e não por valores estimados (REsp 2.168.268). O mesmo texto diz que o STJ protege o imóvel do espólio que segue como moradia da família contra penhora por dívidas do falecido. Essas duas afirmações vêm de um escritório e não foram checadas no site do tribunal.",
+   "fonte_url": "https://www.bmachado.com.br/blog/dividas-de-quem-morreu-herdeiros-precisam-pagar/",
+   "data": "2026-07-02",
+   "veiculo": "B. Machado Advogados (blog)",
+   "confiavel": false
+  },
+  {
+   "texto": "Dívida de imposto tem regra própria. Em agosto de 2026, a 1ª Seção do STJ fixou, no Tema 1.393, que a execução fiscal (cobrança judicial de tributo) só pode ser redirecionada ao espólio ou aos sucessores se o devedor foi citado, isto é, chamado formalmente ao processo, antes de morrer.",
+   "fonte_url": "https://conjur.com.br/2026-ago-21/execucao-fiscal-so-alcanca-sucessores-se-devedor-foi-citado-antes-de-morrer/",
+   "data": "2026-08-21",
+   "veiculo": "Conjur",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo reportagem da Folhapress, essa decisão do STJ não extingue a dívida de imposto nem afasta a responsabilidade dos sucessores. A dívida pode continuar, dentro dos limites da herança, e a forma de cobrança depende de quando o contribuinte morreu.",
+   "fonte_url": "https://diariodocomercio.com.br/financas/divida-fiscal-herdeiros-stj-regras-cobranca/",
+   "data": "2026-09-23",
+   "veiculo": "Diário do Comércio (Folhapress)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Lei 10.406 institui o Código Civil, com os artigos 1.792 e 1.997 sobre dívidas do falecido e limite da herança.",
+   "fonte_url": "https://normas.leg.br/?10406%21prt2_liv5=&urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2002-01-10",
+   "data": "2002-01-10",
+   "veiculo": "Normas.leg.br (Congresso Nacional)",
+   "confiavel": false
+  },
+  {
+   "texto": "Escritório de advocacia atualiza guia sobre dívidas de quem morreu, citando o REsp 2.168.268 do STJ: o herdeiro responde pelo que de fato recebeu.",
+   "fonte_url": "https://www.bmachado.com.br/blog/dividas-de-quem-morreu-herdeiros-precisam-pagar/",
+   "data": "2026-07-02",
+   "veiculo": "B. Machado Advogados (blog)",
+   "confiavel": false
+  },
+  {
+   "texto": "STJ fixa o Tema 1.393: a execução fiscal só alcança espólio ou sucessores se o devedor foi citado antes de morrer.",
+   "fonte_url": "https://conjur.com.br/2026-ago-21/execucao-fiscal-so-alcanca-sucessores-se-devedor-foi-citado-antes-de-morrer/",
+   "data": "2026-08-21",
+   "veiculo": "Conjur",
+   "confiavel": false
+  },
+  {
+   "texto": "Folhapress explica que a decisão do STJ não apaga a dívida de imposto e que a cobrança segue dentro dos limites da herança.",
+   "fonte_url": "https://diariodocomercio.com.br/financas/divida-fiscal-herdeiros-stj-regras-cobranca/",
+   "data": "2026-09-23",
+   "veiculo": "Diário do Comércio (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "Agência Brasil publica explicação de que os herdeiros respondem apenas até o limite do que receberam, com exemplo de R$ 300 mil de herança e R$ 500 mil de dívidas. A data exata do mês não foi confirmada.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/falecido-deixou-dividas-saiba-quem-deve-pagar",
+   "data": "2026-10-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Como fica o cônjuge não foi confirmado nesta apuração por fonte oficial. As fontes consultadas tratam dos herdeiros, e o cônjuge pode ser herdeiro. O efeito do regime de bens do casamento e de contratos assinados pelo casal não foi verificado.",
+  "Se o falecido era fiador (garantia a dívida de outra pessoa) ou deixou bem em garantia, o caso pode mudar. Um escritório de advocacia aponta exceções desse tipo, mas isso não foi confirmado por fonte oficial nesta apuração. Cada caso depende do contrato.",
+  "O dia exato da publicação da reportagem da Agência Brasil não foi confirmado. O endereço da página indica outubro de 2026.",
+  "Quanto cada herança vale, e se ela cobre as dívidas, só se sabe no inventário. Nenhuma fonte consultada traz esse número para um caso específico."
+ ],
+ "o_que_muda_para_voce": [
+  "Se um pai, uma mãe ou outro parente morreu devendo, você não paga com o seu salário nem com os seus bens. O limite é o que você recebeu da herança.",
+  "Se a herança for menor que as dívidas, você não recebe nada, mas também não fica devendo a diferença.",
+  "As dívidas são pagas antes da divisão dos bens. O que sobra depois é o que vai para os herdeiros.",
+  "Se o cobrador ligar para você, a cobrança deve ser dirigida ao espólio (os bens do falecido). Foi o que explicou a professora Simone Tassinari ao IBDFAM sobre uma decisão do STJ. Antes de pagar qualquer coisa, procure um advogado ou a Defensoria Pública.",
+  "O ITCMD, imposto estadual sobre herança, não é dívida do falecido. Segundo um escritório de advocacia, é o imposto que os próprios herdeiros pagam para receber a herança."
+ ],
+ "como_se_proteger": [],
+ "slug": "o-que-acontece-com-as-dividas-quando-voce-morre",
+ "publicado_em": "2026-11-17T10:23:34.073929",
+ "atualizado_em": "2026-11-17T10:23:34.073929",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) o que acontece com as suas dívidas quando você morre: a dívida não passa para o filho nem para o cônjuge como dívida pessoal; ela é paga com a herança, e os herdeiros só respondem até o valor do que receberam (Código Civil, art. 1.792 e art. 1.997, planalto.gov.br). Se a dívida for maior que a herança, o que sobra não é cobrado da família. Gatilho: \"Você sabia disso? Comenta SABIA ou NÃO SABIA, e marca quem precisa ver.\"",
+ "turno": "manha"
+}
