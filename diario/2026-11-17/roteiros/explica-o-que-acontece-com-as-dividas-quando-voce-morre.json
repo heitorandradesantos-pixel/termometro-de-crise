@@ -1,0 +1,182 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Seu pai morreu devendo. A dívida sobra pra você?",
+  "na_tela": "Pai morreu devendo. Sobra pra você?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu pai morreu devendo. A dívida sobra pra você?",
+   "na_tela": "Pai morreu devendo. Sobra pra você?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Dívida de R$ 500 mil, herança de R$ 300 mil. E o resto?",
+   "na_tela": "R$ 500 mil de dívida, R$ 300 mil de herança",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Erro de todo mundo",
+   "texto": "Se você acha que herda a dívida do seu pai, calma.",
+   "na_tela": "Herda a dívida? Calma",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seu pai morreu devendo. A dívida sobra pra você?",
+  "Calma. Quem paga a dívida são os bens que a pessoa deixou.",
+  "Segundo a Agência Brasil, seu salário e seus bens ficam fora.",
+  "Exemplo da Agência Brasil: herança de R$ 300 mil, dívidas de R$ 500 mil.",
+  "E olha a virada: os R$ 200 mil restantes não podem ser cobrados da família.",
+  "Se ele era fiador, ou a dívida é de imposto, o caso pode mudar.",
+  "Antes de pagar qualquer coisa, procure um advogado ou a Defensoria Pública.",
+  "Manda pra quem perdeu parente que deixou dívida.",
+  "Você achava que herdava a dívida? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu pai morreu devendo. A dívida sobra pra você? Calma. Quem paga a dívida são os bens que a pessoa deixou. Segundo a Agência Brasil, seu salário e seus bens ficam fora. Exemplo da Agência Brasil: herança de R$ 300 mil, dívidas de R$ 500 mil. E olha a virada: os R$ 200 mil restantes não podem ser cobrados da família. Se ele era fiador, ou a dívida é de imposto, o caso pode mudar. Antes de pagar qualquer coisa, procure um advogado ou a Defensoria Pública. Manda pra quem perdeu parente que deixou dívida. Você achava que herdava a dívida? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Pai morreu devendo. Sobra pra você?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dívida é paga com os bens deixados",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "Herança: R$ 300 mil | Dívidas: R$ 500 mil",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 200 mil não podem ser cobrados",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 6,
+   "texto": "Procure advogado ou Defensoria Pública",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dívida de quem morreu, herdeiro paga?",
+ "legenda": "Dívida de quem morreu, herdeiro paga?\n\nSegundo a Agência Brasil, a dívida é paga com os bens que a pessoa deixou. Os bens pessoais dos herdeiros não entram na conta. O limite é o que cada um recebeu da herança.\n\nO exemplo da reportagem: herança de R$ 300 mil e dívidas de R$ 500 mil. Os credores recebem até R$ 300 mil, e os R$ 200 mil restantes não podem ser cobrados da família.\n\nCada caso pode mudar, por exemplo se o falecido era fiador ou se a dívida é de imposto. Antes de pagar qualquer coisa, procure um advogado ou a Defensoria Pública.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dividas #heranca #direitocivil #educacaofinanceira",
+ "hashtags": [
+  "#dividas",
+  "#heranca",
+  "#direitocivil",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Seu pai morreu devendo. A dívida sobra pra você?",
+  "topicos": [
+   "Segundo a Agência Brasil, a dívida é paga com os bens deixados.",
+   "Exemplo da reportagem: herança de R$ 300 mil, dívidas de R$ 500 mil.",
+   "Os R$ 200 mil restantes não podem ser cobrados dos herdeiros.",
+   "Antes de pagar qualquer coisa, procure um advogado ou a Defensoria Pública."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação de regra com exemplo em números, então pede calma e prova na tela, não urgência de notícia quente.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Segundo a Agência Brasil, seu salário e seus bens ficam fora\": o manual diz que nome de site ou fonte técnica fica no cartão e na legenda, e na fala vai no máximo \"segundo o governo\" ou \"segundo o Banco Central\". Reescreva para \"Seu salário e seus bens ficam fora da conta\" e deixe \"Agência Brasil\" no cartão da tela. Faça o mesmo em \"Exemplo da Agência Brasil\", que pode virar só \"Exemplo: ...\".",
+   "Frase \"Exemplo da Agência Brasil: herança de R$ 300 mil, dívidas de R$ 500 mil\": ela tem dois números na mesma fala, e o Teste do CLT permite um por fala. Divida em duas falas, por exemplo \"Imagina que ele deixou uns R$ 300 mil.\" e depois \"Mas devia R$ 500 mil.\". Só então venha a virada dos R$ 200 mil. Isso também ajuda o ritmo e dá espaço para uma comparação do dia a dia.",
+   "Abertura e virada: troque \"Calma.\" e \"E olha a virada:\" por jeito mais solto do Heitor, e use palavra do dia a dia no lugar de \"fiador\" e \"credores\". Por exemplo: \"Cara, presta atenção: dívida de pai não cai no seu colo.\" e \"Se ele assinou como fiador, ou seja, garantiu a dívida de outra pessoa, ou se a dívida é de imposto, o caso pode mudar.\" Mantenha o tom acolhedor, porque o tema é luto."
+  ],
+  "veredito": "A peça acerta o público, o tom acolhedor e a saída prática (advogado ou Defensoria), com o exemplo numérico e o gatilho de comentário SIM/NÃO; falta tirar o nome da fonte da fala, deixar um número por fala e soltar mais a voz do Heitor, com uma comparação viva e menos \\\"teleprompter\\\"."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase: \"Exemplo da Agência Brasil: herança de R$ 300 mil, dívidas de R$ 500 mil.\" Tem dois números e o nome do veículo numa fala só, e quem ouve uma vez perde a conta. Divida em duas falas: \"Imagina que seu pai deixou uns R$ 300 mil em bens.\" / \"Só que ele devia R$ 500 mil.\" Em seguida: \"Os credores levam os R$ 300 mil. E olha a virada: os R$ 200 mil que sobram não podem ser cobrados da família.\" A fonte já foi dita na frase anterior, e os números exatos ficam no cartão da tela."
+  ],
+  "veredito": "Gancho forte e pago logo, com envio e comentário bem montados; só falta separar os números do exemplo (R$ 300 mil, R$ 500 mil, R$ 200 mil) em falas curtas, para a virada pegar de primeira."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in across a wooden desk in warm natural light: a small stack of unmarked closed folders and a house key on one side, and a much taller stack of blank unmarked papers bound with a rubber band on the other, like a scale tipping toward the taller stack. No text, no numbers, no faces",
+   "texto_da_fala": "Exemplo da Agência Brasil: herança de R$ 300 mil, dívidas de R$ 500 mil.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in across a wooden desk in warm natural light: a small stack of unmarked closed folders and a house key on one side, and a much taller stack of blank unmarked papers bound with a rubber band on the other, like a scale tipping toward the taller stack. No text, no numbers, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up with slow push-in on a blank unmarked contract lying on a desk, a hand without any visible face holding a pen hovering over the signature line, with out-of-focus blank envelopes in the background. Moody soft lighting, no readable text, no logos, no numbers, no face",
+   "texto_da_fala": "Se ele era fiador, ou a dívida é de imposto, o caso pode mudar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up with slow push-in on a blank unmarked contract lying on a desk, a hand without any visible face holding a pen hovering over the signature line, with out-of-focus blank envelopes in the background. Moody soft lighting, no readable text, no logos, no numbers, no face. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow tracking shot down a quiet public-office corridor with wooden benches and closed doors, ending on a glass door with soft daylight coming through, empty of people. Neutral, calm mood. No text, no signs, no logos, no faces",
+   "texto_da_fala": "Antes de pagar qualquer coisa, procure um advogado ou a Defensoria Pública.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow tracking shot down a quiet public-office corridor with wooden benches and closed doors, ending on a glass door with soft daylight coming through, empty of people. Neutral, calm mood. No text, no signs, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu pai morreu devendo. A dívida sobra pra você?\n\nCalma. Quem paga a dívida são os bens que a pessoa deixou.\n\nSegundo a Agência Brasil, seu salário e seus bens ficam fora.\n\nExemplo da Agência Brasil: herança de R$ 300 mil, dívidas de R$ 500 mil.\n\nE olha a virada: os R$ 200 mil restantes não podem ser cobrados da família.\n\nSe ele era fiador, ou a dívida é de imposto, o caso pode mudar.\n\nAntes de pagar qualquer coisa, procure um advogado ou a Defensoria Pública.\n\nManda pra quem perdeu parente que deixou dívida.\n\nVocê achava que herdava a dívida? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/falecido-deixou-dividas-saiba-quem-deve-pagar",
+   "destaque": "Em outubro de 2026, a Agência Brasil publicou que a herança responde pelas dívidas e que os bens pessoais dos herdeiros não entram na conta."
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T10:26:33.032025-03:00"
+}
