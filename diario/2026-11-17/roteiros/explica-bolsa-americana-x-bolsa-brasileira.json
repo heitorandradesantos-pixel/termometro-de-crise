@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "Nova York caiu 1,92%, mas quem investe em dólar ficou perto de zero.",
+  "na_tela": "Nova York caiu. Seu dólar? Zero",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Nova York caiu 1,92%, mas quem investe em dólar ficou perto de zero.",
+   "na_tela": "Nova York caiu. Seu dólar? Zero",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto o dólar mexe no seu investimento em Nova York?",
+   "na_tela": "Quanto o DÓLAR mexe nisso?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar subiu 2,15% em 16/11, e quem tem investimento lá fora sentiu.",
+   "na_tela": "Dólar +2,15% em 16/11",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Nova York caiu 1,92%, mas quem investe em dólar ficou perto de zero.",
+  "Nova York, aqui, é o S&P 500: as 500 maiores empresas dos EUA.",
+  "No mesmo dia, o dólar subiu 2,15%, segundo a Exame.",
+  "Como o índice é em dólar, o dólar entra na sua conta.",
+  "Na nossa conta simples, sem custos, deu perto de zero em reais.",
+  "É fatura de cartão: preço lá fora caiu, dólar subiu, conta quase empata.",
+  "Antes de qualquer decisão, veja custos, impostos e o risco do dólar.",
+  "Manda pra quem já tem um pé lá fora.",
+  "Você já foi pego pelo dólar assim? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Nova York caiu 1,92%, mas quem investe em dólar ficou perto de zero. Nova York, aqui, é o S&P 500: as 500 maiores empresas dos EUA. No mesmo dia, o dólar subiu 2,15%, segundo a Exame. Como o índice é em dólar, o dólar entra na sua conta. Na nossa conta simples, sem custos, deu perto de zero em reais. É fatura de cartão: preço lá fora caiu, dólar subiu, conta quase empata. Antes de qualquer decisão, veja custos, impostos e o risco do dólar. Manda pra quem já tem um pé lá fora. Você já foi pego pelo dólar assim? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Nova York caiu. Seu dólar? Zero",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "S&P 500: -1,92% em 16/11",
+   "fonte": "ADVFN"
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar: +2,15%",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 4,
+   "texto": "Perto de zero em reais",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Custos · impostos · risco do dólar",
+   "fonte": "Bora Investir (B3)"
+  }
+ ],
+ "retomada": 4,
+ "busca": "bolsa americana x bolsa brasileira: o que o dólar muda no seu investimento",
+ "legenda": "Bolsa americana x bolsa brasileira: o que o dólar muda no seu investimento.\n\nEm 16/11, o S&P 500, índice das 500 maiores empresas dos EUA, caiu 1,92%. No mesmo dia, o dólar subiu 2,15%, segundo a Exame. Numa conta simples nossa, que ignora custos e diferença de horário, quem tem investimento em dólar ficou perto de zero em reais.\n\nO S&P 500 é calculado em dólar. Para quem investe do Brasil sem proteção contra o câmbio, o resultado em reais junta a variação do índice com a do dólar, o que pode aumentar ou reduzir o ganho.\n\nO que ainda não se sabe: o acumulado do Ibovespa em 2026 não foi apurado, então não dá para comparar os dois no ano. E ninguém garante como Nova York, a bolsa daqui e o dólar vão reagir nos próximos dias.\n\nAntes de qualquer decisão, veja custos, impostos e o risco de o dólar cair.\n\nConteúdo educativo, não é recomendação de investimento.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\n#sp500 #dolar #bolsadevalores #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#sp500",
+  "#dolar",
+  "#bolsadevalores",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Nova York caiu 1,92%, mas o dólar subiu 2,15%. Olha a conta.",
+  "topicos": [
+   "S&P 500 caiu 1,92% em 16/11, segundo a ADVFN.",
+   "No mesmo dia o dólar subiu 2,15%, segundo a Exame.",
+   "Na nossa conta simples, quem investe em dólar ficou perto de zero em reais.",
+   "Antes de qualquer decisão, veja custos, impostos e o risco do dólar cair."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação que junta bolsa, dólar e vários números, e pede calma para o teleprompter.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Fala \"Nova York caiu 1,92%, mas quem investe em dólar ficou perto de zero\": a fala traz dois números (1,92% e depois 2,15%) em sequência e o gancho é uma manchete lida. Reescreva como reação do Heitor, sem apresentação, por exemplo \"Cara, olha que loucura: Nova York caiu e quem tem dólar quase não sentiu.\" Deixe 1,92% e 2,15% no cartão da tela e na fala use \"caiu uns 2%\" e \"o dólar subiu uns 2%\".",
+   "Fala \"No mesmo dia, o dólar subiu 2,15%, segundo a Exame\" e \"Como o índice é em dólar, o dólar entra na sua conta\": o nome do site (Exame) não vai na fala, só no cartão e na legenda. Troque por \"segundo a imprensa\" ou só mostre a fonte na tela. A frase do dólar também está abstrata: diga o efeito no bolso, por exemplo \"o índice é medido em dólar, então o que o dólar sobe ajuda e o que cai atrapalha o seu dinheiro em reais\".",
+   "Fala \"Na nossa conta simples, sem custos, deu perto de zero em reais\" e \"Antes de qualquer decisão, veja custos, impostos e o risco do dólar\": faltam a calma e o passo simples para o fleumático, e \"sem custos\" e \"risco do dólar\" soam como palavra de banco. Troque por algo como \"fiz uma conta simples, sem contar taxas: deu quase zero em reais\" e feche com um passo concreto sem recomendar, por exemplo \"antes de mexer em qualquer coisa, olhe as taxas, o imposto e lembre que o dólar também pode cair\". Se couber, diga numa frase o que ainda não se sabe, que está na legenda mas falta na fala."
+  ],
+  "veredito": "A peça acerta ao mostrar no bolso o efeito do dólar, com a comparação da fatura de cartão, a tradução do S&P 500 e o aviso sem recomendação, mas ainda soa como texto lido: ela carrega dois números e o nome do site na fala, usa termos de banco (\"sem custos\", \"risco do dólar\") e deixa de fora a energia do Heitor e o passo simples para o fleumático."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Nova York caiu 1,92%, mas quem investe em dólar ficou perto de zero.\" tem dois temas e um termo confuso, e já entrega a resposta. Reescrita: \"Cara, Nova York caiu 1,92% e quem tem investimento lá ficou perto de zero. Olha o porquê.\"",
+   "Retenção: \"Como o índice é em dólar, o dólar entra na sua conta.\" é difícil de entender de primeira e não tem virada. Reescrita: \"E aí vem a parte que pouca gente vê: o índice é em dólar. No mesmo dia, o dólar subiu 2,15%.\" A fatura de cartão fica como fecho da explicação.\", \"Envio e conversa: \"Manda pra quem já tem um pé lá fora.\" e \"Você já foi pego pelo dólar assim?\" Reescrita: \"Manda pra quem tem investimento nos Estados Unidos.\" e \"Quem aqui tem dinheiro lá fora? Comenta EU.\" A pergunta nova combina com a história, porque aqui o dólar não prejudicou ninguém."
+  ],
+  "veredito": "Os fatos estão claros, o gancho é pago e a conta de fatura é boa. Mas a abertura é confusa e o meio é técnico e sem virada. O público é de nicho e o pedido de envio é vago, então falta o gancho, a clareza e um convite de envio concreto para viralizar."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow upward crane shot along the glass facades of a dense downtown financial district of tall skyscrapers at golden hour, windows reflecting warm sunlight, a few anonymous office lights turning on. No signs, no text, no logos, no readable numbers, no people in focus",
+   "texto_da_fala": "Nova York, aqui, é o S&P 500: as 500 maiores empresas dos EUA.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward crane shot along the glass facades of a dense downtown financial district of tall skyscrapers at golden hour, windows reflecting warm sunlight, a few anonymous office lights turning on. No signs, no text, no logos, no readable numbers, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Slow tracking shot over a busy container port at sunrise, colorful stacked shipping containers without any markings or lettering, a large gantry crane lifting one container upward against a pale sky. No text, no logos, no numbers, no people in focus",
+   "texto_da_fala": "No mesmo dia, o dólar subiu 2,15%, segundo a Exame.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow tracking shot over a busy container port at sunrise, colorful stacked shipping containers without any markings or lettering, a large gantry crane lifting one container upward against a pale sky. No text, no logos, no numbers, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up on a wooden table: a plain blank credit card with no printed numbers or logos next to a small brass balance scale whose two pans swing and settle almost perfectly level, one pan holding a few coins and the other a small stack of blank paper slips. Slow dolly-in with shallow depth of field, soft window light. No text, no letters, no numbers, no people",
+   "texto_da_fala": "É fatura de cartão: preço lá fora caiu, dólar subiu, conta quase empata.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a wooden table: a plain blank credit card with no printed numbers or logos next to a small brass balance scale whose two pans swing and settle almost perfectly level, one pan holding a few coins and the other a small stack of blank paper slips. Slow dolly-in with shallow depth of field, soft window light. No text, no letters, no numbers, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Nova York caiu 1,92%, mas quem investe em dólar ficou perto de zero.\n\nNova York, aqui, é o S&P 500: as 500 maiores empresas dos EUA.\n\nNo mesmo dia, o dólar subiu 2,15%, segundo a Exame.\n\nComo o índice é em dólar, o dólar entra na sua conta.\n\nNa nossa conta simples, sem custos, deu perto de zero em reais.\n\nÉ fatura de cartão: preço lá fora caiu, dólar subiu, conta quase empata.\n\nAntes de qualquer decisão, veja custos, impostos e o risco do dólar.\n\nManda pra quem já tem um pé lá fora.\n\nVocê já foi pego pelo dólar assim? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/ibovespa-cai-18-com-desconfianca-sobre-ajuste-fiscal-de-lula-ny-recua-com-temor-sobre-ia/",
+   "destaque": "O Ibovespa fechou a segunda-feira (16/11) em queda de 1,83%, aos 169.295,41 pontos."
+  },
+  {
+   "veiculo": "Bora Investir (B3)",
+   "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-183-com-pressao-do-exterior-e-cautela-fiscal-dolar-sobe/",
+   "destaque": "Segundo o Bora Investir, da B3, parte do mercado acha o pacote fiscal apresentado pelo governo insuficiente para melhorar as contas…"
+  },
+  {
+   "veiculo": "Bora Investir (B3)",
+   "url": "https://borainvestir.b3.com.br/objetivos-financeiros/investir-melhor/como-investir-no-exterior-sem-sair-da-b3-bora-investir/",
+   "destaque": "A B3 explica que dá para acompanhar o S&P 500 sem sair da bolsa brasileira."
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T10:21:10.753915-03:00"
+}
