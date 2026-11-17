@@ -1,0 +1,204 @@
+{
+ "gancho": {
+  "formula": "Reação do Heitor + número oficial",
+  "texto": "Cara, o dólar fechou a R$ 5,77. Isso é o governo falando, não sou eu.",
+  "na_tela": "DÓLAR a R$ 5,77",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Reação do Heitor + número oficial",
+   "texto": "Cara, o dólar fechou a R$ 5,77. Isso é o governo falando, não sou eu.",
+   "na_tela": "DÓLAR a R$ 5,77",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "O dólar de ontem chegou no seu celular e na sua viagem.",
+   "na_tela": "O DÓLAR chegou no seu bolso",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "O dólar disparou de novo? Foi o maior desde abril de 2025.",
+   "na_tela": "Dólar disparou de novo?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar fechou a R$ 5,77. Isso é o governo falando, não sou eu.",
+  "É o dólar mais alto desde abril de 2025.",
+  "Celular, peça importada e viagem pro exterior ficam mais caros.",
+  "Tem compra assim pra fazer? Compara preço antes de fechar.",
+  "A bolsa, onde ficam as ações das empresas, caiu 1,83% ontem.",
+  "Mas olha: no ano ela ainda está de pé, em alta.",
+  "Hoje o Senado vota mudanças nas contas do governo.",
+  "E uma gigante de tecnologia mostra o resultado dela.",
+  "Tem alguém viajando ou comprando importado aí? Manda pra ele, sério.",
+  "Você levou susto com o dólar? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar fechou a R$ 5,77. Isso é o governo falando, não sou eu. É o dólar mais alto desde abril de 2025. Celular, peça importada e viagem pro exterior ficam mais caros. Tem compra assim pra fazer? Compara preço antes de fechar. A bolsa, onde ficam as ações das empresas, caiu 1,83% ontem. Mas olha: no ano ela ainda está de pé, em alta. Hoje o Senado vota mudanças nas contas do governo. E uma gigante de tecnologia mostra o resultado dela. Tem alguém viajando ou comprando importado aí? Manda pra ele, sério. Você levou susto com o dólar? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "DÓLAR a R$ 5,77",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 5,778: maior fechamento desde abril de 2025",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "Importado e viagem ficam mais caros",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Ibovespa: -1,83% | 169.295,41 pontos",
+   "fonte": "B3"
+  },
+  {
+   "fala": 5,
+   "texto": "No ano: +5,07%",
+   "fonte": "SpaceMoney"
+  },
+  {
+   "fala": 6,
+   "texto": "Quatro destaques do pacote fiscal em votação (17/11)",
+   "fonte": "Investing.com"
+  },
+  {
+   "fala": 7,
+   "texto": "Nvidia divulga balanço após o fechamento",
+   "fonte": "Suno"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje: maior valor desde abril de 2025",
+ "legenda": "Dólar hoje (17/11): o que se sabe depois do maior fechamento desde abril de 2025.\n\nSegundo a Agência Brasil, o dólar fechou ontem a R$ 5,778, depois de subir 2,17% (outros veículos arredondam para 2,15% e R$ 5,77). Segundo a B3, o Ibovespa caiu 1,83% e fechou a 169.295,41 pontos. No ano, segundo a SpaceMoney, ele ainda acumula alta de 5,07%.\n\nNa prática: dólar mais caro tende a encarecer produtos importados e viagens ao exterior. Se você tem uma compra assim pra fazer, vale comparar preço antes de fechar.\n\nO que ainda não se sabe: hoje o Senado vota os destaques do pacote fiscal e a Nvidia divulga o balanço depois do fechamento. Ninguém sabe a direção.\n\nTem alguém viajando ou comprando importado? Manda pra ele.\n\nEu sou o Heitor, do Termômetro de Crise. Conteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #economia #financaspessoais",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar fechou a R$ 5,77. Isso é o governo falando.",
+  "topicos": [
+   "Dólar a R$ 5,77: maior desde abril de 2025, diz a Agência Brasil.",
+   "Bolsa caiu 1,83% ontem, segundo a B3, mas ainda sobe no ano.",
+   "Hoje o Senado vota o pacote fiscal e a Nvidia divulga resultado.",
+   "Importado e viagem ficam mais caros: compare preço antes de fechar compra."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Tem dólar, bolsa, Senado e Nvidia no mesmo dia, e isso pede explicação com calma, não correria na rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Última fala: o roteiro vai direto de \"Comenta SIM ou NÃO\" para o bordão e pula a apresentação e o aviso. Antes de \"Sem alarde. Eu sou só o termômetro!\", inclua \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" O bordão continua sendo a última frase.",
+   "\"Celular, peça importada e viagem pro exterior ficam mais caros.\": falta a comparação viva (sanguíneo) e o tom de quem não promete. Troque por algo como \"Dólar mais caro é a feira em que o importado sobe na etiqueta: celular, peça e viagem pro exterior tendem a ficar mais caros\". Assim você usa a imagem da casa e do dia a dia, e \"tendem\" fica igual ao da legenda, sem garantir nada. Use só uma comparação no vídeo.",
+   "\"Hoje o Senado vota mudanças nas contas do governo. E uma gigante de tecnologia mostra o resultado dela.\": os dois avisos ficam soltos, e o \"ainda não se sabe\" da legenda não aparece no vídeo. Junte os dois numa fala e feche com o que isso muda pra pessoa. Por exemplo: \"Hoje tem Senado e uma gigante de tecnologia mostrando resultado. Ninguém sabe pra que lado o dólar vai. Por isso, compara preço antes de fechar.\" Isso dá calma e um passo simples (fleumático) e mostra o que ainda não se sabe (melancólico)."
+  ],
+  "veredito": "A peça acerta o público e o passo prático: fala de celular, importado e viagem e manda comparar preço, com linguagem de conversa e bordão. Falta a apresentação e o aviso antes do bordão final, uma comparação viva e ligar o que ainda não se sabe ao bolso."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o dólar fechou a R$ 5,77.\" é só número, sem o bolso do espectador. Reescrita: \"Celular, peça importada e viagem pro exterior ficaram mais caros. O dólar fechou a R$ 5,77, o mais alto desde abril de 2025.\" Depois vem \"Isso é o governo falando, não sou eu.\"",
+   "Retenção e pagamento: \"E uma gigante de tecnologia mostra o resultado dela.\" é vaga e deixa a isca sem resposta. Reescrita: \"Hoje tem mais dois fatos pra ficar de olho: o Senado vota mudanças nas contas do governo e a Nvidia, gigante de tecnologia, mostra o resultado. Ninguém sabe a direção.\" Isso vira a virada do meio, no lugar do \"Mas olha\" fraco.\", \"Envio: dê um número para a pessoa mostrar. Reescrita: \"Tem alguém viajando ou comprando importado aí? Manda pra ele: o dólar tá no maior valor desde abril de 2025.\""
+  ],
+  "veredito": "Roteiro limpo e com fim que puxa comentário, mas o gancho abre com número solto e não com o bolso, e o corpo mistura dólar, bolsa, Senado e Nvidia sem uma virada forte; falta abrir no que fica mais caro e ter um número para mostrar."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in over a clean table displaying a modern smartphone, a cardboard import parcel with packing tape, and a passport with a boarding pass beside a small suitcase, soft window light, shallow depth of field, no people, no text or logos visible",
+   "texto_da_fala": "Celular, peça importada e viagem pro exterior ficam mais caros.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in over a clean table displaying a modern smartphone, a cardboard import parcel with packing tape, and a passport with a boarding pass beside a small suitcase, soft window light, shallow depth of field, no people, no text or logos visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Slow upward-to-downward crane shot of a modern stock exchange trading floor, rows of empty desks with glowing screens showing abstract red downward line charts without any numbers or letters, cool blue lighting, no people in focus, no text or logos",
+   "texto_da_fala": "A bolsa, onde ficam as ações das empresas, caiu 1,83% ontem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward-to-downward crane shot of a modern stock exchange trading floor, rows of empty desks with glowing screens showing abstract red downward line charts without any numbers or letters, cool blue lighting, no people in focus, no text or logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow tilt up along the white modernist facade and ramp of a national congress building in Brasília at golden hour, with the empty plenary chamber seats in a quick cut, smooth steady camera, no people, no flags, no text or logos",
+   "texto_da_fala": "Hoje o Senado vota mudanças nas contas do governo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow tilt up along the white modernist facade and ramp of a national congress building in Brasília at golden hour, with the empty plenary chamber seats in a quick cut, smooth steady camera, no people, no flags, no text or logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar fechou a R$ 5,77. Isso é o governo falando, não sou eu.\n\nÉ o dólar mais alto desde abril de 2025.\n\nCelular, peça importada e viagem pro exterior ficam mais caros.\n\nTem compra assim pra fazer? Compara preço antes de fechar.\n\nA bolsa, onde ficam as ações das empresas, caiu 1,83% ontem.\n\nMas olha: no ano ela ainda está de pé, em alta.\n\nHoje o Senado vota mudanças nas contas do governo.\n\nE uma gigante de tecnologia mostra o resultado dela.\n\nTem alguém viajando ou comprando importado aí? Manda pra ele, sério.\n\nVocê levou susto com o dólar? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "B3 (Bora Investir)",
+   "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-183-com-pressao-do-exterior-e-cautela-fiscal-dolar-sobe/",
+   "destaque": "O Ibovespa fechou a segunda-feira (16/11) em queda de 1,83%, a 169.295,41 pontos, em um dia de mais aversão ao risco (menos disposição de…"
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025",
+   "destaque": "O dólar comercial subiu 2,17% e fechou a R$ 5,778 (outros veículos arredondam a alta para 2,15% e o valor para R$ 5,77)."
+  },
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/ibovespa-cai-18-com-desconfianca-sobre-ajuste-fiscal-de-lula-ny-recua-com-temor-sobre-ia/",
+   "destaque": "Rebecca Nossig, estrategista de ações da Nomad, ligou a queda à incerteza sobre a votação dos destaques do pacote fiscal no Senado e à…"
+  }
+ ],
+ "data": "2026-11-17",
+ "gerado_em": "2026-11-17T01:16:43.731357-03:00"
+}
