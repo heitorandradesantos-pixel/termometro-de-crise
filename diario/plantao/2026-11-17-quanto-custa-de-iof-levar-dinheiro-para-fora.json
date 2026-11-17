@@ -1,0 +1,114 @@
+{
+ "titulo": "Quanto custa de IOF levar dinheiro para fora em 2026: o que se sabe",
+ "descricao": "Em 2026, o IOF é de 3,5% no cartão e nas remessas em geral e de 1,1% na remessa para investimento. Veja a conta com R$ 10 mil.",
+ "palavra_chave": "quanto custa de iof levar dinheiro para fora",
+ "lead": "Em novembro de 2026, o IOF é de 3,5% nas compras com cartão de crédito e débito no exterior e nas remessas em geral. Na remessa para investimento, é de 1,1%. As alíquotas vêm do Decreto 12.499/2025, de 11 de junho de 2025, restabelecido por decisão do ministro Alexandre de Moraes, do STF, em 16 de julho de 2025. Com R$ 10 mil, o imposto é de R$ 350 a 3,5% e de R$ 110 a 1,1%.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Compras e saques no exterior com cartão de crédito, débito ou pré-pago pagam IOF de 3,5% sobre o valor convertido em reais. A tabela do escritório Barbieri Advogados descreve a regra como vigente em novembro de 2026.",
+   "fonte_url": "https://www.barbieriadvogados.com/iof/",
+   "data": "2026-11-13",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 2026, a maior parte das saídas de dinheiro no câmbio paga 3,5%, inclusive remessa para conta no exterior do próprio residente. A remessa para investimento paga 1,1%. A entrada de dinheiro do exterior paga 0,38%.",
+   "fonte_url": "https://www.barbieriadvogados.com/iof/",
+   "data": "2026-11-13",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "O Decreto 12.499/2025 foi publicado em 11 de junho de 2025. Ele revogou os decretos 12.466 e 12.467, mantendo em parte os aumentos de maio e incluindo novas mudanças.",
+   "fonte_url": "https://www.demarest.com.br/majoracao-do-iof-stf-publica-decisao-cautelar-restabelecendo-a-eficacia-do-decreto-no-12-499-2025/",
+   "data": "2025-06-11",
+   "veiculo": "Demarest Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 16 de julho de 2025, o ministro Alexandre de Moraes, do STF, decidiu manter a validade do decreto do IOF. Ele deixou de fora só a cobrança sobre operações de \"risco sacado\", que não são câmbio.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-alexandre-de-moraes-decide-validar-decreto-do-iof",
+   "data": "2025-07-16",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A decisão de 16 de julho de 2025 foi uma liminar (decisão provisória), sujeita a confirmação do Plenário do STF. Até 1º de novembro de 2026, não havia confirmação do Plenário nem julgamento final das ações sobre o IOF.",
+   "fonte_url": "https://www.barbieriadvogados.com/iof/",
+   "data": "2026-11-01",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "Conta com R$ 10 mil: 3,5% dá R$ 350 (10.000 x 0,035) e 1,1% dá R$ 110 (10.000 x 0,011). A diferença é de R$ 240. Como referência menor, numa compra de R$ 1.000 no cartão, o IOF de 3,5% é de R$ 35.",
+   "fonte_url": "https://skycambio.com.br/blog/iof-2026-cambio-cartao-conta-internacional-dinheiro/",
+   "data": "2026-09-27",
+   "veiculo": "Sky Câmbio",
+   "confiavel": false
+  },
+  {
+   "texto": "A alíquota de 1,1% vale só quando a remessa tem finalidade de investimento declarada. Gastos de turismo ou dinheiro para uso pessoal no exterior não entram nessa faixa. Segundo o site O Tributo, a classificação da operação feita pelo agente de câmbio (banco ou corretora) define o custo.",
+   "fonte_url": "https://o-tributo.com/iof-2026-aliquotas-fatos-geradores",
+   "data": "2026-11-12",
+   "veiculo": "O Tributo",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Os decretos 12.466 e 12.467 previam unificar a maior parte das saídas de câmbio em 3,5%, a partir de 23 de maio de 2025. Antes, parte dessas operações pagava 0,38% ou 1,1%.",
+   "fonte_url": "https://blogdoibre.fgv.br/posts/reoneracao-do-iof-e-regressiva",
+   "data": "2025-05-23",
+   "veiculo": "Blog do IBRE (FGV)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Decreto 12.499 revogou os dois decretos anteriores e fixou as alíquotas atuais, incluindo 1,1% para remessa de investimento no exterior.",
+   "fonte_url": "https://www.demarest.com.br/majoracao-do-iof-stf-publica-decisao-cautelar-restabelecendo-a-eficacia-do-decreto-no-12-499-2025/",
+   "data": "2025-06-11",
+   "veiculo": "Demarest Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "O Congresso aprovou o Decreto Legislativo 176, que sustou (suspendeu) o decreto do IOF.",
+   "fonte_url": "https://www.sinfacsp.com.br/noticia/decisao-do-stf-restabelece-decreto-sobre-iof-e-altera-regras-para-o-setor-de-fomento",
+   "data": "2025-06-26",
+   "veiculo": "Sinfac-SP",
+   "confiavel": false
+  },
+  {
+   "texto": "Alexandre de Moraes, do STF, restabeleceu o Decreto 12.499, exceto o risco sacado. A decisão aguarda confirmação do Plenário.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-alexandre-de-moraes-decide-validar-decreto-do-iof",
+   "data": "2025-07-16",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Até 1º de novembro de 2026, o Plenário do STF não tinha confirmado a liminar nem julgado o mérito das ações sobre o IOF.",
+   "fonte_url": "https://www.barbieriadvogados.com/iof/",
+   "data": "2026-11-01",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "A página oficial da Receita Federal (gov.br/receitafederal) não apareceu na apuração de hoje. As alíquotas acima vêm do decreto, citado por escritórios de advocacia e portais, e ainda não foram conferidas na página do órgão.",
+  "O Plenário do STF ainda não confirmou a liminar de julho de 2025, segundo o levantamento do Barbieri Advogados até 1º/11/2026. Não foi confirmada nenhuma data de julgamento.",
+  "Não foi confirmado se o governo vai mudar as alíquotas. O Executivo pode alterar o IOF por decreto, e não há anúncio nas fontes consultadas.",
+  "A Receita pode regulamentar como distinguir remessa para investimento de remessa para conta própria. Não foi confirmado se isso já aconteceu.",
+  "O IOF não é o custo total. Tarifas, o spread (a diferença entre o câmbio cobrado e o câmbio de referência) e taxas do banco variam por instituição, e esta apuração não trouxe números sobre elas."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem usa cartão no exterior paga 3,5% de IOF sobre cada compra em reais, no crédito ou no débito. Em R$ 1.000 gastos, são R$ 35.",
+  "Quem manda R$ 10 mil para fora paga R$ 350 se a remessa for geral e R$ 110 se for para investimento. Os dois valores valem para o mesmo montante, só muda a finalidade.",
+  "A finalidade informada no câmbio decide a alíquota. Vale conferir com a instituição como a operação foi classificada antes de enviar o dinheiro.",
+  "O IOF vem junto com outros custos, como tarifa e spread. Para comparar o preço total, olhe o valor final cobrado, não só o imposto.",
+  "Roteiro curto do Heitor: \"Cartão lá fora paga 3,5% de IOF. Remessa para investir paga 1,1%. Em R$ 10 mil, são R$ 350 contra R$ 110. Você já pagou IOF sem saber? Comenta EU.\""
+ ],
+ "como_se_proteger": [],
+ "slug": "quanto-custa-de-iof-levar-dinheiro-para-fora",
+ "publicado_em": "2026-11-17T10:01:45.087354",
+ "atualizado_em": "2026-11-17T10:01:45.087354",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, investimentos no exterior, com gatilho de comentário) quanto custa de IOF levar dinheiro para fora em 2026: cartão de crédito e débito internacional 3,5%, remessa para investimento 1,1%, alíquota geral de remessas 3,5% (Decreto 12.499/2025, mantido pelo STF em 16/07/2025; gov.br/receitafederal). Exemplo com R$ 10 mil: 3,5% dá R$ 350, 1,1% dá R$ 110. Gatilho: \"Você já pagou IOF sem saber? Comenta EU.\" Sem recomendação.",
+ "turno": "manha"
+}
