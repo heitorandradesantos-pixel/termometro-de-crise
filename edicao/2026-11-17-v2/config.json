@@ -1,0 +1,15 @@
+{
+ "saida": "brasil-rebaixado-editado.mp4",
+ "fim": 41.0,
+ "remover": [[23.60, 24.50]],
+ "destaques": "\\d|rebaixa|morgan|ibovespa|chips|ia|data|fundo|amarelo|susto|comenta",
+ "nomes": [["Morgan", "Stanley"], ["Estados", "Unidos"]],
+ "corrigir": [[["ar."], ["IA."]], [["provisão"], ["previsão"]], [["bancos", "do", "Brasil."], ["bancos", "do", "mundo."]], [["se", "alarde,"], ["sem", "alarde,"]]],
+ "cartoes": [
+  [0.1, 4.4, "*2 rebaixamentos* em uma semana", ""],
+  [4.4, 12.8, "Morgan Stanley", "Suno", {"tipo": "manchete", "veiculo": "Suno", "titulo": "Morgan Stanley rebaixa Brasil para venda; Ibovespa cai e dólar sobe", "data": "16/11/2026"}],
+  [16.2, 23.2, "Chips de IA", "Exame", {"tipo": "manchete", "veiculo": "Exame", "titulo": "EUA incluem Brasil em nova regra para chips de IA e miram acesso remoto da China", "data": "17/11/2026"}],
+  [28.1, 35.3, "Sinal *amarelo*: não decide no susto", ""],
+  [35.6, 37.6, "Comenta: *qual pesou mais?*", ""]
+ ]
+}

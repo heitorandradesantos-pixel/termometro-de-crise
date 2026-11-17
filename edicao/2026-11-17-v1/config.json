@@ -1,0 +1,115 @@
+{
+ "saida": "dolar-ou-selic-editado.mp4",
+ "fim": 93.0,
+ "remover": [
+  [
+   44.9,
+   46.0
+  ],
+  [
+   76.0,
+   81.5
+  ]
+ ],
+ "destaques": "\\d|selic|t-bill|tesouro|dólar|real|risco|objetivo|prazo|s&p|valoriza|comenta",
+ "nomes": [
+  [
+   "S",
+   "&P",
+   "500"
+  ]
+ ],
+ "corrigir": [
+  [
+   [
+    "3",
+    ",75",
+    "%"
+   ],
+   [
+    "13,75%"
+   ]
+  ],
+  [
+   [
+    "Tibiu,"
+   ],
+   [
+    "T-Bill,"
+   ]
+  ],
+  [
+   [
+    "4",
+    ",5",
+    "%?"
+   ],
+   [
+    "4,5%?"
+   ]
+  ],
+  [
+   [
+    "13",
+    ",5",
+    "%"
+   ],
+   [
+    "13,75%"
+   ]
+  ],
+  [
+   [
+    "118%."
+   ],
+   [
+    "235%."
+   ]
+  ]
+ ],
+ "cartoes": [
+  [
+   4.7,
+   14.1,
+   "Selic *13,75%* x juros nos EUA *3,75% a 4%*",
+   "Fonte: Banco Central (04/11/2026) e Fed (28/10/2026)"
+  ],
+  [
+   16.9,
+   26.1,
+   "Dólar em 3 semanas: *+14,5%*",
+   "Fonte: CNN Brasil (23/10 e 16/11/2026)",
+   {
+    "tipo": "variacao",
+    "de": "R$ 4,98",
+    "para": "R$ 5,70",
+    "delta": "+14,5%",
+    "sobe": true
+   }
+  ],
+  [
+   39.5,
+   42.9,
+   "Seu dinheiro: *dólar* ou *real*?",
+   ""
+  ],
+  [
+   58.3,
+   65.0,
+   "Seu objetivo: *curto, médio ou longo prazo*?",
+   ""
+  ],
+  [
+   65.9,
+   75.5,
+   "S&P 500 em 10 anos: *+235%* (12,9% ao ano), em dólar",
+   "Fonte: S&P Dow Jones Indices, via SimianX (2016 a 2025)"
+  ],
+  [
+   88.3,
+   90.9,
+   "Comenta: *dólar ou Selic?*",
+   ""
+  ]
+ ]
+}
