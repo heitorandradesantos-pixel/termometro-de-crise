@@ -1,0 +1,100 @@
+{
+ "titulo": "Juro real: por que Selic de 13,75% não é 13,75% no bolso",
+ "descricao": "Juro real é o que sobra da Selic depois da inflação. Com Selic de 13,75% e IPCA de 4,63%, dá cerca de 8,7% ao ano, antes do IR.",
+ "palavra_chave": "juro real",
+ "lead": "Juro real é o ganho que sobra depois de descontar a inflação. Com a Selic em 13,75% ao ano (Copom, 4 de novembro) e o IPCA em 4,63% em 12 meses (IBGE, 12 de novembro), o juro real é de cerca de 8,7% ao ano, antes do Imposto de Renda. Nos Estados Unidos, o Fed mantém os juros entre 3,75% e 4,00% (28 de outubro).",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Copom manteve a Selic em 13,75% ao ano em 4 de novembro, por unanimidade. A decisão interrompeu uma sequência de cinco cortes de 0,25 ponto percentual. A Selic é a taxa básica de juros do país.",
+   "fonte_url": "https://www.suno.com.br/noticias/copom-mantem-selic-1375-novembro-2026-go/",
+   "data": "2026-11-04",
+   "veiculo": "Suno Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "O IPCA, a inflação oficial, subiu 0,14% em outubro. Em 12 meses (novembro de 2025 a outubro de 2026), chegou a 4,63%, acima dos 4,58% do período anterior. O dado é do IBGE e saiu em 12 de novembro.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "data": "2026-11-12",
+   "veiculo": "IBGE",
+   "confiavel": true
+  },
+  {
+   "texto": "Os 4,63% em 12 meses ficam acima do teto da banda de tolerância da meta de inflação, que é de 4,5%, segundo a análise da Rico.",
+   "fonte_url": "https://riconnect.rico.com.vc/analises/resultado-ipca-acumulado/",
+   "data": "2026-11-12",
+   "veiculo": "Rico (Riconnect)",
+   "confiavel": false
+  },
+  {
+   "texto": "Conta do Termômetro, com os dois números acima: dividir 1,1375 por 1,0463 e subtrair 1 dá cerca de 8,7% ao ano de juro real. A subtração simples (13,75 menos 4,63) dá 9,12 pontos percentuais, mas a conta por divisão é a mais precisa. É um ganho bruto, antes do imposto, e mede só a inflação passada.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "data": "2026-11-17",
+   "veiculo": "Cálculo do Termômetro com dados do Copom e do IBGE",
+   "confiavel": true
+  },
+  {
+   "texto": "Na renda fixa comum (CDB, Tesouro Direto), o Imposto de Renda segue a tabela regressiva: 22,5% até 180 dias, 20% de 181 a 360, 17,5% de 361 a 720 e 15% acima de 720 dias. A alíquota incide só sobre o rendimento, não sobre o valor aplicado, e é descontada na fonte. LCI, LCA e poupança são isentos para pessoa física.",
+   "fonte_url": "https://valorfinal.com.br/guia/imposto-de-renda-sobre-investimentos",
+   "data": "2026-07-17",
+   "veiculo": "Valor Final",
+   "confiavel": false
+  },
+  {
+   "texto": "Conta do Termômetro, simplificada: um investimento que renda 13,75% no ano e pague 15% de IR fica com cerca de 11,7% líquidos. Descontada a inflação de 4,63%, sobram cerca de 6,7% ao ano. Com IR de 22,5%, o líquido cai para cerca de 10,7% e o juro real para cerca de 5,8%. Produtos reais podem render mais ou menos que a Selic.",
+   "fonte_url": "https://calculadoradeinvestimentos.com.br/guias/tabela-ir-renda-fixa",
+   "data": "2026-11-17",
+   "veiculo": "Cálculo do Termômetro; alíquotas: Calculadora de Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "Nos EUA, o Fed (banco central americano) manteve os juros entre 3,75% e 4,00% em 28 de outubro, em votação de 10 a 2. Os dois votos contrários defendiam alta de 0,25 ponto percentual. O Fed havia subido os juros em setembro.",
+   "fonte_url": "https://connection.avenue.us/noticias/conforme-esperado-fomc-mantem-juros-inalterados/",
+   "data": "2026-10-28",
+   "veiculo": "Avenue Connection",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Fed (EUA) mantém os juros entre 3,75% e 4,00%, em votação de 10 a 2.",
+   "fonte_url": "https://www.infomoney.com.br/economia/juros-fed-eua-outubro-2026/",
+   "data": "2026-10-28",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom mantém a Selic em 13,75% e interrompe cinco cortes seguidos de 0,25 ponto.",
+   "fonte_url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-4-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "Sou Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "O IBGE divulga o IPCA de outubro: 0,14% no mês e 4,63% em 12 meses.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "data": "2026-11-12",
+   "veiculo": "IBGE",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "A inflação dos próximos 12 meses não é conhecida. O juro real calculado aqui usa a inflação que já passou. Se a inflação futura for maior ou menor, o ganho real muda.",
+  "O que o Copom fará na próxima reunião, em dezembro, não foi anunciado. A Nomad espera nova manutenção em 13,75%, mas é uma projeção de uma instituição, não uma decisão. Segundo a Nomad, o Copom não deu pistas sobre os próximos passos.",
+  "O juro real dos EUA não foi calculado neste texto, porque a inflação americana mais recente não foi checada nesta apuração. Sem ela, não dá para comparar o juro real dos dois países.",
+  "O ganho exato de cada aplicação não é conhecido de antemão. Depende do produto, do prazo, da taxa contratada (alguns CDBs pagam uma parte do CDI, taxa que acompanha a Selic) e do imposto.",
+  "Não foi confirmado como o dólar vai se comportar nas próximas semanas. O texto não faz previsão de câmbio."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem dinheiro em aplicação ligada à Selic ou ao CDI, os 13,75% são o número bruto. Para saber o que sobra, desconte o Imposto de Renda e a inflação. Pelas contas acima, o ganho real fica perto de 5,8% a 6,7% ao ano, nos casos de IR de 22,5% e 15%.",
+  "Se a sua aplicação rende menos que 4,63% ao ano, o dinheiro perde poder de compra em 12 meses pelo IPCA. Rende mais que isso? O que passar é ganho real, antes ou depois do imposto, conforme a conta que você fizer.",
+  "O prazo importa no imposto: na renda fixa comum, quanto mais tempo o dinheiro fica aplicado, menor a alíquota (de 22,5% para 15%). Produtos isentos, como LCI e LCA, têm outras regras e outras taxas.",
+  "Juro alto também encarece o crédito: financiamento, cartão e empréstimo tendem a ficar mais caros quando a Selic está alta.",
+  "Pergunta para os comentários: time dólar ou time Selic? Comenta 1 ou 2. Este texto explica números e não recomenda comprar, vender ou onde investir."
+ ],
+ "como_se_proteger": [],
+ "slug": "juro-real",
+ "publicado_em": "2026-11-17T10:08:27.443314",
+ "atualizado_em": "2026-11-17T10:08:27.443314",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, investimentos, com gatilho de comentário) juro real: por que 13,75% no Brasil não é 13,75% no seu bolso. Selic 13,75% (Copom 04/11/2026) menos IPCA de 4,63% em 12 meses (IBGE, 12/11/2026) dá juro real de cerca de 8,7% ao ano antes do imposto de renda; nos EUA o juro do Fed está entre 3,75% e 4,00% (28/10/2026). Gatilho: \"Time dólar ou time Selic? Comenta 1 ou 2.\" Sem recomendação.",
+ "turno": "manha"
+}
