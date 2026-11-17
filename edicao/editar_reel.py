@@ -123,6 +123,15 @@ def alinhar(palavras: list) -> list:
 
 def corrigir(palavras: list) -> list:
     """Troca trechos que a transcrição errou (ex.: "quem vestir" → "que investir"), mantendo o tempo."""
+    # "4" ",5%" e "%" soltos viram "4,5%" (o alinhamento separa a casa decimal e o símbolo; 17/11)
+    juntas = []
+    for p in palavras:
+        if juntas and (re.fullmatch(r",\d+\S*", p[2]) and re.fullmatch(r"\d+", juntas[-1][2])
+                       or re.fullmatch(r"%\W*", p[2]) and re.fullmatch(r"[\d.,]+", juntas[-1][2])):
+            juntas[-1] = [juntas[-1][0], p[1], juntas[-1][2] + p[2], p[3]]
+            continue
+        juntas.append(list(p))
+    palavras[:] = juntas
     for velho, novo_ in CFG.get("corrigir", []):
         n = len(velho)
         i = 0
