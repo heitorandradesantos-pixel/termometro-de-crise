@@ -1,0 +1,135 @@
+{
+ "titulo": "Ibovespa hoje (17/11): o que se sabe após queda de 1,83%",
+ "descricao": "Ibovespa hoje: caiu 1,83% ontem, a 169.295 pontos, e o dólar foi a R$ 5,77. Veja o que o mercado olha hoje: Senado, Nvidia e varejo dos EUA.",
+ "palavra_chave": "ibovespa hoje",
+ "lead": "O Ibovespa, principal índice da bolsa brasileira, caiu 1,83% na segunda-feira (16/11) e fechou a 169.295,41 pontos, segundo a B3. O dólar subiu 2,15%, a cerca de R$ 5,77, o maior valor de fechamento desde abril de 2025, segundo a Agência Brasil. Hoje (17/11) o mercado olha a votação de destaques do pacote fiscal no Senado, o balanço da Nvidia (após o fechamento) e as vendas no varejo dos EUA.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou a segunda-feira (16/11) em queda de 1,83%, a 169.295,41 pontos, em um dia de mais aversão ao risco (menos disposição de investir em ativos mais arriscados) no exterior e de preocupação com as contas públicas do Brasil.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-183-com-pressao-do-exterior-e-cautela-fiscal-dolar-sobe/",
+   "data": "2026-11-16",
+   "veiculo": "B3 (Bora Investir)",
+   "confiavel": true
+  },
+  {
+   "texto": "O índice foi de 172.458 pontos na máxima do dia a 168.491 na mínima, queda de 2,3% nesse intervalo. Em 2026, acumula alta de 5,07%; em novembro, de 0,82%.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-recua-dolar-sobe-5",
+   "data": "2026-11-16",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar comercial subiu 2,17% e fechou a R$ 5,778 (outros veículos arredondam a alta para 2,15% e o valor para R$ 5,77). É o maior valor de fechamento desde abril de 2025. A moeda chegou a R$ 5,794 durante o dia e acumula alta de 6,12% em novembro.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025",
+   "data": "2026-11-16",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Boletim Focus, pesquisa semanal do Banco Central com economistas, mostrou piora nas previsões para dólar, inflação e juros em 2027 e corte nas de crescimento. Nos EUA, as bolsas também fecharam em queda, com cautela em tecnologia e pressão sobre bancos.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-183-com-pressao-do-exterior-e-cautela-fiscal-dolar-sobe/",
+   "data": "2026-11-16",
+   "veiculo": "B3 (Bora Investir)",
+   "confiavel": true
+  },
+  {
+   "texto": "Rebecca Nossig, estrategista de ações da Nomad, ligou a queda à incerteza sobre a votação dos destaques do pacote fiscal no Senado e à piora do Focus. Para ela, o dólar reflete a percepção de risco fiscal e a alta dos juros futuros.",
+   "fonte_url": "https://exame.com/invest/mercados/ibovespa-cai-18-com-desconfianca-sobre-ajuste-fiscal-de-lula-ny-recua-com-temor-sobre-ia/",
+   "data": "2026-11-16",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O Senado aprovou na quinta-feira (12/11), por 45 votos a 31, o texto-base do projeto de ajuste fiscal. Quatro destaques (propostas de mudança ao texto) serão analisados na terça-feira (17/11). O governo estima economia de até R$ 60 bilhões em 2027. Depois da votação, o texto segue para a Câmara.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-pacote-fiscal-varejo-e-inflacao-dos-eua-no-radar-2126420",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "As leituras sobre o pacote divergem. Segundo a InvestNews, prevalece no mercado a visão de que ele é insuficiente para o corte de gastos necessário. Segundo reportagem publicada pelo DGABC, a ala de esquerda o considera austero demais.",
+   "fonte_url": "https://investnews.com.br/investimentos/ibovespa-cai-quase-2-com-incerteza-fiscal-e-exterior-petrobras-e-vale-recuam/",
+   "data": "2026-11-16",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "O presidente em exercício, Geraldo Alckmin, chamou as oscilações do dólar e da bolsa de passageiras. Disse: \"Não há razão para o mercado ter essas oscilações\".",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/16/dolar-dispara-e-fecha-a-r-5-77",
+   "data": "2026-11-16",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "Hoje (17/11) a Nvidia divulga o balanço após o fechamento, o primeiro desde a saída do fundador Jensen Huang do comando. Também saem as vendas no varejo dos EUA em outubro, que medem a força do consumo americano.",
+   "fonte_url": "https://www.suno.com.br/noticias/agenda-da-semana-nvidia-fed-b3/",
+   "data": "2026-11-16",
+   "veiculo": "Suno",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Senado aprova o texto-base do ajuste fiscal por 45 votos a 31. Os destaques ficam para a semana seguinte.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-pacote-fiscal-varejo-e-inflacao-dos-eua-no-radar-2126420",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Na quinta (12/11), o Ibovespa havia fechado em queda de 0,43%, a 171.324 pontos.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-pacote-fiscal-varejo-e-inflacao-dos-eua-no-radar-2126420",
+   "data": "2026-11-12",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Ibovespa cai 1,83%, a 169.295,41 pontos, com aversão a risco e cautela fiscal.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-183-com-pressao-do-exterior-e-cautela-fiscal-dolar-sobe/",
+   "data": "2026-11-16",
+   "veiculo": "B3 (Bora Investir)",
+   "confiavel": true
+  },
+  {
+   "texto": "Dólar fecha a R$ 5,778 (+2,17%), no maior valor de fechamento desde abril de 2025.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025",
+   "data": "2026-11-16",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Alckmin diz, após o fechamento, que não há razão para as oscilações do mercado.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/16/dolar-dispara-e-fecha-a-r-5-77",
+   "data": "2026-11-16",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "Dia de votação dos destaques do pacote fiscal no Senado, do varejo dos EUA e do balanço da Nvidia, após o fechamento.",
+   "fonte_url": "https://www.suno.com.br/noticias/ibovespa-vale-vale3-dolar-fiscal/",
+   "data": "2026-11-17",
+   "veiculo": "Suno",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Como abriram hoje as bolsas da Ásia e da Europa e os futuros dos EUA (contratos que indicam a abertura de Nova York): não foi possível confirmar. Os dados encontrados são de ontem.",
+  "Se o Senado vai mudar o texto do pacote fiscal ao votar os destaques hoje: a votação ainda não ocorreu.",
+  "O que a Nvidia vai mostrar no balanço: o resultado sai depois do fechamento. Segundo o Times Brasil, a expectativa é de receita de US$ 109 bilhões.",
+  "O peso de cada fator na queda de ontem. A InvestNews diz que a pressão sobre o real veio principalmente de fatores internos, já que o índice do dólar frente a outras moedas fortes subiu pouco. Outros veículos dão peso também ao exterior.",
+  "Um rebaixamento do Brasil pelo Morgan Stanley e uma saída de R$ 5,4 bilhões de estrangeiros foram citados só pelo ND Mais, com informações do Estadão. Não achei segunda fonte, então não está confirmado."
+ ],
+ "o_que_muda_para_voce": [
+  "Dólar mais caro tende a encarecer produtos importados e viagens ao exterior. Pode pesar também nos combustíveis, se a alta durar.",
+  "Fundos que investem em ações e planos de previdência com parte em bolsa podem mostrar queda no valor da cota (a fração do fundo) nos dias de baixa. A queda de ontem não é perda definitiva: o índice ainda sobe 5,07% em 2026, segundo a SpaceMoney.",
+  "O resultado de hoje no Senado e o balanço da Nvidia podem mexer de novo com bolsa e dólar. Ninguém sabe em que direção.",
+  "A B3 não abre na sexta (20/11), por causa do feriado da Consciência Negra. A ata do Fed (o banco central dos EUA) sai na quarta (18/11), segundo a agenda da semana.",
+  "Para acompanhar o câmbio em detalhe, veja a página Dólar hoje (/dolar-hoje), que trata só da cotação da moeda."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-hoje-1711",
+ "publicado_em": "2026-11-17T01:11:06.726177",
+ "atualizado_em": "2026-11-17T01:11:06.726177",
+ "assunto": "Mercado do dia (17/11): ontem o Ibovespa caiu 1,83%, a 169.295,41 pontos, e o dólar subiu 2,15%, a cerca de R$ 5,77, o maior nível desde abril de 2025, com cautela fiscal e queda das bolsas dos EUA. Hoje o mercado olha os destaques do pacote fiscal no Senado, o balanço da Nvidia (após o fechamento) e as vendas no varejo dos EUA. Copom e IPCA já saíram, e o payroll não consta da agenda de hoje. Ásia, Europa e futuros dos EUA de hoje não puderam ser confirmados.",
+ "turno": "manha"
+}
