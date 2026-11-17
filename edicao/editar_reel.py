@@ -123,15 +123,6 @@ def alinhar(palavras: list) -> list:
 
 def corrigir(palavras: list) -> list:
     """Troca trechos que a transcrição errou (ex.: "quem vestir" → "que investir"), mantendo o tempo."""
-    # "4" ",5%" e "%" soltos viram "4,5%" (o alinhamento separa a casa decimal e o símbolo; 17/11)
-    juntas = []
-    for p in palavras:
-        if juntas and (re.fullmatch(r",\d+\S*", p[2]) and re.fullmatch(r"\d+", juntas[-1][2])
-                       or re.fullmatch(r"%\W*", p[2]) and re.fullmatch(r"[\d.,]+", juntas[-1][2])):
-            juntas[-1] = [juntas[-1][0], p[1], juntas[-1][2] + p[2], p[3]]
-            continue
-        juntas.append(list(p))
-    palavras[:] = juntas
     for velho, novo_ in CFG.get("corrigir", []):
         n = len(velho)
         i = 0
@@ -165,6 +156,10 @@ def blocos_legenda(manter, novo) -> list:
             if any(a <= meio <= b for a, b in REMOVER) or meio > FIM or (BORDAO and BORDAO[0] <= meio <= BORDAO[1]):
                 continue
             quebra = bool(re.search(r"[,.?!]$", w))
+            if re.match(r",\d", w) and palavras and re.fullmatch(r"\d+", palavras[-1][2]):
+                palavras[-1][2] += w.rstrip(",.")  # "4" ",5%" → "4,5%" (o alinhamento separa a casa decimal; 17/11)
+                palavras[-1][1], palavras[-1][3] = novo(fim + ATRASO), quebra
+                continue
             w = TROCAS.get(w.strip(",."), w.strip(",."))
             if w == "%" and palavras:
                 palavras[-1][2] += "%"
