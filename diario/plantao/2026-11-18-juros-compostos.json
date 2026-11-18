@@ -1,0 +1,93 @@
+{
+ "titulo": "Juros compostos: R$ 500 por mês em 20 anos viram quanto?",
+ "descricao": "Simulação: R$ 500 por mês por 20 anos viram cerca de R$ 560 mil a 13,75% ao ano, antes do imposto. Veja a conta e o que ela não mostra.",
+ "palavra_chave": "juros compostos",
+ "lead": "Quanto você acha que vira R$ 500 por mês em 20 anos? Chuta nos comentários. Numa simulação a 13,75% ao ano, a Selic mantida pelo Copom em 4 de novembro, você poria R$ 120 mil do seu bolso e chegaria a cerca de R$ 560 mil antes do imposto. É um cenário hipotético, com a taxa parada: não é promessa de ganho nem recomendação.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Selic, taxa básica de juros do Brasil, está em 13,75% ao ano. O Copom, comitê do Banco Central que define a taxa, decidiu manter esse valor na reunião de 4 de novembro de 2026. A decisão interrompeu uma sequência de cinco quedas.",
+   "fonte_url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+   "data": "2026-11-04",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A Selic nem sempre foi essa. Ficou em 15% de junho de 2025 a março de 2026, o maior nível em quase 20 anos, segundo a agência Sou Brasília. Ou seja: a taxa muda ao longo dos anos, e a simulação com taxa parada é só um exercício.",
+   "fonte_url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-4-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "Sou Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "Na ata da reunião, publicada em 10 de novembro, o Banco Central diz que o cenário exige juros altos por mais tempo, segundo a CNN Brasil. A ata é o resumo detalhado da discussão do Copom.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-ata-do-copom-bc-diz-que-cenario-exige-selic-alta-por-mais-tempo/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Selic over, taxa que o mercado de fato pratica no dia a dia, estava em 13,65% ao ano em 23 de outubro, em geral cerca de 0,10 ponto abaixo da meta de 13,75%. O CDI, que muitos investimentos de renda fixa usam como referência, anda junto com ela.",
+   "fonte_url": "https://www.partnr.ai/indicadores/selic",
+   "data": "2026-10-23",
+   "veiculo": "Partnr",
+   "confiavel": false
+  },
+  {
+   "texto": "O juro real, que é a Selic menos a inflação dos últimos 12 meses (IPCA até outubro de 2026), estava em 8,72% ao ano, segundo dados do Banco Central compilados pelo Fala Zuki em 12 de novembro. É esse número, e não os 13,75%, que mostra quanto o dinheiro cresce acima dos preços.",
+   "fonte_url": "https://www.falazuki.com/tabela/selic-historico",
+   "data": "2026-11-12",
+   "veiculo": "Fala Zuki (dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na renda fixa tributada (CDB, Tesouro Direto e fundos, por exemplo), o Imposto de Renda é de 15% sobre o rendimento quando o dinheiro fica aplicado por mais de 720 dias. O imposto incide só sobre o ganho, não sobre o valor que você colocou. Informação conferida em 18 de novembro de 2026.",
+   "fonte_url": "https://oespecialista.safra.com.br/tabela-regressiva-ir-iof-renda-fixa/",
+   "data": "2026-11-18",
+   "veiculo": "O Especialista (Safra)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Pesquisa Focus (referência de 30/10, divulgada em 3/11): o mercado passou a projetar Selic de 13,50% ao fim de 2026. É projeção de analistas, não compromisso do Banco Central.",
+   "fonte_url": "https://gazetamercantil.com/copom-mantem-selic-1375-novembro-2026",
+   "data": "2026-11-03",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  },
+  {
+   "texto": "Copom mantém a Selic em 13,75% ao ano e interrompe cinco cortes seguidos.",
+   "fonte_url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+   "data": "2026-11-04",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Ata do Copom diz que o cenário exige juros altos por mais tempo.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-ata-do-copom-bc-diz-que-cenario-exige-selic-alta-por-mais-tempo/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Para onde a Selic vai nos próximos 20 anos. Ninguém sabe, e o cenário de taxa parada em 13,75% é uma hipótese de cálculo, não uma previsão.",
+  "Se o Banco Central voltará a cortar ou a subir os juros. A ata sinaliza juros altos por mais tempo, mas o BC não indicou os próximos passos. Um analista ouvido pelo BPMoney disse que uma nova alta não está descartada; isso é leitura dele, não decisão do Copom.",
+  "Quanto um investimento real pagaria. Cada produto tem sua taxa, seu prazo e suas regras, e o resultado pode ficar abaixo ou acima da Selic. Esta reportagem não analisou nenhum produto específico.",
+  "Qual será a inflação nos próximos 20 anos. Se ela subir, os R$ 560 mil comprarão menos do que a conta nominal (sem descontar os preços) sugere.",
+  "Se as regras de imposto vão mudar até lá. A tabela atual vale hoje, mas pode ser alterada por lei."
+ ],
+ "o_que_muda_para_voce": [
+  "A conta do Termômetro (simulação): R$ 500 por mês durante 240 meses são R$ 120 mil do seu bolso. Com 13,75% ao ano, o que dá cerca de 1,08% ao mês, e depósito no fim de cada mês, o total chega perto de R$ 560 mil. Os juros respondem por cerca de R$ 440 mil, mais de três quartos do valor final.",
+  "É isso que são juros compostos: o rendimento de cada mês passa a render também no mês seguinte. No começo o efeito parece pequeno. Quanto mais tempo passa, mais pesa. A mesma conta com juros simples (sem rendimento sobre rendimento) daria um valor bem menor.",
+  "O número é antes do imposto. Se todo o dinheiro ficasse mais de 720 dias numa renda fixa tributada, o imposto de 15% sobre cerca de R$ 440 mil de ganho seria de uns R$ 66 mil, e sobrariam perto de R$ 494 mil. Conta simplificada: os depósitos mais recentes ficam menos tempo aplicados e pagam alíquota maior.",
+  "É um valor nominal, sem descontar a inflação. Com o juro real em 8,72% ao ano hoje, o ganho acima dos preços é menor que os 13,75% da Selic. Dinheiro de daqui a 20 anos compra menos do que o mesmo valor hoje.",
+  "A Selic é a taxa básica, não o que cai na sua conta. O que você receberia depende do produto, das taxas e do prazo. A simulação ajuda a entender o mecanismo; não é promessa de ganho nem recomendação de onde aplicar."
+ ],
+ "como_se_proteger": [],
+ "slug": "juros-compostos",
+ "publicado_em": "2026-11-18T08:26:58.950815",
+ "atualizado_em": "2026-11-18T08:26:58.950815",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, investimentos, com gatilho de palpite) juros compostos na prática: guardando R$ 500 por mês por 20 anos você junta R$ 120 mil do seu bolso; a 13,75% ao ano (Selic atual, Copom 04/11/2026), isso viraria cerca de R$ 560 mil antes do imposto, num cenário hipotético com a taxa parada. Começar com o gatilho de palpite: \"Quanto você acha que vira R$ 500 por mês em 20 anos? Chuta nos comentários.\" Deixar claro que é simulação, não promessa. Sem recomendação.",
+ "turno": "manha"
+}
