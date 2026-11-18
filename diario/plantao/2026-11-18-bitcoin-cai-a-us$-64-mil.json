@@ -1,0 +1,128 @@
+{
+ "titulo": "Bitcoin cai a US$ 64 mil e ETFs têm saídas: o que se sabe",
+ "descricao": "O bitcoin caiu a cerca de US$ 64 mil e os ETFs tiveram saídas. Entenda o que é volatilidade e por que o preço oscila tanto, sem recomendação.",
+ "palavra_chave": "bitcoin cai a us$ 64 mil",
+ "lead": "O bitcoin caiu a cerca de US$ 64 mil e, segundo a Exame (16/11), devolveu toda a alta dos últimos três meses. Nos EUA, os ETFs de bitcoin (fundos que seguem o preço da moeda e são negociados em bolsa) tiveram saídas de cerca de US$ 1,9 bilhão em sete pregões, segundo dados da Farside Investors. Em 18/11, o preço seguia perto de US$ 64,6 mil. Reserva de valor ou montanha-russa? Os números abaixo mostram o que já aconteceu, sem dizer o que fazer.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 16 de novembro, às 10h50, o bitcoin custava US$ 64.271, com queda de 1,8% em 24 horas. A Exame diz que o preço saiu de US$ 87 mil para a faixa de US$ 62 mil a US$ 64 mil desde outubro e devolveu toda a alta dos últimos três meses.",
+   "fonte_url": "https://exame.com/future-of-money/bitcoin-hoje-16-11-2026/",
+   "data": "2026-11-16",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O bitcoin chegou a mais de US$ 87 mil em 2 de outubro. Em 17 de novembro, a Exame o citava a US$ 64.790, uma queda de 25,6% desde essa máxima.",
+   "fonte_url": "https://exame.com/future-of-money/economista-preve-bitcoin-em-us-165-mil-e-fim-da-strategy-ate-o-fim-do-ano/",
+   "data": "2026-11-17",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "No fim de semana de 14 e 15 de novembro, o bitcoin tocou cerca de US$ 62 mil. Houve mais de US$ 2 bilhões em liquidações, quase todas em posições compradas. Liquidação é o fechamento forçado de uma aposta feita com dinheiro emprestado, quando o preço vai contra ela. O bitcoin fechou a sexta semana seguida em queda, segundo a Exame.",
+   "fonte_url": "https://exame.com/future-of-money/bitcoin-hoje-16-11-2026/",
+   "data": "2026-11-16",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O BPMoney informou que o bitcoin acumulava perda de 17% em novembro até 16/11. Isso quer dizer que R$ 1.000 em bitcoin no início do mês teriam virado cerca de R$ 830, sem contar o efeito do dólar.",
+   "fonte_url": "https://bpmoney.com.br/economia/bitcoin-hoje-cai-a-us-64-mil-e-acumula-perdas-de-17-em-novembro-veja-analise/",
+   "data": "2026-11-16",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Os ETFs de bitcoin à vista nos EUA perderam cerca de US$ 1,9 bilhão em sete pregões seguidos, segundo a Farside Investors. Na segunda-feira (16/11), eles tiveram entrada líquida de US$ 7,9 milhões e interromperam a sequência.",
+   "fonte_url": "https://kucoin.com/pt/news/flash/bitcoin-falls-below-64-000-amid-tech-sell-off-and-nvidia-earnings-uncertainty",
+   "data": "2026-11-17",
+   "veiculo": "KuCoin (cita dados da Farside Investors)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na semana encerrada em 13/11, os ETFs de bitcoin dos EUA tiveram saída líquida de US$ 1,07 bilhão. Foi a terceira semana seguida de perdas.",
+   "fonte_url": "https://news.bitcoin.com/pt/bitcoin-etf/etfs-de-bitcoin-perdem-us-1-07-bi-na-semana-2-semanas-us-2-35-bi/",
+   "data": "2026-11-16",
+   "veiculo": "Bitcoin.com",
+   "confiavel": false
+  },
+  {
+   "texto": "A Exame liga a queda a três fatores: a expectativa de juros mais altos nos EUA, a saída de dinheiro dos ETFs e a fraqueza das ações de tecnologia. Segundo Caio Villa, da Brasil Bitcoin, a semana tem resultado da Nvidia, ata do Fed (banco central dos EUA) e a oferta inicial de ações (IPO) da Anthropic.",
+   "fonte_url": "https://exame.com/future-of-money/bitcoin-hoje-16-11-2026/",
+   "data": "2026-11-16",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 18 de novembro, o BitNotícias mostrava o bitcoin em US$ 64.616, com leve alta de 0,6%. O veículo diz que o preço seguia sem sustentar uma recuperação mais firme, em meio à saída de dinheiro dos ETFs e à incerteza sobre os juros dos EUA.",
+   "fonte_url": "https://bitnoticias.com.br/mercado/preco-do-ethereum-hoje-18-de-novembro-de-2026",
+   "data": "2026-11-18",
+   "veiculo": "BitNotícias",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O bitcoin passa de US$ 87 mil, a máxima recente, segundo a Exame.",
+   "fonte_url": "https://exame.com/future-of-money/economista-preve-bitcoin-em-us-165-mil-e-fim-da-strategy-ate-o-fim-do-ano/",
+   "data": "2026-10-02",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Começa a sequência de sete pregões seguidos de saídas dos ETFs de bitcoin dos EUA, que vai até 13/11.",
+   "fonte_url": "https://www.kucoin.com/pt/square/post/content_6afb3e4c760f860007437666",
+   "data": "2026-11-05",
+   "veiculo": "KuCoin",
+   "confiavel": false
+  },
+  {
+   "texto": "Os ETFs de bitcoin fecham a semana com saída líquida de US$ 1,07 bilhão, a terceira perda semanal seguida.",
+   "fonte_url": "https://news.bitcoin.com/pt/bitcoin-etf/etfs-de-bitcoin-perdem-us-1-07-bi-na-semana-2-semanas-us-2-35-bi/",
+   "data": "2026-11-13",
+   "veiculo": "Bitcoin.com",
+   "confiavel": false
+  },
+  {
+   "texto": "O bitcoin cai a cerca de US$ 64 mil, depois de tocar US$ 62 mil no fim de semana, e devolve a alta de três meses.",
+   "fonte_url": "https://exame.com/future-of-money/bitcoin-hoje-16-11-2026/",
+   "data": "2026-11-16",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Os ETFs têm entrada líquida de US$ 7,9 milhões e encerram a sequência de sete dias de saídas.",
+   "fonte_url": "https://kucoin.com/pt/news/flash/bitcoin-falls-below-64-000-amid-tech-sell-off-and-nvidia-earnings-uncertainty",
+   "data": "2026-11-16",
+   "veiculo": "KuCoin",
+   "confiavel": false
+  },
+  {
+   "texto": "O bitcoin segue perto de US$ 64,6 mil, com leve alta no dia.",
+   "fonte_url": "https://bitnoticias.com.br/mercado/preco-do-ethereum-hoje-18-de-novembro-de-2026",
+   "data": "2026-11-18",
+   "veiculo": "BitNotícias",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "A causa exata da queda não foi confirmada. A Exame aponta juros, ETFs e ações de tecnologia, mas ninguém mediu o peso de cada fator. Há também uma hipótese, não confirmada, de que parte do dinheiro esteja indo para o IPO da Anthropic, levantada por CZ, ex-chefe da Binance, segundo post na KuCoin.",
+  "Não se sabe quem está vendendo. Segundo o BitNotícias, os números somados dos ETFs não identificam os compradores nem separam troca entre fundos de saída definitiva do bitcoin.",
+  "Os totais variam conforme a fonte e o período. A Farside aponta cerca de US$ 1,9 bilhão em sete pregões. Já a SoSoValue, citada pela KuCoin, aponta US$ 2,35 bilhões nos primeiros pregões de novembro. Os números não são comparáveis diretamente.",
+  "Ninguém sabe se a queda continua ou se o preço volta a subir. O economista Peter Schiff, conhecido crítico do bitcoin, disse que pode haver queda até abaixo de US$ 16,5 mil. É uma opinião dele, não um fato, e outros analistas veem cenários diferentes.",
+  "A Exame cita US$ 64 mil no título e US$ 62 mil no texto. O valor de US$ 62 mil parece ser a mínima do fim de semana, mas a Exame não detalha isso."
+ ],
+ "o_que_muda_para_voce": [
+  "Volatilidade é o quanto e com que velocidade o preço sobe e desce. No bitcoin ela é alta: perda de 17% em novembro e queda de 25,6% desde o topo de outubro, segundo o BPMoney e a Exame.",
+  "Reserva de valor é um bem que mantém o poder de compra ao longo do tempo. Montanha-russa é um preço que oscila muito no curto prazo. Os números de novembro mostram oscilação forte. Se o bitcoin cumpre ou não o papel de reserva de valor é um debate em aberto, e este texto não decide por você.",
+  "Quem tem bitcoin, direto ou por ETF, vê o saldo mudar de valor todos os dias. O preço é em dólar, então o valor em reais também depende da cotação do dólar.",
+  "Quem já investiu pode olhar o quanto aceita perder e por quanto tempo pretende manter o dinheiro aplicado. Este texto não recomenda comprar, vender nem manter.",
+  "E você, segura ou pula fora? Comenta SEGURO ou PULO. É só uma enquete entre leitores. Não é recomendação de investimento."
+ ],
+ "como_se_proteger": [],
+ "slug": "bitcoin-cai-a-us$-64-mil",
+ "publicado_em": "2026-11-18T08:07:45.530539",
+ "atualizado_em": "2026-11-18T08:07:45.530539",
+ "assunto": "Modo polêmica, voz do Heitor, investimentos, com gatilho de comentário: o bitcoin caiu para cerca de US$ 64 mil e devolveu toda a alta dos últimos 3 meses (Exame, 16/11/2026); os ETFs de bitcoin tiveram saída de cerca de US$ 1,9 bilhão (BitNotícias, 15/11/2026). Reserva de valor ou montanha-russa? Explicar volatilidade sem recomendar compra ou venda. Gatilho: \"E você, segura ou pula fora? Comenta SEGURO ou PULO.\"",
+ "turno": "manha"
+}
