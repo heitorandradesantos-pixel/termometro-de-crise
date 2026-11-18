@@ -1,0 +1,190 @@
+{
+ "gancho": {
+  "formula": "Cena no meio",
+  "texto": "Cara, o dólar abriu a R$ 5,81. E a bolsa, no vermelho.",
+  "na_tela": "Dólar a R$ 5,81 e bolsa no vermelho",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio",
+   "texto": "Cara, o dólar abriu a R$ 5,81. E a bolsa, no vermelho.",
+   "na_tela": "Dólar a R$ 5,81 e bolsa no vermelho",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O dólar subiu 0,74% de manhã. O que isso muda pra você?",
+   "na_tela": "Dólar +0,74%: e o seu bolso?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Dez da manhã, e o Ibovespa abriu em queda de 0,43%.",
+   "na_tela": "Ibovespa abriu em queda",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar abriu a R$ 5,81. E a bolsa, no vermelho.",
+  "Lá fora, a Ásia fechou misturada. Hong Kong caiu 1,93%.",
+  "A Europa tá no vermelho. Nova York, antes de abrir, tá mais no azul.",
+  "Aqui, o Ibovespa abriu em 169.078 pontos, queda de 0,43%.",
+  "Agora o que pesa no bolso: o dólar subiu 0,74% de manhã.",
+  "Dólar mais caro pesa no que vem de fora: viagem, importado, parte da feira.",
+  "Pra hoje, fica de olho no dólar e no Senado. Sem susto: acompanhe com calma.",
+  "O dólar já pesou aí no seu bolso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar abriu a R$ 5,81. E a bolsa, no vermelho. Lá fora, a Ásia fechou misturada. Hong Kong caiu 1,93%. A Europa tá no vermelho. Nova York, antes de abrir, tá mais no azul. Aqui, o Ibovespa abriu em 169.078 pontos, queda de 0,43%. Agora o que pesa no bolso: o dólar subiu 0,74% de manhã. Dólar mais caro pesa no que vem de fora: viagem, importado, parte da feira. Pra hoje, fica de olho no dólar e no Senado. Sem susto: acompanhe com calma. O dólar já pesou aí no seu bolso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 106,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,81 e bolsa no vermelho",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Hang Seng ▼1,93%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Ibovespa 169.078 pontos ▼0,43%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Dólar R$ 5,81 ▲0,74%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Dólar e Senado",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje e Ibovespa hoje 18/11",
+ "legenda": "Dólar hoje e Ibovespa hoje (18/11): como o mundo amanheceu e como o Brasil abriu.\n\nÀs 10h09, o Ibovespa estava em 169.078 pontos, queda de 0,43%, e o dólar a R$ 5,81, alta de 0,74%. Na Ásia, Hong Kong fechou em queda de 1,93%.\n\nDólar mais caro pesa no que vem de fora, como viagem e produto importado. Hoje, o destaque da manhã é o dólar e o Senado, e o que se sabe está no nosso site.\n\nNo último fechamento (17/11), o termômetro marcou Brasil em 62 (Tensão) e Mundo em 58 (Alerta).\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento. Cotações: Yahoo Finance.\n\n#dolar #ibovespa #bolsadevalores #economia #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#ibovespa",
+  "#bolsadevalores",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar abriu a R$ 5,81 e a bolsa caiu.",
+  "topicos": [
+   "Segundo o Yahoo Finance, Hong Kong fechou em queda de 1,93% hoje.",
+   "Ibovespa abriu às 10h09 em 169.078 pontos, queda de 0,43%.",
+   "Dólar subiu 0,74% e foi a R$ 5,81: pesa em viagem e importado.",
+   "Fica de olho no dólar e no Senado, com calma, sem pânico."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "A abertura junta vários números de mercados diferentes e pede explicação calma, então rende mais na bancada com teleprompter.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "\"Aqui, o Ibovespa abriu em 169.078 pontos, queda de 0,43%.\" e \"o dólar subiu 0,74% de manhã\": são dois números numa fala só, e um deles é exato demais. Reescreva com uma ideia por fala e número redondo: \"A bolsa brasileira abriu em queda, uns 0,4%.\" O número exato (169.078) fica no cartão da tela. Troque \"Ibovespa\" por \"a bolsa daqui\" ou explique que é o índice que mede as maiores empresas.",
+   "\"Pra hoje, fica de olho no dólar e no Senado. Sem susto: acompanhe com calma.\": o Senado aparece solto, sem dizer o que está em jogo, e o passo é vago. Isso abre uma curiosidade que o roteiro não paga. Diga numa frase simples o que o Senado tem a ver com o dólar, só com o que a fonte confirma. Se o roteiro não tiver esse fato, tire o Senado. Troque \"fica de olho\" por um passo concreto, por exemplo: \"se você vai comprar algo importado ou viajar, vale olhar o preço antes de fechar\". Não pode ser recomendação de investimento.",
+   "\"Dólar mais caro pesa no que vem de fora: viagem, importado, parte da feira.\" e \"Hong Kong caiu 1,93%\": a comparação com a feira é boa, mas vem depois de uma sequência de Ásia, Europa e Nova York. Isso pesa para quem não acompanha o mercado. Corte Hong Kong e a Europa e abra com a reação do Heitor ao dólar. Mantenha só a comparação da feira e dê a ela uma imagem mais viva, sem inventar número. Depois, deixe o porquê para a legenda ou o cartão."
+  ],
+  "veredito": "A peça acerta o arquétipo, o gancho direto, o bordão e o gatilho de comentário. Mas tem número demais por fala, vira um boletim de mercado com Ásia, Europa e Nova York, e falta pagar o Senado e dar um passo claro para o bolso."
+ },
+ "viral": {
+  "nota": 4,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o dólar abriu a R$ 5,81. E a bolsa, no vermelho.\" tem um número, mas é boletim que todo dia parece igual e não abre lacuna do bolso. Reescrita: \"Cara, o dólar abriu a R$ 5,81. Subiu 0,74% só de manhã. Isso chega na sua feira e na sua viagem.\" Assim o número já vem ligado ao que a pessoa compra, e o vídeo promete a resposta.",
+   "Envio: não há pedido de envio nem número para mostrar a alguém. Troque o fim por algo concreto, com os mesmos fatos: \"Dólar mais caro pesa no que vem de fora: viagem, importado, parte da feira. Tem alguém viajando aí? Manda pra ele, sério.\" Isso entrega o motivo e a situação de quem recebe.",
+   "Retenção e pagamento: o meio vira lista de índices (Hong Kong, Europa, Nova York, Ibovespa), sem virada, e \"Senado\" aparece no fim sem dizer o quê, o que é isca que não se paga. Corte Hong Kong 1,93% e a linha da Europa e de Nova York, ou reduza a uma só. Antes de \"Pra hoje\", ponha a virada: \"E aí vem o que pesa no seu bolso: o dólar.\" Em \"fica de olho no dólar e no Senado\", diga em meia frase o que o Senado decide hoje, ou tire o Senado da fala."
+  ],
+  "veredito": "Boletim claro e com bom gatilho de SIM/NÃO no fim, mas o gancho é só uma cotação, não há motivo para mandar e a lista de índices no meio derruba a retenção; falta ligar o dólar de R$ 5,81 ao bolso logo na primeira frase e pedir o envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Vertical shot, slow dolly-in along a rainy night skyline of a dense Asian harbor city, glowing skyscrapers reflected on dark water, ferries crossing, moody red and blue lighting, no text or signs legible, cinematic",
+   "texto_da_fala": "Lá fora, a Ásia fechou misturada. Hong Kong caiu 1,93%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly-in along a rainy night skyline of a dense Asian harbor city, glowing skyscrapers reflected on dark water, ferries crossing, moody red and blue lighting, no text or signs legible, cinematic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow upward tilt over the glass facade of a modern stock exchange building in a Brazilian city at early morning, reflections of clouds on the windows, empty plaza in the foreground, soft light, no text, no logos, no people in focus",
+   "texto_da_fala": "Aqui, o Ibovespa abriu em 169.078 pontos, queda de 0,43%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow upward tilt over the glass facade of a modern stock exchange building in a Brazilian city at early morning, reflections of clouds on the windows, empty plaza in the foreground, soft light, no text, no logos, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot, smooth lateral tracking move across a Brazilian street market stall with fresh produce, next to a suitcase and a stack of imported boxes on a wooden counter, warm morning light, shallow depth of field, no text, no labels, no recognizable faces",
+   "texto_da_fala": "Dólar mais caro pesa no que vem de fora: viagem, importado, parte da feira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, smooth lateral tracking move across a Brazilian street market stall with fresh produce, next to a suitcase and a stack of imported boxes on a wooden counter, warm morning light, shallow depth of field, no text, no labels, no recognizable faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar abriu a R$ 5,81. E a bolsa, no vermelho.\n\nLá fora, a Ásia fechou misturada. Hong Kong caiu 1,93%.\n\nA Europa tá no vermelho. Nova York, antes de abrir, tá mais no azul.\n\nAqui, o Ibovespa abriu em 169.078 pontos, queda de 0,43%.\n\nAgora o que pesa no bolso: o dólar subiu 0,74% de manhã.\n\nDólar mais caro pesa no que vem de fora: viagem, importado, parte da feira.\n\nPra hoje, fica de olho no dólar e no Senado. Sem susto: acompanhe com calma.\n\nO dólar já pesou aí no seu bolso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T10:28:34.382298-03:00",
+ "enviado_whatsapp": "2026-11-18T10:28:55.724237-03:00"
+}
