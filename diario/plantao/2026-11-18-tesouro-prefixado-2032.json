@@ -1,0 +1,121 @@
+{
+ "titulo": "Tesouro Prefixado 2032 a 15%: o que se sabe",
+ "descricao": "Prefixado 2032 chegou a 15,26% e fechou a 15,46% em 16/11; IPCA+ 2032 pagou 7,77% + inflação. Veja o que se sabe, o que não se sabe e o que muda.",
+ "palavra_chave": "tesouro prefixado 2032",
+ "lead": "O Tesouro Prefixado 2032 chegou a pagar 15,26% ao ano na segunda-feira (16/11), segundo o InfoMoney. No mesmo momento, o IPCA+ 2032 pagava a inflação mais 7,77%, e a Selic está em 13,75%. Esses números são do meio do dia: pela tabela do Tesouro, o prefixado fechou a 15,46%. Analistas ligam a alta das taxas ao risco fiscal, mas não há uma explicação única confirmada.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Às 12h10 de 16/11, o Tesouro Prefixado 2032 pagava 15,26% ao ano, ante 15,19% no fechamento de sexta (13/11). O Tesouro IPCA+ 2032 oferecia IPCA + 7,77%, contra IPCA + 7,70%. O InfoMoney diz que o mercado reagia a dados de atividade e esperava sinais do governo sobre a política fiscal.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-taxas-sobem-e-prefixado-2032-paga-1526-com-fiscal-no-radar/",
+   "data": "2026-11-16",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Os 15,26% não foram o fechamento. Na tabela do Tesouro Nacional, o Prefixado 2032 terminou 16/11 a 15,46%. O InfoMoney também lista 15,46% para a segunda e IPCA + 7,86% para o IPCA+ 2032 no fechamento.",
+   "fonte_url": "https://infomoney.com.br/onde-investir/tesouro-direto-hoje-prefixados-recuam-apos-disparada-e-ipca-tem-movimento-misto",
+   "data": "2026-11-17",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Na terça (17/11), as taxas recuaram. Pelo InfoMoney, o Prefixado 2032 foi a 15,27% e o IPCA+ 2032 a IPCA + 7,80%. Mais tarde, o InvestNews mostrou 15,35% e disse que os níveis seguem perto das máximas desde 2004.",
+   "fonte_url": "https://investnews.com.br/investimentos/tesouro-direto-taxas-rendimento-hoje-queda-17112026/",
+   "data": "2026-11-17",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom, comitê do Banco Central que define os juros, manteve a Selic em 13,75% ao ano, por unanimidade, em 4 de novembro. Foi a pausa depois de uma sequência de cortes.",
+   "fonte_url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements",
+   "data": "2026-11-04",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 16/11, o dólar subiu 2,17% e fechou a R$ 5,78, o maior valor de fechamento desde abril de 2025. O Ibovespa caiu 1,83%, a 169.295 pontos, e os juros futuros subiram. Está em votação no Senado o PLP 299/2026, o pacote fiscal. Segundo a Agência Senado, o governo estima melhorar as contas de 2027 entre R$ 45,1 bilhões e R$ 56,1 bilhões.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/macroeconomia/pacote-fiscal-56-bi-juros-dolar",
+   "data": "2026-11-16",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Taxa e preço andam em sentidos opostos (a chamada marcação a mercado). Em 16/11, o Prefixado 2032 perdeu cerca de 1,2% de valor de mercado. Quem segura o título até o vencimento recebe a taxa contratada na compra, segundo o site Melhor Investimento, que cita a tabela oficial do Tesouro.",
+   "fonte_url": "https://melhorinvestimento.net/noticias/taxas-do-tesouro-direto-prefixado-15-46",
+   "data": "2026-11-16",
+   "veiculo": "Melhor Investimento",
+   "confiavel": false
+  },
+  {
+   "texto": "As explicações para a alta das taxas variam. O Times Brasil atribui a queda da bolsa e a alta do dólar em 16/11 principalmente às dúvidas sobre o ajuste fiscal. O Boletim Focus, do Banco Central, subiu a projeção de IPCA de 2027 de 4,90% para 5% e a da Selic ao fim de 2027 de 12,50% para 12,75%. A Nomad, após o Copom, cita câmbio mais fraco, petróleo mais caro e expectativas de inflação piores.",
+   "fonte_url": "https://timesbrasil.com.br/brasil/dolar-hoje-ibovespa-mercado-financeiro/",
+   "data": "2026-11-17",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Segundo o site Melhor Investimento, em 15/10, antes do segundo turno da eleição, o Prefixado 2032 abria o dia a 12,87% ao ano.",
+   "fonte_url": "https://melhorinvestimento.net/noticias/taxas-do-tesouro-direto-prefixado-15-46",
+   "data": "2026-10-15",
+   "veiculo": "Melhor Investimento",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o mesmo site, em 26/10, no primeiro pregão depois da eleição, as taxas tiveram a maior alta diária da série do Tesouro, iniciada em 2004.",
+   "fonte_url": "https://melhorinvestimento.net/noticias/taxas-do-tesouro-direto-prefixado-15-46",
+   "data": "2026-10-26",
+   "veiculo": "Melhor Investimento",
+   "confiavel": false
+  },
+  {
+   "texto": "Copom mantém a Selic em 13,75% e interrompe a sequência de cortes. O Prefixado 2032 fechou 4/11 a 15,23%.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-04112026/",
+   "data": "2026-11-04",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Senado aprovou o texto-base do pacote fiscal (PLP 299/2026) por 45 votos a 31, mas ainda faltavam quatro destaques (votações de ajustes ao texto).",
+   "fonte_url": "https://www.spacemoney.com.br/economia/macroeconomia/pacote-fiscal-56-bi-juros-dolar",
+   "data": "2026-11-12",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O Prefixado 2032 chegou a 15,26% às 12h10 e fechou a 15,46%. O dólar subiu 2,17% e o Ibovespa caiu 1,83%.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-taxas-sobem-e-prefixado-2032-paga-1526-com-fiscal-no-radar/",
+   "data": "2026-11-16",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "As taxas dos prefixados recuaram cerca de 0,19 ponto percentual. O Prefixado 2032 foi a 15,27% pelo InfoMoney.",
+   "fonte_url": "https://infomoney.com.br/onde-investir/tesouro-direto-hoje-prefixados-recuam-apos-disparada-e-ipca-tem-movimento-misto",
+   "data": "2026-11-17",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado que o risco fiscal seja a única causa dos juros altos. Os veículos e analistas citados também apontam inflação esperada mais alta, câmbio e desaceleração da atividade.",
+  "Não há confirmação oficial de que o governo \"paga caro\" por desconfiança do mercado. É a leitura de analistas, e o governo defende o pacote fiscal como forma de melhorar as contas.",
+  "Não se sabe como terminará a votação do pacote fiscal. Os relatos divergem sobre o calendário de 17 e 18/11, e isso não foi confirmado por fonte oficial.",
+  "Ninguém sabe se as taxas vão subir ou cair daqui para frente. A taxa de hoje (18/11) não foi verificada nesta apuração, e a taxa muda ao longo do dia.",
+  "A Nomad espera nova manutenção da Selic em dezembro. É uma projeção de uma instituição, não uma decisão do Banco Central."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você compra agora, a taxa que aparece na hora da compra fica fixa até o vencimento. Ela muda ao longo do dia: o Prefixado 2032 estava em 15,26% ao meio-dia de 16/11 e fechou a 15,46%. A taxa é bruta, antes do Imposto de Renda.",
+  "Se você já tem título prefixado, o preço de mercado dele cai quando a taxa sobe. Essa perda só se realiza se você vender antes do vencimento.",
+  "Se você pode segurar até 2032, recebe a taxa contratada na compra. Se pode precisar do dinheiro antes, o preço de venda pode ficar abaixo ou acima do que você pagou, conforme as taxas daquele dia.",
+  "No IPCA+ 2032, você recebe a inflação do período mais a taxa fixa de 7,77% ao ano (taxa de 16/11 ao meio-dia). Esse título também tem marcação a mercado se for vendido antes de 15/08/2032.",
+  "Pergunta para debate, sem recomendação: você travaria 15% até 2032? Comenta SIM ou NÃO."
+ ],
+ "como_se_proteger": [],
+ "slug": "tesouro-prefixado-2032",
+ "publicado_em": "2026-11-18T08:00:40.069051",
+ "atualizado_em": "2026-11-18T08:00:40.069051",
+ "assunto": "Modo polêmica, voz do Heitor, investimentos, com gatilho de comentário: o Tesouro Prefixado 2032 chegou a pagar 15,26% ao ano em 16/11/2026, e o IPCA+ 2032 pagou 7,77% mais a inflação, com a Selic em 13,75% (InfoMoney, 16/11/2026; tesourodireto.com.br). Oportunidade ou sinal de alerta? O governo paga caro porque o mercado está desconfiado do fiscal; quem trava a taxa e precisa vender antes do vencimento pode perder (marcação a mercado). Gatilho: \"Você travaria 15% até 2032? Comenta SIM ou NÃO.\" Sem recomendação de investimento.",
+ "turno": "manha"
+}
