@@ -1,0 +1,112 @@
+{
+ "titulo": "Come-cotas de novembro 2026: o que se sabe",
+ "descricao": "O come-cotas cai em 30/11/2026. Veja quem paga, a alíquota de 15% ou 20%, como o imposto sai em cotas e o que muda no seu fundo.",
+ "palavra_chave": "come-cotas de novembro",
+ "lead": "O come-cotas, a cobrança antecipada de Imposto de Renda em fundos, cai na segunda-feira, 30/11/2026, último dia útil de novembro. Nos fundos de renda fixa e multimercado, a alíquota é de 15% (longo prazo) ou 20% (curto prazo) sobre o rendimento do semestre. Você sabia que seu fundo paga imposto duas vezes por ano? Comenta SABIA ou NÃO SABIA.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O come-cotas é a antecipação do Imposto de Renda dos fundos, feita duas vezes por ano. Em vez de esperar o resgate, o imposto é cobrado de tempos em tempos, e o administrador do fundo tira cotas do investidor no valor devido (dado de página consultada em 18/11/2026).",
+   "fonte_url": "https://www.infomoney.com.br/guias/come-cotas/",
+   "data": "2026-11-18",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 2026, a cobrança de novembro cai em 30/11, uma segunda-feira, último dia útil do mês. A de maio foi em 29/05, uma sexta-feira, porque 31/05 caiu num domingo (página consultada em 18/11/2026).",
+   "fonte_url": "https://avel.me/avelnews/come-cotas",
+   "data": "2026-11-18",
+   "veiculo": "Avel News",
+   "confiavel": false
+  },
+  {
+   "texto": "A alíquota é de 15% nos fundos de longo prazo (ativos com prazo médio acima de um ano) e de 20% nos de curto prazo (prazo médio de até um ano). Os valores constam em conteúdo de instituição financeira consultado em 18/11/2026.",
+   "fonte_url": "https://blog.daycoval.com.br/come-cotas/",
+   "data": "2026-11-18",
+   "veiculo": "Daycoval",
+   "confiavel": false
+  },
+  {
+   "texto": "O imposto incide sobre o rendimento do semestre, não sobre o dinheiro aplicado. Exemplo do Daycoval: R$ 10.000 aplicados, R$ 500 de ganho e alíquota de 15% geram R$ 75 de imposto, convertidos em cotas retiradas da posição do investidor.",
+   "fonte_url": "https://blog.daycoval.com.br/come-cotas/",
+   "data": "2026-11-18",
+   "veiculo": "Daycoval",
+   "confiavel": false
+  },
+  {
+   "texto": "O valor de cada cota não muda no dia da cobrança. O que cai é a quantidade de cotas, e isso é como o investidor percebe o imposto no extrato.",
+   "fonte_url": "https://lp.alocacaodeativos.com/artigos/come-cotas",
+   "data": "2026-11-18",
+   "veiculo": "Alocação de Ativos",
+   "confiavel": false
+  },
+  {
+   "texto": "Não é preciso pagar nada nem fazer nada. O imposto é retido na fonte e repassado à Receita Federal pela instituição que distribui o fundo.",
+   "fonte_url": "https://investimentos.com.br/artigos/como-declarar-fundos-de-investimento-no-imposto-de-renda/",
+   "data": "2026-11-18",
+   "veiculo": "Investimentos.com.br",
+   "confiavel": false
+  },
+  {
+   "texto": "No resgate, o imposto total é calculado pela tabela regressiva (22,5% até 180 dias, 20% de 181 a 360, 17,5% de 361 a 720 e 15% acima de 720 dias, nos fundos de longo prazo). O que já saiu no come-cotas é descontado, e a diferença é cobrada.",
+   "fonte_url": "https://www.mercadopago.com.br/blog/come-cotas-imposto-rendimento",
+   "data": "2026-11-18",
+   "veiculo": "Mercado Pago",
+   "confiavel": false
+  },
+  {
+   "texto": "A Lei 14.754/2023 fez o come-cotas valer também para fundos fechados, a partir de 2024. Fundos de ações, fundos imobiliários, PGBL/VGBL, CDB e Tesouro Direto ficam de fora da cobrança semestral. A Receita Federal regulamentou a lei em 15/12/2023.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2023/dezembro/receita-federal-regulamenta-lei-ndeg14-754-2023-que-alterou-as-regras-de-tributacao-dos-fundos-fechados-no-brasil",
+   "data": "2023-12-15",
+   "veiculo": "Receita Federal",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Lei 9.532/1997 criou a cobrança antecipada de Imposto de Renda em maio e novembro para fundos abertos (data da lei, segundo guia tributário consultado em 18/11/2026).",
+   "fonte_url": "https://o-tributo.com/come-cotas-fundos-investimento-2026",
+   "data": "1997-12-10",
+   "veiculo": "O Tributo",
+   "confiavel": false
+  },
+  {
+   "texto": "A Lei 14.754/2023 é publicada e estende o come-cotas aos fundos fechados, com efeitos a partir de 1º/01/2024.",
+   "fonte_url": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14754-12-dezembro-2023-795058-publicacaooriginal-170415-pl.html",
+   "data": "2023-12-12",
+   "veiculo": "Câmara dos Deputados",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita Federal regulamenta a lei com a Instrução Normativa RFB nº 2.166, publicada no Diário Oficial.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2023/dezembro/receita-federal-regulamenta-lei-ndeg14-754-2023-que-alterou-as-regras-de-tributacao-dos-fundos-fechados-no-brasil",
+   "data": "2023-12-15",
+   "veiculo": "Receita Federal",
+   "confiavel": true
+  },
+  {
+   "texto": "A cobrança de maio de 2026 ocorreu em 29/05, sexta-feira, pois 31/05 foi domingo.",
+   "fonte_url": "https://avel.me/avelnews/come-cotas",
+   "data": "2026-05-29",
+   "veiculo": "Avel News",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto vai sair do seu fundo em 30/11. O valor depende do rendimento de cada fundo no semestre e só aparece no extrato depois da cobrança.",
+  "Se o seu fundo é de curto ou de longo prazo. Isso depende da carteira de cada fundo e consta no regulamento ou no extrato, não numa fonte pública geral.",
+  "Qual o texto exato da Receita Federal sobre as alíquotas de 15% e 20%. A página oficial encontrada trata da Lei 14.754/2023 e dos fundos sem cobrança periódica. Os percentuais desta matéria vêm de instituições financeiras e veículos, citados acima, e não foram checados em texto da Receita."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem fundo de renda fixa ou multimercado sujeito ao come-cotas, em 30/11 sua quantidade de cotas deve cair. O valor da cota continua o mesmo, e a queda no saldo corresponde ao imposto.",
+  "Se o fundo não teve rendimento no semestre, não há come-cotas naquele período, segundo guias de tributação consultados.",
+  "Você não precisa pagar nem avisar ninguém. Compare a quantidade de cotas no extrato antes e depois de 30/11.",
+  "O imposto pago agora conta como adiantamento. No resgate, ele é descontado do total devido, e quem resgata antes de 720 dias em fundo de longo prazo pode pagar um complemento.",
+  "Fundos de ações, fundos imobiliários, previdência (PGBL e VGBL), CDB e Tesouro Direto não têm come-cotas. O texto não indica o que fazer com seu dinheiro."
+ ],
+ "como_se_proteger": [],
+ "slug": "come-cotas-de-novembro",
+ "publicado_em": "2026-11-18T08:15:21.896475",
+ "atualizado_em": "2026-11-18T08:15:21.896475",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, investimentos, com gatilho de comentário) come-cotas de novembro: no último dia útil de maio e de novembro, os fundos de renda fixa e multimercado abertos têm o imposto de renda antecipado, 15% nos fundos de longo prazo e 20% nos de curto prazo, cobrado em cotas (fonte: Receita Federal, gov.br/receitafederal). Este ano cai em 30/11/2026. Gatilho: \"Você sabia que seu fundo paga imposto duas vezes por ano? Comenta SABIA ou NÃO SABIA.\" Sem recomendação.",
+ "turno": "manha"
+}
