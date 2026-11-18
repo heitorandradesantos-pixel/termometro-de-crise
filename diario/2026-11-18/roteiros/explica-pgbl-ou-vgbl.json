@@ -1,0 +1,195 @@
+{
+ "gancho": {
+  "formula": "Custo escondido com data (lacuna específica)",
+  "texto": "Até 31 de dezembro, um tipo de previdência pode baixar seu Imposto de Renda.",
+  "na_tela": "Só um baixa seu IR",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido com data (lacuna específica)",
+   "texto": "Até 31 de dezembro, um tipo de previdência pode baixar seu Imposto de Renda.",
+   "na_tela": "Só um baixa seu IR",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Previdência no banco: um tipo abate seu imposto, o outro não. Qual é o seu?",
+   "na_tela": "Qual é a sua previdência?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Erro de todo mundo",
+   "texto": "Previdência não baixa seu imposto sozinha: depende de um detalhe da declaração.",
+   "na_tela": "Previdência não baixa IR sozinha",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Até 31 de dezembro, um tipo de previdência pode baixar seu Imposto de Renda.",
+  "O outro não. PGBL ou VGBL? Bora entender.",
+  "Segundo a Receita Federal, o que você põe no PGBL pode ser abatido da renda.",
+  "É como o imposto olhar seu ganho sem uma fatia. No VGBL, não.",
+  "O limite é 12% do que você ganha no ano e paga imposto.",
+  "Mas tem um detalhe: só vale na declaração completa.",
+  "Antes, pergunta pro banco até que dia ele aceita o dinheiro.",
+  "Manda pra quem tem previdência no banco e não sabe se é PGBL ou VGBL.",
+  "Declaração completa ou simplificada? Comenta C ou S.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Até 31 de dezembro, um tipo de previdência pode baixar seu Imposto de Renda. O outro não. PGBL ou VGBL? Bora entender. Segundo a Receita Federal, o que você põe no PGBL pode ser abatido da renda. É como o imposto olhar seu ganho sem uma fatia. No VGBL, não. O limite é 12% do que você ganha no ano e paga imposto. Mas tem um detalhe: só vale na declaração completa. Antes, pergunta pro banco até que dia ele aceita o dinheiro. Manda pra quem tem previdência no banco e não sabe se é PGBL ou VGBL. Declaração completa ou simplificada? Comenta C ou S. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Só um baixa seu IR",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Prazo: 31 de dezembro",
+   "fonte": "Nexzoe"
+  },
+  {
+   "fala": 2,
+   "texto": "PGBL: abate da renda do imposto",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "Limite: 12%",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 5,
+   "texto": "Só na declaração completa",
+   "fonte": "XP Investimentos"
+  },
+  {
+   "fala": 6,
+   "texto": "Pergunte ao seu banco",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "PGBL ou VGBL: qual abate o Imposto de Renda de 2027?",
+ "legenda": "PGBL ou VGBL: qual abate o Imposto de Renda de 2027?\n\nSegundo a Receita Federal, o que você coloca no PGBL pode ser abatido da renda usada para calcular o imposto, até o limite de 12% do rendimento tributável. No VGBL, não há esse abatimento.\n\nDetalhe importante: só vale para quem faz a declaração completa. E, para entrar na declaração de 2027, o aporte precisa ser feito até 31 de dezembro de 2026.\n\nO que ainda não dá para dizer é qual opção compensa mais para você: depende da renda, do tipo de declaração e do prazo. Antes de mexer, pergunte ao seu banco ou seguradora até que dia o aporte é aceito.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#impostoderenda #previdencia #pgbl #vgbl #educacaofinanceira",
+ "hashtags": [
+  "#impostoderenda",
+  "#previdencia",
+  "#pgbl",
+  "#vgbl",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Até 31 de dezembro, um tipo de previdência baixa seu imposto.",
+  "topicos": [
+   "A Receita Federal diz: PGBL abate a renda do imposto, VGBL não.",
+   "O limite é 12% da renda, só na declaração completa, segundo a Receita.",
+   "Aporte feito até 31 de dezembro vale na declaração de 2027.",
+   "O que fazer: pergunta pro seu banco até que dia ele aceita."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com regras e prazo, que pede calma e prints da Receita na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"PGBL ou VGBL? Bora entender.\" e \"declaração completa ou simplificada\": a fala joga as siglas e os tipos de declaração sem traduzir, e o CLT não entende de primeira. Reescreva explicando na mesma frase, por exemplo \"PGBL e VGBL, dois tipos de previdência privada, aquele plano que o banco vende\". Faça igual com \"completa\" e \"simplificada\", dizendo em palavras simples como cada uma funciona.",
+   "Frase \"É como o imposto olhar seu ganho sem uma fatia.\": a comparação é abstrata e não vem do dia a dia. Troque por uma imagem de bolso, como o desconto no salário ou na conta do mercado, mantendo a ideia de que o imposto é calculado sobre um valor menor. Aproveite para dizer na fala o que ainda não dá para saber (qual opção compensa depende da renda e do tipo de declaração), que hoje só aparece na legenda.",
+   "Frase \"Mas tem um detalhe: só vale na declaração completa.\" e o fecho: \"Mas tem um detalhe\" é fórmula de teleprompter, então abra com uma reação do Heitor, como \"Cara, presta atenção nessa parte\". Antes do bordão, inclua a fala \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\", que está só na legenda. Deixe um único gatilho de comentário no fim e tire o \"Manda pra quem...\", ou mova esse pedido para o meio do vídeo."
+  ],
+  "veredito": "A peça tem fonte, passo simples (perguntar ao banco), prazo real e gatilho de comentário fácil, mas deixa PGBL, VGBL e os tipos de declaração sem tradução, a comparação é fraca, e falta o fecho padrão do Heitor na fala."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Até 31 de dezembro, um tipo de previdência pode baixar seu Imposto de Renda. O outro não.\" vira \"Cara, você tem previdência no banco? Até 31 de dezembro, um tipo pode baixar seu Imposto de Renda. O outro não.\" A pessoa se reconhece na primeira frase e a lacuna fica no bolso dela.",
+   "Retenção e Teste do CLT: \"O limite é 12% do que você ganha no ano e paga imposto.\" vira \"O limite é 12%. De cada R$ 100 que você ganha no ano e paga imposto, até R$ 12 podem ser abatidos.\" Na virada, troque \"Mas tem um detalhe: só vale na declaração completa.\" por \"E aí vem a parte que pouca gente vê: só vale pra quem faz a declaração completa.\"",
+   "Pagamento mais rápido: \"PGBL ou VGBL? Bora entender.\" vira \"O que abate é o PGBL. O VGBL, não.\" Assim a resposta chega antes dos 8 segundos e o \"Bora entender\" sai, porque não leva informação."
+  ],
+  "veredito": "Roteiro limpo, com envio concreto e comentário fácil (C ou S), mas o gancho não chama quem assiste pela identificação e a fala de 12% e declaração completa ainda é difícil para quem é CLT."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Macro close-up of a round golden pie on a wooden table, a knife lifts one slice away and leaves a clean empty gap. Slow dolly-in toward the gap, soft warm light, shallow depth of field. No people, no text, no logos",
+   "texto_da_fala": "É como o imposto olhar seu ganho sem uma fatia. No VGBL, não.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up of a round golden pie on a wooden table, a knife lifts one slice away and leaves a clean empty gap. Slow dolly-in toward the gap, soft warm light, shallow depth of field. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Top-down view of a tidy desk with a thick stack of blank paper forms, a pen, a calculator with a blank screen and a coffee cup. The camera slowly glides and tilts across the desk as a hand without a visible face turns a page. Natural window light. No text, no letters, no numbers, no logos",
+   "texto_da_fala": "Mas tem um detalhe: só vale na declaração completa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down view of a tidy desk with a thick stack of blank paper forms, a pen, a calculator with a blank screen and a coffee cup. The camera slowly glides and tilts across the desk as a hand without a visible face turns a page. Natural window light. No text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Interior of a modern bank branch with a clean teller counter and a bright lobby, blank unmarked signage, nobody in focus. The camera slowly dollies forward along the counter toward a window with soft daylight. Cool neutral tones. No readable text, no logos, no recognizable people",
+   "texto_da_fala": "Antes, pergunta pro banco até que dia ele aceita o dinheiro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of a modern bank branch with a clean teller counter and a bright lobby, blank unmarked signage, nobody in focus. The camera slowly dollies forward along the counter toward a window with soft daylight. Cool neutral tones. No readable text, no logos, no recognizable people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Até 31 de dezembro, um tipo de previdência pode baixar seu Imposto de Renda.\n\nO outro não. PGBL ou VGBL? Bora entender.\n\nSegundo a Receita Federal, o que você põe no PGBL pode ser abatido da renda.\n\nÉ como o imposto olhar seu ganho sem uma fatia. No VGBL, não.\n\nO limite é 12% do que você ganha no ano e paga imposto.\n\nMas tem um detalhe: só vale na declaração completa.\n\nAntes, pergunta pro banco até que dia ele aceita o dinheiro.\n\nManda pra quem tem previdência no banco e não sabe se é PGBL ou VGBL.\n\nDeclaração completa ou simplificada? Comenta C ou S.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/imposto-de-renda/dirpf/deducoes/despesa-de-previdencia-privada",
+   "destaque": "A Receita Federal diz que o pagamento de planos de previdência pode ser deduzido até 12% do rendimento tributável."
+  },
+  {
+   "veiculo": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/imposto-de-renda/dirpf",
+   "destaque": "Na prática, a dedução reduz a renda sobre a qual o imposto é calculado."
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T08:38:52.963576-03:00"
+}
