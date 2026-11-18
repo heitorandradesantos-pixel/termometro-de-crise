@@ -78,7 +78,7 @@ def url_publica(caminho: str) -> str:
 
 REDES = {"Instagram": "https://www.instagram.com/termometrodecrise/", "TikTok": "https://www.tiktok.com/@termometrodecrise"}  # perfis oficiais: rodapé do site e "sameAs" do Google
 DOMINIO = os.environ.get("DOMINIO", "")                  # ex.: termometrodecrise.com.br (gera o CNAME)
-ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "")    # ex.: ca-pub-1234567890 (só depois de aprovado)
+ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "ca-pub-2519028636434637")    # ID público do AdSense do Heitor (18/11/2026)
 NEWSLETTER_URL = os.environ.get("NEWSLETTER_URL", "")    # página de inscrição externa (sem formulário do Kit)
 # Formulário "Termômetro da Semana" no Kit: o site manda o e-mail para ele (dupla confirmação feita pelo Kit).
 KIT_FORM_ID = os.environ.get("KIT_FORM_ID", "10157338")
