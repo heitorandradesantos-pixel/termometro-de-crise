@@ -1,0 +1,198 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Cara, R$ 500 por mês, durante 20 anos. Você acha que vira quanto? Chuta aí.",
+  "na_tela": "R$ 500 por mês: vira quanto?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Cara, R$ 500 por mês, durante 20 anos. Você acha que vira quanto? Chuta aí.",
+   "na_tela": "R$ 500 por mês: vira quanto?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Do seu bolso, R$ 120 mil. Depois de 20 anos, quanto vira?",
+   "na_tela": "R$ 120 mil viram quanto?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Quase todo o dinheiro dessa conta não saiu do seu bolso. Adivinha de onde veio.",
+   "na_tela": "De onde vem o dinheiro?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, R$ 500 por mês, durante 20 anos. Você acha que vira quanto? Chuta aí.",
+  "Com a Selic parada em 13,75%, a simulação dá uns R$ 560 mil.",
+  "Do seu bolso, saem só R$ 120 mil.",
+  "O resto é bola de neve: o juro rende em cima do juro.",
+  "E aí vem a parte que pouca gente conta: imposto de 15% no ganho.",
+  "Na renda fixa tributada, sobram perto de R$ 494 mil.",
+  "Ninguém sabe a Selic daqui a 20 anos: é exercício, não promessa.",
+  "Manda pra quem guarda dinheiro na poupança e acha que não rende.",
+  "Chutou mais ou menos que isso? Comenta MAIS ou MENOS.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, R$ 500 por mês, durante 20 anos. Você acha que vira quanto? Chuta aí. Com a Selic parada em 13,75%, a simulação dá uns R$ 560 mil. Do seu bolso, saem só R$ 120 mil. O resto é bola de neve: o juro rende em cima do juro. E aí vem a parte que pouca gente conta: imposto de 15% no ganho. Na renda fixa tributada, sobram perto de R$ 494 mil. Ninguém sabe a Selic daqui a 20 anos: é exercício, não promessa. Manda pra quem guarda dinheiro na poupança e acha que não rende. Chutou mais ou menos que isso? Comenta MAIS ou MENOS. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "R$ 500 por mês: vira quanto?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "13,75% ao ano → cerca de R$ 560 mil (simulação)",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 500 x 240 meses = R$ 120 mil do seu bolso",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Juro sobre juro",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "IR: 15% sobre o ganho (mais de 720 dias)",
+   "fonte": "O Especialista (Safra)"
+  },
+  {
+   "fala": 5,
+   "texto": "Sobram cerca de R$ 494 mil (conta simplificada)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Valor sem descontar inflação. Juro real: 8,72% ao ano",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 4,
+ "busca": "juros compostos: R$ 500 por mês em 20 anos viram quanto?",
+ "legenda": "Juros compostos: R$ 500 por mês em 20 anos viram quanto?\n\nNuma simulação com a Selic parada em 13,75% ao ano (taxa mantida pelo Copom em 4 de novembro), você poria R$ 120 mil do seu bolso e chegaria a cerca de R$ 560 mil antes do imposto. Os juros respondem por cerca de R$ 440 mil.\n\nNa renda fixa tributada, o Imposto de Renda é de 15% sobre o ganho quando o dinheiro fica aplicado por mais de 720 dias. Numa conta simplificada, sobrariam perto de R$ 494 mil.\n\nAtenção: é um valor nominal, sem descontar a inflação. O juro real hoje está em 8,72% ao ano, segundo dados do Banco Central. Ninguém sabe a Selic dos próximos 20 anos, e cada produto tem sua taxa, prazo e regras. É um exercício para entender o mecanismo.\n\nChutou mais ou menos que isso? Comenta MAIS ou MENOS.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#juroscompostos #selic #educacaofinanceira #rendafixa",
+ "hashtags": [
+  "#juroscompostos",
+  "#selic",
+  "#educacaofinanceira",
+  "#rendafixa"
+ ],
+ "rua": {
+  "gancho": "R$ 500 por mês, 20 anos. Chuta quanto vira!",
+  "topicos": [
+   "Com a Selic em 13,75%, a simulação dá uns R$ 560 mil.",
+   "Do seu bolso saem R$ 120 mil. O resto é juro sobre juro.",
+   "Imposto de 15% sobre o ganho na renda fixa tributada, segundo O Especialista.",
+   "Ninguém sabe a Selic de 20 anos: é exercício, manda pra quem tem poupança."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com conta e vários números, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Com a Selic parada em 13,75%, a simulação dá uns R$ 560 mil.\": ela junta dois termos (Selic e simulação) e um número. Reescreva traduzindo na hora, por exemplo: \"A Selic, que é a taxa básica de juros do Banco Central, está em 13,75%. Nessa conta, dá uns R$ 560 mil.\" Assim quem trabalha em loja ou obra entende de primeira.",
+   "Frase \"Na renda fixa tributada, sobram perto de R$ 494 mil.\": \"renda fixa tributada\" é palavra de banco sem tradução, e o número é quebrado. Diga \"Num investimento comum de banco, depois do imposto, sobram uns R$ 500 mil\" e deixe o R$ 494 mil exato no cartão da tela. Se arredondar, mantenha a legenda como a conta exata.",
+   "Frase \"Do seu bolso, saem só R$ 120 mil.\": falta a ponte para a vida real e o \"o que eu faço\". Depois dela, junte uma comparação curta do dia a dia, como \"R$ 500 por mês é uma parcela de celular\". Perto do fim, acrescente um passo simples, como \"Se hoje seu dinheiro está na poupança, vale conferir quanto ele rende\", sem citar produto nem recomendar."
+  ],
+  "veredito": "A peça tem gancho de curiosidade que ela mesma paga, aviso honesto de que é exercício e não promessa, gatilho de comentário fácil e o bordão certo; falta passar no Teste do CLT, porque \\\"Selic\\\", \\\"simulação\\\" e \\\"renda fixa tributada\\\" ficam sem tradução e as falas misturam número demais, e também falta um passo prático para quem está na poupança."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Com a Selic parada em 13,75%, a simulação dá uns R$ 560 mil.\": Selic e simulação são termos que o CLT não pega de primeira. Reescrita: \"Com a Selic, que é o juro básico do país, parada em 13,75%, a conta dá uns R$ 560 mil.\"",
+   "Frase \"Na renda fixa tributada, sobram perto de R$ 494 mil.\": termo técnico e número exato na fala. Reescrita: \"Descontado o imposto, sobram uns R$ 490 mil.\" O valor exato e o termo \"renda fixa tributada\" ficam no cartão da tela e na legenda."
+  ],
+  "veredito": "Gancho de palpite com número, pago em segundos, com envio concreto e gatilho MAIS ou MENOS; falta só traduzir Selic e \\\"renda fixa tributada\\\" e arredondar o R$ 494 mil para passar no Teste do CLT."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a hand-less scene: a few coins and plain banknotes without readable markings dropping one by one into a large glass jar on a worn wooden table, soft morning window light, shallow depth of field. Slow dolly-in toward the jar as it gradually fills a third of the way. No people, no faces, no text, no numbers, no logos",
+   "texto_da_fala": "Do seu bolso, saem só R$ 120 mil.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a hand-less scene: a few coins and plain banknotes without readable markings dropping one by one into a large glass jar on a worn wooden table, soft morning window light, shallow depth of field. Slow dolly-in toward the jar as it gradually fills a third of the way. No people, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "A small snowball starts rolling down a smooth snowy hillside and grows larger and larger, picking up more snow as it goes, cold blue daylight, snow spraying. Camera tracks alongside at low angle, then swings up to follow it downhill. No people, no faces, no text, no numbers, no logos",
+   "texto_da_fala": "O resto é bola de neve: o juro rende em cima do juro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A small snowball starts rolling down a smooth snowy hillside and grows larger and larger, picking up more snow as it goes, cold blue daylight, snow spraying. Camera tracks alongside at low angle, then swings up to follow it downhill. No people, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A long empty straight road stretching into dense morning fog through a quiet countryside, the horizon completely hidden. Slow forward drone-style push along the road, fog drifting across the lens, muted cool tones. No people, no faces, no road signs, no text, no numbers, no logos",
+   "texto_da_fala": "Ninguém sabe a Selic daqui a 20 anos: é exercício, não promessa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A long empty straight road stretching into dense morning fog through a quiet countryside, the horizon completely hidden. Slow forward drone-style push along the road, fog drifting across the lens, muted cool tones. No people, no faces, no road signs, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, R$ 500 por mês, durante 20 anos. Você acha que vira quanto? Chuta aí.\n\nCom a Selic parada em 13,75%, a simulação dá uns R$ 560 mil.\n\nDo seu bolso, saem só R$ 120 mil.\n\nO resto é bola de neve: o juro rende em cima do juro.\n\nE aí vem a parte que pouca gente conta: imposto de 15% no ganho.\n\nNa renda fixa tributada, sobram perto de R$ 494 mil.\n\nNinguém sabe a Selic daqui a 20 anos: é exercício, não promessa.\n\nManda pra quem guarda dinheiro na poupança e acha que não rende.\n\nChutou mais ou menos que isso? Comenta MAIS ou MENOS.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+   "destaque": "A Selic, taxa básica de juros do Brasil, está em 13,75% ao ano."
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-ata-do-copom-bc-diz-que-cenario-exige-selic-alta-por-mais-tempo/",
+   "destaque": "Na ata da reunião, publicada em 10 de novembro, o Banco Central diz que o cenário exige juros altos por mais tempo, segundo a CNN Brasil."
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T08:31:04.800894-03:00"
+}
