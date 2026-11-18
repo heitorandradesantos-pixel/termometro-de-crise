@@ -244,6 +244,19 @@ existirem, serão sempre identificadas. Não recomendamos ativos nem recebemos p
 CORRECOES: list[tuple[str, str, str]] = []  # (data, página, o que foi corrigido), mais recentes primeiro
 
 
+def contato() -> str:
+    redes = " · ".join(f'<a href="{html.escape(u)}" target="_blank" rel="noopener me">{html.escape(n)}</a>'
+                       for n, u in config.REDES.items())
+    return f"""<section class="edicao"><h1>Fale com o {config.NOME}</h1>
+<p>Achou um erro, tem uma sugestão de pauta, quer falar de parceria ou sobre os seus dados? Escreva para
+{_contato()}. Respondemos em até 2 dias úteis.</p>
+<p>Para pedir uma correção, diga a página e o trecho; a gente confere na fonte e registra em
+<a href="correcoes.html">Correções</a>.</p>
+{f"<p>Também estamos nas redes: {redes}.</p>" if redes else ""}
+<p>Não damos recomendação de investimento individual nem respondemos pedidos de dica de compra ou venda: o conteúdo é
+educativo.</p></section>"""
+
+
 def correcoes() -> str:
     itens = "".join(f"<li><strong>{html.escape(d)}</strong> · {html.escape(p)}: {html.escape(o)}</li>" for d, p, o in CORRECOES)
     lista = f"<ul>{itens}</ul>" if itens else "<p>Nenhuma correção registrada até agora.</p>"

@@ -346,7 +346,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <footer class="rodape"><p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
 {('<p>Siga o Termômetro: ' + ' · '.join(f'<a href="{u}" target="_blank" rel="noopener me">{n}</a>' for n, u in config.REDES.items()) + '</p>') if config.REDES else ''}
-<p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}correcoes.html">Correções</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
+<p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}contato.html">Contato</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}correcoes.html">Correções</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
 </body></html>"""
 
 
@@ -618,6 +618,8 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     (saida / "quem-somos.html").write_text(pagina(f"Quem somos · {config.NOME}",
                                                   "Quem faz o Termômetro de Crise, como funciona e o que ele não é.",
                                                   legal.quem_somos(), caminho="quem-somos.html"))
+    (saida / "contato.html").write_text(pagina(f"Contato · {config.NOME}", "Como falar com o Termômetro de Crise.",
+                                               legal.contato(), caminho="contato.html"))
     (saida / "politica-editorial.html").write_text(pagina(f"Política editorial · {config.NOME}",
                                                           "Fontes, conferência, correções, uso de IA e independência.",
                                                           legal.editorial(), caminho="politica-editorial.html"))
@@ -637,7 +639,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
                                            'existe ou mudou.</p><p><a class="acao" href="/index.html">Ver o termômetro '
                                            'de hoje</a> <a class="contorno" href="/noticias/index.html">Notícias</a>'
                                            '</p></section>', raiz="/"))
-    extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
+    extras(saida, [""] + ["metodologia.html", "edicoes/index.html", "privacidade.html", "termos.html", "quem-somos.html", "contato.html", "politica-editorial.html"] + [f"edicoes/{d}.html" for d, _, _ in lista] + novas)
     print(f"Site gerado em {saida} com {len(lista)} edição(ões).")
 
 
