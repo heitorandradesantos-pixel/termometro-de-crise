@@ -1,0 +1,70 @@
+{
+ "aprovado": true,
+ "panorama": {
+  "aprovado": true,
+  "problemas": []
+ },
+ "series_que_falharam": [],
+ "noticias": 31,
+ "descartes": [
+  {
+   "onde": "Fed mantém juros em 3,75% a 4% em 28/10, com inflação de 3,7% ao ano em setembro",
+   "motivo": "data fora da janela (2026-10-28)"
+  },
+  {
+   "onde": "Banxico corta juros de 6,50% para 6,25% e surpreende o mercado",
+   "motivo": "data fora da janela (2026-11-05)"
+  },
+  {
+   "onde": "Bolsa de Istambul teve série de quedas e diretor-geral detido",
+   "motivo": "data fora da janela (2026-10-31)"
+  },
+  {
+   "onde": "Bolsa sul-africana sobe 3,7% em 5/11, maior alta em cerca de 7 meses",
+   "motivo": "data fora da janela (2026-11-05)"
+  },
+  {
+   "onde": "Medo de regras mais duras para IA derruba chips asiáticos na semana de 2 a 6/11",
+   "motivo": "data fora da janela (2026-11-06)"
+  }
+ ],
+ "modo_correspondente": "claude (claude-sonnet-5-5)",
+ "agentes": [
+  {
+   "agente": "Coletor mundial",
+   "segundos": 190.7,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Analista mundial",
+   "segundos": 3.6,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Banco Central",
+   "segundos": 3.5,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Cotações das empresas",
+   "segundos": 5.1,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Correspondente",
+   "segundos": 296.7,
+   "ok": true,
+   "erro": null
+  },
+  {
+   "agente": "Panorama",
+   "segundos": 0.0,
+   "ok": true,
+   "erro": null
+  }
+ ]
+}

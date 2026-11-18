@@ -1,0 +1,34 @@
+## Panorama de 18/11/2026
+
+✅ Conferido. 31 notícias com fonte, 5 descartadas na conferência.
+
+### Texto para o WhatsApp
+
+```
+*TERMÔMETRO DE CRISE · Panorama de qua, 18/11*
+_Fechamento de 18/11 · de 0 (calmo) a 100 (mais tenso da história)_
+
+🌍 Mundo em *60, Alerta* (▲2 desde 17/11). Mais tenso: América do Norte (74).
+📍 O Brasil está há 3 dias úteis seguidos em Tensão.
+
+*Regiões*
+🟠 América do Norte: 74 · Tensão (▲3)
+🟠 Oriente Médio: 72 · Tensão (▲1)
+🟠 Ásia e Pacífico: 64 · Tensão (estável)
+🟡 África: 51 · Alerta (▲2)
+🟡 Europa: 50 · Alerta (▲3)
+🟡 América Latina: 47 · Alerta (▲3)
+
+🇧🇷 *Brasil: 64 · Tensão* (▲2 desde 17/11)
+Bolsa 79 · Sobe e desce 34 · Dólar 80
+🏦 Banco Central: Selic 13,75% · Dólar PTAX R$ 5,8102 · Focus (13/11): inflação de 2027 em 5,00%, Selic no fim de 2027 em 12,75%
+
+*O que mexeu com o termômetro*
+• S&P 500 fecha em 7.323,63 pontos, na quinta queda seguida, a maior sequência desde junho (América do Norte)
+• Nvidia cai mesmo com lucro acima do esperado, em meio a dúvidas sobre inteligência artificial (América do Norte)
+• Dólar fecha a R$ 5,8667 e Ibovespa cai com impasse no ajuste fiscal (América Latina)
+
+_Conteúdo educativo, com fonte em cada fato. Não é recomendação de investimento._
+```
+
+Toque em **Merge** para publicar no site.
