@@ -1,0 +1,16 @@
+{
+ "saida": "bitcoin-64-mil-editado.mp4",
+ "fim": 47.6,
+ "remover": [],
+ "destaques": "\\d|bitcoin|dólar|fundos|perder|parado|comenta",
+ "nomes": [["Estados", "Unidos"]],
+ "corrigir": [[["exame."], ["Exame."]], [["Mas", "de", "um", "quarto"], ["Mais", "de", "um", "quarto"]], [["quem", "me", "comprou"], ["quem", "comprou"]]],
+ "cartoes": [
+  [5.5, 11.8, "R$ 1.000 → *R$ 830*", "Fonte: Exame (até 16/11, sem o efeito do dólar)", {"tipo": "variacao", "de": "R$ 1.000", "para": "R$ 830", "delta": "-17%", "sobe": false}],
+  [12.2, 15.0, "Bitcoin", "Exame", {"tipo": "manchete", "veiculo": "Exame", "titulo": "Bitcoin cai aos US$ 64 mil e devolve toda a alta dos últimos 3 meses", "data": "16/11/2026"}],
+  [15.4, 18.0, "*-25,6%* desde a máxima de 2/10", "Fonte: Exame"],
+  [20.4, 25.9, "ETFs de bitcoin: *~US$ 1,9 bi* em saídas", "Fonte: BitNotícias (15/11/2026)"],
+  [29.4, 33.9, "Quanto você *aguenta perder*?", ""],
+  [41.4, 45.3, "Comenta: *tem ou não tem?*", ""]
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "saida": "prefixado-perdeu-editado.mp4",
+ "fim": 47.5,
+ "remover": [],
+ "destaques": "\\d|prefixado|tesouro|taxa|título|vender|prazo|combinado|comenta",
+ "nomes": [["Tesouro", "Direto"]],
+ "corrigir": [[["taxa", "Selic", "estava"], ["taxa", "estava"]], [["sei", "lá,"], ["Sem", "alarde,"]]],
+ "cartoes": [
+  [3.5, 8.0, "Prefixado: *-1,2%* em um dia", "Fonte: Tesouro Direto via InfoMoney (16/11/2026)"],
+  [11.6, 14.2, "Tesouro Direto", "InfoMoney", {"tipo": "manchete", "veiculo": "InfoMoney", "titulo": "Tesouro Direto: taxas sobem e prefixado 2032 paga 15,26% com fiscal no radar", "data": "16/11/2026"}],
+  [14.5, 20.6, "Taxa do Prefixado 2032 no mesmo dia", "Fonte: InfoMoney (16/11/2026)", {"tipo": "variacao", "de": "15,26%", "para": "15,46%", "delta": "+0,20 p.p.", "sobe": true}],
+  [22.4, 24.5, "Taxa sobe, *título vale menos*", ""],
+  [24.8, 30.2, "Vendeu antes? *Pode receber menos*", "Esperou até o fim? Recebe o combinado"]
+ ]
+}
