@@ -1,0 +1,18 @@
+{
+ "saida": "pgbl-ou-vgbl-editado.mp4",
+ "fim": 44.9,
+ "remover": [[17.45, 18.5]],
+ "destaques": "\\d|pgbl|vgbl|imposto|renda|completa|simplificada|comenta",
+ "nomes": ["PGBL", "VGBL"],
+ "corrigir": [[["na", "renda."], ["da", "renda."]], [["Comente", "aí,", "seu", "S,", "sem", "alargue."], ["Comenta", "aí.", "Sem", "alarde."]]],
+ "cartoes": [
+  [2.2, 9.0, "Só *um* baixa o seu IR", "Prazo: aporte até 31/12/2026 para a declaração de 2027"],
+  [9.5, 11.4, "*PGBL* ou *VGBL*?", ""],
+  [12.9, 17.4, "PGBL: abate da *renda tributável*", "Fonte: Receita Federal (Lei 9.532/1997, art. 11)"],
+  [18.6, 22.4, "VGBL: *não* abate", "Fonte: Receita Federal"],
+  [22.8, 26.6, "Limite: *12%* da renda tributável do ano", "Fonte: Receita Federal"],
+  [26.9, 30.1, "Só na declaração *completa*", "Fonte: Receita Federal"],
+  [30.6, 33.9, "Confira o prazo no seu banco", "O banco pode fechar o prazo antes de 31/12"],
+  [39.0, 43.4, "Comenta: *COMPLETA* ou *SIMPLIFICADA*?", ""]
+ ]
+}

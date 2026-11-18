@@ -1,0 +1,19 @@
+{
+ "saida": "juros-compostos-editado.mp4",
+ "fim": 43.4,
+ "remover": [],
+ "destaques": "\\d|selic|juro|imposto|bolso|comenta|chuta",
+ "nomes": ["Honda", "Civic"],
+ "corrigir": [[["de", "la", "bola"], ["da", "bola"]]],
+ "cartoes": [
+  [1.5, 4.7, "R$ 500 por mês, *20 anos*: vira quanto?", ""],
+  [5.1, 7.9, "Chuta aí nos *comentários*", ""],
+  [8.3, 13.3, "Selic *13,75%* → cerca de *R$ 560 mil*", "Fonte: Banco Central (Copom, 04/11/2026). Simulação"],
+  [13.6, 18.2, "Do seu bolso: *R$ 120 mil*", "R$ 500 x 240 meses"],
+  [20.2, 22.6, "Juro sobre juro: *~R$ 440 mil*", "Conta: Termômetro de Crise"],
+  [25.0, 26.8, "IR: *15%* sobre o ganho", "Renda fixa, aplicação acima de 720 dias (Receita Federal)"],
+  [27.3, 30.6, "Sobram cerca de *R$ 494 mil*", "Conta simplificada, sem descontar inflação"],
+  [30.9, 34.7, "Exercício, *não promessa*", "A Selic muda; cada produto tem taxa e regra"],
+  [38.5, 41.1, "Comenta: *MAIS* ou *MENOS*?", ""]
+ ]
+}
