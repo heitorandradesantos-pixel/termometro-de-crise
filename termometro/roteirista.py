@@ -477,8 +477,9 @@ def pacote_whatsapp(roteiro: dict, titulo: str, numero: int = 1, total: int = 1)
                    if (marca := roteiro.get("marca") or {}).get("nota") is not None else "")
                 + (f"\n🔥 Especialista em viralização: {vir['nota']}/10. {vir.get('veredito', '')}".rstrip()
                    if (vir := roteiro.get("viral") or {}).get("nota") is not None else "")
-                + "\n\n👇 Próxima mensagem: a legenda do post, sozinha, para copiar e colar no Instagram.")
-    return [*msgs, roteiro["legenda"], f"{LINHA}\n✅ FIM DO {nome}\n{LINHA}"]
+                + "\n\n📝 A legenda do post vai junto com o vídeo editado, na conversa com o Claude.")
+    # Pedido do Heitor (18/11/2026): a legenda do post não vai mais no WhatsApp; vai com o vídeo editado.
+    return [*msgs, f"{LINHA}\n✅ FIM DO {nome}\n{LINHA}"]
 
 
 # ---------------------------------------------------------------- material
