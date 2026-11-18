@@ -220,14 +220,15 @@ def preparar_roteiros(pasta_diario: Path, dia: str, pasta_saida: Path) -> str:
         r = json.loads(arq.read_text())
         if arq.stem.split("-")[0] not in ROTEIROS_TIPOS:
             continue
+        fixo = arq.stem.split("-")[0] == "fechamento"  # o balanço da bolsa é fixo e não conta no limite (18/11)
         if r.get("enviado_whatsapp"):
-            ja_foram += 0 if r.get("descartado") else 1  # descartado pelo Heitor não conta no limite
+            ja_foram += 0 if (r.get("descartado") or fixo) else 1  # descartado pelo Heitor não conta no limite
         elif r.get("aprovado") and r.get("teleprompter"):
             novos.append((arq, r))
     # No máximo ROTEIROS_POR_DIA no WhatsApp (pedido do Heitor, 16/11/2026: 2 polêmicos + 4 informativos).
     # Só um roteiro marcado "urgente" (algo bombástico) passa do limite. O que sobra fica no diário, sem ir.
     vagas = max(0, ROTEIROS_POR_DIA - ja_foram)
-    urgentes = [x for x in novos if x[1].get("urgente")]
+    urgentes = [x for x in novos if x[1].get("urgente") or x[0].stem.split("-")[0] == "fechamento"]
     novos = urgentes + [x for x in novos if not x[1].get("urgente")][:max(0, vagas - len(urgentes))]
     aviso = (os.environ.get("AVISO_ROTEIROS") or "").strip()  # ex.: "GRAVAR A PARTIR DAQUI", antes de tudo
     avisos = [x.strip() for x in aviso.split("\n---\n") if x.strip()]  # "---" sozinho na linha separa mensagens
