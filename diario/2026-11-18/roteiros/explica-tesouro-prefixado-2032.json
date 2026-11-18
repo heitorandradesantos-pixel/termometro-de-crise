@@ -1,0 +1,206 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Cara, quem tem Tesouro Prefixado viu ele perder cerca de 1,2% num dia.",
+  "na_tela": "Prefixado perdeu cerca de 1,2%",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "Cara, quem tem Tesouro Prefixado viu ele perder cerca de 1,2% num dia.",
+   "na_tela": "Prefixado perdeu cerca de 1,2%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Cara, a taxa do Tesouro mudou no mesmo dia. Mexe no seu bolso.",
+   "na_tela": "A taxa mudou no mesmo dia",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Você travaria 15% até 2032? Olha o que a taxa fez na segunda.",
+   "na_tela": "Travar 15% até 2032?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, quem tem Tesouro Prefixado viu ele perder cerca de 1,2% num dia.",
+  "Prefixado é aquele que já te diz quanto vai render.",
+  "Foi na segunda, 16/11, segundo o Tesouro.",
+  "De manhã, a taxa estava em 15,26%.",
+  "Fechou o dia em 15,46%.",
+  "E aí vem a parte da gangorra: taxa sobe, seu título vale menos.",
+  "Se vender antes do prazo, pode receber menos do que pôs.",
+  "Se esperar até o fim, recebe o combinado.",
+  "Dinheiro pra daqui a pouco? Pense antes de prender.",
+  "Manda pra quem tem dinheiro no Tesouro Direto.",
+  "Já viu taxa mudar assim no mesmo dia? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, quem tem Tesouro Prefixado viu ele perder cerca de 1,2% num dia. Prefixado é aquele que já te diz quanto vai render. Foi na segunda, 16/11, segundo o Tesouro. De manhã, a taxa estava em 15,26%. Fechou o dia em 15,46%. E aí vem a parte da gangorra: taxa sobe, seu título vale menos. Se vender antes do prazo, pode receber menos do que pôs. Se esperar até o fim, recebe o combinado. Dinheiro pra daqui a pouco? Pense antes de prender. Manda pra quem tem dinheiro no Tesouro Direto. Já viu taxa mudar assim no mesmo dia? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Prefixado perdeu cerca de 1,2%",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Cerca de 1,2% a menos em um dia",
+   "fonte": "Melhor Investimento"
+  },
+  {
+   "fala": 2,
+   "texto": "Segunda, 16/11",
+   "fonte": "Tesouro Nacional"
+  },
+  {
+   "fala": 3,
+   "texto": "De manhã: 15,26% ao ano (taxa bruta)",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 4,
+   "texto": "Fechamento: 15,46% ao ano",
+   "fonte": "Tesouro Nacional"
+  },
+  {
+   "fala": 5,
+   "texto": "Taxa sobe, título vale menos",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Dinheiro pra já? Pense antes de prender",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "Tesouro Prefixado 2032 taxa hoje",
+ "legenda": "Tesouro Prefixado 2032: a taxa mudou no mesmo dia?\n\nSegundo o InfoMoney, na segunda (16/11) o Tesouro Prefixado 2032 pagava 15,26% ao ano ao meio-dia. Pela tabela do Tesouro Nacional, fechou o dia a 15,46%. As taxas são brutas, antes do Imposto de Renda.\n\nQuando a taxa sobe, o preço do título que você já tem cai: nesse dia, cerca de 1,2%, segundo o Melhor Investimento. Essa perda só se realiza se você vender antes do vencimento. Quem segura até o fim recebe a taxa contratada na compra.\n\nAinda não se sabe o que vem pela frente: ninguém sabe se as taxas vão subir ou cair, e analistas citam mais de um motivo para a alta.\n\nManda pra quem tem dinheiro no Tesouro Direto. E comenta: você já tinha visto taxa mudar assim no mesmo dia? SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#tesourodireto #tesouroprefixado #educacaofinanceira #juros",
+ "hashtags": [
+  "#tesourodireto",
+  "#tesouroprefixado",
+  "#educacaofinanceira",
+  "#juros"
+ ],
+ "rua": {
+  "gancho": "Cara, o Tesouro Prefixado perdeu cerca de 1,2% do valor num dia.",
+  "topicos": [
+   "Segundo o Tesouro, o Prefixado 2032 fechou a 15,46% na segunda, 16/11.",
+   "De manhã estava em 15,26%: a taxa muda no mesmo dia.",
+   "Taxa sobe, título vale menos; só perde de verdade quem vender antes do prazo.",
+   "Dinheiro pra daqui a pouco? Pense antes de prender. Manda pra quem tem Tesouro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "A notícia é de 16/11 e pede explicação calma, com dois números e a gangorra da taxa, então bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"De manhã, a taxa estava em 15,26%. Fechou o dia em 15,46%.\": são dois números em falas seguidas e o exato é pesado para ouvir uma vez só. Arredonde na fala (\"a taxa passou de uns 15,2% pra uns 15,5%\") e deixe 15,26% e 15,46% no cartão da tela. Traduza também \"taxa\" com o efeito no bolso: \"o juro que o título paga\".",
+   "Frase \"E aí vem a parte da gangorra: taxa sobe, seu título vale menos.\": a gangorra é a única comparação viva e ela fica no ar. Acrescente uma imagem do dia a dia na mesma frase, por exemplo o título que você comprou antes passa a valer menos na revenda porque agora há um título novo pagando mais. Só use isso se o roteiro mantiver o mesmo fato. O 'por que' ainda não aparece na fala.",
+   "Frase \"Dinheiro pra daqui a pouco? Pense antes de prender.\": é o único passo prático e soa vago. Troque por um passo simples e calmo, que não é recomendação, tipo \"se você não vai precisar do dinheiro até o vencimento, essa queda no papel não vira prejuízo\". Em seguida diga que o futuro é incerto (\"ninguém sabe se a taxa sobe ou cai\"), como a legenda já faz. Isso traz o fleumático e o melancólico para a fala. Também abra o gancho com espanto de conversa, como \"Cara, olha que loucura\", e não com a manchete lida. Cuidado: \"Tesouro Prefixado\" fica sem a fonte InfoMoney na fala, só \"segundo o Tesouro\"."
+  ],
+  "veredito": "A peça acerta no tom de Sábio com Cara Comum, traduz \\\"Prefixado\\\" na hora e fecha com um gatilho de comentário e a saída para a perda, mas a fala carrega dois números colados, quase não tem comparação viva nem calma, e o passo final é vago."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frases \"De manhã, a taxa estava em 15,26%. Fechou o dia em 15,46%.\": dois números quase iguais em sequência são difíceis de pegar de ouvido (Teste do CLT), e \"taxa\" não foi traduzida. Reescreva: \"A taxa, que é quanto o título paga por ano, estava em uns 15,3% de manhã. Fechou em uns 15,5%.\" Os números exatos ficam no cartão da tela.",
+   "Frase final \"Já viu taxa mudar assim no mesmo dia? Comenta SIM ou NÃO.\": a maioria do público não acompanha taxa, então a pergunta não gera identificação. Reescreva, ligando ao gancho e desmontando uma crença comum: \"Você achava que o Tesouro nunca perde valor? Comenta SIM ou NÃO.\"",
+   "Frase \"Foi na segunda, 16/11, segundo o Tesouro.\": data e fonte juntas, logo depois do gancho, atrasam a primeira informação. Mantenha só \"segundo o Tesouro\" na fala e deixe a data no cartão. Depois, solte um gatilho de comentário no meio, antes da gangorra: \"Adivinha o que acontece com o seu título quando a taxa sobe? Já te conto.\""
+  ],
+  "veredito": "O gancho é forte e específico (Tesouro Prefixado, perda de 1,2% num dia) e o vídeo o paga na hora; para viralizar, falta tirar os números parecidos da fala, traduzir \\\"taxa\\\" e trocar a pergunta final por uma que desmonte a crença de que o Tesouro nunca perde valor."
+ },
+ "apoios": [
+  {
+   "fala": 5,
+   "visual": "An empty wooden playground seesaw in golden morning light, no people. One end slowly rises while the other sinks to the ground, the plank rocking gently. Camera starts low at ground level beside the pivot and slowly dollies sideways and tilts up, following the rising end. Shallow depth of field, soft blurred park background, no text or signs",
+   "texto_da_fala": "E aí vem a parte da gangorra: taxa sobe, seu título vale menos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. An empty wooden playground seesaw in golden morning light, no people. One end slowly rises while the other sinks to the ground, the plank rocking gently. Camera starts low at ground level beside the pivot and slowly dollies sideways and tilts up, following the rising end. Shallow depth of field, soft blurred park background, no text or signs. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Close-up of an old brass balance scale on a wooden desk. A neat stack of gold coins sits on one pan, and a few coins slide off and are picked up by a hand out of focus (only fingertips, no face), so the pan rises and the scale tips unevenly. Slow push-in with a slight handheld feel, warm side lighting, moody tone, no text, no numbers, no logos",
+   "texto_da_fala": "Se vender antes do prazo, pode receber menos do que pôs.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of an old brass balance scale on a wooden desk. A neat stack of gold coins sits on one pan, and a few coins slide off and are picked up by a hand out of focus (only fingertips, no face), so the pan rises and the scale tips unevenly. Slow push-in with a slight handheld feel, warm side lighting, moody tone, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Macro shot of a glass hourglass on a table by a window, the last grains of sand falling through the neck and the top bulb nearly empty. Beside it, a small closed wooden chest. Camera slowly orbits and pushes in on the hourglass, then racks focus to the chest as the final grain drops. Calm warm light, no text, no numbers, no people",
+   "texto_da_fala": "Se esperar até o fim, recebe o combinado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of a glass hourglass on a table by a window, the last grains of sand falling through the neck and the top bulb nearly empty. Beside it, a small closed wooden chest. Camera slowly orbits and pushes in on the hourglass, then racks focus to the chest as the final grain drops. Calm warm light, no text, no numbers, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, quem tem Tesouro Prefixado viu ele perder cerca de 1,2% num dia.\n\nPrefixado é aquele que já te diz quanto vai render.\n\nFoi na segunda, 16/11, segundo o Tesouro.\n\nDe manhã, a taxa estava em 15,26%.\n\nFechou o dia em 15,46%.\n\nE aí vem a parte da gangorra: taxa sobe, seu título vale menos.\n\nSe vender antes do prazo, pode receber menos do que pôs.\n\nSe esperar até o fim, recebe o combinado.\n\nDinheiro pra daqui a pouco? Pense antes de prender.\n\nManda pra quem tem dinheiro no Tesouro Direto.\n\nJá viu taxa mudar assim no mesmo dia? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-taxas-sobem-e-prefixado-2032-paga-1526-com-fiscal-no-radar/",
+   "destaque": "Às 12h10 de 16/11, o Tesouro Prefixado 2032 pagava 15,26% ao ano, ante 15,19% no fechamento de sexta (13/11)."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://infomoney.com.br/onde-investir/tesouro-direto-hoje-prefixados-recuam-apos-disparada-e-ipca-tem-movimento-misto",
+   "destaque": "Os 15,26% não foram o fechamento."
+  },
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements",
+   "destaque": "O Copom, comitê do Banco Central que define os juros, manteve a Selic em 13,75% ao ano, por unanimidade, em 4 de novembro."
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T08:05:14.598194-03:00"
+}
