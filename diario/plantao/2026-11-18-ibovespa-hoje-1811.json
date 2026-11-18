@@ -1,0 +1,127 @@
+{
+ "titulo": "Ibovespa hoje (18/11): dólar a R$ 5,78 e Senado: o que se sabe",
+ "descricao": "Ibovespa subiu 0,31% e fechou a 169.816 pontos; dólar foi a R$ 5,78. Veja o que se sabe sobre Senado, Nvidia e o que ainda não foi confirmado.",
+ "palavra_chave": "ibovespa hoje",
+ "lead": "O Ibovespa, principal índice da Bolsa brasileira, fechou ontem (17/11) em alta de 0,31%, aos 169.816,64 pontos. O dólar subiu pela quarta vez seguida, a R$ 5,782, e chegou a R$ 5,81 na máxima do dia, o maior valor desde abril de 2025. Hoje (18/11), o mercado acompanha a votação dos destaques do ajuste fiscal no Senado, marcada para as 16h.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou a terça-feira (17/11) em alta de 0,31%, aos 169.816,64 pontos. Ele recuperou parte da queda de 1,83% da segunda-feira (16/11). Chegou a subir mais de 1% pela manhã, com máxima de 171.749,51 pontos, mas perdeu força à tarde.",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-sobe-031-e-dolar-fecha-a-r-578-nesta-terca/",
+   "data": "2026-11-17",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar subiu 0,10% e fechou a R$ 5,782, na quarta alta seguida, segundo o BP Money. A CNN Brasil registra R$ 5,781 (alta de 0,08%); a diferença é de um décimo de centavo. Na máxima, a moeda chegou a R$ 5,81, o maior valor desde abril de 2025.",
+   "fonte_url": "https://bpmoney.com.br/mercado/ibovespa-sobe-031-169-mil-pontos-dolar-quarta-alta/",
+   "data": "2026-11-17",
+   "veiculo": "BP Money",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a CNN Brasil, o dólar chegou a R$ 5,81 na máxima do dia, maior valor desde abril de 2025. O veículo diz que a Bolsa subiu em meio à expectativa dos investidores por definições sobre a área econômica e fiscal do próximo mandato do presidente Lula.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-17-novembro-2026/",
+   "data": "2026-11-17",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Senado adiou para hoje (18/11) a votação dos quatro destaques (propostas de mudança no texto-base) do projeto do ajuste fiscal do governo (PLP 299/2026). Não houve acordo entre os senadores, e o adiamento atendeu a pedido do relator, Eduardo Braga (MDB-AM). Segundo o presidente do Senado, a votação abre a sessão das 16h.",
+   "fonte_url": "https://www12.senado.leg.br/radio/1/noticia/2026/11/17/votacao-dos-destaques-ao-ajuste-fiscal-e-adiada-para-quarta-feira",
+   "data": "2026-11-17",
+   "veiculo": "Rádio Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "Entre os pontos em disputa estão o adiamento dos repasses da Lei Kandir a estados e municípios e a limitação da compensação tributária cruzada. Quando o Senado terminar a votação, o projeto segue para a Câmara dos Deputados.",
+   "fonte_url": "https://www.tribunadosertao.com.br/financas/2026/11/17/1024147-senado-adia-votacao-de-destaques-do-ajuste-fiscal-para-quarta-feira",
+   "data": "2026-11-17",
+   "veiculo": "Tribuna do Sertão",
+   "confiavel": false
+  },
+  {
+   "texto": "O ministro da Fazenda, Dario Durigan, esteve ontem (17/11) na CAE (Comissão de Assuntos Econômicos) do Senado para tratar da alíquota da CBS, e não hoje. Ele disse que a alíquota efetiva será de 8,5%. O Senado tem até 15 de dezembro para definir o número; sem decisão, vale provisoriamente 11,3%, proposta pelo TCU.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/no-senado-ministro-da-fazenda-defende-novo-tributo-sobre-o-consumo",
+   "data": "2026-11-17",
+   "veiculo": "Senado Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "Hoje (18/11), a CAE deve continuar o debate sobre a CBS ouvindo especialistas e representantes da FGV e da OAB, segundo a Agência Brasil.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs",
+   "data": "2026-11-17",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Os futuros dos EUA (contratos que indicam a abertura das Bolsas) subiram na noite de terça após o balanço da Nvidia. Os do S&P 500 avançaram 0,8% e os do Nasdaq 100, 1,6%. A empresa reportou receita de cerca de US$ 115,8 bilhões no 3º trimestre, acima do previsto por analistas, e as ações subiram quase 5% após o fechamento.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/futuros-dos-eua-disparam-apos-resultados-da-nvidia-reavivarem-otimismo-com-ia-2130556",
+   "data": "2026-11-17",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Ibovespa cai 1,83% na segunda-feira (16/11), e o dólar fecha a R$ 5,77, segundo as notícias do dia seguinte.",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-sobe-031-e-dolar-fecha-a-r-578-nesta-terca/",
+   "data": "2026-11-16",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "O Senado adia a votação dos destaques do ajuste fiscal para quarta-feira (18/11), por falta de acordo.",
+   "fonte_url": "https://www12.senado.leg.br/radio/1/noticia/2026/11/17/votacao-dos-destaques-ao-ajuste-fiscal-e-adiada-para-quarta-feira",
+   "data": "2026-11-17",
+   "veiculo": "Rádio Senado",
+   "confiavel": false
+  },
+  {
+   "texto": "Durigan defende a CBS na CAE do Senado e diz que a alíquota efetiva será de 8,5%.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/11/17/no-senado-ministro-da-fazenda-defende-novo-tributo-sobre-o-consumo",
+   "data": "2026-11-17",
+   "veiculo": "Senado Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "Ibovespa fecha em alta de 0,31%, aos 169.816,64 pontos, e dólar sobe a R$ 5,782, na quarta alta seguida.",
+   "fonte_url": "https://bpmoney.com.br/mercado/ibovespa-sobe-031-169-mil-pontos-dolar-quarta-alta/",
+   "data": "2026-11-17",
+   "veiculo": "BP Money",
+   "confiavel": false
+  },
+  {
+   "texto": "Nvidia divulga balanço acima do esperado, e os futuros dos EUA sobem na noite de terça.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/futuros-dos-eua-disparam-apos-resultados-da-nvidia-reavivarem-otimismo-com-ia-2130556",
+   "data": "2026-11-17",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "O plenário do Senado retoma a votação dos destaques do ajuste fiscal às 16h; a CAE ouve especialistas sobre a CBS.",
+   "fonte_url": "https://www.spacemoney.com.br/politica/senado-adia-destaques-ajuste-fiscal-18-novembro",
+   "data": "2026-11-18",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Como a votação dos destaques no Senado vai terminar. A relatoria busca acordo, o texto pode mudar e não há resultado confirmado até agora.",
+  "A ata do Fed (o resumo da última reunião do banco central dos EUA) e a inflação final de outubro da zona do euro: as buscas não trouxeram fonte confirmando esses dois eventos como agenda de hoje. Por isso, não os tratamos como confirmados.",
+  "O fechamento das bolsas da Ásia e da Europa de hoje ainda não foi confirmado.",
+  "Se a alta dos futuros dos EUA depois da Nvidia vai chegar à Bolsa brasileira hoje. Não há confirmação, e o efeito depende do pregão.",
+  "Por que o dólar sobe: veículos citam dúvidas sobre o ajuste fiscal e o fluxo de dinheiro, mas são leituras de analistas e veículos, não uma causa confirmada."
+ ],
+ "o_que_muda_para_voce": [
+  "Dólar perto de R$ 5,80 tende a encarecer viagens, compras no exterior e produtos importados, ou com componentes importados.",
+  "Quem tem ações ou fundos de ações pode ver o valor oscilar hoje, porque o resultado da votação no Senado pode mexer com o humor do mercado.",
+  "A votação de hoje no Senado não é a última etapa do ajuste fiscal: o projeto ainda segue para a Câmara dos Deputados.",
+  "A alíquota da CBS, que substitui PIS e Cofins a partir de janeiro, ainda não está definida. O Senado decide até 15 de dezembro, e o valor final pode influenciar os preços de bens e serviços."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-hoje-1811",
+ "publicado_em": "2026-11-18T00:08:46.935935",
+ "atualizado_em": "2026-11-18T00:08:46.935935",
+ "assunto": "Mercado do dia (18/11): Ibovespa fechou ontem em alta de 0,31%, aos 169.816,64 pontos, e o dólar subiu pela 4ª vez seguida, a R$ 5,782 (máxima do dia em R$ 5,81, maior valor desde abril de 2025). Hoje o mercado olha a votação dos destaques do ajuste fiscal no Senado, a ata do Fed, a inflação final de outubro da zona do euro e a audiência do ministro da Fazenda na CAE sobre a alíquota da CBS (10h). Os futuros dos EUA subiram na noite de ontem após o balanço da Nvidia. Ainda sem confirmação: fechamento da Ásia e da Europa de hoje.",
+ "turno": "manha"
+}
