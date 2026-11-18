@@ -1,0 +1,99 @@
+{
+ "titulo": "PGBL ou VGBL antes de 31 de dezembro: o que se sabe",
+ "descricao": "PGBL abate até 12% da renda tributável na declaração completa; VGBL não abate, mas paga IR só sobre o rendimento. Aporte vale até 31/12.",
+ "palavra_chave": "pgbl ou vgbl",
+ "lead": "Quem faz a declaração completa do Imposto de Renda pode deduzir aportes em PGBL até o limite de 12% do rendimento tributável, segundo a Receita Federal. No VGBL não há dedução, mas o imposto no resgate incide só sobre o rendimento. Para valer na declaração de 2027 (ano-base 2026), o aporte precisa ser feito até 31 de dezembro de 2026.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Receita Federal diz que o pagamento de planos de previdência pode ser deduzido até 12% do rendimento tributável. Ela afirma que a despesa com PGBL é dedutível e a com VGBL não. A página de perguntas frequentes não mostra data de atualização; a consulta foi feita em 18/11/2026.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/imposto-de-renda/dirpf/deducoes/despesa-de-previdencia-privada",
+   "data": "2026-11-18",
+   "veiculo": "Receita Federal",
+   "confiavel": true
+  },
+  {
+   "texto": "Na prática, a dedução reduz a renda sobre a qual o imposto é calculado. A Receita lista previdência entre as despesas dedutíveis. Já o desconto direto no valor do imposto é outra categoria, como as doações a fundos da criança e do idoso. Por isso, \"abater do imposto\" é uma forma simplificada de dizer.",
+   "fonte_url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/imposto-de-renda/dirpf",
+   "data": "2026-11-18",
+   "veiculo": "Receita Federal",
+   "confiavel": true
+  },
+  {
+   "texto": "A dedução vale só para quem opta pela declaração completa e contribui para o INSS ou para um regime próprio de previdência. Quem faz a declaração simplificada não usa o benefício. Segundo a XP, a dedução também não significa isenção do imposto sobre o valor aplicado.",
+   "fonte_url": "https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/como-declarar-previdencia-privada-no-ir/",
+   "data": "2026-09-12",
+   "veiculo": "XP Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "O que passar de 12% do rendimento tributável não entra na dedução. O programa da Receita avisa o limite na hora de preencher a declaração.",
+   "fonte_url": "https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/como-pagar-menos-imposto-com-a-sua-previdencia-privada/",
+   "data": "2026-09-15",
+   "veiculo": "XP Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "No VGBL, o aporte não é dedutível e o imposto no resgate incide só sobre os rendimentos. No PGBL, o imposto no resgate incide sobre o valor total (o que foi aplicado mais o rendimento).",
+   "fonte_url": "https://www.barbieriadvogados.com/vgbl-imposto-de-renda/",
+   "data": "2026-11-15",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "O resgate pode ser tributado pela tabela progressiva (a do IR da pessoa física) ou pela regressiva, em que a alíquota cai com o tempo. A regressiva vai de 35% (resgates em até 2 anos) a 10% (mais de 10 anos). A escolha pode ser feita até o primeiro resgate.",
+   "fonte_url": "https://blog.mag.com.br/vgbl-no-imposto-de-renda/",
+   "data": "2026-06-19",
+   "veiculo": "Blog Magalu",
+   "confiavel": false
+  },
+  {
+   "texto": "Aportes feitos até 31 de dezembro de 2026 podem ser deduzidos na declaração de 2027 (ano-base 2026). Aportes de janeiro de 2027 só valem para a declaração seguinte.",
+   "fonte_url": "https://nexzoe.com/pt-br/financas/aposentadoria/pgbl-ou-vgbl-guia-definitivo-antes-do-prazo-de-deducao-do-ir",
+   "data": "2026-10-01",
+   "veiculo": "Nexzoe",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A XP publica guia sobre PGBL e VGBL: dedução de até 12% só na declaração completa; VGBL sem dedução, com imposto só sobre o rendimento.",
+   "fonte_url": "https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/como-declarar-previdencia-privada-no-ir/",
+   "data": "2026-09-12",
+   "veiculo": "XP Investimentos",
+   "confiavel": false
+  },
+  {
+   "texto": "Nexzoe reúne as regras do prazo: aportes até 31/12/2026 valem para a declaração de 2027.",
+   "fonte_url": "https://nexzoe.com/pt-br/financas/aposentadoria/pgbl-ou-vgbl-guia-definitivo-antes-do-prazo-de-deducao-do-ir",
+   "data": "2026-10-01",
+   "veiculo": "Nexzoe",
+   "confiavel": false
+  },
+  {
+   "texto": "Barbieri Advogados atualiza o texto sobre VGBL: imposto só sobre rendimento e aportes sem dedução.",
+   "fonte_url": "https://www.barbieriadvogados.com/vgbl-imposto-de-renda/",
+   "data": "2026-11-15",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Qual opção compensa mais para cada pessoa. Isso depende da renda, do tipo de declaração e do prazo do plano, e não foi avaliado aqui.",
+  "Quanto cada contribuinte economizaria no imposto. O valor depende da faixa de renda e das outras deduções, e não há número único.",
+  "Até que dia e hora cada banco ou seguradora aceita o aporte. Um site (Meelion) diz que o prazo operacional costuma terminar antes de 31/12, mas isso não foi confirmado por fonte oficial. Consulte a sua instituição.",
+  "Quando a página da Receita usada como fonte foi atualizada pela última vez. A data não aparece na página consultada em 18/11/2026."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você faz a declaração simplificada, a dedução do PGBL não se aplica à sua declaração, segundo a XP.",
+  "Se faz a declaração completa e contribui para o INSS ou regime próprio, aportes em PGBL feitos em 2026 podem reduzir a base do IR da declaração de 2027, até 12% do rendimento tributável.",
+  "Se você já aportou o equivalente a 12% do rendimento tributável, o que passar disso não entra na dedução, segundo a XP.",
+  "No resgate, o PGBL paga imposto sobre o total e o VGBL só sobre o rendimento. A escolha da tabela (progressiva ou regressiva) pode ser feita até o primeiro resgate.",
+  "Este texto explica as regras e não recomenda produto. Pergunta para os comentários: você faz declaração completa ou simplificada? Comenta C ou S."
+ ],
+ "como_se_proteger": [],
+ "slug": "pgbl-ou-vgbl",
+ "publicado_em": "2026-11-18T08:33:59.657114",
+ "atualizado_em": "2026-11-18T08:33:59.657114",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, investimentos, com gatilho de comentário) PGBL x VGBL antes de 31 de dezembro: quem faz a declaração completa do IR pode abater do imposto até 12% da renda bruta tributável aplicando em PGBL no ano; no VGBL não abate, mas o IR no resgate é só sobre o rendimento (fonte: Receita Federal, gov.br/receitafederal). Gatilho: \"Você faz declaração completa ou simplificada? Comenta C ou S.\" Sem recomendação.",
+ "turno": "manha"
+}
