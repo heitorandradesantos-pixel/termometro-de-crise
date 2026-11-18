@@ -1,0 +1,201 @@
+{
+ "gancho": {
+  "formula": "Reação do Heitor com número",
+  "texto": "Cara, olha isso: R$ 1.000 em bitcoin viraram uns R$ 830 em novembro.",
+  "na_tela": "R$ 1.000 viraram R$ 830",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Reação do Heitor com número",
+   "texto": "Cara, olha isso: R$ 1.000 em bitcoin viraram uns R$ 830 em novembro.",
+   "na_tela": "R$ 1.000 viraram R$ 830",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Começo de novembro: R$ 1.000 em bitcoin. Dia 16: cerca de R$ 830.",
+   "na_tela": "R$ 1.000 → R$ 830",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto você perdeu se pôs R$ 1.000 em bitcoin em novembro?",
+   "na_tela": "Quanto R$ 1.000 perderam?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, olha isso: R$ 1.000 em bitcoin viraram uns R$ 830 em novembro.",
+  "Isso é até 16 de novembro.",
+  "O bitcoin caiu pra perto de US$ 64 mil, segundo a Exame.",
+  "Mais de um quarto a menos desde outubro.",
+  "E aí vem a parte que pouca gente viu.",
+  "Nos EUA, fundos de bitcoin tiveram saídas por sete dias de bolsa seguidos.",
+  "Isso é dado americano, não sou eu.",
+  "Se você tem bitcoin, se pergunta: quanto aguento perder?",
+  "E por quanto tempo deixo o dinheiro parado?",
+  "Conhece quem comprou bitcoin em novembro? Manda pra ele ver a conta.",
+  "Já viu dinheiro encolher assim? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, olha isso: R$ 1.000 em bitcoin viraram uns R$ 830 em novembro. Isso é até 16 de novembro. O bitcoin caiu pra perto de US$ 64 mil, segundo a Exame. Mais de um quarto a menos desde outubro. E aí vem a parte que pouca gente viu. Nos EUA, fundos de bitcoin tiveram saídas por sete dias de bolsa seguidos. Isso é dado americano, não sou eu. Se você tem bitcoin, se pergunta: quanto aguento perder? E por quanto tempo deixo o dinheiro parado? Conhece quem comprou bitcoin em novembro? Manda pra ele ver a conta. Já viu dinheiro encolher assim? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "R$ 1.000 viraram R$ 830",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 1.000 → cerca de R$ 830 (até 16/11, sem o efeito do dólar)",
+   "fonte": "BPMoney"
+  },
+  {
+   "fala": 2,
+   "texto": "US$ 64.271 em 16/11",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 3,
+   "texto": "-25,6% desde a máxima de 2 de outubro",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 5,
+   "texto": "Cerca de US$ 1,9 bilhão em saídas, sete pregões",
+   "fonte": "Farside Investors"
+  },
+  {
+   "fala": 7,
+   "texto": "Quanto aguento perder?",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Manda pra quem comprou em novembro",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "bitcoin hoje: por que caiu para US$ 64 mil",
+ "legenda": "Bitcoin hoje: por que caiu para perto de US$ 64 mil?\n\nSegundo o BPMoney, R$ 1.000 em bitcoin no início de novembro teriam virado cerca de R$ 830 até 16/11, sem contar o efeito do dólar. Segundo a Exame, o bitcoin custava US$ 64.271 em 16/11, uma queda de 25,6% desde a máxima de 2 de outubro.\n\nNos EUA, os ETFs de bitcoin (fundos que seguem o preço da moeda e são negociados em bolsa) perderam cerca de US$ 1,9 bilhão em sete pregões, segundo a Farside Investors. A causa exata da queda não foi confirmada, e ninguém sabe se ela continua.\n\nSe você tem bitcoin, pergunte: quanto aguento perder? E por quanto tempo deixo o dinheiro parado? Manda pra quem comprou em novembro.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bitcoin #criptomoedas #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#bitcoin",
+  "#criptomoedas",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, R$ 1.000 em bitcoin viraram uns R$ 830 em novembro.",
+  "topicos": [
+   "Bitcoin caiu pra perto de US$ 64 mil, segundo a Exame.",
+   "R$ 1.000 viraram cerca de R$ 830 até 16/11, segundo o BPMoney.",
+   "Fundos de bitcoin nos EUA perderam cerca de US$ 1,9 bilhão, segundo a Farside.",
+   "Se tem bitcoin, pergunte: quanto aguento perder e por quanto tempo deixo parado?"
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e contexto, que pede calma e prova na tela, não uma notícia de última hora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Se você tem bitcoin, se pergunta: quanto aguento perder? E por quanto tempo deixo o dinheiro parado?\": a peça fala só com quem já tem bitcoin e não responde \"isso mexe no meu bolso?\" de quem não tem. Acrescente uma frase curta antes, dizendo que, se você não tem bitcoin, isso não mexe direto no seu bolso hoje. Assim o público principal também entende o que isso significa pra ele e fica calmo.",
+   "Frase \"Nos EUA, fundos de bitcoin tiveram saídas por sete dias de bolsa seguidos\": isso é jargão de mercado sem tradução e não passa no Teste do CLT. Reescreva em ordem direta, como \"Nos EUA, quem tinha dinheiro em fundos de bitcoin tirou esse dinheiro por sete dias seguidos\". Pode manter \"Isso é dado americano, não sou eu\". O nome do fundo e o valor ficam só no cartão da tela.",
+   "Frases \"Mais de um quarto a menos desde outubro\" e \"Isso é até 16 de novembro\": a fala tem vários números seguidos (R$ 1.000, R$ 830, US$ 64 mil, um quarto) e a data solta, no meio, quebra o ritmo. Deixe só R$ 1.000 virando R$ 830 e US$ 64 mil na fala, e leve o \"um quarto\" e a data para o cartão da tela. Falta também a frase de calma e um passo simples no fim (por exemplo, que só se perde de verdade se vender), mas sem prometer nada. Hoje o fim só pergunta e pede comentário. Aviso de falta: a peça também não diz que a causa da queda não foi confirmada (isso só está na legenda). Dizer isso na fala daria o \"o que ainda não se sabe\" ao melancólico."
+  ],
+  "veredito": "O roteiro tem a voz do Heitor, o bordão certo, o gancho concreto e o conteúdo sem alarde, mas fala só com quem já tem bitcoin, tem jargão de fundo sem tradução e números demais, e termina sem calma nem um passo simples para o medo que ele mesmo levanta."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Retenção (fala 'Isso é até 16 de novembro. O bitcoin caiu pra perto de US$ 64 mil, segundo a Exame. Mais de um quarto a menos desde outubro.'): são três datas/números em sequência (16/11, US$ 64 mil, um quarto, outubro) e o nome do site na fala, o que quebra o Teste do CLT. Reescrita: 'Isso até o dia 16. O bitcoin caiu pra perto de US$ 64 mil. Mais de um quarto a menos desde outubro. Segundo a imprensa, a Exame.' Melhor ainda: tirar 'Exame' da fala e deixar no cartão da tela e na legenda, ficando 'O bitcoin caiu pra perto de US$ 64 mil. É um quarto a menos que em outubro.'",
+   "Pagamento e virada (fala 'E aí vem a parte que pouca gente viu. Nos EUA, fundos de bitcoin tiveram saídas por sete dias de bolsa seguidos.'): a virada promete algo forte, mas 'fundos' e 'saídas' ficam abstratos para quem é CLT, e a causa da queda fica sem resposta. Reescrita: 'E aí vem a parte que pouca gente viu. Nos EUA, os fundos de bitcoin, que são tipo cestinhas de bitcoin vendidas na bolsa, tiveram mais gente tirando dinheiro do que pondo por sete dias seguidos. Isso é dado americano, não sou eu.' Se couber, completar com 'Por que caiu? Isso ainda ninguém confirmou.' para pagar o 'porquê' do vídeo.",
+   "Envio (fala 'Conhece quem comprou bitcoin em novembro? Manda pra ele ver a conta.'): a situação é concreta, mas o número que a pessoa quer mostrar não vem junto no pedido. Reescrita: 'Tem alguém aí que comprou bitcoin em novembro? Manda pra ele: R$ 1.000 viraram uns R$ 830. Sério.' Assim o envio carrega o número do gancho."
+  ],
+  "veredito": "O gancho com R$ 1.000 virando uns R$ 830 é específico e do bolso, e o fim tem dois gatilhos de comentário bons, mas o miolo está carregado de datas, números e termos técnicos ('fundos', 'saídas', nome da Exame) que passam pelo Teste do CLT só em parte e deixam o 'porquê' sem resposta clara, o que enfraquece retenção e envio."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Macro shot of a single plain golden coin with no markings, no symbols and no text, balanced on the edge of a dark glossy desk. It tips over and slides down a slight slope while the camera slowly dollies back and tilts down. Cold blue light, shallow depth of field, moody cinematic look",
+   "texto_da_fala": "O bitcoin caiu pra perto de US$ 64 mil, segundo a Exame.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of a single plain golden coin with no markings, no symbols and no text, balanced on the edge of a dark glossy desk. It tips over and slides down a slight slope while the camera slowly dollies back and tilts down. Cold blue light, shallow depth of field, moody cinematic look. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow tracking shot down a long, nearly empty trading office at dusk, with rows of dark monitors showing only abstract blurred red glow, no text and no numbers. Empty chairs, papers drifting in the air-conditioning draft. A few lights switch off one after another. Cinematic, desaturated blue tones, no people in focus",
+   "texto_da_fala": "Nos EUA, fundos de bitcoin tiveram saídas por sete dias de bolsa seguidos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow tracking shot down a long, nearly empty trading office at dusk, with rows of dark monitors showing only abstract blurred red glow, no text and no numbers. Empty chairs, papers drifting in the air-conditioning draft. A few lights switch off one after another. Cinematic, desaturated blue tones, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": "Timelapse-style slow push-in on a glass jar full of coins sitting still on a wooden shelf by a window. Sunlight moves across the room from morning to dusk, dust settles on the lid, and shadows lengthen. No text, no logos, no people. Warm to cool light transition, cinematic",
+   "texto_da_fala": "E por quanto tempo deixo o dinheiro parado?",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Timelapse-style slow push-in on a glass jar full of coins sitting still on a wooden shelf by a window. Sunlight moves across the room from morning to dusk, dust settles on the lid, and shadows lengthen. No text, no logos, no people. Warm to cool light transition, cinematic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, olha isso: R$ 1.000 em bitcoin viraram uns R$ 830 em novembro.\n\nIsso é até 16 de novembro.\n\nO bitcoin caiu pra perto de US$ 64 mil, segundo a Exame.\n\nMais de um quarto a menos desde outubro.\n\nE aí vem a parte que pouca gente viu.\n\nNos EUA, fundos de bitcoin tiveram saídas por sete dias de bolsa seguidos.\n\nIsso é dado americano, não sou eu.\n\nSe você tem bitcoin, se pergunta: quanto aguento perder?\n\nE por quanto tempo deixo o dinheiro parado?\n\nConhece quem comprou bitcoin em novembro? Manda pra ele ver a conta.\n\nJá viu dinheiro encolher assim? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/future-of-money/bitcoin-hoje-16-11-2026/",
+   "destaque": "Em 16 de novembro, às 10h50, o bitcoin custava US$ 64.271, com queda de 1,8% em 24 horas."
+  },
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/future-of-money/economista-preve-bitcoin-em-us-165-mil-e-fim-da-strategy-ate-o-fim-do-ano/",
+   "destaque": "O bitcoin chegou a mais de US$ 87 mil em 2 de outubro."
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T08:12:40.829831-03:00"
+}
