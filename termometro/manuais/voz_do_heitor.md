@@ -51,3 +51,9 @@ O comentário tem que ser fácil: um número, uma palavra ou um lado.
 
 Limites: o gatilho é sobre dinheiro e escolhas do dia a dia, nunca sobre partido ou político. Nada de pergunta
 enganosa, promessa de resposta que não vem, "só os inteligentes acertam" ou escassez falsa.
+
+## Formatos que engajam (das referências)
+- **Gráfico + título provocativo (18/11, exemplo de @argon_investimentos):** um gráfico real de um ativo despencando, com uma
+  pergunta forte por cima ("Devolveu 3 anos de alta em 2 meses?"). A nossa versão é "verdade ou exagero": mostra o
+  gráfico, pergunta o que todo mundo está dizendo, e responde com o fato da fonte. Nunca repetir boato ou insinuação
+  política ("foi o MST?") sem fonte que confirme; o boato pode entrar só como pergunta que o vídeo desmente ou confirma.
