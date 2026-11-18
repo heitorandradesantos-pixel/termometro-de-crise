@@ -1,0 +1,144 @@
+{
+ "gancho": {
+  "formula": "Cena no meio",
+  "texto": "Dia 30/11, seu fundo pode ficar com menos cotas. Você não fez nada.",
+  "na_tela": "Dia 30/11: seu fundo perde cotas",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio",
+   "texto": "Dia 30/11, seu fundo pode ficar com menos cotas. Você não fez nada.",
+   "na_tela": "Dia 30/11: seu fundo perde cotas",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu fundo paga imposto duas vezes por ano, e você nem vê sair.",
+   "na_tela": "Imposto que você nem vê",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Conta que assusta",
+   "texto": "R$ 10.000 no fundo, R$ 500 de ganho: R$ 75 saem sem você fazer nada.",
+   "na_tela": "R$ 75 saem sozinhos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Dia 30/11, seu fundo pode ficar com menos cotas. Você não fez nada.",
+  "É o come-cotas: a cobrança antecipada de Imposto de Renda em fundos.",
+  "É 15% ou 20% do rendimento, não do que você aplicou.",
+  "Exemplo do Daycoval: R$ 10.000 rendem R$ 500, imposto de 15%: R$ 75.",
+  "Mas olha: a cota vale o mesmo, como o quilo na feira.",
+  "O que cai é a quantidade de cotas, como levar menos quilos.",
+  "Você não paga nada: só compare suas cotas no extrato antes e depois.",
+  "Manda para quem acha que fundo só paga no resgate.",
+  "E aí: você já sabia disso? Comenta SABIA ou NÃO SABIA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dia 30/11, seu fundo pode ficar com menos cotas. Você não fez nada. É o come-cotas: a cobrança antecipada de Imposto de Renda em fundos. É 15% ou 20% do rendimento, não do que você aplicou. Exemplo do Daycoval: R$ 10.000 rendem R$ 500, imposto de 15%: R$ 75. Mas olha: a cota vale o mesmo, como o quilo na feira. O que cai é a quantidade de cotas, como levar menos quilos. Você não paga nada: só compare suas cotas no extrato antes e depois. Manda para quem acha que fundo só paga no resgate. E aí: você já sabia disso? Comenta SABIA ou NÃO SABIA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 116,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dia 30/11: seu fundo perde cotas",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Come-cotas: IR antecipado",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 2,
+   "texto": "15% ou 20%",
+   "fonte": "Daycoval"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 10.000 → R$ 500 → R$ 75",
+   "fonte": "Daycoval"
+  },
+  {
+   "fala": 4,
+   "texto": "Valor da cota não muda",
+   "fonte": "Alocação de Ativos"
+  },
+  {
+   "fala": 6,
+   "texto": "Segunda, 30/11",
+   "fonte": "Avel News"
+  }
+ ],
+ "retomada": 4,
+ "busca": "come-cotas novembro 2026",
+ "legenda": "Come-cotas novembro 2026: o que muda no seu fundo.\n\nO come-cotas é a cobrança antecipada de Imposto de Renda em fundos, feita duas vezes por ano. Em 2026, a de novembro cai na segunda-feira, 30/11, último dia útil do mês.\n\nSegundo o Daycoval, a alíquota é de 15% ou 20% sobre o rendimento do semestre. O valor da cota não muda: o que cai é a quantidade de cotas. Você não paga nada nem avisa ninguém.\n\nCompare as cotas no extrato antes e depois de 30/11. Você já sabia disso? Comenta SABIA ou NÃO SABIA.\n\nEu sou o Heitor, do Termômetro de Crise. Conteúdo educativo, não é recomendação de investimento.\n\n#comecotas #fundos #impostoderenda #rendafixa #educacaofinanceira",
+ "hashtags": [
+  "#comecotas",
+  "#fundos",
+  "#impostoderenda",
+  "#rendafixa",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Dia 30/11 seu fundo pode perder cotas. Calma, é o imposto.",
+  "topicos": [
+   "Come-cotas é o Imposto de Renda antecipado do fundo, segundo o InfoMoney.",
+   "Segundo o Daycoval, é 15% ou 20% sobre o rendimento do semestre.",
+   "Exemplo do Daycoval: R$ 10.000 rendem R$ 500, imposto de 15% dá R$ 75.",
+   "Você não paga nada: compare as cotas no extrato antes e depois de 30/11."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com conta e comparação, não notícia quente do dia, então pede a calma da bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "tamanho: 116 palavras faladas, o máximo é 115: corte pelo menos 6 palavras do gancho e do corpo (tire uma fala inteira)",
+  "versão rua: gancho até 12 palavras e tópicos até 14"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "viral": null,
+ "teleprompter": "Dia 30/11, seu fundo pode ficar com menos cotas. Você não fez nada.\n\nÉ o come-cotas: a cobrança antecipada de Imposto de Renda em fundos.\n\nÉ 15% ou 20% do rendimento, não do que você aplicou.\n\nExemplo do Daycoval: R$ 10.000 rendem R$ 500, imposto de 15%: R$ 75.\n\nMas olha: a cota vale o mesmo, como o quilo na feira.\n\nO que cai é a quantidade de cotas, como levar menos quilos.\n\nVocê não paga nada: só compare suas cotas no extrato antes e depois.\n\nManda para quem acha que fundo só paga no resgate.\n\nE aí: você já sabia disso? Comenta SABIA ou NÃO SABIA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/guias/come-cotas/",
+   "destaque": "O come-cotas é a antecipação do Imposto de Renda dos fundos, feita duas vezes por ano."
+  },
+  {
+   "veiculo": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2023/dezembro/receita-federal-regulamenta-lei-ndeg14-754-2023-que-alterou-as-regras-de-tributacao-dos-fundos-fechados-no-brasil",
+   "destaque": "A Lei 14.754/2023 fez o come-cotas valer também para fundos fechados, a partir de 2024."
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T08:19:01.558616-03:00"
+}
