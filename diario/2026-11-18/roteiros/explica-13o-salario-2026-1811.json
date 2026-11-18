@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "Seu 13º: R$ 1.500 num mês, R$ 1.251,40 no outro. Por quê?",
+  "na_tela": "R$ 1.500 e depois R$ 1.251,40",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "Seu 13º: R$ 1.500 num mês, R$ 1.251,40 no outro. Por quê?",
+   "na_tela": "R$ 1.500 e depois R$ 1.251,40",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Por que o seu 13º de dezembro vem menor que o de novembro?",
+   "na_tela": "Por que o 13º vem menor?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Seu 13º não encolheu em dezembro. O desconto só chegou tudo junto.",
+   "na_tela": "O 13º não encolheu",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seu 13º: R$ 1.500 num mês, R$ 1.251,40 no outro. Por quê?",
+  "Quem ganha R$ 3.000 recebe R$ 1.500 até 30 de novembro, sem desconto.",
+  "É metade do salário, sem INSS e sem Imposto de Renda.",
+  "Os descontos do 13º inteiro ficam todos na segunda parcela.",
+  "Olha o tamanho disso: segundo o Serasa, a segunda cai R$ 1.251,40.",
+  "É como um boleto que chega inteiro só na última parcela.",
+  "A segunda é 18 de dezembro, segundo veículos, mas confirma com o RH.",
+  "Antes de gastar, some o que entra em novembro e dezembro.",
+  "Seu 13º vai pra quê? Comenta PAGAR DÍVIDA, GUARDAR ou GASTAR.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu 13º: R$ 1.500 num mês, R$ 1.251,40 no outro. Por quê? Quem ganha R$ 3.000 recebe R$ 1.500 até 30 de novembro, sem desconto. É metade do salário, sem INSS e sem Imposto de Renda. Os descontos do 13º inteiro ficam todos na segunda parcela. Olha o tamanho disso: segundo o Serasa, a segunda cai R$ 1.251,40. É como um boleto que chega inteiro só na última parcela. A segunda é 18 de dezembro, segundo veículos, mas confirma com o RH. Antes de gastar, some o que entra em novembro e dezembro. Seu 13º vai pra quê? Comenta PAGAR DÍVIDA, GUARDAR ou GASTAR. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 1.500 e depois R$ 1.251,40",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 1.500 até 30 de novembro",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 3,
+   "texto": "INSS e IR só na segunda parcela",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 1.251,40",
+   "fonte": "Serasa"
+  },
+  {
+   "fala": 6,
+   "texto": "18 de dezembro",
+   "fonte": "Barbieri Advogados"
+  },
+  {
+   "fala": 7,
+   "texto": "Novembro + dezembro",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "13º salário 2026 quando cai",
+ "legenda": "13º salário 2026: quando cai e por que a segunda parcela vem menor.\n\nA primeira parcela deve ser paga até 30 de novembro, metade do salário e sem desconto de INSS nem de Imposto de Renda. Os descontos do 13º inteiro ficam na segunda parcela.\n\nExemplo do Serasa, com salário de R$ 3.000: a primeira parcela é de R$ 1.500 e a segunda, de R$ 1.251,40.\n\nO prazo legal da segunda parcela é 20 de dezembro. Como cai num domingo, veículos e um escritório de advocacia apontam 18 de dezembro, mas não achei nota oficial de 2026 confirmando. Confirme a data com o RH da sua empresa.\n\nO valor exato depende dos meses trabalhados, de horas extras e de pensão, se houver. Veja o seu holerite.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#13salario #educacaofinanceira #financaspessoais #dinheiro",
+ "hashtags": [
+  "#13salario",
+  "#educacaofinanceira",
+  "#financaspessoais",
+  "#dinheiro"
+ ],
+ "rua": {
+  "gancho": "Cara, a segunda parcela do seu 13º vem menor.",
+  "topicos": [
+   "Primeira parcela: até 30 de novembro, metade do salário, sem desconto.",
+   "INSS e Imposto de Renda saem só na segunda parcela, segundo o Serasa.",
+   "Salário de R$ 3.000: R$ 1.500 primeiro, depois R$ 1.251,40, segundo o Serasa.",
+   "Some novembro e dezembro antes de gastar e confirme a data com o RH."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários números e contexto, não notícia quente do dia que pede urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Na fala \"Quem ganha R$ 3.000 recebe R$ 1.500 até 30 de novembro, sem desconto\" há três números e duas ideias. Divida em duas falas. Primeira: \"Se você ganha uns R$ 3 mil, a primeira parcela é metade: R$ 1.500, sem desconto nenhum.\" Segunda: \"Cai até 30 de novembro.\" Assim cada fala fica com uma ideia e no máximo um número.",
+   "Na fala \"Olha o tamanho disso: segundo o Serasa, a segunda cai R$ 1.251,40\", tire o nome do site da fala e arredonde o número. Sugestão: \"Olha o tamanho disso: na segunda, na conta de exemplo, cai uns R$ 1.250.\" O valor exato e o Serasa ficam no cartão da tela e na legenda. Troque também \"descontos do 13º inteiro\" por \"o INSS e o Imposto de Renda do 13º todo saem só na segunda parcela\". Na fala da data, troque \"segundo veículos, mas confirma com o RH\" por algo como \"Dizem que é 18 de dezembro, mas ainda não achei confirmação oficial. Pergunta pro seu RH\".",
+   "A fala \"É como um boleto que chega inteiro só na última parcela\" confunde, porque boleto não tem desconto. Troque por uma comparação que o CLT reconheça, como o desconto no contracheque. Exemplo: \"É o mesmo desconto do salário, mas aqui ele vem tudo junto, só no segundo pagamento.\" No gancho e no fim, deixe o jeito do Heitor: abra com \"Cara, olha isso: o mesmo 13º, dois valores bem diferentes\". Antes do bordão, coloque \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" O bordão \"Sem alarde. Eu sou só o termômetro!\" continua como última frase."
+  ],
+  "veredito": "A peça explica bem por que a segunda parcela vem menor. Tem fonte, passo simples, gatilho de comentário e o bordão final. Falta soltar a fala: há números demais por frase, nome de fonte e \\\"RH\\\" ditos em voz alta, uma comparação confusa, e a abertura e a apresentação do Heitor não aparecem."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Virada fraca: 'Olha o tamanho disso: segundo o Serasa, a segunda cai R$ 1.251,40' repete o número do gancho e não traz nada novo. Reescrita: 'E aí vem a parte que pouca gente viu: a segunda parcela não vem de R$ 1.500. Vem R$ 1.251,40, segundo o Serasa. Quase R$ 250 ficam no caminho.' (R$ 1.500 menos R$ 1.251,40 dá R$ 248,60, só uma conta com os números da peça.)",
+   "Falta pedido de envio para situação concreta. Antes do pedido de comentário, entre: 'Manda pra quem é CLT e acha que vai receber os dois R$ 1.500 inteiros.' Se o 'quase R$ 250' entrar na virada, o envio fica mais forte, porque é o número que a pessoa quer mostrar.",
+   "A comparação 'É como um boleto que chega inteiro só na última parcela' confunde, porque o boleto não se parece com desconto. Troque por algo que o CLT entenda de primeira: 'É como o salário: o desconto vem todo de uma vez, não picado.' Ou corte a frase e use o tempo para a virada."
+  ],
+  "veredito": "Gancho forte e bem pago logo no início, com ótimo fecho de comentário de três opções; para viralizar, falta uma virada com número novo no meio e um 'manda pra quem' concreto."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Close-up of a plain blank paper envelope with a small stack of generic colorless banknotes peeking out, resting on a wooden kitchen table in warm morning light. The camera slowly dollies in while soft dust particles float in the sunbeam. No text, no numbers, no logos, no people",
+   "texto_da_fala": "Quem ganha R$ 3.000 recebe R$ 1.500 até 30 de novembro, sem desconto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a plain blank paper envelope with a small stack of generic colorless banknotes peeking out, resting on a wooden kitchen table in warm morning light. The camera slowly dollies in while soft dust particles float in the sunbeam. No text, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Low-angle shot of a front door hallway floor: a thick, blank white paper bill envelope slides in through a mail slot and drops heavily onto a tile floor with a soft thud. The camera pushes in slowly toward the envelope, dramatic cool lighting. No text, no numbers, no logos, no people",
+   "texto_da_fala": "É como um boleto que chega inteiro só na última parcela.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Low-angle shot of a front door hallway floor: a thick, blank white paper bill envelope slides in through a mail slot and drops heavily onto a tile floor with a soft thud. The camera pushes in slowly toward the envelope, dramatic cool lighting. No text, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Top-down shot of a tidy desk: two columns of coins side by side on a blank paper notebook, one column short and one tall, next to a pencil. The camera glides slowly from left to right across the desk, soft natural window light. No text, no numbers, no logos, no faces",
+   "texto_da_fala": "Antes de gastar, some o que entra em novembro e dezembro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot of a tidy desk: two columns of coins side by side on a blank paper notebook, one column short and one tall, next to a pencil. The camera glides slowly from left to right across the desk, soft natural window light. No text, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu 13º: R$ 1.500 num mês, R$ 1.251,40 no outro. Por quê?\n\nQuem ganha R$ 3.000 recebe R$ 1.500 até 30 de novembro, sem desconto.\n\nÉ metade do salário, sem INSS e sem Imposto de Renda.\n\nOs descontos do 13º inteiro ficam todos na segunda parcela.\n\nOlha o tamanho disso: segundo o Serasa, a segunda cai R$ 1.251,40.\n\nÉ como um boleto que chega inteiro só na última parcela.\n\nA segunda é 18 de dezembro, segundo veículos, mas confirma com o RH.\n\nAntes de gastar, some o que entra em novembro e dezembro.\n\nSeu 13º vai pra quê? Comenta PAGAR DÍVIDA, GUARDAR ou GASTAR.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Ministério do Trabalho e Emprego (gov.br)",
+   "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/novembro/decimo-terceiro-salario-entenda-o-direito-regras-e-prazos-de-pagamento",
+   "destaque": "O Ministério do Trabalho e Emprego (MTE) explica, em página no gov.br publicada em novembro de 2025, que a primeira parcela vai até 30 de…"
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T08:24:14.757803-03:00"
+}
