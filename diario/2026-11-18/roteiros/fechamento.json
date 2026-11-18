@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso + número",
+  "texto": "Cara, tem assinatura em dólar ou vai viajar? O dólar fechou a R$ 5,85.",
+  "na_tela": "Dólar fechou a R$ 5,85",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso + número",
+   "texto": "Cara, tem assinatura em dólar ou vai viajar? O dólar fechou a R$ 5,85.",
+   "na_tela": "Dólar fechou a R$ 5,85",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O Ibovespa caiu 1,28% hoje, e o motivo está no ajuste fiscal.",
+   "na_tela": "Ibovespa caiu 1,28%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "Quem tem ação ou fundo viu o dia pesar: o Ibovespa fechou em 167.643 pontos.",
+   "na_tela": "Seu fundo sentiu o dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, tem assinatura em dólar ou vai viajar? O dólar fechou a R$ 5,85.",
+  "Subiu 1,14% hoje. Viagem, assinatura e compra lá de fora ficam mais caras.",
+  "As notícias apontam impasse nos gastos do governo, e isso deixa o dólar nervoso.",
+  "A parte que pouca gente viu: a bolsa segue longe do topo de outubro.",
+  "Quem tem ação ou fundo vê o valor menor.",
+  "O termômetro do Brasil marca 64, febre maior que a do mundo.",
+  "Calma: antes de pagar em dólar, confere o valor do dia.",
+  "Manda pra quem vai viajar ou comprar importado: R$ 5,85 hoje.",
+  "Pesa mais na viagem ou na assinatura? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, tem assinatura em dólar ou vai viajar? O dólar fechou a R$ 5,85. Subiu 1,14% hoje. Viagem, assinatura e compra lá de fora ficam mais caras. As notícias apontam impasse nos gastos do governo, e isso deixa o dólar nervoso. A parte que pouca gente viu: a bolsa segue longe do topo de outubro. Quem tem ação ou fundo vê o valor menor. O termômetro do Brasil marca 64, febre maior que a do mundo. Calma: antes de pagar em dólar, confere o valor do dia. Manda pra quem vai viajar ou comprar importado: R$ 5,85 hoje. Pesa mais na viagem ou na assinatura? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dólar fechou a R$ 5,85",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,85 (▲1,14%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Impasse no ajuste fiscal",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Ibovespa 167.643 pontos: 19,8% abaixo do recorde de 09/10",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 5,
+   "texto": "Brasil 64 (Tensão) · Mundo 60 (Alerta)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "PTAX R$ 5,8102",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 3,
+ "busca": "dólar hoje fecha a R$ 5,85",
+ "legenda": "Dólar hoje: fechou a R$ 5,85, alta de 1,14%, segundo o Yahoo Finance. O Ibovespa caiu 1,28% e está 19,8% abaixo do recorde de 09/10.\n\nO que as notícias apontam é um impasse no ajuste fiscal, que são os gastos do governo, e isso deixa o dólar nervoso. Pra quem viaja, assina serviço em dólar ou tem ação e fundo, o efeito aparece no bolso.\n\nO termômetro do Brasil marca 64 (Tensão) e o do mundo, 60 (Alerta). Selic em 13,75% e PTAX em R$ 5,8102, segundo o Banco Central.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #ibovespa #economia #financaspessoais",
+ "hashtags": [
+  "#dolar",
+  "#ibovespa",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Vai viajar ou assina em dólar? Fechou a R$ 5,85.",
+  "topicos": [
+   "Dólar fechou a R$ 5,85, alta de 1,14%, segundo o Yahoo Finance.",
+   "Ibovespa caiu 1,28% e segue 19,8% abaixo do recorde de 09/10.",
+   "Termômetro do Brasil em 64, Tensão; o do mundo, em 60, Alerta.",
+   "Antes de pagar em dólar, confere o valor do dia."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Fechamento do dia com vários números e contexto pede explicação calma, na bancada.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Calma: antes de pagar em dólar, confere o valor do dia.\" O passo é vago. Diga o que a pessoa ganha com isso, por exemplo: \"o dólar muda de um dia pro outro, então olha o valor de hoje antes de fechar a compra ou a viagem\". Assim o passo simples vira um motivo, e não só uma ordem.",
+   "\"A parte que pouca gente viu: a bolsa segue longe do topo de outubro.\" Falta a comparação viva do sanguíneo, e \"bolsa\" e \"topo\" ficaram sem tradução. Reescreva traduzindo: \"a bolsa, onde ficam as ações, ainda está bem abaixo do ponto mais alto de outubro\". Se couber, use uma imagem do dia a dia, como a febre do termômetro, sem inventar número.",
+   "\"Sem alarde. Eu sou só o termômetro!\" O bordão está certo. Mas a fala não tem a apresentação e o aviso do fim, que só aparecem na legenda. Antes do bordão, acrescente: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Também vale falar a fonte do dólar em poucas palavras, como \"segundo o Banco Central\", e deixar o nome do site só na legenda."
+  ],
+  "veredito": "A peça fala com quem viaja ou assina em dólar, abre no gancho, tem a virada da casa, o bordão certo e um gatilho de comentário fácil. Falta uma comparação viva, um passo mais útil que \\\"confere o valor do dia\\\" e a apresentação com o aviso antes do bordão final."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, tem assinatura em dólar ou vai viajar? O dólar fechou a R$ 5,85.\" já entrega tudo e não deixa lacuna aberta. Reescrita: \"Cara, o dólar fechou a R$ 5,85 hoje. Mas tem um outro número, o da bolsa, que pesa mais pra quem tem ação ou fundo. Fica até o fim.\" Depois o vídeo paga com o número da bolsa.\", \"Virada: \"A parte que pouca gente viu: a bolsa segue longe do topo de outubro.\" guarda o número forte só na legenda. Reescrita: \"A parte que pouca gente viu: a bolsa está 19,8% abaixo do recorde de 9 de outubro. Quase vinte por cento.\"",
+   "Termômetro: \"O termômetro do Brasil marca 64, febre maior que a do mundo.\" não explica o 64 pra quem nunca viu o canal. Reescrita: \"O termômetro do Brasil marca 64. O do mundo, 60. A gente tá mais quente que lá fora.\""
+  ],
+  "veredito": "Fecha bem com envio concreto (quem vai viajar) e pergunta de duas saídas, mas abre como boletim sem lacuna e guarda o número mais forte (bolsa 19,8% abaixo do recorde) só na legenda, o que pede reescrita do gancho e da virada."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-in over a travel flat lay on a wooden table: an open suitcase with folded clothes, a passport-sized blank booklet, sunglasses, a small laptop showing an abstract blurred streaming interface with no readable text, and a closed credit card with no markings. Warm natural window light, shallow depth of field, no people, no text, no logos",
+   "texto_da_fala": "Subiu 1,14% hoje. Viagem, assinatura e compra lá de fora ficam mais caras.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in over a travel flat lay on a wooden table: an open suitcase with folded clothes, a passport-sized blank booklet, sunglasses, a small laptop showing an abstract blurred streaming interface with no readable text, and a closed credit card with no markings. Warm natural window light, shallow depth of field, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Slow upward tilt along the modernist white curved architecture of the Brazilian National Congress in Brasília at late afternoon, heavy grey clouds moving fast in the sky, long shadows on the empty esplanade lawn. Tense, moody atmosphere, no people in focus, no flags, no text, no signage",
+   "texto_da_fala": "As notícias apontam impasse nos gastos do governo, e isso deixa o dólar nervoso.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the modernist white curved architecture of the Brazilian National Congress in Brasília at late afternoon, heavy grey clouds moving fast in the sky, long shadows on the empty esplanade lawn. Tense, moody atmosphere, no people in focus, no flags, no text, no signage. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Smooth lateral tracking shot across a dim financial trading room with rows of empty desks and large wall screens showing abstract glowing line charts that trend sideways and downward in red and green, with no numbers, letters or logos. Cool blue light, soft reflections on glass, no people, no text",
+   "texto_da_fala": "A parte que pouca gente viu: a bolsa segue longe do topo de outubro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth lateral tracking shot across a dim financial trading room with rows of empty desks and large wall screens showing abstract glowing line charts that trend sideways and downward in red and green, with no numbers, letters or logos. Cool blue light, soft reflections on glass, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, tem assinatura em dólar ou vai viajar? O dólar fechou a R$ 5,85.\n\nSubiu 1,14% hoje. Viagem, assinatura e compra lá de fora ficam mais caras.\n\nAs notícias apontam impasse nos gastos do governo, e isso deixa o dólar nervoso.\n\nA parte que pouca gente viu: a bolsa segue longe do topo de outubro.\n\nQuem tem ação ou fundo vê o valor menor.\n\nO termômetro do Brasil marca 64, febre maior que a do mundo.\n\nCalma: antes de pagar em dólar, confere o valor do dia.\n\nManda pra quem vai viajar ou comprar importado: R$ 5,85 hoje.\n\nPesa mais na viagem ou na assinatura? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-18",
+ "gerado_em": "2026-11-18T18:33:53.291039-03:00",
+ "enviado_whatsapp": "2026-11-18T18:34:44.374773-03:00"
+}
