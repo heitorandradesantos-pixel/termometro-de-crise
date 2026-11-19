@@ -1,0 +1,120 @@
+{
+ "titulo": "Tesouro IPCA+ com Juros Semestrais: o que se sabe",
+ "descricao": "O Tesouro IPCA+ com Juros Semestrais paga cupom a cada 6 meses. Veja como funciona o pagamento de 16/11, o IR, a taxa da B3 e a diferença para o sem cupom.",
+ "palavra_chave": "tesouro ipca+ com juros semestrais",
+ "lead": "Fala, pessoal, é o Heitor. O Tesouro IPCA+ com Juros Semestrais é o título que \"paga salário\": a cada seis meses ele deposita na sua conta os juros, e só no fim devolve o valor principal corrigido pela inflação. Na segunda-feira, 16/11, os papéis com vencimento em maio (2035, 2037, 2045 e 2055) pagaram o cupom, de cerca de 2,96% do valor nominal atualizado. Este texto explica a regra e não é recomendação de investimento.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Tesouro IPCA+ com Juros Semestrais (o NTN-B) rende a inflação (IPCA) mais uma taxa fixa definida na compra. Ele paga juros a cada seis meses e devolve o principal no vencimento. O Tesouro IPCA+ comum, sem cupom, não faz esses pagamentos intermediários.",
+   "fonte_url": "https://www.tesourodireto.com.br/en/sobre-o-tesouro/regras-e-regulamento",
+   "data": "2026-11-19",
+   "veiculo": "Tesouro Direto",
+   "confiavel": false
+  },
+  {
+   "texto": "O cupom (o pagamento de juros) é de 6% ao ano, ou cerca de 2,95% por semestre. Ele é calculado sobre o valor nominal atualizado (VNA), que sobe com o IPCA. A conta exata é (1,06 elevado a 1/2) menos 1, ou 2,9563% do VNA. Com VNA de R$ 4.500, o cupom bruto seria de R$ 133,03.",
+   "fonte_url": "https://brapi.dev/calculadoras/tesouro-ipca-juros-semestrais",
+   "data": "2026-11-19",
+   "veiculo": "brapi.dev",
+   "confiavel": false
+  },
+  {
+   "texto": "Aplicando os 2,9563% ao VNA de R$ 4.773,02 informado na pauta, o cupom bruto dá cerca de R$ 141,10 por título. É o valor antes de Imposto de Renda e taxa de custódia. O número do VNA não foi confirmado em página oficial nas buscas (veja \"o que ainda não se sabe\").",
+   "fonte_url": "https://brapi.dev/calculadoras/tesouro-ipca-juros-semestrais",
+   "data": "2026-11-16",
+   "veiculo": "brapi.dev",
+   "confiavel": false
+  },
+  {
+   "texto": "Os títulos que vencem em 15 de maio (2035, 2037, 2045 e 2055) pagam cupom em maio e novembro. O pagamento deste ciclo caiu na segunda-feira, 16/11, segundo a Rankia.",
+   "fonte_url": "https://rankia.com.br/ipca-outubro-2026-resultado-inflacao-12-meses/",
+   "data": "2026-11-16",
+   "veiculo": "Rankia",
+   "confiavel": false
+  },
+  {
+   "texto": "Os títulos que vencem em 15 de agosto (2030, 2032, 2040, 2050 e 2060) pagam cupom em fevereiro e agosto. O próximo pagamento é em fevereiro de 2027. Os dados do Tesouro Transparente mostram que, em 2026, esse grupo recebeu o cupom em 18/02, porque a data original caiu em dia sem pagamento.",
+   "fonte_url": "https://www.tesourotransparente.gov.br/ckan/dataset/f30db6e4-6123-416c-b094-be8dfc823601/resource/de2af5cf-9dbd-4566-b933-da6871cce030/download/CupomJurosTesouroDireto.csv",
+   "data": "2026-02-18",
+   "veiculo": "Tesouro Transparente",
+   "confiavel": true
+  },
+  {
+   "texto": "Cada cupom paga Imposto de Renda na fonte, pela tabela regressiva: 22,5% para prazos de até 180 dias, caindo até 15% acima de 720 dias. O prazo conta da data da sua compra até a data do cupom. Por isso, o primeiro cupom pode ter alíquota de 22,5%.",
+   "fonte_url": "https://brapi.dev/calculadoras/tesouro-ipca-juros-semestrais",
+   "data": "2026-11-19",
+   "veiculo": "brapi.dev; B3 Educação",
+   "confiavel": false
+  },
+  {
+   "texto": "A taxa de custódia da B3 é de 0,20% ao ano sobre o valor do título. Nos títulos com cupom, a taxa acumulada até a data é descontada dos juros que você recebe a cada pagamento, segundo o regulamento do Tesouro Direto.",
+   "fonte_url": "https://www.tesourodireto.com.br/en/sobre-o-tesouro/regras-e-regulamento",
+   "data": "2026-11-19",
+   "veiculo": "Tesouro Direto",
+   "confiavel": false
+  },
+  {
+   "texto": "No Tesouro IPCA+ sem cupom (NTN-B Principal), tudo fica no título e é pago no vencimento. O IR incide uma vez, no resgate. No título com cupom, o IR incide em cada pagamento e quem recebe decide se reinveste o dinheiro.",
+   "fonte_url": "https://brapi.dev/calculadoras/tesouro-ipca-juros-semestrais",
+   "data": "2026-11-19",
+   "veiculo": "brapi.dev",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Tesouro Transparente registra o pagamento de cupom de 18/02/2026 para os títulos IPCA+ com Juros Semestrais que vencem em agosto (2030, 2032, 2040, 2050 e 2060).",
+   "fonte_url": "https://www.tesourotransparente.gov.br/ckan/dataset/f30db6e4-6123-416c-b094-be8dfc823601/resource/de2af5cf-9dbd-4566-b933-da6871cce030/download/CupomJurosTesouroDireto.csv",
+   "data": "2026-02-18",
+   "veiculo": "Tesouro Transparente",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 10/11, o Tesouro Transparente mostrava taxas de compra de IPCA + 7,44% a IPCA + 7,68% nos títulos com juros semestrais que estavam à venda.",
+   "fonte_url": "https://valorfinal.com.br/simulador-tesouro-direto",
+   "data": "2026-11-10",
+   "veiculo": "Valor Final (dados do Tesouro Transparente)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na segunda-feira, 16/11, quem tinha Tesouro IPCA+ com juros semestrais recebeu o cupom, já corrigido pela inflação.",
+   "fonte_url": "https://rankia.com.br/ipca-outubro-2026-resultado-inflacao-12-meses/",
+   "data": "2026-11-16",
+   "veiculo": "Rankia",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 16/11, as taxas do Tesouro Direto subiram. O Tesouro IPCA+ com Juros Semestrais 2037 estava em IPCA + 7,74% às 17h15.",
+   "fonte_url": "https://investnews.com.br/investimentos/tesouro-taxas-prefixados-disparam/",
+   "data": "2026-11-16",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 17/11, o movimento foi misto: o IPCA+ com Juros Semestrais 2037 recuou de 7,74% para 7,69%, e o 2045, de 7,57% para 7,55%.",
+   "fonte_url": "https://agoralitoral.com.br/2026/11/17/tesouro-direto-hoje-prefixados-recuam-apos-disparada-e-ipca-tem-movimento-misto/",
+   "data": "2026-11-17",
+   "veiculo": "Agora Litoral",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O VNA de R$ 4.773,02 e o cupom de R$ 141,10 vieram da pauta e não apareceram em página oficial nas buscas. Os 2,9563% são confirmados pela fórmula. Confira o valor exato no extrato da sua corretora ou no Tesouro Direto.",
+  "O valor líquido (depois de IR e custódia) depende da data em que cada pessoa comprou o título. Não há um número único para todos.",
+  "A data exata do cupom de fevereiro de 2027 não foi confirmada nas buscas. Em 2026, o pagamento de fevereiro caiu em 18/02.",
+  "Quanto cada cupom futuro vai pagar em reais depende da inflação até a data. Isso ninguém sabe hoje."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem o título com cupom, o dinheiro cai na conta da corretora a cada seis meses, já sem IR e custódia. Usar ou reinvestir é decisão sua.",
+  "Se você tem o Tesouro IPCA+ sem cupom, nada cai no meio do caminho. Os juros ficam no título e o IR é cobrado uma vez, no resgate.",
+  "Quem vende antes do vencimento recebe o preço de mercado do dia, que pode ser maior ou menor que o valor pago. A Rankia diz que os títulos longos oscilam muito antes do vencimento.",
+  "O resgate antecipado fica suspenso por 2 dias úteis antes de cada pagamento de cupom, segundo o regulamento do Tesouro Direto.",
+  "Sua vez: você prefere receber de 6 em 6 meses ou deixar tudo acumulando? Comenta 1 ou 2. (1 = receber a cada seis meses; 2 = deixar acumular.)"
+ ],
+ "como_se_proteger": [],
+ "slug": "tesouro-ipca+-com-juros-semestrais",
+ "publicado_em": "2026-11-19T06:34:35.446070",
+ "atualizado_em": "2026-11-19T06:34:35.446070",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) o que é o Tesouro que \"paga salário\" de 6 em 6 meses: o Tesouro IPCA+ com Juros Semestrais. Em 16/11/2026 os títulos com vencimento em 2035, 2037, 2045 e 2055 pagaram cerca de R$ 141,10 brutos por título (2,9563% sobre o valor nominal atualizado de R$ 4.773,02, porque o cupom é de 6% ao ano dividido em duas parcelas); os de 2030, 2032, 2040, 2050 e 2060 pagam em fevereiro de 2027. Tem Imposto de Renda retido na fonte a cada pagamento, pela tabela regressiva (22,5% até 180 dias, chegando a 15% acima de 720 dias), e taxa de custódia da B3 de 0,20% ao ano (Tesouro Direto, tesourodireto.com.br; Rankia, 13/11/2026). Explique a diferença para o Tesouro IPCA+ sem cupom, que acumula tudo até o vencimento. Gatilho: \"Você prefere receber de 6 em 6 meses ou deixar tudo acumulando? Comenta 1 ou 2.\" Sem recomendação de investimento, sem promessa de ganho.",
+ "turno": "manha"
+}
