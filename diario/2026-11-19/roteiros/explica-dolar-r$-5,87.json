@@ -1,0 +1,188 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou.",
+  "na_tela": "US$ 1 mil = R$ 6.073",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou.",
+   "na_tela": "US$ 1 mil = R$ 6.073",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Dólar a R$ 5,87: a conta que chega no seu cartão.",
+   "na_tela": "Dólar a R$ 5,87",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Erro de todo mundo",
+   "texto": "Se você tem fatura em dólar, ela pode ter mudado.",
+   "na_tela": "Sua fatura em dólar mudou?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou.",
+  "Na quarta, o dólar fechou a R$ 5,87.",
+  "Segundo o mercado, pesou o medo das contas públicas.",
+  "O Banco Central vendeu dólar, mas não segurou.",
+  "Até onde vai? A gente não chuta.",
+  "Agora, o que pega no bolso.",
+  "O IOF, imposto na compra em dólar, é de 3,5 %.",
+  "Só com ele, são cerca de R$ 6.073.",
+  "Fora o extra do banco.",
+  "Fatura em dólar? Confere a cotação do banco no app.",
+  "Vai viajar? Separe o que já pagou. Manda pra quem vai.",
+  "Quem já comprou em dólar no cartão? Comenta EU.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou. Na quarta, o dólar fechou a R$ 5,87. Segundo o mercado, pesou o medo das contas públicas. O Banco Central vendeu dólar, mas não segurou. Até onde vai? A gente não chuta. Agora, o que pega no bolso. O IOF, imposto na compra em dólar, é de 3,5 %. Só com ele, são cerca de R$ 6.073. Fora o extra do banco. Fatura em dólar? Confere a cotação do banco no app. Vai viajar? Separe o que já pagou. Manda pra quem vai. Quem já comprou em dólar no cartão? Comenta EU. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "US$ 1 mil = R$ 6.073",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar: R$ 5,87 (terça: R$ 5,78)",
+   "fonte": "Plantão Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "Leilões do BC: US$ 1 bilhão",
+   "fonte": "Plantão Brasil"
+  },
+  {
+   "fala": 6,
+   "texto": "IOF: 3,5 %",
+   "fonte": "Melhor Investimento"
+  },
+  {
+   "fala": 7,
+   "texto": "US$ 1 mil = cerca de R$ 6.073",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje: quanto custa US$ 1 mil no cartão",
+ "legenda": "Dólar hoje: quanto custa US$ 1 mil no cartão?\n\nNa quarta (18/11), o dólar fechou a R$ 5,87, segundo a Plantão Brasil. Segundo o mercado, pesou o medo com as contas públicas. O Banco Central vendeu dólar, mas a alta não parou.\n\nPela conta do Termômetro, com IOF de 3,5 % e dólar a R$ 5,868, US$ 1 mil saem por cerca de R$ 6.073, sem contar o extra que o banco cobra.\n\nNinguém sabe até onde vai, e a gente não chuta. Tem fatura em dólar ou viagem marcada? Confere com o seu banco qual cotação ele usa.\n\nQuem aqui já comprou em dólar no cartão? Comenta EU.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #dolarhoje #educacaofinanceira #cartaodecredito #termometrodecrise",
+ "hashtags": [
+  "#dolar",
+  "#dolarhoje",
+  "#educacaofinanceira",
+  "#cartaodecredito",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Dólar a R$ 5,87: nem o Banco Central segurou.",
+  "topicos": [
+   "Dólar fechou a R$ 5,87 na quarta, segundo a Plantão Brasil.",
+   "Banco Central vendeu dólar, mas não segurou a alta.",
+   "Com IOF de 3,5 %, US$ 1 mil saem por cerca de R$ 6.073.",
+   "Fatura em dólar? Confere no app qual cotação o banco usa."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente: o dólar subiu de novo na quarta e segue em movimento na quinta.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Na fala \"Cara, US$ 1 mil no cartão: cerca de R$ 6.073\" e em \"Só com ele, são cerca de R$ 6.073\": há dois números na primeira fala e o valor exato é repetido. Fale um número redondo (\"uns R$ 6 mil\") e deixe o exato no cartão da tela. Em \"medo das contas públicas\", traduza na hora: \"medo de o governo gastar mais do que arrecada\".",
+   "Faltou uma comparação viva para o lado sanguíneo. Perto de \"Fora o extra do banco\", compare o imposto com algo do dia a dia, como a taxa extra de uma compra parcelada ou o acréscimo do cartão. Use só o que a fonte permite, sem inventar valor. Troque também \"Fora o extra do banco\" por algo claro, como \"e o banco ainda pode cobrar mais\".",
+   "\"Vai viajar? Separe o que já pagou.\" não se entende de primeira e a saída fica fraca. Reescreva como \"Vai viajar? Veja no app do banco qual cotação ele usa antes de passar o cartão.\" Antes do bordão final, inclua a assinatura padrão: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\""
+  ],
+  "veredito": "A peça abre direto com \\\"Cara\\\", mostra o que pesa no bolso com um passo simples e comentário fácil, e fecha com o bordão certo; falta passar no Teste do CLT (números demais e exatos, \\\"contas públicas\\\" sem tradução), colocar uma comparação do dia a dia e dizer a assinatura com o aviso na fala."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "PAGAMENTO: o R$ 6.073 do gancho só é explicado na 8ª fala, depois de 'Até onde vai? A gente não chuta' e 'Agora, o que pega no bolso'. Quem queria saber de onde vem o número espera demais. Troque 'Na quarta, o dólar fechou a R$ 5,87. / Segundo o mercado, pesou o medo das contas públicas.' por 'Como chega nisso? O dólar fechou a R$ 5,87 na quarta. / Em cima dele entra o IOF, o imposto de 3,5 % na compra em dólar. / Por isso dá uns R$ 6.073.' O resto (BC, contas públicas) vem depois.",
+   "RETENÇÃO: o número forte está todo no gancho, então o meio não segura ninguém. 'Agora, o que pega no bolso.' é uma virada fraca, e 'Fora o extra do banco.' é vaga. Guarde a diferença que a conta já mostra: 'Sem o IOF, seriam uns R$ 5.870. O imposto sozinho soma uns R$ 200. E ainda tem o extra do banco.' Assim a virada é um número novo, com um número por fala.",
+   "ENVIO: 'Vai viajar? Separe o que já pagou.' não se entende de primeira, e o 'Manda pra quem vai' fica sem apoio. Reescreva: 'Vai viajar e vai passar o cartão lá fora? Confere a cotação do banco no app. Manda pra quem vai viajar.'"
+  ],
+  "veredito": "Gancho forte, com número e bolso logo na primeira frase, e fim bom, com envio concreto e gatilho fácil. Falta pagar o R$ 6.073 mais cedo, com o IOF logo depois do gancho, e guardar um número novo para a virada do meio."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow cinematic push-in on the facade of a monumental neoclassical government building with tall stone columns and wide steps, golden-hour light, a few blurred pedestrians far away, flags and signage absent, no text anywhere. Slight handheld sway, shallow depth of field, moody and tense atmosphere",
+   "texto_da_fala": "O Banco Central vendeu dólar, mas não segurou.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow cinematic push-in on the facade of a monumental neoclassical government building with tall stone columns and wide steps, golden-hour light, a few blurred pedestrians far away, flags and signage absent, no text anywhere. Slight handheld sway, shallow depth of field, moody and tense atmosphere. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Close-up of a hand holding a plain dark credit card, with no visible numbers, letters or logos, tapping it on a card machine at a shop counter. The machine screen glows with an abstract green light only. Camera slowly racks focus from the card to the blurred shop interior behind. Warm shop lighting, no faces visible",
+   "texto_da_fala": "O IOF, imposto na compra em dólar, é de 3,5 %.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a hand holding a plain dark credit card, with no visible numbers, letters or logos, tapping it on a card machine at a shop counter. The machine screen glows with an abstract green light only. Camera slowly racks focus from the card to the blurred shop interior behind. Warm shop lighting, no faces visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 10,
+   "visual": "An open suitcase on a bed in a bright bedroom, filled with neatly folded summer clothes, sunglasses, a straw hat and a pair of sandals. Camera glides slowly from left to right and tilts down over the contents, soft morning light from a window, no people, no text, no labels",
+   "texto_da_fala": "Vai viajar? Separe o que já pagou. Manda pra quem vai.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. An open suitcase on a bed in a bright bedroom, filled with neatly folded summer clothes, sunglasses, a straw hat and a pair of sandals. Camera glides slowly from left to right and tilts down over the contents, soft morning light from a window, no people, no text, no labels. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou.\n\nNa quarta, o dólar fechou a R$ 5,87.\n\nSegundo o mercado, pesou o medo das contas públicas.\n\nO Banco Central vendeu dólar, mas não segurou.\n\nAté onde vai? A gente não chuta.\n\nAgora, o que pega no bolso.\n\nO IOF, imposto na compra em dólar, é de 3,5 %.\n\nSó com ele, são cerca de R$ 6.073.\n\nFora o extra do banco.\n\nFatura em dólar? Confere a cotação do banco no app.\n\nVai viajar? Separe o que já pagou. Manda pra quem vai.\n\nQuem já comprou em dólar no cartão? Comenta EU.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+   "destaque": "O Senado aprovou na quarta (18), em dois turnos, o projeto de lei complementar do governo que institui o ajuste fiscal em 2027, depois de…"
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T09:33:35.646880-03:00"
+}
