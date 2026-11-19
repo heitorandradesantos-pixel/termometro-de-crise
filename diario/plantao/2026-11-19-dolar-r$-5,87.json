@@ -1,0 +1,120 @@
+{
+ "titulo": "Dólar passa de R$ 5,78 para R$ 5,87: o que se sabe",
+ "descricao": "Dólar fechou a R$ 5,78 na terça (17), foi a R$ 5,87 na quarta (18) e passou de R$ 5,90 na quinta. Veja o que se sabe e o que muda no seu bolso.",
+ "palavra_chave": "dólar r$ 5,87",
+ "lead": "O dólar fechou a terça-feira (17/11) a R$ 5,78, o maior valor em 19 meses. Na quarta (18/11), subiu mais 1,48 % e fechou a R$ 5,87, segundo a Plantão Brasil. Na manhã de quinta (19/11), passou de R$ 5,90, de acordo com o InfoMoney. Faltam cerca de 1,6 % para R$ 6, número que ninguém consegue garantir que vem.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O dólar comercial fechou a terça-feira (17 de novembro) a R$ 5,7824, alta de 0,10 %, o maior valor de fechamento desde abril de 2025. Na máxima do dia, chegou a R$ 5,8123. Foi a quarta alta seguida.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-fecha-a-r-5-78-e-atinge-maior-nivel-desde-abril-de-2025",
+   "data": "2026-11-17",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "Na segunda-feira (16 de novembro), o dólar já tinha fechado perto de R$ 5,78, depois de subir cerca de 2,17 %. Por isso, a alta pequena de terça não desfez o movimento. Outras fontes apontam 2,15 % e R$ 5,7767 para o mesmo dia; a diferença vem do critério de cada veículo.",
+   "fonte_url": "https://timesbrasil.com.br/brasil/economia-brasileira/dolar-renova-maior-cotacao-em-19-meses-e-chega-a-r-581/",
+   "data": "2026-11-17",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Na quarta (18 de novembro), o dólar subiu pela quinta sessão seguida. Fechou em alta de 1,48 %, a R$ 5,868, o maior valor desde 15 de abril de 2025. Desde o fim do segundo turno das eleições, em 25 de outubro, a moeda acumula alta de 17,60 %.",
+   "fonte_url": "https://monitormercantil.com.br/dolar-sobe-para-r-587-com-expectativa-sobre-votacao-de-ajuste-fiscal",
+   "data": "2026-11-18",
+   "veiculo": "Monitor Mercantil",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo operadores ouvidos pelo Monitor do Mercado, a alta de quarta refletiu preocupação com o ajuste fiscal (o pacote do governo para equilibrar as contas públicas), possível saída de dinheiro estrangeiro do país e mais procura por dólares. A ata do Fed, o banco central dos EUA, reforçou a expectativa de novos aumentos de juros por lá.",
+   "fonte_url": "https://monitordomercado.com.br/noticias/437026-cambio-dolar-avanca-com-impasse-fiscal-e-ata-do-fed",
+   "data": "2026-11-18",
+   "veiculo": "Monitor do Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "Para conter a pressão, o Banco Central fez leilões de linha (venda de dólares com compromisso de recompra) que somaram US$ 1 bilhão na quarta. A medida deu liquidez, mas não impediu a alta. O Ibovespa, principal índice da bolsa, caiu 1,34 %.",
+   "fonte_url": "https://www.plantaobrasil.net/noticias/164374-dolar-atinge-maior-patamar-em-19-meses-sob-pressao-de-juros-nos-eua-e-debate-fiscal",
+   "data": "2026-11-18",
+   "veiculo": "Plantão Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O Senado aprovou na quarta (18), em dois turnos, o projeto de lei complementar do governo que institui o ajuste fiscal em 2027, depois de rejeitar os destaques (propostas de mudança no texto). O projeto segue agora para a Câmara dos Deputados.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+   "data": "2026-11-18",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Na quinta (19 de novembro), às 9h10, o dólar à vista subia 0,64 %, a R$ 5,905 na venda, mesmo após a aprovação no Senado. O valor ainda podia mudar ao longo do dia.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+   "data": "2026-11-19",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Compra internacional no cartão: segundo o Melhor Investimento, o IOF (imposto sobre operações financeiras) está em 3,5 %, e os bancos usam cotação própria, com spread (margem sobre a cotação), então a fatura tende a ser um pouco maior. Uma compra de US$ 1 mil custava R$ 5.847,75 com IOF em 12/11 (dólar a R$ 5,65) e ficou R$ 136,62 mais cara cinco dias depois.",
+   "fonte_url": "https://melhorinvestimento.net/noticias/dolar-hoje-578-maior-valor-19-meses",
+   "data": "2026-11-17",
+   "veiculo": "Melhor Investimento",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Dólar sobe cerca de 2,17 % e fecha perto de R$ 5,78, o maior valor de fechamento desde abril de 2025.",
+   "fonte_url": "https://istoe.com.br/dolar-dispara-578-maior-valor-19-meses",
+   "data": "2026-11-16",
+   "veiculo": "ISTOÉ",
+   "confiavel": false
+  },
+  {
+   "texto": "Dólar fecha a R$ 5,7824 (+0,10 %), na quarta alta seguida.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-fecha-a-r-5-78-e-atinge-maior-nivel-desde-abril-de-2025",
+   "data": "2026-11-17",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "Dólar fecha a R$ 5,868 (+1,48 %); Banco Central faz leilões de linha de US$ 1 bilhão; ata do Fed reforça aposta em juros maiores nos EUA.",
+   "fonte_url": "https://www.plantaobrasil.net/noticias/164374-dolar-atinge-maior-patamar-em-19-meses-sob-pressao-de-juros-nos-eua-e-debate-fiscal",
+   "data": "2026-11-18",
+   "veiculo": "Plantão Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Senado aprova o projeto de ajuste fiscal em dois turnos; texto segue para a Câmara.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+   "data": "2026-11-18",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Dólar passa de R$ 5,90 na manhã de quinta (R$ 5,905 às 9h10).",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+   "data": "2026-11-19",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o dólar chega a R$ 6 até o Natal: ninguém sabe. Nenhuma das fontes consultadas traz essa previsão como fato. Chuta aí nos comentários, SIM ou NÃO, mas é palpite, não projeção.",
+  "Se a Câmara aprova o ajuste fiscal e em que formato. Segundo a Revista Fórum, o relator, deputado Mauro Benevides, disse ter votos para aprovar o texto do governo. Isso é fala dele, não resultado de votação.",
+  "Quem formará a próxima equipe econômica. Segundo a Times Brasil e a Space Money, a indefinição também pesa no câmbio. Não há confirmação oficial sobre o tema nas fontes consultadas.",
+  "O que o Fed fará em dezembro. A ata reforçou a expectativa de alta de juros, segundo o Monitor do Mercado, mas a decisão ainda não foi tomada. O ponto de partida do pedido, 'Fed mantendo juros altos', não é exatamente o que as fontes relatam: elas falam em apostas de novas altas.",
+  "O tamanho do repasse para preços. A gasolina não sobe automaticamente com o dólar e depende da política de preços da Petrobras, segundo a Tribuna PR. Para pão e macarrão, não é possível afirmar que já encareceram por causa da alta recente, segundo o Game Over Drive."
+ ],
+ "o_que_muda_para_voce": [
+  "Compras em dólar ficam mais caras em reais. Pela conta do Termômetro, com IOF de 3,5 % e dólar a R$ 5,868, US$ 1 mil sairiam por cerca de R$ 6.073, sem contar o spread do banco. O IOF informado pelo Melhor Investimento vale desde o decreto de junho de 2025.",
+  "Eletrônicos importados, pão e gasolina podem ficar mais caros com o tempo, e não de uma hora para outra. O trigo (base do pão) é em parte importado, e o petróleo é cotado em dólar, segundo a Tribuna PR. A mesma matéria diz que uma alta passageira tem efeito limitado e uma alta que dura tende a pesar mais.",
+  "Para quem vai viajar: não precisa fechar todos os gastos de uma vez, no susto. Dá para separar o que já tem preço fixo (passagem, hotel pago) do que ainda depende da cotação, e conferir com o banco qual cotação e qual spread ele usa no cartão. Isso é orientação de planejamento, não recomendação de investimento.",
+  "Quem já tem fatura internacional a vencer pode ver o valor mudar, porque o cartão converte pela cotação do dia da cobrança ou do fechamento, conforme as regras do emissor, mais o IOF. Confira com o seu banco."
+ ],
+ "como_se_proteger": [],
+ "slug": "dolar-r$-5,87",
+ "publicado_em": "2026-11-19T09:26:40.155163",
+ "atualizado_em": "2026-11-19T09:26:40.155163",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário: Dólar a R$ 5,78 no fechamento de terça (17/11/2026), maior cotação em 19 meses, depois de subir 2,17% na segunda (Times Brasil/CNBC e Brasil 61, 17/11/2026), com dúvida sobre o ajuste fiscal no Congresso e Fed mantendo juros altos. O que isso muda no bolso: pão, gasolina e eletrônico importado ficam mais caros com o tempo, e a fatura do cartão em compra internacional sobe. Passo calmo para quem vai viajar: não comprar tudo de uma vez no susto. Gatilho: \"Chuta aí: o dólar chega a R$ 6 até o Natal? SIM ou NÃO.\" Sem recomendação de investimento.",
+ "turno": "manha"
+}
