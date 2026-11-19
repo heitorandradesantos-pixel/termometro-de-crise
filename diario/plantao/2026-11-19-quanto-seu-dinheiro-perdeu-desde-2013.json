@@ -1,0 +1,78 @@
+{
+ "titulo": "Quanto seu dinheiro perdeu desde 2013: o que se sabe",
+ "descricao": "R$ 100 de jan/2013 equivalem a cerca de R$ 214 em out/2026, pelo IPCA. Veja o que isso faz com o salário e como conferir na Calculadora do Cidadão.",
+ "palavra_chave": "quanto seu dinheiro perdeu desde 2013",
+ "lead": "O que custava R$ 100 em janeiro de 2013 custa cerca de R$ 214 em outubro de 2026, pelo IPCA, a inflação oficial medida pelo IBGE. É uma alta de cerca de 114%, número que segue o método da Calculadora do Cidadão, do Banco Central. O último IPCA foi divulgado pelo IBGE em 12 de novembro. Se o seu salário subiu menos que isso, ele compra menos hoje.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O IBGE divulgou em 12 de novembro que o IPCA de outubro de 2026 foi de 0,14%. No ano, a inflação oficial soma 4,10%. Em 12 meses, soma 4,63%, acima dos 4,58% dos 12 meses anteriores.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "data": "2026-11-12",
+   "veiculo": "IBGE (Agência de Notícias)",
+   "confiavel": true
+  },
+  {
+   "texto": "O INPC, índice do IBGE que mede a inflação para famílias de 1 a 5 salários mínimos com pessoa de referência assalariada, subiu 0,22% em outubro e 4,49% em 12 meses. O IPCA cobre famílias de 1 a 40 salários mínimos.",
+   "fonte_url": "https://acertodecontas.blog.br/ipca-outubro-2026-impacto-no-bolso/",
+   "data": "2026-11-12",
+   "veiculo": "Acerto de Contas (com dados do IBGE)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Calculadora do Cidadão, do Banco Central, corrige um valor multiplicando-o pelo fator acumulado do IPCA, que junta os índices mensais. Entram na conta o mês inicial e o mês final. Por isso, de janeiro de 2013 a outubro de 2026, o cálculo chega a cerca de 114%: R$ 100 viram cerca de R$ 214.",
+   "fonte_url": "https://www3.bcb.gov.br/CALCIDADAO/publico/metodologiaCorrigirIndice.do?method=metodologiaCorrigirIndice",
+   "data": "2026-11-19",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Calculadora do Cidadão é uma ferramenta pública e gratuita do Banco Central. Na opção Correção de valores, você escolhe o índice (IPCA, do IBGE), informa as datas e o valor, e ela mostra o valor corrigido.",
+   "fonte_url": "https://www3.bcb.gov.br/CALCIDADAO/jsp/ajudaGeralCalCidadao.jsp",
+   "data": "2026-11-19",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Exemplo prático, em conta simples: um salário de R$ 3.000 que nunca foi reajustado desde 2013 teria de ser de cerca de R$ 6.420 hoje para comprar o mesmo. Hoje, os R$ 3.000 compram o que cerca de R$ 1.400 compravam em 2013, uma perda de cerca de 53% do poder de compra. O valor de R$ 3.000 é só ilustração.",
+   "fonte_url": "https://www3.bcb.gov.br/CALCIDADAO/publico/metodologiaCorrigirIndice.do?method=metodologiaCorrigirIndice",
+   "data": "2026-11-19",
+   "veiculo": "Cálculo da redação com o método do Banco Central",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O IBGE divulgou o IPCA de setembro de 2026: 0,82%.",
+   "fonte_url": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+   "data": "2026-10-09",
+   "veiculo": "IBGE",
+   "confiavel": true
+  },
+  {
+   "texto": "O IBGE divulgou o IPCA de outubro de 2026: 0,14% no mês e 4,63% em 12 meses.",
+   "fonte_url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "data": "2026-11-12",
+   "veiculo": "IBGE (Agência de Notícias)",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O resultado exato da Calculadora do Cidadão para jan/2013 a out/2026 não foi confirmado por uma página de resultado do Banco Central. O número de cerca de 114% é conta da redação com o método oficial e pode variar em casas decimais. Confira você mesmo na ferramenta.",
+  "Qual índice reajustou o seu salário não foi confirmado aqui. Isso depende do seu contrato, da sua categoria ou da sua empresa. Alguns reajustes usam o IPCA, outros usam o INPC ou outro índice.",
+  "Se o seu custo de vida subiu igual ao IPCA não dá para dizer. O índice é uma média nacional e não significa que todas as compras ficaram mais caras na mesma proporção. Aluguel, comida e transporte pesam de forma diferente para cada família.",
+  "Qual será o próximo número ainda não se sabe. O IBGE deve divulgar o IPCA de novembro em 11 de dezembro, e o acumulado desde 2013 vai mudar."
+ ],
+ "o_que_muda_para_voce": [
+  "Se o seu salário de 2013 nunca foi reajustado, ele compra hoje bem menos do que antes. A conta é simples: o preço de 2013 multiplicado por cerca de 2,14 dá o preço de hoje.",
+  "O passo simples: entre em bcb.gov.br, abra a Calculadora do Cidadão e escolha Correção de valores pelo IPCA. Use o mês e o valor do seu salário antigo como início e outubro de 2026 como fim. Se o seu salário atual for igual ou maior que o resultado, o reajuste cobriu o IPCA nesse período.",
+  "Para olhar só o último ano, compare o seu reajuste com os 4,63% do IPCA em 12 meses até outubro de 2026. Se o seu reajuste foi menor, o salário perdeu poder de compra nesse intervalo.",
+  "Gatilho para comentar: seu salário acompanhou a inflação? SIM ou NÃO. Conte nos comentários, sem precisar dizer o valor.",
+  "Este texto explica um número oficial. Ele não recomenda comprar, vender nem escolher onde investir."
+ ],
+ "como_se_proteger": [],
+ "slug": "quanto-seu-dinheiro-perdeu-desde-2013",
+ "publicado_em": "2026-11-19T09:09:32.051031",
+ "atualizado_em": "2026-11-19T09:09:32.051031",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) Quanto o seu dinheiro perdeu desde 2013: segundo o IPCA do IBGE (Calculadora do Cidadão do Banco Central, acumulado de janeiro de 2013 a outubro de 2026, cerca de 114%), o que custava R$ 100 em 2013 hoje custa cerca de R$ 214. Mostrar o que isso faz com um salário que não foi reajustado pela inflação e dar o passo simples: conferir na Calculadora do Cidadão (bcb.gov.br) se o seu reajuste cobriu o IPCA. Gatilho: \"Seu salário acompanhou a inflação? SIM ou NÃO.\" Sem recomendação de investimento.",
+ "turno": "manha"
+}
