@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "A economia parou? Prévia do PIB caiu 0,9%, mas \"parou\" é exagero.",
+  "na_tela": "Economia PAROU? Prévia caiu 0,9%",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "A economia parou? Prévia do PIB caiu 0,9%, mas \"parou\" é exagero.",
+   "na_tela": "Economia PAROU? Prévia caiu 0,9%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A prévia do PIB caiu 0,9%, mas a economia está maior que ano passado.",
+   "na_tela": "Caiu 0,9%, mas cresceu 1,4%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Selic em 13,75% e prévia do PIB em queda: o que muda no seu cartão?",
+   "na_tela": "Selic 13,75%: e seu cartão?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "A economia parou? Prévia do PIB caiu 0,9%, mas \"parou\" é exagero.",
+  "Esfriou de verdade: os três grandes setores recuaram, segundo o Banco Central.",
+  "Mas esfriar não é parar, tá?",
+  "A virada: em 12 meses, a prévia ainda soma alta de 1,4%.",
+  "Pensa num carro que tirou o pé: ainda anda, só mais devagar.",
+  "No seu bolso, a Selic segue em 13,75%: cartão e empréstimo continuam caros.",
+  "Calma: espera o PIB oficial, que sai em 2 de dezembro, pelo IBGE.",
+  "Manda pra quem já tá falando em recessão.",
+  "Você sente a economia mais fraca no bolso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "A economia parou? Prévia do PIB caiu 0,9%, mas \"parou\" é exagero. Esfriou de verdade: os três grandes setores recuaram, segundo o Banco Central. Mas esfriar não é parar, tá? A virada: em 12 meses, a prévia ainda soma alta de 1,4%. Pensa num carro que tirou o pé: ainda anda, só mais devagar. No seu bolso, a Selic segue em 13,75%: cartão e empréstimo continuam caros. Calma: espera o PIB oficial, que sai em 2 de dezembro, pelo IBGE. Manda pra quem já tá falando em recessão. Você sente a economia mais fraca no bolso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 107,
+ "segundos": 43,
+ "na_tela": [
+  {
+   "texto": "Economia PAROU? Prévia caiu 0,9%",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Prévia do PIB: -0,9%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 2,
+   "texto": "Esfriar não é parar",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "+1,4% em 12 meses",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Selic: 13,75%",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 6,
+   "texto": "PIB oficial: 2 de dezembro",
+   "fonte": "IBGE"
+  }
+ ],
+ "retomada": 3,
+ "busca": "economia brasileira parou? prévia do PIB",
+ "legenda": "A economia brasileira parou? Prévia do PIB caiu 0,9%, mas \"parou\" é exagero.\n\nSegundo o Banco Central, o IBC-Br, a prévia do PIB, caiu 0,9% no 3º trimestre. Os três grandes setores recuaram. Mas em 12 meses a prévia ainda soma alta de 1,4%: a economia esfriou, não parou.\n\nA Selic segue em 13,75% ao ano, então cartão e empréstimo continuam caros. O PIB oficial, do IBGE, sai em 2 de dezembro. Até lá, calma.\n\nVocê sente a economia mais fraca no bolso? Comenta SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#economia #pib #selic #educacaofinanceira",
+ "hashtags": [
+  "#economia",
+  "#pib",
+  "#selic",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Economia parou? A prévia do PIB caiu 0,9%, mas parar é exagero.",
+  "topicos": [
+   "Segundo o Banco Central, a prévia do PIB caiu 0,9% no trimestre.",
+   "Mas em 12 meses a prévia ainda soma alta de 1,4%: esfriou, não parou.",
+   "Selic segue em 13,75%, segundo o Banco Central: cartão e empréstimo continuam caros.",
+   "Calma: espera o PIB oficial do IBGE, que sai em 2 de dezembro."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e vários números, que pede calma e prova na tela, não urgência de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Prévia do PIB caiu 0,9%, mas 'parou' é exagero\" (e \"os três grandes setores recuaram\"): \"prévia do PIB\" não é traduzida na fala e a fala já traz 0,9%, 1,4% e 13,75%. Traduza na mesma frase (ex.: \"a prévia do PIB, que é um aviso do tamanho da economia antes da conta oficial\") e deixe só um número por fala, com o resto no cartão da tela.",
+   "Frase \"No seu bolso, a Selic segue em 13,75%: cartão e empréstimo continuam caros\": \"Selic\" aparece sem tradução para quem é CLT. Reescreva como \"os juros básicos, a Selic, seguem em 13,75%. Na prática, cartão e empréstimo continuam caros pra você\". Use também \"uns 13,75%\" só se o número exato ficar no cartão.",
+   "Abertura \"A economia parou?\" e frases como \"A virada:\" e \"Calma:\": soam como teleprompter, sem a voz solta do Heitor. Abra com reação de amigo (\"Cara, tá todo mundo dizendo que a economia parou...\") e troque \"A virada:\" por \"E aí vem a parte que pouca gente viu\". Mantenha a comparação do carro, que está boa, e os fatos como estão."
+  ],
+  "veredito": "A peça acerta o essencial: o tom é Sábio de Cara Comum, o carro que tirou o pé serve de comparação, e a Selic e o PIB oficial dão a saída e o próximo passo sem alarde. Falta passar no Teste do CLT, porque \\\"prévia do PIB\\\" e \\\"Selic\\\" ficam sem tradução e há número demais nas falas, e a voz soa mais lida do que falada pelo Heitor."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"A economia parou? Prévia do PIB caiu 0,9%, mas 'parou' é exagero.\" entrega a resposta na 1ª frase e usa 'prévia do PIB', termo que o CLT não conhece. Reescrita: \"Tá todo mundo dizendo que a economia parou. O Banco Central mostrou que ela caiu 0,9%. Mas parou mesmo?\"",
+   "Selic sem tradução: \"No seu bolso, a Selic segue em 13,75%: cartão e empréstimo continuam caros.\" Reescrita: \"No seu bolso, o juro básico do país, a Selic, segue em 13,75%. Cartão e empréstimo continuam caros.\"",
+   "Jargão e vaguidão na fala 2: \"Esfriou de verdade: os três grandes setores recuaram, segundo o Banco Central.\" Reescrita: \"Esfriou de verdade, tá? Indústria, comércio e serviços recuaram, segundo o Banco Central.\" Só use se os três setores forem esses na fonte; senão, mantenha 'os três grandes setores'."
+  ],
+  "veredito": "Roteiro bem pago, com virada, envio concreto e SIM/NÃO; o gancho entrega a resposta de cara e o jargão (prévia do PIB, Selic) pode fazer o CLT sair antes da virada."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "shot, : an industrial area at dawn with a quiet factory, a grain silo, and a distant shopping district, seen from a slow drone pass. Thin mist hangs over the rooftops and only a few lights are on, suggesting a cooled-down economy. Camera glides forward and pans gently left. No recognizable people, no text, no signage, no logos",
+   "texto_da_fala": "Esfriou de verdade: os três grandes setores recuaram, segundo o Banco Central.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : an industrial area at dawn with a quiet factory, a grain silo, and a distant shopping district, seen from a slow drone pass. Thin mist hangs over the rooftops and only a few lights are on, suggesting a cooled-down economy. Camera glides forward and pans gently left. No recognizable people, no text, no signage, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "shot, : a silver compact car seen from behind driving slowly along an empty highway at golden hour, brake lights faintly glowing as it eases off the accelerator. Camera starts low behind the car and slowly tracks forward, then rises in a gentle crane move. No people visible, no license plate, no text, no logos",
+   "texto_da_fala": "Pensa num carro que tirou o pé: ainda anda, só mais devagar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : a silver compact car seen from behind driving slowly along an empty highway at golden hour, brake lights faintly glowing as it eases off the accelerator. Camera starts low behind the car and slowly tracks forward, then rises in a gentle crane move. No people visible, no license plate, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "shot, : extreme close-up of a blank plastic credit card and a small stack of coins resting on a wooden table next to a closed envelope, soft window light. Camera performs a slow push-in with shallow depth of field, then drifts sideways. No faces, no text, no numbers, no logos, no brand marks",
+   "texto_da_fala": "No seu bolso, a Selic segue em 13,75%: cartão e empréstimo continuam caros.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : extreme close-up of a blank plastic credit card and a small stack of coins resting on a wooden table next to a closed envelope, soft window light. Camera performs a slow push-in with shallow depth of field, then drifts sideways. No faces, no text, no numbers, no logos, no brand marks. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "A economia parou? Prévia do PIB caiu 0,9%, mas \"parou\" é exagero.\n\nEsfriou de verdade: os três grandes setores recuaram, segundo o Banco Central.\n\nMas esfriar não é parar, tá?\n\nA virada: em 12 meses, a prévia ainda soma alta de 1,4%.\n\nPensa num carro que tirou o pé: ainda anda, só mais devagar.\n\nNo seu bolso, a Selic segue em 13,75%: cartão e empréstimo continuam caros.\n\nCalma: espera o PIB oficial, que sai em 2 de dezembro, pelo IBGE.\n\nManda pra quem já tá falando em recessão.\n\nVocê sente a economia mais fraca no bolso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao",
+   "destaque": "O Copom, comitê do Banco Central que define os juros, manteve a Selic em 13,75% ao ano em 4 de novembro, por unanimidade."
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T06:32:20.606454-03:00"
+}
