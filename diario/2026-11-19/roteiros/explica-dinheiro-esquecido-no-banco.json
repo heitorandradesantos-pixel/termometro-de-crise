@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Número + pergunta de bolso (seu)",
+  "texto": "R$ 6,03 bilhões esquecidos no banco. Pode ter um pouco seu.",
+  "na_tela": "R$ 6,03 bi esquecidos no banco",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + pergunta de bolso (seu)",
+   "texto": "R$ 6,03 bilhões esquecidos no banco. Pode ter um pouco seu.",
+   "na_tela": "R$ 6,03 bi esquecidos no banco",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Gente saca, e mesmo assim o dinheiro esquecido no banco só sobe.",
+   "na_tela": "Saca, e mesmo assim sobe",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Reação do Heitor com número",
+   "texto": "Cara, R$ 6,03 bilhões esquecidos no banco. Olha que loucura!",
+   "na_tela": "R$ 6,03 bilhões esquecidos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 6,03 bilhões esquecidos no banco. Pode ter um pouco seu.",
+  "Segundo o Banco Central, o total subiu pelo terceiro mês seguido.",
+  "Sobe porque entra valor novo mais rápido do que o povo saca.",
+  "E olha o tamanho: 69,51% dos casos são de até R$ 10.",
+  "É tipo troco esquecido no bolso da calça, mas 2,25% passam de R$ 1 mil.",
+  "Consulta é de graça, no site Valores a Receber, do Banco Central.",
+  "O Banco Central não manda link nem liga: quem cobra pra liberar é golpe.",
+  "Manda pra quem já teve conta em banco, consórcio ou cooperativa.",
+  "Já consultou? Comenta ACHEI ou NADA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 6,03 bilhões esquecidos no banco. Pode ter um pouco seu. Segundo o Banco Central, o total subiu pelo terceiro mês seguido. Sobe porque entra valor novo mais rápido do que o povo saca. E olha o tamanho: 69,51% dos casos são de até R$ 10. É tipo troco esquecido no bolso da calça, mas 2,25% passam de R$ 1 mil. Consulta é de graça, no site Valores a Receber, do Banco Central. O Banco Central não manda link nem liga: quem cobra pra liberar é golpe. Manda pra quem já teve conta em banco, consórcio ou cooperativa. Já consultou? Comenta ACHEI ou NADA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 6,03 bi esquecidos no banco",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 6,03 bilhões (set/2026)",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "Entra mais do que sai",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "69,51% até R$ 10",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "2,25% passam de R$ 1 mil",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 5,
+   "texto": "valoresareceber.bcb.gov.br",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 6,
+   "texto": "Cobrou para liberar? É golpe",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dinheiro esquecido no banco como consultar",
+ "legenda": "Dinheiro esquecido no banco: como consultar sem cair em golpe.\n\nSegundo o Banco Central, divulgado em 10 de novembro, R$ 6,03 bilhões esperam resgate no Sistema Valores a Receber. O dado é de setembro de 2026 e o total subiu pelo terceiro mês seguido. Na maioria dos casos, 69,51%, o valor é de até R$ 10. Em 2,25%, passa de R$ 1 mil.\n\nA consulta é grátis, só em valoresareceber.bcb.gov.br, com CPF ou CNPJ. Digite o endereço você mesmo e não clique em link recebido por mensagem. O Banco Central não manda link nem liga. Quem cobra taxa para liberar o dinheiro está aplicando golpe.\n\nJá consultou? Comenta ACHEI ou NADA.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dinheiroesquecido #bancocentral #valoresareceber #educacaofinanceira #golpe",
+ "hashtags": [
+  "#dinheiroesquecido",
+  "#bancocentral",
+  "#valoresareceber",
+  "#educacaofinanceira",
+  "#golpe"
+ ],
+ "rua": {
+  "gancho": "R$ 6,03 bilhões esquecidos no banco. Pode ter um pouco seu.",
+  "topicos": [
+   "Banco Central: R$ 6,03 bilhões esperam resgate, dado de setembro de 2026.",
+   "Agência Brasil: 69,51% até R$ 10; só 2,25% passam de R$ 1 mil.",
+   "Consulta é grátis no site do Banco Central; quem cobra pra liberar é golpe."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários números e alerta de golpe, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"E olha o tamanho: 69,51% dos casos são de até R$ 10\" tem dois números exatos numa fala só. Reescreva com um número redondo: \"Quase 7 em cada 10 são de até R$ 10\". O 69,51% exato fica no cartão da tela.",
+   "\"É tipo troco esquecido no bolso da calça, mas 2,25% passam de R$ 1 mil\" mistura a comparação com outro número, e o \"mas\" confunde. Separe em duas falas: \"É tipo troco esquecido no bolso da calça.\" e depois \"Mas tem gente com mais: uns 2 em cada 100 passam de R$ 1 mil.\" O 2,25% fica no cartão.",
+   "\"R$ 6,03 bilhões esquecidos no banco. Pode ter um pouco seu.\" soa como manchete lida, e o fim não traz a apresentação e o aviso da casa. Abra com a reação do Heitor: \"Cara, olha que loucura: uns R$ 6 bilhões esquecidos no banco. Pode ter um pouco seu.\" Antes do bordão, acrescente: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\""
+  ],
+  "veredito": "A peça acerta o essencial: fala do bolso, dá o passo (consulta grátis), avisa do golpe com saída e fecha com o bordão certo. Falta soar como o Heitor falando (abrir com espanto, apresentação e aviso no fim) e passar no Teste do CLT, com um número redondo por fala."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Pagamento: a resposta ao 'pode ter um pouco seu' (como consultar) só chega na 6ª frase, depois de uns 20 s. Suba para logo após o gancho: 'Consulta é de graça, no site Valores a Receber, do Banco Central.' Depois vêm o total subindo e o tamanho dos casos.",
+   "Retenção/Teste do CLT: 'E olha o tamanho: 69,51% dos casos são de até R$ 10. É tipo troco esquecido no bolso da calça, mas 2,25% passam de R$ 1 mil.' tem número demais e a virada passa batida. Reescreva: 'Quase 7 em cada 10 são de até R$ 10. Troco de bolso. Mas tem um detalhe: 2,25% passam de R$ 1 mil.' O exato (69,51%) fica no cartão da tela.",
+   "Retenção: 'Sobe porque entra valor novo mais rápido do que o povo saca.' é uma frase explicativa que freia o ritmo logo antes da virada. Enxugue para 'Subiu pelo terceiro mês seguido, segundo o Banco Central.' e deixe a explicação na legenda."
+  ],
+  "veredito": "Gancho forte (número do bolso e 'pode ter um pouco seu'), com fim bom para envio e comentário; falta pagar o como consultar antes e deixar os números mais fáceis de ouvir, com a virada do R$ 1 mil bem marcada."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Vertical close-up of an old pair of faded denim pants hanging on a chair, a few worn coins and crumpled small paper notes spilling from the front pocket onto a wooden floor, warm natural window light, slow handheld push-in toward the pocket, shallow depth of field, no people, no text",
+   "texto_da_fala": "É tipo troco esquecido no bolso da calça, mas 2,25% passam de R$ 1 mil.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up of an old pair of faded denim pants hanging on a chair, a few worn coins and crumpled small paper notes spilling from the front pocket onto a wooden floor, warm natural window light, slow handheld push-in toward the pocket, shallow depth of field, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot of a hand-held smartphone seen from behind over a tidy home desk, the screen showing a blurred generic website interface with no readable text or logos, a finger gently scrolling, soft daylight, slow dolly-in from over the shoulder, no face visible",
+   "texto_da_fala": "Consulta é de graça, no site Valores a Receber, do Banco Central.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of a hand-held smartphone seen from behind over a tidy home desk, the screen showing a blurred generic website interface with no readable text or logos, a finger gently scrolling, soft daylight, slow dolly-in from over the shoulder, no face visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Vertical slow tracking shot along a quiet bank branch counter and a row of closed teller windows, then drifting to a drawer with old paper folders and a worn passbook-style booklet with a blank cover, soft warm indoor lighting, gentle parallax movement, no people, no text",
+   "texto_da_fala": "Manda pra quem já teve conta em banco, consórcio ou cooperativa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical slow tracking shot along a quiet bank branch counter and a row of closed teller windows, then drifting to a drawer with old paper folders and a worn passbook-style booklet with a blank cover, soft warm indoor lighting, gentle parallax movement, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 6,03 bilhões esquecidos no banco. Pode ter um pouco seu.\n\nSegundo o Banco Central, o total subiu pelo terceiro mês seguido.\n\nSobe porque entra valor novo mais rápido do que o povo saca.\n\nE olha o tamanho: 69,51% dos casos são de até R$ 10.\n\nÉ tipo troco esquecido no bolso da calça, mas 2,25% passam de R$ 1 mil.\n\nConsulta é de graça, no site Valores a Receber, do Banco Central.\n\nO Banco Central não manda link nem liga: quem cobra pra liberar é golpe.\n\nManda pra quem já teve conta em banco, consórcio ou cooperativa.\n\nJá consultou? Comenta ACHEI ou NADA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dinheiro-esquecido-no-sistema-financeiro-ultrapassa-r-6-bilhoes",
+   "destaque": "O Banco Central informou em 10/11 que R$ 6,03 bilhões seguem disponíveis para saque."
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T06:56:50.433068-03:00"
+}
