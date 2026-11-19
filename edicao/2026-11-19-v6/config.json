@@ -1,0 +1,16 @@
+{
+ "saida": "carro-dolar-editado.mp4",
+ "fim": 68.5,
+ "remover": [],
+ "destaques": "\\d|dólar|s&p|zero|graça|comenta",
+ "nomes": ["BMW", "X5", "H6", "S&P 500"],
+ "corrigir": [],
+ "cartoes": [
+  [0.8, 8.8, "Carro pago com a *alta do dólar*", "História pessoal do Heitor"],
+  [23.3, 29.5, "Comprou dólar a *R$ 4,98*", "Dólar em 23/10/2026: R$ 4,98 (CNN Brasil)"],
+  [40.5, 47.0, "*S&P 500*: bolsa dos EUA", "Tem risco: sobe e desce com o mercado"],
+  [47.9, 54.5, "Hoje: *R$ 5,94* (cerca de *+19%*)", "Fonte: fechamento de 19/11/2026 (TMC)"],
+  [55.0, 60.0, "BC vendeu *US$ 1 bilhão* e o dólar subiu", "Quem vendeu foi o Banco Central (InfoMoney, 18/11/2026)"],
+  [60.7, 66.0, "Aonde isso vai parar? *Comenta aqui*", ""]
+ ]
+}
