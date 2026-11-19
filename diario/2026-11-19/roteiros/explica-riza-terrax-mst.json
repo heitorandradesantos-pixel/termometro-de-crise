@@ -1,0 +1,205 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso + número",
+  "texto": "Se você tem cota do Riza Terrax, olha isso: a fazenda caiu 42% no papel.",
+  "na_tela": "Fazenda caiu 42% no papel",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso + número",
+   "texto": "Se você tem cota do Riza Terrax, olha isso: a fazenda caiu 42% no papel.",
+   "na_tela": "Fazenda caiu 42% no papel",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A fazenda do Riza Terrax caiu 42% no papel, e não foi invasão.",
+   "na_tela": "Caiu 42%. Invasão?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Sua cota de fundo de fazenda perdeu R$ 2,65 no papel. Entenda.",
+   "na_tela": "Cota perdeu R$ 2,65",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Se você tem cota do Riza Terrax, olha isso: a fazenda caiu 42% no papel.",
+  "Nas matérias que consultei, não foi invasão: quem alugava parou de pagar.",
+  "O fundo desfez o contrato e fechou um acordo.",
+  "Resultado: a fazenda perdeu 42% do valor no papel.",
+  "Calma: é ajuste no papel, não dinheiro que saiu do fundo.",
+  "Casa alugada: o morador não paga, o dono refaz o contrato, ela vale menos.",
+  "O novo aluguel é menor. O efeito, ninguém detalhou.",
+  "Tem alguém com cota de fundo de fazenda? Manda pra ele, sério.",
+  "Desconfie de boato sem fonte.",
+  "Fundo de fazenda também leva calote. Comenta SABIA ou NÃO SABIA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Se você tem cota do Riza Terrax, olha isso: a fazenda caiu 42% no papel. Nas matérias que consultei, não foi invasão: quem alugava parou de pagar. O fundo desfez o contrato e fechou um acordo. Resultado: a fazenda perdeu 42% do valor no papel. Calma: é ajuste no papel, não dinheiro que saiu do fundo. Casa alugada: o morador não paga, o dono refaz o contrato, ela vale menos. O novo aluguel é menor. O efeito, ninguém detalhou. Tem alguém com cota de fundo de fazenda? Manda pra ele, sério. Desconfie de boato sem fonte. Fundo de fazenda também leva calote. Comenta SABIA ou NÃO SABIA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Fazenda caiu 42% no papel",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nenhuma matéria cita invasão",
+   "fonte": "Money Times"
+  },
+  {
+   "fala": 2,
+   "texto": "Acordo divulgado em 13/11",
+   "fonte": "Money Times"
+  },
+  {
+   "fala": 3,
+   "texto": "-42%: R$ 118,3 milhões → R$ 68,4 milhões",
+   "fonte": "Money Times"
+  },
+  {
+   "fala": 4,
+   "texto": "Ajuste no papel, não saída de caixa",
+   "fonte": "Melhor Investimento"
+  },
+  {
+   "fala": 6,
+   "texto": "Novo aluguel: R$ 2,74 milhões em 2027. Antigo: R$ 8,4 milhões por ano",
+   "fonte": "Suno Notícias"
+  },
+  {
+   "fala": 7,
+   "texto": "Cota: -R$ 2,65 no papel",
+   "fonte": "Money Times"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Riza Terrax MST: fazendas ocupadas? O que se sabe",
+ "legenda": "Riza Terrax MST: fazendas ocupadas? O que se sabe.\n\nCircula nas redes que o MST ocupou as fazendas do fundo. Nos comunicados e nas matérias que consultamos (Money Times, Seu Dinheiro, Suno Notícias, BTG Pactual, Melhor Investimento), nenhuma cita ocupação. O caso é de contrato: quem alugava a Fazenda Bom Jardim (GO) deixou de pagar, o fundo desfez o contrato e um acordo foi divulgado em 13 de novembro.\n\nO acordo cortou em 42% o valor da fazenda no papel, de R$ 118,3 milhões para R$ 68,4 milhões. Segundo o Melhor Investimento, isso é ajuste de valor, não saída de caixa desse valor. Por cota, o patrimônio cai R$ 2,65.\n\nO que ainda não se sabe: quem começou o boato, quanto da queda das cotas vem só deste caso e se o novo arrendatário vai pagar em dia.\n\nPasso calmo: desconfie de boato sem fonte e confira o comunicado oficial do fundo. Manda para quem tem cota de fundo de fazenda.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#rizaterrax #fundoimobiliario #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#rizaterrax",
+  "#fundoimobiliario",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cota de fundo de fazenda? A Bom Jardim perdeu 42% no papel.",
+  "topicos": [
+   "Nenhuma matéria que consultei cita invasão. Quem alugava a fazenda parou de pagar.",
+   "Money Times: a fazenda caiu 42% no papel, de R$ 118,3 milhões.",
+   "Segundo o Melhor Investimento, é ajuste no papel, não dinheiro que saiu do caixa.",
+   "O que fazer: desconfie de boato sem fonte e confira o comunicado do fundo."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação de boato com contexto e vários números, que pede calma e prova na tela, não notícia de urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Se você tem cota do Riza Terrax, olha isso: a fazenda caiu 42% no papel.\" e \"Resultado: a fazenda perdeu 42% do valor no papel.\": o gancho e o resultado repetem a mesma ideia e o mesmo número sem ganho. Reescreva o gancho com espanto de conversa (\"Cara, você viu esse boato de que o MST ocupou as fazendas do fundo?\") e use o resultado só para o que ainda não foi dito, deixando o 42% para uma fala só.",
+   "Frase \"Calma: é ajuste no papel, não dinheiro que saiu do fundo.\" e \"O novo aluguel é menor. O efeito, ninguém detalhou.\": falta traduzir o que isso muda para quem tem cota e dar o passo simples dentro da fala. \"Ajuste no papel\" e \"cota\" ficam soltos para quem não investe. Troque por algo como \"a cota vale menos no papel, mas ninguém levou dinheiro da sua conta\" e feche com o passo: \"abra o comunicado oficial do fundo\". Hoje o passo só está na legenda.",
+   "Frase \"Casa alugada: o morador não paga, o dono refaz o contrato, ela vale menos.\" e \"Desconfie de boato sem fonte.\": a comparação está boa, mas é seca e vem em lista. Dê uma ordem direta e viva (\"É como a casa alugada: o inquilino para de pagar, o dono refaz o contrato e o imóvel passa a valer menos\"). Em \"Desconfie de boato sem fonte\", diga qual boato (o da ocupação) para soar como aviso do vizinho, não como sermão."
+  ],
+  "veredito": "A peça desmonta o boato sem acusar ninguém, com a saída da calma e com a comparação da casa alugada. Falta traduzir \\\"ajuste no papel\\\" e \\\"cota\\\", tirar a repetição do 42% e pôr o passo prático na fala, não só na legenda."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Se você tem cota do Riza Terrax, olha isso: a fazenda caiu 42% no papel.\" Só fala com quem já tem cota, e o nome do fundo não diz nada para quem não conhece. A curiosidade do boato atinge mais gente. Reescrita: \"Uma fazenda de fundo perdeu 42% do valor. Circula que foi invasão. Fui conferir.\" Mesmo número, e o vídeo conta o que as matérias dizem.",
+   "Retenção: \"Desconfie de boato sem fonte\" fala de um boato que o vídeo nunca apresentou, e \"Resultado: a fazenda perdeu 42% do valor no papel\" repete o gancho. Troque a fala 2 por: \"Circula que o MST invadiu. Nas matérias que consultei, ninguém cita invasão: quem alugava parou de pagar.\" Troque a fala 4 por: \"Por cota, são R$ 2,65 a menos no papel.\" Assim entra um número novo, que dá para mostrar para alguém, no lugar da repetição.",
+   "Retenção (Teste do CLT): \"Calma: é ajuste no papel, não dinheiro que saiu do fundo\" ainda usa jargão. Reescrita: \"Calma: o fundo refez a conta do valor da fazenda. Esse dinheiro não saiu do caixa.\" A comparação da casa alugada que vem logo depois fica mais fácil de entender."
+  ],
+  "veredito": "Roteiro honesto, com pagamento rápido e fim que puxa comentário, mas o gancho só chama quem já tem cota e o boato que justifica o vídeo só aparece na legenda; abrir pelo boato e trocar a repetição do 42% pelo R$ 2,65 por cota deixa o vídeo pronto para viralizar."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "cinematic drone shot slowly flying forward over a large Brazilian farm at golden hour, rows of crops and a dirt road, a closed wooden farm gate in the foreground, no people, no text, no signs, realistic",
+   "texto_da_fala": "Nas matérias que consultei, não foi invasão: quem alugava parou de pagar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Cinematic drone shot slowly flying forward over a large Brazilian farm at golden hour, rows of crops and a dirt road, a closed wooden farm gate in the foreground, no people, no text, no signs, realistic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "slow dolly-in on a wooden desk in a quiet office, blank unmarked sheets of paper, a pen and a set of farm keys resting on top, soft window light, no people, no text, no logos, realistic",
+   "texto_da_fala": "O fundo desfez o contrato e fechou um acordo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in on a wooden desk in a quiet office, blank unmarked sheets of paper, a pen and a set of farm keys resting on top, soft window light, no people, no text, no logos, realistic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "slow push-in toward a modest rented house with a closed front door, empty porch, a dry potted plant and an empty mailbox, overcast afternoon light, no people, no text, no numbers, realistic",
+   "texto_da_fala": "Casa alugada: o morador não paga, o dono refaz o contrato, ela vale menos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in toward a modest rented house with a closed front door, empty porch, a dry potted plant and an empty mailbox, overcast afternoon light, no people, no text, no numbers, realistic. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Se você tem cota do Riza Terrax, olha isso: a fazenda caiu 42% no papel.\n\nNas matérias que consultei, não foi invasão: quem alugava parou de pagar.\n\nO fundo desfez o contrato e fechou um acordo.\n\nResultado: a fazenda perdeu 42% do valor no papel.\n\nCalma: é ajuste no papel, não dinheiro que saiu do fundo.\n\nCasa alugada: o morador não paga, o dono refaz o contrato, ela vale menos.\n\nO novo aluguel é menor. O efeito, ninguém detalhou.\n\nTem alguém com cota de fundo de fazenda? Manda pra ele, sério.\n\nDesconfie de boato sem fonte.\n\nFundo de fazenda também leva calote. Comenta SABIA ou NÃO SABIA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/fundo-imobiliario-do-agronegocio-rescinde-contrato-de-fazenda-apos-inadimplencia-ifix-recua-igdl/",
+   "destaque": "Nenhum comunicado nem matéria consultada pelo Plantão cita ocupação ou invasão."
+  },
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/fii-encerra-disputa-judicial-e-tera-impacto-negativo-de-r-265-por-cota-ifix-se-recupera-jcav/",
+   "destaque": "O fundo comprou a fazenda em março de 2024 por R$ 60 milhões, no modelo sale and leaseback: o dono vende a terra e segue usando, pagando…"
+  },
+  {
+   "veiculo": "Seu Dinheiro",
+   "url": "https://www.seudinheiro.com/2026/bolsa-dolar/riza-terrax-rztr11-rescinde-contrato-de-fazenda-apos-calote-entenda-o-impacto-no-bolso-do-cotista-davs/",
+   "destaque": "Segundo o Seu Dinheiro, o arrendatário não regularizou a dívida no prazo, e isso encerrou o arrendamento e a opção de compra."
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T06:27:28.251401-03:00"
+}
