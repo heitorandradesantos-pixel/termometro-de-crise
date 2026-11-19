@@ -1,3 +1,4 @@
+import re
 """Termômetro Mundial: um termômetro por país e por região (protótipo v1).
 
 Para cada país, três sinais de estresse, todos mensais:
@@ -325,7 +326,8 @@ def picos(serie: pd.Series, quem: str, regiao: str | None = None, n: int = 3, mi
 
 
 def slug(nome: str) -> str:
-    return arquivo(nome).replace("_", "-").replace("(", "").replace(")", "")
+    feito = arquivo(nome).replace("_", "-").replace("(", "").replace(")", "")
+    return re.sub(r"-{2,}", "-", re.sub(r"[^A-Za-z0-9-]", "", feito))
 
 
 def calcular(pasta: Path) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
