@@ -1,0 +1,198 @@
+{
+ "gancho": {
+  "formula": "Cena no meio",
+  "texto": "Segunda, 16/11, o Tesouro depositou juros na conta de quem tem esse título.",
+  "na_tela": "Tesouro pagou juros em 16/11",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio",
+   "texto": "Segunda, 16/11, o Tesouro depositou juros na conta de quem tem esse título.",
+   "na_tela": "Tesouro pagou juros em 16/11",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem te paga juros de seis em seis meses?",
+   "na_tela": "Quem te paga juros?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Esse título do Tesouro paga salário na sua conta. Mas o primeiro vem com desconto.",
+   "na_tela": "Paga salário, mas com desconto",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Segunda, 16/11, o Tesouro depositou juros na conta de quem tem esse título.",
+  "É o Tesouro IPCA+ com Juros Semestrais, o que paga salário.",
+  "A cada seis meses, os juros caem na sua conta.",
+  "O valor aplicado só volta no fim, corrigido pela inflação.",
+  "Mas olha o detalhe: o Imposto de Renda já sai de cada pagamento.",
+  "O primeiro pode ter desconto de 22,5%, fora a taxa de custódia.",
+  "Quanto sobra depende de quando comprou: confira no extrato da corretora.",
+  "Manda pra quem tem esse título e não sabe quando cai.",
+  "Você prefere receber a cada seis meses ou acumular? Comenta 1 ou 2.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Segunda, 16/11, o Tesouro depositou juros na conta de quem tem esse título. É o Tesouro IPCA+ com Juros Semestrais, o que paga salário. A cada seis meses, os juros caem na sua conta. O valor aplicado só volta no fim, corrigido pela inflação. Mas olha o detalhe: o Imposto de Renda já sai de cada pagamento. O primeiro pode ter desconto de 22,5%, fora a taxa de custódia. Quanto sobra depende de quando comprou: confira no extrato da corretora. Manda pra quem tem esse título e não sabe quando cai. Você prefere receber a cada seis meses ou acumular? Comenta 1 ou 2. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Tesouro pagou juros em 16/11",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Tesouro IPCA+ com Juros Semestrais",
+   "fonte": "Tesouro Direto"
+  },
+  {
+   "fala": 2,
+   "texto": "Juros a cada seis meses",
+   "fonte": "Tesouro Direto"
+  },
+  {
+   "fala": 3,
+   "texto": "Principal volta no vencimento",
+   "fonte": "Tesouro Direto"
+  },
+  {
+   "fala": 4,
+   "texto": "IR na fonte em cada pagamento",
+   "fonte": "B3 Educação"
+  },
+  {
+   "fala": 5,
+   "texto": "Primeiro cupom: IR de até 22,5%",
+   "fonte": "B3 Educação"
+  },
+  {
+   "fala": 6,
+   "texto": "Líquido depende da data da compra",
+   "fonte": "Tesouro Direto"
+  },
+  {
+   "fala": 7,
+   "texto": "Manda pra quem tem Tesouro"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Tesouro IPCA+ com juros semestrais: como funciona o cupom",
+ "legenda": "Tesouro IPCA+ com juros semestrais: como funciona o cupom?\n\nNa segunda-feira, 16/11, os títulos com vencimento em maio pagaram o cupom, segundo a Rankia. É o título que \"paga salário\": a cada seis meses os juros caem na conta, e o valor aplicado volta só no fim, corrigido pela inflação.\n\nO detalhe: cada pagamento já vem com Imposto de Renda na fonte, e o primeiro pode chegar a 22,5%, segundo a B3 Educação. Tem ainda a taxa de custódia. O valor que sobra depende da data em que você comprou.\n\nConfira o valor exato no extrato da corretora ou no Tesouro Direto.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#tesourodireto #tesouroipca #rendafixa #educacaofinanceira",
+ "hashtags": [
+  "#tesourodireto",
+  "#tesouroipca",
+  "#rendafixa",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Segunda, 16/11, o Tesouro depositou juros na conta de muita gente.",
+  "topicos": [
+   "Segundo o Tesouro Direto, esse título paga juros a cada seis meses.",
+   "Em 16/11, os que vencem em maio pagaram o cupom, segundo a Rankia.",
+   "Segundo a B3 Educação, o primeiro cupom pode pagar 22,5% de IR.",
+   "Confira o valor exato no extrato da corretora ou no Tesouro Direto."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação de como o título funciona, com imposto e regras que pedem calma e prints na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 1,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho \"Segunda, 16/11, o Tesouro depositou juros na conta de quem tem esse título\": soa como manchete lida e traz data e nome de título juntos. Abra com a reação e a pergunta de bolso, sem fato novo: \"Cara, na segunda, dia 16, caiu juro do Tesouro na conta de muita gente. Será que na sua também?\". Deixe a data exata no cartão da tela.",
+   "Frases \"É o Tesouro IPCA+ com Juros Semestrais, o que paga salário\" e \"fora a taxa de custódia\": não passam no Teste do CLT. Traduza na mesma frase: \"É aquele título do Tesouro que paga juros na sua conta de seis em seis meses, tipo um salário extra\". Troque \"taxa de custódia\" por \"uma taxa de guarda do título\" e tire \"corrigido pela inflação\" ou explique: \"o valor guardado acompanha a alta dos preços\".",
+   "Frase \"O primeiro pode ter desconto de 22,5%\": \"o primeiro\" fica solto e a fonte só aparece na legenda. Reescreva em ordem direta: \"O imposto sai antes de cair na conta. No primeiro pagamento, pode chegar a 22,5%. Isso é o que diz a B3 Educação, não sou eu\". Ponha o nome da fonte no cartão e diga na fala só \"segundo a B3\". Feche com a apresentação e o aviso da casa (\"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\") antes do bordão."
+  ],
+  "veredito": "A peça acerta nos gatilhos (perda de imposto com a saída de conferir o extrato, identificação e comentário fácil) e fecha com o bordão, mas abre como manchete, usa jargão sem tradução (IPCA+, juros semestrais, custódia, corrigido pela inflação) e falta o aviso da casa e a fonte dita na fala."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho (\"Segunda, 16/11, o Tesouro depositou juros na conta de quem tem esse título.\"): parece manchete e só interessa a quem já tem o título. Reescrita: \"Tem título do Tesouro que paga 'salário' na sua conta, de seis em seis meses. Segunda, 16/11, caiu.\" O 22,5% fica guardado para a virada.",
+   "Retenção (\"É o Tesouro IPCA+ com Juros Semestrais, o que paga salário.\" e \"fora a taxa de custódia\"): o nome do título e o termo técnico fazem a pessoa sair. Reescrita: \"Tem nome comprido, mas é o título que paga salário.\" E: \"O primeiro pagamento pode perder até 22,5% em Imposto de Renda. Ainda tem uma taxa da corretora.\" A palavra \"corrigido pela inflação\" pode virar \"o valor volta no fim, ajustado pela inflação, que é o aumento dos preços\".",
+   "Envio (\"Manda pra quem tem esse título e não sabe quando cai.\"): a situação é concreta, mas falta o número para mostrar. Reescrita: \"Manda pra quem tem esse título: o primeiro pagamento pode vir com até 22,5% de Imposto de Renda já descontado.\" Assim o envio carrega o número mais forte do vídeo."
+  ],
+  "veredito": "O gatilho de comentário \\\"1 ou 2\\\" está bom e a virada \\\"Mas olha o detalhe\\\" existe, mas o gancho abre com manchete e nome técnico de título, e o 22,5% (o número que dá para mostrar) fica escondido no meio, então quem não tem o título rola antes de chegar nele."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Vertical shot, slow top-down camera push-in over a wooden desk where a smartphone screen glows with a generic blank banking app showing a soft green notification pulse, next to a small paper calendar page turning slowly, warm natural window light, no text, no readable characters, no faces",
+   "texto_da_fala": "A cada seis meses, os juros caem na sua conta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow top-down camera push-in over a wooden desk where a smartphone screen glows with a generic blank banking app showing a soft green notification pulse, next to a small paper calendar page turning slowly, warm natural window light, no text, no readable characters, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow dolly forward along a heavy steel vault door slightly opening in a quiet bank vault, rows of safe deposit boxes with soft light spilling out, golden coins stacked on a shelf in the foreground, cinematic lighting, no text, no people",
+   "texto_da_fala": "O valor aplicado só volta no fim, corrigido pela inflação.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly forward along a heavy steel vault door slightly opening in a quiet bank vault, rows of safe deposit boxes with soft light spilling out, golden coins stacked on a shelf in the foreground, cinematic lighting, no text, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Vertical shot, camera slowly gliding over a tidy desk with a printed financial statement sheet of blurred abstract lines, a pen, reading glasses and a calculator, warm lamp light, shallow depth of field, hands not shown, no readable text, no numbers, no logos, no faces",
+   "texto_da_fala": "Quanto sobra depende de quando comprou: confira no extrato da corretora.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, camera slowly gliding over a tidy desk with a printed financial statement sheet of blurred abstract lines, a pen, reading glasses and a calculator, warm lamp light, shallow depth of field, hands not shown, no readable text, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Segunda, 16/11, o Tesouro depositou juros na conta de quem tem esse título.\n\nÉ o Tesouro IPCA+ com Juros Semestrais, o que paga salário.\n\nA cada seis meses, os juros caem na sua conta.\n\nO valor aplicado só volta no fim, corrigido pela inflação.\n\nMas olha o detalhe: o Imposto de Renda já sai de cada pagamento.\n\nO primeiro pode ter desconto de 22,5%, fora a taxa de custódia.\n\nQuanto sobra depende de quando comprou: confira no extrato da corretora.\n\nManda pra quem tem esse título e não sabe quando cai.\n\nVocê prefere receber a cada seis meses ou acumular? Comenta 1 ou 2.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Tesouro Transparente",
+   "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f30db6e4-6123-416c-b094-be8dfc823601/resource/de2af5cf-9dbd-4566-b933-da6871cce030/download/CupomJurosTesouroDireto.csv",
+   "destaque": "Os títulos que vencem em 15 de agosto (2030, 2032, 2040, 2050 e 2060) pagam cupom em fevereiro e agosto."
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T06:38:58.109045-03:00"
+}
