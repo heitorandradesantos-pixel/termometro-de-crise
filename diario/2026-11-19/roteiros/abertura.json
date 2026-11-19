@@ -1,0 +1,188 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso (identificação)",
+  "texto": "Cara, o dólar abriu a R$ 5,88. Vai viajar ou comprar celular importado? Presta atenção.",
+  "na_tela": "Dólar a R$ 5,88: e você?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso (identificação)",
+   "texto": "Cara, o dólar abriu a R$ 5,88. Vai viajar ou comprar celular importado? Presta atenção.",
+   "na_tela": "Dólar a R$ 5,88: e você?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Ontem o termômetro do Brasil fechou em 64. Hoje o dólar abriu a R$ 5,88.",
+   "na_tela": "Ontem 64. Hoje R$ 5,88.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto pesa no seu bolso um dólar a R$ 5,88?",
+   "na_tela": "Quanto pesa R$ 5,88?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar abriu a R$ 5,88. Vai viajar ou comprar celular importado? Presta atenção.",
+  "Ele subiu 0,58%. Alta pequena, mas é o mercado falando, não sou eu.",
+  "Já a bolsa daqui, o Ibovespa, abriu em alta de 0,30%.",
+  "Quando o dólar sobe, viagem e celular importado ficam mais caros.",
+  "Já adiou compra por causa do dólar? Comenta EU.",
+  "Agora olha o termômetro: ontem marcou 64, sinal amarelo.",
+  "É tensão no Brasil, e o dólar entra nessa conta.",
+  "Meu passo é simples: antes de parcelar importado, confere o preço do dia e respira.",
+  "Você sente o dólar no bolso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar abriu a R$ 5,88. Vai viajar ou comprar celular importado? Presta atenção. Ele subiu 0,58%. Alta pequena, mas é o mercado falando, não sou eu. Já a bolsa daqui, o Ibovespa, abriu em alta de 0,30%. Quando o dólar sobe, viagem e celular importado ficam mais caros. Já adiou compra por causa do dólar? Comenta EU. Agora olha o termômetro: ontem marcou 64, sinal amarelo. É tensão no Brasil, e o dólar entra nessa conta. Meu passo é simples: antes de parcelar importado, confere o preço do dia e respira. Você sente o dólar no bolso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,88: e você?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,88 ▲0,58%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Ibovespa ▲0,30%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Comenta EU"
+  },
+  {
+   "fala": 5,
+   "texto": "Brasil em 64 (Tensão)",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: abriu a R$ 5,88, alta de 0,58%, às 10h10 desta quinta (19/11).\n\nÉ uma alta pequena, mas quem pensa em viajar ou comprar algo importado sente o preço de fora no bolso. O Ibovespa abriu em alta de 0,30%, com 168.044 pontos.\n\nNo último fechamento (18/11), o termômetro marcou 64 para o Brasil (Tensão). O passo calmo: antes de parcelar um importado, confira o preço do dia.\n\nJá adiou compra por causa do dólar? Comenta EU.\n\nCotações: Yahoo Finance. Leitura do termômetro: Termômetro de Crise.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #economia #educacaofinanceira",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#economia",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar abriu a R$ 5,88. Vai viajar? Presta atenção.",
+  "topicos": [
+   "Dólar abriu a R$ 5,88, alta de 0,58%: alta pequena, é o mercado falando.",
+   "Ibovespa, a bolsa daqui, abriu em alta de 0,30%.",
+   "Ontem o termômetro marcou 64 no Brasil: tensão, sinal amarelo.",
+   "Passo calmo: antes de parcelar importado, confere o preço do dia e respira."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente da abertura, com um número só, que pede o jeito de quem acabou de ver e já conta.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Falta o fecho padrão na fala. Antes de \"Sem alarde. Eu sou só o termômetro!\", inclua: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Hoje ele só aparece na legenda.",
+   "Frase \"Já a bolsa daqui, o Ibovespa, abriu em alta de 0,30%\": o número não diz nada sobre o bolso de quem vai viajar. Traduza o termo na mesma frase (\"o Ibovespa, que mede as maiores empresas da bolsa\") ou corte a linha e deixe só o dólar, que é o que a pessoa sente.",
+   "Frase \"Ele subiu 0,58%. Alta pequena, mas é o mercado falando, não sou eu\": falta uma comparação do dia a dia e um porquê curto. Troque por algo como \"cada dólar custa quase R$ 6, como um produto que ficou um pouco mais caro na prateleira\". Se a fonte não explica o motivo da alta, diga \"o motivo ainda não está claro\", em vez de deixar a dúvida."
+  ],
+  "veredito": "A peça tem gancho de bolso, gatilho de comentário fácil, passo calmo e bordões da casa. Falta o fecho padrão com apresentação e aviso na fala, e falta uma comparação viva e um porquê para falar com os quatro temperamentos."
+ },
+ "viral": {
+  "nota": 5,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: 'Vai viajar ou comprar celular importado? Presta atenção.' é pergunta solta e 'Presta atenção' não informa. Reescrita: 'Cara, o dólar abriu a R$ 5,88. Se você vai viajar ou comprar celular importado, isso chega no seu bolso.'",
+   "Envio: não há pedido de envio. Depois de 'viagem e celular importado ficam mais caros', acrescente: 'Tem alguém viajando aí ou de olho num celular importado? Manda pra ele, sério.'",
+   "Retenção: 'Agora olha o termômetro: ontem marcou 64, sinal amarelo.' vira a virada: 'E aí vem a parte que pouca gente viu: ontem o termômetro marcou 64, sinal amarelo. O dólar entra nessa conta.'"
+  ],
+  "veredito": "O vídeo é limpo, com número logo na abertura e dois gatilhos de comentário fáceis (EU e SIM/NÃO), mas falta pedido de envio para uma situação concreta e uma virada mais forte no meio."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in along an airport terminal floor following a rolling suitcase, with blurred out-of-focus travelers in the background and no readable signs. The shot then racks focus to a sealed, plain unbranded smartphone box resting on a glossy shop counter under warm light. Cinematic, shallow depth of field, no text, no logos",
+   "texto_da_fala": "Quando o dólar sobe, viagem e celular importado ficam mais caros.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along an airport terminal floor following a rolling suitcase, with blurred out-of-focus travelers in the background and no readable signs. The shot then racks focus to a sealed, plain unbranded smartphone box resting on a glossy shop counter under warm light. Cinematic, shallow depth of field, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro close-up of a vintage glass thermometer with no markings or numbers, its liquid rising slowly inside the tube, with an amber-yellow glow washing over it from a traffic light blurred in the background. Slow upward tilt of the camera, dark moody backdrop, warm yellow light, no text, no numbers, no logos",
+   "texto_da_fala": "Agora olha o termômetro: ontem marcou 64, sinal amarelo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up of a vintage glass thermometer with no markings or numbers, its liquid rising slowly inside the tube, with an amber-yellow glow washing over it from a traffic light blurred in the background. Slow upward tilt of the camera, dark moody backdrop, warm yellow light, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Top-down shot slowly pushing in on a wooden desk: a hand with no face visible holds a plain blank credit card above a sealed generic phone box, then pulls it back and rests it beside a notebook and a cup of coffee, steam rising. Calm, soft morning light, no text, no numbers, no logos",
+   "texto_da_fala": "Meu passo é simples: antes de parcelar importado, confere o preço do dia e respira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot slowly pushing in on a wooden desk: a hand with no face visible holds a plain blank credit card above a sealed generic phone box, then pulls it back and rests it beside a notebook and a cup of coffee, steam rising. Calm, soft morning light, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar abriu a R$ 5,88. Vai viajar ou comprar celular importado? Presta atenção.\n\nEle subiu 0,58%. Alta pequena, mas é o mercado falando, não sou eu.\n\nJá a bolsa daqui, o Ibovespa, abriu em alta de 0,30%.\n\nQuando o dólar sobe, viagem e celular importado ficam mais caros.\n\nJá adiou compra por causa do dólar? Comenta EU.\n\nAgora olha o termômetro: ontem marcou 64, sinal amarelo.\n\nÉ tensão no Brasil, e o dólar entra nessa conta.\n\nMeu passo é simples: antes de parcelar importado, confere o preço do dia e respira.\n\nVocê sente o dólar no bolso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T10:31:20.523067-03:00"
+}
