@@ -1,0 +1,209 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso / antes e depois (salário do espectador)",
+  "texto": "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam.",
+  "na_tela": "Salário parado desde 2013",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso / antes e depois (salário do espectador)",
+   "texto": "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam.",
+   "na_tela": "Salário parado desde 2013",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois com reação",
+   "texto": "Olha que loucura: R$ 100 de 2013 custam uns R$ 214 hoje.",
+   "na_tela": "R$ 100 viraram R$ 214",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto o seu salário perdeu desde 2013? A conta é de graça.",
+   "na_tela": "Quanto seu salário perdeu?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam.",
+  "Cara, olha que loucura. Esse valor é exemplo.",
+  "O que custava R$ 100 em 2013 custa uns R$ 214 hoje.",
+  "Isso é a inflação oficial, medida pelo IBGE. Quase dobrou.",
+  "Calma: é o termômetro do país, uma média. Seu aluguel e seu mercado pesam diferente.",
+  "Dá pra conferir de graça no site do Banco Central: Calculadora do Cidadão.",
+  "Põe o salário de antes, escolhe outubro de 2026 e compara.",
+  "Manda pra quem ganha o mesmo salário faz anos. Pra ele ver quanto compra.",
+  "Seu salário acompanhou a inflação? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam. Cara, olha que loucura. Esse valor é exemplo. O que custava R$ 100 em 2013 custa uns R$ 214 hoje. Isso é a inflação oficial, medida pelo IBGE. Quase dobrou. Calma: é o termômetro do país, uma média. Seu aluguel e seu mercado pesam diferente. Dá pra conferir de graça no site do Banco Central: Calculadora do Cidadão. Põe o salário de antes, escolhe outubro de 2026 e compara. Manda pra quem ganha o mesmo salário faz anos. Pra ele ver quanto compra. Seu salário acompanhou a inflação? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Salário parado desde 2013",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 3.000: só exemplo",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 100 (jan/2013) → cerca de R$ 214 (out/2026)",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 3,
+   "texto": "IPCA: cerca de 114% de alta",
+   "fonte": "IBGE"
+  },
+  {
+   "fala": 4,
+   "texto": "IPCA = média do país",
+   "fonte": "IBGE"
+  },
+  {
+   "fala": 5,
+   "texto": "bcb.gov.br · Calculadora do Cidadão",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 6,
+   "texto": "Correção de valores · IPCA · out/2026",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 7,
+   "texto": "R$ 3.000 de 2013 compram hoje o que cerca de R$ 1.400 compravam",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "inflação desde 2013: quanto o seu salário perdeu",
+ "legenda": "Inflação desde 2013: quanto o seu salário perdeu?\n\nSegundo o IBGE e o método da Calculadora do Cidadão, do Banco Central, o que custava R$ 100 em janeiro de 2013 custa cerca de R$ 214 em outubro de 2026. É uma alta de cerca de 114% pelo IPCA, a inflação oficial. O número é conta da redação com o método oficial e pode variar em casas decimais.\n\nO exemplo de um salário de R$ 3.000 parado desde 2013 é só ilustração: hoje ele compra o que cerca de R$ 1.400 compravam. Mas o IPCA é uma média do país, e aluguel, comida e transporte pesam diferente para cada família.\n\nDá pra conferir de graça: entre em bcb.gov.br, abra a Calculadora do Cidadão, escolha Correção de valores pelo IPCA e compare com o seu salário de hoje. Para olhar só o último ano, compare o seu reajuste com os 4,63% do IPCA em 12 meses até outubro de 2026.\n\nSeu salário acompanhou a inflação? Comenta SIM ou NÃO, sem precisar dizer o valor.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inflacao #ipca #salario #educacaofinanceira #financaspessoais",
+ "hashtags": [
+  "#inflacao",
+  "#ipca",
+  "#salario",
+  "#educacaofinanceira",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Seu salário parado desde 2013 compra bem menos hoje. Olha a conta.",
+  "topicos": [
+   "R$ 100 de 2013 custam uns R$ 214 hoje, pela inflação oficial do IBGE.",
+   "Salário de R$ 3.000 parado desde 2013 compra o que uns R$ 1.400 compravam.",
+   "É média do país: aluguel e mercado pesam diferente pra cada família.",
+   "Confere de graça na Calculadora do Cidadão, no site do Banco Central."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e uma conta para o espectador refazer, então pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"O que custava R$ 100 em 2013 custa uns R$ 214 hoje.\" e \"Isso é a inflação oficial, medida pelo IBGE. Quase dobrou.\": a fala tem um número a mais do que o ideal (R$ 100 e R$ 214) e \"inflação oficial\" não vem traduzida. Troque por \"Uma compra que custava R$ 100 em 2013 hoje custa uns R$ 214. Quase o dobro. É a inflação, ou seja, o quanto os preços subiram, e quem mede é o IBGE.\" Assim o termo técnico é explicado na mesma frase.",
+   "\"Dá pra conferir de graça no site do Banco Central: Calculadora do Cidadão.\": o nome do site e da ferramenta vai na fala, e o Teste do CLT pede que isso fique no cartão da tela e na legenda. Na fala, diga \"Dá pra conferir de graça no site do Banco Central\" e coloque \"Calculadora do Cidadão\" no cartão da tela.",
+   "\"Põe o salário de antes, escolhe outubro de 2026 e compara.\": a frase é um passo simples, mas não tem a comparação viva que o Heitor usa. Se couber, acrescente uma imagem do dia a dia, como \"é como o salário encolhendo no caixa do mercado\". Não invente preço de produto. Use essa imagem só uma vez no vídeo. Se couber, abra com uma reação mais solta de conversa e leve o \"Esse valor é exemplo\" para o fim da primeira frase, ou para um cartão na tela."
+  ],
+  "veredito": "A peça fala direto com quem sente o bolso apertado: tem exemplo concreto, aviso de que o número é uma média, passo simples para conferir e gatilho de comentário fácil (SIM ou NÃO). Falta deixar a fala mais solta e passar no Teste do CLT: \\\"inflação oficial\\\" sem tradução, dois números numa fala só e o nome da ferramenta dito em voz alta."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Cara, olha que loucura. Esse valor é exemplo.\": o aviso corta o ritmo logo depois do gancho e atrasa a prova. Reescrita: \"Cara, olha que loucura. O que custava R$ 100 em 2013 custa uns R$ 214 hoje. Mais que dobrou.\" O aviso de exemplo vai para o texto da tela e para a legenda. Assim a virada \"Calma: é o termômetro do país, uma média\" fica como a única quebra do meio.\"",
+   "Frase \"Põe o salário de antes, escolhe outubro de 2026 e compara\": são três comandos numa fala só. Reescrita: \"Põe quanto você ganhava em 2013. A calculadora mostra quanto isso vale hoje.\" Deixe os passos exatos para o texto da tela e a legenda."
+  ],
+  "veredito": "Gancho com número do bolso, pago logo e com bom pedido de envio e comentário fácil; falta só tirar o aviso que trava o ritmo e simplificar a fala da calculadora para segurar até o fim."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow dolly-in down a brightly lit supermarket aisle, shelves full of generic unbranded packaged groceries (plain rice bags, cans, bottles with blank labels). Small blank shelf tags with no writing. Shallow depth of field, a shopping cart in the foreground, no people visible",
+   "texto_da_fala": "O que custava R$ 100 em 2013 custa uns R$ 214 hoje.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in down a brightly lit supermarket aisle, shelves full of generic unbranded packaged groceries (plain rice bags, cans, bottles with blank labels). Small blank shelf tags with no writing. Shallow depth of field, a shopping cart in the foreground, no people visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Smooth upward tilt along a typical Brazilian residential apartment building with laundry on balconies, then a slow pan down to a busy neighborhood street market stall with fresh fruit and vegetables in crates. Warm afternoon light, no readable signs, no faces in focus",
+   "texto_da_fala": "Calma: é o termômetro do país, uma média. Seu aluguel e seu mercado pesam diferente.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth upward tilt along a typical Brazilian residential apartment building with laundry on balconies, then a slow pan down to a busy neighborhood street market stall with fresh fruit and vegetables in crates. Warm afternoon light, no readable signs, no faces in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Slow push-in over the shoulder on a laptop sitting on a wooden kitchen table beside a cup of steaming coffee and a notepad with no writing. Only a pair of hands resting near the keyboard, no face. The screen shows only a soft, out-of-focus pale glow with no readable content. Soft morning window light",
+   "texto_da_fala": "Dá pra conferir de graça no site do Banco Central: Calculadora do Cidadão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in over the shoulder on a laptop sitting on a wooden kitchen table beside a cup of steaming coffee and a notepad with no writing. Only a pair of hands resting near the keyboard, no face. The screen shows only a soft, out-of-focus pale glow with no readable content. Soft morning window light. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam.\n\nCara, olha que loucura. Esse valor é exemplo.\n\nO que custava R$ 100 em 2013 custa uns R$ 214 hoje.\n\nIsso é a inflação oficial, medida pelo IBGE. Quase dobrou.\n\nCalma: é o termômetro do país, uma média. Seu aluguel e seu mercado pesam diferente.\n\nDá pra conferir de graça no site do Banco Central: Calculadora do Cidadão.\n\nPõe o salário de antes, escolhe outubro de 2026 e compara.\n\nManda pra quem ganha o mesmo salário faz anos. Pra ele ver quanto compra.\n\nSeu salário acompanhou a inflação? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "IBGE (Agência de Notícias)",
+   "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro",
+   "destaque": "O IBGE divulgou em 12 de novembro que o IPCA de outubro de 2026 foi de 0,14%."
+  },
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www3.bcb.gov.br/CALCIDADAO/publico/metodologiaCorrigirIndice.do?method=metodologiaCorrigirIndice",
+   "destaque": "A Calculadora do Cidadão, do Banco Central, corrige um valor multiplicando-o pelo fator acumulado do IPCA, que junta os índices mensais."
+  },
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www3.bcb.gov.br/CALCIDADAO/jsp/ajudaGeralCalCidadao.jsp",
+   "destaque": "A Calculadora do Cidadão é uma ferramenta pública e gratuita do Banco Central."
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T09:14:26.887026-03:00"
+}
