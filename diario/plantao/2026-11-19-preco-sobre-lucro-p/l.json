@@ -1,0 +1,107 @@
+{
+ "titulo": "P/L: por que uma empresa vale mais que o lucro dela",
+ "descricao": "Conta de padaria explica o preço sobre lucro (P/L): por que há empresas que custam 30 anos de lucro e o que isso muda em fundos, previdência e ETFs.",
+ "palavra_chave": "preço sobre lucro (p/l)",
+ "lead": "Uma padaria que lucra R$ 100 mil por ano e é vendida por R$ 1 milhão custa 10 anos de lucro. Essa conta é o P/L, o preço sobre lucro. Empresas de tecnologia podem custar 30 anos de lucro ou mais porque o mercado paga pelo crescimento que espera. Em 5 de novembro, o P/L projetado do setor de tecnologia dos EUA era 17,1, contra mais de 32 em outubro de 2025, segundo a Reuters.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O P/L relaciona o preço da ação ao lucro da empresa. Segundo a B3, um P/L de 18 significa que a empresa teria de manter o mesmo lucro por 18 anos para devolver o valor pago. Na padaria: R$ 1 milhão ÷ R$ 100 mil = P/L de 10. (Página da B3 consultada em 19/11/2026.)",
+   "fonte_url": "https://borainvestir.b3.com.br/tipos-de-investimentos/renda-variavel/preco-sobre-lucro/",
+   "data": "2026-11-19",
+   "veiculo": "B3 (Bora Investir)",
+   "confiavel": true
+  },
+  {
+   "texto": "O P/L pode usar o lucro já realizado ou o lucro que analistas projetam para os próximos 12 meses. A B3 explica que o indicador pode ser calculado com os lucros do ano ou com os projetados. Os números abaixo são do P/L projetado, e isso vale para as comparações.",
+   "fonte_url": "https://borainvestir.b3.com.br/tipos-de-investimentos/renda-variavel/preco-sobre-lucro/",
+   "data": "2026-11-19",
+   "veiculo": "B3 (Bora Investir)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 5 de novembro, o P/L projetado do setor de tecnologia do S&P 500 (índice das 500 maiores empresas dos EUA) caiu para 17,1, segundo a LSEG Datastream. O do índice inteiro era 17,9. Em outubro de 2025, o do setor tinha passado de 32. Ou seja: o mercado chegou a pagar mais de 32 anos de lucro projetado e agora paga cerca de 17.",
+   "fonte_url": "https://www.kitco.com/news/off-the-wire/2026-11-09/tech-set-still-sway-us-stock-markets-course-despite-ai-driven-swoon",
+   "data": "2026-11-09",
+   "veiculo": "Reuters (via Kitco)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Reuters informou que foi a primeira vez desde 2017 que o P/L projetado da tecnologia ficou abaixo do P/L do mercado americano como um todo.",
+   "fonte_url": "https://www.kitco.com/news/off-the-wire/2026-11-09/tech-set-still-sway-us-stock-markets-course-despite-ai-driven-swoon",
+   "data": "2026-11-09",
+   "veiculo": "Reuters (via Kitco)",
+   "confiavel": false
+  },
+  {
+   "texto": "A tecnologia continua com mais de um terço do valor de mercado do S&P 500, segundo reportagem baseada na Reuters. É por isso que fundos de ações e ETFs (fundos que seguem um índice e são negociados na bolsa) ligados a esse índice sentem o que acontece com essas empresas.",
+   "fonte_url": "https://uk.finance.yahoo.com/news/technology-stocks-remain-central-p-111400807.html",
+   "data": "2026-11-09",
+   "veiculo": "Yahoo Finance (a partir de Reuters/LSEG)",
+   "confiavel": false
+  },
+  {
+   "texto": "O P/L varia muito entre mercados. A Genial Analisa, com dados da Bloomberg, mostra o Ibovespa a 7,9 vezes o lucro projetado em 30/10/2026. A média histórica desde 2011, no mesmo cálculo, é 10,4 vezes.",
+   "fonte_url": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/estrategia-em-acao-novembro-2026/",
+   "data": "2026-10-30",
+   "veiculo": "Genial Analisa",
+   "confiavel": false
+  },
+  {
+   "texto": "Em nota de 30/10, a Truist Wealth disse que analistas tinham elevado em cerca de 17% as previsões de lucro da tecnologia em três meses. A própria nota aponta que o principal risco são as estimativas de lucro, segundo reportagem da Econotimes.",
+   "fonte_url": "https://econotimes.com/S-P-500-Information-Technology-Sector-Trades-at-Valuation-Discount-1773881",
+   "data": "2026-10-30",
+   "veiculo": "Econotimes (cita a Truist Wealth)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Truist Wealth publica nota sobre o P/L da tecnologia e o risco das estimativas de lucro.",
+   "fonte_url": "https://econotimes.com/S-P-500-Information-Technology-Sector-Trades-at-Valuation-Discount-1773881",
+   "data": "2026-10-30",
+   "veiculo": "Econotimes",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa fecha outubro com P/L projetado de 7,9 vezes, ante média histórica de 10,4 (Genial Analisa, dados da Bloomberg).",
+   "fonte_url": "https://analisa.genialinvestimentos.com.br/macro-strategy/analises/estrategia-em-acao-novembro-2026/",
+   "data": "2026-10-30",
+   "veiculo": "Genial Analisa",
+   "confiavel": false
+  },
+  {
+   "texto": "O P/L projetado da tecnologia do S&P 500 cai para 17,1, abaixo dos 17,9 do índice, pela primeira vez desde 2017.",
+   "fonte_url": "https://www.kitco.com/news/off-the-wire/2026-11-09/tech-set-still-sway-us-stock-markets-course-despite-ai-driven-swoon",
+   "data": "2026-11-05",
+   "veiculo": "Reuters (via Kitco)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Reuters publica o balanço da queda: o P/L da tecnologia estava acima de 32 em outubro de 2025.",
+   "fonte_url": "https://www.kitco.com/news/off-the-wire/2026-11-09/tech-set-still-sway-us-stock-markets-course-despite-ai-driven-swoon",
+   "data": "2026-11-09",
+   "veiculo": "Reuters (via Kitco)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não está confirmado se a queda do P/L da tecnologia nos EUA é passageira ou duradoura. Nenhuma das fontes consultadas apresenta isso como certo.",
+  "Não se sabe se as previsões de lucro dos analistas vão se confirmar. A Truist Wealth, segundo a Econotimes, aponta essas estimativas como o principal risco.",
+  "Um P/L mais baixo não quer dizer, sozinho, que a empresa está \"barata\". Veículos que cobriram a queda alertam para isso, e o P/L deve ser lido junto com outros indicadores, como diz a própria B3.",
+  "Os números de P/L do Ibovespa mudam conforme a fonte e o método (lucro projetado ou já realizado, quais empresas entram no cálculo). Por isso não dá para comparar valores de fontes diferentes sem checar o cálculo.",
+  "Não é possível dizer, sem olhar a carteira de cada fundo, quanto dele está em empresas de tecnologia de alto P/L. Essa informação não foi apurada aqui."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem fundo de ações, previdência com parte em ações ou ETF de bolsa americana, parte do seu dinheiro pode estar em empresas com P/L alto. Nesse caso, o preço depende de o crescimento esperado se confirmar.",
+  "Se o crescimento vier abaixo do esperado, o preço dessas empresas pode cair mesmo com lucro positivo. O P/L de tecnologia nos EUA passar de mais de 32 para 17,1 em pouco mais de um ano, segundo a Reuters, mostra que isso acontece.",
+  "Para saber o que você tem, abra a lâmina (resumo oficial) ou a carteira do fundo. Ela mostra em quais setores o dinheiro está e quanto pesa cada um. O Termômetro não indica o que comprar nem vender.",
+  "Um P/L alto ou baixo é só uma das medidas. A B3 recomenda não usá-lo isolado e olhar também o cenário da empresa.",
+  "Pergunta para os comentários: você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO."
+ ],
+ "como_se_proteger": [],
+ "slug": "preco-sobre-lucro-p/l",
+ "publicado_em": "2026-11-19T09:35:28.797031",
+ "atualizado_em": "2026-11-19T09:35:28.797031",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) Por que uma empresa pode valer muito mais que o lucro dela: conta de padaria. Uma padaria que lucra R$ 100 mil por ano e é vendida por R$ 1 milhão custa \"10 anos de lucro\" (o tal preço sobre lucro, P/L). Empresa de tecnologia às vezes custa 30, 40 anos de lucro porque o mercado está pagando pelo crescimento que espera no futuro; se o crescimento não vier, o preço pode cair. Por que isso importa: fundo de ações, previdência e ETF de bolsa americana costumam ter essas empresas. Gatilho: \"Você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.\" Sem citar empresa, sem código, sem recomendação de investimento.",
+ "turno": "manha"
+}
