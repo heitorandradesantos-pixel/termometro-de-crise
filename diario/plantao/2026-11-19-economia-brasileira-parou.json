@@ -1,0 +1,115 @@
+{
+ "titulo": "A economia brasileira parou? Prévia do PIB cai 0,9%: o que se sabe",
+ "descricao": "Prévia do PIB do BC caiu 0,9% no 3º trimestre, mas a economia ainda cresce em 12 meses. Veja o que é fato, o que é exagero e o que falta saber.",
+ "palavra_chave": "economia brasileira parou",
+ "lead": "Verdade ou exagero: a economia brasileira parou? A desaceleração é real, mas \"parou\" é exagero. Em 16 de novembro, o Banco Central informou que o IBC-Br, a prévia do PIB, caiu 0,9% no 3º trimestre ante o 2º. O PIB oficial, que é calculado pelo IBGE, só sai em 2 de dezembro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O IBC-Br, índice do Banco Central usado como prévia do PIB, caiu 0,9% no 3º trimestre de 2026 ante o 2º, com ajuste sazonal (que tira efeitos de época do ano). O valor exato é -0,86%. Foi divulgado em 16 de novembro. A última queda trimestral do índice tinha sido no 3º trimestre de 2025 (-0,28%).",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/previa-do-pib-cai-e-reforca-perda-de-folego-da-economia/",
+   "data": "2026-11-16",
+   "veiculo": "Jornal de Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "A queda atingiu os três grandes setores no trimestre: agropecuária (-2%), indústria (-1,1%) e serviços (-0,5%). Os serviços são a maior parte da economia.",
+   "fonte_url": "https://jornalnoroeste.com.br/noticia/economia-negocios/previa-do-pib-cai-0-9-no-3o-trimestre-e-aponta-risco-de-primeira-retracao-da-economia-desde-2021",
+   "data": "2026-11-16",
+   "veiculo": "Jornal Noroeste",
+   "confiavel": false
+  },
+  {
+   "texto": "Em setembro, o IBC-Br caiu 0,2% ante agosto (-0,25% pela série do BC). A queda foi um pouco menor que a esperada pelo mercado, de cerca de 0,3%, segundo pesquisa do Broadcast (Money Times).",
+   "fonte_url": "https://www.fenatac.org.br/post/ibc-br-pr%C3%A9via-do-pib-recua-0-2-em-setembro-menos-do-que-o-esperado",
+   "data": "2026-11-16",
+   "veiculo": "Money Times (via Fenatac)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na comparação com o ano anterior, a economia ainda não está parada. O 3º trimestre ficou 0,7% acima do 3º trimestre de 2025. Em 12 meses, o IBC-Br acumula alta de 1,4%. Em setembro de 2025, o índice ficou praticamente estável (-0,01%).",
+   "fonte_url": "https://agorarn.com.br/economia/previa-pib-recua-terceiro-trimestre-dolar/",
+   "data": "2026-11-16",
+   "veiculo": "Agora RN (com dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "O IBC-Br é só uma prévia. O número oficial do PIB é do IBGE, que divulga o resultado do 3º trimestre em 2 de dezembro de 2026. Os dois indicadores usam métodos diferentes e nem sempre mostram a mesma variação.",
+   "fonte_url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/16/ibc-br-terceiro-trimestre-recua-09-pior-ano",
+   "data": "2026-11-16",
+   "veiculo": "TV Sim Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "No 2º trimestre, o PIB oficial do IBGE cresceu 0,5% sobre o 1º trimestre e chegou ao maior patamar da série histórica, iniciada em 1996. Foi divulgado em 1º de setembro.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/pib-atinge-maior-patamar-da-serie-historica-no-2o-trimestre-aponta-ibge/",
+   "data": "2026-09-01",
+   "veiculo": "Jornal de Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom, comitê do Banco Central que define os juros, manteve a Selic em 13,75% ao ano em 4 de novembro, por unanimidade. Com isso, interrompeu uma sequência de cinco cortes. A ata, publicada em 10 de novembro, diz que a atividade mostra sinais mais claros de desaceleração e que a Selic deve ficar em nível restritivo (que segura a demanda) por mais tempo.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao",
+   "data": "2026-11-10",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a análise da Nomad, uma Selic parada em nível alto por muito tempo deve reforçar a desaceleração do crédito e do consumo. É a leitura de uma instituição financeira, não um dado oficial.",
+   "fonte_url": "https://www.nomadglobal.com/portal/analises/analise-do-copom-novembro-de-2026",
+   "data": "2026-11-05",
+   "veiculo": "Nomad",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "IBGE informa que o PIB cresceu 0,5% no 2º trimestre de 2026 sobre o 1º, o maior patamar da série.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/pib-atinge-maior-patamar-da-serie-historica-no-2o-trimestre-aponta-ibge/",
+   "data": "2026-09-01",
+   "veiculo": "Jornal de Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "Copom mantém a Selic em 13,75% ao ano e interrompe cinco cortes seguidos.",
+   "fonte_url": "https://gazetamercantil.com/copom-mantem-selic-1375-novembro-2026",
+   "data": "2026-11-04",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  },
+  {
+   "texto": "Ata do Copom diz que a atividade mostra desaceleração mais clara e que a Selic deve ficar restritiva por mais tempo.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao",
+   "data": "2026-11-10",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Banco Central divulga o IBC-Br: -0,2% em setembro e -0,9% no 3º trimestre ante o 2º.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/indicadores-economicos/ibc-br-queda-terceiro-trimestre-2026",
+   "data": "2026-11-16",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o PIB oficial do 3º trimestre vai cair. O IBGE divulga em 2 de dezembro. A mediana das projeções do Broadcast é de queda de 0,2%, em faixa que vai de -0,7% a +0,2% (Jornal de Brasília). Isso é projeção, não resultado confirmado.",
+  "Se haverá recessão. Não há confirmação. Um economista do PicPay disse, segundo a CNN Brasil, que é pouco provável o PIB não cair no 3º trimestre. Mesmo assim, um único trimestre de queda e dado de prévia não bastam para cravar recessão.",
+  "Até quando a Selic fica em 13,75%. O Banco Central não deu data para voltar a cortar. A Nomad espera manutenção na reunião de dezembro e o Pine diz que os juros podem ficar altos por mais tempo. Ambas são opiniões de analistas, não decisões.",
+  "Se a queda é pontual ou o começo de uma sequência. Um cálculo da Genial indica que, se a atividade ficar no nível de setembro, o 4º trimestre começa com -0,13% de efeito estatístico. É uma conta de analista, não um fato.",
+  "Como cada pessoa sente isso no bolso. O IBC-Br mede a produção do país, não a renda de cada família. Segundo o Copom, o desemprego segue historicamente baixo, mas a criação de vagas desacelera.",
+  "O que aconteceu com a agropecuária em setembro. Dois veículos divergem: o BPMoney diz que o setor avançou 1,2% no mês, e o Money Times diz que recuou 1,2%. Os dois citam o Banco Central, e não foi possível checar na página do órgão."
+ ],
+ "o_que_muda_para_voce": [
+  "Para quem tem conta, empréstimo ou cartão: a Selic seguiu em 13,75% ao ano, e o dado de 16/11 não mudou a taxa. Crédito caro tende a continuar caro enquanto os juros ficarem altos. A próxima reunião do Copom é em dezembro.",
+  "Para quem trabalha: segundo o Copom, o desemprego segue historicamente baixo, mas o ritmo de criação de vagas diminuiu. O comitê não descreve queda de emprego.",
+  "Para quem acompanha o noticiário: \"recessão\" ainda é exagero, porque o PIB oficial do trimestre não saiu. Já \"desaceleração\" tem base nos números do Banco Central e do Copom. Vale checar o resultado do IBGE em 2 de dezembro.",
+  "Para quem compara com o ano passado: a economia ainda está maior que há 12 meses (+1,4% pelo IBC-Br). O que esfriou foi o ritmo recente, não o tamanho da economia.",
+  "Sua vez: você já sente a economia mais fraca no seu bolso? Comenta SIM ou NÃO."
+ ],
+ "como_se_proteger": [],
+ "slug": "economia-brasileira-parou",
+ "publicado_em": "2026-11-19T06:30:10.398972",
+ "atualizado_em": "2026-11-19T06:30:10.398972",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário: \"verdade ou exagero: a economia brasileira parou?\". Fato: o IBC-Br, a prévia do PIB do Banco Central divulgada em 16/11/2026, caiu 0,9% no 3º trimestre de 2026 contra o 2º trimestre (com ajuste sazonal): agropecuária -2%, indústria -1,1%, serviços -0,5%. Em setembro caiu 0,2% contra agosto. Mas contra o 3º trimestre de 2025 ainda subiu 0,7%, e em 12 meses cresce 1,4%; no 2º trimestre o PIB do IBGE tinha crescido 0,5%. Com a Selic em 13,75% ao ano, o crédito caro esfria o consumo (Agência Brasil, 16/11/2026; Banco Central). O número oficial do PIB sai pelo IBGE; IBC-Br é só uma prévia, então \"recessão\" ainda é exagero, mas a desaceleração é real. Gatilho: \"Você já sente a economia mais fraca no seu bolso? Comenta SIM ou NÃO.\" Sem recomendação de investimento, sem lado político, sem culpar governo nem Banco Central.",
+ "turno": "manha"
+}
