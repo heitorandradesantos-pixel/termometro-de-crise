@@ -1,0 +1,119 @@
+{
+ "titulo": "Dividendo e preço da ação na data ex: o que se sabe",
+ "descricao": "Na data ex, o preço da ação tende a cair pelo valor do dividendo. Veja a conta simples e a retenção de 10% acima de R$ 50 mil por mês.",
+ "palavra_chave": "dividendo data ex",
+ "lead": "Dividendo não é dinheiro extra: no dia em que a ação passa a ser negociada \"ex-dividendo\", o preço tende a cair mais ou menos o valor pago. Quem tinha a ação recebe o dinheiro, e o papel vale menos na mesma proporção. Desde 1º de janeiro de 2026, a Lei 15.270/2025 também prevê 10% de imposto retido na fonte quando uma mesma empresa paga mais de R$ 50 mil por mês à mesma pessoa física, segundo a Receita Federal.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A data com é o último dia para ter a ação e garantir o dividendo anunciado. A data ex é o dia seguinte: a ação passa a ser negociada sem direito àquele pagamento (explicação de 6/03/2026 do site Traders).",
+   "fonte_url": "https://traders.com.br/blog/posts/data-ex-data-com-dividendos",
+   "data": "2026-03-06",
+   "veiculo": "Traders",
+   "confiavel": false
+  },
+  {
+   "texto": "O glossário do portal educativo da B3 diz que, na data ex, o valor da ação pode sofrer um ajuste proporcional ao dividendo distribuído. A página tem mais de um ano, mas a regra de data com e data ex segue a mesma nas fontes mais recentes.",
+   "fonte_url": "https://borainvestir.b3.com.br/glossario/data-ex/",
+   "data": "2025-07-25",
+   "veiculo": "B3 Bora Investir",
+   "confiavel": true
+  },
+  {
+   "texto": "A conta teórica é simples: preço ex = preço com − valor do dividendo. Exemplo do texto: ação a R$ 25,00 antes da data ex vira R$ 23,50 e dá R$ 1,50 de dividendo, os mesmos R$ 25,00 no total. No mesmo molde, ação a R$ 20 que paga R$ 1 tende a abrir perto de R$ 19. O texto descreve o manual de precificação da B3.",
+   "fonte_url": "https://www.tesemetria.com.br/artigos/data-com-data-ex-quando-dividendo-e-seu",
+   "data": "2026-08-24",
+   "veiculo": "Tesemetria",
+   "confiavel": false
+  },
+  {
+   "texto": "O ajuste existe para evitar ganho fácil: sem ele, alguém compraria na data com, receberia o dividendo e venderia o mesmo papel pelo mesmo preço na data ex. O texto descreve o ajuste como automático, feito pela B3 antes de o mercado abrir.",
+   "fonte_url": "https://marcelofayh.com.br/o-que-e-data-com-e-data-ex-dividendos/",
+   "data": "2026-08-17",
+   "veiculo": "Marcelo Fayh",
+   "confiavel": false
+  },
+  {
+   "texto": "O dividendo sai do caixa da empresa: quando ela distribui dinheiro, parte do valor que estava dentro do negócio passa para o acionista.",
+   "fonte_url": "https://www.tesemetria.com.br/artigos/data-com-data-ex-quando-dividendo-e-seu",
+   "data": "2026-08-24",
+   "veiculo": "Tesemetria",
+   "confiavel": false
+  },
+  {
+   "texto": "Desde janeiro de 2026, quando uma mesma empresa paga mais de R$ 50 mil no mês a uma mesma pessoa física residente no Brasil, há retenção de 10% de Imposto de Renda sobre o valor total distribuído no mês. A informação é da Receita Federal, segundo reportagem do Diário do RN. A lei é a 15.270, de 26 de novembro de 2025.",
+   "fonte_url": "https://diariodorn.com.br/receita-federal-detalha-novas-regras-para-imposto-sobre-lucros-e-dividendos-em-2026/",
+   "data": "2026-08-09",
+   "veiculo": "Diário do RN (com dados da Receita Federal)",
+   "confiavel": false
+  },
+  {
+   "texto": "Os 10% valem sobre o total, não só sobre o que passa de R$ 50 mil. Exemplo: R$ 80 mil pagos por uma empresa a um sócio em um mês geram R$ 8 mil de imposto retido. Até R$ 50 mil, não há retenção.",
+   "fonte_url": "https://o-tributo.com/irrf-dividendos-2026-lei-15270-regras-praticas",
+   "data": "2026-11-19",
+   "veiculo": "O Tributo",
+   "confiavel": false
+  },
+  {
+   "texto": "O limite é por empresa e por pessoa. Quem recebe R$ 40 mil de uma empresa e R$ 40 mil de outra no mesmo mês não tem retenção na fonte, porque os valores não se somam. Mesmo sem retenção, o total do ano pode entrar no imposto mínimo para quem tem renda acima de R$ 600 mil por ano.",
+   "fonte_url": "https://www.remessaonline.com.br/blog/tributacao-de-dividendos/",
+   "data": "2026-10-28",
+   "veiculo": "Remessa Online",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Sancionada a Lei 15.270, que cria a retenção de 10% sobre lucros e dividendos acima de R$ 50 mil por mês.",
+   "fonte_url": "https://o-tributo.com/tributacao-dividendos-2026-irrf-lei-15270",
+   "data": "2025-11-26",
+   "veiculo": "O Tributo",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita Federal divulga o guia de perguntas e respostas sobre a retenção de IR em lucros e dividendos.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/74413/receita-federal-lanca-guia-sobre-tributacao-de-lucros-e-dividendos/",
+   "data": "2025-12-16",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita atualiza o guia. Lucros apurados até 2025 só ficam fora da retenção se a distribuição foi aprovada até 31/12/2025.",
+   "fonte_url": "https://apet.org.br/noticia/receita-federal-atualiza-perguntas-e-respostas-sobre-tributacao-das-altas-rendas-e-amplia-entendimentos-restritivos/",
+   "data": "2025-12-19",
+   "veiculo": "APET",
+   "confiavel": false
+  },
+  {
+   "texto": "A retenção de 10% passa a valer para pagamentos feitos a partir de 1º de janeiro de 2026.",
+   "fonte_url": "https://valorfinal.com.br/tabela-ir-dividendos-2026",
+   "data": "2026-01-01",
+   "veiculo": "Valor Final",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita orienta como a empresa deve informar e recolher o imposto retido (EFD-Reinf, evento R-4010, código 1841-01).",
+   "fonte_url": "https://andere.adv.br/tributario-lei15270-tributacao-lucros-acima-50-mil-imposto-minimo/",
+   "data": "2026-08-06",
+   "veiculo": "Andere Advogados (citando a Receita Federal)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto o preço de uma ação vai cair em cada data ex. As fontes tratam o ajuste como teórico (\"tende\"). Depois da abertura, o preço segue o mercado, e esse efeito não foi medido nas fontes consultadas.",
+  "Se a retenção de 10% vale para empresas do Simples Nacional. A Receita diz que vale, segundo Contábeis e Diário do RN. Um artigo de opinião na Conjur defende que não, e o tema aparece como controverso em outras fontes. Não foi encontrada decisão final da Justiça nas buscas feitas.",
+  "Como cada pessoa será afetada no ajuste anual. A retenção é antecipação do imposto devido, segundo a Contábeis. O resultado final depende da renda total do ano, e isto não foi detalhado para casos individuais."
+ ],
+ "o_que_muda_para_voce": [
+  "Dividendo recebido não é dinheiro a mais no patrimônio: parte do valor da ação passa para a conta como dinheiro. Na data ex, o papel tende a valer menos e a soma fica parecida.",
+  "Comprar na data ex ou depois não dá direito ao dividendo já anunciado. Só quem tinha a ação até a data com recebe.",
+  "Dividendo vem do caixa da empresa. Por isso ele depende de a empresa seguir gerando lucro, e o valor pode mudar de um pagamento para outro.",
+  "Quem recebe até R$ 50 mil por mês de uma mesma empresa não sofre retenção na fonte. Acima disso, a empresa retém 10% do total antes de pagar. Esse valor é antecipação do imposto e entra na declaração anual.",
+  "Você achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO. (Este texto explica como funciona e não recomenda comprar ou vender nada.)"
+ ],
+ "como_se_proteger": [],
+ "slug": "dividendo-data-ex",
+ "publicado_em": "2026-11-19T09:18:07.139821",
+ "atualizado_em": "2026-11-19T09:18:07.139821",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) Dividendo não é dinheiro extra de graça: no dia em que a ação passa a ser negociada \"ex-dividendo\", o preço tende a cair mais ou menos no valor pago (regra de ajuste da B3, data com e data ex). Conta simples: ação a R$ 20 que paga R$ 1 tende a abrir perto de R$ 19; você tem R$ 1 no bolso e R$ 19 em ação, os mesmos R$ 20. Dividendo bom vem de empresa que continua lucrando; desde 2026, dividendos acima de R$ 50 mil por mês de uma mesma empresa têm 10% retidos na fonte (Lei 15.270/2025). Gatilho: \"Você achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO.\" Sem citar nenhuma empresa, sem código de ação, sem recomendação de investimento.",
+ "turno": "manha"
+}
