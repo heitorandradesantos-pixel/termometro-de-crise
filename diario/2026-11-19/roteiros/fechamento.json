@@ -1,0 +1,201 @@
+{
+ "gancho": {
+  "formula": "Cara, reação + número (espanto do Heitor)",
+  "texto": "Cara, o dólar fechou a R$ 5,93. Subiu quase 3% num dia só.",
+  "na_tela": "Dólar subiu 2,73% num dia",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cara, reação + número (espanto do Heitor)",
+   "texto": "Cara, o dólar fechou a R$ 5,93. Subiu quase 3% num dia só.",
+   "na_tela": "Dólar subiu 2,73% num dia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido (bolso)",
+   "texto": "Dólar a R$ 5,93: quem sente primeiro é quem compra coisa de fora.",
+   "na_tela": "Quem sente o dólar primeiro?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "O dólar subiu quase 3% hoje, e quem compra de fora sente primeiro.",
+   "na_tela": "Dólar quase 3% mais caro",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar fechou a R$ 5,93. Subiu quase 3% num dia só.",
+  "Pensa no dólar como a etiqueta de tudo que vem de fora.",
+  "Quando ele sobe, o produto importado do mercado fica mais caro.",
+  "Quem compra coisa de fora ou vai viajar sente primeiro.",
+  "Lá fora, o banco central dos EUA indica mais alta de juros.",
+  "E aí vem a parte que pouca gente viu.",
+  "Termômetro do Brasil em 65, do mundo em 61: os dois em Tensão.",
+  "Se você não tem compra de fora marcada, não precisa fazer nada hoje.",
+  "Tem alguém viajando aí? Manda pra ele, sério.",
+  "Susto ou calma? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar fechou a R$ 5,93. Subiu quase 3% num dia só. Pensa no dólar como a etiqueta de tudo que vem de fora. Quando ele sobe, o produto importado do mercado fica mais caro. Quem compra coisa de fora ou vai viajar sente primeiro. Lá fora, o banco central dos EUA indica mais alta de juros. E aí vem a parte que pouca gente viu. Termômetro do Brasil em 65, do mundo em 61: os dois em Tensão. Se você não tem compra de fora marcada, não precisa fazer nada hoje. Tem alguém viajando aí? Manda pra ele, sério. Susto ou calma? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Dólar subiu 2,73% num dia",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar: R$ 5,93 (▲2,73%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar sobe = importado sobe",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "EUA: sinal de juros mais altos",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "A parte que pouca gente viu",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Brasil 65 · Mundo 61 (Tensão)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Sem compra de fora? Nada a fazer hoje",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje",
+ "legenda": "dólar hoje: por que subiu e o que muda pra você\n\nO dólar fechou a R$ 5,93, com alta de 2,73%, segundo o Yahoo Finance. Pense nele como a etiqueta de tudo que vem de fora: quem compra importado ou vai viajar sente primeiro.\n\nNo mesmo dia, o Ibovespa fechou em 166.185 pontos (▼0,81%), 20,5% abaixo do recorde de 09/10. Lá fora, o S&P 500 caiu cerca de 2% e as atas do Fed indicam mais altas de juros.\n\nO Termômetro de Crise fechou o Brasil em 65 e o Mundo em 61, os dois em Tensão. Pelo Banco Central, a Selic está em 13,75% e a PTAX em R$ 5,8889.\n\nSusto ou calma? Comenta aí. E manda pra quem vai viajar.\n\nConteúdo educativo, não é recomendação de investimento. Eu sou o Heitor, do Termômetro de Crise: só mostramos a temperatura do mundo.\n\n#dolar #ibovespa #economia #financaspessoais",
+ "hashtags": [
+  "#dolar",
+  "#ibovespa",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar fechou a R$ 5,93. Subiu quase 3%!",
+  "topicos": [
+   "Dólar fechou a R$ 5,93, alta de 2,73%, segundo o Yahoo Finance.",
+   "Quem compra coisa de fora ou vai viajar sente primeiro.",
+   "Termômetro do Brasil em 65 e do mundo em 61, os dois em Tensão.",
+   "Sem compra de fora marcada, não precisa fazer nada. Manda pra quem vai viajar."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um fechamento do dia com explicação e termômetro, que pede calma e contexto, não urgência.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "\"Lá fora, o banco central dos EUA indica mais alta de juros.\": a frase tem uma ideia boa, mas fica distante e sem ligação com o bolso. Reescreva na ordem direta e diga o efeito. Por exemplo: \"Lá fora, o banco central dos EUA sinaliza juro mais alto. Com isso, o dinheiro tende a sair daqui e o dólar sobe.\" Só use essa ligação se ela estiver no material checado.",
+   "\"E aí vem a parte que pouca gente viu. Termômetro do Brasil em 65, do mundo em 61: os dois em Tensão.\": a virada promete uma revelação e entrega só dois números, o que quebra a regra de um número por fala. Além disso, \"pouca gente viu\" soa como segredo. Troque por uma frase só, por exemplo \"E o termômetro tá no amarelo: Brasil em 65, mundo em 61, os dois em Tensão.\" Se quiser manter a virada, solte o número do mundo em outra fala e traduza o que \"Tensão\" quer dizer para o bolso.",
+   "\"Se você não tem compra de fora marcada, não precisa fazer nada hoje.\": o passo calmo está certo, mas fica solto no fim e deixa de fora quem tem compra marcada. Acrescente uma saída para esse grupo, sem inventar número, por exemplo: \"Se tem viagem ou compra de fora marcada, vale olhar o preço de novo antes de fechar.\" Para dar mais ritmo, abra com o espanto do Heitor e repita uma vez a frase forte: \"Cara, olha que loucura... quase 3% num dia só.\""
+  ],
+  "veredito": "A peça fala com quem sente o bolso, traduz o dólar como \\\"etiqueta de tudo que vem de fora\\\", dá um passo calmo e fecha com o bordão; falta mais ritmo falado, uma saída para quem tem compra marcada e uma virada que entregue algo de verdade, sem dois números numa fala só."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o dólar fechou a R$ 5,93. Subiu quase 3% num dia só.\" é um número solto, sem ligar ao bolso de quem vê. Reescrita: \"Cara, o dólar subiu quase 3% num dia só. Fechou a R$ 5,93. Quem compra coisa de fora ou vai viajar sente primeiro.\" Depois, a fala \"Quando ele sobe, o produto importado do mercado fica mais caro\" segue direto, sem repetir a ideia.",
+   "Virada: \"E aí vem a parte que pouca gente viu. Termômetro do Brasil em 65, do mundo em 61: os dois em Tensão.\" promete uma revelação e entrega só dois números numa fala, e a Tensão não é explicada. Reescrita: \"E aí vem a parte que o Termômetro mostra. Brasil em 65. Mundo em 61. Os dois em Tensão.\" Quebre em frases curtas, com um número por fala. Tire também o \"pouca gente viu\", que não tem fonte.",
+   "Retenção e conversa: \"Lá fora, o banco central dos EUA indica mais alta de juros.\" soa técnico para quem é CLT, e não há gatilho de comentário no meio. Reescrita: \"Lá fora, o banco central dos EUA já fala em juros mais altos. Susto ou calma? Vai respondendo aí nos comentários.\" O gatilho do fim continua igual."
+  ],
+  "veredito": "O vídeo tem um número forte no gancho, um fim bom (envio para quem viaja e pergunta de duas saídas), mas o gancho não liga o dólar ao bolso logo na primeira frase, e a virada promete uma revelação que entrega só dois números sem explicação."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Vertical shot, slow dolly-in along a supermarket aisle shelf stocked with imported goods: jars, bottles of olive oil, chocolate boxes and packaged foods with blank, unlabeled packaging, and blank shelf price tags with no text. Soft warm store lighting, shallow depth of field, no people visible",
+   "texto_da_fala": "Quando ele sobe, o produto importado do mercado fica mais caro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly-in along a supermarket aisle shelf stocked with imported goods: jars, bottles of olive oil, chocolate boxes and packaged foods with blank, unlabeled packaging, and blank shelf price tags with no text. Soft warm store lighting, shallow depth of field, no people visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow tracking move across an airport departures hall: a suitcase on a luggage cart in the foreground, travelers only as blurry distant silhouettes, large windows with an airplane taxiing outside at golden hour. No readable signs, no text, no faces in focus",
+   "texto_da_fala": "Quem compra coisa de fora ou vai viajar sente primeiro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow tracking move across an airport departures hall: a suitcase on a luggage cart in the foreground, travelers only as blurry distant silhouettes, large windows with an airplane taxiing outside at golden hour. No readable signs, no text, no faces in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Vertical shot, slow upward tilt along the neoclassical marble columns of a large government financial building in Washington style, under a dramatic sky with moving clouds. Wide architectural view, no flags, no signage, no text, no people in focus",
+   "texto_da_fala": "Lá fora, o banco central dos EUA indica mais alta de juros.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow upward tilt along the neoclassical marble columns of a large government financial building in Washington style, under a dramatic sky with moving clouds. Wide architectural view, no flags, no signage, no text, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar fechou a R$ 5,93. Subiu quase 3% num dia só.\n\nPensa no dólar como a etiqueta de tudo que vem de fora.\n\nQuando ele sobe, o produto importado do mercado fica mais caro.\n\nQuem compra coisa de fora ou vai viajar sente primeiro.\n\nLá fora, o banco central dos EUA indica mais alta de juros.\n\nE aí vem a parte que pouca gente viu.\n\nTermômetro do Brasil em 65, do mundo em 61: os dois em Tensão.\n\nSe você não tem compra de fora marcada, não precisa fazer nada hoje.\n\nTem alguém viajando aí? Manda pra ele, sério.\n\nSusto ou calma? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T18:32:33.510286-03:00",
+ "enviado_whatsapp": "2026-11-19T18:32:56.320889-03:00"
+}
