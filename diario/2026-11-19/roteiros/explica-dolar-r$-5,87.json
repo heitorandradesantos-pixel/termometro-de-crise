@@ -1,8 +1,8 @@
 {
  "gancho": {
   "formula": "Custo escondido",
-  "texto": "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou.",
-  "na_tela": "US$ 1 mil = R$ 6.073",
+  "texto": "Cara, o dólar fechou ontem a 5,87. Cinco e oitenta e sete!",
+  "na_tela": "Dólar a R$ 5,87",
   "nota": {
    "especifico": 2,
    "tensao": 2,
@@ -50,47 +50,38 @@
   }
  ],
  "linhas": [
-  "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou.",
-  "Na quarta, o dólar fechou a R$ 5,87.",
-  "Segundo o mercado, pesou o medo das contas públicas.",
-  "O Banco Central vendeu dólar, mas não segurou.",
-  "Até onde vai? A gente não chuta.",
-  "Agora, o que pega no bolso.",
-  "O IOF, imposto na compra em dólar, é de 3,5 %.",
-  "Só com ele, são cerca de R$ 6.073.",
-  "Fora o extra do banco.",
-  "Fatura em dólar? Confere a cotação do banco no app.",
-  "Vai viajar? Separe o que já pagou. Manda pra quem vai.",
-  "Quem já comprou em dólar no cartão? Comenta EU.",
+  "Cara, o dólar fechou ontem a 5,87. Cinco e oitenta e sete!",
+  "É o maior valor desde abril do ano passado, e a quinta alta seguida.",
+  "O Banco Central vendeu 1 bilhão de dólares de manhã pra segurar. Não segurou.",
+  "O motivo: medo com as contas do governo, com o ajuste fiscal travado no Senado.",
+  "E no seu bolso? Uma compra de mil dólares no cartão, com IOF, passa de 6 mil reais.",
+  "Vai viajar? Não precisa comprar tudo no susto, num dia só.",
+  "Chuta aí: o dólar chega a 6 reais até o Natal? Comenta SIM ou NÃO.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou. Na quarta, o dólar fechou a R$ 5,87. Segundo o mercado, pesou o medo das contas públicas. O Banco Central vendeu dólar, mas não segurou. Até onde vai? A gente não chuta. Agora, o que pega no bolso. O IOF, imposto na compra em dólar, é de 3,5 %. Só com ele, são cerca de R$ 6.073. Fora o extra do banco. Fatura em dólar? Confere a cotação do banco no app. Vai viajar? Separe o que já pagou. Manda pra quem vai. Quem já comprou em dólar no cartão? Comenta EU. Sem alarde. Eu sou só o termômetro!",
- "palavras": 113,
+ "texto_falado": "Cara, o dólar fechou ontem a 5,87. Cinco e oitenta e sete! É o maior valor desde abril do ano passado, e a quinta alta seguida. O Banco Central vendeu 1 bilhão de dólares de manhã pra segurar. Não segurou. O motivo: medo com as contas do governo, com o ajuste fiscal travado no Senado. E no seu bolso? Uma compra de mil dólares no cartão, com IOF, passa de 6 mil reais. Vai viajar? Não precisa comprar tudo no susto, num dia só. Chuta aí: o dólar chega a 6 reais até o Natal? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 107,
  "segundos": 45,
  "na_tela": [
   {
-   "texto": "US$ 1 mil = R$ 6.073",
-   "fala": 0
+   "fala": 0,
+   "texto": "Dólar a R$ 5,87",
+   "fonte": "InfoMoney (18/11/2026)"
   },
   {
    "fala": 1,
-   "texto": "Dólar: R$ 5,87 (terça: R$ 5,78)",
-   "fonte": "Plantão Brasil"
+   "texto": "Maior desde abril/2025 · 5ª alta seguida",
+   "fonte": "InfoMoney (18/11/2026)"
   },
   {
-   "fala": 3,
-   "texto": "Leilões do BC: US$ 1 bilhão",
-   "fonte": "Plantão Brasil"
+   "fala": 2,
+   "texto": "BC vendeu US$ 1 bilhão e não segurou",
+   "fonte": "InfoMoney (18/11/2026)"
   },
   {
-   "fala": 6,
-   "texto": "IOF: 3,5 %",
-   "fonte": "Melhor Investimento"
-  },
-  {
-   "fala": 7,
-   "texto": "US$ 1 mil = cerca de R$ 6.073",
-   "fonte": "Termômetro de Crise"
+   "fala": 4,
+   "texto": "US$ 1.000 no cartão + IOF 3,5% = mais de R$ 6.000",
+   "fonte": "Conta do Termômetro de Crise"
   }
  ],
  "retomada": 5,
@@ -104,15 +95,15 @@
   "#termometrodecrise"
  ],
  "rua": {
-  "gancho": "Dólar a R$ 5,87: nem o Banco Central segurou.",
+  "gancho": "Cara, o dólar fechou a 5,87 ontem.",
   "topicos": [
-   "Dólar fechou a R$ 5,87 na quarta, segundo a Plantão Brasil.",
-   "Banco Central vendeu dólar, mas não segurou a alta.",
-   "Com IOF de 3,5 %, US$ 1 mil saem por cerca de R$ 6.073.",
-   "Fatura em dólar? Confere no app qual cotação o banco usa."
+   "Maior valor desde abril de 2025, quinta alta seguida.",
+   "Banco Central vendeu 1 bilhão de dólares e não segurou.",
+   "Motivo: medo com as contas do governo.",
+   "Mil dólares no cartão, com IOF, passam de 6 mil reais."
   ]
  },
- "formato": "rua",
+ "formato": "Andando na rua",
  "por_que_formato": "É notícia quente: o dólar subiu de novo na quarta e segue em movimento na quinta.",
  "tipo": "explica",
  "persona": "Heitor",
@@ -175,7 +166,7 @@
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Cara, US$ 1 mil no cartão: cerca de R$ 6.073. Nem o Banco Central segurou.\n\nNa quarta, o dólar fechou a R$ 5,87.\n\nSegundo o mercado, pesou o medo das contas públicas.\n\nO Banco Central vendeu dólar, mas não segurou.\n\nAté onde vai? A gente não chuta.\n\nAgora, o que pega no bolso.\n\nO IOF, imposto na compra em dólar, é de 3,5 %.\n\nSó com ele, são cerca de R$ 6.073.\n\nFora o extra do banco.\n\nFatura em dólar? Confere a cotação do banco no app.\n\nVai viajar? Separe o que já pagou. Manda pra quem vai.\n\nQuem já comprou em dólar no cartão? Comenta EU.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Cara, o dólar fechou ontem a 5,87. Cinco e oitenta e sete!\n\nÉ o maior valor desde abril do ano passado, e a quinta alta seguida.\n\nO Banco Central vendeu 1 bilhão de dólares de manhã pra segurar. Não segurou.\n\nO motivo: medo com as contas do governo, com o ajuste fiscal travado no Senado.\n\nE no seu bolso? Uma compra de mil dólares no cartão, com IOF, passa de 6 mil reais.\n\nVai viajar? Não precisa comprar tudo no susto, num dia só.\n\nChuta aí: o dólar chega a 6 reais até o Natal? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "InfoMoney",
@@ -187,5 +178,5 @@
  "gerado_em": "2026-11-19T09:33:35.646880-03:00",
  "urgente": true,
  "pedido_do_heitor": true,
- "enviado_whatsapp": "2026-11-19T09:48:56.949069-03:00"
+ "enviado_whatsapp": null
 }

@@ -1,8 +1,8 @@
 {
  "gancho": {
   "formula": "Pergunta de bolso / antes e depois (salário do espectador)",
-  "texto": "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam.",
-  "na_tela": "Salário parado desde 2013",
+  "texto": "Cara, presta atenção nessa conta.",
+  "na_tela": "Quanto o seu dinheiro PERDEU?",
   "nota": {
    "especifico": 2,
    "tensao": 2,
@@ -50,59 +50,44 @@
   }
  ],
  "linhas": [
-  "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam.",
-  "Cara, olha que loucura. Esse valor é exemplo.",
-  "O que custava R$ 100 em 2013 custa uns R$ 214 hoje.",
-  "Isso é a inflação oficial, medida pelo IBGE. Quase dobrou.",
-  "Calma: é o termômetro do país, uma média. Seu aluguel e seu mercado pesam diferente.",
-  "Dá pra conferir de graça no site do Banco Central: Calculadora do Cidadão.",
-  "Põe o salário de antes, escolhe outubro de 2026 e compara.",
-  "Manda pra quem ganha o mesmo salário faz anos. Pra ele ver quanto compra.",
+  "Cara, presta atenção nessa conta.",
+  "O que custava 100 reais em 2013, hoje custa uns 214.",
+  "Isso é a inflação oficial, o IPCA do IBGE. Os preços mais que dobraram.",
+  "Agora pensa: você ganhava 3 mil em 2013 e ainda ganha 3 mil hoje.",
+  "Esse salário compra o que uns 1.400 compravam lá atrás.",
+  "Você não perdeu o emprego. Mas perdeu mais da metade do que ele compra.",
+  "Quer ver a sua conta? É de graça: site do Banco Central, Calculadora do Cidadão.",
+  "Coloca o salário de antes e vê quanto ele deveria ser hoje.",
   "Seu salário acompanhou a inflação? Comenta SIM ou NÃO.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam. Cara, olha que loucura. Esse valor é exemplo. O que custava R$ 100 em 2013 custa uns R$ 214 hoje. Isso é a inflação oficial, medida pelo IBGE. Quase dobrou. Calma: é o termômetro do país, uma média. Seu aluguel e seu mercado pesam diferente. Dá pra conferir de graça no site do Banco Central: Calculadora do Cidadão. Põe o salário de antes, escolhe outubro de 2026 e compara. Manda pra quem ganha o mesmo salário faz anos. Pra ele ver quanto compra. Seu salário acompanhou a inflação? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
- "palavras": 114,
+ "texto_falado": "Cara, presta atenção nessa conta. O que custava 100 reais em 2013, hoje custa uns 214. Isso é a inflação oficial, o IPCA do IBGE. Os preços mais que dobraram. Agora pensa: você ganhava 3 mil em 2013 e ainda ganha 3 mil hoje. Esse salário compra o que uns 1.400 compravam lá atrás. Você não perdeu o emprego. Mas perdeu mais da metade do que ele compra. Quer ver a sua conta? É de graça: site do Banco Central, Calculadora do Cidadão. Coloca o salário de antes e vê quanto ele deveria ser hoje. Seu salário acompanhou a inflação? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
  "segundos": 46,
  "na_tela": [
   {
-   "texto": "Salário parado desde 2013",
-   "fala": 0
+   "fala": 0,
+   "texto": "Quanto o seu dinheiro PERDEU?"
   },
   {
    "fala": 1,
-   "texto": "R$ 3.000: só exemplo",
-   "fonte": "Termômetro de Crise"
+   "texto": "R$ 100 em 2013 = cerca de R$ 214 hoje",
+   "fonte": "Banco Central, Calculadora do Cidadão (IPCA, jan/2013 a out/2026)"
   },
   {
    "fala": 2,
-   "texto": "R$ 100 (jan/2013) → cerca de R$ 214 (out/2026)",
-   "fonte": "Banco Central"
-  },
-  {
-   "fala": 3,
-   "texto": "IPCA: cerca de 114% de alta",
+   "texto": "IPCA: cerca de +114%",
    "fonte": "IBGE"
   },
   {
    "fala": 4,
-   "texto": "IPCA = média do país",
-   "fonte": "IBGE"
-  },
-  {
-   "fala": 5,
-   "texto": "bcb.gov.br · Calculadora do Cidadão",
-   "fonte": "Banco Central"
+   "texto": "R$ 3.000 parado = cerca de R$ 1.400 de 2013",
+   "fonte": "Conta do Termômetro de Crise (exemplo)"
   },
   {
    "fala": 6,
-   "texto": "Correção de valores · IPCA · out/2026",
+   "texto": "bcb.gov.br → Calculadora do Cidadão",
    "fonte": "Banco Central"
-  },
-  {
-   "fala": 7,
-   "texto": "R$ 3.000 de 2013 compram hoje o que cerca de R$ 1.400 compravam",
-   "fonte": "Termômetro de Crise"
   }
  ],
  "retomada": 4,
@@ -116,15 +101,15 @@
   "#financaspessoais"
  ],
  "rua": {
-  "gancho": "Seu salário parado desde 2013 compra bem menos hoje. Olha a conta.",
+  "gancho": "Cara, o que custava 100 reais em 2013 hoje custa 214.",
   "topicos": [
-   "R$ 100 de 2013 custam uns R$ 214 hoje, pela inflação oficial do IBGE.",
-   "Salário de R$ 3.000 parado desde 2013 compra o que uns R$ 1.400 compravam.",
-   "É média do país: aluguel e mercado pesam diferente pra cada família.",
-   "Confere de graça na Calculadora do Cidadão, no site do Banco Central."
+   "Inflação oficial (IPCA/IBGE): preços mais que dobraram desde 2013.",
+   "Salário de 3 mil parado compra o que 1.400 compravam.",
+   "Perdeu mais da metade do que o salário compra.",
+   "Confere de graça: Calculadora do Cidadão, site do Banco Central."
   ]
  },
- "formato": "bancada",
+ "formato": "Andando na rua",
  "por_que_formato": "É uma explicação com vários números e uma conta para o espectador refazer, então pede calma e prova na tela.",
  "tipo": "explica",
  "persona": "Heitor",
@@ -186,7 +171,7 @@
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Seu salário parado em R$ 3.000 desde 2013 compra o que uns R$ 1.400 compravam.\n\nCara, olha que loucura. Esse valor é exemplo.\n\nO que custava R$ 100 em 2013 custa uns R$ 214 hoje.\n\nIsso é a inflação oficial, medida pelo IBGE. Quase dobrou.\n\nCalma: é o termômetro do país, uma média. Seu aluguel e seu mercado pesam diferente.\n\nDá pra conferir de graça no site do Banco Central: Calculadora do Cidadão.\n\nPõe o salário de antes, escolhe outubro de 2026 e compara.\n\nManda pra quem ganha o mesmo salário faz anos. Pra ele ver quanto compra.\n\nSeu salário acompanhou a inflação? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Cara, presta atenção nessa conta.\n\nO que custava 100 reais em 2013, hoje custa uns 214.\n\nIsso é a inflação oficial, o IPCA do IBGE. Os preços mais que dobraram.\n\nAgora pensa: você ganhava 3 mil em 2013 e ainda ganha 3 mil hoje.\n\nEsse salário compra o que uns 1.400 compravam lá atrás.\n\nVocê não perdeu o emprego. Mas perdeu mais da metade do que ele compra.\n\nQuer ver a sua conta? É de graça: site do Banco Central, Calculadora do Cidadão.\n\nColoca o salário de antes e vê quanto ele deveria ser hoje.\n\nSeu salário acompanhou a inflação? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "IBGE (Agência de Notícias)",
@@ -206,5 +191,6 @@
  ],
  "data": "2026-11-19",
  "gerado_em": "2026-11-19T09:14:26.887026-03:00",
- "enviado_whatsapp": "2026-11-19T09:17:20.064859-03:00"
+ "enviado_whatsapp": null,
+ "urgente": true
 }

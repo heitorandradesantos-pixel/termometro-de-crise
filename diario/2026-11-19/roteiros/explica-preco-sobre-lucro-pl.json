@@ -1,8 +1,8 @@
 {
  "gancho": {
   "formula": "Pergunta de bolso",
-  "texto": "Quantos anos de lucro você pagaria por uma padaria?",
-  "na_tela": "Quantos anos de LUCRO?",
+  "texto": "Cara, quantos anos de lucro você pagaria por uma padaria?",
+  "na_tela": "Quantos anos de LUCRO você pagaria?",
   "nota": {
    "especifico": 1,
    "tensao": 2,
@@ -50,54 +50,43 @@
   }
  ],
  "linhas": [
-  "Quantos anos de lucro você pagaria por uma padaria?",
-  "Uma padaria que lucra R$ 100 mil sai por R$ 1 milhão.",
-  "São 10 anos de lucro: essa conta é o P/L.",
-  "Empresa de tecnologia pode custar 30 anos de lucro, pelo crescimento que o mercado espera.",
-  "Se esse crescimento não vier, o preço pode cair.",
-  "P/L baixo, sozinho, não quer dizer empresa barata.",
-  "Se você tem fundo de ações, parte pode ter P/L alto.",
-  "Abra a lâmina, resumo oficial do fundo, e veja os setores.",
+  "Cara, quantos anos de lucro você pagaria por uma padaria?",
+  "Pensa numa padaria que lucra 100 mil por ano.",
+  "O dono quer 1 milhão nela. Ou seja, você paga 10 anos de lucro.",
+  "Esse 10 é o tal do P/L: preço dividido pelo lucro.",
+  "Agora, tem empresa de tecnologia que custa 30, 40 anos de lucro.",
+  "Por quê? Porque o mercado tá apostando que ela vai crescer muito.",
+  "Se não crescer, o preço pode cair forte.",
+  "E P/L baixo também não quer dizer barato: às vezes o lucro tá pra cair.",
   "Você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "Quantos anos de lucro você pagaria por uma padaria? Uma padaria que lucra R$ 100 mil sai por R$ 1 milhão. São 10 anos de lucro: essa conta é o P/L. Empresa de tecnologia pode custar 30 anos de lucro, pelo crescimento que o mercado espera. Se esse crescimento não vier, o preço pode cair. P/L baixo, sozinho, não quer dizer empresa barata. Se você tem fundo de ações, parte pode ter P/L alto. Abra a lâmina, resumo oficial do fundo, e veja os setores. Você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
- "palavras": 108,
+ "texto_falado": "Cara, quantos anos de lucro você pagaria por uma padaria? Pensa numa padaria que lucra 100 mil por ano. O dono quer 1 milhão nela. Ou seja, você paga 10 anos de lucro. Esse 10 é o tal do P/L: preço dividido pelo lucro. Agora, tem empresa de tecnologia que custa 30, 40 anos de lucro. Por quê? Porque o mercado tá apostando que ela vai crescer muito. Se não crescer, o preço pode cair forte. E P/L baixo também não quer dizer barato: às vezes o lucro tá pra cair. Você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
  "segundos": 46,
  "na_tela": [
   {
-   "texto": "Quantos anos de LUCRO?",
-   "fala": 0
-  },
-  {
-   "fala": 1,
-   "texto": "Padaria: lucro R$ 100 mil, preço R$ 1 milhão",
-   "fonte": "B3 (Bora Investir)"
+   "fala": 0,
+   "texto": "Quantos anos de LUCRO você pagaria?"
   },
   {
    "fala": 2,
-   "texto": "P/L = preço ÷ lucro = 10 anos",
-   "fonte": "B3 (Bora Investir)"
-  },
-  {
-   "fala": 3,
-   "texto": "Tecnologia: 30 anos de lucro ou mais",
+   "texto": "Lucro R$ 100 mil · preço R$ 1 milhão = 10 anos",
    "fonte": "Exemplo do Termômetro de Crise"
   },
   {
-   "fala": 4,
-   "texto": "Sem crescimento, o preço pode cair",
-   "fonte": ""
-  },
-  {
-   "fala": 5,
-   "texto": "P/L baixo ≠ empresa barata",
+   "fala": 3,
+   "texto": "P/L = preço ÷ lucro",
    "fonte": "B3 (Bora Investir)"
   },
   {
+   "fala": 6,
+   "texto": "Sem crescimento, o preço pode cair"
+  },
+  {
    "fala": 7,
-   "texto": "Abra a lâmina do fundo",
-   "fonte": "Termômetro de Crise"
+   "texto": "P/L baixo ≠ barato",
+   "fonte": "B3 (Bora Investir)"
   }
  ],
  "retomada": 5,
@@ -111,15 +100,15 @@
   "#termometrodecrise"
  ],
  "rua": {
-  "gancho": "Quantos anos de lucro você pagaria por uma padaria?",
+  "gancho": "Cara, quantos anos de lucro você pagaria por uma padaria?",
   "topicos": [
-   "Padaria de R$ 1 milhão, lucro de R$ 100 mil: P/L 10.",
-   "Tecnologia pode custar 30 anos de lucro: é aposta no futuro.",
-   "P/L baixo, sozinho, não quer dizer empresa barata.",
-   "Tem fundo de ações? Abra a lâmina e veja os setores."
+   "Lucra 100 mil, custa 1 milhão: 10 anos de lucro.",
+   "Esse número é o P/L: preço dividido pelo lucro.",
+   "Tecnologia pode custar 30 anos: aposta no crescimento.",
+   "P/L baixo não quer dizer barato."
   ]
  },
- "formato": "bancada",
+ "formato": "Andando na rua",
  "por_que_formato": "É uma explicação com conta e comparação, que pede calma e prova na tela, não uma notícia quente de rua.",
  "tipo": "explica",
  "persona": "Heitor",
@@ -128,7 +117,7 @@
  "tentativas": 3,
  "marca": null,
  "viral": null,
- "teleprompter": "Quantos anos de lucro você pagaria por uma padaria?\n\nUma padaria que lucra R$ 100 mil sai por R$ 1 milhão.\n\nSão 10 anos de lucro: essa conta é o P/L.\n\nEmpresa de tecnologia pode custar 30 anos de lucro, pelo crescimento que o mercado espera.\n\nSe esse crescimento não vier, o preço pode cair.\n\nP/L baixo, sozinho, não quer dizer empresa barata.\n\nSe você tem fundo de ações, parte pode ter P/L alto.\n\nAbra a lâmina, resumo oficial do fundo, e veja os setores.\n\nVocê pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Cara, quantos anos de lucro você pagaria por uma padaria?\n\nPensa numa padaria que lucra 100 mil por ano.\n\nO dono quer 1 milhão nela. Ou seja, você paga 10 anos de lucro.\n\nEsse 10 é o tal do P/L: preço dividido pelo lucro.\n\nAgora, tem empresa de tecnologia que custa 30, 40 anos de lucro.\n\nPor quê? Porque o mercado tá apostando que ela vai crescer muito.\n\nSe não crescer, o preço pode cair forte.\n\nE P/L baixo também não quer dizer barato: às vezes o lucro tá pra cair.\n\nVocê pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "B3 (Bora Investir)",
@@ -140,5 +129,5 @@
  "gerado_em": "2026-11-19T09:46:43.276660-03:00",
  "urgente": true,
  "pedido_do_heitor": true,
- "enviado_whatsapp": "2026-11-19T09:51:01.913201-03:00"
+ "enviado_whatsapp": null
 }

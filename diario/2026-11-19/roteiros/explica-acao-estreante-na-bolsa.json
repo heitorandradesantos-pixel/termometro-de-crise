@@ -1,8 +1,8 @@
 {
  "gancho": {
   "formula": "Número + porquê",
-  "texto": "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.",
-  "na_tela": "69,5% valem MENOS que na estreia",
+  "texto": "Cara, comprar ação no dia da estreia vale a pena? Olha esse número.",
+  "na_tela": "Ação ESTREANTE vale a pena?",
   "nota": {
    "especifico": 2,
    "tensao": 1,
@@ -50,44 +50,42 @@
   }
  ],
  "linhas": [
-  "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.",
-  "Segundo um levantamento noticiado em maio de 2026.",
-  "Só 14,5% dessas empresas superaram o Ibovespa, o índice da bolsa.",
-  "Fila no primeiro dia é igual inauguração de loja: não garante nada.",
-  "Outro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021.",
-  "Ou seja, boa parte do resultado vem dessa safra.",
-  "Antes de se empolgar, olha o lucro, a dívida e o preço pago.",
-  "Manda pra quem tá animado com a próxima estreia na bolsa.",
-  "Já se empolgou com estreia e se arrependeu? Comenta SIM ou NÃO.",
+  "Cara, comprar ação no dia da estreia vale a pena? Olha esse número.",
+  "Desde 2020, 69 empresas estrearam na bolsa brasileira.",
+  "Hoje, quase 7 em cada 10 valem menos do que no dia da estreia.",
+  "E só umas 10 ganharam do Ibovespa, o índice da bolsa.",
+  "Isso é de um levantamento da consultoria Elos Ayta, divulgado em maio.",
+  "Estreia na bolsa é igual inauguração de loja: fila na porta não garante que vai dar certo.",
+  "Antes de se empolgar, olha três coisas: dá lucro? Deve muito? O preço tá caro?",
+  "Você compraria uma ação no dia da estreia? Comenta SIM ou NÃO.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia. Segundo um levantamento noticiado em maio de 2026. Só 14,5% dessas empresas superaram o Ibovespa, o índice da bolsa. Fila no primeiro dia é igual inauguração de loja: não garante nada. Outro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021. Ou seja, boa parte do resultado vem dessa safra. Antes de se empolgar, olha o lucro, a dívida e o preço pago. Manda pra quem tá animado com a próxima estreia na bolsa. Já se empolgou com estreia e se arrependeu? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
- "palavras": 112,
+ "texto_falado": "Cara, comprar ação no dia da estreia vale a pena? Olha esse número. Desde 2020, 69 empresas estrearam na bolsa brasileira. Hoje, quase 7 em cada 10 valem menos do que no dia da estreia. E só umas 10 ganharam do Ibovespa, o índice da bolsa. Isso é de um levantamento da consultoria Elos Ayta, divulgado em maio. Estreia na bolsa é igual inauguração de loja: fila na porta não garante que vai dar certo. Antes de se empolgar, olha três coisas: dá lucro? Deve muito? O preço tá caro? Você compraria uma ação no dia da estreia? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 109,
  "segundos": 45,
  "na_tela": [
   {
-   "texto": "69,5% valem MENOS que na estreia",
-   "fala": 0
+   "fala": 0,
+   "texto": "Ação ESTREANTE vale a pena?"
   },
   {
    "fala": 1,
-   "texto": "69,5% abaixo do preço de estreia",
-   "fonte": "Portal Tela"
+   "texto": "69 estreias na bolsa desde 2020",
+   "fonte": "Elos Ayta (maio/2026)"
   },
   {
    "fala": 2,
-   "texto": "Só 14,5% bateram o Ibovespa",
-   "fonte": "Portal Tela"
+   "texto": "Quase 7 em 10 valem MENOS hoje",
+   "fonte": "Elos Ayta (maio/2026)"
   },
   {
-   "fala": 4,
-   "texto": "+80% das estreias em 2020 e 2021",
-   "fonte": "Times Brasil"
+   "fala": 3,
+   "texto": "Só 14,5% bateram o Ibovespa",
+   "fonte": "Elos Ayta (maio/2026)"
   },
   {
    "fala": 6,
-   "texto": "Lucro · Dívida · Preço pago",
-   "fonte": "Termômetro de Crise"
+   "texto": "Lucro · Dívida · Preço"
   }
  ],
  "retomada": 4,
@@ -100,15 +98,15 @@
   "#investimentos"
  ],
  "rua": {
-  "gancho": "Cara, 69,5% das ações estreantes valem menos que na estreia.",
+  "gancho": "Cara, 7 em cada 10 ações estreantes valem menos hoje.",
   "topicos": [
-   "Levantamento noticiado em maio de 2026: 69,5% das estreantes desde 2020 valem menos.",
-   "Só 14,5% superaram o Ibovespa, segundo o mesmo levantamento.",
-   "Seneca Evercore: mais de 80% das estreias foram em 2020 e 2021.",
-   "Antes de se empolgar, olha o lucro, a dívida e o preço pago."
+   "69 empresas estrearam na bolsa desde 2020 (Elos Ayta).",
+   "Quase 7 em 10 valem menos que na estreia.",
+   "Só umas 10 ganharam do Ibovespa.",
+   "Antes de se empolgar: lucro, dívida e preço."
   ]
  },
- "formato": "bancada",
+ "formato": "Andando na rua",
  "por_que_formato": "É uma explicação com contexto e vários números, que pede calma e prova na tela, não notícia quente do dia.",
  "tipo": "explica",
  "persona": "Heitor",
@@ -171,7 +169,7 @@
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.\n\nSegundo um levantamento noticiado em maio de 2026.\n\nSó 14,5% dessas empresas superaram o Ibovespa, o índice da bolsa.\n\nFila no primeiro dia é igual inauguração de loja: não garante nada.\n\nOutro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021.\n\nOu seja, boa parte do resultado vem dessa safra.\n\nAntes de se empolgar, olha o lucro, a dívida e o preço pago.\n\nManda pra quem tá animado com a próxima estreia na bolsa.\n\nJá se empolgou com estreia e se arrependeu? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Cara, comprar ação no dia da estreia vale a pena? Olha esse número.\n\nDesde 2020, 69 empresas estrearam na bolsa brasileira.\n\nHoje, quase 7 em cada 10 valem menos do que no dia da estreia.\n\nE só umas 10 ganharam do Ibovespa, o índice da bolsa.\n\nIsso é de um levantamento da consultoria Elos Ayta, divulgado em maio.\n\nEstreia na bolsa é igual inauguração de loja: fila na porta não garante que vai dar certo.\n\nAntes de se empolgar, olha três coisas: dá lucro? Deve muito? O preço tá caro?\n\nVocê compraria uma ação no dia da estreia? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "Exame",
@@ -188,5 +186,5 @@
  "gerado_em": "2026-11-19T09:40:40.661015-03:00",
  "urgente": true,
  "pedido_do_heitor": true,
- "enviado_whatsapp": "2026-11-19T09:48:56.949069-03:00"
+ "enviado_whatsapp": null
 }

@@ -1,8 +1,8 @@
 {
  "gancho": {
   "formula": "Número + porquê",
-  "texto": "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.",
-  "na_tela": "R$ 20 viram R$ 19?",
+  "texto": "Cara, dividendo não é dinheiro de graça.",
+  "na_tela": "Dividendo é dinheiro DE GRAÇA?",
   "nota": {
    "especifico": 2,
    "tensao": 1,
@@ -50,49 +50,42 @@
   }
  ],
  "linhas": [
-  "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.",
-  "Cara, dividendo não é dinheiro de graça, olha só.",
-  "O dividendo sai do caixa da empresa: é do cofrinho pro bolso.",
-  "Quando a ação passa a negociar sem ele, o preço tende a cair.",
-  "Pouca gente viu: dividendo grande já chega com imposto.",
-  "Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.",
-  "Olha a data de corte no app da corretora: quem compra depois não recebe.",
-  "Manda pra quem acha que dividendo é dinheiro extra.",
-  "Achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO.",
+  "Cara, dividendo não é dinheiro de graça.",
+  "Imagina uma ação de 20 reais que vai pagar 1 real de dividendo.",
+  "Esse 1 real sai do caixa da empresa e vai pro seu bolso.",
+  "Só que, quando o dividendo é separado, a ação tende a cair pra perto de 19.",
+  "Antes: 20 em ação. Depois: 19 em ação e 1 no bolso. Os mesmos 20.",
+  "Então o que importa não é o dividendo. É a empresa continuar dando lucro.",
+  "E desde 2026, passou de 50 mil por mês da mesma empresa, já vem 10% de imposto descontado.",
+  "Você achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19. Cara, dividendo não é dinheiro de graça, olha só. O dividendo sai do caixa da empresa: é do cofrinho pro bolso. Quando a ação passa a negociar sem ele, o preço tende a cair. Pouca gente viu: dividendo grande já chega com imposto. Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado. Olha a data de corte no app da corretora: quem compra depois não recebe. Manda pra quem acha que dividendo é dinheiro extra. Achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
- "palavras": 113,
+ "texto_falado": "Cara, dividendo não é dinheiro de graça. Imagina uma ação de 20 reais que vai pagar 1 real de dividendo. Esse 1 real sai do caixa da empresa e vai pro seu bolso. Só que, quando o dividendo é separado, a ação tende a cair pra perto de 19. Antes: 20 em ação. Depois: 19 em ação e 1 no bolso. Os mesmos 20. Então o que importa não é o dividendo. É a empresa continuar dando lucro. E desde 2026, passou de 50 mil por mês da mesma empresa, já vem 10% de imposto descontado. Você achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
  "segundos": 45,
  "na_tela": [
   {
-   "texto": "R$ 20 viram R$ 19?",
-   "fala": 0
+   "fala": 0,
+   "texto": "Dividendo é dinheiro DE GRAÇA?"
   },
   {
    "fala": 1,
-   "texto": "Ação de R$ 20 + dividendo de R$ 1 = perto de R$ 19",
-   "fonte": "Tesemetria"
-  },
-  {
-   "fala": 2,
-   "texto": "Dividendo sai do caixa da empresa",
-   "fonte": "Tesemetria"
+   "texto": "Ação R$ 20 + dividendo R$ 1",
+   "fonte": "Exemplo do Termômetro de Crise"
   },
   {
    "fala": 3,
-   "texto": "Data ex: ação sem direito ao dividendo",
-   "fonte": "B3 Bora Investir"
+   "texto": "Data ex: ação tende a cair perto de R$ 19",
+   "fonte": "B3 (Bora Investir)"
   },
   {
-   "fala": 5,
-   "texto": "Mais de R$ 50 mil por mês da mesma empresa: 10% retidos",
-   "fonte": "Receita Federal"
+   "fala": 4,
+   "texto": "R$ 19 + R$ 1 = os mesmos R$ 20"
   },
   {
    "fala": 6,
-   "texto": "Data de corte (data com): último dia para ter direito",
-   "fonte": "Traders"
+   "texto": "Acima de R$ 50 mil/mês da mesma empresa: 10% retido",
+   "fonte": "Receita Federal (Lei 15.270/2025)"
   }
  ],
  "retomada": 4,
@@ -106,15 +99,15 @@
   "#termometrodecrise"
  ],
  "rua": {
-  "gancho": "Cara, olha: dividendo não é dinheiro de graça.",
+  "gancho": "Cara, dividendo não é dinheiro de graça.",
   "topicos": [
-   "Sem o dividendo, a ação tende a cair o valor pago, diz a B3.",
-   "Ação de R$ 20 paga R$ 1 e tende a abrir em R$ 19.",
-   "Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.",
-   "Olha a data de corte no app da corretora: quem compra depois não recebe."
+   "Ação de 20 paga 1 de dividendo e cai pra perto de 19.",
+   "19 em ação mais 1 no bolso: os mesmos 20.",
+   "O que importa é a empresa continuar dando lucro.",
+   "Acima de 50 mil por mês, 10% de imposto retido."
   ]
  },
- "formato": "bancada",
+ "formato": "Andando na rua",
  "por_que_formato": "É uma explicação com conta e regra de imposto, que pede calma e prova na tela, não notícia quente do dia.",
  "tipo": "explica",
  "persona": "Heitor",
@@ -176,7 +169,7 @@
  ],
  "apoios_ok": true,
  "apoios_problemas": [],
- "teleprompter": "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.\n\nCara, dividendo não é dinheiro de graça, olha só.\n\nO dividendo sai do caixa da empresa: é do cofrinho pro bolso.\n\nQuando a ação passa a negociar sem ele, o preço tende a cair.\n\nPouca gente viu: dividendo grande já chega com imposto.\n\nSegundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.\n\nOlha a data de corte no app da corretora: quem compra depois não recebe.\n\nManda pra quem acha que dividendo é dinheiro extra.\n\nAchava que dividendo era dinheiro a mais? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Cara, dividendo não é dinheiro de graça.\n\nImagina uma ação de 20 reais que vai pagar 1 real de dividendo.\n\nEsse 1 real sai do caixa da empresa e vai pro seu bolso.\n\nSó que, quando o dividendo é separado, a ação tende a cair pra perto de 19.\n\nAntes: 20 em ação. Depois: 19 em ação e 1 no bolso. Os mesmos 20.\n\nEntão o que importa não é o dividendo. É a empresa continuar dando lucro.\n\nE desde 2026, passou de 50 mil por mês da mesma empresa, já vem 10% de imposto descontado.\n\nVocê achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "B3 Bora Investir",
@@ -188,5 +181,5 @@
  "gerado_em": "2026-11-19T09:23:03.757564-03:00",
  "urgente": true,
  "pedido_do_heitor": true,
- "enviado_whatsapp": "2026-11-19T09:48:56.949069-03:00"
+ "enviado_whatsapp": null
 }
