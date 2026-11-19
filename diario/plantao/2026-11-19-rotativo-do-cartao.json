@@ -1,0 +1,106 @@
+{
+ "titulo": "Rotativo do cartão na Black Friday: o que se sabe",
+ "descricao": "Juro médio do rotativo foi a 451,7% ao ano em setembro, diz o BC. Entenda o pagamento mínimo, os 30 dias e o teto de 100% da dívida.",
+ "palavra_chave": "rotativo do cartão",
+ "lead": "Quem paga só o mínimo da fatura entra no rotativo do cartão, a linha de crédito mais cara do sistema. O Banco Central informou em 29/10 que o juro médio do rotativo foi de 451,7% ao ano em setembro, contra 444,9% em agosto. Desde janeiro de 2024, a lei limita juros e encargos a 100% da dívida original: ela pode dobrar, mas não passa disso.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O juro médio do rotativo do cartão subiu de 444,9% ao ano em agosto para 451,7% ao ano em setembro de 2026, segundo o Banco Central (Estatísticas Monetárias e de Crédito, divulgadas na quinta-feira, 29/10). O parcelado avançou de 192,1% para 193,0%. Alguns veículos publicaram a notícia em 30/10.",
+   "fonte_url": "https://mais.opovo.com.br/jornal/economia/2026/10/30/juro-medio-do-rotativo-do-cartao-de-credito-sobe-a-4517-ao-ano-em-setembro-diz-bc.html",
+   "data": "2026-10-29",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O número anual é uma projeção. O Banco Central pega os juros cobrados em um mês e calcula o que daria em 12 meses. Pelo cálculo do site Melhor Investimento, com base na média de setembro, isso equivale a cerca de 15,3% ao mês: R$ 153 de juros em 30 dias sobre uma fatura de R$ 1.000.",
+   "fonte_url": "https://melhorinvestimento.net/noticias/juros-do-rotativo-setembro-2026",
+   "data": "2026-10-29",
+   "veiculo": "Melhor Investimento",
+   "confiavel": false
+  },
+  {
+   "texto": "Se a fatura não é paga por inteiro até o vencimento, o saldo que sobra entra no rotativo. Pagar só o mínimo é um exemplo: o resto da dívida passa a render juros, que a Serasa diz ficarem em média entre 10% e 20% ao mês.",
+   "fonte_url": "https://www.serasa.com.br/credito/blog/cartao-de-credito-rotativo/",
+   "data": "2026-11-19",
+   "veiculo": "Serasa",
+   "confiavel": false
+  },
+  {
+   "texto": "Pela regra do Banco Central em vigor desde 2017 (Resolução CMN 4.549), o saldo só pode ficar no rotativo até o vencimento da fatura seguinte, cerca de 30 dias. Depois disso, o banco deve financiar a dívida em outra linha, como o parcelamento da fatura, em condições melhores que as do rotativo.",
+   "fonte_url": "https://www.serasa.com.br/carteira-digital/blog/o-que-sao-juros-rotativos/",
+   "data": "2026-11-19",
+   "veiculo": "Serasa",
+   "confiavel": false
+  },
+  {
+   "texto": "Desde janeiro de 2024, a Lei 14.690/2023 limita juros e encargos do rotativo e do parcelamento da fatura a 100% do valor original da dívida. Segundo o Procon-SC, uma dívida de R$ 100 no rotativo não pode passar de R$ 200 no total, independentemente do prazo. A regra vale para dívidas feitas a partir de 3/1/2024.",
+   "fonte_url": "https://www.procon.sc.gov.br/procon-sc-explica-limite-de-juros-ao-rotativo-do-cartao-de-credito-e-de-100/",
+   "data": "2026-11-19",
+   "veiculo": "Procon-SC",
+   "confiavel": true
+  },
+  {
+   "texto": "Taxas acima de 100% ao ano nas estatísticas do Banco Central não significam descumprimento da lei pelos bancos. Elas refletem a projeção anual, e o consumidor normalmente fica no rotativo por dias ou semanas, não por um ano.",
+   "fonte_url": "https://mais.opovo.com.br/jornal/economia/2026/10/30/juro-medio-do-rotativo-do-cartao-de-credito-sobe-a-4517-ao-ano-em-setembro-diz-bc.html",
+   "data": "2026-10-29",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "Em setembro, outras linhas tinham juro médio menor, segundo o Banco Central: crédito pessoal sem consignação a 110,9% ao ano (de 110,4% em agosto) e cheque especial a 139,0% (de 136,3%). São médias do mercado. A taxa que cada pessoa recebe depende da análise de crédito, do prazo, da garantia e da instituição.",
+   "fonte_url": "https://www.opovo.com.br/noticias/economia/2026/10/29/juro-medio-no-credito-livre-sobe-a-490-em-setembro-mostra-bc-cheque-especial-vai-a-139.html",
+   "data": "2026-10-29",
+   "veiculo": "O Povo",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Entra em vigor a regra do Banco Central que limita o rotativo a até o vencimento da fatura seguinte (cerca de 30 dias). Depois disso, o saldo deve ser financiado em outra linha.",
+   "fonte_url": "https://www.jusbrasil.com.br/artigos/credito-rotativo-no-cartao-de-credito/607158049",
+   "data": "2017-04-03",
+   "veiculo": "JusBrasil",
+   "confiavel": false
+  },
+  {
+   "texto": "É sancionada a Lei 14.690/2023, do Desenrola Brasil. O artigo 28 prevê que juros e encargos do rotativo e do parcelamento da fatura não podem passar do valor original da dívida.",
+   "fonte_url": "https://valorfinal.com.br/guia/juros-do-cartao-de-credito",
+   "data": "2023-10-03",
+   "veiculo": "ValorFinal",
+   "confiavel": false
+  },
+  {
+   "texto": "O teto de 100% passa a valer para as operações feitas a partir de 3 de janeiro de 2024.",
+   "fonte_url": "https://www.barbieriadvogados.com/juros-do-cartao-de-credito/",
+   "data": "2024-01-03",
+   "veiculo": "Barbieri Advogados",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central divulga que o juro médio do rotativo subiu de 444,9% para 451,7% ao ano em setembro.",
+   "fonte_url": "https://wscom.com.br/economia/2026/10/30/juro-do-rotativo-do-cartao-de-credito-sobe-para-4517-ao-ano-em-setembro-aponta-banco-central/",
+   "data": "2026-10-29",
+   "veiculo": "WSCOM",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O dado de outubro ainda não foi divulgado pelo Banco Central até onde a apuração encontrou. Não há confirmação de quanto o rotativo vai variar no período da Black Friday.",
+  "Não há número oficial de quantos consumidores vão pagar só o mínimo da fatura depois da Black Friday. Qualquer estimativa assim não foi confirmada por fonte oficial.",
+  "A taxa que cada pessoa vai pagar não foi informada nas fontes consultadas. Ela varia conforme a instituição e o cliente, e 451,7% é só a média do mercado.",
+  "As fontes divergem sobre se o parcelamento da fatura entra de forma automática depois dos 30 dias ou se depende de o cliente aceitar. Confirme as condições na fatura ou com a instituição do seu cartão."
+ ],
+ "o_que_muda_para_voce": [
+  "Pagar o valor total da fatura até o vencimento evita o rotativo. Pagar só o mínimo joga o restante da dívida na linha de juro mais alto do cartão.",
+  "Na média de setembro, o rotativo custava cerca de 15% ao mês. Em R$ 1.000 deixados na fatura, isso dá perto de R$ 153 de juros em 30 dias, segundo cálculo do site Melhor Investimento. A taxa do seu cartão pode ser diferente.",
+  "O teto da lei faz a dívida parar de crescer em 100%: R$ 1.000 podem virar, no máximo, R$ 2.000. Dobrar já é muito, e o teto limita o estrago, não evita o custo.",
+  "Os cerca de 30 dias de rotativo são um prazo para comparar. Em setembro, as médias do Banco Central eram 110,9% ao ano no crédito pessoal sem consignação e 139,0% no cheque especial, contra 451,7% do rotativo. Compare o CET (Custo Efetivo Total, que soma juros e taxas) de cada oferta antes de decidir. Este texto não indica nenhum produto.",
+  "Pergunta para os comentários: quem aqui já pagou só o mínimo da fatura? Comenta EU."
+ ],
+ "como_se_proteger": [],
+ "slug": "rotativo-do-cartao",
+ "publicado_em": "2026-11-19T06:44:39.014160",
+ "atualizado_em": "2026-11-19T06:44:39.014160",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) a fatura da Black Friday e o rotativo do cartão: o juro médio do rotativo subiu para 451,7% ao ano em setembro de 2026, segundo o Banco Central (estatísticas monetárias e de crédito, divulgadas em 30/10/2026). Desde janeiro de 2024, pela Lei 14.690/2023, juros e encargos do rotativo e do parcelamento da fatura não podem passar de 100% do valor original da dívida, ou seja, a dívida no máximo dobra, mas dobrar já é muito. Explique em conta simples o que é pagar o mínimo da fatura, por que o rotativo só dura 30 dias e depois vira parcelamento, e a dica de comparar com outras linhas mais baratas antes de entrar no rotativo. Gatilho: \"Quem aqui já pagou só o mínimo da fatura? Comenta EU.\" Sem recomendação de produto, sem citar banco como vilão, sem promessa.",
+ "turno": "manha"
+}
