@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.",
+  "na_tela": "69,5% valem MENOS que na estreia",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.",
+   "na_tela": "69,5% valem MENOS que na estreia",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Empolgou com a estreia de uma ação na bolsa? Olha esse número antes.",
+   "na_tela": "Estreia na bolsa: CUIDADO",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Só 14,5% das ações que estrearam na bolsa bateram o Ibovespa.",
+   "na_tela": "Só 14,5% bateram o Ibovespa",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.",
+  "Segundo um levantamento noticiado em maio de 2026.",
+  "Só 14,5% dessas empresas superaram o Ibovespa, o índice da bolsa.",
+  "Fila no primeiro dia é igual inauguração de loja: não garante nada.",
+  "Outro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021.",
+  "Ou seja, boa parte do resultado vem dessa safra.",
+  "Antes de se empolgar, olha o lucro, a dívida e o preço pago.",
+  "Manda pra quem tá animado com a próxima estreia na bolsa.",
+  "Já se empolgou com estreia e se arrependeu? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia. Segundo um levantamento noticiado em maio de 2026. Só 14,5% dessas empresas superaram o Ibovespa, o índice da bolsa. Fila no primeiro dia é igual inauguração de loja: não garante nada. Outro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021. Ou seja, boa parte do resultado vem dessa safra. Antes de se empolgar, olha o lucro, a dívida e o preço pago. Manda pra quem tá animado com a próxima estreia na bolsa. Já se empolgou com estreia e se arrependeu? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "69,5% valem MENOS que na estreia",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "69,5% abaixo do preço de estreia",
+   "fonte": "Portal Tela"
+  },
+  {
+   "fala": 2,
+   "texto": "Só 14,5% bateram o Ibovespa",
+   "fonte": "Portal Tela"
+  },
+  {
+   "fala": 4,
+   "texto": "+80% das estreias em 2020 e 2021",
+   "fonte": "Times Brasil"
+  },
+  {
+   "fala": 6,
+   "texto": "Lucro · Dívida · Preço pago",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "ação que estreia na bolsa sobe ou cai?",
+ "legenda": "Ação que estreia na bolsa sobe ou cai? Segundo um levantamento noticiado em maio de 2026, 69,5% das empresas que abriram capital na B3 desde 2020 negociam abaixo do preço de estreia. Só 14,5% superaram o Ibovespa.\n\nOutro estudo, da Seneca Evercore, mostra que mais de 80% das ofertas se concentraram em 2020 e 2021. Ou seja, o resultado reflete, em boa parte, uma safra específica.\n\nO que ainda não se sabe: os números têm cerca de seis meses, e nenhum estudo prevê como as estreias de agora vão se comportar.\n\nO passo calmo: antes de se empolgar com o hype do primeiro dia, olha o lucro, a dívida e o preço pago. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bolsadevalores #ibovespa #educacaofinanceira #investimentos",
+ "hashtags": [
+  "#bolsadevalores",
+  "#ibovespa",
+  "#educacaofinanceira",
+  "#investimentos"
+ ],
+ "rua": {
+  "gancho": "Cara, 69,5% das ações estreantes valem menos que na estreia.",
+  "topicos": [
+   "Levantamento noticiado em maio de 2026: 69,5% das estreantes desde 2020 valem menos.",
+   "Só 14,5% superaram o Ibovespa, segundo o mesmo levantamento.",
+   "Seneca Evercore: mais de 80% das estreias foram em 2020 e 2021.",
+   "Antes de se empolgar, olha o lucro, a dívida e o preço pago."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e vários números, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Antes da última linha, falta a apresentação e o aviso da casa na fala: o roteiro vai direto do gatilho de comentário para \"Sem alarde. Eu sou só o termômetro!\". Insira \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" e deixe o bordão como a última frase, sem mudar uma palavra.",
+   "Em \"Só 14,5% dessas empresas superaram o Ibovespa, o índice da bolsa\", o Ibovespa traduzido como \"índice da bolsa\" ainda não diz o que isso significa pro bolso. Reescreva como \"Só 14,5% renderam mais que a média da bolsa, o Ibovespa\". Assim quem trabalha em loja ou obra entende de primeira.",
+   "Em \"Segundo um levantamento noticiado em maio de 2026\" e \"Ou seja, boa parte do resultado vem dessa safra\", o tom é de texto lido e a segunda frase é abstrata. Solte a fala e troque \"safra\" por algo direto, como \"a maioria entrou na bolsa em 2020 e 2021, e isso pesa no resultado\". Deixe a data exata no cartão da tela."
+  ],
+  "veredito": "A peça tem gancho com número e fonte, comparação viva (fila de inauguração), passo calmo e gatilho de comentário fácil, tudo sem promessa nem medo sem saída. Falta só a apresentação e o aviso da casa na fala final e um pouco mais de jeito de conversa em duas frases."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: 'Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.' tem número, mas o decimal é difícil de ouvir e 'ações estreantes' é jargão. Reescrita: 'Cara, de cada 10 empresas que estrearam na bolsa desde 2020, quase 7 valem menos hoje do que no primeiro dia.' O 69,5% fica no cartão da tela.",
+   "Retenção: 'Outro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021.' é uma virada fraca e tem três números. Reescrita: 'E aí vem a parte que pouca gente viu. Mais de 8 em cada 10 estreias foram em 2020 e 2021.'",
+   "Conversa: o único gatilho está no fim. Depois de 'não garante nada', solte um no meio: 'Já ficou na fila de uma estreia dessas? Guarda a resposta pro fim.'"
+  ],
+  "veredito": "Roteiro limpo, com fonte e envio concreto, mas o gancho tem jargão e decimal e fala com o investidor, não com o bolso de quem não conhece o Termômetro; falta também uma virada mais forte no meio."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow dolly-in toward the glass entrance of a newly opened retail store at opening time, a long crowd of anonymous people seen only from behind and at a distance, blurred, waiting in line along the sidewalk, ribbon and balloons at the door without any signage or text, soft morning light, shallow depth of field",
+   "texto_da_fala": "Fila no primeiro dia é igual inauguração de loja: não garante nada.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly-in toward the glass entrance of a newly opened retail store at opening time, a long crowd of anonymous people seen only from behind and at a distance, blurred, waiting in line along the sidewalk, ribbon and balloons at the door without any signage or text, soft morning light, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Vertical aerial-style shot of a busy modern city financial district at golden hour, glass skyscrapers, camera slowly rising and tilting up between towers, time-lapse of traffic light trails below, no signs, no logos, no readable text",
+   "texto_da_fala": "Outro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical aerial-style shot of a busy modern city financial district at golden hour, glass skyscrapers, camera slowly rising and tilting up between towers, time-lapse of traffic light trails below, no signs, no logos, no readable text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Vertical close-up, slow tracking shot across a wooden desk with a blank paper financial statement sheet with abstract unreadable lines, a calculator, a pen and a small coffee cup, a hand-free scene, then gentle push-in toward the calculator, warm desk lamp light, no text or numbers legible",
+   "texto_da_fala": "Antes de se empolgar, olha o lucro, a dívida e o preço pago.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up, slow tracking shot across a wooden desk with a blank paper financial statement sheet with abstract unreadable lines, a calculator, a pen and a small coffee cup, a hand-free scene, then gentle push-in toward the calculator, warm desk lamp light, no text or numbers legible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, 69,5% das ações estreantes na bolsa desde 2020 valem menos que na estreia.\n\nSegundo um levantamento noticiado em maio de 2026.\n\nSó 14,5% dessas empresas superaram o Ibovespa, o índice da bolsa.\n\nFila no primeiro dia é igual inauguração de loja: não garante nada.\n\nOutro estudo traz o detalhe: mais de 80% das estreias foram em 2020 e 2021.\n\nOu seja, boa parte do resultado vem dessa safra.\n\nAntes de se empolgar, olha o lucro, a dívida e o preço pago.\n\nManda pra quem tá animado com a próxima estreia na bolsa.\n\nJá se empolgou com estreia e se arrependeu? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/b3-ve-agro-e-infraestrutura-puxando-fila-de-50-ipos-apos-compass/",
+   "destaque": "Em 11/05/2026, a B3 viu a primeira estreia de ações em quase cinco anos."
+  },
+  {
+   "veiculo": "Bloomberg Línea",
+   "url": "https://www.bloomberglinea.com.br/negocios/brasil-terrenos-prepara-ingresso-na-b3-apos-fim-do-jejum-de-ipos-e-avalia-oferta/",
+   "destaque": "Em reportagem de 17/11/2026, a Bloomberg Línea diz que a B3 encolheu de 463 para 368 companhias listadas entre a última estreia do ciclo…"
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T09:40:40.661015-03:00"
+}
