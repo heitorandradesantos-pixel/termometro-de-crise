@@ -1,0 +1,113 @@
+{
+ "titulo": "Riza Terrax e MST: fazendas ocupadas? O que se sabe",
+ "descricao": "Dizem que o MST ocupou fazendas do Riza Terrax. Fontes mostram outra coisa: calote de arrendatário e acordo em 13/11. Veja o que se sabe.",
+ "palavra_chave": "riza terrax mst",
+ "lead": "Verdade ou exagero? Circula nas redes que o MST ocupou as fazendas do fundo Riza Terrax. Nos comunicados do fundo e nas matérias que o Plantão consultou, o caso é outro: o arrendatário da Fazenda Bom Jardim (GO) deixou de pagar, o contrato foi rescindido em junho e um acordo foi divulgado em 13 de novembro. O acordo cortou em 42% o valor da fazenda no papel, de R$ 118,3 milhões para R$ 68,4 milhões.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Nenhum comunicado nem matéria consultada pelo Plantão cita ocupação ou invasão. O problema descrito é de contrato: a parcela do arrendamento (aluguel de terra) de abril não foi paga, e o fundo rescindiu o contrato da Fazenda Bom Jardim, em Goiás.",
+   "fonte_url": "https://www.moneytimes.com.br/fundo-imobiliario-do-agronegocio-rescinde-contrato-de-fazenda-apos-inadimplencia-ifix-recua-igdl/",
+   "data": "2026-06-23",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O fundo comprou a fazenda em março de 2024 por R$ 60 milhões, no modelo sale and leaseback: o dono vende a terra e segue usando, pagando aluguel. São 969,68 hectares, em Montividiu (GO).",
+   "fonte_url": "https://www.moneytimes.com.br/fii-encerra-disputa-judicial-e-tera-impacto-negativo-de-r-265-por-cota-ifix-se-recupera-jcav/",
+   "data": "2026-11-17",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o Seu Dinheiro, o arrendatário não regularizou a dívida no prazo, e isso encerrou o arrendamento e a opção de compra. O fundo estimou perder cerca de R$ 5,6 milhões de receita entre abril e dezembro de 2026, ou R$ 0,30 por cota.",
+   "fonte_url": "https://www.seudinheiro.com/2026/bolsa-dolar/riza-terrax-rztr11-rescinde-contrato-de-fazenda-apos-calote-entenda-o-impacto-no-bolso-do-cotista-davs/",
+   "data": "2026-06-24",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "No fato relevante (comunicado obrigatório ao mercado) de 13/11, o fundo informou um acordo que encerra os processos na Justiça e reconhece a propriedade exclusiva da fazenda pelo fundo. O acordo cria um novo arrendamento até abril de 2030.",
+   "fonte_url": "https://www.moneytimes.com.br/fii-encerra-disputa-judicial-e-tera-impacto-negativo-de-r-265-por-cota-ifix-se-recupera-jcav/",
+   "data": "2026-11-13",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O novo contrato prevê pagamentos anuais antecipados de R$ 2,74 milhões (abril de 2027), R$ 3,01 milhões (2028) e R$ 3,31 milhões (2029). A opção de compra vale de abril de 2027 a abril de 2030, por R$ 68,4 milhões a R$ 91 milhões.",
+   "fonte_url": "https://content.btgpactual.com/research/ativo/RZTR11",
+   "data": "2026-11-16",
+   "veiculo": "BTG Pactual",
+   "confiavel": false
+  },
+  {
+   "texto": "A fazenda passa a valer R$ 68,4 milhões nos livros, contra R$ 118,3 milhões antes: queda de cerca de 42%. O ajuste reduz o patrimônio em R$ 49,9 milhões, ou R$ 2,65 por cota.",
+   "fonte_url": "https://www.moneytimes.com.br/fii-encerra-disputa-judicial-e-tera-impacto-negativo-de-r-265-por-cota-ifix-se-recupera-jcav/",
+   "data": "2026-11-17",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O novo valor é o preço da primeira data da opção de compra, em 2027. Segundo o Suno Notícias, a fazenda estava registrada por R$ 118,274 milhões antes do acordo.",
+   "fonte_url": "https://www.suno.com.br/noticias/rztr11-acordo-fazenda-bom-jardim/",
+   "data": "2026-11-17",
+   "veiculo": "Suno Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o Melhor Investimento, a redução de R$ 49,9 milhões no patrimônio não significa, por si só, uma saída de caixa desse valor. É ajuste de valor no papel.",
+   "fonte_url": "https://melhorinvestimento.net/noticias/rztr11-acordo-judicial-fazenda",
+   "data": "2026-11-17",
+   "veiculo": "Melhor Investimento",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Parcela do arrendamento vence e não é paga, segundo a Suno Notícias.",
+   "fonte_url": "https://www.suno.com.br/noticias/dividendos-do-rztr11-agosto-2026/",
+   "data": "2026-04-30",
+   "veiculo": "Suno Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "Prazo para devolver a posse da fazenda ao fundo termina.",
+   "fonte_url": "https://www.infomoney.com.br/onde-investir/fii-rztr11-rescinde-arrendamento-apos-inadimplencia-em-fazenda-de-goias-veja-impacto/",
+   "data": "2026-06-22",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Fato relevante comunica a rescisão do contrato de arrendamento.",
+   "fonte_url": "https://www.seudinheiro.com/2026/bolsa-dolar/riza-terrax-rztr11-rescinde-contrato-de-fazenda-apos-calote-entenda-o-impacto-no-bolso-do-cotista-davs/",
+   "data": "2026-06-23",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "Fato relevante informa o acordo, o novo arrendamento e o ajuste de R$ 2,65 por cota.",
+   "fonte_url": "https://www.clubefii.com.br/fiis/RZTR11",
+   "data": "2026-11-13",
+   "veiculo": "Clube FII",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quem começou o boato da ocupação não foi apurado. A versão de que o MST ocupou as fazendas não foi confirmada por nenhuma fonte consultada.",
+  "Não está claro quanto da queda das cotas vem só deste caso. O Plantão não checou a série completa de preços, e a causa da queda não foi confirmada.",
+  "As fontes divergem sobre o novo arrendatário: uma cita acordo com o grupo anterior, outras falam em novo arrendatário. O Plantão não leu o fato relevante na íntegra.",
+  "Não se sabe se o novo arrendatário vai pagar em dia ou exercer a opção de compra. Segundo o Melhor Investimento, se a opção for perdida, o fundo pode buscar outro arrendatário ou vender a fazenda.",
+  "Não ficou explicado em detalhe quanto os R$ 68,4 milhões refletem o preço de mercado da terra. As fontes ligam o número ao preço da opção de compra de 2027."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem cotas vê o patrimônio por cota cair R$ 2,65 no papel. Segundo uma das fontes, isso não é dinheiro saindo do caixa.",
+  "O novo aluguel anual antecipado (R$ 2,74 milhões em 2027) é menor que a receita anual de R$ 8,4 milhões do contrato antigo, segundo a Suno. Isso pode pesar nos rendimentos futuros, mas o fundo não detalhou o efeito.",
+  "A lição: fundo de terra também tem risco de inquilino, e o valor da fazenda no papel pode mudar. Segundo uma análise do Brick360, a Bom Jardim era cerca de 3,5% do patrimônio de um fundo com 24 imóveis.",
+  "Você sabia que fundo de fazenda pode levar calote? Comente SABIA ou NÃO SABIA."
+ ],
+ "como_se_proteger": [],
+ "slug": "riza-terrax-mst",
+ "publicado_em": "2026-11-19T06:21:41.024173",
+ "atualizado_em": "2026-11-19T06:21:41.024173",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário: formato \"gráfico + verdade ou exagero\" sobre o fundo imobiliário de fazendas Riza Terrax, que caiu forte nos últimos meses e circula nas redes que \"o MST ocupou as fazendas do fundo\". Fato conferido: não teve invasão. A Fazenda Bom Jardim, em Montividiu (GO), foi comprada pelo fundo em março de 2024 por R$ 60 milhões com arrendamento de 15 anos para o grupo que já era dono; o arrendatário, em recuperação judicial desde 2024, deixou de pagar, e o fundo rescindiu o contrato em junho de 2026 (Seu Dinheiro, 24/06/2026). No acordo divulgado em fato relevante de 13/11/2026, o fundo encerrou a disputa na Justiça, o grupo reconheceu a propriedade do fundo, foi assinado novo arrendamento até abril de 2030 (R$ 2,74 milhões em 2027, R$ 3,01 milhões em 2028 e R$ 3,31 milhões em 2029) e a fazenda foi reavaliada de R$ 118,3 milhões para R$ 68,4 milhões (-42%), um impacto de cerca de R$ 2,65 por cota no patrimônio, sem saída de caixa (Suno Notícias, 17/11/2026). Lição: fundo de terra também tem risco de inquilino, e o valor da fazenda no papel pode mudar. Gatilho: \"Você sabia que fundo de fazenda pode levar calote? Comenta SABIA ou NÃO SABIA.\" Sem código do fundo, sem recomendação de investimento, sem tratar a gestora nem o arrendatário como vilão, sem lado político.",
+ "turno": "manha"
+}
