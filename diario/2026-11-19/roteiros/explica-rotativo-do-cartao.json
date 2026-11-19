@@ -1,0 +1,191 @@
+{
+ "gancho": {
+  "formula": "Conta que assusta",
+  "texto": "R$ 1.000 deixados na fatura geram R$ 153 de juros em 30 dias.",
+  "na_tela": "R$ 1.000 viram R$ 153 de juros",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Conta que assusta",
+   "texto": "R$ 1.000 deixados na fatura geram R$ 153 de juros em 30 dias.",
+   "na_tela": "R$ 1.000 viram R$ 153 de juros",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O rotativo do cartão chegou a 451,7% ao ano, segundo o Banco Central.",
+   "na_tela": "Rotativo: 451,7% ao ano",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto custa pagar só o mínimo da sua fatura?",
+   "na_tela": "Pagar só o mínimo custa quanto?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 1.000 deixados na fatura geram R$ 153 de juros em 30 dias.",
+  "Isso é o rotativo: a febre mais alta do cartão.",
+  "Entra nele quem paga só o mínimo da fatura.",
+  "Segundo o Banco Central, a média de setembro foi 451,7% ao ano.",
+  "Calma: é uma projeção, ninguém fica um ano lá.",
+  "A lei põe um teto: R$ 1.000 viram, no máximo, R$ 2.000.",
+  "A taxa do seu cartão pode ser diferente: olha na fatura.",
+  "Sem pagar tudo, compare o CET, o custo total, de cada oferta.",
+  "Manda pra quem paga só o mínimo.",
+  "Quem já pagou só o mínimo? Comenta EU.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 1.000 deixados na fatura geram R$ 153 de juros em 30 dias. Isso é o rotativo: a febre mais alta do cartão. Entra nele quem paga só o mínimo da fatura. Segundo o Banco Central, a média de setembro foi 451,7% ao ano. Calma: é uma projeção, ninguém fica um ano lá. A lei põe um teto: R$ 1.000 viram, no máximo, R$ 2.000. A taxa do seu cartão pode ser diferente: olha na fatura. Sem pagar tudo, compare o CET, o custo total, de cada oferta. Manda pra quem paga só o mínimo. Quem já pagou só o mínimo? Comenta EU. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 1.000 viram R$ 153 de juros",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 153 de juros em 30 dias",
+   "fonte": "Melhor Investimento"
+  },
+  {
+   "fala": 3,
+   "texto": "451,7% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 4,
+   "texto": "Projeção, não um ano no rotativo",
+   "fonte": "O Povo"
+  },
+  {
+   "fala": 5,
+   "texto": "Teto: R$ 1.000 → R$ 2.000",
+   "fonte": "Procon-SC"
+  },
+  {
+   "fala": 7,
+   "texto": "CET = custo total",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "juros do rotativo do cartão",
+ "legenda": "juros do rotativo do cartão: quanto custa pagar só o mínimo?\n\nSegundo o Banco Central, o juro médio do rotativo foi de 451,7% ao ano em setembro. Esse número anual é uma projeção: na prática, o consumidor costuma ficar dias ou semanas no rotativo, não um ano. Pelo cálculo do site Melhor Investimento, R$ 1.000 deixados na fatura geram cerca de R$ 153 de juros em 30 dias, na média.\n\nDesde janeiro de 2024, a lei limita juros e encargos a 100% da dívida original, segundo o Procon-SC. Ou seja, R$ 1.000 podem virar, no máximo, R$ 2.000. O teto limita o estrago, mas não evita o custo.\n\nO que ainda não se sabe: o dado de outubro não foi divulgado, e a taxa do seu cartão pode ser diferente da média. Confira as condições na sua fatura e compare o CET (Custo Efetivo Total) de cada oferta.\n\nQuem aqui já pagou só o mínimo da fatura? Comenta EU.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#rotativo #cartaodecredito #educacaofinanceira #bancocentral #blackfriday",
+ "hashtags": [
+  "#rotativo",
+  "#cartaodecredito",
+  "#educacaofinanceira",
+  "#bancocentral",
+  "#blackfriday"
+ ],
+ "rua": {
+  "gancho": "Quem paga só o mínimo da fatura entra no rotativo.",
+  "topicos": [
+   "Banco Central: o juro médio do rotativo em setembro foi 451,7% ao ano.",
+   "Na média, R$ 1.000 na fatura geram R$ 153 de juros em 30 dias.",
+   "A lei limita em 100%: R$ 1.000 viram, no máximo, R$ 2.000.",
+   "Pague a fatura inteira; se não der, compare o CET de cada oferta."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um assunto de explicação, com vários números e um teto da lei que pede contexto, não uma notícia de urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Segundo o Banco Central, a média de setembro foi 451,7% ao ano.\": é número quebrado e longo para ouvir uma vez só (Teste do CLT). Arredonde na fala para \"uns 450% ao ano\" e deixe o 451,7% exato no cartão da tela. Se der, traduza na hora o efeito no bolso: \"é o juro mais caro do cartão\".",
+   "Frase \"Sem pagar tudo, compare o CET, o custo total, de cada oferta.\": a sigla CET é de banco e a frase é truncada, difícil de entender de primeira. Reescreva em ordem direta: \"Se não der pra pagar tudo, pergunte o custo total de cada opção. O nome técnico é CET.\" Assim o termo vem traduzido primeiro, e a frase fica de conversa.",
+   "Frase \"A lei põe um teto: R$ 1.000 viram, no máximo, R$ 2.000.\" e o gancho \"R$ 1.000 deixados na fatura geram R$ 153...\": o tom é correto, mas fica de texto lido, sem a energia do Heitor. Abra com uma reação, como \"Cara, olha isso: R$ 1.000 na fatura viram R$ 153 de juro em 30 dias\", e troque \"A lei põe um teto\" por algo de conversa, como \"A lei segura o estrago: no máximo dobra a dívida\". Mantenha o tom acolhedor, sem piada com quem paga o mínimo."
+  ],
+  "veredito": "A peça fala com quem paga o mínimo do cartão, traz fonte, calma, saída prática e gatilho de comentário sem alarmismo, mas na fala falta soar mais como o Heitor e passar melhor no Teste do CLT (número quebrado de 451,7% e a sigla CET)."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Retenção: a virada \"Calma: é uma projeção, ninguém fica um ano lá\" vem logo depois do 451,7%, e a fala do Banco Central junta número demais (451,7% ao ano, projeção) para quem ouve uma vez só (Teste do CLT). Reescreva dizendo o número redondo e o efeito, com o exato no cartão da tela: \"Segundo o Banco Central, o rotativo chegou a uns 450% ao ano. Calma: é conta de um ano inteiro, e ninguém fica um ano lá.\"",
+   "Retenção: guarde o número mais forte para o meio, para segurar quem ia sair. Hoje o teto de R$ 2.000 vem em frase seca. Com os mesmos fatos: \"E aí vem a parte que pouca gente viu: a lei põe um teto. R$ 1.000 viram, no máximo, R$ 2.000.\"",
+   "Retenção: \"Sem pagar tudo, compare o CET, o custo total, de cada oferta\" é a fala mais pesada do vídeo. Troque o termo técnico pelo efeito no bolso, com a sigla no cartão da tela: \"Se não dá pra pagar tudo, compara quanto cada oferta custa no total. Isso se chama CET.\""
+  ],
+  "veredito": "Gancho forte, com número no bolso e pago de imediato, e com envio e comentário concretos; falta só aliviar a densidade das falas do meio (451,7%, teto, CET) para segurar quem ouve uma vez só e chegar ao fim."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a wooden kitchen table in warm morning light. A plain unbranded blank credit card rests on a printed paper bill whose lines are only abstract blurred gray bars, with no legible text or numbers. A small sticky note with a single unmarked check mark sits at the corner. Slow dolly-in toward the card, shallow depth of field, steam rising from a coffee cup in the background. No people, no logos",
+   "texto_da_fala": "Entra nele quem paga só o mínimo da fatura.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a wooden kitchen table in warm morning light. A plain unbranded blank credit card rests on a printed paper bill whose lines are only abstract blurred gray bars, with no legible text or numbers. A small sticky note with a single unmarked check mark sits at the corner. Slow dolly-in toward the card, shallow depth of field, steam rising from a coffee cup in the background. No people, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro shot of a neat stack of plain gold coins on a dark matte surface, with no markings or numbers. The camera slowly tilts up as a second identical stack grows beside it until it is exactly twice as tall. It then stops against a transparent glass ceiling pane that blocks any further growth. Cool dramatic side lighting, smooth crane-up movement. No people, no text",
+   "texto_da_fala": "A lei põe um teto: R$ 1.000 viram, no máximo, R$ 2.000.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of a neat stack of plain gold coins on a dark matte surface, with no markings or numbers. The camera slowly tilts up as a second identical stack grows beside it until it is exactly twice as tall. It then stops against a transparent glass ceiling pane that blocks any further growth. Cool dramatic side lighting, smooth crane-up movement. No people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Overhead top-down shot of a paper credit card statement on a desk, filled only with abstract blurred gray lines and color blocks, with no legible text, letters or numbers. A pen glides in and hovers over one highlighted blurred row, circling it with a soft blue ink loop. Gentle slow push-in, soft natural window light, a pair of reading glasses at the edge of the frame. No faces, no logos",
+   "texto_da_fala": "A taxa do seu cartão pode ser diferente: olha na fatura.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Overhead top-down shot of a paper credit card statement on a desk, filled only with abstract blurred gray lines and color blocks, with no legible text, letters or numbers. A pen glides in and hovers over one highlighted blurred row, circling it with a soft blue ink loop. Gentle slow push-in, soft natural window light, a pair of reading glasses at the edge of the frame. No faces, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 1.000 deixados na fatura geram R$ 153 de juros em 30 dias.\n\nIsso é o rotativo: a febre mais alta do cartão.\n\nEntra nele quem paga só o mínimo da fatura.\n\nSegundo o Banco Central, a média de setembro foi 451,7% ao ano.\n\nCalma: é uma projeção, ninguém fica um ano lá.\n\nA lei põe um teto: R$ 1.000 viram, no máximo, R$ 2.000.\n\nA taxa do seu cartão pode ser diferente: olha na fatura.\n\nSem pagar tudo, compare o CET, o custo total, de cada oferta.\n\nManda pra quem paga só o mínimo.\n\nQuem já pagou só o mínimo? Comenta EU.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Procon-SC",
+   "url": "https://www.procon.sc.gov.br/procon-sc-explica-limite-de-juros-ao-rotativo-do-cartao-de-credito-e-de-100/",
+   "destaque": "Desde janeiro de 2024, a Lei 14.690/2023 limita juros e encargos do rotativo e do parcelamento da fatura a 100% do valor original da dívida."
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T06:49:08.652358-03:00"
+}
