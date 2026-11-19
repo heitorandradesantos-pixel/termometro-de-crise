@@ -53,17 +53,16 @@
   "Quantos anos de lucro você pagaria por uma padaria?",
   "Uma padaria que lucra R$ 100 mil sai por R$ 1 milhão.",
   "São 10 anos de lucro: essa conta é o P/L.",
-  "Tecnologia pode custar 30 anos de lucro, pelo crescimento esperado.",
-  "Segundo a Reuters, em outubro de 2025 o P/L da tecnologia passou de 32.",
-  "Em 5 de novembro, caiu para 17,1.",
+  "Empresa de tecnologia pode custar 30 anos de lucro, pelo crescimento que o mercado espera.",
+  "Se esse crescimento não vier, o preço pode cair.",
   "P/L baixo, sozinho, não quer dizer empresa barata.",
   "Se você tem fundo de ações, parte pode ter P/L alto.",
   "Abra a lâmina, resumo oficial do fundo, e veja os setores.",
   "Você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.",
   "Sem alarde. Eu sou só o termômetro!"
  ],
- "texto_falado": "Quantos anos de lucro você pagaria por uma padaria? Uma padaria que lucra R$ 100 mil sai por R$ 1 milhão. São 10 anos de lucro: essa conta é o P/L. Tecnologia pode custar 30 anos de lucro, pelo crescimento esperado. Segundo a Reuters, em outubro de 2025 o P/L da tecnologia passou de 32. Em 5 de novembro, caiu para 17,1. P/L baixo, sozinho, não quer dizer empresa barata. Se você tem fundo de ações, parte pode ter P/L alto. Abra a lâmina, resumo oficial do fundo, e veja os setores. Você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
- "palavras": 116,
+ "texto_falado": "Quantos anos de lucro você pagaria por uma padaria? Uma padaria que lucra R$ 100 mil sai por R$ 1 milhão. São 10 anos de lucro: essa conta é o P/L. Empresa de tecnologia pode custar 30 anos de lucro, pelo crescimento que o mercado espera. Se esse crescimento não vier, o preço pode cair. P/L baixo, sozinho, não quer dizer empresa barata. Se você tem fundo de ações, parte pode ter P/L alto. Abra a lâmina, resumo oficial do fundo, e veja os setores. Você pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 108,
  "segundos": 46,
  "na_tela": [
   {
@@ -83,32 +82,27 @@
   {
    "fala": 3,
    "texto": "Tecnologia: 30 anos de lucro ou mais",
-   "fonte": "Termômetro de Crise"
+   "fonte": "Exemplo do Termômetro de Crise"
   },
   {
    "fala": 4,
-   "texto": "Out/2025: P/L da tecnologia acima de 32",
-   "fonte": "Reuters"
+   "texto": "Sem crescimento, o preço pode cair",
+   "fonte": ""
   },
   {
    "fala": 5,
-   "texto": "5 de novembro: P/L de 17,1",
-   "fonte": "Reuters"
-  },
-  {
-   "fala": 6,
    "texto": "P/L baixo ≠ empresa barata",
    "fonte": "B3 (Bora Investir)"
   },
   {
-   "fala": 8,
+   "fala": 7,
    "texto": "Abra a lâmina do fundo",
    "fonte": "Termômetro de Crise"
   }
  ],
  "retomada": 5,
  "busca": "o que é P/L de uma ação",
- "legenda": "O que é P/L, e por que uma empresa vale mais que o lucro dela?\n\nPense numa padaria que lucra R$ 100 mil por ano e é vendida por R$ 1 milhão. Quem compra paga 10 anos de lucro. Essa conta é o P/L, o preço sobre o lucro, segundo a B3.\n\nEm 5 de novembro, o P/L projetado da tecnologia dos EUA caiu para 17,1. Em outubro de 2025 tinha passado de 32, segundo a Reuters. Um P/L baixo, sozinho, não quer dizer que a empresa está barata: a B3 recomenda olhar outros indicadores.\n\nSe você tem fundo de ações, previdência com parte em ações ou ETF de bolsa americana, abra a lâmina (o resumo oficial) e veja em quais setores está o dinheiro.\n\nVocê pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#educacaofinanceira #investimentos #bolsadevalores #pl #termometrodecrise",
+ "legenda": "O que é P/L, e por que uma empresa vale mais que o lucro dela?\n\nPense numa padaria que lucra R$ 100 mil por ano e é vendida por R$ 1 milhão. Quem compra paga 10 anos de lucro. Essa conta é o P/L, o preço sobre o lucro, segundo a B3.\n\nEmpresa de tecnologia às vezes custa 30 anos de lucro ou mais, porque o mercado paga pelo crescimento que espera. Se ele não vier, o preço pode cair. E um P/L baixo, sozinho, não quer dizer que a empresa está barata: a B3 recomenda olhar outros indicadores.\n\nSe você tem fundo de ações, previdência com parte em ações ou ETF de bolsa americana, abra a lâmina (o resumo oficial) e veja em quais setores está o dinheiro.\n\nVocê pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#educacaofinanceira #investimentos #bolsadevalores #pl #termometrodecrise",
  "hashtags": [
   "#educacaofinanceira",
   "#investimentos",
@@ -119,25 +113,22 @@
  "rua": {
   "gancho": "Quantos anos de lucro você pagaria por uma padaria?",
   "topicos": [
-   "Padaria de R$ 1 milhão e lucro de R$ 100 mil: P/L de 10.",
-   "Reuters: P/L da tecnologia dos EUA saiu de mais de 32 para 17,1.",
-   "P/L baixo, sozinho, não quer dizer empresa barata, diz a B3: olhe outros indicadores.",
-   "Tem fundo de ações? Abra a lâmina, o resumo oficial, e veja os setores."
+   "Padaria de R$ 1 milhão, lucro de R$ 100 mil: P/L 10.",
+   "Tecnologia pode custar 30 anos de lucro: é aposta no futuro.",
+   "P/L baixo, sozinho, não quer dizer empresa barata.",
+   "Tem fundo de ações? Abra a lâmina e veja os setores."
   ]
  },
  "formato": "bancada",
  "por_que_formato": "É uma explicação com conta e comparação, que pede calma e prova na tela, não uma notícia quente de rua.",
  "tipo": "explica",
  "persona": "Heitor",
- "aprovado": false,
- "problemas": [
-  "tamanho: 116 palavras faladas, o máximo é 115: corte pelo menos 6 palavras do gancho e do corpo (tire uma fala inteira)",
-  "versão rua: gancho até 12 palavras e tópicos até 14"
- ],
+ "aprovado": true,
+ "problemas": [],
  "tentativas": 3,
  "marca": null,
  "viral": null,
- "teleprompter": "Quantos anos de lucro você pagaria por uma padaria?\n\nUma padaria que lucra R$ 100 mil sai por R$ 1 milhão.\n\nSão 10 anos de lucro: essa conta é o P/L.\n\nTecnologia pode custar 30 anos de lucro, pelo crescimento esperado.\n\nSegundo a Reuters, em outubro de 2025 o P/L da tecnologia passou de 32.\n\nEm 5 de novembro, caiu para 17,1.\n\nP/L baixo, sozinho, não quer dizer empresa barata.\n\nSe você tem fundo de ações, parte pode ter P/L alto.\n\nAbra a lâmina, resumo oficial do fundo, e veja os setores.\n\nVocê pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "teleprompter": "Quantos anos de lucro você pagaria por uma padaria?\n\nUma padaria que lucra R$ 100 mil sai por R$ 1 milhão.\n\nSão 10 anos de lucro: essa conta é o P/L.\n\nEmpresa de tecnologia pode custar 30 anos de lucro, pelo crescimento que o mercado espera.\n\nSe esse crescimento não vier, o preço pode cair.\n\nP/L baixo, sozinho, não quer dizer empresa barata.\n\nSe você tem fundo de ações, parte pode ter P/L alto.\n\nAbra a lâmina, resumo oficial do fundo, e veja os setores.\n\nVocê pagaria 30 anos de lucro por uma padaria? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
  "prints": [
   {
    "veiculo": "B3 (Bora Investir)",
@@ -146,5 +137,8 @@
   }
  ],
  "data": "2026-11-19",
- "gerado_em": "2026-11-19T09:46:43.276660-03:00"
+ "gerado_em": "2026-11-19T09:46:43.276660-03:00",
+ "urgente": true,
+ "pedido_do_heitor": true,
+ "enviado_whatsapp": null
 }
