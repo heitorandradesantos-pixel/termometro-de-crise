@@ -1,0 +1,60 @@
+{
+ "saida": "dolar-587-editado.mp4",
+ "fim": 46.9,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "fazer",
+    "a",
+    "larde,"
+   ],
+   [
+    "fazer",
+    "alarde,"
+   ]
+  ]
+ ],
+ "nomes": [
+  "IOF"
+ ],
+ "destaques": "\\d|dólar|iof|banco central|comenta",
+ "cartoes": [
+  [
+   4.0,
+   6.9,
+   "Dólar a *R$ 5,87*",
+   "Fonte: InfoMoney (18/11/2026)"
+  ],
+  [
+   7.3,
+   12.2,
+   "Maior desde abril/2025 · *5ª alta* seguida",
+   "Fonte: InfoMoney (18/11/2026)"
+  ],
+  [
+   12.2,
+   17.0,
+   "BC vendeu *US$ 1 bilhão* e não segurou",
+   "Fonte: InfoMoney (18/11/2026)"
+  ],
+  [
+   17.1,
+   22.1,
+   "Medo com as *contas do governo*",
+   "Ajuste fiscal travado no Senado (InfoMoney)"
+  ],
+  [
+   24.1,
+   28.3,
+   "US$ 1.000 no cartão + IOF 3,5% = *mais de R$ 6.000*",
+   "Conta do Termômetro de Crise"
+  ],
+  [
+   31.9,
+   36.9,
+   "R$ 6 até o Natal? *SIM* ou *NÃO*",
+   ""
+  ]
+ ]
+}

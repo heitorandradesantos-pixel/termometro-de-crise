@@ -1,0 +1,103 @@
+{
+ "saida": "acao-estreante-editado.mp4",
+ "fim": 60.0,
+ "remover": [
+  [
+   26.2,
+   32.3
+  ],
+  [
+   52.6,
+   58.3
+  ]
+ ],
+ "corrigir": [
+  [
+   [
+    "Elosaita,"
+   ],
+   [
+    "Elos",
+    "Ayta,"
+   ]
+  ],
+  [
+   [
+    "O",
+    "Elosaita,"
+   ],
+   [
+    "A",
+    "Elos",
+    "Ayta,"
+   ]
+  ],
+  [
+   [
+    "no",
+    "índice"
+   ],
+   [
+    "o",
+    "índice"
+   ]
+  ],
+  [
+   [
+    "sou",
+    "sorte"
+   ],
+   [
+    "sou",
+    "só",
+    "o",
+    "termômetro!"
+   ]
+  ]
+ ],
+ "nomes": [
+  "IPO",
+  "Ibovespa",
+  "Elos",
+  "Ayta"
+ ],
+ "destaques": "\\d|ipo|ibovespa|lucro|estreia|comenta",
+ "cartoes": [
+  [
+   0.6,
+   5.0,
+   "IPO: *oportunidade* ou *armadilha*?",
+   "IPO = estreia da empresa na bolsa"
+  ],
+  [
+   13.8,
+   17.6,
+   "*69* estreias na bolsa desde 2020",
+   "Fonte: Elos Ayta (maio/2026)"
+  ],
+  [
+   17.9,
+   22.2,
+   "Quase *7 em 10* valem MENOS hoje",
+   "Fonte: Elos Ayta (maio/2026)"
+  ],
+  [
+   22.7,
+   25.9,
+   "Só *14,5%* bateram o Ibovespa",
+   "Fonte: Elos Ayta (maio/2026)"
+  ],
+  [
+   43.1,
+   51.1,
+   "*Lucro* · *Dívida* · *Preço*",
+   ""
+  ],
+  [
+   51.1,
+   52.4,
+   "Comenta: *SIM* ou *NÃO*?",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "saida": "pl-padaria-editado.mp4",
+ "fim": 47.6,
+ "remover": [
+  [
+   1.8,
+   4.8
+  ],
+  [
+   7.4,
+   9.3
+  ]
+ ],
+ "corrigir": [
+  [
+   [
+    "PIL,"
+   ],
+   [
+    "P/L,"
+   ]
+  ],
+  [
+   [
+    "PL"
+   ],
+   [
+    "P/L"
+   ]
+  ]
+ ],
+ "nomes": [
+  "P/L"
+ ],
+ "destaques": "\\d|lucro|p/l|barato|cair|comenta",
+ "cartoes": [
+  [
+   4.9,
+   7.2,
+   "Quantos anos de *LUCRO* você pagaria?",
+   ""
+  ],
+  [
+   9.4,
+   15.9,
+   "Lucro R$ 100 mil · preço R$ 1 milhão = *10 anos*",
+   "Exemplo do Termômetro de Crise"
+  ],
+  [
+   16.5,
+   19.6,
+   "*P/L* = preço ÷ lucro",
+   "Fonte: B3 (Bora Investir)"
+  ],
+  [
+   20.0,
+   26.9,
+   "Tecnologia: *30, 40 anos* de lucro",
+   "Aposta no crescimento futuro"
+  ],
+  [
+   27.3,
+   29.5,
+   "Sem crescimento, o preço pode *cair*",
+   ""
+  ],
+  [
+   29.8,
+   35.6,
+   "P/L baixo *≠* barato",
+   "Fonte: B3 (Bora Investir)"
+  ],
+  [
+   36.0,
+   40.8,
+   "Comenta: *SIM* ou *NÃO*?",
+   ""
+  ]
+ ]
+}

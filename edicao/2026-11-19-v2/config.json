@@ -1,0 +1,62 @@
+{
+ "saida": "inflacao-2013-editado.mp4",
+ "fim": 43.9,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "calculadora",
+    "do",
+    "Cidadão."
+   ],
+   [
+    "Calculadora",
+    "do",
+    "Cidadão."
+   ]
+  ]
+ ],
+ "nomes": [
+  "IPCA",
+  "IBGE"
+ ],
+ "destaques": "\\d|inflação|ipca|salário|comenta",
+ "cartoes": [
+  [
+   6.4,
+   10.2,
+   "R$ 100 em 2013 = cerca de *R$ 214* hoje",
+   "Fonte: Banco Central, Calculadora do Cidadão (IPCA, jan/2013 a out/2026)"
+  ],
+  [
+   10.5,
+   14.1,
+   "IPCA: cerca de *+114%*",
+   "Fonte: IBGE"
+  ],
+  [
+   14.4,
+   20.9,
+   "R$ 3.000 parado = cerca de *R$ 1.400* de 2013",
+   "Conta do Termômetro de Crise (exemplo)"
+  ],
+  [
+   21.2,
+   25.9,
+   "Perdeu *mais da metade* do poder de compra",
+   ""
+  ],
+  [
+   26.5,
+   34.6,
+   "bcb.gov.br → *Calculadora do Cidadão*",
+   "Fonte: Banco Central"
+  ],
+  [
+   35.0,
+   37.9,
+   "Comenta: *SIM* ou *NÃO*?",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "saida": "dividendo-editado.mp4",
+ "fim": 42.4,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "Peça"
+   ],
+   [
+    "Pensa"
+   ]
+  ],
+  [
+   [
+    "descendo."
+   ],
+   [
+    "descontado."
+   ]
+  ],
+  [
+   [
+    "Sem",
+    "arde,"
+   ],
+   [
+    "Sem",
+    "alarde,"
+   ]
+  ],
+  [
+   [
+    "uns",
+    "10%"
+   ],
+   [
+    "10%"
+   ]
+  ]
+ ],
+ "nomes": [],
+ "destaques": "\\d|dividendo|lucro|imposto|comenta",
+ "cartoes": [
+  [
+   3.7,
+   5.4,
+   "Dividendo é dinheiro *DE GRAÇA*?",
+   ""
+  ],
+  [
+   5.8,
+   11.7,
+   "Ação R$ 20 + dividendo *R$ 1*",
+   "Exemplo do Termômetro de Crise"
+  ],
+  [
+   12.1,
+   17.2,
+   "Data ex: ação tende a cair pra perto de *R$ 19*",
+   "Fonte: B3 (Bora Investir)"
+  ],
+  [
+   17.6,
+   22.9,
+   "R$ 19 + R$ 1 = os mesmos *R$ 20*",
+   ""
+  ],
+  [
+   27.7,
+   33.6,
+   "Acima de R$ 50 mil/mês da mesma empresa: *10%* retido",
+   "Fonte: Receita Federal (Lei 15.270/2025)"
+  ],
+  [
+   33.9,
+   37.5,
+   "Comenta: *SIM* ou *NÃO*?",
+   ""
+  ]
+ ]
+}
