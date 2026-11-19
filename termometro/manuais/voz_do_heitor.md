@@ -57,3 +57,7 @@ enganosa, promessa de resposta que não vem, "só os inteligentes acertam" ou es
   pergunta forte por cima ("Devolveu 3 anos de alta em 2 meses?"). A nossa versão é "verdade ou exagero": mostra o
   gráfico, pergunta o que todo mundo está dizendo, e responde com o fato da fonte. Nunca repetir boato ou insinuação
   política ("foi o MST?") sem fonte que confirme; o boato pode entrar só como pergunta que o vídeo desmente ou confirma.
+- **Andando na rua (19/11):** o Reel do Tesouro Prefixado (perda de 1,2% num dia), gravado andando, bateu ~3.200
+  visualizações no Instagram e ~1.000 no TikTok em 1 dia, acima da média dos vídeos parados. Sugerir "andando na rua"
+  como formato padrão dos roteiros curtos. Ponto fraco dele: 0 comentários; o gatilho precisa ser dito em voz alta,
+  no meio e no fim, e ser fácil (SIM/NÃO, um número).
