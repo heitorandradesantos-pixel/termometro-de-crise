@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.",
+  "na_tela": "R$ 20 viram R$ 19?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.",
+   "na_tela": "R$ 20 viram R$ 19?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Reação de amigo (Voz do Heitor)",
+   "texto": "Cara, dividendo não é dinheiro de graça, olha só.",
+   "na_tela": "Dividendo NÃO é dinheiro de graça",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Já descobriram, você ainda não",
+   "texto": "Você que tem ação: o dividendo que cai na conta sai do preço dela.",
+   "na_tela": "O dividendo sai do preço",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.",
+  "Cara, dividendo não é dinheiro de graça, olha só.",
+  "O dividendo sai do caixa da empresa: é do cofrinho pro bolso.",
+  "Quando a ação passa a negociar sem ele, o preço tende a cair.",
+  "Pouca gente viu: dividendo grande já chega com imposto.",
+  "Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.",
+  "Olha a data de corte no app da corretora: quem compra depois não recebe.",
+  "Manda pra quem acha que dividendo é dinheiro extra.",
+  "Achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19. Cara, dividendo não é dinheiro de graça, olha só. O dividendo sai do caixa da empresa: é do cofrinho pro bolso. Quando a ação passa a negociar sem ele, o preço tende a cair. Pouca gente viu: dividendo grande já chega com imposto. Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado. Olha a data de corte no app da corretora: quem compra depois não recebe. Manda pra quem acha que dividendo é dinheiro extra. Achava que dividendo era dinheiro a mais? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "R$ 20 viram R$ 19?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Ação de R$ 20 + dividendo de R$ 1 = perto de R$ 19",
+   "fonte": "Tesemetria"
+  },
+  {
+   "fala": 2,
+   "texto": "Dividendo sai do caixa da empresa",
+   "fonte": "Tesemetria"
+  },
+  {
+   "fala": 3,
+   "texto": "Data ex: ação sem direito ao dividendo",
+   "fonte": "B3 Bora Investir"
+  },
+  {
+   "fala": 5,
+   "texto": "Mais de R$ 50 mil por mês da mesma empresa: 10% retidos",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 6,
+   "texto": "Data de corte (data com): último dia para ter direito",
+   "fonte": "Traders"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dividendo e preço da ação na data ex",
+ "legenda": "Dividendo e preço da ação na data ex: o que muda?\n\nDividendo não é dinheiro extra. No dia em que a ação passa a ser negociada sem o dividendo, o preço tende a cair mais ou menos o valor pago. Exemplo: ação de R$ 20 que paga R$ 1 tende a abrir perto de R$ 19.\n\nQuem comprou depois da data de corte não recebe o dividendo já anunciado. Confira a data no app da corretora ou no site da empresa.\n\nDesde 1º de janeiro de 2026, a Lei 15.270/2025 prevê 10% de imposto retido na fonte quando uma mesma empresa paga mais de R$ 50 mil por mês à mesma pessoa física, segundo a Receita Federal. Esse valor é antecipação e entra na declaração anual.\n\nAinda não se sabe quanto cada ação cai em cada data. Conteúdo educativo, não é recomendação de investimento.\n\nEu sou o Heitor, do Termômetro de Crise. Sem alarde.\n\n#dividendos #educacaofinanceira #bolsadevalores #acoes #termometrodecrise",
+ "hashtags": [
+  "#dividendos",
+  "#educacaofinanceira",
+  "#bolsadevalores",
+  "#acoes",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, olha: dividendo não é dinheiro de graça.",
+  "topicos": [
+   "Sem o dividendo, a ação tende a cair o valor pago, diz a B3.",
+   "Ação de R$ 20 paga R$ 1 e tende a abrir em R$ 19.",
+   "Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.",
+   "Olha a data de corte no app da corretora: quem compra depois não recebe."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com conta e regra de imposto, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Primeira linha \"Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19\": tem três números e soa como manchete lida. Abra com a reação dele, \"Cara, dividendo não é dinheiro de graça\", e leve o exemplo para a fala seguinte, dita de forma simples: \"ação de R$ 20 paga R$ 1 e tende a abrir perto de R$ 19\". O exato fica no cartão da tela.",
+   "Linha \"Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado\": são dois números numa fala só, e falta dizer que vale quando é a mesma empresa pagando à mesma pessoa. Quebre em duas falas: \"Se uma empresa paga mais de R$ 50 mil por mês pra você, a Receita já segura uma parte antes de cair na conta.\" e depois \"Essa parte é 10%, e entra na declaração.\" Troque também \"data de corte\" por \"o último dia pra comprar e receber\", que é a tradução que o CLT entende.",
+   "Fim do roteiro: o aviso \"Não recomendamos: só mostramos a temperatura do mundo\" está só na legenda. Inclua na fala antes do bordão: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" e depois \"Sem alarde. Eu sou só o termômetro!\". Os dois pedidos de ação (\"Manda pra quem...\" e \"Comenta SIM ou NÃO\") estão empilhados. Fique só com o SIM ou NÃO no fim e solte o \"Manda pra...\" no meio."
+  ],
+  "veredito": "A peça tem fonte, comparação viva (o cofrinho), passo simples (conferir a data) e gatilho de comentário fácil, mas abre como manchete com número demais, usa termo que o CLT não pega de primeira (data de corte, mesma empresa e pessoa) e não traz o aviso padrão de que não recomendamos."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.\" parece título de aula e não chama ninguém. Reescreva: \"Se você tem ação que paga dividendo, olha isso: paga R$ 1, e a ação de R$ 20 tende a abrir perto de R$ 19.\" A pessoa se reconhece na primeira frase e o número vem junto.\", \"Fala difícil: \\\"Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.\\\" Não fica claro o que passou. Reescreva: \\\"Segundo a Receita, se uma empresa paga mais de R$ 50 mil por mês pra mesma pessoa, já desconta 10% antes.\\\"",
+   "Termo de banco: \"Olha a data de corte no app da corretora: quem compra depois não recebe.\" Traduza na hora: \"Olha no app da corretora a data de corte, que é o último dia pra comprar e ainda receber. Comprou depois, não recebe.\""
+  ],
+  "veredito": "Roteiro limpo, com número simples, envio para uma situação e SIM/NÃO no fim, mas o gancho abre como aula, sem a pessoa se ver nele, e duas falas têm termo difícil para quem é CLT."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a ceramic piggy bank on a wooden table in warm light; a hand-less magic effect makes a few golden coins slide out of its slot and float toward the edge of the frame, where an open leather wallet waits. Slow dolly-in from the piggy bank toward the wallet, shallow depth of field, no people, no text",
+   "texto_da_fala": "O dividendo sai do caixa da empresa: é do cofrinho pro bolso.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a ceramic piggy bank on a wooden table in warm light; a hand-less magic effect makes a few golden coins slide out of its slot and float toward the edge of the frame, where an open leather wallet waits. Slow dolly-in from the piggy bank toward the wallet, shallow depth of field, no people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro shot of a stack of golden coins on a desk, a pair of metal scissors slowly slides in and a small portion of the stack is pushed aside into a separate shadowed pile, leaving the main stack smaller. Slow lateral tracking camera, soft office lighting, no people, no text, no numbers",
+   "texto_da_fala": "Segundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of a stack of golden coins on a desk, a pair of metal scissors slowly slides in and a small portion of the stack is pushed aside into a separate shadowed pile, leaving the main stack smaller. Slow lateral tracking camera, soft office lighting, no people, no text, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A smartphone lying on a desk seen from above, its screen showing only abstract colored blocks and a generic blank calendar grid with one square highlighted in green, no readable text or numbers. Camera slowly pushes in and tilts toward the highlighted square while a wall clock blurs in the background. No faces, no logos",
+   "texto_da_fala": "Olha a data de corte no app da corretora: quem compra depois não recebe.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A smartphone lying on a desk seen from above, its screen showing only abstract colored blocks and a generic blank calendar grid with one square highlighted in green, no readable text or numbers. Camera slowly pushes in and tilts toward the highlighted square while a wall clock blurs in the background. No faces, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dividendo de R$ 1: ação de R$ 20 tende a abrir perto de R$ 19.\n\nCara, dividendo não é dinheiro de graça, olha só.\n\nO dividendo sai do caixa da empresa: é do cofrinho pro bolso.\n\nQuando a ação passa a negociar sem ele, o preço tende a cair.\n\nPouca gente viu: dividendo grande já chega com imposto.\n\nSegundo a Receita, passou de R$ 50 mil por mês, já vem 10% descontado.\n\nOlha a data de corte no app da corretora: quem compra depois não recebe.\n\nManda pra quem acha que dividendo é dinheiro extra.\n\nAchava que dividendo era dinheiro a mais? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "B3 Bora Investir",
+   "url": "https://borainvestir.b3.com.br/glossario/data-ex/",
+   "destaque": "O glossário do portal educativo da B3 diz que, na data ex, o valor da ação pode sofrer um ajuste proporcional ao dividendo distribuído."
+  }
+ ],
+ "data": "2026-11-19",
+ "gerado_em": "2026-11-19T09:23:03.757564-03:00"
+}
