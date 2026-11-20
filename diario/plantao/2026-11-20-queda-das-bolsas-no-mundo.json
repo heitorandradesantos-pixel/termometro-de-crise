@@ -1,0 +1,119 @@
+{
+ "titulo": "Queda das bolsas no mundo e a B3 na reabertura: o que se sabe",
+ "descricao": "Bolsas caem no mundo com a venda de ações de tecnologia e IA. A B3 estava fechada na sexta (20) e reabre na segunda (23). Veja o que está confirmado.",
+ "palavra_chave": "queda das bolsas no mundo",
+ "lead": "As bolsas do mundo caíram na sexta-feira (20/11), puxadas pela venda de ações de tecnologia, inteligência artificial (IA) e chips. A B3, a bolsa brasileira, não abriu por causa do feriado da Consciência Negra e só volta a operar na segunda-feira (23/11). Ninguém sabe ainda como o Ibovespa vai reagir: o que o mercado fez fora do Brasil só entra no preço nesse primeiro pregão.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em Wall Street, o S&P 500 caiu 2% na sexta (20/11) e ficou 10% abaixo do seu recorde, o que o mercado chama de correção (queda de 10% ou mais desde o topo). O índice Nasdaq 100, que reúne as grandes empresas de tecnologia, perdeu 4%, e um indicador de fabricantes de chips caiu 9%, segundo a Bloomberg.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
+   "data": "2026-11-20",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a CNN, o S&P 500 caminhava para o sétimo dia seguido de queda, a maior sequência desde fevereiro de 2020. A emissora também diz que os três principais índices dos EUA devem ter a pior semana desde abril de 2025. Os números do dia mudaram ao longo do pregão e variam entre os veículos.",
+   "fonte_url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
+   "data": "2026-11-20",
+   "veiculo": "CNN",
+   "confiavel": false
+  },
+  {
+   "texto": "Na Ásia, o Nikkei (Japão) caiu cerca de 5,1% e o Kospi (Coreia do Sul) perdeu 5,2% na sexta. Segundo a Reuters, a bolsa de Taiwan acumulou queda de 17% na semana, a maior desde 1990.",
+   "fonte_url": "https://www.bostonglobe.com/2026/11/20/business/global-shares-ai-wall-street-anthropic/",
+   "data": "2026-11-20",
+   "veiculo": "AP / Boston Globe",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Reuters, o índice MSCI das bolsas de países emergentes (como o Brasil) caiu 3,11% no pregão de sexta, e o índice europeu STOXX 600 recuou 1,83%. Os números são de meio de sessão.",
+   "fonte_url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-head-worst-week-014854250.html",
+   "data": "2026-11-20",
+   "veiculo": "Reuters (via Yahoo Finance)",
+   "confiavel": false
+  },
+  {
+   "texto": "A causa citada pelas agências é a dúvida se as ações de IA e de chips subiram demais. A estreia forte da Anthropic na Nasdaq, na quinta (19), não acalmou o mercado. A empresa chegou a cair 12,5% no primeiro dia completo de negociação, segundo a Reuters.",
+   "fonte_url": "https://www.euronews.com/2026/11/20/stocks-gold-and-silver-fall-after-blockbuster-anthropic-ipo",
+   "data": "2026-11-20",
+   "veiculo": "Euronews",
+   "confiavel": false
+  },
+  {
+   "texto": "A B3 não funcionou na sexta (20) por causa do feriado da Consciência Negra e volta a operar na segunda-feira (23). No último pregão, na quinta (19), o Ibovespa caiu 0,69%, a 166.376 pontos, e a semana fechou com perda de 3,53%.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/ibovespa-semana-perda-dolar-5934",
+   "data": "2026-11-19",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar fechou a R$ 5,93 na quinta (19), na sexta alta seguida, mesmo após o Banco Central vender US$ 1 bilhão em leilão. A queda da bolsa refletiu a cautela com o ajuste fiscal e o ambiente externo pior.",
+   "fonte_url": "https://istoe.com.br/dolar-hoje-19-novembro-2026-alta-593-banco-central",
+   "data": "2026-11-19",
+   "veiculo": "IstoÉ",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Ibovespa fecha em queda de 1,34%, a 167.537,95 pontos, com cautela sobre o cenário fiscal.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/mercado/mercados-hoje-aprovacao-do-ajuste-fiscal-e-estreia-da-anthropic-sao-destaques/",
+   "data": "2026-11-18",
+   "veiculo": "B3 Bora Investir",
+   "confiavel": true
+  },
+  {
+   "texto": "Anthropic estreia na Nasdaq e sobe 17%. O S&P 500 chega a subir 1,3%, mas fecha 2% abaixo, sua sexta queda seguida.",
+   "fonte_url": "https://www.euronews.com/2026/11/20/stocks-gold-and-silver-fall-after-blockbuster-anthropic-ipo",
+   "data": "2026-11-19",
+   "veiculo": "Euronews",
+   "confiavel": false
+  },
+  {
+   "texto": "Ibovespa cai 0,69%, a 166.376 pontos, e acumula perda de 3,53% na semana. O dólar fecha a R$ 5,93.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/ibovespa-semana-perda-dolar-5934",
+   "data": "2026-11-19",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Bolsas da Ásia caem até 6,2% e as europeias também recuam, enquanto a B3 fica fechada no feriado.",
+   "fonte_url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/20/asia-e-europa-caem-com-medo-da-divida-bilionaria-da-ia",
+   "data": "2026-11-20",
+   "veiculo": "TV Sim Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "S&P 500 cai 2% em Nova York e entra em correção, com mais de 10% de queda desde o recorde.",
+   "fonte_url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
+   "data": "2026-11-20",
+   "veiculo": "Bloomberg",
+   "confiavel": true
+  },
+  {
+   "texto": "A B3 reabre na segunda-feira, 23 de novembro, para o primeiro pregão após o feriado e a queda externa.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/ibovespa-semana-perda-dolar-5934",
+   "data": "2026-11-20",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Como o Ibovespa vai abrir na segunda (23/11). Nenhuma fonte consultada traz projeção confirmada; qualquer previsão é opinião de analista, não fato.",
+  "Se a queda em Wall Street e na Ásia vai continuar. Os números do pregão de sexta mudaram ao longo do dia e variam entre Reuters, CNN e Bloomberg; confira o fechamento oficial.",
+  "Quanto o ajuste fiscal pesará na reabertura. O Senado aprovou o pacote na quarta (18), segundo o SpaceMoney, mas há ceticismo sobre o alcance. Um site de economia diz que a Câmara pode votar o texto na segunda (23). Essa data não foi confirmada por outra fonte nesta apuração.",
+  "Se o mercado vai tratar a queda como ajuste passageiro ou como início de uma fase mais longa. Não há consenso: um estrategista citado pela CNN disse que correções são esperadas após anos de alta, e outros veículos apontam tensão maior."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem tem ações ou fundos de ações no Brasil pode ver o valor oscilar já na segunda (23), porque a B3 só então reage ao que aconteceu no exterior durante o feriado. Isso não significa perda garantida.",
+  "Quem tem fundos que investem em ações dos EUA ou em BDRs (recibos de ações estrangeiras negociados na B3) pode ver o valor mudar com a queda das empresas de tecnologia.",
+  "Renda fixa, como Tesouro Selic e CDB, não depende das ações. Mas o dólar mais caro (R$ 5,93 na quinta) encarece importados e viagens e pode pesar nos preços.",
+  "Quem investe a longo prazo pode ver o valor cair no papel, mas esse valor só vira perda de verdade se o investidor vender. Este texto não recomenda comprar, vender ou mudar de investimento."
+ ],
+ "como_se_proteger": [],
+ "slug": "queda-das-bolsas-no-mundo",
+ "publicado_em": "2026-11-20T15:55:14.467784",
+ "atualizado_em": "2026-11-20T15:55:14.467784",
+ "assunto": "O que se sabe sobre a queda das bolsas no mundo e o efeito na bolsa brasileira na reabertura",
+ "turno": "tarde"
+}
