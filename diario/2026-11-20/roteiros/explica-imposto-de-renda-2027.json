@@ -1,0 +1,199 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Sumiu o Imposto de Renda do seu contracheque? Sua restituição pode encolher.",
+  "na_tela": "Sumiu o IR do contracheque?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Sumiu o Imposto de Renda do seu contracheque? Sua restituição pode encolher.",
+   "na_tela": "Sumiu o IR do contracheque?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Isenção até R$ 5 mil não quer dizer que você está livre de declarar.",
+   "na_tela": "Isento não é dispensado",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Dois empregos abaixo de R$ 5 mil cada? Você ainda pode ter imposto a pagar.",
+   "na_tela": "Dois empregos, imposto a pagar",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Sumiu o Imposto de Renda do seu contracheque? Sua restituição pode encolher.",
+  "Segundo a Receita, quem ganha até R$ 5 mil por mês não tem imposto descontado.",
+  "Por isso a restituição encolhe, mas não é perda: o dinheiro já chegou antes.",
+  "Pensa no mercado: desconto no caixa, não dinheiro de volta depois.",
+  "Mas calma: isento não é dispensado de declarar.",
+  "Segundo o governo, com dois empregos pode sobrar imposto a pagar.",
+  "A Receita ainda não publicou quem declara em 2027.",
+  "Passo calmo: espera sair e confere o seu caso.",
+  "O desconto sumiu do seu contracheque? Comenta SUMIU ou CONTINUA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Sumiu o Imposto de Renda do seu contracheque? Sua restituição pode encolher. Segundo a Receita, quem ganha até R$ 5 mil por mês não tem imposto descontado. Por isso a restituição encolhe, mas não é perda: o dinheiro já chegou antes. Pensa no mercado: desconto no caixa, não dinheiro de volta depois. Mas calma: isento não é dispensado de declarar. Segundo o governo, com dois empregos pode sobrar imposto a pagar. A Receita ainda não publicou quem declara em 2027. Passo calmo: espera sair e confere o seu caso. O desconto sumiu do seu contracheque? Comenta SUMIU ou CONTINUA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 106,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "Sumiu o IR do contracheque?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Até R$ 5 mil por mês: sem imposto descontado",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 2,
+   "texto": "Restituição menor: o dinheiro chegou antes",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "Isento ≠ dispensado de declarar",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 5,
+   "texto": "Dois empregos: pode haver imposto a pagar",
+   "fonte": "Secretaria de Comunicação Social (gov.br)"
+  },
+  {
+   "fala": 6,
+   "texto": "Regras de 2027: ainda não publicadas",
+   "fonte": "Receita Federal"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Imposto de Renda 2027: isenção até R$ 5 mil e restituição",
+ "legenda": "Imposto de Renda 2027: isenção até R$ 5 mil e restituição\n\nSegundo a Receita Federal e o Ministério da Fazenda, quem ganha até R$ 5 mil por mês não tem mais imposto descontado no contracheque. O efeito completo aparece na declaração de 2027, que usa os rendimentos de 2026.\n\nComo o imposto deixou de ser retido mês a mês, a restituição que vinha desse desconto tende a ser menor ou a não existir. Não é perda: é o mesmo dinheiro, que chegou antes.\n\nAtenção: ficar isento não dispensa todo mundo de declarar. Segundo a Secretaria de Comunicação Social do governo, quem tem mais de uma fonte de renda pode ter imposto a pagar. As regras de quem declara em 2027 ainda não foram publicadas pela Receita.\n\nO desconto sumiu do seu contracheque? Comenta SUMIU ou CONTINUA.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#impostoderenda #irpf2027 #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#impostoderenda",
+  "#irpf2027",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Sumiu o Imposto de Renda do seu contracheque? Presta atenção.",
+  "topicos": [
+   "Receita: quem ganha até R$ 5 mil por mês não tem imposto descontado.",
+   "Por isso a restituição tende a ser menor: o dinheiro já chegou antes.",
+   "Dois empregos, segundo o governo: cada um desconta separado e pode sobrar imposto.",
+   "Isento não é dispensado: espere a Receita publicar as regras de 2027 e confira."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com várias ressalvas (isenção, restituição, duas fontes), que pede calma e teleprompter.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Por isso a restituição encolhe, mas não é perda: o dinheiro já chegou antes.\": são duas ideias numa fala só, e \"restituição\" fica sem tradução. Quebre em duas falas e traduza na hora: \"Restituição é o dinheiro que o governo devolve no ano seguinte. Ela encolhe, mas não é perda: esse dinheiro já ficou no seu salário.\"",
+   "Frase \"Pensa no mercado: desconto no caixa, não dinheiro de volta depois.\": a comparação é boa, mas ficou seca e abstrata. Deixe mais viva e de conversa, por exemplo: \"É como o desconto direto no caixa do mercado: você paga menos na hora, em vez de receber um troco depois.\"",
+   "Frase \"Sumiu o Imposto de Renda do seu contracheque?\" e o resto: a voz está correta, mas soa mais de teleprompter do que do Heitor. Abra com uma reação de amigo (\"Cara, você viu que sumiu o Imposto de Renda do seu contracheque?\") e troque \"Mas calma\" e \"Passo calmo\" por falas curtas e soltas, como \"E olha só, tá?\" e \"Então faz assim: espera sair e confere o seu caso.\""
+  ],
+  "veredito": "A peça fala com quem sente o bolso, responde \\\"e a minha restituição?\\\" com fonte, calma e um passo simples, e fecha com gatilho de comentário fácil e o bordão certo. Falta soltar a voz do Heitor, com mais jeito de conversa, e traduzir \\\"restituição\\\" e \\\"isento\\\" para passar no Teste do CLT."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Envio: não há pedido de envio. Depois de \"Passo calmo: espera sair e confere o seu caso.\", acrescente: \"Manda pra quem ganha até R$ 5 mil e acha que perdeu a restituição.\"",
+   "Retenção: \"Pensa no mercado: desconto no caixa, não dinheiro de volta depois.\" é abstrata e dá trabalho para entender. Reescreva: \"É como desconto no caixa do mercado: você paga menos na hora, em vez de receber de volta depois.\"",
+   "Retenção: \"Por isso a restituição encolhe, mas não é perda: o dinheiro já chegou antes.\" tem duas ideias numa fala. Divida em: \"Por isso a restituição encolhe. Mas não é perda: o dinheiro já ficou com você antes.\""
+  ],
+  "veredito": "Gancho específico, pago logo e com bom gatilho de comentário (SUMIU ou CONTINUA); faltam um pedido de envio para uma situação concreta e frases mais leves no meio para o público CLT."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Vertical close-up, slow top-down camera push-in on a wooden desk where a plain envelope of banknotes sits already in a wallet, with a calm empty drawer being slid shut beside it; soft morning window light, shallow depth of field, no text, no numbers, no logos, no faces",
+   "texto_da_fala": "Por isso a restituição encolhe, mas não é perda: o dinheiro já chegou antes.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical close-up, slow top-down camera push-in on a wooden desk where a plain envelope of banknotes sits already in a wallet, with a calm empty drawer being slid shut beside it; soft morning window light, shallow depth of field, no text, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot, slow dolly-in along a supermarket checkout conveyor belt with groceries (bread, milk cartons, fruits, rice bags) moving toward a cashier's card machine; no people's faces visible, only a hand-less blurred background, warm store lighting, no text, no logos, no readable labels",
+   "texto_da_fala": "Pensa no mercado: desconto no caixa, não dinheiro de volta depois.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow dolly-in along a supermarket checkout conveyor belt with groceries (bread, milk cartons, fruits, rice bags) moving toward a cashier's card machine; no people's faces visible, only a hand-less blurred background, warm store lighting, no text, no logos, no readable labels. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot, slow side-tracking camera move across a cluttered home office desk with two different work badges blank of any text, two laptops, and a sheaf of blank papers, one laptop open and one closed; late afternoon light, no people visible, no text, no numbers, no logos",
+   "texto_da_fala": "Segundo o governo, com dois empregos pode sobrar imposto a pagar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow side-tracking camera move across a cluttered home office desk with two different work badges blank of any text, two laptops, and a sheaf of blank papers, one laptop open and one closed; late afternoon light, no people visible, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Sumiu o Imposto de Renda do seu contracheque? Sua restituição pode encolher.\n\nSegundo a Receita, quem ganha até R$ 5 mil por mês não tem imposto descontado.\n\nPor isso a restituição encolhe, mas não é perda: o dinheiro já chegou antes.\n\nPensa no mercado: desconto no caixa, não dinheiro de volta depois.\n\nMas calma: isento não é dispensado de declarar.\n\nSegundo o governo, com dois empregos pode sobrar imposto a pagar.\n\nA Receita ainda não publicou quem declara em 2027.\n\nPasso calmo: espera sair e confere o seu caso.\n\nO desconto sumiu do seu contracheque? Comenta SUMIU ou CONTINUA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Ministério da Fazenda",
+   "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2025/novembro/presidente-sanciona-lei-que-amplia-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil",
+   "destaque": "A Lei 15.270 foi sancionada em 26/11/2025."
+  },
+  {
+   "veiculo": "Ministério da Fazenda",
+   "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/janeiro/receita-divulga-nova-tabela-do-irpf-com-as-mudancas-apos-isencao-para-quem-ganha-ate-r-5-mil",
+   "destaque": "A nova tabela vale desde 1º de janeiro de 2026."
+  },
+  {
+   "veiculo": "Secretaria de Comunicação Social (gov.br)",
+   "url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2026/01/nova-tabela-do-ir-veja-faixas-e-aliquotas-e-saiba-mais-sobre-medida-que-isenta-o-pagamento-para-quem-ganha-ate-r-5-mil",
+   "destaque": "Segundo a Secretaria de Comunicação Social do governo, as mudanças aparecem na declaração do Imposto de Renda de 2027, que considera os…"
+  }
+ ],
+ "data": "2026-11-20",
+ "gerado_em": "2026-11-20T06:55:21.628940-03:00"
+}
