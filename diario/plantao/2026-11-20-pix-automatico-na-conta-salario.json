@@ -1,0 +1,113 @@
+{
+ "titulo": "Pix Automático na conta-salário: o que se sabe",
+ "descricao": "Pix Automático na conta-salário vale a partir de 1º/7/2027, diz o Banco Central. Entenda o que muda e o cuidado ao autorizar cobranças.",
+ "palavra_chave": "pix automático na conta-salário",
+ "lead": "A partir de 1º de julho de 2027, quem recebe em conta-salário poderá pagar contas que se repetem direto dela, pelo Pix Automático. O Banco Central mudou o regulamento do Pix em 18 de setembro de 2026. Antes disso, em 1º de fevereiro de 2027, começa o boleto com QR Code Pix no mesmo papel.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Pix Automático poderá ser usado em conta-salário a partir de 1º de julho de 2027. A possibilidade vem da resolução do Banco Central publicada em 18 de setembro de 2026, que alterou o regulamento do Pix.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/contas-salario-terao-pix-automatico-partir-de-1o-de-julho-de-2027",
+   "data": "2026-09-18",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Pix Automático é a modalidade em que você autoriza uma única vez um pagamento que se repete, como mensalidade e conta de consumo.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/contas-salario-terao-pix-automatico-partir-de-1o-de-julho-de-2027",
+   "data": "2026-09-18",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Hoje, quem recebe o salário nesse tipo de conta precisa antes transferir o dinheiro para outra conta do mesmo titular. Com a mudança, esses pagamentos poderão sair direto da conta-salário.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/contas-salario-terao-pix-automatico-partir-de-1o-de-julho-de-2027",
+   "data": "2026-09-18",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Pix Automático será o único tipo de Pix que poderá sair da conta-salário. A conta só poderá receber Pix enviado pela Secretaria do Tesouro Nacional ou devoluções. A resolução não transforma a conta-salário em conta corrente.",
+   "fonte_url": "https://www.correiobraziliense.com.br/cbradar/quem-recebe-salario-em-conta-salario-podera-autorizar-cobrancas-recorrentes-pelo-pix-automatico-a-partir-de-1o-de-julho-de-2027-mas-a-conta-so-podera-receber-pix-do-tesouro-nacional-ou-devolucoes-se/",
+   "data": "2026-09-18",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "O Pix Automático na conta-salário sempre exigirá a autorização do titular. Ou seja, uma empresa não poderá tirar dinheiro da sua conta sem essa autorização.",
+   "fonte_url": "https://www.brasil247.com/tendencias/2026/11/19/banco-central-faz-aviso-para-todos-que-usam-o-pix/",
+   "data": "2026-11-19",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  },
+  {
+   "texto": "A cobrança híbrida junta, no mesmo documento, o código de barras do boleto e o QR Code do Pix, e quem paga escolhe como quitar. Ela estreia em 1º de fevereiro de 2027. Se o boleto for pago, o Pix correspondente precisa ser cancelado, para evitar pagamento em duplicidade.",
+   "fonte_url": "https://www.correiobraziliense.com.br/cbradar/banco-central-faz-comunicado-para-todos-que-usam-o-pix/",
+   "data": "2026-11-19",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "A cobrança híbrida vai depender de cada emissor de boleto. Quem paga por código de barras não precisa mudar nada, porque o código continua valendo.",
+   "fonte_url": "https://www.brasil247.com/tendencias/2026/11/19/banco-central-faz-aviso-para-todos-que-usam-o-pix/",
+   "data": "2026-11-19",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  },
+  {
+   "texto": "Até 30 de junho de 2027, nada muda para quem usa a conta-salário.",
+   "fonte_url": "https://www.correiobraziliense.com.br/cbradar/quem-recebe-salario-em-conta-salario-podera-autorizar-cobrancas-recorrentes-pelo-pix-automatico-a-partir-de-1o-de-julho-de-2027-mas-a-conta-so-podera-receber-pix-do-tesouro-nacional-ou-devolucoes-se/",
+   "data": "2026-09-18",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A diretoria do Banco Central aprova a Resolução BCB nº 587, que altera o regulamento do Pix.",
+   "fonte_url": "https://cesconbarrieu.com.br/resolucao-bcb-no-587-2026-novas-obrigacoes-e-impactos-para-participantes-do-pix/",
+   "data": "2026-09-17",
+   "veiculo": "Cescon Barrieu",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central publica a resolução e informa que o Pix Automático poderá sair da conta-salário.",
+   "fonte_url": "https://www.letsmoney.com.br/pix/bc-pix-resolucao-587-fraude-dispensa-500-mil/",
+   "data": "2026-09-18",
+   "veiculo": "Letsmoney",
+   "confiavel": false
+  },
+  {
+   "texto": "A resolução sai no Diário Oficial da União.",
+   "fonte_url": "https://www.correiobraziliense.com.br/cbradar/banco-central-faz-comunicado-para-todos-que-usam-o-pix/",
+   "data": "2026-09-21",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quais empresas de luz, escola, plano de saúde ou academia vão oferecer o Pix Automático, e quando. Isso depende de cada empresa que cobra, e não há lista confirmada.",
+  "Se haverá limite de valor para cobranças na conta-salário. Não encontrei esse dado nas fontes consultadas, e ele não está confirmado.",
+  "Como será, na prática, a tela de autorização no aplicativo de cada instituição. Uma análise jurídica diz que as formas de autorização serão restritas na conta-salário, mas o detalhe não foi confirmado nas fontes lidas.",
+  "Quais emissores vão colocar QR Code Pix nos boletos. A cobrança híbrida depende de cada emissor, e não há lista confirmada.",
+  "Nesta apuração, não conseguimos abrir a nota na página do Banco Central nem as matérias do Seu Dinheiro e da Fast Company Brasil. O texto se apoia na Agência Brasil, no Correio Braziliense e em outros veículos que descrevem a resolução."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você recebe em conta-salário: até 30 de junho de 2027, nada muda. Você segue transferindo o dinheiro para outra conta antes de pagar contas.",
+  "A partir de 1º de julho de 2027, poderá autorizar cobranças recorrentes (luz, escola, plano, academia) direto do salário, se a empresa oferecer Pix Automático. O valor sai sozinho na data combinada, então vale acompanhar o saldo. Pix comum continua fora da conta-salário.",
+  "Se você tem conta corrente, poupança ou conta de pagamento pré-paga, essa mudança não afeta você.",
+  "Se você paga boleto pelo código de barras, não precisa mudar nada. A partir de 1º de fevereiro de 2027, alguns boletos poderão trazer também o QR Code Pix, como mais uma opção.",
+  "Sua vez: você deixaria a conta de luz cair direto do salário? SIM ou NÃO. Conta aqui nos comentários."
+ ],
+ "como_se_proteger": [
+  "Só autorize cobrança de empresa que você conhece e com a qual você contratou o serviço.",
+  "Antes de confirmar, confira o nome de quem cobra, o valor, a data e a frequência da cobrança.",
+  "Desconfie de mensagem, link ou ligação que peça para você autorizar um pagamento recorrente com pressa.",
+  "Ao pagar boleto com QR Code, confira no aplicativo quem vai receber antes de concluir.",
+  "Se não reconhecer uma cobrança, procure sua instituição financeira e cancele a autorização pelo aplicativo."
+ ],
+ "slug": "pix-automatico-na-conta-salario",
+ "publicado_em": "2026-11-20T06:36:49.086886",
+ "atualizado_em": "2026-11-20T06:36:49.086886",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) Quem recebe em conta-salário vai poder pagar conta direto dela pelo Pix Automático a partir de 1º de julho de 2027: o Banco Central anunciou a mudança no regulamento do Pix em 18/09/2026 (nota em bcb.gov.br; Seu Dinheiro 18/09/2026; Fast Company Brasil 21/09/2026). Hoje a conta-salário não aceita Pix comum e o trabalhador precisa transferir o dinheiro para outra conta antes de pagar as contas; com a mudança, ele poderá autorizar cobranças recorrentes (luz, escola, plano, academia) debitadas direto do salário, sempre com autorização dele em cada serviço. No mesmo pacote: a partir de 1º/02/2027, boleto com QR Code Pix no mesmo papel (cobrança híbrida). Explicar o que é Pix Automático e o cuidado: só autorizar cobrança de empresa que você conhece. Gatilho: \"Você deixaria a conta de luz cair direto do salário? SIM ou NÃO.\" Sem recomendação de investimento, sem citar banco.",
+ "turno": "manha"
+}
