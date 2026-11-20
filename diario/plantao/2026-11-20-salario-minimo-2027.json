@@ -1,0 +1,113 @@
+{
+ "titulo": "Salário mínimo 2027: previsão de R$ 1.741, o que se sabe",
+ "descricao": "O governo prevê R$ 1.741 para 2027, R$ 120 a mais que hoje. Veja como o cálculo funciona, quando sai o valor final e o que muda no INSS, BPC e MEI.",
+ "palavra_chave": "salário mínimo 2027",
+ "lead": "O governo prevê um salário mínimo de R$ 1.741 em 2027 no projeto de Orçamento enviado ao Congresso em 31 de agosto. São R$ 120 a mais que os R$ 1.621 de hoje, alta de 7,4%. Ainda é previsão: o valor final sai por decreto, depois que o IBGE divulgar o INPC (inflação das famílias de menor renda) de novembro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O projeto de Lei Orçamentária Anual (PLOA) de 2027 foi enviado ao Congresso em 31 de agosto e prevê salário mínimo de R$ 1.741. Isso é R$ 120 (cerca de 7,4%) acima dos R$ 1.621 de hoje.",
+   "fonte_url": "https://www.congressoemfoco.com.br/noticia/121825/projeto-de-orcamento-de-2027-preve-salario-minimo-de-r-1-741",
+   "data": "2026-08-31",
+   "veiculo": "Congresso em Foco",
+   "confiavel": false
+  },
+  {
+   "texto": "O ministro da Fazenda, Dario Durigan, disse em 24 de agosto que o valor de R$ 1.741 resulta dos reajustes previstos em lei. Na mesma fala, afirmou que o piso também vale para a Previdência e para os benefícios ligados ao mínimo.",
+   "fonte_url": "https://www.infomoney.com.br/minhas-financas/governo-confirma-que-salario-minimo-sera-de-r-1-741-em-2027/",
+   "data": "2026-08-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A previsão anterior, do projeto de diretrizes orçamentárias enviado em abril, era de R$ 1.717. O PLOA de agosto subiu a estimativa em R$ 24.",
+   "fonte_url": "https://istoedinheiro.com.br/salario-minimo-2027-previsao-1741-reais",
+   "data": "2026-11-12",
+   "veiculo": "IstoÉ Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "A regra (Lei 14.663/2023) soma a inflação do INPC e o crescimento do PIB de dois anos antes. O ganho real, a parte acima da inflação, é limitado a 2,5% ao ano até 2030 e não pode ficar abaixo de 0,6%.",
+   "fonte_url": "https://espacodopovo.com.br/salario-minimo-ganho-real-teto-2030/",
+   "data": "2026-10-25",
+   "veiculo": "Espaço do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "Como foi o último reajuste: em 2026, o INPC de 4,18% somou-se ao ganho real de 2,5% (o PIB de 2024 foi de 3,4%, mas o teto vale). Com isso, o mínimo foi a R$ 1.621. O decreto saiu em 24 de dezembro de 2025.",
+   "fonte_url": "https://bpmoney.com.br/noticias/novo-salario-minimo-deve-injetar-r-817-bi-na-economia/",
+   "data": "2025-12-24",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O IBGE divulgou em 12 de novembro que o INPC subiu 0,22% em outubro e acumula 4,49% em 12 meses (contra 4,29% em setembro). Esse é o dado mais recente; o que vale para o mínimo é o de novembro.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inpc-inflacao-que-corrige-salarios-acumula-449-em-12-meses",
+   "data": "2026-11-12",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O valor definitivo será fixado por decreto do presidente da República, publicado no Diário Oficial da União depois da divulgação do INPC de novembro.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/15/salario-minimo-de-2027-tem-previsao-de-r-1-741-com-alta-de-74-sobre/",
+   "data": "2026-11-15",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Se os R$ 1.741 se confirmarem, sobem junto o piso do INSS, o BPC, a menor parcela do seguro-desemprego e o teto do abono do PIS/Pasep para quem trabalhou os 12 meses. A contribuição do MEI, de 5% do mínimo, iria de R$ 81,05 para R$ 87,05 (parte do INSS, sem ICMS ou ISS).",
+   "fonte_url": "https://www.nsctotal.com.br/economia/projecao-do-salario-minimo-de-r-1-741-para-2027-vai-reajustar-beneficios-do-inss-bpc-e-seguro-desemprego",
+   "data": "2026-11-05",
+   "veiculo": "NSC Total",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Decreto fixa o mínimo de 2026 em R$ 1.621, com INPC de 4,18% e ganho real de 2,5%.",
+   "fonte_url": "https://bpmoney.com.br/noticias/novo-salario-minimo-deve-injetar-r-817-bi-na-economia/",
+   "data": "2025-12-24",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O ministro da Fazenda diz que o mínimo de 2027 está definido em R$ 1.741, pelas regras da lei.",
+   "fonte_url": "https://www.infomoney.com.br/minhas-financas/governo-confirma-que-salario-minimo-sera-de-r-1-741-em-2027/",
+   "data": "2026-08-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O governo envia o PLOA de 2027 ao Congresso, com mínimo de R$ 1.741 (antes: R$ 1.717).",
+   "fonte_url": "https://www.congressoemfoco.com.br/noticia/121825/projeto-de-orcamento-de-2027-preve-salario-minimo-de-r-1-741",
+   "data": "2026-08-31",
+   "veiculo": "Congresso em Foco",
+   "confiavel": false
+  },
+  {
+   "texto": "O IBGE informa INPC de 0,22% em outubro e 4,49% em 12 meses.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inpc-inflacao-que-corrige-salarios-acumula-449-em-12-meses",
+   "data": "2026-11-12",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O valor final. Ele só fica definido depois do INPC de novembro e do decreto, previstos para dezembro. Nas buscas não encontrei a data exata de divulgação do IBGE nem a do decreto.",
+  "As premissas do governo. O site Piranot diz que o PLOA usa inflação de 4,93% e ganho real de 2,3% (PIB de 2025), citando material do Ministério do Planejamento. Não consegui conferir isso em fonte oficial.",
+  "Se o valor final fica acima ou abaixo de R$ 1.741. Uma conta simples do Termômetro, que não é previsão: com INPC de 4,49% e ganho real de 2,3%, o mínimo seria de cerca de R$ 1.733. O número muda conforme o INPC de novembro.",
+  "O reajuste exato das aposentadorias acima do piso em 2027. A Agência Brasil informa que elas seguem o INPC, e o percentual depende do índice fechado."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem recebe o mínimo (salário, aposentadoria, pensão ou BPC): se os R$ 1.741 se confirmarem, são R$ 120 a mais por mês a partir de janeiro de 2027. O valor pode mudar até o decreto.",
+  "Seguro-desemprego e abono do PIS/Pasep: a menor parcela do seguro-desemprego e o teto do abono acompanham o mínimo. Quem ganha mais que o piso nesses benefícios não sobe pelo mesmo critério.",
+  "BPC: o limite de renda por pessoa da família, de um quarto do mínimo, iria de R$ 405,25 para R$ 435,25, segundo o Mixvale, se o valor for confirmado.",
+  "MEI: a parte do INSS sobe com o mínimo. Se o valor for confirmado, passa de R$ 81,05 para R$ 87,05 por mês, segundo o Portal 6.",
+  "Aposentadoria acima do piso: sobe só pela inflação (INPC), sem o ganho real do mínimo. Palpite: o valor final vai ficar ACIMA ou ABAIXO de R$ 1.741? Comenta aí. (Conteúdo informativo, sem recomendação de investimento.)"
+ ],
+ "como_se_proteger": [],
+ "slug": "salario-minimo-2027",
+ "publicado_em": "2026-11-20T06:31:47.961835",
+ "atualizado_em": "2026-11-20T06:31:47.961835",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) Salário mínimo de 2027: a previsão do governo no Projeto de Lei Orçamentária (PLOA 2027) é de R$ 1.741, contra R$ 1.621 hoje: R$ 120 a mais por mês, alta de 7,4% (Correio, 17/11/2026; Concursos no Brasil, 14/11/2026). Mas ainda é previsão: a regra (Lei 14.633/2023) soma a inflação do INPC de 12 meses até novembro, que o IBGE divulga no início de dezembro, mais o crescimento do PIB de dois anos antes, limitado a 2,5% de ganho real; o valor final sai por decreto no fim do ano. Por que importa mesmo para quem ganha mais: o piso do INSS, o BPC, a menor parcela do seguro-desemprego, o teto do abono do PIS e a contribuição mensal do MEI andam junto com o mínimo; aposentadoria acima do piso sobe só pela inflação. Gatilho: \"Palpite: o valor final vai ficar ACIMA ou ABAIXO de R$ 1.741? Comenta aí.\" Sem recomendação de investimento, sem lado político.",
+ "turno": "manha"
+}
