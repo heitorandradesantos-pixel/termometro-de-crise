@@ -1,0 +1,33 @@
+## Panorama de 20/11/2026
+
+✅ Conferido. 33 notícias com fonte, 1 descartadas na conferência.
+
+### Texto para o WhatsApp
+
+```
+*TERMÔMETRO DE CRISE · Panorama de sex, 20/11*
+_Fechamento de 20/11 · de 0 (calmo) a 100 (mais tenso da história)_
+
+🌍 Mundo em *63, Tensão* (▲2 desde 19/11). Mais tenso: América do Norte (80).
+
+*Regiões*
+🟠 América do Norte: 80 · Tensão (▲4)
+🟠 Oriente Médio: 75 · Tensão (estável)
+🟠 Ásia e Pacífico: 65 · Tensão (▲1)
+🟡 Europa: 55 · Alerta (▲3)
+🟡 África: 52 · Alerta (estável)
+🟡 América Latina: 50 · Alerta (▲1)
+
+🇧🇷 *Brasil: 65 · Tensão* (estável desde 19/11)
+Bolsa 80 · Sobe e desce 32 · Dólar 83
+🏦 Banco Central: Selic 13,75% · Dólar PTAX R$ 5,8889 (de 19/11) · Focus (13/11): inflação de 2027 em 5,00%, Selic no fim de 2027 em 12,75%
+
+*O que mexeu com o termômetro*
+• S&P 500 e Dow fecham em correção; Nasdaq apaga os ganhos de 2026 (América do Norte)
+• Dólar chega a 1.018 pesos no Chile, o maior valor desde julho de 2022 (América Latina)
+• Bolsas europeias têm a pior semana desde março; Stoxx 600 cai 5,8% (Europa)
+
+_Conteúdo educativo, com fonte em cada fato. Não é recomendação de investimento._
+```
+
+Toque em **Merge** para publicar no site.
