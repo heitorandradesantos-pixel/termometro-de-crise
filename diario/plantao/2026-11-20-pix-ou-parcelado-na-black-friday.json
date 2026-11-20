@@ -1,0 +1,120 @@
+{
+ "titulo": "Pix ou parcelado na Black Friday 2026: o que se sabe",
+ "descricao": "Black Friday é 27/11. Com a Selic em 13,75%, parcelar em 10x sem juros vale um desconto de cerca de 4,5% no Pix. Veja a conta e as condições.",
+ "palavra_chave": "pix ou parcelado na black friday",
+ "lead": "A Black Friday é na sexta, 27/11, e a dúvida volta: desconto à vista no Pix ou parcelar sem juros? Com a Selic em 13,75% ao ano, decisão do Copom de 4/11, parcelar em 10x pode valer como um desconto de 4,5% a 5,7%. Isso só vale se o dinheiro estiver mesmo aplicado e a fatura for paga inteira. Time Pix ou time parcelado? Comenta 1 ou 2.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Black Friday 2026 está marcada para 27 de novembro, uma sexta-feira. Segundo o InfoMoney, a melhor forma de pagar depende do planejamento financeiro de cada pessoa e das condições que a loja oferece.",
+   "fonte_url": "https://www.infomoney.com.br/minhas-financas/pix-cartao-parcelamento-como-pagar-black-friday/",
+   "data": "2026-11-06",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O estudo Raio-X da Black Friday, da Serasa Experian, mostra que mais de 66% dos consumidores com maior propensão a comprar na data preferem o crédito parcelado. A base são dados da própria empresa sobre esse grupo.",
+   "fonte_url": "https://mercadoeconsumo.com.br/29/10/2026/black-friday/parcelamento-na-black-friday-atrai-66-dos-consumidores-de-todas-as-rendas/",
+   "data": "2026-10-29",
+   "veiculo": "Mercado&Consumo",
+   "confiavel": false
+  },
+  {
+   "texto": "Na pesquisa de opinião do mesmo estudo, o Pix à vista lidera as intenções de pagamento, com 38%. O cartão de crédito parcelado aparece com 31%. São duas bases diferentes: a dos 66% é de dados de consumo, a dos 38% é de entrevistas.",
+   "fonte_url": "https://www.ecommercebrasil.com.br/noticias/todas-as-faixas-de-renda-preferem-parcelar-na-black-friday-mostra-serasa",
+   "data": "2026-10-28",
+   "veiculo": "E-Commerce Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "A Stefanini Marketing projeta que a Black Friday de 2026 movimente R$ 14,5 bilhões, alta de 8,4% sobre 2025. A estimativa é de 18,3 milhões de pedidos e tíquete médio (valor médio por pedido) de R$ 791.",
+   "fonte_url": "https://timesbrasil.com.br/empresas-e-negocios/e-commerce/black-friday-2026-14-5-bilhoes-pix-parcelamento-sem-juros/",
+   "data": "2026-11-08",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Na pesquisa da Stefanini Marketing, 36% dos entrevistados citam o desconto no Pix como estímulo à compra, e 34% citam o parcelamento sem juros.",
+   "fonte_url": "https://www.ecommercebrasil.com.br/artigos/black-friday-2026-o-que-o-checkout-e-a-plataforma-precisam-aguentar",
+   "data": "2026-11-13",
+   "veiculo": "E-Commerce Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom, do Banco Central, manteve a Selic em 13,75% ao ano em 4/11, por unanimidade. A decisão interrompeu uma sequência de cinco cortes de 0,25 ponto percentual.",
+   "fonte_url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-4-novembro-2026/",
+   "data": "2026-11-04",
+   "veiculo": "Sou Brasília",
+   "confiavel": false
+  },
+  {
+   "texto": "O juro médio do rotativo do cartão, a dívida que surge quando se paga menos que o total da fatura, subiu para 451,7% ao ano em setembro, informou o Banco Central em 29/10. Em agosto, estava em 444,9%.",
+   "fonte_url": "https://www.opovo.com.br/noticias/economia/2026/10/29/juro-medio-do-rotativo-do-cartao-de-credito-sobe-a-4517-ao-ano-em-setembro-diz-bc.html",
+   "data": "2026-10-29",
+   "veiculo": "O Povo",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Serasa Experian apresenta o Raio-X da Black Friday em coletiva de imprensa.",
+   "fonte_url": "https://www.ecommercebrasil.com.br/noticias/todas-as-faixas-de-renda-preferem-parcelar-na-black-friday-mostra-serasa",
+   "data": "2026-10-28",
+   "veiculo": "E-Commerce Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central informa que o juro médio do rotativo do cartão chegou a 451,7% ao ano em setembro.",
+   "fonte_url": "https://www.opovo.com.br/noticias/economia/2026/10/29/juro-medio-do-rotativo-do-cartao-de-credito-sobe-a-4517-ao-ano-em-setembro-diz-bc.html",
+   "data": "2026-10-29",
+   "veiculo": "O Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom mantém a Selic em 13,75% ao ano e interrompe cinco cortes seguidos.",
+   "fonte_url": "https://safras.com.br/copom-mantem-selic-em-1375-ao-ano-dentro-do-esperado",
+   "data": "2026-11-04",
+   "veiculo": "Safras & Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "O InfoMoney compara Pix, cartão e parcelamento para a Black Friday, com os dados da Serasa Experian.",
+   "fonte_url": "https://www.infomoney.com.br/minhas-financas/pix-cartao-parcelamento-como-pagar-black-friday/",
+   "data": "2026-11-06",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A projeção da Stefanini Marketing de R$ 14,5 bilhões para a Black Friday é divulgada, com alta de 8,4% sobre 2025.",
+   "fonte_url": "https://timesbrasil.com.br/empresas-e-negocios/e-commerce/black-friday-2026-14-5-bilhoes-pix-parcelamento-sem-juros/",
+   "data": "2026-11-08",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quantos consumidores vão de fato pagar no Pix e quantos vão parcelar. As duas pesquisas usam bases diferentes (quem tem mais propensão a comprar e entrevistados em geral), então os números não se somam nem se contradizem. O resultado real só sai depois da data.",
+  "Quantos dos que pretendem parcelar vão pagar a fatura inteira. Nenhuma das pesquisas citadas mede isso. Não foi confirmado.",
+  "Qual projeção de vendas vai se confirmar. Há estimativas de R$ 13,3 bilhões, R$ 14,5 bilhões e R$ 16,6 bilhões, segundo o E-Commerce Brasil, e as fontes não detalham o período considerado nem partem da mesma base de 2025.",
+  "Quanto o dinheiro de cada pessoa vai render até a última parcela. Depende da aplicação, do prazo e do Imposto de Renda. A conta do texto é uma estimativa do Termômetro, não um número oficial.",
+  "Para onde vai a Selic. A próxima reunião do Copom é em dezembro. Uma análise da Nomad espera manutenção em 13,75%, mas é expectativa de uma consultoria e não está confirmada."
+ ],
+ "o_que_muda_para_voce": [
+  "A conta, feita pelo Termômetro com a Selic em 13,75% ao ano: parcelar em 10x sem juros equivale a um desconto de cerca de 5,7% antes do Imposto de Renda e perto de 4,5% depois dele. Com a alíquota mínima de 15%, o valor chegaria a cerca de 4,8%. Em 3x, o equivalente é de uns 2% antes do IR e cerca de 1,7% depois.",
+  "Na prática: Pix com 10% de desconto ganha do 10x. Pix com 3% perde para o 10x, mas ganha do 3x. Perto de 5% de desconto no Pix, a diferença é pequena e vale olhar o seu caso.",
+  "Essa conta só vale se o dinheiro estiver mesmo aplicado, rendendo perto da Selic, até a última parcela. Se ele está parado na conta, sem render, qualquer desconto no Pix já sai na frente.",
+  "Pagar a fatura inteira é a condição. Se sobrar saldo, o rotativo cobra em média 451,7% ao ano, cerca de 15,3% ao mês, e apaga o ganho do parcelado em poucos dias.",
+  "Confira antes se o preço do produto é o mesmo no Pix (sem o desconto) e no parcelado. A conta vale quando o preço cheio é igual nas duas formas. É um exercício de cálculo, não uma recomendação. Time Pix ou time parcelado? Comenta 1 ou 2."
+ ],
+ "como_se_proteger": [
+  "Digite o endereço da loja você mesmo. Não entre por link de mensagem, anúncio ou perfil que você não conhece.",
+  "Desconfie de preço muito abaixo do normal. Segundo a Serasa Experian, sites falsos preocupam 53% dos consumidores e golpes com Pix, 42%.",
+  "Antes de confirmar o Pix, confira o nome do recebedor que aparece no aplicativo. Ele deve bater com o da loja.",
+  "Compare o preço nas semanas anteriores. Segundo a pesquisa da Stefanini Marketing, 74% dos entrevistados já fazem isso para checar se o desconto é real.",
+  "Guarde o comprovante e o número do pedido. Em caso de golpe, avise o seu banco na hora."
+ ],
+ "slug": "pix-ou-parcelado-na-black-friday",
+ "publicado_em": "2026-11-20T06:22:15.282622",
+ "atualizado_em": "2026-11-20T06:22:15.282622",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário: Black Friday é sexta, 27/11/2026: vale mais o desconto à vista no Pix ou parcelar sem juros e deixar o dinheiro rendendo? Fatos: pesquisa Raio-X da Black Friday da Serasa Experian (Mercado&Consumo, 29/10/2026; InfoMoney, 06/11/2026) mostra mais de 66% de quem vai comprar pretendendo parcelar e 38% pagando no Pix à vista; a projeção da Stefanini Marketing é de R$ 14,5 bilhões em vendas online (+8,4% sobre 2025, Times Brasil/CNBC, 08/11/2026). Conta: com a Selic em 13,75% ao ano (Copom/Banco Central), o dinheiro aplicado rendendo perto disso faz um parcelado em 10x sem juros valer como um desconto de uns 5% (cerca de 4,8% já descontando o IR e 5,7% bruto); em 3x, uns 2%. Ou seja: Pix com 10% de desconto ganha; Pix com 3% perde para o 10x, MAS só se o dinheiro estiver mesmo aplicado e a fatura for paga inteira, porque rotativo destrói a conta. Gatilho: \"Time Pix ou time parcelado? Comenta 1 ou 2.\" Sem recomendação de investimento, sem citar loja, banco ou marca.",
+ "turno": "manha"
+}
