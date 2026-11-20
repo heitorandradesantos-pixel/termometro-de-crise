@@ -1,0 +1,201 @@
+{
+ "gancho": {
+  "formula": "Número + custo escondido",
+  "texto": "Cara, o dólar fechou a R$ 5,95. Quem vai viajar sente isso.",
+  "na_tela": "Dólar a R$ 5,95",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + custo escondido",
+   "texto": "Cara, o dólar fechou a R$ 5,95. Quem vai viajar sente isso.",
+   "na_tela": "Dólar a R$ 5,95",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois (expectativa contra realidade)",
+   "texto": "Cara, o dólar subiu 1,14% e a bolsa ainda tá longe do recorde.",
+   "na_tela": "Dólar sobe, bolsa longe",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Sexta, fim da tarde, e o dólar fecha a R$ 5,95.",
+   "na_tela": "Dólar fecha a R$ 5,95",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar fechou a R$ 5,95. Quem vai viajar sente isso.",
+  "Ele subiu 1,14% hoje e pesa na viagem e no celular importado.",
+  "A bolsa brasileira caiu e segue um quinto abaixo do recorde de outubro.",
+  "Lá fora também doeu: as bolsas dos Estados Unidos caíram forte.",
+  "A bolsa da Europa teve a pior semana desde março.",
+  "Agora a parte que importa: no termômetro, Brasil em 65, mundo em 63.",
+  "Tensão é febre: pede atenção, não pânico. Se não vai comprar em dólar, só acompanha.",
+  "Manda pra quem tem viagem marcada ou compra em dólar esse mês.",
+  "Já sentiu o dólar no bolso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar fechou a R$ 5,95. Quem vai viajar sente isso. Ele subiu 1,14% hoje e pesa na viagem e no celular importado. A bolsa brasileira caiu e segue um quinto abaixo do recorde de outubro. Lá fora também doeu: as bolsas dos Estados Unidos caíram forte. A bolsa da Europa teve a pior semana desde março. Agora a parte que importa: no termômetro, Brasil em 65, mundo em 63. Tensão é febre: pede atenção, não pânico. Se não vai comprar em dólar, só acompanha. Manda pra quem tem viagem marcada ou compra em dólar esse mês. Já sentiu o dólar no bolso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 115,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,95",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 5,95 (▲1,14%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "20,4% abaixo do recorde de 09/10",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "S&P 500 e Dow em correção",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Stoxx 600: queda de 5,8% na semana",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Brasil 65 · Mundo 63 (Tensão)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Selic 13,75% · PTAX R$ 5,8889",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje fechamento",
+ "legenda": "Dólar hoje: fechou a R$ 5,95, alta de 1,14%, segundo o Yahoo Finance.\n\nO Ibovespa fechou em 166.376 pontos, queda de 0,69%, e segue 20,4% abaixo do recorde de 09/10. Lá fora, as bolsas dos Estados Unidos caíram forte e a Europa teve a pior semana desde março.\n\nNo Termômetro de Crise de 20/11, o Brasil marcou 65 e o mundo 63, os dois na faixa de Tensão. Dólar mais caro pesa em viagem e em produto importado. Tensão é febre: pede atenção, não pânico.\n\nManda pra quem tem viagem marcada ou compra em dólar esse mês. E você: já sentiu o dólar no bolso? Comenta SIM ou NÃO.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolar #ibovespa #termometrodecrise #economia #financaspessoais",
+ "hashtags": [
+  "#dolar",
+  "#ibovespa",
+  "#termometrodecrise",
+  "#economia",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar fechou a R$ 5,95. Quem vai viajar sente isso.",
+  "topicos": [
+   "Dólar subiu 1,14% e fechou a R$ 5,95, segundo o Yahoo Finance.",
+   "Ibovespa caiu 0,69% e segue 20,4% abaixo do recorde de 09/10.",
+   "No Termômetro de Crise, Brasil marcou 65 e o mundo 63: tensão.",
+   "Tensão é febre, não pânico: se não vai comprar em dólar, só acompanha."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um fechamento com vários números e contexto (Brasil e mundo), que pede explicação calma em vez de notícia de última hora.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"A bolsa brasileira caiu e segue um quinto abaixo do recorde de outubro\": é uma ideia que não diz o que muda para quem é CLT, e \"recorde\" e \"bolsa\" ficam sem tradução. Reescreva ligando ao bolso, por exemplo: \"A bolsa, onde as empresas brasileiras têm ações, caiu de novo. Quem tem dinheiro lá viu o valor encolher. Quem não tem, não precisa fazer nada.\" Só use o que já está na peça.",
+   "Frase \"Ele subiu 1,14% hoje e pesa na viagem e no celular importado\": tem número exato e duas ideias juntas. Fale \"subiu pouco mais de 1%\" e deixe o 1,14% no cartão da tela. Troque \"pesa\" por um exemplo concreto: \"o celular importado e a passagem ficam mais caros na conta\". Isso dá a comparação viva que falta para o sanguíneo.",
+   "Frase \"Agora a parte que importa: no termômetro, Brasil em 65, mundo em 63\": são dois números na mesma fala, e a faixa não é explicada. Divida em duas falas e traduza o efeito: \"No nosso termômetro, o Brasil tá em 65. É a faixa de Tensão: sinal amarelo.\" Deixe o mundo em 63 para outra fala ou para o cartão. Depois faça o passo simples: \"se você não vai comprar em dólar, não precisa fazer nada\"."
+  ],
+  "veredito": "A peça acerta o arquétipo e os gatilhos, com a perda no bolso (viagem e celular importado), a saída calma, a fonte na legenda e o gatilho SIM/NÃO. Falta passar no Teste do CLT: ela junta números demais e usa \\\"recorde\\\" e \\\"bolsa\\\" sem traduzir. Também falta uma comparação do dia a dia e o porquê da alta do dólar, para soar menos como boletim e mais como o Heitor falando."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: 'Cara, o dólar fechou a R$ 5,95. Quem vai viajar sente isso.' é só o placar do dia e não abre lacuna. Reescrita: 'Cara, o dólar subiu 1,14% hoje e fechou a R$ 5,95. Quem vai viajar ou comprar importado sente isso. Mas o número que importa é outro: fica até o fim.' O fim paga com o termômetro, Brasil em 65 e mundo em 63.",
+   "Retenção: o meio é uma fila de más notícias ('A bolsa brasileira caiu...', 'Lá fora também doeu...', 'A bolsa da Europa teve a pior semana...'). Junte as duas de fora e ponha a virada antes do termômetro. Reescrita: 'Lá fora também doeu: bolsas dos Estados Unidos em queda forte e a Europa na pior semana desde março. E aí vem a parte que importa: no termômetro, Brasil em 65.' Depois: 'E o mundo, em 63.'",
+   "Teste do CLT: quem nunca viu o Termômetro não sabe o que é 65. Reescrita: 'Os dois estão na faixa de Tensão. Tensão é febre: pede atenção, não pânico.' E troque 'pesa na viagem e no celular importado' por 'viagem e celular importado ficam mais caros'."
+  ],
+  "veredito": "Roteiro limpo, com pedido de envio concreto e fecho SIM/NÃO fácil, mas o gancho é só o placar do dia e o meio é uma fila de notícias ruins: falta uma lacuna que segure até o termômetro e uma virada antes dele."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Close-up of a brand-new unbranded smartphone in its open box on a wooden table beside a passport-less travel suitcase and a plain boarding-pass-free airplane window silhouette in the background, soft warm light. Slow dolly-in from the suitcase to the phone, shallow depth of field, no people, no text, no logos",
+   "texto_da_fala": "Ele subiu 1,14% hoje e pesa na viagem e no celular importado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a brand-new unbranded smartphone in its open box on a wooden table beside a passport-less travel suitcase and a plain boarding-pass-free airplane window silhouette in the background, soft warm light. Slow dolly-in from the suitcase to the phone, shallow depth of field, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Aerial view of a dense São Paulo downtown financial district skyline at dusk under heavy gray clouds, glass towers reflecting a dim orange sky. Slow downward crane move descending toward the rooftops, moody cinematic tone, no people, no readable signs, no text, no logos",
+   "texto_da_fala": "A bolsa brasileira caiu e segue um quinto abaixo do recorde de outubro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial view of a dense São Paulo downtown financial district skyline at dusk under heavy gray clouds, glass towers reflecting a dim orange sky. Slow downward crane move descending toward the rooftops, moody cinematic tone, no people, no readable signs, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Rainy European city financial square at twilight, wet cobblestones reflecting streetlights, stately stone buildings with columns, empty of recognizable people (only distant blurred umbrellas). Slow lateral tracking shot along the facade, cold blue tones, no text, no signs, no logos, no flags",
+   "texto_da_fala": "A bolsa da Europa teve a pior semana desde março.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Rainy European city financial square at twilight, wet cobblestones reflecting streetlights, stately stone buildings with columns, empty of recognizable people (only distant blurred umbrellas). Slow lateral tracking shot along the facade, cold blue tones, no text, no signs, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar fechou a R$ 5,95. Quem vai viajar sente isso.\n\nEle subiu 1,14% hoje e pesa na viagem e no celular importado.\n\nA bolsa brasileira caiu e segue um quinto abaixo do recorde de outubro.\n\nLá fora também doeu: as bolsas dos Estados Unidos caíram forte.\n\nA bolsa da Europa teve a pior semana desde março.\n\nAgora a parte que importa: no termômetro, Brasil em 65, mundo em 63.\n\nTensão é febre: pede atenção, não pânico. Se não vai comprar em dólar, só acompanha.\n\nManda pra quem tem viagem marcada ou compra em dólar esse mês.\n\nJá sentiu o dólar no bolso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-20",
+ "gerado_em": "2026-11-20T18:31:45.975615-03:00",
+ "enviado_whatsapp": "2026-11-20T18:32:45.658425-03:00"
+}
