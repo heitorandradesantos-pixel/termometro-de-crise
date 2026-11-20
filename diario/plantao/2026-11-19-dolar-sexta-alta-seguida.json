@@ -1,0 +1,122 @@
+{
+ "titulo": "Dólar perto de R$ 5,94, sexta alta e intervenção do BC: o que se sabe",
+ "descricao": "Dólar fechou a R$ 5,934 na sexta alta seguida, mesmo após o BC vender US$ 1 bilhão. Ibovespa caiu 0,69%. Veja o que está confirmado e o que não.",
+ "palavra_chave": "dólar sexta alta seguida",
+ "lead": "O dólar fechou a quinta-feira (19/11) a R$ 5,934, em alta de 1,15%. Foi a sexta alta seguida e o maior valor de fechamento desde abril de 2025, segundo a Gazeta do Povo e o SpaceMoney. O Banco Central vendeu US$ 1 bilhão de suas reservas no meio do dia para segurar a moeda, mas o alívio durou pouco. O Ibovespa, índice da bolsa brasileira, caiu 0,69%, a 166.376 pontos.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O dólar comercial fechou a R$ 5,934 na venda, em alta de 1,15%, mesmo depois da intervenção do Banco Central. A moeda chegou a recuar após o leilão, mas voltou a subir.",
+   "fonte_url": "https://gazetadopovo.com.br/economia/dolar-dispara-e-se-aproxima-de-r-6-apos-falas-de-lula",
+   "data": "2026-11-19",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "É a sexta alta seguida do dólar contra o real e o maior fechamento desde abril de 2025. Em novembro, a moeda acumula alta de cerca de 9%.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-fecha-a-r-5-93-e-atinge-maior-valor-desde-janeiro-de-2025",
+   "data": "2026-11-19",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central fez um leilão extraordinário (fora do calendário) de US$ 1 bilhão no mercado à vista, entre 12h03 e 12h08. Aceitou cinco propostas, com taxa de corte (o preço final do dólar no leilão) de R$ 5,86. Vender dólares das reservas aumenta a oferta da moeda no mercado.",
+   "fonte_url": "https://gazetadopovo.com.br/economia/dolar-dispara-e-se-aproxima-de-r-6-apos-falas-de-lula",
+   "data": "2026-11-19",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "Na quarta-feira (18), o BC já tinha feito dois leilões de linha, também de US$ 1 bilhão no total. Nesse tipo de operação, o BC vende dólares com compromisso de recomprá-los depois. A operação de quinta foi de outro tipo, uma venda definitiva.",
+   "fonte_url": "https://mistobrasil.com/2026/11/19/dolar-sobe-11-e-fecha-a-r-593-em-meio-a-temor-fiscal/",
+   "data": "2026-11-18",
+   "veiculo": "Misto Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa fechou em queda de 0,69%, aos 166.376,43 pontos. Na semana, perdeu 3,53%. Operava perto da estabilidade e piorou depois que o presidente Lula disse não ter pressa para anunciar os ministros do próximo governo, incluindo o da Fazenda.",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-cai-069-e-dolar-sobe-a-r-593-antes-do-feriado/",
+   "data": "2026-11-19",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "Lula criticou especulações sobre a equipe e disse que não tem pressa para divulgar seu ministério. A reportagem da Folhapress, publicada pelo Jornal de Brasília, liga essa fala à alta do dólar no dia.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/bc-erra-ao-intervir-na-cotacao-do-dolar-diz-ex-chefe-de-departamento-da-autarquia/",
+   "data": "2026-11-19",
+   "veiculo": "Jornal de Brasília (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Senado aprovou o pacote fiscal do governo na véspera. O texto ainda precisa passar pela Câmara. O governo estima impacto de mais de R$ 50 bilhões nas contas de 2027. Segundo o Seu Dinheiro, analistas dizem que o pacote não resolve sozinho o desequilíbrio das contas públicas.",
+   "fonte_url": "https://www.seudinheiro.com/2026/politica/pacote-fiscal-passa-no-senado-mas-mercado-cobra-ajuste-mais-consistente-das-contas-jcav/",
+   "data": "2026-11-19",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "As bolsas de Nova York também caíram: o Dow Jones recuou 2,19% e o Nasdaq, 2,25%. Veículos citam a queda lá fora como um dos fatores da baixa do Ibovespa.",
+   "fonte_url": "https://gcmais.com.br/noticias/2026/11/19/dolar-fecha-em-r-5-93-e-ibovespa-cai-quase-0-7-nesta-quinta-feira-19",
+   "data": "2026-11-19",
+   "veiculo": "GCMais",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O BC faz dois leilões de linha, de US$ 1 bilhão no total, com compromisso de recompra.",
+   "fonte_url": "https://mistobrasil.com/2026/11/19/dolar-sobe-11-e-fecha-a-r-593-em-meio-a-temor-fiscal/",
+   "data": "2026-11-18",
+   "veiculo": "Misto Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O Senado conclui a votação do pacote fiscal, que segue para a Câmara.",
+   "fonte_url": "https://lucianapombo.com.br/noticia/79766/dolar-supera-rs-5-93-e-fecha-no-maior-valor-desde-abril-de-2025.html",
+   "data": "2026-11-18",
+   "veiculo": "Blog Luciana Pombo",
+   "confiavel": false
+  },
+  {
+   "texto": "De manhã, o dólar passa de R$ 5,90. Lula diz que não tem pressa para anunciar ministros e critica especulações.",
+   "fonte_url": "https://jornaldebrasilia.com.br/noticias/economia/bc-erra-ao-intervir-na-cotacao-do-dolar-diz-ex-chefe-de-departamento-da-autarquia/",
+   "data": "2026-11-19",
+   "veiculo": "Jornal de Brasília (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "Entre 12h03 e 12h08, o BC vende US$ 1 bilhão em leilão extraordinário, com taxa de corte de R$ 5,86. O dólar chega a recuar, depois volta a subir.",
+   "fonte_url": "https://gazetadopovo.com.br/economia/dolar-dispara-e-se-aproxima-de-r-6-apos-falas-de-lula",
+   "data": "2026-11-19",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar fecha a R$ 5,934 (+1,15%) e o Ibovespa, a 166.376,43 pontos (-0,69%).",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-hoje-fecha-queda-dolar-593",
+   "data": "2026-11-19",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Por que o dólar subiu: não há explicação única confirmada. A Folhapress liga a alta à fala de Lula e à percepção de risco fiscal. Outros veículos citam também a queda em Nova York. Cada leitura é de quem a fez, não um fato comprovado.",
+  "Se o BC vai fazer novos leilões: a busca não encontrou comunicado oficial do BC com essa informação, e a nota do órgão não foi localizada. Não foi confirmado.",
+  "Se a intervenção foi acertada: o ex-chefe de mercado aberto do BC, Sérgio Goldstein, disse à Folhapress que o BC errou, porque a alta viria de fundamentos fiscais piores. A mesma reportagem diz que, internamente, o leilão é visto como necessário e pontual para conter mau funcionamento do mercado, e que outros agentes elogiaram a medida.",
+  "Quando a Câmara vota o pacote fiscal: o Seu Dinheiro fala em 'próxima semana'. Um blog cita segunda-feira (23/11). Não foi confirmado por fonte oficial.",
+  "Quem será o ministro da Fazenda do próximo governo: o governo não anunciou. A agência Reuters, citada por um site, disse que Lula poderia definir o nome na semana que vem. Não foi confirmado.",
+  "Números exatos: os veículos divergem em detalhes. O dólar aparece de R$ 5,931 a R$ 5,935, e a alta semanal, de 4,04% a 4,95%. Um site deu Ibovespa a 166.231 pontos, enquanto a maioria deu 166.376."
+ ],
+ "o_que_muda_para_voce": [
+  "Dólar mais caro encarece produtos importados, insumos comprados lá fora, viagens ao exterior e compras em sites estrangeiros.",
+  "O leilão do BC usa as reservas internacionais do país, não o dinheiro de contas ou investimentos de pessoas. Não muda saldo nem rendimento de quem tem conta ou poupança.",
+  "Quem tem ações, fundos de ações ou previdência com bolsa vê o valor oscilar para baixo em dias como este. A queda é de preço no dia e só vira perda se a pessoa vender. Cada investimento tem prazo e risco próprios.",
+  "Quem tem investimentos ligados ao dólar ou ao exterior vê o valor subir quando a moeda sobe, e cair quando ela recua. O movimento pode mudar rápido, e o dólar pode voltar a cair.",
+  "A próxima votação do pacote fiscal na Câmara e a escolha do ministro da Fazenda são os pontos que analistas citam como próximos testes para o câmbio."
+ ],
+ "como_se_proteger": [],
+ "slug": "dolar-sexta-alta-seguida",
+ "publicado_em": "2026-11-19T23:41:01.724470",
+ "atualizado_em": "2026-11-19T23:41:01.724470",
+ "assunto": "O que se sabe sobre a sexta alta seguida do dólar perto de R$ 5,94, a queda da bolsa e a intervenção do Banco Central",
+ "turno": "noite"
+}
