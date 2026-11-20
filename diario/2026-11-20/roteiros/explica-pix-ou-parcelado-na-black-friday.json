@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Pix ou 10x na Black Friday? Dependendo do desconto, o parcelado ganha.",
+  "na_tela": "Pix ou 10x? Faça a conta",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Parcelar em 10x na Black Friday pode valer um desconto de 4,5% a 5,7%.",
+   "na_tela": "10x pode valer desconto",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Pix ou 10x na Black Friday? Dependendo do desconto, o parcelado ganha.",
+   "na_tela": "Pix ou 10x? Faça a conta",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Sobrou fatura? O rotativo cobra 451,7% ao ano e apaga seu desconto.",
+   "na_tela": "Sobrou fatura? 451,7% ao ano",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Pix ou 10x na Black Friday? Dependendo do desconto, o parcelado ganha.",
+  "A Selic, o juro básico, tá em 13,75% ao ano.",
+  "Parcelar é deixar seu dinheiro rendendo enquanto você paga a loja.",
+  "Pix com 10% de desconto ganha do 10x. Com 3%, perde.",
+  "Mas só vale se o dinheiro estiver mesmo aplicado, rendendo.",
+  "Se tá parado na conta, qualquer desconto no Pix já sai na frente.",
+  "Se sobrar fatura, o rotativo cobra 451,7% ao ano, diz o Banco Central.",
+  "Confere se o preço cheio é igual no Pix e no parcelado.",
+  "Time Pix ou time parcelado? Comenta 1 ou 2.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Pix ou 10x na Black Friday? Dependendo do desconto, o parcelado ganha. A Selic, o juro básico, tá em 13,75% ao ano. Parcelar é deixar seu dinheiro rendendo enquanto você paga a loja. Pix com 10% de desconto ganha do 10x. Com 3%, perde. Mas só vale se o dinheiro estiver mesmo aplicado, rendendo. Se tá parado na conta, qualquer desconto no Pix já sai na frente. Se sobrar fatura, o rotativo cobra 451,7% ao ano, diz o Banco Central. Confere se o preço cheio é igual no Pix e no parcelado. Time Pix ou time parcelado? Comenta 1 ou 2. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 108,
+ "segundos": 43,
+ "na_tela": [
+  {
+   "texto": "Pix ou 10x? Faça a conta",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Selic: 13,75% ao ano",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 2,
+   "texto": "10x sem juros ≈ 4,5% a 5,7% de desconto",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Pix 10% ganha do 10x | Pix 3% perde",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Só vale com dinheiro aplicado",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Rotativo: 451,7% ao ano",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Pix ou parcelado na Black Friday 2026: qual compensa?",
+ "legenda": "Pix ou parcelado na Black Friday 2026: qual compensa?\n\nA Black Friday é na sexta, 27/11. Com a Selic em 13,75% ao ano (decisão do Copom de 4/11), parcelar em 10x sem juros pode equivaler a um desconto de 4,5% a 5,7%. É uma estimativa do Termômetro, não um número oficial.\n\nA conta só vale se o dinheiro estiver mesmo aplicado, rendendo perto da Selic, e se você pagar a fatura inteira. Se sobrar saldo, o rotativo cobra em média 451,7% ao ano, segundo o Banco Central. Confira também se o preço cheio é igual no Pix e no parcelado.\n\nTime Pix ou time parcelado? Comenta 1 ou 2.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#blackfriday #pix #selic #educacaofinanceira",
+ "hashtags": [
+  "#blackfriday",
+  "#pix",
+  "#selic",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Black Friday: Pix ou parcelado em 10x? Tem uma conta pra fazer.",
+  "topicos": [
+   "Copom manteve a Selic em 13,75% ao ano em 4/11, por unanimidade.",
+   "Conta do Termômetro: parcelar em 10x equivale a desconto de 4,5% a 5,7%.",
+   "Rotativo do cartão: 451,7% ao ano, diz o Banco Central. Pague a fatura inteira.",
+   "Confere se o preço cheio é igual no Pix e no parcelado."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Tem conta e várias condições (Selic, desconto, fatura), então pede explicação calma na bancada, não notícia quente de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"A Selic, o juro básico, tá em 13,75% ao ano.\": a tradução ainda é pouca para quem é CLT. Reescreva pelo efeito no bolso, por exemplo: \"Selic é o juro que o Banco Central define. É ela que faz o dinheiro aplicado render.\" Assim a fala fica com uma ideia só, e o 13,75% pode ficar no cartão da tela ou vir em frase separada.",
+   "Frase \"Pix com 10% de desconto ganha do 10x. Com 3%, perde.\" e a frase \"Mas só vale se o dinheiro estiver mesmo aplicado, rendendo\": faltam uma comparação viva e o jeito do Heitor. Abra com uma reação, como \"Cara, Pix ou 10x? Depende do desconto!\". Depois troque o miolo por uma imagem do dia a dia, por exemplo: dinheiro parado na conta é como compra que você deixa na prateleira, e dinheiro aplicado trabalha enquanto você paga a loja. Não invente número novo.",
+   "Frase \"Se sobrar fatura, o rotativo cobra 451,7% ao ano, diz o Banco Central.\": o termo \"rotativo\" e o 451,7% pesam na fala. Traduza e arredonde: \"Se você não pagar a fatura inteira, o banco cobra o rotativo, que é o juro do cartão: uns 450% ao ano, segundo o Banco Central.\" Deixe o número exato no cartão da tela. Troque também o fecho por um passo calmo e simples, como \"Antes de decidir, confira se o preço cheio é o mesmo nos dois.\""
+  ],
+  "veredito": "A peça acerta a pergunta de bolso, o gancho que ela paga, a fonte dita (\\\"diz o Banco Central\\\"), a saída para o risco do rotativo e o gatilho de comentário. Mas falta traduzir \\\"Selic\\\" e \\\"rotativo\\\" para o Teste do CLT. Também faltam uma comparação viva e o jeito solto do Heitor, porque o texto soa como um resumo certinho."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Pix ou 10x na Black Friday? Dependendo do desconto, o parcelado ganha.\" abre com pergunta e já solta a resposta, sem número. Reescrita: \"Pix com 3% de desconto perde do 10x. Com 10%, ganha. Na Black Friday, qual é o seu?\" Fica um número específico na primeira frase e o resto do roteiro segue igual.",
+   "Retenção e Teste do CLT: \"o rotativo cobra 451,7% ao ano, diz o Banco Central\" tem número quebrado e termo de banco sem tradução. Reescrita: \"Se sobrar fatura, o rotativo do cartão, que é o juro de quem não paga tudo, cobra uns 450% ao ano. Isso é o Banco Central falando, não sou eu.\" Antes dessa fala, ponha uma virada no tom do Heitor: \"E aí vem a parte que pouca gente viu:\".",
+   "Envio: \"Confere se o preço cheio é igual no Pix e no parcelado.\" fecha sem pedir o envio. Reescrita: \"Confere se o preço cheio é igual no Pix e no parcelado. E manda pra quem vai parcelar a Black Friday inteira no cartão.\" Depois vem o gatilho \"Time Pix ou time parcelado? Comenta 1 ou 2.\""
+  ],
+  "veredito": "Roteiro limpo, que paga o gancho e fecha com um bom gatilho de comentário (1 ou 2). Falta abrir com um número na primeira frase, simplificar o rotativo para o Teste do CLT e pedir o envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "shot, : close-up of a smartphone on a wooden desk showing a plain green growing-plant icon sprouting from a pile of coins, next to a shopping bag and a credit card; slow dolly-in with soft warm light, no faces, no text, no numbers, no logos",
+   "texto_da_fala": "Parcelar é deixar seu dinheiro rendendo enquanto você paga a loja.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : close-up of a smartphone on a wooden desk showing a plain green growing-plant icon sprouting from a pile of coins, next to a shopping bag and a credit card; slow dolly-in with soft warm light, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "shot, : a stack of unopened paper envelopes and a credit card piled on a kitchen table under dim light, slow downward crane move revealing the pile growing taller, moody tones, no people, no readable text, no numbers, no logos",
+   "texto_da_fala": "Se sobrar fatura, o rotativo cobra 451,7% ao ano, diz o Banco Central.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : a stack of unopened paper envelopes and a credit card piled on a kitchen table under dim light, slow downward crane move revealing the pile growing taller, moody tones, no people, no readable text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "shot, : two identical sneakers on a store shelf with blank unmarked price tags, camera slowly tracks sideways from one to the other, bright retail lighting, no people, no text, no numbers, no logos",
+   "texto_da_fala": "Confere se o preço cheio é igual no Pix e no parcelado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot, : two identical sneakers on a store shelf with blank unmarked price tags, camera slowly tracks sideways from one to the other, bright retail lighting, no people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Pix ou 10x na Black Friday? Dependendo do desconto, o parcelado ganha.\n\nA Selic, o juro básico, tá em 13,75% ao ano.\n\nParcelar é deixar seu dinheiro rendendo enquanto você paga a loja.\n\nPix com 10% de desconto ganha do 10x. Com 3%, perde.\n\nMas só vale se o dinheiro estiver mesmo aplicado, rendendo.\n\nSe tá parado na conta, qualquer desconto no Pix já sai na frente.\n\nSe sobrar fatura, o rotativo cobra 451,7% ao ano, diz o Banco Central.\n\nConfere se o preço cheio é igual no Pix e no parcelado.\n\nTime Pix ou time parcelado? Comenta 1 ou 2.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/minhas-financas/pix-cartao-parcelamento-como-pagar-black-friday/",
+   "destaque": "A Black Friday 2026 está marcada para 27 de novembro, uma sexta-feira."
+  }
+ ],
+ "data": "2026-11-20",
+ "gerado_em": "2026-11-20T06:27:06.032058-03:00"
+}
