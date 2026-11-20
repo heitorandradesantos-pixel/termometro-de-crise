@@ -1,0 +1,149 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Sua conta de luz vai poder sair direto do salário. Quando?",
+  "na_tela": "Conta de luz no salário?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Sua conta de luz vai poder sair direto do salário. Quando?",
+   "na_tela": "Conta de luz no salário?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Até 30 de junho de 2027, nada muda na sua conta-salário. Depois, muda.",
+   "na_tela": "Conta-salário muda em 2027",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Reação do Heitor",
+   "texto": "Cara, empresa nenhuma vai tirar dinheiro da sua conta-salário sem você autorizar.",
+   "na_tela": "Ninguém cobra sem autorização",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Sua conta de luz vai poder sair direto do salário. Quando?",
+  "Dia 1º de julho de 2027, segundo a Agência Brasil.",
+  "É o Pix Automático: você autoriza uma vez e a mensalidade sai sozinha.",
+  "Hoje você transfere pra outra conta antes de pagar.",
+  "Só o Pix Automático sai dali, e só com a sua autorização.",
+  "Ainda não tem lista de empresas que vão oferecer isso.",
+  "Pensa numa torneira: o valor sai sozinho, então vigia o saldo.",
+  "Só autorize quem você conhece, e confira nome, valor e data.",
+  "Manda pra quem recebe em conta-salário.",
+  "Conta de luz direto do salário: SIM ou NÃO? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Sua conta de luz vai poder sair direto do salário. Quando? Dia 1º de julho de 2027, segundo a Agência Brasil. É o Pix Automático: você autoriza uma vez e a mensalidade sai sozinha. Hoje você transfere pra outra conta antes de pagar. Só o Pix Automático sai dali, e só com a sua autorização. Ainda não tem lista de empresas que vão oferecer isso. Pensa numa torneira: o valor sai sozinho, então vigia o saldo. Só autorize quem você conhece, e confira nome, valor e data. Manda pra quem recebe em conta-salário. Conta de luz direto do salário: SIM ou NÃO? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Conta de luz no salário?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "1º de julho de 2027",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "Autoriza uma vez",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "Só com autorização",
+   "fonte": "Brasil 247"
+  },
+  {
+   "fala": 5,
+   "texto": "Sem lista confirmada",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Confira nome, valor e data",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Pix Automático na conta-salário: o que muda",
+ "legenda": "Pix Automático na conta-salário: o que muda?\n\nSegundo a Agência Brasil, a partir de 1º de julho de 2027 quem recebe em conta-salário poderá pagar contas que se repetem direto dela, pelo Pix Automático. Até 30 de junho de 2027, nada muda.\n\nSó o Pix Automático sai da conta-salário, e sempre com a autorização do titular. Ainda não há lista de empresas que vão oferecer, nem confirmação de limite de valor.\n\nPara se proteger: só autorize cobrança de empresa que você conhece e confira nome, valor, data e frequência. Não reconheceu uma cobrança? Cancele a autorização pelo aplicativo da sua instituição.\n\nVocê deixaria a conta de luz cair direto do salário? SIM ou NÃO nos comentários.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pixautomatico #contasalario #pix #educacaofinanceira #bancocentral",
+ "hashtags": [
+  "#pixautomatico",
+  "#contasalario",
+  "#pix",
+  "#educacaofinanceira",
+  "#bancocentral"
+ ],
+ "rua": {
+  "gancho": "Tô na rua: sua conta de luz pode sair do salário.",
+  "topicos": [
+   "Agência Brasil: a partir de 1º de julho de 2027, conta-salário paga Pix Automático.",
+   "Correio Braziliense: só o Pix Automático sai da conta-salário, e com autorização.",
+   "Ainda não tem lista de empresas que vão oferecer o Pix Automático.",
+   "Só autorize empresa que você conhece e confira nome, valor e data."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É um assunto de explicação, com datas e regras que pedem calma, e não uma notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "versão rua: gancho até 12 palavras e tópicos até 14"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "viral": null,
+ "teleprompter": "Sua conta de luz vai poder sair direto do salário. Quando?\n\nDia 1º de julho de 2027, segundo a Agência Brasil.\n\nÉ o Pix Automático: você autoriza uma vez e a mensalidade sai sozinha.\n\nHoje você transfere pra outra conta antes de pagar.\n\nSó o Pix Automático sai dali, e só com a sua autorização.\n\nAinda não tem lista de empresas que vão oferecer isso.\n\nPensa numa torneira: o valor sai sozinho, então vigia o saldo.\n\nSó autorize quem você conhece, e confira nome, valor e data.\n\nManda pra quem recebe em conta-salário.\n\nConta de luz direto do salário: SIM ou NÃO? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/contas-salario-terao-pix-automatico-partir-de-1o-de-julho-de-2027",
+   "destaque": "O Pix Automático poderá ser usado em conta-salário a partir de 1º de julho de 2027."
+  },
+  {
+   "veiculo": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/quem-recebe-salario-em-conta-salario-podera-autorizar-cobrancas-recorrentes-pelo-pix-automatico-a-partir-de-1o-de-julho-de-2027-mas-a-conta-so-podera-receber-pix-do-tesouro-nacional-ou-devolucoes-se/",
+   "destaque": "O Pix Automático será o único tipo de Pix que poderá sair da conta-salário."
+  },
+  {
+   "veiculo": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/banco-central-faz-comunicado-para-todos-que-usam-o-pix/",
+   "destaque": "A cobrança híbrida junta, no mesmo documento, o código de barras do boleto e o QR Code do Pix, e quem paga escolhe como quitar."
+  }
+ ],
+ "data": "2026-11-20",
+ "gerado_em": "2026-11-20T06:40:26.761217-03:00"
+}
