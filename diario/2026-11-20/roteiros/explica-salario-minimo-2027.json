@@ -1,0 +1,199 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "De R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu.",
+  "na_tela": "R$ 1.741: ainda não é seu",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "De R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu.",
+   "na_tela": "R$ 1.741: ainda não é seu",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto vai ser o seu mínimo em janeiro? O governo já deu um número.",
+   "na_tela": "Seu mínimo em janeiro?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Reação do Heitor",
+   "texto": "Cara, olha o número do salário mínimo de 2027: R$ 1.741. Tem pegadinha.",
+   "na_tela": "Mínimo 2027: tem pegadinha",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "De R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu.",
+  "O governo previu R$ 1.741 no Orçamento enviado ao Congresso em agosto.",
+  "Se confirmar, são R$ 120 a mais por mês pra quem ganha o mínimo.",
+  "Mas esse número é só previsão do governo.",
+  "Agora o detalhe: só sai por decreto, depois da inflação de novembro.",
+  "É igual fatura de cartão: só vale o valor que fecha.",
+  "Por enquanto, espere o decreto pra fechar a conta do mês.",
+  "Manda pra quem recebe o mínimo e já tá fazendo planos.",
+  "Valor final: ACIMA ou ABAIXO de R$ 1.741? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "De R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu. O governo previu R$ 1.741 no Orçamento enviado ao Congresso em agosto. Se confirmar, são R$ 120 a mais por mês pra quem ganha o mínimo. Mas esse número é só previsão do governo. Agora o detalhe: só sai por decreto, depois da inflação de novembro. É igual fatura de cartão: só vale o valor que fecha. Por enquanto, espere o decreto pra fechar a conta do mês. Manda pra quem recebe o mínimo e já tá fazendo planos. Valor final: ACIMA ou ABAIXO de R$ 1.741? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 109,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 1.741: ainda não é seu",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 1.741 previstos para 2027",
+   "fonte": "Congresso em Foco"
+  },
+  {
+   "fala": 2,
+   "texto": "+ R$ 120 (de R$ 1.621)",
+   "fonte": "Congresso em Foco"
+  },
+  {
+   "fala": 3,
+   "texto": "PREVISÃO",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Decreto depois do INPC de novembro",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 6,
+   "texto": "Espere o decreto",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "salário mínimo 2027: quanto vai ser",
+ "legenda": "Salário mínimo 2027: quanto vai ser?\n\nSegundo o Congresso em Foco, o projeto de Orçamento enviado ao Congresso em 31 de agosto prevê R$ 1.741. São R$ 120 a mais que os R$ 1.621 de hoje.\n\nMas ainda é previsão. O valor final sai por decreto, depois que o IBGE divulgar o INPC (inflação das famílias de menor renda) de novembro.\n\nSe confirmar, o piso do INSS, o BPC e o seguro-desemprego acompanham. Palpite: o valor final fica ACIMA ou ABAIXO de R$ 1.741? Comenta aí.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#salariominimo #economia #dinheiro #financaspessoais",
+ "hashtags": [
+  "#salariominimo",
+  "#economia",
+  "#dinheiro",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Salário mínimo de 2027: R$ 1.741. Mas ainda é só previsão.",
+  "topicos": [
+   "Governo previu R$ 1.741 em agosto, diz o Congresso em Foco.",
+   "São R$ 120 a mais que os R$ 1.621 de hoje.",
+   "Valor final sai por decreto, depois do INPC de novembro, segundo o Mixvale.",
+   "Espere o decreto antes de fechar a conta do mês."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto e um valor que ainda pode mudar, então pede calma de bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho \"De R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu.\": são dois números numa fala só, e o Teste do CLT pede no máximo um. Reescreva como reação de amigo, por exemplo \"Cara, o salário mínimo pode ir pra uns R$ 1.740. Mas calma, ainda não é certo.\" Deixe os valores exatos no cartão da tela.",
+   "Frases \"Se confirmar, são R$ 120 a mais por mês...\" e \"Mas esse número é só previsão do governo\": a ideia da previsão aparece três vezes (gancho, \"só previsão\" e \"Agora o detalhe\"), e o texto lê como teleprompter. Junte tudo numa fala só, solta e com a voz do Heitor, por exemplo \"É previsão do governo, tá? Não é o valor final.\" Troque \"Agora o detalhe\" por \"E aí vem a parte que pouca gente viu:\". Use \"o que muda pra você\" para dizer o que são os R$ 120 na prática, sem inventar número novo.",
+   "Frase \"só sai por decreto, depois da inflação de novembro\": \"decreto\" e \"inflação de novembro\" ficam sem tradução. Reescreva como \"só sai quando o governo assinar o valor, depois de saber quanto os preços subiram em novembro\". Na legenda, a fonte \"Congresso em Foco\" fica bem, mas na fala use só \"segundo o governo\"."
+  ],
+  "veredito": "A peça acerta o público, o arquétipo e a ética (previsão deixada clara, comparação com a fatura do cartão, passo simples de esperar o decreto e gatilho de palpite fácil), mas falta passar no Teste do CLT, com número demais por fala, \"decreto\" sem tradução e repetição, e soar mais como o Heitor falando na rua."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: 'De R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu.' Quem nunca ouviu falar do perfil não sabe que números são esses. Reescrita: 'O salário mínimo pode ir de R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu.' Mesmos números, e o objeto do bolso aparece na primeira frase.",
+   "Retenção: 'Mas esse número é só previsão do governo. Agora o detalhe: só sai por decreto, depois da inflação de novembro.' A primeira frase repete o gancho e a virada fica fraca. Reescrita: 'E aí vem o detalhe: o valor final só sai por decreto, depois da inflação de novembro.'",
+   "Teste do CLT: 'O governo previu R$ 1.741 no Orçamento enviado ao Congresso em agosto.' Reescrita: 'O governo colocou R$ 1.741 na proposta que mandou pro Congresso em agosto.' Troca 'Orçamento' por palavra do dia a dia, sem mudar o fato."
+  ],
+  "veredito": "Pagamento, pedido de envio ('manda pra quem recebe o mínimo') e gatilho de comentário (ACIMA ou ABAIXO) são fortes; o que falta é nomear o salário mínimo já na primeira frase e cortar a repetição que enfraquece a virada."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow upward tilt along the modernist white facade of the Brazilian National Congress in Brasília at golden hour, the twin towers and the two domes against a soft blue sky, empty plaza in the foreground, no people, no flags, no visible signs or text. Smooth cinematic drone-style rise",
+   "texto_da_fala": "O governo previu R$ 1.741 no Orçamento enviado ao Congresso em agosto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the modernist white facade of the Brazilian National Congress in Brasília at golden hour, the twin towers and the two domes against a soft blue sky, empty plaza in the foreground, no people, no flags, no visible signs or text. Smooth cinematic drone-style rise. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Close-up of an official paper document with blurred, illegible lines and a blank signature area on a dark wooden desk, a fountain pen entering from the side and pressing down to sign, only the pen and a hand in soft shadow, no face, no readable text or numbers. Slow dolly-in with shallow depth of field, warm office lamp light",
+   "texto_da_fala": "Agora o detalhe: só sai por decreto, depois da inflação de novembro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of an official paper document with blurred, illegible lines and a blank signature area on a dark wooden desk, a fountain pen entering from the side and pressing down to sign, only the pen and a hand in soft shadow, no face, no readable text or numbers. Slow dolly-in with shallow depth of field, warm office lamp light. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "A plain unbranded blank credit card lying on a stack of folded paper statements with abstract gray lines instead of text, on a clean kitchen table near a window with morning light. Slow lateral slide of the camera across the table, shallow depth of field, no people, no logos, no readable text or numbers",
+   "texto_da_fala": "É igual fatura de cartão: só vale o valor que fecha.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A plain unbranded blank credit card lying on a stack of folded paper statements with abstract gray lines instead of text, on a clean kitchen table near a window with morning light. Slow lateral slide of the camera across the table, shallow depth of field, no people, no logos, no readable text or numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "De R$ 1.621 para R$ 1.741. Mas esse número ainda não é seu.\n\nO governo previu R$ 1.741 no Orçamento enviado ao Congresso em agosto.\n\nSe confirmar, são R$ 120 a mais por mês pra quem ganha o mínimo.\n\nMas esse número é só previsão do governo.\n\nAgora o detalhe: só sai por decreto, depois da inflação de novembro.\n\nÉ igual fatura de cartão: só vale o valor que fecha.\n\nPor enquanto, espere o decreto pra fechar a conta do mês.\n\nManda pra quem recebe o mínimo e já tá fazendo planos.\n\nValor final: ACIMA ou ABAIXO de R$ 1.741? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/minhas-financas/governo-confirma-que-salario-minimo-sera-de-r-1-741-em-2027/",
+   "destaque": "O ministro da Fazenda, Dario Durigan, disse em 24 de agosto que o valor de R$ 1.741 resulta dos reajustes previstos em lei."
+  },
+  {
+   "veiculo": "IstoÉ Dinheiro",
+   "url": "https://istoedinheiro.com.br/salario-minimo-2027-previsao-1741-reais",
+   "destaque": "A previsão anterior, do projeto de diretrizes orçamentárias enviado em abril, era de R$ 1.717."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inpc-inflacao-que-corrige-salarios-acumula-449-em-12-meses",
+   "destaque": "O IBGE divulgou em 12 de novembro que o INPC subiu 0,22% em outubro e acumula 4,49% em 12 meses (contra 4,29% em setembro)."
+  }
+ ],
+ "data": "2026-11-20",
+ "gerado_em": "2026-11-20T06:34:20.866645-03:00"
+}
