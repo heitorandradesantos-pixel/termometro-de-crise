@@ -1,0 +1,114 @@
+{
+ "titulo": "Juros dos EUA e dólar hoje: o que se sabe",
+ "descricao": "Dirigente do Fed diz que EUA podem precisar de várias altas de juros. É cenário, não decisão. Veja o que isso tem a ver com o dólar acima de R$ 5,90.",
+ "palavra_chave": "juros dos eua e dólar hoje",
+ "lead": "Em 17 de novembro, Alberto Musalem, presidente do Fed de St. Louis, disse que a economia dos EUA deve precisar de várias altas de juros até a primavera de 2027. É um cenário defendido por ele, não uma decisão do Fed. Nesta sexta (20/11), uma fonte passou a citar a perspectiva de juros mais altos nos EUA entre os motivos do dólar acima de R$ 5,90.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 17/11, Musalem disse, segundo a Reuters, que o Fed pode precisar de várias altas de juros para controlar a inflação e deveria agir logo. Segundo a agência, a inflação nos EUA está acima de 3% e, na avaliação dele, tende a continuar alta se o Fed não agir.",
+   "fonte_url": "https://wtaq.com/2026/11/17/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation/",
+   "data": "2026-11-17",
+   "veiculo": "Reuters (via WTAQ)",
+   "confiavel": false
+  },
+  {
+   "texto": "O próprio Fed de St. Louis publicou o discurso, feito em conferência do Banco Central da Argentina. Nele, Musalem afirma que será necessário \"retirar mais estímulo\" da política monetária em breve e que a taxa de juros pode ter de fazer a maior parte do trabalho. Ele trabalha com dois cenários para os próximos 18 meses: um com inflação persistente, que ele vê como o mais provável, e outro, improvável, em que ela cai sozinha.",
+   "fonte_url": "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-argentina",
+   "data": "2026-11-17",
+   "veiculo": "Federal Reserve Bank of St. Louis",
+   "confiavel": false
+  },
+  {
+   "texto": "É a opinião de um dirigente, não uma decisão. Musalem não vota nas decisões de juros neste ano, segundo a Reuters. A CNBC diz que ele só volta a votar em 2028, mas que participa das projeções do comitê.",
+   "fonte_url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+   "data": "2026-11-17",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "A próxima reunião do Fed será em 8 e 9 de dezembro, e a Reuters informou que a expectativa era de alta de 0,25 ponto percentual. Pela ferramenta FedWatch, do CME Group, o mercado via 93,5% de chance de alta de 0,25 ponto e 6,5% de chance de alta de 0,50 ponto.",
+   "fonte_url": "https://www.seudinheiro.com/2026/bolsa-dolar/dolar-ganha-ainda-mais-folego-e-passa-os-r-590-entenda-o-que-impulsiona-a-moeda-davs/",
+   "data": "2026-11-19",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 18/11, a ata da reunião de outubro do Fed reforçou a leitura de que o banco central dos EUA deve adotar postura mais dura. O CPI de outubro (a inflação ao consumidor nos EUA) subiu 0,4%, contra 0,3% esperado por analistas.",
+   "fonte_url": "https://www.moneytimes.com.br/rumo-aos-r-6-dolar-rompe-os-r-590-hoje-entenda-o-que-impulsiona-a-moeda-davs/",
+   "data": "2026-11-18",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 19/11, o dólar à vista fechou em alta de 1,10%, a R$ 5,9323. É a maior cotação desde abril de 2025.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+   "data": "2026-11-19",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Em texto de 20/11, a ACIARA lista a perspectiva de juros mais altos nos EUA, que fortalece o dólar no mundo todo, entre os motivos do dólar acima de R$ 5,90. A lista inclui também a cautela antes do feriado, a aprovação do pacote fiscal no Senado e a estreia da Anthropic na bolsa americana.",
+   "fonte_url": "https://aciara.com.br/ibovespa-recua-com-dolar-acima/",
+   "data": "2026-11-20",
+   "veiculo": "ACIARA",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o NC News, juros maiores nos EUA tornam os títulos do governo americano mais atrativos e tiram dinheiro de países emergentes, como o Brasil. É essa a ligação entre o Fed e o dólar aqui.",
+   "fonte_url": "https://ncnews.com.br/2026/11/19/dolar-hoje-ajuste-fiscal/",
+   "data": "2026-11-19",
+   "veiculo": "NC News",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Musalem diz em Buenos Aires que a economia dos EUA deve precisar de várias altas de juros até a primavera de 2027.",
+   "fonte_url": "https://wtaq.com/2026/11/17/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation/",
+   "data": "2026-11-17",
+   "veiculo": "Reuters (via WTAQ)",
+   "confiavel": false
+  },
+  {
+   "texto": "A ata do Fed e o CPI de outubro, acima do esperado, reforçam a leitura de juros mais altos por mais tempo.",
+   "fonte_url": "https://www.moneytimes.com.br/rumo-aos-r-6-dolar-rompe-os-r-590-hoje-entenda-o-que-impulsiona-a-moeda-davs/",
+   "data": "2026-11-18",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar à vista fecha a R$ 5,9323, a maior cotação desde abril de 2025.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+   "data": "2026-11-19",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A ACIARA publica que a perspectiva de juros mais altos nos EUA está entre os motivos do dólar acima de R$ 5,90.",
+   "fonte_url": "https://aciara.com.br/ibovespa-recua-com-dolar-acima/",
+   "data": "2026-11-20",
+   "veiculo": "ACIARA",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o Fed vai mesmo subir os juros em dezembro e nas reuniões seguintes. Nada foi decidido; a decisão sai em 9 de dezembro.",
+  "Quantas altas virão. A Reuters e o Fed de St. Louis falam em \"várias\". A CNBC lê o discurso como até quatro altas, mas a Private Banker diz que Musalem não citou reuniões específicas. Essa contagem não é confirmada pelo Fed.",
+  "Se o resto do comitê do Fed concorda com Musalem. Ele não vota neste ano, e as fontes consultadas não mostram o que os demais decidirão.",
+  "Quanto da alta do dólar vem dos juros dos EUA. Nenhuma fonte consultada mediu isso. A ACIARA e outros veículos citam também fatores locais, como o pacote fiscal e a cautela antes do feriado.",
+  "A faixa atual dos juros nos EUA. As fontes divergem sobre o número, e por isso o texto não o cita. O Fed publica a faixa oficial em seu site.",
+  "O ritmo da alta em dezembro. Segundo o Investidor10, o mercado se divide entre duas altas de 0,25 ponto e uma de 0,50 ponto. O FedWatch, citado pelo Seu Dinheiro, dava 93,5% para a de 0,25 ponto. Os dados não coincidem."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje nada muda nos juros dos EUA. O Fed não decidiu nada, e a próxima decisão está marcada para 9 de dezembro.",
+  "Se o mercado passar a esperar juros mais altos nos EUA, o dólar tende a ganhar força frente a várias moedas, inclusive o real. Isso depende de outros fatores e não é garantido.",
+  "Um dólar mais caro encarece produtos importados, viagens ao exterior e compras em sites estrangeiros. O efeito vem da cotação, e o discurso de Musalem é só um dos fatores citados.",
+  "Quem tem dívida ou contrato em dólar, ou investe no exterior, sente o efeito da cotação. Acompanhe a decisão do Fed em 9/12 e a cotação do dólar."
+ ],
+ "como_se_proteger": [],
+ "slug": "juros-dos-eua-e-dolar-hoje",
+ "publicado_em": "2026-11-20T11:44:27.950537",
+ "atualizado_em": "2026-11-20T11:44:27.950537",
+ "assunto": "Dirigente do Fed de St. Louis, Alberto Musalem, disse em 17/11 que a economia dos EUA deve precisar de várias altas de juros; o mercado precificava alta de 0,25 ponto na reunião de 9/12. É cenário, não decisão. As fontes divergem sobre a faixa atual dos juros (3,5%-3,75% ou 3,75%-4,00%), então não usar o número.",
+ "turno": "meio"
+}
