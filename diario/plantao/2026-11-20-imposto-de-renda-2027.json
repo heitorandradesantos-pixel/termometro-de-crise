@@ -1,0 +1,113 @@
+{
+ "titulo": "Imposto de Renda 2027 com isenção até R$ 5 mil: o que se sabe",
+ "descricao": "Quem ganha até R$ 5 mil não paga IR na fonte desde jan/2026. Veja o que muda na declaração de 2027, na restituição e quem ainda precisa declarar.",
+ "palavra_chave": "imposto de renda 2027",
+ "lead": "Desde 1º de janeiro de 2026, quem ganha até R$ 5 mil por mês não tem mais Imposto de Renda descontado no contracheque, segundo a Receita Federal e o Ministério da Fazenda. O efeito completo aparece na declaração de 2027, que usa os rendimentos de 2026. Como o imposto deixou de ser retido mês a mês, a restituição que vinha desse desconto tende a ser menor ou a não existir. Ficar isento do imposto, porém, não dispensa todo mundo de declarar.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Lei 15.270 foi sancionada em 26/11/2025. Ela amplia a isenção do Imposto de Renda da pessoa física para quem ganha até R$ 5 mil por mês e cria descontos para rendas de até R$ 7.350 por mês, segundo o Ministério da Fazenda.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2025/novembro/presidente-sanciona-lei-que-amplia-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil",
+   "data": "2025-11-26",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "A nova tabela vale desde 1º de janeiro de 2026. A tabela tradicional não mudou: a Receita criou tabelas de redução aplicadas junto com ela. Até R$ 5.000 por mês, a redução (até R$ 312,89) zera o imposto. De R$ 5.000,01 a R$ 7.350, a redução é de R$ 978,62 menos 0,133145 vezes a renda mensal, e cai até zerar em R$ 7.350. A partir de R$ 7.350,01, não há redução.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/janeiro/receita-divulga-nova-tabela-do-irpf-com-as-mudancas-apos-isencao-para-quem-ganha-ate-r-5-mil",
+   "data": "2026-01-01",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Secretaria de Comunicação Social do governo, as mudanças aparecem na declaração do Imposto de Renda de 2027, que considera os rendimentos de 2026. No cálculo anual, a isenção vale para quem ganhar até R$ 60 mil no ano. Entre R$ 60.000,01 e R$ 88.200, o desconto diminui aos poucos.",
+   "fonte_url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2026/01/nova-tabela-do-ir-veja-faixas-e-aliquotas-e-saiba-mais-sobre-medida-que-isenta-o-pagamento-para-quem-ganha-ate-r-5-mil",
+   "data": "2026-01-01",
+   "veiculo": "Secretaria de Comunicação Social (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Quem tem mais de uma fonte de renda precisará complementar o imposto na declaração anual, mesmo que cada rendimento isolado seja inferior a R$ 5 mil, segundo a Secom. Ou seja: em vez de restituição, pode haver imposto a pagar.",
+   "fonte_url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2026/01/nova-tabela-do-ir-veja-faixas-e-aliquotas-e-saiba-mais-sobre-medida-que-isenta-o-pagamento-para-quem-ganha-ate-r-5-mil",
+   "data": "2026-01-01",
+   "veiculo": "Secretaria de Comunicação Social (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em reportagem de 19/11/2026, o portal Mixvale (que cita a Receita Federal) diz que o mecanismo não gera imposto negativo. Quem não teve imposto retido na fonte em 2026 não ganha restituição extra. A reportagem também diz que o desconto mensal é calculado separadamente por fonte pagadora, e que a dispensa do desconto na fonte não garante dispensa da declaração.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/19/isencao-do-imposto-de-renda-ate-r-5-000-vale-em-2026-mas-veja-quem-ainda-precisa-declarar-a-receita-federal",
+   "data": "2026-11-19",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Alguns critérios de obrigatoriedade seguem independentes do salário. Segundo o PagBank, nas regras da declaração de 2026 (ano-base 2025), é preciso declarar quem tem bens e direitos acima de R$ 800 mil, teve ganho de capital na venda de bens ou operou na bolsa acima de R$ 40 mil no ano. Esses são os valores da declaração anterior e podem mudar em 2027.",
+   "fonte_url": "https://blog.pagbank.com.br/isencao-no-imposto-de-renda",
+   "data": "2026-10-27",
+   "veiculo": "PagBank",
+   "confiavel": false
+  },
+  {
+   "texto": "A atividade rural acima do teto também aparece entre os critérios que obrigam a declarar, segundo explicação da Alelo sobre o Imposto de Renda de 2027.",
+   "fonte_url": "https://www.alelo.com.br/blog/institucional/o-que-muda-no-imposto-de-renda-2027",
+   "data": "2026-11-01",
+   "veiculo": "Alelo",
+   "confiavel": false
+  },
+  {
+   "texto": "Na sanção da lei, o Palácio do Planalto estimou que cerca de 15 milhões de brasileiros deixariam de pagar Imposto de Renda. A estimativa é do governo; outras reportagens citam 16 milhões.",
+   "fonte_url": "https://www12.senado.leg.br/radio/1/noticia/2025/11/26/isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-e-sancionada",
+   "data": "2025-11-26",
+   "veiculo": "Rádio Senado",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Senado aprova, por unanimidade, o projeto que isenta do IR quem ganha até R$ 5 mil por mês.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2025-11/isencao-do-ir-permite-garantir-proposta-de-justica-social-diz-haddad",
+   "data": "2025-11-05",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Lei 15.270 é sancionada.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2025/novembro/presidente-sanciona-lei-que-amplia-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil",
+   "data": "2025-11-26",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "A nova tabela do IRPF entra em vigor, e a Receita a divulga em janeiro. Os efeitos aparecem nos salários de fevereiro.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/janeiro/receita-divulga-nova-tabela-do-irpf-com-as-mudancas-apos-isencao-para-quem-ganha-ate-r-5-mil",
+   "data": "2026-01-01",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "Reportagem lembra que a isenção na fonte não garante dispensa da declaração em 2027 e que a Receita ainda vai publicar as normas do ano.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/19/isencao-do-imposto-de-renda-ate-r-5-000-vale-em-2026-mas-veja-quem-ainda-precisa-declarar-a-receita-federal",
+   "data": "2026-11-19",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "As regras oficiais de quem é obrigado a declarar em 2027 ainda não foram publicadas. Segundo o Mixvale (19/11/2026), a Receita deve divulgá-las no início do próximo ano. Sites privados citam limites como R$ 33.888 de rendimentos tributáveis, mas isso não foi confirmado por fonte oficial.",
+  "Se quem teve imposto retido nos primeiros meses de 2026, antes de a folha de pagamento se ajustar, receberá esse valor de volta na restituição. Um site (Sou Brasília) diz que quem teve imposto retido em 2026 tende a recuperá-lo, mas não encontramos confirmação em fonte oficial. Depende de cada caso.",
+  "Valor médio de restituição, datas dos lotes e calendário da declaração de 2027: a Receita ainda não divulgou.",
+  "O número exato de beneficiados: as estimativas do governo variam entre 15 e 16 milhões de contribuintes."
+ ],
+ "o_que_muda_para_voce": [
+  "Se o desconto de IR sumiu do seu contracheque, o dinheiro já ficou com você ao longo de 2026. Por isso, a restituição que vinha desse desconto tende a ser menor ou a não existir. Isso não é perda: é o mesmo valor, que chegou antes.",
+  "Quem ganha entre R$ 5.000,01 e R$ 7.350 ainda paga imposto, mas menos. Pela fórmula oficial, uma renda mensal de R$ 6.000 tem redução de R$ 179,75 (978,62 menos 0,133145 vezes 6.000). Quanto mais perto de R$ 7.350, menor o desconto.",
+  "Quem recebe de duas ou mais fontes (dois empregos, salário e aluguel, por exemplo) pode ter imposto a pagar na declaração de 2027, porque cada fonte aplica o desconto separadamente.",
+  "Estar isento não é o mesmo que estar dispensado de declarar. Bens acima do limite, venda de bem com lucro e atividade rural são critérios que podem obrigar a entregar a declaração. Confira as regras de 2027 quando a Receita as publicar.",
+  "Pergunta do Heitor: o desconto de IR sumiu do seu contracheque este ano? Comenta SUMIU ou CONTINUA."
+ ],
+ "como_se_proteger": [],
+ "slug": "imposto-de-renda-2027",
+ "publicado_em": "2026-11-20T06:53:02.566546",
+ "atualizado_em": "2026-11-20T06:53:02.566546",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) Imposto de Renda 2027: o que a isenção para quem ganha até R$ 5 mil por mês muda na declaração do ano que vem. Fonte oficial: Lei 15.270, sancionada em 26/11/2025 (Ministério da Fazenda, gov.br/fazenda, 11/2025), e nova tabela do IRPF divulgada pela Receita Federal em janeiro de 2026 (gov.br/fazenda e gov.br/receitafederal, \"Tributação de 2026\"): desde 1º/01/2026 quem recebe até R$ 5.000 por mês não paga IR, entre R$ 5.000,01 e R$ 7.350 o desconto é parcial e diminui conforme a renda sobe, e acima disso vale a tabela normal. Na declaração de 2027 (ano-base 2026): como o imposto já deixou de ser descontado no contracheque mês a mês, a restituição tende a ser menor ou não existir, porque o dinheiro já veio durante o ano; e ficar isento não dispensa de declarar quem cai em outras regras (bens acima do limite, venda com lucro, atividade rural). Gatilho: \"O desconto de IR sumiu do seu contracheque este ano? Comenta SUMIU ou CONTINUA.\" Sem recomendação de investimento, sem lado político.",
+ "turno": "manha"
+}
