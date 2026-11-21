@@ -159,6 +159,7 @@ main .noticia{background:var(--painel);border-top:1px solid #233140;border-right
 main .cartao .noticia,main .cartao .lista a{background:#121B25}
 .dia-titulo{margin-top:32px}
 .anuncio:empty{min-height:0;margin:8px 0}
+.faixa .dia{color:var(--suave);font-size:12px;margin-right:4px}
 .indice{padding:26px}.ind-topo{display:flex;gap:28px;align-items:flex-start;justify-content:space-between}
 .ind-topo h2{margin:0 0 8px;font-size:24px}.ind-topo p{margin:0;max-width:720px}
 .ind-num{display:flex;align-items:center;gap:12px;flex:none}.ind-num .v{font:700 64px/1 'Space Grotesk',sans-serif}
@@ -318,7 +319,9 @@ def faixa_mercados(cotacoes: list[dict], parcial: str | None = None) -> str:
         classe, seta = ("alta", "▲") if v > 0 else (("baixa", "▼") if v < 0 else ("", ""))
         variacao = f"{abs(v):.2f}".replace(".", ",")
         direcao = "subiu" if v > 0 else ("caiu" if v < 0 else "estável")
-        itens.append(f'<span data-c="{html.escape(c["nome"])}"><strong>{html.escape(c["nome"])}</strong>'
+        # item de outro dia (feriado aqui e pregão lá fora, ou o contrário) leva a própria data, para a etiqueta não mentir
+        outro_dia = "" if parcial or c["data"] == cotacoes[0]["data"] else f' <small class="dia">{pd.Timestamp(c["data"]):%d/%m}</small>'
+        itens.append(f'<span data-c="{html.escape(c["nome"])}"><strong>{html.escape(c["nome"])}</strong>{outro_dia}'
                      f'<span class="v">{valor}</span> <span class="var {classe}"><span aria-hidden="true">{seta}</span>'
                      f'<span class="sr">{direcao} </span>{variacao}%</span></span>')
     quando = pd.Timestamp(cotacoes[0]["data"]).strftime("%d/%m")  # a data do primeiro item (Ibovespa)
