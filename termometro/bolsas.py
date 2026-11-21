@@ -439,7 +439,13 @@ def ferramentas() -> str:
             '<section class="edicao"><h1>Ferramentas</h1><p>Ferramentas grátis do Termômetro de Crise para o dia a dia do '
             'seu dinheiro.</p><div class="lista"><a href="../horario-bolsas/index.html"><strong>Horário das bolsas</strong>'
             '<br><span class="suave">Que horas abre e fecha cada bolsa do mundo, no horário de Brasília, com a hora local '
-            'agora.</span></a></div></section>')
+            'agora.</span></a>'
+            '<a href="../index.html#mapa"><strong>Mapa do mundo</strong><br><span class="suave">O termômetro de cada '
+            'região e de cada país no mapa, de 0 (calmo) a 100 (crise).</span></a>'
+            '<a href="../mundo.html"><strong>Ranking dos países</strong><br><span class="suave">Todos os países medidos, do '
+            'mais tenso ao mais calmo, com a mudança no mês.</span></a>'
+            '<a href="../cotacoes/index.html"><strong>Cotações</strong><br><span class="suave">Preço de fechamento das '
+            'maiores empresas do Brasil, dos EUA, da Europa e da Ásia, por setor.</span></a></div></section>')
 
 
 def linha_pais(pais: str, raiz: str, hoje: date | None = None) -> str:

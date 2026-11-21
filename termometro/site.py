@@ -148,6 +148,17 @@ body{background:radial-gradient(1100px 420px at 50% -140px,#172433 0%,rgba(14,20
 .regiao .cabeca strong{font-size:15px!important}.regiao .paises{display:none}.regiao .v{font-size:26px}
 .conteudo>section>h2{font-size:21px;margin:30px 0 10px}.topo nav{flex-wrap:nowrap}}
 @media (prefers-reduced-motion:reduce){.regiao,.manchete{transition:none}.regiao:hover{transform:none}}
+.rodape{background:#0B1118;max-width:none;margin-top:56px;padding:36px max(20px,calc((100% - 1160px)/2)) 48px}
+.rod-grade{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) minmax(0,1fr);gap:28px;padding-bottom:22px;margin-bottom:18px;border-bottom:1px solid var(--linha)}
+.rod-grade p{margin:6px 0 0;font-size:14px;max-width:360px}.rod-grade strong{display:block;color:var(--texto);font:600 14px 'Space Grotesk',sans-serif;margin-bottom:6px}
+.rod-grade nav a{display:block;padding:5px 0;color:var(--suave);text-decoration:none;font-size:14px}.rod-grade nav a:hover{color:var(--texto);text-decoration:underline}
+.trilha{font-size:13px;color:var(--suave);margin:18px 0 0}
+.lista a{background:var(--painel);border:1px solid #233140;border-radius:12px;padding:14px 16px;margin:10px 0;transition:border-color .12s,background .12s}
+.lista a:hover{border-color:#3A5066;background:#1E2A37;color:var(--texto)}
+main .noticia{background:var(--painel);border-top:1px solid #233140;border-right:1px solid #233140;border-bottom:1px solid #233140;border-radius:12px;padding:14px 16px;margin:12px 0}
+main .cartao .noticia,main .cartao .lista a{background:#121B25}
+.dia-titulo{margin-top:32px}
+@media (max-width:760px){.rod-grade{grid-template-columns:1fr 1fr;gap:18px}.rod-grade>div{grid-column:1/-1}.rodape{margin-top:40px;padding-top:28px}}
 """
 
 
@@ -367,7 +378,11 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">{SIMBOLO}TERMÔMETRO DE CRISE</a>
 <nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
-<footer class="rodape"><p>{html.escape(config.AVISO)}</p>
+<footer class="rodape"><div class="rod-grade"><div><a class="marca" href="{raiz}index.html">{SIMBOLO}TERMÔMETRO DE CRISE</a>
+<p>O estresse dos mercados do mundo, de 0 (calmo) a 100 (crise), explicado para o seu bolso. Sem alarde.</p></div>
+<nav aria-label="Termômetro"><strong>Termômetro</strong><a href="{raiz}index.html#mapa">Mapa do mundo</a><a href="{raiz}mundo.html">Ranking dos países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}metodologia.html">Como calculamos</a></nav>
+<nav aria-label="Conteúdo"><strong>Conteúdo</strong><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama no WhatsApp</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a></nav></div>
+<p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
 {('<p>Siga o Termômetro: ' + ' · '.join(f'<a href="{u}" target="_blank" rel="noopener me">{n}</a>' for n, u in config.REDES.items()) + '</p>') if config.REDES else ''}
 <p class="legal"><a href="{raiz}quem-somos.html">Quem somos</a> · <a href="{raiz}contato.html">Contato</a> · <a href="{raiz}politica-editorial.html">Política editorial</a> · <a href="{raiz}correcoes.html">Correções</a> · <a href="{raiz}privacidade.html">Política de privacidade</a> · <a href="{raiz}termos.html">Termos de uso</a> · <a href="{raiz}metodologia.html">Metodologia</a></p></footer>
