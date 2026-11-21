@@ -1,0 +1,207 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso + número",
+  "texto": "Cara, tem fundo de tecnologia dos EUA? O Nasdaq caiu uns 10% numa semana.",
+  "na_tela": "Tem fundo de tecnologia dos EUA?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso + número",
+   "texto": "Cara, tem fundo de tecnologia dos EUA? O Nasdaq caiu uns 10% numa semana.",
+   "na_tela": "Tem fundo de tecnologia dos EUA?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Reação do Heitor + número",
+   "texto": "Cara, olha que loucura: a bolsa de tecnologia dos EUA caiu uns 10% numa semana.",
+   "na_tela": "Nasdaq caiu 10,02% numa semana",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "A bolsa de tecnologia dos EUA não caía tanto numa semana desde março de 2020.",
+   "na_tela": "Pior semana desde março de 2020",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, tem fundo de tecnologia dos EUA? O Nasdaq caiu uns 10% numa semana.",
+  "É a bolsa das empresas de tecnologia. Pior semana desde março de 2020.",
+  "Na sexta, a Nvidia, de inteligência artificial, caiu 13,8%.",
+  "Estranho: caiu depois de um resultado elogiado.",
+  "Bolha ou exagero? Vai chutando aí.",
+  "E tem mais: uma agência de notícias ouviu fontes sem nome.",
+  "Dizem que o fiscal da bolsa nos EUA examina a Nvidia.",
+  "Não foi confirmado, e não é acusação.",
+  "Manda pra quem tem fundo ou ação de tecnologia dos EUA.",
+  "Pede pra conferir o extrato e a lâmina do fundo.",
+  "Bolha ou exagero? Comenta BOLHA ou EXAGERO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, tem fundo de tecnologia dos EUA? O Nasdaq caiu uns 10% numa semana. É a bolsa das empresas de tecnologia. Pior semana desde março de 2020. Na sexta, a Nvidia, de inteligência artificial, caiu 13,8%. Estranho: caiu depois de um resultado elogiado. Bolha ou exagero? Vai chutando aí. E tem mais: uma agência de notícias ouviu fontes sem nome. Dizem que o fiscal da bolsa nos EUA examina a Nvidia. Não foi confirmado, e não é acusação. Manda pra quem tem fundo ou ação de tecnologia dos EUA. Pede pra conferir o extrato e a lâmina do fundo. Bolha ou exagero? Comenta BOLHA ou EXAGERO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Tem fundo de tecnologia dos EUA?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nasdaq: -10,02% na semana",
+   "fonte": "Times Brasil"
+  },
+  {
+   "fala": 1,
+   "texto": "Maior queda semanal desde março de 2020",
+   "fonte": "Público"
+  },
+  {
+   "fala": 2,
+   "texto": "Nvidia: -13,8% na sexta (20/11)",
+   "fonte": "CNN Brasil (com Reuters)"
+  },
+  {
+   "fala": 3,
+   "texto": "Resultado elogiado, ação caiu",
+   "fonte": "CNN Brasil (com Reuters)"
+  },
+  {
+   "fala": 5,
+   "texto": "Fontes sem nome: SEC examina a Nvidia",
+   "fonte": "Quantisnow (citando a Reuters)"
+  },
+  {
+   "fala": 7,
+   "texto": "Não confirmado. Não é acusação.",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 8,
+   "texto": "Fundo ou ação de tecnologia dos EUA",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 9,
+   "texto": "Extrato + lâmina do fundo",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "bolha da inteligência artificial: o que se sabe",
+ "legenda": "Bolha da inteligência artificial: o que se sabe\n\nNa semana até sexta (20/11), o Nasdaq, índice das empresas de tecnologia dos EUA, caiu 10,02%, a maior queda semanal desde março de 2020. Na sexta, a Nvidia caiu 13,8%, segundo a CNN Brasil, com a Reuters.\n\nA Reuters também informou, citando duas pessoas a par do assunto, que a SEC, a fiscal da bolsa americana, examina possíveis problemas contábeis na Nvidia. Isso não foi confirmado pela SEC nem pela empresa, e não é acusação.\n\nQueda forte sozinha não prova bolha. Também não prova exagero. Analistas divergem e ninguém sabe se a queda continua.\n\nQuem tem fundo, ação ou BDR de tecnologia dos EUA pode conferir o extrato. A lâmina, o resumo oficial do fundo, mostra onde o dinheiro está aplicado. Manda pra quem se encaixa nisso.\n\nSua vez: comenta BOLHA ou EXAGERO.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#nasdaq #nvidia #inteligenciaartificial #bolsadevalores #termometrodecrise",
+ "hashtags": [
+  "#nasdaq",
+  "#nvidia",
+  "#inteligenciaartificial",
+  "#bolsadevalores",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, a bolsa de tecnologia dos EUA caiu uns 10% numa semana.",
+  "topicos": [
+   "Times Brasil: Nasdaq caiu 10,02% na semana, maior queda desde março de 2020.",
+   "Segundo a CNN Brasil, a Nvidia caiu 13,8% na sexta, mesmo com resultado elogiado.",
+   "Reuters: fontes sem nome dizem que a SEC examina a Nvidia. Não confirmado.",
+   "Manda pra quem tem fundo ou ação de tecnologia dos EUA conferir o extrato."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários pontos e cuidado com o que não foi confirmado, melhor com calma na bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Na sexta, a Nvidia, de inteligência artificial, caiu 13,8%.\" e \"Pede pra conferir o extrato e a lâmina do fundo.\": no Teste do CLT, troque 13,8% por \"uns 14%\" (o exato fica no cartão da tela) e traduza a lâmina na própria fala: \"a lâmina, que é o resumo do fundo e mostra onde o dinheiro tá aplicado\". Depois acrescente uma frase calma: \"Queda forte sozinha não prova nada. Conferir é só olhar.\" (isso já está na legenda e não na fala).",
+   "Frase \"É a bolsa das empresas de tecnologia. Pior semana desde março de 2020.\": falta uma comparação viva com a vida real para o sanguíneo. Acrescente uma só, sem número novo, como \"É como o preço na feira despencando de uma semana pra outra: só a queda não diz se vai voltar\". Assim a queda ganha imagem e reforça o ponto da legenda.",
+   "Fim do roteiro, antes de \"Sem alarde. Eu sou só o termômetro!\": falta dizer na fala \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Hoje essa frase só aparece na legenda. Coloque-a no vídeo, deixando o bordão como última frase."
+  ],
+  "veredito": "A peça acerta no tom de conversa, na cautela com o boato da SEC (\\\"não foi confirmado, e não é acusação\\\") e no passo simples de conferir o extrato; falta traduzir a lâmina e arredondar o número na fala, incluir uma comparação do dia a dia e dizer a apresentação e o aviso do Heitor antes do bordão."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Cara, tem fundo de tecnologia dos EUA? O Nasdaq caiu uns 10% numa semana.\" abre com pergunta e com \"Nasdaq\", palavra que quem não investe não conhece. Reescrita: \"Cara, a bolsa de tecnologia dos EUA teve a pior semana desde março de 2020. Caiu uns 10%.\" O nome Nasdaq entra na frase seguinte, e a pergunta sobre ter fundo vai para depois do número.",
+   "Pagamento: \"Estranho: caiu depois de um resultado elogiado.\" abre uma lacuna e fica solta, separada da frase da Nvidia. Reescrita, juntando as duas falas: \"Cara, olha que loucura: a Nvidia deu um resultado elogiado e, mesmo assim, caiu 13,8% na sexta.\" A virada \"E tem mais\" fica melhor logo depois.",
+   "Pagamento e CLT: \"Pede pra conferir o extrato e a lâmina do fundo.\" usa \"lâmina\" sem traduzir, e só a legenda explica. Reescrita: \"Pede pra conferir o extrato e a lâmina do fundo, que é o resumo oficial de onde o dinheiro está aplicado.\" Assim o passo calmo é entendido de primeira."
+  ],
+  "veredito": "Roteiro forte no envio (\"manda pra quem tem fundo ou ação de tecnologia dos EUA\") e na conversa (BOLHA ou EXAGERO, no meio e no fim), mas o gancho abre com jargão e a lacuna do \"estranho\" fica sem resposta clara, então falta um gancho que pare quem não investe e um pagamento mais completo."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow upward tilt along a glass skyscraper in a financial district at dusk, reflections of orange sky on the windows, a few lit office floors with empty desks and glowing monitors showing only abstract unreadable shapes, no people, no text, no logos",
+   "texto_da_fala": "É a bolsa das empresas de tecnologia. Pior semana desde março de 2020.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along a glass skyscraper in a financial district at dusk, reflections of orange sky on the windows, a few lit office floors with empty desks and glowing monitors showing only abstract unreadable shapes, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Slow push-in on a rack of AI server hardware inside a dim data center, rows of black server cabinets with glowing green and blue indicator lights, cool haze, shallow depth of field, no people, no text, no logos",
+   "texto_da_fala": "Na sexta, a Nvidia, de inteligência artificial, caiu 13,8%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow push-in on a rack of AI server hardware inside a dim data center, rows of black server cabinets with glowing green and blue indicator lights, cool haze, shallow depth of field, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Slow dolly-in through a quiet government office corridor at night, a desk with stacked paper folders blank and unmarked, a desk lamp lit, a closed blind with thin light stripes, no people, no faces, no text, no logos, no flags",
+   "texto_da_fala": "Dizem que o fiscal da bolsa nos EUA examina a Nvidia.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in through a quiet government office corridor at night, a desk with stacked paper folders blank and unmarked, a desk lamp lit, a closed blind with thin light stripes, no people, no faces, no text, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, tem fundo de tecnologia dos EUA? O Nasdaq caiu uns 10% numa semana.\n\nÉ a bolsa das empresas de tecnologia. Pior semana desde março de 2020.\n\nNa sexta, a Nvidia, de inteligência artificial, caiu 13,8%.\n\nEstranho: caiu depois de um resultado elogiado.\n\nBolha ou exagero? Vai chutando aí.\n\nE tem mais: uma agência de notícias ouviu fontes sem nome.\n\nDizem que o fiscal da bolsa nos EUA examina a Nvidia.\n\nNão foi confirmado, e não é acusação.\n\nManda pra quem tem fundo ou ação de tecnologia dos EUA.\n\nPede pra conferir o extrato e a lâmina do fundo.\n\nBolha ou exagero? Comenta BOLHA ou EXAGERO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CNN Brasil (com Reuters)",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/anthropic-cai-9-um-dia-apos-estreia-de-acoes-nos-eua/",
+   "destaque": "A Nvidia caiu 13,8% na sexta."
+  }
+ ],
+ "data": "2026-11-21",
+ "gerado_em": "2026-11-21T06:34:25.416338-03:00"
+}
