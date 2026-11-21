@@ -1,0 +1,85 @@
+{
+ "titulo": "Bolha da inteligência artificial: o que se sabe",
+ "descricao": "Nasdaq cai 10% na semana, Nvidia perde 13,8% e Anthropic cai 9,1% após estreia. Queda forte não prova bolha nem exagero. Veja o que se sabe.",
+ "palavra_chave": "bolha da inteligência artificial",
+ "lead": "Bolha da inteligência artificial ou exagero? Na semana até sexta (20/11), o Nasdaq, índice das empresas de tecnologia, caiu 10,02%, a maior queda semanal desde março de 2020, e ficou negativo no ano. Na sexta, a Nvidia caiu 13,8% e a Anthropic, no segundo dia na bolsa, caiu 9,1%, segundo a Reuters. Queda forte sozinha não prova bolha. Também não prova que é exagero.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Nasdaq caiu 5,28% na sexta (20/11), para 22.617,73 pontos. Na semana, a perda foi de 10,02%.",
+   "fonte_url": "https://timesbrasil.com.br/mundo/wall-street-despenca-com-crise-nas-acoes-de-ia/",
+   "data": "2026-11-20",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Foi a maior queda semanal do Nasdaq desde 20 de março de 2020, quando a pandemia de covid-19 abalava os mercados.",
+   "fonte_url": "https://www.publico.pt/2026/11/20/economia/noticia/anthropic-nvidia-arrastam-nasdaq-perda-5-2195796",
+   "data": "2026-11-20",
+   "veiculo": "Público",
+   "confiavel": false
+  },
+  {
+   "texto": "O Nasdaq apagou todos os ganhos do ano com a queda de sexta e passou a acumular perda em 2026.",
+   "fonte_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262316111-nasdaq-falls-ai-stock-selloff-nvidia-sec-probe-tradingkey",
+   "data": "2026-11-20",
+   "veiculo": "TradingKey",
+   "confiavel": false
+  },
+  {
+   "texto": "O S&P 500 e o Dow Jones entraram em correção, ou seja, caíram mais de 10% em relação aos seus recordes. A queda foi liderada pelas ações de inteligência artificial, segundo a Reuters.",
+   "fonte_url": "https://www.terra.com.br/economia/wall-st-fecha-em-forte-queda-com-vendas-no-setor-de-ia-sp-500-e-dow-jones-entram-em-correcao,f6d51a4305695f2eccb3a52b5e9a593dzsff0861.html",
+   "data": "2026-11-20",
+   "veiculo": "Terra (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Nvidia caiu 13,8% na sexta. Chuck Carlson, da gestora Horizon Investment Services, disse à Reuters que a empresa apresentou o que pode ter sido um dos melhores trimestres da história em lucros corporativos.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/anthropic-cai-9-um-dia-apos-estreia-de-acoes-nos-eua/",
+   "data": "2026-11-20",
+   "veiculo": "CNN Brasil (com Reuters)",
+   "confiavel": true
+  },
+  {
+   "texto": "A Anthropic estreou na quinta (19/11) com oferta a US$ 83 por ação e fechou o dia em alta de 17,1%, a US$ 97,17. Na sexta, no segundo dia de negociação, as ações caíram 9,1%. A captação foi recorde, de US$ 81,3 bilhões.",
+   "fonte_url": "https://jurua24horas.com/noticia/anthropic-cai-9-um-dia-apos-estreia-de-acoes-nos-eua",
+   "data": "2026-11-20",
+   "veiculo": "CNN Brasil (via Juruá 24 Horas)",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Reuters, a estreia da Anthropic e o balanço da Nvidia não afastaram os receios sobre os riscos da inteligência artificial e dos gastos com a tecnologia. Karl Schamotta, da Corpay, disse que os investidores reduzem as expectativas para a IA e se preparam para uma postura mais dura do banco central americano (Fed), com juros mais altos.",
+   "fonte_url": "https://timesbrasil.com.br/mundo/wall-street-despenca-com-crise-nas-acoes-de-ia/",
+   "data": "2026-11-20",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "A Reuters informou na sexta, citando duas pessoas a par do assunto, que a equipe de fiscalização da SEC (a CVM dos EUA) examina possíveis problemas contábeis na Nvidia. Segundo a Reuters, a ação da Nvidia caía mais de 6% antes dessa notícia e cerca de 13% depois.",
+   "fonte_url": "https://www.quantisnow.com/articles/nvidia-worst-day-on-file-chips-drag-nasdaq-100-down-5-5-percent",
+   "data": "2026-11-20",
+   "veiculo": "Quantisnow (citando a Reuters)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [],
+ "o_que_nao_se_sabe": [
+  "Se é bolha: isso não está provado. Analistas divergem. Há quem veja um ajuste de preços, e não um colapso da demanda por IA, segundo o Latin Times. Outros apontam dúvidas sobre o lucro futuro dos gastos bilionários, segundo analistas ouvidos pela agência Lusa. Nenhum dos lados foi confirmado pelos fatos até agora.",
+  "O que a SEC apura na Nvidia não foi confirmado. A informação vem de duas fontes anônimas da Reuters, e não encontramos confirmação oficial da SEC ou da Nvidia. Também não se sabe o foco nem o resultado. Não é acusação contra a empresa.",
+  "Quanto da queda da Nvidia vem do balanço, da notícia sobre a SEC, da saída do presidente-executivo Jensen Huang (12/11) ou da expectativa de juros mais altos. Ninguém separou esses fatores de forma oficial.",
+  "O valor de mercado de US$ 1,76 trilhão da Anthropic no fechamento do primeiro dia não apareceu nas fontes que consultamos, por isso não o afirmamos. O tamanho da captação também varia entre veículos (US$ 81,3 bilhões em alguns, US$ 91,6 bilhões em outro).",
+  "O que vem a seguir. O SpaceMoney cita o Goldman Sachs com risco de novas vendas, mas isso é projeção de um banco, não fato. Ninguém sabe se a queda continua ou se reverte."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem ações ou fundos de tecnologia dos EUA, ou BDRs (recibos de ações estrangeiras negociados na B3), o valor deles pode ter oscilado bastante nesta semana. Confira a variação no extrato.",
+  "Fundos globais, multimercados e de previdência podem ter parte da carteira nessas empresas. A lâmina do fundo, o resumo oficial dele, mostra onde o dinheiro está aplicado.",
+  "Queda de preço não diz, sozinha, se a empresa piorou ou se o mercado errou na conta. Nvidia e Anthropic mostram isso: a primeira caiu depois de um balanço elogiado, e a segunda subiu e depois devolveu parte da alta.",
+  "Este texto não recomenda comprar, vender ou manter nada. Ele mostra o que aconteceu e o que ainda ninguém sabe.",
+  "Sua vez: É BOLHA ou é EXAGERO? Comenta uma palavra."
+ ],
+ "como_se_proteger": [],
+ "slug": "bolha-da-inteligencia-artificial",
+ "publicado_em": "2026-11-21T06:28:19.458894",
+ "atualizado_em": "2026-11-21T06:28:19.458894",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário: Bolha da inteligência artificial, verdade ou exagero? Na semana até sexta 20/11/2026 o Nasdaq teve a maior queda semanal desde março de 2020 e ficou negativo no ano; a Nvidia caiu 13,8% na sexta mesmo depois de um balanço que um gestor ouvido pela Reuters chamou de \"possivelmente um dos melhores trimestres da história\"; a Anthropic estreou na bolsa americana na quinta 19/11 a US$ 83 na oferta, fechou o primeiro dia em alta de 17,1% (US$ 97,17, avaliação de US$ 1,76 trilhão) e caiu 9,1% no dia seguinte. Fontes: CNN Brasil com Reuters, 20/11/2026 (\"Anthropic cai 9% um dia após estreia de ações nos EUA\" e \"Wall Street derrete com liquidação de ações de inteligência artificial\"). Mostrar que queda forte não prova bolha nem prova o contrário. Gatilho: \"É BOLHA ou é EXAGERO? Comenta uma palavra.\" Sem recomendação de investimento, sem código de ação, sem prever preço.",
+ "turno": "manha"
+}
