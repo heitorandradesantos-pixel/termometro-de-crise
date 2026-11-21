@@ -153,7 +153,7 @@ def grafico_svg(serie: pd.Series, picos: list[dict], largura: int, classe: str, 
     s = serie.dropna()
     if len(s) < 3:
         return ""
-    altura, ml, mr, mt, mb = 250, 30, 14, 14, 26
+    altura, ml, mr, mt, mb = 262, 30, 14, 26, 26
     w, h = largura - ml - mr, altura - mt - mb
     t0, t1 = s.index[0], s.index[-1]
     dias = max((t1 - t0).days, 1)
@@ -175,15 +175,18 @@ def grafico_svg(serie: pd.Series, picos: list[dict], largura: int, classe: str, 
     trilha = " ".join(f"{'M' if i == 0 else 'L'}{x(t):.1f},{y(v):.1f}" for i, (t, v) in enumerate(s.items()))
     ult_t, ult_v = s.index[-1], s.iloc[-1]
     cor = config.nivel_de(ult_v)["cor"]
-    marcas = ""
-    for p in picos:
+    marcas, ultimo_rotulo = "", -999.0
+    for p in sorted(picos, key=lambda p: p["mes"]):
         t = pd.Timestamp(p["mes"] + "-01")
         if t < t0:
             continue
         px, py = x(t), y(p["valor"])
         tx = min(max(px, ml + 34), ml + w - 34)
-        marcas += (f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="none" stroke="{C["texto"]}" stroke-width="1.5"/>'
-                   f'<text x="{tx:.1f}" y="{max(py - 9, mt + 10):.1f}" text-anchor="middle" font-size="12" '
+        marcas += f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="none" stroke="{C["texto"]}" stroke-width="1.5"/>'
+        if tx - ultimo_rotulo < 62:  # rótulo colado no anterior: fica só o círculo
+            continue
+        ultimo_rotulo = tx
+        marcas += (f'<text x="{tx:.1f}" y="{py - 10:.1f}" text-anchor="middle" font-size="12" '
                    f'fill="{C["texto"]}">{p["valor"]} · {p["mes"][:4]}</text>')
     return (f'<svg class="{classe}" viewBox="0 0 {largura} {altura}" role="img" '
             f'aria-label="Histórico do termômetro {html.escape(de(nome))}">{faixas}{grade}{marcos}'

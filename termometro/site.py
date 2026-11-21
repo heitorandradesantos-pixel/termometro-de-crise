@@ -158,6 +158,21 @@ body{background:radial-gradient(1100px 420px at 50% -140px,#172433 0%,rgba(14,20
 main .noticia{background:var(--painel);border-top:1px solid #233140;border-right:1px solid #233140;border-bottom:1px solid #233140;border-radius:12px;padding:14px 16px;margin:12px 0}
 main .cartao .noticia,main .cartao .lista a{background:#121B25}
 .dia-titulo{margin-top:32px}
+.anuncio:empty{min-height:0;margin:8px 0}
+.indice{padding:26px}.ind-topo{display:flex;gap:28px;align-items:flex-start;justify-content:space-between}
+.ind-topo h2{margin:0 0 8px;font-size:24px}.ind-topo p{margin:0;max-width:720px}
+.ind-num{display:flex;align-items:center;gap:12px;flex:none}.ind-num .v{font:700 64px/1 'Space Grotesk',sans-serif}
+.ind-num small{display:block;color:var(--suave);font-size:13px;margin-top:6px}
+.comps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:22px 0 6px}
+.comp{background:#121B25;border:1px solid #233140;border-radius:12px;padding:14px}
+.comp-topo{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:10px}
+.comp-topo strong{font:600 15px 'Space Grotesk',sans-serif}.comp-n{font:700 28px/1 'Space Grotesk',sans-serif}
+.comp .barra{min-width:0;height:8px;border-radius:4px}.comp .barra i{height:8px;border-radius:4px}
+.comp p{margin:10px 0 6px;font-size:13px;line-height:1.45;color:var(--suave)}.comp-var{font-size:13px;color:var(--texto)}
+.indice h3{font-size:18px;margin:26px 0 10px}
+@media (max-width:980px){.comps{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.indice{padding:16px}.ind-topo{flex-direction:column-reverse;gap:12px}.ind-num .v{font-size:52px}
+.comps{grid-template-columns:1fr 1fr;gap:8px}.comp:last-child:nth-child(odd){grid-column:1/-1}.comp{padding:12px}.comp-n{font-size:24px}.ind-topo h2{font-size:21px}}
 @media (max-width:760px){.rod-grade{grid-template-columns:1fr 1fr;gap:18px}.rod-grade>div{grid-column:1/-1}.rodape{margin-top:40px;padding-top:28px}}
 """
 
@@ -495,6 +510,53 @@ def linha_componente(c: dict) -> str:
             f'<span class="suave" style="font-size:12px;font-weight:400">{variacao}</span></td></tr>')
 
 
+def cartao_componente(c: dict) -> str:
+    atual = config.COMPONENTES.get(c.get("chave"), {})
+    nome, descricao = atual.get("nome", c["nome"]), atual.get("descricao", c["descricao"])
+    pct = c["percentil"]
+    cor = config.nivel_de(pct or 0)
+    v = c["variacao_mes"]
+    seta = "" if not v else ('<span class="sobe" aria-hidden="true">▲</span> ' if v > 0 else '<span class="desce" aria-hidden="true">▼</span> ')
+    variacao = "" if v is None else f'<span class="comp-var">{seta}{v:+d} no mês</span>'
+    return (f'<div class="comp"><div class="comp-topo"><strong>{nome}</strong>'
+            f'<span class="comp-n" style="color:{cor["cor"]}">{"–" if pct is None else pct}</span></div>'
+            f'<div class="barra" role="img" aria-label="{nome}: percentil {pct if pct is not None else "sem dado"}, nível {cor["nome"]}">'
+            f'<i style="width:{pct or 0}%;background:{cor["cor"]}"></i></div>'
+            f'<p>{descricao}</p>{variacao}</div>')
+
+
+JANELAS_DE_PICO = (("2000-01", "2003-12"), ("2007-06", "2009-12"), ("2020-01", "2020-12"), ("2022-01", "2022-12"))
+
+
+def bloco_indice(dados: dict, pasta: Path, pasta_web: str, explica: str, com_mundo: bool) -> str:
+    """O índice dos mercados globais (o da newsletter): número, os 5 componentes em cartões e o histórico desenhado na página."""
+    from .paginas import chip, grafico_svg
+    figura = grafico_html(pasta_web)  # reserva: a imagem da edição, se a série não estiver na pasta
+    csv = pasta / "termometro_mensal.csv"
+    if csv.exists():
+        serie = pd.read_csv(csv, parse_dates=["data"]).set_index("data")["termometro"].dropna().round()
+        picos = []
+        for ini, fim in JANELAS_DE_PICO:
+            trecho = serie[ini:fim]
+            if len(trecho):
+                picos.append({"mes": f"{trecho.idxmax():%Y-%m}", "valor": int(trecho.max())})
+        desk, cel = (grafico_svg(serie, picos, largura, classe, "índice dos mercados globais")
+                     for largura, classe in ((1100, "desk"), (380, "cel")))
+        if desk:
+            figura = f'<figure class="hist" style="margin:0">{desk}{cel}</figure>'
+    titulo = "Índice dos mercados globais" if com_mundo else "O que compõe a leitura"
+    cartoes = "".join(cartao_componente(c) for c in dados["componentes"])
+    return f"""<section class="cartao indice"><div class="ind-topo"><div><h2>{titulo}</h2>
+ <p class="suave">{explica}</p></div>
+ <div class="ind-num"><span class="v" style="color:{dados['cor']}">{dados['valor']}</span>
+ <span>{chip(dados['nivel'], dados['cor'])}<small>leitura de {mes_curto(dados['referencia'])}</small></span></div></div>
+ <div class="comps">{cartoes}</div>
+ <h3>Como o índice andou desde 1999</h3>{figura}
+ <p class="suave" style="font-size:13px;margin-bottom:0">Os círculos marcam os picos de cada crise (valor e ano). O número de cada
+ cartão é um percentil: 90 quer dizer mais estressado do que em 90% dos meses desde 1990. Ainda fora do índice:
+ {', '.join(dados['componentes_ausentes'])}. Fontes: datahub.io e FRED. Teste histórico; não é recomendação de investimento.</p></section>"""
+
+
 def _edicoes(pasta: Path) -> list[Path]:
     return sorted((p for p in pasta.iterdir() if p.is_dir() and (p / "edicao.md").exists()), reverse=True)
 
@@ -631,12 +693,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
          "logo": f"{config.SITE_URL}/icone-512.png", "sameAs": list(config.REDES.values())})
     corpo = topo + f"""
 {'<div class="anuncio"></div>' if config.ADSENSE_CLIENT else ''}
-<section class="cartao"><h2 style="margin-top:0">{titulo_tabela}</h2>
- <p class="suave" style="margin-top:0">{explica_tabela}</p>
- <table><tr><th>Componente</th><th>Estresse (percentil)</th><th style="text-align:right">Agora</th></tr>{linhas}</table>
- <p class="suave" style="font-size:13px">Percentil: 90 significa que o indicador está mais estressado do que em 90% dos meses desde 1990.
- Ainda fora do índice: {', '.join(dados['componentes_ausentes'])}.</p></section>
-<section><h2>O índice dos mercados globais desde 1999</h2>{grafico_html(f"edicoes/{dia}")}</section>{estruturados}"""
+{bloco_indice(dados, pasta_edicoes / dia, f"edicoes/{dia}", explica_tabela, bool(mapa))}{estruturados}"""
     (saida / "index.html").write_text(pagina(copy["titulo_site"], copy["descricao_seo"], corpo,
                                              imagem=f"edicoes/{dia}/card.png", extra_css=paginas.CSS + plantao.CSS))
     (saida / "metodologia.html").write_text(pagina(f"Metodologia · {config.NOME}",
