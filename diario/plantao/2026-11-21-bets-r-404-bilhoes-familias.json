@@ -1,0 +1,105 @@
+{
+ "titulo": "Bets tiraram R$ 40,4 bilhões das famílias em 2026: o que se sabe",
+ "descricao": "Comsefaz estima que as bets tiraram R$ 40,4 bilhões das famílias de jan a jul de 2026. Veja o que está confirmado, o que é estimativa e o que muda.",
+ "palavra_chave": "bets r$ 40,4 bilhões famílias",
+ "lead": "O Comsefaz, comitê que reúne os secretários de Fazenda dos estados, estimou em 16 de novembro que as bets tiraram R$ 40,4 bilhões do orçamento das famílias de janeiro a julho de 2026. O valor equivale a 64,6% dos R$ 62,5 bilhões estimados para todo o ano de 2025. É uma estimativa feita com dados de Pix do Banco Central, e o próprio boletim avisa que o número não mede só apostas.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 16/11, o Comsefaz divulgou o 4º Boletim Fiscal dos Estados Brasileiros. O documento estima em R$ 40,4 bilhões a saída líquida de dinheiro das famílias ligada às bets entre janeiro e julho de 2026. O boletim é feito com o Centro Internacional Celso Furtado e apoio do Gefin.",
+   "fonte_url": "https://spdiario.com.br/noticias/economia/bets-retiraram-r-404-bilhoes-do-orcamento-das-familias-brasileiras-em-sete-meses-aponta-levantamento-do-comsefaz.html",
+   "data": "2026-11-16",
+   "veiculo": "SP Diário",
+   "confiavel": false
+  },
+  {
+   "texto": "A conta compara quanto as pessoas enviaram por Pix às empresas do setor e quanto receberam de volta. Ela usa a categoria do Banco Central \"artes, cultura, esporte e recreação\", que também inclui as plataformas de apostas. Por isso, o Comsefaz ressalva que não dá para atribuir toda a diferença às bets nem tratar o número como medida exata.",
+   "fonte_url": "https://agorarn.com.br/economia/bets-retiraram-r-404-bilhoes-familias-estudo/",
+   "data": "2026-11-16",
+   "veiculo": "Agora RN",
+   "confiavel": false
+  },
+  {
+   "texto": "Para 2025, o mesmo conceito deu R$ 62,5 bilhões, número que a Agência Brasil publicou em 06/08. Os R$ 40,4 bilhões de 2026 são 64,6% disso, mas em sete meses e não em doze. Pela conta do Termômetro, a média mensal passa de cerca de R$ 5,2 bilhões em 2025 para cerca de R$ 5,8 bilhões em 2026.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/familias-brasileiras-perderam-r-625-bilhoes-para-bets-em-2025",
+   "data": "2026-08-06",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Banco Central informou em 28/08 que 28,9% da renda das famílias foi para pagar dívidas, com juros e parcelas, em junho de 2026. É o maior nível da série, que começou em março de 2011. Em 12 meses, a alta foi de 1,7 ponto percentual.",
+   "fonte_url": "https://focuspoder.com.br/comprometimento-da-renda-das-familias-com-dividas-bate-recorde-e-chega-a-289/",
+   "data": "2026-08-28",
+   "veiculo": "Focus Poder (dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "A inadimplência das famílias, que é o atraso de mais de 90 dias nas contas, também bateu recorde em julho: subiu de 5,4% para 5,8%, segundo o Banco Central.",
+   "fonte_url": "https://ibegi.org.br/noticia/2289/dividas-comprometem-recorde-de-28-9-da-renda-das-familias",
+   "data": "2026-08-28",
+   "veiculo": "IBEGI (dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "O levantamento termina em julho, antes da Medida Provisória 1.394, de 25/09, que proibiu a exploração, a oferta, a intermediação e a publicidade das apostas de quota fixa no país. Pelo texto, os sites e aplicativos deviam sair do ar em 10 dias, e as autorizações das empresas acabavam em 30 dias.",
+   "fonte_url": "https://chambers.com/articles/governo-federal-pro%C3%ADbe-as-apostas-de-quota-fixa-e-lan%C3%A7a-o-desenrola-brasil-3-0",
+   "data": "2026-09-25",
+   "veiculo": "Chambers and Partners",
+   "confiavel": false
+  },
+  {
+   "texto": "O boletim mostra valores maiores do que os do Ministério da Fazenda para 2025. A Fazenda calculou receita de R$ 36,9 bilhões para as casas autorizadas no ano, segundo o DOL. As duas medidas não são a mesma coisa: uma olha o Pix das famílias, a outra olha a receita das empresas.",
+   "fonte_url": "https://dol.com.br/noticias/brasil/959033/bets-tiraram-r-625-bilhoes-das-familias-brasileiras-em-2025",
+   "data": "2026-08-07",
+   "veiculo": "DOL",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Agência Brasil publica que as famílias perderam R$ 62,5 bilhões para as bets em 2025, segundo o Comsefaz.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/familias-brasileiras-perderam-r-625-bilhoes-para-bets-em-2025",
+   "data": "2026-08-06",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Banco Central informa que 28,9% da renda das famílias foi para dívidas em junho, recorde da série.",
+   "fonte_url": "https://focuspoder.com.br/comprometimento-da-renda-das-familias-com-dividas-bate-recorde-e-chega-a-289/",
+   "data": "2026-08-28",
+   "veiculo": "Focus Poder (dados do Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "Governo publica a MP 1.394, que proíbe as apostas de quota fixa.",
+   "fonte_url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/sumarios-de-proposicoes/mpv1394",
+   "data": "2026-09-25",
+   "veiculo": "Senado Federal",
+   "confiavel": false
+  },
+  {
+   "texto": "Comsefaz divulga o 4º Boletim Fiscal dos Estados com a estimativa de R$ 40,4 bilhões de janeiro a julho.",
+   "fonte_url": "https://spdiario.com.br/noticias/economia/bets-retiraram-r-404-bilhoes-do-orcamento-das-familias-brasileiras-em-sete-meses-aponta-levantamento-do-comsefaz.html",
+   "data": "2026-11-16",
+   "veiculo": "SP Diário",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto dos R$ 40,4 bilhões é de fato aposta não foi confirmado. O dado do Banco Central mistura outras atividades de recreação, e o BNLData aponta que o boletim mede o Pix de um segmento inteiro, não as perdas dos apostadores.",
+  "Se as bets causaram o recorde de endividamento não foi confirmado. O Comsefaz fala em \"impacto potencial\" sobre a capacidade de pagar as contas, não em causa comprovada.",
+  "O que aconteceu com esse fluxo de dinheiro depois da MP 1.394 não aparece no boletim, que vai só até julho. Não há, nesta série, dado de agosto em diante.",
+  "Como a proibição vai ficar no longo prazo não está claro. Uma análise jurídica do Migalhas aponta incerteza sobre o destino definitivo da medida."
+ ],
+ "o_que_muda_para_voce": [
+  "Os R$ 40,4 bilhões são uma estimativa para o país todo. Não dizem quanto uma família ou uma pessoa perdeu.",
+  "Se você tem dívidas, o dado do Banco Central dá uma referência: em junho, cerca de R$ 29 de cada R$ 100 de renda das famílias iam para juros e parcelas, em média.",
+  "As apostas de quota fixa estão proibidas desde 25/09. Segundo o governo, havia R$ 1,24 bilhão em saldos a devolver aos apostadores, conforme balanço divulgado pela Revista Empreende.",
+  "Você conhece alguém que perdeu dinheiro em bet? Comenta EU."
+ ],
+ "como_se_proteger": [],
+ "slug": "bets-r-404-bilhoes-familias",
+ "publicado_em": "2026-11-21T06:57:50.615162",
+ "atualizado_em": "2026-11-21T06:57:50.615162",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário: As bets tiraram R$ 40,4 bilhões do orçamento das famílias brasileiras de janeiro a julho de 2026, já 64,6% de todo o ano de 2025 (R$ 62,5 bilhões), segundo o 4º Boletim Fiscal dos Estados Brasileiros do Comsefaz, o Comitê Nacional de Secretários de Fazenda dos Estados (fonte oficial: comsefaz.org.br, novembro de 2026), calculado com dados de Pix do Banco Central; o próprio Comsefaz avisa que é estimativa, porque o dado do BC mistura outras atividades de recreação. O número de 2025 (R$ 62,5 bilhões) saiu na Agência Brasil em 06/08/2026. Segundo o Banco Central, 28,9% da renda das famílias ia para pagar dívidas e juros em junho de 2026, recorde da série. O levantamento vai até julho, antes da MP 1.394, de 25/09/2026, que proibiu as apostas de quota fixa. Fontes: Comsefaz (comsefaz.org.br), Agência Brasil 06/08/2026, Banco Central (bcb.gov.br), Jornal do Comércio 11/2026. Gatilho: \"Você conhece alguém que perdeu dinheiro em bet? Comenta EU.\" Sem lado político, sem citar casa de aposta pelo nome, sem recomendação de investimento.",
+ "turno": "manha"
+}
