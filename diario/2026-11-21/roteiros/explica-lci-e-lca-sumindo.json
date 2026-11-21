@@ -1,0 +1,199 @@
+{
+ "gancho": {
+  "formula": "Antes e depois",
+  "texto": "Em setembro de 2024, 2.180 emissões de LCA. Este ano, só 405.",
+  "na_tela": "2.180 → 405 emissões de LCA",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois",
+   "texto": "Em setembro de 2024, 2.180 emissões de LCA. Este ano, só 405.",
+   "na_tela": "2.180 → 405 emissões de LCA",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "As LCAs estão pagando menos? Sim: de 93,3% do CDI para 86,6%.",
+   "na_tela": "LCA paga menos: 93,3% → 86,6%",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio (espanto)",
+   "texto": "Cara, olha que loucura: as LCAs quase sumiram das prateleiras dos bancos.",
+   "na_tela": "LCA sumindo das prateleiras",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Em setembro de 2024, 2.180 emissões de LCA. Este ano, só 405.",
+  "Segundo a Quantum Finance, no Seu Dinheiro: o número deste ano é parcial.",
+  "Mas a taxa média da LCA também caiu: de 93,3% para 86,6% do CDI.",
+  "CDI é a taxa de referência da renda fixa, pertinho da Selic.",
+  "Agora a virada: LCA não paga Imposto de Renda, e o CDB paga.",
+  "Em um a dois anos, um CDB a 105% do CDI empata com a LCA.",
+  "Compare o mesmo prazo e lembre: na LCA, o dinheiro fica preso 6 meses.",
+  "Você já tinha notado a LCA rendendo menos? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Em setembro de 2024, 2.180 emissões de LCA. Este ano, só 405. Segundo a Quantum Finance, no Seu Dinheiro: o número deste ano é parcial. Mas a taxa média da LCA também caiu: de 93,3% para 86,6% do CDI. CDI é a taxa de referência da renda fixa, pertinho da Selic. Agora a virada: LCA não paga Imposto de Renda, e o CDB paga. Em um a dois anos, um CDB a 105% do CDI empata com a LCA. Compare o mesmo prazo e lembre: na LCA, o dinheiro fica preso 6 meses. Você já tinha notado a LCA rendendo menos? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "2.180 → 405 emissões de LCA",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "2.180 → 405 emissões de LCA (parcial)",
+   "fonte": "Seu Dinheiro (Quantum Finance)"
+  },
+  {
+   "fala": 2,
+   "texto": "93,3% → 86,6% do CDI",
+   "fonte": "Seu Dinheiro (Quantum Finance)"
+  },
+  {
+   "fala": 3,
+   "texto": "CDI: taxa de referência da renda fixa",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "LCA: sem IR | CDB: com IR",
+   "fonte": "Entenda o Dinheiro"
+  },
+  {
+   "fala": 5,
+   "texto": "CDB a 105% do CDI empata",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Mesmo prazo. Carência: 6 meses",
+   "fonte": "CNN Brasil"
+  }
+ ],
+ "retomada": 4,
+ "busca": "LCI e LCA sumindo: o que mudou",
+ "legenda": "LCI e LCA sumindo: o que mudou e o que isso significa pro seu bolso.\n\nSegundo a Quantum Finance, em levantamento publicado pelo Seu Dinheiro, as emissões de LCA caíram de 2.180 em setembro de 2024 para 405 até 17/09/2026. A taxa média da LCA pós-fixada de 12 meses foi de 93,3% para 86,6% do CDI. Os números de 2026 são parciais.\n\nSegundo o Seu Dinheiro, os bancos estavam com caixa cheio e sem pressa de captar. LCI e LCA não têm Imposto de Renda para pessoa física, e o CDB tem. Por isso, a comparação certa é no mesmo prazo: na conta da redação, com a LCA a 86,6% do CDI, um CDB a 105% do CDI, de 361 a 720 dias, dá empate.\n\nConteúdo educativo, não é recomendação de investimento.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\n#lca #lci #rendafixa #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#lca",
+  "#lci",
+  "#rendafixa",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, as LCAs quase sumiram das prateleiras dos bancos. Olha os números.",
+  "topicos": [
+   "Segundo a Quantum Finance, emissões de LCA caíram de 2.180 para 405.",
+   "A taxa média da LCA foi de 93,3% para 86,6% do CDI.",
+   "CDB a 105% do CDI, de um a dois anos, empata com a LCA.",
+   "Compare sempre o mesmo prazo. Isso é conta, não recomendação."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e uma conta de empate, que pede calma e prova na tela, não urgência de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 5,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 1,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Fala \"Segundo a Quantum Finance, no Seu Dinheiro: o número deste ano é parcial.\": nome de fonte técnica não vai na fala (Teste do CLT), e \"parcial\" fica solto. Reescreva: \"Esse número de 2026 ainda não fechou, tá? Pode subir.\" Deixe Quantum Finance e Seu Dinheiro no cartão da tela e na legenda. Na fala, no máximo \"segundo uma pesquisa\".",
+   "Fala \"Mas a taxa média da LCA também caiu: de 93,3% para 86,6% do CDI. CDI é a taxa de referência da renda fixa, pertinho da Selic.\": são dois números na mesma fala, e a tradução do CDI ainda deixa dúvida. Divida em duas falas e arredonde: \"A LCA tá rendendo menos: de uns 93 para uns 87.\" Traduza assim: \"CDI é o que serve de régua pra quanto rende a renda fixa.\" Troque \"emissões\" por \"quantas LCAs os bancos lançaram\". Explique também, na primeira vez, o que é LCA, por exemplo: \"aquele papel do banco que rende e não paga Imposto de Renda\".",
+   "A peça abre com dois números secos e não tem o gancho de espanto do Heitor nem uma pergunta de bolso (\"isso mexe no meu bolso?\"). Reescreva a abertura como reação a um fato: \"Cara, olha que loucura: em 2024 os bancos lançaram 2.180 LCAs. Este ano, só 405.\" Feche a conta com um passo simples para o fleumático e a comparação do dia a dia: \"Antes de aplicar, compare o mesmo prazo, porque na LCA o dinheiro fica preso 6 meses.\" Troque \"empata\" por \"dá no mesmo, o que cai na conta\". Em \"Em um a dois anos, um CDB a 105% do CDI empata com a LCA\", deixe só uma ideia e deixe 105% e 86,6% no cartão. Mostrar como o empate funciona é informação. Evite soar como indicação de CDB, por exemplo: \"é a conta que a redação do Seu Dinheiro fez\"."
+  ],
+  "veredito": "A peça tem fato com fonte, a virada do Imposto de Renda e o bordão certo, mas fala como relatório: números demais por fala, nome de fonte e termos como CDI, emissões e parcial sem tradução na fala, e falta o gancho de espanto e a comparação do dia a dia que ligam ao bolso do CLT."
+ },
+ "viral": {
+  "nota": 4,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: a frase 'Em setembro de 2024, 2.180 emissões de LCA. Este ano, só 405.' tem dois números e fala de emissões, assunto de banco e não do bolso. Reescrita: 'Cara, quem tem LCA, presta atenção: ela está pagando menos. A taxa caiu de 93,3% para 86,6% do CDI.' Os números 2.180 e 405 ficam para depois.",
+   "Envio: falta pedido de envio. Antes do SIM ou NÃO, acrescente: 'Manda pra quem deixa dinheiro em LCA ou LCI achando que ela sempre rende mais.' Dá para usar o empate como número para mostrar: 'LCA a 86,6% do CDI empata com CDB a 105%, de um a dois anos.'",
+   "Retenção (Teste do CLT): 'CDI é a taxa de referência da renda fixa, pertinho da Selic.' e 'um CDB a 105% do CDI empata com a LCA' juntam sigla e número. Reescrita: 'CDI é a régua que o banco usa pra pagar a renda fixa.' Depois: 'A LCA não desconta Imposto de Renda. O CDB desconta. Por isso, em um a dois anos, um CDB a 105% dessa régua empata com a LCA.' Troque 'Agora a virada:' por 'E aí vem a parte que pouca gente viu:'."
+  ],
+  "veredito": "O roteiro é honesto e tem uma boa virada (o imposto), mas abre com números de banco em vez do bolso de quem tem LCA e não dá motivo concreto para mandar o vídeo, então falta gancho específico e pedido de envio."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Close-up on a wooden desk: two identical glass jars full of gold coins side by side. A hand (no face, only the hand in frame) reaches in and takes a handful of coins out of the right jar only, while the left jar stays full. Slow dolly-in from the left jar to the right jar, warm soft light, shallow depth of field. No text, no numbers, no logos",
+   "texto_da_fala": "Agora a virada: LCA não paga Imposto de Renda, e o CDB paga.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a wooden desk: two identical glass jars full of gold coins side by side. A hand (no face, only the hand in frame) reaches in and takes a handful of coins out of the right jar only, while the left jar stays full. Slow dolly-in from the left jar to the right jar, warm soft light, shallow depth of field. No text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro shot of an antique brass balance scale on a clean table. One pan holds a small stack of gold coins and the other holds a slightly larger stack of silver coins. The scale slowly swings and settles into perfect balance. Slow orbiting camera move around the scale, soft studio lighting. No text, no numbers, no logos",
+   "texto_da_fala": "Em um a dois anos, um CDB a 105% do CDI empata com a LCA.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of an antique brass balance scale on a clean table. One pan holds a small stack of gold coins and the other holds a slightly larger stack of silver coins. The scale slowly swings and settles into perfect balance. Slow orbiting camera move around the scale, soft studio lighting. No text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A glass jar of coins sits on a shelf, a heavy chain and a closed padlock wrapped around it. Window light slowly shifts from morning to dusk to suggest time passing, dust particles floating in the air. Slow push-in with a slight handheld sway toward the padlock. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Compare o mesmo prazo e lembre: na LCA, o dinheiro fica preso 6 meses.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A glass jar of coins sits on a shelf, a heavy chain and a closed padlock wrapped around it. Window light slowly shifts from morning to dusk to suggest time passing, dust particles floating in the air. Slow push-in with a slight handheld sway toward the padlock. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Em setembro de 2024, 2.180 emissões de LCA. Este ano, só 405.\n\nSegundo a Quantum Finance, no Seu Dinheiro: o número deste ano é parcial.\n\nMas a taxa média da LCA também caiu: de 93,3% para 86,6% do CDI.\n\nCDI é a taxa de referência da renda fixa, pertinho da Selic.\n\nAgora a virada: LCA não paga Imposto de Renda, e o CDB paga.\n\nEm um a dois anos, um CDB a 105% do CDI empata com a LCA.\n\nCompare o mesmo prazo e lembre: na LCA, o dinheiro fica preso 6 meses.\n\nVocê já tinha notado a LCA rendendo menos? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Seu Dinheiro (levantamento da Quantum Finance)",
+   "url": "https://www.seudinheiro.com/2026/renda-fixa/cade-as-lcis-e-lcas-que-pagavam-de-95-a-100-do-cdi-titulos-isentos-estao-sumindo-das-prateleiras-e-oferecendo-taxas-menores-mlim/",
+   "destaque": "As emissões de LCA (Letra de Crédito do Agronegócio) eram 2.180 em setembro de 2024 e 1.740 em setembro de 2025."
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/investimentos/cmn-reduz-prazo-minimo-de-lcis-e-lcas-sem-correcao-pelo-ipca/",
+   "destaque": "O CMN (Conselho Monetário Nacional) mexeu nas regras."
+  }
+ ],
+ "data": "2026-11-21",
+ "gerado_em": "2026-11-21T06:54:23.385412-03:00"
+}
