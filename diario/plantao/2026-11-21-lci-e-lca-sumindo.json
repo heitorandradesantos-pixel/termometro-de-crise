@@ -1,0 +1,106 @@
+{
+ "titulo": "LCI e LCA sumindo das prateleiras: o que se sabe",
+ "descricao": "Emissões de LCA caíram de 2.180 para 405 e a taxa média foi a 86,6% do CDI. Veja a conta para comparar com um CDB que paga Imposto de Renda.",
+ "palavra_chave": "lci e lca sumindo",
+ "lead": "Há menos LCA e LCI à venda, e elas pagam menos. Segundo a Quantum Finance, em levantamento publicado pelo Seu Dinheiro em 24/09/2026, as emissões de LCA caíram de 2.180 em setembro de 2024 para 405 até 17/09/2026. A taxa média da LCA pós-fixada de 12 meses foi de 93,3% para 86,6% do CDI, a taxa de referência da renda fixa, próxima da Selic (13,75% desde 04/11/2026).",
+ "o_que_se_sabe": [
+  {
+   "texto": "As emissões de LCA (Letra de Crédito do Agronegócio) eram 2.180 em setembro de 2024 e 1.740 em setembro de 2025. Até 17/09/2026, eram 405. As de LCI (Letra de Crédito Imobiliário) foram de 29 para 11 e depois para apenas 1 no mesmo recorte. Os números são da Quantum Finance para o Seu Dinheiro.",
+   "fonte_url": "https://www.seudinheiro.com/2026/renda-fixa/cade-as-lcis-e-lcas-que-pagavam-de-95-a-100-do-cdi-titulos-isentos-estao-sumindo-das-prateleiras-e-oferecendo-taxas-menores-mlim/",
+   "data": "2026-09-24",
+   "veiculo": "Seu Dinheiro (levantamento da Quantum Finance)",
+   "confiavel": true
+  },
+  {
+   "texto": "A taxa média da LCA pós-fixada de 12 meses foi de 93,3% do CDI em setembro de 2024, 90,1% em setembro de 2025 e 86,6% em setembro de 2026 (parcial, até 17/09). A série completa vem de outro veículo que cita o Seu Dinheiro.",
+   "fonte_url": "https://www.meelion.com/blog/mercado-financeiro/sumico-das-lci-e-lca-86/",
+   "data": "2026-09-24",
+   "veiculo": "Meelion (cita Seu Dinheiro e Quantum Finance)",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o Seu Dinheiro, as operações de crédito que servem de garantia (o lastro) para emitir esses títulos diminuíram. Isso reduziu a capacidade dos bancos de emitir LCI e LCA. A reportagem diz ainda que os bancos estavam com caixa cheio e sem urgência para captar.",
+   "fonte_url": "https://www.seudinheiro.com/2026/renda-fixa/cade-as-lcis-e-lcas-que-pagavam-de-95-a-100-do-cdi-titulos-isentos-estao-sumindo-das-prateleiras-e-oferecendo-taxas-menores-mlim/",
+   "data": "2026-09-24",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "O CMN (Conselho Monetário Nacional) mexeu nas regras. Em 22/05/2025, reduziu de 9 para 6 meses o prazo mínimo de LCI e LCA sem correção por inflação. As restrições de lastro passaram a valer em 1º/08/2025. Hoje a carência mínima é de 6 meses nessas letras. Nas ligadas à inflação, é de 36 meses na LCI e 12 meses na LCA.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/investimentos/cmn-reduz-prazo-minimo-de-lcis-e-lcas-sem-correcao-pelo-ipca/",
+   "data": "2025-05-22",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A sequência de prazos mínimos da LCA foi: 90 dias, depois 9 meses (Resolução CMN 5.119/2024), depois 6 meses (Resolução CMN 5.215/2025). LCI e LCA não têm Imposto de Renda para pessoa física. O CDB segue a tabela regressiva.",
+   "fonte_url": "https://entendaodinheiro.com.br/artigos/cdb-lci-e-lca-o-que-muda-entre-eles/",
+   "data": "2026-08-20",
+   "veiculo": "Entenda o Dinheiro",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central manteve a Selic em 13,75% ao ano em 04/11/2026. A decisão do Copom foi unânime e interrompeu uma sequência de cinco cortes seguidos.",
+   "fonte_url": "https://investnews.com.br/investimentos/copom-mantem-selic-em-1375-ano/",
+   "data": "2026-11-04",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "No CDB, o Imposto de Renda incide só sobre o rendimento: 22,5% até 180 dias, 20% de 181 a 360, 17,5% de 361 a 720 e 15% acima de 720 dias (Lei 11.033/2004).",
+   "fonte_url": "https://www.patrimo.app/tabelas/ir-regressivo-renda-fixa",
+   "data": "2026-10-02",
+   "veiculo": "Patrimo",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "CMN eleva prazos mínimos de LCI e LCA e restringe o lastro (Resolução 5.119).",
+   "fonte_url": "https://entendaodinheiro.com.br/artigos/cdb-lci-e-lca-o-que-muda-entre-eles/",
+   "data": "2024-02-01",
+   "veiculo": "Entenda o Dinheiro",
+   "confiavel": false
+  },
+  {
+   "texto": "CMN reduz para 6 meses o prazo mínimo de LCI e LCA sem correção por inflação.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/investimentos/cmn-reduz-prazo-minimo-de-lcis-e-lcas-sem-correcao-pelo-ipca/",
+   "data": "2025-05-22",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Seu Dinheiro publica o levantamento da Quantum Finance: 405 emissões de LCA até 17/09 e taxa média de 86,6% do CDI.",
+   "fonte_url": "https://www.seudinheiro.com/2026/renda-fixa/cade-as-lcis-e-lcas-que-pagavam-de-95-a-100-do-cdi-titulos-isentos-estao-sumindo-das-prateleiras-e-oferecendo-taxas-menores-mlim/",
+   "data": "2026-09-24",
+   "veiculo": "Seu Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "Copom mantém a Selic em 13,75% e encerra a sequência de cortes.",
+   "fonte_url": "https://investnews.com.br/investimentos/copom-mantem-selic-em-1375-ano/",
+   "data": "2026-11-04",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não encontramos fonte confirmando que o CMN elevou a carência para 1 ano em 2026. As fontes mostram prazo mínimo de 6 meses desde maio de 2025. A carência de 12 meses valeu para a LCI em 2024. Se houver resolução nova, ela não apareceu na busca.",
+  "Os números de setembro de 2026 são parciais (até 17/09). Não são o mês fechado, então a comparação pede cuidado.",
+  "Não localizamos dados da Anbima nem a página do Banco Central com o CDI. A Selic de 13,75% vem de reportagem sobre o Copom. Não foi confirmado se a oferta de LCI e LCA vai voltar a crescer.",
+  "A taxa de 86,6% é uma média. Cada emissão tem taxa, prazo e emissor próprios."
+ ],
+ "o_que_muda_para_voce": [
+  "A conta do empate: divida a taxa da isenta por (1 menos o IR do CDB). Com a LCA a 86,6% do CDI, o CDB precisa pagar 111,7% do CDI (até 180 dias), 108,3% (181 a 360), 105,0% (361 a 720) ou 101,9% (acima de 720 dias). Cálculo da redação, simplificado.",
+  "Exemplo com CDI perto da Selic de 13,75%: a LCA a 86,6% rende cerca de 11,9% ao ano, sem IR. Um CDB a 105% do CDI por 361 a 720 dias rende 14,4% bruto e cerca de 11,9% após 17,5% de IR. Dá empate.",
+  "Em setembro de 2024, com a LCA em 93,3% do CDI, o empate no prazo de 361 a 720 dias era 113,1%. Com a taxa menor, o CDB precisa render menos para empatar. Quanto maior o prazo, menor o IR do CDB e menor a vantagem da isenta.",
+  "Compare sempre o mesmo prazo. Na LCA não há resgate antes da carência mínima, hoje de 6 meses na maioria dos casos. Isto é uma conta, não uma recomendação.",
+  "Time LCA ou time CDB? Comenta 1 ou 2."
+ ],
+ "como_se_proteger": [],
+ "slug": "lci-e-lca-sumindo",
+ "publicado_em": "2026-11-21T06:48:31.462320",
+ "atualizado_em": "2026-11-21T06:48:31.462320",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) A LCI e a LCA, a renda fixa sem Imposto de Renda, estão sumindo das prateleiras e rendendo menos: segundo levantamento da Quantum Finance para o Seu Dinheiro (24/09/2026), as emissões de LCA caíram de 2.180 em setembro de 2024 para 405 até 17/09/2026, e a taxa média da LCA pós-fixada de 12 meses caiu de 93,3% para 86,6% do CDI; o Conselho Monetário Nacional aumentou o prazo mínimo de carência para 1 ano e restringiu os lastros. Com a Selic em 13,75% (Banco Central), explicar a conta de comparar uma isenta com um CDB que paga imposto (o CDB precisa render mais do CDI para empatar, por causa da tabela regressiva do IR de 22,5% a 15%). Fontes: Seu Dinheiro 24/09/2026, Banco Central (bcb.gov.br), Anbima. Gatilho: \"Time LCA ou time CDB? Comenta 1 ou 2.\" Sem recomendação de investimento, sem citar banco ou corretora, sem código de produto.",
+ "turno": "manha"
+}
