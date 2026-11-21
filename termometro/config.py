@@ -115,6 +115,9 @@ FONTES_CONFIAVEIS = [
 # ---------------------------------------------------------------- IA
 # "or" porque o GitHub manda a variável vazia quando ela não foi criada
 MODELO_CLAUDE = os.environ.get("MODELO_CLAUDE") or "claude-sonnet-5-5"
+# Revisor do site (squad de design: UI e UX) e editor (Redator e Copywriter da edição): modelo mais forte,
+# pedido do Heitor em 21/11/2026. Se a conta não tiver acesso a ele, o ia.py volta sozinho para o MODELO_CLAUDE.
+MODELO_REVISAO = os.environ.get("MODELO_REVISAO") or "claude-fable-5-2"
 BUSCAS_MAXIMAS = int(os.environ.get("BUSCAS_MAXIMAS") or "12")  # buscas na web por edição (Buscador)
 BUSCAS_POR_REGIAO = int(os.environ.get("BUSCAS_POR_REGIAO") or "3")  # Correspondente, a cada dia útil
 

@@ -390,7 +390,7 @@ def validar(bruto: dict, papel: str, paginas: list[str]) -> dict:
 def avaliar(a: dict, pasta: Path, papel: str, cliente) -> dict:
     paginas = list(a["paginas"])
     bruto = ia.estruturado(cliente, PAPEIS[papel], pedido(a, pasta, papel), ferramenta(papel, paginas),
-                           max_tokens=8000)
+                           max_tokens=8000, modelo=config.MODELO_REVISAO)
     return validar(bruto, papel, paginas)
 
 

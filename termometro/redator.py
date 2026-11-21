@@ -68,7 +68,7 @@ def _com_claude(dados: dict, dossie: dict, data_edicao: str, cliente) -> str:
               "agenda": dossie["agenda"][:6], "observacoes": dossie.get("observacoes", "")}
     pedido = (f"Data da edição: {data_edicao}\n\nDADOS\n{_dados(dados)}\n\n"
               f"DOSSIÊ\n{json.dumps(enxuto, ensure_ascii=False, indent=1)}" + seo.para_redator(dados.get("seo") or {}))
-    corpo = ia.texto(cliente, SISTEMA, pedido)
+    corpo = ia.texto(cliente, SISTEMA, pedido, modelo=config.MODELO_REVISAO)
     inicio = corpo.find(SECOES[0])  # descarta qualquer frase solta antes da primeira seção
     return corpo[inicio:] if inicio >= 0 else corpo
 
@@ -90,7 +90,7 @@ def escrever(dados: dict, dossie: dict, data_edicao: str, cliente=None) -> tuple
     """Devolve (edição completa em Markdown, modo usado)."""
     if dossie.get("eventos") and (cliente or ia.disponivel()):
         corpo = _com_claude(dados, dossie, data_edicao, cliente or ia.novo_cliente())
-        modo = f"claude ({config.MODELO_CLAUDE})"
+        modo = f"claude ({config.MODELO_REVISAO})"
     else:
         corpo, modo = _sem_ia(dados), "sem IA (só dados)"
     dia = pd.Timestamp(data_edicao)

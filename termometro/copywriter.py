@@ -118,6 +118,7 @@ def escrever(dados: dict, edicao_md: str, data_edicao: str, cliente=None) -> dic
     pedido = (f"Termômetro: {dados['valor']} de 100, nível {dados['nivel']}, leitura de {mes_curto(dados['referencia'])}.\n"
               f"Site: {config.SITE_URL or '(ainda sem domínio: use link na bio)'}\n\nEDIÇÃO\n{edicao_md}"
               + seo.para_copy(dados.get("seo") or {}))
-    bruto = ia.estruturado(cliente or ia.novo_cliente(), SISTEMA, pedido, FERRAMENTA, max_tokens=4000)
+    bruto = ia.estruturado(cliente or ia.novo_cliente(), SISTEMA, pedido, FERRAMENTA, max_tokens=4000,
+                           modelo=config.MODELO_REVISAO)
     final, ajustes = validar(bruto, reserva)
-    return {**final, "modo": f"claude ({config.MODELO_CLAUDE})", "ajustes": ajustes}
+    return {**final, "modo": f"claude ({config.MODELO_REVISAO})", "ajustes": ajustes}

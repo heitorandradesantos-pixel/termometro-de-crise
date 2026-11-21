@@ -83,13 +83,23 @@ a.caixa:hover{outline:1px solid #34485A}
 .zap{background:#25D366;color:#0E141B}
 .pano em{color:#D1D7DB}
 .pano.trancado{padding-bottom:18px}.apagado{display:block;margin:14px 0 4px}.apagado span{display:block;height:10px;border-radius:5px;background:rgba(233,237,239,.2);margin:11px 0}.tranca{display:flex;flex-direction:column;gap:8px;align-items:flex-start;border-top:1px solid rgba(233,237,239,.25);padding-top:14px;margin-top:14px;white-space:normal}.tranca strong{font-size:17px}.tranca span{color:#D1D7DB;font-size:14px}.chega{padding-left:20px;line-height:1.6}.chega li{margin:6px 0}
-.mapa-mundo svg{width:100%;height:auto;display:block}.mapa-mundo path{stroke:#0E141B;stroke-width:.7}
-.mapa-mundo a:hover path,.mapa-mundo a:focus path{opacity:1;filter:brightness(1.15)}.terciario{background:none;border:1px solid var(--linha);color:var(--texto);border-radius:10px;padding:0 16px;
+.mapa-mundo{position:relative;margin:0;background:radial-gradient(120% 90% at 50% 35%,#15222F 0%,#0F1822 60%,#0C131B 100%);border:1px solid #22303C;border-radius:18px;padding:10px 10px 12px;overflow:hidden}
+.mapa-mundo svg{width:100%;height:auto;display:block}.mapa-mundo .grade{fill:none;stroke:#1E2B38;stroke-width:.6}
+.mapa-mundo path,.mapa-mundo circle{stroke:#0F1822;stroke-width:.6;stroke-linejoin:round;transition:filter .12s}
+.mapa-mundo a:hover path,.mapa-mundo a:hover .ponto{filter:brightness(1.18);stroke:#EEF2F5;stroke-width:1.2}
+.terciario{background:none;border:1px solid var(--linha);color:var(--texto);border-radius:10px;padding:0 16px;
 min-height:44px;font:inherit;cursor:pointer}
 .legenda-faixas{font-size:12px;color:#A9B4C4;margin:6px 0 0;line-height:1.5}
-.mapa-mundo .re{stroke:#3A4656;stroke-width:.6}
-.mapa-mundo .pa{stroke:#EEF2F5;stroke-width:1.1}.mapa-mundo .br{stroke-width:2.4}.rot-mapa text{font:600 19px 'Space Grotesk',sans-serif;fill:#EEF2F5;
-paint-order:stroke;stroke:#0E141B;stroke-width:5px;stroke-linejoin:round;pointer-events:none}
+.mapa-mundo .re{stroke:#0F1822}.mapa-mundo .pa{stroke:#0F1822;stroke-width:.7}.mapa-mundo .br{stroke:#EEF2F5;stroke-width:1.6}
+.mapa-mundo .ponto{stroke:#EEF2F5;stroke-width:1.2}
+.pino rect,.pino circle{fill:#0E141B;fill-opacity:.92;stroke-width:1.6}.pino text{font:600 15px 'IBM Plex Sans',sans-serif;fill:#EEF2F5}
+.pino text.n{font:700 17px 'Space Grotesk',sans-serif}.pino-cel{display:none}.pino-cel text{font:700 38px 'Space Grotesk',sans-serif}
+.pino:hover rect,.pino:hover circle{fill-opacity:1;stroke-width:2.4}
+.mapa-mundo .dica{position:absolute;z-index:3;pointer-events:none;background:#EEF2F5;color:#0E141B;border-radius:10px;padding:8px 12px;font-size:13px;line-height:1.35;max-width:240px;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+.mapa-mundo .dica strong{display:block;font:700 15px 'Space Grotesk',sans-serif}
+.mapa-mundo figcaption{padding:10px 8px 0}.mapa-mundo figcaption p{margin:8px 0 0;font-size:12px;color:var(--suave)}
+.escala{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;font-size:12px;color:var(--texto)}
+.escala i{display:block;height:6px;border-radius:3px;margin-bottom:5px}.escala small{display:block;color:var(--suave);font-size:12px}
 .comparar{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:6px;margin-top:12px}
 .comparar div{background:#121B25;border-radius:8px;padding:8px 4px;text-align:center;font-size:12px;color:var(--suave)}
 .comparar strong{display:block;font:700 18px 'Space Grotesk',sans-serif;color:var(--texto)}
@@ -100,7 +110,7 @@ paint-order:stroke;stroke:#0E141B;stroke-width:5px;stroke-linejoin:round;pointer
 .bolso h3{margin:0 0 8px;font-size:18px}.bolso ul{margin:0;padding-left:20px}.bolso li{margin:6px 0}
 @media (max-width:760px){.ficha{grid-template-columns:1fr;gap:14px}.ficha h1{font-size:26px}.ficha .lead{font-size:16px}
 .grade,.grade2{grid-template-columns:1fr}.sinal{grid-template-columns:1fr;gap:6px}.hist .desk{display:none}.hist .cel{display:block}
-.rot-mapa{display:none}.comparar strong{font-size:16px}
+.pino-pc{display:none}.pino-cel{display:block}.mapa-mundo{padding:6px 6px 10px;border-radius:14px}.comparar strong{font-size:16px}
 .ranking .esconde{display:none}.so-celular{display:block}.ranking td{padding:8px 4px}.ranking td:nth-child(2){overflow-wrap:anywhere}}
 """
 
@@ -399,47 +409,80 @@ A2 = {"EUA": "US", "Canadá": "CA", "México": "MX", "Brasil": "BR", "Argentina"
       "Indonésia": "ID", "Taiwan": "TW", "Singapura": "SG"}
 
 
-SEM_LEITURA = "#2A3441"  # países que não medimos: cinza, com link para a região
+SEM_LEITURA = "#2A3441"  # (legado) cinza dos países sem leitura; hoje eles levam a cor da região, bem fraca
+MAR = "#0F1822"  # fundo do mapa
+TERRA = "#3A4757"  # base dos países sem leitura própria (recebe um toque da cor da região)
 
-# Países pequenos demais para aparecer no desenho do mapa: um ponto no lugar certo (coordenadas do próprio SVG).
-PONTOS_NO_MAPA = {"HK": (777, 213), "SG": (752, 274)}
+# Países pequenos demais para o desenho: um ponto no lugar certo (as coordenadas vêm no mapa_mundo.json, em "pontos").
+PONTOS_NO_MAPA = ("HK", "SG", "IL")
+
+MAPA_JS = """<script>(function(){var f=document.querySelector('.mapa-mundo');if(!f||f.__ok)return;f.__ok=1;
+var d=f.querySelector('.dica');if(!d)return;
+function mostra(e){var a=e.target.closest&&e.target.closest('a[data-n]');
+if(!a||e.pointerType==='touch'){d.hidden=true;return}
+d.textContent='';var b=document.createElement('strong');b.textContent=a.getAttribute('data-n');d.appendChild(b);
+var s=document.createElement('span');s.textContent=a.getAttribute('data-t');d.appendChild(s);d.hidden=false;
+var r=f.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,w=d.offsetWidth;
+d.style.left=Math.max(6,Math.min(r.width-w-6,x-w/2))+'px';d.style.top=(y>70?y-d.offsetHeight-14:y+18)+'px'}
+f.addEventListener('pointermove',mostra);f.addEventListener('pointerleave',function(){d.hidden=true})})();</script>"""
+
+
+def _mistura(cor: str, fundo: str, peso: float) -> str:
+    """Cor sólida equivalente a `cor` com `peso` de opacidade sobre `fundo` (sem transparência, para o contraste não variar)."""
+    a, b = (tuple(int(c[i:i + 2], 16) for i in (1, 3, 5)) for c in (cor, fundo))
+    return "#" + "".join(f"{round(x * peso + y * (1 - peso)):02X}" for x, y in zip(a, b))
 
 
 def mapa_svg(m: dict, raiz: str = "") -> str:
-    """Mapa-múndi clicável: cada região na cor do seu nível; os países que medimos, na cor do próprio termômetro.
+    """Mapa-múndi clicável (projeção Equal Earth). País que medimos: cor cheia do próprio termômetro.
+    País sem leitura própria: a cor da região, bem fraca. Cada região leva uma etiqueta com o número.
     Para teclado e leitor de tela, a lista de regiões logo abaixo faz o mesmo papel (o mapa fica fora do foco)."""
     if not MAPA.exists():
         return ""
     dados = json.loads(MAPA.read_text())
     regioes = {r["nome"]: r for r in m.get("regioes", []) if r.get("valor") is not None}
     medidos = {A2[p["nome"]]: p for r in regioes.values() for p in r["paises"] if p.get("valor") is not None and p["nome"] in A2}
-    formas = []
+    fracos, fortes = [], []
     for c in dados["paises"]:
         r = regioes.get(c["regiao"])
         if r is None:
             continue
         if c["a2"] in medidos:
             p = medidos[c["a2"]]
-            href, cor, classe = f"{raiz}paises/{p['slug']}.html", p["cor"], "pa"
-            dica = f"{p['nome']}: {p['valor']}, {p['nivel']} (toque para entender)"
+            classe = "pa br" if c["a2"] == "BR" else "pa"
+            fortes.append(f'<a href="{raiz}paises/{p["slug"]}.html" tabindex="-1" data-n="{html.escape(p["nome"])}" '
+                          f'data-t="{p["valor"]} de 100 · {html.escape(p["nivel"])}"><path class="{classe}" d="{c["d"]}" fill="{p["cor"]}"/></a>')
         else:
-            href, cor, classe = f"{raiz}regioes/{r['slug']}.html", SEM_LEITURA, "re"
-            dica = f"{c['nome']}: sem leitura própria. Região {r['nome']}: {r['valor']}, {r['nivel']}"
-        if c["a2"] == "BR":
-            classe += " br"
-        formas.append(f'<a href="{href}" tabindex="-1"><path class="{classe}" d="{c["d"]}" fill="{cor}">'
-                      f'<title>{html.escape(dica)}</title></path></a>')
-    for a2, (px, py) in PONTOS_NO_MAPA.items():
-        if a2 in medidos:
-            p = medidos[a2]
-            dica = html.escape(f"{p['nome']}: {p['valor']}, {p['nivel']} (toque para entender)")
-            formas.append(f'<a href="{raiz}paises/{p["slug"]}.html" tabindex="-1"><circle class="pa ponto" cx="{px}" '
-                          f'cy="{py}" r="4" fill="{p["cor"]}"><title>{dica}</title></circle></a>')
-    rotulos = "".join(f'<text x="{x}" y="{y}" text-anchor="middle">{html.escape(nome)} {regioes[nome]["valor"]}</text>'
-                      for nome, (x, y) in dados.get("rotulos", {}).items() if nome in regioes)
-    return (f'<figure class="mapa-mundo" style="margin:0"><svg viewBox="0 0 {dados["largura"]} {dados["altura"]}" '
-            f'aria-hidden="true" focusable="false">{"".join(formas)}'
-            f'<g class="rot-mapa">{rotulos}</g></svg></figure>')
+            fracos.append(f'<a href="{raiz}regioes/{r["slug"]}.html" tabindex="-1" data-n="{html.escape(c["nome"])}" '
+                          f'data-t="Sem leitura própria. {html.escape(r["nome"])}: {r["valor"]} ({html.escape(r["nivel"])})">'
+                          f'<path class="re" d="{c["d"]}" fill="{_mistura(r["cor"], TERRA, .34)}"/></a>')
+    for a2 in PONTOS_NO_MAPA:
+        if a2 in medidos and a2 in dados.get("pontos", {}):
+            p, (px, py) = medidos[a2], dados["pontos"][a2]
+            fortes.append(f'<a href="{raiz}paises/{p["slug"]}.html" tabindex="-1" data-n="{html.escape(p["nome"])}" '
+                          f'data-t="{p["valor"]} de 100 · {html.escape(p["nivel"])}"><circle class="pa ponto" cx="{px}" cy="{py}" '
+                          f'r="5.5" fill="{p["cor"]}"/></a>')
+    pinos = []
+    for nome, (x, y) in dados.get("rotulos", {}).items():
+        if nome not in regioes:
+            continue
+        r = regioes[nome]
+        larg = round(len(nome) * 9.6 + 62)
+        pinos.append(f'<a class="pino" href="{raiz}regioes/{r["slug"]}.html" tabindex="-1" data-n="{html.escape(nome)}" '
+                     f'data-t="{r["valor"]} de 100 · {html.escape(r["nivel"])} (média da região)">'
+                     f'<g class="pino-pc" transform="translate({x - larg / 2:.0f},{y - 16})"><rect width="{larg}" height="32" rx="16" '
+                     f'stroke="{r["cor"]}"/><text x="14" y="21.5">{html.escape(nome)}</text>'
+                     f'<text class="n" x="{larg - 14}" y="22" text-anchor="end" fill="{r["cor"]}">{r["valor"]}</text></g>'
+                     f'<g class="pino-cel" transform="translate({x},{y})"><circle r="38" stroke="{r["cor"]}"/>'
+                     f'<text y="13" text-anchor="middle" fill="{r["cor"]}">{r["valor"]}</text></g></a>')
+    escala = "".join(f'<span><i style="background:{n["cor"]}"></i>{n["nome"]}<small>{n["min"]}–{n["max"]}</small></span>'
+                     for n in config.NIVEIS)
+    return (f'<figure class="mapa-mundo"><svg viewBox="0 0 {dados["largura"]} {dados["altura"]}" aria-hidden="true" focusable="false">'
+            f'<path class="grade" d="{dados.get("grade", "")}"/>{"".join(fracos)}{"".join(fortes)}{"".join(pinos)}</svg>'
+            f'<div class="dica" hidden></div>'
+            f'<figcaption><div class="escala">{escala}</div>'
+            f'<p>Cor forte: país com termômetro próprio. Cor fraca: país sem leitura, na cor da média da região.</p>'
+            f'</figcaption></figure>{MAPA_JS}')
 
 
 def jsonld(*itens: dict) -> str:
@@ -732,6 +775,7 @@ def pagina_ranking(f: dict) -> str:
                         f'países com leitura completa</p>')
     corpo = (f'<section class="edicao" style="max-width:none"><h1>Todos os países, do mais tenso ao mais calmo</h1>'
              f'<p class="suave">Toque em um país para entender o porquê. Atualizado em {quando(f)}.</p>'
+             f'<div style="max-width:920px;margin:16px auto 20px">{mapa_svg(f["mundo"])}</div>'
              f'{destaque}{_tabela_ranking(completos)}')
     if incompletos:
         corpo += (f'<h2 id="incompleta">Leitura incompleta</h2><p class="suave">Estes países são medidos só pela moeda, '

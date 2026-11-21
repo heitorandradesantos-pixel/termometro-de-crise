@@ -124,6 +124,30 @@ border-radius:10px;font-size:16px;color:#E6EAF0;margin:12px 0 24px}}
 -webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}}.topo{{padding-top:8px;padding-bottom:4px}}
 .regiao .paises{{font-size:14px;line-height:1.5}}
 .topo nav a:first-child{{margin-left:0}}.esconde-cel{{display:none}}.cta{{padding:0 12px}}.manchetes{{grid-template-columns:1fr}}}}
+""" + """
+/* Redesenho de 21/11/2026: mapa em destaque, cabeçalho em uma linha, cartões com contorno, celular mais curto */
+body{background:radial-gradient(1100px 420px at 50% -140px,#172433 0%,rgba(14,20,27,0) 72%) no-repeat,var(--fundo)}
+.topo,.conteudo,.rodape,.faixa-in{max-width:1200px}
+.topo{padding-top:14px;padding-bottom:14px}
+.topo nav{display:flex;flex-wrap:wrap;align-items:center}
+.topo nav a{margin-left:0;padding:0 7px;border-radius:8px;min-height:40px}
+.topo .marca{letter-spacing:.1em}
+.topo nav a:hover{background:#17212C}
+.cartao,.global,.manchete,.faixa-zap{border:1px solid #233140}
+.regiao{border-top:1px solid #233140;border-right:1px solid #233140;border-bottom:1px solid #233140;transition:transform .12s,background .12s}
+.regiao:hover{outline:0;background:#1E2A37;transform:translateY(-1px)}
+.conteudo>section>h2{font-size:24px;margin:40px 0 14px}
+.abertura{grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:24px;padding:24px 0 8px}
+.abertura h1{font-size:30px;letter-spacing:-.01em}
+.manchete{transition:border-color .12s}.manchete:hover{border-color:#34485A}
+.lista-plantao a{color:var(--texto);text-decoration:none}.lista-plantao a:hover{color:var(--texto);text-decoration:underline;text-underline-offset:3px}
+.rodape{line-height:1.7}
+@media (max-width:760px){.abertura{grid-template-columns:1fr;gap:16px;padding:16px 0 4px}.abertura h1{font-size:24px}
+.abertura .palco{order:-1}.mapa{grid-template-columns:1fr 1fr;gap:8px}
+.regiao{padding:10px 12px;border-left-width:5px}.regiao .cabeca{flex-direction:column;align-items:flex-start;gap:4px;min-height:0}
+.regiao .cabeca strong{font-size:15px!important}.regiao .paises{display:none}.regiao .v{font-size:26px}
+.conteudo>section>h2{font-size:21px;margin:30px 0 10px}.topo nav{flex-wrap:nowrap}}
+@media (prefers-reduced-motion:reduce){.regiao,.manchete{transition:none}.regiao:hover{transform:none}}
 """
 
 
@@ -533,8 +557,6 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     assinar = config.NEWSLETTER_URL or f"edicoes/{dia}.html"
     mapa, brasil = secao_mundo(mundo)
     if mapa:  # com o motor mundial, o mapa abre a página, ao lado do termômetro do mundo
-        legenda = "".join(f'<span><i style="background:{n["cor"]}"></i>{n["nome"]} {n["min"]}–{n["max"]}</span>'
-                          for n in config.NIVEIS) + f'<span><i style="background:{paginas.SEM_LEITURA}"></i>Sem leitura</span>'
         g = mundo.get("mundo") or {}
         if g.get("valor") is not None:  # o mundo é a média das regiões que aparecem ao lado
             nivel_g = config.nivel_de(g["valor"])
@@ -556,10 +578,9 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
   <p class="suave" style="font-size:13px">{g_nota} <a href="mundo.html">Ranking dos países</a></p>
   <p class="educativo">Indicador educativo: mostra o que já aconteceu, não prevê nem recomenda.
   <a href="metodologia.html#mundo">Como calculamos</a></p></div>
- <div><h1>Como está cada região do mundo</h1>
-  <p class="suave" style="margin:0 0 10px">De 0 (calmo) a 100 (crise). Toque no mapa, em uma região ou em um país para entender o porquê.</p>
-  {paginas.mapa_svg(mundo)}
-  <div class="legenda">{legenda}</div></div>
+ <div class="palco"><h1>Como está cada região do mundo</h1>
+  <p class="suave" style="margin:0 0 12px">De 0 (calmo) a 100 (crise). Toque em um país ou em uma região para entender o porquê.</p>
+  {paginas.mapa_svg(mundo)}</div>
 </section>
 {mapa}
 {bloco_celular()}

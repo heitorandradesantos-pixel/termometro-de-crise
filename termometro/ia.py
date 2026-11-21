@@ -65,8 +65,20 @@ def links_das_buscas(conteudo) -> set[str]:
     return achados
 
 
+def _criar(cliente, modelo: str | None, **pedido):
+    """Chama o modelo pedido; se ele não existir ou a conta não tiver acesso, repete com o modelo padrão."""
+    modelo = modelo or config.MODELO_CLAUDE
+    try:
+        return cliente.messages.create(model=modelo, **pedido)
+    except Exception as erro:  # noqa: BLE001 (o SDK tem várias classes de erro; só interessa o código)
+        if modelo == config.MODELO_CLAUDE or getattr(erro, "status_code", None) not in (400, 403, 404):
+            raise
+        print(f"  [ia] {modelo} indisponível ({getattr(erro, 'status_code', '?')}); usando {config.MODELO_CLAUDE}")
+        return cliente.messages.create(model=config.MODELO_CLAUDE, **pedido)
+
+
 def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0, max_tokens: int = 8000,
-                links: set | None = None) -> dict:
+                links: set | None = None, modelo: str | None = None) -> dict:
     """Roda o agente até ele preencher a ferramenta de saída por completo e devolve o que foi preenchido.
 
     Se `links` for um conjunto, ele recebe todos os endereços que as buscas na web devolveram."""
@@ -82,7 +94,7 @@ def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0
         pedido = f"{pedido}\n\n{fim}"
     mensagens = [{"role": "user", "content": pedido}]
     for rodada in range(1, RODADAS + 1):
-        resposta = cliente.messages.create(model=config.MODELO_CLAUDE, max_tokens=max_tokens, system=sistema,
+        resposta = _criar(cliente, modelo, max_tokens=max_tokens, system=sistema,
                                            messages=mensagens, tools=ferramentas, tool_choice=escolha)
         mensagens.append({"role": "assistant", "content": resposta.content})
         if links is not None:
@@ -111,8 +123,8 @@ def estruturado(cliente, sistema: str, pedido: str, saida: dict, buscas: int = 0
     raise RuntimeError(f"O agente não preencheu {nome} por completo depois de {RODADAS} rodadas.")
 
 
-def texto(cliente, sistema: str, pedido: str, max_tokens: int = 6000) -> str:
-    resposta = cliente.messages.create(model=config.MODELO_CLAUDE, max_tokens=max_tokens, system=sistema,
+def texto(cliente, sistema: str, pedido: str, max_tokens: int = 6000, modelo: str | None = None) -> str:
+    resposta = _criar(cliente, modelo, max_tokens=max_tokens, system=sistema,
                                        messages=[{"role": "user", "content": pedido}])
     print(f"  [texto] parada={resposta.stop_reason}")
     return "".join(b.text for b in resposta.content if b.type == "text")

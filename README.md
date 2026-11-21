@@ -104,6 +104,7 @@ Faça você mesmo os passos com chaves e senhas. Nunca cole uma chave em chat ne
    | `DOMINIO` (opcional) | `termometrodecrise.com.br` | Domínio próprio no GitHub Pages |
    | `ADSENSE_CLIENT` (depois) | `ca-pub-...` | Só depois da aprovação no AdSense |
    | `MODELO_CLAUDE` (opcional) | `claude-sonnet-5-5` | Troca o modelo dos agentes |
+   | `MODELO_REVISAO` (opcional) | `claude-fable-5-2` | Modelo do revisor do site (UI/UX) e do editor da edição (Redator e Copywriter) |
 
 7. **Primeiro teste:** aba *Actions* → *Edição semanal* → *Run workflow*. Em poucos minutos aparece o
    Pull Request.
