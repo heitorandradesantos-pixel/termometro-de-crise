@@ -1,0 +1,98 @@
+{
+ "titulo": "Quanto do seu salário vai para parcela: o que se sabe",
+ "descricao": "29% da renda das famílias vai todo mês para dívidas e juros, e o endividamento chegou a 50,1% da renda anual, diz o BC. Entenda a diferença.",
+ "palavra_chave": "quanto do salário vai para parcela",
+ "lead": "Quanto do seu salário vai para parcela? Segundo o Banco Central, em média 29% da renda das famílias brasileiras foi para dívidas e juros em agosto de 2026, o maior nível da série. No mesmo mês, o endividamento chegou a 50,1% da renda de 12 meses, outro recorde. Os dados saíram em 29 de outubro e são médias do país, não o caso de cada pessoa.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O endividamento das famílias chegou a 50,1% da renda acumulada em 12 meses em agosto de 2026, o maior da série histórica do BC. O dado saiu em 29 de outubro. Endividamento é o total que as famílias devem ao sistema financeiro comparado com um ano de renda.",
+   "fonte_url": "https://www.gazetadopovo.com.br/economia/endividamento-familias-brasileiras-bate-novo-recorde-aleta-banco-central/",
+   "data": "2026-10-29",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "O comprometimento da renda, ou seja, a parte da renda que vai por mês para pagar dívidas e juros, ficou em 29% em agosto. Subiu 0,2 ponto percentual no mês e 1,4 ponto em 12 meses. A Gazeta do Povo diz que é o maior patamar da série.",
+   "fonte_url": "https://www.metropoles.com/brasil/endividamento-das-familias-chegou-a-501-em-agosto-segundo-bc",
+   "data": "2026-10-29",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "Os dois indicadores medem coisas diferentes. O endividamento compara o saldo das dívidas com a renda de um ano. O comprometimento mostra quanto da renda do mês é usado para pagar essas obrigações.",
+   "fonte_url": "https://atualmt.com.br/2026/10/30/endividamento-das-familias-bate-recorde-e-chega-a-501-da-renda-no-brasil",
+   "data": "2026-10-30",
+   "veiculo": "AtualMT",
+   "confiavel": false
+  },
+  {
+   "texto": "Sem o financiamento imobiliário na conta, o endividamento foi de 31% da renda em agosto e o comprometimento, de 26,7%. Segundo a Gazeta do Povo, os dois também são recordes.",
+   "fonte_url": "https://www.gazetadopovo.com.br/economia/endividamento-familias-brasileiras-bate-novo-recorde-aleta-banco-central/",
+   "data": "2026-10-29",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 28 de agosto, o BC tinha divulgado que o comprometimento de junho foi de 28,9%, o maior desde março de 2011, quando a série começa. O dado de agosto (29%) já superou esse número.",
+   "fonte_url": "https://sbtnews.sbt.com.br/noticia/economia/comprometimento-renda-familias-dividas-recorde-banco-central",
+   "data": "2026-08-28",
+   "veiculo": "SBT News",
+   "confiavel": false
+  },
+  {
+   "texto": "O endividamento alto não quer dizer que a pessoa está com pagamento atrasado. O comprometimento sai com um mês de atraso em relação aos outros dados de crédito do BC.",
+   "fonte_url": "https://focuspoder.com.br/comprometimento-da-renda-das-familias-com-dividas-bate-recorde-e-chega-a-289/",
+   "data": "2026-08-28",
+   "veiculo": "Focus Poder",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 29 de setembro, o BC informou que o juro médio do crédito livre para pessoas físicas foi de 61,7% ao ano em agosto, alta de 1,4 ponto percentual em um mês. A inadimplência das famílias, que mede atrasos acima de 90 dias, chegou a 6%.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/juros-para-familias-sobem-em-agosto-e-inadimplencia-chega-6",
+   "data": "2026-09-29",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O BC divulga que o comprometimento da renda das famílias foi de 28,9% em junho, o maior desde 2011.",
+   "fonte_url": "https://sbtnews.sbt.com.br/noticia/economia/comprometimento-renda-familias-dividas-recorde-banco-central",
+   "data": "2026-08-28",
+   "veiculo": "SBT News",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC divulga os dados de agosto: juro médio de 61,7% ao ano para pessoas físicas e inadimplência das famílias em 6%.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/juros-para-familias-sobem-em-agosto-e-inadimplencia-chega-6",
+   "data": "2026-09-29",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O BC informa endividamento de 50,1% e comprometimento de 29% em agosto, ambos recordes da série.",
+   "fonte_url": "https://www.gazetadopovo.com.br/economia/endividamento-familias-brasileiras-bate-novo-recorde-aleta-banco-central/",
+   "data": "2026-10-29",
+   "veiculo": "Gazeta do Povo",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quantas pessoas, individualmente, gastam mais de um terço do salário com parcelas. O dado do BC é uma média nacional e não mostra essa distribuição.",
+  "Se o número vai subir ou cair nos próximos meses. O BC ainda não divulgou os dados de setembro e outubro para esses dois indicadores, segundo a apuração (não confirmado).",
+  "Se o recorde de agosto muda alguma decisão do BC. Nenhuma fonte consultada trouxe uma resposta oficial sobre isso."
+ ],
+ "o_que_muda_para_voce": [
+  "Roteiro, abertura: 'Quanto do seu salário já vai embora em parcela? Segundo o Banco Central, em média 29% da renda das famílias foi para dívidas e juros em agosto de 2026. É o maior nível da série.'",
+  "Roteiro, a diferença: 'Endividamento é quanto você deve no total, comparado com um ano de renda: 50,1% em agosto. Comprometimento é quanto do salário vai todo mês para parcela e juros: 29%.'",
+  "Roteiro, o cuidado: 'Esses números são médias do país. Dever muito não é o mesmo que estar atrasado, e a sua conta pode ser bem diferente da média.'",
+  "Na prática: o juro médio do crédito livre para pessoas físicas foi de 61,7% ao ano em agosto. Parcelas de crédito caro pesam mais no orçamento do mês.",
+  "Roteiro, fecho com gatilho de comentário: 'Quem aqui tem mais de um terço do salário indo pra parcela? Comenta EU. Não precisa dizer valor de salário nem de dívida.'"
+ ],
+ "como_se_proteger": [],
+ "slug": "quanto-do-salario-vai-para-parcela",
+ "publicado_em": "2026-11-21T07:05:50.645951",
+ "atualizado_em": "2026-11-21T07:05:50.645951",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) Quanto do seu salário já vai embora em parcela? Fonte oficial: Banco Central do Brasil, Estatísticas Monetárias e de Crédito (bcb.gov.br/estatisticas/estatisticasmonetariascredito). Segundo o BC, o endividamento das famílias chegou a 50,1% da renda de 12 meses em agosto de 2026, recorde da série, e o comprometimento de renda com dívidas e juros chegou a 28,9% em junho de 2026, o maior desde 2011 (BC, divulgado em 28/08/2026). Explicar a diferença: endividamento é quanto você deve no total comparado com um ano de renda; comprometimento é quanto do salário vai por mês para parcela e juros. Fontes: Banco Central (bcb.gov.br), Agência Brasil/Mercado e Consumo 29/09/2026 (\"Juros para famílias sobem em agosto e inadimplência chega a 6%\"), Forbes Brasil 29/10/2026. Gatilho: \"Quem aqui tem mais de um terço do salário indo pra parcela? Comenta EU.\" Nunca pedir valor de salário ou dívida. Sem recomendação de investimento, sem citar banco.",
+ "turno": "manha"
+}
