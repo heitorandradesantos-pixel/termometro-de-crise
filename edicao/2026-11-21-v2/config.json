@@ -1,0 +1,102 @@
+{
+ "saida": "bolha-da-ia-editado.mp4",
+ "fim": 77.4,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "Olha",
+    "da",
+    "IA,"
+   ],
+   [
+    "Bolha",
+    "da",
+    "IA,"
+   ]
+  ],
+  [
+   [
+    "olha",
+    "da",
+    "inteligência"
+   ],
+   [
+    "bolha",
+    "da",
+    "inteligência"
+   ]
+  ],
+  [
+   [
+    "Jensei"
+   ],
+   [
+    "Jensen"
+   ]
+  ],
+  [
+   [
+    "6,7"
+   ],
+   [
+    "6,07"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Nvidia",
+  "Jensen",
+  "Huang",
+  "Broadcom",
+  "AMD",
+  "Black",
+  "Friday",
+  "IA"
+ ],
+ "destaques": "\\d|bolha|ia|nvidia|fundamento|objetivo|planejamento|comenta",
+ "cartoes": [
+  [
+   0.6,
+   3.6,
+   "*Bolha* da IA?",
+   ""
+  ],
+  [
+   4.4,
+   8.7,
+   "Realidade ou *narrativa*?",
+   ""
+  ],
+  [
+   16.9,
+   23.2,
+   "Jensen Huang deixou o comando da Nvidia em *12/11*",
+   "Após escândalo extraconjugal e de espionagem (CNBC, 19/11/2026)"
+  ],
+  [
+   31.6,
+   40.5,
+   "Sexta, 20/11: Nasdaq *-5,28%*",
+   "S&P 500 caiu 3,7% (IstoÉ Dinheiro, 20/11/2026)"
+  ],
+  [
+   49.3,
+   52.0,
+   "Dólar digital (USDT): cerca de *R$ 6,07*",
+   "Binance, sábado, 21/11/2026"
+  ],
+  [
+   57.2,
+   65.4,
+   "Entenda o *fundamento*, o objetivo e o plano",
+   ""
+  ],
+  [
+   65.9,
+   73.4,
+   "Não compre porque *alguém falou*",
+   "Conteúdo educativo. Não é recomendação de investimento"
+  ]
+ ]
+}

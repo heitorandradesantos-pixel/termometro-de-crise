@@ -1,0 +1,71 @@
+{
+ "saida": "dividendo-imposto-editado.mp4",
+ "fim": 88.9,
+ "remover": [
+  [
+   7.16,
+   9.03
+  ],
+  [
+   13.45,
+   15.22
+  ]
+ ],
+ "corrigir": [],
+ "nomes": [
+  "IOF",
+  "IVA",
+  "Planalto"
+ ],
+ "destaques": "\\d|dividendo|lucro|imposto|taxar|recuaram|razão",
+ "cartoes": [
+  [
+   0.3,
+   4.9,
+   "Imposto sobre *dividendo* de novo?",
+   ""
+  ],
+  [
+   10.4,
+   17.8,
+   "Projeto na Câmara: IR sobre *lucros e dividendos*",
+   "PL 5.889/2026, de deputados, protocolado em 17/11 (A Crítica, 20/11/2026)"
+  ],
+  [
+   18.6,
+   23.0,
+   "Dividendo = parte do *lucro* da empresa",
+   ""
+  ],
+  [
+   31.6,
+   37.0,
+   "Isenção só até *R$ 5 mil* por mês",
+   "Acima disso, alíquotas de até 10% a 25% (PL 5.889/2026)"
+  ],
+  [
+   49.4,
+   56.2,
+   "A empresa já paga até *34%* sobre o lucro",
+   "IRPJ + CSLL (Receita Federal). O IVA é outro imposto, sobre o consumo"
+  ],
+  [
+   61.7,
+   65.0,
+   "Projeto *retirado* em 19/11",
+   "Para \"novos estudos técnicos\" (A Crítica, 20/11/2026)"
+  ],
+  [
+   69.6,
+   73.5,
+   "Hoje vale: 10% só acima de *R$ 50 mil* por mês",
+   "Fonte: Lei 15.270/2025"
+  ],
+  [
+   77.9,
+   83.4,
+   "Investir com a *razão*, não com a emoção",
+   ""
+  ]
+ ]
+}

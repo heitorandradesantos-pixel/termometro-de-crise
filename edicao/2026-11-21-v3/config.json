@@ -1,0 +1,73 @@
+{
+ "saida": "dolar-fim-de-semana-editado.mp4",
+ "fim": 92.4,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "SDT"
+   ],
+   [
+    "USDT"
+   ]
+  ],
+  [
+   [
+    "SDC,"
+   ],
+   [
+    "USDC,"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Binance",
+  "USDT",
+  "USDC"
+ ],
+ "destaques": "\\d|dólar|usdt|diesel|comida|planejamento|protejam",
+ "cartoes": [
+  [
+   0.6,
+   5.6,
+   "O dólar que *não dorme*",
+   ""
+  ],
+  [
+   15.5,
+   23.0,
+   "Planejamento de *10 anos*",
+   "História pessoal do Heitor. Não é recomendação de investimento"
+  ],
+  [
+   33.6,
+   38.5,
+   "USDT e USDC: *dólar digital*, negocia 24 horas",
+   ""
+  ],
+  [
+   39.5,
+   43.0,
+   "USDT: cerca de *R$ 6,07*",
+   "Binance, sábado, 21/11/2026"
+  ],
+  [
+   47.7,
+   53.2,
+   "Dólar comercial fechou a quinta a *R$ 5,93*",
+   "Sexta foi feriado. Fim de semana tem pouco volume"
+  ],
+  [
+   58.4,
+   63.6,
+   "Dólar → diesel → frete → *comida*",
+   ""
+  ],
+  [
+   89.1,
+   90.1,
+   "*Se protejam*",
+   ""
+  ]
+ ]
+}
