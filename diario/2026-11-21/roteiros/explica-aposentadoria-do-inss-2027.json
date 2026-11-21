@@ -1,0 +1,200 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / prazo",
+  "texto": "Quem fechar a aposentadoria até 31 de dezembro mantém a regra de 2026.",
+  "na_tela": "Até 31/12 mantém a regra",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A aposentadoria muda em 1º de janeiro, mas não é uma nova reforma.",
+   "na_tela": "Muda em janeiro. Não é reforma nova.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Em 2026, 103 pontos pra se aposentar. Em 2027, 104.",
+   "na_tela": "103 pontos virou 104",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Cena no meio / prazo",
+   "texto": "Quem fechar a aposentadoria até 31 de dezembro mantém a regra de 2026.",
+   "na_tela": "Até 31/12 mantém a regra",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Quem fechar a aposentadoria até 31 de dezembro mantém a regra de 2026.",
+  "Fechou tudo até lá, mantém a regra de 2026.",
+  "Fechou só em janeiro? Valem as regras novas.",
+  "Calma, não é reforma nova. É escada: todo ano sobe um degrau.",
+  "Regra dos pontos, idade mais contribuição: homem vai de 103 pra 104.",
+  "Mulher, de 93 pra 94.",
+  "Vale pra quem já contribuía antes de 13/11/2019. Pedágio não muda.",
+  "Confere seu extrato CNIS e simula no Meu INSS, de graça.",
+  "Manda pra quem tá perto de se aposentar.",
+  "Chuta aí: com quantos anos você acha que vai se aposentar? Comenta o número.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Quem fechar a aposentadoria até 31 de dezembro mantém a regra de 2026. Fechou tudo até lá, mantém a regra de 2026. Fechou só em janeiro? Valem as regras novas. Calma, não é reforma nova. É escada: todo ano sobe um degrau. Regra dos pontos, idade mais contribuição: homem vai de 103 pra 104. Mulher, de 93 pra 94. Vale pra quem já contribuía antes de 13/11/2019. Pedágio não muda. Confere seu extrato CNIS e simula no Meu INSS, de graça. Manda pra quem tá perto de se aposentar. Chuta aí: com quantos anos você acha que vai se aposentar? Comenta o número. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Até 31/12 mantém a regra",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Até 31/12/2026 mantém a regra de 2026",
+   "fonte": "Super Rádio Tupi"
+  },
+  {
+   "fala": 2,
+   "texto": "Fechou em janeiro: regras de 2027",
+   "fonte": "Super Rádio Tupi"
+  },
+  {
+   "fala": 3,
+   "texto": "Emenda Constitucional 103/2019: aumento gradual",
+   "fonte": "Portal VV8"
+  },
+  {
+   "fala": 4,
+   "texto": "Homens: 103 → 104 pontos",
+   "fonte": "Mix Vale"
+  },
+  {
+   "fala": 5,
+   "texto": "Mulheres: 93 → 94 pontos",
+   "fonte": "Mix Vale"
+  },
+  {
+   "fala": 6,
+   "texto": "Quem contribuía antes de 13/11/2019",
+   "fonte": "InvestNews"
+  },
+  {
+   "fala": 7,
+   "texto": "Meu INSS > Simular Aposentadoria",
+   "fonte": "INSS (gov.br)"
+  }
+ ],
+ "retomada": 5,
+ "busca": "aposentadoria INSS 2027: o que muda",
+ "legenda": "Aposentadoria INSS 2027: o que muda e até quando vale a regra de 2026.\n\nSegundo reportagem do InvestNews, duas regras de transição ficam mais exigentes em 1º de janeiro de 2027: a dos pontos e a da idade mínima progressiva. Não é uma nova reforma: é o calendário de aumentos graduais da Emenda Constitucional 103/2019.\n\nQuem cumprir todos os requisitos até 31/12/2026 mantém as regras deste ano, mesmo pedindo o benefício só em 2027. Pedágios e aposentadoria por idade não mudam em janeiro.\n\nAinda não apareceu nota oficial do INSS sobre os números de 2027, e o valor do benefício depende do histórico de cada pessoa. Confira seu extrato (CNIS) e simule no Meu INSS.\n\nCom quantos anos você acha que vai se aposentar? Comenta o número.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inss #aposentadoria #previdencia #educacaofinanceira",
+ "hashtags": [
+  "#inss",
+  "#aposentadoria",
+  "#previdencia",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, quem fechar a aposentadoria até 31 de dezembro mantém a regra.",
+  "topicos": [
+   "Segundo o InvestNews, duas regras ficam mais exigentes em 1º de janeiro de 2027.",
+   "Pontos: homem vai de 103 pra 104, mulher de 93 pra 94.",
+   "Quem cumprir tudo até 31 de dezembro de 2026 mantém as regras deste ano.",
+   "Confere seu extrato CNIS e simula no Meu INSS, que é de graça."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários números e prazos, que pede calma e prova na tela, não uma notícia de plantão.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 1,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Regra dos pontos, idade mais contribuição: homem vai de 103 pra 104. Mulher, de 93 pra 94.\": são quatro números numa fala só, e \"regra dos pontos\" não está traduzida. Quebre em falas separadas e explique no dia a dia: \"Sabe a soma da sua idade com o tempo de contribuição? Pro homem, o mínimo sobe de 103 pra 104.\" Depois: \"Pra mulher, de 93 pra 94.\"",
+   "Frases \"Vale pra quem já contribuía antes de 13/11/2019. Pedágio não muda.\" e \"Confere seu extrato CNIS\": datas e siglas sem tradução, e \"pedágio\" não é explicado. Troque por \"Vale pra quem já trabalhava de carteira assinada ou pagava o INSS antes de novembro de 2019\" e \"o tempo extra que já te cobram em outras regras não muda\". Em \"CNIS\", diga \"o extrato do seu tempo de contribuição, que sai no Meu INSS\". Deixe a data exata e a sigla no cartão da tela.",
+   "Abertura \"Quem fechar a aposentadoria até 31 de dezembro mantém a regra de 2026\" e o fecho: o gancho é informativo, mas falta o jeito do Heitor, e a fonte some na fala. Abra com a reação dele (\"Cara, você que tá perto de se aposentar, presta atenção: dezembro é o prazo\"). Inclua uma comparação viva, como a escada, em uma fala curta, e uma ressalva falada: \"Isso é o que mostra a reportagem, o INSS ainda não confirmou os números de 2027.\" Termine com o aviso da casa (\"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\") antes do \"Sem alarde. Eu sou só o termômetro!\""
+  ],
+  "veredito": "A peça tem gancho com prazo real, saída clara (extrato e simulação grátis), tom calmo e gatilho de comentário fácil, mas falta traduzir \\\"pontos\\\", \\\"pedágio\\\" e \\\"CNIS\\\", ter um número por fala, deixar a ressalva de fonte na fala e dar mais voz ao Heitor, com abertura de espanto e aviso da casa antes do bordão."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: 'Quem fechar a aposentadoria até 31 de dezembro mantém a regra de 2026' é data específica, mas é frase de jargão e não chama ninguém. Reescreva: 'Se você está perto de se aposentar, o dia 31 de dezembro importa. Depois dele, o homem precisa de 104 pontos, não 103.' Abre com quem se reconhece e já entrega o número.",
+   "Retenção: a 2ª frase ('Fechou tudo até lá, mantém a regra de 2026') repete a primeira e gasta segundos. Corte e vá direto para 'Fechou só em janeiro? Valem as regras novas.' Assim a virada 'Calma, não é reforma nova. É escada' chega mais cedo e o vídeo fica mais curto.",
+   "Teste do CLT: 'Pedágio não muda' e 'extrato CNIS' ficam sem tradução. Reescreva: 'O pedágio, aquele tempo extra de contribuição, não muda.' e 'Confere seu extrato de contribuição, o CNIS, e simula no Meu INSS, de graça.'"
+  ],
+  "veredito": "Fecha bem com envio concreto e comentário fácil, mas o gancho abre com jargão em vez de chamar quem está perto de se aposentar, e faltam repetição cortada e tradução de pedágio e CNIS para segurar o público leigo."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Early morning in a quiet Brazilian city street, a closed metal roller shutter of a small office building with soft golden sunrise light sliding across it. Leftover confetti and paper streamers on the sidewalk from a New Year celebration. Slow dolly-in toward the shutter, shallow depth of field. No people, no text, no signs, no logos",
+   "texto_da_fala": "Fechou só em janeiro? Valem as regras novas.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Early morning in a quiet Brazilian city street, a closed metal roller shutter of a small office building with soft golden sunrise light sliding across it. Leftover confetti and paper streamers on the sidewalk from a New Year celebration. Slow dolly-in toward the shutter, shallow depth of field. No people, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "A wide concrete staircase outdoors in warm daylight, each step slightly lit as the camera performs a slow upward crane and tilt-up, following the steps climbing toward a bright sky. Clean, minimal, cinematic. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Calma, não é reforma nova. É escada: todo ano sobe um degrau.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A wide concrete staircase outdoors in warm daylight, each step slightly lit as the camera performs a slow upward crane and tilt-up, following the steps climbing toward a bright sky. Clean, minimal, cinematic. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Close-up on a wooden kitchen table: a pair of hands (no face visible) holding a smartphone whose screen shows only soft abstract colored shapes with nothing legible, next to a plain cardboard folder of blank papers, reading glasses and a cup of coffee. Gentle slow push-in with warm morning window light. No text, no letters, no numbers, no logos",
+   "texto_da_fala": "Confere seu extrato CNIS e simula no Meu INSS, de graça.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up on a wooden kitchen table: a pair of hands (no face visible) holding a smartphone whose screen shows only soft abstract colored shapes with nothing legible, next to a plain cardboard folder of blank papers, reading glasses and a cup of coffee. Gentle slow push-in with warm morning window light. No text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Quem fechar a aposentadoria até 31 de dezembro mantém a regra de 2026.\n\nFechou tudo até lá, mantém a regra de 2026.\n\nFechou só em janeiro? Valem as regras novas.\n\nCalma, não é reforma nova. É escada: todo ano sobe um degrau.\n\nRegra dos pontos, idade mais contribuição: homem vai de 103 pra 104.\n\nMulher, de 93 pra 94.\n\nVale pra quem já contribuía antes de 13/11/2019. Pedágio não muda.\n\nConfere seu extrato CNIS e simula no Meu INSS, de graça.\n\nManda pra quem tá perto de se aposentar.\n\nChuta aí: com quantos anos você acha que vai se aposentar? Comenta o número.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "INSS (gov.br)",
+   "url": "https://www.gov.br/inss/pt-br/noticias/noticias/regras-de-transicao-mudam-os-requisitos-para-aposentadoria-em-2026",
+   "destaque": "O INSS oferece um simulador gratuito no Meu INSS."
+  }
+ ],
+ "data": "2026-11-21",
+ "gerado_em": "2026-11-21T06:44:01.243926-03:00"
+}
