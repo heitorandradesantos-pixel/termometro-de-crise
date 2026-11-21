@@ -272,3 +272,30 @@ def test_queda_da_bolsa_conta_o_pico_diario_e_nao_so_o_fim_de_mes(tmp_path):
     assert round(100 * sinais["bolsa"].iloc[-1], 1) == 19.7  # antes, com fins de mês, dava 2,2%
     brutos = mundo.brutos_do_pais(tmp_path, "Brasil", sinais)
     assert brutos["bolsa_pico"] == 206.9 and brutos["bolsa_pico_dia"] == "2026-10-05"
+
+
+def test_fechamento_do_cambio_usa_o_preco_das_17h_de_sao_paulo():
+    """Barras de 1 hora reais do Yahoo (BRL=X, nov/2026): o fechamento é o último preço antes das 17h de São Paulo,
+    fim de semana fica de fora e barra vazia não derruba o dia."""
+    import pandas as pd
+    from termometro import mundo
+    def utc(texto):
+        return int(pd.Timestamp(texto, tz="UTC").timestamp())
+    barras = [("2026-11-18 18:00", 5.8590), ("2026-11-18 19:00", 5.8646), ("2026-11-18 20:00", 5.8488),
+              ("2026-11-19 12:00", 5.9001), ("2026-11-19 19:00", 5.9302), ("2026-11-19 20:00", 5.9398),
+              ("2026-11-19 21:00", 5.9106), ("2026-11-20 18:00", 5.9450), ("2026-11-20 19:00", None),
+              ("2026-11-21 10:00", 5.9074)]
+    s = mundo.fechamento_br([utc(t) for t, _ in barras], [v for _, v in barras])
+    assert list(s.index.strftime("%Y-%m-%d")) == ["2026-11-18", "2026-11-19", "2026-11-20"]
+    assert s["2026-11-19"] == 5.9302 and s["2026-11-18"] == 5.8646 and s["2026-11-20"] == 5.9450
+
+
+def test_faixa_ignora_cambio_de_dia_sem_pregao_no_brasil(tmp_path):
+    import pandas as pd
+    from termometro import mundo
+    def grava(nome, linhas):
+        pd.Series(dict(linhas), name="valor").to_csv(tmp_path / f"{nome}.csv", index_label="data")
+    grava("brasil_bolsa", [("2026-11-18", 167500.0), ("2026-11-19", 166184.5)])
+    grava("extra_dolar", [("2026-11-18", 5.8646), ("2026-11-19", 5.9302), ("2026-11-20", 5.9450)])
+    dolar = next(c for c in mundo.cotacoes(tmp_path) if c["nome"] == "Dólar")
+    assert dolar["data"] == "2026-11-19" and dolar["ultimo"] == 5.9302 and dolar["variacao_pct"] == 1.12

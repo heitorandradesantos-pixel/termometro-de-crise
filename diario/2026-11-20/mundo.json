@@ -1740,19 +1740,19 @@
   },
   {
    "nome": "Dólar",
-   "ultimo": 5.9488,
+   "ultimo": 5.9302,
    "tipo": "brl",
    "serie": "extra_dolar",
-   "variacao_pct": 1.14,
-   "data": "2026-11-20"
+   "variacao_pct": 1.12,
+   "data": "2026-11-19"
   },
   {
    "nome": "Euro",
-   "ultimo": 6.5206,
+   "ultimo": 6.5045,
    "tipo": "brl",
    "serie": "extra_euro",
-   "variacao_pct": 1.13,
-   "data": "2026-11-20"
+   "variacao_pct": 1.1,
+   "data": "2026-11-19"
   },
   {
    "nome": "Dow Jones",

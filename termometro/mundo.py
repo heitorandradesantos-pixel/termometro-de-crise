@@ -214,10 +214,44 @@ def yahoo_recente(simbolo: str, dias: int = 40) -> pd.Series:
     return s[s > 0].dropna().groupby(level=0).last().sort_index()
 
 
+EM_REAIS = ("extra_dolar", "extra_euro")
+FECHA_CAMBIO = 17  # hora de São Paulo em que o dólar à vista fecha
+
+
+def fechamento_br(marcas: list, valores: list) -> pd.Series:
+    """Fechamento do câmbio em cada dia útil do Brasil, a partir das barras de 1 hora do Yahoo.
+
+    A barra diária do Yahoo para moedas vale por 24 h e vem carimbada com o dia seguinte: usada direto, mostrava o
+    dólar de um dia com a data de outro e a variação errada (reclamação do Heitor em 21/11/2026). Aqui o fechamento do
+    dia é o último preço antes das 17h de São Paulo, que é o número que sai no noticiário."""
+    s = pd.Series(valores, index=pd.to_datetime(marcas, unit="s", utc=True).tz_convert("America/Sao_Paulo"), dtype=float)
+    s = s[s > 0].dropna()
+    s = s[(s.index.hour < FECHA_CAMBIO) & (s.index.dayofweek < 5)]
+    dias = s.groupby(s.index.normalize().tz_localize(None)).last()
+    return dias.sort_index()
+
+
+def yahoo_cambio(simbolo: str) -> pd.Series:
+    r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{simbolo}", headers=UA, timeout=30,
+                     params={"range": "1mo", "interval": "1h"})
+    r.raise_for_status()
+    res = r.json()["chart"]["result"][0]
+    s = fechamento_br(res["timestamp"], res["indicators"]["quote"][0]["close"])
+    if len(s) < 2:
+        raise ValueError("barras de 1 hora vazias")
+    return s
+
+
 def coletar_extras(pasta: Path, relatorio: dict) -> None:
     for nome, simbolo in EXTRAS.items():
         try:
-            yahoo_recente(simbolo).rename("valor").to_csv(pasta / f"{nome}.csv", index_label="data")
+            try:
+                s = yahoo_cambio(simbolo) if nome in EM_REAIS else yahoo_recente(simbolo)
+            except Exception:  # sem as barras de 1 hora, vale a diária (pior, mas a faixa não fica sem dólar)
+                if nome not in EM_REAIS:
+                    raise
+                s = yahoo_recente(simbolo)
+            s.rename("valor").to_csv(pasta / f"{nome}.csv", index_label="data")
             relatorio[nome] = "ok"
         except Exception as erro:  # a faixa só perde um item; o termômetro não depende disso
             relatorio[nome] = f"faixa sem {simbolo}: {type(erro).__name__}"
@@ -405,6 +439,7 @@ def cotacoes(pasta: Path) -> list[dict]:
             return None
         return pd.read_csv(caminho, parse_dates=["data"]).set_index("data")["valor"].dropna()
     saida = []
+    bolsa = serie("brasil_bolsa")
     for rotulo, nome, tipo in FAIXA:
         s = serie(nome)
         if s is None and nome == "extra_dolar":  # reserva: a série do termômetro
@@ -412,6 +447,8 @@ def cotacoes(pasta: Path) -> list[dict]:
         if s is None and nome == "extra_euro":  # reserva: euro em reais = (reais por dólar) / (euros por dólar)
             brl, eur = serie("brasil_moeda"), serie("alemanha_moeda")
             s = (brl / eur).dropna() if brl is not None and eur is not None else None
+        if s is not None and tipo == "brl" and bolsa is not None and len(bolsa):
+            s = s[s.index <= bolsa.index[-1]]  # feriado no Brasil: o câmbio de fora não entra como fechamento daqui
         if s is None or len(s) < 2:
             continue
         ultimo, anterior = float(s.iloc[-1]), float(s.iloc[-2])
