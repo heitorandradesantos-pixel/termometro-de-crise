@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Quanto do seu salário vai só pra parcela? Em média, 29%.",
+  "na_tela": "29% do salário em parcela",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto do seu salário vai só pra parcela? Em média, 29%.",
+   "na_tela": "29% do salário em parcela",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "As famílias já devem 50,1% de um ano de renda. É recorde.",
+   "na_tela": "Dívida em 50,1% da renda",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Recorde de dívida não quer dizer que todo mundo está atrasado.",
+   "na_tela": "Dívida recorde, atraso não",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Quanto do seu salário vai só pra parcela? Em média, 29%.",
+  "Segundo o Banco Central, é o maior nível da série.",
+  "Tem dois números aí, e é fácil confundir.",
+  "Pensa num carnê: comprometimento é a parcela do mês, endividamento é o carnê todo.",
+  "O carnê todo, contra um ano de renda, deu 50,1%.",
+  "E o detalhe: são médias do país, e dever muito não é estar atrasado.",
+  "Segundo o BC, o juro médio do crédito livre foi 61,7% ao ano.",
+  "Antes de parcelar de novo, some o que já sai todo mês.",
+  "Quem aqui tem mais de um terço do salário indo pra parcela? Comenta EU.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Quanto do seu salário vai só pra parcela? Em média, 29%. Segundo o Banco Central, é o maior nível da série. Tem dois números aí, e é fácil confundir. Pensa num carnê: comprometimento é a parcela do mês, endividamento é o carnê todo. O carnê todo, contra um ano de renda, deu 50,1%. E o detalhe: são médias do país, e dever muito não é estar atrasado. Segundo o BC, o juro médio do crédito livre foi 61,7% ao ano. Antes de parcelar de novo, some o que já sai todo mês. Quem aqui tem mais de um terço do salário indo pra parcela? Comenta EU. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "29% do salário em parcela",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "29% da renda: maior da série",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 4,
+   "texto": "Endividamento: 50,1% da renda de 12 meses",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Médias do país, não a sua conta",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 6,
+   "texto": "Juro médio: 61,7% ao ano",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 5,
+ "busca": "quanto do salário vai para parcela",
+ "legenda": "Quanto do seu salário vai para parcela? Segundo o Banco Central, em média 29% da renda das famílias foi para dívidas e juros em agosto de 2026, o maior nível da série.\n\nNo mesmo mês, o endividamento chegou a 50,1% da renda de 12 meses, outro recorde. Os dados saíram em 29 de outubro.\n\nSão médias do país, não o caso de cada pessoa. Dever muito não é o mesmo que estar com pagamento atrasado. Ainda não se sabe quantas pessoas gastam mais de um terço do salário com parcelas.\n\nQuem aqui tem mais de um terço do salário indo pra parcela? Comenta EU. Não precisa dizer valor.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#educacaofinanceira #bancocentral #endividamento #dinheiro",
+ "hashtags": [
+  "#educacaofinanceira",
+  "#bancocentral",
+  "#endividamento",
+  "#dinheiro"
+ ],
+ "rua": {
+  "gancho": "Quanto do seu salário vai só pra parcela? Em média, 29%.",
+  "topicos": [
+   "Banco Central: 29% da renda das famílias foi pra dívidas e juros em agosto.",
+   "Já o endividamento, tudo que se deve contra um ano de renda, foi 50,1%.",
+   "São médias do país, e dever muito não é o mesmo que estar atrasado.",
+   "Antes de parcelar de novo, some o que já sai todo mês."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com dois números parecidos que se confundem, então pede a calma da bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Tem dois números aí, e é fácil confundir.\": fica didática e sem a energia do Heitor, e a fala seguinte já traz a comparação. Reescreva como reação de conversa, por exemplo \"Cara, tem dois números aí e todo mundo confunde.\" Isso abre a explicação sem acrescentar nenhum fato.",
+   "Frase \"O carnê todo, contra um ano de renda, deu 50,1%.\": \"contra um ano de renda\" ainda soa como economês e a fala fica pesada para o Teste do CLT. Traduza pelo efeito no bolso, por exemplo \"Somando o carnê todo, é como se metade de tudo que você ganha em um ano já tivesse dono: 50,1%.\" Deixe o número exato no cartão da tela.",
+   "Frase \"E o detalhe: são médias do país, e dever muito não é estar atrasado.\": são duas ideias numa fala, e a ressalva sai seca. Divida em duas falas curtas e com jeito de conversa: \"Isso é média do país, tá? Não é o caso de cada um.\" e depois \"E dever muito não é a mesma coisa que estar atrasado.\" Se couber, troque a abertura \"Quanto do seu salário...\" por uma reação do Heitor, como \"Cara, olha que loucura: 29% do salário indo só pra parcela.\""
+  ],
+  "veredito": "A peça acerta o essencial: Banco Central como fonte, a comparação do carnê, ressalvas honestas, um passo simples (\\\"some o que já sai todo mês\\\"), gatilho \\\"Comenta EU\\\" fácil e o bordão no fim. Falta soltar a voz do Heitor, com mais espanto e frases curtas, e simplificar as falas de \\\"endividamento\\\" e \\\"média do país\\\" para passar no Teste do CLT."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "ENVIO: o roteiro não tem nenhum pedido de envio e termina só no comentário. Antes do gatilho final, acrescente: \"Manda pra quem vive dizendo que o salário some em parcela.\" Também serve \"Manda pra quem tem carnê, financiamento ou cartão parcelado.\" Fica uma situação concreta e o número de 29% vira algo para mostrar.",
+   "RETENÇÃO (Teste do CLT): a fala \"O carnê todo, contra um ano de renda, deu 50,1%\" traz número quebrado e uma ideia difícil de pegar de primeira. A fala \"Tem dois números aí, e é fácil confundir\" também gasta tempo antes da explicação. Reescreva assim: \"Tem dois números aí. A parcela do mês é 29%. Já o carnê todo, somando tudo que você deve, passa de metade de um ano de renda: 50,1%.\" Mantém os mesmos números e fica numa ideia por fala. O 61,7% de juro, que é o número mais forte, está solto no fim. Dê a ele uma virada: \"E aí vem a parte que pesa: o juro médio do crédito livre foi 61,7% ao ano. Isso é o Banco Central falando, não sou eu.\"",
+   "PAGAMENTO e ritmo: o gancho promete \"quanto do seu salário vai pra parcela\" e paga logo, mas \"a média do país\" aparece só na 6ª fala. Aproxime a ressalva da resposta e use a voz do Heitor: \"Cara, 29% do salário vai só pra parcela. Em média. Segundo o Banco Central, é o maior nível da série.\" Depois: \"Média do país, tá? Não é o seu caso, necessariamente.\" O gancho segue específico e a ressalva chega cedo, sem aumentar o fato."
+  ],
+  "veredito": "O gancho com número do bolso e o gatilho \\\"Comenta EU\\\" são fortes, mas faltam o pedido de envio para uma situação concreta e uma virada mais clara no meio, com o 61,7% de juro dito em linguagem simples, para o vídeo circular e segurar quem nunca ouviu falar do Termômetro."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Vertical shot, : a long paper installment booklet with blank tear-off coupons lying on a wooden table, a hand-less slow dolly-in along the strip of coupons while one coupon gently lifts in a breeze, warm natural window light, shallow depth of field, no text or numbers visible",
+   "texto_da_fala": "Pensa num carnê: comprometimento é a parcela do mês, endividamento é o carnê todo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, : a long paper installment booklet with blank tear-off coupons lying on a wooden table, a hand-less slow dolly-in along the strip of coupons while one coupon gently lifts in a breeze, warm natural window light, shallow depth of field, no text or numbers visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot, : aerial drone view slowly rising over a vast Brazilian landscape of city rooftops, apartment blocks and distant farmland at golden hour, smooth upward crane movement revealing the scale of the country, no text, no flags, no logos",
+   "texto_da_fala": "E o detalhe: são médias do país, e dever muito não é estar atrasado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, : aerial drone view slowly rising over a vast Brazilian landscape of city rooftops, apartment blocks and distant farmland at golden hour, smooth upward crane movement revealing the scale of the country, no text, no flags, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Vertical shot, : close-up of a kitchen table with a blank notepad, a simple calculator with a blurred unreadable display, a coffee cup and a few paper envelopes, slow top-down camera push-in then slight tilt, soft morning light, no readable text, no numbers, no faces",
+   "texto_da_fala": "Antes de parcelar de novo, some o que já sai todo mês.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, : close-up of a kitchen table with a blank notepad, a simple calculator with a blurred unreadable display, a coffee cup and a few paper envelopes, slow top-down camera push-in then slight tilt, soft morning light, no readable text, no numbers, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Quanto do seu salário vai só pra parcela? Em média, 29%.\n\nSegundo o Banco Central, é o maior nível da série.\n\nTem dois números aí, e é fácil confundir.\n\nPensa num carnê: comprometimento é a parcela do mês, endividamento é o carnê todo.\n\nO carnê todo, contra um ano de renda, deu 50,1%.\n\nE o detalhe: são médias do país, e dever muito não é estar atrasado.\n\nSegundo o BC, o juro médio do crédito livre foi 61,7% ao ano.\n\nAntes de parcelar de novo, some o que já sai todo mês.\n\nQuem aqui tem mais de um terço do salário indo pra parcela? Comenta EU.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/endividamento-das-familias-chegou-a-501-em-agosto-segundo-bc",
+   "destaque": "O comprometimento da renda, ou seja, a parte da renda que vai por mês para pagar dívidas e juros, ficou em 29% em agosto."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/juros-para-familias-sobem-em-agosto-e-inadimplencia-chega-6",
+   "destaque": "Em 29 de setembro, o BC informou que o juro médio do crédito livre para pessoas físicas foi de 61,7% ao ano em agosto, alta de 1,4 ponto…"
+  }
+ ],
+ "data": "2026-11-21",
+ "gerado_em": "2026-11-21T07:09:31.571687-03:00"
+}
