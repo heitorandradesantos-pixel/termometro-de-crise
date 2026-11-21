@@ -14,7 +14,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from . import config
+from . import calculadoras, config
 
 BRASILIA = ZoneInfo("America/Sao_Paulo")
 REVISADO = "08/11/2026"  # última revisão dos horários e dos calendários
@@ -437,7 +437,7 @@ def pagina_nova_york(hoje: date) -> str:
 def ferramentas() -> str:
     return ('<p class="trilha"><a href="../index.html">Início</a> › Ferramentas</p>'
             '<section class="edicao"><h1>Ferramentas</h1><p>Ferramentas grátis do Termômetro de Crise para o dia a dia do '
-            'seu dinheiro.</p><div class="lista"><a href="../horario-bolsas/index.html"><strong>Horário das bolsas</strong>'
+            'seu dinheiro.</p><div class="lista">' + calculadoras.lista() + '<a href="../horario-bolsas/index.html"><strong>Horário das bolsas</strong>'
             '<br><span class="suave">Que horas abre e fecha cada bolsa do mundo, no horário de Brasília, com a hora local '
             'agora.</span></a>'
             '<a href="../index.html#mapa"><strong>Mapa do mundo</strong><br><span class="suave">O termômetro de cada '
@@ -487,6 +487,6 @@ def gerar(saida: Path, pagina, hoje: date | None = None) -> list[str]:
         "Que horas abrem a NYSE e a Nasdaq no horário de Brasília hoje, com horário de verão e feriados da bolsa americana.",
         pagina_nova_york(hoje), raiz="../", caminho="horario-bolsas/nova-york.html", extra_css=CSS))
     (saida / "ferramentas" / "index.html").write_text(pagina(
-        f"Ferramentas · {config.NOME}", "Ferramentas grátis do Termômetro de Crise: horário das bolsas do mundo.",
+        f"Ferramentas · {config.NOME}", "Ferramentas grátis do Termômetro de Crise: calculadoras de juros compostos, inflação, Selic e dólar no cartão, e o horário das bolsas.",
         ferramentas(), raiz="../", caminho="ferramentas/index.html"))
     return ["horario-bolsas/index.html", "horario-bolsas/b3.html", "horario-bolsas/nova-york.html", "ferramentas/index.html"]

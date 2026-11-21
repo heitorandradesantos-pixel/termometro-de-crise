@@ -572,6 +572,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
         acoes,
         arquivo,
         bolsas,
+        calculadoras,
         fechamento,
         paginas,
         painel,
@@ -721,6 +722,7 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas += mapa_arquivo + [c for c in paginas_lista_edicoes if c != "edicoes/index.html"] + ["correcoes.html"]
     novas += paginas_cotacoes + paginas_plantao
     novas += bolsas.gerar(saida, pagina)
+    novas += calculadoras.gerar(saida, pagina, diario_dir)
     painel.gerar(saida)  # /painel/: privado, fora do menu, do sitemap e do Google
     novas += paginas_newsletter(saida, lista[0][0] if lista else "")
     from . import lp
