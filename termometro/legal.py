@@ -15,16 +15,16 @@ ATUALIZADO = "14 de novembro de 2026"
 def _navegacao() -> str:
     if config.ADSENSE_CLIENT:
         return ("O site não usa cookies próprios, mas exibe anúncios do Google AdSense, que usa cookies e tecnologias "
-                "parecidas para mostrar e medir anúncios. As páginas do teste (/quiz/) e de venda do Manual (/manual/) usam o "
-                "Pixel do Meta para medir os anúncios (veja a seção 9).")
-    return ("O site não usa cookies próprios. Só as páginas do teste (/quiz/) e de venda do Manual (/manual/) usam o Pixel "
+                "parecidas para mostrar e medir anúncios. As páginas do teste (/quiz/), de venda do Manual (/manual/) e das "
+                "calculadoras (/ferramentas/) usam o Pixel do Meta para medir os anúncios (veja a seção 9).")
+    return ("O site não usa cookies próprios. Só as páginas do teste (/quiz/), de venda do Manual (/manual/) e das calculadoras (/ferramentas/) usam o Pixel "
             "do Meta para medir os anúncios (veja a seção 9).")
 
 
-PIXEL_META = """<p><b>Pixel do Meta.</b> As páginas do teste (/quiz/) e de venda do Manual do Investidor (/manual/) usam o Pixel
-do Meta (Facebook e Instagram), uma ferramenta que registra visitas e ações nessas páginas (abrir a página, começar e
-terminar o teste, clicar no botão de compra) para medir e melhorar os nossos anúncios. O Meta pode usar cookies e dados do
-seu navegador para isso. Não enviamos as suas respostas do teste. A compra é feita na Kiwify, que tem a política de
+PIXEL_META = """<p><b>Pixel do Meta.</b> As páginas do teste (/quiz/), de venda do Manual do Investidor (/manual/) e das calculadoras
+(/ferramentas/) usam o Pixel do Meta (Facebook e Instagram), uma ferramenta que registra visitas e ações nessas páginas (abrir
+a página, começar e terminar o teste, usar uma calculadora, clicar no botão de compra ou no convite do grupo do WhatsApp) para medir e melhorar os nossos anúncios. O Meta pode usar cookies e dados do
+seu navegador para isso. Não enviamos as suas respostas do teste nem os valores que você digita nas calculadoras. A compra é feita na Kiwify, que tem a política de
 privacidade dela. Você pode controlar os anúncios que vê nas
 <a href="https://www.facebook.com/adpreferences" target="_blank" rel="noopener">Preferências de anúncios do Meta</a> e
 bloquear cookies no seu navegador.</p>"""

@@ -373,7 +373,7 @@ def nova_aba(html_corpo: str) -> str:
 
 
 def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str = "", caminho: str = "",
-           extra_css: str = "", sem_faixa: bool = False, sem_anuncio: bool = False) -> str:
+           extra_css: str = "", sem_faixa: bool = False, sem_anuncio: bool = False, cabeca: str = "") -> str:
     url = config.url_publica(caminho) if config.SITE_URL else ""
     og_img = f"{config.SITE_URL}/{imagem}" if config.SITE_URL and imagem else ""
     adsense = (f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={config.ADSENSE_CLIENT}" '
@@ -389,7 +389,7 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="icon" href="{raiz}favicon.svg" type="image/svg+xml"><link rel="icon" href="{raiz}favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="{raiz}apple-touch-icon.png"><meta name="theme-color" content="#0E141B">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-<style>{CSS}{extra_css}</style>{conta_ads}{adsense}</head>
+<style>{CSS}{extra_css}</style>{conta_ads}{adsense}{cabeca}</head>
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">{SIMBOLO}TERMÔMETRO DE CRISE</a>
 <nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>

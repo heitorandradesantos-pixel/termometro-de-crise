@@ -29,6 +29,10 @@ sem vazar dado pessoal e sem expor segredo no repositório (que é público).
 | /quiz/ | Lead | clicou no botão do resultado e foi para a página de venda |
 | /manual/ | PageView, ViewContent (R$ 19,90) | abriu a página de venda |
 | /manual/ | CliqueCheckout (personalizado) | clicou em qualquer botão de compra |
+| /ferramentas/*.html (calculadoras) | PageView | abriu a calculadora |
+| /ferramentas/*.html (calculadoras) | CalculadoraUsada (personalizado) | mudou algum campo pela primeira vez (vai só o nome da calculadora, nunca o valor digitado) |
+| /ferramentas/*.html (calculadoras) | CliqueGrupoWhatsApp (personalizado) | clicou em "Entrar no grupo do WhatsApp" |
+| /ferramentas/*.html (calculadoras) | CliqueQuiz (personalizado) | clicou no convite para o teste |
 | Kiwify | InitiateCheckout, Purchase | checkout aberto / pagamento aprovado (Pix e boleto só quando pagos) |
 
 ## Otimização da campanha

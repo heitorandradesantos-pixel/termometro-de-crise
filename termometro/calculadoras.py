@@ -42,7 +42,7 @@ CSS = """
 .calc .leg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
 .calc table{font-size:15px}.calc td,.calc th{padding:10px 6px}.calc td:not(:first-child),.calc th:not(:first-child){text-align:right}
 .calc .melhor td{color:#F2C14E;font-weight:600}
-.calc-nota{font-size:13px;color:var(--suave)}.calc-texto{max-width:760px}.calc-texto h2{font-size:22px;margin-top:32px}
+.calc-nota{font-size:13px;color:var(--suave)}.convite{max-width:760px}.convite p{margin:0 0 4px}.calc-texto{max-width:760px}.calc-texto h2{font-size:22px;margin-top:32px}
 .outras{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
 .outras a{display:block;background:var(--painel);border:1px solid #233140;border-radius:12px;padding:14px 16px;color:var(--texto);text-decoration:none;font-weight:600}
 .outras a:hover{border-color:#3A5066;background:#1E2A37;color:var(--texto)}.outras span{display:block;font-weight:400;font-size:13px;color:var(--suave);margin-top:2px}
@@ -110,6 +110,14 @@ poe('frase',usd&&cot?'Cada dólar da compra sai por cerca de '+brl(total/usd)+',
 liga(calcula);
 """
 
+# Medição dos anúncios (regras em manuais/trackeamento.md): nenhum valor digitado vai para o Meta, só o nome da calculadora.
+JS_EVENTOS = """
+(function(){var usou=0;function uso(){if(usou||!window.tc_evento)return;usou=1;tc_evento('CalculadoraUsada',{calculadora:'__SLUG__'},1)}
+var c=document.querySelectorAll('.calc input,.calc select');for(var i=0;i<c.length;i++)c[i].addEventListener('change',uso);
+var g=document.getElementById('cta-grupo');if(g)g.addEventListener('click',function(){window.tc_evento&&tc_evento('CliqueGrupoWhatsApp',{origem:'__SLUG__'},1)});
+var q=document.getElementById('cta-quiz');if(q)q.addEventListener('click',function(){window.tc_evento&&tc_evento('CliqueQuiz',{origem:'__SLUG__'},1)})})();
+"""
+
 OUTRAS = {"juros-compostos": ("Juros compostos", "Quanto vira guardar todo mês"),
           "inflacao": ("Inflação (IPCA)", "Quanto o seu dinheiro perdeu"),
           "rendimento-selic": ("Quanto rende na Selic", "Poupança, Tesouro Selic e CDB"),
@@ -157,6 +165,17 @@ def _outras(atual: str) -> str:
     return f'<h2>Outras calculadoras</h2><div class="outras">{itens}</div>'
 
 
+def _convite() -> str:
+    """Depois do resultado: o grupo do WhatsApp (ação principal) e o teste do Manual (o funil de venda)."""
+    grupo = (f'<a class="acao" id="cta-grupo" href="{html.escape(config.WHATSAPP_URL)}" target="_blank" rel="noopener">'
+             f'Entrar no grupo do WhatsApp</a>') if config.WHATSAPP_URL else ""
+    return (f'<aside class="celular convite"><h2>Quer acompanhar o seu dinheiro todo dia?</h2>'
+            f'<p>No grupo do WhatsApp do Termômetro de Crise chega, todo dia útil no fim da tarde, o fechamento da bolsa e do '
+            f'dólar e as notícias que mexem com o seu bolso, com fonte. É grátis e você sai quando quiser.</p>'
+            f'<div class="acoes">{grupo}<a class="contorno" id="cta-quiz" data-rastro href="../quiz/">Fazer o teste: o que o gerente não te conta</a></div>'
+            f'<small>Sem recomendação de investimento.</small></aside>')
+
+
 def _moldura(slug: str, titulo: str, lead: str, formulario: str, saida: str, texto: str, js: str) -> str:
     return (f'<p class="trilha"><a href="../index.html">Início</a> › <a href="index.html">Ferramentas</a> › {html.escape(OUTRAS[slug][0])}</p>'
             f'<section class="edicao" style="max-width:none;padding-top:8px"><h1>{titulo}</h1><p class="suave" style="max-width:760px">{lead}</p>'
@@ -164,7 +183,8 @@ def _moldura(slug: str, titulo: str, lead: str, formulario: str, saida: str, tex
             f'<div class="saida" aria-live="polite">{saida}</div></div>'
             f'<p class="calc-nota">Simulação educativa, feita no seu aparelho: nada do que você digita é enviado para nós. '
             f'Não é recomendação de investimento nem garantia de resultado.</p>'
-            f'<div class="calc-texto">{texto}{_outras(slug)}</div></section><script>{JS_COMUM}{js}</script>')
+            f'{_convite()}'
+            f'<div class="calc-texto">{texto}{_outras(slug)}</div></section><script>{JS_COMUM}{js}{JS_EVENTOS.replace("__SLUG__", slug)}</script>')
 
 
 def juros(selic: float) -> str:
@@ -271,6 +291,7 @@ def lista() -> str:
 
 def gerar(saida: Path, pagina, pasta_diario: Path | None = None) -> list[str]:
     """Grava as quatro calculadoras em ferramentas/ e devolve os caminhos para o mapa do site."""
+    from . import lp  # aqui dentro para não haver importação circular
     selic, cotacao, quando = _do_dia(pasta_diario)
     fator, ate = ipca_corrente()
     pasta = saida / "ferramentas"
@@ -291,5 +312,5 @@ def gerar(saida: Path, pagina, pasta_diario: Path | None = None) -> list[str]:
     }
     for slug, (titulo, descricao, corpo) in paginas.items():
         (pasta / f"{slug}.html").write_text(pagina(titulo, descricao, corpo, raiz="../", caminho=f"ferramentas/{slug}.html",
-                                                   extra_css=CSS))
+                                                   extra_css=CSS, cabeca=lp.PIXEL_JS))
     return [f"ferramentas/{slug}.html" for slug in paginas]
