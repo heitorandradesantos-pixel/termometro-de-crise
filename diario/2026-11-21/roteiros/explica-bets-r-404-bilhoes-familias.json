@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Pergunta + pegadinha",
+  "texto": "R$ 40,4 bilhões das famílias foram parar nas bets? Tem uma pegadinha nesse número.",
+  "na_tela": "R$ 40,4 bilhões: tem PEGADINHA",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta + pegadinha",
+   "texto": "R$ 40,4 bilhões das famílias foram parar nas bets? Tem uma pegadinha nesse número.",
+   "na_tela": "R$ 40,4 bilhões: tem PEGADINHA",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Em 2025, R$ 62,5 bilhões. Em 2026, R$ 40,4 bilhões só até julho.",
+   "na_tela": "R$ 62,5 bi → R$ 40,4 bi",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Bets tiraram R$ 40,4 bilhões? Calma, o número não mede só aposta.",
+   "na_tela": "Não mede só APOSTA",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 40,4 bilhões das famílias foram parar nas bets? Tem uma pegadinha nesse número.",
+  "O Comsefaz, dos secretários de Fazenda, estimou isso de janeiro a julho.",
+  "Só que a conta pega o Pix do setor inteiro, não só aposta.",
+  "Em 2025, o mesmo cálculo deu R$ 62,5 bilhões, o ano inteiro.",
+  "Os R$ 40,4 bilhões já são 64,6% disso, em menos tempo.",
+  "Isso não prova que a bet causou o aperto: é sinal amarelo, não febre.",
+  "Calma: anota quanto sai por mês em parcela e aposta.",
+  "Manda pra quem anda com a conta apertada.",
+  "Conhece alguém que perdeu dinheiro em bet? Comenta EU.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 40,4 bilhões das famílias foram parar nas bets? Tem uma pegadinha nesse número. O Comsefaz, dos secretários de Fazenda, estimou isso de janeiro a julho. Só que a conta pega o Pix do setor inteiro, não só aposta. Em 2025, o mesmo cálculo deu R$ 62,5 bilhões, o ano inteiro. Os R$ 40,4 bilhões já são 64,6% disso, em menos tempo. Isso não prova que a bet causou o aperto: é sinal amarelo, não febre. Calma: anota quanto sai por mês em parcela e aposta. Manda pra quem anda com a conta apertada. Conhece alguém que perdeu dinheiro em bet? Comenta EU. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 40,4 bilhões: tem PEGADINHA",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Comsefaz: jan a jul de 2026",
+   "fonte": "SP Diário"
+  },
+  {
+   "fala": 2,
+   "texto": "Pix do setor inteiro, não só bets",
+   "fonte": "Agora RN"
+  },
+  {
+   "fala": 3,
+   "texto": "2025: R$ 62,5 bilhões",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 4,
+   "texto": "R$ 40,4 bilhões = 64,6%",
+   "fonte": "SP Diário"
+  },
+  {
+   "fala": 5,
+   "texto": "Sinal amarelo, não febre",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Anota: parcela + aposta",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "bets tiraram R$ 40,4 bilhões das famílias",
+ "legenda": "Bets tiraram R$ 40,4 bilhões das famílias? Segundo o Comsefaz, comitê dos secretários de Fazenda dos estados, essa é a estimativa de janeiro a julho de 2026.\n\nO cuidado: a conta usa o Pix de um setor inteiro (artes, cultura, esporte e recreação), então não mede só aposta. Para 2025, o mesmo cálculo deu R$ 62,5 bilhões, e os R$ 40,4 bilhões de 2026 já são 64,6% disso.\n\nO que ainda não se sabe: quanto é de fato aposta e se as bets causaram o aperto das famílias. O boletim vai só até julho.\n\nPasso calmo: anote quanto sai por mês em parcela e aposta. Manda pra quem anda com a conta apertada.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bets #dinheiro #educacaofinanceira #endividamento",
+ "hashtags": [
+  "#bets",
+  "#dinheiro",
+  "#educacaofinanceira",
+  "#endividamento"
+ ],
+ "rua": {
+  "gancho": "Bets tiraram R$ 40,4 bilhões das famílias? O número tem pegadinha.",
+  "topicos": [
+   "Comsefaz estimou R$ 40,4 bilhões saindo das famílias para bets, de janeiro a julho.",
+   "O Comsefaz avisa: o Pix é do setor todo, não só de aposta.",
+   "Em 2025 deu R$ 62,5 bilhões. Os R$ 40,4 bilhões já são 64,6% disso.",
+   "Calma: anota quanto sai por mês em parcela e aposta."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários números e ressalvas, que pede calma e prova na tela, não notícia de plantão.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Na frase \"O Comsefaz, dos secretários de Fazenda, estimou isso de janeiro a julho\": nome de fonte técnica não vai na fala (Teste do CLT). Reescreva como \"Isso é uma estimativa dos governos dos estados, de janeiro a julho\" e deixe Comsefaz no cartão da tela e na legenda.",
+   "Nas frases \"Em 2025, o mesmo cálculo deu R$ 62,5 bilhões\" e \"Os R$ 40,4 bilhões já são 64,6% disso\": cada uma traz mais de um número, e os decimais ficam pesados de ouvir. Separe em falas curtas, com um número redondo em cada, e deixe o exato no cartão. Em \"a conta pega o Pix do setor inteiro\", acrescente uma comparação do dia a dia, como somar o caixa do shopping inteiro e dizer que é tudo de uma loja só. Isso dá a imagem viva que falta ao sanguíneo.",
+   "Em \"Conhece alguém que perdeu dinheiro em bet? Comenta EU\": a pergunta é sobre \"alguém\", mas a resposta pedida é EU. Troque por uma confissão leve, como \"Quem aqui já gastou em bet sem perceber? Comenta EU\", sem pedir valor. Abra com a reação do Heitor (\"Cara, olha esse número\") e feche com \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" antes do bordão final."
+  ],
+  "veredito": "A peça é honesta e acolhedora, tem o sinal amarelo, o que ainda não se sabe e um passo calmo no fim. Mas ela fala como boletim técnico: cita a fonte pelo nome, empilha números numa fala só, não traz uma comparação do dia a dia e não tem a abertura do Heitor nem o aviso padrão do fim."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Só que a conta pega o Pix do setor inteiro, não só aposta.\" Reescrita: \"Só que esse número pega o Pix de tudo que é lazer e esporte, não só aposta.\" Fica claro de primeira e a pegadinha é paga perto dos 10 s.",
+   "Frases \"Em 2025, o mesmo cálculo deu R$ 62,5 bilhões, o ano inteiro. Os R$ 40,4 bilhões já são 64,6% disso, em menos tempo.\" Reescrita: \"E aí vem a parte que pouca gente viu: ano passado, o mesmo cálculo deu R$ 62,5 bilhões. O ano inteiro. Este ano, em sete meses, já são uns dois terços disso.\" O 64,6% exato fica no cartão da tela.",
+   "Frase \"Conhece alguém que perdeu dinheiro em bet? Comenta EU.\" Reescrita: \"Esse número é sinal amarelo ou exagero? Comenta 1 ou 2.\" Solte outro gatilho no meio, depois da pegadinha: \"Você achava que era tudo aposta? SIM ou NÃO.\""
+  ],
+  "veredito": "Gancho forte, com número específico e pegadinha, e o envio mira uma situação concreta; falta deixar a comparação de números mais fácil de ouvir e trocar o gatilho final por uma escolha simples de lado."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a smartphone lying on a wooden counter in a busy small shop, its screen glowing with an abstract blue payment-confirmation checkmark animation with no text or numbers. Camera slowly dollies right, revealing blurred shelves, a card machine and hands (out of focus, no faces) handing over items in the background. Warm natural light, shallow depth of field",
+   "texto_da_fala": "Só que a conta pega o Pix do setor inteiro, não só aposta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a smartphone lying on a wooden counter in a busy small shop, its screen glowing with an abstract blue payment-confirmation checkmark animation with no text or numbers. Camera slowly dollies right, revealing blurred shelves, a card machine and hands (out of focus, no faces) handing over items in the background. Warm natural light, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Slow upward tilt along a tall stack of blank paper sheets and ledger books on a government office desk, with a wall of filing cabinets blurred behind. Dust particles floating in a shaft of sunlight. Camera dollies gently forward, no text, no numbers, no logos, no people. Neutral, realistic cinematic look",
+   "texto_da_fala": "Em 2025, o mesmo cálculo deu R$ 62,5 bilhões, o ano inteiro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along a tall stack of blank paper sheets and ledger books on a government office desk, with a wall of filing cabinets blurred behind. Dust particles floating in a shaft of sunlight. Camera dollies gently forward, no text, no numbers, no logos, no people. Neutral, realistic cinematic look. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Top-down shot of a kitchen table with a blank paper notebook, a pen, a calculator with a blank dark screen, and a few loose coins and unmarked paper envelopes. A hand (no face, no identifiable features) begins to write abstract lines on the page with no readable letters or numbers. Camera slowly pushes in from above, soft morning window light, cozy realistic style",
+   "texto_da_fala": "Calma: anota quanto sai por mês em parcela e aposta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down shot of a kitchen table with a blank paper notebook, a pen, a calculator with a blank dark screen, and a few loose coins and unmarked paper envelopes. A hand (no face, no identifiable features) begins to write abstract lines on the page with no readable letters or numbers. Camera slowly pushes in from above, soft morning window light, cozy realistic style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 40,4 bilhões das famílias foram parar nas bets? Tem uma pegadinha nesse número.\n\nO Comsefaz, dos secretários de Fazenda, estimou isso de janeiro a julho.\n\nSó que a conta pega o Pix do setor inteiro, não só aposta.\n\nEm 2025, o mesmo cálculo deu R$ 62,5 bilhões, o ano inteiro.\n\nOs R$ 40,4 bilhões já são 64,6% disso, em menos tempo.\n\nIsso não prova que a bet causou o aperto: é sinal amarelo, não febre.\n\nCalma: anota quanto sai por mês em parcela e aposta.\n\nManda pra quem anda com a conta apertada.\n\nConhece alguém que perdeu dinheiro em bet? Comenta EU.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/familias-brasileiras-perderam-r-625-bilhoes-para-bets-em-2025",
+   "destaque": "Para 2025, o mesmo conceito deu R$ 62,5 bilhões, número que a Agência Brasil publicou em 06/08."
+  }
+ ],
+ "data": "2026-11-21",
+ "gerado_em": "2026-11-21T07:03:00.515200-03:00"
+}
