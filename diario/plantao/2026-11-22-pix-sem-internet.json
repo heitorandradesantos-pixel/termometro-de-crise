@@ -1,0 +1,128 @@
+{
+ "titulo": "Pix sem internet: o que se sabe sobre o Pix off-line",
+ "descricao": "O BC projeta o Pix por aproximação sem internet para quem paga, mas sem data. Veja o que vale hoje, os números do Pix e como evitar golpe.",
+ "palavra_chave": "pix sem internet",
+ "lead": "O Banco Central diz que projeta um Pix por aproximação que funciona sem internet, usando NFC (tecnologia de pagar encostando o aparelho). A nota é de 16 de novembro e cita celulares, cartões com chip, tags e relógios ou pulseiras. Ele ainda não está liberado e não tem data para chegar.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em nota de 16 de novembro, que marcou os seis anos do Pix, o Banco Central disse que projeta pagamentos por aproximação sem conexão à internet, por NFC, em celulares, cartões com chip, tags (etiquetas de pagamento) e wearables (relógios e pulseiras).",
+   "fonte_url": "https://www.moneytimes.com.br/banco-central-projeta-pix-por-aproximacao-offline-e-integracao-internacional-mlem/",
+   "data": "2026-11-16",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O Pix off-line ainda está em desenvolvimento e não pode ser usado pelos consumidores. O Banco Central não anunciou data de lançamento.",
+   "fonte_url": "https://www.horabrasil.com.br/2026/11/17/pix-sem-internet-banco-central-anuncia-novidade-que-permitira-pagar-sem-conexao/",
+   "data": "2026-11-17",
+   "veiculo": "Hora Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Hoje, o Pix por aproximação, em funcionamento desde fevereiro de 2025, exige que o aparelho de quem paga e o de quem recebe tenham NFC e estejam conectados à internet.",
+   "fonte_url": "https://feebsc.org.br/banco-central-projeta-pix-sem-internet-para-os-proximos-anos/",
+   "data": "2026-11-16",
+   "veiculo": "FEEB-SC",
+   "confiavel": false
+  },
+  {
+   "texto": "O modelo em estudo é descrito como de 'pagador offline': quem paga não precisa de internet, mas o estabelecimento e a estrutura que liquida (conclui) o pagamento seguem dependendo de uma arquitetura que valide a operação. O projeto não confirma que a maquininha poderá ficar offline.",
+   "fonte_url": "https://tvtnews.com.br/pix-completa-6-anos-pagamento-sem-internet/",
+   "data": "2026-11-16",
+   "veiculo": "TVT News",
+   "confiavel": false
+  },
+  {
+   "texto": "Hoje o Pix por aproximação funciona em celulares Android pelas carteiras Google Pay e Samsung Wallet. No iPhone ainda não, porque o Apple Pay não oferece suporte ao Pix por aproximação. Desde 1º de outubro, o teto diário de R$ 500 para esse tipo de Pix deixou de existir.",
+   "fonte_url": "https://convergenciadigital.com.br/mercado/pix-chega-aos-seis-anos-e-projeta-novos-servicos-aos-brasileiros/",
+   "data": "2026-11-16",
+   "veiculo": "Convergência Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "Números do Banco Central: de janeiro a outubro de 2026, o Pix somou 76 bilhões de transações, alta de 17,6% sobre o mesmo período de 2025. Em 6 de novembro, houve recorde de 319,7 milhões de operações em um só dia. O recorde anterior era de 318,1 milhões, em 4 de setembro.",
+   "fonte_url": "https://www.nsctotal.com.br/economia/pix-6-anos-1-bilhao-chaves-integracao-internacional",
+   "data": "2026-11-06",
+   "veiculo": "NSC Total",
+   "confiavel": false
+  },
+  {
+   "texto": "Em outubro de 2026, o Pix foi usado por 154 milhões de pessoas físicas, o equivalente a 89% dos adultos do país, e por 14 milhões de empresas.",
+   "fonte_url": "https://www.infomoney.com.br/minhas-financas/pix-faz-6-anos-e-ja-responde-por-mais-da-metade-dos-pagamentos-no-brasil/",
+   "data": "2026-11-16",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O MED (Mecanismo Especial de Devolução) existe para facilitar a recuperação de valores em casos de fraude, golpe, crime ou falha operacional. Ele não serve para cancelar qualquer Pix: não cobre arrependimento de compra, erro de valor nem chave errada. O prazo para quem enviou um Pix e foi vítima de fraude é de 80 dias, contados da transação.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
+   "data": "2026-09-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Nova regra do Pix amplia de 30 para 80 dias o prazo para contestar uma devolução feita pelo MED, em meio à implantação do MED 2.0.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
+   "data": "2026-09-01",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Pix por aproximação deixa de ter o teto diário de R$ 500.",
+   "fonte_url": "https://convergenciadigital.com.br/mercado/pix-chega-aos-seis-anos-e-projeta-novos-servicos-aos-brasileiros/",
+   "data": "2026-10-01",
+   "veiculo": "Convergência Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "O Pix bate recorde de 319,7 milhões de transações em um só dia, com R$ 180,5 bilhões movimentados.",
+   "fonte_url": "https://www.nsctotal.com.br/economia/pix-6-anos-1-bilhao-chaves-integracao-internacional",
+   "data": "2026-11-06",
+   "veiculo": "NSC Total",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central diz, na nota dos seis anos do Pix, que projeta o Pix por aproximação sem internet. A nota não informa data.",
+   "fonte_url": "https://www.moneytimes.com.br/banco-central-projeta-pix-por-aproximacao-offline-e-integracao-internacional-mlem/",
+   "data": "2026-11-16",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Veículos reforçam que o Pix off-line ainda não pode ser usado e que não há data de lançamento.",
+   "fonte_url": "https://www.horabrasil.com.br/2026/11/17/pix-sem-internet-banco-central-anuncia-novidade-que-permitira-pagar-sem-conexao/",
+   "data": "2026-11-17",
+   "veiculo": "Hora Brasil",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quando o Pix off-line vai chegar. A nota do Banco Central não traz data.",
+  "Se a maquininha ou o estabelecimento também poderão funcionar sem internet. O Banco Central não confirmou isso até agora.",
+  "Quais regras, limites de valor e condições de segurança valerão para o Pix off-line. Segundo a imprensa, o BC ainda deve detalhar como o pagamento será processado, validado e liquidado.",
+  "Quais bancos, aparelhos e carteiras digitais vão oferecer o recurso, e se ele chegará ao iPhone. Nada disso foi confirmado.",
+  "Se o recurso vai ajudar no metrô ou em regiões sem sinal. Isso depende dos detalhes acima e ainda não foi confirmado."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje nada muda: sem internet no celular, o Pix por aproximação não funciona. Não existe opção para ativar o Pix off-line nos aplicativos dos bancos.",
+  "Se o recurso sair como o Banco Central descreveu, ele pode ajudar quando só o celular de quem paga estiver sem sinal. Isso pode valer, por exemplo, no metrô ou em áreas do interior. Mas isso depende de a maquininha também conseguir validar o pagamento, e esse ponto não foi confirmado.",
+  "Para quem paga com relógio ou pulseira, a ideia é poder encostar o aparelho na maquininha sem celular conectado. Hoje isso ainda não é liberado para uso geral.",
+  "Se você cair em um golpe, o MED continua valendo: avise o seu banco logo, pelo aplicativo, e peça a contestação. A devolução depende da análise e do saldo que existir na conta de quem recebeu.",
+  "Pergunta para os comentários: você usaria Pix encostando o relógio na maquininha? SIM ou NÃO."
+ ],
+ "como_se_proteger": [
+  "O Pix off-line ainda não foi liberado. Desconfie de quem oferecer 'ativar o Pix off-line' agora, por mensagem, link, ligação ou aplicativo.",
+  "Não passe senha, código de verificação nem dados do cartão para ninguém, mesmo que a pessoa diga ser de um banco ou do Banco Central.",
+  "Só confie em novidades que apareçam no aplicativo oficial do seu banco, baixado na loja oficial do celular. Em caso de dúvida, ligue para o número que está no seu cartão.",
+  "Não pague taxa para 'liberar' um recurso do Pix. Não há anúncio do Banco Central de cobrança para isso.",
+  "Se perceber que enviou Pix em um golpe, abra a contestação do MED no app do seu banco na hora. Guarde prints e comprovantes.",
+  "Lembre que o MED não cobre arrependimento de compra, valor errado nem chave errada."
+ ],
+ "slug": "pix-sem-internet",
+ "publicado_em": "2026-11-22T06:39:22.479471",
+ "atualizado_em": "2026-11-22T06:39:22.479471",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) o Pix vai funcionar sem internet? O Banco Central projeta o Pix por aproximação off-line, encostando celular, cartão com chip, relógio ou pulseira na maquininha, ainda sem data para chegar (nota do Banco Central de 16/11/2026, bcb.gov.br, citada pela Agência O Globo/Folha PE em 16/11/2026). Números do Pix: 76 bilhões de transações de janeiro a outubro de 2026 (+17,6%), recorde de 319,7 milhões de operações num só dia em 06/11/2026, 154 milhões de pessoas usando (89% dos adultos) e 14 milhões de empresas (Banco Central e Relatório de Gestão do Pix 2023-2025). Explique o que muda pro dia a dia (pagar no metrô, no interior sem sinal), o que ainda NÃO existe (não é liberado para uso geral hoje, então quem oferecer \"Pix off-line\" agora pode ser golpe) e lembrar o MED para devolução em caso de golpe. Gatilho: \"Você usaria Pix encostando o relógio na maquininha? SIM ou NÃO.\" Sem citar banco como vilão, sem recomendação de investimento.",
+ "turno": "manha"
+}
