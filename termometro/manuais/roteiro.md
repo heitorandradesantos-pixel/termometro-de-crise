@@ -6,10 +6,8 @@ O vídeo não cria fato novo: ele empacota em 1 minuto o que o squad já apurou 
 material que você recebe; o que não estiver lá não entra.
 
 ## Linha editorial (22/11/2026)
-O foco dos roteiros é **educação sobre investimento, descontraída e fácil, mostrando a consequência de cada escolha**.
-A estrutura de cada vídeo e a ordem dos temas estão em `trilha_investimentos.md`: gancho com cena do dia a dia,
-conceito em uma frase, exemplo com número redondo, consequência, passo simples e gatilho de comentário.
-Notícia só entra quando ensina um conceito de investimento.
+Os roteiros agora são **colas** (tópicos) de mercado nacional do momento e de educação sobre investimento, descontraídas
+e sempre com a consequência para quem assiste. Formato, limites e trilha de temas: `trilha_investimentos.md`.
 
 ## Tamanho
 - O vídeo tem de 30 a 45 segundos: 85 a 115 palavras no total, já contando a apresentação, o fecho, a chamada e

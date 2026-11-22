@@ -35,10 +35,10 @@ funil de venda do e-book "Manual do Investidor". Contexto completo: `termometro/
 ## Regras que não se quebram
 - Repositório PÚBLICO: nenhum segredo, token ou senha em código, log ou commit. Áudio/vídeo só sobe cifrado em ramo temporário.
 - Nunca pedir nem digitar senha, token ou código; o Heitor coloca segredos nos painéis (GitHub, Cloudflare, Kiwify, Meta).
-- Conteúdo educativo: sem recomendação de investimento (CVM), sem promessa de ganho, sem lado político, sempre com fonte.
+- Conteúdo educativo: sem recomendação de investimento (CVM), sem promessa de ganho, sempre com fonte. Crítica a decisão econômica de governo pode, com fato e consequência; sem xingar pessoa, partido ou eleitor e sem pedir voto.
 - Sem escassez ou contagem regressiva falsa (CDC). Nunca citar banco ou corretora como vilão pelo nome.
 - Hashtags proibidas: `#cambio`, `#cvm`. Nada de bingo neste projeto.
-- No máximo 6 roteiros por dia no WhatsApp: a pauta das 6h17 manda 5 de educação sobre investimento (3 aulas da trilha + 1 "erro que custa caro" + 1 notícia traduzida; ver `termometro/manuais/trilha_investimentos.md`) e a 6ª vaga fica para a notícia quente da tarde (Plantão). O balanço da bolsa (fechamento, 18h17) é fixo e fica fora do limite. Só passa do limite algo bombástico, com `"urgente": true`. Referências: manhã, tarde e noite.
+- No máximo 6 roteiros por dia no WhatsApp: a pauta das 6h17 manda 5 colas (3 de mercado nacional do momento + 2 de educação sobre investimento, sempre com a consequência; formato e limites em `termometro/manuais/trilha_investimentos.md`; registro em `diario/AAAA-MM-DD/colas.md`) e a 6ª vaga fica para a notícia quente da tarde (Plantão). O balanço da bolsa (fechamento, 18h17) é fixo e fica fora do limite. Só passa do limite algo bombástico, com `"urgente": true`. Referências: manhã, tarde e noite.
 - A legenda do post NÃO vai no WhatsApp: ela vai na conversa com o Heitor, junto com o vídeo editado.
 - Commit só de conteúdo/ferramenta que não muda o site: adicionar `[CF-Pages-Skip]` na mensagem.
 - Vídeo que veio do app Fotos (`copy_*.mov`): transcrever cada arquivo do jeito que veio; conferir a sincronia com `-e`.

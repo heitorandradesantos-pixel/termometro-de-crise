@@ -1,0 +1,6 @@
+# Colas de 22/11/2026 (enviadas ao WhatsApp)
+1. Até os bancos daqui tiraram o pé do Brasil (BTG e Itaú BBA rebaixam a bolsa brasileira para neutro)
+2. Lula x Faria Lima: quem paga essa briga? (live de 21/11, pacote fiscal, dólar e bolsa)
+3. A casa própria vai ficar mais cara (juros do financiamento imobiliário; Caixa estuda subir)
+4. Por que os bancões estão caindo na bolsa (BB, Bradesco e Itaú em 18/11; calote e risco fiscal)
+5. Juro alto até 2028? (Selic em 13,75%; quem deve x quem guarda)

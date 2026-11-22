@@ -1,27 +1,33 @@
-# Trilha de educação sobre investimento (pedido do Heitor, 22/11/2026)
+# Linha dos roteiros e trilha de educação sobre investimento (pedidos do Heitor, 22/11/2026)
 
-O Heitor não estava gostando do rumo dos roteiros: muita notícia do dia (contracheque, operação policial, déficit) e
-pouca educação. A linha agora é **ensinar a investir, de forma descontraída e fácil, sempre mostrando a consequência**.
-A pauta das 6h17 pega os próximos temas desta trilha, na ordem, e marca `[x]` em quem já virou roteiro.
+## O que o Heitor pediu
+- Os vídeos que mais entregam são os que ele grava **sem roteiro**, andando, comentando o mercado do jeito dele.
+  No Instagram, até 22/11, só dois passaram de mil visualizações: "Tesouro Prefixado perdeu 1,2% num dia" (1.753,
+  24 s assistidos em média) e "O dólar já passou de R$ 6 e hoje é sábado" (1.361, 32 s). O resto ficou abaixo de 150.
+- O que os dois têm em comum: um **susto com número** ("o que você achava seguro perdeu", "passou de 6"), assunto
+  **do momento**, fala solta e a consequência para quem assiste.
+- Ele quer: mercado nacional do momento (bolsa, bancos, dólar, juros, imóveis, decisões do governo que mexem no
+  dinheiro) e educação sobre investimento, tudo descontraído, fácil e **mostrando a consequência na vida do brasileiro**.
 
-## Como é cada roteiro (aula de 1 minuto)
-1. **Gancho com cena do dia a dia**, não com manchete: "Cara, você deixa dinheiro parado na conta? Olha o que acontece."
-2. **O conceito em UMA frase**, sem jargão. Se usar um termo (CDI, liquidez), traduz na hora.
-3. **Um exemplo com número redondo** (R$ 1.000, R$ 10 mil, 1 ano) e comparação de padaria, feira, aluguel.
-4. **A consequência**: "se você fizer isso, acontece aquilo" (em reais, quando der). É a parte que mais importa.
-5. **Um passo simples** que não é recomendação: conferir, simular, perguntar ("olha no app quanto do CDI o seu CDB paga").
-6. **Gatilho de comentário** fácil (SIM/NÃO, 1 ou 2, chuta um número).
-- No máximo 3 números por vídeo. Tom de conversa, pode ter humor. Nada de sermão nem de "você está errado".
-- Quando couber, chamar a calculadora do site: "faz a sua conta, o link tá na bio".
-- Segue valendo: sem recomendação de investimento, sem promessa de ganho, sem lado político, com fonte oficial.
+## Formato: COLA, não texto para ler
+Cada roteiro vai como uma cola de 5 ou 6 tópicos, para ele falar do jeito dele:
+1. **Gancho sugerido** (uma frase de espanto com o fato ou o número).
+2. **2 ou 3 fatos com número e data** (no máximo 3 números).
+3. **O motivo**, em uma linha simples.
+4. **A consequência** no bolso de quem assiste (em reais ou em exemplo do dia a dia). É a parte mais importante.
+5. Quando couber, **a lição de investimento** em uma linha (o conceito por trás).
+6. **Pergunta final** fácil de responder (SIM/NÃO, 1 ou 2, chute).
+E a linha de **fontes** (veículo e data), que vira o cartão na edição.
 
-## A pauta do dia (5 roteiros)
-- **3 aulas da trilha** (os próximos temas sem `[x]`).
-- **1 "erro que custa caro"** (consequência de uma escolha comum; lista no fim).
-- **1 notícia traduzida**: só se a notícia do dia mexer com investimento (Selic, dólar, bolsa, imposto de aplicação).
-  O vídeo usa a notícia para ensinar o conceito por trás. Sem notícia assim, entra mais uma aula.
-- Polêmica só quando for sobre escolha de investimento ("imóvel ou Tesouro?", "dólar ou Selic?"). Operação policial,
-  política e briga de Brasília ficam fora dos roteiros (podem ir para o Plantão do site).
+## Crítica a governo: o limite
+O Heitor quer poder "bater um pouquinho no governo". Vale assim: criticar **a decisão e a consequência dela**, com
+fato, número e fonte, de qualquer governo. Não entra na cola: xingamento a pessoa, a partido ou a eleitor, boato sem
+fonte e pedido de voto. Continua valendo: sem recomendação de investimento e sem promessa de ganho.
+
+## A pauta do dia (5 colas)
+- **3 de mercado nacional do momento**, com consequência (fatos dos últimos 3 dias, conferidos em veículo confiável).
+- **2 de educação**, puxadas da trilha abaixo, de preferência ligadas ao que está acontecendo no mercado.
+- Sem repetir assunto dos últimos 10 dias (ver `diario/*/colas.md` e `diario/*/roteiros/*.json`).
 
 ## Trilha
 ### 1. Antes de investir
