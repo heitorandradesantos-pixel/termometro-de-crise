@@ -1,0 +1,129 @@
+{
+ "saida": "renda-mais-editado.mp4",
+ "fim": 57.9,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "Renda",
+    "Mais",
+    "não"
+   ],
+   [
+    "Renda+",
+    "não"
+   ]
+  ],
+  [
+   [
+    "Renda",
+    "Mais",
+    "2050"
+   ],
+   [
+    "Renda+",
+    "2050"
+   ]
+  ],
+  [
+   [
+    "36,7%"
+   ],
+   [
+    "36,17%"
+   ]
+  ],
+  [
+   [
+    "mil",
+    "e",
+    "20"
+   ],
+   [
+    "mil",
+    "em",
+    "20"
+   ]
+  ],
+  [
+   [
+    "E",
+    "para",
+    "quem",
+    "pode",
+    "esperar?"
+   ],
+   [
+    "É",
+    "pra",
+    "quem",
+    "pode",
+    "esperar."
+   ]
+  ]
+ ],
+ "nomes": [
+  "Tesouro",
+  "Renda+",
+  "INSS",
+  "Mais",
+  "Retorno"
+ ],
+ "destaques": "\\d|renda\\+|inflação|inss|plano|comenta",
+ "cartoes": [
+  [
+   0.1,
+   5.2,
+   "As *pegadinhas* da aposentadoria",
+   ""
+  ],
+  [
+   7.1,
+   10.9,
+   "Renda+ *NÃO* paga a vida toda",
+   "São 240 parcelas (Tesouro Direto)"
+  ],
+  [
+   14.8,
+   18.1,
+   "*240 parcelas* = 20 anos, corrigidas pela inflação",
+   "Fonte: Tesouro Direto"
+  ],
+  [
+   18.4,
+   22.4,
+   "R$ 200 por mês = *R$ 48.000* em 20 anos",
+   "Só a soma (conta do Termômetro de Crise)"
+  ],
+  [
+   22.9,
+   26.8,
+   "O preço muda *todo dia*",
+   "Fonte: Tesouro Direto"
+  ],
+  [
+   27.1,
+   32.7,
+   "Renda+ 2050: *-36,17%* em 2024",
+   "Fonte: Mais Retorno"
+  ],
+  [
+   33.1,
+   36.7,
+   "Vendeu antes do prazo? Pode receber *menos*",
+   ""
+  ],
+  [
+   37.2,
+   40.5,
+   "*tesourodireto.com.br*",
+   "Taxa do dia e simulador"
+  ],
+  [
+   41.0,
+   45.0,
+   "Só *INSS* ou *plano B*? Comenta",
+   ""
+  ]
+ ]
+}

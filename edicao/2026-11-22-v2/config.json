@@ -1,0 +1,75 @@
+{
+ "saida": "pix-offline-editado.mp4",
+ "fim": 51.1,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "sena",
+    "em",
+    "código."
+   ],
+   [
+    "senha",
+    "nem",
+    "código."
+   ]
+  ]
+ ],
+ "nomes": [
+  "Pix",
+  "Banco",
+  "Central"
+ ],
+ "destaques": "\\d|pix|golpe|offline|internet|senha|taxa|sim|não",
+ "cartoes": [
+  [
+   0.3,
+   6.6,
+   "Golpe novo: o falso *Pix off-line*",
+   ""
+  ],
+  [
+   7.1,
+   11.1,
+   "Pix off-line: *ainda não foi liberado*",
+   ""
+  ],
+  [
+   11.4,
+   14.2,
+   "O BC *projeta* Pix por aproximação sem internet",
+   "Nota do Banco Central de 16/11/2026 (Money Times)"
+  ],
+  [
+   14.6,
+   17.8,
+   "Hoje: *precisa* de internet",
+   ""
+  ],
+  [
+   18.1,
+   22.6,
+   "Modelo em estudo: *pagador offline*",
+   "Fonte: TVT News"
+  ],
+  [
+   22.8,
+   27.7,
+   "Maquininha offline? *Não confirmado*",
+   "Fonte: TVT News"
+  ],
+  [
+   32.3,
+   38.3,
+   "*Não* pague taxa. *Não* passe senha nem código",
+   ""
+  ],
+  [
+   41.3,
+   45.2,
+   "Comenta: *SIM* ou *NÃO*?",
+   ""
+  ]
+ ]
+}

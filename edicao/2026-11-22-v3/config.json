@@ -1,0 +1,17 @@
+{
+ "saida": "deficit-editado.mp4",
+ "fim": 54.6,
+ "remover": [],
+ "corrigir": [[["trilhões"],["trilhão"]]],
+ "nomes": ["PIB","Banco","Central","Fazenda"],
+ "destaques": "\\d|déficit|dívida|juros?|taxa|imposto|sim|não|cuidado",
+ "cartoes": [
+  [0.1, 4.2, "Déficit de *R$ 53 bilhões* em 2026?", ""],
+  [4.7, 8.6, "R$ 53,369 bi: é *projeção*, não resultado", "Fonte: Prisma Fiscal, Ministério da Fazenda (16/11/2026)"],
+  [16.5, 21.0, "Dívida: *+4,3 pontos* do PIB até setembro", "Fonte: Banco Central"],
+  [21.4, 24.5, "Agosto a setembro: *estável*", "Fonte: Banco Central"],
+  [24.9, 30.5, "Juros da dívida: *R$ 1,205 trilhão* em 12 meses", "Fonte: Banco Central (SBT News)"],
+  [32.9, 35.0, "Antes de parcelar, *olha a taxa*", ""],
+  [38.7, 41.8, "Fecha sem aumentar imposto? *SIM* ou *NÃO*", ""]
+ ]
+}
