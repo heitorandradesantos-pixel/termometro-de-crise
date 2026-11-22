@@ -1,0 +1,121 @@
+{
+ "titulo": "Déficit primário 2026 e dívida: verdade ou exagero? O que se sabe",
+ "descricao": "Mercado projeta déficit primário de R$ 53,369 bi em 2026 e dívida de 87,31% do PIB em 2027. É projeção, não fato. Veja o que é verdade.",
+ "palavra_chave": "déficit primário 2026",
+ "lead": "Heitor responde: a frase é meio verdade, meio exagero. O Prisma Fiscal de novembro, divulgado pela Fazenda em 16/11, mostra que o mercado projeta déficit primário de R$ 53,369 bilhões do Governo Central em 2026. Mas é projeção, não resultado final. E a dívida bruta subiu 4,3 pontos do PIB no ano até setembro, segundo o Banco Central, mas ficou estável entre agosto e setembro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Déficit primário é quando o governo gasta mais do que arrecada, antes de pagar os juros da dívida. Em casa, seria gastar mais do que entra de salário no mês, sem contar a parcela do financiamento. Pelo Prisma Fiscal de novembro, a mediana (o valor do meio) das projeções do mercado para 2026 passou de R$ 53,048 bilhões em outubro para R$ 53,369 bilhões.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/prisma-fiscal-de-novembro-projeta-deficit-de-r-53-369-bilhoes-do-governo-central-em-2026",
+   "data": "2026-11-16",
+   "veiculo": "Ministério da Fazenda (SPE)",
+   "confiavel": true
+  },
+  {
+   "texto": "Para 2027, a projeção de déficit primário subiu de R$ 44 bilhões para R$ 45,288 bilhões. Ou seja, o mercado espera um déficit menor em 2027 do que em 2026, mas um pouco maior do que previa em outubro. O resultado primário é a diferença entre receitas e despesas antes dos juros.",
+   "fonte_url": "https://www.portaldoagronegocio.com.br/politica-rural/governo/noticias/deficit-do-governo-central-deve-chegar-a-r-53-4-bilhoes-em-2026-projeta-mercado",
+   "data": "2026-11-16",
+   "veiculo": "Portal do Agronegócio",
+   "confiavel": false
+  },
+  {
+   "texto": "O Prisma projeta a dívida bruta do Governo Geral em 83,41% do PIB no fim de 2026 (era 83,40% em outubro). Para 2027, a projeção passou de 87,00% para 87,31% do PIB, uma alta de 3,90 pontos entre os dois anos. A dívida bruta é tudo o que governo federal, estados e municípios devem, medido em proporção do PIB, a soma de tudo o que o país produz.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/prisma-fiscal-de-novembro-projeta-deficit-de-r-53-369-bilhoes-do-governo-central-em-2026",
+   "data": "2026-11-16",
+   "veiculo": "Ministério da Fazenda (SPE)",
+   "confiavel": true
+  },
+  {
+   "texto": "A meta fiscal de 2026 é de superávit (sobra) de 0,25% do PIB, cerca de R$ 34,3 bilhões, com tolerância de 0,25 ponto percentual. A projeção do mercado, de déficit, fica abaixo dessa meta. Veículos como o Estadão e a Jovem Pan noticiaram a divulgação em 17/11. A página oficial da Fazenda registra 16/11.",
+   "fonte_url": "https://jovempan.com.br/brasil/prisma-fiscal-eleva-projecao-de-deficit-primario-para-r-53369-bi-em-2026/",
+   "data": "2026-11-17",
+   "veiculo": "Jovem Pan",
+   "confiavel": false
+  },
+  {
+   "texto": "O dado real da dívida é de setembro: 82,9% do PIB (R$ 11,1 trilhões), segundo o Banco Central. Foram 4,3 pontos a mais desde o começo de 2026. Entre agosto e setembro, o indicador ficou estável. Os juros nominais foram o principal fator da alta no ano, com 7,2 pontos percentuais.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/divida-bruta-sobe-43-pontos-do-pib-em-2026-e-chega-a-829-diz-bc/",
+   "data": "2026-10-29",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Os juros da dívida pública somaram R$ 1,205 trilhão nos 12 meses até setembro, o equivalente a 8,99% do PIB. É dinheiro que o governo paga só de juros, além do déficit primário.",
+   "fonte_url": "https://sbtnews.sbt.com.br/noticia/economia/bc-divida-publica-chega-a-82-9-do-pib-em-setembro",
+   "data": "2026-10-29",
+   "veiculo": "SBT News",
+   "confiavel": false
+  },
+  {
+   "texto": "O Copom, comitê do Banco Central que define a Selic (a taxa básica de juros), manteve a taxa em 13,75% ao ano em 4/11. Foi a reunião nº 282, e a decisão foi unânime. O comunicado do BC diz que a decisão é compatível com a convergência da inflação para perto da meta. A decisão interrompeu uma sequência de cinco cortes de 0,25 ponto, segundo o Sou Brasília.",
+   "fonte_url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements",
+   "data": "2026-11-04",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo reportagem da Reuters publicada na Forbes em outubro, a equipe econômica do governo argumenta que a dívida segue alta, mesmo com melhora nos resultados primários, por causa da Selic elevada. A Selic alta aumenta o gasto com juros da dívida pública. Essa é a leitura do governo, atribuída na reportagem.",
+   "fonte_url": "https://forbes.com.br/forbes-money/2026/10/prisma-economistas-pioram-deficit-fiscal-divida-publica-2026/",
+   "data": "2026-10-15",
+   "veiculo": "Forbes Brasil (Reuters)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Prisma Fiscal de setembro: déficit primário de 2026 projetado em R$ 52,271 bilhões e dívida de 83,2% do PIB.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/mercado-projeta-deficit-primario-de-r-52-271-bilhoes-para-o-governo-central-em-2026-mostra-prisma-fiscal",
+   "data": "2026-09-15",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "Prisma Fiscal de outubro: déficit de 2026 sobe para R$ 53,048 bilhões e dívida projetada, para 83,4% do PIB.",
+   "fonte_url": "https://forbes.com.br/forbes-money/2026/10/prisma-economistas-pioram-deficit-fiscal-divida-publica-2026/",
+   "data": "2026-10-15",
+   "veiculo": "Forbes Brasil (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central informa dívida bruta de 82,9% do PIB em setembro, estável em relação a agosto.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/divida-bruta-sobe-43-pontos-do-pib-em-2026-e-chega-a-829-diz-bc/",
+   "data": "2026-10-29",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Copom mantém a Selic em 13,75% ao ano, por unanimidade.",
+   "fonte_url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements",
+   "data": "2026-11-04",
+   "veiculo": "Banco Central do Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Prisma Fiscal de novembro: déficit de 2026 sobe para R$ 53,369 bilhões e dívida de 2027, para 87,31% do PIB.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/prisma-fiscal-de-novembro-projeta-deficit-de-r-53-369-bilhoes-do-governo-central-em-2026",
+   "data": "2026-11-16",
+   "veiculo": "Ministério da Fazenda (SPE)",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o Governo Central fechará 2026 no vermelho ainda não está confirmado. O número de R$ 53,369 bilhões é a mediana das projeções do mercado, que muda a cada mês. O resultado oficial só sai depois do fim do ano.",
+  "Se a dívida bruta chegará a 87,31% do PIB em 2027 também não está confirmado. É projeção do mercado e já mudou de 87,00% para 87,31% de um mês para o outro.",
+  "Se será preciso aumentar impostos para a conta fechar não foi confirmado. As fontes consultadas não trazem anúncio de aumento de imposto. Essa é a pergunta para os comentários, não um fato.",
+  "Quanto da Selic de 13,75% vem da situação das contas públicas não foi explicado nas fontes consultadas. Segundo o Sou Brasília, o Copom citou dólar, El Niño e inflação acima do teto. Não encontrei no que li uma ligação direta com a dívida.",
+  "O efeito da dívida sobre o dólar não foi medido nas fontes consultadas. Nenhuma delas afirma que a dívida alta, sozinha, pressiona o câmbio."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda na sua conta, no seu benefício ou nas regras por causa do Prisma Fiscal. Ele só mostra o que o mercado espera.",
+  "Juros altos por mais tempo tendem a manter o crédito caro. Com a Selic em 13,75%, financiamento, cartão e empréstimo costumam ter taxas altas. A Selic é a referência para as taxas que os bancos cobram.",
+  "Dívida alta pode deixar a conta de juros pesada. Foram R$ 1,205 trilhão em 12 meses até setembro. É dinheiro que não vai para outras despesas e que pode pesar no ajuste das contas.",
+  "Um dólar mais caro, se acontecer, encarece produtos importados e viagens. As fontes não afirmam que a dívida cause isso. Aqui é só o efeito prático, caso o dólar suba por qualquer motivo.",
+  "A pergunta do Heitor para os comentários: você acha que essa conta fecha sem aumentar imposto? SIM ou NÃO. Responda sabendo que a conta ainda é projeção."
+ ],
+ "como_se_proteger": [],
+ "slug": "deficit-primario-2026",
+ "publicado_em": "2026-11-22T06:45:56.334696",
+ "atualizado_em": "2026-11-22T06:45:56.334696",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário, formato \"verdade ou exagero\": \"o governo vai fechar 2026 no vermelho e a dívida não para de subir\". O Prisma Fiscal de novembro, divulgado pela Secretaria de Política Econômica do Ministério da Fazenda em 16/11/2026 (gov.br/fazenda), mostra que a mediana do mercado projeta déficit primário do Governo Central de R$ 53,369 bilhões em 2026 (era R$ 53,048 bi em outubro) e R$ 45,288 bilhões em 2027, com a dívida bruta indo de 83,41% do PIB em 2026 para 87,31% em 2027. Explique em linguagem de rua o que é déficit primário (gastar mais do que arrecada antes de pagar juros), comparando com o orçamento de casa, e por que dívida alta pesa no seu bolso: juros mais altos por mais tempo (Selic 13,75%, Copom de 04/11/2026, bcb.gov.br), crédito caro e dólar pressionado. Deixe claro que são projeções de mercado, não fato consumado. Gatilho: \"Você acha que essa conta fecha sem aumentar imposto? SIM ou NÃO.\" Sem lado político, sem citar partido ou político, sem recomendação de investimento.",
+ "turno": "manha"
+}
