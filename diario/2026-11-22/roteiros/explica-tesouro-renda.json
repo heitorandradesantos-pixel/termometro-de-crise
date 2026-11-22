@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "Cara, o Tesouro Renda+ não paga aposentadoria pra vida toda. São 240 meses.",
+  "na_tela": "Renda+ NÃO paga a vida toda",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Conta que assusta",
+   "texto": "R$ 200 por mês viram R$ 48.000 em 20 anos? Calma, tem pegadinha.",
+   "na_tela": "R$ 200 viram R$ 48.000?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Cara, o Tesouro Renda+ não paga aposentadoria pra vida toda. São 240 meses.",
+   "na_tela": "Renda+ NÃO paga a vida toda",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem paga a sua aposentadoria extra? O Tesouro, mas só por 240 meses.",
+   "na_tela": "Quem te paga na aposentadoria?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o Tesouro Renda+ não paga aposentadoria pra vida toda. São 240 meses.",
+  "É um carnê ao contrário: você junta, depois ele te paga todo mês.",
+  "Segundo o Tesouro Direto, são 20 anos de parcelas, corrigidas pela inflação.",
+  "Guardando R$ 200 por mês, são R$ 48.000 em 20 anos. Só a soma.",
+  "Agora vem a parte que pouca gente olha: o preço muda todo dia.",
+  "Segundo o Mais Retorno, o Renda+ 2050 caiu 36,17% em 2024.",
+  "Vendeu antes do prazo, pode receber menos. É pra quem pode esperar.",
+  "Taxa do dia e simulador estão no site tesourodireto.com.br.",
+  "Só INSS ou plano B? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o Tesouro Renda+ não paga aposentadoria pra vida toda. São 240 meses. É um carnê ao contrário: você junta, depois ele te paga todo mês. Segundo o Tesouro Direto, são 20 anos de parcelas, corrigidas pela inflação. Guardando R$ 200 por mês, são R$ 48.000 em 20 anos. Só a soma. Agora vem a parte que pouca gente olha: o preço muda todo dia. Segundo o Mais Retorno, o Renda+ 2050 caiu 36,17% em 2024. Vendeu antes do prazo, pode receber menos. É pra quem pode esperar. Taxa do dia e simulador estão no site tesourodireto.com.br. Só INSS ou plano B? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Renda+ NÃO paga a vida toda",
+   "fala": 0
+  },
+  {
+   "fala": 2,
+   "texto": "240 parcelas = 20 anos",
+   "fonte": "Tesouro Direto"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 200 por mês = R$ 48.000 em 20 anos (só a soma)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "O preço muda todo dia",
+   "fonte": "Tesouro Direto"
+  },
+  {
+   "fala": 5,
+   "texto": "Renda+ 2050: -36,17% em 2024",
+   "fonte": "Mais Retorno"
+  },
+  {
+   "fala": 7,
+   "texto": "tesourodireto.com.br",
+   "fonte": "Tesouro Direto"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Tesouro Renda+ aposentadoria como funciona",
+ "legenda": "Tesouro Renda+ aposentadoria: como funciona?\n\nSegundo o Tesouro Direto, o Renda+ tem duas fases. Na primeira você compra o título aos poucos. Na segunda, no ano que escolher, passa a receber 240 parcelas mensais, por 20 anos, corrigidas pela inflação. Não é vitalício.\n\nO preço do título muda todo dia. Segundo o Mais Retorno, o Renda+ 2050 caiu 36,17% em 2024. Quem vende antes do prazo recebe o preço do dia, que pode ser menor do que pagou.\n\nQuanto você vai receber por mês ninguém garante: depende da taxa do dia da compra e da inflação futura. A taxa do dia e o simulador estão em tesourodireto.com.br.\n\nSó INSS ou plano B? Comenta aí.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#tesourodireto #rendamais #aposentadoria #educacaofinanceira",
+ "hashtags": [
+  "#tesourodireto",
+  "#rendamais",
+  "#aposentadoria",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, o Renda+ paga só 240 meses, não a vida toda.",
+  "topicos": [
+   "Segundo o Tesouro Direto: junta aos poucos, depois recebe 240 parcelas.",
+   "Guardando R$ 200 por mês, são R$ 48.000 em 20 anos, só a soma.",
+   "Segundo o Mais Retorno, o Renda+ 2050 caiu 36,17% em 2024.",
+   "Vender antes pode dar menos que o pago; simule em tesourodireto.com.br."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários números e contexto, que pede calma e prova na tela, não notícia quente do dia.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frases \"Segundo o Mais Retorno...\" e \"Taxa do dia e simulador estão no site tesourodireto.com.br\": nome de site não vai na fala. Troque por \"segundo dados do mercado\" e \"no site do Tesouro Direto, o link tá na legenda\", e deixe Mais Retorno e o endereço no cartão da tela.",
+   "Frases \"Guardando R$ 200 por mês, são R$ 48.000 em 20 anos\" e \"caiu 36,17%\": cada uma tem mais de um número. Divida em duas falas (\"Guardando R$ 200 por mês...\" e depois \"...dá uns R$ 48 mil, só a soma\") e diga \"caiu mais de 36%\", com o 36,17% exato no cartão.",
+   "Frase \"corrigidas pela inflação\" e o fecho: traduza o termo na hora (\"as parcelas sobem junto com os preços\") e, antes do \"Sem alarde. Eu sou só o termômetro!\", inclua \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\", que hoje só aparece na legenda."
+  ],
+  "veredito": "A peça tem gancho forte, a comparação do \\\"carnê ao contrário\\\", a perda com saída (\\\"é pra quem pode esperar\\\") e o gatilho de comentário. Falta passar no Teste do CLT: nomes de site na fala, falas com mais de um número, \\\"corrigidas pela inflação\\\" sem tradução e o fecho padrão do Heitor ausente."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o Tesouro Renda+ não paga aposentadoria pra vida toda. São 240 meses.\" fala do produto, mas quem nunca ouviu falar dele não se vê ali. Reescrita: \"Cara, se você pensa em aposentadoria com o Tesouro Renda+, presta atenção: ele não paga pra vida toda. São 240 meses.\" O 'se você' faz a pessoa se reconhecer e o 240 continua na primeira frase.",
+   "Retenção: \"Segundo o Mais Retorno, o Renda+ 2050 caiu 36,17% em 2024.\" traz nome de site, número exato e ano, e isso pesa no Teste do CLT. Reescrita: \"O Renda+ 2050 caiu uns 36% em 2024. Cara, olha que loucura.\" A fonte (Mais Retorno) e o 36,17% ficam no cartão da tela e na legenda.",
+   "Envio: \"Taxa do dia e simulador estão no site tesourodireto.com.br.\" não dá motivo para mandar o vídeo, e o endereço do site na fala é difícil de entender de primeira. Reescrita: \"Tem alguém aí contando com o Renda+ pra se aposentar? Manda pra ele, sério. O simulador tá no site do Tesouro Direto.\""
+  ],
+  "veredito": "Roteiro claro, com gancho pago rápido e um fim que puxa comentário (INSS ou plano B), mas o gancho não fala com quem nunca ouviu falar do Renda+, a fala tem número e fonte demais para o Teste do CLT, e falta o pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Macro shot on a wooden desk of a blank tear-off payment booklet with no printing on it. A hand out of focus, no face visible, tears off one blank slip while the camera slowly dollies along the stack of remaining slips. Warm window light, shallow depth of field",
+   "texto_da_fala": "É um carnê ao contrário: você junta, depois ele te paga todo mês.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot on a wooden desk of a blank tear-off payment booklet with no printing on it. A hand out of focus, no face visible, tears off one blank slip while the camera slowly dollies along the stack of remaining slips. Warm window light, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Close-up in a cozy kitchen of a large glass jar on a wooden shelf. Plain coins and folded blank banknotes drop in one by one, and the pile slowly rises. The camera does a slow upward tilt from the base of the jar to the top. Soft morning light, no text or numbers visible anywhere",
+   "texto_da_fala": "Guardando R$ 200 por mês, são R$ 48.000 em 20 anos. Só a soma.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up in a cozy kitchen of a large glass jar on a wooden shelf. Plain coins and folded blank banknotes drop in one by one, and the pile slowly rises. The camera does a slow upward tilt from the base of the jar to the top. Soft morning light, no text or numbers visible anywhere. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A small green seedling in a clay pot on a sunny balcony. Time-lapse of daylight shifting and the plant growing taller, while the camera slowly pushes in. In the background, a wooden hourglass with sand running. No text, no people, no numbers",
+   "texto_da_fala": "Vendeu antes do prazo, pode receber menos. É pra quem pode esperar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A small green seedling in a clay pot on a sunny balcony. Time-lapse of daylight shifting and the plant growing taller, while the camera slowly pushes in. In the background, a wooden hourglass with sand running. No text, no people, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o Tesouro Renda+ não paga aposentadoria pra vida toda. São 240 meses.\n\nÉ um carnê ao contrário: você junta, depois ele te paga todo mês.\n\nSegundo o Tesouro Direto, são 20 anos de parcelas, corrigidas pela inflação.\n\nGuardando R$ 200 por mês, são R$ 48.000 em 20 anos. Só a soma.\n\nAgora vem a parte que pouca gente olha: o preço muda todo dia.\n\nSegundo o Mais Retorno, o Renda+ 2050 caiu 36,17% em 2024.\n\nVendeu antes do prazo, pode receber menos. É pra quem pode esperar.\n\nTaxa do dia e simulador estão no site tesourodireto.com.br.\n\nSó INSS ou plano B? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Tesouro Nacional (gov.br)",
+   "url": "https://www.gov.br/tesouronacional/pt-br/noticias/conheca-o-renda-aposentadoria-extra-o-novo-titulo-do-tesouro-direto",
+   "destaque": "O Tesouro RendA+, Aposentadoria Extra, foi criado pelo Decreto nº 11.301, de 21 de dezembro de 2022, e é emitido pelo Tesouro Nacional."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/guias/tesouro-renda-mais/",
+   "destaque": "Segundo o InfoMoney, a tabela regressiva vai de 22,5% (até 180 dias) a 15% (acima de 720 dias), e o imposto incide só sobre os rendimentos…"
+  }
+ ],
+ "data": "2026-11-22",
+ "gerado_em": "2026-11-22T06:31:28.445107-03:00"
+}
