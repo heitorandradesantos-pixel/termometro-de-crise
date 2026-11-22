@@ -1,0 +1,200 @@
+{
+ "gancho": {
+  "formula": "Número + porquê (duas saídas)",
+  "texto": "Déficit de R$ 53,369 bilhões em 2026. Verdade ou exagero?",
+  "na_tela": "Déficit de R$ 53,369 bilhões?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê (duas saídas)",
+   "texto": "Déficit de R$ 53,369 bilhões em 2026. Verdade ou exagero?",
+   "na_tela": "Déficit de R$ 53,369 bilhões?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto o governo gasta só de juros? R$ 1,205 trilhão em 12 meses.",
+   "na_tela": "Só de juros: R$ 1,205 trilhão",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "O mundo chegou no seu bolso",
+   "texto": "A dívida subiu 4,3 pontos do PIB no ano. Isso chega no seu bolso?",
+   "na_tela": "Dívida subiu 4,3 pontos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Déficit de R$ 53,369 bilhões em 2026. Verdade ou exagero?",
+  "É meio verdade: é projeção do mercado, segundo a Fazenda, não resultado final.",
+  "Déficit é gastar mais do que entra de salário, antes da parcela.",
+  "Mas calma: hoje nada muda na sua conta por causa disso.",
+  "Agora a dívida: subiu 4,3 pontos do PIB até setembro, segundo o Banco Central.",
+  "Mas entre agosto e setembro, ficou estável.",
+  "Só de juros, o governo pagou R$ 1,205 trilhão em 12 meses.",
+  "Juro alto segura o crédito caro. Antes de parcelar, olha a taxa.",
+  "Manda pra quem vive no cartão.",
+  "Essa conta fecha sem aumentar imposto? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Déficit de R$ 53,369 bilhões em 2026. Verdade ou exagero? É meio verdade: é projeção do mercado, segundo a Fazenda, não resultado final. Déficit é gastar mais do que entra de salário, antes da parcela. Mas calma: hoje nada muda na sua conta por causa disso. Agora a dívida: subiu 4,3 pontos do PIB até setembro, segundo o Banco Central. Mas entre agosto e setembro, ficou estável. Só de juros, o governo pagou R$ 1,205 trilhão em 12 meses. Juro alto segura o crédito caro. Antes de parcelar, olha a taxa. Manda pra quem vive no cartão. Essa conta fecha sem aumentar imposto? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Déficit de R$ 53,369 bilhões?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Déficit de R$ 53,369 bilhões: projeção, não resultado",
+   "fonte": "Ministério da Fazenda"
+  },
+  {
+   "fala": 4,
+   "texto": "Dívida: +4,3 pontos do PIB até setembro",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Agosto a setembro: estável",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 6,
+   "texto": "Juros: R$ 1,205 trilhão em 12 meses",
+   "fonte": "SBT News"
+  },
+  {
+   "fala": 7,
+   "texto": "Antes de parcelar, olha a taxa",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "déficit primário 2026 e dívida pública: verdade ou exagero?",
+ "legenda": "Déficit primário 2026 e dívida pública: verdade ou exagero?\n\nÉ meio verdade, meio exagero. O Prisma Fiscal de novembro, divulgado pela Fazenda em 16/11, mostra que o mercado projeta déficit de R$ 53,369 bilhões do Governo Central em 2026. Mas é projeção, não resultado final.\n\nA dívida bruta subiu 4,3 pontos do PIB no ano até setembro, segundo o Banco Central, e ficou estável entre agosto e setembro. Os juros da dívida somaram R$ 1,205 trilhão em 12 meses.\n\nHoje nada muda na sua conta por causa disso. Mas juro alto tende a manter o crédito caro: antes de parcelar, olha a taxa.\n\nE aí: essa conta fecha sem aumentar imposto? Comenta SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#deficitprimario #dividapublica #economiabrasileira #selic #termometrodecrise",
+ "hashtags": [
+  "#deficitprimario",
+  "#dividapublica",
+  "#economiabrasileira",
+  "#selic",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Déficit de R$ 53,369 bilhões em 2026: verdade ou exagero?",
+  "topicos": [
+   "A Fazenda divulgou: o mercado projeta déficit de R$ 53,369 bilhões. É projeção.",
+   "Dívida subiu 4,3 pontos do PIB até setembro, segundo o Banco Central.",
+   "Entre agosto e setembro, ficou estável. Juros: R$ 1,205 trilhão em 12 meses.",
+   "Hoje nada muda na sua conta. Antes de parcelar, olha a taxa."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com vários números e contexto, que pede calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Falas \"Déficit de R$ 53,369 bilhões\", \"subiu 4,3 pontos do PIB\" e \"R$ 1,205 trilhão\": use número redondo e uma ideia por fala (\"mais de R$ 1 trilhão só de juros\"). Traduza \"pontos do PIB\" na hora (PIB = tudo que o país produz). O número exato fica no cartão da tela. Abra com reação, não com manchete lida: \"Cara, o governo pode fechar 2026 no vermelho em uns R$ 53 bilhões. Verdade ou exagero?\".",
+   "Em \"Déficit é gastar mais do que entra de salário, antes da parcela\", \"antes da parcela\" confunde e a comparação é fraca. Reescreva com uma imagem do dia a dia, por exemplo: \"É como o mês em que a conta de luz, o mercado e o aluguel passam do salário, sem contar nem a parcela\". Explique que a \"parcela\" são os juros da dívida. Isso dá o toque sanguíneo que falta.",
+   "O final pergunta \"Essa conta fecha sem aumentar imposto?\". Ela sugere que vem aumento de imposto, o que a peça não afirma, e convida ao debate político. Troque por um gatilho do dia a dia, como \"Quem aqui já parcelou sem olhar a taxa? Comenta EU\". Antes do bordão, coloque a assinatura padrão: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\"."
+  ],
+  "veredito": "A peça usa bem o formato \\\"verdade ou exagero\\\", acalma com o \\\"hoje nada muda\\\" e deixa um passo simples (olhar a taxa antes de parcelar), mas falha no Teste do CLT: tem número demais e exato, \\\"pontos do PIB\\\" sem tradução, comparação fraca, abertura de manchete e falta a assinatura do Heitor antes do bordão."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Déficit de R$ 53,369 bilhões em 2026. Verdade ou exagero?\" é número do governo, não do bolso, e é difícil de falar. Abra com o número mais forte e ligue ao crédito: \"Só de juros, o governo pagou R$ 1,2 trilhão em 12 meses. E juro alto segura o crédito caro, o seu também.\" Aí vem o \"verdade ou exagero\" do déficit.\", \"Retenção: \\\"subiu 4,3 pontos do PIB até setembro\\\" e \\\"R$ 53,369 bilhões\\\" falham no Teste do CLT. Reescreva: \\\"A dívida do governo subiu este ano, segundo o Banco Central. Mas de agosto pra setembro, ficou parada.\\\" Fale \\\"uns R$ 53 bilhões\\\" e deixe o número exato no cartão da tela.\"",
+   "Conversa e envio: \"Essa conta fecha sem aumentar imposto?\" chega perto de tema político e a pessoa não se reconhece nela. Troque por algo de bolso: \"Você olha a taxa antes de parcelar? Comenta SIM ou NÃO.\" Ligue o envio ao número: \"Manda pra quem vive no cartão e mostra esse R$ 1,2 trilhão de juros.\""
+  ],
+  "veredito": "Roteiro correto e que paga a pergunta logo, mas abre com um número do governo que não é do bolso de quem assiste, tem número e termo técnico demais, e o fim de comentário tende ao tema político. Para viralizar, falta abrir pelos juros e pelo crédito caro e fechar com uma pergunta de bolso."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a wooden kitchen table in warm morning light: a small stack of Brazilian-style banknotes beside a pile of blank unmarked envelopes, with a calculator face-down. An anonymous hand slides a few notes away from the stack, leaving it visibly thinner. Slow dolly-in with shallow depth of field. No faces, no text, no numbers, no logos",
+   "texto_da_fala": "Déficit é gastar mais do que entra de salário, antes da parcela.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a wooden kitchen table in warm morning light: a small stack of Brazilian-style banknotes beside a pile of blank unmarked envelopes, with a calculator face-down. An anonymous hand slides a few notes away from the stack, leaving it visibly thinner. Slow dolly-in with shallow depth of field. No faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Stylized cinematic shot inside a vast, dim government vault: golden coins pour in a steady heavy stream from a huge funnel overhead onto a growing mound, while a slow crane-style camera move rises from the floor up along the stream. Dramatic side lighting, dust in the air. No people, no text, no numbers, no logos",
+   "texto_da_fala": "Só de juros, o governo pagou R$ 1,205 trilhão em 12 meses.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Stylized cinematic shot inside a vast, dim government vault: golden coins pour in a steady heavy stream from a huge funnel overhead onto a growing mound, while a slow crane-style camera move rises from the floor up along the stream. Dramatic side lighting, dust in the air. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Close-up of an anonymous hand holding a plain blank unbranded credit card over a countertop payment terminal in a small shop, with colorful shopping bags blurred in the background. Slow push-in toward the card as the hand hesitates, then pulls it back slightly. Warm tones, shallow depth of field. No faces, no readable screen, no text, no numbers, no logos",
+   "texto_da_fala": "Juro alto segura o crédito caro. Antes de parcelar, olha a taxa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of an anonymous hand holding a plain blank unbranded credit card over a countertop payment terminal in a small shop, with colorful shopping bags blurred in the background. Slow push-in toward the card as the hand hesitates, then pulls it back slightly. Warm tones, shallow depth of field. No faces, no readable screen, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Déficit de R$ 53,369 bilhões em 2026. Verdade ou exagero?\n\nÉ meio verdade: é projeção do mercado, segundo a Fazenda, não resultado final.\n\nDéficit é gastar mais do que entra de salário, antes da parcela.\n\nMas calma: hoje nada muda na sua conta por causa disso.\n\nAgora a dívida: subiu 4,3 pontos do PIB até setembro, segundo o Banco Central.\n\nMas entre agosto e setembro, ficou estável.\n\nSó de juros, o governo pagou R$ 1,205 trilhão em 12 meses.\n\nJuro alto segura o crédito caro. Antes de parcelar, olha a taxa.\n\nManda pra quem vive no cartão.\n\nEssa conta fecha sem aumentar imposto? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Ministério da Fazenda (SPE)",
+   "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/prisma-fiscal-de-novembro-projeta-deficit-de-r-53-369-bilhoes-do-governo-central-em-2026",
+   "destaque": "Déficit primário é quando o governo gasta mais do que arrecada, antes de pagar os juros da dívida."
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/divida-bruta-sobe-43-pontos-do-pib-em-2026-e-chega-a-829-diz-bc/",
+   "destaque": "O dado real da dívida é de setembro: 82,9% do PIB (R$ 11,1 trilhões), segundo o Banco Central."
+  },
+  {
+   "veiculo": "Banco Central do Brasil",
+   "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements",
+   "destaque": "O Copom, comitê do Banco Central que define a Selic (a taxa básica de juros), manteve a taxa em 13,75% ao ano em 4/11."
+  }
+ ],
+ "data": "2026-11-22",
+ "gerado_em": "2026-11-22T06:51:20.063442-03:00"
+}
