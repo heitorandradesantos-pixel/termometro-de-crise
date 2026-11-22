@@ -1,0 +1,40 @@
+{
+  "palavra_chave": "por que o dólar está subindo",
+  "secundarias": [
+    "dólar hoje",
+    "dólar alto",
+    "dólar maior valor desde abril de 2025",
+    "juros nos eua",
+    "fed alta de juros em dezembro",
+    "risco fiscal no brasil",
+    "banco central vende dólares",
+    "ibovespa cai na semana"
+  ],
+  "perguntas": [
+    "Por que o dólar subiu e fechou a R$ 5,93, o maior valor desde abril de 2025?",
+    "O que a alta de juros do Fed em dezembro tem a ver com o dólar e com o real?",
+    "Por que o Banco Central vendeu US$ 1 bilhão e o dólar subiu mesmo assim?",
+    "A guerra no Oriente Médio e a queda do petróleo mudam o dólar e o risco de crise?",
+    "O que o dólar alto muda no bolso do brasileiro (viagens, importados, combustíveis, inflação)?"
+  ],
+  "titulo_seo": "Por que o dólar está subindo? Fed, Brasil e crise no mundo",
+  "descricao_seo": "Por que o dólar está subindo? Maior desde abril de 2025, R$ 5,93: Fed, risco fiscal e crise no mundo explicados e o que muda para o Brasil.",
+  "links_internos": [
+    "paises/brasil.html",
+    "paises/eua.html",
+    "mundo.html",
+    "regioes/oriente-medio.html",
+    "regioes/europa.html",
+    "metodologia.html"
+  ],
+  "evitar": [
+    "Previsão ou promessa de que o dólar vai a R$ 6 ou a",
+    "Alarmismo: colapso, pânico, quebradeira, hiperinflação",
+    "Título caça-clique ou recomendação de comprar, vender ou",
+    "Jargão sem tradução: pontos-base (pb), hawkish, IRGC,",
+    "Citar o Fed em dezembro como certo: dizer que o mercado",
+    "Usar 'dólar hoje' ou 'Ibovespa hoje' como palavra"
+  ],
+  "por_que": "O dólar fechou a R$ 5,93 (maior valor desde abril de 2025) com o Fed perto de subir juros em dezembro e o Brasil em 65 (Tensão), então \"por que o dólar está subindo\" é a dúvida mais forte e a mais fácil de ligar ao",
+  "modo": "claude (claude-sonnet-5-5)"
+}
