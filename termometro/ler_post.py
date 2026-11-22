@@ -62,7 +62,20 @@ def transcrever(media_url: str) -> str:
 if __name__ == "__main__":
     url = sys.argv[1]
     extras = [p.strip().lstrip("@") for p in (sys.argv[2] if len(sys.argv) > 2 else "").split(",")]
-    dados = achar(url, os.environ["IG_TOKEN"], os.environ["IG_USER_ID"], [*extras, *referencias.PERFIS])
+    if url == "meus-posts":  # desempenho dos posts do próprio perfil, para o Claude estudar o que está dando certo
+        from termometro import painel
+        token, ig = os.environ["IG_TOKEN"], os.environ["IG_USER_ID"]
+        lista = []
+        for midia in painel.midias(token, ig, maximo=45):
+            try:
+                item = painel.post(midia, painel.metricas(token, midia))
+                item.pop("capa", None)
+                lista.append(item)
+            except Exception as erro:  # noqa: BLE001
+                lista.append({"id": midia.get("id"), "erro": str(erro)[:120]})
+        dados = {"posts": lista}
+    else:
+        dados = achar(url, os.environ["IG_TOKEN"], os.environ["IG_USER_ID"], [*extras, *referencias.PERFIS])
     if dados.get("media_url") and dados.get("media_type") == "VIDEO":
         try:
             dados["fala"] = transcrever(dados["media_url"])
