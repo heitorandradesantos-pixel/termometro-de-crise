@@ -1,0 +1,199 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Te ofereceram pra ativar o Pix off-line? Ele nem foi liberado.",
+  "na_tela": "Pix off-line: já liberado?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Te ofereceram pra ativar o Pix off-line? Ele nem foi liberado.",
+   "na_tela": "Pix off-line: já liberado?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Pix sem internet? Ainda não existe. Mas o Banco Central já projeta.",
+   "na_tela": "Pix SEM internet?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Pagar Pix no metrô, sem sinal nenhum. O Banco Central diz que projeta.",
+   "na_tela": "Pix no metrô, sem sinal",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Te ofereceram pra ativar o Pix off-line? Ele nem foi liberado.",
+  "O Banco Central diz que projeta Pix por aproximação sem internet.",
+  "Hoje, sem internet, o Pix por aproximação não funciona.",
+  "O modelo é de pagador offline: quem paga não precisa de internet.",
+  "Agora o detalhe: o Banco Central não confirmou se a maquininha também fica offline.",
+  "É tipo ter o ingresso, mas a catraca ainda poder depender de sinal.",
+  "Não pague taxa pra liberar Pix e não passe senha nem código.",
+  "Só confie no app oficial. Na dúvida, ligue no número do cartão.",
+  "Você usaria Pix encostando o relógio na maquininha? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Te ofereceram pra ativar o Pix off-line? Ele nem foi liberado. O Banco Central diz que projeta Pix por aproximação sem internet. Hoje, sem internet, o Pix por aproximação não funciona. O modelo é de pagador offline: quem paga não precisa de internet. Agora o detalhe: o Banco Central não confirmou se a maquininha também fica offline. É tipo ter o ingresso, mas a catraca ainda poder depender de sinal. Não pague taxa pra liberar Pix e não passe senha nem código. Só confie no app oficial. Na dúvida, ligue no número do cartão. Você usaria Pix encostando o relógio na maquininha? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Pix off-line: já liberado?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Pix por aproximação sem internet (NFC)",
+   "fonte": "Money Times"
+  },
+  {
+   "fala": 2,
+   "texto": "Hoje: precisa de internet",
+   "fonte": "FEEB-SC"
+  },
+  {
+   "fala": 3,
+   "texto": "Pagador offline",
+   "fonte": "TVT News"
+  },
+  {
+   "fala": 4,
+   "texto": "Maquininha offline? Não confirmado",
+   "fonte": "TVT News"
+  },
+  {
+   "fala": 6,
+   "texto": "Não pague taxa. Não passe senha.",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Pix off-line sem internet: o que se sabe",
+ "legenda": "Pix off-line sem internet: já existe?\n\nSegundo o Banco Central, em nota de 16 de novembro, ele projeta pagamentos por aproximação sem internet, usando NFC, em celulares, cartões com chip, tags e relógios ou pulseiras. Ainda está em desenvolvimento e não tem data para chegar.\n\nO modelo em estudo é de pagador offline: quem paga não precisa de internet, mas a maquininha pode seguir dependendo de validação. O Banco Central não confirmou isso.\n\nSe alguém oferecer para ativar o Pix off-line agora, desconfie. Não pague taxa, não passe senha nem código, e só confie no aplicativo oficial do seu banco.\n\nVocê usaria Pix encostando o relógio na maquininha? Comenta SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pix #bancocentral #educacaofinanceira #golpe",
+ "hashtags": [
+  "#pix",
+  "#bancocentral",
+  "#educacaofinanceira",
+  "#golpe"
+ ],
+ "rua": {
+  "gancho": "Cara, ativar Pix off-line? Ele nem foi liberado ainda.",
+  "topicos": [
+   "O Banco Central diz que projeta Pix por aproximação sem internet, por NFC.",
+   "Ainda está em desenvolvimento e o Banco Central não deu data.",
+   "Não confirmaram se a maquininha também fica offline, nem as regras.",
+   "Não pague taxa nem passe senha; só confie no app oficial do banco."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com vários detalhes e o que ainda não se sabe, então pede calma na bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"O modelo é de pagador offline: quem paga não precisa de internet.\": \"pagador offline\" é jargão de banco e quebra o Teste do CLT. Reescreva na ordem direta, só com o efeito no bolso. Exemplo: \"O plano é que quem paga consiga pagar sem sinal. Quem recebe, ainda não se sabe.\"",
+   "Frase \"Te ofereceram pra ativar o Pix off-line? Ele nem foi liberado.\": o gancho está certo, mas soa como manchete lida. Deixe com a reação do Heitor, como um amigo falando. Exemplo: \"Cara, te ofereceram Pix off-line? Ele nem existe ainda.\" Não acrescente fato novo.",
+   "Frase \"O Banco Central diz que projeta Pix por aproximação sem internet.\": \"projeta\" e \"por aproximação\" pedem tradução na mesma frase. Reescreva assim: \"O Banco Central estuda um Pix que você paga só encostando o celular ou o relógio, sem internet.\" Assim a fala tem uma ideia só e fica fácil de entender."
+  ],
+  "veredito": "A peça fala com a pessoa certa, desmente o golpe com a saída clara (não pague taxa, não passe código) e termina com SIM ou NÃO e o bordão. Falta soltar o jeitão do Heitor e trocar \\\"pagador offline\\\" e \\\"projeta\\\" por palavras do dia a dia, para passar no Teste do CLT."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"O modelo é de pagador offline: quem paga não precisa de internet.\" soa técnica para o Teste do CLT. Reescrita: \"Quem paga não precisa de internet. E quem recebe? Aí vem o detalhe: o Banco Central não confirmou se a maquininha também fica sem internet.\" Isso junta a explicação com a virada e corta o \"Agora o detalhe\" de teleprompter.",
+   "Frases 2 e 3 (\"O Banco Central diz que projeta Pix por aproximação sem internet. Hoje, sem internet, o Pix por aproximação não funciona.\") repetem a mesma expressão e confundem. Reescrita: \"O Banco Central está desenvolvendo o Pix por aproximação sem internet. Mas hoje, sem sinal, ele não funciona.\"",
+   "Falta o pedido de envio para uma situação concreta. Antes da pergunta SIM ou NÃO, inclua: \"Manda pra quem paga tudo no Pix. Quem recebe essa oferta de Pix off-line pode cair em golpe.\""
+  ],
+  "veredito": "Gancho específico, pago na hora e com fim que puxa comentário, mas falta uma fala mais simples no meio e um pedido de envio para uma situação concreta para virar vídeo que circula."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close-up of a smartphone lying on a café counter with a blank screen showing only a generic empty Wi-Fi-off style icon without any text or numbers, shallow depth of field. The camera slowly dollies in toward the phone while a blurred card payment terminal sits in the background, soft warm lighting",
+   "texto_da_fala": "Hoje, sem internet, o Pix por aproximação não funciona.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a smartphone lying on a café counter with a blank screen showing only a generic empty Wi-Fi-off style icon without any text or numbers, shallow depth of field. The camera slowly dollies in toward the phone while a blurred card payment terminal sits in the background, soft warm lighting. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "A modern countertop card payment machine with a dark idle screen, on a shop counter, no text or logos visible. A hand without a visible face taps a smartwatch with a blank screen near the machine, and the camera slowly orbits around the device, shallow depth of field, soft store lighting",
+   "texto_da_fala": "Agora o detalhe: o Banco Central não confirmou se a maquininha também fica offline.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A modern countertop card payment machine with a dark idle screen, on a shop counter, no text or logos visible. A hand without a visible face taps a smartwatch with a blank screen near the machine, and the camera slowly orbits around the device, shallow depth of field, soft store lighting. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "A paper-style ticket held in a hand in the foreground, blank with no printing, while a closed metal turnstile gate stands in the background of a stadium entrance. The camera pushes forward slowly past the ticket toward the stuck turnstile, golden hour light, blurred crowd silhouettes with no faces in focus",
+   "texto_da_fala": "É tipo ter o ingresso, mas a catraca ainda poder depender de sinal.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A paper-style ticket held in a hand in the foreground, blank with no printing, while a closed metal turnstile gate stands in the background of a stadium entrance. The camera pushes forward slowly past the ticket toward the stuck turnstile, golden hour light, blurred crowd silhouettes with no faces in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Te ofereceram pra ativar o Pix off-line? Ele nem foi liberado.\n\nO Banco Central diz que projeta Pix por aproximação sem internet.\n\nHoje, sem internet, o Pix por aproximação não funciona.\n\nO modelo é de pagador offline: quem paga não precisa de internet.\n\nAgora o detalhe: o Banco Central não confirmou se a maquininha também fica offline.\n\nÉ tipo ter o ingresso, mas a catraca ainda poder depender de sinal.\n\nNão pague taxa pra liberar Pix e não passe senha nem código.\n\nSó confie no app oficial. Na dúvida, ligue no número do cartão.\n\nVocê usaria Pix encostando o relógio na maquininha? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/banco-central-projeta-pix-por-aproximacao-offline-e-integracao-internacional-mlem/",
+   "destaque": "Em nota de 16 de novembro, que marcou os seis anos do Pix, o Banco Central disse que projeta pagamentos por aproximação sem conexão à…"
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/minhas-financas/pix-faz-6-anos-e-ja-responde-por-mais-da-metade-dos-pagamentos-no-brasil/",
+   "destaque": "Em outubro de 2026, o Pix foi usado por 154 milhões de pessoas físicas, o equivalente a 89% dos adultos do país, e por 14 milhões de…"
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
+   "destaque": "O MED (Mecanismo Especial de Devolução) existe para facilitar a recuperação de valores em casos de fraude, golpe, crime ou falha…"
+  }
+ ],
+ "data": "2026-11-22",
+ "gerado_em": "2026-11-22T06:42:48.895993-03:00"
+}
