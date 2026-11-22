@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "Dívida some em 5 anos? Só o seu nome some da lista.",
+  "na_tela": "Dívida some em 5 anos?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Dívida some em 5 anos? Só o seu nome some da lista.",
+   "na_tela": "Dívida some em 5 anos?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "5 anos depois, seu nome sai do cadastro. A dívida, não.",
+   "na_tela": "Nome sai. A dívida fica.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Quem te emprestou ainda pode cobrar, mesmo com seu nome limpo.",
+   "na_tela": "Nome limpo, dívida viva",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Dívida some em 5 anos? Só o seu nome some da lista.",
+  "O Código de Defesa do Consumidor limita o nome sujo a 5 anos.",
+  "Passou o prazo, sai do cadastro. A dívida continua.",
+  "É como guardar o boleto na gaveta: sumiu da vista, a conta fica.",
+  "Pouca gente lembra: quem te emprestou ainda pode cobrar por telefone ou carta.",
+  "O Feirão da Serasa vai até 6 de dezembro.",
+  "O desconto chega a 99%, em algumas ofertas.",
+  "Negocie só pelos canais oficiais e gere o boleto você mesmo.",
+  "Manda pra quem acha que a dívida sumiu.",
+  "Você achava que dívida sumia? Comenta ACHAVA ou SABIA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Dívida some em 5 anos? Só o seu nome some da lista. O Código de Defesa do Consumidor limita o nome sujo a 5 anos. Passou o prazo, sai do cadastro. A dívida continua. É como guardar o boleto na gaveta: sumiu da vista, a conta fica. Pouca gente lembra: quem te emprestou ainda pode cobrar por telefone ou carta. O Feirão da Serasa vai até 6 de dezembro. O desconto chega a 99%, em algumas ofertas. Negocie só pelos canais oficiais e gere o boleto você mesmo. Manda pra quem acha que a dívida sumiu. Você achava que dívida sumia? Comenta ACHAVA ou SABIA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Dívida some em 5 anos?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nome sujo: até 5 anos",
+   "fonte": "Correio Braziliense"
+  },
+  {
+   "fala": 3,
+   "texto": "Nome limpo ≠ dívida paga",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Feirão até 6 de dezembro",
+   "fonte": "Serasa"
+  },
+  {
+   "fala": 6,
+   "texto": "Desconto de até 99%",
+   "fonte": "Serasa"
+  },
+  {
+   "fala": 7,
+   "texto": "Só canais oficiais",
+   "fonte": "Serasa"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dívida caduca em 5 anos?",
+ "legenda": "Dívida caduca em 5 anos? É meia verdade.\n\nSegundo o Código de Defesa do Consumidor, o nome só pode ficar negativado por até 5 anos. Mas sair do cadastro não é a dívida acabar: o credor ainda pode cobrar por telefone ou carta. E nem toda dívida segue o mesmo prazo. Se a sua já prescreveu, só o contrato, um advogado ou a Defensoria confirmam.\n\nO Feirão Limpa Nome da Serasa vai até 6 de dezembro, com descontos de até 99% em algumas ofertas. O seu valor muda por CPF. Negocie só pelos canais oficiais, gere o boleto você mesmo e use o Validador de Boletos da Serasa antes de pagar.\n\nVocê achava que dívida sumia? Comenta ACHAVA ou SABIA.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#divida #serasa #limpanome #educacaofinanceira",
+ "hashtags": [
+  "#divida",
+  "#serasa",
+  "#limpanome",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, dívida não some em 5 anos. Só o seu nome.",
+  "topicos": [
+   "O Código de Defesa do Consumidor limita o nome sujo a 5 anos.",
+   "Saiu do cadastro, a dívida continua: podem cobrar por telefone ou carta.",
+   "Feirão da Serasa até 6 de dezembro, desconto de até 99% em algumas ofertas.",
+   "Negocie só pelos canais oficiais da Serasa e gere o boleto você mesmo."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com prazos e cuidados, que pede calma e prova na tela; não é notícia de urgência.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"O Código de Defesa do Consumidor limita o nome sujo a 5 anos.\": é linguagem de lei e junta sigla com número. Reescreva na ordem direta e do dia a dia, por exemplo \"Pela lei, o seu nome só pode ficar sujo por 5 anos.\". Deixe o nome do Código para a legenda ou para o cartão na tela. Fica uma ideia e um número.",
+   "Frases \"Passou o prazo, sai do cadastro. A dívida continua.\" e \"Pouca gente lembra: quem te emprestou ainda pode cobrar por telefone ou carta.\": o roteiro tem o ponto e o número, mas falta o passo calmo e simples para quem tem dívida. Depois da cobrança, feche com um passo de fleumático, por exemplo \"Se a dívida é antiga, confira se ela ainda vale antes de pagar. Quem confirma é o contrato, um advogado ou a Defensoria.\". A legenda já diz isso, então leve para a fala. Troque \"cadastro\" por \"lista de nome sujo\" na mesma frase, para não ficar termo de banco sem tradução.",
+   "Frases \"O Feirão da Serasa vai até 6 de dezembro. O desconto chega a 99%, em algumas ofertas.\": há duas datas e números em falas seguidas e o nome da empresa na fala. Junte numa ideia só, em tom de conversa: \"Tem um feirão de renegociação até 6 de dezembro, com desconto que chega a uns 99% em algumas ofertas. O seu valor muda de pessoa pra pessoa.\". Abra com o espanto do Heitor, por exemplo \"Cara, você achava que dívida sumia?\", em vez de uma pergunta de manchete. Assim o gancho soa como conversa e não como texto lido."
+  ],
+  "veredito": "A peça é honesta e útil: desfaz o mito da dívida que some, usa a comparação do boleto na gaveta, dá a saída segura com canais oficiais e boleto gerado por você, e fecha com comentário fácil e o bordão. Falta soltar a voz do Heitor, porque as falas ainda soam como texto de lei e de aviso. Também falta um passo calmo e simples para quem tem dívida antiga, e a parte do feirão tem número e nome de empresa demais para a fala."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Pouca gente lembra: quem te emprestou ainda pode cobrar por telefone ou carta.\" é a virada, mas soa teleprompter. Reescrita: \"E aqui vem a parte que pouca gente viu: quem te emprestou ainda pode cobrar por telefone ou carta.\"",
+   "Frase \"O Feirão da Serasa vai até 6 de dezembro.\" entra seca, como outro assunto. Reescrita: \"Quer resolver? O Feirão da Serasa vai até 6 de dezembro. Em algumas ofertas, o desconto chega a 99%.\" Junta prazo e número forte numa ideia só.\", \"Frase \"Dívida some em 5 anos? Só o seu nome some da lista.\" resolve rápido e sem energia. Reescrita com a voz do Heitor: \"Cara, dívida não some em 5 anos. Só o seu nome some da lista.\""
+  ],
+  "veredito": "Gancho forte, que desmonta uma crença comum, com envio concreto e comentário fácil (ACHAVA ou SABIA). Falta ritmo e a voz do Heitor na virada e na ponte para o Feirão, para segurar até o fim."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Close-up of a wooden desk drawer sliding slowly open in warm indoor light, revealing a stack of blank unmarked paper bills folded inside. The camera pushes in slowly toward the drawer, shallow depth of field, dust particles floating in the light. No people, no text, no logos",
+   "texto_da_fala": "É como guardar o boleto na gaveta: sumiu da vista, a conta fica.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a wooden desk drawer sliding slowly open in warm indoor light, revealing a stack of blank unmarked paper bills folded inside. The camera pushes in slowly toward the drawer, shallow depth of field, dust particles floating in the light. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "A smartphone lying on a kitchen table lights up with a blank glowing screen and vibrates gently, next to a sealed paper envelope with no writing on it. Slow dolly-in from the side with soft window light, shallow depth of field. No people, no faces, no text, no logos",
+   "texto_da_fala": "Pouca gente lembra: quem te emprestou ainda pode cobrar por telefone ou carta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A smartphone lying on a kitchen table lights up with a blank glowing screen and vibrates gently, next to a sealed paper envelope with no writing on it. Slow dolly-in from the side with soft window light, shallow depth of field. No people, no faces, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Storefront-style display with several plain red blank price tags hanging from a rack, swaying slightly as if a sale is on. The camera glides slowly sideways past the tags with a soft focus pull, bright daylight, cheerful retail mood. Tags are completely blank, no text, no numbers, no symbols, no logos, no people",
+   "texto_da_fala": "O desconto chega a 99%, em algumas ofertas.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Storefront-style display with several plain red blank price tags hanging from a rack, swaying slightly as if a sale is on. The camera glides slowly sideways past the tags with a soft focus pull, bright daylight, cheerful retail mood. Tags are completely blank, no text, no numbers, no symbols, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Dívida some em 5 anos? Só o seu nome some da lista.\n\nO Código de Defesa do Consumidor limita o nome sujo a 5 anos.\n\nPassou o prazo, sai do cadastro. A dívida continua.\n\nÉ como guardar o boleto na gaveta: sumiu da vista, a conta fica.\n\nPouca gente lembra: quem te emprestou ainda pode cobrar por telefone ou carta.\n\nO Feirão da Serasa vai até 6 de dezembro.\n\nO desconto chega a 99%, em algumas ofertas.\n\nNegocie só pelos canais oficiais e gere o boleto você mesmo.\n\nManda pra quem acha que a dívida sumiu.\n\nVocê achava que dívida sumia? Comenta ACHAVA ou SABIA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/nome-nao-pode-ficar-mais-de-cinco-anos-em-cadastro-de-inadimplentes-o-que-o-codigo-de-defesa-do-consumidor-diz-sobre-dividas-antigas/",
+   "destaque": "O Código de Defesa do Consumidor (art."
+  }
+ ],
+ "data": "2026-11-22",
+ "gerado_em": "2026-11-22T07:07:24.113264-03:00"
+}
