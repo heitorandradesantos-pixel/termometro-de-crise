@@ -1,0 +1,105 @@
+{
+ "titulo": "Dívida caduca em 5 anos? Verdade ou exagero: o que se sabe",
+ "descricao": "Nome sai do cadastro em até 5 anos, mas a dívida não some. Veja nome limpo x dívida paga e o Feirão Limpa Nome da Serasa até 6/12.",
+ "palavra_chave": "dívida caduca em 5 anos",
+ "lead": "Dívida caduca em 5 anos? É meia verdade. O nome só pode ficar negativado por até 5 anos, mas a dívida em si não desaparece nesse prazo. O Feirão Limpa Nome da Serasa, com descontos de até 99% em ofertas selecionadas, vai até 6 de dezembro. Você achava que dívida sumia depois de 5 anos? ACHAVA ou SABIA?",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Código de Defesa do Consumidor (art. 43, § 1º) limita a 5 anos o tempo em que informação negativa pode aparecer nos cadastros de proteção ao crédito. A contagem olha a idade da dívida, não o dia em que o nome entrou no cadastro.",
+   "fonte_url": "https://www.correiobraziliense.com.br/cbradar/nome-nao-pode-ficar-mais-de-cinco-anos-em-cadastro-de-inadimplentes-o-que-o-codigo-de-defesa-do-consumidor-diz-sobre-dividas-antigas/",
+   "data": "2026-11-19",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "O Código Civil (art. 206, § 5º, I) fixa em 5 anos o prazo para cobrar na Justiça dívida líquida (de valor certo) registrada em contrato ou documento. Passado esse prazo, a cobrança judicial prescreve, ou seja, o credor perde o direito de entrar com ação.",
+   "fonte_url": "https://www.correiobraziliense.com.br/cbradar/nome-nao-pode-ficar-mais-de-cinco-anos-em-cadastro-de-inadimplentes-o-que-o-codigo-de-defesa-do-consumidor-diz-sobre-dividas-antigas/",
+   "data": "2026-11-19",
+   "veiculo": "Correio Braziliense",
+   "confiavel": true
+  },
+  {
+   "texto": "Sair do cadastro não é a dívida acabar. Segundo o portal Entenda o Dinheiro, o registro tem prazo de 5 anos, mas a dívida continua existindo e pode ser cobrada por telefone, carta ou, dentro dos prazos legais, na Justiça.",
+   "fonte_url": "https://entendaodinheiro.com.br/artigos/negativacao-como-funciona-e-prazos/",
+   "data": "2026-08-20",
+   "veiculo": "Entenda o Dinheiro",
+   "confiavel": false
+  },
+  {
+   "texto": "Nem toda dívida segue o prazo de 5 anos. O art. 206 do Código Civil traz prazos menores em outros casos, como 3 anos para aluguéis, e por isso não dá para generalizar.",
+   "fonte_url": "https://amarassist.com.br/artigos/nome-fica-limpo-depois-de-5-anos/",
+   "data": "2026-10-16",
+   "veiculo": "Amar Assist",
+   "confiavel": false
+  },
+  {
+   "texto": "A 36ª edição do Feirão Serasa Limpa Nome vai de 3 de novembro a 6 de dezembro de 2026, até as 23h59. Tem mais de 3.300 empresas parceiras e mais de 750 milhões de ofertas, com descontos que podem chegar a 99%. Cada oferta tem regras próprias.",
+   "fonte_url": "https://www.serasa.com.br/limpa-nome-online/blog/feirao-serasa-limpa-nome/",
+   "data": "2026-11-10",
+   "veiculo": "Serasa",
+   "confiavel": false
+  },
+  {
+   "texto": "O Feirão é uma campanha organizada pela Serasa em parceria com empresas credoras, ou seja, as empresas a quem a dívida é devida.",
+   "fonte_url": "https://meutudo.com.br/blog/noticias/2026/11/04/serasa-abre-novo-feirao-limpa-nome-de-2026-com-mais-ofertas-veja-prazo-e-como-participar",
+   "data": "2026-11-04",
+   "veiculo": "Meu Tudo",
+   "confiavel": false
+  },
+  {
+   "texto": "Dado mais recente: 84,2 milhões de brasileiros estavam inadimplentes (com contas em atraso) em setembro de 2026, o maior número da série da Serasa. A dívida média por pessoa negativada é de R$ 7.093,83. Os dados saíram em 2 de novembro.",
+   "fonte_url": "https://juristas.com.br/noticias/inadimplencia-no-brasil-atinge-recorde-historico-aponta-serasa/",
+   "data": "2026-11-02",
+   "veiculo": "Juristas, com dados da Serasa",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Serasa, a edição anterior do Feirão fechou mais de 10,2 milhões de acordos. Na edição atual, dá para negociar pelos canais digitais ou nas mais de 7 mil agências dos Correios, sem taxa de atendimento.",
+   "fonte_url": "https://agenciagov.ebc.com.br/noticias/202611/correios-e-serasa-promovem-nova-edicao-do-feirao-limpa-nome-com-atendimento-em-mais-de-7-mil-agencias",
+   "data": "2026-11-03",
+   "veiculo": "Agência Gov",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Serasa divulga o Mapa da Inadimplência: 84,2 milhões de brasileiros com contas em atraso em setembro, recorde da série.",
+   "fonte_url": "https://juristas.com.br/noticias/inadimplencia-no-brasil-atinge-recorde-historico-aponta-serasa/",
+   "data": "2026-11-02",
+   "veiculo": "Juristas",
+   "confiavel": false
+  },
+  {
+   "texto": "Começa a 36ª edição do Feirão Limpa Nome, com Serasa e Correios. Ela segue até 6 de dezembro.",
+   "fonte_url": "https://agenciagov.ebc.com.br/noticias/202611/correios-e-serasa-promovem-nova-edicao-do-feirao-limpa-nome-com-atendimento-em-mais-de-7-mil-agencias",
+   "data": "2026-11-03",
+   "veiculo": "Agência Gov",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o banco ou a loja vai negar crédito por uma dívida antiga com ele, mesmo com o nome fora do cadastro: não encontrei fonte oficial sobre isso nesta apuração. Cada empresa define seus próprios critérios; isso não foi confirmado.",
+  "Por que a campanha cai no fim do ano: as fontes consultadas descrevem o Feirão, mas não explicam o motivo do calendário. Qualquer explicação sobre isso é leitura de terceiros, não confirmada.",
+  "Quanto de desconto você terá: o 'até 99%' é o teto de algumas ofertas. O valor muda por CPF e por dívida, e só aparece na sua conta.",
+  "Se a sua dívida específica já prescreveu: depende do tipo de dívida, da data de vencimento e de eventuais ações judiciais. Isso só se confirma com o contrato e, se preciso, com um advogado ou a Defensoria."
+ ],
+ "o_que_muda_para_voce": [
+  "Nome limpo quer dizer que a dívida saiu do cadastro de inadimplentes. Dívida paga quer dizer que você quitou o valor. São coisas diferentes: a dívida pode sair do cadastro por prazo e continuar existindo.",
+  "Se o nome sair do cadastro depois de 5 anos, o credor ainda pode cobrar de forma amigável, por telefone ou carta, conforme as fontes citadas.",
+  "Se a cobrança judicial já prescreveu, a dívida deixa de poder ser cobrada pela Justiça. Isso não é o mesmo que a dívida ter sido paga.",
+  "O Feirão vai até 6/12 às 23h59. Antes de aceitar, olhe o valor da parcela e o total a pagar. A Serasa mesma lembra que a decisão deve caber no orçamento.",
+  "Gatilho para os comentários: você achava que dívida sumia depois de 5 anos? ACHAVA ou SABIA?"
+ ],
+ "como_se_proteger": [
+  "Negocie só pelos canais oficiais: site serasa.com.br, app Serasa, WhatsApp oficial (11) 99575-2096 ou agências dos Correios.",
+  "Gere o boleto ou o Pix você mesmo, no app ou no site oficial. Não clique em boleto que chegou por e-mail, SMS ou WhatsApp sem você ter pedido.",
+  "Desconfie se o boleto ou o Pix estiver em nome de pessoa física. Segundo a Serasa, ela não gera boleto em nome de pessoa física.",
+  "A negociação é gratuita. Quem cobra taxa para 'liberar desconto' não é a Serasa.",
+  "Antes de pagar, use o Validador de Boletos e Chave Pix da Serasa. Se o código não for reconhecido, não pague e denuncie."
+ ],
+ "slug": "divida-caduca-em-5-anos",
+ "publicado_em": "2026-11-22T07:02:01.954501",
+ "atualizado_em": "2026-11-22T07:02:01.954501",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário, formato \"verdade ou exagero\") \"dívida caduca em 5 anos?\". Pelo Código de Defesa do Consumidor (Lei 8.078/1990, art. 43, § 1º, planalto.gov.br), o nome não pode ficar negativado por mais de 5 anos; pelo Código Civil (Lei 10.406/2002, art. 206, § 5º, I), a cobrança judicial de dívida com documento prescreve em 5 anos. Mas a dívida NÃO some: o credor ainda pode cobrar amigavelmente e a pessoa pode ter crédito negado no próprio banco. Explique em linguagem de rua a diferença entre nome limpo e dívida paga, e por que fim de ano tem mutirão de renegociação com desconto (o Feirão Limpa Nome da Serasa vai até 06/12/2026), sempre gerando o boleto só no app ou site oficial para não cair em golpe. Gatilho: \"Você achava que dívida sumia depois de 5 anos? ACHAVA ou SABIA.\" Sem citar credor como vilão, sem recomendação de investimento.",
+ "turno": "manha"
+}
