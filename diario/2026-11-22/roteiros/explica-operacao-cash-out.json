@@ -1,0 +1,200 @@
+{
+ "gancho": {
+  "formula": "Antes e depois (número contra número)",
+  "texto": "R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados: Operação Cash Out.",
+  "na_tela": "Operação Cash Out: R$ 11 bilhões",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois (número contra número)",
+   "texto": "R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados: Operação Cash Out.",
+   "na_tela": "Operação Cash Out: R$ 11 bilhões",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Antes de apostar, tem uma lista do governo que você precisa conferir.",
+   "na_tela": "Lista do governo antes de apostar",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu CPF na conta de quem aposta? As autoridades investigam isso.",
+   "na_tela": "Seu CPF na conta de quem aposta?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados: Operação Cash Out.",
+  "Segundo Receita e MPF, são suspeitos: ninguém foi condenado, tá?",
+  "Segundo as autoridades, a Justiça bloqueou cerca de R$ 2,32 bilhões.",
+  "É como segurar a mercadoria na porta até a Justiça decidir.",
+  "Olha que loucura: segundo a Receita, há indício de documento de falecido usado.",
+  "Ninguém explicou ainda como ficam saldo e saque dos clientes.",
+  "Se você aposta, confira o site na lista do gov.br/fazenda.",
+  "Não empreste CPF, conta nem Pix pra ninguém apostar.",
+  "Você conhece alguém que perdeu dinheiro em bet? Comenta EU CONHEÇO ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados: Operação Cash Out. Segundo Receita e MPF, são suspeitos: ninguém foi condenado, tá? Segundo as autoridades, a Justiça bloqueou cerca de R$ 2,32 bilhões. É como segurar a mercadoria na porta até a Justiça decidir. Olha que loucura: segundo a Receita, há indício de documento de falecido usado. Ninguém explicou ainda como ficam saldo e saque dos clientes. Se você aposta, confira o site na lista do gov.br/fazenda. Não empreste CPF, conta nem Pix pra ninguém apostar. Você conhece alguém que perdeu dinheiro em bet? Comenta EU CONHEÇO ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 109,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Operação Cash Out: R$ 11 bilhões",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados",
+   "fonte": "Contábeis"
+  },
+  {
+   "fala": 1,
+   "texto": "Suspeitos: ninguém condenado",
+   "fonte": "Ministério Público Federal"
+  },
+  {
+   "fala": 2,
+   "texto": "R$ 2,32 bilhões bloqueados",
+   "fonte": "Folha de Minas"
+  },
+  {
+   "fala": 4,
+   "texto": "Indício: documento de falecido",
+   "fonte": "BM&C News"
+  },
+  {
+   "fala": 5,
+   "texto": "Saldo e saque de clientes: sem resposta",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "gov.br/fazenda: lista de autorizadas",
+   "fonte": "Ministério da Fazenda"
+  }
+ ],
+ "retomada": 4,
+ "busca": "operação Cash Out bets o que se sabe",
+ "legenda": "Operação Cash Out e bets: o que se sabe até agora.\n\nEm 18 de novembro, Receita Federal, Ministério Público Federal e Polícia Federal fizeram a operação contra um grupo de apostas online. Segundo Receita e MPF, o grupo movimentou mais de R$ 11 bilhões em 2025 e declarou cerca de R$ 2 bilhões. A Justiça determinou o bloqueio de cerca de R$ 2,32 bilhões em bens e valores.\n\nOs investigados são suspeitos: ninguém foi condenado, e só a Justiça pode condenar. Os números ainda mudam, e ninguém explicou como ficam saldos e saques de clientes das plataformas.\n\nO que fazer: se você aposta, confira se o site está na lista de empresas autorizadas da Secretaria de Prêmios e Apostas, no gov.br/fazenda. Estar na lista é o mínimo e não garante ganho. Não empreste seu CPF, sua conta nem seu Pix para outra pessoa apostar. Guarde comprovantes e, se houver golpe, registre boletim de ocorrência e avise o banco.\n\nVocê conhece alguém que perdeu dinheiro em bet? Comenta EU CONHEÇO ou NÃO.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento. Aposta pode dar prejuízo.\n\n#bets #operacaocashout #receitafederal #educacaofinanceira #apostasonline",
+ "hashtags": [
+  "#bets",
+  "#operacaocashout",
+  "#receitafederal",
+  "#educacaofinanceira",
+  "#apostasonline"
+ ],
+ "rua": {
+  "gancho": "Cara, R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados.",
+  "topicos": [
+   "Segundo Receita e MPF, o grupo de bets é suspeito: ninguém foi condenado.",
+   "A Justiça mandou bloquear cerca de R$ 2,32 bilhões, segundo as autoridades.",
+   "Segundo a Receita, há indício de documento de falecido usado nas plataformas.",
+   "Confira o site na lista do gov.br/fazenda. Não empreste CPF nem Pix."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com contexto e vários pontos (o que se sabe, o que não se sabe e como se proteger), então pede calma.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Na 1ª fala, \"R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados\": são dois números e abre como manchete. Abra com reação (\"Cara, olha esse número: R$ 11 bilhões\") e passe o declarado para a fala seguinte. Troque \"Operação Cash Out\" por \"operação contra um grupo de bets\" se a fala ficar pesada.",
+   "Em \"Segundo Receita e MPF\" e \"confira o site na lista do gov.br/fazenda\": a sigla não está traduzida e o endereço do site está na fala. Diga \"segundo a Receita e o Ministério Público\" e \"confira se o site está na lista do governo\", com o link só na legenda e no cartão. Em \"cerca de R$ 2,32 bilhões\", fale \"mais de R$ 2 bilhões\" e deixe o exato no cartão.",
+   "O roteiro vai direto do \"Não empreste CPF...\" ao comentário e ao bordão, sem a assinatura da casa. Antes do \"Sem alarde...\", inclua: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Assim a assinatura vem na fala e não só na legenda."
+  ],
+  "veredito": "A peça acerta no tom sério e acolhedor, na ressalva de que ninguém foi condenado, no que ainda não se sabe e na saída prática, mas falha no Teste do CLT (dois números na primeira fala, sigla e nome de site na fala) e deixa de fora a assinatura \\\"Eu sou o Heitor...\\\" no roteiro."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados: Operação Cash Out.\" parece manchete lida, com dois números e um nome que ninguém conhece. Reescrita: \"Cara, um grupo de bets movimentou R$ 11 bilhões e declarou só uns R$ 2 bilhões. Isso é a Receita falando, não sou eu.\" O nome da operação vai para a tela e a legenda.",
+   "Envio: não há pedido para mandar o vídeo. Depois de \"Não empreste CPF, conta nem Pix pra ninguém apostar.\", acrescente: \"Tem alguém aí que aposta em bet? Manda esse vídeo pra ele, sério.\"",
+   "Retenção: \"É como segurar a mercadoria na porta até a Justiça decidir.\" é uma comparação fraca e atrasa a virada. Troque por \"E tem mais.\" antes de \"Olha que loucura: a Receita vê indício de que usaram documento de gente que já morreu.\" Assim a virada chega mais cedo e a fala fica mais simples para o público CLT."
+  ],
+  "veredito": "O roteiro é honesto, paga o que promete e fecha com um gatilho de comentário fácil, mas abre como manchete e não tem pedido de envio. Faltam um gancho que fale com quem aposta e um \\\"manda pra quem aposta em bet\\\" para viralizar."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Close shot of a heavy steel bank vault door slowly swinging shut in a dim, cold-lit room, with a big metal locking wheel turning and bolts sliding into place. Slow dolly-in toward the center of the door. Cinematic, shallow depth of field, no people, no text, no logos",
+   "texto_da_fala": "Segundo as autoridades, a Justiça bloqueou cerca de R$ 2,32 bilhões.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close shot of a heavy steel bank vault door slowly swinging shut in a dim, cold-lit room, with a big metal locking wheel turning and bolts sliding into place. Slow dolly-in toward the center of the door. Cinematic, shallow depth of field, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Cargo trucks and stacked shipping containers waiting at a closed striped metal gate of a warehouse yard at dusk, a red-and-white barrier arm lowered and not moving. Slow lateral tracking shot along the line of stopped trucks. Moody orange light, no people visible, no text, no logos, no readable markings",
+   "texto_da_fala": "É como segurar a mercadoria na porta até a Justiça decidir.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Cargo trucks and stacked shipping containers waiting at a closed striped metal gate of a warehouse yard at dusk, a red-and-white barrier arm lowered and not moving. Slow lateral tracking shot along the line of stopped trucks. Moody orange light, no people visible, no text, no logos, no readable markings. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "An old, yellowed blank identity card with a blurred, unreadable photo area lying on a dusty wooden desk next to a closed folder, with a thin beam of light and floating dust particles. Slow push-in with a slight handheld drift, a withered flower beside it. No faces in focus, no text, no numbers, no logos",
+   "texto_da_fala": "Olha que loucura: segundo a Receita, há indício de documento de falecido usado.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. An old, yellowed blank identity card with a blurred, unreadable photo area lying on a dusty wooden desk next to a closed folder, with a thin beam of light and floating dust particles. Slow push-in with a slight handheld drift, a withered flower beside it. No faces in focus, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 11 bilhões movimentados, cerca de R$ 2 bilhões declarados: Operação Cash Out.\n\nSegundo Receita e MPF, são suspeitos: ninguém foi condenado, tá?\n\nSegundo as autoridades, a Justiça bloqueou cerca de R$ 2,32 bilhões.\n\nÉ como segurar a mercadoria na porta até a Justiça decidir.\n\nOlha que loucura: segundo a Receita, há indício de documento de falecido usado.\n\nNinguém explicou ainda como ficam saldo e saque dos clientes.\n\nSe você aposta, confira o site na lista do gov.br/fazenda.\n\nNão empreste CPF, conta nem Pix pra ninguém apostar.\n\nVocê conhece alguém que perdeu dinheiro em bet? Comenta EU CONHEÇO ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Ministério da Fazenda",
+   "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/receita-federal-mpf-e-pf-deflagram-operacao-cash-out",
+   "destaque": "Na nota do Ministério da Fazenda, a Receita diz que participa do cumprimento de 25 mandados, e não de 59."
+  },
+  {
+   "veiculo": "Ministério da Fazenda (SPA)",
+   "url": "https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/lista-de-empresas/planilha-de-autorizacoes-06-05-2026.pdf",
+   "destaque": "A Secretaria de Prêmios e Apostas (SPA), do Ministério da Fazenda, publica no gov.br a lista de empresas autorizadas a operar bets no país."
+  }
+ ],
+ "data": "2026-11-22",
+ "gerado_em": "2026-11-22T06:59:29.375350-03:00"
+}
