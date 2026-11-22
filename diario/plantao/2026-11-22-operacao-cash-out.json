@@ -1,0 +1,127 @@
+{
+ "titulo": "Operação Cash Out e bets: o que se sabe",
+ "descricao": "PF, Receita e MPF investigam grupo de bets que movimentou R$ 11 bi em 2025. Entenda lavagem de dinheiro em aposta e o que muda para você.",
+ "palavra_chave": "operação cash out",
+ "lead": "Heitor direto ao ponto: em 18 de novembro, a Receita Federal, o Ministério Público Federal (MPF) e a Polícia Federal (PF) fizeram a Operação Cash Out contra um grupo de apostas online. Segundo Receita e MPF, o grupo movimentou mais de R$ 11 bilhões em 2025 e declarou cerca de R$ 2 bilhões. Os investigados são suspeitos: ninguém foi condenado, e este texto não cita nomes nem marcas.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O MPF informou que a operação cumpriu 59 mandados de busca e apreensão em Pernambuco, São Paulo, Rio de Janeiro, Paraná e Santa Catarina. Ela investiga sonegação fiscal (não pagar imposto devido), evasão de divisas (mandar dinheiro ao exterior fora das regras), lavagem de dinheiro, falsidade ideológica e organização criminosa no setor de bets.",
+   "fonte_url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/operacao-cash-out-investigacao-aponta-sonegacao-de-mais-de-r-2-bilhoes-em-esquema-envolvendo-casa-de-aposta",
+   "data": "2026-11-18",
+   "veiculo": "Ministério Público Federal",
+   "confiavel": false
+  },
+  {
+   "texto": "Na nota do Ministério da Fazenda, a Receita diz que participa do cumprimento de 25 mandados, e não de 59. A diferença está nas fontes: o número de 59 é o total divulgado pelo MPF. A nota fala em indícios de crimes contra a ordem tributária, lavagem de dinheiro e possível ocultação de receitas.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/receita-federal-mpf-e-pf-deflagram-operacao-cash-out",
+   "data": "2026-11-18",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo Receita e MPF, o grupo movimentou mais de R$ 11 bilhões em 2025 e declarou cerca de R$ 2 bilhões. Em atualização, o MPF estimou a sonegação só em 2025 em R$ 2,3 bilhões, de forma conservadora. Uma versão posterior do MPF cita movimentação de até R$ 13 bilhões.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/81025/operacao-cash-out-investiga-bets-por-movimentacao-bilionaria/",
+   "data": "2026-11-20",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "A Justiça determinou o bloqueio de cerca de R$ 2,32 bilhões em bens e valores de pessoas e empresas investigadas. Também houve apreensão de cinco aeronaves, 14 veículos de luxo e um iate, segundo as autoridades. O bloqueio serve para garantir uma possível recuperação do dinheiro, caso haja condenação.",
+   "fonte_url": "https://ofolhademinas.com.br/operacao-cash-out-mira-esquema-bilionario-de-bets-e-bloqueia-r-232-bilhoes/",
+   "data": "2026-11-18",
+   "veiculo": "O Folha de Minas",
+   "confiavel": false
+  },
+  {
+   "texto": "A Receita encontrou indícios de que o grupo usou uma empresa sediada em Curaçao, no Caribe, para registrar as plataformas voltadas ao público brasileiro. Segundo a Receita, o dia a dia da operação ficava com empresas instaladas no Brasil e ligadas aos investigados.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/receita-federal-mpf-e-pf-deflagram-operacao-cash-out",
+   "data": "2026-11-18",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "A Receita diz ter achado indícios de uso de documentos de pessoas falecidas, de menores de idade e de empresas impedidas de apostar para movimentar dinheiro nas plataformas. Segundo a Receita, algumas empresas teriam prestado serviços fictícios ao grupo, criando despesas que reduziriam impostos. Tudo isso ainda é investigação.",
+   "fonte_url": "https://bmcnews.com.br/economia/pf-bloqueia-mais-de-r-2-3-bilhoes-em-operacao-contra-apostas-ilegais/",
+   "data": "2026-11-18",
+   "veiculo": "BM&C News",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a PF, o grupo teria mandado mais de 500 milhões de euros ao exterior e trazido parte do valor de volta por instituições de pagamento (empresas que movimentam dinheiro sem ser banco). Para a Receita, o uso dessas empresas foi intenso.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/81025/operacao-cash-out-investiga-bets-por-movimentacao-bilionaria/",
+   "data": "2026-11-20",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "A Secretaria de Prêmios e Apostas (SPA), do Ministério da Fazenda, publica no gov.br a lista de empresas autorizadas a operar bets no país. A lista traz razão social, marcas e endereços de internet de cada empresa.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/lista-de-empresas/planilha-de-autorizacoes-06-05-2026.pdf",
+   "data": "2026-05-06",
+   "veiculo": "Ministério da Fazenda (SPA)",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Segundo o MPF, o grupo começou a atuar no mercado de apostas em 2020, antes da regulamentação federal. A informação aparece nas notas divulgadas na operação.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/81025/operacao-cash-out-investiga-bets-por-movimentacao-bilionaria/",
+   "data": "2026-11-18",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  },
+  {
+   "texto": "Entre setembro de 2022 e novembro de 2024, a empresa estrangeira ligada ao caso esteve vinculada a operações de câmbio acima de 1 bilhão de euros, segundo MPF e Receita.",
+   "fonte_url": "https://oparana.com.br/policial/operacao-cash-out-investiga-esquema-de-bets-e-bloqueia-r-23-bilhoes/",
+   "data": "2026-11-18",
+   "veiculo": "O Paraná",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 18/11, PF, Receita e MPF deflagram a Operação Cash Out, com mandados em cinco estados e bloqueio de cerca de R$ 2,32 bilhões.",
+   "fonte_url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/operacao-cash-out-investigacao-aponta-sonegacao-de-mais-de-r-2-bilhoes-em-esquema-envolvendo-casa-de-aposta",
+   "data": "2026-11-18",
+   "veiculo": "Ministério Público Federal",
+   "confiavel": false
+  },
+  {
+   "texto": "Na coletiva, o coordenador do Gaeco Nacional disse que é a terceira ação conjunta entre MPF e Receita no setor de apostas no segundo semestre de 2026.",
+   "fonte_url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/operacao-cash-out-investigacao-aponta-sonegacao-de-mais-de-r-2-bilhoes-em-esquema-envolvendo-casa-de-aposta",
+   "data": "2026-11-18",
+   "veiculo": "Ministério Público Federal",
+   "confiavel": false
+  },
+  {
+   "texto": "Em atualização, o MPF estimou em R$ 2,3 bilhões a sonegação só em 2025 e citou movimentação de até R$ 13 bilhões.",
+   "fonte_url": "https://www.contabeis.com.br/noticias/81025/operacao-cash-out-investiga-bets-por-movimentacao-bilionaria/",
+   "data": "2026-11-20",
+   "veiculo": "Contábeis",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado que alguém cometeu crime. Os alvos são suspeitos e só a Justiça pode condenar. A responsabilização depende de provas no processo.",
+  "A tese de PF e MPF de que parte do dinheiro sob suspeita pagou a autorização para atuar no mercado legal é uma hipótese em investigação. Não foi provada na Justiça.",
+  "Não há informação confirmada nas fontes consultadas sobre como ficam os saldos e saques de clientes das plataformas ligadas ao grupo. Ninguém explicou isso ainda.",
+  "Os números ainda mudam. O MPF falou em R$ 11 bilhões, depois em até R$ 13 bilhões. O total de mandados também aparece como 25 (nota da Receita) e 59 (MPF).",
+  "A investigação não terminou. Não se sabe se haverá denúncia à Justiça, quem seria denunciado nem quando."
+ ],
+ "o_que_muda_para_voce": [
+  "Lavagem de dinheiro, em linguagem de rua, é fazer dinheiro de origem suja parecer limpo. Em tese, apostas ajudam nisso porque entra e sai muito dinheiro todo dia, em valores pequenos e variados. Isso pode misturar dinheiro limpo com dinheiro suspeito. Aqui, a PF e a Receita investigam se algo assim ocorreu. Ainda não está provado.",
+  "Se você aposta, confira se o site está na lista da Secretaria de Prêmios e Apostas, no gov.br/fazenda. Site fora da lista não tem autorização do governo e não tem garantia de pagar prêmio, nem fiscalização da SPA. Estar na lista é o mínimo e não garante ganho. Este texto não recomenda apostar. Aposta pode dar prejuízo.",
+  "Para o bolso do apostador, o prêmio de aposta paga Imposto de Renda de 15% sobre o prêmio líquido, segundo a Lei 14.790/2023. Esse dado vem de um site comercial de apostas, não de fonte oficial. Confira na Receita Federal antes de declarar.",
+  "Para quem tem conta no banco ou em fintech (empresa financeira digital), conta usada para movimentar dinheiro de terceiros pode virar problema. As autoridades investigam uso de CPFs alheios. Não empreste CPF nem conta, e não aceite dinheiro de estranho.",
+  "Gatilho do Heitor: você conhece alguém que perdeu dinheiro em bet? Comenta EU CONHEÇO ou NÃO."
+ ],
+ "como_se_proteger": [
+  "Confira o site na lista de empresas autorizadas da Secretaria de Prêmios e Apostas, no gov.br/fazenda, antes de informar CPF, dados do cartão ou chave Pix.",
+  "Desconfie de site fora da lista que prometa prêmio garantido, bônus gigante ou ganho fácil. Sem autorização, não há garantia de pagamento.",
+  "Não empreste seu CPF, sua conta ou seu Pix para outra pessoa apostar. Você pode ser envolvido em investigação.",
+  "Não faça depósito em site que chegou por mensagem de desconhecido, anúncio sem identificação ou link de rede social.",
+  "Guarde comprovantes de depósitos e saques. Se houver golpe, registre boletim de ocorrência e avise o banco."
+ ],
+ "slug": "operacao-cash-out",
+ "publicado_em": "2026-11-22T06:53:43.151443",
+ "atualizado_em": "2026-11-22T06:53:43.151443",
+ "assunto": "Modo polêmica, voz do Heitor, com gatilho de comentário: a Receita Federal, o Ministério Público Federal e a Polícia Federal deflagraram em 18/11/2026 a Operação Cash Out, com 59 mandados de busca e apreensão contra um grupo do ramo de apostas online que movimentou R$ 11 bilhões em 2025, investigado por operações financeiras internacionais e possível ocultação de receitas (gov.br/receitafederal e gov.br/fazenda, 18/11/2026). Explique em linguagem de rua como dinheiro de aposta pode ser usado para esconder origem de dinheiro (lavagem), por que isso importa para quem aposta (site sem autorização do governo não tem garantia de pagar prêmio; a lista de sites autorizados fica no gov.br do Ministério da Fazenda, Secretaria de Prêmios e Apostas) e o que muda pro bolso. Investigados são suspeitos: não cite nomes nem marcas, não acuse ninguém. Gatilho: \"Você conhece alguém que perdeu dinheiro em bet? Comenta EU CONHEÇO ou NÃO.\" Sem recomendação de investimento, sem incentivo a apostar.",
+ "turno": "manha"
+}
