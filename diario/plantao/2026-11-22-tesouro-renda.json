@@ -1,0 +1,120 @@
+{
+ "titulo": "Tesouro Renda+ para aposentadoria: o que se sabe",
+ "descricao": "Tesouro Renda+ explicado: você junta até o ano escolhido e recebe 240 parcelas mensais com correção do IPCA. Veja imposto, risco de preço e a conta.",
+ "palavra_chave": "tesouro renda+",
+ "lead": "O Tesouro Renda+ é um título do Tesouro Direto feito para aposentadoria. Você junta dinheiro aos poucos até o ano que escolher e depois recebe 240 pagamentos mensais (20 anos), corrigidos pelo IPCA, a inflação oficial. Os números de taxa citados aqui são de 17/11/2026; a taxa do dia está no site oficial do Tesouro Direto.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Tesouro RendA+, Aposentadoria Extra, foi criado pelo Decreto nº 11.301, de 21 de dezembro de 2022, e é emitido pelo Tesouro Nacional.",
+   "fonte_url": "https://www.gov.br/tesouronacional/pt-br/noticias/conheca-o-renda-aposentadoria-extra-o-novo-titulo-do-tesouro-direto",
+   "data": "2022-12-21",
+   "veiculo": "Tesouro Nacional (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "São duas fases. Na primeira, \"juntar\", você compra títulos aos poucos durante o tempo de trabalho. Na segunda, \"receber\", a partir da data escolhida, em vez de receber tudo de uma vez, você passa a ter renda mensal por 20 anos (240 parcelas). O pagamento não é vitalício: dura 20 anos.",
+   "fonte_url": "https://www.tesourodireto.com.br/b/planeje-sua-aposentadoria-com-o-renda-",
+   "data": "2023-01-30",
+   "veiculo": "Tesouro Direto (site oficial)",
+   "confiavel": false
+  },
+  {
+   "texto": "O título rende o IPCA mais uma taxa fixa (a taxa real), e isso vale também enquanto você já recebe as parcelas. O site oficial traz um exemplo da época do lançamento: investir cerca de R$ 95 mil em 22 anos para receber 240 parcelas de R$ 1.000, em valores da época. É um exemplo do site, não uma promessa.",
+   "fonte_url": "https://www.tesourodireto.com.br/b/planeje-sua-aposentadoria-com-o-renda-",
+   "data": "2023-01-30",
+   "veiculo": "Tesouro Direto (site oficial)",
+   "confiavel": false
+  },
+  {
+   "texto": "Dá para começar com pouco. O site oficial diz que é possível investir com qualquer valor. O Tesouro Direto trabalha com um mínimo que depende do preço do título do dia.",
+   "fonte_url": "https://www.tesourodireto.com.br/b/planeje-sua-aposentadoria-com-o-renda-",
+   "data": "2023-01-30",
+   "veiculo": "Tesouro Direto (site oficial)",
+   "confiavel": false
+  },
+  {
+   "texto": "O preço do título muda todo dia. É a marcação a mercado: o título vale o que o mercado paga por ele naquele dia. Quem vende antes do prazo recebe esse preço, que pode estar abaixo do que pagou. Segundo o Mais Retorno, o Renda+ 2050 variou -36,17% em 2024 e +24,32% em 2025 (dados atualizados em 26/03/2026).",
+   "fonte_url": "https://maisretorno.com/tesouro-direto/tesouro-renda-aposentadoria-extra-2050",
+   "data": "2026-03-26",
+   "veiculo": "Mais Retorno",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 17/11/2026, segundo dados do Tesouro Nacional reunidos pelo calculadora.com.br, o Renda+ 2030 pagava IPCA + 7,58% ao ano (preço de R$ 2.008,81), e o Renda+ 2065 pagava IPCA + 7,45% ao ano (preço de R$ 167,08). Esses números mudam todo dia.",
+   "fonte_url": "https://www.calculadora.com.br/tesouro/",
+   "data": "2026-11-17",
+   "veiculo": "calculadora.com.br (dados do Tesouro Nacional)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Imposto de Renda é cobrado só sobre o ganho, não sobre o total que você guardou. No Renda+, ele é descontado de cada parcela mensal, sobre a parte que é rendimento. A alíquota é regressiva: quanto mais tempo, menor.",
+   "fonte_url": "https://www.tesourodireto.com.br/b/planeje-sua-aposentadoria-com-o-renda-",
+   "data": "2023-01-30",
+   "veiculo": "Tesouro Direto (site oficial)",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o InfoMoney, a tabela regressiva vai de 22,5% (até 180 dias) a 15% (acima de 720 dias), e o imposto incide só sobre os rendimentos de cada parcela.",
+   "fonte_url": "https://www.infomoney.com.br/guias/tesouro-renda-mais/",
+   "data": "2023-01-30",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Decreto nº 11.301 cria o Tesouro RendA+, Aposentadoria Extra.",
+   "fonte_url": "https://www.gov.br/tesouronacional/pt-br/noticias/conheca-o-renda-aposentadoria-extra-o-novo-titulo-do-tesouro-direto",
+   "data": "2022-12-21",
+   "veiculo": "Tesouro Nacional (gov.br)",
+   "confiavel": true
+  },
+  {
+   "texto": "O título começa a ser vendido no Tesouro Direto, segundo o Tribunal de Justiça de Santa Catarina.",
+   "fonte_url": "https://www.tjsc.jus.br/web/servidor/dicas-financeiras/-/asset_publisher/tbuCpsYUrhwP/content/tesouro-renda-",
+   "data": "2023-01-30",
+   "veiculo": "Poder Judiciário de Santa Catarina",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 30/09, a taxa de compra do Renda+ 2065 estava em IPCA + 6,78% ao ano.",
+   "fonte_url": "https://www.calculadora.com.br/tesouro/tesouro-renda-2065/",
+   "data": "2026-09-30",
+   "veiculo": "calculadora.com.br (dados do Tesouro Nacional)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 30/10, a taxa do Renda+ 2065 estava em IPCA + 7,28% ao ano.",
+   "fonte_url": "https://www.calculadora.com.br/tesouro/tesouro-renda-2065/",
+   "data": "2026-10-30",
+   "veiculo": "calculadora.com.br (dados do Tesouro Nacional)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 19/11, a taxa do Renda+ 2065 estava em IPCA + 7,54% ao ano.",
+   "fonte_url": "https://www.calculadora.com.br/tesouro/tesouro-renda-2065/",
+   "data": "2026-11-19",
+   "veiculo": "calculadora.com.br (dados do Tesouro Nacional)",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto você vai receber por mês: depende da taxa do dia da compra e da inflação futura. Nenhuma fonte consultada garante um valor.",
+  "Quanto o preço do título vai oscilar daqui para a frente: ninguém sabe. O histórico mostra altas e quedas fortes, mas não indica o que vem depois.",
+  "Se a alíquota mínima de Imposto de Renda do Renda+ é 15% ou outro número: um site consultado citou 10%, mas isso não foi confirmado em fonte oficial. Use o simulador do Tesouro Direto.",
+  "O motivo exato de a taxa do Renda+ 2065 ter subido de IPCA + 6,78% (30/09) para IPCA + 7,54% (19/11): as fontes consultadas só mostram os números e não explicam a causa."
+ ],
+ "o_que_muda_para_voce": [
+  "\"Juntar\" é a fase em que você compra aos poucos. \"Receber\" só começa no ano escolhido e dura 20 anos (240 meses), não a vida toda.",
+  "A conta mais simples: guardando R$ 200 por mês, você junta R$ 2.400 no ano. Em 20 anos, são R$ 48.000. Isso é só a soma do que você põe, sem rendimento, imposto nem inflação.",
+  "Se precisar do dinheiro antes do prazo, você vende pelo preço do dia, que pode estar abaixo do que pagou. Por isso o título é pensado para quem pode esperar.",
+  "Imposto de Renda incide sobre o ganho de cada parcela, não sobre o total guardado. A taxa do dia e o simulador estão no site oficial: tesourodireto.com.br.",
+  "Pergunta para os comentários: você conta só com o INSS para se aposentar? Comenta SÓ INSS ou TENHO PLANO B. Esta é uma explicação, não uma recomendação de investimento."
+ ],
+ "como_se_proteger": [],
+ "slug": "tesouro-renda",
+ "publicado_em": "2026-11-22T06:26:35.088731",
+ "atualizado_em": "2026-11-22T06:26:35.088731",
+ "assunto": "Explicativo: (voz do Heitor, roteiro curto, com gatilho de comentário) o que é o Tesouro Renda+, o título do Tesouro Direto feito para aposentadoria (tesourodireto.com.br, \"Planeje sua aposentadoria com o RendA+\"): você junta dinheiro aos poucos até o ano escolhido e depois recebe 240 pagamentos mensais (20 anos), corrigidos pela inflação (IPCA), e dá para começar com pouco dinheiro. Explique em linguagem de rua: a diferença entre \"juntar\" e \"receber\", por que o preço do título sobe e desce no caminho (marcação a mercado: quem vende antes pode perder), o imposto de renda que é cobrado sobre o ganho, e que a taxa do dia está no site oficial do Tesouro Direto. Conta simples com total guardado primeiro (ex.: guardando R$ 200 por mês você junta R$ 2.400 no ano). Gatilho: \"Você conta só com o INSS pra se aposentar? Comenta SÓ INSS ou TENHO PLANO B.\" Sem recomendação de investimento, sem promessa de ganho, sem citar banco ou corretora.",
+ "turno": "manha"
+}
