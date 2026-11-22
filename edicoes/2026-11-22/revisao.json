@@ -1,0 +1,149 @@
+{
+  "aprovado": false,
+  "palavras": 34,
+  "checagens": [
+    {
+      "regra": "Aviso legal presente",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": true
+    },
+    {
+      "regra": "Seções completas e na ordem",
+      "ok": false,
+      "detalhe": "faltando: O Termômetro da semana, Os 3 riscos no radar, Uma lição da história, O que acompanhar nos próximos 7 dias",
+      "bloqueia": true
+    },
+    {
+      "regra": "Nada pendente",
+      "ok": true,
+      "detalhe": "a edição ainda tem trechos PENDENTE",
+      "bloqueia": true
+    },
+    {
+      "regra": "Número e nível do Termômetro corretos",
+      "ok": false,
+      "detalhe": "no texto: []; válidos: [27, 36, 38, 51, 53, 55, 59, 65, 76, 80, 88, 89, 91, 94, 96]",
+      "bloqueia": true
+    },
+    {
+      "regra": "Sem recomendação, promessa ou alarmismo",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": true
+    },
+    {
+      "regra": "Todo link veio da pesquisa do Buscador",
+      "ok": true,
+      "detalhe": "fora do dossiê: ",
+      "bloqueia": true
+    },
+    {
+      "regra": "Cada risco com fonte",
+      "ok": false,
+      "detalhe": "menos de 3 links nos riscos",
+      "bloqueia": true
+    },
+    {
+      "regra": "Tamanho entre 400 e 1.300 palavras",
+      "ok": false,
+      "detalhe": "34 palavras",
+      "bloqueia": true
+    },
+    {
+      "regra": "Copy sem linguagem proibida",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": true
+    },
+    {
+      "regra": "Fontes de primeira linha",
+      "ok": true,
+      "detalhe": "conferir: ",
+      "bloqueia": false
+    },
+    {
+      "regra": "Copy sem ajustes automáticos",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": false
+    },
+    {
+      "regra": "Frases curtas (linguagem simples)",
+      "ok": true,
+      "detalhe": "",
+      "bloqueia": false
+    },
+    {
+      "regra": "SEO: palavra-chave no título e na abertura",
+      "ok": false,
+      "detalhe": "'por que o dólar está subindo' faltou em: abertura",
+      "bloqueia": false
+    },
+    {
+      "regra": "Jargão traduzido",
+      "ok": true,
+      "detalhe": "explicar: ",
+      "bloqueia": false
+    }
+  ],
+  "agentes": [
+    {
+      "agente": "Analista",
+      "segundos": 0.5,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Analista mundial",
+      "segundos": 206.4,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Arte: gráfico histórico",
+      "segundos": 0.4,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Buscador",
+      "segundos": 118.6,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "SEO",
+      "segundos": 20.7,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Redator",
+      "segundos": 59.1,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Copy",
+      "segundos": 47.0,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Arte: card das redes",
+      "segundos": 0.1,
+      "ok": true,
+      "erro": null
+    },
+    {
+      "agente": "Revisor",
+      "segundos": 0.0,
+      "ok": true,
+      "erro": null
+    }
+  ],
+  "modo_redator": "claude (claude-fable-5-2)",
+  "modo_buscador": "claude (claude-sonnet-5-5)",
+  "modo_copy": "claude (claude-fable-5-2)"
+}

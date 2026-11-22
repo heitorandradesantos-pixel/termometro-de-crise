@@ -1,0 +1,385 @@
+{
+  "eventos": [
+    {
+      "titulo": "Mercado vê alta do Fed em dezembro como quase certa; Waller defende considerar 50 pb",
+      "regiao": "Global",
+      "status": "ameaça ou declaração",
+      "data": "2026-11-18",
+      "resumo": "Após o CPI de outubro acima do esperado, a ferramenta CME FedWatch passou a apontar 100% de chance de alta na reunião de 9/12, com cerca de 87% para 25 pb e 13% para 50 pb (dados de 13/11). O diretor Christopher Waller sugeriu que 50 pb devem ser considerados; a Nuveen e o TheStreet citam ainda sinais duros de Jefferson, Barr e Cook. O Fed manteve a taxa em 3,75%-4,00% em 28/10, com dois votos por alta. O rendimento do Treasury de 10 anos passou de 5% e chegou a 5,17% em 13/11.",
+      "canal_brasil": "Sinal de juros longos e moeda: juros americanos mais altos tendem a pressionar o real e limitar espaço para corte da Selic; fontes brasileiras citam a aposta em alta do Fed entre os fatores do dólar. A alta de dezembro é expectativa de mercado, não decisão tomada.",
+      "relevancia": 5,
+      "fontes": [
+        {
+          "veiculo": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+          "data": "2026-11-13",
+          "confiavel": true
+        },
+        {
+          "veiculo": "Nuveen",
+          "url": "https://www.nuveen.com/global/insights/fixed-income/fixed-income-weekly-commentary",
+          "data": "2026-11-16",
+          "confiavel": false
+        },
+        {
+          "veiculo": "TheStreet",
+          "url": "https://thestreet.com/fed/j-p-morgan-prices-in-stunning-shift-in-fed-rate-hike-call",
+          "data": "2026-11-21",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "Dólar fecha a R$ 5,93, maior valor desde abril de 2025; BC vende US$ 1 bi; Ibovespa cai 3,5% na semana",
+      "regiao": "Américas",
+      "status": "fato confirmado",
+      "data": "2026-11-19",
+      "resumo": "Na quinta-feira (19/11), véspera do feriado da Consciência Negra, o dólar subiu pela sexta sessão seguida e fechou a R$ 5,934, com alta de cerca de 4,9% na semana; o Banco Central vendeu US$ 1 bilhão à vista, e a moeda voltou a subir após recuar temporariamente a R$ 5,85. O Ibovespa fechou em 166.376 pontos (-0,69%), com queda semanal de cerca de 3,5%. A B3 ficou fechada em 20/11; o EWZ, ETF de ações brasileiras em Nova York, caiu 3,29% nesse dia. Veículos atribuem o movimento a dúvidas sobre o ajuste fiscal (plano de cortes de até R$ 60 bi visto como insuficiente), juros americanos e commodities. A Selic está em 13,75% desde a decisão unânime de 4/11 de pausar os cortes.",
+      "canal_brasil": "Câmbio -> inflação: estimativa de veículo brasileiro (TV Sim) diz que alta de 20% do dólar pode somar até 1,2 ponto ao IPCA; é cálculo de terceiros. Canais possíveis: Selic mais alta por mais tempo, custo de importados e insumos, exportações e agro mais competitivos em reais. Causa única não identificada: as fontes citam fatores fiscais e externos.",
+      "relevancia": 5,
+      "fontes": [
+        {
+          "veiculo": "Money Times",
+          "url": "https://www.moneytimes.com.br/tempo-real-19-11-2026-davs/",
+          "data": "2026-11-19",
+          "confiavel": true
+        },
+        {
+          "veiculo": "SpaceMoney",
+          "url": "https://www.spacemoney.com.br/investimentos/b3-sem-pregao-feriado-consciencia-negra",
+          "data": "2026-11-20",
+          "confiavel": false
+        },
+        {
+          "veiculo": "O Cafezinho (cita Money Times)",
+          "url": "https://www.ocafezinho.com/2026-11-21/fundo-de-acoes-brasileiras-nos-eua-cai-33-em-dia-de-queda-global-em-wall-street",
+          "data": "2026-11-21",
+          "confiavel": false
+        },
+        {
+          "veiculo": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/21/novo-recorde-dolar-leva-cotacao-r593",
+          "data": "2026-11-21",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "IRGC diz ter atacado duas bases dos EUA no Bahrein; petroleiros atingidos perto de Ormuz",
+      "regiao": "Oriente Médio",
+      "status": "operação em curso",
+      "data": "2026-11-22",
+      "resumo": "A Guarda Revolucionária do Irã afirmou ter mirado posições militares dos EUA em al-Riffa e Awali, no Bahrein; o Bahrein informou não haver feridos e disse que uma instalação industrial civil foi atingida, com incêndio (Al Jazeera, Middle East Eye). A AP registrou três petroleiros atingidos ao redor do Estreito de Ormuz, e um petroleiro pegou fogo perto do estreito em 20/11 (IBTimes AU). O Gulf News lista, no dia 263 da guerra, ataques dos EUA perto da ilha de Qeshm, um terceiro porta-aviões dos EUA na região e custo de mais de US$ 48 bilhões para o Pentágono. A guerra começou com ataques EUA-Israel ao Irã no fim de fevereiro.",
+      "canal_brasil": "Sinal de energia (rotas, Ormuz). Canal: oferta de petróleo e risco de frete/seguro -> preço de combustíveis -> IPCA e balança comercial (Brasil é exportador de petróleo). Alta de Brent não foi o resultado da semana (ver evento de petróleo): o mercado pode já ter antecipado.",
+      "relevancia": 5,
+      "fontes": [
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/middle-east/",
+          "data": "2026-11-22",
+          "confiavel": false
+        },
+        {
+          "veiculo": "AP (via Durango Herald)",
+          "url": "https://durangoherald.com/articles/associated-press/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news",
+          "data": "2026-11-21",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Gulf News",
+          "url": "https://gulfnews.com/uae/middle-east-war-trump-says-iran-wants-deal-but-terms-are-unacceptable-1.500755788",
+          "data": "2026-11-22",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Brent fecha a US$ 92,57 e tem 3ª queda semanal; recua cerca de 20% em novembro",
+      "regiao": "Global",
+      "status": "fato confirmado",
+      "data": "2026-11-20",
+      "resumo": "O Brent para janeiro fechou a US$ 92,57 em 20/11 (+0,64% no dia), queda de 3,4% na semana frente a US$ 95,84 de 13/11; o WTI caiu 5,2%. Segundo o IBTimes, o Brent cai cerca de 20% em novembro com a recuperação gradual dos fluxos do Golfo, mas segue mais de US$ 29 acima do nível de um ano atrás. A OPEP reportou alta de mais de 2 milhões de b/d na produção da aliança em outubro (Invezz) e uma fonte secundária cita superávit da AIE acima de 1,7 milhão de b/d no 4º tri. A OPEP+ se reúne em 29/11 para definir cotas de 2027.",
+      "canal_brasil": "Sinal de energia: preço mais baixo reduz pressão sobre combustíveis e IPCA, mas reduz receita de exportação de petróleo; o prêmio de risco de Ormuz segue. O componente Energia do Termômetro (percentil 91, leitura de set/26) foi calculado antes dessa queda; não há leitura atualizada aqui.",
+      "relevancia": 5,
+      "fontes": [
+        {
+          "veiculo": "IBTimes Australia",
+          "url": "https://ibtimes.com.au/oil-prices-tanker-fire-strait-hormuz-weekly-loss-1879042",
+          "data": "2026-11-20",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Oilprice.com",
+          "url": "https://oilprice.com/Energy/Crude-Oil/Tankers-Are-Being-Hit-Daily-So-Why-Is-Oil-Falling.html",
+          "data": "2026-11-20",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Invezz",
+          "url": "https://invezz.com/sg/news/2026/11/11/oil-price-today-brent-rebounds-to-dollar93-despite-a-massive-opec-output-surge/",
+          "data": "2026-11-11",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Míssil atinge território da Polônia durante ataque russo à Ucrânia; Rutte fala em 'grave violação'",
+      "regiao": "Europa e Eurásia",
+      "status": "fato confirmado",
+      "data": "2026-11-20",
+      "resumo": "Câmeras de segurança registraram um míssil suspeito de ser russo atingindo território polonês durante o bombardeio de 20/11 à Ucrânia; o governo polonês diz que pode ter havido dois mísseis e um drone a jato. O secretário-geral da OTAN, Mark Rutte, chamou o episódio de 'grave violação' do espaço aéreo polonês e o premiê polonês falou em 'provocação intencional'. O Ministério das Relações Exteriores da Alemanha qualificou o fato como mais uma provocação russa. Não há, nas fontes consultadas, posição oficial russa sobre intencionalidade.",
+      "canal_brasil": "Sinal de risco político na Europa (bolsa/aversão a risco). Canal possível, sem fonte para cada elo: escalada na Europa -> aversão global a risco -> saída de capital de emergentes -> câmbio. Efeito direto no Brasil não documentado nas fontes.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond",
+          "data": "2026-11-21",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Yahoo News UK (Ukraine-Russia war latest)",
+          "url": "https://uk.news.yahoo.com/ukraine-russia-war-latest-kyiv-042352979.html",
+          "data": "2026-11-21",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Negociações EUA-Irã seguem travadas; Catar mediou em Teerã; Irã terá cortes de energia",
+      "regiao": "Oriente Médio",
+      "status": "negociação",
+      "data": "2026-11-21",
+      "resumo": "Segundo o vice-chanceler iraniano Kazem Gharibabadi, uma delegação do Catar esteve em Teerã na noite de 20/11 para explorar se há 'outra oportunidade' para a diplomacia. As negociações para encerrar a guerra estão paradas, segundo o Gulf News, e Trump disse que os EUA não 'precisam de um acordo' com o Irã. A mídia estatal iraniana informou que o país fará cortes rotativos de energia a partir de 22/11 por danos à infraestrutura, e a Al Jazeera aponta que o bloqueio naval e as sanções dos EUA pressionam a economia iraniana.",
+      "canal_brasil": "Sinal de energia e comércio (sanções). Um acordo ou um bloqueio mais duro mexeria na oferta de petróleo; para o Brasil, o canal possível é petróleo -> combustíveis/IPCA -> Selic e câmbio. Nenhum acordo à vista nas fontes.",
+      "relevancia": 4,
+      "fontes": [
+        {
+          "veiculo": "Gulf News",
+          "url": "https://gulfnews.com/uae/middle-east-war-trump-says-iran-wants-deal-but-terms-are-unacceptable-1.500755788",
+          "data": "2026-11-22",
+          "confiavel": false
+        },
+        {
+          "veiculo": "AP (via Durango Herald)",
+          "url": "https://durangoherald.com/articles/associated-press/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news",
+          "data": "2026-11-21",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/middle-east/",
+          "data": "2026-11-22",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Cúpula Trump-Xi-Putin em Shenzhen termina com declaração conjunta e poucos resultados concretos",
+      "regiao": "Ásia e Pacífico",
+      "status": "fato confirmado",
+      "data": "2026-11-19",
+      "resumo": "Trump, Xi e Putin se reuniram por cerca de 1h30 à margem da APEC e divulgaram declaração conjunta, que, segundo a CBS, inclui concordar em elevar a produção de petróleo e reafirmar que não há vencedores numa guerra nuclear. CNBC e RFE/RL descrevem poucos resultados concretos; tarifas, terras raras, tecnologia e Taiwan ficaram sem solução pública. A trégua comercial EUA-China foi estendida até 10/01/2027 em 9-10/11, com tarifa chinesa adicional de 10% mantida (Bloomberg, Yahoo Finance).",
+      "canal_brasil": "Canais possíveis: comércio EUA-China (demanda por commodities, soja e minério), petróleo e câmbio. A promessa de produção de petróleo não mexeu nos preços segundo fonte secundária; efeito para o Brasil não está documentado.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+          "data": "2026-11-20",
+          "confiavel": true
+        },
+        {
+          "veiculo": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+          "data": "2026-11-19",
+          "confiavel": false
+        },
+        {
+          "veiculo": "RFE/RL",
+          "url": "https://www.rferl.org/a/trump-xi-putin-summit-four-key-takeaways/33902100.html",
+          "data": "2026-11-20",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/china-extends-pause-on-24-us-tariffs-to-january-keeps-10-rate",
+          "data": "2026-11-09",
+          "confiavel": true
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "Takaichi e Xi se cumprimentam em Shenzhen, sem reunião bilateral; disputa Japão-China segue",
+      "regiao": "Ásia e Pacífico",
+      "status": "fato confirmado",
+      "data": "2026-11-19",
+      "resumo": "Xi Jinping e a premiê japonesa Sanae Takaichi apertaram as mãos pela primeira vez desde as falas dela sobre Taiwan, em 7/11/2025, mas não houve conversa bilateral formal. Pequim cobrou a retratação das declarações e Tóquio disse que sua posição sobre a Declaração Conjunta de 1972 não mudou. Empresas japonesas relatam escassez de minerais críticos por restrições chinesas a exportações. Takaichi apontou a cúpula do Quad como principal resultado da semana diplomática.",
+      "canal_brasil": "Sinal de comércio (minerais críticos) e risco regional. Canal possível: cadeias de suprimento e preços de minerais, com efeito no Brasil não documentado nas fontes.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html",
+          "data": "2026-11-19",
+          "confiavel": true
+        },
+        {
+          "veiculo": "JKN",
+          "url": "https://news.jkn.co.kr/editions/english/post/1110976",
+          "data": "2026-11-19",
+          "confiavel": false
+        },
+        {
+          "veiculo": "China Daily Star",
+          "url": "https://chinadailystar.com/news/japan-china-taiwan-rift",
+          "data": "2026-11-19",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "Rússia ataca pontes de Kyiv e rede elétrica; ao menos 8 mortos; ataques seguem em 22/11",
+      "regiao": "Europa e Eurásia",
+      "status": "operação em curso",
+      "data": "2026-11-20",
+      "resumo": "Na madrugada de 19 para 20/11, ataques russos atingiram pontes sobre o Dnipro em Kyiv e derrubaram geração de energia em várias regiões, segundo autoridades ucranianas; ao menos oito morreram. O Ministério da Defesa russo disse ter atingido pontes rodoviárias e ferroviárias usadas para transporte militar e ter interceptado 310 drones ucranianos. Veículo ucraniano RBC-Ucrânia reporta novos ataques em 22/11 (186 drones na noite; 14 desaparecidos após ataque a prédio na região de Kyiv), dado de fonte local ainda sem confirmação independente nesta busca.",
+      "canal_brasil": "Canal indireto e possível: ataques a energia e infraestrutura mantêm risco sobre fertilizantes, grãos do Mar Negro e gás europeu; efeito sobre preços para o Brasil não foi encontrado nas fontes desta semana.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+          "data": "2026-11-20",
+          "confiavel": false
+        },
+        {
+          "veiculo": "RBC-Ukraine",
+          "url": "https://newsukraine.rbc.ua/war-in-ukraine",
+          "data": "2026-11-22",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Putin descarta negociação direta com Kyiv; Kushner diz que Rússia aceita Europa na mesa",
+      "regiao": "Europa e Eurásia",
+      "status": "negociação",
+      "data": "2026-11-19",
+      "resumo": "Após a reunião trilateral em Shenzhen, Putin afastou negociações diretas com a Ucrânia, citando ataque ucraniano a ponte na Crimeia no começo da semana (CBS News). Em 19/11, o enviado dos EUA Jared Kushner disse que a Rússia aceita a presença da Europa nas conversas e a ideia de garantias de segurança pós-guerra inspiradas no Artigo 5 da OTAN (Al Jazeera). Kushner e Steve Witkoff conduzem conversas com Kyiv e Moscou, vistas como marginalizando aliados europeus. A Al Jazeera aponta falta de avanço no cessar-fogo.",
+      "canal_brasil": "Possível canal: avanço ou fracasso de um acordo mexe em preço de energia e grãos e em risco político europeu. Sem acordo à vista nas fontes; qualquer efeito sobre o Brasil é cenário, não fato.",
+      "relevancia": 3,
+      "fontes": [
+        {
+          "veiculo": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+          "data": "2026-11-19",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+          "data": "2026-11-20",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    },
+    {
+      "titulo": "Sudão: combate SAF-RSF se intensifica em Kordofan Ocidental; Sudão e Etiópia trocam acusações",
+      "regiao": "África",
+      "status": "operação em curso",
+      "data": "2026-11-20",
+      "resumo": "Desde o fim de outubro, a luta entre o Exército sudanês (SAF) e as Forças de Apoio Rápido (RSF) se intensificou em Kordofan Ocidental, região petrolífera; a RSF enviou uma delegação técnica para inspecionar campos de petróleo, segundo relatos locais (allAfrica/Ayin). A NBC News relata que Sudão e Etiópia se acusam de apoiar forças armadas adversárias, com foco em Nilo Azul, e há temor de conflito regional. O Crisis Group diz que a conferência de Berlim sinaliza que o Sudão não foi esquecido, e falou ao Conselho de Segurança da ONU sobre o Sudão do Sul em 10/11.",
+      "canal_brasil": "Canal direto pouco relevante para o Brasil. Possível canal indireto: risco no Chifre da África e no Mar Vermelho. Sem fonte para ligar o conflito a preços ou fluxos brasileiros.",
+      "relevancia": 2,
+      "fontes": [
+        {
+          "veiculo": "allAfrica (Ayin)",
+          "url": "https://allafrica.com/stories/202611200660.html",
+          "data": "2026-11-20",
+          "confiavel": false
+        },
+        {
+          "veiculo": "NBC News",
+          "url": "https://www.nbcnews.com/world/africa/ethiopia-sudan-accuse-backing-armed-fighters-fears-wider-conflict-grow-rcna609721",
+          "data": "2026-11-17",
+          "confiavel": false
+        },
+        {
+          "veiculo": "International Crisis Group",
+          "url": "https://www.crisisgroup.org/africa",
+          "data": "2026-11-12",
+          "confiavel": true
+        }
+      ],
+      "fonte_de_primeira_linha": true
+    },
+    {
+      "titulo": "Ataques israelenses em Gaza continuam; ministério local contabiliza 1.661 mortos desde a trégua",
+      "regiao": "Oriente Médio",
+      "status": "operação em curso",
+      "data": "2026-11-22",
+      "resumo": "Um ataque israelense a um veículo com comida na Cidade de Gaza matou três pessoas; o exército israelense disse ter atingido militantes e que verificava relatos sobre o caminhão de alimentos. O ministério da Saúde de Gaza afirma que o total de mortos desde o cessar-fogo de outubro de 2025 chegou a 1.661 (número do ministério, não verificado de forma independente aqui). Em Israel, os partidos de Eisenkot e de Netanyahu voltaram a conversar sobre um governo de unidade, segundo o Middle East Eye.",
+      "canal_brasil": "Canal indireto: risco político regional (energia, aversão a risco). Sem elo documentado com o Brasil nesta semana.",
+      "relevancia": 2,
+      "fontes": [
+        {
+          "veiculo": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live/live-israelis-head-polls-netanyahu-fights-political-life",
+          "data": "2026-11-22",
+          "confiavel": false
+        },
+        {
+          "veiculo": "Al Jazeera",
+          "url": "https://www.aljazeera.com/middle-east/",
+          "data": "2026-11-22",
+          "confiavel": false
+        }
+      ],
+      "fonte_de_primeira_linha": false
+    }
+  ],
+  "agenda": [
+    {
+      "data": "2026-11-23",
+      "evento": "B3 volta a operar após feriado de 20/11; primeiro pregão após a alta do dólar a R$ 5,93 e a queda do EWZ",
+      "por_que_importa": "Mostra como o mercado local reage ao fechamento de 19/11 e ao movimento do EWZ em Nova York (-3,29% em 20/11) durante o feriado.",
+      "url": "https://www.spacemoney.com.br/investimentos/b3-sem-pregao-feriado-consciencia-negra"
+    },
+    {
+      "data": "2026-11-23",
+      "evento": "Boletim Focus do Banco Central (divulgação semanal às segundas)",
+      "por_que_importa": "Revela se as projeções de câmbio, IPCA e Selic para 2026-27 foram revisadas após a alta do dólar e a pausa do Copom em 13,75%.",
+      "url": "https://www.bcb.gov.br/publicacoes/focus"
+    },
+    {
+      "data": "2026-11-26",
+      "evento": "Feriado de Ação de Graças nos EUA (quinta-feira)",
+      "por_que_importa": "Semana de liquidez reduzida nos mercados americanos, o que pode ampliar oscilações em dólar, juros e petróleo; confira o calendário de ICE e CME.",
+      "url": "https://financefeeds.com/brent-crude-price-92-57-saturday-week-ahead-opec-plus-29-november-bull-96-bear-89/"
+    },
+    {
+      "data": "2026-11-29",
+      "evento": "Reunião ministerial da OPEP+ para definir cotas de 2027",
+      "por_que_importa": "Define a oferta de petróleo para 2027 num cenário de produção em alta (+2 mb/d em outubro segundo a OPEP) e risco em Ormuz; afeta o componente Energia do Termômetro.",
+      "url": "https://www.opec.org"
+    }
+  ],
+  "observacoes": "Limites desta varredura: orçamento de 12 buscas; não foram acessados diretamente Reuters, AP (exceto via republicação), FT, FMI, ACLED, nem sites oficiais de bancos centrais. Muitos números vêm de fontes secundárias (Money Times, SpaceMoney, IBTimes AU, Oilprice, Gulf News). Não cobertos nesta rodada: Índia/Paquistão, Península Coreana, Sahel e África Ocidental, Etiópia-Eritreia, dados de atividade e inflação da China e da zona do euro, Argentina e México; a ausência de item não significa ausência de fatos.\n\nDivergências e incertezas:\n(1) Ibovespa na semana: -3,53% (SpaceMoney, Itabira Online) e -3,50% (O Otimista) contra -2,89% no resumo do Money Times, que provavelmente foi escrito antes do fechamento. Dólar na semana: +4,87% a +4,95%.\n(2) Míssil na Polônia: fontes dizem 'suspeito' de ser russo; o governo polonês fala em possíveis dois mísseis e um drone; a intencionalidade é questão política em disputa e não há versão russa nas fontes.\n(3) A narrativa de 'cúpula histórica' da Fox News contrasta com CNBC, CBS e RFE/RL, que descrevem poucos resultados concretos.\n(4) Datas do Fed: a reunião de dezembro aparece como 8-9/12 (decisão em 9/12). As atas do FOMC de 27-28/10 saíram por volta de 18/11 segundo fonte secundária de baixa confiabilidade (não verificado no site do Fed). Dados de rendimentos e probabilidades do CME são de 13/11 e mais recentes de 18/11 (24/7 Wall St: ~95%).\n(5) Próximas decisões fora da janela de 7 dias: Fed 8-9/12; ECB 17/12; BoJ 17-18/12 (fontes divergem entre 17-18 e 18/12). Fim da trégua comercial EUA-China: 10/01/2027. Esses prazos mantêm relevância para juros longos e câmbio.\n(6) Termômetro: os percentis de Energia (91) e Juros longos (76) são de set/26; esta varredura registra Brent -20% em novembro e rendimento de 10 anos acima de 5%, mas não recalcula componentes nem explica variações do VIX ou das ações globais. Os dados de Wall Street citados sobre a sexta (queda global) vêm de matérias brasileiras, sem números de índices americanos.\n(7) Contexto brasileiro: segundo turno em 25/10 (reeleição de Lula, segundo TV Sim) e pacote fiscal aprovado com ressalvas do mercado; atribuição de causa para o câmbio é de veículos de imprensa, não de fonte oficial.\n(8) Venezuela: nenhuma novidade dentro da janela; último fato encontrado é de 29/10 (Machado endossou o plano de eleições apoiado pelos EUA, segundo CFR/DW).",
+  "regioes_sem_novidade": [
+    "Venezuela e demais países da América Latina fora do Brasil: sem fato novo encontrado na janela de 7 dias (último item: 29/10)",
+    "Sahel e África Ocidental: não coberto por esta varredura"
+  ],
+  "descartados": [],
+  "modo": "claude (claude-sonnet-5-5)"
+}
