@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Cena no meio, reação do Heitor",
+  "texto": "Cara, o dólar tá em R$ 6,00. Olha que loucura.",
+  "na_tela": "Dólar a R$ 6,00",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio, reação do Heitor",
+   "texto": "Cara, o dólar tá em R$ 6,00. Olha que loucura.",
+   "na_tela": "Dólar a R$ 6,00",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois (contraste com número)",
+   "texto": "A bolsa abriu caindo 1,02%, e lá fora o futuro da Nasdaq sobe 3,44%.",
+   "na_tela": "Bolsa cai, Nova York sobe",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Dólar a R$ 6,00: o que isso muda no seu bolso hoje?",
+   "na_tela": "Dólar a R$ 6,00: e o seu bolso?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar tá em R$ 6,00. Olha que loucura.",
+  "Na abertura da B3, o Ibovespa tá caindo 1,02%.",
+  "Dólar nesse patamar deixa viagem e produto importado mais caros pra você.",
+  "Só que lá fora o clima é outro: a Europa tá toda no azul.",
+  "E aí vem a parte que pouca gente olha: o futuro da Nasdaq sobe 3,44%.",
+  "Futuro é o termômetro de Nova York antes de a bolsa abrir.",
+  "Calma: tem viagem ou compra em dólar? Confere o preço antes de fechar.",
+  "Manda pra quem tem viagem marcada pra fora.",
+  "Esse dólar te assusta? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar tá em R$ 6,00. Olha que loucura. Na abertura da B3, o Ibovespa tá caindo 1,02%. Dólar nesse patamar deixa viagem e produto importado mais caros pra você. Só que lá fora o clima é outro: a Europa tá toda no azul. E aí vem a parte que pouca gente olha: o futuro da Nasdaq sobe 3,44%. Futuro é o termômetro de Nova York antes de a bolsa abrir. Calma: tem viagem ou compra em dólar? Confere o preço antes de fechar. Manda pra quem tem viagem marcada pra fora. Esse dólar te assusta? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 108,
+ "segundos": 43,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 6,00",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Ibovespa ▼1,02% · 164.671 pontos",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar R$ 6,00",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Europa em alta",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Nasdaq (futuros) ▲3,44%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Confere o preço antes de fechar",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje e Ibovespa na abertura de 23/11",
+ "legenda": "Dólar hoje: às 10h13, o dólar estava em R$ 6,00 e o Ibovespa abriu em queda de 1,02%, aos 164.671 pontos, segundo a Yahoo Finance.\n\nLá fora o clima é outro: a Europa abriu em alta e os futuros da Nasdaq sobem 3,44%. Futuro é a prévia de como Nova York pode abrir.\n\nO que muda pra você: dólar nesse patamar deixa viagem e produto importado mais caros. Tem compra ou viagem em dólar? Confere o preço antes de fechar.\n\nEsse dólar te assusta? Comenta SIM ou NÃO.\n\nEu sou o Heitor, do Termômetro de Crise. Sem alarde. Eu sou só o termômetro!\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #mercadofinanceiro #educacaofinanceira",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#mercadofinanceiro",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar tá em R$ 6,00 e a bolsa caiu.",
+  "topicos": [
+   "Ibovespa abriu caindo 1,02%, aos 164.671 pontos, às 10h13, segundo a Yahoo Finance.",
+   "Dólar em R$ 6,00: viagem e produto importado ficam mais caros pra você.",
+   "Lá fora, o futuro da Nasdaq sobe 3,44% e a Europa tá em alta.",
+   "Calma: tem viagem ou compra em dólar? Confere o preço antes de fechar."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "Notícia quente da manhã, com o dólar em R$ 6,00 e a bolsa no vermelho, pede o \"tô aqui e preciso te contar\".",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Na abertura da B3, o Ibovespa tá caindo 1,02%\": B3, Ibovespa e Nasdaq ficam sem tradução, e o número é exato. Reescreva como \"Hoje de manhã a bolsa brasileira abriu caindo, mais de 1%\". Troque \"Nasdaq\" por \"a bolsa de tecnologia dos EUA\". Deixe os números exatos no cartão da tela.",
+   "Frase \"E aí vem a parte que pouca gente olha: o futuro da Nasdaq sobe 3,44%\": a virada não se liga ao bolso nem diz o que ainda não se sabe. Acrescente uma frase de ligação, como \"lá fora tá bom, aqui o dólar tá em R$ 6, e um dia só não faz tendência\". Se der, use uma comparação do dia a dia, como o preço da feira que muda de manhã. Só use isso se o material sustentar.",
+   "Fecho \"Sem alarde. Eu sou só o termômetro!\": falta a apresentação e o aviso da casa na fala, que hoje só aparecem na legenda. Antes do bordão, inclua \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" O bordão continua como última frase, sem mudar nada nele."
+  ],
+  "veredito": "O roteiro tem o gancho no bolso (viagem e importado mais caros), o passo simples, o gatilho de comentário e o bordão, mas deixa B3, Ibovespa e Nasdaq sem tradução, não liga o que acontece lá fora ao dólar daqui e não tem o aviso falado da casa antes do bordão."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o dólar tá em R$ 6,00. Olha que loucura.\" só informa o número e não abre lacuna. Reescrita: \"Cara, o dólar tá em R$ 6,00 e a bolsa daqui abriu caindo. Mas lá fora é o contrário. Olha que loucura.\" Assim a pessoa fica para saber o que é o contrário, e a resposta vem na 4ª fala. Coloque a mesma frase na tela no primeiro quadro.",
+   "Retenção (Teste do CLT): \"Na abertura da B3, o Ibovespa tá caindo 1,02%.\" tem sigla e número exato. Reescrita: \"A bolsa daqui abriu caindo, uns 1%.\" (o 1,02% e os 164.671 pontos ficam no cartão da tela). Troque também \"Futuro é o termômetro de Nova York antes de a bolsa abrir.\" por \"Futuro é a prévia: mostra como Nova York deve abrir.\" E \"a Europa tá toda no azul\" por \"a Europa tá em alta\".\", \"Conversa: só há gatilho no fim. Solte um no meio, depois da virada, com a mesma pergunta fácil. Reescrita: \"E aí vem a parte que pouca gente olha: o futuro da Nasdaq sobe 3,44%. Você achava que lá fora também estava caindo? Já responde SIM ou NÃO nos comentários.\" Depois mantenha o gatilho do fim."
+  ],
+  "veredito": "Roteiro limpo, com voz do Heitor e um pedido de envio concreto (\\\"quem tem viagem marcada\\\"), mas o gancho só informa o dólar sem abrir lacuna, e siglas como B3, Ibovespa e Nasdaq pesam no Teste do CLT; falta também um gatilho de comentário no meio para viralizar."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Early-morning aerial drone shot slowly descending over the glass skyscrapers of the São Paulo financial district, soft golden light, light traffic on the avenue below, gentle cloudy sky. Slow push-in camera movement. No people in focus, no text, no signs, no logos",
+   "texto_da_fala": "Na abertura da B3, o Ibovespa tá caindo 1,02%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Early-morning aerial drone shot slowly descending over the glass skyscrapers of the São Paulo financial district, soft golden light, light traffic on the avenue below, gentle cloudy sky. Slow push-in camera movement. No people in focus, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Close tracking shot along an airport terminal: a closed suitcase rolling across a polished floor, then the camera tilts up to a large window with an airplane parked outside at golden hour. Cut-in detail of sealed cardboard shipping boxes and a new gadget in a box on a table, shallow depth of field. No faces, no text, no logos, no brands",
+   "texto_da_fala": "Dólar nesse patamar deixa viagem e produto importado mais caros pra você.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close tracking shot along an airport terminal: a closed suitcase rolling across a polished floor, then the camera tilts up to a large window with an airplane parked outside at golden hour. Cut-in detail of sealed cardboard shipping boxes and a new gadget in a box on a table, shallow depth of field. No faces, no text, no logos, no brands. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Sunrise over the rooftops of a historic European old town with a cathedral spire and cobblestone squares, warm sunlight breaking through, pigeons flying past. Slow upward crane move revealing the skyline. Calm, optimistic mood. No people in focus, no flags, no text, no logos",
+   "texto_da_fala": "Só que lá fora o clima é outro: a Europa tá toda no azul.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Sunrise over the rooftops of a historic European old town with a cathedral spire and cobblestone squares, warm sunlight breaking through, pigeons flying past. Slow upward crane move revealing the skyline. Calm, optimistic mood. No people in focus, no flags, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar tá em R$ 6,00. Olha que loucura.\n\nNa abertura da B3, o Ibovespa tá caindo 1,02%.\n\nDólar nesse patamar deixa viagem e produto importado mais caros pra você.\n\nSó que lá fora o clima é outro: a Europa tá toda no azul.\n\nE aí vem a parte que pouca gente olha: o futuro da Nasdaq sobe 3,44%.\n\nFuturo é o termômetro de Nova York antes de a bolsa abrir.\n\nCalma: tem viagem ou compra em dólar? Confere o preço antes de fechar.\n\nManda pra quem tem viagem marcada pra fora.\n\nEsse dólar te assusta? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-23",
+ "gerado_em": "2026-11-23T10:33:09.630389-03:00",
+ "enviado_whatsapp": "2026-11-23T10:33:30.340841-03:00"
+}
