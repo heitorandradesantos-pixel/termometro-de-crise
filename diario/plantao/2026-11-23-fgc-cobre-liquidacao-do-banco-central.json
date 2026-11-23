@@ -1,0 +1,113 @@
+{
+ "titulo": "Liquidações do BC em 2026 e FGC: o que se sabe",
+ "descricao": "BC soma 21 liquidações em 2026, o maior número desde 2002. Veja o que o FGC e o FGCoop cobrem e o que muda para quem tem dinheiro em cooperativa.",
+ "palavra_chave": "fgc cobre liquidação do banco central",
+ "lead": "Não houve nova liquidação do Banco Central (BC) nas últimas 24 horas. As mais recentes foram a da Cooperagre e a da Cooperativa Administradora de Consórcios Roma, em 12 de novembro, que levaram o total de 2026 a 21, o maior desde 2002. A cobertura do FGC ou do FGCoop (o fundo das cooperativas de crédito) muda conforme o tipo de instituição.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 12 de novembro, o BC decretou a liquidação extrajudicial da Cooperagre e da Cooperativa Administradora de Consórcios Roma. Com elas, o total de instituições liquidadas em 2026 chegou a 21.",
+   "fonte_url": "https://finsidersbrasil.com.br/regulamentacao/bc-decreta-liquidacao-extrajudicial-da-cooperagre-e-da-administradora-roma/",
+   "data": "2026-11-12",
+   "veiculo": "Finsiders Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O total de 21 liquidações em 2026 é o maior desde 2002. Segundo o levantamento citado pela fonte, os números de 2025 e 2002 foram, respectivamente, 4 e 24 instituições.",
+   "fonte_url": "https://feebpr.org.br/noticias/com-caso-master-banco-central-bate-recorde-de-liquidacoes-em-24-anos",
+   "data": "2026-11-16",
+   "veiculo": "Federação dos Empregados em Estabelecimentos Bancários do Paraná (FEEB-PR)",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo levantamento da Folha de S.Paulo, citado pelo Times Brasil, 11 das 21 liquidações envolvem instituições ligadas ao Banco Master. A liquidação de uma empresa, por si só, não prova que ela participou de irregularidades de terceiros.",
+   "fonte_url": "https://timesbrasil.com.br/brasil/caso-master-puxa-maior-numero-de-liquidacoes-do-banco-central-em-24-anos/",
+   "data": "2026-11-16",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "A Cooperagre captava recursos por instrumentos financeiros cobertos pelo Fundo Garantidor do Cooperativismo de Crédito (FGCoop). O BC citou graves violações às normas que regem suas atividades e tornou indisponíveis os bens dos ex-administradores.",
+   "fonte_url": "https://www.metropoles.com/brasil/banco-central-decreta-liquidacao-instituicoes-financeiras",
+   "data": "2026-11-12",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o Rio Times, o FGCoop cobre depósitos da Cooperagre até R$ 250.000 por pessoa. Esse valor aparece em apenas uma das fontes consultadas e deve ser conferido nas regras do fundo.",
+   "fonte_url": "https://www.riotimesonline.com/brazil-liquidates-two-financial-institutions/",
+   "data": "2026-11-12",
+   "veiculo": "The Rio Times",
+   "confiavel": false
+  },
+  {
+   "texto": "A Roma administrava 28 grupos de consórcio, com cerca de 16 mil cotas ativas e 8,3 mil consorciados. O BC diz que a liquidação busca retirar a administradora do mercado de forma ordenada, protegendo os direitos dos participantes.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/banco-central-decreta-liquidacao-de-cooperativa-de-credito-e-de-consorcios/",
+   "data": "2026-11-12",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Quando uma instituição é liquidada, a parte do dinheiro que não está protegida pelo FGC ou pelo FGCoop passa a integrar os créditos que podem ser reclamados no processo de liquidação.",
+   "fonte_url": "https://seucreditodigital.com.br/banco-central-liquida-21-instituicoes/",
+   "data": "2026-11-22",
+   "veiculo": "Seu Crédito Digital",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O BC liquida o Banco Master e outras três empresas ligadas ao grupo: Master Corretora, Master de Investimento e Letsbank.",
+   "fonte_url": "https://bh24horas.com.br/noticias/brasil/banco-central-registra-21-liquidacoes-em-2026-maior-volume-em-24-anos/",
+   "data": "2025-11-18",
+   "veiculo": "BH 24 Horas",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC decreta a liquidação da Simpala, administradora de consórcios e financeira de Porto Alegre.",
+   "fonte_url": "https://www.jornalmetropolis.com.br/noticia/109620/economia/banco-central-decreta-liquidacao-extrajudicial-de-administradora-de-consorcios-e-de-financeira.html",
+   "data": "2026-08-14",
+   "veiculo": "Jornal Metrópolis",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC decreta a liquidação da Trustee DTVM, por graves violações às normas, por meio do Ato do Presidente nº 1.389.",
+   "fonte_url": "https://www.ativovirtual.com.br/avnews/artigos/fato-relevante-del-monte-ajax-o-que-muda-com-a-liquidacao-da-administradora",
+   "data": "2026-09-03",
+   "veiculo": "Ativo Virtual",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC decreta a liquidação da MW Pay, instituição de pagamentos de Joinville (SC), com menos de 0,0002% do ativo do sistema financeiro.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/10/29/banco-central-decreta-liquidacao-extrajudicial-de-mais-uma-instituicao",
+   "data": "2026-10-29",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC decreta a liquidação da Cooperagre e da Roma Consórcios, as mais recentes até a data desta apuração (23/11).",
+   "fonte_url": "https://finsidersbrasil.com.br/regulamentacao/bc-decreta-liquidacao-extrajudicial-da-cooperagre-e-da-administradora-roma/",
+   "data": "2026-11-12",
+   "veiculo": "Finsiders Brasil",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se o BC decretou alguma liquidação nova depois de 12 de novembro. As buscas feitas em 23/11 não encontraram nenhuma, mas a página oficial do BC não foi consultada diretamente.",
+  "As fontes consultadas não dizem se os participantes dos grupos de consórcio da Roma têm cobertura do FGC ou do FGCoop. Isso não foi confirmado.",
+  "O BC não informou quantos clientes e quanto dinheiro havia na Cooperagre, nem quanto o FGCoop terá de pagar. Segundo o Rio Times, esses dados não foram divulgados.",
+  "Os motivos de cada liquidação seguem sob apuração do BC. O BC diz que continuará apurando responsabilidades, e a liquidação não é conclusão definitiva sobre a culpa de ninguém.",
+  "As fontes divergem na contagem: Brasil em Folhas fala em 25 instituições em liquidação desde novembro de 2025, e as demais falam em 21 em 2026. Os recortes são diferentes."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem dinheiro em cooperativa de crédito, a proteção vem do FGCoop. Em bancos e financeiras, a proteção vem do FGC. A regra depende do tipo de instituição e do produto.",
+  "A parte do dinheiro acima do limite do fundo garantidor entra na fila de credores. Ela depende da venda dos bens da instituição liquidada e pode demorar.",
+  "Quem participa de consórcio de uma administradora liquidada deve acompanhar os comunicados do liquidante, o responsável nomeado pelo BC. Os direitos dos grupos de consórcio seguem regras próprias.",
+  "A lista de 21 instituições mistura bancos, financeiras, cooperativas, administradoras de consórcio e instituições de pagamento. Não são 21 bancos quebrados."
+ ],
+ "como_se_proteger": [],
+ "slug": "fgc-cobre-liquidacao-do-banco-central",
+ "publicado_em": "2026-11-23T18:45:08.502441",
+ "atualizado_em": "2026-11-23T18:45:08.502441",
+ "assunto": "O Banco Central decretou a liquidação extrajudicial de 21 instituições em 2026, o maior número desde 2002. As mais recentes foram a Cooperagre e a Cooperativa Administradora de Consórcios Roma, em 12/11. ATENÇÃO: não achei liquidação nova hoje nem ontem, então este item é reserva e só entra se houver decisão nova do BC nas últimas 24 horas.",
+ "turno": "noite"
+}
