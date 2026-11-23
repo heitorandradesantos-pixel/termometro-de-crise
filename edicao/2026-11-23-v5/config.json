@@ -1,0 +1,70 @@
+{
+ "saida": "juro-ate-2028-editado.mp4",
+ "fim": 47.2,
+ "corrigir": [
+  [
+   [
+    "Se",
+    "é",
+    "large"
+   ],
+   [
+    "Sem",
+    "alarde"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Itaú",
+  "Banco",
+  "do",
+  "Brasil",
+  "Selic"
+ ],
+ "destaques": "\\d|selic|juros?|deve|guarda|cartão|calculadora|bom|ruim",
+ "cartoes": [
+  [
+   0.0,
+   4.9,
+   "Juro alto *até 2028*?",
+   ""
+  ],
+  [
+   8.4,
+   10.2,
+   "Selic: *13,75%* ao ano",
+   "Fonte: Banco Central (Copom)"
+  ],
+  [
+   10.2,
+   15.3,
+   "Itaú BBA: juro só começa a cair em *2028*",
+   "Fonte: Itaú BBA (via brapi)"
+  ],
+  [
+   18.4,
+   22.7,
+   "Rotativo do cartão: *451,7%* ao ano",
+   "Fonte: Banco Central (setembro/2026)"
+  ],
+  [
+   23.3,
+   26.3,
+   "Quem guarda na renda fixa *ganha por mais tempo*",
+   ""
+  ],
+  [
+   36.0,
+   39.2,
+   "Faz a conta na *calculadora* do site",
+   "termometrodecrise.com (link na bio)"
+  ],
+  [
+   40.0,
+   43.2,
+   "Juro alto pra você: *bom* ou *ruim*?",
+   ""
+  ]
+ ],
+ "remover": []
+}

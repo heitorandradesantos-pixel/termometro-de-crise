@@ -1,0 +1,72 @@
+{
+ "saida": "bancoes-caindo-editado.mp4",
+ "fim": 43.9,
+ "corrigir": [
+  [
+   [
+    "despeicando"
+   ],
+   [
+    "despencando"
+   ]
+  ],
+  [
+   [
+    "Você",
+    "é",
+    "alarde"
+   ],
+   [
+    "Sem",
+    "alarde"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Banco",
+  "do",
+  "Brasil",
+  "Bradesco",
+  "Itaú"
+ ],
+ "destaques": "\\d|banco|calote|cartão|empréstimo|financiamento|poupança",
+ "cartoes": [
+  [
+   2.2,
+   5.2,
+   "Por que os bancões estão *caindo*?",
+   ""
+  ],
+  [
+   8.0,
+   11.8,
+   "18/11: BB *-3,42%*, Bradesco *-2,29%*, Itaú *-1,71%*",
+   "Fonte: Suno e Trademap"
+  ],
+  [
+   11.8,
+   17.9,
+   "Atraso no agro do BB: *6,92%* (setembro)",
+   "Fonte: balanço do BB (via IstoÉ Dinheiro)"
+  ],
+  [
+   21.4,
+   31.2,
+   "Banco com medo de calote: *empresta menos e mais caro*",
+   ""
+  ],
+  [
+   32.8,
+   36.0,
+   "Ação de banco *não é poupança*",
+   ""
+  ],
+  [
+   36.6,
+   41.3,
+   "Tem ação de banco? *Comenta*",
+   ""
+  ]
+ ],
+ "remover": []
+}

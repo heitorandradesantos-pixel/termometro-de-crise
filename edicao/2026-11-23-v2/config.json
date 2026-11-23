@@ -1,0 +1,58 @@
+{
+ "saida": "lula-x-faria-lima-editado.mp4",
+ "fim": 70.8,
+ "corrigir": [],
+ "nomes": [
+  "Faria",
+  "Lima",
+  "Lula",
+  "Senado",
+  "Câmara"
+ ],
+ "destaques": "\\d|faria|lula|mercado|dólar|bolsa|comida|gasolina|cartão|financiamento|um|dois",
+ "cartoes": [
+  [
+   0.1,
+   4.8,
+   "Lula x *Faria Lima*: quem ganha?",
+   ""
+  ],
+  [
+   8.5,
+   13.5,
+   "\"Não é o sistema financeiro que vai me ensinar a dirigir o país\"",
+   "Lula, em live no sábado (21/11)"
+  ],
+  [
+   14.1,
+   17.6,
+   "Pacote fiscal: *aprovado no Senado*, agora vai pra Câmara",
+   "Fonte: Diario de Pernambuco e brapi"
+  ],
+  [
+   20.2,
+   23.6,
+   "Na semana: Ibovespa *-3,53%*; dólar a *R$ 5,935*",
+   "Fonte: Trademap e brapi (19/11)"
+  ],
+  [
+   23.7,
+   26.0,
+   "Dólar comercial abriu hoje a *R$ 5,98*",
+   "Fonte: CNN Brasil (23/11, 9h)"
+  ],
+  [
+   33.4,
+   37.6,
+   "Encarece: *comida, gasolina, cartão e financiamento*",
+   ""
+  ],
+  [
+   39.4,
+   42.8,
+   "Quem tá certo? Comenta *1* ou *2*",
+   ""
+  ]
+ ],
+ "remover": []
+}

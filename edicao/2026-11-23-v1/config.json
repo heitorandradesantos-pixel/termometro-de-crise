@@ -1,0 +1,82 @@
+{
+ "saida": "bancos-tiraram-o-pe-editado.mp4",
+ "fim": 50.6,
+ "corrigir": [
+  [
+   [
+    "o",
+    "Banco",
+    "Brasileiro"
+   ],
+   [
+    "banco",
+    "brasileiro"
+   ]
+  ],
+  [
+   [
+    "Itaú",
+    "VBA"
+   ],
+   [
+    "Itaú",
+    "BBA"
+   ]
+  ]
+ ],
+ "nomes": [
+  "BTG",
+  "Itaú",
+  "BBA",
+  "Morgan",
+  "Stanley",
+  "Goldman",
+  "Sachs"
+ ],
+ "destaques": "\\d|neutro|btg|itaú|bba|juro|sim|não",
+ "cartoes": [
+  [
+   0.1,
+   4.1,
+   "Até os bancos daqui *tiraram o pé* do Brasil",
+   ""
+  ],
+  [
+   8.3,
+   13.0,
+   "BTG e Itaú BBA: bolsa brasileira de compra pra *neutro*",
+   "Fonte: Seu Dinheiro e brapi (novembro/2026)"
+  ],
+  [
+   13.6,
+   17.2,
+   "Goldman Sachs também foi pra *neutro* (18/11)",
+   "Fonte: Goldman Sachs (via Brasilagro)"
+  ],
+  [
+   18.9,
+   23.0,
+   "Bolsa brasileira: *-29% em dólar* em 30 dias",
+   "Fonte: BTG Pactual (via brapi)"
+  ],
+  [
+   24.8,
+   27.8,
+   "Motivos: conta do governo, *juro alto*, PIB fraco",
+   ""
+  ],
+  [
+   34.5,
+   38.5,
+   "Itaú BBA: juro só cai em *2028*",
+   "Selic em 13,75% (via brapi)"
+  ],
+  [
+   45.2,
+   47.2,
+   "Tem ação de banco? *SIM* ou *NÃO*",
+   ""
+  ]
+ ],
+ "remover": []
+}

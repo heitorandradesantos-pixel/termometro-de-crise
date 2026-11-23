@@ -1,0 +1,67 @@
+{
+ "saida": "profetas-do-apocalipse-editado.mp4",
+ "fim": 93.4,
+ "corrigir": [
+  [
+   [
+    "liberando"
+   ],
+   [
+    "com"
+   ]
+  ],
+  [
+   [
+    "o",
+    "NVIDIA"
+   ],
+   [
+    "a",
+    "Nvidia"
+   ]
+  ],
+  [
+   [
+    "70",
+    "mil",
+    "dólares"
+   ],
+   [
+    "70",
+    "mil",
+    "reais"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Nvidia"
+ ],
+ "destaques": "\\d|dólar|cuidado|planejamento|planeje|ouro|guru|jamais",
+ "cartoes": [
+  [
+   0.9,
+   4.2,
+   "Cuidado com os *profetas do apocalipse* financeiro",
+   ""
+  ],
+  [
+   30.0,
+   38.0,
+   "US$ 12 mil no vermelho ≈ *R$ 71 mil*",
+   "Conta do Termômetro: dólar a R$ 5,93 (fechamento de 19/11)"
+  ],
+  [
+   73.0,
+   80.5,
+   "Investimento é *planejamento*, não dica de guru",
+   ""
+  ],
+  [
+   89.0,
+   91.0,
+   "*Se planeje*",
+   ""
+  ]
+ ],
+ "remover": []
+}
