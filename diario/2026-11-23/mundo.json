@@ -43,7 +43,7 @@
       "bolsa_ultimo_dia": "2026-11-23",
       "bolsa_pico": 7818.93,
       "bolsa_pico_dia": "2026-10-06",
-      "oscilacao_diaria_pct": 2.23,
+      "oscilacao_diaria_pct": 2.21,
       "desde": {
        "bolsa": 1980,
        "volatilidade": 1980
@@ -78,16 +78,16 @@
      "referencia": "2026-11",
      "mes_anterior": 42,
      "sinais": {
-      "bolsa": 69,
+      "bolsa": 70,
       "volatilidade": 94,
       "moeda": 45
      },
      "brutos": {
-      "bolsa_queda_pct": 7.5,
+      "bolsa_queda_pct": 7.8,
       "bolsa_ultimo_dia": "2026-11-23",
       "bolsa_pico": 36957.6,
       "bolsa_pico_dia": "2026-08-25",
-      "oscilacao_diaria_pct": 1.6,
+      "oscilacao_diaria_pct": 1.57,
       "moeda_variacao_3m_pct": 1.9,
       "moeda_ultimo_dia": "2026-11-23",
       "desde": {
@@ -147,7 +147,7 @@
     {
      "nome": "México",
      "slug": "mexico",
-     "valor": 53,
+     "valor": 52,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
@@ -162,7 +162,7 @@
       "bolsa_ultimo_dia": "2026-11-23",
       "bolsa_pico": 72006.05,
       "bolsa_pico_dia": "2026-11-11",
-      "oscilacao_diaria_pct": 0.82,
+      "oscilacao_diaria_pct": 0.81,
       "moeda_variacao_3m_pct": 9.5,
       "moeda_ultimo_dia": "2026-11-23",
       "desde": {
@@ -202,15 +202,15 @@
      "sinais": {
       "bolsa": 83,
       "volatilidade": 31,
-      "moeda": 84
+      "moeda": 83
      },
      "brutos": {
-      "bolsa_queda_pct": 21.1,
+      "bolsa_queda_pct": 21.2,
       "bolsa_ultimo_dia": "2026-11-23",
       "bolsa_pico": 209067.0,
       "bolsa_pico_dia": "2026-10-09",
       "oscilacao_diaria_pct": 1.19,
-      "moeda_variacao_3m_pct": 9.3,
+      "moeda_variacao_3m_pct": 9.2,
       "moeda_ultimo_dia": "2026-11-23",
       "desde": {
        "bolsa": 1993,
@@ -333,7 +333,7 @@
       "moeda": 60
      },
      "brutos": {
-      "moeda_variacao_3m_pct": 4.7,
+      "moeda_variacao_3m_pct": 4.6,
       "moeda_ultimo_dia": "2026-11-23",
       "desde": {
        "moeda": 2003
@@ -899,22 +899,22 @@
     {
      "nome": "Turquia",
      "slug": "turquia",
-     "valor": 65,
+     "valor": 66,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 69,
      "sinais": {
       "bolsa": 86,
-      "volatilidade": 54,
+      "volatilidade": 57,
       "moeda": 55
      },
      "brutos": {
-      "bolsa_queda_pct": 26.6,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 26.4,
+      "bolsa_ultimo_dia": "2026-11-20",
       "bolsa_pico": 15133.5,
       "bolsa_pico_dia": "2026-05-11",
-      "oscilacao_diaria_pct": 1.63,
+      "oscilacao_diaria_pct": 1.68,
       "moeda_variacao_3m_pct": 5.0,
       "moeda_ultimo_dia": "2026-11-23",
       "desde": {
@@ -1031,17 +1031,17 @@
     {
      "nome": "Arábia Saudita",
      "slug": "arabia-saudita",
-     "valor": 59,
+     "valor": 60,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
      "mes_anterior": 67,
      "sinais": {
-      "bolsa": 77,
+      "bolsa": 78,
       "volatilidade": 41
      },
      "brutos": {
-      "bolsa_queda_pct": 13.8,
+      "bolsa_queda_pct": 14.0,
       "bolsa_ultimo_dia": "2026-11-23",
       "bolsa_pico": 40.63,
       "bolsa_pico_dia": "2026-04-15",
@@ -1234,7 +1234,7 @@
       "moeda": 90
      },
      "brutos": {
-      "moeda_variacao_3m_pct": 6.0,
+      "moeda_variacao_3m_pct": 5.9,
       "moeda_ultimo_dia": "2026-11-23",
       "desde": {
        "moeda": 2004
@@ -1265,7 +1265,7 @@
   {
    "nome": "Ásia e Pacífico",
    "slug": "asia-e-pacifico",
-   "valor": 66,
+   "valor": 65,
    "nivel": "Tensão",
    "cor": "#EE8A3C",
    "referencia": "2026-11",
@@ -1428,22 +1428,22 @@
     {
      "nome": "Índia",
      "slug": "india",
-     "valor": 50,
+     "valor": 42,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
      "mes_anterior": 52,
      "sinais": {
-      "bolsa": 42,
-      "volatilidade": 67,
+      "bolsa": 32,
+      "volatilidade": 51,
       "moeda": 41
      },
      "brutos": {
-      "bolsa_queda_pct": 3.7,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 2.0,
+      "bolsa_ultimo_dia": "2026-11-20",
       "bolsa_pico": 26328.55,
       "bolsa_pico_dia": "2026-01-02",
-      "oscilacao_diaria_pct": 1.1,
+      "oscilacao_diaria_pct": 0.91,
       "moeda_variacao_3m_pct": -1.4,
       "moeda_ultimo_dia": "2026-11-23",
       "desde": {
@@ -1719,7 +1719,7 @@
   "sinais": {
    "bolsa": 83,
    "volatilidade": 31,
-   "moeda": 84
+   "moeda": 83
   }
  },
  "mundo": {
@@ -1732,74 +1732,74 @@
  "cotacoes": [
   {
    "nome": "Ibovespa",
-   "ultimo": 164903.12,
+   "ultimo": 164843.98,
    "tipo": "pontos",
    "serie": "brasil_bolsa",
-   "variacao_pct": -0.89,
+   "variacao_pct": -0.92,
    "data": "2026-11-23"
   },
   {
    "nome": "Dólar",
-   "ultimo": 5.9872,
+   "ultimo": 5.9275,
    "tipo": "brl",
    "serie": "extra_dolar",
-   "variacao_pct": 0.65,
+   "variacao_pct": -0.36,
    "data": "2026-11-23"
   },
   {
    "nome": "Euro",
-   "ultimo": 6.514,
+   "ultimo": 6.46,
    "tipo": "brl",
    "serie": "extra_euro",
-   "variacao_pct": -0.18,
+   "variacao_pct": -1.01,
    "data": "2026-11-23"
   },
   {
    "nome": "Dow Jones",
-   "ultimo": 49636.95,
+   "ultimo": 49595.31,
    "tipo": "pontos",
    "serie": "extra_dow_jones",
-   "variacao_pct": 3.09,
+   "variacao_pct": 3.01,
    "data": "2026-11-23"
   },
   {
    "nome": "S&P 500",
-   "ultimo": 7243.03,
+   "ultimo": 7237.17,
    "tipo": "pontos",
    "serie": "eua_bolsa",
-   "variacao_pct": 4.81,
+   "variacao_pct": 4.73,
    "data": "2026-11-23"
   },
   {
    "nome": "Nasdaq",
-   "ultimo": 24135.75,
+   "ultimo": 24089.56,
    "tipo": "pontos",
    "serie": "extra_nasdaq",
-   "variacao_pct": 6.71,
+   "variacao_pct": 6.51,
    "data": "2026-11-23"
   },
   {
    "nome": "Bitcoin",
-   "ultimo": 61848.75,
+   "ultimo": 61221.5,
    "tipo": "usd",
    "serie": "extra_bitcoin",
-   "variacao_pct": 1.12,
+   "variacao_pct": 0.1,
    "data": "2026-11-23"
   },
   {
    "nome": "Petróleo Brent",
-   "ultimo": 86.81,
+   "ultimo": 86.67,
    "tipo": "usd",
    "serie": "extra_petroleo",
-   "variacao_pct": -6.22,
+   "variacao_pct": -6.37,
    "data": "2026-11-23"
   },
   {
    "nome": "Ouro",
-   "ultimo": 3669.3,
+   "ultimo": 3634.8,
    "tipo": "usd",
    "serie": "extra_ouro",
-   "variacao_pct": 4.38,
+   "variacao_pct": 3.4,
    "data": "2026-11-23"
   },
   {
@@ -1900,8 +1900,5 @@
    "maximo": 53,
    "mes": "2017-07"
   }
- ],
- "parcial": {
-  "hora": "14h09"
- }
+ ]
 }
