@@ -1,0 +1,130 @@
+{
+ "titulo": "Ibovespa hoje: o que se sabe da reabertura da B3 e do dólar",
+ "descricao": "B3 volta após o feriado de 20/11 com o Ibovespa em 166.376 pontos no último fechamento. Dólar abre perto de R$ 5,98 e a Câmara vota o ajuste fiscal.",
+ "palavra_chave": "ibovespa hoje",
+ "lead": "A B3 reabre nesta segunda-feira (23/11) depois do feriado da Consciência Negra, sem pregão na sexta (20). O último fechamento foi o de quinta (19): Ibovespa a 166.376,43 pontos (-0,69%) e dólar a cerca de R$ 5,93. Na abertura, o dólar subia 0,78%, a R$ 5,9815, e o mercado acompanha a votação do ajuste fiscal na Câmara.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa, principal índice da bolsa, fechou a quinta-feira (19/11) em queda de 0,69%, aos 166.376,43 pontos. O dólar subiu 1,16%, a R$ 5,9350, segundo o Money Times, na sexta alta seguida. Outros veículos citam R$ 5,934 e alta de 1,15%; a diferença é de arredondamento.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-19-11-2026-davs/",
+   "data": "2026-11-19",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Não houve pregão na sexta-feira (20/11), feriado do Dia da Consciência Negra. Por isso, o último fechamento disponível é o de quinta (19). A B3 volta a operar nesta segunda (23/11).",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-cai-069-e-dolar-sobe-a-r-593-antes-do-feriado/",
+   "data": "2026-11-19",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "Na abertura de 23/11, o dólar à vista começou a R$ 5,9815, com alta de 0,78%. O Ibovespa futuro, contrato que indica a direção da bolsa antes e durante o pregão, caía 0,47%, aos 166.795 pontos, após a abertura (9h04).",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-23-11-2026-davs/",
+   "data": "2026-11-23",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "No exterior, os futuros dos EUA operavam em alta de 2,98% na média, e a Europa subia 0,78% na média, segundo a AGK Corretora. Na Ásia, Xangai subia 0,15%, Hong Kong caía 0,12% e Tóquio estava fechada por feriado. A AGK também informa que, na sexta (20), o Nasdaq caiu 5,28%, o S&P 500 caiu 3,70% e o Dow Jones caiu 1,93%.",
+   "fonte_url": "https://www.agkcorretora.com.br/blog/2026-11-23",
+   "data": "2026-11-23",
+   "veiculo": "AGK Corretora",
+   "confiavel": false
+  },
+  {
+   "texto": "A Câmara dos Deputados deve votar hoje o projeto de ajuste fiscal aprovado pelo Senado em 18/11. O presidente da Câmara, Hugo Motta, convocou sessão extraordinária. O relator manteve o texto do Senado para que ele siga direto à sanção presidencial, segundo a AGK. O Money Times diz que a votação ocorre sob desconfiança do mercado sobre o controle dos gastos. A Gazeta Mercantil registra que o presidente Lula defendeu o pacote.",
+   "fonte_url": "https://www.agkcorretora.com.br/blog/2026-11-23",
+   "data": "2026-11-23",
+   "veiculo": "AGK Corretora",
+   "confiavel": false
+  },
+  {
+   "texto": "O Boletim Focus, pesquisa semanal do Banco Central com instituições financeiras, subiu a projeção de inflação (IPCA) de 5,11% para 5,15% em 2026 e de 5,00% para 5,12% em 2027. A projeção do dólar para o fim de 2026 passou de R$ 5,40 para R$ 5,55. A previsão de crescimento do PIB em 2026 caiu de 1,72% para 1,70%.",
+   "fonte_url": "https://tmc.com.br/economia/boletim-focus-bc-projecoes-inflacao-dolar-selic/",
+   "data": "2026-11-23",
+   "veiculo": "TMC",
+   "confiavel": false
+  },
+  {
+   "texto": "A agenda de hoje inclui o Boletim Focus (8h25), a prévia do PMI industrial dos EUA, índice que mede a atividade das fábricas (11h45), e o Boletim Macrofiscal do Ministério da Fazenda (14h).",
+   "fonte_url": "https://istoedinheiro.com.br/agenda-mercado-hoje-23-11-2026-ajuste-fiscal-petrobras",
+   "data": "2026-11-23",
+   "veiculo": "IstoÉ Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "O IBGE divulga na quinta-feira (26/11), às 9h, o IPCA-15 de novembro, a prévia da inflação oficial. Não é o IPCA cheio. O IPCA-15 de outubro foi de 0,32%.",
+   "fonte_url": "https://gazetamercantil.com/agenda-economica-23-a-27-novembro-2026",
+   "data": "2026-11-23",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Senado aprova o projeto de ajuste fiscal. O texto segue para a Câmara.",
+   "fonte_url": "https://www.agkcorretora.com.br/blog/2026-11-23",
+   "data": "2026-11-18",
+   "veiculo": "AGK Corretora",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa fecha a 166.376,43 pontos (-0,69%) e o dólar sobe a cerca de R$ 5,93, no último pregão antes do feriado.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-19-11-2026-davs/",
+   "data": "2026-11-19",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "A B3 não abre por causa do feriado da Consciência Negra.",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-cai-069-e-dolar-sobe-a-r-593-antes-do-feriado/",
+   "data": "2026-11-20",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "O Focus eleva as projeções de inflação e de dólar. O dólar abre a R$ 5,9815, com alta de 0,78%.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-23-11-2026-davs/",
+   "data": "2026-11-23",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "A Câmara pode votar o ajuste fiscal. A Fazenda divulga o Boletim Macrofiscal às 14h.",
+   "fonte_url": "https://istoedinheiro.com.br/agenda-mercado-hoje-23-11-2026-ajuste-fiscal-petrobras",
+   "data": "2026-11-23",
+   "veiculo": "IstoÉ Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "O IBGE divulga o IPCA-15 de novembro às 9h, com data prevista para 26/11.",
+   "fonte_url": "https://gazetamercantil.com/agenda-economica-23-a-27-novembro-2026",
+   "data": "2026-11-23",
+   "veiculo": "Gazeta Mercantil",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Como o Ibovespa fecha hoje. Os números de abertura são parciais e podem mudar ao longo do dia.",
+  "Se a Câmara vai concluir a votação do ajuste fiscal hoje e qual será o resultado. Até a apuração, a votação estava prevista, mas não concluída.",
+  "A queda de 3,16% do Kospi, bolsa da Coreia do Sul, não foi confirmada nas fontes consultadas.",
+  "A alta de 3% do Nasdaq nos futuros não foi confirmada. A fonte consultada traz apenas a média de +2,98% dos futuros dos EUA.",
+  "O plano de investimentos da Petrobras para 2027-2031 deve passar de US$ 120 bilhões, segundo fontes ouvidas pelo Money Times. Isso não foi confirmado oficialmente pela empresa.",
+  "A variação do Ibovespa na semana aparece como -3,53% (Space Money, Paranashop, Diário do Sudoeste) e -2,89% (Money Times). Os veículos divergem, e a diferença não foi explicada.",
+  "Copom e payroll, o relatório de empregos dos EUA, não aparecem na agenda de hoje nas fontes consultadas."
+ ],
+ "o_que_muda_para_voce": [
+  "Um dólar perto de R$ 6 pode encarecer produtos importados e viagens ao exterior. Segundo a TMC, o dólar mais caro pressiona preços de itens que dependem de insumos estrangeiros.",
+  "Se o dólar continuar alto, os combustíveis e produtos com componentes importados podem sofrer pressão de preço. Isso depende também de outros fatores, como o preço do petróleo e as decisões das empresas.",
+  "O Focus mostra o mercado esperando inflação um pouco maior em 2026 e 2027. Isso é uma expectativa de economistas, não uma decisão do Banco Central nem uma previsão do governo.",
+  "Quem tem investimentos em ações ou fundos ligados à bolsa pode ver oscilação ao longo do dia. A reabertura reúne o feriado, a votação do ajuste fiscal e a recuperação dos futuros de Nova York.",
+  "O IPCA-15 de quinta (26/11) mostra uma prévia da inflação oficial. Ele pode influenciar as expectativas do mercado sobre os juros."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-hoje-2311",
+ "publicado_em": "2026-11-23T09:16:51.838850",
+ "atualizado_em": "2026-11-23T09:16:51.838850",
+ "assunto": "Mercado do dia (seg., 23/11): B3 reabre após o feriado de sexta (20) com o último fechamento em 166.376 pts (-0,69%) e dólar a R$ 5,935 (+1,16%); dólar abre perto de R$ 5,98; futuros de NY sobem forte (Nasdaq +3%) após o tombo de sexta; Ásia mista (Kospi -3,16%, Japão fechado); Europa em alta.",
+ "turno": "manha"
+}
