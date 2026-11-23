@@ -1,0 +1,197 @@
+{
+ "gancho": {
+  "formula": "Antes e depois / espanto",
+  "texto": "Cara, a bolsa caiu 0,92% hoje e tá 21,2% abaixo do recorde.",
+  "na_tela": "Bolsa 21,2% abaixo do recorde",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Antes e depois / espanto",
+   "texto": "Cara, a bolsa caiu 0,92% hoje e tá 21,2% abaixo do recorde.",
+   "na_tela": "Bolsa 21,2% abaixo do recorde",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O Brasil tá há 6 dias úteis seguidos em Tensão. Você sentiu?",
+   "na_tela": "6 dias em Tensão",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Dólar a R$ 5,93 hoje, e o motivo vem de uma pesquisa do Banco Central.",
+   "na_tela": "Dólar R$ 5,93: o motivo",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, a bolsa caiu 0,92% hoje e tá 21,2% abaixo do recorde.",
+  "Ela caiu em meio à discussão do pacote de ajuste fiscal.",
+  "O dólar fechou em R$ 5,93, um pouco mais barato.",
+  "O Focus, pesquisa do Banco Central, voltou a mostrar inflação acima da meta.",
+  "Inflação acima da meta é a feira subindo mais que o previsto.",
+  "Agora o termômetro: o Brasil tá em 66, na faixa de Tensão.",
+  "Lá fora, o mundo tá em 63, também em Tensão.",
+  "Pra amanhã, fica a discussão do ajuste fiscal.",
+  "Na dúvida, não decide nada no susto.",
+  "Sentiu no bolso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, a bolsa caiu 0,92% hoje e tá 21,2% abaixo do recorde. Ela caiu em meio à discussão do pacote de ajuste fiscal. O dólar fechou em R$ 5,93, um pouco mais barato. O Focus, pesquisa do Banco Central, voltou a mostrar inflação acima da meta. Inflação acima da meta é a feira subindo mais que o previsto. Agora o termômetro: o Brasil tá em 66, na faixa de Tensão. Lá fora, o mundo tá em 63, também em Tensão. Pra amanhã, fica a discussão do ajuste fiscal. Na dúvida, não decide nada no susto. Sentiu no bolso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 109,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Bolsa 21,2% abaixo do recorde",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Ibovespa ▼0,92%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar R$ 5,93",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Focus: inflação acima da meta",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 5,
+   "texto": "Brasil 66 · Tensão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Mundo 63 · Tensão",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "Ibovespa hoje: por que a bolsa caiu 0,92% em 23/11",
+ "legenda": "Ibovespa hoje: por que a bolsa caiu 0,92% em 23/11\n\nSegundo o fechamento do Termômetro, a bolsa caiu em meio à discussão do pacote de ajuste fiscal e já está 21,2% abaixo do recorde. O dólar fechou em R$ 5,93.\n\nO boletim Focus, pesquisa do Banco Central, voltou a mostrar inflação acima da meta. Inflação acima da meta é a feira subindo mais do que o previsto.\n\nO termômetro do Brasil está em 66 e o do mundo em 63, os dois na faixa de Tensão. Sem alarde: acompanhe a fonte antes de decidir qualquer coisa.\n\nEu sou o Heitor, do Termômetro de Crise. Conteúdo educativo, não é recomendação de investimento.\n\n#ibovespa #dolar #financaspessoais #economia #termometrodecrise",
+ "hashtags": [
+  "#ibovespa",
+  "#dolar",
+  "#financaspessoais",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Bolsa caiu 0,92% hoje e o dólar fechou em R$ 5,93.",
+  "topicos": [
+   "Ibovespa caiu 0,92% em meio à discussão do pacote de ajuste fiscal.",
+   "Dólar fechou em R$ 5,93; Focus do Banco Central mostra inflação acima da meta.",
+   "Termômetro: Brasil em 66 e mundo em 63, os dois em Tensão.",
+   "Na dúvida, não decida nada no susto: confira a fonte antes."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Fechamento do dia reúne bolsa, dólar, Focus e termômetro, então pede explicação calma na bancada.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Ela caiu em meio à discussão do pacote de ajuste fiscal\" e \"fica a discussão do ajuste fiscal\": \"ajuste fiscal\" é termo de governo sem tradução e aparece duas vezes. Traduza na mesma frase, por exemplo: \"o governo tentando cortar gasto e fechar a conta\". Assim o CLT entende de primeira.",
+   "Frase \"O dólar fechou em R$ 5,93, um pouco mais barato\" e o gancho \"a bolsa caiu 0,92% hoje e tá 21,2% abaixo do recorde\": o gancho junta dois números e a peça nunca diz o que isso muda no bolso. Deixe um número na abertura (\"Cara, a bolsa caiu hoje e tá mais de 21% abaixo do recorde\") e diga o efeito na vida real, usando só o que a fonte já mostra. O número exato fica no cartão da tela.",
+   "Frase \"Na dúvida, não decide nada no susto\": o passo é vago, sem nada concreto pro fleumático fazer. Troque por uma ação simples e sem recomendação de investimento, como \"se você não tem pressa, não mexe em nada hoje e acompanha o termômetro amanhã\". Em \"Focus\" e \"faixa de Tensão\", traduza: \"pesquisa do Banco Central com o que o mercado espera\" e \"sinal amarelo\"."
+  ],
+  "veredito": "A peça tem o arquétipo certo (fonte citada, comparação da feira, bordão final e aviso na legenda), mas falta traduzir \\\"ajuste fiscal\\\" e \\\"Focus\\\", dizer o que muda no bolso e dar um passo prático mais concreto."
+ },
+ "viral": {
+  "nota": 4,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, a bolsa caiu 0,92% hoje e tá 21,2% abaixo do recorde.\" tem dois números juntos e nenhuma lacuna do bolso de quem assiste. Quem nunca ouviu falar do Termômetro não sabe por que isso importa. Reescrita (mesmos fatos, um número, a feira que já está na peça): \"Cara, o dólar fechou hoje em R$ 5,93. Mas a notícia do dia não é ele.\" Aí a bolsa vem na frase seguinte. Outra opção, com a identificação de bolso: \"Você sentiu a feira mais cara? O Banco Central acabou de confirmar que a inflação segue acima da meta.\"",
+   "Retenção: o corpo é uma lista de números (0,92%, 21,2%, 5,93, 66, 63) sem virada no meio. Guarde o termômetro para a virada e junte a feira ao Focus. Troque \"O Focus, pesquisa do Banco Central, voltou a mostrar inflação acima da meta.\" por \"E aí vem a parte que pouca gente viu: o Banco Central ouviu os economistas e eles dizem que a inflação segue acima da meta. Ou seja, a feira sobe mais que o previsto.\" Depois entra \"Agora o termômetro: o Brasil tá em 66, Tensão.\" com o número do mundo (63) só no cartão da tela, para passar no Teste do CLT: um número por fala. Tire também \"Focus\" da fala e deixe no cartão.",
+   "Envio e conversa: não há pedido de envio, e \"Sentiu no bolso? Comenta SIM ou NÃO.\" é genérico. Antes do fim, coloque uma situação concreta: \"Manda pra quem faz compra do mês no mercado e quer saber se a conta vai apertar.\" Para o gatilho, use a escolha de lado ou a pergunta com identificação: \"A feira do seu mês subiu mais que o previsto? Comenta SIM ou NÃO.\" E repita o gatilho curto no meio, depois da frase da feira."
+  ],
+  "veredito": "Roteiro limpo e claro no fechamento, mas abre com dois números soltos, sem lacuna do bolso e sem motivo para mandar para alguém; falta um gancho específico, uma virada no meio e um pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow upward tilt-and-push-in on the curved white concrete domes of the Brazilian National Congress building in Brasília at dusk, warm orange sky, empty plaza in the foreground, no people in focus, no flags, no text or signs",
+   "texto_da_fala": "Ela caiu em meio à discussão do pacote de ajuste fiscal.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt-and-push-in on the curved white concrete domes of the Brazilian National Congress building in Brasília at dusk, warm orange sky, empty plaza in the foreground, no people in focus, no flags, no text or signs. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Slow lateral dolly along rows of plain, unmarked shipping containers stacked at a busy seaport at golden hour, a gantry crane gently moving a container in the background, soft haze over the water. No people in focus, no text, no letters, no numbers, no logos on the containers",
+   "texto_da_fala": "O dólar fechou em R$ 5,93, um pouco mais barato.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow lateral dolly along rows of plain, unmarked shipping containers stacked at a busy seaport at golden hour, a gantry crane gently moving a container in the background, soft haze over the water. No people in focus, no text, no letters, no numbers, no logos on the containers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Handheld camera slowly gliding along a colorful open-air Brazilian street market (feira) stall in the morning: crates piled with tomatoes, bananas, lettuce, oranges, with hand-held scale swaying. Shallow depth of field, vendors only as blurred background silhouettes, no faces in focus, no price tags, no text, no numbers, no logos",
+   "texto_da_fala": "Inflação acima da meta é a feira subindo mais que o previsto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Handheld camera slowly gliding along a colorful open-air Brazilian street market (feira) stall in the morning: crates piled with tomatoes, bananas, lettuce, oranges, with hand-held scale swaying. Shallow depth of field, vendors only as blurred background silhouettes, no faces in focus, no price tags, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, a bolsa caiu 0,92% hoje e tá 21,2% abaixo do recorde.\n\nEla caiu em meio à discussão do pacote de ajuste fiscal.\n\nO dólar fechou em R$ 5,93, um pouco mais barato.\n\nO Focus, pesquisa do Banco Central, voltou a mostrar inflação acima da meta.\n\nInflação acima da meta é a feira subindo mais que o previsto.\n\nAgora o termômetro: o Brasil tá em 66, na faixa de Tensão.\n\nLá fora, o mundo tá em 63, também em Tensão.\n\nPra amanhã, fica a discussão do ajuste fiscal.\n\nNa dúvida, não decide nada no susto.\n\nSentiu no bolso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-23",
+ "gerado_em": "2026-11-23T18:32:37.765982-03:00",
+ "enviado_whatsapp": "2026-11-23T18:33:38.912925-03:00"
+}

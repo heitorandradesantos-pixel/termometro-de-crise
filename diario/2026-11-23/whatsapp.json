@@ -5,5 +5,12 @@
   "ok": true,
   "quando": "2026-11-23T10:33:30.960676-03:00",
   "mensagens": 1
+ },
+ {
+  "o_que": "fechamento",
+  "modo": "sim",
+  "ok": true,
+  "quando": "2026-11-23T18:33:39.711224-03:00",
+  "mensagens": 2
  }
 ]
