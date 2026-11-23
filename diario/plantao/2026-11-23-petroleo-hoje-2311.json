@@ -1,0 +1,106 @@
+{
+ "titulo": "Petróleo hoje, Brent a US$ 92 após queda de 20%: o que se sabe",
+ "descricao": "O Brent está perto de US$ 92 após cair cerca de 20% em um mês. Veja o que se sabe sobre o Irã, os embarques pelo Golfo e o excesso de oferta previsto.",
+ "palavra_chave": "petróleo hoje",
+ "lead": "O petróleo Brent, referência mundial de preço, é negociado perto de US$ 92 o barril nesta segunda-feira (23/11), em leve queda no dia. Em um mês, o recuo é de cerca de 20%, segundo a Trading Economics. A guerra com o Irã não acabou: os ataques a navios continuam, mas os embarques de petróleo pelo Golfo Pérsico seguem, segundo o Investing.com.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Brent para janeiro caía 0,30% e valia US$ 92,29 o barril às 2h16 GMT (23h16 de domingo em Brasília) desta segunda (23/11), segundo a agência WAM. A Trading Economics mostra US$ 92,13, queda de 0,48%. O WTI, referência dos EUA, estava perto de US$ 83,26.",
+   "fonte_url": "https://www.wam.ae/pt/article/17jg76p-petr%C3%B3leo-cai-brent-vai-us-9229-por-barril",
+   "data": "2026-11-23",
+   "veiculo": "WAM",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent acumula queda de 20,45% em um mês, segundo a Trading Economics. Na semana passada, o Brent caiu 4% e o WTI, 5%, de acordo com a WAM.",
+   "fonte_url": "https://pt.tradingeconomics.com/commodity/crude-oil",
+   "data": "2026-11-23",
+   "veiculo": "Trading Economics",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 9/11, Trump disse que pretende suspender novos ataques militares ao Irã, após apelos de países da região, como o Catar. O Brent fechou aquele dia em queda de cerca de 5,9% e, em 10/11, caiu abaixo de US$ 90 pela primeira vez desde 31/08. O analista Tim Waterer, da KCM Trade, disse que o mercado priorizava o tom mais conciliador de Trump desde as eleições de meio de mandato, realizadas em 3/11.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/precos-petroleo-10-novembro-2026/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Os embarques de petróleo continuam saindo pelo Golfo Pérsico, apesar dos frequentes ataques a navios comerciais, segundo o Investing.com. Esse movimento ajudou a derrubar os preços nesta segunda (23/11).",
+   "fonte_url": "https://br.investing.com/news/commodities-news/petroleo-recua-com-exportacoes-do-golfo-persico-compensando-tensoes-com-ira-2134995",
+   "data": "2026-11-23",
+   "veiculo": "Investing.com Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "A guerra com o Irã não terminou. O Investing.com relata que os ataques a embarcações e a infraestruturas da região continuaram. Em 10/11, a ADVFN já citava um bloqueio naval em curso e ataques a navios perto do Estreito de Ormuz, a passagem marítima por onde sai parte do petróleo do Golfo.",
+   "fonte_url": "https://br.advfn.com/jornal/2026/11/petroleo-brent-recua-90-dolares-trump-ira-wti-10-novembro-2026",
+   "data": "2026-11-10",
+   "veiculo": "ADVFN",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 13/11, a Agência Internacional de Energia (AIE) passou a prever excesso de oferta no quarto trimestre: produção média de 105 milhões de barris por dia, 1,7 milhão acima da demanda. A agência antes previa falta de petróleo no período. É uma projeção, não um dado já medido.",
+   "fonte_url": "https://datamarnews.com/pt/noticias/aie-preve-excesso-de-oferta-de-petroleo-no-4o-trimestre-com-recuperacao-das-exportacoes-do-golfo/",
+   "data": "2026-11-13",
+   "veiculo": "DatamarNews",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Eleições de meio de mandato nos EUA: os republicanos perderam o controle das duas casas do Congresso, segundo a Lusa.",
+   "fonte_url": "https://jornaleconomico.sapo.pt/noticias/medio-oriente-brent-cai-apos-trump-falar-de-impulso-positivo-para-fim-da-guerra/",
+   "data": "2026-11-03",
+   "veiculo": "Jornal Económico (Lusa)",
+   "confiavel": false
+  },
+  {
+   "texto": "Trump diz que pretende suspender novos ataques ao Irã; o Brent fecha em queda de cerca de 5,9%.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/precos-petroleo-10-novembro-2026/",
+   "data": "2026-11-09",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Brent cai abaixo de US$ 90 pela primeira vez desde 31 de agosto.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/precos-petroleo-10-novembro-2026/",
+   "data": "2026-11-10",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A AIE passa a prever excesso de oferta de petróleo no quarto trimestre.",
+   "fonte_url": "https://datamarnews.com/pt/noticias/aie-preve-excesso-de-oferta-de-petroleo-no-4o-trimestre-com-recuperacao-das-exportacoes-do-golfo/",
+   "data": "2026-11-13",
+   "veiculo": "DatamarNews",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent é negociado perto de US$ 92, com embarques pelo Golfo em curso e ataques a navios ainda em andamento.",
+   "fonte_url": "https://br.investing.com/news/commodities-news/petroleo-recua-com-exportacoes-do-golfo-persico-compensando-tensoes-com-ira-2134995",
+   "data": "2026-11-23",
+   "veiculo": "Investing.com Brasil",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "A variação exata do dia não está fechada. Às 2h16 GMT a WAM apontava queda de 0,30%, a Trading Economics mostra 0,48% e um site de cotações espanhol mostra 1,25%. A faixa de 0,8% a 0,9% citada por Money Times e Investing.com não foi confirmada: a página do Money Times não apareceu na apuração e o trecho do Investing.com a que tivemos acesso não traz esse número. Um número de queda de 4,5% hoje não apareceu em nenhuma fonte confiável e não é confirmado. Confira a variação no fechamento do pregão.",
+  "O tamanho do excedente varia entre as fontes. DatamarNews e ADVFN citam 1,7 milhão de barris por dia, enquanto o Investing.com fala em cerca de 2 milhões. O texto usa 1,7 milhão, que é o número de duas fontes.",
+  "Se a pausa nos ataques dos EUA vale como trégua formal não está claro. As fontes encontradas citam a intenção declarada por Trump, não um acordo anunciado entre os países, e os ataques a navios seguem.",
+  "Quanto petróleo realmente sai do Golfo ainda é incerto. Relatos citados pela ADVFN falam em volumes perto dos níveis de antes da guerra. Já o Economic News Brasil, citando levantamento da AIE, diz que as exportações da região, sem Omã, estavam 26% abaixo do nível pré-guerra em 13/11.",
+  "Não há fonte confirmando que a queda do petróleo vai levar a reajuste da Petrobras ou a mudança no preço dos combustíveis na bomba. Esse elo não foi confirmado."
+ ],
+ "o_que_muda_para_voce": [
+  "Petróleo mais barato pode, com o tempo, aliviar o custo de combustíveis e a inflação. Mas nenhuma fonte encontrada liga a queda de novembro a reajuste da Petrobras ou ao preço na bomba. Esses preços também dependem de câmbio, impostos e decisões da empresa.",
+  "Quem acompanha a gasolina e o diesel não deve esperar mudança imediata no posto só por causa do Brent de hoje.",
+  "Quem tem ações ou fundos ligados ao setor de petróleo pode ver o valor oscilar junto com o Brent. Este texto não indica compra nem venda.",
+  "O preço ainda pode voltar a subir se os ataques a navios crescerem ou se os embarques pelo Golfo forem interrompidos. O sentido contrário também vale: o excesso de oferta previsto pela AIE, se se confirmar, tende a pressionar o preço para baixo."
+ ],
+ "como_se_proteger": [],
+ "slug": "petroleo-hoje-2311",
+ "publicado_em": "2026-11-23T11:44:38.763165",
+ "atualizado_em": "2026-11-23T11:44:38.763165",
+ "assunto": "O petróleo Brent está perto de US$ 92 o barril nesta segunda (23/11), com queda de cerca de 20% em novembro depois que Trump suspendeu novos ataques ao Irã após as eleições de meio de mandato. Os embarques pelo Golfo Pérsico seguem, apesar dos ataques a navios, e a Agência Internacional de Energia projeta excesso de oferta no quarto trimestre. Status: fato confirmado (preços e embarques); o excedente é projeção da AIE. Divergência: uma fonte menos confiável fala em queda de 4,5% hoje, enquanto Money Times e Investing.com apontam recuo de 0,8% a 0,9%, então use a faixa de US$ 91 a 92 e confira a variação antes de publicar.",
+ "turno": "meio"
+}
