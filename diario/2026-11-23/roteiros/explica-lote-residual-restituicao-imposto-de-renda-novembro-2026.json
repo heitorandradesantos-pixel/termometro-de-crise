@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "A Receita liberou hoje 223.793 restituições, e o seu nome pode estar na lista.",
+  "na_tela": "223.793 restituições liberadas hoje",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "A Receita liberou hoje 223.793 restituições, e o seu nome pode estar na lista.",
+   "na_tela": "223.793 restituições liberadas hoje",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Seu dinheiro do Imposto de Renda cai em 30 de novembro, se a conta estiver certa.",
+   "na_tela": "Conta errada trava a restituição",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Já descobriram, você ainda não",
+   "texto": "A Receita já sabe se tem restituição pra você. Você ainda não.",
+   "na_tela": "A Receita já sabe. E você?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "A Receita liberou hoje 223.793 restituições, e o seu nome pode estar na lista.",
+  "Segundo a Receita, o dinheiro cai na conta em 30 de novembro.",
+  "Entrou no lote quem declarou fora do prazo e resolveu a pendência.",
+  "Restituição é o troco do imposto que você pagou a mais.",
+  "Consulta hoje no site ou no aplicativo da Receita.",
+  "Mas olha o detalhe: conta de outra pessoa, encerrada ou errada trava o crédito.",
+  "Se não cair, peça reagendamento no Banco do Brasil em até um ano.",
+  "A Receita ainda não disse quantos terão esse problema.",
+  "Você já esqueceu dinheiro com a Receita? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "A Receita liberou hoje 223.793 restituições, e o seu nome pode estar na lista. Segundo a Receita, o dinheiro cai na conta em 30 de novembro. Entrou no lote quem declarou fora do prazo e resolveu a pendência. Restituição é o troco do imposto que você pagou a mais. Consulta hoje no site ou no aplicativo da Receita. Mas olha o detalhe: conta de outra pessoa, encerrada ou errada trava o crédito. Se não cair, peça reagendamento no Banco do Brasil em até um ano. A Receita ainda não disse quantos terão esse problema. Você já esqueceu dinheiro com a Receita? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "223.793 restituições liberadas hoje",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Crédito em 30 de novembro",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 2,
+   "texto": "Declarou fora do prazo?",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "Consulte: site ou app da Receita",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 5,
+   "texto": "Conta no seu nome",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 6,
+   "texto": "Reagendar: Banco do Brasil, até um ano",
+   "fonte": "Viva (Dinheiro)"
+  }
+ ],
+ "retomada": 5,
+ "busca": "consulta restituição Imposto de Renda lote residual novembro",
+ "legenda": "consulta restituição Imposto de Renda lote residual novembro\n\nA Receita Federal liberou hoje (23/11) a consulta ao lote residual de restituição. São 223.793 restituições, e o crédito na conta é feito ao longo de 30 de novembro, segundo a Receita.\n\nEntra no lote quem enviou a declaração de 2026 fora do prazo e resolveu a pendência, além de restituições residuais de anos anteriores. Para consultar, entre no site da Receita ou no aplicativo.\n\nO pagamento só sai em conta no nome de quem declarou. Se a conta estiver errada ou encerrada, o crédito não é feito, e o reagendamento é pedido pelo Banco do Brasil em até um ano.\n\nA Receita ainda não disse quantas pessoas terão problema com a conta.\n\nEu sou o Heitor, do Termômetro de Crise. Conteúdo educativo, não é recomendação de investimento.\n\n#restituicao #impostoderenda #receitafederal #educacaofinanceira",
+ "hashtags": [
+  "#restituicao",
+  "#impostoderenda",
+  "#receitafederal",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Receita liberou hoje 223.793 restituições. Veja se o seu nome está lá.",
+  "topicos": [
+   "Segundo a Receita, são 223.793 restituições, e o dinheiro cai em 30 de novembro.",
+   "Entrou quem declarou fora do prazo e resolveu a pendência, segundo a Receita.",
+   "Só cai em conta no seu nome; se falhar, o Banco do Brasil reagenda.",
+   "Consulte hoje no site ou app da Receita e confira sua conta."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia do dia, liberada hoje (23/11), e pede que a pessoa consulte logo.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho \"A Receita liberou hoje 223.793 restituições, e o seu nome pode estar na lista.\": o número exato é longo para ouvir uma vez só e o gancho parece manchete lida. Reescreva com a reação do Heitor e número redondo, por exemplo \"Cara, a Receita liberou mais de 223 mil restituições. Você pode estar nessa lista.\" O número exato fica no cartão da tela.",
+   "Fala \"Entrou no lote quem declarou fora do prazo e resolveu a pendência\": \"lote\" e \"pendência\" são jargão sem tradução. Troque por algo como \"Entrou quem mandou a declaração atrasada e já acertou o que faltava com a Receita\". Em \"Se não cair, peça reagendamento no Banco do Brasil\", troque \"reagendamento\" por \"peça pra pagar de novo\", e deixe \"em até um ano\" na frase seguinte. Cada fala fica com uma ideia só.",
+   "Fala \"Mas olha o detalhe: conta de outra pessoa, encerrada ou errada trava o crédito.\": faltam o bordão da casa e o tom de conversa. Troque por \"E aí vem a parte que pouca gente viu: se a conta não for sua, estiver fechada ou com número errado, o dinheiro não cai.\" Use o termo \"Receita\" uma vez a menos e solte o gatilho de comentário também no meio. Exemplo: \"Já esqueceu dinheiro com a Receita? Comenta SIM ou NÃO.\""
+  ],
+  "veredito": "A peça fala direto com quem quer saber se o dinheiro cai na conta, traduz \\\"restituição\\\", dá a saída (reagendar no BB) e admite o que a Receita ainda não disse; falta soar como o Heitor falando na rua, com abertura de espanto e menos jargão (\\\"lote\\\", \\\"pendência\\\", \\\"reagendamento\\\") e número exato na fala."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"A Receita liberou hoje 223.793 restituições, e o seu nome pode estar na lista.\" → \"Cara, a Receita liberou hoje mais de 223 mil restituições. Se você declarou fora do prazo, esse dinheiro pode ser seu.\" (a pessoa se reconhece na primeira frase e o número fica redondo.)",
+   "Envio: antes do SIM ou NÃO, entra um pedido concreto: \"Conhece alguém que declarou fora do prazo? Manda esse vídeo pra ele, sério.\"",
+   "Retenção: \"Mas olha o detalhe: conta de outra pessoa, encerrada ou errada trava o crédito.\" → \"E aí vem a parte que pouca gente viu: conta de outra pessoa, encerrada ou errada trava o crédito.\" (a virada fica mais forte e mais com a voz do Heitor.)"
+  ],
+  "veredito": "Roteiro claro, bem pago e com um bom gatilho de comentário, mas o gancho abre com número exato e tom de manchete, e falta o pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 4,
+   "visual": "Close-up of a smartphone resting on a wooden desk beside an open laptop, both screens glowing with abstract blurred colored shapes and no readable text, no logos. Soft window daylight, shallow depth of field. Slow push-in toward the phone, with a gentle rack focus from the laptop to the phone",
+   "texto_da_fala": "Consulta hoje no site ou no aplicativo da Receita.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a smartphone resting on a wooden desk beside an open laptop, both screens glowing with abstract blurred colored shapes and no readable text, no logos. Soft window daylight, shallow depth of field. Slow push-in toward the phone, with a gentle rack focus from the laptop to the phone. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "A blank plastic bank card with no printed numbers, letters or logos, cut cleanly in half, lying on a dark wooden table. A faint red warning light pulses softly in the background. Moody side lighting. Slow lateral dolly along the table, ending on a close-up of the cut edge, with shallow depth of field",
+   "texto_da_fala": "Mas olha o detalhe: conta de outra pessoa, encerrada ou errada trava o crédito.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A blank plastic bank card with no printed numbers, letters or logos, cut cleanly in half, lying on a dark wooden table. A faint red warning light pulses softly in the background. Moody side lighting. Slow lateral dolly along the table, ending on a close-up of the cut edge, with shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Interior of an empty, generic bank branch in the morning, with a teller counter, glass partitions and a waiting-area bench. Warm sunlight comes through large windows and dust floats in the air. No signs, no text, no logos, no people. Slow forward tracking shot (steadicam) down the center aisle toward the counter",
+   "texto_da_fala": "Se não cair, peça reagendamento no Banco do Brasil em até um ano.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Interior of an empty, generic bank branch in the morning, with a teller counter, glass partitions and a waiting-area bench. Warm sunlight comes through large windows and dust floats in the air. No signs, no text, no logos, no people. Slow forward tracking shot (steadicam) down the center aisle toward the counter. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "A Receita liberou hoje 223.793 restituições, e o seu nome pode estar na lista.\n\nSegundo a Receita, o dinheiro cai na conta em 30 de novembro.\n\nEntrou no lote quem declarou fora do prazo e resolveu a pendência.\n\nRestituição é o troco do imposto que você pagou a mais.\n\nConsulta hoje no site ou no aplicativo da Receita.\n\nMas olha o detalhe: conta de outra pessoa, encerrada ou errada trava o crédito.\n\nSe não cair, peça reagendamento no Banco do Brasil em até um ano.\n\nA Receita ainda não disse quantos terão esse problema.\n\nVocê já esqueceu dinheiro com a Receita? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-abre-consulta-ao-lote-residual-de-restituicao-do-irpf-2026-nesta-segunda-feira-23",
+   "destaque": "A consulta foi aberta às 9h de 23/11."
+  },
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/receita-abre-consulta-a-restituicao-residual-do-imposto-de-renda-2026",
+   "destaque": "Do total, R$ 382.972.486,59 vão para contribuintes com prioridade legal: idosos, pessoas com deficiência ou moléstia grave e professores."
+  }
+ ],
+ "data": "2026-11-23",
+ "gerado_em": "2026-11-23T16:19:18.304535-03:00"
+}
