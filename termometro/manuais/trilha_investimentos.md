@@ -31,7 +31,7 @@ fonte e pedido de voto. Continua valendo: sem recomendação de investimento e s
 
 ## Trilha
 ### 1. Antes de investir
-- [ ] Reserva de emergência: o que é, quanto guardar e onde ela precisa ficar
+- [x] Reserva de emergência: o que é, quanto guardar e onde ela precisa ficar
 - [ ] Dívida cara x investimento: por que quitar o rotativo rende mais que qualquer aplicação
 - [ ] Liquidez: a diferença entre "tenho dinheiro" e "consigo sacar hoje"
 - [ ] Os 3 objetivos (curto, médio e longo prazo) e por que cada um pede um lugar diferente
@@ -39,7 +39,7 @@ fonte e pedido de voto. Continua valendo: sem recomendação de investimento e s
 - [ ] O que é a Selic e por que ela mexe em tudo que você aplica
 - [ ] CDI: o "primo" da Selic que aparece no seu CDB
 - [ ] CDB de 100% do CDI: o que esse número quer dizer de verdade
-- [ ] Poupança: quanto rende e quando ela perde da inflação
+- [x] Poupança: quanto rende e quando ela perde da inflação
 - [ ] Tesouro Selic: para que serve e para que não serve
 - [ ] Tesouro prefixado: travar a taxa e o susto de vender antes da hora
 - [ ] Tesouro IPCA+: proteger da inflação e a tal marcação a mercado
