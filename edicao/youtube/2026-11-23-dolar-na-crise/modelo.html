@@ -54,6 +54,8 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#0B1118
 #leg span{display:inline-block;max-width:1560px;padding:12px 34px;border-radius:16px;background:rgba(5,9,14,.82);font-size:45px;font-weight:600;line-height:1.25;color:#fff}
 #leg i{font-style:normal}#leg .a{color:#F2C14E}#leg .f{color:rgba(255,255,255,.5)}.cnt{display:inline-block}
 #pts{position:absolute;inset:0;overflow:hidden}#pts i{position:absolute;border-radius:50%;background:#7CC3E0}
+#cta{position:absolute;right:64px;top:772px;display:none;align-items:center;gap:22px;padding:16px 18px 16px 30px;border-radius:999px;background:rgba(9,14,20,.94);border:2px solid #33465A;box-shadow:0 14px 40px rgba(0,0,0,.5);font-size:36px;font-weight:700}
+#cta b{display:inline-block;padding:12px 30px;border-radius:999px;background:#E5554A;color:#fff;font-weight:800;letter-spacing:1.5px}#cta.a b{background:#F2C14E;color:#0E141B}
 #prog{position:absolute;left:0;bottom:0;height:8px;background:linear-gradient(90deg,#3B82C4,#7CC3E0,#F2C14E,#EE8A3C,#E5554A);width:0}
 #capitulo{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:22px;background:#0B1118}
 #capitulo .n{font-size:34px;font-weight:700;letter-spacing:8px;color:#7CC3E0}#capitulo .t{font-size:118px;font-weight:900;letter-spacing:-3px;text-align:center;line-height:1.05;max-width:1600px}
@@ -66,6 +68,7 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#0B1118
 <!--CENAS-->
 <div id="leg"><span></span></div>
 <div id="capitulo"><div class="n"></div><div class="t"></div><div class="l"></div></div>
+<div id="cta"><span></span><b></b></div>
 <div id="prog"></div>
 <script>
 const D=/*DADOS*/;
@@ -105,6 +108,6 @@ window.seek=function(t){
  prog.style.width=(100*t/D.T)+'%';arcos.style.transform='rotate('+(t*0.35)+'deg)';
 };
 const grade=document.getElementById('grade'),pts=document.getElementById('pts');const P=[];for(let i=0;i<34;i++){const e=document.createElement('i');const s=3+((i*37)%7);e.style.width=e.style.height=s+'px';pts.appendChild(e);P.push({e,x:(i*613)%1920,y:(i*397)%1140,v:9+((i*53)%23),o:0.08+((i*29)%17)/100});}
-const seek0=window.seek;window.seek=function(t){seek0(t);grade.style.backgroundPosition=(-t*7)+'px '+(-t*4)+'px';for(const p of P){const y=((p.y-t*p.v)%1140+1140)%1140-30;p.e.style.transform='translate('+(p.x+18*Math.sin(t*0.4+p.y))+'px,'+y+'px)';p.e.style.opacity=p.o;}};
+const ctaEl=document.getElementById('cta');const seek0=window.seek;window.seek=function(t){seek0(t);let ct=null;for(const c of D.cta){if(t>=c.a&&t<c.b)ct=c;}if(ct){const lt=t-ct.a,dur=ct.b-ct.a;ctaEl.style.display='flex';ctaEl.className=ct.cor;ctaEl.children[0].textContent=ct.tx;ctaEl.children[1].textContent=ct.bt;const e=back(lt/0.5)*(1-ease((lt-(dur-0.35))/0.35));ctaEl.style.transform='translateX('+((1-e)*640)+'px)';const q=(lt-1.6)/0.45;ctaEl.children[1].style.transform='scale('+(1+(q>0&&q<1?0.14*Math.sin(Math.PI*q):0))+')';}else ctaEl.style.display='none';grade.style.backgroundPosition=(-t*7)+'px '+(-t*4)+'px';for(const p of P){const y=((p.y-t*p.v)%1140+1140)%1140-30;p.e.style.transform='translate('+(p.x+18*Math.sin(t*0.4+p.y))+'px,'+y+'px)';p.e.style.opacity=p.o;}};
 seek(0);
 </script></body></html>

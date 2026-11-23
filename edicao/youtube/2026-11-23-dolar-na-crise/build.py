@@ -333,10 +333,12 @@ for cn in cenas:
         if abs(cn["b"] - (cp["b"] - 0.25)) < 0.6: cn["b"] = cp["a"]
         if abs(cn["a"] - (cp["b"] - 0.25)) < 0.6: cn["a"] = round(cp["b"] - 0.05, 2)
 
-dados = {"T": round(TOTAL, 2), "cenas": [{"a": c["a"], "b": c["b"]} for c in cenas], "caps": caps, "legs": legs}
+CTA = [(caps[1]["b"] + 3.0, "Tá entendendo? Então", "INSCREVA-SE", "v"), (caps[3]["b"] + 3.0, "Curtiu até aqui?", "👍 DEIXA O LIKE", "a"),
+       (caps[6]["b"] + 3.0, "Não perde o próximo:", "🔔 INSCREVA-SE", "v")]
+dados = {"cta": [{"a": round(t, 2), "b": round(t + 5.2, 2), "tx": tx, "bt": bt, "cor": cor} for t, tx, bt, cor in CTA], "T": round(TOTAL, 2), "cenas": [{"a": c["a"], "b": c["b"]} for c in cenas], "caps": caps, "legs": legs}
 tpl = (P / "modelo.html").read_text()
 saida = tpl.replace("/*DADOS*/", json.dumps(dados, ensure_ascii=False)).replace("<!--MAPA-->", MAPA_DEFS).replace("<!--LOGO-->", LOGO)
 saida = saida.replace("<!--CENAS-->", "\n".join(f'<section class="cena" id="c{j}">{c["h"]}</section>' for j, c in enumerate(cenas)))
 (P / "video.html").write_text(saida)
-(P / "tempos.json").write_text(json.dumps({"T": TOTAL, "cenas": [(c["a"], c["b"]) for c in cenas], "caps": caps, "paragrafos": [round(pt(i), 2) for i in range(59)]}, ensure_ascii=False, indent=1))
+(P / "tempos.json").write_text(json.dumps({"cta": [round(t, 2) for t, *_ in CTA], "T": TOTAL, "cenas": [(c["a"], c["b"]) for c in cenas], "caps": caps, "paragrafos": [round(pt(i), 2) for i in range(59)]}, ensure_ascii=False, indent=1))
 print(f"total {TOTAL:.1f}s = {int(TOTAL//60)}:{TOTAL%60:04.1f}; cenas {len(cenas)}; legendas {len(legs)}")
