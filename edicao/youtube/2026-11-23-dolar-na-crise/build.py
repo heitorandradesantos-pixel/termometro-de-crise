@@ -83,15 +83,13 @@ subprocess.check_call(["ffmpeg", "-v", "error", "-y", "-i", str(P / "narracao.wa
                        "-map", "[a]", "-c:a", "aac", "-b:a", "192k", str(P / "audio-final.m4a")])
 
 # ---------- legendas ----------
-legs, atual, k0 = [], [], 0
+legs, atual = [], []
 for k, (i, w, _) in enumerate(pal):
-    if not atual: k0 = k
-    atual.append(w)
+    atual.append([round(T(ini[k]), 2), w])
     ultimo = k + 1 == len(pal) or pal[k + 1][0] != i
     if ultimo or w[-1] in ".?!" or (len(atual) >= 4 and w[-1] in ":,;") or len(atual) >= 8:
-        legs.append([round(T(ini[k0]), 2), " ".join(atual)]); atual = []
-legs = [[a, tx, (legs[j + 1][0] if j + 1 < len(legs) else a + 2.5)] for j, (a, tx) in enumerate(legs)]
-legs =[[a, tx, min(b, a + 4.2)] for a, tx, b in legs]
+        legs.append([atual[0][0], atual]); atual = []
+legs = [[a, ws, min(legs[j + 1][0] if j + 1 < len(legs) else a + 2.5, a + 4.2)] for j, (a, ws) in enumerate(legs)]
 
 # ---------- deixas ----------
 def deixa(spec, cena_ini, k_ini):
