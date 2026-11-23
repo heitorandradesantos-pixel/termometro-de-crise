@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Cara, você sabe se seu dinheiro tá em banco ou em cooperativa?",
+  "na_tela": "Banco ou cooperativa?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Cara, você sabe se seu dinheiro tá em banco ou em cooperativa?",
+   "na_tela": "Banco ou cooperativa?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Não são 21 bancos quebrados, e a diferença mexe no seu dinheiro.",
+   "na_tela": "Não são 21 bancos quebrados",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Em 2026, o Banco Central já fechou 21 instituições, o maior número desde 2002.",
+   "na_tela": "21 instituições fechadas em 2026",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, você sabe se seu dinheiro tá em banco ou em cooperativa?",
+  "O Banco Central fechou 21 instituições este ano. Fechou mesmo, acabou a atividade.",
+  "Mas calma: não são 21 bancos quebrados. Tem cooperativa, financeira e consórcio.",
+  "Aqui mexe no seu bolso: banco tem o FGC, cooperativa tem o FGCoop.",
+  "É tipo seguro de celular: cobre até um teto por pessoa, valor no cartão.",
+  "O que passa do teto fica pra depois, e pode demorar.",
+  "Passo simples: olha no app ou no contrato se é banco ou cooperativa.",
+  "Manda pra quem guarda dinheiro em cooperativa.",
+  "Você já tinha conferido isso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, você sabe se seu dinheiro tá em banco ou em cooperativa? O Banco Central fechou 21 instituições este ano. Fechou mesmo, acabou a atividade. Mas calma: não são 21 bancos quebrados. Tem cooperativa, financeira e consórcio. Aqui mexe no seu bolso: banco tem o FGC, cooperativa tem o FGCoop. É tipo seguro de celular: cobre até um teto por pessoa, valor no cartão. O que passa do teto fica pra depois, e pode demorar. Passo simples: olha no app ou no contrato se é banco ou cooperativa. Manda pra quem guarda dinheiro em cooperativa. Você já tinha conferido isso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Banco ou cooperativa?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "21 instituições liquidadas em 2026",
+   "fonte": "Finsiders Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "Banco, cooperativa, financeira, consórcio",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "Banco = FGC | Cooperativa = FGCoop",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Teto FGCoop (Cooperagre): R$ 250.000 por pessoa. Conferir nas regras do fundo",
+   "fonte": "The Rio Times"
+  },
+  {
+   "fala": 5,
+   "texto": "Acima do teto: fica pra depois",
+   "fonte": "Seu Crédito Digital"
+  },
+  {
+   "fala": 6,
+   "texto": "Confira: banco ou cooperativa?",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Banco Central liquidou 21 instituições em 2026: meu dinheiro está protegido?",
+ "legenda": "Banco Central liquidou 21 instituições em 2026: meu dinheiro está protegido?\n\nSegundo o Banco Central, a última liquidação de que se tem notícia foi em 12 de novembro. Mas atenção: a lista de 21 mistura bancos, financeiras, cooperativas, administradoras de consórcio e instituições de pagamento. Não são 21 bancos quebrados.\n\nO que muda para você: em banco e financeira, a proteção vem do FGC. Em cooperativa de crédito, vem do FGCoop. Cada um cobre até um teto por pessoa, e o que passa do teto fica pra depois e pode demorar. Confira o valor nas regras do fundo.\n\nO que ainda não se sabe: quanto dinheiro havia na Cooperagre e se quem está em consórcio tem cobertura. Quem participa de consórcio de administradora liquidada deve acompanhar os comunicados do liquidante.\n\nPasso simples: olhe no app ou no contrato se a instituição é banco ou cooperativa.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancocentral #fgc #educacaofinanceira #cooperativa",
+ "hashtags": [
+  "#bancocentral",
+  "#fgc",
+  "#educacaofinanceira",
+  "#cooperativa"
+ ],
+ "rua": {
+  "gancho": "Cara, o Banco Central fechou 21 instituições este ano. Olha só.",
+  "topicos": [
+   "Banco Central liquidou 21 instituições em 2026, o maior número desde 2002.",
+   "Não são 21 bancos: tem cooperativa, financeira, consórcio e instituição de pagamento.",
+   "Banco tem o FGC, cooperativa tem o FGCoop: cada um cobre até um teto.",
+   "Olha no app ou no contrato se é banco ou cooperativa."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com contexto (FGC, FGCoop, teto), sem notícia nova do dia, então pede calma na bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"Banco tem o FGC, cooperativa tem o FGCoop.\": as siglas ficam sem tradução e a fala carrega duas ideias. Reescreva em duas falas: \"Se for banco, tem um fundo que protege seu dinheiro até um limite. Se for cooperativa, tem outro fundo, o FGCoop.\" Assim FGC e FGCoop viram \"fundo de proteção\" na hora e o CLT entende de primeira.",
+   "\"Fechou mesmo, acabou a atividade.\" e \"fica pra depois, e pode demorar\": \"liquidou\" e \"atividade\" soam como termo de contador. Diga \"o Banco Central mandou encerrar de vez: elas não funcionam mais\". No \"fica pra depois\", complete com o que a pessoa faz: \"o que passa do limite você só recebe depois, e pode demorar. Por isso vale saber onde está seu dinheiro\".",
+   "A abertura \"Cara, você sabe...\" está boa, mas o vídeo não tem a virada de voz do Heitor, só tem o \"Mas calma\". Troque por \"E aí vem a parte que pouca gente viu: não são 21 bancos quebrados\". Isso dá mais ritmo e solta a repetição da frase forte (\"21 instituições\") uma vez, para grudar. Mantenha o fim padrão \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" antes do bordão final, se ainda não estiver na edição."
+  ],
+  "veredito": "A peça fala com quem guarda dinheiro sem saber onde, tem número com fonte, comparação viva, passo simples e gatilho de comentário fácil, sem alarmismo; falta só traduzir FGC/FGCoop e \\\"liquidou\\\" para passar no Teste do CLT e soltar mais a voz do Heitor."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: o número 21 só aparece na 2ª frase. Em vez de 'Cara, você sabe se seu dinheiro tá em banco ou em cooperativa?', abra com: 'Cara, o Banco Central fechou 21 instituições este ano. Você sabe se seu dinheiro tá em banco ou em cooperativa?'",
+   "Retenção: 'banco tem o FGC, cooperativa tem o FGCoop' tem duas siglas numa fala e ninguém explicou o que são. Reescreva em duas falas: 'Aqui mexe no seu bolso: tem um fundo que devolve seu dinheiro se a instituição fecha. No banco é o FGC. Na cooperativa, o FGCoop.'",
+   "Virada no meio: 'O que passa do teto fica pra depois, e pode demorar.' pode virar 'Agora presta atenção nessa parte: o que passa do teto fica pra depois, e pode demorar.' Isso segura quem ia sair antes do passo simples."
+  ],
+  "veredito": "Roteiro sólido, com tema de bolso, envio para uma situação concreta e gatilho SIM/NÃO. Falta abrir já com o número 21 na primeira frase e traduzir as siglas FGC e FGCoop para segurar quem não é do assunto."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "A closed bank branch at dusk: a metal security shutter rolls down over a glass entrance, the empty lobby behind it dimly lit, a single chair left inside. Slow dolly-in toward the shutter as it touches the ground. Moody blue-orange light, no people, blank signage with no text, no logos",
+   "texto_da_fala": "O Banco Central fechou 21 instituições este ano. Fechou mesmo, acabou a atividade.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A closed bank branch at dusk: a metal security shutter rolls down over a glass entrance, the empty lobby behind it dimly lit, a single chair left inside. Slow dolly-in toward the shutter as it touches the ground. Moody blue-orange light, no people, blank signage with no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "A slow lateral tracking shot along a quiet commercial street with three different small storefronts: a cozy neighborhood office with wooden counter, a plain finance office with glass door, and a small office with filing cabinets. All signs blank and unmarked. Soft daylight, no people in focus, no text, no logos",
+   "texto_da_fala": "Mas calma: não são 21 bancos quebrados. Tem cooperativa, financeira e consórcio.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A slow lateral tracking shot along a quiet commercial street with three different small storefronts: a cozy neighborhood office with wooden counter, a plain finance office with glass door, and a small office with filing cabinets. All signs blank and unmarked. Soft daylight, no people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "A smartphone with a dark blank screen lies on a wooden table. A transparent protective glass dome gently lowers over it while soft light glints on the surface. Slow push-in camera, shallow depth of field, warm tones. No people, no text, no logos",
+   "texto_da_fala": "É tipo seguro de celular: cobre até um teto por pessoa, valor no cartão.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A smartphone with a dark blank screen lies on a wooden table. A transparent protective glass dome gently lowers over it while soft light glints on the surface. Slow push-in camera, shallow depth of field, warm tones. No people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, você sabe se seu dinheiro tá em banco ou em cooperativa?\n\nO Banco Central fechou 21 instituições este ano. Fechou mesmo, acabou a atividade.\n\nMas calma: não são 21 bancos quebrados. Tem cooperativa, financeira e consórcio.\n\nAqui mexe no seu bolso: banco tem o FGC, cooperativa tem o FGCoop.\n\nÉ tipo seguro de celular: cobre até um teto por pessoa, valor no cartão.\n\nO que passa do teto fica pra depois, e pode demorar.\n\nPasso simples: olha no app ou no contrato se é banco ou cooperativa.\n\nManda pra quem guarda dinheiro em cooperativa.\n\nVocê já tinha conferido isso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/banco-central-decreta-liquidacao-instituicoes-financeiras",
+   "destaque": "A Cooperagre captava recursos por instrumentos financeiros cobertos pelo Fundo Garantidor do Cooperativismo de Crédito (FGCoop)."
+  }
+ ],
+ "data": "2026-11-23",
+ "gerado_em": "2026-11-23T18:51:16.550408-03:00"
+}
