@@ -1,0 +1,190 @@
+{
+ "gancho": {
+  "formula": "Número + pergunta de bolso",
+  "texto": "R$ 2,77 bilhões do INSS foram liberados. Você pode estar nessa lista.",
+  "na_tela": "R$ 2,77 bilhões do INSS liberados",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + pergunta de bolso",
+   "texto": "R$ 2,77 bilhões do INSS foram liberados. Você pode estar nessa lista.",
+   "na_tela": "R$ 2,77 bilhões do INSS liberados",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O dinheiro do INSS liberado não é o 13º, e pode ser seu.",
+   "na_tela": "Não é o 13º do INSS",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "179.070 pessoas ganharam ação contra o INSS e o dinheiro foi liberado.",
+   "na_tela": "179.070 pessoas ganharam do INSS",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 2,77 bilhões do INSS foram liberados. Você pode estar nessa lista.",
+  "Segundo o Conselho da Justiça Federal, são 179.070 pessoas na fila.",
+  "Só entra quem ganhou a ação e não cabe mais recurso.",
+  "Pedido só negado pelo INSS, sem ação, fica de fora.",
+  "Liberar não é sacar: é como Pix agendado, cada tribunal tem data.",
+  "Agora a pegadinha: não cai na conta da aposentadoria.",
+  "Vai pra conta na Caixa ou no Banco do Brasil.",
+  "Pra conferir, só no site do tribunal federal.",
+  "Taxa pra liberar? Não existe, segundo a Justiça Federal. Quem cobrar, desconfie.",
+  "Conhece alguém esperando atrasado do INSS? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 2,77 bilhões do INSS foram liberados. Você pode estar nessa lista. Segundo o Conselho da Justiça Federal, são 179.070 pessoas na fila. Só entra quem ganhou a ação e não cabe mais recurso. Pedido só negado pelo INSS, sem ação, fica de fora. Liberar não é sacar: é como Pix agendado, cada tribunal tem data. Agora a pegadinha: não cai na conta da aposentadoria. Vai pra conta na Caixa ou no Banco do Brasil. Pra conferir, só no site do tribunal federal. Taxa pra liberar? Não existe, segundo a Justiça Federal. Quem cobrar, desconfie. Conhece alguém esperando atrasado do INSS? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "R$ 2,77 bilhões do INSS liberados",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 2,77 bilhões | 179.070 pessoas",
+   "fonte": "ND Mais"
+  },
+  {
+   "fala": 2,
+   "texto": "Só quem ganhou a ação",
+   "fonte": "Metrópoles"
+  },
+  {
+   "fala": 4,
+   "texto": "Liberar não é sacar",
+   "fonte": "Paraíba Business"
+  },
+  {
+   "fala": 6,
+   "texto": "Conta na Caixa ou no BB",
+   "fonte": "O Tempo (Folhapress)"
+  },
+  {
+   "fala": 8,
+   "texto": "Não existe taxa para liberar",
+   "fonte": "A Rede"
+  }
+ ],
+ "retomada": 5,
+ "busca": "atrasados do INSS quem vai receber",
+ "legenda": "Atrasados do INSS: quem vai receber?\n\nSegundo o Conselho da Justiça Federal, foram liberados R$ 2,77 bilhões para 179.070 pessoas que ganharam ação na Justiça. Só recebe quem venceu sem possibilidade de recurso e teve a ordem de pagamento emitida em outubro.\n\nLiberar não é sacar: cada Tribunal Regional Federal tem o seu cronograma, e a data para cada pessoa não foi divulgada. O dinheiro vai para uma conta na Caixa ou no Banco do Brasil, no nome do beneficiário ou do advogado. Para conferir, use só o site do tribunal responsável.\n\nNão existe taxa para liberar esse dinheiro, segundo alerta da Justiça Federal. Desconfie de quem cobrar e não passe senhas por mensagem.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inss #atrasadosdoinss #direitos #educacaofinanceira",
+ "hashtags": [
+  "#inss",
+  "#atrasadosdoinss",
+  "#direitos",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Atrasado do INSS liberado: R$ 2,77 bilhões. Você pode estar nessa lista.",
+  "topicos": [
+   "CJF liberou R$ 2,77 bilhões para 179.070 pessoas que ganharam ação contra o INSS.",
+   "Só recebe quem venceu, sem recurso, e teve ordem em outubro, diz o Metrópoles.",
+   "Liberar não é sacar: cada tribunal federal tem seu calendário, segundo a Paraíba Business.",
+   "Confira só no site do tribunal federal; taxa pra liberar não existe."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente que circulou a partir de 23 de novembro e pede o tom de \"preciso te contar isso\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 2,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho \"R$ 2,77 bilhões do INSS foram liberados. Você pode estar nessa lista.\": está direto e fala com o bolso, mas soa como manchete lida. Reescreva com a reação do Heitor, por exemplo \"Cara, olha que loucura: o INSS liberou uns R$ 2,77 bilhões. E você pode estar nessa lista.\" Deixe o número exato no cartão da tela.",
+   "Segunda fala, \"Segundo o Conselho da Justiça Federal, são 179.070 pessoas na fila\": tem dois problemas pelo Teste do CLT. O número é exato e comprido, e o nome do órgão é técnico. Fale \"uns 179 mil, segundo a Justiça Federal\" e deixe o número exato na tela. Troque também \"ganhou a ação e não cabe mais recurso\" por \"ganhou na Justiça e acabou o prazo pra recorrer\". Falta ainda um passo simples e calmo antes do final, para o fleumático, por exemplo \"Calma, não precisa correr: é só olhar o site do tribunal\". Hoje a peça só fecha com o aviso de golpe.",
+   "Fala \"Liberar não é sacar: é como Pix agendado, cada tribunal tem data\": a comparação é boa, mas é a única da peça e ela empilha duas ideias. Divida em duas falas curtas. Fale \"Liberado não é sacado. É tipo Pix agendado.\" e depois \"Cada tribunal tem a sua data.\" Troque também \"Agora a pegadinha\" por uma virada da casa, como \"E agora vem a parte que pouca gente viu\". Na fala \"Taxa pra liberar? Não existe\", acrescente a saída com calma e acolhimento, por exemplo \"Se alguém pedir dinheiro, é golpe: pare e confira no site do tribunal\"."
+  ],
+  "veredito": "A peça fala direto com quem tem atrasado no bolso, traz a fonte, as ressalvas e o aviso de golpe, e fecha com o bordão certo e um gatilho fácil de comentar. Falta soltar a voz do Heitor, deixar os números mais redondos na fala para passar no Teste do CLT, e incluir um passo simples e calmo para o fleumático."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Você pode estar nessa lista\" não diz quem é a pessoa. Reescrita: \"Ganhou ação contra o INSS? R$ 2,77 bilhões foram liberados. Você pode estar nessa lista.\" O espectador se reconhece na primeira frase.",
+   "Envio: o fim pede só comentário. Reescrita: \"Manda pra quem ganhou ação contra o INSS e espera atrasado. Você conhece alguém assim? Comenta SIM ou NÃO.\"",
+   "Fala difícil: \"179.070 pessoas\" é número exato demais para ouvir uma vez. Reescrita: \"Segundo o Conselho da Justiça Federal, são uns 179 mil na fila.\" O número exato fica no cartão da tela."
+  ],
+  "veredito": "Roteiro limpo, curto e que paga o que promete, com a virada \\\"a pegadinha\\\" no meio, mas o gancho não diz quem é o espectador e o fim não pede o envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-forward down a long, bright federal-building corridor with a long line of people waiting, seen only from behind and far away, faces never visible, soft out-of-focus background, rows of wooden benches along the walls. Warm natural light from tall windows. No text, no signs, no logos",
+   "texto_da_fala": "Segundo o Conselho da Justiça Federal, são 179.070 pessoas na fila.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-forward down a long, bright federal-building corridor with a long line of people waiting, seen only from behind and far away, faces never visible, soft out-of-focus background, rows of wooden benches along the walls. Warm natural light from tall windows. No text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Close-up slow push-in on a polished wooden judge's desk: a wooden gavel resting beside a neat stack of closed legal case folders tied with ribbon, a heavy folder being gently closed by a hand out of frame. Shallow depth of field, soft warm courtroom light. No readable text, no faces, no logos",
+   "texto_da_fala": "Só entra quem ganhou a ação e não cabe mais recurso.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up slow push-in on a polished wooden judge's desk: a wooden gavel resting beside a neat stack of closed legal case folders tied with ribbon, a heavy folder being gently closed by a hand out of frame. Shallow depth of field, soft warm courtroom light. No readable text, no faces, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Smooth gimbal shot gliding through a modern, empty bank branch interior with a row of self-service ATMs and a teller counter, bright daylight through glass doors, clean reflections on the floor. Generic neutral design, no signage, no logos, no text, no people in focus",
+   "texto_da_fala": "Vai pra conta na Caixa ou no Banco do Brasil.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth gimbal shot gliding through a modern, empty bank branch interior with a row of self-service ATMs and a teller counter, bright daylight through glass doors, clean reflections on the floor. Generic neutral design, no signage, no logos, no text, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 2,77 bilhões do INSS foram liberados. Você pode estar nessa lista.\n\nSegundo o Conselho da Justiça Federal, são 179.070 pessoas na fila.\n\nSó entra quem ganhou a ação e não cabe mais recurso.\n\nPedido só negado pelo INSS, sem ação, fica de fora.\n\nLiberar não é sacar: é como Pix agendado, cada tribunal tem data.\n\nAgora a pegadinha: não cai na conta da aposentadoria.\n\nVai pra conta na Caixa ou no Banco do Brasil.\n\nPra conferir, só no site do tribunal federal.\n\nTaxa pra liberar? Não existe, segundo a Justiça Federal. Quem cobrar, desconfie.\n\nConhece alguém esperando atrasado do INSS? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/justica-libera-r-277-bilhoes-em-atrasados-do-inss-para-179-mil-pessoas",
+   "destaque": "O Metrópoles publicou que o dinheiro vale para aposentadorias, pensões por morte, auxílios por incapacidade e Benefício de Prestação…"
+  }
+ ],
+ "data": "2026-11-24",
+ "gerado_em": "2026-11-24T13:19:25.702833-03:00"
+}
