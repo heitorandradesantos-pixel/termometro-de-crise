@@ -32,7 +32,7 @@ fonte e pedido de voto. Continua valendo: sem recomendação de investimento e s
 ## Trilha
 ### 1. Antes de investir
 - [x] Reserva de emergência: o que é, quanto guardar e onde ela precisa ficar
-- [ ] Dívida cara x investimento: por que quitar o rotativo rende mais que qualquer aplicação
+- [x] Dívida cara x investimento: por que quitar o rotativo rende mais que qualquer aplicação
 - [ ] Liquidez: a diferença entre "tenho dinheiro" e "consigo sacar hoje"
 - [ ] Os 3 objetivos (curto, médio e longo prazo) e por que cada um pede um lugar diferente
 ### 2. Renda fixa sem medo
@@ -67,7 +67,7 @@ fonte e pedido de voto. Continua valendo: sem recomendação de investimento e s
 - [ ] Ibovespa: o que é esse número que sai no jornal
 - [ ] Renda variável não é cassino: a diferença entre investir e apostar
 ### 6. Dólar e mundo
-- [ ] Por que o dólar mexe no preço do pão
+- [x] Por que o dólar mexe no preço do pão
 - [ ] Investir fora do Brasil: o que é e quais são os riscos (câmbio e imposto)
 - [ ] S&P 500 e Nasdaq: o que são e por que caem juntos
 - [ ] Ouro e bitcoin: reserva de valor ou aposta? O que cada um é
