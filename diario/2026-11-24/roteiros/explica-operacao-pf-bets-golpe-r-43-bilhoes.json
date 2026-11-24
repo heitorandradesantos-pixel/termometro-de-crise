@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Sua bet é autorizada? Hoje a PF foi atrás de fraude.",
+  "na_tela": "Sua bet é autorizada?",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Segundo a PF, R$ 4,3 bilhões circularam em golpe de bet e vaga falsa.",
+   "na_tela": "R$ 4,3 bilhões em golpes",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Sua bet é autorizada? Hoje a PF foi atrás de fraude.",
+   "na_tela": "Sua bet é autorizada?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Cerca de 130 policiais federais saíram hoje atrás de golpe de bet e vaga falsa.",
+   "na_tela": "130 policiais atrás de golpe",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Sua bet é autorizada? Hoje a PF foi atrás de fraude.",
+  "Na terça, 24/11, a PF foi atrás de lavagem de dinheiro.",
+  "É roupa suja na máquina: empresa de fachada deixa o dinheiro de golpe limpinho.",
+  "Calma: são R$ 4,3 bilhões que circularam, não prejuízo das vítimas, e ninguém foi condenado.",
+  "Seu saldo no banco não muda: os bloqueios pegam investigados, não você.",
+  "Mas vaga de emprego que pede depósito antes? Desconfie.",
+  "Antes de apostar, veja se a bet está na lista da Fazenda.",
+  "Caiu em golpe? Faça boletim de ocorrência e avise o banco.",
+  "Já te ofereceram vaga pedindo depósito? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Sua bet é autorizada? Hoje a PF foi atrás de fraude. Na terça, 24/11, a PF foi atrás de lavagem de dinheiro. É roupa suja na máquina: empresa de fachada deixa o dinheiro de golpe limpinho. Calma: são R$ 4,3 bilhões que circularam, não prejuízo das vítimas, e ninguém foi condenado. Seu saldo no banco não muda: os bloqueios pegam investigados, não você. Mas vaga de emprego que pede depósito antes? Desconfie. Antes de apostar, veja se a bet está na lista da Fazenda. Caiu em golpe? Faça boletim de ocorrência e avise o banco. Já te ofereceram vaga pedindo depósito? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Sua bet é autorizada?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "24/11: operações da PF",
+   "fonte": "Polícia Federal"
+  },
+  {
+   "fala": 2,
+   "texto": "Lavagem = dinheiro sujo parecendo limpo",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 4,3 bilhões: dinheiro que circulou",
+   "fonte": "Polícia Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "Bloqueio pega investigados",
+   "fonte": "Polícia Federal"
+  },
+  {
+   "fala": 6,
+   "texto": "Bet autorizada? Confira na lista da Fazenda",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "operação PF bets e golpes hoje",
+ "legenda": "Operação da PF contra bets e golpes: o que se sabe.\n\nNa terça (24/11), a Polícia Federal deflagrou as operações Narco Azimut III, Narco Oriente e Narco Alicerce contra lavagem de dinheiro de golpes digitais, como fraudes em apostas on-line e falsas ofertas de emprego no exterior. Segundo a PF, só duas delas já identificaram movimentações de mais de R$ 4,3 bilhões. É dinheiro que circulou, não prejuízo confirmado das vítimas. Ninguém foi condenado: são investigações em andamento.\n\nSeu saldo no banco não muda por causa disso. Mas vale se proteger: desconfie de vaga que pede depósito, confira se a bet está na lista de autorizadas do Ministério da Fazenda e desconfie de plataforma que dificulta sacar. Caiu em golpe? Guarde conversas e comprovantes, registre boletim de ocorrência e avise o banco.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#golpe #bets #policiafederal #educacaofinanceira",
+ "hashtags": [
+  "#golpe",
+  "#bets",
+  "#policiafederal",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "A PF foi atrás de golpe de bet e vaga falsa.",
+  "topicos": [
+   "Em 24/11, a PF deflagrou operações contra lavagem de dinheiro de golpes digitais.",
+   "Segundo a PF, circularam mais de R$ 4,3 bilhões; não é prejuízo das vítimas.",
+   "Seu saldo não muda, e ninguém foi condenado: são investigações em andamento.",
+   "Veja se a bet é autorizada e desconfie de vaga que pede depósito."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente, de 24/11, que pede o tom de \"tô aqui e preciso te contar\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Calma: são R$ 4,3 bilhões que circularam, não prejuízo das vítimas, e ninguém foi condenado.\": é uma ideia só com número, mas tem três pontos juntos e o número é exato. Quebre em duas falas curtas e arredonde: \"Calma. Foram uns R$ 4 bilhões que circularam.\" e depois \"Isso não é o prejuízo das vítimas, e ninguém foi condenado.\" Deixe o 4,3 e a fonte (PF) no cartão da tela.",
+   "Gancho \"Sua bet é autorizada? Hoje a PF foi atrás de fraude.\" e a linha seguinte \"Na terça, 24/11, a PF foi atrás de lavagem de dinheiro.\": a segunda repete a primeira e soa como manchete lida. Reescreva como reação do Heitor, falando com um amigo (ex.: \"Cara, a Polícia Federal foi atrás de quem lava dinheiro de golpe, olha que loucura\"), e junte numa só abertura, sem repetir a PF. Tire o \"hoje\" ou a data, pois eles brigam entre si.",
+   "Frase \"É roupa suja na máquina: empresa de fachada deixa o dinheiro de golpe limpinho.\": a comparação é boa, mas \"lavagem de dinheiro\" e \"empresa de fachada\" aparecem sem tradução clara. Traduza na mesma frase, como \"lavagem é fazer o dinheiro de golpe parecer dinheiro de trabalho, passando por empresa que só existe no papel\". Falta também o porquê para o lado melancólico: diga numa frase curta que a PF segue investigando e o que ainda não se sabe."
+  ],
+  "veredito": "A peça fala com quem tem medo de golpe, acalma sem alarde, dá a saída (boletim de ocorrência, lista da Fazenda) e fecha com o bordão e um gatilho fácil de comentar; falta soltar a voz do Heitor no gancho, traduzir \\\"lavagem\\\" e \\\"fachada\\\" e deixar o número mais redondo para passar no Teste do CLT."
+ },
+ "viral": {
+  "nota": 5,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Sua bet é autorizada? Hoje a PF foi atrás de fraude.\" tem lacuna boa, mas a 2ª frase é vaga e \"Hoje\" briga com \"Na terça, 24/11\". Reescrita: \"A PF foi atrás de R$ 4,3 bilhões de golpes, de bet a vaga falsa. A sua bet é autorizada?\" O número forte sobe para a primeira frase.",
+   "Retenção: \"Mas vaga de emprego que pede depósito? Desconfie.\" surge do nada, porque o vídeo nunca disse que o golpe incluía vaga falsa. Antes dela, entra: \"Os golpes iam de aposta on-line a falsa oferta de emprego no exterior.\" Assim a virada faz sentido e \"os bloqueios\" também.",
+   "Envio: falta pedir o envio para uma situação concreta. Antes do SIM ou NÃO, entra: \"Manda pra quem aposta em bet ou tá procurando emprego fora.\" Também dá para dizer \"Cara\" no gancho e \"Já te ofereceram vaga pedindo depósito?\" no meio, para soar mais como o Heitor."
+  ],
+  "veredito": "Tem tema do bolso, tom calmo e um fim que puxa comentário, mas o gancho é vago na segunda frase, a virada da vaga de emprego aparece sem preparo e não há pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Vertical shot, slow push-in on a row of washing machines in a dim laundromat at night, clothes tumbling inside, neutral cold fluorescent light, blurred anonymous storefront through the window, no people, no text, no logos",
+   "texto_da_fala": "É roupa suja na máquina: empresa de fachada deixa o dinheiro de golpe limpinho.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow push-in on a row of washing machines in a dim laundromat at night, clothes tumbling inside, neutral cold fluorescent light, blurred anonymous storefront through the window, no people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Vertical shot, slow tilt-down over a cluttered desk with a laptop showing a blurred generic job listing page without legible text, a smartphone lit with a notification, a hand-less empty chair, warm desk lamp, shallow depth of field, no faces, no text, no logos",
+   "texto_da_fala": "Mas vaga de emprego que pede depósito antes? Desconfie.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow tilt-down over a cluttered desk with a laptop showing a blurred generic job listing page without legible text, a smartphone lit with a notification, a hand-less empty chair, warm desk lamp, shallow depth of field, no faces, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Vertical shot, smooth dolly forward along a police station counter in a quiet office, a paper form and a pen resting on it, a phone beside it, soft daylight from a window, no people in focus, no readable text, no logos",
+   "texto_da_fala": "Caiu em golpe? Faça boletim de ocorrência e avise o banco.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, smooth dolly forward along a police station counter in a quiet office, a paper form and a pen resting on it, a phone beside it, soft daylight from a window, no people in focus, no readable text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Sua bet é autorizada? Hoje a PF foi atrás de fraude.\n\nNa terça, 24/11, a PF foi atrás de lavagem de dinheiro.\n\nÉ roupa suja na máquina: empresa de fachada deixa o dinheiro de golpe limpinho.\n\nCalma: são R$ 4,3 bilhões que circularam, não prejuízo das vítimas, e ninguém foi condenado.\n\nSeu saldo no banco não muda: os bloqueios pegam investigados, não você.\n\nMas vaga de emprego que pede depósito antes? Desconfie.\n\nAntes de apostar, veja se a bet está na lista da Fazenda.\n\nCaiu em golpe? Faça boletim de ocorrência e avise o banco.\n\nJá te ofereceram vaga pedindo depósito? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Polícia Federal (gov.br/pf)",
+   "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-deflagra-tres-operacoes-contra-esquemas-de-lavagem-de-dinheiro-e-movimentacao-de-criptoativos",
+   "destaque": "A PF deflagrou em 24/11 as operações Narco Azimut III, Narco Oriente e Narco Alicerce, para combater lavagem de dinheiro, movimentação…"
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/nacional/brasil/pf-mira-esquema-de-lavagem-de-dinheiro-que-movimentou-mais-de-r-4-bi-em-sp/",
+   "destaque": "Cerca de 130 policiais federais cumprem 72 mandados de busca e apreensão e de prisão temporária (prisão por prazo limitado, usada na fase…"
+  }
+ ],
+ "data": "2026-11-24",
+ "gerado_em": "2026-11-24T18:49:59.901189-03:00"
+}
