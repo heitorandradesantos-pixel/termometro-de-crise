@@ -1,0 +1,128 @@
+{
+ "titulo": "Dólar hoje cai para perto de R$ 5,80 após aval a PEC: o que se sabe",
+ "descricao": "O dólar caiu mais de 2% e foi a R$ 5,80 às 10h50 de 24/11, após o ajuste fiscal na Câmara e notícia de PEC. Veja o que se sabe e o que muda.",
+ "palavra_chave": "dólar hoje",
+ "lead": "O dólar à vista recuou 2,12% e valia R$ 5,8044 às 10h50 desta terça-feira (24/11), segundo o Money Times. Na véspera, a moeda tinha tocado R$ 6,00 e fechado perto de R$ 5,93. Segundo InfoMoney, CNN Brasil e O Globo, a virada veio após a notícia de que o governo vai propor uma PEC para conter despesas obrigatórias.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Às 10h50 de 24/11, o dólar à vista caía 2,12%, a R$ 5,8044. Antes, o Money Times registrou R$ 5,8319 (queda de 1,59%) e R$ 5,8149 (queda de 1,88%). Os valores mudam minuto a minuto e variam entre as fontes.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-24-11-2026-davs/",
+   "data": "2026-11-24",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Outras fontes mostram números próximos, em horários diferentes. O InfoMoney registrou a mínima de R$ 5,8110 (queda de 2,00%) às 10h23. O BPMoney viu R$ 5,822 (queda de 1,77%) às 10h42.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-24112026/",
+   "data": "2026-11-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "A queda veio depois de notícias da CNN Brasil e do jornal O Globo. Segundo elas, o presidente Lula autorizou a equipe econômica a enviar ao Congresso uma PEC (proposta de emenda à Constituição) sobre despesas obrigatórias. Conforme O Globo, a ideia é conter o crescimento desses gastos, com novos limites para saúde, educação e emendas parlamentares.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-24112026/",
+   "data": "2026-11-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Profissionais consultados pela Reuters atribuíram a virada do dólar às notícias sobre a PEC, segundo o InfoMoney.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-24112026/",
+   "data": "2026-11-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Na noite de segunda-feira (23/11), a Câmara aprovou o texto-base do projeto de ajuste fiscal por 353 votos a 128, com 5 abstenções. O impacto estimado é de até R$ 50 bilhões nas contas de 2027. O texto não foi alterado e segue para sanção do presidente, segundo o InfoMoney.",
+   "fonte_url": "https://www.jornaldocomercio.com/economia/2026/11/1271497-camara-aprova-ajuste-fiscal-com-impacto-de-ate-rs-50-bilhoes-em-2027-texto-vai-a-sancao.html",
+   "data": "2026-11-23",
+   "veiculo": "Jornal do Comércio",
+   "confiavel": false
+  },
+  {
+   "texto": "Na véspera, o dólar chegou à máxima de R$ 6,0055, a primeira vez acima de R$ 6 em um pregão desde abril de 2025. Fechou a R$ 5,9262, queda de 0,14%, segundo o g1 citado pela Ulti. Alguns veículos arredondam a máxima para R$ 6,006 ou R$ 6,0066.",
+   "fonte_url": "https://ulti.com.br/noticias/dolar-a-r-6-black-friday-viagens-2026",
+   "data": "2026-11-23",
+   "veiculo": "Ulti (com dados do g1)",
+   "confiavel": false
+  },
+  {
+   "texto": "O dia começou em alta. O dólar abriu a R$ 5,9435 (alta de 0,29%) e só depois virou para queda. A mínima da manhã, antes da notícia da PEC, era R$ 5,8685. Segundo a CNN Brasil, a moeda também ganhava força no exterior diante de boa parte das moedas de países emergentes.",
+   "fonte_url": "https://folhadecuritiba.com.br/dolar-hoje-abertura-24-novembro-2026/",
+   "data": "2026-11-24",
+   "veiculo": "Folha de Curitiba (com CNN Brasil e Metrópoles)",
+   "confiavel": false
+  },
+  {
+   "texto": "Mesmo com a queda de hoje, o dólar segue bem acima do fim de outubro. Em 30/10, fechou a R$ 5,45. Até 23/11, a alta no mês era de 8,83%.",
+   "fonte_url": "https://tmc.com.br/economia/dolar-hoje-cotacao-23-11-2026/",
+   "data": "2026-11-23",
+   "veiculo": "TMC",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Dólar fecha a R$ 5,9323, maior cotação desde 8 de abril de 2025, segundo o BPMoney. Segunda-feira (23/11) foi o primeiro pregão após o feriado da Consciência Negra.",
+   "fonte_url": "https://bpmoney.com.br/mercado/cambio/dolar-hoje-sobe-aproxima-r-6-tensao-fiscal-23-novembro-2026/",
+   "data": "2026-11-19",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar bate R$ 6,0055 na máxima de segunda-feira, em meio à expectativa pela votação do ajuste fiscal. Também pesou o dólar mais forte no exterior (índice DXY, que mede o dólar contra outras moedas, subiu 0,51%).",
+   "fonte_url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/23/por-que-dolar-bateu-6-reais-recuou-fechamento",
+   "data": "2026-11-23",
+   "veiculo": "TV Sim Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "A Câmara aprova o texto-base do ajuste fiscal por 353 a 128. A moeda tinha virado para baixo durante o dia e fechou a R$ 5,9262, encerrando seis altas seguidas.",
+   "fonte_url": "https://folhadecuritiba.com.br/dolar-hoje-fechamento-23-novembro-2026/",
+   "data": "2026-11-23",
+   "veiculo": "Folha de Curitiba",
+   "confiavel": false
+  },
+  {
+   "texto": "Às 9h25 de 24/11, o dólar à vista subia 0,23%, a R$ 5,9427, segundo a CNN Brasil.",
+   "fonte_url": "https://folhadecuritiba.com.br/dolar-hoje-abertura-24-novembro-2026/",
+   "data": "2026-11-24",
+   "veiculo": "Folha de Curitiba (com CNN Brasil)",
+   "confiavel": false
+  },
+  {
+   "texto": "Às 9h46, o dólar já caía 0,38%, a R$ 5,888, após notícias de que Lula autorizou o envio de uma PEC sobre despesas obrigatórias. A CNN Brasil diz que a iniciativa é conduzida pelo ministro da Fazenda, Dario Durigan.",
+   "fonte_url": "https://istoedinheiro.com.br/dolar-hoje-24-11-2026-pec-despesas-obrigatorias",
+   "data": "2026-11-24",
+   "veiculo": "Istoé Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "Às 10h50, o dólar à vista recuava 2,12%, a R$ 5,8044, segundo o Money Times.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-24-11-2026-davs/",
+   "data": "2026-11-24",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se a queda vai se sustentar. Nenhuma fonte consultada afirma isso. Na segunda-feira (23/11) o dólar também virou para baixo depois de tocar R$ 6,00, e o resultado do dia foi uma queda pequena.",
+  "Qual será o texto da PEC e quando ela será enviada ao Congresso. As informações vêm de reportagens da CNN Brasil e do O Globo, e a estratégia de envio ainda estava em discussão com a área política do governo, segundo a CNN Brasil. Não encontrei nota oficial do governo confirmando o conteúdo.",
+  "Qual é a cotação exata. As fontes mostram valores diferentes ao longo da manhã (R$ 5,8044, R$ 5,8110 e R$ 5,822, por exemplo) porque cada uma registra um horário. Alguns sites de cotação ainda mostravam R$ 5,93, valor da véspera.",
+  "Quanto do movimento vem do cenário interno e quanto vem do exterior. Os analistas ouvidos pela Reuters citam a PEC. A CNN Brasil também registrou um dólar mais forte lá fora diante dos emergentes, antes da virada. Não há medição do peso de cada fator.",
+  "O andamento da votação dos destaques (pedidos para alterar pontos do texto) na Câmara. O Money Times diz que ela era acompanhada nesta manhã, e outros veículos dizem que o texto já segue para sanção. Não foi confirmado qual versão está correta."
+ ],
+ "o_que_muda_para_voce": [
+  "Dólar mais barato tende a aliviar, com o tempo, o preço de importados, eletrônicos, passagens e viagens ao exterior. Mas a queda de uma manhã não muda as etiquetas de imediato.",
+  "O preço em lojas, cartões e casas de câmbio segue o valor do momento da compra, mais as taxas de cada empresa, e não a máxima do dia. Em 23/11, o dólar turismo no painel do g1 era de R$ 6,156, antes de IOF (imposto sobre operações financeiras) e taxas.",
+  "Quem tem compra em dólar para pagar nas próximas semanas deve conferir a cotação no dia, porque ela mudou mais de 2% em poucas horas. A decisão é de cada pessoa.",
+  "Quem tem Tesouro Direto: o BPMoney registrou queda de até 28 pontos-base (0,28 ponto percentual) nas taxas de títulos na manhã de hoje. A plataforma suspendeu a negociação de prefixados e IPCA+ por um período da manhã. O movimento reflete as mesmas notícias fiscais.",
+  "Quem tem dívida ou renda em dólar: a queda só vale se continuar. O dólar começou a manhã em alta e virou depois da notícia, então o cenário pode mudar ao longo do dia."
+ ],
+ "como_se_proteger": [],
+ "slug": "dolar-hoje-2411",
+ "publicado_em": "2026-11-24T11:44:20.519715",
+ "atualizado_em": "2026-11-24T11:44:20.519715",
+ "assunto": "O dólar à vista recuou mais de 2% e voltou para perto de R$ 5,80 na manhã de 24/11 (às 10h50, R$ 5,8044, queda de 2,12%). Na véspera, tinha tocado R$ 6,00 na máxima do dia e fechado perto de R$ 5,93. O movimento veio depois da aprovação do texto-base do ajuste fiscal na Câmara e de notícias sobre uma PEC para conter despesas obrigatórias. Ainda há dúvida sobre a cotação exata: as fontes mostram valores diferentes ao longo da manhã.",
+ "turno": "meio"
+}
