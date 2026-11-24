@@ -1,0 +1,195 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa (contraste)",
+  "texto": "Nova York amanheceu no vermelho, mas o dólar aqui caiu para R$ 5,84.",
+  "na_tela": "Lá fora cai. Aqui, dólar R$ 5,84",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa (contraste)",
+   "texto": "Nova York amanheceu no vermelho, mas o dólar aqui caiu para R$ 5,84.",
+   "na_tela": "Lá fora cai. Aqui, dólar R$ 5,84",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto custa o dólar hoje de manhã? R$ 5,84, e caindo.",
+   "na_tela": "Dólar hoje: R$ 5,84",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Ibovespa abriu subindo 0,64%, só que Nova York amanheceu caindo.",
+   "na_tela": "Ibovespa sobe, Nova York cai",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Nova York amanheceu no vermelho, mas o dólar aqui caiu para R$ 5,84.",
+  "Olha só: a Nasdaq, em Nova York, indica abertura 2,34% mais baixa.",
+  "Europa no vermelho, Ásia misturada: Tóquio subiu, Hong Kong caiu.",
+  "E o Brasil foi contra a maré: o Ibovespa abriu subindo 0,64%.",
+  "Já o dólar caiu 1,54% e foi pra R$ 5,84.",
+  "Dólar é o preço da moeda de fora: caindo, viagem e importado pesam menos.",
+  "Hoje, observe se o Ibovespa segura o fôlego com Nova York no vermelho.",
+  "Manda pra quem tem viagem marcada e olha o dólar.",
+  "Dólar a R$ 5,84: alívio ou nem sentiu? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Nova York amanheceu no vermelho, mas o dólar aqui caiu para R$ 5,84. Olha só: a Nasdaq, em Nova York, indica abertura 2,34% mais baixa. Europa no vermelho, Ásia misturada: Tóquio subiu, Hong Kong caiu. E o Brasil foi contra a maré: o Ibovespa abriu subindo 0,64%. Já o dólar caiu 1,54% e foi pra R$ 5,84. Dólar é o preço da moeda de fora: caindo, viagem e importado pesam menos. Hoje, observe se o Ibovespa segura o fôlego com Nova York no vermelho. Manda pra quem tem viagem marcada e olha o dólar. Dólar a R$ 5,84: alívio ou nem sentiu? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Lá fora cai. Aqui, dólar R$ 5,84",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nasdaq (futuros) ▼2,34%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Europa ▼ · Tóquio ▲ · Hong Kong ▼",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Ibovespa ▲0,64%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Dólar R$ 5,84 ▼1,54%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Hoje: Ibovespa vs. Nova York",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Ibovespa e dólar hoje (24/11)",
+ "legenda": "Ibovespa e dólar hoje (24/11): como o mundo amanheceu e como o Brasil abriu.\n\nSegundo as cotações do Yahoo Finance, a Nasdaq indica abertura 2,34% mais baixa em Nova York. Aqui, o Ibovespa abriu subindo 0,64% e o dólar caiu 1,54%, a R$ 5,84.\n\nDólar é o preço da moeda de fora: quando cai, viagem e produto importado pesam menos. O ponto de atenção do dia é ver se o Ibovespa segura o fôlego com Nova York no vermelho.\n\nSem alarde. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ibovespa #dolar #bolsadevalores #educacaofinanceira",
+ "hashtags": [
+  "#ibovespa",
+  "#dolar",
+  "#bolsadevalores",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, Nova York amanheceu no vermelho e o dólar caiu aqui.",
+  "topicos": [
+   "Segundo o Yahoo Finance, a Nasdaq indica abertura 2,34% mais baixa em Nova York.",
+   "O Ibovespa abriu subindo 0,64%, contra a maré lá de fora.",
+   "O dólar caiu 1,54% e foi pra R$ 5,84, segundo o Yahoo Finance.",
+   "Hoje, observe se o Ibovespa segura o fôlego; manda pra quem vai viajar."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente da abertura de hoje, que pede o \"tô aqui e preciso te contar\" na rua.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 1,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Falas \"Olha só: a Nasdaq, em Nova York, indica abertura 2,34% mais baixa\" e \"Europa no vermelho, Ásia misturada: Tóquio subiu, Hong Kong caiu\": passam no Teste do CLT só em parte. Troque \"Nasdaq indica abertura mais baixa\" por \"a bolsa de Nova York deve abrir em queda\" e deixe só uma ideia por fala. Corte a linha de Tóquio e Hong Kong ou resuma em \"Europa também no vermelho\". O 2,34% pode ficar no cartão da tela.",
+   "Falas \"Já o dólar caiu 1,54% e foi pra R$ 5,84\" e \"Nova York amanheceu no vermelho, mas o dólar aqui caiu para R$ 5,84\": o R$ 5,84 aparece duas vezes e a segunda fala tem dois números (1,54% e R$ 5,84). Deixe um só número por fala e use a segunda para uma comparação do dia a dia, em vez de repetir o dado. O 1,54% exato vai para o cartão.",
+   "Fala \"Hoje, observe se o Ibovespa segura o fôlego\": Ibovespa sem tradução e sem passo para o bolso. Escreva \"a bolsa brasileira\" e troque o aviso por um passo calmo, como \"quem tem viagem ou compra de fora pra fazer pode só acompanhar o dólar do dia, sem pressa\". Diga também que ainda não dá para saber se a queda do dólar dura o dia todo. No fim, antes do bordão, entre \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\", que hoje só está na legenda."
+  ],
+  "veredito": "A peça abre direto no fato, traduz o dólar, usa o bordão certo e tem gatilho de comentário fácil, mas soa como boletim de mercado: tem número demais por fala, jargão sem tradução (Nasdaq, Ibovespa), nenhuma comparação viva e nenhum passo simples para o bolso."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho (1ª frase): \"Nova York amanheceu no vermelho, mas o dólar aqui caiu para R$ 5,84.\" Tem o número, mas começa por Nova York, que não é do bolso de quem assiste, e traz duas ideias numa frase só. Reescrita: \"O dólar caiu para R$ 5,84 hoje de manhã. Cara, e lá fora tá tudo no vermelho.\" O dólar do bolso (viagem, importado) vem primeiro, e a surpresa da contramão vem logo depois.",
+   "Retenção (meio do vídeo): \"Europa no vermelho, Ásia misturada: Tóquio subiu, Hong Kong caiu.\" e \"Já o dólar caiu 1,54% e foi pra R$ 5,84.\" O primeiro é lista de lugares que não pesa no bolso. O segundo repete o gancho e já está no início, então não segura ninguém. Reescrita: junte tudo em \"Europa no vermelho, Ásia misturada.\" e troque a repetição por uma virada: \"E aí vem a parte estranha: o mundo no vermelho e o Brasil subindo. O Ibovespa abriu 0,64% mais alto.\" Fica um número por fala e uma virada no lugar da repetição.",
+   "Envio e conversa (fim): \"Manda pra quem tem viagem marcada e olha o dólar.\" e \"Dólar a R$ 5,84: alívio ou nem sentiu? Comenta aí.\" O pedido de envio é bom, mas \"olha o dólar\" é fraco, e a pergunta de duas saídas não dá resposta fácil. Reescrita: \"Tem alguém viajando aí? Manda pra ele, sério. O dólar caiu pra R$ 5,84.\" e \"Dólar a R$ 5,84: alívio ou nem sentiu? Comenta 1 pra alívio, 2 pra nem sentiu.\" Um número vira resposta de um toque."
+  ],
+  "veredito": "Roteiro limpo, que paga o que promete e traz um pedido de envio concreto, mas o gancho abre por Nova York em vez do dólar no bolso de quem assiste. O meio repete o número em vez de dar uma virada, e o comentário pede mais esforço do que precisa."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Lower Manhattan skyline at dawn seen from across the water, glass skyscrapers catching a deep red-orange sunrise glow, thin mist over the river. Slow cinematic drone push-in toward the towers with a slight upward tilt. No people, no text, no signs, no logos",
+   "texto_da_fala": "Olha só: a Nasdaq, em Nova York, indica abertura 2,34% mais baixa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Lower Manhattan skyline at dawn seen from across the water, glass skyscrapers catching a deep red-orange sunrise glow, thin mist over the river. Slow cinematic drone push-in toward the towers with a slight upward tilt. No people, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Dense Asian harbor-city skyline at early morning, tall towers across a bay, ferries leaving soft wakes on the water, low gray clouds with a break of warm light. Smooth slow lateral drone pan left to right. No recognizable people, no text, no signs, no logos, no flags",
+   "texto_da_fala": "Europa no vermelho, Ásia misturada: Tóquio subiu, Hong Kong caiu.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Dense Asian harbor-city skyline at early morning, tall towers across a bay, ferries leaving soft wakes on the water, low gray clouds with a break of warm light. Smooth slow lateral drone pan left to right. No recognizable people, no text, no signs, no logos, no flags. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up of a packed travel suitcase and a few sealed cardboard parcels of imported goods on a bright airport terminal floor beside a large window with an airplane parked outside. Slow dolly-in along the suitcase, shallow depth of field. No people, no faces, no text, no labels, no logos",
+   "texto_da_fala": "Dólar é o preço da moeda de fora: caindo, viagem e importado pesam menos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a packed travel suitcase and a few sealed cardboard parcels of imported goods on a bright airport terminal floor beside a large window with an airplane parked outside. Slow dolly-in along the suitcase, shallow depth of field. No people, no faces, no text, no labels, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Nova York amanheceu no vermelho, mas o dólar aqui caiu para R$ 5,84.\n\nOlha só: a Nasdaq, em Nova York, indica abertura 2,34% mais baixa.\n\nEuropa no vermelho, Ásia misturada: Tóquio subiu, Hong Kong caiu.\n\nE o Brasil foi contra a maré: o Ibovespa abriu subindo 0,64%.\n\nJá o dólar caiu 1,54% e foi pra R$ 5,84.\n\nDólar é o preço da moeda de fora: caindo, viagem e importado pesam menos.\n\nHoje, observe se o Ibovespa segura o fôlego com Nova York no vermelho.\n\nManda pra quem tem viagem marcada e olha o dólar.\n\nDólar a R$ 5,84: alívio ou nem sentiu? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-24",
+ "gerado_em": "2026-11-24T10:30:40.292064-03:00",
+ "enviado_whatsapp": "2026-11-24T10:31:31.848028-03:00"
+}
