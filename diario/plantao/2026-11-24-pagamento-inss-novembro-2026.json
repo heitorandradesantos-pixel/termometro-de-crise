@@ -1,0 +1,111 @@
+{
+ "titulo": "Pagamento INSS novembro 2026: calendário e 13º, o que se sabe",
+ "descricao": "INSS paga a folha de novembro de 24/11 a 7/12. O 13º em parcela única vai só a quem começou a receber após abril. Veja datas e regras.",
+ "palavra_chave": "pagamento inss novembro 2026",
+ "lead": "O INSS começou a pagar nesta terça-feira (24/11) a folha de novembro, e os depósitos vão até 7 de dezembro. O 13º em parcela única vai só para quem passou a receber o benefício depois de abril. Quem já recebia até abril teve o abono antecipado em duas parcelas, entre o fim de abril e o início de junho.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O INSS começou a pagar os benefícios de novembro em 24/11. Os depósitos seguem até 7 de dezembro. A parcela única do 13º vai para quem começou a receber depois de abril.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/inss-comeca-a-pagar-beneficios-de-novembro-nesta-terca-feira/",
+   "data": "2026-11-24",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "Quem já recebia benefício até abril teve o 13º antecipado em duas parcelas, pagas entre o fim de abril e o início de junho. Por isso, a folha de novembro não traz um novo 13º para todos os aposentados e pensionistas.",
+   "fonte_url": "https://revistaempreende.com.br/inss-pagamentos-novembro-2026-13-salario/",
+   "data": "2026-11-24",
+   "veiculo": "Revista Empreende",
+   "confiavel": false
+  },
+  {
+   "texto": "Quem recebe até um salário mínimo (R$ 1.621) começa a receber em 24/11 (final 1) e termina em 7/12 (final 0). O final é o último número do benefício antes do traço, sem o dígito verificador.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/inss-comeca-a-pagar-beneficios-de-novembro-nesta-terca-feira/",
+   "data": "2026-11-24",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "Quem recebe acima de um salário mínimo começa em 1º de dezembro (finais 1 e 6) e termina em 7 de dezembro (finais 5 e 0).",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/inss-comeca-a-pagar-beneficios-de-novembro-nesta-terca-feira/",
+   "data": "2026-11-24",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o INSS, o 13º dos novos beneficiários sai em parcela única e é proporcional ao período de recebimento. Não precisa pedir.",
+   "fonte_url": "https://istoedinheiro.com.br/calendario-inss-novembro-2026-pagamentos-biometria",
+   "data": "2026-11-24",
+   "veiculo": "IstoÉ Dinheiro",
+   "confiavel": true
+  },
+  {
+   "texto": "Quem recebe o Benefício de Prestação Continuada (BPC) não tem direito ao 13º. O BPC é um auxílio assistencial, não previdenciário.",
+   "fonte_url": "https://ajnoticias.com.br/noticia/59861/inss-comeca-a-pagar-decimo-terceiro-salario-nesta-terca-feira-24-",
+   "data": "2026-11-24",
+   "veiculo": "AJ Notícias (texto da Agência Brasil)",
+   "confiavel": false
+  },
+  {
+   "texto": "O INSS diz que a falta de biometria não bloqueia benefícios ativos. Segundo o órgão, a biometria é exigida em novos pedidos e em empréstimos consignados.",
+   "fonte_url": "https://meutudo.com.br/blog/noticias/2026/11/18/pagamento-do-inss-comeca-na-terca-24-11-apos-feriadao-biometria-nao-bloqueara-beneficios/",
+   "data": "2026-11-18",
+   "veiculo": "meutudo (cita nota do INSS no Gov.br)",
+   "confiavel": false
+  },
+  {
+   "texto": "Para ver o número do benefício e a data, use o Meu INSS (opção Extrato de Pagamento) ou ligue para o 135, de segunda a sábado, das 7h às 22h.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/inss-comeca-a-pagar-beneficios-de-novembro-nesta-terca-feira/",
+   "data": "2026-11-24",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "INSS desmente que vá bloquear benefícios de quem não cadastrar biometria até novembro.",
+   "fonte_url": "https://meutudo.com.br/blog/noticias/2026/11/05/e-fake-que-o-inss-vai-bloquear-beneficios-de-quem-nao-cadastrar-biometria-ate-novembro",
+   "data": "2026-11-05",
+   "veiculo": "meutudo",
+   "confiavel": false
+  },
+  {
+   "texto": "INSS anuncia que os pagamentos de novembro e o 13º para novos beneficiários começam no dia 24.",
+   "fonte_url": "https://revistaempreende.com.br/inss-pagamentos-novembro-2026-13-salario/",
+   "data": "2026-11-23",
+   "veiculo": "Revista Empreende",
+   "confiavel": false
+  },
+  {
+   "texto": "Começam os depósitos de novembro, com o 13º em parcela única para quem passou a receber depois de abril.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/inss-comeca-a-pagar-beneficios-de-novembro-nesta-terca-feira/",
+   "data": "2026-11-24",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O corte exato não está padronizado. Alguns veículos falam em quem recebeu \"após abril\"; outros, em benefício concedido \"a partir de maio\". Não achei a página do gov.br/INSS nas buscas. Quem teve o benefício concedido perto da virada de abril para maio deve confirmar no Meu INSS ou no 135.",
+  "Não foi confirmado quanto cada novo beneficiário vai receber. O valor é proporcional ao período de recebimento e varia de pessoa para pessoa. O Meu INSS mostra o valor.",
+  "Não há confirmação oficial, nas fontes consultadas, de nova parcela do 13º para quem já recebeu a antecipação. Um veículo (Seu Crédito Digital) diz que o INSS descartou uma terceira parcela em 2026, mas a nota do INSS não foi localizada.",
+  "Não ficou claro por que parte dos veículos chama este pagamento de \"nova rodada do 13º\". Os textos consultados dizem que ele vale só para novos beneficiários."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você já recebia benefício até abril, o 13º de 2026 já foi pago em duas parcelas. Em novembro você recebe só o benefício normal.",
+  "Se você começou a receber depois de abril, o 13º deve vir de uma vez, junto com o benefício de novembro. O valor é proporcional aos meses de recebimento.",
+  "A data depende do valor e do final do número do benefício. Quem ganha acima do mínimo só recebe a partir de 1º de dezembro.",
+  "Quem recebe só o BPC segue o calendário mensal, mas não tem 13º.",
+  "Quem já recebe benefício não precisa correr para cadastrar biometria por causa deste pagamento, segundo o INSS."
+ ],
+ "como_se_proteger": [
+  "Confira datas e valores só no Meu INSS, no site oficial do INSS ou no telefone 135.",
+  "Desconfie de mensagens que dizem que o benefício será bloqueado se você não atualizar dados ou biometria. O INSS desmentiu esse boato.",
+  "Não pague taxa nem passe senha, CPF ou código a quem prometa \"liberar\" o 13º. Isso não é cobrado.",
+  "Em caso de dúvida, ligue para o 135 antes de clicar em links recebidos por WhatsApp ou SMS."
+ ],
+ "slug": "pagamento-inss-novembro-2026",
+ "publicado_em": "2026-11-24T16:14:30.836483",
+ "atualizado_em": "2026-11-24T16:14:30.836483",
+ "assunto": "INSS começa hoje (24/11) a pagar a folha de novembro, com 13º em parcela única só para quem passou a receber o benefício depois de abril/maio; pagamentos vão até 7/12.",
+ "turno": "viral"
+}
