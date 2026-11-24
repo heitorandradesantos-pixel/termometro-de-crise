@@ -1,0 +1,121 @@
+{
+ "titulo": "Ibovespa hoje (24/11) após queda a 164,8 mil: o que se sabe",
+ "descricao": "Ibovespa fechou a 164.796 pontos, menor nível desde janeiro, e o dólar a R$ 5,9262 após tocar R$ 6. Veja o que pesou e a agenda de hoje (24/11).",
+ "palavra_chave": "ibovespa hoje",
+ "lead": "O Ibovespa, principal índice da bolsa brasileira, fechou a segunda-feira (23/11) em queda de 0,95%, aos 164.796,05 pontos, o menor nível de fechamento desde 16 de janeiro, segundo a CNN Brasil. O dólar terminou a R$ 5,9262, depois de tocar R$ 6,0055 na máxima do dia, segundo o Campo Grande News. Hoje (24/11), os futuros dos EUA operavam estáveis na madrugada e a agenda traz a Confiança do Consumidor da FGV (8h) e a do Conference Board (12h).",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou a segunda-feira (23/11) em queda de 0,95%, aos 164.796,05 pontos, uma baixa de 1.580,38 pontos. É a terceira queda seguida do índice, segundo o InfoMoney.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/",
+   "data": "2026-11-23",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Foi o menor nível de fechamento do Ibovespa desde 16 de janeiro, segundo a CNN Brasil. Mesmo assim, o índice ainda sobe 2,28% em 2026 e cai 1,86% em novembro, segundo o Campo Grande News.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-23-novembro-2026/",
+   "data": "2026-11-23",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar comercial fechou a R$ 5,9262, em queda de 0,14%, depois de tocar R$ 6,0055 na máxima. Segundo o Campo Grande News, é um nível que não aparecia desde abril de 2025. Os veículos divergem na queda do dia (de 0,05% a 0,15%), mas o valor de fechamento é o mesmo.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-supera-r-6-mas-fecha-em-queda-com-pacote-fiscal-no-radar",
+   "data": "2026-11-23",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "A Petrobras pressionou o índice. Segundo o Campo Grande News, o petróleo tipo Brent caiu 3,46%, a US$ 89,37. Segundo o Investidor Institucional, as ações ordinárias da Petrobras caíram 3,31% e as preferenciais, 3,21%.",
+   "fonte_url": "https://investidorinstitucional.com.br/mercados/mercado-de-capitais/ibovespa-cai-095-com-petrobras-e-dolar-fecha-em-r-592",
+   "data": "2026-11-23",
+   "veiculo": "Investidor Institucional",
+   "confiavel": false
+  },
+  {
+   "texto": "Investidores acompanharam a expectativa de votação, na Câmara, do pacote fiscal. Segundo o Campo Grande News, ele prevê economia de até R$ 50 bilhões em 2027. O Investidor Institucional cita incertezas sobre a política fiscal como um dos pesos sobre a bolsa.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-supera-r-6-mas-fecha-em-queda-com-pacote-fiscal-no-radar",
+   "data": "2026-11-23",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "Em Nova York, o Nasdaq subiu 6,5%, o S&P 500 subiu 4,7% e o Dow Jones, 3% na segunda (23/11). Segundo a Investing.com, o motor foi a decisão da Nvidia de reconduzir Jensen Huang ao cargo de diretor-executivo. A alta veio depois de sete quedas seguidas do S&P 500. O Ibovespa caiu apesar desse movimento.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/futuros-das-bolsas-americanas-estaveis-apos-rali-liderado-pela-nvidia-2136174",
+   "data": "2026-11-23",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Na madrugada de hoje (24/11), às 00h08, os futuros do S&P 500 estavam praticamente estáveis, em 7.251,75 pontos. Os do Nasdaq 100 recuavam 0,2%. Futuros são contratos que indicam a expectativa para a abertura do mercado.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/futuros-das-bolsas-americanas-estaveis-apos-rali-liderado-pela-nvidia-2136174",
+   "data": "2026-11-24",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "A agenda de hoje (24/11) traz a Confiança do Consumidor da FGV, às 8h (outubro: 84,7 pontos), e a do Conference Board, nos EUA, às 12h. No caso americano, o índice foi de 91,7 em outubro, e o mercado projeta 92,1 para novembro, segundo a TradeMap.",
+   "fonte_url": "https://trademap.com.br/noticias/news-8630234",
+   "data": "2026-11-23",
+   "veiculo": "TradeMap",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O dólar passa de R$ 6 durante o pregão e atinge R$ 6,0055 na máxima, o maior nível desde abril de 2025, segundo o Campo Grande News.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/dolar-supera-r-6-mas-fecha-em-queda-com-pacote-fiscal-no-radar",
+   "data": "2026-11-23",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar perde força à tarde e fecha a R$ 5,9262. O Ibovespa fecha em 164.796,05 pontos (-0,95%), o menor nível desde 16 de janeiro.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-23-novembro-2026/",
+   "data": "2026-11-23",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Wall Street dispara: Nasdaq +6,5%, S&P 500 +4,7% e Dow Jones +3%, com a recondução de Jensen Huang como diretor-executivo da Nvidia.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/futuros-das-bolsas-americanas-estaveis-apos-rali-liderado-pela-nvidia-2136174",
+   "data": "2026-11-23",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Na madrugada, os futuros dos EUA ficam estáveis após a alta da véspera, com S&P 500 em 7.251,75 pontos.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/futuros-das-bolsas-americanas-estaveis-apos-rali-liderado-pela-nvidia-2136174",
+   "data": "2026-11-24",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "A FGV divulga a Confiança do Consumidor às 8h e o Conference Board divulga a sua às 12h.",
+   "fonte_url": "https://trademap.com.br/noticias/news-8630234",
+   "data": "2026-11-24",
+   "veiculo": "TradeMap",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado como Ásia e Europa fecharam hoje (24/11). Esta apuração só achou dados de 23/11 e, por isso, o texto não traz esses números.",
+  "Não está confirmado quando a Câmara vota o pacote fiscal nem se o texto passa como está. Só há a expectativa de votação, segundo o Campo Grande News.",
+  "Ninguém confirmou o peso de cada fator na queda do Ibovespa. Veículos citam Petrobras, petróleo e questão fiscal, mas são explicações de mercado, não dado oficial.",
+  "Segundo o Investidor Institucional, o dólar perdeu força à tarde com a melhora do apetite por risco no exterior e com informações sobre nomes para duas vagas na diretoria do Banco Central. Essa informação sobre os nomes não foi confirmada por fonte oficial nem por outro veículo na apuração.",
+  "Os resultados da Confiança do Consumidor da FGV e do Conference Board ainda não estavam disponíveis na apuração. Não dá para dizer se vão ajudar ou pesar no mercado hoje."
+ ],
+ "o_que_muda_para_voce": [
+  "Com o dólar perto de R$ 6, produtos importados, eletrônicos e viagens ao exterior tendem a ficar mais caros em reais. Isso depende de quanto tempo a moeda fica nesse nível.",
+  "Quem tem ações ou fundos de ações pode ver o valor oscilar. O Ibovespa está no menor nível de fechamento desde janeiro, mas ainda acumula alta de 2,28% em 2026, segundo o Campo Grande News.",
+  "A bolsa pode seguir caminho diferente de Nova York. Segundo as fontes, na segunda ela caiu enquanto os EUA subiram forte, por motivos locais como Petrobras e a questão fiscal.",
+  "A queda do petróleo (Brent a US$ 89,37) pesou nas ações da Petrobras. Quem tem papéis da empresa ou fundos que os incluem pode ver reflexo na carteira.",
+  "Hoje a agenda não traz Copom (decisão de juros), IPCA (inflação) nem payroll (dados de emprego dos EUA), segundo as fontes consultadas. Os destaques são os índices de confiança do consumidor."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-hoje-2411",
+ "publicado_em": "2026-11-24T01:17:48.546683",
+ "atualizado_em": "2026-11-24T01:17:48.546683",
+ "assunto": "Mercado do dia (24/11): o Ibovespa fechou ontem em 164.796,05 pontos (-0,95%, menor nível desde janeiro) e o dólar a R$ 5,9262, depois de tocar R$ 6,0055 na máxima. Em Nova York, o S&P 500 subiu 4,73% e o Nasdaq 6,5% na segunda (23). Os futuros dos EUA estavam estáveis na madrugada. A agenda de hoje traz Confiança do Consumidor da FGV (8h) e do Conference Board (12h). ATENÇÃO: a agenda de hoje não traz Copom, IPCA nem payroll nas fontes consultadas. Não achei fechamento da Ásia e da Europa de 24/11, só os de 23/11, então o redator deve conferir antes de publicar.",
+ "turno": "manha"
+}
