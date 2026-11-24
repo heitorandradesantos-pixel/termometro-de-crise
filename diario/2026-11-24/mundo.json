@@ -80,7 +80,7 @@
      "sinais": {
       "bolsa": 70,
       "volatilidade": 94,
-      "moeda": 47
+      "moeda": 46
      },
      "brutos": {
       "bolsa_queda_pct": 7.8,
@@ -194,23 +194,23 @@
     {
      "nome": "Brasil",
      "slug": "brasil",
-     "valor": 66,
+     "valor": 65,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 60,
      "sinais": {
-      "bolsa": 83,
+      "bolsa": 80,
       "volatilidade": 31,
       "moeda": 84
      },
      "brutos": {
-      "bolsa_queda_pct": 21.2,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 20.3,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 209067.0,
       "bolsa_pico_dia": "2026-10-09",
       "oscilacao_diaria_pct": 1.19,
-      "moeda_variacao_3m_pct": 9.6,
+      "moeda_variacao_3m_pct": 9.4,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "bolsa": 1993,
@@ -241,7 +241,7 @@
     {
      "nome": "Argentina",
      "slug": "argentina",
-     "valor": 47,
+     "valor": 48,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
@@ -249,14 +249,14 @@
      "sinais": {
       "bolsa": null,
       "volatilidade": null,
-      "moeda": 47
+      "moeda": 48
      },
      "brutos": {
       "bolsa_queda_pct": 0.0,
       "bolsa_ultimo_dia": "2026-10-16",
       "bolsa_pico": 2848945.25,
       "bolsa_pico_dia": "2026-10-16",
-      "moeda_variacao_3m_pct": 3.5,
+      "moeda_variacao_3m_pct": 3.6,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "bolsa": 2026,
@@ -286,17 +286,17 @@
     {
      "nome": "Chile",
      "slug": "chile",
-     "valor": 84,
+     "valor": 85,
      "nivel": "Crise",
      "cor": "#E5554A",
      "referencia": "2026-11",
      "mes_anterior": 67,
      "sinais": {
-      "moeda": 84
+      "moeda": 85
      },
      "brutos": {
-      "moeda_variacao_3m_pct": 7.2,
-      "moeda_ultimo_dia": "2026-11-23",
+      "moeda_variacao_3m_pct": 7.5,
+      "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "moeda": 2004
       }
@@ -324,16 +324,16 @@
     {
      "nome": "Colômbia",
      "slug": "colombia",
-     "valor": 60,
-     "nivel": "Alerta",
-     "cor": "#F2C14E",
+     "valor": 62,
+     "nivel": "Tensão",
+     "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 33,
      "sinais": {
-      "moeda": 60
+      "moeda": 61
      },
      "brutos": {
-      "moeda_variacao_3m_pct": 4.7,
+      "moeda_variacao_3m_pct": 4.8,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "moeda": 2003
@@ -400,16 +400,16 @@
     {
      "nome": "Paraguai",
      "slug": "paraguai",
-     "valor": 41,
+     "valor": 43,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
      "mes_anterior": 84,
      "sinais": {
-      "moeda": 41
+      "moeda": 43
      },
      "brutos": {
-      "moeda_variacao_3m_pct": 2.1,
+      "moeda_variacao_3m_pct": 2.3,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "moeda": 2004
@@ -504,22 +504,22 @@
     {
      "nome": "Alemanha",
      "slug": "alemanha",
-     "valor": 67,
+     "valor": 68,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 40,
      "sinais": {
-      "bolsa": 51,
-      "volatilidade": 77,
+      "bolsa": 57,
+      "volatilidade": 75,
       "moeda": 73
      },
      "brutos": {
-      "bolsa_queda_pct": 5.4,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 6.2,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 26771.88,
       "bolsa_pico_dia": "2026-11-12",
-      "oscilacao_diaria_pct": 1.47,
+      "oscilacao_diaria_pct": 1.44,
       "moeda_variacao_3m_pct": 4.5,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -551,22 +551,22 @@
     {
      "nome": "França",
      "slug": "franca",
-     "valor": 62,
+     "valor": 61,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 44,
      "sinais": {
       "bolsa": 59,
-      "volatilidade": 52,
+      "volatilidade": 50,
       "moeda": 73
      },
      "brutos": {
       "bolsa_queda_pct": 7.8,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 8726.03,
       "bolsa_pico_dia": "2026-08-10",
-      "oscilacao_diaria_pct": 1.08,
+      "oscilacao_diaria_pct": 1.05,
       "moeda_variacao_3m_pct": 4.5,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -598,23 +598,23 @@
     {
      "nome": "Reino Unido",
      "slug": "reino-unido",
-     "valor": 56,
+     "valor": 55,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
      "mes_anterior": 26,
      "sinais": {
-      "bolsa": 51,
-      "volatilidade": 73,
-      "moeda": 45
+      "bolsa": 53,
+      "volatilidade": 69,
+      "moeda": 44
      },
      "brutos": {
-      "bolsa_queda_pct": 3.9,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 4.2,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 10910.6,
       "bolsa_pico_dia": "2026-02-27",
-      "oscilacao_diaria_pct": 1.03,
-      "moeda_variacao_3m_pct": 2.0,
+      "oscilacao_diaria_pct": 1.0,
+      "moeda_variacao_3m_pct": 1.9,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "bolsa": 1984,
@@ -645,19 +645,19 @@
     {
      "nome": "Itália",
      "slug": "italia",
-     "valor": 63,
+     "valor": 65,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 50,
      "sinais": {
-      "bolsa": 54,
+      "bolsa": 59,
       "volatilidade": 62,
       "moeda": 73
      },
      "brutos": {
-      "bolsa_queda_pct": 8.7,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 10.0,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 53717.0,
       "bolsa_pico_dia": "2026-08-07",
       "oscilacao_diaria_pct": 1.31,
@@ -698,16 +698,16 @@
      "referencia": "2026-11",
      "mes_anterior": 50,
      "sinais": {
-      "bolsa": 42,
-      "volatilidade": 72,
+      "bolsa": 45,
+      "volatilidade": 69,
       "moeda": 73
      },
      "brutos": {
-      "bolsa_queda_pct": 5.1,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 5.8,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 20213.6,
       "bolsa_pico_dia": "2026-08-11",
-      "oscilacao_diaria_pct": 1.36,
+      "oscilacao_diaria_pct": 1.34,
       "moeda_variacao_3m_pct": 4.5,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -739,22 +739,22 @@
     {
      "nome": "Portugal",
      "slug": "portugal",
-     "valor": 54,
+     "valor": 53,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
      "mes_anterior": 41,
      "sinais": {
       "bolsa": 36,
-      "volatilidade": 52,
+      "volatilidade": 50,
       "moeda": 73
      },
      "brutos": {
-      "bolsa_queda_pct": 4.1,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 4.0,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 9712.35,
       "bolsa_pico_dia": "2026-09-28",
-      "oscilacao_diaria_pct": 0.89,
+      "oscilacao_diaria_pct": 0.86,
       "moeda_variacao_3m_pct": 4.5,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -786,22 +786,22 @@
     {
      "nome": "Suíça",
      "slug": "suica",
-     "valor": 54,
+     "valor": 53,
      "nivel": "Alerta",
      "cor": "#F2C14E",
      "referencia": "2026-11",
      "mes_anterior": 30,
      "sinais": {
-      "bolsa": 42,
-      "volatilidade": 61,
+      "bolsa": 43,
+      "volatilidade": 59,
       "moeda": 57
      },
      "brutos": {
-      "bolsa_queda_pct": 3.0,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 3.1,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 15192.58,
       "bolsa_pico_dia": "2026-11-16",
-      "oscilacao_diaria_pct": 0.94,
+      "oscilacao_diaria_pct": 0.91,
       "moeda_variacao_3m_pct": 2.8,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -899,22 +899,22 @@
     {
      "nome": "Turquia",
      "slug": "turquia",
-     "valor": 65,
+     "valor": 66,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 69,
      "sinais": {
-      "bolsa": 86,
+      "bolsa": 87,
       "volatilidade": 54,
       "moeda": 56
      },
      "brutos": {
-      "bolsa_queda_pct": 26.6,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 27.7,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 15133.5,
       "bolsa_pico_dia": "2026-05-11",
-      "oscilacao_diaria_pct": 1.63,
+      "oscilacao_diaria_pct": 1.62,
       "moeda_variacao_3m_pct": 5.0,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -952,17 +952,17 @@
      "referencia": "2026-11",
      "mes_anterior": 59,
      "sinais": {
-      "bolsa": 80,
-      "volatilidade": 84,
+      "bolsa": 81,
+      "volatilidade": 83,
       "moeda": 95
      },
      "brutos": {
-      "bolsa_queda_pct": 15.9,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 16.3,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 4481.04,
       "bolsa_pico_dia": "2026-05-05",
-      "oscilacao_diaria_pct": 1.56,
-      "moeda_variacao_3m_pct": 7.4,
+      "oscilacao_diaria_pct": 1.51,
+      "moeda_variacao_3m_pct": 7.5,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "bolsa": 1992,
@@ -1076,7 +1076,7 @@
   {
    "nome": "África",
    "slug": "africa",
-   "valor": 51,
+   "valor": 50,
    "nivel": "Alerta",
    "cor": "#F2C14E",
    "referencia": "2026-11",
@@ -1113,12 +1113,12 @@
       "moeda": 52
      },
      "brutos": {
-      "bolsa_queda_pct": 17.1,
-      "bolsa_ultimo_dia": "2026-11-23",
+      "bolsa_queda_pct": 17.5,
+      "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 128455.7,
       "bolsa_pico_dia": "2026-02-27",
-      "oscilacao_diaria_pct": 1.74,
-      "moeda_variacao_3m_pct": 4.0,
+      "oscilacao_diaria_pct": 1.68,
+      "moeda_variacao_3m_pct": 4.1,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
        "bolsa": 2012,
@@ -1149,13 +1149,13 @@
     {
      "nome": "Nigéria",
      "slug": "nigeria",
-     "valor": 23,
+     "valor": 22,
      "nivel": "Atenção",
      "cor": "#7CC3E0",
      "referencia": "2026-11",
      "mes_anterior": 67,
      "sinais": {
-      "moeda": 23
+      "moeda": 22
      },
      "brutos": {
       "moeda_variacao_3m_pct": -0.5,
@@ -1302,11 +1302,11 @@
       "moeda": 0
      },
      "brutos": {
-      "bolsa_queda_pct": 18.9,
+      "bolsa_queda_pct": 19.0,
       "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 72366.34,
       "bolsa_pico_dia": "2026-06-25",
-      "oscilacao_diaria_pct": 2.75,
+      "oscilacao_diaria_pct": 2.74,
       "moeda_variacao_3m_pct": -0.0,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -1349,11 +1349,11 @@
       "moeda": 52
      },
      "brutos": {
-      "bolsa_queda_pct": 16.1,
+      "bolsa_queda_pct": 16.4,
       "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 4242.57,
       "bolsa_pico_dia": "2026-05-13",
-      "oscilacao_diaria_pct": 0.85,
+      "oscilacao_diaria_pct": 0.84,
       "moeda_variacao_3m_pct": -1.0,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -1385,17 +1385,17 @@
     {
      "nome": "Hong Kong",
      "slug": "hong-kong",
-     "valor": 71,
+     "valor": 72,
      "nivel": "Tensão",
      "cor": "#EE8A3C",
      "referencia": "2026-11",
      "mes_anterior": 62,
      "sinais": {
-      "bolsa": 75,
+      "bolsa": 77,
       "volatilidade": 68
      },
      "brutos": {
-      "bolsa_queda_pct": 20.0,
+      "bolsa_queda_pct": 20.6,
       "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 27968.09,
       "bolsa_pico_dia": "2026-01-29",
@@ -1481,16 +1481,16 @@
      "referencia": "2026-11",
      "mes_anterior": 95,
      "sinais": {
-      "bolsa": 96,
-      "volatilidade": 97,
+      "bolsa": 97,
+      "volatilidade": 96,
       "moeda": 74
      },
      "brutos": {
-      "bolsa_queda_pct": 44.9,
+      "bolsa_queda_pct": 45.1,
       "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 9114.55,
       "bolsa_pico_dia": "2026-06-22",
-      "oscilacao_diaria_pct": 3.63,
+      "oscilacao_diaria_pct": 3.59,
       "moeda_variacao_3m_pct": -4.5,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -1528,16 +1528,16 @@
      "referencia": "2026-11",
      "mes_anterior": 31,
      "sinais": {
-      "bolsa": 67,
-      "volatilidade": 83,
+      "bolsa": 66,
+      "volatilidade": 84,
       "moeda": 64
      },
      "brutos": {
-      "bolsa_queda_pct": 6.1,
+      "bolsa_queda_pct": 5.9,
       "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 9271.6,
       "bolsa_pico_dia": "2026-08-06",
-      "oscilacao_diaria_pct": 1.1,
+      "oscilacao_diaria_pct": 1.12,
       "moeda_variacao_3m_pct": 4.0,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -1575,16 +1575,16 @@
      "referencia": "2026-11",
      "mes_anterior": 66,
      "sinais": {
-      "bolsa": 95,
-      "volatilidade": 81,
+      "bolsa": 96,
+      "volatilidade": 80,
       "moeda": 4
      },
      "brutos": {
-      "bolsa_queda_pct": 42.1,
+      "bolsa_queda_pct": 42.6,
       "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 9134.7,
       "bolsa_pico_dia": "2026-01-20",
-      "oscilacao_diaria_pct": 1.54,
+      "oscilacao_diaria_pct": 1.51,
       "moeda_variacao_3m_pct": 0.2,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -1669,16 +1669,16 @@
      "referencia": "2026-11",
      "mes_anterior": 49,
      "sinais": {
-      "bolsa": 77,
-      "volatilidade": 73,
+      "bolsa": 78,
+      "volatilidade": 71,
       "moeda": 18
      },
      "brutos": {
-      "bolsa_queda_pct": 14.0,
+      "bolsa_queda_pct": 14.5,
       "bolsa_ultimo_dia": "2026-11-24",
       "bolsa_pico": 5801.96,
       "bolsa_pico_dia": "2026-09-04",
-      "oscilacao_diaria_pct": 1.06,
+      "oscilacao_diaria_pct": 1.03,
       "moeda_variacao_3m_pct": 0.6,
       "moeda_ultimo_dia": "2026-11-24",
       "desde": {
@@ -1711,13 +1711,13 @@
   }
  ],
  "brasil": {
-  "valor": 66,
+  "valor": 65,
   "nivel": "Tensão",
   "cor": "#EE8A3C",
   "referencia": "2026-11",
   "mes_anterior": 60,
   "sinais": {
-   "bolsa": 83,
+   "bolsa": 80,
    "volatilidade": 31,
    "moeda": 84
   }
@@ -1732,27 +1732,27 @@
  "cotacoes": [
   {
    "nome": "Ibovespa",
-   "ultimo": 164796.0,
+   "ultimo": 166558.16,
    "tipo": "pontos",
    "serie": "brasil_bolsa",
-   "variacao_pct": -0.95,
-   "data": "2026-11-23"
+   "variacao_pct": 1.07,
+   "data": "2026-11-24"
   },
   {
    "nome": "Dólar",
-   "ultimo": 5.9275,
+   "ultimo": 5.8343,
    "tipo": "brl",
    "serie": "extra_dolar",
-   "variacao_pct": -0.36,
-   "data": "2026-11-23"
+   "variacao_pct": -1.57,
+   "data": "2026-11-24"
   },
   {
    "nome": "Euro",
-   "ultimo": 6.46,
+   "ultimo": 6.3942,
    "tipo": "brl",
    "serie": "extra_euro",
-   "variacao_pct": -1.01,
-   "data": "2026-11-23"
+   "variacao_pct": -1.02,
+   "data": "2026-11-24"
   },
   {
    "nome": "Dow Jones",
@@ -1780,42 +1780,42 @@
   },
   {
    "nome": "Bitcoin",
-   "ultimo": 59847.3008,
+   "ultimo": 60265.4688,
    "tipo": "usd",
    "serie": "extra_bitcoin",
-   "variacao_pct": -2.15,
+   "variacao_pct": -1.54,
    "data": "2026-11-24"
   },
   {
    "nome": "Petróleo Brent",
-   "ultimo": 86.95,
+   "ultimo": 87.72,
    "tipo": "usd",
    "serie": "extra_petroleo",
-   "variacao_pct": -2.71,
+   "variacao_pct": -1.85,
    "data": "2026-11-24"
   },
   {
    "nome": "Ouro",
-   "ultimo": 3630.6001,
+   "ultimo": 3613.5,
    "tipo": "usd",
    "serie": "extra_ouro",
-   "variacao_pct": -0.57,
+   "variacao_pct": -1.04,
    "data": "2026-11-24"
   },
   {
    "nome": "DAX",
-   "ultimo": 25337.27,
+   "ultimo": 25098.81,
    "tipo": "pontos",
    "serie": "alemanha_bolsa",
-   "variacao_pct": 2.15,
-   "data": "2026-11-23"
+   "variacao_pct": -0.94,
+   "data": "2026-11-24"
   },
   {
    "nome": "Nikkei",
-   "ultimo": 58675.79,
+   "ultimo": 58644.63,
    "tipo": "pontos",
    "serie": "japao_bolsa",
-   "variacao_pct": 3.97,
+   "variacao_pct": 3.91,
    "data": "2026-11-24"
   }
  ],
@@ -1902,6 +1902,6 @@
   }
  ],
  "parcial": {
-  "hora": "00h18"
+  "hora": "11h11"
  }
 }
