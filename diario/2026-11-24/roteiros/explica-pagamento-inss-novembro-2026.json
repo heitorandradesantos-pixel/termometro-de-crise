@@ -1,0 +1,142 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "13º do INSS em novembro? Só para quem começou depois de abril.",
+  "na_tela": "13º do INSS em novembro?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "13º do INSS em novembro? Só para quem começou depois de abril.",
+   "na_tela": "13º do INSS em novembro?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Mensagem diz que o INSS vai bloquear seu benefício? O próprio INSS desmentiu.",
+   "na_tela": "Benefício bloqueado? Desmentido",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O dia do seu pagamento do INSS depende do último número do benefício.",
+   "na_tela": "Seu dia depende do final",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "13º do INSS em novembro? Só para quem começou depois de abril.",
+  "O INSS começou a pagar novembro nesta terça, 24/11.",
+  "Quem já recebia até abril teve o 13º adiantado, em duas parcelas.",
+  "Então, pra esses, novembro é só o benefício de sempre.",
+  "Agora olha só: quem começou depois de abril deve receber o 13º de uma vez.",
+  "Segundo o INSS, é proporcional aos meses recebidos e não precisa pedir.",
+  "O final do benefício é a senha da fila: decide o seu dia.",
+  "Dúvida? Meu INSS ou 135. Desconfie de quem cobra taxa pra liberar 13º.",
+  "Já recebia ou começou depois? Comenta JÁ ou DEPOIS.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "13º do INSS em novembro? Só para quem começou depois de abril. O INSS começou a pagar novembro nesta terça, 24/11. Quem já recebia até abril teve o 13º adiantado, em duas parcelas. Então, pra esses, novembro é só o benefício de sempre. Agora olha só: quem começou depois de abril deve receber o 13º de uma vez. Segundo o INSS, é proporcional aos meses recebidos e não precisa pedir. O final do benefício é a senha da fila: decide o seu dia. Dúvida? Meu INSS ou 135. Desconfie de quem cobra taxa pra liberar 13º. Já recebia ou começou depois? Comenta JÁ ou DEPOIS. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "13º do INSS em novembro?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Folha de novembro: começou em 24/11",
+   "fonte": "Tribuna PR"
+  },
+  {
+   "fala": 2,
+   "texto": "Até abril: 13º em duas parcelas",
+   "fonte": "Revista Empreende"
+  },
+  {
+   "fala": 4,
+   "texto": "Depois de abril: parcela única",
+   "fonte": "Tribuna PR"
+  },
+  {
+   "fala": 5,
+   "texto": "Proporcional aos meses. Não precisa pedir",
+   "fonte": "IstoÉ Dinheiro"
+  },
+  {
+   "fala": 6,
+   "texto": "Final do benefício define a data",
+   "fonte": "Tribuna PR"
+  },
+  {
+   "fala": 7,
+   "texto": "Meu INSS ou 135",
+   "fonte": "Tribuna PR"
+  }
+ ],
+ "retomada": 4,
+ "busca": "13º do INSS em novembro 2026: quem recebe?",
+ "legenda": "13º do INSS em novembro 2026: quem recebe e quando?\n\nO INSS começou a pagar a folha de novembro em 24/11, e os depósitos vão até 7 de dezembro, segundo a Tribuna PR. Quem já recebia benefício até abril teve o 13º adiantado em duas parcelas. Para esse grupo, novembro traz só o benefício normal.\n\nQuem começou a receber depois de abril deve ter o 13º em parcela única, proporcional aos meses de recebimento, e não precisa pedir, segundo o INSS. O BPC não tem 13º.\n\nO que ainda não se sabe: o corte exato (alguns veículos falam em \\\"após abril\\\", outros em \\\"a partir de maio\\\") e o valor de cada pessoa. Confirme no Meu INSS (Extrato de Pagamento) ou no 135. Não pague taxa nem passe senha ou código a quem prometa liberar o 13º.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inss #13inss #aposentados #educacaofinanceira",
+ "hashtags": [
+  "#inss",
+  "#13inss",
+  "#aposentados",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Aposentado, atenção: 13º do INSS em novembro é só para alguns.",
+  "topicos": [
+   "O INSS começou a pagar novembro em 24/11, segundo a Tribuna PR.",
+   "Quem recebia até abril já teve o 13º em duas parcelas (Revista Empreende).",
+   "Quem começou depois de abril deve receber o 13º de uma vez, diz o INSS.",
+   "Confira no Meu INSS ou no 135 e não pague taxa pra liberar 13º."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "Notícia quente: o pagamento começou hoje (24/11) e a dúvida sobre o 13º está circulando agora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "versão rua: gancho até 12 palavras e tópicos até 14"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "viral": null,
+ "teleprompter": "13º do INSS em novembro? Só para quem começou depois de abril.\n\nO INSS começou a pagar novembro nesta terça, 24/11.\n\nQuem já recebia até abril teve o 13º adiantado, em duas parcelas.\n\nEntão, pra esses, novembro é só o benefício de sempre.\n\nAgora olha só: quem começou depois de abril deve receber o 13º de uma vez.\n\nSegundo o INSS, é proporcional aos meses recebidos e não precisa pedir.\n\nO final do benefício é a senha da fila: decide o seu dia.\n\nDúvida? Meu INSS ou 135. Desconfie de quem cobra taxa pra liberar 13º.\n\nJá recebia ou começou depois? Comenta JÁ ou DEPOIS.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "IstoÉ Dinheiro",
+   "url": "https://istoedinheiro.com.br/calendario-inss-novembro-2026-pagamentos-biometria",
+   "destaque": "Segundo o INSS, o 13º dos novos beneficiários sai em parcela única e é proporcional ao período de recebimento."
+  }
+ ],
+ "data": "2026-11-24",
+ "gerado_em": "2026-11-24T16:18:37.395821-03:00"
+}
