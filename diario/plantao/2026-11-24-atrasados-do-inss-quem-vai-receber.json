@@ -1,0 +1,112 @@
+{
+ "titulo": "Atrasados do INSS, quem vai receber: o que se sabe",
+ "descricao": "A Justiça Federal liberou R$ 2,77 bi em atrasados do INSS a 179.070 pessoas. Veja quem tem direito, quando o dinheiro cai e como consultar.",
+ "palavra_chave": "atrasados do inss quem vai receber",
+ "lead": "O Conselho da Justiça Federal (CJF) liberou R$ 2,77 bilhões para pagar atrasados do INSS a 179.070 pessoas que ganharam ações na Justiça. A notícia circulou a partir de 23 de novembro, em veículos como Folhapress e Metrópoles. Só recebe quem venceu a ação, sem possibilidade de recurso, e teve a ordem de pagamento emitida em outubro.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O CJF liberou R$ 2.772.019.915,96 para pagar atrasados previdenciários e assistenciais a 179.070 beneficiários do INSS, segundo o ND Mais.",
+   "fonte_url": "https://ndmais.com.br/economia/financas-pessoais/aposentados-pensionistas-recebem-parte-2-77-bilhoes-atrasados-inss-cjf-consulta/",
+   "data": "2026-11-23",
+   "veiculo": "ND Mais",
+   "confiavel": false
+  },
+  {
+   "texto": "O Metrópoles publicou que o dinheiro vale para aposentadorias, pensões por morte, auxílios por incapacidade e Benefício de Prestação Continuada (BPC). Só recebe quem venceu a ação e não tem mais recurso possível.",
+   "fonte_url": "https://www.metropoles.com/brasil/justica-libera-r-277-bilhoes-em-atrasados-do-inss-para-179-mil-pessoas",
+   "data": "2026-11-23",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  },
+  {
+   "texto": "O valor corresponde a 129.146 processos com Requisições de Pequeno Valor (RPVs) expedidas em outubro de 2026. RPV é a ordem judicial para pagar dívidas de até 60 salários mínimos, hoje R$ 97.260. Acima disso, o pagamento sai por precatório, que segue outro calendário.",
+   "fonte_url": "https://nn1.com.br/2026/11/23/justica-libera-r-2-77-bilhoes-em-atrasados-do-inss-para-179-mil-pessoas",
+   "data": "2026-11-23",
+   "veiculo": "NN1",
+   "confiavel": false
+  },
+  {
+   "texto": "O R$ 2,77 bilhões faz parte de um lote maior, de R$ 3,36 bilhões, que inclui outras dívidas da União e atende 293.596 pessoas em 229.704 processos.",
+   "fonte_url": "https://www.correio24horas.com.br/brasil/justica-libera-quase-r-3-bilhoes-em-atrasados-do-inss-veja-quem-recebe-1126",
+   "data": "2026-11-23",
+   "veiculo": "Correio",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo o Diário do Pará e a Paraíba Business, o CJF anunciou a liberação em 19 de novembro. A Folhapress e outros veículos publicaram a notícia em 23 de novembro.",
+   "fonte_url": "https://paraibabusiness.com.br/justica-libera-r-27-bilhoes-em-atrasados-para-179-mil-beneficiarios/",
+   "data": "2026-11-19",
+   "veiculo": "Paraíba Business",
+   "confiavel": false
+  },
+  {
+   "texto": "O CJF repassou o dinheiro aos seis Tribunais Regionais Federais (TRFs). Cada tribunal tem seu cronograma. Por isso, a liberação do CJF não significa que o saque já esteja disponível.",
+   "fonte_url": "https://paraibabusiness.com.br/justica-libera-r-27-bilhoes-em-atrasados-para-179-mil-beneficiarios/",
+   "data": "2026-11-23",
+   "veiculo": "Paraíba Business",
+   "confiavel": false
+  },
+  {
+   "texto": "O dinheiro vai para contas abertas na Caixa ou no Banco do Brasil, em nome do beneficiário ou do advogado. Pela regra legal, a RPV deve ser paga em até dois meses após a ordem, segundo a Folhapress.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/23/inss-justica-federal-libera-r-2-8-bi-em-atrasados-veja-quem-recebe",
+   "data": "2026-11-23",
+   "veiculo": "O Tempo (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "No Espírito Santo, segundo o TRF2 citado por A Gazeta, o valor é de R$ 86.007.584,19. É 30% do total geral do tribunal, que atende também o Rio de Janeiro.",
+   "fonte_url": "https://www.agazeta.com.br/ta-no-lucro/aposentados-e-pensionistas-do-es-vao-receber-r-86-milhoes-em-atrasados-do-inss-1126",
+   "data": "2026-11-24",
+   "veiculo": "A Gazeta",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O CJF anuncia a liberação dos recursos das RPVs expedidas em outubro, segundo o Diário do Pará e a Paraíba Business. Data não confirmada na nota oficial.",
+   "fonte_url": "https://paraibabusiness.com.br/justica-libera-r-27-bilhoes-em-atrasados-para-179-mil-beneficiarios/",
+   "data": "2026-11-19",
+   "veiculo": "Paraíba Business",
+   "confiavel": false
+  },
+  {
+   "texto": "Folhapress, Metrópoles e outros veículos publicam a notícia dos R$ 2,77 bilhões para 179 mil pessoas.",
+   "fonte_url": "https://diariodocomercio.com.br/economia/justica-libera-r-28-bilhoes-do-inss/",
+   "data": "2026-11-23",
+   "veiculo": "Diário do Comércio (Folhapress)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Gazeta (ES) publica que o estado terá R$ 86 milhões em atrasados, segundo o TRF2.",
+   "fonte_url": "https://www.agazeta.com.br/ta-no-lucro/aposentados-e-pensionistas-do-es-vao-receber-r-86-milhoes-em-atrasados-do-inss-1126",
+   "data": "2026-11-24",
+   "veiculo": "A Gazeta",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "A nota oficial do CJF não apareceu nas buscas. A data de 19/11 vem de veículos (Diário do Pará e Paraíba Business) e não foi confirmada na fonte oficial.",
+  "A data em que o dinheiro cai para cada pessoa não foi divulgada. Depende do TRF responsável e do processo, e só aparece na consulta do tribunal.",
+  "A Folhapress diz que os valores seriam pagos 'até o início de novembro', mas a notícia é de 23/11. Essa informação não foi explicada nem confirmada. Por isso, não usamos essa data.",
+  "A comparação com o lote de outubro varia entre veículos (um fala em queda, outro em alta). Não foi confirmada e não entra aqui.",
+  "A data exata de publicação da matéria de A Gazeta sobre o ES não aparece na busca. Usamos 24/11, dia da checagem, sem confirmação."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você ganhou uma ação contra o INSS e a ordem de pagamento saiu em outubro, seu processo pode estar neste lote. Confira no site do TRF responsável.",
+  "Se o seu pedido foi só negado pelo INSS, sem ação na Justiça, você não entra neste pagamento.",
+  "O dinheiro não cai na conta onde você recebe a aposentadoria. Vai para uma conta aberta na Caixa ou no Banco do Brasil, em nome do beneficiário ou do advogado.",
+  "Atrasado acima de R$ 97.260 vira precatório, que segue outro calendário e não está neste lote.",
+  "Este pagamento não é o 13º do INSS, que começou em 24/11."
+ ],
+ "como_se_proteger": [
+  "Não existe taxa antecipada para liberar RPV ou precatório, segundo alerta da Justiça Federal citado pelo portal A Rede. Desconfie de quem cobrar.",
+  "Consulte o processo só no site oficial do TRF responsável, com o número do processo ou o CPF.",
+  "Não passe senhas nem códigos de banco por mensagem. Ninguém precisa deles para você consultar um atrasado.",
+  "Se um 'intermediário' prometer adiantar o pagamento, fale antes com o advogado da ação."
+ ],
+ "slug": "atrasados-do-inss-quem-vai-receber",
+ "publicado_em": "2026-11-24T13:15:45.056996",
+ "atualizado_em": "2026-11-24T13:15:45.056996",
+ "assunto": "RESERVA, data a confirmar: a Justiça liberou R$ 2,77 bilhões em atrasados do INSS para 179 mil pessoas. A manchete aparece como 'leia também' numa página do Metrópoles publicada em 23/11. Não consegui abrir a matéria nem confirmar o dia exato do fato.",
+ "turno": "tarde"
+}
