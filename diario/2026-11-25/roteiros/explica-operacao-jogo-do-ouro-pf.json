@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "R$ 400 milhões bloqueados. Calma: isso não é lucro comprovado de ninguém.",
+  "na_tela": "R$ 400 milhões: não é lucro",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "R$ 400 milhões bloqueados. Calma: isso não é lucro comprovado de ninguém.",
+   "na_tela": "R$ 400 milhões: não é lucro",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "A Receita compara quanto você ganha com quanto seu dinheiro movimenta.",
+   "na_tela": "Receita compara renda e movimento",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "4 presos, 27 mandados: o que se sabe da Operação Jogo do Ouro.",
+   "na_tela": "Operação Jogo do Ouro",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "R$ 400 milhões bloqueados. Calma: isso não é lucro comprovado de ninguém.",
+  "Operação Jogo do Ouro: a Receita fala em 4 prisões e 27 mandados.",
+  "A suspeita: um grupo negociava ouro de garimpo ilegal.",
+  "A Receita viu movimentação incompatível com a renda, como fatura maior que salário.",
+  "E o detalhe: esse valor é o teto do bloqueio, não dinheiro encontrado.",
+  "Ninguém foi julgado: por enquanto, tudo é suspeita.",
+  "Se você não é investigado, nada muda na sua conta.",
+  "Comprou ouro? Peça nota fiscal com a origem, como manda a lei.",
+  "A Receita cruzar seus dados te assusta ou tranquiliza? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "R$ 400 milhões bloqueados. Calma: isso não é lucro comprovado de ninguém. Operação Jogo do Ouro: a Receita fala em 4 prisões e 27 mandados. A suspeita: um grupo negociava ouro de garimpo ilegal. A Receita viu movimentação incompatível com a renda, como fatura maior que salário. E o detalhe: esse valor é o teto do bloqueio, não dinheiro encontrado. Ninguém foi julgado: por enquanto, tudo é suspeita. Se você não é investigado, nada muda na sua conta. Comprou ouro? Peça nota fiscal com a origem, como manda a lei. A Receita cruzar seus dados te assusta ou tranquiliza? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 108,
+ "segundos": 43,
+ "na_tela": [
+  {
+   "texto": "R$ 400 milhões: não é lucro",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "4 prisões · 27 mandados",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 3,
+   "texto": "R$ 400 milhões",
+   "fonte": "Receita Federal"
+  },
+  {
+   "fala": 4,
+   "texto": "Teto do bloqueio",
+   "fonte": "O Livre"
+  },
+  {
+   "fala": 5,
+   "texto": "Ninguém foi julgado",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Lei 7.766/1989: nota fiscal",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Operação Jogo do Ouro da PF: o que se sabe",
+ "legenda": "Operação Jogo do Ouro da PF: o que se sabe.\n\nA Polícia Federal e a Receita Federal fizeram a operação nesta quarta (25/11). Segundo a Receita, são 4 prisões preventivas e 27 mandados de busca em Mato Grosso e São Paulo. O bloqueio de bens é de até R$ 400 milhões.\n\nAtenção: esse valor é movimentação que a Receita considera incompatível com a renda dos investigados. Não é lucro comprovado, e o dinheiro não foi confirmado como encontrado. Ninguém foi julgado e o caso segue sob investigação.\n\nPara quem não é investigado, nada muda na conta. E se for comprar ouro, a lei exige nota fiscal com a origem.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#operacaojogodoouro #receitafederal #policiafederal #educacaofinanceira",
+ "hashtags": [
+  "#operacaojogodoouro",
+  "#receitafederal",
+  "#policiafederal",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "R$ 400 milhões bloqueados no caso do ouro. Calma: não é lucro.",
+  "topicos": [
+   "Operação Jogo do Ouro: a Receita fala em 4 prisões e 27 mandados.",
+   "R$ 400 milhões: movimentação que a Receita vê como incompatível com a renda.",
+   "Ninguém foi julgado. Por enquanto, tudo é suspeita da investigação.",
+   "Comprou ouro? Peça nota fiscal com a origem, como manda a lei."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente, de hoje (25/11), que pede o \"tô aqui e preciso te contar\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Na fala \"4 prisões e 27 mandados\": são dois números e o termo \"mandados\" sem tradução. Deixe só as 4 prisões na fala, e troque por \"a Justiça autorizou a polícia a entrar e buscar provas em 27 lugares\". O número exato fica no cartão da tela.",
+   "Em \"movimentação incompatível com a renda, como fatura maior que salário\" e \"teto do bloqueio\": \"fatura\" confunde (cartão? empresa?) e \"teto\" é jargão. Reescreva como comparação do dia a dia, sem inventar dado: \"Passou mais dinheiro pela conta do que o salário explicaria\". E: \"A Justiça pode travar até R$ 400 milhões. É o limite, não o que acharam\".",
+   "O texto soa como boletim lido e falta a voz do Heitor. Abra com reação: \"Cara, R$ 400 milhões bloqueados. Calma, antes de se assustar.\". Antes do bordão final, inclua: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\"."
+  ],
+  "veredito": "A peça é segura e honesta: separa suspeita de fato, diz que nada muda para quem não é investigado e dá um passo simples (pedir nota fiscal). Falta falar como o Heitor e passar no Teste do CLT: \\\"mandados\\\", \\\"fatura\\\" e \\\"teto do bloqueio\\\" ficam sem tradução, há dois números numa fala e não há uma comparação viva."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"R$ 400 milhões bloqueados. Calma: isso não é lucro comprovado de ninguém.\" é um número grande, mas longe do bolso de quem assiste. Reescrita: \"Fatura de cartão maior que o salário. Foi isso que a Receita viu antes de bloquear até R$ 400 milhões. Calma: não é lucro comprovado de ninguém.\"",
+   "Envio: o roteiro não pede para mandar o vídeo. Depois de \"Comprou ouro? Peça nota fiscal com a origem, como manda a lei.\", acrescente: \"Manda pra quem compra ou vende ouro, joia ou aliança.\"",
+   "Retenção: \"a Receita fala em 4 prisões e 27 mandados\" junta dois números numa fala só, e \"teto do bloqueio\" não passa no Teste do CLT. Reescrita: \"A Receita fala em 4 prisões.\" e \"E o detalhe: R$ 400 milhões é o máximo do bloqueio, não é dinheiro encontrado.\" Os 27 mandados ficam no cartão da tela."
+  ],
+  "veredito": "Roteiro claro, que paga o que promete e fecha com uma boa pergunta de duas saídas, mas o gancho está longe do bolso de quem assiste e não há pedido de envio, então falta um motivo concreto para mandar o vídeo."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Slow aerial drone shot descending over an illegal gold mining site in the Amazon rainforest: muddy orange pits, brown turbid river, wooden dredging rafts, makeshift tarp camps at the edge of dense green forest. Early morning haze, no people visible, no text",
+   "texto_da_fala": "A suspeita: um grupo negociava ouro de garimpo ilegal.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow aerial drone shot descending over an illegal gold mining site in the Amazon rainforest: muddy orange pits, brown turbid river, wooden dredging rafts, makeshift tarp camps at the edge of dense green forest. Early morning haze, no people visible, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in across a modest worn wooden table in a simple kitchen: a small faded wallet and a few coins in the foreground, while in the soft-focus background sit glossy luxury shopping bags and a sports car key on a shelf. Warm window light, contrast between modest and lavish. No people, no text, no numbers, no logos",
+   "texto_da_fala": "A Receita viu movimentação incompatível com a renda, como fatura maior que salário.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in across a modest worn wooden table in a simple kitchen: a small faded wallet and a few coins in the foreground, while in the soft-focus background sit glossy luxury shopping bags and a sports car key on a shelf. Warm window light, contrast between modest and lavish. No people, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Macro camera slowly gliding over a jeweler's glass counter: a small polished gold bar and a few gold rings resting on dark velvet, while a blank white paper receipt slides out of a small thermal printer beside them. Warm soft lighting, shallow depth of field, only a pair of hands partially visible at the edge, no faces, no text, no numbers, no logos",
+   "texto_da_fala": "Comprou ouro? Peça nota fiscal com a origem, como manda a lei.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro camera slowly gliding over a jeweler's glass counter: a small polished gold bar and a few gold rings resting on dark velvet, while a blank white paper receipt slides out of a small thermal printer beside them. Warm soft lighting, shallow depth of field, only a pair of hands partially visible at the edge, no faces, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "R$ 400 milhões bloqueados. Calma: isso não é lucro comprovado de ninguém.\n\nOperação Jogo do Ouro: a Receita fala em 4 prisões e 27 mandados.\n\nA suspeita: um grupo negociava ouro de garimpo ilegal.\n\nA Receita viu movimentação incompatível com a renda, como fatura maior que salário.\n\nE o detalhe: esse valor é o teto do bloqueio, não dinheiro encontrado.\n\nNinguém foi julgado: por enquanto, tudo é suspeita.\n\nSe você não é investigado, nada muda na sua conta.\n\nComprou ouro? Peça nota fiscal com a origem, como manda a lei.\n\nA Receita cruzar seus dados te assusta ou tranquiliza? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Receita Federal",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-participa-da-operacao-jogo-do-ouro",
+   "destaque": "A Receita Federal confirmou, em nota oficial, que participa da operação com a PF e o Gaeco do MPF-MT (grupo do Ministério Público Federal…"
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/operacao-da-pf-receita-e-mpf-combate-garimpo-ilegal-em-mato-grosso",
+   "destaque": "A Agência Brasil informou que a PF deflagrou a operação para aprofundar investigações sobre um suposto esquema de extração e venda ilegal…"
+  }
+ ],
+ "data": "2026-11-25",
+ "gerado_em": "2026-11-25T18:42:22.376464-03:00"
+}
