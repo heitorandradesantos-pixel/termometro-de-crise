@@ -1,0 +1,114 @@
+{
+ "titulo": "Ibovespa hoje: caiu 0,43% e dólar foi a R$ 5,91; o que se sabe",
+ "descricao": "Ibovespa fechou ontem (24/11) em 164.089,81 pontos, na quarta baixa seguida. Dólar recuou a R$ 5,91. Veja o que sai hoje: PCE e PIB dos EUA.",
+ "palavra_chave": "ibovespa hoje",
+ "lead": "O Ibovespa, principal índice da bolsa brasileira, fechou a terça-feira (24/11) em queda de 0,43%, aos 164.089,81 pontos, o quarto pregão seguido de baixa. O dólar comercial recuou a R$ 5,91, depois de passar de R$ 6 na segunda (23/11). Nesta quarta (25/11), o mercado olha para a inflação PCE e o PIB dos Estados Unidos, que saem às 10h30.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou a terça (24/11) em queda de 0,43%, aos 164.089,81 pontos, uma perda de 706,24 pontos. Passou a manhã em alta, com máxima de 167.579,78, e devolveu os ganhos à tarde (mínima de 164.023,39).",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/",
+   "data": "2026-11-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Foi o quarto pregão seguido de baixa. Na manhã de terça, a Reuters informava que o índice subia após três quedas seguidas.",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-cai-043-com-vale-e-petrobras-dolar-vai-a-r-591/",
+   "data": "2026-11-24",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "A Vale foi a maior baixa do dia, com queda de 5,51%. A Petrobras também recuou, com investidores reagindo ao plano de negócios da empresa. As duas têm peso grande no índice.",
+   "fonte_url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cede-043-com-peso-de-vale-e-petrobras-dolar-cai-a-r-591/",
+   "data": "2026-11-24",
+   "veiculo": "Bora Investir (B3)",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar comercial recuou 0,26%, a R$ 5,9107, depois de passar de R$ 6 na véspera. Oscilou entre R$ 5,80 e R$ 5,95 na sessão. A Ptax de venda, taxa de referência calculada pelo Banco Central, ficou em R$ 5,8573.",
+   "fonte_url": "https://diariodosudoeste.com.br/ibovespa-cai-043-com-vale-e-petrobras-dolar-vai-a-r-591/",
+   "data": "2026-11-24",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar caiu após notícias sobre novas medidas de controle de gastos públicos e a sanção do pacote fiscal pelo presidente Lula, segundo a Agência Brasil, reproduzida pelo Imirante. O enfraquecimento do dólar no exterior também ajudou, segundo o O Repórter.",
+   "fonte_url": "https://imirante.com/noticias/brasil/2026/11/24/dolar-cai-r-591-expectativa-ajuste-fiscal",
+   "data": "2026-11-24",
+   "veiculo": "Imirante (Agência Brasil)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na segunda (23/11), o Ibovespa caiu 0,95%, a 164.796,05 pontos. O dólar chegou a R$ 6,0055, mas fechou em queda de 0,14%, a R$ 5,9262, e interrompeu seis altas seguidas.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ajuste-a-sancao-relatorio-fiscal-e-plano-da-petrobras-2136585",
+   "data": "2026-11-23",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Hoje, às 10h30 (Brasília), os EUA divulgam o PCE de outubro (índice de inflação que o Fed, o banco central americano, usa como referência) e a segunda estimativa do PIB do 3º trimestre. O Fed publica o Livro Bege, relatório sobre a economia dos EUA, às 16h.",
+   "fonte_url": "https://seucreditodigital.com.br/inflacao-no-brasil-e-nos-eua-agenda/",
+   "data": "2026-11-25",
+   "veiculo": "Seu Crédito Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "A projeção para o PCE de outubro em 12 meses é de 3,8%, contra 3,6% na leitura anterior. Para o núcleo (que exclui alimentos e energia), a projeção é de 3,2% em 12 meses, contra 3,1%.",
+   "fonte_url": "https://trademap.com.br/noticias/news-8634807",
+   "data": "2026-11-25",
+   "veiculo": "TradeMap",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Ibovespa cai 0,95%, a 164.796,05 pontos. O dólar toca R$ 6,0055, mas fecha a R$ 5,9262.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-ajuste-a-sancao-relatorio-fiscal-e-plano-da-petrobras-2136585",
+   "data": "2026-11-23",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Na manhã de 24/11, o Ibovespa sobe após a Câmara aprovar o pacote de ajuste fiscal na véspera. O dólar cai para a faixa de R$ 5,88.",
+   "fonte_url": "https://www.portaldoagronegocio.com.br/economia/mercado-financeiro/noticias/ibovespa-sobe-apos-aprovacao-do-ajuste-fiscal-e-futuros-de-nova-york-recuam",
+   "data": "2026-11-24",
+   "veiculo": "Portal do Agronegócio",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa vira e fecha em queda de 0,43%, a 164.089,81 pontos. O dólar fecha a R$ 5,91, após a sanção do pacote fiscal.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/",
+   "data": "2026-11-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Agenda de hoje: PCE e PIB dos EUA às 10h30 e Livro Bege do Fed às 16h.",
+   "fonte_url": "https://seucreditodigital.com.br/inflacao-no-brasil-e-nos-eua-agenda/",
+   "data": "2026-11-25",
+   "veiculo": "Seu Crédito Digital",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "A ata do BCE (Banco Central Europeu) não tem dia confirmado nas fontes que encontramos. Algumas listas a colocam às 9h30 e parecem associá-la à quinta (26/11), junto do IPCA-15. Não foi confirmado que sai hoje.",
+  "O resultado do PCE e do PIB dos EUA ainda não saiu. Só há projeções, que podem não se confirmar.",
+  "Não localizamos dados confirmados de hoje para as bolsas da Ásia e os futuros de Nova York. Os números disponíveis são de terça (24/11), e nenhum foi usado aqui.",
+  "Não encontramos fonte confirmando o fluxo cambial (entrada e saída de dólares no país) de hoje. Não é possível dizer o que ele indica.",
+  "Ninguém confirmou se a queda de quatro dias vai continuar. Os analistas citados explicam só o movimento de terça, e não o de hoje.",
+  "Copom (comitê de juros do Banco Central), IPCA e payroll (relatório de empregos dos EUA) não aparecem na agenda de hoje nas fontes consultadas. O IPCA-15 sai na quinta (26/11), segundo duas listas."
+ ],
+ "o_que_muda_para_voce": [
+  "Com o dólar perto de R$ 6, produtos importados, passagens e hospedagem no exterior tendem a ficar mais caros. O recuo para R$ 5,91 alivia um pouco, mas o valor muda todo dia.",
+  "Quem tem ações ou fundos de ações vê o valor oscilar com o Ibovespa. A queda de 0,43% em um dia é uma variação pequena, mas o índice caiu quatro pregões seguidos.",
+  "Quem tem investimento atrelado ao dólar ou ao juro pode ver o preço mudar após o PCE de hoje. Inflação mais alta nos EUA pode adiar cortes de juros por lá, segundo analistas, e isso costuma mexer com o dólar.",
+  "Vale e Petrobras pesam bastante no Ibovespa. Fundos e carteiras com essas empresas sentem mais a oscilação delas."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-hoje-2511",
+ "publicado_em": "2026-11-25T00:02:12.177660",
+ "atualizado_em": "2026-11-25T00:02:12.177660",
+ "assunto": "Mercado do dia (25/11): Ibovespa fechou ontem em queda de 0,43%, a 164.089,81 pontos, na quarta baixa seguida, e o dólar recuou a R$ 5,9107; agenda de hoje traz ata do BCE, PCE e PIB dos EUA e fluxo cambial.",
+ "turno": "manha"
+}
