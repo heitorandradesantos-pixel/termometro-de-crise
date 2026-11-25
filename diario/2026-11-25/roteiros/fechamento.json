@@ -1,0 +1,196 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / espanto de conversa",
+  "texto": "Cara, o dólar caiu pra R$ 5,82. Mas a crise não acabou.",
+  "na_tela": "Dólar caiu. Crise não acabou.",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / espanto de conversa",
+   "texto": "Cara, o dólar caiu pra R$ 5,82. Mas a crise não acabou.",
+   "na_tela": "Dólar caiu. Crise não acabou.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O dólar caiu hoje. O que isso muda no que você compra?",
+   "na_tela": "Dólar caiu: e o seu bolso?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A bolsa subiu hoje, mas não foi porque a crise passou.",
+   "na_tela": "Bolsa subiu. Crise passou?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar caiu pra R$ 5,82. Mas a crise não acabou.",
+  "Dólar menor tende a baratear o que vem de fora.",
+  "A bolsa, onde se negociam ações, subiu, mas segue longe do recorde de outubro.",
+  "O motivo: uma PEC, proposta pra mudar a Constituição e limitar gastos.",
+  "Pouca gente viu: essa PEC ainda não foi aprovada.",
+  "É como prometer largar o cartão: a fatura só cai cumprindo.",
+  "No termômetro, o Brasil marca 66 e o mundo segue em Tensão.",
+  "Passo calmo: acompanha a PEC, sem decidir nada no impulso.",
+  "Manda pra quem vai viajar ou paga conta em dólar.",
+  "Alívio ou promessa? Comenta ALÍVIO ou PROMESSA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar caiu pra R$ 5,82. Mas a crise não acabou. Dólar menor tende a baratear o que vem de fora. A bolsa, onde se negociam ações, subiu, mas segue longe do recorde de outubro. O motivo: uma PEC, proposta pra mudar a Constituição e limitar gastos. Pouca gente viu: essa PEC ainda não foi aprovada. É como prometer largar o cartão: a fatura só cai cumprindo. No termômetro, o Brasil marca 66 e o mundo segue em Tensão. Passo calmo: acompanha a PEC, sem decidir nada no impulso. Manda pra quem vai viajar ou paga conta em dólar. Alívio ou promessa? Comenta ALÍVIO ou PROMESSA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dólar caiu. Crise não acabou.",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar R$ 5,82 (▼1,57%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Ibovespa 166.880 pontos (▲1,70%) · 20,2% abaixo do recorde de 09/10",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "PEC para limitar gastos obrigatórios: sinalizada",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "AINDA NÃO FOI APROVADA",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Brasil 66 · Mundo 63 · Tensão",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: fechou a R$ 5,82, queda de 1,57%, segundo o Yahoo Finance. Na prática, dólar menor tende a baratear o que vem de fora, mas não é garantia de nada.\n\nA bolsa, onde se negociam as ações das empresas, subiu 1,70% e fechou em 166.880 pontos. Mesmo assim, segue 20,2% abaixo do recorde de 09/10. Foi sinalizada uma PEC, proposta de mudar a Constituição para limitar gastos obrigatórios, mas ela ainda não foi aprovada.\n\nO Termômetro de Crise fechou o dia com o Brasil em 66 e o mundo em 63, os dois em Tensão. Selic em 13,75% e PTAX de R$ 5,8825, segundo o Banco Central.\n\nPasso calmo: acompanhe o que acontece com a PEC e não decida nada no impulso.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar caiu pra R$ 5,82, mas a crise não acabou.",
+  "topicos": [
+   "Dólar fechou em R$ 5,82, queda de 1,57% no dia (Yahoo Finance).",
+   "Bolsa subiu 1,70%, mas segue 20,2% abaixo do recorde de 09/10.",
+   "Foi sinalizada uma PEC para limitar gastos obrigatórios, mas ainda não foi aprovada.",
+   "Brasil em 66, Tensão. Acompanha a PEC e não decide nada no impulso."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Fechamento com vários números e uma explicação (PEC, bolsa, dólar) pede calma e prints na tela, não correria de rua.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "\"A bolsa, onde se negociam ações, subiu, mas segue longe do recorde de outubro.\" e \"O motivo: uma PEC, proposta pra mudar a Constituição e limitar gastos.\": a PEC ainda não diz o que muda no bolso. Troque o final da fala por um efeito do dia a dia, sem inventar fato: \"dólar menor tende a baratear o que vem de fora\" já está na peça, então ligue a PEC a isso (\"a promessa de segurar gastos é o que está ajudando o dólar a cair\"), só se a fonte disser essa relação. Se ela não disser, mantenha só \"o motivo apontado é uma PEC\".",
+   "\"No termômetro, o Brasil marca 66 e o mundo segue em Tensão.\": a fala fica com número e palavra de marca sem tradução. Reescreva na ordem direta e diga o que significa: \"No nosso termômetro, o Brasil tá em 66. É sinal amarelo: atenção, mas sem pânico.\" Só use o 'sinal amarelo' se bater com a faixa 'Tensão' do manual da casa. O número 5,82 e o 66 aparecem em falas separadas, então a regra de um número por fala está ok.",
+   "Voz: o gancho \"Cara, o dólar caiu pra R$ 5,82\" está bom, mas o miolo tem frases soltas e tom de texto lido (\"Dólar menor tende a baratear...\", \"Pouca gente viu:\"). \"Pouca gente viu\" afirma algo que a peça não prova. Troque por \"E olha o detalhe:\" ou \"Só que tem um detalhe:\". Dê também um exemplo do dia a dia no lugar de ficar só no conceito: \"o que vem de fora\" pode virar \"celular importado, viagem, compra em site de fora\"."
+  ],
+  "veredito": "A peça acerta o arquétipo, os gatilhos éticos (perda e saída com o passo calmo, sem urgência falsa) e fala com os quatro temperamentos, com o bordão certo e o gatilho de comentário fácil; falta traduzir melhor o 'Tensão' e a PEC para o bolso, tirar o \\\"pouca gente viu\\\" sem prova e dar exemplos mais concretos do dia a dia."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o dólar caiu pra R$ 5,82. Mas a crise não acabou.\" abre com notícia e uma ressalva vaga. Reescrita: \"Você vai viajar ou paga conta em dólar? Ele caiu pra R$ 5,82 hoje. Mas o motivo ainda não saiu do papel.\" Isso põe o espectador na primeira frase, mantém o número e abre uma lacuna que a PEC paga.",
+   "Termômetro: \"No termômetro, o Brasil marca 66 e o mundo segue em Tensão.\" Quem nunca nos viu não sabe o que é esse 66. Reescrita: \"No nosso termômetro, que mede o clima da economia, o Brasil marca 66. Tensão.\" Assim o número vira um motivo para mostrar o vídeo a alguém.",
+   "Bolsa: \"A bolsa, onde se negociam ações, subiu, mas segue longe do recorde de outubro.\" é vago e pesa na fala. Reescrita: \"A bolsa subiu, mas ainda está uns 20% abaixo do recorde de outubro.\" É um número redondo, fácil de entender e que mostra a promessa ainda sem cumprir, o que antecipa o \"Pouca gente viu\"."
+  ],
+  "veredito": "Fecha bem, com gatilho de comentário de duas saídas e pedido de envio concreto, mas o gancho abre com notícia e uma ressalva vaga, e o 66 do termômetro não é explicado para quem chega pela primeira vez."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow dolly-in along a busy container port at golden hour: stacked plain unmarked shipping containers, a gantry crane lifting one container, then a cut-free glide toward warehouse shelves stocked with generic unbranded cardboard boxes of imported goods. No people in focus, no text, no logos, no numbers",
+   "texto_da_fala": "Dólar menor tende a baratear o que vem de fora.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a busy container port at golden hour: stacked plain unmarked shipping containers, a gantry crane lifting one container, then a cut-free glide toward warehouse shelves stocked with generic unbranded cardboard boxes of imported goods. No people in focus, no text, no logos, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Low-angle slow upward tilt with a gentle push-in on the modernist white domes and towers of the National Congress building in Brasília under a bright blue sky with moving clouds. Empty plaza, no people recognizable, no flags, no signs, no text, no logos",
+   "texto_da_fala": "O motivo: uma PEC, proposta pra mudar a Constituição e limitar gastos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Low-angle slow upward tilt with a gentle push-in on the modernist white domes and towers of the National Congress building in Brasília under a bright blue sky with moving clouds. Empty plaza, no people recognizable, no flags, no signs, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Macro close-up on a tabletop: a plain blank dark credit card with no markings lying beside a thick stack of blank paper bills, soft window light. Camera slowly slides sideways and racks focus from the card to the paper stack, then a hand-less scissors slides into frame next to the card. No faces, no text, no letters, no numbers, no logos",
+   "texto_da_fala": "É como prometer largar o cartão: a fatura só cai cumprindo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro close-up on a tabletop: a plain blank dark credit card with no markings lying beside a thick stack of blank paper bills, soft window light. Camera slowly slides sideways and racks focus from the card to the paper stack, then a hand-less scissors slides into frame next to the card. No faces, no text, no letters, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar caiu pra R$ 5,82. Mas a crise não acabou.\n\nDólar menor tende a baratear o que vem de fora.\n\nA bolsa, onde se negociam ações, subiu, mas segue longe do recorde de outubro.\n\nO motivo: uma PEC, proposta pra mudar a Constituição e limitar gastos.\n\nPouca gente viu: essa PEC ainda não foi aprovada.\n\nÉ como prometer largar o cartão: a fatura só cai cumprindo.\n\nNo termômetro, o Brasil marca 66 e o mundo segue em Tensão.\n\nPasso calmo: acompanha a PEC, sem decidir nada no impulso.\n\nManda pra quem vai viajar ou paga conta em dólar.\n\nAlívio ou promessa? Comenta ALÍVIO ou PROMESSA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-25",
+ "gerado_em": "2026-11-25T18:32:41.433494-03:00",
+ "enviado_whatsapp": "2026-11-25T18:33:42.249054-03:00"
+}
