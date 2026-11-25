@@ -1,0 +1,85 @@
+{
+ "titulo": "Black Friday 2026 golpes e desconto verdadeiro: o que se sabe",
+ "descricao": "Black Friday é sexta (27/11). Veja como checar se o desconto é verdadeiro, evitar loja falsa e golpe no Pix, com dados da Serasa, Procon e Timelens.",
+ "palavra_chave": "black friday 2026 golpes",
+ "lead": "A Black Friday cai nesta sexta-feira (27/11). A Neotrust projeta R$ 13,3 bilhões nas vendas online entre quinta (26) e domingo (29), alta de 20,7% sobre 2025. É uma estimativa de mercado, não um dado oficial. Procon, Serasa e Reclame Aqui alertam para loja falsa, golpe no Pix e preço maquiado. Na edição de 2025, a Timelens viu que 45,4% dos produtos monitorados não deram economia real.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Confi, dona da plataforma Neotrust, projeta R$ 13,3 bilhões em vendas online entre 26 e 29 de novembro, alta de 20,7% sobre o mesmo período de 2025. A projeção foi apresentada em 13/10, com a entidade E-Commerce Brasil.",
+   "fonte_url": "https://exame.com/invest/mercados/black-friday-deve-movimentar-r-133-bilhoes-mas-crise-no-varejo-desafia-vendas-2/",
+   "data": "2026-10-13",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "A mesma projeção diz que o valor pode chegar a R$ 13,7 bilhões se o ritmo do início de novembro continuar. O 11.11 movimentou R$ 3,8 bilhões, alta de 44,9% sobre 2025, segundo a Confi/Neotrust.",
+   "fonte_url": "https://forbes.com.br/forbes-money/2026/11/black-friday-2026-deve-movimentar-13-bilhoes-ecommerce-queda-inadimplencia/",
+   "data": "2026-11-20",
+   "veiculo": "Forbes Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Na Black Friday de 2025, a Timelens acompanhou 2.373 produtos e mais de 809 mil registros de preços. Em 45,4% deles não houve economia real: 21% ficaram com o mesmo preço, 21% ficaram mais caros e 3,4% tiveram falso desconto, quando o preço sobe antes para simular uma queda.",
+   "fonte_url": "https://www.cadaminuto.com.br/noticia/2026/11/19/black-friday-2026-descontos-falsos-e-golpes-exigem-atencao-dos-consumidores-veja-como-se-proteger",
+   "data": "2026-11-19",
+   "veiculo": "Cada Minuto",
+   "confiavel": false
+  },
+  {
+   "texto": "A Serasa identificou 604 anúncios falsos de promoções na Black Friday de 2025. O volume ficou 147% acima da média semanal das três semanas anteriores ao evento.",
+   "fonte_url": "https://www.cadaminuto.com.br/noticia/2026/11/19/black-friday-2026-descontos-falsos-e-golpes-exigem-atencao-dos-consumidores-veja-como-se-proteger",
+   "data": "2026-11-19",
+   "veiculo": "Cada Minuto",
+   "confiavel": false
+  },
+  {
+   "texto": "Em pesquisa da Serasa Experian divulgada em 28/10, sites falsos são a fraude mais citada pelos consumidores, com 53%. O Reclame Aqui lista pagamento sem entrega (67%) e sites falsos (30%) como golpes mais comuns. O Reclame Aqui também tem um Detector de Sites, que mostra o tempo de atividade do endereço, a hospedagem e as reclamações.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/23/golpes-na-black-friday-2026-como-conferir-loja-pix-e-cartao-antes-de",
+   "data": "2026-11-23",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "O Procon-MG alerta para golpes com inteligência artificial, com vídeos, imagens e vozes falsas de famosos, e para anúncios de influenciadores com preços muito abaixo do normal. O órgão recomenda desconfiar de preços muito baixos e de links recebidos por mensagem.",
+   "fonte_url": "https://arede.info/cotidiano/694514/procon-alerta-para-golpes-com-ia-na-black-friday",
+   "data": "2026-11-23",
+   "veiculo": "A Rede",
+   "confiavel": false
+  },
+  {
+   "texto": "O Procon mantém uma lista de sites a evitar. Eles tiveram queixas por subir o preço antes para vender pelo preço normal como se fosse oferta, por falta de estoque e por cancelamento de compra. Foram notificados e não responderam ou não foram encontrados.",
+   "fonte_url": "https://www.cadaminuto.com.br/noticia/2026/11/19/black-friday-2026-descontos-falsos-e-golpes-exigem-atencao-dos-consumidores-veja-como-se-proteger",
+   "data": "2026-11-19",
+   "veiculo": "Cada Minuto",
+   "confiavel": false
+  },
+  {
+   "texto": "Em pesquisa da Serasa Experian com 1.480 consumidores, 45% querem comprar eletrônicos e 36% veem a data como chance de renegociar dívidas. A reportagem também orienta guardar capturas de tela com data para provar o preço anterior.",
+   "fonte_url": "https://strong.com.br/blog/black-friday-2026-dados-tendencias/",
+   "data": "2026-11-18",
+   "veiculo": "Strong",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [],
+ "o_que_nao_se_sabe": [
+  "Quanto o e-commerce vai faturar de fato. Os R$ 13,3 bilhões são projeção de empresa privada. A Exame lembra que o resultado pode ficar abaixo se a demanda não for absorvida por outros lojistas. A Forbes cita a possibilidade de R$ 13,7 bilhões. O número final só sai depois de domingo (29).",
+  "Se os descontos de 2026 serão reais. Não há levantamento de preços de 2026 nas fontes consultadas. O dado da Timelens é de 2025 e cobre produtos monitorados em sites comparadores, não todo o varejo.",
+  "Quantos golpes vão ocorrer neste ano. Os números de fraude citados são da Black Friday de 2025 ou de pesquisas de opinião. Não encontramos balanço de 2026.",
+  "Quantos casos de golpe com inteligência artificial o Procon de Minas recebeu. Segundo o site Antihype, o órgão não divulgou esse número. Não foi confirmado por outra fonte.",
+  "Se o endividamento das famílias vai reduzir as compras. A Neotrust cita o tema como fator relevante, segundo o Jornal do Commercio, mas não apresentou uma estimativa."
+ ],
+ "o_que_muda_para_voce": [
+  "Um desconto grande no anúncio não prova economia. Em 2025, segundo a Timelens, quase metade dos produtos monitorados não ficou mais barata de verdade. Compare com o preço de semanas atrás.",
+  "Quem paga por Pix em loja desconhecida tem menos proteção prática. O dinheiro sai na hora, e a devolução depende de pedido ao banco e de haver saldo na conta de quem recebeu.",
+  "No cartão parcelado, o valor de cada parcela soma na fatura dos próximos meses. Some o total e o frete antes de fechar, para não comprometer o orçamento.",
+  "Quem quer renegociar dívida na data deve entrar pelos canais oficiais da empresa ou da Serasa, digitados por você. Evite links recebidos por mensagem ou anúncio.",
+  "Se houver problema com a compra (atraso, produto diferente), o caminho é a loja, o consumidor.gov.br e o Procon. O Pix de golpe segue outro caminho, o do banco."
+ ],
+ "como_se_proteger": [],
+ "slug": "black-friday-2026-golpes",
+ "publicado_em": "2026-11-25T13:14:53.717622",
+ "atualizado_em": "2026-11-25T13:14:53.717622",
+ "assunto": "A Black Friday cai nesta sexta (27/11), e as projeções indicam R$ 13,3 bi no e-commerce entre quinta (26) e domingo (29), alta de 20,7% sobre 2025 (Neotrust). Procon, Serasa e Reclame Aqui alertam para golpes de loja falsa e Pix, e para a maquiagem de preços.",
+ "turno": "tarde"
+}
