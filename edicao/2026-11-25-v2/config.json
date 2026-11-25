@@ -1,0 +1,113 @@
+{
+ "saida": "desconto-diesel-acaba-editado.mp4",
+ "fim": 61.6,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "R",
+    "$2",
+    ",12"
+   ],
+   [
+    "R$",
+    "2,12"
+   ]
+  ],
+  [
+   [
+    "R",
+    "$2",
+    ",12."
+   ],
+   [
+    "R$",
+    "2,12."
+   ]
+  ],
+  [
+   [
+    "tá?"
+   ],
+   [
+    "tá"
+   ]
+  ],
+  [
+   [
+    "Diesel?"
+   ],
+   [
+    "Diesel"
+   ]
+  ],
+  [
+   [
+    "E?"
+   ],
+   [
+    "E"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Petróleo"
+ ],
+ "destaques": "\\d|diesel|amanhã|subsídio|desconto|frete|comida|bilhões|renova|não",
+ "cartoes": [
+  [
+   0.1,
+   4.1,
+   "O desconto do diesel *acaba amanhã*",
+   ""
+  ],
+  [
+   4.2,
+   8.7,
+   "O subsídio vai pra produtor e importador: o fim *não sobe a bomba na hora*",
+   "Fonte: Ministério da Fazenda (Portaria MF 3.181/2026)"
+  ],
+  [
+   12.1,
+   19.2,
+   "Subsídio de *R$ 2,12* por litro vence quinta (26/11)",
+   "Fonte: Ministério da Fazenda (Portaria MF 3.181/2026)"
+  ],
+  [
+   21.3,
+   28.6,
+   "Diesel S10: *R$ 7,29* o litro; o subsídio é *29%* disso",
+   "Fonte: ANP (semana de 8 a 14/11/2026)"
+  ],
+  [
+   29.1,
+   33.0,
+   "Até 24/11: *sem anúncio* de renovação",
+   "Fonte: Estradas e DGABC (24/11/2026)"
+  ],
+  [
+   33.5,
+   36.9,
+   "Petróleo lá fora: *US$ 91* o barril (24/11)",
+   "Fonte: DGABC (24/11/2026)"
+  ],
+  [
+   45.1,
+   51.9,
+   "Diesel → frete → *comida mais cara*",
+   ""
+  ],
+  [
+   52.5,
+   55.9,
+   "O subsídio custa cerca de *R$ 40 bilhões* em 2026",
+   "Fonte: Metrópoles (08/11/2026)"
+  ],
+  [
+   56.3,
+   59.2,
+   "Comenta: o governo *renova*? SIM ou NÃO",
+   ""
+  ]
+ ]
+}

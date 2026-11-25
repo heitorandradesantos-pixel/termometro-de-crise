@@ -1,0 +1,98 @@
+{
+ "saida": "tesouro-deu-lucro-editado.mp4",
+ "fim": 61.43,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "R",
+    "$15",
+    ",33"
+   ],
+   [
+    "15,33%"
+   ]
+  ],
+  [
+   [
+    "R",
+    "$14",
+    ",87."
+   ],
+   [
+    "14,87%."
+   ]
+  ],
+  [
+   [
+    "Mas,"
+   ],
+   [
+    "Mas"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Tesouro",
+  "Prefixado",
+  "Câmara"
+ ],
+ "destaques": "\\d|lucro|tesouro|prefixado|taxa|vender|vende|segura",
+ "cartoes": [
+  [
+   0.3,
+   5.3,
+   "O Tesouro que caiu agora *deu lucro* num dia",
+   ""
+  ],
+  [
+   11.4,
+   15.0,
+   "As taxas do Tesouro *despencaram*",
+   "Fonte: Money Times (24/11/2026)"
+  ],
+  [
+   15.0,
+   21.5,
+   "Prefixado 2029: de *15,33%* pra *14,87%* ao ano",
+   "Fonte: Money Times (19/11 e 24/11/2026)"
+  ],
+  [
+   21.6,
+   26.3,
+   "Taxa cai: o título que você já tem *vale mais*",
+   ""
+  ],
+  [
+   26.8,
+   31.7,
+   "R$ 10 mil no Tesouro longo: *+R$ 112* em um dia",
+   "Fonte: InvestNews (24/11/2026), Educa+ 2044, antes do IR",
+   {
+    "tipo": "variacao",
+    "de": "R$ 10.000",
+    "para": "R$ 10.112",
+    "delta": "R$ 112",
+    "sobe": true
+   }
+  ],
+  [
+   33.3,
+   37.5,
+   "Câmara aprovou o ajuste fiscal: *353 x 128*",
+   "Fonte: Money Times (24/11/2026)"
+  ],
+  [
+   40.0,
+   48.2,
+   "O lucro só existe se você *vender antes* do vencimento",
+   ""
+  ],
+  [
+   51.8,
+   58.8,
+   "Comenta: *1* vende, *2* segura",
+   ""
+  ]
+ ]
+}

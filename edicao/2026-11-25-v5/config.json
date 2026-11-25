@@ -1,0 +1,149 @@
+{
+ "saida": "cdi-primo-da-selic-editado.mp4",
+ "fim": 56.1,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "O",
+    "que",
+    "acontece",
+    "se",
+    "o",
+    "primo"
+   ],
+   [
+    "Esse",
+    "é",
+    "o",
+    "primo"
+   ]
+  ],
+  [
+   [
+    "Céu",
+    "a",
+    "arde,",
+    "somos"
+   ],
+   [
+    "Sem",
+    "alarde,",
+    "eu",
+    "sou"
+   ]
+  ],
+  [
+   [
+    "Se",
+    "o",
+    "Selic"
+   ],
+   [
+    "Se",
+    "a",
+    "Selic"
+   ]
+  ],
+  [
+   [
+    "13",
+    ",75"
+   ],
+   [
+    "13,75%"
+   ]
+  ],
+  [
+   [
+    "13",
+    ",65."
+   ],
+   [
+    "13,65%."
+   ]
+  ],
+  [
+   [
+    "porcento"
+   ],
+   [
+    "por",
+    "cento"
+   ]
+  ],
+  [
+   [
+    "do?"
+   ],
+   [
+    "do"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Selic",
+  "CDI",
+  "CDB"
+ ],
+ "destaques": "\\d|cdi|selic|cdb|primo|imposto|menos|mais",
+ "cartoes": [
+  [
+   0.0,
+   6.4,
+   "CDI: o *primo da Selic* em 1 minuto",
+   ""
+  ],
+  [
+   11.0,
+   16.2,
+   "CDI: o juro de *um dia* entre bancos",
+   ""
+  ],
+  [
+   19.3,
+   25.9,
+   "Selic *13,75%* · CDI *13,65%*",
+   "Fonte: Copom (04/11/2026) e DGABC (24/11/2026)",
+   {
+    "tipo": "barras",
+    "itens": [
+     {
+      "rotulo": "Selic",
+      "valor": 13.75,
+      "texto": "13,75%"
+     },
+     {
+      "rotulo": "CDI",
+      "valor": 13.65,
+      "texto": "13,65%"
+     }
+    ]
+   }
+  ],
+  [
+   31.5,
+   37.1,
+   "*100% do CDI* = o CDI inteiro, antes do imposto",
+   ""
+  ],
+  [
+   37.7,
+   40.2,
+   "*90% do CDI* = um pedaço menor",
+   ""
+  ],
+  [
+   43.0,
+   48.4,
+   "Selic cai → CDI cai → *CDB rende menos*",
+   ""
+  ],
+  [
+   48.9,
+   53.7,
+   "Comenta: rende *mais ou menos* de 100% do CDI?",
+   ""
+  ]
+ ]
+}

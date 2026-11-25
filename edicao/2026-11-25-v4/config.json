@@ -1,0 +1,121 @@
+{
+ "saida": "o-que-e-a-selic-editado.mp4",
+ "fim": 55.55,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "Muitos",
+    "se",
+    "falam"
+   ],
+   [
+    "Muito",
+    "se",
+    "fala"
+   ]
+  ],
+  [
+   [
+    "trenque"
+   ],
+   [
+    "trem"
+   ]
+  ],
+  [
+   [
+    "13",
+    ",75",
+    "%"
+   ],
+   [
+    "13,75%"
+   ]
+  ],
+  [
+   [
+    "Selic",
+    "baixo"
+   ],
+   [
+    "Selic",
+    "baixa"
+   ]
+  ],
+  [
+   [
+    "Quem?"
+   ],
+   [
+    "Quem"
+   ]
+  ],
+  [
+   [
+    "Porque?"
+   ],
+   [
+    "Porque"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Selic",
+  "Banco",
+  "Central",
+  "Tesouro",
+  "CDB"
+ ],
+ "destaques": "\\d|selic|juros|caro|rendem|render|sobe|cai|fica|bio",
+ "cartoes": [
+  [
+   0.2,
+   4.2,
+   "O que é a *Selic* e por que ela mexe em tudo",
+   ""
+  ],
+  [
+   8.6,
+   13.0,
+   "Selic: a *taxa básica de juros*, decidida pelo Banco Central",
+   "Fonte: Banco Central do Brasil"
+  ],
+  [
+   13.3,
+   17.4,
+   "Selic hoje: *13,75%* ao ano",
+   "Fonte: Copom (04/11/2026)"
+  ],
+  [
+   17.7,
+   23.1,
+   "Pausa em novembro; próxima decisão: *9 de dezembro*",
+   "Fonte: calendário do Copom"
+  ],
+  [
+   30.1,
+   35.6,
+   "Selic alta: empréstimo, cartão e financiamento *mais caros*",
+   ""
+  ],
+  [
+   35.9,
+   38.6,
+   "E o Tesouro Selic e o CDB *rendem mais*",
+   ""
+  ],
+  [
+   45.0,
+   47.2,
+   "Faça a conta: calculadora da Selic no *link da bio*",
+   ""
+  ],
+  [
+   47.5,
+   53.3,
+   "Em dezembro a Selic *sobe, cai ou fica*?",
+   ""
+  ]
+ ]
+}

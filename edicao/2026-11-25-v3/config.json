@@ -1,0 +1,110 @@
+{
+ "saida": "real-mais-apanhou-editado.mp4",
+ "fim": 63.56,
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "5",
+    ",91."
+   ],
+   [
+    "5,91."
+   ]
+  ],
+  [
+   [
+    "15",
+    "%"
+   ],
+   [
+    "15%"
+   ]
+  ],
+  [
+   [
+    "O?"
+   ],
+   [
+    "O"
+   ]
+  ],
+  [
+   [
+    "Vixe,?"
+   ],
+   [
+    "Vixe,"
+   ]
+  ],
+  [
+   [
+    "o?"
+   ],
+   [
+    "o"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Real",
+  "Dólar"
+ ],
+ "destaques": "\\d|real|dólar|moeda|apanhou|perdeu|celular|remédio|peça|juro",
+ "cartoes": [
+  [
+   0.2,
+   7.2,
+   "O real foi a moeda que *mais apanhou* no mundo",
+   ""
+  ],
+  [
+   9.3,
+   17.8,
+   "32 moedas: o real foi a que *mais perdeu*",
+   "Fonte: Research XP via InfoMoney (21/10 a 20/11/2026)"
+  ],
+  [
+   18.1,
+   20.7,
+   "Real: *-14,6%* em um mês",
+   "Fonte: Research XP via InfoMoney (24/11/2026)"
+  ],
+  [
+   21.4,
+   26.7,
+   "23/11: dólar *passou de R$ 6*, 1ª vez desde abril de 2025",
+   "Fonte: InfoMoney (24/11/2026)"
+  ],
+  [
+   27.1,
+   29.0,
+   "24/11: dólar fechou a *R$ 5,91*",
+   "Fonte: DGABC (24/11/2026)"
+  ],
+  [
+   30.5,
+   32.4,
+   "Motivo: *medo com as contas* do governo",
+   "Fonte: gestores ouvidos pelo InfoMoney (24/11/2026)"
+  ],
+  [
+   37.3,
+   45.6,
+   "Real fraco encarece *celular, remédio e peça*",
+   ""
+  ],
+  [
+   46.1,
+   51.4,
+   "Gestor vê risco de a *Selic subir* em 2027",
+   "Fonte: Asset 1 via InfoMoney (24/11/2026)"
+  ],
+  [
+   51.5,
+   60.7,
+   "Comenta: o dólar volta pra *baixo de R$ 5*?",
+   ""
+  ]
+ ]
+}
