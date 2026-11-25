@@ -1,0 +1,114 @@
+{
+ "titulo": "Trump novas tarifas China hoje: o que se sabe",
+ "descricao": "EUA propõem tarifas sobre 14 parceiros, com 20% extra para a China. É só proposta. Brasil está fora da lista, mas tem outra proposta. Veja o que se sabe.",
+ "palavra_chave": "trump novas tarifas china hoje",
+ "lead": "O governo dos EUA propôs na quarta-feira (25/11) novas tarifas sobre 14 parceiros comerciais, entre eles China, União Europeia, Japão e Coreia do Sul. O motivo declarado é o \"excesso de capacidade\" industrial, quando um país produz mais do que precisa e exporta o resto a preço baixo. É uma proposta, não uma tarifa em vigor: haverá consulta pública antes da decisão final. O Brasil não está nessa lista, mas tem uma proposta separada, com açúcar e aviões.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Na quarta-feira (25/11), os EUA propuseram novas tarifas sobre 14 parceiros para combater o que chamam de excesso estrutural de capacidade industrial. As taxas mais altas ficam com a China.",
+   "fonte_url": "https://tmc.com.br/mundo/eua-propoem-novas-tarifas-sobre-parceiros-comerciais/",
+   "data": "2026-11-25",
+   "veiculo": "TMC",
+   "confiavel": false
+  },
+  {
+   "texto": "A lista tem China, União Europeia, Japão, Coreia do Sul, Índia, Taiwan, Vietnã, Tailândia, Malásia, Singapura, Indonésia, Camboja, Bangladesh e Suíça. México e Noruega foram investigados, mas ficaram fora da proposta; os EUA ainda avaliam esses casos.",
+   "fonte_url": "https://qz.com/trump-proposes-tariffs-china-eu-overcapacity-112526",
+   "data": "2026-11-25",
+   "veiculo": "Quartz",
+   "confiavel": false
+  },
+  {
+   "texto": "Para a China, a proposta é uma tarifa de 20% por excesso de capacidade, somada aos cerca de 25% criados em 2018, no primeiro mandato de Trump. Um 'piso' de 20%, como circulou, não é o que as fontes descrevem: os 20% são a taxa proposta e também o teto da trégua com Pequim.",
+   "fonte_url": "https://www.investmentnews.com/equities/new-section-301-tariffs-target-china-eu-and-12-other-trade-partners/269172",
+   "data": "2026-11-25",
+   "veiculo": "InvestmentNews",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a CNBC, a tarifa sobre a China pode chegar a 40% se Pequim não cumprir o acordo da trégua. Uma autoridade dos EUA disse que a trégua vence em 10 de janeiro.",
+   "fonte_url": "https://qz.com/trump-proposes-tariffs-china-eu-overcapacity-112526",
+   "data": "2026-11-25",
+   "veiculo": "Quartz (citando CNBC)",
+   "confiavel": false
+  },
+  {
+   "texto": "O representante comercial dos EUA, Jamieson Greer, disse que as taxas finais de cada parceiro não passarão dos níveis já acertados em acordos anteriores. Exemplo: o teto de 15% para a União Europeia foi reafirmado. As novas tarifas não se somam às atuais, exceto no caso da China.",
+   "fonte_url": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087",
+   "data": "2026-11-25",
+   "veiculo": "NBC News",
+   "confiavel": false
+  },
+  {
+   "texto": "Ainda não é tarifa em vigor. A proposta passa por consulta pública e audiências, e as taxas poderiam valer a partir de janeiro, segundo uma autoridade ouvida pela Axios. Uma autoridade estimou que a proposta eleva as tarifas atuais, em média, cerca de 5 pontos percentuais.",
+   "fonte_url": "https://www.axios.com/2026/11/25/trump-tariffs-china",
+   "data": "2026-11-25",
+   "veiculo": "Axios",
+   "confiavel": true
+  },
+  {
+   "texto": "O Ministério das Relações Exteriores da China disse que o 'excesso de capacidade' não existe de fato. Uma autoridade dos EUA disse não esperar retaliação de Pequim contra essas tarifas.",
+   "fonte_url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+   "data": "2026-11-25",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "O Brasil não está entre os 14 parceiros e segue sujeito às tarifas de julho: 25% sobre mais de 2.200 produtos e 12,5% de outra investigação. Mas o USTR (escritório de comércio dos EUA) propôs, também em 25/11, uma tarifa de 10% sobre aviões brasileiros acabados e novas taxas sobre certos tipos de açúcar. A consulta pública vai de 27/11 a 30/12, com audiência em 14 de janeiro de 2027.",
+   "fonte_url": "https://www.canalrural.com.br/economia/eua-abrem-consulta-para-elevar-tarifas-sobre-acucar-do-brasil/",
+   "data": "2026-11-25",
+   "veiculo": "Canal Rural",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Os EUA abrem investigações da Seção 301 sobre excesso de capacidade industrial em 16 economias.",
+   "fonte_url": "https://spglobal.com/energy/en/news-research/latest-news/agriculture/031226-us-opens-section-301-trade-probes-into-16-countries-including-eu-china-india",
+   "data": "2026-03-11",
+   "veiculo": "S&P Global",
+   "confiavel": false
+  },
+  {
+   "texto": "Em julho, os EUA aplicam tarifas de 10% a 12,5% sobre 60 economias, incluindo China, União Europeia e Brasil, por causa de trabalho forçado.",
+   "fonte_url": "https://timesbrasil.com.br/mundo/eua-novas-tarifas-trump-parceiros-comerciais-china-uniao-europeia/",
+   "data": "2026-07-15",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "Terça-feira (24/11): o Wall Street Journal diz que Greer poderia anunciar as medidas ainda na semana. O anúncio oficial ainda não tinha saído. Nesse dia, os EUA também impediram o Brasil de abrir um painel na OMC contra as tarifas.",
+   "fonte_url": "https://wwd.com/sourcing-journal/trade/section-301-tariffs-excess-industrial-capacity-china-eu-vietnam-1239463977/",
+   "data": "2026-11-24",
+   "veiculo": "Sourcing Journal (citando WSJ)",
+   "confiavel": false
+  },
+  {
+   "texto": "Quarta-feira (25/11): o USTR propõe as tarifas sobre 14 parceiros e, em separado, mudanças nas tarifas sobre o Brasil.",
+   "fonte_url": "https://www.metropoles.com/mundo/governo-trump-ameaca-ampliar-tarifas-sobre-acucar-e-avioes-do-brasil",
+   "data": "2026-11-25",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "As alíquotas finais de cada país. Greer diz que ficam dentro dos acordos anteriores, mas isso depende da consulta pública e de negociações, e a decisão final pode sair em janeiro, no mínimo, segundo a Bloomberg.",
+  "Se a China vai reagir. Pequim rejeitou a tese dos EUA, mas não há confirmação de retaliação; a expectativa de que não haverá é de uma autoridade americana.",
+  "Por que o Brasil ficou fora da lista. As fontes consultadas não trazem uma explicação oficial. A ideia de que seria porque o país já tem sobretaxas não foi confirmada.",
+  "Se México e Noruega receberão tarifas. Os dois ainda estão sob avaliação, segundo a Quartz.",
+  "O efeito sobre dólar e bolsa no Brasil, e sobre as vendas de soja e minério à China. Nenhuma fonte checada mostra esse efeito. É um canal possível, não um fato."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda no preço de produtos ou nas tarifas pagas: é uma proposta, e a consulta pública vem antes da decisão.",
+  "Notícias de tarifas podem mexer com o humor dos mercados e, por esse caminho, com o dólar e a bolsa daqui. Mas as fontes checadas não trazem dados de mercado desta quarta, então não dá para afirmar o tamanho do efeito.",
+  "O Brasil fora da lista não quer dizer imunidade. A China compra soja e minério do Brasil, e uma desaceleração do comércio global poderia chegar por aí. Isso é um cenário possível, sem fonte confirmando.",
+  "Quem tem ações ou trabalha em setores como açúcar e aviação (Embraer, segundo o USTR) deve acompanhar a proposta separada para o Brasil. Os prazos são 27/11 a 30/12 para comentários e 14/01/2027 para a audiência.",
+  "Tarifas dos EUA são cobradas nas compras americanas. Elas não encarecem de forma direta produtos importados no Brasil."
+ ],
+ "como_se_proteger": [],
+ "slug": "trump-novas-tarifas-china-hoje",
+ "publicado_em": "2026-11-25T11:44:20.716330",
+ "atualizado_em": "2026-11-25T11:44:20.716330",
+ "assunto": "O governo Trump propôs, entre terça (24) e quarta (25/11), uma nova rodada de tarifas sobre 14 a 16 parceiros comerciais, entre eles China, União Europeia, Japão e Coreia do Sul. As tarifas usam a Seção 301 e miram o 'excesso de capacidade' industrial. Para a China, o piso seria de 20%, o teto já combinado na trégua, e poderia chegar a 40% se as negociações falharem. O representante comercial dos EUA diz que as taxas finais não passam dos acordos anteriores. O Brasil não está na lista porque já tem sobretaxas. Status: proposta, não tarifa em vigor. Os veículos divergem se o anúncio foi na terça ou na quarta; a NBC e o InfoMoney têm datas diferentes, então a data exata precisa ser checada antes de publicar.",
+ "turno": "meio"
+}
