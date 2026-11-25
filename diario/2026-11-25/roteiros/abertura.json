@@ -1,0 +1,193 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / contraste",
+  "texto": "O Nasdaq aponta queda de 2,78%, e o Ibovespa abriu subindo.",
+  "na_tela": "Lá fora CAI. Aqui SOBE.",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / contraste",
+   "texto": "O Nasdaq aponta queda de 2,78%, e o Ibovespa abriu subindo.",
+   "na_tela": "Lá fora CAI. Aqui SOBE.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "O mundo amanheceu no vermelho. A bolsa daqui vai junto?",
+   "na_tela": "O mundo caiu. E a bolsa daqui?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "O termômetro do Brasil fechou ontem em 65. Hoje o mundo amanheceu no vermelho.",
+   "na_tela": "Brasil em 65. Hoje?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "O Nasdaq aponta queda de 2,78%, e o Ibovespa abriu subindo.",
+  "Nova York ainda nem abriu, mas os futuros já apontam queda.",
+  "Futuro é a prévia do jogo da bolsa de lá.",
+  "A Ásia fechou toda no vermelho, e a Europa também recua.",
+  "Mas olha o contraste: aqui o Ibovespa abriu com alta de 0,37%.",
+  "O dólar, a R$ 5,89, também deu uma recuada.",
+  "É nuvem escura no horizonte e ainda sol na sua rua.",
+  "Hoje, olha Nova York e não decide dinheiro no susto.",
+  "Você acha que o vermelho de lá chega aqui? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "O Nasdaq aponta queda de 2,78%, e o Ibovespa abriu subindo. Nova York ainda nem abriu, mas os futuros já apontam queda. Futuro é a prévia do jogo da bolsa de lá. A Ásia fechou toda no vermelho, e a Europa também recua. Mas olha o contraste: aqui o Ibovespa abriu com alta de 0,37%. O dólar, a R$ 5,89, também deu uma recuada. É nuvem escura no horizonte e ainda sol na sua rua. Hoje, olha Nova York e não decide dinheiro no susto. Você acha que o vermelho de lá chega aqui? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 105,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "Lá fora CAI. Aqui SOBE.",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nasdaq (futuros) ▼2,78%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Ásia e Europa no vermelho",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Ibovespa ▲0,37%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 5,
+   "texto": "Dólar R$ 5,89",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 7,
+   "texto": "Sem decidir no susto"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Ibovespa hoje e dólar hoje: como o mundo amanheceu em 25/11",
+ "legenda": "Ibovespa hoje e dólar hoje: como o mundo amanheceu em 25/11.\n\nOs futuros de Nova York, que mostram como a bolsa de lá deve abrir, apontam queda: Nasdaq ▼2,78%, segundo o Yahoo Finance. A Ásia fechou no vermelho e a Europa recua.\n\nAqui, o Ibovespa abriu com alta de 0,37% e o dólar a R$ 5,89, segundo o Yahoo Finance. Nuvem escura lá fora, e ainda sol na sua rua.\n\nPasso simples: acompanhe a abertura de Nova York e não decida dinheiro no susto da manhã.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#ibovespa #dolar #mercadofinanceiro #educacaofinanceira",
+ "hashtags": [
+  "#ibovespa",
+  "#dolar",
+  "#mercadofinanceiro",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "O Nasdaq aponta queda de 2,78%, mas o Ibovespa abriu subindo.",
+  "topicos": [
+   "Yahoo Finance: futuros do Nasdaq apontam queda de 2,78%; Ásia fechou toda no vermelho.",
+   "Aqui, o Ibovespa abriu com alta de 0,37% e o dólar a R$ 5,89.",
+   "Hoje, olha a abertura de Nova York e não decide dinheiro no susto."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "A abertura reúne vários mercados e pede explicação calma, melhor na bancada do que na rua.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Futuro é a prévia do jogo da bolsa de lá\" e \"Nasdaq aponta queda de 2,78%\": a peça nunca diz o que isso muda no bolso de quem não investe. Acrescente uma linha ligando ao dia a dia, por exemplo: \"se você não tem investimento, hoje nada muda na sua conta. Se tem, não precisa mexer por causa de uma manhã\". Assim responde \"isso mexe no meu bolso?\". Não crie número novo.",
+   "Frase \"Hoje, olha Nova York e não decide dinheiro no susto\": o passo é vago e a frase é truncada (\"olha Nova York\" soa estranho). Reescreva em ordem direta e com um passo concreto: \"Hoje, espera Nova York abrir pra ver como ela fecha e não decide nada no susto da manhã\". Fica mais fleumático e calmo, sem sugerir que a pessoa deva operar.",
+   "Abertura \"O Nasdaq aponta queda de 2,78%, e o Ibovespa abriu subindo\" e as falas com três números seguidos (2,78%, 0,37%, R$ 5,89): lê como manchete de teleprompter e quebra o teste do CLT. Abra com a reação do Heitor (\"Cara, olha o contraste hoje\"), arredonde na fala (\"uns 2,8%\", \"quase 0,4%\") e deixe os valores exatos no cartão da tela. Diga \"segundo o Yahoo Finance\" só na legenda, ou \"segundo o mercado\" na fala. Troque também \"no vermelho\" e \"futuros\" por uma explicação mais simples, sem enfeitar o fato."
+  ],
+  "veredito": "A peça tem boa imagem (nuvem escura lá, sol na sua rua), um passo calmo e um gatilho de comentário fácil, mas falta dizer o que muda no bolso. Os números vêm empilhados e o tom é de boletim, não de conversa de portão."
+ },
+ "viral": {
+  "nota": 3,
+  "notas": {
+   "gancho": 0,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho. Frase: \"O Nasdaq aponta queda de 2,78%, e o Ibovespa abriu subindo.\" Abre com jargão, sem lacuna do bolso, e a frase se contradiz. Reescrita: \"Cara, o dólar abriu a R$ 5,89 hoje. E lá fora a prévia da bolsa de Nova York aponta queda de 2,78%. Será que chega aqui?\"",
+   "Retenção. Frase: \"Nova York ainda nem abriu, mas os futuros já apontam queda. Futuro é a prévia do jogo da bolsa de lá.\" São falas seguidas de lista de mercados, sem virada. Reescrita: \"A Ásia fechou no vermelho. A Europa também recua. E aí vem a parte que pouca gente viu: aqui, a bolsa abriu subindo 0,37%.\"",
+   "Envio. Frase: \"Você acha que o vermelho de lá chega aqui? Comenta SIM ou NÃO.\" O comentário está bom, mas falta pedir o envio para uma situação concreta. Reescrita: \"Você acha que a queda de lá chega aqui? Comenta SIM ou NÃO. E manda pra quem olha o dólar todo dia antes de pagar uma conta.\""
+  ],
+  "veredito": "O roteiro é correto e calmo, mas abre com jargão de mercado e uma frase que se contradiz, sem lacuna do bolso e sem motivo para mandar a alguém. Para viralizar, falta abrir pelo dólar a R$ 5,89, dar uma virada clara no meio e pedir o envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Pre-dawn in Lower Manhattan: the empty, silent street in front of a neoclassical stock exchange building with tall stone columns, no flags and no readable signs. Cold blue light, a thin mist at street level, traffic lights changing on an empty road. Slow cinematic dolly-in toward the columns, with the first faint glow of morning behind the skyscrapers. No recognizable people, no text",
+   "texto_da_fala": "Nova York ainda nem abriu, mas os futuros já apontam queda.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Pre-dawn in Lower Manhattan: the empty, silent street in front of a neoclassical stock exchange building with tall stone columns, no flags and no readable signs. Cold blue light, a thin mist at street level, traffic lights changing on an empty road. Slow cinematic dolly-in toward the columns, with the first faint glow of morning behind the skyscrapers. No recognizable people, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Aerial drone shot at dusk over a dense Asian financial district, with glass towers lit by deep red and crimson light reflecting off the windows and a dark red sky. Slow upward crane move that reveals more of the skyline, then a gentle tilt toward a gloomy European skyline in gray drizzle, with a soft dissolve between the two. No readable signs, no logos, no people in focus, no text",
+   "texto_da_fala": "A Ásia fechou toda no vermelho, e a Europa também recua.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial drone shot at dusk over a dense Asian financial district, with glass towers lit by deep red and crimson light reflecting off the windows and a dark red sky. Slow upward crane move that reveals more of the skyline, then a gentle tilt toward a gloomy European skyline in gray drizzle, with a soft dissolve between the two. No readable signs, no logos, no people in focus, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "A quiet Brazilian neighborhood street in warm sunlight, with sidewalks, small shops with blank awnings, parked cars and trees. Far on the horizon, a huge dark storm cloud mass looms over the skyline. Slow forward tracking shot down the sunny street toward the dark clouds, with golden light on the foreground and shadows in the distance. No recognizable people, no text, no logos",
+   "texto_da_fala": "É nuvem escura no horizonte e ainda sol na sua rua.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A quiet Brazilian neighborhood street in warm sunlight, with sidewalks, small shops with blank awnings, parked cars and trees. Far on the horizon, a huge dark storm cloud mass looms over the skyline. Slow forward tracking shot down the sunny street toward the dark clouds, with golden light on the foreground and shadows in the distance. No recognizable people, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "O Nasdaq aponta queda de 2,78%, e o Ibovespa abriu subindo.\n\nNova York ainda nem abriu, mas os futuros já apontam queda.\n\nFuturo é a prévia do jogo da bolsa de lá.\n\nA Ásia fechou toda no vermelho, e a Europa também recua.\n\nMas olha o contraste: aqui o Ibovespa abriu com alta de 0,37%.\n\nO dólar, a R$ 5,89, também deu uma recuada.\n\nÉ nuvem escura no horizonte e ainda sol na sua rua.\n\nHoje, olha Nova York e não decide dinheiro no susto.\n\nVocê acha que o vermelho de lá chega aqui? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-25",
+ "gerado_em": "2026-11-25T10:28:30.691582-03:00",
+ "enviado_whatsapp": "2026-11-25T10:28:52.194519-03:00"
+}
