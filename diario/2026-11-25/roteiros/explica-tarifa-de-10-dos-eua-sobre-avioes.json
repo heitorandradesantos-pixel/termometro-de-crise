@@ -1,0 +1,190 @@
+{
+ "gancho": {
+  "formula": "Cena no meio / espanto do Heitor",
+  "texto": "Cara, os EUA querem taxar avião brasileiro em 10%. Mas ainda não vale.",
+  "na_tela": "EUA querem taxar avião brasileiro",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio / espanto do Heitor",
+   "texto": "Cara, os EUA querem taxar avião brasileiro em 10%. Mas ainda não vale.",
+   "na_tela": "EUA querem taxar avião brasileiro",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Tarifa de 10% dos EUA sobre avião: sua passagem muda? Hoje, não.",
+   "na_tela": "Sua passagem muda?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A Embraer chegou a cair mais de 9%, e a tarifa nem vale.",
+   "na_tela": "Embraer caiu, tarifa nem vale",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, os EUA querem taxar avião brasileiro em 10%. Mas ainda não vale.",
+  "Quem propôs foi o escritório de comércio dos EUA, o USTR.",
+  "As ações da Embraer chegaram a cair mais de 9% na quarta.",
+  "Se valer, é como imposto na feira: o freguês paga mais e compra menos.",
+  "Mas calma: é só proposta, ainda tem consulta pública.",
+  "A audiência só acontece em 14 de janeiro de 2027.",
+  "Pra você, hoje nada muda no preço da passagem.",
+  "Passo calmo: acompanha pela fonte oficial e não decide nada no susto.",
+  "Pra você, isso é susto ou calma? Comenta SUSTO ou CALMA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, os EUA querem taxar avião brasileiro em 10%. Mas ainda não vale. Quem propôs foi o escritório de comércio dos EUA, o USTR. As ações da Embraer chegaram a cair mais de 9% na quarta. Se valer, é como imposto na feira: o freguês paga mais e compra menos. Mas calma: é só proposta, ainda tem consulta pública. A audiência só acontece em 14 de janeiro de 2027. Pra você, hoje nada muda no preço da passagem. Passo calmo: acompanha pela fonte oficial e não decide nada no susto. Pra você, isso é susto ou calma? Comenta SUSTO ou CALMA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 108,
+ "segundos": 43,
+ "na_tela": [
+  {
+   "texto": "EUA querem taxar avião brasileiro",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "USTR propõe tarifa de 10% sobre aviões",
+   "fonte": "Estado de Minas"
+  },
+  {
+   "fala": 2,
+   "texto": "Embraer: queda de mais de 9%",
+   "fonte": "InvestNews"
+  },
+  {
+   "fala": 4,
+   "texto": "Ainda é só proposta",
+   "fonte": "Esmael Morais"
+  },
+  {
+   "fala": 5,
+   "texto": "Audiência: 14 de janeiro de 2027",
+   "fonte": "Esmael Morais"
+  },
+  {
+   "fala": 6,
+   "texto": "Hoje: nada muda na passagem",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "tarifa de 10% dos EUA sobre avião da Embraer",
+ "legenda": "tarifa de 10% dos EUA sobre avião da Embraer: o que se sabe\n\nEm 25 de novembro, o USTR, escritório de comércio dos EUA, propôs uma tarifa de 10% sobre aviões prontos fabricados no Brasil, hoje isentos. As ações da Embraer chegaram a cair mais de 9% no dia, segundo a InvestNews.\n\nÉ só uma proposta. Há consulta pública e a audiência está marcada para 14 de janeiro de 2027. Ainda não se sabe se a tarifa vai valer, nem com qual valor.\n\nPra você, hoje nada muda no preço da passagem. O passo calmo é acompanhar pela fonte oficial e não decidir nada no susto.\n\nEu sou o Heitor, do Termômetro de Crise. Conteúdo educativo, não é recomendação de investimento. Só mostramos a temperatura do mundo.\n\n#embraer #tarifa #economia #dinheiro #termometrodecrise",
+ "hashtags": [
+  "#embraer",
+  "#tarifa",
+  "#economia",
+  "#dinheiro",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, os EUA querem taxar avião brasileiro em 10%. Ainda não vale.",
+  "topicos": [
+   "O USTR, órgão de comércio dos EUA, propôs 10% sobre avião pronto do Brasil.",
+   "Ações da Embraer chegaram a cair mais de 9% na quarta, segundo a InvestNews.",
+   "É só proposta: a audiência do USTR será em 14 de janeiro de 2027.",
+   "Hoje nada muda na passagem. Acompanha a fonte oficial e não decide no susto."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente de 25 de novembro, que pede o tom de \"tô aqui e preciso te contar\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Antes de \"Sem alarde. Eu sou só o termômetro!\", falta o fim padrão da casa. Inclua: \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" Hoje o aviso aparece só na legenda. Mantenha o bordão como última frase, sem mudar as palavras.",
+   "Em \"As ações da Embraer chegaram a cair mais de 9% na quarta\", a fala não diz de onde vem o número. Acrescente uma atribuição curta e sem nome de site, como \"segundo a imprensa\". Deixe a InvestNews no cartão da tela e na legenda.",
+   "Em \"acompanha pela fonte oficial\", o passo é vago. Diga o que a pessoa acompanha, por exemplo \"acompanha o que o governo americano decidir depois da audiência\". Assim o passo fica simples e concreto, sem inventar fato novo."
+  ],
+  "veredito": "A peça fala com a pessoa certa, na língua do dia a dia, com calma, sem alarde e com um gatilho de comentário fácil (SUSTO ou CALMA). Falta o fim padrão do Heitor com o aviso de que não é recomendação, a atribuição do número das ações e um passo mais concreto."
+ },
+ "viral": {
+  "nota": 4,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 1,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, os EUA querem taxar avião brasileiro em 10%. Mas ainda não vale.\" Fala do mercado, não do bolso, e já entrega a resposta. Reescreva: \"Cara, os EUA querem pôr 10% de imposto no avião brasileiro. Será que a sua passagem sobe?\" O \"ainda não vale\" fica para a virada.",
+   "Envio: \"Passo calmo: acompanha pela fonte oficial e não decide nada no susto.\" Acrescente: \"Manda pra quem vai viajar e anda com medo de a passagem subir.\"",
+   "Retenção: \"Mas calma: é só proposta, ainda tem consulta pública.\" Reescreva como virada: \"E aí vem a parte que muda tudo: é só proposta. Tem consulta pública, e a audiência é só em 14 de janeiro de 2027.\""
+  ],
+  "veredito": "O roteiro é curto, claro e fecha com um gatilho fácil (SUSTO ou CALMA), mas o gancho fala do mercado e não do bolso, entrega a resposta na primeira frase e não dá motivo concreto para mandar a alguém."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Vertical shot, slow push-in on a large trading floor-style wall of blank glowing screens showing abstract red downward-sloping line charts with no text or numbers, reflections on glass, shallow depth of field, moody cool lighting, no people in focus",
+   "texto_da_fala": "As ações da Embraer chegaram a cair mais de 9% na quarta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot, slow push-in on a large trading floor-style wall of blank glowing screens showing abstract red downward-sloping line charts with no text or numbers, reflections on glass, shallow depth of field, moody cool lighting, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Vertical shot of an open-air Brazilian street market (feira) stall with piles of colorful fruits and vegetables, slow lateral dolly along the stall, shoppers only as distant blurred silhouettes, no faces in focus, no signs or text, warm morning light",
+   "texto_da_fala": "Se valer, é como imposto na feira: o freguês paga mais e compra menos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot of an open-air Brazilian street market (feira) stall with piles of colorful fruits and vegetables, slow lateral dolly along the stall, shoppers only as distant blurred silhouettes, no faces in focus, no signs or text, warm morning light. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Vertical shot inside a bright airport terminal, slow tracking camera following the glossy floor toward a large window where a commercial passenger airplane with plain white fuselage and no markings is parked on the tarmac at sunrise, travelers only as distant blurred shapes, no signs or text",
+   "texto_da_fala": "Pra você, hoje nada muda no preço da passagem.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Vertical shot inside a bright airport terminal, slow tracking camera following the glossy floor toward a large window where a commercial passenger airplane with plain white fuselage and no markings is parked on the tarmac at sunrise, travelers only as distant blurred shapes, no signs or text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, os EUA querem taxar avião brasileiro em 10%. Mas ainda não vale.\n\nQuem propôs foi o escritório de comércio dos EUA, o USTR.\n\nAs ações da Embraer chegaram a cair mais de 9% na quarta.\n\nSe valer, é como imposto na feira: o freguês paga mais e compra menos.\n\nMas calma: é só proposta, ainda tem consulta pública.\n\nA audiência só acontece em 14 de janeiro de 2027.\n\nPra você, hoje nada muda no preço da passagem.\n\nPasso calmo: acompanha pela fonte oficial e não decide nada no susto.\n\nPra você, isso é susto ou calma? Comenta SUSTO ou CALMA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/embraer-diz-que-vai-defender-isencao-de-tarifas-dos-eua-sobre-avioes",
+   "destaque": "A Embraer informou que analisa o relatório do USTR."
+  }
+ ],
+ "data": "2026-11-25",
+ "gerado_em": "2026-11-25T18:55:58.809508-03:00"
+}
