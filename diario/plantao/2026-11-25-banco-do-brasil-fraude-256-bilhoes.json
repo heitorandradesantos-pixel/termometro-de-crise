@@ -1,0 +1,112 @@
+{
+ "titulo": "Banco do Brasil fraude 256 bilhões é verdade? O que se sabe",
+ "descricao": "É falso que o BB tenha fraude de R$ 256 bi em fazendas fantasmas, diz a Lupa. Veja o que é verdade, o que é exagero e o que a PF investiga.",
+ "palavra_chave": "banco do brasil fraude 256 bilhões",
+ "lead": "Não é verdade que o Banco do Brasil tenha sofrido uma fraude de R$ 256 bilhões com \"fazendas fantasmas\". A Agência Lupa classificou como falso, em 24/11, um vídeo do Instagram com essa acusação. O banco já havia divulgado nota repudiando as publicações. A Polícia Federal investiga fraudes reais em crédito rural, mas os casos conhecidos não citam o BB nem esse valor.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O que é verdade: a Polícia Federal investiga suspeitas de fraude em crédito rural. Em 12/11, ela deflagrou a Operação Agroghost II, no Distrito Federal e em Goiás. A apuração começou depois que a Caixa Econômica Federal achou indícios de fraude em um financiamento rural de cerca de R$ 8,5 milhões.",
+   "fonte_url": "https://colegioregistralrs.org.br/noticias/21827/fazendas-fantasmas-investigacoes-revelam-como-registros-suspeitos-chegam-as-garantias-do-credito-rural/",
+   "data": "2026-11-12",
+   "veiculo": "Colégio Registral do RS (reproduz análise de comunicados da PF)",
+   "confiavel": false
+  },
+  {
+   "texto": "O que é exagero: a Lupa diz que o Banco do Brasil não aparece entre os bancos investigados na Agroghost II. Segundo a agência, a operação apura suspeitas envolvendo Caixa Econômica Federal, Sicoob e Banco do Nordeste. A Lupa também informa que a PF não cita o BB nem o valor de R$ 256 bilhões.",
+   "fonte_url": "https://www.agencialupa.org/jornalismo/2026/11/24/e-falso-que-banco-do-brasil-tenha-sido-alvo-de-fraude-de-r-256-bilhoes/",
+   "data": "2026-11-24",
+   "veiculo": "Agência Lupa",
+   "confiavel": false
+  },
+  {
+   "texto": "De onde vem o número: os R$ 256 bilhões vêm de um levantamento da Frente Parlamentar da Agropecuária (FPA), divulgado em 18/06 com dados de abril. O estudo estimou essa quantia como carteira problemática do crédito rural, que reúne dívidas atrasadas, renegociadas, prorrogadas e inadimplentes (sem pagamento). O crédito rural total somava R$ 895,2 bilhões.",
+   "fonte_url": "https://gazetadoparana.com.br/publico/checagem-banco-do-brasil-emprestou-r-256-bilhoes-a-fazendas-fantasmas-entenda-a-denunci",
+   "data": "2026-11-18",
+   "veiculo": "Gazeta do Povo (Paraná)",
+   "confiavel": false
+  },
+  {
+   "texto": "A própria FPA nega a ligação. Em nota à Lupa, a entidade disse que o valor não corresponde a operações fraudulentas nem a recursos concedidos só pelo Banco do Brasil. Ela considera tecnicamente infundado associar os R$ 256 bilhões às fazendas fantasmas.",
+   "fonte_url": "https://www.agencialupa.org/jornalismo/2026/11/24/e-falso-que-banco-do-brasil-tenha-sido-alvo-de-fraude-de-r-256-bilhoes/",
+   "data": "2026-11-24",
+   "veiculo": "Agência Lupa",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco do Brasil divulgou nota em que repudia a disseminação de informações falsas sobre um suposto caso de fraude generalizada no crédito rural. O banco diz que segue o Manual de Crédito Rural e afirma ser falsa a alegação de empréstimos fraudulentos a CPFs ou fazendas inexistentes. Os veículos divergem sobre o dia da nota: de 16 a 18/11.",
+   "fonte_url": "https://www.moneytimes.com.br/banco-do-brasil-bbas3-nega-emprestimos-a-fazendas-fantasmas-e-cpfs-inexistentes/",
+   "data": "2026-11-17",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo o banco, as publicações juntaram dois valores sem relação: a carteira rural problemática nacional, estimada em R$ 256 bilhões, e as apurações da PF sobre cerca de R$ 8,5 milhões em operações contratadas na Caixa.",
+   "fonte_url": "https://www.canalrural.com.br/economia/banco-do-brasil-nega-ligacao-de-credito-rural-com-fazendas-fantasmas/",
+   "data": "2026-11-18",
+   "veiculo": "Canal Rural",
+   "confiavel": false
+  },
+  {
+   "texto": "O que é real no balanço do BB: o custo do crédito (valor reservado para possíveis calotes) chegou a R$ 21,2 bilhões no terceiro trimestre, alta de 18,4% na comparação anual. Segundo o Metrópoles, o tema ganhou força nas redes em meio à crise provocada pelo aumento da inadimplência do agro.",
+   "fonte_url": "https://www.metropoles.com/colunas/dinheiro-e-negocios/fazendas-fantasmas-o-que-a-policia-investiga-e-o-que-diz-o-banco-do-brasil",
+   "data": "2026-11-17",
+   "veiculo": "Metrópoles",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A FPA divulga levantamento que estima cerca de R$ 256 bilhões em carteira problemática do crédito rural, com dados de abril.",
+   "fonte_url": "https://colegioregistralrs.org.br/noticias/21827/fazendas-fantasmas-investigacoes-revelam-como-registros-suspeitos-chegam-as-garantias-do-credito-rural/",
+   "data": "2026-06-18",
+   "veiculo": "Colégio Registral do RS",
+   "confiavel": false
+  },
+  {
+   "texto": "A PF deflagra a Operação Agroghost II, no DF e em Goiás, após alerta da Caixa sobre financiamento rural de cerca de R$ 8,5 milhões.",
+   "fonte_url": "https://colegioregistralrs.org.br/noticias/21827/fazendas-fantasmas-investigacoes-revelam-como-registros-suspeitos-chegam-as-garantias-do-credito-rural/",
+   "data": "2026-11-12",
+   "veiculo": "Colégio Registral do RS",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco do Brasil publica nota repudiando as publicações sobre suposta fraude generalizada no crédito rural. Os veículos divergem sobre o dia (de 16 a 18/11).",
+   "fonte_url": "https://www.moneytimes.com.br/banco-do-brasil-bbas3-nega-emprestimos-a-fazendas-fantasmas-e-cpfs-inexistentes/",
+   "data": "2026-11-17",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O banco diz que as publicações ligaram de forma incorreta a carteira problemática de R$ 256 bilhões às apurações da PF sobre a Caixa.",
+   "fonte_url": "https://www.canalrural.com.br/economia/banco-do-brasil-nega-ligacao-de-credito-rural-com-fazendas-fantasmas/",
+   "data": "2026-11-18",
+   "veiculo": "Canal Rural",
+   "confiavel": false
+  },
+  {
+   "texto": "A Lupa classifica como falso o vídeo do Instagram que liga o BB a fraude de R$ 256 bilhões e publica a nota da FPA.",
+   "fonte_url": "https://www.agencialupa.org/jornalismo/2026/11/24/e-falso-que-banco-do-brasil-tenha-sido-alvo-de-fraude-de-r-256-bilhoes/",
+   "data": "2026-11-24",
+   "veiculo": "Agência Lupa",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se o Banco do Brasil terá algum contrato citado em futuras fases das investigações. Até agora, os documentos públicos da operação não o apresentam como instituição envolvida, segundo o Suno.",
+  "O banco diz apurar indícios de irregularidades isoladas e cooperar com as autoridades, mas não informou quantos casos são nem de que valor.",
+  "A PF não detalhou a situação de cada contrato da Agroghost II. A menção a bancos na operação indica o alcance da apuração e não prova participação deles em fraude, segundo a análise do Colégio Registral do RS.",
+  "Não há, nas fontes consultadas, estimativa nacional de quanto do crédito rural estaria ligado a imóveis inexistentes ou garantias falsas."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você tem conta no Banco do Brasil, nada mudou no seu dinheiro ou nos seus serviços por causa desse vídeo. A checagem não aponta fraude de R$ 256 bilhões no banco.",
+  "Se você tem ações do BB, separe os dois assuntos. A acusação de fraude foi desmentida pela Lupa e pelo banco. Já a alta da inadimplência do agro aparece no balanço, que mostra custo do crédito de R$ 21,2 bilhões no 3º trimestre.",
+  "Dívida atrasada ou renegociada não é o mesmo que fraude. O número de R$ 256 bilhões mede a carteira problemática do crédito rural de todo o país, não um desvio de dinheiro.",
+  "Ao receber um vídeo com valor bilionário, procure a fonte do número. Aqui, o valor vem de um levantamento da FPA, e não de uma investigação policial."
+ ],
+ "como_se_proteger": [],
+ "slug": "banco-do-brasil-fraude-256-bilhoes",
+ "publicado_em": "2026-11-25T16:14:18.362942",
+ "atualizado_em": "2026-11-25T16:14:18.362942",
+ "assunto": "Em 24/11, a Agência Lupa classificou como falso o vídeo do Instagram que liga o Banco do Brasil a uma fraude de R$ 256 bilhões em crédito rural, com 'fazendas fantasmas'. O BB divulgou nota repudiando as publicações. O valor vem de um levantamento da Frente Parlamentar da Agropecuária e não corresponde a fraudes identificadas no banco.",
+ "turno": "viral"
+}
