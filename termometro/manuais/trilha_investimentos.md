@@ -36,8 +36,8 @@ fonte e pedido de voto. Continua valendo: sem recomendação de investimento e s
 - [ ] Liquidez: a diferença entre "tenho dinheiro" e "consigo sacar hoje"
 - [ ] Os 3 objetivos (curto, médio e longo prazo) e por que cada um pede um lugar diferente
 ### 2. Renda fixa sem medo
-- [ ] O que é a Selic e por que ela mexe em tudo que você aplica
-- [ ] CDI: o "primo" da Selic que aparece no seu CDB
+- [x] O que é a Selic e por que ela mexe em tudo que você aplica
+- [x] CDI: o "primo" da Selic que aparece no seu CDB
 - [ ] CDB de 100% do CDI: o que esse número quer dizer de verdade
 - [x] Poupança: quanto rende e quando ela perde da inflação
 - [ ] Tesouro Selic: para que serve e para que não serve
