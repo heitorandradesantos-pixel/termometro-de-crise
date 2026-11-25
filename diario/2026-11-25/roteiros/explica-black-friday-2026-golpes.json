@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Black Friday de 2025: 45,4% dos produtos monitorados não tiveram economia real.",
+  "na_tela": "45,4% sem economia real",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Black Friday de 2025: 45,4% dos produtos monitorados não tiveram economia real.",
+   "na_tela": "45,4% sem economia real",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Seu desconto da Black Friday é de verdade, ou subiram o preço antes?",
+   "na_tela": "Desconto de verdade?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Parcelar na Black Friday mexe no seu bolso por meses, não só no dia.",
+   "na_tela": "Parcela pesa por meses",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Black Friday de 2025: 45,4% dos produtos monitorados não tiveram economia real.",
+  "Cara, quase metade. Foi o que a Timelens viu, preço por preço.",
+  "Em 21%, o preço ficou igual. Em outros 21%, ficou mais caro.",
+  "Falso desconto é feirante que sobe o preço de manhã e \"baixa\" de tarde.",
+  "Mas calma: o dado é de 2025. Não tem levantamento de 2026.",
+  "Compare com o preço de semanas atrás e tire print com a data.",
+  "No parcelado, soma o total e o frete antes de fechar.",
+  "Manda pra quem tá com o carrinho cheio esperando sexta.",
+  "Já caiu em falso desconto? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Black Friday de 2025: 45,4% dos produtos monitorados não tiveram economia real. Cara, quase metade. Foi o que a Timelens viu, preço por preço. Em 21%, o preço ficou igual. Em outros 21%, ficou mais caro. Falso desconto é feirante que sobe o preço de manhã e \"baixa\" de tarde. Mas calma: o dado é de 2025. Não tem levantamento de 2026. Compare com o preço de semanas atrás e tire print com a data. No parcelado, soma o total e o frete antes de fechar. Manda pra quem tá com o carrinho cheio esperando sexta. Já caiu em falso desconto? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "45,4% sem economia real",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "45,4% sem economia real (2025)",
+   "fonte": "Timelens, via Cada Minuto"
+  },
+  {
+   "fala": 2,
+   "texto": "21% mesmo preço | 21% mais caro",
+   "fonte": "Timelens, via Cada Minuto"
+  },
+  {
+   "fala": 3,
+   "texto": "Falso desconto",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Dado de 2025. Sem levantamento de 2026",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Compare + print com data",
+   "fonte": "Strong"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Black Friday desconto verdadeiro como saber",
+ "legenda": "Black Friday desconto verdadeiro: como saber se a promoção é real.\n\nA Black Friday cai nesta sexta (27/11). Segundo a Timelens, na edição de 2025, 45,4% dos 2.373 produtos monitorados não tiveram economia real: 21% ficaram com o mesmo preço, 21% ficaram mais caros e 3,4% tiveram falso desconto, quando o preço sobe antes para simular a queda.\n\nAtenção: o dado é de 2025 e cobre produtos monitorados em sites comparadores, não todo o varejo. Ainda não há levantamento de preços de 2026.\n\nO passo calmo: compare com o preço de semanas atrás, guarde capturas de tela com data e some o total e o frete antes de parcelar. Se der problema, procure a loja, o consumidor.gov.br e o Procon.\n\nConteúdo educativo, não é recomendação de investimento. Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\n#blackfriday #consumidor #educacaofinanceira #procon",
+ "hashtags": [
+  "#blackfriday",
+  "#consumidor",
+  "#educacaofinanceira",
+  "#procon"
+ ],
+ "rua": {
+  "gancho": "Black Friday: 45,4% dos produtos de 2025 não ficaram mais baratos.",
+  "topicos": [
+   "Segundo a Timelens, em 2025, 45,4% dos produtos monitorados não tiveram economia real.",
+   "21% ficaram com o mesmo preço e 21% ficaram mais caros.",
+   "Esse dado é de 2025; ainda não há levantamento de preços de 2026.",
+   "Compare com semanas atrás, tire print com a data e some parcelas e frete."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "A Black Friday é nesta sexta, notícia quente que pede urgência, então o improviso na rua funciona.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Fala \"Foi o que a Timelens viu, preço por preço\": nome de empresa/fonte não vai na fala. Troque por \"Foi o que uma pesquisa de preços viu, preço por preço\" e deixe Timelens no cartão da tela e na legenda.",
+   "Fala \"45,4% dos produtos monitorados não tiveram economia real\": número exato e palavra de relatório. Diga \"quase metade dos produtos que eles acompanharam não teve desconto de verdade\" e deixe o 45,4% no cartão.",
+   "Fala \"Em 21%, o preço ficou igual. Em outros 21%, ficou mais caro\": dois números na mesma fala. Separe em duas falas curtas, uma ideia cada (\"Uma parte ficou com o mesmo preço\" / \"Outra parte ficou mais cara\"), com os 21% no cartão."
+  ],
+  "veredito": "Fala com quem tem o carrinho cheio, com feirante, ressalva do dado de 2025, passo simples e gatilho de comentário; falta passar no Teste do CLT: tirar o nome Timelens e a palavra \\\"monitorados\\\" da fala e deixar um número por fala."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Black Friday de 2025: 45,4% dos produtos monitorados não tiveram economia real.\" abre com ano e jargão (\"monitorados\"), e a lacuna não é do bolso de quem assiste. Reescrita: \"A Black Friday é sexta. Na do ano passado, 45,4% dos produtos não tiveram economia real. Cara, quase metade.\"",
+   "Fala difícil: \"Foi o que a Timelens viu, preço por preço.\" Nome de empresa na fala faz sair (Teste do CLT). Reescrita: \"Foi o que uma empresa que acompanha preços viu, produto por produto.\" O nome Timelens fica no cartão da tela e na legenda.",
+   "Virada: \"Mas calma: o dado é de 2025. Não tem levantamento de 2026.\" é ressalva, esfria o meio. Guarde o número mais forte para ali: \"Agora o pior: em outros 21%, o preço ficou mais caro.\" A ressalva do ano passa para depois do feirante, curta: \"É dado de 2025, de 2026 ainda não tem.\""
+  ],
+  "veredito": "Roteiro forte no pagamento, no pedido de envio (\\\"carrinho cheio esperando sexta\\\") e no gatilho SIM/NÃO; falta um gancho que abra pelo bolso de quem assiste, sem ano nem jargão, uma virada no meio que seja número forte e não ressalva, e tirar o nome Timelens da fala."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Busy open-air street market stall in the early morning, crates of tomatoes and oranges with hand-painted blank price signs being swapped by a vendor's hands only (no face visible). Camera slowly dollies in along the produce, then the sign is replaced by another one in the afternoon golden light. Warm, realistic, shallow depth of field",
+   "texto_da_fala": "Falso desconto é feirante que sobe o preço de manhã e \"baixa\" de tarde.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Busy open-air street market stall in the early morning, crates of tomatoes and oranges with hand-painted blank price signs being swapped by a vendor's hands only (no face visible). Camera slowly dollies in along the produce, then the sign is replaced by another one in the afternoon golden light. Warm, realistic, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up over-the-shoulder of a hand holding a smartphone, thumb scrolling through a blurry generic online store page with product thumbnails, then tapping the screenshot action with a soft screen flash. Cozy desk, warm lamp light, slow push-in camera. No readable text, no logos, no face",
+   "texto_da_fala": "Compare com o preço de semanas atrás e tire print com a data.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up over-the-shoulder of a hand holding a smartphone, thumb scrolling through a blurry generic online store page with product thumbnails, then tapping the screenshot action with a soft screen flash. Cozy desk, warm lamp light, slow push-in camera. No readable text, no logos, no face. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "A shopping cart on a laptop-lit desk replaced by a real overflowing shopping cart in a bright generic department store aisle, filled with boxes of electronics and appliances, no brand marks on packaging. Camera glides slowly forward along the cart, with soft background blur and no people in focus",
+   "texto_da_fala": "Manda pra quem tá com o carrinho cheio esperando sexta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A shopping cart on a laptop-lit desk replaced by a real overflowing shopping cart in a bright generic department store aisle, filled with boxes of electronics and appliances, no brand marks on packaging. Camera glides slowly forward along the cart, with soft background blur and no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Black Friday de 2025: 45,4% dos produtos monitorados não tiveram economia real.\n\nCara, quase metade. Foi o que a Timelens viu, preço por preço.\n\nEm 21%, o preço ficou igual. Em outros 21%, ficou mais caro.\n\nFalso desconto é feirante que sobe o preço de manhã e \"baixa\" de tarde.\n\nMas calma: o dado é de 2025. Não tem levantamento de 2026.\n\nCompare com o preço de semanas atrás e tire print com a data.\n\nNo parcelado, soma o total e o frete antes de fechar.\n\nManda pra quem tá com o carrinho cheio esperando sexta.\n\nJá caiu em falso desconto? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/invest/mercados/black-friday-deve-movimentar-r-133-bilhoes-mas-crise-no-varejo-desafia-vendas-2/",
+   "destaque": "A Confi, dona da plataforma Neotrust, projeta R$ 13,3 bilhões em vendas online entre 26 e 29 de novembro, alta de 20,7% sobre o mesmo…"
+  }
+ ],
+ "data": "2026-11-25",
+ "gerado_em": "2026-11-25T13:17:58.670694-03:00"
+}
