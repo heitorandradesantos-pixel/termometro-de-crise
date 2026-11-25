@@ -1,0 +1,193 @@
+{
+ "gancho": {
+  "formula": "Não foi o que você pensa",
+  "texto": "Fraude de R$ 256 bilhões no Banco do Brasil? A Lupa diz que é falso.",
+  "na_tela": "Fraude de R$ 256 bi no BB?",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Fraude de R$ 256 bilhões no Banco do Brasil? A Lupa diz que é falso.",
+   "na_tela": "Fraude de R$ 256 bi no BB?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "Cara, o vídeo dos R$ 256 bilhões do BB juntou dois números que não combinam.",
+   "na_tela": "Dois números que não combinam",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 0,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Recebeu o vídeo da fraude no Banco do Brasil? Antes de repassar, olha isso.",
+   "na_tela": "Recebeu esse vídeo? Calma",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Fraude de R$ 256 bilhões no Banco do Brasil? A Lupa diz que é falso.",
+  "Os R$ 256 bilhões são a carteira problemática do crédito rural do país inteiro.",
+  "A Frente da Agropecuária, que fez a conta, nega que seja fraude.",
+  "Já a apuração da PF é sobre cerca de R$ 8,5 milhões, na Caixa.",
+  "Segundo o banco, o vídeo juntou dois valores que não têm relação.",
+  "Sinal amarelo é outro: o BB separou R$ 21,2 bilhões para possíveis calotes.",
+  "Vídeo com valor bilionário? Procura de onde veio o número antes de repassar.",
+  "E aí: você já repassou vídeo sem checar? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Fraude de R$ 256 bilhões no Banco do Brasil? A Lupa diz que é falso. Os R$ 256 bilhões são a carteira problemática do crédito rural do país inteiro. A Frente da Agropecuária, que fez a conta, nega que seja fraude. Já a apuração da PF é sobre cerca de R$ 8,5 milhões, na Caixa. Segundo o banco, o vídeo juntou dois valores que não têm relação. Sinal amarelo é outro: o BB separou R$ 21,2 bilhões para possíveis calotes. Vídeo com valor bilionário? Procura de onde veio o número antes de repassar. E aí: você já repassou vídeo sem checar? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Fraude de R$ 256 bi no BB?",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "R$ 256 bilhões = carteira problemática do crédito rural",
+   "fonte": "Gazeta do Povo"
+  },
+  {
+   "fala": 2,
+   "texto": "FPA: valor não é fraude",
+   "fonte": "Agência Lupa"
+  },
+  {
+   "fala": 3,
+   "texto": "PF: cerca de R$ 8,5 milhões na Caixa",
+   "fonte": "Canal Rural"
+  },
+  {
+   "fala": 4,
+   "texto": "Dois valores sem relação",
+   "fonte": "Canal Rural"
+  },
+  {
+   "fala": 5,
+   "texto": "Custo do crédito: R$ 21,2 bilhões",
+   "fonte": "Metrópoles"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Banco do Brasil fraude 256 bilhões é verdade?",
+ "legenda": "Banco do Brasil fraude 256 bilhões é verdade? Segundo a Agência Lupa, não.\n\nA Lupa classificou como falso, em 24/11, o vídeo que ligava o BB a \"fazendas fantasmas\". O banco divulgou nota repudiando as publicações.\n\nOs R$ 256 bilhões vêm de um levantamento da Frente Parlamentar da Agropecuária e medem a carteira problemática do crédito rural do país: dívidas atrasadas, renegociadas, prorrogadas e inadimplentes. A própria FPA nega a ligação com fraude.\n\nA Polícia Federal investiga fraudes reais em crédito rural, mas o caso da Operação Agroghost II, de 12/11, parte de cerca de R$ 8,5 milhões na Caixa. Já o custo do crédito do BB chegou a R$ 21,2 bilhões no 3º trimestre.\n\nDívida atrasada não é fraude. Ao receber vídeo com valor bilionário, procure de onde veio o número.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#bancodobrasil #creditorural #educacaofinanceira #fakenews",
+ "hashtags": [
+  "#bancodobrasil",
+  "#creditorural",
+  "#educacaofinanceira",
+  "#fakenews"
+ ],
+ "rua": {
+  "gancho": "R$ 256 bilhões de fraude no BB? É falso, diz a Lupa.",
+  "topicos": [
+   "A Lupa diz que é falso o vídeo da fraude de R$ 256 bilhões.",
+   "Esse valor é da Frente da Agropecuária: carteira problemática do crédito rural, não fraude.",
+   "A PF apura cerca de R$ 8,5 milhões na Caixa, sem o BB.",
+   "Recebeu vídeo com valor bilionário? Procure a fonte do número antes de repassar."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação de um boato, com vários números que precisam de contexto, então pede a calma da bancada.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Os R$ 256 bilhões são a carteira problemática do crédito rural do país inteiro\": \"carteira problemática\" é linguagem de banco. Reescreva traduzindo na hora e com uma comparação do dia a dia, por exemplo: \"É a soma das dívidas do campo no país todo: atrasadas, renegociadas, empurradas pra frente. Dívida atrasada não é fraude, igual conta de luz atrasada não é roubo.\" Isso também traz o sanguíneo, que está faltando.",
+   "Frases \"A Lupa diz que é falso\" e \"A Frente da Agropecuária, que fez a conta\": nome de fonte técnica fica no cartão da tela e na legenda, não na fala. Troque por \"uma agência de checagem\" e \"um grupo de deputados do campo\". Arredonde os números falados: \"cerca de R$ 8,5 milhões\" vira \"uns R$ 8 milhões e meio\" e \"R$ 21,2 bilhões\" vira \"uns R$ 21 bilhões\". Deixe o valor exato no cartão.",
+   "Abertura \"Fraude de R$ 256 bilhões no Banco do Brasil? A Lupa diz que é falso.\": soa como manchete lida. Abra com a reação do Heitor, por exemplo: \"Cara, tá circulando um vídeo dizendo que o Banco do Brasil teve fraude de 256 bilhões. Olha só: não é isso.\" No fim, antes do bordão, coloque o fechamento padrão \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" e termine com \"Sem alarde. Eu sou só o termômetro!\"."
+  ],
+  "veredito": "A peça desmonta o boato com fonte, sem alarde, e deixa um passo simples (procurar de onde veio o número) com um gatilho de comentário fácil. Falta falar como o Heitor: gancho de espanto, fechamento padrão, termos do banco traduzidos, números redondos e uma comparação do dia a dia."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Fraude de R$ 256 bilhões no Banco do Brasil? A Lupa diz que é falso.\" entrega o veredito antes de segurar e fala do banco, não da pessoa. Reescrita: \"Chegou pra você um vídeo de fraude de R$ 256 bilhões no Banco do Brasil? Não repassa ainda. A Lupa checou: é falso.\"",
+   "Retenção: \"Os R$ 256 bilhões são a carteira problemática do crédito rural do país inteiro.\" tem jargão que falha no Teste do CLT. Reescrita: \"Esses R$ 256 bilhões são dívida de produtor rural do país inteiro: atrasada, renegociada ou parada. Dívida, não roubo.\" Em \"A Frente da Agropecuária, que fez a conta\", troque por \"Quem fez a conta foi um grupo do Congresso, e ele mesmo nega que seja fraude.\"",
+   "Envio: \"Vídeo com valor bilionário? Procura de onde veio o número antes de repassar.\" não diz para quem mandar. Reescrita: \"Vídeo com valor bilionário? Procura de onde veio o número antes de repassar. E manda esse aqui pra quem repassa tudo que chega no grupo da família.\""
+  ],
+  "veredito": "Checagem clara, com pagamento completo e um bom gatilho de SIM ou NÃO, mas o gancho já entrega a resposta, o corpo tem jargão e nome de órgão demais, e falta um pedido de envio para uma situação concreta."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow drone shot gliding forward over vast Brazilian farmland at golden hour: rows of green soybean crops, a combine harvester working in the distance, dust rising in warm light. Cinematic, realistic, no people in focus, no text, no logos",
+   "texto_da_fala": "Os R$ 256 bilhões são a carteira problemática do crédito rural do país inteiro.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow drone shot gliding forward over vast Brazilian farmland at golden hour: rows of green soybean crops, a combine harvester working in the distance, dust rising in warm light. Cinematic, realistic, no people in focus, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in across a dark wooden desk in an investigator's office: stacks of blank paper folders, a magnifying glass, a closed laptop and a desk lamp casting warm light. Only blank paper, no readable writing, no faces, no logos, no text",
+   "texto_da_fala": "Já a apuração da PF é sobre cerca de R$ 8,5 milhões, na Caixa.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in across a dark wooden desk in an investigator's office: stacks of blank paper folders, a magnifying glass, a closed laptop and a desk lamp casting warm light. Only blank paper, no readable writing, no faces, no logos, no text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Close-up over-the-shoulder of a hand holding a smartphone in a dim room, thumb scrolling a vertical video feed made of abstract blurred colored shapes and soft light; the camera slowly pushes in toward the screen. Screen shows only blurred abstract color, no text, no numbers, no letters, no logos, no face in focus",
+   "texto_da_fala": "Vídeo com valor bilionário? Procura de onde veio o número antes de repassar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up over-the-shoulder of a hand holding a smartphone in a dim room, thumb scrolling a vertical video feed made of abstract blurred colored shapes and soft light; the camera slowly pushes in toward the screen. Screen shows only blurred abstract color, no text, no numbers, no letters, no logos, no face in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Fraude de R$ 256 bilhões no Banco do Brasil? A Lupa diz que é falso.\n\nOs R$ 256 bilhões são a carteira problemática do crédito rural do país inteiro.\n\nA Frente da Agropecuária, que fez a conta, nega que seja fraude.\n\nJá a apuração da PF é sobre cerca de R$ 8,5 milhões, na Caixa.\n\nSegundo o banco, o vídeo juntou dois valores que não têm relação.\n\nSinal amarelo é outro: o BB separou R$ 21,2 bilhões para possíveis calotes.\n\nVídeo com valor bilionário? Procura de onde veio o número antes de repassar.\n\nE aí: você já repassou vídeo sem checar? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/banco-do-brasil-bbas3-nega-emprestimos-a-fazendas-fantasmas-e-cpfs-inexistentes/",
+   "destaque": "O Banco do Brasil divulgou nota em que repudia a disseminação de informações falsas sobre um suposto caso de fraude generalizada no crédito…"
+  },
+  {
+   "veiculo": "Metrópoles",
+   "url": "https://www.metropoles.com/colunas/dinheiro-e-negocios/fazendas-fantasmas-o-que-a-policia-investiga-e-o-que-diz-o-banco-do-brasil",
+   "destaque": "O que é real no balanço do BB: o custo do crédito (valor reservado para possíveis calotes) chegou a R$ 21,2 bilhões no terceiro trimestre,…"
+  }
+ ],
+ "data": "2026-11-25",
+ "gerado_em": "2026-11-25T16:19:38.070650-03:00"
+}
