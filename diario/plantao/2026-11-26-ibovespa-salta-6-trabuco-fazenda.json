@@ -1,0 +1,121 @@
+{
+ "titulo": "Ibovespa salta 6% e dólar cai com Trabuco na Fazenda: o que se sabe",
+ "descricao": "Ibovespa subiu 6,07% e o dólar caiu 1,25%, a R$ 5,74, na quinta (26), com a expectativa de Trabuco na Fazenda. Veja o que está confirmado e o que não.",
+ "palavra_chave": "ibovespa salta 6% trabuco fazenda",
+ "lead": "O Ibovespa, principal índice da Bolsa brasileira, subiu 6,07% na quinta-feira (26/11) e fechou em 176.799,84 pontos. O dólar caiu 1,25%, a R$ 5,74, pela quarta queda seguida. Analistas e veículos ligam o movimento à expectativa de que Luiz Carlos Trabuco, do Bradesco, assuma a Fazenda. O governo ainda não anunciou a escolha oficialmente.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou em alta de 6,07%, aos 176.799,84 pontos, nesta quinta (26/11). Segundo o BPMoney, foi a maior alta diária do índice desde o primeiro turno das eleições de 2026.",
+   "fonte_url": "https://bpmoney.com.br/mercado/ibovespa-dispara-607-dolar-cai-574-expectativa-trabuco-fazenda/",
+   "data": "2026-11-26",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O Money Times também registrou o fechamento em alta de 6,07%, aos 176.799,84 pontos. A Forbes Brasil informou alta de 6%, a maior pontuação de fechamento em mais de um mês.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-26-11-2026-davs/",
+   "data": "2026-11-26",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar fechou em baixa de 1,25%, a R$ 5,7441. Foi a quarta queda seguida frente ao real, em meio à expectativa de que Lula indique Trabuco para a Fazenda.",
+   "fonte_url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-cai-a-r-5-73-e-ibovespa-dispara-mais-de-3",
+   "data": "2026-11-26",
+   "veiculo": "SBT News",
+   "confiavel": false
+  },
+  {
+   "texto": "Duas fontes ouvidas pela Reuters disseram que Lula sondou Trabuco, com quem se reuniu recentemente. O banqueiro ficou de dar uma resposta em breve. O InfoMoney diz que ele é visto pela Faria Lima, o mercado financeiro, como um nome amigável ao mercado.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-salta-3-e-supera-os-172-mil-pontos-com-possibilidade-de-trabuco-na-fazenda/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Trabuco preside o conselho de administração do Bradesco. Ele se reuniu com Lula na segunda-feira (23/11), fora da agenda oficial, no Palácio da Alvorada. O encontro foi revelado pelo jornal O Globo, segundo o blog de Julia Duailibi no g1.",
+   "fonte_url": "https://www.spacemoney.com.br/politica/haddad-descarta-cargo-trabuco-fazenda",
+   "data": "2026-11-25",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Fernando Haddad disse a Lula, na terça-feira (24/11), que não quer cargo no próximo governo. Dario Durigan segue como ministro da Fazenda enquanto Lula negocia.",
+   "fonte_url": "https://www.infomoney.com.br/politica/os-naos-de-lula-quem-saiu-da-disputa-pela-fazenda-e-quem-ainda-esta-no-pareo/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Na quarta (25/11), quando surgiram as primeiras informações, o dólar caiu 1,53% e o Ibovespa subiu 1,58%. Segundo o InfoMoney, o nome de Trabuco surge depois de o Congresso aprovar um pacote fiscal com economia prevista de até R$ 56 bilhões em 2027.",
+   "fonte_url": "https://www.infomoney.com.br/politica/trabuco-aceita-convite-de-lula-para-assumir-ministerio-da-fazenda-dizem-agencias/",
+   "data": "2026-11-25",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Outros fatores entraram na conta do mercado. O IPCA-15 de novembro, prévia da inflação oficial, subiu 0,22%, abaixo dos 0,32% de outubro. Em 12 meses, ficou em 4,64%, abaixo da mediana das estimativas do Projeções Broadcast (4,78%). Os EUA tiveram feriado de Ação de Graças, e o volume de negócios foi menor.",
+   "fonte_url": "https://bpmoney.com.br/mercado/ibovespa-dispara-607-dolar-cai-574-expectativa-trabuco-fazenda/",
+   "data": "2026-11-26",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Trabuco se reúne com Lula no Palácio da Alvorada, fora da agenda oficial.",
+   "fonte_url": "https://www.spacemoney.com.br/politica/haddad-descarta-cargo-trabuco-fazenda",
+   "data": "2026-11-23",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Haddad diz a Lula que não quer cargo no próximo governo.",
+   "fonte_url": "https://www.infomoney.com.br/politica/os-naos-de-lula-quem-saiu-da-disputa-pela-fazenda-e-quem-ainda-esta-no-pareo/",
+   "data": "2026-11-24",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Surgem as primeiras informações sobre o convite. O dólar cai 1,53% e o Ibovespa sobe 1,58%, a 166.675 pontos.",
+   "fonte_url": "https://www.infomoney.com.br/politica/trabuco-aceita-convite-de-lula-para-assumir-ministerio-da-fazenda-dizem-agencias/",
+   "data": "2026-11-25",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "Ibovespa fecha em alta de 6,07%, a 176.799,84 pontos, e o dólar cai 1,25%, a R$ 5,7441.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-26-11-2026-davs/",
+   "data": "2026-11-26",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Agências informam que Trabuco aceitou o convite. O governo ainda não anunciou a escolha oficialmente.",
+   "fonte_url": "https://www.infomoney.com.br/politica/trabuco-aceita-convite-de-lula-para-assumir-ministerio-da-fazenda-dizem-agencias/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não há anúncio oficial. Segundo agências, citadas pelo InfoMoney, Trabuco aceitou o convite. O InfoMoney informa que o governo ainda não anunciou a escolha oficialmente. Outros veículos dizem que ele ainda avalia a proposta. Trate a aceitação como não confirmada oficialmente.",
+  "Não se sabe quando Lula vai anunciar o ministro da Fazenda. O ICL Notícias, que não cita fonte oficial, diz que a resposta de Trabuco é a única pendência para o primeiro grupo de ministros, previsto para a próxima semana. Isso não foi confirmado pelo governo.",
+  "Não se sabe se Alckmin, Durigan, Moretti ou Rafael Fonteles seguem cotados. Os veículos citam esses nomes como alternativas, sem confirmação oficial.",
+  "Os números de fechamento divergem entre veículos. Money Times, BPMoney e Forbes registram alta de 6% a 6,07%. Outros sites publicaram 4% a 4,4%, provavelmente com dados parciais do dia. Não achamos explicação para a diferença. Use o fechamento oficial da B3 para conferir.",
+  "Reação política não está fechada. A Revista Oeste diz que o líder do PT na Câmara, Pedro Uczai, afirmou que Trabuco \"pode não ser a melhor opção\". Não há posição oficial do partido ou do governo sobre isso nas fontes consultadas.",
+  "Não se sabe quanto da alta vem de Trabuco, da inflação mais fraca ou do pacote fiscal. Cada veículo pesa os fatores de um jeito, e nenhum medido de forma oficial."
+ ],
+ "o_que_muda_para_voce": [
+  "Dólar mais barato pode, com o tempo, aliviar o preço de importados, eletrônicos e viagens ao exterior. Mas o câmbio muda todo dia, e a queda de quinta pode não se manter.",
+  "Quem tem ações ou fundos de ações pode ver o valor subir após um dia de forte alta. A Bolsa também pode devolver ganhos se a escolha do ministro mudar ou demorar.",
+  "Quem tem renda fixa ou poupança não tem efeito direto com o anúncio. Os juros futuros, que indicam a expectativa do mercado para os juros, cederam na quinta, segundo o BPMoney.",
+  "Nada muda ainda na Fazenda. Durigan segue como ministro até o novo governo, que começa em 2027."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-salta-6-trabuco-fazenda",
+ "publicado_em": "2026-11-26T18:53:42.698037",
+ "atualizado_em": "2026-11-26T18:53:42.698037",
+ "assunto": "Ibovespa salta mais de 6% e dólar cai com a expectativa de Trabuco na Fazenda: o que se sabe",
+ "turno": "noite"
+}
