@@ -1,0 +1,192 @@
+{
+ "gancho": {
+  "formula": "Cena no meio (reação do Heitor)",
+  "texto": "Cara, o dólar abriu a R$ 5,75. Cinco e setenta e cinco!",
+  "na_tela": "Dólar abriu a R$ 5,75",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio (reação do Heitor)",
+   "texto": "Cara, o dólar abriu a R$ 5,75. Cinco e setenta e cinco!",
+   "na_tela": "Dólar abriu a R$ 5,75",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa (contraste)",
+   "texto": "Xangai caiu 2,01%, mas o resto do mundo amanheceu no verde.",
+   "na_tela": "Xangai cai, resto no verde",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quanto custa o dólar agora? R$ 5,75, ou 1,21% menos.",
+   "na_tela": "Quanto custa o dólar agora?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar abriu a R$ 5,75. Cinco e setenta e cinco!",
+  "Olha só: o dólar caiu 1,21% logo na abertura da bolsa.",
+  "Dólar é o preço do dinheiro de fora, igual quilo na feira.",
+  "Na bolsa, o Ibovespa abriu com leve alta de 0,19%.",
+  "Lá fora, Europa e futuros de Nova York em alta.",
+  "Mas Xangai fechou caindo 2,01%, um sinal amarelo na Ásia.",
+  "Passo calmo: dólar oscila todo dia, então nada de decidir no susto.",
+  "Manda pra quem tá planejando viagem e vive olhando o dólar.",
+  "Dólar a R$ 5,75: alívio ou ainda salgado? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar abriu a R$ 5,75. Cinco e setenta e cinco! Olha só: o dólar caiu 1,21% logo na abertura da bolsa. Dólar é o preço do dinheiro de fora, igual quilo na feira. Na bolsa, o Ibovespa abriu com leve alta de 0,19%. Lá fora, Europa e futuros de Nova York em alta. Mas Xangai fechou caindo 2,01%, um sinal amarelo na Ásia. Passo calmo: dólar oscila todo dia, então nada de decidir no susto. Manda pra quem tá planejando viagem e vive olhando o dólar. Dólar a R$ 5,75: alívio ou ainda salgado? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 105,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "Dólar abriu a R$ 5,75",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar ▼1,21% · R$ 5,75",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Ibovespa ▲0,19%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 4,
+   "texto": "Europa e futuros dos EUA em alta",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 5,
+   "texto": "Xangai ▼2,01%",
+   "fonte": "Yahoo Finance"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje e Ibovespa hoje (26/11): como o mundo amanheceu e como o Brasil abriu.\n\nNa abertura, o dólar estava a R$ 5,75, com queda de 1,21%, e o Ibovespa subia 0,19%. Lá fora, Europa e futuros de Nova York em alta, enquanto Xangai fechou caindo 2,01%.\n\nDólar oscila todo dia. O passo calmo é acompanhar sem decidir nada no susto.\n\nManda pra quem tá planejando viagem e vive olhando o dólar.\n\nCotações: Yahoo Finance.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #ibovespa #bolsadevalores #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#bolsadevalores",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar abriu a R$ 5,75 e caiu 1,21%.",
+  "topicos": [
+   "Dólar a R$ 5,75, queda de 1,21% na abertura, segundo o Yahoo Finance.",
+   "Ibovespa abriu em alta de 0,19%; Europa e Nova York também sobem.",
+   "Xangai fechou em queda de 2,01%, o ponto de atenção lá fora.",
+   "O que fazer: dólar oscila todo dia, então não decida nada no susto."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Abertura com vários números e contexto pede explicação calma, não notícia de última hora.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Na bolsa, o Ibovespa abriu com leve alta de 0,19%\" e \"Lá fora, Europa e futuros de Nova York em alta\": \"Ibovespa\" e \"futuros de Nova York\" ficam sem tradução, e a fala ainda traz o número 0,19% logo depois do 1,21%. Reescreva trocando por \"a bolsa brasileira, onde as empresas negociam ações, abriu quase estável\" e traduza \"futuros\" por \"os mercados de Nova York sinalizam alta\". Deixe o número exato no cartão da tela. Assim a fala segue o Teste do CLT: uma ideia e no máximo um número por fala.",
+   "Frase \"Dólar é o preço do dinheiro de fora, igual quilo na feira\": a comparação ajuda, mas fica solta e não responde \"isso mexe no meu bolso?\". Ligue ao efeito prático na mesma fala, por exemplo: \"quando o dólar cai, viagem e produto importado tendem a ficar mais baratos\". Use só o que a peça já sustenta, sem prometer preço menor. Isso entrega o \"o que muda pra você\" antes do passo calmo.",
+   "Frase \"Mas Xangai fechou caindo 2,01%, um sinal amarelo na Ásia\": o sinal amarelo é uma perda sem explicação e sem saída, e o leitor não sabe por que Xangai importa pra ele. Diga em uma frase o que se sabe e o que não se sabe, por exemplo: \"a fonte não diz o motivo e não dá pra saber se isso pesa aqui\". Em seguida ligue ao passo calmo. Também ajuda trocar a abertura \"Cinco e setenta e cinco!\" por uma reação mais viva e incluir um gatilho de comentário fácil, como \"alívio ou salgado? Comenta 1 ou 2\"."
+  ],
+  "veredito": "A peça abre no gancho, traz a comparação da feira, o passo calmo, o bordão e a fonte na legenda, mas falta traduzir termos como Ibovespa e futuros, reduzir a pilha de números e explicar o que a queda do dólar muda no bolso e por que Xangai importa."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: 'Cara, o dólar abriu a R$ 5,75. Cinco e setenta e cinco!' tem número, mas não diz de quem é o bolso nem abre lacuna. Reescrita: 'Quem vai viajar, presta atenção: o dólar abriu a R$ 5,75 e caiu 1,21% logo na abertura.' Isso junta identificação, número específico e a queda numa frase só. Aí 'Olha só: o dólar caiu 1,21%...' sai, porque repete a informação.",
+   "Retenção (Teste do CLT): são 4 números e 'futuros de Nova York' sem tradução. Troque 'Lá fora, Europa e futuros de Nova York em alta.' por 'Lá fora, Europa e Nova York amanheceram em alta.' Troque 'Na bolsa, o Ibovespa abriu com leve alta de 0,19%.' por 'Na bolsa, o Ibovespa abriu quase parado: alta de 0,19%.' Assim cada fala fica com uma ideia e um número.",
+   "Virada: 'Mas Xangai fechou caindo 2,01%' chega no fim de uma lista e passa batido. Reescrita: 'E aí vem a parte que pouca gente viu: Xangai fechou caindo 2,01%. Sinal amarelo na Ásia.' Ela guarda o número mais forte para o meio e segura quem ia sair. Depois dela, solte um gatilho curto antes do fim: 'Você olha o dólar todo dia? Comenta EU.'"
+  ],
+  "veredito": "Roteiro limpo, que paga o que diz e fecha bem com envio concreto ('manda pra quem tá planejando viagem') e pergunta de duas saídas, mas o gancho só lê o preço do dólar sem chamar o espectador, e a avalanche de números sem virada forte faz quem não conhece o Termômetro sair antes do fim."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "Lively Brazilian open-air street market (feira) in the morning: colorful stalls piled with mangoes, tomatoes and bananas, an old two-pan balance scale with a pile of fruit on one pan and a metal weight on the other. Slow dolly-in along the stall, hands of vendors blurred in the background, no faces in focus, warm natural light, no text, no signs, no numbers",
+   "texto_da_fala": "Dólar é o preço do dinheiro de fora, igual quilo na feira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Lively Brazilian open-air street market (feira) in the morning: colorful stalls piled with mangoes, tomatoes and bananas, an old two-pan balance scale with a pile of fruit on one pan and a metal weight on the other. Slow dolly-in along the stall, hands of vendors blurred in the background, no faces in focus, warm natural light, no text, no signs, no numbers. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fula": "",
+   "fala": 3,
+   "visual": "Early-morning aerial drone shot slowly descending over a dense São Paulo financial district, glass skyscrapers catching the first sunlight, light traffic flowing on the avenues below, soft golden haze. Smooth forward and tilt-up camera movement, no readable signs, no text, no logos, no people in focus",
+   "texto_da_fala": "Na bolsa, o Ibovespa abriu com leve alta de 0,19%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Early-morning aerial drone shot slowly descending over a dense São Paulo financial district, glass skyscrapers catching the first sunlight, light traffic flowing on the avenues below, soft golden haze. Smooth forward and tilt-up camera movement, no readable signs, no text, no logos, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Shanghai-style futuristic skyline at dusk seen across a river, light drizzle, amber and yellow glowing lights reflecting on the water, a cargo ship slowly crossing the frame. Slow lateral tracking shot with a moody, cautious atmosphere, no text, no readable signs, no logos, no people in focus",
+   "texto_da_fala": "Mas Xangai fechou caindo 2,01%, um sinal amarelo na Ásia.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shanghai-style futuristic skyline at dusk seen across a river, light drizzle, amber and yellow glowing lights reflecting on the water, a cargo ship slowly crossing the frame. Slow lateral tracking shot with a moody, cautious atmosphere, no text, no readable signs, no logos, no people in focus. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar abriu a R$ 5,75. Cinco e setenta e cinco!\n\nOlha só: o dólar caiu 1,21% logo na abertura da bolsa.\n\nDólar é o preço do dinheiro de fora, igual quilo na feira.\n\nNa bolsa, o Ibovespa abriu com leve alta de 0,19%.\n\nLá fora, Europa e futuros de Nova York em alta.\n\nMas Xangai fechou caindo 2,01%, um sinal amarelo na Ásia.\n\nPasso calmo: dólar oscila todo dia, então nada de decidir no susto.\n\nManda pra quem tá planejando viagem e vive olhando o dólar.\n\nDólar a R$ 5,75: alívio ou ainda salgado? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-26",
+ "gerado_em": "2026-11-26T10:25:49.881666-03:00",
+ "enviado_whatsapp": "2026-11-26T10:26:10.955415-03:00"
+}
