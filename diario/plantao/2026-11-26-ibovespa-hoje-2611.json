@@ -1,0 +1,113 @@
+{
+ "titulo": "Ibovespa hoje (26/11): o que se sabe",
+ "descricao": "Ibovespa subiu 1,58% e o dólar caiu a R$ 5,8168 em 25/11. Hoje saem o IPCA-15 e dados do BC, e Nova York fecha pelo Thanksgiving.",
+ "palavra_chave": "ibovespa hoje",
+ "lead": "O Ibovespa, índice das ações mais negociadas da B3, fechou em alta de 1,58% na quarta-feira (25/11), aos 166.684,61 pontos. O dólar caiu 1,59%, a R$ 5,8168, segundo o Bom Dia Mercado e o SpaceMoney. Hoje (26/11) saem o IPCA-15, às 9h, e dados do Banco Central, às 8h30. As bolsas de Nova York ficam fechadas pelo feriado de Thanksgiving.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou em 25/11 em alta de 1,58%, aos 166.684,61 pontos. O dólar à vista caiu 1,59%, a R$ 5,8168.",
+   "fonte_url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/fechamento-ibovespa-sobe-e-retoma-os-166-mil-pontos-com-rumor-de-trabuco-na-fazenda-dolar-cai-a-r-581-2/",
+   "data": "2026-11-25",
+   "veiculo": "Bom Dia Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "A alta do Ibovespa foi puxada por especulações sobre a possível indicação de Luiz Carlos Trabuco, presidente do conselho do Bradesco, para o Ministério da Fazenda. Segundo o Investidor Institucional, não há confirmação oficial de convite ou indicação.",
+   "fonte_url": "https://investidorinstitucional.com.br/mercados/mercado-de-capitais/especulacao-sobre-trabuco-na-fazenda-faz-ibovespa-subir-158",
+   "data": "2026-11-25",
+   "veiculo": "Investidor Institucional",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Folha de S.Paulo, citada pelo Monitor do Mercado, Trabuco se reuniu com Lula em 23/11, no Palácio da Alvorada, em encontro fora da agenda oficial. O Alckmin e o ministro da Fazenda, Dario Durigan, também foram citados entre os nomes avaliados pelo mercado.",
+   "fonte_url": "https://monitordomercado.com.br/noticias/438280-ibovespa-bolsa-sobe-com-rumor-sobre-trabuco-na-fazenda",
+   "data": "2026-11-25",
+   "veiculo": "Monitor do Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "O mercado também acompanhou a preparação de uma proposta de emenda à Constituição (PEC) para limitar o crescimento das despesas obrigatórias. O pacote fiscal tem impacto estimado em cerca de R$ 50 bilhões em 2027. Parte dos analistas considera necessário um ajuste mais amplo, segundo o Investidor Institucional.",
+   "fonte_url": "https://investidorinstitucional.com.br/mercados/mercado-de-capitais/especulacao-sobre-trabuco-na-fazenda-faz-ibovespa-subir-158",
+   "data": "2026-11-25",
+   "veiculo": "Investidor Institucional",
+   "confiavel": false
+  },
+  {
+   "texto": "A bolsa voltou a subir depois de quatro pregões seguidos de perdas. Mesmo com a alta, o Ibovespa ainda acumula queda de 0,74% em novembro e ganho de 3,45% em 2026, segundo o SpaceMoney.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-alta-trabuco-fazenda",
+   "data": "2026-11-25",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Na véspera (24/11), o Ibovespa tinha caído 0,43%, para 164.089,81 pontos, pressionado por Petrobras e Vale.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-pec-fiscal-contas-publicas-e-pce-dos-eua-no-radar-2137747",
+   "data": "2026-11-24",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 25/11, a Bolsa de Xangai caiu 2,03%, a maior queda diária em três meses, segundo o SpaceMoney.",
+   "fonte_url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-deficit-pce-tarifas-mercados",
+   "data": "2026-11-25",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Hoje (26/11) saem, às 8h30, o Investimento Estrangeiro Direto e as Transações Correntes de outubro, e, às 9h, o IPCA-15 de novembro, a prévia da inflação. Quinta-feira também é feriado de Thanksgiving nos EUA.",
+   "fonte_url": "https://www.moneytimes.com.br/inflacao-no-brasil-e-nos-eua-movimentam-a-semana-veja-a-agenda-de-indicadores/",
+   "data": "2026-11-22",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Trabuco se reúne com Lula fora da agenda oficial, segundo a Folha de S.Paulo.",
+   "fonte_url": "https://monitordomercado.com.br/noticias/438280-ibovespa-bolsa-sobe-com-rumor-sobre-trabuco-na-fazenda",
+   "data": "2026-11-23",
+   "veiculo": "Monitor do Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa cai 0,43%, para 164.089,81 pontos.",
+   "fonte_url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-pec-fiscal-contas-publicas-e-pce-dos-eua-no-radar-2137747",
+   "data": "2026-11-24",
+   "veiculo": "Investing.com",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa sobe 1,58%, a 166.684,61 pontos, e o dólar cai 1,59%, a R$ 5,8168.",
+   "fonte_url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/fechamento-ibovespa-sobe-e-retoma-os-166-mil-pontos-com-rumor-de-trabuco-na-fazenda-dolar-cai-a-r-581-2/",
+   "data": "2026-11-25",
+   "veiculo": "Bom Dia Mercado",
+   "confiavel": false
+  },
+  {
+   "texto": "Saem o IPCA-15 (9h) e dados do BC (8h30). Nova York fecha por causa do Thanksgiving.",
+   "fonte_url": "https://www.moneytimes.com.br/inflacao-no-brasil-e-nos-eua-movimentam-a-semana-veja-a-agenda-de-indicadores/",
+   "data": "2026-11-26",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se Trabuco foi convidado ou se aceitou o cargo. Até agora, o que existe são informações da imprensa e especulação de mercado, sem confirmação oficial.",
+  "Não conseguimos confirmar os números da madrugada de 26/11 na Ásia, na Europa e nos futuros dos EUA. Os dados que encontramos são de 25/11.",
+  "Não foi confirmada a queda de 2,78% do Nikkei, nem a de 2,37% dos futuros do Nasdaq em 25/11. Uma fonte encontrada cita queda de 2,90% dos futuros do Nasdaq na manhã de 25/11.",
+  "Não se sabe como o mercado vai reagir hoje. Isso depende do IPCA-15 e de novas notícias sobre a Fazenda e o ajuste fiscal. Os números de abertura de hoje ainda não foram confirmados.",
+  "As projeções para o IPCA-15 variam entre as fontes. O Rio Times cita 0,34% no mês e 4,78% em 12 meses. O TradeMap cita 0,36% e 4,80%."
+ ],
+ "o_que_muda_para_voce": [
+  "O dólar mais barato tende a reduzir o preço de produtos importados e de viagens. Uma queda de um dia não garante que o preço continue baixo.",
+  "Quem tem fundo ou ETF (fundo de índice negociado em bolsa) atrelado ao Ibovespa viu o valor subir em 25/11. Esse valor pode oscilar de novo hoje.",
+  "O IPCA-15 mostra o ritmo da inflação e ajuda a avaliar os próximos passos do Banco Central. A taxa Selic está em 13,75% desde a reunião do Copom de 4/11, e a próxima decisão é em dezembro. O Copom não se reúne hoje.",
+  "Com Nova York fechada, o volume de negócios no mundo costuma ser menor hoje. Isso pode deixar os preços mais sensíveis às notícias do Brasil."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-hoje-2611",
+ "publicado_em": "2026-11-26T00:46:33.599817",
+ "atualizado_em": "2026-11-26T00:46:33.599817",
+ "assunto": "Mercado do dia (26/11): Ibovespa fechou ontem em alta de 1,58%, a 166.684,61 pontos, e o dólar caiu 1,59%, a R$ 5,8168, com rumor de Trabuco na Fazenda e sinais fiscais. Hoje saem o IPCA-15 (9h) e dados do BC (8h30), e Nova York fecha por causa do Thanksgiving. Copom e payroll não estão na agenda de hoje. O dado da madrugada na Ásia, na Europa e nos futuros dos EUA não foi confirmado; só há dados de 25/11 (Nikkei -2,78%, Xangai -2,03%, futuros do Nasdaq -2,37%).",
+ "turno": "manha"
+}
