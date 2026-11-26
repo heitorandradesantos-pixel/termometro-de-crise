@@ -1,125 +1,84 @@
 {
- "titulo": "Grupo Fictor e Operação Dinheiro Fictício: o que se sabe",
- "descricao": "Polícia Civil e MP-SP fazem 12 buscas contra o Grupo Fictor e a Justiça bloqueia até R$ 4,3 bi. Veja o que está confirmado e o que ainda não se sabe.",
- "palavra_chave": "grupo fictor operação dinheiro fictício",
- "lead": "Na quinta-feira (26/11), a Polícia Civil e o Ministério Público de São Paulo fizeram a Operação Dinheiro Fictício contra o Grupo Fictor, que tinha anunciado a intenção de comprar o Banco Master. Foram 12 mandados de busca, e a Justiça autorizou o bloqueio de até R$ 4,3 bilhões em bens e ativos dos investigados. As autoridades apuram se o grupo captou mais de R$ 4 bilhões com promessa de rendimento fixo sem lastro. Os investigados têm direito à defesa, e nada foi julgado.",
+ "titulo": "Fictor, Operação Dinheiro Fictício e os investidores: o que se sabe",
+ "descricao": "Justiça bloqueia até R$ 4,3 bi de 233 investigados do Grupo Fictor. Veja o que se sabe e o que muda para quem investiu.",
+ "palavra_chave": "fictor operação dinheiro fictício",
+ "lead": "Nesta quinta-feira (26/11), a Polícia Civil e o Ministério Público de São Paulo fizeram a Operação Dinheiro Fictício contra o Grupo Fictor, e a Justiça bloqueou até R$ 4,3 bilhões de 233 investigados. O bloqueio não significa que o dinheiro já foi encontrado nem devolvido aos investidores. O grupo, que está em recuperação judicial, disse em nota que sua equipe jurídica acompanha o caso.",
  "o_que_se_sabe": [
   {
-   "texto": "A Operação Dinheiro Fictício foi feita em 26/11 pelo 15º Distrito Policial (Itaim Bibi) e pelo Grupo de Atuação Especial de Persecução Patrimonial (GAEPP) do Ministério Público. Cumpriu 12 mandados de busca e apreensão em São Paulo e em São Bernardo do Campo.",
-   "fonte_url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mp-e-policia-fazem-operacao-contra-fictor-e-justica-bloqueia-r-43-bilhoes/",
+   "texto": "A 3ª Vara de Falências e Recuperações Judiciais determinou o bloqueio e o sequestro de bens e ativos financeiros de 233 investigados, sendo 59 pessoas físicas e 174 empresas. O limite é de cerca de R$ 4,3 bilhões, valor igual ao passivo (as dívidas) identificado na recuperação judicial do grupo.",
+   "fonte_url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/entenda-operacao-que-investiga-fraude-bilionaria-envolvendo-o-grupo-fictor/",
    "data": "2026-11-26",
    "veiculo": "CNN Brasil",
    "confiavel": true
   },
   {
-   "texto": "A 3ª Vara de Falências e Recuperações Judiciais determinou o bloqueio de até R$ 4,3 bilhões em bens e ativos de 233 investigados: 59 pessoas e 174 empresas. O valor coincide com as dívidas que o próprio grupo declarou ao pedir recuperação judicial.",
-   "fonte_url": "https://www.moneytimes.com.br/ceo-da-fictor-inflou-capital-da-holding-de-r-4-mi-para-quase-r-1-bi-sem-aporte-real-diz-mp/",
+   "texto": "A Polícia Civil e o Grupo de Atuação Especial de Persecução Patrimonial (GAEPP) do Ministério Público cumpriram 12 ordens de busca e apreensão, divididas entre a capital paulista e São Bernardo do Campo.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/legislacao/operacao-dinheiro-ficticio-grupo-fictor",
    "data": "2026-11-26",
-   "veiculo": "Money Times (Estadão)",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a Polícia Civil, os investigadores apuram se os administradores captaram mais de R$ 4 bilhões entre 2024 e 2025, em contratos que prometiam rendimento fixo, mas não tinham lastro (respaldo) em operações comerciais reais. A operação é conduzida pelo 15º Distrito Policial e pelo GAEPP, com a Promotoria de Falência. Também se apura se houve ocultação de patrimônio antes e depois do pedido de recuperação judicial. É uma suspeita em investigação.",
+   "fonte_url": "https://vitorvieirajornalismo1.substack.com/p/policia-paulista-faz-operacao-contra",
+   "data": "2026-11-26",
+   "veiculo": "Vitor Vieira Jornalismo (Substack)",
+   "confiavel": false
+  },
+  {
+   "texto": "As apurações envolvem possíveis crimes falimentares, estelionato, lavagem de dinheiro e organização criminosa. A Polícia Civil diz ter achado pontos de contato com estruturas investigadas na Operação Carbono Oculto, que apura a atuação do crime organizado no setor de combustíveis e no mercado financeiro.",
+   "fonte_url": "https://bpmoney.com.br/economia/nacional/operacao-dinheiro-ficticio-grupo-fictor-bloqueio-43-bilhoes/",
+   "data": "2026-11-26",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ministério Público de SP afirma que o CEO, Rafael Ribeiro Leite de Góis, elevou o capital da holding de R$ 4,2 milhões para R$ 997,8 milhões sem aporte real. Os promotores dizem também que ele recebeu mais de R$ 177,1 milhões sem justificativa comercial identificada. Dois endereços ligados a ele foram revistados. São acusações do MP, ainda sem decisão da Justiça sobre o mérito.",
+   "fonte_url": "https://bpmoney.com.br/brasil/ceo-fictor-inflou-capital-holding-997-milhoes-mp/",
+   "data": "2026-11-26",
+   "veiculo": "BPMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Em nota, o Grupo Fictor informou que tomou ciência da operação e que sua equipe jurídica acompanha os desdobramentos do caso.",
+   "fonte_url": "https://jornalggn.com.br/noticia/operacao-contra-grupo-fictor-bloqueia-r-43-bilhoes-e-confirma-denuncias-do-ggn/",
+   "data": "2026-11-26",
+   "veiculo": "Jornal GGN",
+   "confiavel": false
+  },
+  {
+   "texto": "Em fevereiro de 2026, a Fictor Holding e a Fictor Invest pediram recuperação judicial, com mais de 13 mil credores e passivo superior a R$ 4,2 bilhões. A Justiça depois estendeu o processo a 43 empresas do grupo. Segundo a Polícia Civil, a investigação começou após investidores relatarem prejuízos.",
+   "fonte_url": "https://acritica.net/economia/operacao-dinheiro-ficticio-grupo-fictor-bloqueio-4-3-bilhoes/",
+   "data": "2026-11-26",
+   "veiculo": "A Crítica de Campo Grande",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo a decisão, as medidas foram urgentes também por causa da assembleia de credores marcada para 4 de dezembro, quando será discutido o plano de recuperação judicial do grupo.",
+   "fonte_url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/entenda-operacao-que-investiga-fraude-bilionaria-envolvendo-o-grupo-fictor/",
+   "data": "2026-11-26",
+   "veiculo": "CNN Brasil",
    "confiavel": true
-  },
-  {
-   "texto": "Segundo a Polícia Civil, os investigadores apuram se os administradores captaram mais de R$ 4 bilhões entre 2024 e 2025, em contratos que prometiam rendimento fixo, mas não tinham lastro (respaldo) em operações comerciais reais. É uma suspeita em investigação.",
-   "fonte_url": "https://www.alagoas24horas.com.br/1777057/operacao-mira-grupo-fictor-que-tentou-comprar-o-master-e-bloqueia-mais-de-r-4-bilhoes/",
-   "data": "2026-11-26",
-   "veiculo": "Alagoas 24 Horas",
-   "confiavel": false
-  },
-  {
-   "texto": "O Ministério Público afirma que o grupo atraía investidores com a justificativa de aplicar no agronegócio e que isso não tinha respaldo em negócios agropecuários reais nem registro na CVM (Comissão de Valores Mobiliários).",
-   "fonte_url": "https://www.diariodocentrodomundo.com.br/operacao-grupo-fictor-bloqueio-r-4-3-bilhoes",
-   "data": "2026-11-26",
-   "veiculo": "Diário do Centro do Mundo",
-   "confiavel": false
-  },
-  {
-   "texto": "A investigação apura possíveis crimes falimentares, estelionato, lavagem de dinheiro e organização criminosa. A Polícia Civil diz ter achado possíveis pontos de contato com estruturas apuradas em outras operações.",
-   "fonte_url": "https://diariodopoder.com.br/brasil-e-regioes/csa-brasil/grupo-fictor-e-alvo-de-operacao-por-suspeita-de-fraude-de-r-43-bi",
-   "data": "2026-11-26",
-   "veiculo": "Diário do Poder",
-   "confiavel": false
-  },
-  {
-   "texto": "O MP diz que o CEO, Rafael Góis, elevou o capital da holding de R$ 4,2 milhões para quase R$ 1 bilhão sem aporte real. É uma acusação do MP, ainda sem decisão da Justiça sobre o mérito.",
-   "fonte_url": "https://www.moneytimes.com.br/ceo-da-fictor-inflou-capital-da-holding-de-r-4-mi-para-quase-r-1-bi-sem-aporte-real-diz-mp/",
-   "data": "2026-11-26",
-   "veiculo": "Money Times (Estadão)",
-   "confiavel": true
-  },
-  {
-   "texto": "O Grupo Fictor, em recuperação judicial, disse em nota que tomou ciência da operação e que sua equipe jurídica acompanha o caso. Afirmou que segue à disposição das autoridades. A defesa de Góis disse que dará esclarecimentos depois de ter acesso à investigação.",
-   "fonte_url": "https://www.terra.com.br/noticias/brasil/grupo-fictor-e-alvo-de-operacao-por-suspeita-de-fraude-justica-bloqueia-r43-bi,a9e3c349b786264d88370e196d20926djsdylru4.html",
-   "data": "2026-11-26",
-   "veiculo": "Terra (Reuters)",
-   "confiavel": false
-  },
-  {
-   "texto": "O grupo tem 13.066 credores e dívidas de R$ 4,29 bilhões na recuperação judicial, pedida em fevereiro de 2026. Segundo a decisão, as medidas foram urgentes também por causa da assembleia de credores marcada para 4 de dezembro, que vai discutir o plano de recuperação.",
-   "fonte_url": "https://simnoticias.com.br/cnn-brasil/entenda-operacao-que-investiga-fraude-bilionaria-envolvendo-o-grupo-fictor/",
-   "data": "2026-11-26",
-   "veiculo": "CNN Brasil (via Sim Notícias)",
-   "confiavel": false
   }
  ],
- "linha_do_tempo": [
-  {
-   "texto": "O Grupo Fictor anuncia a intenção de comprar o Banco Master, com aporte previsto de R$ 3 bilhões.",
-   "fonte_url": "https://www.metropoles.com/sao-paulo/alvo-de-operacao-grupo-fictor-tentou-comprar-o-banco-master-ha-um-ano",
-   "data": "2025-11-17",
-   "veiculo": "Metrópoles",
-   "confiavel": true
-  },
-  {
-   "texto": "No dia seguinte, o Banco Central decreta a liquidação do Master, e a Fictor suspende a compra.",
-   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/negocios/como-esta-a-fictor-apos-caso-master-entenda-situacao-do-grupo/",
-   "data": "2025-11-18",
-   "veiculo": "CNN Brasil",
-   "confiavel": true
-  },
-  {
-   "texto": "Em fevereiro de 2026, o grupo pede recuperação judicial, com dívidas de cerca de R$ 4,3 bilhões. O pedido começou com a Fictor Holding e a Fictor Invest.",
-   "fonte_url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mp-e-policia-fazem-operacao-contra-fictor-e-justica-bloqueia-r-43-bilhoes/",
-   "data": "2026-11-26",
-   "veiculo": "CNN Brasil",
-   "confiavel": true
-  },
-  {
-   "texto": "Segundo o Investidor10, o CEO Rafael Góis já havia sido alvo de busca da Polícia Federal em uma operação sobre fraudes bancárias, em março de 2026.",
-   "fonte_url": "https://investidor10.com.br/noticias/grupo-fictor-que-tentou-comprar-o-master-e-alvo-de-operacao-da-policia-124100/",
-   "data": "2026-11-26",
-   "veiculo": "Investidor10",
-   "confiavel": false
-  },
-  {
-   "texto": "A Polícia Civil e o MP-SP fazem a Operação Dinheiro Fictício, e a Justiça bloqueia até R$ 4,3 bilhões. O Grupo Fictor divulga nota no mesmo dia.",
-   "fonte_url": "https://www.terra.com.br/noticias/brasil/grupo-fictor-e-alvo-de-operacao-por-suspeita-de-fraude-justica-bloqueia-r43-bi,a9e3c349b786264d88370e196d20926djsdylru4.html",
-   "data": "2026-11-26",
-   "veiculo": "Terra (Reuters)",
-   "confiavel": false
-  }
- ],
+ "linha_do_tempo": [],
  "o_que_nao_se_sabe": [
-  "Se os investidores vão recuperar o dinheiro e quanto. Isso não foi confirmado. O bloqueio busca preservar bens, mas não devolve valores automaticamente.",
-  "Se haverá denúncia formal à Justiça (acusação criminal). Nenhuma fonte consultada informou isso.",
-  "A posição dos outros dois empresários citados pelo MP como núcleo de controle (Luiz Phillippe Gomes Rubini e Rafael Paixão Ferreira Giuseppe). As fontes consultadas não trazem manifestação deles.",
-  "O valor exato captado. A Polícia Civil fala em mais de R$ 4 bilhões. Um único veículo cita R$ 4,5 bilhões e atribui a um delegado a descrição de pirâmide financeira (esquema que paga antigos investidores com dinheiro de novos). Isso não foi confirmado por outros veículos consultados.",
-  "Quais são os pontos de contato com outras operações, que a Polícia Civil mencionou sem detalhar. Não foi encontrada, nesta apuração, a nota na página oficial do MP-SP. As informações das autoridades vêm da imprensa."
+  "Quanto dos R$ 4,3 bilhões bloqueados existe de fato e será achado. Segundo a ISTOÉ, o bloqueio não significa que o dinheiro foi encontrado ou recuperado, e não há garantia de que o valor bloqueado cubra todos os investidores.",
+  "Se as suspeitas se confirmam. As acusações de captação sem lastro, de capital inflado e de ocultação de patrimônio são do MP e da Polícia Civil, estão em investigação e não têm decisão final da Justiça.",
+  "O que são exatamente os 'pontos de contato' com estruturas da Operação Carbono Oculto. A Polícia Civil os cita, mas não detalhou a natureza dessa ligação nas fontes consultadas.",
+  "Se a operação muda a assembleia de credores de 4/12. O Jornal GGN afirma que o caso coloca a recuperação judicial em xeque, mas isso não foi confirmado por fonte oficial.",
+  "Se as ações da Atom Educação bloqueadas têm relação com recursos do grupo. O Jornal GGN relata essa suspeita, mas não encontramos confirmação em outros veículos.",
+  "O que dizem os demais investigados e a defesa do CEO. Nesta apuração, só encontramos a nota do Grupo Fictor."
  ],
  "o_que_muda_para_voce": [
-  "Quem aplicou com o grupo segue como credor no processo de recuperação judicial. A assembleia de credores está marcada para 4 de dezembro.",
-  "O bloqueio atinge bens dos investigados, não dos investidores. Ele não é condenação, e os investigados têm direito à ampla defesa e à presunção de inocência.",
-  "Para saber se uma oferta é regular, veja se a empresa e o produto têm autorização ou registro na CVM ou no Banco Central. Segundo o MP, as operações do grupo não tinham registro na CVM.",
-  "Esta é uma operação da Polícia Civil e do MP-SP. Não confunda com a operação da Polícia Federal contra bets e golpes, noticiada em 24/11, que é outro caso."
+  "Quem investiu no grupo e consta como credor continua na recuperação judicial. Segundo o Times Brasil, os valores devidos deixam de ser pagos de forma individual e seguem as regras do processo.",
+  "O bloqueio é uma medida de garantia, não uma devolução. Advogados de algumas vítimas disseram, segundo o portal Juristas, que os bens bloqueados poderão ser usados para ressarcir investidores. Ainda não há valor nem prazo de pagamento definidos.",
+  "A assembleia de credores está marcada para 4 de dezembro e vai discutir o plano de recuperação. Segundo a ISTOÉ, quem tem contrato com empresas do grupo deve acompanhar as comunicações oficiais da recuperação judicial e conferir a situação do próprio crédito."
  ],
- "como_se_proteger": [
-  "Antes de aplicar, confira se a empresa e a oferta têm autorização do Banco Central ou registro na CVM.",
-  "Desconfie de rendimento fixo e garantido muito acima do mercado, principalmente se vier sem explicação clara de onde sai o lucro.",
-  "Desconfie de quem oferece recuperar seu dinheiro em troca de pagamento adiantado. Use só canais oficiais e advogado de confiança.",
-  "Guarde contratos, comprovantes de pagamento e conversas com a empresa. Eles servem para comprovar o crédito no processo."
- ],
+ "como_se_proteger": [],
  "slug": "grupo-fictor-operacao-dinheiro-ficticio",
  "publicado_em": "2026-11-26T16:14:42.849116",
- "atualizado_em": "2026-11-26T16:14:42.849116",
+ "atualizado_em": "2026-11-26T18:35:00.709976",
  "assunto": "Operação Dinheiro Fictício (26/11): Polícia Civil e Ministério Público de SP cumprem 12 mandados de busca contra o Grupo Fictor, que tinha anunciado a intenção de comprar o Banco Master. A Justiça autorizou bloqueio de até R$ 4,3 bilhões. A suspeita é de captação de mais de R$ 4 bilhões de investidores entre 2024 e 2025, com promessa de rendimento fixo sem lastro. Os investigados têm direito à defesa.",
- "turno": "viral"
+ "turno": "noite"
 }
