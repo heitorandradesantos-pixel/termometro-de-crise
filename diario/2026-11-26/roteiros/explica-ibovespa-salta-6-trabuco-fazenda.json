@@ -1,0 +1,199 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Cara, o dólar caiu pela quarta vez seguida, a R$ 5,74.",
+  "na_tela": "Dólar caiu 4 vezes seguidas",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Cara, o dólar caiu pela quarta vez seguida, a R$ 5,74.",
+   "na_tela": "Dólar caiu 4 vezes seguidas",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "A bolsa subiu 6% num dia, e o governo nem anunciou o motivo.",
+   "na_tela": "Bolsa +6%, sem anúncio",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O que o dólar a R$ 5,74 muda no seu bolso?",
+   "na_tela": "Dólar a R$ 5,74: e o seu bolso?",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar caiu pela quarta vez seguida, a R$ 5,74.",
+  "Analistas ligam isso à chance de Trabuco, do Bradesco, assumir a Fazenda.",
+  "O governo ainda não anunciou nada. Por enquanto, é só expectativa.",
+  "A bolsa, a vitrine das empresas grandes, também reagiu.",
+  "Agora a parte que pouca gente viu: no mesmo dia, ela subiu 6%.",
+  "Dólar baixo pode aliviar importado, eletrônico e viagem ao exterior.",
+  "Mas dólar é feito preço de feira: hoje baixa, amanhã pode subir.",
+  "Se seu dinheiro está na poupança, nada muda. Respira e não decida no susto.",
+  "Dólar a R$ 5,74: manda pra quem vai viajar. Dura ou volta? Comenta.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar caiu pela quarta vez seguida, a R$ 5,74. Analistas ligam isso à chance de Trabuco, do Bradesco, assumir a Fazenda. O governo ainda não anunciou nada. Por enquanto, é só expectativa. A bolsa, a vitrine das empresas grandes, também reagiu. Agora a parte que pouca gente viu: no mesmo dia, ela subiu 6%. Dólar baixo pode aliviar importado, eletrônico e viagem ao exterior. Mas dólar é feito preço de feira: hoje baixa, amanhã pode subir. Se seu dinheiro está na poupança, nada muda. Respira e não decida no susto. Dólar a R$ 5,74: manda pra quem vai viajar. Dura ou volta? Comenta. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Dólar caiu 4 vezes seguidas",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Trabuco, do Bradesco, na Fazenda?",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 2,
+   "texto": "Sem anúncio oficial do governo",
+   "fonte": "InfoMoney"
+  },
+  {
+   "fala": 4,
+   "texto": "Bolsa +6%",
+   "fonte": "Forbes Brasil"
+  },
+  {
+   "fala": 5,
+   "texto": "Dólar a R$ 5,74",
+   "fonte": "SBT News"
+  },
+  {
+   "fala": 6,
+   "texto": "Dólar muda todo dia",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: caiu pela quarta vez seguida e fechou a R$ 5,74, segundo o SBT News.\n\nAnalistas ligam o movimento à chance de Luiz Carlos Trabuco, do Bradesco, assumir a Fazenda. O governo ainda não anunciou a escolha oficialmente. No mesmo dia, a bolsa subiu 6%, segundo a Forbes Brasil.\n\nDólar mais barato pode, com o tempo, aliviar importados, eletrônicos e viagens ao exterior. Mas o câmbio muda todo dia, e a queda de quinta pode não se manter. Quem tem dinheiro na poupança não sente efeito direto. Respira e não decida no susto.\n\nConteúdo educativo, não é recomendação de investimento.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\n#dolarhoje #ibovespa #economia #educacaofinanceira",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#economia",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar caiu pela quarta vez seguida. Quarta vez!",
+  "topicos": [
+   "Dólar fechou a R$ 5,74, quarta queda seguida, segundo o SBT News.",
+   "Analistas ligam à chance de Trabuco, do Bradesco, na Fazenda; governo não anunciou.",
+   "Segundo a Forbes Brasil, a bolsa subiu 6% no mesmo dia.",
+   "Dólar muda todo dia: respira e não decida no susto."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente de quinta (26/11), ainda sem anúncio oficial, e pede o tom de \"tô aqui e preciso te contar\".",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"A bolsa, a vitrine das empresas grandes, também reagiu. Agora a parte que pouca gente viu: no mesmo dia, ela subiu 6%.\": a virada \"parte que pouca gente viu\" promete uma revelação, mas o 6% é só a continuação da mesma notícia, e a fala ficou com duas ideias. Troque por \"Olha só\" ou corte a promessa, e diga só \"A bolsa, que é a vitrine das empresas grandes, subiu uns 6% no mesmo dia\". Se quiser manter o \"parte que pouca gente viu\", use no ponto que a peça realmente revela, como o \"ainda é só expectativa\".",
+   "Frase \"Dólar baixo pode aliviar importado, eletrônico e viagem ao exterior.\": a fala fica abstrata para quem é CLT e não diz o que fazer. Traduza para o dia a dia e feche com um passo simples, usando só o que já está na peça: \"Se você pensa em comprar celular importado ou viajar, o dólar mais baixo pode ajudar. Mas não compre no susto: ele pode voltar a subir\".",
+   "Frases \"O governo ainda não anunciou nada. Por enquanto, é só expectativa.\" e \"Analistas ligam isso à chance de Trabuco, do Bradesco, assumir a Fazenda.\": a ressalva está certa, mas o gancho \"pela quarta vez seguida\" mais \"R$ 5,74\" em uma fala só soa como boletim. Para o jeito do Heitor, abra com a reação e o espanto e repita o número uma vez: \"Cara, o dólar caiu de novo. Quarta queda seguida! R$ 5,74\". Deixe o nome do Trabuco e a explicação para a fala seguinte. Troque \"Analistas ligam\" por \"Tem gente do mercado dizendo que...\" e \"Fazenda\" por \"Ministério da Fazenda, o comando da economia do país\"."
+  ],
+  "veredito": "A peça é sóbria, com ressalva honesta de que é só expectativa, comparação com a feira, saída calma para quem tem poupança e o bordão certo no fim; falta passar no Teste do CLT, com uma ideia por fala, o termo \\\"Fazenda\\\" traduzido e o \\\"parte que pouca gente viu\\\" apontando para uma virada de verdade, além de um jeito mais solto, de quem fala na rua."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho: \"Cara, o dólar caiu pela quarta vez seguida, a R$ 5,74.\" é número específico, mas só informa e não abre lacuna. Reescrita: \"Cara, o dólar caiu pela quarta vez seguida, a R$ 5,74. E analistas ligam isso a um nome: Trabuco, do Bradesco.\" Assim a pergunta \"por quê?\" já nasce na primeira respiração e a resposta vem logo, sem afirmar causa além do que os analistas dizem.",
+   "Conversa: \"Dura ou volta? Comenta.\" tem duas saídas, mas não diz o que escrever. Reescrita: \"Dura ou volta? Comenta DURA ou VOLTA.\" Dá para soltar a mesma pergunta no meio, depois do 6%: \"Você acha que esse dólar a R$ 5,74 se segura? Já vai pensando.\"",
+   "Conversa: o fim junta o pedido de envio e o de comentário na mesma frase. Reescrita: \"Dólar a R$ 5,74. Manda pra quem vai viajar. E aí: dura ou volta? Comenta DURA ou VOLTA.\" Cada pedido fica separado, e quem ouve só precisa fazer uma coisa de cada vez."
+  ],
+  "veredito": "Roteiro forte: o gancho é pago rápido, o 6% faz a virada, e o envio tem uma situação concreta (\\\"manda pra quem vai viajar\\\"). Falta um gancho que abra uma pergunta na primeira frase e um comentário mais fácil de responder (DURA ou VOLTA)."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow upward tilt along the glass facades of tall corporate office towers in a big city financial district at golden hour, sunlight glinting on the windows, a few clouds drifting behind. No people in focus, no signs, no text, no logos",
+   "texto_da_fala": "A bolsa, a vitrine das empresas grandes, também reagiu.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow upward tilt along the glass facades of tall corporate office towers in a big city financial district at golden hour, sunlight glinting on the windows, a few clouds drifting behind. No people in focus, no signs, no text, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Smooth lateral dolly across a clean tabletop with unbranded sealed cardboard boxes, a smartphone with a blank dark screen, wireless headphones, and a small suitcase with a passport-style blank booklet, soft daylight, shallow depth of field. No people, no text, no logos, no brands",
+   "texto_da_fala": "Dólar baixo pode aliviar importado, eletrônico e viagem ao exterior.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth lateral dolly across a clean tabletop with unbranded sealed cardboard boxes, a smartphone with a blank dark screen, wireless headphones, and a small suitcase with a passport-style blank booklet, soft daylight, shallow depth of field. No people, no text, no logos, no brands. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Handheld forward-moving shot through a busy Brazilian open-air street market (feira) in the morning, wooden crates piled with colorful fresh fruits and vegetables, hand-scale with produce in foreground, awnings overhead. Shoppers only as blurred silhouettes in the background, no faces in focus, no price tags, no text, no signs, no logos",
+   "texto_da_fala": "Mas dólar é feito preço de feira: hoje baixa, amanhã pode subir.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Handheld forward-moving shot through a busy Brazilian open-air street market (feira) in the morning, wooden crates piled with colorful fresh fruits and vegetables, hand-scale with produce in foreground, awnings overhead. Shoppers only as blurred silhouettes in the background, no faces in focus, no price tags, no text, no signs, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar caiu pela quarta vez seguida, a R$ 5,74.\n\nAnalistas ligam isso à chance de Trabuco, do Bradesco, assumir a Fazenda.\n\nO governo ainda não anunciou nada. Por enquanto, é só expectativa.\n\nA bolsa, a vitrine das empresas grandes, também reagiu.\n\nAgora a parte que pouca gente viu: no mesmo dia, ela subiu 6%.\n\nDólar baixo pode aliviar importado, eletrônico e viagem ao exterior.\n\nMas dólar é feito preço de feira: hoje baixa, amanhã pode subir.\n\nSe seu dinheiro está na poupança, nada muda. Respira e não decida no susto.\n\nDólar a R$ 5,74: manda pra quem vai viajar. Dura ou volta? Comenta.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Money Times",
+   "url": "https://www.moneytimes.com.br/tempo-real-26-11-2026-davs/",
+   "destaque": "O Money Times também registrou o fechamento em alta de 6,07%, aos 176.799,84 pontos."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-salta-3-e-supera-os-172-mil-pontos-com-possibilidade-de-trabuco-na-fazenda/",
+   "destaque": "Duas fontes ouvidas pela Reuters disseram que Lula sondou Trabuco, com quem se reuniu recentemente."
+  },
+  {
+   "veiculo": "InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/os-naos-de-lula-quem-saiu-da-disputa-pela-fazenda-e-quem-ainda-esta-no-pareo/",
+   "destaque": "Fernando Haddad disse a Lula, na terça-feira (24/11), que não quer cargo no próximo governo."
+  }
+ ],
+ "data": "2026-11-26",
+ "gerado_em": "2026-11-26T18:58:35.844375-03:00"
+}
