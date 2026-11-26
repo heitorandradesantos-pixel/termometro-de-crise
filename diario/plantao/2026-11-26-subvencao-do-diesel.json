@@ -1,0 +1,113 @@
+{
+ "titulo": "Subvenção do diesel acaba hoje (26/11): o que se sabe",
+ "descricao": "A subvenção de R$ 2,12 por litro ao diesel vence hoje. O governo sinalizou renovação, mas a portaria ainda não foi confirmada. Veja o que muda na bomba.",
+ "palavra_chave": "subvenção do diesel",
+ "lead": "A subvenção de R$ 2,12 por litro ao diesel vence nesta quinta-feira (26/11). O governo já sinalizou que vai renová-la por 30 dias, mas até a manhã de hoje as fontes consultadas não registravam a portaria publicada, que é o ato que formaliza a renovação. Esta página será atualizada quando a Fazenda confirmar.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A subvenção atual é de R$ 2,12 por litro de diesel A rodoviário (o diesel puro, antes da mistura com biodiesel). Foi prorrogada pela Portaria MF nº 3.181, de 27/10, por 30 dias, e vale até 26/11. O dinheiro vai para produtores e importadores, segundo o Ministério da Fazenda.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/outubro/governo-federal-prorroga-por-mais-30-dias-subvencao-de-r-2-12-por-litro-de-oleo-diesel",
+   "data": "2026-10-27",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "A renovação ainda não aparecia como formalizada. Em 26/11, o Portal do Comércio escreveu que a equipe econômica deve prorrogar a subvenção por mais 30 dias e que a portaria ainda precisa ser validada pelo governo. Não encontramos, nas buscas, a portaria nem nota da Fazenda sobre uma nova prorrogação.",
+   "fonte_url": "https://portaldocomercio.org.br/diario-executivo/governo-deve-renovar-subsidio-ao-diesel-por-mais-30-dias/",
+   "data": "2026-11-26",
+   "veiculo": "Portal do Comércio",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 25/11, o Diário do Transporte informou que a expectativa era pela publicação da portaria que deve formalizar a prorrogação de R$ 2,12 por litro. O veículo também afirma que a prorrogação foi anunciada na quarta (25).",
+   "fonte_url": "https://diariodotransporte.com.br/2026/11/25/governo-federal-deve-prorrogar-por-mais-30-dias-subsidio-de-r-212-por-litro-do-diesel-apos-lula-sancionar-lei-que-permite-retirar-r-105-bilhoes-das-metas-fiscais/",
+   "data": "2026-11-25",
+   "veiculo": "Diário do Transporte",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 25/11, o ministro do Planejamento, Bruno Moretti, apresentou a previsão de nova prorrogação por 30 dias. Segundo o Jornal Opinião, ela pode somar de R$ 8 bilhões a R$ 10,5 bilhões ao custo das medidas contra a alta dos combustíveis em 2026.",
+   "fonte_url": "https://jornalopiniao.net/governo-deve-renovar-subsidio-ao-diesel-por-mais-30-dias/",
+   "data": "2026-11-25",
+   "veiculo": "Jornal Opinião",
+   "confiavel": false
+  },
+  {
+   "texto": "O presidente Lula sancionou em 24/11 a medida aprovada pelo Congresso que permite excluir até R$ 10,5 bilhões em despesas com a subvenção ao diesel do cálculo da meta fiscal de 2026. Isso abre espaço nas contas, mas não é a portaria que renova o benefício.",
+   "fonte_url": "https://portaldocomercio.org.br/diario-executivo/governo-deve-renovar-subsidio-ao-diesel-por-mais-30-dias/",
+   "data": "2026-11-24",
+   "veiculo": "Portal do Comércio",
+   "confiavel": false
+  },
+  {
+   "texto": "A subvenção extra de R$ 1,40 por litro ao diesel importado venceu em 12/11 e não foi renovada, informou a Fazenda em 13/11. A pasta disse que pode reavaliar a medida conforme os preços do petróleo. A de R$ 2,12 seguiu em vigor.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-nao-renova-subsidio-de-r-140-ao-diesel-importado",
+   "data": "2026-11-13",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 13/11, o Eixos informou que o diesel da Petrobras seguia abaixo do custo de importar e que os R$ 2,12 cobrem cerca de três quartos dessa diferença. Segundo a Abicom, associação dos importadores, o diesel da Petrobras estava R$ 3,23 por litro abaixo do importado em 6/11.",
+   "fonte_url": "https://www.fecombustiveis.org.br/noticia/fazenda-nao-vai-renovar-subsidio-de-r-140-ao-diesel-importado/266381",
+   "data": "2026-11-13",
+   "veiculo": "Eixos (via Fecombustíveis)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Fazenda publica a Portaria MF nº 3.181, que prorroga por 30 dias a subvenção de R$ 2,12 por litro, com validade até 26/11.",
+   "fonte_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/outubro/governo-federal-prorroga-por-mais-30-dias-subvencao-de-r-2-12-por-litro-de-oleo-diesel",
+   "data": "2026-10-27",
+   "veiculo": "Ministério da Fazenda",
+   "confiavel": true
+  },
+  {
+   "texto": "Fazenda informa que não vai renovar o adicional de R$ 1,40 por litro ao diesel importado, vencido em 12/11. A de R$ 2,12 continua.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-nao-renova-subsidio-de-r-140-ao-diesel-importado",
+   "data": "2026-11-13",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Lula sanciona a lei que permite excluir até R$ 10,5 bilhões em despesas com subsídios ao diesel da meta fiscal de 2026.",
+   "fonte_url": "https://portaldocomercio.org.br/diario-executivo/governo-deve-renovar-subsidio-ao-diesel-por-mais-30-dias/",
+   "data": "2026-11-24",
+   "veiculo": "Portal do Comércio",
+   "confiavel": false
+  },
+  {
+   "texto": "Moretti apresenta a previsão de prorrogar a subvenção por 30 dias, e a imprensa passa a noticiar a expectativa de renovação.",
+   "fonte_url": "https://jornalopiniao.net/governo-deve-renovar-subsidio-ao-diesel-por-mais-30-dias/",
+   "data": "2026-11-25",
+   "veiculo": "Jornal Opinião",
+   "confiavel": false
+  },
+  {
+   "texto": "Último dia de vigência da Portaria 3.181. Segundo o Portal do Comércio, a portaria da renovação ainda precisava ser validada pelo governo.",
+   "fonte_url": "https://portaldocomercio.org.br/diario-executivo/governo-deve-renovar-subsidio-ao-diesel-por-mais-30-dias/",
+   "data": "2026-11-26",
+   "veiculo": "Portal do Comércio",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado se a portaria de renovação já foi publicada no Diário Oficial da União, nem a data em que passaria a valer. Até as fontes consultadas, havia só a expectativa e a sinalização de integrantes do governo.",
+  "Não foi confirmado em fonte oficial o valor da renovação. O que se noticia é a manutenção dos R$ 2,12 por litro por 30 dias, mas isso depende da portaria.",
+  "A diferença de R$ 2,42 por litro entre o diesel da Petrobras e a paridade de importação em 24/11 (R$ 0,30 acima dos R$ 2,12), atribuída à Abicom/StoneX, não foi localizada em relatório ou reportagem nas nossas buscas. Não está confirmada.",
+  "A deputada Daniela Reinehr disse, em encontro de uma frente parlamentar, que o Legislativo aprovou a prorrogação até fevereiro de 2027. O Transporte Moderno reproduz a fala, mas nenhuma fonte oficial confirmou esse prazo.",
+  "Não há anúncio da Petrobras de reajuste no diesel. Ninguém explicou até agora se, ou quando, a estatal mudaria o preço nas refinarias."
+ ],
+ "o_que_muda_para_voce": [
+  "Para quem abastece: o preço na bomba não muda automaticamente hoje. A subvenção é paga a produtores e importadores, e eles devem descontá-la do preço de venda. Renovar não cria desconto novo de R$ 2,12, e o fim também não significa alta imediata desse valor.",
+  "Se a portaria sair com R$ 2,12, o apoio continuaria no valor atual por mais 30 dias. Se não sair, produtores e importadores deixam de receber o benefício, o que, segundo o site Estradas, aumenta a pressão sobre o preço do diesel e os custos de transporte.",
+  "Para frete e mercadorias: o diesel pesa no custo do transporte. O Estradas afirma que aumentos podem chegar a fretes e a preços de alimentos e produtos. É um possível caminho, e não há evidência de efeito automático nem previsão de preço.",
+  "Para quem acompanha inflação e juros: os combustíveis são um dos canais que podem afetar os preços. Não há, nas fontes consultadas, ligação comprovada entre esta decisão e o rumo dos juros."
+ ],
+ "como_se_proteger": [],
+ "slug": "subvencao-do-diesel",
+ "publicado_em": "2026-11-26T13:14:48.853091",
+ "atualizado_em": "2026-11-26T13:14:48.853091",
+ "assunto": "A subvenção de R$ 2,12 por litro ao diesel termina hoje (26/11), e o ajuste fiscal abriu espaço para renová-la. Segundo a Abicom/StoneX, em 24/11 o diesel da Petrobras estava R$ 2,42 por litro abaixo da paridade de importação, R$ 0,30 acima do que a subvenção cobre. Confirmar em fonte oficial (Fazenda/ANP/Petrobras) se a renovação foi formalizada e em que valor antes de publicar.",
+ "turno": "tarde"
+}
