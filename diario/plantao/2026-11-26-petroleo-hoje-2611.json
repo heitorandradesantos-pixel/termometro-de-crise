@@ -1,0 +1,121 @@
+{
+ "titulo": "Petróleo hoje: Brent sobe 3,51% e fecha a US$ 94,61: o que se sabe",
+ "descricao": "O Brent subiu 3,51% e fechou a US$ 94,61 na quarta (25/11), após os houthis dizerem ter atacado refinaria saudita. Veja o que está confirmado.",
+ "palavra_chave": "petróleo hoje",
+ "lead": "O petróleo fechou em forte alta na quarta-feira (25/11). O Brent, referência internacional, subiu 3,51% e terminou a US$ 94,61 o barril, segundo o Money Times e a Reuters. A alta veio depois de os houthis, grupo do Iêmen aliado do Irã, dizerem ter atacado a maior refinaria da Arábia Saudita. O governo saudita e a Aramco não confirmaram o ataque até a última informação encontrada.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Brent para janeiro fechou em alta de 3,51%, a US$ 94,61 o barril, na quarta (25/11). O WTI, referência dos EUA, subiu 1,99%, a US$ 83,68.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-fecha-em-forte-alta-com-aumento-das-tensoes-no-oriente-medio-e-na-guerra-da-ucrania-davs/",
+   "data": "2026-11-25",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Os houthis do Iêmen disseram em 25/11 que atacaram a refinaria de Ras Tanura, a maior da Arábia Saudita, e o distrito financeiro de Riad. Segundo a Reuters, essa declaração puxou a alta do dia. O analista Tamas Varga, da PVM, citou o aumento do chamado prêmio de risco geopolítico: o preço extra que o mercado cobra quando cresce o perigo para a oferta.",
+   "fonte_url": "https://www.terra.com.br/economia/petroleo-sobe-apos-houthis-assumirem-autoria-de-ataque-a-refinaria-saudita,b41390d9a192455f0e4fb639f45fd6d4s51duw66.html",
+   "data": "2026-11-25",
+   "veiculo": "Reuters via Terra",
+   "confiavel": false
+  },
+  {
+   "texto": "A coalizão liderada pela Arábia Saudita disse que suas defesas aéreas destruíram quatro drones em Ras Tanura. O porta-voz houthi Yahya Saree afirmou que o ataque causou incêndios.",
+   "fonte_url": "https://www.cnnbrasil.com.br/internacional/houthis-dizem-ter-atacado-maior-refinaria-de-petroleo-da-arabia-saudita/",
+   "data": "2026-11-25",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "As negociações entre EUA e Irã seguem paralisadas, e há temor de que as guerras no Oriente Médio e entre Rússia e Ucrânia se espalhem, segundo o Money Times.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-fecha-em-forte-alta-com-aumento-das-tensoes-no-oriente-medio-e-na-guerra-da-ucrania-davs/",
+   "data": "2026-11-25",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 24/11, o principal negociador do Irã, Mohammad Bagher Qalibaf, disse que Teerã não negociará com os EUA até que as sete condições iranianas sejam atendidas, segundo a TV estatal do país.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-fecha-em-forte-alta-com-aumento-das-tensoes-no-estreito-de-ormuz-davs/",
+   "data": "2026-11-24",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "A alta de 25/11 veio depois de outra, na terça (24/11): o Brent subiu 2,27%, a US$ 91,40. Segundo a Reuters, o petróleo tinha subido mais de 2% também nesse dia. Na segunda (23/11), o Brent havia caído abaixo de US$ 90, pela primeira vez desde o fim de agosto.",
+   "fonte_url": "https://pressnet.pt/2026/11/25/brent-sobe-351-para-9461-dolares-apos-ataques-dos-houthis-na-arabia-saudita/",
+   "data": "2026-11-25",
+   "veiculo": "PressNET",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 26/11, o petróleo operava perto da estabilidade. O Brent subia 0,1%, a US$ 94,71, no início do pregão na Ásia. Segundo a CNBC, ao menos dois navios atingiram minas iranianas no Estreito de Ormuz, rota por onde passa grande parte do petróleo do mundo.",
+   "fonte_url": "https://cnbc.com/2026/11/26/oil-wti-brent-hormuz-iran-saudi-arabia.html",
+   "data": "2026-11-26",
+   "veiculo": "CNBC",
+   "confiavel": true
+  },
+  {
+   "texto": "A Opep, grupo de países produtores, tem reunião em 29/11. O mercado tem dúvidas sobre a política de produção de 2027, e a Reuters diz que o mercado também considera a perspectiva de excesso de oferta no mundo.",
+   "fonte_url": "https://cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html",
+   "data": "2026-11-25",
+   "veiculo": "CNBC (Reuters)",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O Brent fecha a US$ 113,43, em alta de 2,37% no dia, e acumula ganho mensal de 15% em outubro.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-fechamento-30102026-davs/",
+   "data": "2026-10-30",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O Brent cai abaixo de US$ 90 pela primeira vez desde o fim de agosto.",
+   "fonte_url": "https://pressnet.pt/2026/11/25/brent-sobe-351-para-9461-dolares-apos-ataques-dos-houthis-na-arabia-saudita/",
+   "data": "2026-11-23",
+   "veiculo": "PressNET",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent fecha em alta de 2,27%, a US$ 91,40, após tocar a mínima de três meses no início do pregão. Pesam os ataques a navios no Oriente Médio.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-fecha-em-forte-alta-com-aumento-das-tensoes-no-estreito-de-ormuz-davs/",
+   "data": "2026-11-24",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Os houthis dizem ter atacado a refinaria de Ras Tanura e o distrito financeiro de Riad. O Brent fecha em alta de 3,51%, a US$ 94,61.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-fecha-em-forte-alta-com-aumento-das-tensoes-no-oriente-medio-e-na-guerra-da-ucrania-davs/",
+   "data": "2026-11-25",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "O Brent opera perto da estabilidade, a US$ 94,77 (+0,17%), segundo a cotação do InfoMoney durante o pregão.",
+   "fonte_url": "https://infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não está confirmado, por fonte oficial, que a refinaria de Ras Tanura foi atingida nem o tamanho dos danos. Até a última informação encontrada, o governo saudita e a Aramco não tinham comentado, e a coalizão não disse que a refinaria foi atacada.",
+  "Segundo a Reuters, a Aramco e o governo saudita não responderam aos pedidos de comentário. Imagens de satélite mostraram fumaça no local, e uma fonte anônima citada pela agência confirmou o ataque. Isso não substitui uma confirmação oficial.",
+  "Ninguém explicou se a oferta de petróleo saudita foi afetada de fato. Segundo a análise da Traders Union, a alta reflete o risco de perda de oferta, e não interrupções confirmadas em Ras Tanura.",
+  "Não há fonte que confirme que a alta do Brent vá chegar ao preço da gasolina e do diesel no Brasil. A decisão de reajuste cabe à Petrobras, e não encontramos comunicado dela sobre o assunto.",
+  "Não está claro quando as conversas entre EUA e Irã podem recomeçar.",
+  "Não se sabe como a reunião da Opep de 29/11 pode afetar os preços."
+ ],
+ "o_que_muda_para_voce": [
+  "Para quem abastece o carro: por ora, nada muda por causa desta notícia. Não há confirmação de reajuste de gasolina ou diesel.",
+  "O petróleo mais caro pode, com o tempo, encarecer combustíveis e o frete. Isso só aconteceria se a alta se mantiver e se a Petrobras decidir reajustar.",
+  "Para quem acompanha a inflação: combustíveis pesam nos preços de transporte e de alimentos. Por isso o petróleo é um dos fatores que analistas observam, mas não há projeção oficial citada nas fontes.",
+  "Para quem tem investimentos: o Brent mudou de preço em poucos dias, e a alta de 25/11 ainda deixou o barril abaixo dos US$ 113,43 do fechamento de 30/10, segundo o Money Times. Isso é só contexto, não é recomendação."
+ ],
+ "como_se_proteger": [],
+ "slug": "petroleo-hoje-2611",
+ "publicado_em": "2026-11-26T11:44:34.039516",
+ "atualizado_em": "2026-11-26T11:44:34.039516",
+ "assunto": "Petróleo fechou em forte alta na quarta (25/11): Brent subiu 3,51%, a US$ 94,61, após os houthis dizerem ter atacado a maior refinaria da Arábia Saudita; negociações EUA–Irã seguem paradas e há temor de escalada na guerra Rússia–Ucrânia.",
+ "turno": "meio"
+}
