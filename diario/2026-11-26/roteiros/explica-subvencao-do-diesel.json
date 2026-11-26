@@ -1,0 +1,191 @@
+{
+ "gancho": {
+  "formula": "Custo escondido",
+  "texto": "Cara, o governo paga R$ 2,12 em cada litro de diesel. Vence hoje.",
+  "na_tela": "Diesel: R$ 2,12 vence hoje",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 1,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Custo escondido",
+   "texto": "Cara, o governo paga R$ 2,12 em cada litro de diesel. Vence hoje.",
+   "na_tela": "Diesel: R$ 2,12 vence hoje",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O preço do diesel muda hoje? Depende de um papel que não saiu.",
+   "na_tela": "Diesel muda hoje?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "Os R$ 2,12 do diesel vencem hoje, mas o preço na bomba não muda.",
+   "na_tela": "R$ 2,12 vencem, bomba não muda",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o governo paga R$ 2,12 em cada litro de diesel. Vence hoje.",
+  "É um cupom que o governo dá pro vendedor, não pra você.",
+  "Ou seja: o preço na bomba não muda hoje.",
+  "O governo disse que vai renovar por 30 dias.",
+  "E aqui tá o ponto: o papel oficial do governo ainda não saiu.",
+  "Sem ele, o diesel e o frete podem subir de preço.",
+  "Pode, não é certeza: a Petrobras não anunciou reajuste.",
+  "Calma: acompanhe se o papel sai e compare o preço no posto.",
+  "Manda pra quem abastece ou vive de frete.",
+  "O papel da renovação sai hoje? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o governo paga R$ 2,12 em cada litro de diesel. Vence hoje. É um cupom que o governo dá pro vendedor, não pra você. Ou seja: o preço na bomba não muda hoje. O governo disse que vai renovar por 30 dias. E aqui tá o ponto: o papel oficial do governo ainda não saiu. Sem ele, o diesel e o frete podem subir de preço. Pode, não é certeza: a Petrobras não anunciou reajuste. Calma: acompanhe se o papel sai e compare o preço no posto. Manda pra quem abastece ou vive de frete. O papel da renovação sai hoje? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Diesel: R$ 2,12 vence hoje",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Subvenção: R$ 2,12 por litro",
+   "fonte": "Ministério da Fazenda"
+  },
+  {
+   "fala": 3,
+   "texto": "Renovação prevista: 30 dias",
+   "fonte": "Portal do Comércio"
+  },
+  {
+   "fala": 4,
+   "texto": "Papel oficial: ainda não saiu",
+   "fonte": "Portal do Comércio"
+  },
+  {
+   "fala": 5,
+   "texto": "Diesel e frete podem subir",
+   "fonte": "Estradas"
+  }
+ ],
+ "retomada": 4,
+ "busca": "subvenção do diesel acaba hoje",
+ "legenda": "Subvenção do diesel acaba hoje: o que muda no seu bolso?\n\nSegundo o Ministério da Fazenda, a subvenção de R$ 2,12 por litro vence hoje (26/11). O dinheiro vai para produtores e importadores, não para quem abastece. Por isso, o preço na bomba não muda automaticamente hoje.\n\nO governo sinalizou que vai renovar por 30 dias, mas até agora as fontes consultadas não registravam o papel oficial publicado. Sem a renovação, diesel e frete podem subir de preço, segundo o site Estradas. É possibilidade, não previsão.\n\nO passo calmo: acompanhe se a renovação sai e compare o preço no posto. O papel da renovação sai hoje? Comenta SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#diesel #combustiveis #frete #economia #termometrodecrise",
+ "hashtags": [
+  "#diesel",
+  "#combustiveis",
+  "#frete",
+  "#economia",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "O governo paga R$ 2,12 em cada litro de diesel. Vence hoje.",
+  "topicos": [
+   "Segundo o Ministério da Fazenda, a subvenção de R$ 2,12 por litro vence hoje.",
+   "Segundo o Portal do Comércio, renovar por 30 dias ainda depende do papel oficial.",
+   "Na bomba, hoje, nada muda. Sem renovação, frete pode subir, diz o site Estradas.",
+   "O que fazer: acompanhe se o papel sai e compare o preço no posto."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente que vence hoje e pede urgência, então cabe gravar na rua, sem teleprompter.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Cara, o governo paga R$ 2,12 em cada litro de diesel. Vence hoje.\": o gancho junta duas ideias e fica ambíguo (parece que o governo paga o seu diesel). Reescreva em ordem direta e com a reação do Heitor, por exemplo: \"Cara, o governo ajuda a pagar o diesel. Uns R$ 2 por litro. E essa ajuda acaba hoje.\" Número redondo na fala, o R$ 2,12 exato fica no cartão da tela.",
+   "Frases \"É um cupom que o governo dá pro vendedor, não pra você\" e \"o papel oficial do governo ainda não saiu\": \"cupom\" é boa comparação, mas \"vendedor\" é vago e \"papel oficial\" não é dito com clareza. Troque por \"o governo paga uma parte pra quem produz e importa o diesel, não pra quem abastece\" e \"o documento que confirma a renovação ainda não foi publicado\". Assim quem trabalha em posto, obra ou frete entende de primeira.",
+   "Frase \"Sem ele, o diesel e o frete podem subir de preço\" e a legenda \"segundo o site Estradas\": na fala, evite o jeito de dizer que o fim da ajuda pode encarecer o frete sem fechar o efeito no bolso. Complete com \"e o que você paga na feira e no mercado pode sentir depois\" só se a fonte disser isso. O nome do site fica só no cartão e na legenda, e na fala use \"segundo o governo\" ou \"segundo a fonte\", sem inventar fato novo."
+  ],
+  "veredito": "A peça acerta no tom calmo, na dúvida honesta (\\\"pode, não é certeza\\\") e no gatilho SIM/NÃO, mas pesa no Teste do CLT: o gancho é ambíguo, \\\"papel oficial\\\" e \\\"vendedor\\\" precisam de tradução, e falta um pouco mais do jeitão solto do Heitor."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 2,
+   "envio": 1,
+   "conversa": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, o governo paga R$ 2,12 em cada litro de diesel. Vence hoje.\" tem número, mas não diz por que é do seu bolso. Reescrita: \"Cara, o desconto de R$ 2,12 em cada litro de diesel vence hoje. Muda o preço na bomba? Já te digo.\"",
+   "Conversa: depois de \"Pode, não é certeza: a Petrobras não anunciou reajuste.\" acrescente \"Você abastece ou vive de frete? Comenta EU.\" É um gatilho de identificação no meio do vídeo, fácil de responder.",
+   "Envio: \"Manda pra quem abastece ou vive de frete.\" Reescrita: \"Tem alguém na família que vive de frete? Manda pra ele, sério.\""
+  ],
+  "veredito": "O roteiro é claro, honesto e paga o que promete, mas o gancho não põe o diesel no bolso de quem assiste e falta um gatilho de identificação no meio do vídeo."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Close-up of a hand-held paper discount coupon with blank abstract shapes (no text, no numbers) being passed from one anonymous pair of hands to another across a wooden counter at a fuel distributor's office; shallow depth of field, slow dolly-in, warm light, faces out of frame",
+   "texto_da_fala": "É um cupom que o governo dá pro vendedor, não pra você.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a hand-held paper discount coupon with blank abstract shapes (no text, no numbers) being passed from one anonymous pair of hands to another across a wooden counter at a fuel distributor's office; shallow depth of field, slow dolly-in, warm light, faces out of frame. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "A line of heavy cargo trucks parked at dusk at a highway diesel station, glowing amber canopy lights, a diesel nozzle in the foreground, slow lateral tracking shot along the trucks, cinematic, no people visible, no signs or readable text",
+   "texto_da_fala": "Sem ele, o diesel e o frete podem subir de preço.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. A line of heavy cargo trucks parked at dusk at a highway diesel station, glowing amber canopy lights, a diesel nozzle in the foreground, slow lateral tracking shot along the trucks, cinematic, no people visible, no signs or readable text. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Close-up of a fuel pump nozzle filling a truck tank at a roadside gas station in daylight, with the blurred pump display out of focus (no readable digits), slow push-in then gentle pan toward the highway, realistic style, no faces, no logos",
+   "texto_da_fala": "Calma: acompanhe se o papel sai e compare o preço no posto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a fuel pump nozzle filling a truck tank at a roadside gas station in daylight, with the blurred pump display out of focus (no readable digits), slow push-in then gentle pan toward the highway, realistic style, no faces, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o governo paga R$ 2,12 em cada litro de diesel. Vence hoje.\n\nÉ um cupom que o governo dá pro vendedor, não pra você.\n\nOu seja: o preço na bomba não muda hoje.\n\nO governo disse que vai renovar por 30 dias.\n\nE aqui tá o ponto: o papel oficial do governo ainda não saiu.\n\nSem ele, o diesel e o frete podem subir de preço.\n\nPode, não é certeza: a Petrobras não anunciou reajuste.\n\nCalma: acompanhe se o papel sai e compare o preço no posto.\n\nManda pra quem abastece ou vive de frete.\n\nO papel da renovação sai hoje? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Ministério da Fazenda",
+   "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/outubro/governo-federal-prorroga-por-mais-30-dias-subvencao-de-r-2-12-por-litro-de-oleo-diesel",
+   "destaque": "A subvenção atual é de R$ 2,12 por litro de diesel A rodoviário (o diesel puro, antes da mistura com biodiesel)."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-nao-renova-subsidio-de-r-140-ao-diesel-importado",
+   "destaque": "A subvenção extra de R$ 1,40 por litro ao diesel importado venceu em 12/11 e não foi renovada, informou a Fazenda em 13/11."
+  }
+ ],
+ "data": "2026-11-26",
+ "gerado_em": "2026-11-26T13:20:03.759490-03:00"
+}
