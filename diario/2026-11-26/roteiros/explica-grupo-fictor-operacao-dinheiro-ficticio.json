@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou lá, presta atenção.",
+  "na_tela": "R$ 4,3 bilhões bloqueados",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou lá, presta atenção.",
+   "na_tela": "R$ 4,3 bilhões bloqueados",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Rendimento fixo e sem explicar o lucro? Olha o que a polícia apura.",
+   "na_tela": "Rendimento fixo sem lastro?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Quinta-feira, 12 mandados de busca contra o grupo que queria comprar o Banco Master.",
+   "na_tela": "12 mandados de busca",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 0,
+    "rapido": 0,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou lá, presta atenção.",
+  "A Polícia Civil apura se captaram mais de R$ 4 bilhões sem lastro.",
+  "Lastro é ter negócio real por trás, que nem barraca na feira.",
+  "A Justiça autorizou bloquear até R$ 4,3 bilhões em bens dos investigados.",
+  "Mas bloqueio não é condenação, e eles têm direito à defesa.",
+  "Quem aplicou segue como credor, mas recuperar o dinheiro não está confirmado.",
+  "Veja se a oferta tem registro na CVM ou autorização do Banco Central.",
+  "Desconfie de rendimento garantido muito acima do mercado.",
+  "Você já viu promessa assim? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou lá, presta atenção. A Polícia Civil apura se captaram mais de R$ 4 bilhões sem lastro. Lastro é ter negócio real por trás, que nem barraca na feira. A Justiça autorizou bloquear até R$ 4,3 bilhões em bens dos investigados. Mas bloqueio não é condenação, e eles têm direito à defesa. Quem aplicou segue como credor, mas recuperar o dinheiro não está confirmado. Veja se a oferta tem registro na CVM ou autorização do Banco Central. Desconfie de rendimento garantido muito acima do mercado. Você já viu promessa assim? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 110,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "R$ 4,3 bilhões bloqueados",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Mais de R$ 4 bilhões captados?",
+   "fonte": "Alagoas 24 Horas"
+  },
+  {
+   "fala": 3,
+   "texto": "Bloqueio: até R$ 4,3 bilhões",
+   "fonte": "Money Times (Estadão)"
+  },
+  {
+   "fala": 4,
+   "texto": "Bloqueio não é condenação",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Registro na CVM ou Banco Central",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "Grupo Fictor Operação Dinheiro Fictício: o que se sabe",
+ "legenda": "Grupo Fictor e Operação Dinheiro Fictício: o que se sabe.\n\nNa quinta (26/11), a Polícia Civil e o Ministério Público de São Paulo fizeram 12 mandados de busca contra o grupo. A Justiça autorizou o bloqueio de até R$ 4,3 bilhões em bens dos investigados. Segundo a Polícia Civil, apura-se se o grupo captou mais de R$ 4 bilhões com promessa de rendimento fixo, sem lastro (sem negócio real por trás). É uma suspeita: nada foi julgado, e os investigados têm direito à defesa.\n\nO grupo está em recuperação judicial, com 13.066 credores. A assembleia de credores está marcada para 4 de dezembro. Quem aplicou segue como credor; se vai recuperar o dinheiro, ainda não foi confirmado.\n\nPara se proteger: confira se a empresa e a oferta têm autorização do Banco Central ou registro na CVM, desconfie de rendimento garantido muito acima do mercado, não pague adiantado a quem promete recuperar seu dinheiro e guarde contratos e comprovantes.\n\nFontes: CNN Brasil, Money Times (Estadão), Terra (Reuters).\n\nConteúdo educativo, não é recomendação de investimento.\n\n#grupofictor #educacaofinanceira #golpe #investimentos",
+ "hashtags": [
+  "#grupofictor",
+  "#educacaofinanceira",
+  "#golpe",
+  "#investimentos"
+ ],
+ "rua": {
+  "gancho": "Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou, presta atenção.",
+  "topicos": [
+   "Polícia Civil fez 12 mandados de busca contra o Grupo Fictor na quinta.",
+   "Justiça autorizou bloquear até R$ 4,3 bilhões em bens dos investigados.",
+   "Bloqueio não é condenação, e não devolve dinheiro automaticamente a quem aplicou.",
+   "Antes de aplicar, confira registro na CVM ou autorização do Banco Central."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia de quinta (26/11), ainda quente, e pede o tom de quem acabou de saber.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho \"Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou lá, presta atenção.\": abra com a reação do Heitor, como amigo (\"Cara, olha que loucura: a Justiça mandou bloquear R$ 4,3 bilhões do Grupo Fictor\"). Mantenha o \"se você aplicou lá, presta atenção\" logo depois. A energia vai no jeito de falar, sem aumentar o fato.",
+   "Frase \"A Polícia Civil apura se captaram mais de R$ 4 bilhões sem lastro.\": são dois conceitos numa fala só (\"captaram\" e \"lastro\") e há um número a mais além do R$ 4,3 bi do gancho. Troque por algo como \"A Polícia Civil investiga se o grupo pegou dinheiro de gente demais sem ter negócio de verdade por trás\", deixe o número exato no cartão da tela e explique \"lastro\" só depois, na frase da barraca de feira. Também vale trocar \"credor\" por \"quem tem dinheiro a receber\" na fala sobre quem aplicou.",
+   "Frase \"Veja se a oferta tem registro na CVM ou autorização do Banco Central.\": CVM é sigla sem tradução. Reescreva como \"Veja se a oferta está registrada na CVM, que é o órgão que fiscaliza quem vende investimento, ou se o Banco Central autorizou\". Depois do passo simples, feche com uma linha calma e acolhedora para quem já aplicou, por exemplo \"guarde contratos e comprovantes\", que está só na legenda. Isso dá o tom fleumático que falta no fim do roteiro."
+  ],
+  "veredito": "A peça fala com a pessoa certa, mantém o equilíbrio ético (bloqueio não é condenação, recuperação não confirmada) e dá a saída prática; falta a energia de conversa do Heitor no gancho e traduzir \\\"captaram\\\", \\\"credor\\\" e \\\"CVM\\\" para passar no Teste do CLT, com um fecho mais calmo para quem aplicou."
+ },
+ "viral": {
+  "nota": 6,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 0,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou lá, presta atenção.\" só prende quem já aplicou lá. Reescrita: \"Mais de 13 mil credores esperam receber do Grupo Fictor. E a Justiça autorizou bloquear R$ 4,3 bilhões em bens. Se você aplicou lá, presta atenção.\" (o 13.066 está na legenda; a gente fala \"mais de 13 mil\")",
+   "Envio: não há pedido de envio. Antes do SIM ou NÃO, inclua: \"Conhece alguém que aplica em empresa que promete rendimento fixo? Manda esse vídeo pra ele, sério.\"",
+   "Retenção: \"Quem aplicou segue como credor, mas recuperar o dinheiro não está confirmado.\" tem palavra difícil e nenhuma virada. Reescrita: \"Quem aplicou continua na fila de quem tem a receber. E aí vem a parte que pouca gente viu: receber de volta ainda não está confirmado.\""
+  ],
+  "veredito": "Roteiro claro, que paga o que promete e tem um gatilho de comentário fácil, mas o gancho só prende quem aplicou no Fictor e falta um motivo concreto para mandar o vídeo, então ainda não chega lá para viralizar."
+ },
+ "apoios": [
+  {
+   "fala": 2,
+   "visual": "shot of a busy open-air Brazilian street market (feira) in the morning, wooden stalls piled with colorful fruits and vegetables, vendors' hands arranging produce, no faces in focus, no signs or text. Camera slowly dollies forward along the row of stalls, warm natural light, shallow depth of field",
+   "texto_da_fala": "Lastro é ter negócio real por trás, que nem barraca na feira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot of a busy open-air Brazilian street market (feira) in the morning, wooden stalls piled with colorful fruits and vegetables, vendors' hands arranging produce, no faces in focus, no signs or text. Camera slowly dollies forward along the row of stalls, warm natural light, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "close-up of a wooden judge's gavel resting on a desk beside a closed folder and a set of car keys and a small model house, in a quiet courthouse office, no text or readable documents, no faces. Camera slowly pushes in and tilts slightly across the objects, soft dramatic side lighting",
+   "texto_da_fala": "A Justiça autorizou bloquear até R$ 4,3 bilhões em bens dos investigados.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a wooden judge's gavel resting on a desk beside a closed folder and a set of car keys and a small model house, in a quiet courthouse office, no text or readable documents, no faces. Camera slowly pushes in and tilts slightly across the objects, soft dramatic side lighting. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "shot of a person's hands, face out of frame, holding a smartphone showing an abstract blurred generic financial app screen with no readable text or logos, over a tidy desk with a notebook and a pen. Camera slowly orbits around the hands and phone, then rack-focuses to the notebook, bright neutral office light",
+   "texto_da_fala": "Veja se a oferta tem registro na CVM ou autorização do Banco Central.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Shot of a person's hands, face out of frame, holding a smartphone showing an abstract blurred generic financial app screen with no readable text or logos, over a tidy desk with a notebook and a pen. Camera slowly orbits around the hands and phone, then rack-focuses to the notebook, bright neutral office light. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Bloquearam R$ 4,3 bilhões do Grupo Fictor. Se você aplicou lá, presta atenção.\n\nA Polícia Civil apura se captaram mais de R$ 4 bilhões sem lastro.\n\nLastro é ter negócio real por trás, que nem barraca na feira.\n\nA Justiça autorizou bloquear até R$ 4,3 bilhões em bens dos investigados.\n\nMas bloqueio não é condenação, e eles têm direito à defesa.\n\nQuem aplicou segue como credor, mas recuperar o dinheiro não está confirmado.\n\nVeja se a oferta tem registro na CVM ou autorização do Banco Central.\n\nDesconfie de rendimento garantido muito acima do mercado.\n\nVocê já viu promessa assim? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mp-e-policia-fazem-operacao-contra-fictor-e-justica-bloqueia-r-43-bilhoes/",
+   "destaque": "A Operação Dinheiro Fictício foi feita em 26/11 pelo 15º Distrito Policial (Itaim Bibi) e pelo Grupo de Atuação Especial de Persecução…"
+  },
+  {
+   "veiculo": "Money Times (Estadão)",
+   "url": "https://www.moneytimes.com.br/ceo-da-fictor-inflou-capital-da-holding-de-r-4-mi-para-quase-r-1-bi-sem-aporte-real-diz-mp/",
+   "destaque": "A 3ª Vara de Falências e Recuperações Judiciais determinou o bloqueio de até R$ 4,3 bilhões em bens e ativos de 233 investigados: 59…"
+  }
+ ],
+ "data": "2026-11-26",
+ "gerado_em": "2026-11-26T16:20:15.582011-03:00"
+}
