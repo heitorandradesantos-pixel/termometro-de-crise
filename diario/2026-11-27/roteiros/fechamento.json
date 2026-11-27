@@ -1,0 +1,195 @@
+{
+ "gancho": {
+  "formula": "O mundo chegou no seu bolso (reação do Heitor)",
+  "texto": "Cara, o dólar que pesa no seu mercado caiu 3,97% hoje!",
+  "na_tela": "Dólar caiu 3,97% hoje",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "O mundo chegou no seu bolso (reação do Heitor)",
+   "texto": "Cara, o dólar que pesa no seu mercado caiu 3,97% hoje!",
+   "na_tela": "Dólar caiu 3,97% hoje",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Número + porquê",
+   "texto": "O dólar caiu 3,97% hoje, e o motivo é um nome na Fazenda.",
+   "na_tela": "Dólar -3,97%: um nome na Fazenda",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem tem viagem marcada viu o dólar cair 3,97% hoje.",
+   "na_tela": "Dólar caiu 3,97% hoje",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, o dólar que pesa no seu mercado caiu 3,97% hoje!",
+  "Segundo o governo, Trabuco, do Bradesco, foi escolhido pra Fazenda.",
+  "O mercado reagiu ao nome, não a algo que já aconteceu.",
+  "Dólar é o preço do que vem de fora: caindo, o bolso respira.",
+  "Sentiu o dólar no bolso? Comenta SIM ou NÃO.",
+  "E aí vem a parte que pouca gente viu: a bolsa mal mexeu.",
+  "A bolsa, que mede o valor das empresas, caiu só 0,08%.",
+  "Passo calmo: confere a cotação antes de pagar em dólar.",
+  "Manda pra quem tem viagem marcada: o dólar fechou a R$ 5,51.",
+  "Alívio ou nada? Comenta ALÍVIO ou NADA.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, o dólar que pesa no seu mercado caiu 3,97% hoje! Segundo o governo, Trabuco, do Bradesco, foi escolhido pra Fazenda. O mercado reagiu ao nome, não a algo que já aconteceu. Dólar é o preço do que vem de fora: caindo, o bolso respira. Sentiu o dólar no bolso? Comenta SIM ou NÃO. E aí vem a parte que pouca gente viu: a bolsa mal mexeu. A bolsa, que mede o valor das empresas, caiu só 0,08%. Passo calmo: confere a cotação antes de pagar em dólar. Manda pra quem tem viagem marcada: o dólar fechou a R$ 5,51. Alívio ou nada? Comenta ALÍVIO ou NADA. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 114,
+ "segundos": 46,
+ "na_tela": [
+  {
+   "texto": "Dólar caiu 3,97% hoje",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Dólar -3,97%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 1,
+   "texto": "Trabuco na Fazenda",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "A bolsa mal mexeu",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Bolsa -0,08%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 8,
+   "texto": "Dólar R$ 5,51",
+   "fonte": "Yahoo Finance"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: caiu 3,97% e fechou a R$ 5,51, segundo o Yahoo Finance.\n\nO motivo, segundo o governo: Luiz Carlos Trabuco, presidente do conselho do Bradesco, foi anunciado para o Ministério da Fazenda. O mercado reagiu ao nome, não a algo que já aconteceu.\n\nA bolsa, que mede o valor das empresas, caiu só 0,08%. O termômetro do Brasil marcou 74, na faixa de tensão (sinal laranja).\n\nManda pra quem tem viagem marcada ou compra em dólar.\n\nEu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#dolarhoje #economia #financaspessoais #bolsadevalores",
+ "hashtags": [
+  "#dolarhoje",
+  "#economia",
+  "#financaspessoais",
+  "#bolsadevalores"
+ ],
+ "rua": {
+  "gancho": "Cara, o dólar caiu 3,97% hoje! O motivo é um nome.",
+  "topicos": [
+   "Segundo o governo, Trabuco, do Bradesco, foi escolhido pra Fazenda; o dólar caiu 3,97%.",
+   "Dólar a R$ 5,51, segundo o Yahoo Finance: o mercado reagiu ao nome.",
+   "A bolsa caiu só 0,08%: o dólar se mexeu, as empresas quase nada.",
+   "Confere a cotação antes de pagar em dólar e manda pra quem viaja."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "Fechamento do dia pede calma para explicar o porquê, a bolsa e o termômetro.",
+ "tipo": "fechamento",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Nas falas \"caiu 3,97% hoje\" e \"caiu só 0,08%\": o número exato pesa no ouvido. Fale redondo (\"caiu quase 4%\" e \"quase não mexeu\") e deixe 3,97% e 0,08% no cartão da tela. Assim passa no Teste do CLT.",
+   "Na fala \"Dólar é o preço do que vem de fora: caindo, o bolso respira\": é uma definição, não uma comparação viva. Troque por algo do dia a dia, como o celular, a passagem ou o produto importado que costuma ficar mais barato quando o dólar cai. Não precisa de número novo. Esse é o toque sanguíneo que falta.",
+   "No fim, antes de \"Sem alarde. Eu sou só o termômetro!\": a fala não traz a apresentação e o aviso da casa, que só aparecem na legenda. Coloque \"Eu sou o Heitor, do Termômetro de Crise. Não recomendamos: só mostramos a temperatura do mundo.\" logo antes do bordão. Aproveite e traduza \"O mercado reagiu ao nome\" para \"o mercado comemorou só a notícia do nome, ainda não aconteceu nada\"."
+  ],
+  "veredito": "A peça abre direto no bolso, tem dois gatilhos de comentário fáceis, uma virada que a bolsa paga e um passo calmo no fim; falta falar os números redondos, trocar a definição do dólar por uma comparação viva e dizer na fala a apresentação e o aviso da casa antes do bordão."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Sentiu o dólar no bolso? Comenta SIM ou NÃO.\" corta o ritmo entre o porquê e a virada. Reescrita: tire do meio e deixe só o \"Alívio ou nada?\" no fim. A virada fica colada: \"Dólar despencou. E aí vem a parte que pouca gente viu: a bolsa, que mede o valor das empresas, caiu só 0,08%.\"",
+   "Frase \"Foi escolhido pra Fazenda\" é jargão para quem é CLT. Reescrita: \"Segundo o governo, o Trabuco, do Bradesco, foi escolhido pra Fazenda, o ministério que cuida do dinheiro do país.\""
+  ],
+  "veredito": "Gancho com número do bolso, pago em seguida, com envio concreto e dois gatilhos de comentário; falta ritmo, porque o comentário no meio quebra a virada e \\\"Fazenda\\\" pede tradução."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Slow dolly-in along a supermarket aisle with shelves full of imported goods: olive oil bottles, wheat packages, electronics boxes, all with blank unlabeled packaging, soft warm light, no people, shallow depth of field",
+   "texto_da_fala": "Dólar é o preço do que vem de fora: caindo, o bolso respira.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow dolly-in along a supermarket aisle with shelves full of imported goods: olive oil bottles, wheat packages, electronics boxes, all with blank unlabeled packaging, soft warm light, no people, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": ": slow upward crane shot inside an empty modern stock exchange hall, rows of dark desks and wall panels showing only abstract soft green and red glowing bars with no digits or letters, a gentle, almost still atmosphere, cool blue tones, no people",
+   "texto_da_fala": "A bolsa, que mede o valor das empresas, caiu só 0,08%.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. : slow upward crane shot inside an empty modern stock exchange hall, rows of dark desks and wall panels showing only abstract soft green and red glowing bars with no digits or letters, a gentle, almost still atmosphere, cool blue tones, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 8,
+   "visual": ": smooth tracking shot along an airport terminal floor following a closed suitcase on wheels left beside a large window, airplane taxiing on the runway in golden morning light outside, blank signage, no people visible, only shadows in the distance",
+   "texto_da_fala": "Manda pra quem tem viagem marcada: o dólar fechou a R$ 5,51.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. : smooth tracking shot along an airport terminal floor following a closed suitcase on wheels left beside a large window, airplane taxiing on the runway in golden morning light outside, blank signage, no people visible, only shadows in the distance. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, o dólar que pesa no seu mercado caiu 3,97% hoje!\n\nSegundo o governo, Trabuco, do Bradesco, foi escolhido pra Fazenda.\n\nO mercado reagiu ao nome, não a algo que já aconteceu.\n\nDólar é o preço do que vem de fora: caindo, o bolso respira.\n\nSentiu o dólar no bolso? Comenta SIM ou NÃO.\n\nE aí vem a parte que pouca gente viu: a bolsa mal mexeu.\n\nA bolsa, que mede o valor das empresas, caiu só 0,08%.\n\nPasso calmo: confere a cotação antes de pagar em dólar.\n\nManda pra quem tem viagem marcada: o dólar fechou a R$ 5,51.\n\nAlívio ou nada? Comenta ALÍVIO ou NADA.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-27",
+ "gerado_em": "2026-11-27T18:33:49.916567-03:00",
+ "enviado_whatsapp": "2026-11-27T18:34:50.326813-03:00"
+}
