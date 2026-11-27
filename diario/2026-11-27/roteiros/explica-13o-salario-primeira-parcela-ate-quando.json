@@ -1,0 +1,137 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "13º não caiu hoje? A empresa ainda tem até segunda, dia 30.",
+  "na_tela": "13º não caiu? Calma",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "13º não caiu hoje? A empresa ainda tem até segunda, dia 30.",
+   "na_tela": "13º não caiu? Calma",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Cena no meio",
+   "texto": "Sexta, dia 27, e nada do 13º na conta? Ainda não é atraso.",
+   "na_tela": "Sexta, dia 27, sem 13º",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Primeira parcela do 13º chega sem desconto. A segunda, não.",
+   "na_tela": "1ª parcela sem desconto",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "13º não caiu hoje? A empresa ainda tem até segunda, dia 30.",
+  "Segundo a Agência Brasil, a primeira parcela vai até segunda, 30 de novembro.",
+  "É que nem boleto: vence segunda, sexta ainda não é atraso.",
+  "Em regra, a primeira parcela é metade e vem sem desconto de INSS.",
+  "Já a segunda vem até sexta, 18 de dezembro, com descontos.",
+  "Por isso ela costuma vir menor.",
+  "Passou do dia 30? Sinal amarelo: fale com o RH e guarde os holerites.",
+  "Manda pra quem tá de olho na conta esperando o 13º.",
+  "Você já passou aperto esperando o 13º? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "13º não caiu hoje? A empresa ainda tem até segunda, dia 30. Segundo a Agência Brasil, a primeira parcela vai até segunda, 30 de novembro. É que nem boleto: vence segunda, sexta ainda não é atraso. Em regra, a primeira parcela é metade e vem sem desconto de INSS. Já a segunda vem até sexta, 18 de dezembro, com descontos. Por isso ela costuma vir menor. Passou do dia 30? Sinal amarelo: fale com o RH e guarde os holerites. Manda pra quem tá de olho na conta esperando o 13º. Você já passou aperto esperando o 13º? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 109,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "13º não caiu? Calma",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Prazo: 30 de novembro",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "Sexta (27/11) sem depósito: ainda não é atraso",
+   "fonte": "Diário do Pará"
+  },
+  {
+   "fala": 3,
+   "texto": "1ª parcela: sem desconto de INSS",
+   "fonte": "Seu Dinheiro"
+  },
+  {
+   "fala": 4,
+   "texto": "2ª parcela: até 18/12",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 6,
+   "texto": "Fale com o RH e guarde os holerites",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "13º salário primeira parcela até quando",
+ "legenda": "13º salário primeira parcela até quando? Segundo a Agência Brasil, a empresa tem até segunda-feira, 30 de novembro, para pagar. Sem depósito nesta sexta, dia 27, ainda não é atraso.\n\nA primeira parcela, em regra, é metade do valor e vem sem desconto de INSS. A segunda deve ser paga até sexta-feira, 18 de dezembro, já com os descontos, e por isso costuma vir menor.\n\nPassou do dia 30 sem receber? Fale com o RH e guarde holerites e extratos. Quem pediu a primeira parcela junto com as férias pode já ter recebido.\n\nO valor exato depende do seu salário e só a empresa calcula. No DF, confirme o prazo com a empresa.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#13salario #direitodotrabalhador #educacaofinanceira #financaspessoais",
+ "hashtags": [
+  "#13salario",
+  "#direitodotrabalhador",
+  "#educacaofinanceira",
+  "#financaspessoais"
+ ],
+ "rua": {
+  "gancho": "Sexta, dia 27, e nada do 13º? Ainda não é atraso.",
+  "topicos": [
+   "Agência Brasil: a primeira parcela do 13º vai até segunda, 30 de novembro.",
+   "Sem depósito sexta, dia 27, ainda não é atraso, diz o Diário do Pará.",
+   "A segunda parcela vai até sexta, 18 de dezembro, segundo a Agência Brasil.",
+   "Passou do dia 30? Fale com o RH e guarde holerites e extratos."
+  ]
+ },
+ "formato": "rua",
+ "por_que_formato": "É notícia quente de sexta, com prazo na segunda, e pede o tom urgente de quem está na rua contando na hora.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": false,
+ "problemas": [
+  "números que não estão no material: 2"
+ ],
+ "tentativas": 3,
+ "marca": null,
+ "viral": null,
+ "teleprompter": "13º não caiu hoje? A empresa ainda tem até segunda, dia 30.\n\nSegundo a Agência Brasil, a primeira parcela vai até segunda, 30 de novembro.\n\nÉ que nem boleto: vence segunda, sexta ainda não é atraso.\n\nEm regra, a primeira parcela é metade e vem sem desconto de INSS.\n\nJá a segunda vem até sexta, 18 de dezembro, com descontos.\n\nPor isso ela costuma vir menor.\n\nPassou do dia 30? Sinal amarelo: fale com o RH e guarde os holerites.\n\nManda pra quem tá de olho na conta esperando o 13º.\n\nVocê já passou aperto esperando o 13º? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Seu Dinheiro / Agência Brasil",
+   "url": "https://www.seudinheiro.com/2026/economia/primeira-parcela-do-13o-salario-deve-ser-paga-pelas-empresas-ate-30-de-novembro-atrasos-podem-gerar-multa-mlem/",
+   "destaque": "Empresas e órgãos públicos têm até segunda-feira, 30 de novembro, para pagar a primeira parcela do 13º de 2026, segundo a Agência Brasil,…"
+  }
+ ],
+ "data": "2026-11-27",
+ "gerado_em": "2026-11-27T16:19:28.977935-03:00"
+}
