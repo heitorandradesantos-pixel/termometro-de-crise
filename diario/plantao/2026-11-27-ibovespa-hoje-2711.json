@@ -1,0 +1,120 @@
+{
+ "titulo": "Ibovespa hoje, após alta de 6,07% e dólar a R$ 5,74: o que se sabe",
+ "descricao": "Ibovespa subiu 6,07% e o dólar caiu a R$ 5,744 na quinta (26). Veja o que se sabe antes da abertura de hoje, 27/11, e o que ainda falta confirmar.",
+ "palavra_chave": "ibovespa hoje",
+ "lead": "O Ibovespa, principal índice da Bolsa brasileira, fechou ontem (26/11) em alta de 6,07%, aos 176.799,84 pontos, a maior alta em um dia desde 5 de outubro. O dólar caiu 1,25%, a R$ 5,744, na quarta queda seguida. À noite, depois do fim do pregão, o Planalto confirmou em nota que Luiz Carlos Trabuco aceitou comandar o Ministério da Fazenda a partir de 2027.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O Ibovespa fechou a quinta-feira (26/11) em alta de 6,07%, aos 176.799,84 pontos. Foi o melhor dia desde 5 de outubro, quando subiu 7,70% após o primeiro turno das eleições. No mês, o índice acumula alta de 5,29%. No ano, o ganho é de 9,73%.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/ibovespa-dispara-6-e-registra-maior-alta-desde-eleicoes-de-2026/",
+   "data": "2026-11-26",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "O dólar comercial caiu 1,25% e fechou a R$ 5,744. É a quarta queda seguida e o menor valor de fechamento desde 13/11. Na semana, a moeda recuou 3,23%. Em novembro, ainda acumula alta de 5,50%.",
+   "fonte_url": "https://jcam.com.br/noticias/bolsa-sobe-6-e-tem-maior-alta-desde-o-1o-turno-dolar-cai-a-r-574/",
+   "data": "2026-11-26",
+   "veiculo": "Jornal do Commercio",
+   "confiavel": false
+  },
+  {
+   "texto": "O IPCA-15, a prévia da inflação oficial, subiu 0,22% em novembro, segundo o IBGE. Em outubro, a alta tinha sido de 0,32%. Economistas ouvidos pela Reuters projetavam 0,34%.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/taxas-caem-com-expectativa-de-trabuco-na-fazenda-e-ipca-15-abaixo-do-esperado/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney (Reuters)",
+   "confiavel": true
+  },
+  {
+   "texto": "Os juros futuros, taxas que o mercado cobra hoje para emprestar dinheiro no futuro, caíram ao longo de toda a curva. Segundo a Reuters, o movimento veio do IPCA-15 mais fraco e da queda do dólar. Os mercados dos EUA estavam fechados por causa do feriado de Ação de Graças.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/taxas-caem-com-expectativa-de-trabuco-na-fazenda-e-ipca-15-abaixo-do-esperado/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney (Reuters)",
+   "confiavel": true
+  },
+  {
+   "texto": "O Planalto confirmou em nota que Luiz Carlos Trabuco, presidente do Conselho de Administração do Bradesco, aceitou o convite do presidente Lula para comandar a Fazenda a partir de 2027. A conversa foi no Palácio do Alvorada.",
+   "fonte_url": "https://www.cnnbrasil.com.br/politica/planalto-confirma-que-trabuco-aceitou-convite-para-comandar-fazenda/",
+   "data": "2026-11-26",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A nota oficial saiu por volta das 20h, depois do fim do pregão. Durante o dia, o mercado reagiu à expectativa dessa escolha. O convite tinha sido feito por Lula na segunda-feira (23/11).",
+   "fonte_url": "https://agorarn.com.br/economia/luiz-carlos-trabuco-ministro-fazenda/",
+   "data": "2026-11-26",
+   "veiculo": "Agora RN",
+   "confiavel": false
+  },
+  {
+   "texto": "A Reuters informou que a expectativa de que Trabuco fosse escolhido conduziu a queda do dólar. Segundo o Diário do Sudoeste, as ações de bancos subiram mais de 10%. Lucas Xavier, sócio da AW Capital, disse que o nome é visto como amigável ao setor e que a escolha sinaliza atenção do governo à pauta fiscal. Já o líder do PT na Câmara, Pedro Uczai, afirmou antes do anúncio que Trabuco não seria a melhor opção. O senador Flávio Bolsonaro (PL) também criticou a escolha.",
+   "fonte_url": "https://www.plantaobrasil.net/noticias/165701-mercado-reage-com-euforia-a-possivel-ida-de-trabuco-para-a-fazenda",
+   "data": "2026-11-26",
+   "veiculo": "Plantão Brasil",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Ibovespa sobe 7,70% após o primeiro turno das eleições, a maior alta diária até a de 26/11.",
+   "fonte_url": "https://www.tribunapr.com.br/noticias/economia/ibovespa-dispara-6-e-registra-maior-alta-desde-eleicoes-de-2026/",
+   "data": "2026-10-05",
+   "veiculo": "Tribuna PR",
+   "confiavel": false
+  },
+  {
+   "texto": "Lula apresenta a Trabuco o convite para comandar a Fazenda.",
+   "fonte_url": "https://agorarn.com.br/economia/luiz-carlos-trabuco-ministro-fazenda/",
+   "data": "2026-11-23",
+   "veiculo": "Agora RN",
+   "confiavel": false
+  },
+  {
+   "texto": "IBGE divulga o IPCA-15 de novembro: alta de 0,22%, abaixo do esperado.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/taxas-caem-com-expectativa-de-trabuco-na-fazenda-e-ipca-15-abaixo-do-esperado/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney (Reuters)",
+   "confiavel": true
+  },
+  {
+   "texto": "Às 11h30, o dólar chega a R$ 5,71 e o Ibovespa sobe cerca de 4,5%.",
+   "fonte_url": "https://98fmnatal.com.br/politica/ibovespa-dispara-apos-sondagem-lula-trabuco-fazenda/419760/",
+   "data": "2026-11-26",
+   "veiculo": "98 FM Natal",
+   "confiavel": false
+  },
+  {
+   "texto": "Ibovespa fecha em alta de 6,07%, aos 176.799,84 pontos; dólar fecha a R$ 5,744.",
+   "fonte_url": "https://jcam.com.br/noticias/bolsa-sobe-6-e-tem-maior-alta-desde-o-1o-turno-dolar-cai-a-r-574/",
+   "data": "2026-11-26",
+   "veiculo": "Jornal do Commercio",
+   "confiavel": false
+  },
+  {
+   "texto": "Planalto confirma em nota que Trabuco aceitou comandar a Fazenda a partir de 2027.",
+   "fonte_url": "https://www.cnnbrasil.com.br/politica/planalto-confirma-que-trabuco-aceitou-convite-para-comandar-fazenda/",
+   "data": "2026-11-26",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se a alta continua hoje: a abertura desta sexta (27/11) não foi conferida nesta apuração, e não há como afirmar a direção do dia.",
+  "Como Ásia, Europa e os futuros dos EUA operam hoje: os dados achados são de ontem e não foram conferidos. Isso não está confirmado.",
+  "A agenda de hoje (IGP-M às 8h, empréstimos bancários às 8h30, PNAD Contínua às 9h) e o fechamento de Nova York às 15h de Brasília não foram checados em fonte oficial nesta apuração. Não estão confirmados.",
+  "Quanto da alta veio de cada fator: não há medição. A ligação entre Trabuco, o IPCA-15 e a alta é a leitura de analistas e da imprensa. Um banco citado pelo InfoMoney disse que o IPCA-15 não muda suas projeções altas de inflação para 2026 e 2027.",
+  "Quem fará parte da equipe econômica e quais medidas fiscais virão: não foi anunciado. A Reuters disse que investidores ainda especulavam sobre esses pontos."
+ ],
+ "o_que_muda_para_voce": [
+  "Dólar: o recuo pode baratear aos poucos importados e viagens, se o câmbio se mantiver. Mesmo assim, a moeda ainda sobe 5,50% em novembro.",
+  "Juros: a queda dos juros futuros e uma inflação menor do que a esperada reduzem a pressão por alta de juros, segundo a leitura do mercado. Isso não muda sozinho o que você paga ou recebe hoje no banco.",
+  "Investimentos: quem tem ações ou fundos de ações pode ver o saldo refletir a alta de ontem. Um dia forte não garante o seguinte, e variações grandes ocorrem nos dois sentidos.",
+  "Posse: Trabuco só assume a Fazenda a partir de 2027. Até lá, o governo atual segue no comando da pasta."
+ ],
+ "como_se_proteger": [],
+ "slug": "ibovespa-hoje-2711",
+ "publicado_em": "2026-11-27T00:46:56.280991",
+ "atualizado_em": "2026-11-27T00:46:56.280991",
+ "assunto": "Mercado do dia (27/11): Ibovespa fechou ontem em alta de 6,07%, aos 176.799,84 pontos, e o dólar caiu 1,25%, a R$ 5,744, quarta queda seguida. Hoje a Bolsa abre depois da maior alta diária desde o primeiro turno das eleições, com a prévia da inflação (IPCA-15) abaixo do esperado e a expectativa de Trabuco na Fazenda como pano de fundo. Nova York opera em sessão encurtada (Black Friday), com fechamento às 15h de Brasília. Agenda de hoje: IGP-M às 8h, empréstimos bancários às 8h30 e PNAD Contínua às 9h. Copom e payroll não aparecem na agenda de hoje. Falta conferir de manhã Ásia, Europa e futuros dos EUA, pois os dados achados são de ontem.",
+ "turno": "manha"
+}
