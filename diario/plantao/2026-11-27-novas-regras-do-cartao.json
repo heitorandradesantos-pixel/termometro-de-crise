@@ -1,0 +1,106 @@
+{
+ "titulo": "Novas regras do cartão e corte de limite no rotativo: o que se sabe",
+ "descricao": "BC manda bancos cortarem aos poucos o limite de quem usa o rotativo em 3 meses de 6. A regra começa em 1º/7/2027. Veja o que se sabe e o que falta saber.",
+ "palavra_chave": "novas regras do cartão",
+ "lead": "O Conselho Monetário Nacional (CMN) e o Banco Central aprovaram na quarta-feira (25/11) uma regra que obriga bancos a reduzir aos poucos o limite do cartão de quem usa o rotativo em três ou mais meses de um semestre. O rotativo é o crédito que o banco cobra quando você paga só parte da fatura. A regra está na Resolução BCB nº 610 e começa a valer em 1º de julho de 2027, não agora.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Em 25 de novembro, o CMN e o Banco Central aprovaram um pacote para reduzir o endividamento, sobretudo de pessoas físicas. Ele inclui a redução gradual do limite do cartão de quem usa o rotativo com frequência.",
+   "fonte_url": "https://exame.com/economia/bc-determina-reducao-de-limite-do-cartao-de-credito-para-quem-usar-rotativo-por-mais-de-tres-meses/",
+   "data": "2026-11-25",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Quem entra na regra: o cliente que, nos seis meses anteriores, deixou de pagar a fatura inteira em pelo menos três meses diferentes e financiou o resto no rotativo. Pagar só parte de uma ou duas faturas, nesse período, não enquadra o cliente.",
+   "fonte_url": "https://exame.com/economia/bc-determina-reducao-de-limite-do-cartao-de-credito-para-quem-usar-rotativo-por-mais-de-tres-meses/",
+   "data": "2026-11-25",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "O texto da Resolução BCB nº 610 manda o emissor do cartão não aumentar e reduzir aos poucos o limite do titular, pessoa física ou empresa, que se enquadrar nesse critério.",
+   "fonte_url": "https://okai.com.br/banco-central/documentos/2026-11-25/resolucao-bcb-n-610",
+   "data": "2026-11-25",
+   "veiculo": "Okai (texto da resolução)",
+   "confiavel": false
+  },
+  {
+   "texto": "A redução obrigatória do limite entra em vigor em 1º de julho de 2027. Os bancos devem considerar operações de crédito feitas a partir de janeiro de 2027.",
+   "fonte_url": "https://www.techtudo.com.br/noticias/2026/11/limite-do-credito-rotativo-sera-reduzido-em-2027-entenda-o-que-muda-edapps.ghtml",
+   "data": "2026-11-26",
+   "veiculo": "TechTudo",
+   "confiavel": false
+  },
+  {
+   "texto": "As medidas deixam de valer quando o cliente paga seis faturas seguidas por inteiro ou quita todo o saldo que ficou no rotativo. Até lá, o banco não pode aumentar o limite.",
+   "fonte_url": "https://okai.com.br/banco-central/documentos/2026-11-25/resolucao-bcb-n-610",
+   "data": "2026-11-25",
+   "veiculo": "Okai (texto da resolução)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Banco Central não fixou um percentual de corte. Cada instituição define os critérios, que devem estar no contrato, e o cliente precisa ser avisado antes. A regra vale para pessoas físicas e jurídicas.",
+   "fonte_url": "https://correioregional.net/2026/11/26/banco-central-obriga-bancos-a-reduzir-limite-do-cartao-de-quem-usa-o-rotativo-com-frequencia/",
+   "data": "2026-11-26",
+   "veiculo": "Correio Regional",
+   "confiavel": false
+  },
+  {
+   "texto": "Para identificar quem se enquadra, os bancos devem olhar os cartões e as dívidas do cliente em todo o sistema financeiro, e não só no próprio banco. A resolução cita o uso de dados do SCR (cadastro de créditos do Banco Central) e do Open Finance.",
+   "fonte_url": "https://agendadopoder.com.br/banco-central-manda-reduzir-limite-do-cartao-de-quem-usa-o-rotativo-com-frequencia/",
+   "data": "2026-11-25",
+   "veiculo": "Agenda do Poder",
+   "confiavel": false
+  },
+  {
+   "texto": "Em entrevista coletiva em 26/11, o diretor de Regulação do BC, Gilneu Vivan, estimou que cerca de 20 milhões de pessoas devem ser afetadas por duas das principais medidas do pacote. Uma delas é o corte de limite no rotativo.",
+   "fonte_url": "https://www.tribunadosertao.com.br/financas/2026/11/27/1031328-mudancas-no-rotativo-do-cartao-afetam-limites-e-dividas",
+   "data": "2026-11-26",
+   "veiculo": "Tribuna do Sertão",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "CMN e Banco Central aprovam o pacote contra o endividamento e publicam a Resolução BCB nº 610, que trata do limite do cartão no rotativo.",
+   "fonte_url": "https://exame.com/economia/bc-determina-reducao-de-limite-do-cartao-de-credito-para-quem-usar-rotativo-por-mais-de-tres-meses/",
+   "data": "2026-11-25",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Em coletiva em Brasília, o diretor de Regulação do BC estima que cerca de 20 milhões de clientes serão atingidos por duas das principais medidas.",
+   "fonte_url": "https://www.tribunadosertao.com.br/geral/2026/11/26/1030860-estimativa-apresentada-nesta-quinta-inclui-quem-recorre-com-frequencia-ao-rotativo-do-cartao-e-clientes-com-dividas-problematicas-as-principais-regras-passam-a-valer-em-julho-de-2027",
+   "data": "2026-11-26",
+   "veiculo": "Tribuna do Sertão",
+   "confiavel": false
+  },
+  {
+   "texto": "Veículos detalham que o BC não fixou percentual de corte e que os bancos devem avisar o cliente antes. Em 1º de janeiro de 2027 começa a contagem das operações consideradas na regra. A redução obrigatória do limite passa a valer em 1º de julho de 2027.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/26/cmn-e-bc-aprovam-pacote-contra-endividamento-no-cartao-de-credito/",
+   "data": "2026-11-26",
+   "veiculo": "Mix Vale",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto o limite vai cair. O Banco Central não definiu percentual, e cada banco ainda precisa divulgar sua política. Isso não foi confirmado por nenhuma instituição até agora.",
+  "Se o limite volta ao valor anterior depois que o cliente sai da regra. Segundo o DOL, cumprir uma das condições não garante a volta automática do limite, pois a concessão segue a avaliação de cada banco. O ponto depende da política de cada emissor.",
+  "Quantas das 20 milhões de pessoas citadas pelo BC serão afetadas só pelo corte do rotativo. A estimativa de Gilneu Vivan reúne duas medidas do pacote, e o número por regra não apareceu nas reportagens consultadas.",
+  "A data exata de publicação da resolução. A maioria dos veículos aponta 25/11. O Economic News Brasil fala em publicação em 27/11. A data de início, 1º/7/2027, é a mesma em todas as fontes."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje nada muda no seu limite. A regra só começa a valer em 1º de julho de 2027, e o histórico de uso do rotativo considerado vai de janeiro de 2027 em diante.",
+  "Se você paga a fatura inteira todo mês, a regra não o atinge. Usar o rotativo em uma ou duas faturas dentro de seis meses também não enquadra.",
+  "Se você usa o rotativo com frequência, pode ter o limite congelado e reduzido aos poucos, em qualquer banco onde tenha cartão, pois a análise considera todo o sistema financeiro.",
+  "Para sair da restrição, é preciso pagar seis faturas seguidas por inteiro ou quitar todo o saldo do rotativo. Mesmo assim, o banco decide se devolve o limite.",
+  "O banco deve avisar você antes de reduzir o limite, e os critérios devem constar no contrato. Dá para conferir no aplicativo do banco quantas faturas dos últimos meses foram pagas só em parte."
+ ],
+ "como_se_proteger": [],
+ "slug": "novas-regras-do-cartao",
+ "publicado_em": "2026-11-27T16:41:39.773826",
+ "atualizado_em": "2026-11-27T16:41:39.773826",
+ "assunto": "Novas regras do cartão: limite reduzido para quem usa o rotativo em três ou mais meses de um semestre. O que se sabe",
+ "turno": "viral"
+}
