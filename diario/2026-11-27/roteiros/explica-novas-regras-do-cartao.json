@@ -1,0 +1,189 @@
+{
+ "gancho": {
+  "formula": "Número + porquê",
+  "texto": "Três meses no rotativo, e o banco vai ter que reduzir seu limite.",
+  "na_tela": "3 meses no ROTATIVO = limite menor",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 1,
+   "verdadeiro": 1
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê",
+   "texto": "Três meses no rotativo, e o banco vai ter que reduzir seu limite.",
+   "na_tela": "3 meses no ROTATIVO = limite menor",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  },
+  {
+   "formula": "Já descobriram, você ainda não",
+   "texto": "Os bancos já vão ver seus cartões de todos os bancos. Você ainda não.",
+   "na_tela": "Eles vão ver TODOS os seus cartões",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "O seu limite do cartão vai encolher? Depende de um hábito com a fatura.",
+   "na_tela": "Seu LIMITE vai encolher?",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 1,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Três meses no rotativo, e o banco vai ter que reduzir seu limite.",
+  "Rotativo é pagar só parte da fatura e o banco financiar o resto.",
+  "Entra quem usou o rotativo em três dos últimos seis meses.",
+  "Calma, é sinal amarelo: só vale a partir de 1º de julho de 2027.",
+  "Agora a virada: o banco deve olhar suas dívidas em todos os bancos.",
+  "O Banco Central não definiu quanto o limite cai: cada banco decide.",
+  "Abre o app e confere quantas faturas você pagou só em parte.",
+  "Manda para quem paga só parte da fatura.",
+  "Você já usou o rotativo? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Três meses no rotativo, e o banco vai ter que reduzir seu limite. Rotativo é pagar só parte da fatura e o banco financiar o resto. Entra quem usou o rotativo em três dos últimos seis meses. Calma, é sinal amarelo: só vale a partir de 1º de julho de 2027. Agora a virada: o banco deve olhar suas dívidas em todos os bancos. O Banco Central não definiu quanto o limite cai: cada banco decide. Abre o app e confere quantas faturas você pagou só em parte. Manda para quem paga só parte da fatura. Você já usou o rotativo? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "3 meses no ROTATIVO = limite menor",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Rotativo = pagar só parte da fatura",
+   "fonte": "Banco Central"
+  },
+  {
+   "fala": 2,
+   "texto": "3 de 6 meses",
+   "fonte": "Exame"
+  },
+  {
+   "fala": 3,
+   "texto": "Vale só em 1º/7/2027",
+   "fonte": "TechTudo"
+  },
+  {
+   "fala": 4,
+   "texto": "Olham todos os bancos",
+   "fonte": "Agenda do Poder"
+  },
+  {
+   "fala": 5,
+   "texto": "Percentual de corte: não definido",
+   "fonte": "Correio Regional"
+  }
+ ],
+ "retomada": 4,
+ "busca": "regra do rotativo e corte de limite do cartão: o que muda",
+ "legenda": "Regra do rotativo e corte de limite do cartão: o que muda para você.\n\nO Conselho Monetário Nacional e o Banco Central aprovaram uma regra para os bancos reduzirem aos poucos o limite de quem usa o rotativo com frequência. Rotativo é o que o banco cobra quando você paga só parte da fatura.\n\nEntra quem usou o rotativo em três dos últimos seis meses. A regra só vale a partir de 1º de julho de 2027, então hoje nada muda no seu limite.\n\nO Banco Central não definiu quanto o limite cai: cada banco decide e precisa avisar você antes. Um passo calmo: abra o app do banco e confira quantas faturas você pagou só em parte.\n\nFontes: Exame, TechTudo, Correio Regional, Agenda do Poder e texto da Resolução BCB nº 610.\n\nEu sou o Heitor, do Termômetro de Crise. Conteúdo educativo, não é recomendação de investimento.\n\n#cartaodecredito #rotativo #educacaofinanceira #bancocentral",
+ "hashtags": [
+  "#cartaodecredito",
+  "#rotativo",
+  "#educacaofinanceira",
+  "#bancocentral"
+ ],
+ "rua": {
+  "gancho": "Três meses no rotativo e o banco vai reduzir seu limite.",
+  "topicos": [
+   "Segundo a Exame, entra quem usou o rotativo em três dos últimos seis meses.",
+   "Só vale a partir de 1º de julho de 2027, segundo o Banco Central.",
+   "O Banco Central não definiu quanto o limite cai: cada banco decide.",
+   "Abre o app do banco e confere quantas faturas você pagou só em parte."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É uma explicação com regra, prazo e pontos que ainda não se sabem, que pede calma e contexto.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 9,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 2,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Gancho \"Três meses no rotativo, e o banco vai ter que reduzir seu limite.\": soa como manchete lida e não como reação do Heitor. Reescreva com espanto de amigo, sem mudar o fato nem a data. Por exemplo: \"Cara, você viu isso? Usou o rotativo três vezes e o banco vai poder cortar o seu limite.\" Isso também deixa claro que é uma regra futura, e não algo que já aconteceu.",
+   "Fala \"Agora a virada: o banco deve olhar suas dívidas em todos os bancos.\": \"a virada\" é bordão de teleprompter, e \"suas dívidas em todos os bancos\" é abstrato. Troque por \"Olha só, e tem mais\" ou \"E aí vem a parte que pouca gente viu\". Depois diga o efeito no bolso, na ordem direta: \"O banco vai olhar o que você deve nos outros bancos também.\"",
+   "Fala \"Entra quem usou o rotativo em três dos últimos seis meses.\": são dois números na mesma fala, o que passa do limite do Teste do CLT. Divida em duas falas curtas. Por exemplo: \"Quem usou o rotativo três vezes nos últimos seis meses entra na regra.\" Deixe o \"seis meses\" para o cartão da tela, ou repita só com o exemplo: \"três meses de rotativo\". Além disso, o fim pede SIM/NÃO e também \"Manda para quem...\". Fique com um gatilho forte no fim e deixe o outro no meio do vídeo."
+  ],
+  "veredito": "A peça fala com quem tem cartão e medo de perder o limite, traduz o rotativo na hora, tranquiliza com \\\"sinal amarelo\\\", dá a data e o passo simples (abrir o app) e fecha com o bordão certo. O que falta é soar mais como o Heitor na rua, com gancho de espanto e bordões da casa no lugar da manchete lida, e tirar o excesso de número em uma fala."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Retenção: a frase 'Agora a virada: o banco deve olhar suas dívidas em todos os bancos.' anuncia a virada em vez de fazê-la, e soa como teleprompter. Reescrita: 'E aí vem a parte que pouca gente viu: o banco deve olhar suas dívidas em todos os bancos.'",
+   "Conversa: o único gatilho está no fim. Solte um no meio, logo depois de 'Entra quem usou o rotativo em três dos últimos seis meses.', com uma frase de identificação: 'Se você é desses, comenta EU.' O SIM ou NÃO do fim continua igual.",
+   "Retenção: 'Calma, é sinal amarelo: só vale a partir de 1º de julho de 2027.' alivia a tensão antes da virada. Reescrita em voz do Heitor: 'Calma, é sinal amarelo. Só vale a partir de 1º de julho de 2027.' Em duas frases curtas, a data fica mais fácil de entender de primeira, e o 'Calma' cai depois do susto do gancho, sem apagá-lo."
+  ],
+  "veredito": "Gancho forte, específico e pago logo, com um envio concreto no fim ('manda para quem paga só parte da fatura'). Falta uma virada que de fato surpreenda, na voz solta do Heitor, e um gatilho de comentário também no meio para chegar ao 8 ou mais."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Slow macro dolly-in over a wooden desk: a plain blank credit card with no logo, no digits, lying on a paper bill made only of abstract gray bars with no readable writing. Half of the bill is covered by a clean green sheet of paper, the other half left uncovered. Warm soft window light, shallow depth of field, no people",
+   "texto_da_fala": "Rotativo é pagar só parte da fatura e o banco financiar o resto.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Slow macro dolly-in over a wooden desk: a plain blank credit card with no logo, no digits, lying on a paper bill made only of abstract gray bars with no readable writing. Half of the bill is covered by a clean green sheet of paper, the other half left uncovered. Warm soft window light, shallow depth of field, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 4,
+   "visual": "Smooth lateral tracking shot along a city avenue at dusk, passing several different glass-and-concrete bank-style office buildings with completely blank facades, no signs, no letters, no logos. Lights turning on in the windows, cool blue and amber tones, light traffic blurred below, no recognizable people",
+   "texto_da_fala": "Agora a virada: o banco deve olhar suas dívidas em todos os bancos.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Smooth lateral tracking shot along a city avenue at dusk, passing several different glass-and-concrete bank-style office buildings with completely blank facades, no signs, no letters, no logos. Lights turning on in the windows, cool blue and amber tones, light traffic blurred below, no recognizable people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Over-the-shoulder close-up, camera slowly pushing in on a hand holding a smartphone above a kitchen table. The screen shows only abstract colored bars and blurred shapes, no text, no digits, no logos. A thumb scrolls the screen gently. Morning light, a coffee cup nearby, face not visible",
+   "texto_da_fala": "Abre o app e confere quantas faturas você pagou só em parte.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Over-the-shoulder close-up, camera slowly pushing in on a hand holding a smartphone above a kitchen table. The screen shows only abstract colored bars and blurred shapes, no text, no digits, no logos. A thumb scrolls the screen gently. Morning light, a coffee cup nearby, face not visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Três meses no rotativo, e o banco vai ter que reduzir seu limite.\n\nRotativo é pagar só parte da fatura e o banco financiar o resto.\n\nEntra quem usou o rotativo em três dos últimos seis meses.\n\nCalma, é sinal amarelo: só vale a partir de 1º de julho de 2027.\n\nAgora a virada: o banco deve olhar suas dívidas em todos os bancos.\n\nO Banco Central não definiu quanto o limite cai: cada banco decide.\n\nAbre o app e confere quantas faturas você pagou só em parte.\n\nManda para quem paga só parte da fatura.\n\nVocê já usou o rotativo? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Exame",
+   "url": "https://exame.com/economia/bc-determina-reducao-de-limite-do-cartao-de-credito-para-quem-usar-rotativo-por-mais-de-tres-meses/",
+   "destaque": "Em 25 de novembro, o CMN e o Banco Central aprovaram um pacote para reduzir o endividamento, sobretudo de pessoas físicas."
+  }
+ ],
+ "data": "2026-11-27",
+ "gerado_em": "2026-11-27T16:43:51.562032-03:00"
+}
