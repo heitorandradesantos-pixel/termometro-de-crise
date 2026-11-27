@@ -1,0 +1,90 @@
+{
+ "saida": "tres-objetivos-editado.mp4",
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "Após",
+    "tentadoria,"
+   ],
+   [
+    "Aposentadoria,"
+   ]
+  ],
+  [
+   [
+    "embaixo",
+    "Baixo,"
+   ],
+   [
+    "embaixo:"
+   ]
+  ],
+  [
+   [
+    "Um,",
+    "qual"
+   ],
+   [
+    "Qual"
+   ]
+  ],
+  [
+   [
+    "Cé,",
+    "Alarde,"
+   ],
+   [
+    "Sem",
+    "alarde,"
+   ]
+  ]
+ ],
+ "nomes": [],
+ "destaques": "\\d|curto|médio|longo|prazo|quando|inflação|erro|taxa",
+ "cartoes": [
+  [
+   0.2,
+   8.3,
+   "Os 3 objetivos: *curto, médio e longo* prazo",
+   ""
+  ],
+  [
+   12.7,
+   17.4,
+   "*Quando* você vai precisar desse dinheiro?",
+   ""
+  ],
+  [
+   18.0,
+   27.2,
+   "*Curto* (até 1 ano): saque rápido e preço que não balança",
+   ""
+  ],
+  [
+   28.3,
+   36.3,
+   "*Médio* (1 a 5 anos): dá pra travar taxa, se não sacar antes",
+   ""
+  ],
+  [
+   36.8,
+   44.1,
+   "*Longo* (mais de 5 anos): proteger da inflação",
+   ""
+  ],
+  [
+   46.5,
+   53.6,
+   "Erro comum: dinheiro de janeiro *preso por 2 anos*",
+   ""
+  ],
+  [
+   54.0,
+   60.2,
+   "O seu é pra *curto, médio ou longo* prazo?",
+   ""
+  ]
+ ],
+ "fim": 62.73
+}

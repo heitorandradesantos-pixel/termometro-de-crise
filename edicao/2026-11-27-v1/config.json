@@ -1,0 +1,100 @@
+{
+ "saida": "tesouro-selic-pra-que-serve-editado.mp4",
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "13",
+    ",75",
+    "%"
+   ],
+   [
+    "13,75%"
+   ]
+  ],
+  [
+   [
+    "conta.",
+    "conta"
+   ],
+   [
+    "conta."
+   ]
+  ],
+  [
+   [
+    "SELIC"
+   ],
+   [
+    "Selic"
+   ]
+  ],
+  [
+   [
+    "sem",
+    "a",
+    "LARGE"
+   ],
+   [
+    "Sem",
+    "alarde,"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Tesouro",
+  "Selic"
+ ],
+ "destaques": "\\d|tesouro|selic|reserva|emergência|imposto|não|sacar",
+ "cartoes": [
+  [
+   0.3,
+   4.2,
+   "Tesouro Selic: pra que ele *não serve*",
+   ""
+  ],
+  [
+   8.1,
+   13.6,
+   "Paga a Selic: *13,75%* ao ano",
+   "Fonte: Banco Central (Copom, 04/11/2026)"
+  ],
+  [
+   14.2,
+   21.5,
+   "Saque em *qualquer dia útil* e preço que quase não oscila",
+   "Fonte: Tesouro Direto"
+  ],
+  [
+   22.0,
+   27.4,
+   "Serve pra: *reserva de emergência* e dinheiro de curto prazo",
+   ""
+  ],
+  [
+   29.6,
+   35.2,
+   "Não serve pra: *travar uma taxa* por anos",
+   ""
+  ],
+  [
+   35.6,
+   42.2,
+   "Antes de 6 meses: imposto de *22,5%* sobre o rendimento",
+   "Fonte: Receita Federal (tabela regressiva do IR)"
+  ],
+  [
+   42.7,
+   47.6,
+   "Calculadora da Selic: *link na bio*",
+   ""
+  ],
+  [
+   48.0,
+   51.3,
+   "Você já tem dinheiro no Tesouro Selic? *SIM ou NÃO*",
+   ""
+  ]
+ ],
+ "fim": 53.01
+}

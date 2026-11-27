@@ -1,0 +1,95 @@
+{
+ "saida": "dolar-caindo-trabuco-editado.mp4",
+ "remover": [],
+ "corrigir": [
+  [
+   [
+    "R",
+    "$5",
+    ",57,"
+   ],
+   [
+    "R$",
+    "5,52,"
+   ]
+  ],
+  [
+   [
+    "2",
+    ",32%."
+   ],
+   [
+    "2,32%."
+   ]
+  ],
+  [
+   [
+    "as",
+    "Europa"
+   ],
+   [
+    "Ásia,",
+    "Europa"
+   ]
+  ]
+ ],
+ "nomes": [
+  "Trabuco",
+  "Nova",
+  "York",
+  "Europa",
+  "Ásia"
+ ],
+ "destaques": "\\d|dólar|caiu|queda|alta|viagem|bolsa|alívio|susto",
+ "cartoes": [
+  [
+   0.3,
+   5.3,
+   "Dólar caindo: *otimismo* ou respiro de sorte?",
+   ""
+  ],
+  [
+   5.6,
+   9.4,
+   "Dólar a *R$ 5,52* (▼2,32%)",
+   "Fonte: Yahoo Finance (abertura de 27/11/2026)"
+  ],
+  [
+   9.6,
+   12.6,
+   "Ásia, Europa e Nova York *em alta*",
+   "Fonte: Yahoo Finance (27/11/2026)"
+  ],
+  [
+   17.6,
+   21.0,
+   "Viagem · site de fora · *aplicativo*",
+   ""
+  ],
+  [
+   21.3,
+   23.4,
+   "Você viaja este ano? *SIM ou NÃO*",
+   ""
+  ],
+  [
+   23.9,
+   28.6,
+   "Ibovespa: *176.901* pontos (▲0,06%), depois de +6,07% ontem",
+   "Fonte: Yahoo Finance (27/11/2026, 10h07)"
+  ],
+  [
+   29.2,
+   32.7,
+   "Confere o *valor final* antes de pagar",
+   ""
+  ],
+  [
+   35.9,
+   39.8,
+   "*Alívio ou susto?* Comenta",
+   ""
+  ]
+ ],
+ "fim": 42.53
+}
