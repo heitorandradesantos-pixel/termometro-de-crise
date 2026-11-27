@@ -1,0 +1,114 @@
+{
+ "titulo": "Guerra petróleo hoje: Ormuz e Arábia pesam no Brent: o que se sabe",
+ "descricao": "Irã diz que petroleiros bateram em minas em Ormuz; houthis dizem ter atacado a Arábia Saudita. Brent ronda US$ 97 em 27/11. Veja o que está confirmado.",
+ "palavra_chave": "guerra petróleo hoje",
+ "lead": "O petróleo Brent, referência mundial de preço, subia nesta sexta (27/11) e rondava US$ 97 por barril, segundo a Reuters. O mercado reage a ataques a petroleiros no Estreito de Ormuz e a ataques à infraestrutura saudita. A Guarda Revolucionária do Irã diz que petroleiros bateram em minas, mas a agência marítima britânica UKMTO fala só em \"projétil não identificado\", e não há confirmação independente da versão iraniana.",
+ "o_que_se_sabe": [
+  {
+   "texto": "Na manhã de 27/11, o Brent subia US$ 1,06 (1,10%), a US$ 97,63 por barril, às 4h30 de Brasília, segundo a Reuters. O preço está perto do maior nível desde 6 de novembro e caminha para interromper três semanas seguidas de queda. O fechamento de 27/11 ainda não estava disponível na apuração.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-sobe-e-caminha-para-interromper-sequencia-de-tres-semanas-de-perdas-fets/",
+   "data": "2026-11-27",
+   "veiculo": "Money Times (Reuters)",
+   "confiavel": true
+  },
+  {
+   "texto": "Segundo a Reuters, o Irã continuou atacando navios no Estreito de Ormuz, e os houthis do Iêmen, grupo alinhado ao Irã, atacaram instalações sauditas. Esses dois fatos sustentam a alta do petróleo na manhã de 27/11.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-sobe-e-caminha-para-interromper-sequencia-de-tres-semanas-de-perdas-fets/",
+   "data": "2026-11-27",
+   "veiculo": "Money Times (Reuters)",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 26/11, a Guarda Revolucionária do Irã disse que dois petroleiros pegaram fogo ao bater em minas navais quando tentavam passar de forma \"ilegal\" por Ormuz. O veículo não trouxe dados sobre vítimas. É uma declaração iraniana, não um fato verificado por terceiros.",
+   "fonte_url": "https://democrata.es/pt/internacional/o-ira-afirma-que-dois-petroleiros-ardem-depois-de-colidirem-com-minas-navais-no-estreito-de-ormuz",
+   "data": "2026-11-26",
+   "veiculo": "Demócrata",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 25/11, a Guarda Revolucionária já havia dito que dois petroleiros sofreram explosões e incêndios ao supostamente atingir minas. Segundo o ISTOÉ, a causa das explosões não foi confirmada de forma independente.",
+   "fonte_url": "https://istoe.com.br/ira-explosoes-petroleiros-estreito-ormuz-minas-navais",
+   "data": "2026-11-25",
+   "veiculo": "ISTOÉ",
+   "confiavel": false
+  },
+  {
+   "texto": "Em incidentes anteriores perto de Khasab, a Reuters disse não ter como verificar de forma independente a versão iraniana. Também não conseguiu ligar a versão do Irã aos casos registrados pela UKMTO.",
+   "fonte_url": "https://www.jpost.com/middle-east/article-915628",
+   "data": "2026-11-21",
+   "veiculo": "Jerusalem Post (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Em 25/11, os houthis disseram ter atacado a refinaria de Ras Tanura, a maior da Arábia Saudita, e o distrito financeiro de Riad. Naquele dia, o Brent fechou a US$ 94,61, alta de 3,5%, segundo a Reuters. A Reuters descreve o ataque como uma afirmação dos houthis.",
+   "fonte_url": "https://br.investing.com/news/commodities-news/petroleo-sobe-aposhouthis-assumirem-autoria-de-ataque-a-refinaria-saudita-2138376",
+   "data": "2026-11-25",
+   "veiculo": "Investing.com Brasil (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Os preços do Brent em 27/11 variam conforme a fonte. O Milenio citou US$ 97,30. A agência WAM citou US$ 96,19, em queda de 0,39%, à 1h40 GMT. Este texto usa a Reuters (via Money Times) como referência única para o dia.",
+   "fonte_url": "https://www.milenio.com/negocios/precio-del-petroleo-hoy-27-noviembre-de-2026-brent-wti-suben",
+   "data": "2026-11-27",
+   "veiculo": "Milenio / WAM",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Guarda Revolucionária do Irã relata incêndio em três petroleiros por minas em Ormuz, mesmo com escolta dos EUA, segundo o Brasil 247.",
+   "fonte_url": "https://www.brasil247.com/mundo/guarda-revolucionaria-do-ira-relata-incendio-em-tres-petroleiros-em-ormuz/",
+   "data": "2026-11-24",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  },
+  {
+   "texto": "Os houthis dizem ter atacado Ras Tanura e o Brent fecha a US$ 94,61, alta de 3,5%.",
+   "fonte_url": "https://br.investing.com/news/commodities-news/petroleo-sobe-aposhouthis-assumirem-autoria-de-ataque-a-refinaria-saudita-2138376",
+   "data": "2026-11-25",
+   "veiculo": "Investing.com Brasil (Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "O Irã diz que dois petroleiros sofreram explosões e incêndios por minas. No mesmo dia, a UKMTO relata um petroleiro atingido por projétil não identificado perto de Khasab.",
+   "fonte_url": "https://istoe.com.br/ira-explosoes-petroleiros-estreito-ormuz-minas-navais",
+   "data": "2026-11-25",
+   "veiculo": "ISTOÉ",
+   "confiavel": false
+  },
+  {
+   "texto": "A Guarda Revolucionária afirma que dois petroleiros pegaram fogo ao bater em minas ao tentar \"transitar ilegalmente\" por Ormuz.",
+   "fonte_url": "https://democrata.es/pt/internacional/o-ira-afirma-que-dois-petroleiros-ardem-depois-de-colidirem-com-minas-navais-no-estreito-de-ormuz",
+   "data": "2026-11-26",
+   "veiculo": "Demócrata",
+   "confiavel": false
+  },
+  {
+   "texto": "O Brent sobe a US$ 97,63 e caminha para interromper três semanas de perdas, com ataques a petroleiros e a instalações sauditas no radar.",
+   "fonte_url": "https://www.moneytimes.com.br/petroleo-sobe-e-caminha-para-interromper-sequencia-de-tres-semanas-de-perdas-fets/",
+   "data": "2026-11-27",
+   "veiculo": "Money Times (Reuters)",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Não foi confirmado de forma independente que os petroleiros bateram em minas. A UKMTO fala em projéteis não identificados, e o Irã fala em minas. Ninguém verificou qual versão é a correta.",
+  "Não está claro quantos navios foram atingidos entre 26 e 27/11. Os relatos iranianos divergem entre si sobre os primeiros casos, segundo o Brasil 247, e o Instituto GSEC fala em \"décimo petroleiro\" em uma semana. Não achei confirmação disso em fonte oficial.",
+  "Não foi confirmado, por fonte oficial, que o Estreito de Ormuz foi fechado a novas passagens. A informação aparece no boletim do Instituto GSEC, mas não a achei em outro veículo.",
+  "As afirmações dos houthis sobre ataques a Ras Tanura e a outros alvos sauditas vêm do próprio grupo. Os danos e o efeito real na produção não foram detalhados nas fontes consultadas.",
+  "O fechamento do Brent em 27/11 ainda não está disponível. Os valores intradiários variam de cerca de US$ 92 a US$ 97,63 conforme a fonte e o contrato (o vencimento do contrato futuro). Não foi possível confirmar o motivo da diferença.",
+  "Não há confirmação de quanto isso vai afetar combustíveis, inflação ou dólar no Brasil. Nenhuma das fontes consultadas traz esse dado."
+ ],
+ "o_que_muda_para_voce": [
+  "Petróleo mais caro pode pressionar o preço dos combustíveis e a inflação no Brasil, mas o repasse depende de decisões da Petrobras e do câmbio. Nenhuma fonte consultada informou mudança de preço nas bombas.",
+  "O dólar costuma reagir ao risco global. Se a tensão no Golfo aumentar, a moeda americana pode ficar mais cara, e isso encarece produtos importados e viagens. Isso é um cenário possível, não um fato confirmado hoje.",
+  "Quem tem investimento ligado a petróleo, dólar ou inflação pode ver oscilações maiores nos preços enquanto as notícias do conflito mudarem. Este texto não recomenda comprar nem vender nada.",
+  "Para acompanhar, vale ver se a UKMTO ou outra fonte independente confirma o que o Irã diz e se o fechamento do Brent em 27/11 mantém a alta."
+ ],
+ "como_se_proteger": [],
+ "slug": "guerra-petroleo-hoje",
+ "publicado_em": "2026-11-27T11:44:37.308074",
+ "atualizado_em": "2026-11-27T11:44:37.308074",
+ "assunto": "Irã diz que petroleiros atingiram minas no Estreito de Ormuz (26 e 27/11), e o Brent sobe com ataques a infraestrutura saudita.",
+ "turno": "meio"
+}
