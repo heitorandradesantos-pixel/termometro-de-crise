@@ -1,0 +1,193 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Mandou Pix pra pessoa errada? O Banco Central prepara uma ferramenta pra isso.",
+  "na_tela": "Mandou Pix errado? Vem novidade",
+  "nota": {
+   "especifico": 1,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Mandou Pix pra pessoa errada? O Banco Central prepara uma ferramenta pra isso.",
+   "na_tela": "Mandou Pix errado? Vem novidade",
+   "nota": {
+    "especifico": 1,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "O BC quer medir o risco de fraude em cada Pix, antes do dinheiro sair.",
+   "na_tela": "Risco de fraude em cada Pix",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 1,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "O Pix vai mudar em 2027, mas o seu app continua igual hoje.",
+   "na_tela": "Pix muda em 2027, mas não hoje",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Mandou Pix pra pessoa errada? O Banco Central prepara uma ferramenta pra isso.",
+  "Tá na agenda do Pix de 2027, apresentada no Fórum Pix, em Brasília.",
+  "Hoje o MED, que devolve Pix, só cobre golpe e fraude, não engano.",
+  "Outra: um termômetro de fraude em cada Pix, pros bancos barrarem antes do dinheiro sair.",
+  "Mas olha o detalhe: o Banco Central não deu data, nem disse se o valor volta inteiro.",
+  "Então hoje nada muda no app do seu banco.",
+  "Se mandou Pix errado agora, peça a devolução a quem recebeu e procure seu banco.",
+  "Você já mandou Pix errado? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Mandou Pix pra pessoa errada? O Banco Central prepara uma ferramenta pra isso. Tá na agenda do Pix de 2027, apresentada no Fórum Pix, em Brasília. Hoje o MED, que devolve Pix, só cobre golpe e fraude, não engano. Outra: um termômetro de fraude em cada Pix, pros bancos barrarem antes do dinheiro sair. Mas olha o detalhe: o Banco Central não deu data, nem disse se o valor volta inteiro. Então hoje nada muda no app do seu banco. Se mandou Pix errado agora, peça a devolução a quem recebeu e procure seu banco. Você já mandou Pix errado? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 111,
+ "segundos": 44,
+ "na_tela": [
+  {
+   "texto": "Mandou Pix errado? Vem novidade",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Agenda do Pix 2027 · 26/11",
+   "fonte": "Agência Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "MED: só golpe e fraude",
+   "fonte": "Campo Grande News"
+  },
+  {
+   "fala": 3,
+   "texto": "Indicador de fraude em tempo real",
+   "fonte": "Olhar Digital"
+  },
+  {
+   "fala": 4,
+   "texto": "Sem data de início",
+   "fonte": "Mixvale"
+  },
+  {
+   "fala": 5,
+   "texto": "Hoje: nada muda no app",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Pix errado: peça a devolução",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 4,
+ "busca": "novas regras do Pix 2027",
+ "legenda": "Novas regras do Pix 2027: o que se sabe até agora.\n\nO Banco Central apresentou no Fórum Pix, em Brasília, a agenda do Pix para 2027. Ela inclui um indicador de fraude em tempo real, um filtro opcional para mensagens ofensivas, ajustes no Pix Automático e uma ferramenta para facilitar a devolução de Pix enviado por engano.\n\nO que ainda não se sabe: o BC não informou datas de início dos itens novos, nem como a devolução por engano vai funcionar, nem se o valor voltará por inteiro. Hoje, nada muda no app do seu banco.\n\nMandou Pix para a pessoa errada agora? A nova ferramenta ainda não existe. O caminho é pedir a devolução a quem recebeu e procurar o seu banco. O MED vale só para golpes e fraudes.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#pix #bancocentral #educacaofinanceira #dinheiro",
+ "hashtags": [
+  "#pix",
+  "#bancocentral",
+  "#educacaofinanceira",
+  "#dinheiro"
+ ],
+ "rua": {
+  "gancho": "Mandou Pix errado? O Banco Central prepara uma ferramenta pra isso.",
+  "topicos": [
+   "O Banco Central apresentou a agenda do Pix de 2027 em 26 de novembro.",
+   "Vai ter indicador de fraude em cada Pix e ferramenta pra devolver Pix errado.",
+   "Mas o Banco Central não deu data, nem disse se o valor volta inteiro.",
+   "Errou o Pix hoje? Peça a devolução a quem recebeu e procure seu banco."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com plano ainda sem data, que pede contexto e calma, não notícia quente de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 7,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Frase \"Hoje o MED, que devolve Pix, só cobre golpe e fraude, não engano.\": o MED é sigla de banco e a frase tem duas ideias. Reescreva em duas falas curtas, sem a sigla: \"Hoje o Pix só volta se for golpe ou fraude.\" e \"Se foi engano seu, não tem esse caminho.\"",
+   "Frase \"Tá na agenda do Pix de 2027, apresentada no Fórum Pix, em Brasília.\": \"agenda\" e o nome do evento pesam na fala e o evento é nome de fonte técnica. Troque por \"O Banco Central anunciou isso pro Pix de 2027\" e deixe o Fórum Pix e Brasília no cartão da tela e na legenda.",
+   "Frase \"um termômetro de fraude em cada Pix, pros bancos barrarem antes do dinheiro sair\": o termo é do jeito da casa, mas não traz comparação do dia a dia. Abra com reação de amigo (\"Cara, olha isso\") e compare com algo conhecido, como o aviso do cartão quando aparece uma compra estranha. Explique em uma frase o que muda pra quem manda o Pix. Mantenha só o que está na peça, sem inventar detalhe."
+  ],
+  "veredito": "A peça acerta no que mais importa: diz o que ainda não existe, não promete nada e dá a saída prática (pedir a devolução a quem recebeu e procurar o banco), com gatilho de comentário fácil e o bordão certo. Falta passar no Teste do CLT, porque tem MED, agenda e Fórum Pix na fala. Falta também o gancho de espanto e uma comparação viva, que dariam a energia sanguínea do Heitor."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Envio: o vídeo não pede para mandar a ninguém. Antes do gatilho final, inclua uma situação concreta. Frase atual: \"Você já mandou Pix errado? Comenta SIM ou NÃO.\" Reescrita: \"Manda pra quem vive mandando Pix sem conferir o nome. E você, já mandou Pix errado? Comenta SIM ou NÃO.\"",
+   "Retenção: a virada \"Mas olha o detalhe\" chega tarde, depois de duas ideias e dois termos (MED e termômetro de fraude). Traduza o MED na mesma frase, como pede o Teste do CLT. Frase atual: \"Hoje o MED, que devolve Pix, só cobre golpe e fraude, não engano.\" Reescrita: \"Hoje o Pix só volta se for golpe ou fraude. Engano, não.\" O nome MED fica na legenda.",
+   "Retenção: o trecho \"Tá na agenda do Pix de 2027, apresentada no Fórum Pix, em Brasília\" tem informação demais para uma fala só, e o nome do evento não precisa estar na voz. Reescrita: \"Isso tá na lista do Banco Central pra 2027.\" O Fórum Pix fica no cartão da tela e na legenda."
+  ],
+  "veredito": "O gancho é específico e é pago logo na segunda frase, e o gatilho SIM ou NÃO é fácil de responder. Falta um pedido de envio para uma situação concreta, e falta deixar as falas mais leves (MED e Fórum Pix na voz) para a pessoa ficar até o fim e mandar o vídeo."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Macro shot of a classic glass mercury thermometer with an unmarked scale, glowing red liquid rising slowly, placed on a dark desk next to a smartphone showing only an abstract green glow on screen. Slow dolly-in, shallow depth of field, soft cinematic lighting, no text, no numbers, no logos",
+   "texto_da_fala": "Outra: um termômetro de fraude em cada Pix, pros bancos barrarem antes do dinheiro sair.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Macro shot of a classic glass mercury thermometer with an unmarked scale, glowing red liquid rising slowly, placed on a dark desk next to a smartphone showing only an abstract green glow on screen. Slow dolly-in, shallow depth of field, soft cinematic lighting, no text, no numbers, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 5,
+   "visual": "Close-up of a hand holding a smartphone in a softly lit living room, the screen showing an abstract blurred interface made of plain colored rounded shapes with no text or numbers. The screen stays unchanged while the camera slowly pushes in and a gentle rack focus shifts to the background. Hand only, no face, no logos",
+   "texto_da_fala": "Então hoje nada muda no app do seu banco.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a hand holding a smartphone in a softly lit living room, the screen showing an abstract blurred interface made of plain colored rounded shapes with no text or numbers. The screen stays unchanged while the camera slowly pushes in and a gentle rack focus shifts to the background. Hand only, no face, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Over-the-shoulder-free tight shot of hands typing on a smartphone at a cafe table, with a coffee cup and a keys ring nearby, the screen showing abstract blurred chat bubbles with no readable text. Camera slowly orbits around the hands, warm natural window light, no face visible, no logos",
+   "texto_da_fala": "Se mandou Pix errado agora, peça a devolução a quem recebeu e procure seu banco.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Over-the-shoulder-free tight shot of hands typing on a smartphone at a cafe table, with a coffee cup and a keys ring nearby, the screen showing abstract blurred chat bubbles with no readable text. Camera slowly orbits around the hands, warm natural window light, no face visible, no logos. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Mandou Pix pra pessoa errada? O Banco Central prepara uma ferramenta pra isso.\n\nTá na agenda do Pix de 2027, apresentada no Fórum Pix, em Brasília.\n\nHoje o MED, que devolve Pix, só cobre golpe e fraude, não engano.\n\nOutra: um termômetro de fraude em cada Pix, pros bancos barrarem antes do dinheiro sair.\n\nMas olha o detalhe: o Banco Central não deu data, nem disse se o valor volta inteiro.\n\nEntão hoje nada muda no app do seu banco.\n\nSe mandou Pix errado agora, peça a devolução a quem recebeu e procure seu banco.\n\nVocê já mandou Pix errado? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027",
+   "destaque": "O BC apresentou em 26/11, na 29ª Reunião Plenária do Fórum Pix, a agenda de 2027."
+  }
+ ],
+ "data": "2026-11-27",
+ "gerado_em": "2026-11-27T13:19:11.647905-03:00"
+}
