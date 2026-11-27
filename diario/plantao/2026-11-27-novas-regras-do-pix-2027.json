@@ -1,0 +1,114 @@
+{
+ "titulo": "Novas regras do Pix em 2027: o que se sabe",
+ "descricao": "BC apresentou em 26/11 a agenda do Pix para 2027: indicador de fraude, filtro de ofensas e devolução por engano. Veja o que já vale e o que ainda é plano.",
+ "palavra_chave": "novas regras do pix 2027",
+ "lead": "O Banco Central apresentou em 26 de novembro, no Fórum Pix, em Brasília, a agenda do Pix para 2027. Ela inclui um indicador de fraude em tempo real, regras contra mensagens ofensivas, uma ferramenta para recuperar Pix enviado por engano e ajustes no Pix Automático. São planos em desenvolvimento: o BC ainda não informou datas de início para os itens novos, e o aplicativo do seu banco continua igual por enquanto.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O BC apresentou em 26/11, na 29ª Reunião Plenária do Fórum Pix, a agenda de 2027. Ela inclui ajustes no Pix Automático, medidas contra mensagens ofensivas, ferramentas para identificar fraudes e uma solução para facilitar a devolução de dinheiro enviado por engano. A agenda faz parte do plano de desenvolvimento e regulamentação do Pix para o próximo ano.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027",
+   "data": "2026-11-26",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O BC quer criar um indicador de probabilidade de fraude, calculado em tempo real para cada transação. O resultado será compartilhado com bancos e instituições de pagamento. Eles poderão usá-lo para decidir se autorizam ou rejeitam a transferência antes de o dinheiro sair da conta.",
+   "fonte_url": "https://olhardigital.com.br/2026/11/27/seguranca/bc-prepara-novas-regras-de-seguranca-e-melhorias-no-pix-em-2027",
+   "data": "2026-11-27",
+   "veiculo": "Olhar Digital",
+   "confiavel": false
+  },
+  {
+   "texto": "A agenda também prevê critérios mínimos para rejeitar transações e bloquear recursos de forma preventiva (cautelar). O BC quer ainda atuar de forma mais ativa na gestão das chaves Pix e ampliar a fiscalização sobre as instituições participantes.",
+   "fonte_url": "https://diariodosudoeste.com.br/pix-vai-esconder-mensagens-ofensivas-e-ter-alerta-de-fraude/",
+   "data": "2026-11-27",
+   "veiculo": "Diário do Sudoeste",
+   "confiavel": false
+  },
+  {
+   "texto": "Contra ameaças e ofensas no campo de mensagem do Pix, o BC prevê campanhas educativas e uma ferramenta que mascara, ou esconde, mensagens inapropriadas no app do banco. Cada usuário poderá escolher se quer usar esse filtro. As regras foram discutidas em um grupo de trabalho do Fórum Pix com bancos e entidades da sociedade civil.",
+   "fonte_url": "https://idest.com.br/economia/pix-tera-novas-regras-de-seguranca-e-melhorias-previstas-para-2027",
+   "data": "2026-11-27",
+   "veiculo": "Idest",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC vai desenvolver uma ferramenta para facilitar a recuperação de dinheiro enviado por engano pelo próprio pagador. Hoje o MED (Mecanismo Especial de Devolução) cobre só golpes e fraudes, e não esse tipo de erro. Segundo o Campo Grande News, não há garantia de que a nova ferramenta permita recuperar o valor por inteiro.",
+   "fonte_url": "https://www.campograndenews.com.br/economia/pix-enviado-por-engano-podera-ter-devolucao-facilitada-em-2027",
+   "data": "2026-11-27",
+   "veiculo": "Campo Grande News",
+   "confiavel": false
+  },
+  {
+   "texto": "O Pix Automático, que faz cobranças recorrentes como mensalidades e assinaturas, terá ajustes de regras em 2027. O objetivo é melhorar o funcionamento e incentivar novos modelos de cobrança. O BC continua avaliando a ligação do Pix com o TIPS, sistema de pagamentos instantâneos do Banco Central Europeu.",
+   "fonte_url": "https://horams.com.br/pix-2027-banco-central-ferramenta-devolucao-pix-errado-mensagens-ofensivas-fraude/",
+   "data": "2026-11-27",
+   "veiculo": "Horams",
+   "confiavel": false
+  },
+  {
+   "texto": "Já foram entregues em 2026, segundo o BC: o MED 2.0, novos requisitos para contestar transações no autoatendimento do MED, a regulamentação da cobrança híbrida (boleto e QR Code do Pix juntos) e da oferta de crédito durante um Pix, e regras de transparência nas marcações de suspeita de fraude.",
+   "fonte_url": "https://horams.com.br/pix-2027-banco-central-ferramenta-devolucao-pix-errado-mensagens-ofensivas-fraude/",
+   "data": "2026-11-27",
+   "veiculo": "Horams",
+   "confiavel": false
+  },
+  {
+   "texto": "O Pix Automático em contas-salário já foi regulamentado, mas ainda não vale. A Resolução BCB 587, publicada em 18/09, prevê que ele possa ser usado nesse tipo de conta a partir de 1º de julho de 2027. Segundo o veículo Foleto, isso não libera Pix comum na conta-salário.",
+   "fonte_url": "https://agenciagov.ebc.com.br/noticias/202610/pix-amplia-funcionalidades-e-reforca-seguranca-com-nova-rodada-de-aperfeicoamentos-regulatorios",
+   "data": "2026-09-18",
+   "veiculo": "Agência Gov (via Banco Central)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "O BC publica a Resolução BCB 587, que prevê Pix Automático em contas-salário a partir de 1º de julho de 2027.",
+   "fonte_url": "https://agenciagov.ebc.com.br/noticias/202610/pix-amplia-funcionalidades-e-reforca-seguranca-com-nova-rodada-de-aperfeicoamentos-regulatorios",
+   "data": "2026-09-18",
+   "veiculo": "Agência Gov (via Banco Central)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Resolução 587 é publicada no Diário Oficial da União. Segundo o Brasil 247, parte das regras vale a partir de 1º de fevereiro de 2027 e outra parte a partir de 1º de julho de 2027.",
+   "fonte_url": "https://www.brasil247.com/tendencias/2026/11/19/banco-central-faz-aviso-para-todos-que-usam-o-pix/",
+   "data": "2026-09-21",
+   "veiculo": "Brasil 247",
+   "confiavel": false
+  },
+  {
+   "texto": "O BC apresenta, na 29ª Reunião Plenária do Fórum Pix, o balanço de 2026 e a agenda de 2027.",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027",
+   "data": "2026-11-26",
+   "veiculo": "Agência Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Veículos detalham a agenda. O BC ainda não informou data de início do indicador de fraude, das regras de mensagens nem da ferramenta de devolução por engano.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/27/banco-central-preve-mudancas-no-pix-em-2027-com-foco-em-seguranca/",
+   "data": "2026-11-27",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quando os itens novos começam a valer. O BC não informou data de início do indicador de fraude, das regras de mensagens nem da ferramenta de devolução por engano, segundo o Mixvale. Os detalhes técnicos dependem de etapas regulatórias que ainda não foram publicadas.",
+  "Como a devolução de Pix enviado por engano vai funcionar, quais serão os critérios e se o dinheiro voltará por inteiro. O BC não detalhou, segundo a Agência Brasil e outros veículos.",
+  "Como o indicador de fraude será calculado. Um veículo (Associação Comercial de Araçatuba) diz que há expectativa de uso de inteligência artificial, mas isso não foi confirmado pelo BC.",
+  "Se a ligação do Pix com o sistema europeu TIPS vai sair. O tema segue em avaliação em 2027, sem confirmação de implementação.",
+  "A data do autoatendimento do MED. O Mixvale cita 1º de março de 2027, mas nas buscas feitas não achamos essa data confirmada em outra fonte, então ela não está confirmada."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda no app do seu banco. As novidades de 2027 estão em desenvolvimento e ainda sem data.",
+  "Se você enviou um Pix para a pessoa errada agora, a nova ferramenta ainda não existe. O caminho é pedir a devolução a quem recebeu, que pode devolver o valor total ou parcial pela função de devolução da própria transação, e procurar o seu banco. O MED vale só para golpes e fraudes.",
+  "Se você recebe salário em conta-salário, o Pix Automático poderá sair dela a partir de 1º de julho de 2027, com sua autorização. Pix comum continua restrito nesse tipo de conta.",
+  "A cobrança híbrida (boleto e Pix na mesma cobrança) e o aviso ao cliente sobre marcação de suspeita de fraude têm início previsto para 1º de fevereiro de 2027, segundo veículos que citam a Resolução 587.",
+  "Quando o filtro de mensagens chegar, a proposta é que cada usuário escolha se quer ou não esconder mensagens inapropriadas."
+ ],
+ "como_se_proteger": [],
+ "slug": "novas-regras-do-pix-2027",
+ "publicado_em": "2026-11-27T13:14:58.887790",
+ "atualizado_em": "2026-11-27T13:14:58.887790",
+ "assunto": "O Banco Central apresentou em 26/11, no Fórum Pix, as novas regras do Pix para 2027: indicador de fraude em tempo real, regras contra mensagens ofensivas, ferramenta para recuperar Pix enviado por engano e ajustes no Pix Automático.",
+ "turno": "tarde"
+}
