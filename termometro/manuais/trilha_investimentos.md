@@ -34,13 +34,13 @@ fonte e pedido de voto. Continua valendo: sem recomendação de investimento e s
 - [x] Reserva de emergência: o que é, quanto guardar e onde ela precisa ficar
 - [x] Dívida cara x investimento: por que quitar o rotativo rende mais que qualquer aplicação
 - [x] Liquidez: a diferença entre "tenho dinheiro" e "consigo sacar hoje"
-- [ ] Os 3 objetivos (curto, médio e longo prazo) e por que cada um pede um lugar diferente
+- [x] Os 3 objetivos (curto, médio e longo prazo) e por que cada um pede um lugar diferente
 ### 2. Renda fixa sem medo
 - [x] O que é a Selic e por que ela mexe em tudo que você aplica
 - [x] CDI: o "primo" da Selic que aparece no seu CDB
 - [x] CDB de 100% do CDI: o que esse número quer dizer de verdade
 - [x] Poupança: quanto rende e quando ela perde da inflação
-- [ ] Tesouro Selic: para que serve e para que não serve
+- [x] Tesouro Selic: para que serve e para que não serve
 - [ ] Tesouro prefixado: travar a taxa e o susto de vender antes da hora
 - [ ] Tesouro IPCA+: proteger da inflação e a tal marcação a mercado
 - [ ] LCI e LCA: por que são isentas e a pegadinha da carência
