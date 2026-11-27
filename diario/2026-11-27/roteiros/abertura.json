@@ -1,0 +1,211 @@
+{
+ "gancho": {
+  "formula": "Número + porquê, com espanto",
+  "texto": "Cara, olha o dólar: R$ 5,52! Caiu 2,32% e isso mexe no seu bolso.",
+  "na_tela": "Dólar a R$ 5,52",
+  "nota": {
+   "especifico": 2,
+   "tensao": 1,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Número + porquê, com espanto",
+   "texto": "Cara, olha o dólar: R$ 5,52! Caiu 2,32% e isso mexe no seu bolso.",
+   "na_tela": "Dólar a R$ 5,52",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Quem vai viajar pra fora acordou com o dólar 2,32% mais barato.",
+   "na_tela": "Dólar 2,32% mais barato",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Ontem a bolsa subiu forte. Hoje ficou parada, e o dólar caiu 2,32%.",
+   "na_tela": "Bolsa parada, dólar em queda",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 0,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Cara, olha o dólar: R$ 5,52! Caiu 2,32% e isso mexe no seu bolso.",
+  "Lá fora, Ásia, Europa e Nova York amanheceram em alta.",
+  "Dólar em queda é etiqueta que baixou pra quem compra lá de fora.",
+  "Viagem, site de fora, assinatura de aplicativo: tudo passa por esse dólar.",
+  "Você viaja este ano? Comenta SIM ou NÃO.",
+  "Mas olha o contraste: ontem a bolsa subiu forte, hoje ficou no mesmo lugar.",
+  "Vai pagar em dólar? Olha a cotação de novo e confere o valor final.",
+  "Tem alguém viajando aí? Manda pra ele, sério.",
+  "Alívio ou susto? Comenta aí.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Cara, olha o dólar: R$ 5,52! Caiu 2,32% e isso mexe no seu bolso. Lá fora, Ásia, Europa e Nova York amanheceram em alta. Dólar em queda é etiqueta que baixou pra quem compra lá de fora. Viagem, site de fora, assinatura de aplicativo: tudo passa por esse dólar. Você viaja este ano? Comenta SIM ou NÃO. Mas olha o contraste: ontem a bolsa subiu forte, hoje ficou no mesmo lugar. Vai pagar em dólar? Olha a cotação de novo e confere o valor final. Tem alguém viajando aí? Manda pra ele, sério. Alívio ou susto? Comenta aí. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 105,
+ "segundos": 42,
+ "na_tela": [
+  {
+   "texto": "Dólar a R$ 5,52",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Nikkei ▲2,11% · Hang Seng ▲3,32% · Xangai ▲3,74%",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 2,
+   "texto": "Dólar R$ 5,52 (▼2,32%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 3,
+   "texto": "Viagem · site de fora · aplicativo",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 4,
+   "texto": "Você viaja este ano? SIM ou NÃO",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 5,
+   "texto": "Ibovespa 176.901 pontos (▲0,06%)",
+   "fonte": "Yahoo Finance"
+  },
+  {
+   "fala": 6,
+   "texto": "Confere o valor final antes de pagar",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Brasil 74 · Mundo 64 (Tensão)",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Manda pra quem vai viajar",
+   "fonte": "Termômetro de Crise"
+  }
+ ],
+ "retomada": 5,
+ "busca": "dólar hoje",
+ "legenda": "Dólar hoje: caiu 2,32% e abriu a R$ 5,52, segundo o Yahoo Finance.\n\nLá fora, Ásia, Europa e Nova York amanheceram em alta. Aqui, o Ibovespa abriu às 10h07 em 176.901 pontos (▲0,06%), quase no mesmo lugar, depois de subir 6,07% ontem.\n\nDólar mais barato é como etiqueta que baixou na prateleira de quem compra lá de fora: viagem, site estrangeiro, assinatura de aplicativo. Se for pagar em dólar, olha a cotação de novo e confere o valor final.\n\nNo último fechamento (26/11), o termômetro marcava Brasil em 74 e Mundo em 64, os dois em Tensão.\n\nManda pra quem vai viajar. Conteúdo educativo, não é recomendação de investimento.\n\nEu sou o Heitor, do Termômetro de Crise. Sem alarde. Eu sou só o termômetro!\n\n#dolarhoje #ibovespa #mercadofinanceiro #educacaofinanceira #termometrodecrise",
+ "hashtags": [
+  "#dolarhoje",
+  "#ibovespa",
+  "#mercadofinanceiro",
+  "#educacaofinanceira",
+  "#termometrodecrise"
+ ],
+ "rua": {
+  "gancho": "Cara, olha o dólar: R$ 5,52! Caiu 2,32% hoje.",
+  "topicos": [
+   "Segundo o Yahoo Finance, o dólar abriu a R$ 5,52, queda de 2,32%.",
+   "Lá fora, Ásia, Europa e Nova York amanheceram em alta.",
+   "Ontem a bolsa subiu forte; hoje abriu no mesmo lugar, em 176.901 pontos.",
+   "Vai pagar em dólar? Olha a cotação de novo e confere o valor final."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É a abertura do dia, uma explicação com vários cenários e números, que pede calma e os cartões na tela.",
+ "tipo": "abertura",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 6,
+  "notas": {
+   "persona": 1,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 1,
+   "voz": 1
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Fala \"Lá fora, Ásia, Europa e Nova York amanheceram em alta\" e \"Mas olha o contraste: ontem a bolsa subiu forte, hoje ficou no mesmo lugar\": a primeira não ajuda o bolso e a segunda joga outra ideia no meio da explicação do dólar. Corte as duas ou deixe só uma, ligada ao dólar (ex.: \"lá fora o clima tá bom, e isso ajuda o dólar a cair\", só se a fonte disser isso). Assim cada fala tem uma ideia só e passa no Teste do CLT.",
+   "Fala \"Cara, olha o dólar: R$ 5,52! Caiu 2,32% e isso mexe no seu bolso.\": tem dois números na mesma fala. Deixe só o preço na fala, repetido no estilo do Heitor (\"Cinco e cinquenta e dois!\"), e ponha o 2,32% no cartão da tela. Se quiser a queda na fala, diga \"caiu mais de 2%\" em outra frase.",
+   "Fala \"Você viaja este ano? Comenta SIM ou NÃO\" no meio e \"Alívio ou susto? Comenta aí\" no fim: são três pedidos de ação (comentar, comentar, marcar alguém), e o último não é fácil de responder. Fique com um gatilho no meio (SIM ou NÃO) e feche com um só pedido claro, como \"Marca aquele amigo que vai viajar\", sem \"alívio ou susto\". Falta também fechar o passo prático com calma e dizer \"segundo o mercado\" ou \"segundo o Yahoo Finance\" só no cartão, não na fala."
+  ],
+  "veredito": "A peça fala do bolso (viagem, site de fora, assinatura) e a comparação da etiqueta que baixou é boa, mas ela carrega ideias demais, com dois números na abertura, o desvio para a bolsa e três pedidos de comentário, e isso tira a clareza e o passo simples que o público CLT precisa."
+ },
+ "viral": {
+  "nota": 7,
+  "notas": {
+   "gancho": 1,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": false,
+  "sugestoes": [
+   "Gancho: \"Cara, olha o dólar: R$ 5,52! Caiu 2,32% e isso mexe no seu bolso.\" tem dois números e um \"mexe no seu bolso\" vago. Reescrita: \"Cara, o dólar caiu 2,32% hoje de manhã. Quem compra lá de fora sente isso no bolso.\" O R$ 5,52 fica na tela.",
+   "Virada: \"Mas olha o contraste: ontem a bolsa subiu forte, hoje ficou no mesmo lugar.\" não traz número e foge do bolso. Reescrita: \"Mas tem um detalhe: ontem a bolsa subiu 6%. Hoje abriu quase parada.\" Isso entrega o contraste com número e vira o \"o que observar hoje\".",
+   "Fim: depois do \"Vai pagar em dólar?\" ficam três pedidos seguidos, e o corpo todo é só o dólar. Reescrita: \"Vai pagar em dólar? Olha a cotação de novo. Tem alguém viajando aí? Manda pra ele, sério. Alívio ou susto? Comenta aí.\" Tire o \"Você viaja este ano? SIM ou NÃO\" do meio, que quebra a explicação, ou troque por uma pergunta só."
+  ],
+  "veredito": "Roteiro claro, com gatilhos de comentário bons e um pedido de envio concreto (viagem), mas o gancho junta dois números numa frase só e a virada do meio não tem número nem liga com o bolso, então falta força para parar o dedo e segurar até o fim."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Aerial shot of a modern financial district skyline at sunrise, glass towers catching golden light, slow upward crane movement with soft morning haze. No people, no text, no logos, no signs",
+   "texto_da_fala": "Lá fora, Ásia, Europa e Nova York amanheceram em alta.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Aerial shot of a modern financial district skyline at sunrise, glass towers catching golden light, slow upward crane movement with soft morning haze. No people, no text, no logos, no signs. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 2,
+   "visual": "Close-up of blank paper price tags hanging from products on a shop shelf, a hand-free slow dolly shot along the row while one tag gently swings as if just lowered. Warm retail lighting, shallow depth of field. No text, no numbers, no logos, no faces",
+   "texto_da_fala": "Dólar em queda é etiqueta que baixou pra quem compra lá de fora.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of blank paper price tags hanging from products on a shop shelf, a hand-free slow dolly shot along the row while one tag gently swings as if just lowered. Warm retail lighting, shallow depth of field. No text, no numbers, no logos, no faces. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 3,
+   "visual": "Top-down slow push-in on a wooden desk with a passport, a boarding pass with no readable print, a laptop showing an abstract blurred online shopping page, and a smartphone with colorful generic app icons. Soft daylight. No text, no letters, no numbers, no logos, no people",
+   "texto_da_fala": "Viagem, site de fora, assinatura de aplicativo: tudo passa por esse dólar.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Top-down slow push-in on a wooden desk with a passport, a boarding pass with no readable print, a laptop showing an abstract blurred online shopping page, and a smartphone with colorful generic app icons. Soft daylight. No text, no letters, no numbers, no logos, no people. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Cara, olha o dólar: R$ 5,52! Caiu 2,32% e isso mexe no seu bolso.\n\nLá fora, Ásia, Europa e Nova York amanheceram em alta.\n\nDólar em queda é etiqueta que baixou pra quem compra lá de fora.\n\nViagem, site de fora, assinatura de aplicativo: tudo passa por esse dólar.\n\nVocê viaja este ano? Comenta SIM ou NÃO.\n\nMas olha o contraste: ontem a bolsa subiu forte, hoje ficou no mesmo lugar.\n\nVai pagar em dólar? Olha a cotação de novo e confere o valor final.\n\nTem alguém viajando aí? Manda pra ele, sério.\n\nAlívio ou susto? Comenta aí.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/%5EBVSP/",
+   "destaque": "gráfico do Ibovespa no mês"
+  },
+  {
+   "veiculo": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/BRL%3DX/",
+   "destaque": "gráfico do dólar no mês"
+  }
+ ],
+ "data": "2026-11-27",
+ "gerado_em": "2026-11-27T10:27:24.268174-03:00",
+ "enviado_whatsapp": "2026-11-27T10:27:46.657239-03:00"
+}
