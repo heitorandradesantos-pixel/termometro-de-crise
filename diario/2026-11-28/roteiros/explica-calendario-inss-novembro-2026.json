@@ -1,0 +1,194 @@
+{
+ "gancho": {
+  "formula": "Pergunta que todo mundo faz",
+  "texto": "Seu INSS não caiu hoje? Não é atraso, é o seu final.",
+  "na_tela": "Não caiu? Não é atraso",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Cena no meio",
+   "texto": "Hoje é sábado e o INSS não deposita. Sua data é outra.",
+   "na_tela": "Sábado: INSS não deposita",
+   "nota": {
+    "especifico": 2,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Pergunta que todo mundo faz",
+   "texto": "Seu INSS não caiu hoje? Não é atraso, é o seu final.",
+   "na_tela": "Não caiu? Não é atraso",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Antes e depois",
+   "texto": "Final 4 recebeu sexta. Final 5, segunda. E o seu?",
+   "na_tela": "Final 4 sexta. Final 5 segunda.",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 1,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  }
+ ],
+ "linhas": [
+  "Seu INSS não caiu hoje? Não é atraso, é o seu final.",
+  "Na sexta, pagou o final 4, de quem ganha até um salário mínimo.",
+  "A próxima é segunda, dia 30, para o final 5.",
+  "Quem ganha mais de R$ 1.621 só começa em 1º de dezembro.",
+  "Receber em dezembro não é atraso: a folha é de novembro.",
+  "Olha o detalhe: vale o número antes do traço.",
+  "É como senha na fila do banco: cada final tem seu dia.",
+  "Confere no Meu INSS, em Extrato de Pagamento.",
+  "Manda para quem espera o INSS.",
+  "Já esperou o INSS achando que era atraso? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Seu INSS não caiu hoje? Não é atraso, é o seu final. Na sexta, pagou o final 4, de quem ganha até um salário mínimo. A próxima é segunda, dia 30, para o final 5. Quem ganha mais de R$ 1.621 só começa em 1º de dezembro. Receber em dezembro não é atraso: a folha é de novembro. Olha o detalhe: vale o número antes do traço. É como senha na fila do banco: cada final tem seu dia. Confere no Meu INSS, em Extrato de Pagamento. Manda para quem espera o INSS. Já esperou o INSS achando que era atraso? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 112,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Não caiu? Não é atraso",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "Final 4: sexta, 27/11",
+   "fonte": "Terra"
+  },
+  {
+   "fala": 2,
+   "texto": "Final 5: segunda, 30/11",
+   "fonte": "Terra"
+  },
+  {
+   "fala": 3,
+   "texto": "Acima de R$ 1.621: 1º/12",
+   "fonte": "INSS (gov.br)"
+  },
+  {
+   "fala": 5,
+   "texto": "Vale o número ANTES do traço",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Meu INSS > Extrato de Pagamento",
+   "fonte": "INSS (gov.br)"
+  }
+ ],
+ "retomada": 5,
+ "busca": "calendário INSS novembro 2026: quem recebe hoje",
+ "legenda": "Calendário INSS novembro 2026: quem recebe hoje? Neste sábado (28/11) não há depósito.\n\nSegundo o INSS, na sexta (27/11) receberam os segurados de até um salário mínimo com final 4. A próxima data é segunda (30/11), para o final 5. Quem ganha mais de R$ 1.621 começa a receber em 1º de dezembro, e os depósitos vão até 7 de dezembro.\n\nReceber em dezembro não é atraso: a folha é de novembro e o INSS escalona os pagamentos por faixa de valor e por final do benefício. O final que vale é o número antes do traço.\n\nPara conferir sua data, use o site ou aplicativo Meu INSS, no serviço Extrato de Pagamento. Manda este vídeo para quem espera o benefício.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#inss #calendarioinss #aposentadoria #educacaofinanceira",
+ "hashtags": [
+  "#inss",
+  "#calendarioinss",
+  "#aposentadoria",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Hoje é sábado e o INSS não paga. Veja sua data.",
+  "topicos": [
+   "Segundo o INSS: sexta, final 4. Segunda, dia 30, final 5.",
+   "Acima de R$ 1.621, só a partir de 1º de dezembro, segundo o INSS.",
+   "Dezembro não é atraso: a folha é de novembro, escalonada por final.",
+   "Confere no Meu INSS, em Extrato de Pagamento; vale o número antes do traço."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "São várias datas e regras de final de benefício, que pedem explicação com calma e prova na tela.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 1,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Quem ganha mais de R$ 1.621 só começa em 1º de dezembro\": o número exato e a data estão na mesma fala, e \"R$ 1.621\" não é redondo. Reescreva trocando por \"quem ganha mais que um salário mínimo só começa em dezembro\" e deixe o R$ 1.621 e o 1º de dezembro no cartão da tela, mantendo uma ideia e no máximo um número por fala.",
+   "Gancho \"Seu INSS não caiu hoje? Não é atraso, é o seu final.\" e a virada \"Olha o detalhe\": soam como teleprompter, sem a reação de amigo do Heitor. Reescreva o gancho como espanto (\"Cara, seu INSS não caiu hoje? Calma, não é atraso.\") e troque \"Olha o detalhe\" por \"E aí vem a parte que pouca gente viu: vale o número antes do traço.\". Não mude nenhum fato.",
+   "Falta o lado sanguíneo e fleumático mais vivo: \"É como senha na fila do banco\" é boa, mas o fim é só uma instrução seca. Antes de \"Confere no Meu INSS, em Extrato de Pagamento\", acrescente uma frase calma de acolhimento, como \"Respira, seu dinheiro não sumiu, só tem o dia certo.\". Para o nome do app na fala, mantenha só \"no aplicativo do INSS\" e deixe \"Meu INSS > Extrato de Pagamento\" no cartão da tela."
+  ],
+  "veredito": "A peça fala direto com quem espera o INSS, tira o medo de \\\"atraso\\\" com uma comparação do dia a dia e dá a saída (conferir no app), mas falta soltar a voz do Heitor, com mais espanto e calma acolhedora, e tirar o número exato e o nome do serviço da fala."
+ },
+ "viral": {
+  "nota": 8,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 1,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Quem ganha mais de R$ 1.621 só começa em 1º de dezembro.\": o número exato pesa na fala e repete o grupo do \"até um salário mínimo\". Reescrita: \"Quem ganha acima do mínimo só começa em 1º de dezembro.\" O R$ 1.621 fica no cartão da tela.",
+   "Frase \"Olha o detalhe: vale o número antes do traço.\": é a informação que o espectador precisa para achar a própria data, mas só vem no fim. Suba para logo depois do gancho: \"Na sexta, pagou o final 4. E o final é o número antes do traço do seu benefício.\" Depois entram a segunda, dia 30, e dezembro. Troque \"a folha é de novembro\" por \"o pagamento é referente a novembro, só cai mais tarde\".",
+   "Frase \"Manda para quem espera o INSS.\": a situação ainda é genérica. Reescrita: \"Manda pra quem recebe INSS e acha que atrasou: seu pai, sua mãe, seu vizinho aposentado.\" Se quiser, tire também a comparação com a senha na fila do banco, que não acrescenta nada."
+  ],
+  "veredito": "Gancho forte e pago rápido, com fim que puxa SIM/NÃO; falta enxugar os números da fala, subir o \\\"número antes do traço\\\" para o começo e fechar o pedido de envio numa situação concreta para chegar a 8 ou mais."
+ },
+ "apoios": [
+  {
+   "fala": 1,
+   "visual": "Close-up of an elderly person's weathered hands taking a few banknotes from the cash slot of a bank ATM in a bright street-level lobby. Face out of frame, no readable screen, no text or logos on the machine. Slow dolly-in from the hands toward the cash slot, soft natural light, shallow depth of field",
+   "texto_da_fala": "Na sexta, pagou o final 4, de quem ganha até um salário mínimo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of an elderly person's weathered hands taking a few banknotes from the cash slot of a bank ATM in a bright street-level lobby. Face out of frame, no readable screen, no text or logos on the machine. Slow dolly-in from the hands toward the cash slot, soft natural light, shallow depth of field. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 6,
+   "visual": "Inside a busy bank branch, a hand pulls a blank paper queue ticket from a ticket dispenser, with a row of people waiting seated and blurred in the background, no faces in focus. The ticket has no printed numbers or text. Slow tilt up from the hand to the blurred waiting area, warm indoor lighting, realistic documentary style",
+   "texto_da_fala": "É como senha na fila do banco: cada final tem seu dia.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Inside a busy bank branch, a hand pulls a blank paper queue ticket from a ticket dispenser, with a row of people waiting seated and blurred in the background, no faces in focus. The ticket has no printed numbers or text. Slow tilt up from the hand to the blurred waiting area, warm indoor lighting, realistic documentary style. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Seu INSS não caiu hoje? Não é atraso, é o seu final.\n\nNa sexta, pagou o final 4, de quem ganha até um salário mínimo.\n\nA próxima é segunda, dia 30, para o final 5.\n\nQuem ganha mais de R$ 1.621 só começa em 1º de dezembro.\n\nReceber em dezembro não é atraso: a folha é de novembro.\n\nOlha o detalhe: vale o número antes do traço.\n\nÉ como senha na fila do banco: cada final tem seu dia.\n\nConfere no Meu INSS, em Extrato de Pagamento.\n\nManda para quem espera o INSS.\n\nJá esperou o INSS achando que era atraso? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "INSS (gov.br)",
+   "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/comeca-nesta-terca-24-o-pagamento-do-13o-salario-e-de-beneficios-e-auxilios-referentes-ao-mes-de-novembro",
+   "destaque": "O próprio INSS informou que os pagamentos de até um salário mínimo começaram em 24 de novembro e terminam em 7 de dezembro."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inss-comeca-pagar-decimo-terceiro-salario-nesta-terca-feira-24",
+   "destaque": "Para quem ganha mais de um salário mínimo, os depósitos começam em 1º de dezembro, para os finais 1 e 6, e seguem até 7 de dezembro, para…"
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/inss-veja-calendario-para-os-pagamentos-de-novembro/",
+   "destaque": "Acima do mínimo, cada data atende dois finais: 1º/12 (finais 1 e 6), 2/12 (2 e 7), 3/12 (3 e 8), 4/12 (4 e 9) e 7/12 (5 e 0)."
+  }
+ ],
+ "data": "2026-11-28",
+ "gerado_em": "2026-11-28T13:17:27.680417-03:00"
+}
