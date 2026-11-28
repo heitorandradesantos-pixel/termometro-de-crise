@@ -1,0 +1,196 @@
+{
+ "gancho": {
+  "formula": "Pergunta de bolso",
+  "texto": "Recebeu \"pagamento pendente\" da Netflix? São 30 endereços suspeitos imitando ela.",
+  "na_tela": "Netflix: 30 endereços suspeitos",
+  "nota": {
+   "especifico": 2,
+   "tensao": 2,
+   "espectador": 2,
+   "rapido": 2,
+   "verdadeiro": 2
+  }
+ },
+ "ganchos": [
+  {
+   "formula": "Pergunta de bolso",
+   "texto": "Recebeu \"pagamento pendente\" da Netflix? São 30 endereços suspeitos imitando ela.",
+   "na_tela": "Netflix: 30 endereços suspeitos",
+   "nota": {
+    "especifico": 2,
+    "tensao": 2,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Custo escondido",
+   "texto": "Se você paga loja falsa no Pix, não tem a proteção do cartão.",
+   "na_tela": "Pix não tem proteção de cartão",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 2
+   }
+  },
+  {
+   "formula": "Não foi o que você pensa",
+   "texto": "O aviso da Netflix com link pode ser golpe, e o endereço entrega.",
+   "na_tela": "Aviso com link? Desconfie",
+   "nota": {
+    "especifico": 1,
+    "tensao": 1,
+    "espectador": 2,
+    "rapido": 2,
+    "verdadeiro": 1
+   }
+  }
+ ],
+ "linhas": [
+  "Recebeu \"pagamento pendente\" da Netflix? São 30 endereços suspeitos imitando ela.",
+  "Uma empresa de segurança achou 211 endereços suspeitos de marcas famosas.",
+  "Calma: são sites suspeitos, não é número de gente enganada.",
+  "Aviso de pagamento pendente com link não prova problema nenhum.",
+  "Entre pelo app ou digite o site você mesmo.",
+  "Mas olha o detalhe: Pix não tem a proteção do cartão de crédito.",
+  "Antes de confirmar o Pix, olha o nome de quem recebe.",
+  "Caiu no golpe? Conteste o Pix no app do banco logo.",
+  "Manda pra quem assina Netflix ou vai comprar na Black Friday.",
+  "Já recebeu aviso falso desses? Comenta SIM ou NÃO.",
+  "Sem alarde. Eu sou só o termômetro!"
+ ],
+ "texto_falado": "Recebeu \"pagamento pendente\" da Netflix? São 30 endereços suspeitos imitando ela. Uma empresa de segurança achou 211 endereços suspeitos de marcas famosas. Calma: são sites suspeitos, não é número de gente enganada. Aviso de pagamento pendente com link não prova problema nenhum. Entre pelo app ou digite o site você mesmo. Mas olha o detalhe: Pix não tem a proteção do cartão de crédito. Antes de confirmar o Pix, olha o nome de quem recebe. Caiu no golpe? Conteste o Pix no app do banco logo. Manda pra quem assina Netflix ou vai comprar na Black Friday. Já recebeu aviso falso desses? Comenta SIM ou NÃO. Sem alarde. Eu sou só o termômetro!",
+ "palavras": 113,
+ "segundos": 45,
+ "na_tela": [
+  {
+   "texto": "Netflix: 30 endereços suspeitos",
+   "fala": 0
+  },
+  {
+   "fala": 1,
+   "texto": "211 endereços suspeitos (Redbelt Security). Netflix lidera: 30",
+   "fonte": "CNN Brasil"
+  },
+  {
+   "fala": 2,
+   "texto": "Estudo mede sites suspeitos, não vítimas",
+   "fonte": "CNN Brasil"
+  },
+  {
+   "fala": 3,
+   "texto": "signin · update · payment · billing",
+   "fonte": "JM Online"
+  },
+  {
+   "fala": 5,
+   "texto": "Pix: sem a proteção do cartão",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 6,
+   "texto": "Veja o nome do recebedor",
+   "fonte": "Termômetro de Crise"
+  },
+  {
+   "fala": 7,
+   "texto": "Contestar o Pix (MED): até 80 dias",
+   "fonte": "Banco Central"
+  }
+ ],
+ "retomada": 5,
+ "busca": "golpe Black Friday: como saber se o site é falso",
+ "legenda": "Golpe na Black Friday: como saber se o site é falso.\n\nA Redbelt Security achou 211 endereços potencialmente maliciosos com nomes de marcas como Netflix, Shopee e Shein, entre 10 e 19 de novembro. A Netflix lidera, com 30 (CNN Brasil). O estudo mede sites suspeitos, não vítimas.\n\nPara se proteger: digite o site oficial você mesmo, desconfie de preço muito baixo, veja o nome de quem recebe o Pix e não entre por link de \"pagamento pendente\". Se pagou a um golpista, conteste o Pix no app do banco (MED, do Banco Central), em até 80 dias. A devolução não é garantida.\n\nJá recebeu um aviso falso desses? Comenta SIM ou NÃO.\n\nConteúdo educativo, não é recomendação de investimento.\n\n#blackfriday #golpe #pix #educacaofinanceira",
+ "hashtags": [
+  "#blackfriday",
+  "#golpe",
+  "#pix",
+  "#educacaofinanceira"
+ ],
+ "rua": {
+  "gancho": "Black Friday: 30 endereços suspeitos imitam a Netflix. Olha o que fazer.",
+  "topicos": [
+   "Uma empresa de segurança, a Redbelt: 211 endereços suspeitos; Netflix lidera, com 30.",
+   "É site suspeito, não é número de vítimas: o estudo não conta quem caiu.",
+   "Pix pra loja falsa não tem a proteção do cartão de crédito.",
+   "Digite o site você mesmo. Se caiu, conteste o Pix no app."
+  ]
+ },
+ "formato": "bancada",
+ "por_que_formato": "É explicação com passos práticos de proteção, que pede calma e contexto mais do que urgência de rua.",
+ "tipo": "explica",
+ "persona": "Heitor",
+ "aprovado": true,
+ "problemas": [],
+ "tentativas": 3,
+ "marca": {
+  "nota": 8,
+  "notas": {
+   "persona": 2,
+   "arquetipo": 2,
+   "temperamentos": 1,
+   "gatilhos": 2,
+   "voz": 1
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Frase \"Uma empresa de segurança achou 211 endereços suspeitos de marcas famosas\": tem dois números em sequência com o 30 do gancho, e \"endereços suspeitos\" soa vago. Reescreva com um número só, por exemplo \"Uma empresa de segurança achou uns 200 sites falsos de lojas famosas. Só da Netflix, 30.\" O 211 exato fica no cartão da tela, com a fonte (CNN Brasil) na legenda.",
+   "Frase \"Mas olha o detalhe: Pix não tem a proteção do cartão de crédito\": o roteiro tem pouca comparação viva e nenhum porquê, então o sanguíneo e o melancólico ficam fracos. Traduza com uma imagem do dia a dia, como \"no cartão, se cair em golpe, você briga com a operadora. No Pix, o dinheiro já saiu da sua mão\". Sem inventar fato novo. Use também \"Cara, olha que loucura\" ou outro gancho falado no lugar da manchete lida.",
+   "Frase \"Caiu no golpe? Conteste o Pix no app do banco logo\": a saída é boa, mas falta dizer que a devolução não é garantida, o que a legenda já diz. Acrescente na fala \"e a devolução não é garantida, tá?\" para manter a calma e a honestidade. Se couber, tire o \"logo\", que soa como urgência, e troque por \"o quanto antes\" ou pelo prazo já citado na legenda."
+  ],
+  "veredito": "A peça fala do bolso, dá a saída (digitar o site, olhar o nome de quem recebe, contestar o Pix), esclarece que são sites suspeitos e não vítimas, e fecha com o bordão e com SIM ou NÃO. Falta soltar a voz do Heitor (gancho de espanto, comparação viva) e deixar cada fala com um número só, para passar de primeira no Teste do CLT."
+ },
+ "viral": {
+  "nota": 9,
+  "notas": {
+   "gancho": 2,
+   "pagamento": 2,
+   "retencao": 1,
+   "envio": 2,
+   "conversa": 2
+  },
+  "aprovado": true,
+  "sugestoes": [
+   "Retenção: a virada \"Mas olha o detalhe: Pix não tem a proteção do cartão de crédito\" chega tarde e vem depois de três frases de calma (\"Calma...\", \"Aviso... não prova problema nenhum\", \"Entre pelo app...\"). Quem ia sair pode sair antes. Junte as duas frases de calma e deixe o Pix como virada no meio. Reescrita: \"Calma: são sites suspeitos, não é número de gente enganada. E um aviso de pagamento pendente com link não prova nada. Entre pelo app ou digite o site você mesmo. E aí vem a parte que pouca gente viu: Pix não tem a proteção do cartão de crédito.\"",
+   "Teste do CLT: \"Uma empresa de segurança achou 211 endereços suspeitos de marcas famosas\" traz um número a mais logo depois do gancho (30 e 211 em duas falas seguidas). Isso pesa para quem ouve uma vez só. Reescrita, mantendo os fatos: \"Ao todo, a empresa achou 211 sites suspeitos imitando marcas famosas. A Netflix lidera.\" Os números exatos ficam no cartão da tela.",
+   "Voz do Heitor: o texto está de teleprompter. Dê um tom de conversa e uma reação ao fato, sem mudar os fatos. Em \"Antes de confirmar o Pix, olha o nome de quem recebe\", use: \"Antes de confirmar o Pix, olha o nome de quem vai receber. Sério, é um segundo.\" E em \"Manda pra quem assina Netflix...\", use: \"Tem alguém aí que assina Netflix ou vai comprar na Black Friday? Manda pra essa pessoa, sério.\""
+  ],
+  "veredito": "Gancho específico com a Netflix e o número 30, pago de cara, com envio para situações concretas e comentário SIM/NÃO fácil; falta só enxugar a calma do meio e antecipar a virada do Pix para segurar mais gente."
+ },
+ "apoios": [
+  {
+   "fala": 3,
+   "visual": "Close-up over-the-shoulder of a smartphone lying on a dark desk, its screen showing a generic blurred notification card with an abstract red warning icon and a blue button shape, no readable text. Slow push-in toward the screen while soft light flickers, a thumb hovers near the screen without touching it, no face visible",
+   "texto_da_fala": "Aviso de pagamento pendente com link não prova problema nenhum.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up over-the-shoulder of a smartphone lying on a dark desk, its screen showing a generic blurred notification card with an abstract red warning icon and a blue button shape, no readable text. Slow push-in toward the screen while soft light flickers, a thumb hovers near the screen without touching it, no face visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fally": 5,
+   "fala": 5,
+   "visual": "Split-feel macro shot on a wooden table: a plastic credit card with no markings rests on one side, shielded by a translucent glowing blue shield. On the other side, an unprotected smartphone shows an abstract diamond-shaped payment symbol, with no letters or numbers. Slow lateral dolly from the card to the phone, shallow depth of field, cinematic lighting",
+   "texto_da_fala": "Mas olha o detalhe: Pix não tem a proteção do cartão de crédito.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Split-feel macro shot on a wooden table: a plastic credit card with no markings rests on one side, shielded by a translucent glowing blue shield. On the other side, an unprotected smartphone shows an abstract diamond-shaped payment symbol, with no letters or numbers. Slow lateral dolly from the card to the phone, shallow depth of field, cinematic lighting. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  },
+  {
+   "fala": 7,
+   "visual": "Close-up of a hand holding a smartphone in a softly lit living room, the screen showing a generic abstract banking app interface with a large green check shape and a circular undo arrow, no text or numbers. The camera slowly orbits around the phone while a finger taps the screen. Face not visible",
+   "texto_da_fala": "Caiu no golpe? Conteste o Pix no app do banco logo.",
+   "prompt_flow": "Vertical 9:16 video, cinematic, shallow depth of field, 6 seconds. Close-up of a hand holding a smartphone in a softly lit living room, the screen showing a generic abstract banking app interface with a large green check shape and a circular undo arrow, no text or numbers. The camera slowly orbits around the phone while a finger taps the screen. Face not visible. Slow, smooth camera movement. No people in focus, no faces, no on-screen text, no subtitles, no captions, no logos. No dialogue: soft ambient sound only."
+  }
+ ],
+ "apoios_ok": true,
+ "apoios_problemas": [],
+ "teleprompter": "Recebeu \"pagamento pendente\" da Netflix? São 30 endereços suspeitos imitando ela.\n\nUma empresa de segurança achou 211 endereços suspeitos de marcas famosas.\n\nCalma: são sites suspeitos, não é número de gente enganada.\n\nAviso de pagamento pendente com link não prova problema nenhum.\n\nEntre pelo app ou digite o site você mesmo.\n\nMas olha o detalhe: Pix não tem a proteção do cartão de crédito.\n\nAntes de confirmar o Pix, olha o nome de quem recebe.\n\nCaiu no golpe? Conteste o Pix no app do banco logo.\n\nManda pra quem assina Netflix ou vai comprar na Black Friday.\n\nJá recebeu aviso falso desses? Comenta SIM ou NÃO.\n\nSem alarde. Eu sou só o termômetro!",
+ "prints": [
+  {
+   "veiculo": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/golpe-na-black-friday-estudo-aponta-sites-imitando-netflix-shein-e-shopee/",
+   "destaque": "A Redbelt Security identificou 211 endereços potencialmente maliciosos ligados a empresas de varejo, tecnologia e serviços, incluindo…"
+  }
+ ],
+ "data": "2026-11-28",
+ "gerado_em": "2026-11-28T16:18:59.373216-03:00"
+}
