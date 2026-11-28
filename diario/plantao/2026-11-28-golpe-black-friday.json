@@ -1,0 +1,121 @@
+{
+ "titulo": "Golpe na Black Friday: como saber se o site é falso",
+ "descricao": "Estudo da Redbelt achou 211 endereços suspeitos imitando Netflix, Shopee, Shein e bancos. Veja como checar o site e usar o MED se pagar no Pix.",
+ "palavra_chave": "golpe black friday",
+ "lead": "Um levantamento da empresa de segurança Redbelt Security achou 211 endereços de internet potencialmente maliciosos, com nomes de marcas como Netflix, Shopee e Shein, entre 10 e 19 de novembro. A divulgação saiu em 27/11, dia da Black Friday, e o estudo mede sites suspeitos, não vítimas. Para não cair em loja falsa, confira o endereço, desconfie de preço muito baixo e saiba que, se pagar no Pix a um golpista, dá para contestar pelo app do banco.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Redbelt Security identificou 211 endereços potencialmente maliciosos ligados a empresas de varejo, tecnologia e serviços, incluindo Netflix, Shopee e Shein. A consultoria mapeou 7.193 endereços únicos entre 10 e 19 de novembro de 2026.",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/golpe-na-black-friday-estudo-aponta-sites-imitando-netflix-shein-e-shopee/",
+   "data": "2026-11-27",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "A Netflix lidera, com 30 endereços suspeitos, quase quatro vezes mais que a Shopee, com 8. Netflix, Shopee, Shein e grandes bancos concentram 65% dos 79 endereços com o nome de uma marca isolado no endereço (51 domínios).",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/golpe-na-black-friday-estudo-aponta-sites-imitando-netflix-shein-e-shopee/",
+   "data": "2026-11-27",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Os endereços ligados à Netflix simulam avisos de pagamento pendente e usam palavras como \"signin\", \"update\", \"payment\" e \"billing\" para levar o usuário a informar dados.",
+   "fonte_url": "https://www.jmonline.com.br/geral/sites-falsos-que-imitam-netflix-shein-e-shopee-acendem-alerta-na-black-friday-1.688478",
+   "data": "2026-11-27",
+   "veiculo": "JM Online",
+   "confiavel": false
+  },
+  {
+   "texto": "O ritmo de criação desses endereços subiu de uma média de 11 por mês (nov/2025 a jun/2026) para 38 por mês (jul a out). Nos últimos 90 dias mapeados, foram 159 novos endereços, segundo a Redbelt. Cerca de 58% das páginas verificadas saíram do ar antes de qualquer intervenção.",
+   "fonte_url": "https://www.em.com.br/economia/2026/11/7545495-black-friday-saiba-como-identificar-sites-falsos-e-nao-cair-em-golpes.html",
+   "data": "2026-11-27",
+   "veiculo": "Estado de Minas",
+   "confiavel": false
+  },
+  {
+   "texto": "Procons e órgãos do governo alertam para anúncios com rosto e voz de famosos feitos por inteligência artificial (os deepfakes). O Procon da Assembleia de Minas e o Procon-MPMG citam esses anúncios, sites clonados e cobrança via Pix.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/26/procon-alerta-que-ia-torna-golpes-da-black-friday-mais-convincentes/",
+   "data": "2026-11-26",
+   "veiculo": "Mix Vale",
+   "confiavel": false
+  },
+  {
+   "texto": "A Senacon, ligada ao Ministério da Justiça, recomenda desconfiar de preços muito abaixo do mercado e de descontos acima de 50%. A cartilha do ministério pede conferir se o endereço é o do site oficial da empresa e pesquisar avaliações em mais de uma fonte.",
+   "fonte_url": "https://www.primeirapaginasc.com/quase-70-dos-consumidores-ja-se-sentiram-enganados-na-black-friday/",
+   "data": "2026-11-27",
+   "veiculo": "Primeira Página SC (com base em Agência Brasil)",
+   "confiavel": false
+  },
+  {
+   "texto": "A Serasa Experian contou 2.999 tentativas de fraude no e-commerce até as 18h30 de 27/11, com cerca de R$ 3,3 milhões em risco, em 966.868 pedidos analisados. O número é preliminar e cobre só as transações monitoradas pela Serasa.",
+   "fonte_url": "https://telesintese.com.br/black-friday-registra-quase-3-mil-tentativas-de-fraude-no-e-commerce/",
+   "data": "2026-11-27",
+   "veiculo": "Telesíntese",
+   "confiavel": false
+  },
+  {
+   "texto": "Na Black Friday de 2025, entre 0h e 5h, as tentativas de fraude chegaram perto de 1,3% dos pedidos. No resto do dia, ficaram abaixo de 0,6%, segundo a Serasa Experian. É dado do ano passado.",
+   "fonte_url": "https://antihype.com.br/c/seguranca/golpe-black-friday-madrugada-serasa-fraude-como-evitar/",
+   "data": "2026-11-27",
+   "veiculo": "Antihype (dados da Serasa Experian)",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "A Redbelt Security monitora endereços de internet ligados a marcas (10 a 19 de novembro).",
+   "fonte_url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/golpe-na-black-friday-estudo-aponta-sites-imitando-netflix-shein-e-shopee/",
+   "data": "2026-11-19",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "O Procon-MPMG publica 17 orientações para a Black Friday (16/11). O Procon de Minas Gerais alerta sobre golpes com IA (23/11).",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/26/procon-alerta-que-ia-torna-golpes-da-black-friday-mais-convincentes/",
+   "data": "2026-11-23",
+   "veiculo": "Mix Vale",
+   "confiavel": false
+  },
+  {
+   "texto": "Na véspera da Black Friday (quinta, 26/11), a Serasa Experian identificou 3.502 tentativas de fraude no e-commerce.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/fraudes-black-friday-ecommerce",
+   "data": "2026-11-26",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "No dia da Black Friday (27/11), a Serasa registra 2.999 tentativas de fraude até as 18h30. CNN Brasil divulga o estudo da Redbelt.",
+   "fonte_url": "https://telesintese.com.br/black-friday-registra-quase-3-mil-tentativas-de-fraude-no-e-commerce/",
+   "data": "2026-11-27",
+   "veiculo": "Telesíntese",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quantas pessoas caíram em golpes com esses 211 endereços. O estudo conta endereços suspeitos, não vítimas nem prejuízos.",
+  "Se cada um dos 211 endereços foi usado de fato em fraude. A Redbelt os classifica como \"potencialmente maliciosos\"; não há confirmação de uso em golpe para cada um.",
+  "Quais empresas citadas responderam ao estudo. A CNN Brasil informou ter procurado Netflix, Shopee e Shein; a resposta não aparece nos trechos que consultamos.",
+  "Quantos anúncios falsos com rosto de famosos circulam hoje. Os alertas de Procons e de veículos descrevem o tipo de golpe, mas não trazem um número atualizado para esta Black Friday.",
+  "Se o padrão de fraude na madrugada de 2025 se repete em 2026. A Serasa ainda não divulgou o recorte por hora desta edição."
+ ],
+ "o_que_muda_para_voce": [
+  "Se você vai comprar até segunda (30/11), vale conferir a loja antes de pagar. O pico de ofertas e entregas segue até a Cyber Monday, e é nessa época que os golpistas aparecem mais.",
+  "Pagar no Pix a uma loja falsa pode virar prejuízo. O Pix não tem proteção como a do cartão de crédito, e a devolução pelo MED depende de haver saldo na conta do golpista.",
+  "Se você cair em golpe no Pix, abra o app do banco e conteste a transação. O prazo é de até 80 dias, mas o dinheiro pode sair da conta do golpista rápido, então peça logo.",
+  "Mensagem de \"pagamento pendente\" de streaming ou banco, com link, não é prova de problema real. Entre pelo app ou pelo site que você digita, nunca pelo link recebido.",
+  "Fotos e vídeos de famosos não provam que a oferta é verdadeira. Procure a mesma promoção no perfil oficial da pessoa e no site oficial da loja."
+ ],
+ "como_se_proteger": [
+  "Confira o endereço letra por letra. Marcas falsas usam acréscimos como \"promo\", \"oferta\", \"update\" ou \"billing\". Digite o site oficial você mesmo, em vez de clicar no anúncio.",
+  "Desconfie de preço muito abaixo do mercado e de desconto acima de 50%, como pedem Senacon e Procon-SP. Cronômetro de \"só hoje\" também é sinal de alerta.",
+  "Pesquise a loja no consumidor.gov.br e leia avaliações em mais de uma fonte antes de pagar. Loja nova, sem histórico, merece mais cuidado.",
+  "Em anúncio com famoso, não clique de imediato. Procure a oferta no perfil oficial e verificado da pessoa. Movimento de boca fora do ritmo e voz que muda de repente podem indicar vídeo falso.",
+  "Antes de confirmar o Pix, veja o nome do recebedor. Se for pessoa física ou empresa sem relação com a loja, pare.",
+  "Se pagou a um golpista, abra o app do banco, escolha a opção de contestar o Pix (MED, o Mecanismo Especial de Devolução do Banco Central) e guarde o protocolo. O prazo é de até 80 dias, mas a devolução não é garantida."
+ ],
+ "slug": "golpe-black-friday",
+ "publicado_em": "2026-11-28T16:14:34.470558",
+ "atualizado_em": "2026-11-28T16:14:34.470558",
+ "assunto": "Golpes da Black Friday: levantamento da Redbelt Security achou 211 endereços suspeitos imitando Netflix, Shopee, Shein e bancos (mapeados de 10 a 19/11), e veículos alertam para anúncios falsos com IA e rosto de famosos, que circulam desde a sexta (27/11).",
+ "turno": "viral"
+}
