@@ -1,0 +1,121 @@
+{
+ "titulo": "Dólar hoje: R$ 5,51 após Trabuco na Fazenda: o que se sabe",
+ "descricao": "Sábado sem pregão. Dólar fechou a semana a R$ 5,5156, queda de 7,07%; Ibovespa, em 176.573 pontos. Veja o que se sabe e o que olhar na segunda.",
+ "palavra_chave": "dólar hoje",
+ "lead": "Hoje é sábado (28/11) e não há pregão. O dólar fechou a sexta (27/11) a R$ 5,5156, queda de 3,97% no dia e de 7,07% na semana. O Ibovespa, índice da bolsa brasileira, terminou em 176.573 pontos (-0,13%), depois de passar de 183 mil pela manhã. Os veículos ligam o movimento à confirmação de Luiz Carlos Trabuco no Ministério da Fazenda, anunciada pelo Planalto na noite de quinta (26/11).",
+ "o_que_se_sabe": [
+  {
+   "texto": "O dólar comercial fechou a sexta (27/11) em queda de 3,97%, a R$ 5,5156 na venda, o menor patamar recente. Na semana, o recuo foi de 7,07%. Outros veículos arredondam a queda para 4% ou 3,99%, conforme o critério de cálculo.",
+   "fonte_url": "https://www.band.com.br/economia/dolar-fecha-a-r-551-com-efeito-trabuco-e-ibovespa-vai-aos-177-mil-pts",
+   "data": "2026-11-27",
+   "veiculo": "Band",
+   "confiavel": false
+  },
+  {
+   "texto": "A queda de 7,07% na semana é a maior do dólar desde outubro de 2008, segundo O Tempo. A moeda chegou a R$ 5,479 de manhã, a mínima do dia.",
+   "fonte_url": "https://www.otempo.com.br/economia/2026/11/27/dolar-tem-maior-queda-semanal-em-18-anos-sob-efeito-trabuco",
+   "data": "2026-11-27",
+   "veiculo": "O Tempo",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa fechou a sexta em queda de 0,13%, aos 176.573,35 pontos, depois de bater a máxima de 183.625,66 pontos. Na semana, subiu 6,13%, o melhor resultado desde o primeiro turno das eleições, segundo a Suno.",
+   "fonte_url": "https://www.suno.com.br/noticias/ibovespa-hoje-27-novembro-trabuco-dolar-queda/",
+   "data": "2026-11-27",
+   "veiculo": "Suno",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa devolveu os ganhos da manhã com realização de lucros (venda para embolsar a alta) e com a queda de Petrobras e Vale. Em novembro, o índice acumula +5,15%. No 4º trimestre, ainda está em -5,24%.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-27-11-2026-davs/",
+   "data": "2026-11-27",
+   "veiculo": "Money Times",
+   "confiavel": true
+  },
+  {
+   "texto": "Na quinta (26/11), o Ibovespa havia subido 6,07%, segundo o InfoMoney. Esse é o número que costuma aparecer em textos sobre a véspera, não sobre a sexta.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O Palácio do Planalto confirmou, em nota, na noite de quinta (26/11), que Trabuco, presidente do conselho do Bradesco, aceitou o convite de Lula para a Fazenda no próximo mandato. O ministro atual, Dario Durigan, fica até a transição.",
+   "fonte_url": "https://www.jornalcidade.net/rc/trabuco-anunciado-como-novo-ministro-da-fazenda-do-governo-federal-a-partir-de-2027/297306/",
+   "data": "2026-11-26",
+   "veiculo": "Jornal Cidade RC",
+   "confiavel": false
+  },
+  {
+   "texto": "Os juros futuros, taxas que o mercado projeta para o futuro, caíram pela quinta sessão seguida. O DI (contrato de juros negociado na B3) para jan/2028 fechou em 13,685%, ante 14,183% no ajuste anterior. A curva segue prevendo Selic em 13,75% na reunião do Copom de 9 de dezembro.",
+   "fonte_url": "https://brasilemfolhas.com.br/2026/11/taxas-de-juros-futuros-caem-apos-nomeacao-de-trabuco-na-fazenda/",
+   "data": "2026-11-27",
+   "veiculo": "Brasil em Folhas",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo Stephan Kautz, economista-chefe da EQI Investimentos, cerca de 90% do alívio nos juros futuros na sessão veio da escolha de Trabuco. Na avaliação dele, o mercado deixou de prever novas altas da Selic em 2027.",
+   "fonte_url": "https://timesbrasil.com.br/brasil/economia-brasileira/juros-futuros-despencam-com-escolha-de-trabuco/",
+   "data": "2026-11-27",
+   "veiculo": "Times Brasil",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Lula sonda Trabuco para a Fazenda, segundo o ND Mais.",
+   "fonte_url": "https://ndmais.com.br/politica/novos-ministros-de-lula-confirmados-cotados-cada-pasta/",
+   "data": "2026-11-23",
+   "veiculo": "ND Mais",
+   "confiavel": false
+  },
+  {
+   "texto": "O IPCA-15 de novembro vem em 0,22%. Com as articulações pelo nome de Trabuco, a tendência do dólar se inverte, segundo a Band.",
+   "fonte_url": "https://www.band.com.br/economia/dolar-fecha-a-r-551-com-efeito-trabuco-e-ibovespa-vai-aos-177-mil-pts",
+   "data": "2026-11-24",
+   "veiculo": "Band",
+   "confiavel": false
+  },
+  {
+   "texto": "Os juros futuros fecham em queda pelo terceiro pregão seguido, com a expectativa de Trabuco na Fazenda.",
+   "fonte_url": "https://acritica.net/economia/juros-futuros-recuam-terceiro-pregao-seguido-trabuco-fazenda-quarta-25/",
+   "data": "2026-11-25",
+   "veiculo": "A Crítica de Campo Grande",
+   "confiavel": false
+  },
+  {
+   "texto": "O Ibovespa sobe 6,07% na quinta. À noite, o Planalto confirma que Trabuco aceitou o convite para a Fazenda.",
+   "fonte_url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/",
+   "data": "2026-11-26",
+   "veiculo": "InfoMoney",
+   "confiavel": true
+  },
+  {
+   "texto": "O dólar fecha a R$ 5,5156 (-3,97%). O Ibovespa fecha em 176.573 pontos (-0,13%), depois da máxima de 183.625.",
+   "fonte_url": "https://www.moneytimes.com.br/tempo-real-27-11-2026-davs/",
+   "data": "2026-11-27",
+   "veiculo": "Money Times",
+   "confiavel": true
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Se o dólar vai manter o patamar de R$ 5,51 na segunda (30/11): ninguém pode afirmar. Não achei fonte confiável para a agenda de segunda, para os mercados da Ásia nem para os futuros dos EUA, então este texto não traz esses dados.",
+  "Dado divergente do Ibovespa: a Band publicou alta de 0,49%, aos 177.674 pontos, e 6,72% na semana. Suno, InfoMoney, Money Times e ADVFN informam queda de 0,13%, aos 176.573,35 pontos, e alta de 6,13% na semana. Este texto usa os números da maioria. A divergência não foi explicada.",
+  "Quanto da queda do dólar vem de Trabuco e quanto vem de outros fatores. A Band cita também o IPCA-15 (prévia da inflação) de 0,22% em novembro, e o Imirante cita o enfraquecimento do dólar frente a outras moedas emergentes. Já o Investidor10 diz que, segundo analistas, a escolha já estava precificada na bolsa. Nada disso foi confirmado como causa única.",
+  "Quais medidas fiscais Trabuco vai adotar. Falta a nomeação formal e a posse, prevista para janeiro de 2027 segundo o G4 Business. Não há plano oficial detalhado. A imprensa registra que setores do PT fizeram ressalvas à escolha de um banqueiro, segundo o Jornal Noroeste.",
+  "Se os juros futuros e o dólar vão seguir em queda. A queda de juros futuros não resolve os problemas fiscais, segundo a Gazeta Mercantil, e depende de como o novo governo vai agir."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje e amanhã não há pregão. A cotação de referência continua sendo o fechamento de sexta: R$ 5,5156. O mercado só volta a se mexer na segunda (30/11).",
+  "Se o dólar mais barato se mantiver, importados, eletrônicos e viagens ao exterior tendem a ficar menos pesados no bolso. O efeito não é imediato, porque as lojas e agências reajustam preços aos poucos.",
+  "A Selic, a taxa básica de juros, segue em 13,75%. A queda dos juros futuros não muda hoje o rendimento da poupança, de CDBs atrelados à Selic nem as parcelas de financiamentos. A curva de juros prevê a Selic mantida na reunião do Copom de 9 de dezembro, mas isso é projeção do mercado, não decisão.",
+  "Quem tem título prefixado (com taxa definida na compra) ou fundo de renda fixa pode ver o valor de mercado variar quando os juros futuros caem. Quem tem fundo de ações viu o Ibovespa subir 6,13% na semana, mas ele ainda está 5,24% abaixo no 4º trimestre.",
+  "O que acompanhar na segunda (30/11): se o dólar fica perto de R$ 5,52, se o Ibovespa se mantém na faixa de 176 mil pontos depois da realização de lucros e se os juros futuros continuam em queda. Esta lista é sugestão de acompanhamento, não uma agenda oficial."
+ ],
+ "como_se_proteger": [],
+ "slug": "dolar-hoje-2811",
+ "publicado_em": "2026-11-28T00:30:49.915003",
+ "atualizado_em": "2026-11-28T00:30:49.915003",
+ "assunto": "Dólar fecha a semana a R$ 5,5156 (queda de 3,97% em 27/11, menor patamar recente) e Ibovespa termina perto da estabilidade, perto de 177 mil pontos, após máxima acima de 183 mil; Trabuco confirmado na Fazenda e juros futuros em queda.",
+ "turno": "manha"
+}
