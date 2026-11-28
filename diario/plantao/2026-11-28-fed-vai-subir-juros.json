@@ -1,0 +1,105 @@
+{
+ "titulo": "Fed vai subir juros? Mercado vê alta em dezembro: o que se sabe",
+ "descricao": "Inflação dos EUA (PCE) foi a 3,8% em outubro. O mercado dá como certa alta dos juros pelo Fed em 8 e 9/12. Veja o que é fato e o que falta saber.",
+ "palavra_chave": "fed vai subir juros",
+ "lead": "O Fed, banco central dos EUA, deve subir os juros na reunião de 8 e 9 de dezembro, segundo o que o mercado precifica. O gatilho foi o PCE, a inflação preferida do Fed, que subiu a 3,8% em 12 meses até outubro, dado divulgado em 25 de novembro pelo Escritório de Análise Econômica dos EUA (BEA). Não houve decisão nem dado novo hoje (28/11, sábado): a última leitura de mercado que encontramos é de 27/11.",
+ "o_que_se_sabe": [
+  {
+   "texto": "O índice de preços PCE subiu 0,3% em outubro e 3,8% em 12 meses. Em setembro, a taxa em 12 meses era de 3,6%. O núcleo, que exclui alimentos e energia, avançou 0,3% no mês e 3,3% em 12 meses. Os números são do BEA, divulgados em 25/11.",
+   "fonte_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+   "data": "2026-11-25",
+   "veiculo": "BEA (fonte oficial)",
+   "confiavel": true
+  },
+  {
+   "texto": "O resultado ficou em linha com a previsão dos economistas consultados pela Reuters. A inflação de 3,8% segue acima da meta de 2% do Fed. Segundo a Reuters, o dado reforçou a expectativa de que o Fed continue subindo os juros até o início de 2027.",
+   "fonte_url": "https://www.terra.com.br/economia/inflacao-nos-eua-sobe-ainda-mais-em-outubro,5ae2b3f52391fa63ea8fa26f8ae3fd25fcj1rh3y.html",
+   "data": "2026-11-25",
+   "veiculo": "Terra (com Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Hoje os juros nos EUA estão entre 3,75% e 4,00% ao ano. O Fed manteve essa faixa na reunião de 28/10. Na ocasião, o FedWatch, ferramenta do CME Group que mede as apostas do mercado, já indicava 87,5% de chance de alta em dezembro.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/macroeconomia/mercado-reforca-aposta-alta-fed-dezembro",
+   "data": "2026-10-28",
+   "veiculo": "SpaceMoney (com InfoMoney)",
+   "confiavel": false
+  },
+  {
+   "texto": "O InvestNews informou que o FedWatch passou a mostrar 100% de chance de alta na reunião que termina em 9/12: 94% para 0,25 ponto percentual e 6% para 0,50 ponto. O mercado também prevê alta acumulada de 0,75 ponto, o que levaria os juros a 4,50%–4,75% em 2027.",
+   "fonte_url": "https://investnews.com.br/economia/juros-eua-fed-alta-dez26-expectativa/",
+   "data": "2026-11-23",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "O diretor do Fed Christopher Waller disse que, com um núcleo do PCE de 0,3% em outubro, consideraria uma alta de 0,50 ponto em dezembro. O núcleo ficou justamente em 0,3%. Segundo o InvestNews, ele falou em dar um \"choque\" nos mercados para mostrar compromisso com a meta de 2%.",
+   "fonte_url": "https://forbes.com.br/forbes-money/2026/11/fed-alta-juros-inflacao-eua-dezembro-waller/",
+   "data": "2026-11-11",
+   "veiculo": "Forbes Brasil (com Reuters)",
+   "confiavel": false
+  },
+  {
+   "texto": "Na sexta-feira (27/11), o BP Money informou que o CME Group apontava chance de quase 100% de alta de juros nos EUA em dezembro, com o mercado precificando por completo 0,25 ponto. É a leitura mais recente que encontramos.",
+   "fonte_url": "https://bpmoney.com.br/mercado/commodities/ouro-fecha-em-forte-alta-ganhos-mais-de-4-por-cento-na-semana",
+   "data": "2026-11-27",
+   "veiculo": "BP Money",
+   "confiavel": false
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Fed mantém os juros entre 3,75% e 4,00%. O mercado já via cerca de 87,5% de chance de alta em dezembro.",
+   "fonte_url": "https://www.spacemoney.com.br/economia/macroeconomia/mercado-reforca-aposta-alta-fed-dezembro",
+   "data": "2026-10-28",
+   "veiculo": "SpaceMoney",
+   "confiavel": false
+  },
+  {
+   "texto": "Waller diz que pode defender alta de 0,50 ponto em dezembro, se o núcleo do PCE de outubro vier em 0,3%.",
+   "fonte_url": "https://forbes.com.br/forbes-money/2026/11/fed-alta-juros-inflacao-eua-dezembro-waller/",
+   "data": "2026-11-11",
+   "veiculo": "Forbes Brasil",
+   "confiavel": false
+  },
+  {
+   "texto": "O FedWatch indica 100% de chance de alta em dezembro: 94% para 0,25 ponto e 6% para 0,50.",
+   "fonte_url": "https://investnews.com.br/economia/juros-eua-fed-alta-dez26-expectativa/",
+   "data": "2026-11-23",
+   "veiculo": "InvestNews",
+   "confiavel": false
+  },
+  {
+   "texto": "O BEA divulga o PCE de outubro: 3,8% em 12 meses, núcleo em 3,3%.",
+   "fonte_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+   "data": "2026-11-25",
+   "veiculo": "BEA",
+   "confiavel": true
+  },
+  {
+   "texto": "O CME aponta chance de quase 100% de alta em dezembro, com 0,25 ponto totalmente precificado.",
+   "fonte_url": "https://bpmoney.com.br/mercado/commodities/ouro-fecha-em-forte-alta-ganhos-mais-de-4-por-cento-na-semana",
+   "data": "2026-11-27",
+   "veiculo": "BP Money",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "O tamanho da alta não é consenso. As fontes citam 0,25 ponto como cenário principal, mas Waller já admitiu 0,50. O SpaceMoney reportou que, segundo o CME FedWatch, a aposta em 0,50 saiu de cena. O InvestNews ainda via 6% de chance. A decisão é do comitê do Fed e só sai em 9/12.",
+  "Não encontramos fonte que espere manutenção ou corte dos juros em dezembro. A divergência está no tamanho da alta e em saber se ela é o melhor caminho: o InvestNews cita David Rosenberg, da Rosenberg Research, para quem apertar os juros diante de pressões de oferta pode acabar mal para a economia. O Goldman Sachs projeta o núcleo do PCE em 2,4% em 12 meses até setembro de 2027.",
+  "Não há ligação confirmada nas fontes entre a decisão do Fed e o dólar, a Bolsa ou a Selic no Brasil. O Painel Político diz que a alta dos juros nos EUA tende a encarecer o dólar e pesar em emergentes, mas isso é avaliação do veículo, não fato apurado. Na sexta (27/11), o Mixvale atribuiu a queda de 3,97% do dólar no Brasil a um tema doméstico, a escolha do ministro da Fazenda. Não encontramos outro veículo que confirme essa leitura.",
+  "As apostas mudam a cada dia com novos dados e falas de dirigentes. Elas não são decisão. O próximo dado de inflação do BEA sai em 23/12, depois da reunião."
+ ],
+ "o_que_muda_para_voce": [
+  "Hoje, nada muda na sua conta ou no seu investimento por causa do PCE. O Fed só decide em 9/12, e o que existe até lá é aposta do mercado.",
+  "Juros mais altos nos EUA tendem a atrair dinheiro para títulos americanos e a fortalecer o dólar. Isso é um canal possível, não confirmado, para o câmbio no Brasil. Se acontecer, importados, viagens e dívidas em dólar ficam mais caros.",
+  "Esse mesmo canal pode pesar em países emergentes, como o Brasil, e na Bolsa. As fontes consultadas não confirmam ligação direta com a Bolsa nem com a Selic, a taxa básica de juros brasileira.",
+  "A inflação alta nos EUA é um dos fatores que o Fed pesa. Quem acompanha dólar, renda fixa ou Bolsa pode observar a reunião de 8 e 9/12 e o comunicado de 9/12."
+ ],
+ "como_se_proteger": [],
+ "slug": "fed-vai-subir-juros",
+ "publicado_em": "2026-11-28T11:44:17.979335",
+ "atualizado_em": "2026-11-28T11:44:17.979335",
+ "assunto": "Inflação dos EUA (PCE) subiu a 3,8% em outubro e o mercado passou a apostar em alta dos juros pelo Fed na reunião de 8 e 9 de dezembro; fato de 25/11, sem novidade confirmada hoje. Há divergência entre fontes sobre a direção esperada dos juros.",
+ "turno": "meio"
+}
