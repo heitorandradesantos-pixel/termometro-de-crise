@@ -76,7 +76,7 @@ def url_publica(caminho: str) -> str:
     return f"{SITE_URL}/{c}"
 
 
-REDES = {"Instagram": "https://www.instagram.com/termometrodecrise/", "TikTok": "https://www.tiktok.com/@termometrodecrise"}  # perfis oficiais: rodapé do site e "sameAs" do Google
+REDES = {"Instagram": "https://www.instagram.com/termometrodecrise/", "TikTok": "https://www.tiktok.com/@termometrodecrise", "YouTube": "https://www.youtube.com/@TermometrodeCrise"}  # perfis oficiais: rodapé do site e "sameAs" do Google
 DOMINIO = os.environ.get("DOMINIO", "")                  # ex.: termometrodecrise.com.br (gera o CNAME)
 ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "ca-pub-2519028636434637")    # ID público do AdSense do Heitor (18/11/2026)
 NEWSLETTER_URL = os.environ.get("NEWSLETTER_URL", "")    # página de inscrição externa (sem formulário do Kit)
@@ -125,6 +125,7 @@ BUSCAS_POR_REGIAO = int(os.environ.get("BUSCAS_POR_REGIAO") or "3")  # Correspon
 # Comunidade do WhatsApp onde sai o panorama de cada dia útil (a variável WHATSAPP_URL troca o link, se precisar).
 WHATSAPP_URL = os.environ.get("WHATSAPP_URL") or "https://chat.whatsapp.com/JO50Y0ZbiT5I0OOr0bt9Dc"
 CONTATO_EMAIL = os.environ.get("CONTATO_EMAIL") or "contato@termometrodecrise.com"
+ESCONDER_AUTOMATICAS = True  # noindex nas notícias e panoramas automáticos (28/11, revisão do AdSense)
 RESPONSAVEL = os.environ.get("RESPONSAVEL", "")  # nome ou razão social e CNPJ do responsável pelo site (LGPD)
 # "sim" = publica sozinho quando o Revisor aprova; qualquer outra coisa = pede sua aprovação.
 AUTOMATICO = os.environ.get("AUTOMATICO", "").strip().lower() == "sim"

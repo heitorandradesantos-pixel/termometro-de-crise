@@ -394,12 +394,12 @@ def pagina(titulo: str, descricao: str, corpo: str, raiz: str = "", imagem: str 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}{extra_css}</style>{conta_ads}{adsense}{cabeca}</head>
 <body><a class="pular" href="#conteudo">Pular para o conteúdo</a><header class="topo"><a class="marca" href="{raiz}index.html">{SIMBOLO}TERMÔMETRO DE CRISE</a>
-<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
+<nav><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}mundo.html">Países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}guias/index.html">Guias</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a><a href="{raiz}metodologia.html">Método</a></nav>{cta_topo(raiz)}</header>{"" if sem_faixa else FAIXA}
 <main class="conteudo" id="conteudo">{nova_aba(corpo)}</main>
 <footer class="rodape"><div class="rod-grade"><div><a class="marca" href="{raiz}index.html">{SIMBOLO}TERMÔMETRO DE CRISE</a>
 <p>O estresse dos mercados do mundo, de 0 (calmo) a 100 (crise), explicado para o seu bolso. Sem alarde.</p></div>
 <nav aria-label="Termômetro"><strong>Termômetro</strong><a href="{raiz}index.html#mapa">Mapa do mundo</a><a href="{raiz}mundo.html">Ranking dos países</a><a href="{raiz}paises/brasil.html">Brasil</a><a href="{raiz}cotacoes/index.html">Cotações</a><a href="{raiz}metodologia.html">Como calculamos</a></nav>
-<nav aria-label="Conteúdo"><strong>Conteúdo</strong><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama no WhatsApp</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a></nav></div>
+<nav aria-label="Conteúdo"><strong>Conteúdo</strong><a href="{raiz}guias/index.html">Guias</a><a href="{raiz}noticias/index.html">Notícias</a><a href="{raiz}panorama.html">Panorama no WhatsApp</a><a href="{raiz}newsletter/">Newsletter</a><a href="{raiz}edicoes/index.html">Edições</a><a href="{raiz}ferramentas/index.html">Ferramentas</a></nav></div>
 <p>{html.escape(config.AVISO)}</p>
 <p>Dados: datahub.io, FRED (Federal Reserve Bank of St. Louis), Yahoo Finance, Banco Central do Brasil (Selic, PTAX e Focus) e as fontes citadas em cada página.</p>
 {('<p>Siga o Termômetro: ' + ' · '.join(f'<a href="{u}" target="_blank" rel="noopener me">{n}</a>' for n, u in config.REDES.items()) + '</p>') if config.REDES else ''}
@@ -730,7 +730,12 @@ def gerar(pasta_edicoes: Path, saida: Path, pasta_diario: Path | None = None) ->
     novas += paginas_newsletter(saida, lista[0][0] if lista else "")
     from . import lp
     novas += lp.gerar(saida, pagina)  # /manual/: a página de venda do e-book (13/11)
-    (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
+    from . import guias
+    novas += guias.gerar(saida, pagina)  # /guias/: artigos longos e originais (28/11, pedido de aprovação no AdSense)
+    if config.ESCONDER_AUTOMATICAS:
+        novas = esconder_automaticas(saida, novas)
+    else:
+        (saida / "sitemap-noticias.xml").write_text(plantao.sitemap_noticias(artigos_plantao))
     # endereço que não existe responde 404 de verdade (sem isso, o Cloudflare devolve a home com 200)
     (saida / "404.html").write_text(pagina(f"Página não encontrada · {config.NOME}", "Esta página não existe.",
                                            '<section class="edicao"><h1>Página não encontrada</h1><p>O endereço não '
@@ -800,14 +805,38 @@ não garante o mesmo comportamento no futuro.</p>
 </section>"""
 
 
+def automatica(caminho: str) -> bool:
+    """Páginas montadas no automático a partir de notícias de outros veículos ou de dados do dia."""
+    import re
+    return caminho.startswith("noticias/") or bool(re.match(r"panorama/\d{4}-\d{2}-\d{2}\.html$", caminho))
+
+
+def esconder_automaticas(saida: Path, caminhos: list[str]) -> list[str]:
+    """Tira do Google (noindex) as páginas automáticas e as tira do mapa do site. O leitor continua vendo tudo.
+
+    Motivo (28/11/2026): o AdSense recusou o site por "conteúdo de baixo valor"; o que o Google indexa passa a ser só o
+    conteúdo próprio (guias, calculadoras, páginas de país e método). Para voltar atrás: ESCONDER_AUTOMATICAS = False.
+    """
+    meta = '<meta name="robots" content="noindex,follow">'
+    for arq in saida.rglob("*.html"):
+        rel = arq.relative_to(saida).as_posix()
+        if automatica(rel):
+            txt = arq.read_text(encoding="utf-8")
+            if meta not in txt:
+                arq.write_text(txt.replace("<head>", "<head>" + meta, 1), encoding="utf-8")
+    (saida / "sitemap-noticias.xml").unlink(missing_ok=True)
+    return [c for c in caminhos if not automatica(c)]
+
+
 def extras(saida: Path, caminhos: list[str]) -> None:
     (saida / ".nojekyll").write_text("")
     for arq in MARCA.glob("*"):  # favicon, ícone do celular e a foto de perfil da marca
         if arq.is_file():
             shutil.copy(arq, saida / arq.name)
     (saida / "robots.txt").write_text("User-agent: *\nAllow: /\nDisallow: /painel/\nDisallow: /metricas/\n" +
-                                      (f"Sitemap: {config.SITE_URL}/sitemap.xml\n"
-                                       f"Sitemap: {config.SITE_URL}/sitemap-noticias.xml\n" if config.SITE_URL else ""))
+                                      (f"Sitemap: {config.SITE_URL}/sitemap.xml\n" +
+                                       (f"Sitemap: {config.SITE_URL}/sitemap-noticias.xml\n" if not config.ESCONDER_AUTOMATICAS else "")
+                                       if config.SITE_URL else ""))
     if config.SITE_URL:
         urls = "".join(f"<url><loc>{config.url_publica(c)}</loc></url>" for c in caminhos)
         (saida / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>'

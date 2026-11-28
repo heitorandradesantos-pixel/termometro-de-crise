@@ -437,7 +437,12 @@ def pagina_nova_york(hoje: date) -> str:
 def ferramentas() -> str:
     return ('<p class="trilha"><a href="../index.html">Início</a> › Ferramentas</p>'
             '<section class="edicao"><h1>Ferramentas</h1><p>Ferramentas grátis do Termômetro de Crise para o dia a dia do '
-            'seu dinheiro.</p><div class="lista">' + calculadoras.lista() + '<a href="../horario-bolsas/index.html"><strong>Horário das bolsas</strong>'
+            'seu dinheiro. As calculadoras rodam no seu próprio aparelho: nada do que você digita é enviado para nós. '
+            'Cada uma explica como a conta é feita, o que ela não considera e de onde vem cada número (Banco Central, '
+            'IBGE e Receita Federal).</p><p>Elas servem para comparar cenários e entender o efeito de juros, inflação e '
+            'dólar no seu bolso, não para prever o futuro: nenhuma simulação é garantia de resultado nem recomendação de '
+            'investimento. Para entender os assuntos por trás das contas, veja também os '
+            '<a href="../guias/index.html">guias</a>.</p><div class="lista">' + calculadoras.lista() + '<a href="../horario-bolsas/index.html"><strong>Horário das bolsas</strong>'
             '<br><span class="suave">Que horas abre e fecha cada bolsa do mundo, no horário de Brasília, com a hora local '
             'agora.</span></a>'
             '<a href="../index.html#mapa"><strong>Mapa do mundo</strong><br><span class="suave">O termômetro de cada '

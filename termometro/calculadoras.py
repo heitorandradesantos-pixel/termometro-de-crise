@@ -175,6 +175,61 @@ def _convite() -> str:
             f'<div class="acoes">{grupo}<a class="contorno" id="cta-quiz" data-rastro href="../quiz/">Fazer o teste: o que o gerente não te conta</a></div>'
             f'<small>Sem recomendação de investimento.</small></aside>')
 
+# Exemplo e perguntas comuns de cada calculadora (28/11/2026): mais texto próprio e útil em cada página.
+FAQ = {
+    "juros-compostos": ("guias/selic-caindo.html", "Se a Selic cair, o que acontece com o seu dinheiro?",
+        "Quem guarda R$ 300 por mês durante 10 anos, a 10% ao ano, tira do bolso R$ 36.000. No fim, o saldo fica perto de "
+        "R$ 59.959 antes do imposto: cerca de R$ 23.959 são juros. Descontando 15% de Imposto de Renda sobre o ganho, sobram "
+        "perto de R$ 56.365. Repare que boa parte dos juros aparece nos últimos anos: é o efeito do juro sobre juro.",
+        [("Qual taxa devo colocar?", "Para comparar com a renda fixa, use a Selic do momento (a calculadora já vem com ela) "
+          "ou a taxa que o investimento promete. Lembre que a taxa real muda com o tempo."),
+         ("Por que o resultado final parece tão alto?", "Porque o rendimento de cada mês passa a render também. Em prazos "
+          "longos, os juros podem ficar maiores do que o próprio dinheiro guardado. Mas o valor não desconta a inflação: "
+          "daqui a 20 anos, R$ 100 mil compram bem menos do que hoje."),
+         ("Isso é uma promessa de rendimento?", "Não. É uma simulação com taxa fixa, para comparar cenários. Nenhum "
+          "investimento garante a mesma taxa por décadas.")]),
+    "inflacao": ("guias/inflacao.html", "Por que tudo ficou mais caro se a inflação oficial é de menos de 5%",
+        "Somando o IPCA de 2015 a 2025, os preços subiram cerca de 82%. Na prática, quem tinha R$ 1.000 no começo de 2015 "
+        "precisaria de perto de R$ 1.824 no fim de 2025 para comprar as mesmas coisas. Se o dinheiro ficou parado sem render, "
+        "o poder de compra caiu quase pela metade.",
+        [("Qual inflação a calculadora usa?", "O IPCA, a inflação oficial do Brasil, medida pelo IBGE. Os anos fechados "
+          "vêm da série do IBGE; os meses do ano corrente vêm do Banco Central quando o dado está disponível."),
+         ("Por que a minha inflação parece maior?", "Porque o IPCA é uma média do que as famílias compram. Se você gasta "
+          "mais com comida, aluguel ou transporte, e esses itens subiram mais que a média, a inflação da sua casa é maior."),
+         ("Como usar no salário?", "Coloque o salário de alguns anos atrás e veja quanto precisaria ganhar hoje para manter "
+          "o mesmo poder de compra. Se o salário atual for menor que o resultado, o reajuste não cobriu a inflação.")]),
+    "rendimento-selic": ("guias/selic-caindo.html", "Se a Selic cair, o que acontece com o seu dinheiro?",
+        "Com o CDI perto de 13,65% ao ano, R$ 10 mil num investimento que paga 100% do CDI rendem cerca de R$ 1.365 em um "
+        "ano, antes do imposto. Como o prazo é de um ano, o Imposto de Renda é de 17,5% sobre o ganho, e o rendimento "
+        "líquido fica perto de R$ 1.126. Se a Selic caísse para 10%, o mesmo valor renderia menos de R$ 1.000 antes do imposto.",
+        [("Por que a poupança não muda quando a Selic cai?", "Enquanto a Selic está acima de 8,5% ao ano, a poupança "
+          "rende 0,5% ao mês mais a TR, pela regra do Banco Central. Só abaixo disso ela passa a render 70% da Selic mais a TR."),
+         ("CDB e Tesouro Selic rendem igual?", "Os dois acompanham a Selic, mas o CDB depende do percentual do CDI que o "
+          "banco paga e tem a proteção do FGC até o limite da regra; o Tesouro Selic tem a garantia do Tesouro Nacional e "
+          "uma pequena taxa de custódia acima de certo valor."),
+         ("O imposto é sempre o mesmo?", "Não. Na renda fixa ele cai com o tempo: 22,5% até 180 dias, 20% até 360 dias, "
+          "17,5% até 720 dias e 15% acima disso. Poupança e algumas aplicações, como LCI e LCA, são isentas para pessoa física.")]),
+    "dolar-cartao": ("guias/dolar-na-crise.html", "Por que o dólar dispara toda vez que o mundo entra em crise",
+        "Uma compra de US$ 100 com o dólar comercial a R$ 5,51, num cartão que cobra 4% de spread, sai a cerca de R$ 573 "
+        "antes do imposto. Somando o IOF de 3,5%, chega perto de R$ 593 na fatura. O spread muda de banco para banco, por "
+        "isso vale conferir o do seu cartão.",
+        [("O que é spread?", "É a diferença entre o dólar comercial, que aparece no jornal, e o dólar que o banco usa para "
+          "converter a sua compra. É uma parte do lucro do banco e cada um define o seu."),
+         ("Quanto é o IOF no cartão?", "Em compras internacionais com cartão de crédito, o IOF é de 3,5% sobre o valor em "
+          "reais, segundo o Decreto 12.499/2025."),
+         ("Qual cotação vale: a da compra ou a da fatura?", "Desde 2020, o banco tem que converter pela cotação do dia da "
+          "compra. Por isso o valor não muda até a fatura fechar.")]),
+}
+
+
+def _faq(slug: str) -> str:
+    if slug not in FAQ:
+        return ""
+    guia, titulo, exemplo, perguntas = FAQ[slug]
+    itens = "".join(f"<h3>{html.escape(q)}</h3><p>{html.escape(r)}</p>" for q, r in perguntas)
+    return (f"<h2>Um exemplo com números</h2><p>{html.escape(exemplo)}</p><h2>Perguntas comuns</h2>{itens}"
+            f'<p>Para entender o assunto por inteiro, leia o guia <a href="../{guia}">{html.escape(titulo)}</a>.</p>')
+
 
 def _moldura(slug: str, titulo: str, lead: str, formulario: str, saida: str, texto: str, js: str) -> str:
     return (f'<p class="trilha"><a href="../index.html">Início</a> › <a href="index.html">Ferramentas</a> › {html.escape(OUTRAS[slug][0])}</p>'
@@ -184,7 +239,7 @@ def _moldura(slug: str, titulo: str, lead: str, formulario: str, saida: str, tex
             f'<p class="calc-nota">Simulação educativa, feita no seu aparelho: nada do que você digita é enviado para nós. '
             f'Não é recomendação de investimento nem garantia de resultado.</p>'
             f'{_convite()}'
-            f'<div class="calc-texto">{texto}{_outras(slug)}</div></section><script>{JS_COMUM}{js}{JS_EVENTOS.replace("__SLUG__", slug)}</script>')
+            f'<div class="calc-texto">{texto}{_faq(slug)}{_outras(slug)}</div></section><script>{JS_COMUM}{js}{JS_EVENTOS.replace("__SLUG__", slug)}</script>')
 
 
 def juros(selic: float) -> str:

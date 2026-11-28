@@ -197,21 +197,43 @@ Consumidor.</p>
 
 
 def quem_somos() -> str:
-    responsavel = f" O responsável pelo projeto é {html.escape(config.RESPONSAVEL)}." if config.RESPONSAVEL else ""
+    responsavel = f" O responsável legal pelo site é {html.escape(config.RESPONSAVEL)}." if config.RESPONSAVEL else ""
+    redes = " · ".join(f'<a href="{html.escape(u)}" target="_blank" rel="noopener me">{html.escape(n)}</a>'
+                       for n, u in config.REDES.items())
     return f"""<section class="edicao"><h1>Quem somos</h1>
-<p>O {config.NOME} é um projeto brasileiro independente que mede, de 0 a 100, o estresse dos mercados no mundo, em 6
-regiões e em {_paises()} países, e explica cada leitura em português simples, com as notícias que mexem com ela e a fonte de cada
-fato.{responsavel}</p>
-<h2>Como funciona</h2>
-<p>Os números saem de um método aberto, descrito na <a href="metodologia.html">metodologia</a>: cada sinal (bolsa, sobe e
-desce do mercado e moeda) é comparado com a história do próprio país. Uma equipe de agentes de inteligência artificial
-coleta os dados, pesquisa as notícias, escreve os textos e confere tudo antes de publicar; as pessoas do projeto definem o
-método, as regras e revisam o trabalho. Como fazemos isso está na <a href="politica-editorial.html">política editorial</a>.</p>
+<p>O {config.NOME} é um projeto brasileiro independente de educação financeira. Ele nasceu de uma pergunta simples: o
+que está acontecendo no mundo agora e o que isso muda no bolso de quem vive no Brasil? Para responder, o site mede, de 0
+(calmo) a 100 (crise), o estresse dos mercados no mundo, em 6 regiões e em {_paises()} países, e explica cada leitura em
+português simples, sem alarde e com a fonte de cada número.</p>
+<h2>Quem faz</h2>
+<p>O projeto foi criado e é conduzido por Heitor, empreendedor brasileiro que acompanha o mercado financeiro e
+apresenta o {config.NOME} no Instagram e no YouTube. Ele define a linha editorial, escolhe os temas dos guias e dos
+vídeos, revisa os roteiros e responde pelo que é publicado.{responsavel}</p>
+<h2>O que publicamos</h2>
+<ul><li><strong>O termômetro:</strong> o índice diário de estresse dos mercados, com método aberto, descrito na
+<a href="metodologia.html">metodologia</a>.</li>
+<li><strong><a href="guias/index.html">Guias</a>:</strong> explicações completas sobre dólar, juros, inflação,
+combustível e crises, com contas, exemplos e fontes. Cada guia acompanha um vídeo longo do canal.</li>
+<li><strong><a href="ferramentas/index.html">Calculadoras</a>:</strong> juros compostos, inflação, rendimento na Selic e
+dólar no cartão, que rodam no seu aparelho.</li>
+<li><strong>Notícias e Plantão:</strong> os fatos do dia que mexem com o termômetro, sempre com o link da fonte original
+e o status do fato (confirmado, declaração, hipótese).</li></ul>
+<h2>Como trabalhamos</h2>
+<p>Usamos inteligência artificial como ferramenta: agentes de IA coletam os dados, pesquisam as notícias, ajudam a
+escrever os textos e fazem conferências automáticas antes de publicar. As pessoas do projeto definem o método e as
+regras, escolhem as pautas e revisam o trabalho, em especial os guias e os roteiros dos vídeos. Os detalhes estão na
+<a href="politica-editorial.html">política editorial</a>. Quando erramos, corrigimos e registramos em
+<a href="correcoes.html">Correções</a>.</p>
+<h2>Como o projeto se mantém</h2>
+<p>O acesso ao site é gratuito. O projeto se mantém com anúncios e com a venda de um material educativo próprio, o
+<a href="manual/index.html">Manual do Investidor</a>. Nenhum anunciante ou parceiro decide o que é publicado, e o
+conteúdo não indica produto financeiro de nenhuma empresa.</p>
 <h2>O que o {config.NOME} não é</h2>
 <p>Não é uma corretora, não vende investimentos, não recomenda ativos e não faz consultoria. É conteúdo educativo e
 informativo, para você entender o que está acontecendo e conversar melhor com quem cuida do seu dinheiro.</p>
 <h2>Fale com a gente</h2>
-<p>Sugestões, correções e parcerias: {_contato()}.</p>
+<p>Sugestões, correções e parcerias: {_contato()}. Página de <a href="contato.html">contato</a>.</p>
+{f"<p>Onde mais estamos: {redes}.</p>" if redes else ""}
 </section>"""
 
 
@@ -248,13 +270,21 @@ def contato() -> str:
     redes = " · ".join(f'<a href="{html.escape(u)}" target="_blank" rel="noopener me">{html.escape(n)}</a>'
                        for n, u in config.REDES.items())
     return f"""<section class="edicao"><h1>Fale com o {config.NOME}</h1>
-<p>Achou um erro, tem uma sugestão de pauta, quer falar de parceria ou sobre os seus dados? Escreva para
-{_contato()}. Respondemos em até 2 dias úteis.</p>
-<p>Para pedir uma correção, diga a página e o trecho; a gente confere na fonte e registra em
-<a href="correcoes.html">Correções</a>.</p>
-{f"<p>Também estamos nas redes: {redes}.</p>" if redes else ""}
+<p>O jeito mais rápido de falar com a gente é por e-mail: {_contato()}. Respondemos em até 2 dias úteis.</p>
+<h2>Sobre o que você pode escrever</h2>
+<ul><li><strong>Correções:</strong> diga a página e o trecho. A gente confere na fonte, corrige e registra em
+<a href="correcoes.html">Correções</a>.</li>
+<li><strong>Sugestões de pauta:</strong> um assunto que mexe com o seu bolso e que você gostaria de ver explicado num
+guia ou num vídeo.</li>
+<li><strong>Parcerias e imprensa:</strong> conte quem você é e o que propõe.</li>
+<li><strong>Seus dados pessoais:</strong> pedidos sobre a newsletter, o grupo do WhatsApp ou qualquer dado tratado pelo
+site seguem a <a href="privacidade.html">política de privacidade</a>.</li>
+<li><strong>Compras do Manual do Investidor:</strong> dúvidas sobre acesso ou reembolso podem ser enviadas para o mesmo
+e-mail, com o e-mail usado na compra.</li></ul>
+{f"<h2>Redes</h2><p>Também estamos em: {redes}. Mensagem direta nas redes pode demorar mais para ser respondida.</p>" if redes else ""}
+<h2>O que não fazemos</h2>
 <p>Não damos recomendação de investimento individual nem respondemos pedidos de dica de compra ou venda: o conteúdo é
-educativo.</p></section>"""
+educativo. Também nunca pedimos senha, código ou dados bancários por e-mail, mensagem ou telefone.</p></section>"""
 
 
 def correcoes() -> str:

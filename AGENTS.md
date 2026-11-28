@@ -23,6 +23,8 @@ funil de venda do e-book "Manual do Investidor". Contexto completo: `termometro/
 | Vídeos só de motion e anúncios | `edicao/remotion/src/Motion*.tsx`, `MotionAnuncios.tsx`; composições em `Root.tsx` |
 | Transcrição (Whisper + alinhamento) | `edicao/ferramentas/transcrever.sh` → workflow `transcrever.yml` → `termometro/transcrever.py` |
 | Calculadoras (juros compostos, inflação, Selic, dólar no cartão) | `termometro/calculadoras.py`; saem em `ferramentas/*.html` |
+| Guias (artigos longos e originais, um por vídeo longo) | `termometro/guias/*.md` → `termometro/guias.py`; saem em `guias/` |
+| Notícias e panoramas fora do Google (noindex, pedido do AdSense) | `config.ESCONDER_AUTOMATICAS`, `site.esconder_automaticas` |
 | Manuais dos especialistas | `termometro/manuais/*.md` (marca, voz do Heitor, viralização, roteiro, compliance, trackeamento, vendas, SEO, UX/UI) |
 
 ## Comandos

@@ -70,8 +70,10 @@ def test_arquivo_completo_e_sem_links_quebrados(tmp_path):
     assert 'href="panorama/index.html"' in (saida / "panorama.html").read_text()
     # mapa do site: arquivo mensal sim, páginas 2 em diante não
     mapa = (saida / "sitemap.xml").read_text() if (saida / "sitemap.xml").exists() else ""
-    if mapa:
-        assert "index-2026-10</loc>" in mapa and ".html</loc>" not in mapa and "pagina-2" not in mapa and "noticias/israel" not in mapa
+    if mapa:  # desde 28/11 as notícias automáticas ficam fora do Google (config.ESCONDER_AUTOMATICAS)
+        from termometro import config as _cfg
+        assert ("index-2026-10</loc>" in mapa) != _cfg.ESCONDER_AUTOMATICAS
+        assert "guias/" in mapa and ".html</loc>" not in mapa and "pagina-2" not in mapa and "noticias/israel" not in mapa
     # páginas de arquivo sem a faixa de cotações (decisão do guardião de regras)
     assert 'class="faixa"' not in outubro and 'class="faixa"' not in meio
     assert (saida / "correcoes.html").exists()
