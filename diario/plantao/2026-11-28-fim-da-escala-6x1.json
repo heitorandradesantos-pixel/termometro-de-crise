@@ -1,0 +1,120 @@
+{
+ "titulo": "Fim da escala 6x1: o que se sabe sobre 42 horas e preços",
+ "descricao": "Jornada cai de 44 para 42 horas em 16/12 e para 40 em 2027, com dois dias de descanso e sem corte de salário. Veja o que muda e o que está em aberto.",
+ "palavra_chave": "fim da escala 6x1",
+ "lead": "O fim da escala 6x1 começa em 16 de dezembro de 2026, quando a jornada máxima cai de 44 para 42 horas por semana, com dois dias de descanso remunerado e sem corte de salário. Em 16 de dezembro de 2027, o limite cai para 40 horas. A mudança está na Emenda Constitucional 141, promulgada em 16 de outubro, e um decreto de 19 de novembro definiu como calcular o valor da hora. O STF ainda vai julgar pontos da transição, e o efeito nos preços é só estimativa de entidades empresariais.",
+ "o_que_se_sabe": [
+  {
+   "texto": "A Emenda Constitucional 141 foi promulgada pelo Congresso em 16 de outubro. Ela reduz a jornada semanal sem cortar salário: de 44 para 42 horas a partir de 16 de dezembro de 2026 e para 40 horas a partir de 16 de dezembro de 2027, com dois dias de descanso por semana.",
+   "fonte_url": "https://csb.org.br/noticias/fim-escala-6x1-entenda-regras-apos-publicacao-decreto",
+   "data": "2026-10-16",
+   "veiculo": "CSB",
+   "confiavel": false
+  },
+  {
+   "texto": "O Senado aprovou o fim da escala 6x1 em 14 de outubro, em dois turnos, por 75 votos a 1 (PEC 221/2019). A Câmara já tinha aprovado o texto em maio. O trabalhador passa a ter dois dias de repouso semanal remunerado, um deles preferencialmente aos domingos.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/10/14/senado-aprova-fim-da-escala-6x1-1",
+   "data": "2026-10-14",
+   "veiculo": "Senado Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "Um decreto publicado em 19 de novembro mudou o divisor, o número usado para calcular o salário-hora de quem recebe por mês. Ele cai de 220 para 210 em 16 de dezembro de 2026 e para 200 em dezembro de 2027. Com isso, as horas extras ficam mais caras.",
+   "fonte_url": "https://diariodocomercio.com.br/economia/fim-da-escala-6x1-hora-extra/",
+   "data": "2026-11-19",
+   "veiculo": "Diário do Comércio",
+   "confiavel": false
+  },
+  {
+   "texto": "O salário mensal não muda, mas o valor de cada hora sobe. No exemplo da Exame, um salário de R$ 4.400 faz a hora passar de R$ 20 para R$ 20,95 na primeira etapa e para R$ 22 em dezembro de 2027. A portaria do Ministério do Trabalho manda preservar o salário contratado.",
+   "fonte_url": "https://exame.com/brasil/fim-da-escala-6x1-veja-como-calcular-o-novo-valor-da-hora-trabalhada/",
+   "data": "2026-11-26",
+   "veiculo": "Exame",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 12 de novembro, o ministro Flávio Dino, do STF, negou o pedido da CNC (confederação do comércio) e da CNI (confederação da indústria) para adiar o início da mudança. A CNC queria a primeira etapa só em outubro de 2027. Dino também pediu que o Congresso regulamente em até 180 dias as atividades que precisam de turnos diferentes.",
+   "fonte_url": "https://www.cnnbrasil.com.br/politica/stf-dino-fim-da-6x1/",
+   "data": "2026-11-12",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Em 14 de novembro, o ministro Luiz Fux pediu destaque, e o julgamento saiu do plenário virtual do STF e foi para o plenário presencial, sem data marcada. A liminar de Dino, uma decisão provisória, continua valendo até o fim do julgamento.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/21/luiz-fux-leva-ao-plenario-fisico-julgamento-da-escala-6x1-em-2026/",
+   "data": "2026-11-14",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Segundo reportagem do NSC Total, sem acordo ou convenção coletiva até 15 de dezembro, a empresa pode distribuir as 42 horas em cinco dias de até 8h24, sem hora extra pelos 24 minutos, até 15 de dezembro de 2027. Essa regra vem da liminar de Dino e ainda será julgada pelo plenário.",
+   "fonte_url": "https://www.nsctotal.com.br/colunista/antonio-noboa/fim-da-escala-6x1-jornada-cai-em-16-de-dezembro-e-empresas-podem-adotar-turnos-de-8h24-sem-acordo",
+   "data": "2026-11-24",
+   "veiculo": "NSC Total",
+   "confiavel": false
+  },
+  {
+   "texto": "Sobre preços, há só estimativas de entidades do setor produtivo. A CNI calcula alta média de 6,2% nos preços ao consumidor com a jornada de 40 horas, e de 5,7% nas compras de supermercado. A CNC projeta inflação de pelo menos 13%. Os números foram divulgados em manifesto de 6 de outubro contra a votação.",
+   "fonte_url": "https://exame.com/brasil/fim-da-escala-6x1-vai-aumentar-os-precos-veja-o-que-diz-o-setor-produtivo/",
+   "data": "2026-10-06",
+   "veiculo": "Exame",
+   "confiavel": true
+  }
+ ],
+ "linha_do_tempo": [
+  {
+   "texto": "Senado aprova a PEC 221/2019 em dois turnos, por 75 votos a 1.",
+   "fonte_url": "https://www12.senado.leg.br/noticias/materias/2026/10/14/senado-aprova-fim-da-escala-6x1-1",
+   "data": "2026-10-14",
+   "veiculo": "Senado Notícias",
+   "confiavel": false
+  },
+  {
+   "texto": "Congresso promulga a Emenda Constitucional 141, que fixa o calendário de 42 e 40 horas.",
+   "fonte_url": "https://csb.org.br/noticias/fim-escala-6x1-entenda-regras-apos-publicacao-decreto",
+   "data": "2026-10-16",
+   "veiculo": "CSB",
+   "confiavel": false
+  },
+  {
+   "texto": "Dino nega o adiamento pedido por CNC e CNI e mantém o início em 16 de dezembro.",
+   "fonte_url": "https://www.cnnbrasil.com.br/politica/stf-dino-fim-da-6x1/",
+   "data": "2026-11-12",
+   "veiculo": "CNN Brasil",
+   "confiavel": true
+  },
+  {
+   "texto": "Fux pede destaque, e o julgamento da liminar vai para o plenário presencial do STF.",
+   "fonte_url": "https://www.mixvale.com.br/2026/11/21/luiz-fux-leva-ao-plenario-fisico-julgamento-da-escala-6x1-em-2026/",
+   "data": "2026-11-14",
+   "veiculo": "Mixvale",
+   "confiavel": false
+  },
+  {
+   "texto": "Decreto define os divisores 210 e 200 para o cálculo do salário-hora.",
+   "fonte_url": "https://diariodocomercio.com.br/economia/fim-da-escala-6x1-hora-extra/",
+   "data": "2026-11-19",
+   "veiculo": "Diário do Comércio",
+   "confiavel": false
+  }
+ ],
+ "o_que_nao_se_sabe": [
+  "Quanto os preços vão subir de fato. As projeções de 6,2% (CNI) e de pelo menos 13% (CNC) vêm de entidades empresariais contrárias à votação. Nas buscas feitas, não apareceu estimativa independente confirmada.",
+  "O que o plenário do STF vai decidir. Não há data para o julgamento presencial, e não se sabe se os ministros vão manter a liminar de Dino inteira ou mudar pontos, como a jornada de 8h24 sem hora extra.",
+  "Se o Congresso vai regulamentar em até 180 dias os setores com turnos diferentes. O prazo foi um apelo de Dino, e a busca não encontrou confirmação de que o Congresso vá cumpri-lo.",
+  "Como cada empresa vai se organizar: contratar mais gente, pagar hora extra ou mudar escalas. Isso depende de acordos e convenções coletivas, que ainda estão sendo negociados."
+ ],
+ "o_que_muda_para_voce": [
+  "Quem trabalha com carteira assinada passa a ter jornada máxima de 42 horas por semana e dois dias de descanso remunerado a partir de 16 de dezembro. O salário mensal não pode cair.",
+  "O valor da sua hora de trabalho sobe, porque o mesmo salário passa a ser dividido por menos horas. Hora extra, adicional noturno e outras verbas calculadas pela hora tendem a ficar mais caros para a empresa.",
+  "Se a empresa não tiver acordo coletivo, ela pode concentrar as 42 horas em cinco dias de até 8h24 durante a transição, segundo a liminar do STF. Vale conferir com o RH ou o sindicato como ficou a sua escala.",
+  "Para o consumidor, o preço de produtos e serviços pode subir se as empresas repassarem o custo maior da mão de obra, mas isso ainda não foi confirmado. As estimativas citadas vêm da CNI e da CNC.",
+  "Em 16 de dezembro de 2027 haverá nova redução, para 40 horas por semana, e o divisor passará para 200."
+ ],
+ "como_se_proteger": [],
+ "slug": "fim-da-escala-6x1",
+ "publicado_em": "2026-11-28T00:34:47.648509",
+ "atualizado_em": "2026-11-28T00:34:47.648509",
+ "assunto": "O que se sabe sobre o fim da escala 6x1: jornada de 44 para 42 horas a partir de 16 de dezembro, 40 horas em 2027, e o que muda para o trabalhador e os preços",
+ "turno": "manha"
+}
