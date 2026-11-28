@@ -41,8 +41,8 @@ fonte e pedido de voto. Continua valendo: sem recomendação de investimento e s
 - [x] CDB de 100% do CDI: o que esse número quer dizer de verdade
 - [x] Poupança: quanto rende e quando ela perde da inflação
 - [x] Tesouro Selic: para que serve e para que não serve
-- [ ] Tesouro prefixado: travar a taxa e o susto de vender antes da hora
-- [ ] Tesouro IPCA+: proteger da inflação e a tal marcação a mercado
+- [x] Tesouro prefixado: travar a taxa e o susto de vender antes da hora
+- [x] Tesouro IPCA+: proteger da inflação e a tal marcação a mercado
 - [ ] LCI e LCA: por que são isentas e a pegadinha da carência
 - [ ] FGC: o que cobre, quanto cobre e o que fica de fora
 - [ ] Pós-fixado, prefixado e híbrido: os 3 jeitos de um título pagar
